@@ -1,7 +1,7 @@
-import { ArrowLeft, ExternalLink } from "lucide-react";
-import Link from "next/link";
+import { ExternalLink } from "lucide-react";
 import content from "@country";
 import { getTranslator } from "@/i18n/translator";
+import { BackLink } from "@/ui/BackLink";
 
 export default function SourcesPage() {
   const { locale, t, tContent } = getTranslator();
@@ -51,13 +51,7 @@ export default function SourcesPage() {
         ))}
       </ul>
 
-      <Link
-        href="/profil"
-        className="inline-flex min-h-12 items-center gap-2 self-center rounded-xl border border-gold/40 px-5 font-semibold text-gold transition-colors hover:bg-gold/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-      >
-        <ArrowLeft aria-hidden className="size-5" />
-        {t("sources.backToProfile")}
-      </Link>
+      <BackLink href="/profil/confidentialite" label={t("privacy.backToHub")} />
     </main>
   );
 }

@@ -50,8 +50,144 @@
     "author": "Source",
     "license": "Licence",
     "updatedAt": "Mise à jour du jeu de données",
-    "viewSource": "Voir le jeu de données",
-    "backToProfile": "Retour au profil"
+    "viewSource": "Voir le jeu de données"
+  },
+  "privacy": {
+    "title": "Paramètres et confidentialité",
+    "intro": "Vos droits, vos données et les règles du jeu, au même endroit.",
+    "backToProfile": "Retour au profil",
+    "backToHub": "Retour aux paramètres",
+    "updatedAt": "Dernière mise à jour : {date}",
+    "toComplete": "à compléter",
+    "sourcesSummary": "L'origine et la licence des cartes, données et médias.",
+    "identity": {
+      "publisherTitle": "Éditeur",
+      "hostTitle": "Hébergeur",
+      "name": "Nom",
+      "status": "Statut",
+      "siret": "SIRET",
+      "address": "Adresse",
+      "director": "Directeur de la publication",
+      "contactEmail": "Contact"
+    },
+    "sections": {
+      "policy": {
+        "title": "Politique de confidentialité",
+        "summary": "Ce que {appName} collecte, et ce qu'il ne collecte pas.",
+        "blocks": {
+          "controller": {
+            "title": "Responsable du traitement",
+            "body": "{publisher} édite {appName} et est responsable du traitement des données personnelles. Contact : {contact}."
+          },
+          "collected": {
+            "title": "Données collectées par le jeu",
+            "body": "Aujourd'hui, le jeu ne demande ni compte, ni nom, ni adresse e-mail, ni âge. Il n'enregistre aucune donnée personnelle et ne dépose ni cookie ni traceur."
+          },
+          "hosting": {
+            "title": "Hébergement",
+            "body": "Sur le web, l'hébergeur ({host}) peut enregistrer des journaux techniques, comme l'adresse IP et la page demandée, pour faire fonctionner et sécuriser le service. Selon l'hébergeur, ces journaux peuvent être traités hors de l'Union européenne."
+          },
+          "minors": {
+            "title": "Mineurs",
+            "body": "Le jeu s'adresse à tous, enfants compris. Aucune information sur l'âge n'est demandée aujourd'hui."
+          },
+          "rights": {
+            "title": "Vos droits",
+            "body": "Vous pouvez demander l'accès à vos données, leur rectification ou leur effacement, et vous opposer à leur traitement, à cette adresse : {contact}. Vous pouvez aussi saisir {authority}."
+          },
+          "changes": {
+            "title": "Évolutions",
+            "body": "Cette politique sera mise à jour avant la mise en service de toute fonction qui utilise des données personnelles, comme un compte, un paiement ou une publicité."
+          }
+        }
+      },
+      "terms": {
+        "title": "Conditions d'utilisation",
+        "summary": "Les règles d'utilisation de {appName}.",
+        "blocks": {
+          "purpose": {
+            "title": "Objet",
+            "body": "{appName} est un jeu de découverte géographique édité par {publisher}. Utiliser le jeu implique d'accepter ces conditions."
+          },
+          "access": {
+            "title": "Accès",
+            "body": "Le jeu est aujourd'hui gratuit et sans compte. Aucun achat n'est proposé. Les conditions d'une offre payante seront publiées ici avant son ouverture."
+          },
+          "content": {
+            "title": "Contenus",
+            "body": "Les contenus sont proposés à des fins de découverte et peuvent comporter des erreurs ou évoluer. Les sources et licences des contenus tiers sont indiquées dans la rubrique dédiée. Le reste du jeu ne peut pas être réutilisé sans autorisation."
+          },
+          "availability": {
+            "title": "Disponibilité",
+            "body": "L'éditeur s'efforce de maintenir le jeu accessible, sans pouvoir le garantir en permanence. Il peut le modifier ou l'interrompre, notamment pour maintenance."
+          },
+          "law": {
+            "title": "Droit applicable",
+            "body": "Le droit applicable à ces conditions est {law}. Pour toute question : {contact}."
+          }
+        }
+      },
+      "notice": {
+        "title": "Mentions légales",
+        "summary": "L'éditeur et l'hébergeur de {appName}."
+      },
+      "consents": {
+        "title": "Gestion des consentements",
+        "summary": "Publicités, cookies et traceurs.",
+        "blocks": {
+          "state": {
+            "title": "Aujourd'hui",
+            "body": "Le jeu n'utilise ni publicité, ni cookie, ni traceur soumis à votre accord. Vous n'avez donc rien à accepter ou à refuser."
+          },
+          "later": {
+            "title": "Si cela change",
+            "body": "Votre accord sera demandé ici avant toute activation, sans case précochée, et vous pourrez le retirer aussi facilement que vous l'avez donné."
+          }
+        }
+      },
+      "data": {
+        "title": "Consulter et exporter mes données",
+        "summary": "L'accès à vos données personnelles.",
+        "blocks": {
+          "state": {
+            "title": "Aujourd'hui",
+            "body": "Le jeu n'enregistre aucune donnée personnelle : il n'y a rien à consulter ni à exporter."
+          },
+          "later": {
+            "title": "Si cela change",
+            "body": "Lorsque le jeu enregistrera des données vous concernant, vous pourrez les consulter et les exporter depuis cette rubrique."
+          }
+        }
+      },
+      "deleteData": {
+        "title": "Supprimer mes données",
+        "summary": "L'effacement de vos données personnelles.",
+        "blocks": {
+          "state": {
+            "title": "Aujourd'hui",
+            "body": "Le jeu n'enregistre aucune donnée personnelle : il n'y a rien à supprimer. Pour toute demande : {contact}."
+          },
+          "later": {
+            "title": "Si cela change",
+            "body": "Lorsque le jeu enregistrera des données vous concernant, vous pourrez les supprimer depuis cette rubrique, après confirmation."
+          }
+        }
+      },
+      "deleteAccount": {
+        "title": "Supprimer mon compte",
+        "summary": "La fermeture de votre compte.",
+        "blocks": {
+          "state": {
+            "title": "Aujourd'hui",
+            "body": "Le jeu fonctionne sans compte : il n'y a aucun compte à supprimer."
+          },
+          "later": {
+            "title": "Si cela change",
+            "body": "Si des comptes sont créés, vous pourrez supprimer le vôtre depuis cette rubrique, après confirmation dans une fenêtre dédiée."
+          }
+        }
+      }
+    }
   },
   "soon": {
     "challenges": {

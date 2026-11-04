@@ -8,6 +8,18 @@ export const country: CountryConfig = {
   defaultLocale: "fr",
   regionCount: 18,
   premium: { priceCents: 499, currency: "EUR" },
+  legal: {
+    publisher: {
+      name: "JavaChrist",
+      status: null,
+      siret: null,
+      address: null,
+      director: null,
+      contactEmail: null,
+    },
+    host: { name: "Vercel Inc.", address: null },
+    documentsUpdatedAt: "2026-11-04",
+  },
   icons: {
     favicon: "/favicon.ico",
     faviconSvg: "/favicon.svg",

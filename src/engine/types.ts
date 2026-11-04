@@ -36,6 +36,21 @@ export interface MediaCredit {
   sourceUpdatedAt?: string;
 }
 
+/** Identité légale d'une application. `null` : information à fournir, jamais à inventer. */
+export interface LegalConfig {
+  publisher: {
+    name: string | null;
+    status: string | null;
+    siret: string | null;
+    address: string | null;
+    director: string | null;
+    contactEmail: string | null;
+  };
+  host: { name: string | null; address: string | null };
+  /** Date de dernière modification des documents légaux, au format AAAA-MM-JJ. */
+  documentsUpdatedAt: string;
+}
+
 export interface CountryConfig {
   /** Code du dossier de contenu, identique à GEO_COUNTRY. */
   code: string;
@@ -45,6 +60,7 @@ export interface CountryConfig {
   defaultLocale: string;
   regionCount: number;
   premium: { priceCents: number; currency: string };
+  legal: LegalConfig;
   icons: { favicon: string; faviconSvg: string; apple: string; icon192: string; icon512: string };
   themeColor: string;
   backgroundColor: string;

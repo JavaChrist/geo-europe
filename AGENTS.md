@@ -35,4 +35,4 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - Modify other JavaChrist projects, including JavaChrist-Promotions.
 
 ## Before the first production deploy
-Remove `/api/health`, which is the example server route. `/demo` is a development tool: it answers 404 in every build and no menu links to it.
+Remove `/api/health`, which is the example server route. `/demo` is a development tool: it answers 404 in every build and no menu links to it. Fill every `legal` field left at `null` in `content/<country>/country.ts`, then have the legal texts reviewed.

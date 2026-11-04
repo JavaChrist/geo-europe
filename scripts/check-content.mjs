@@ -15,6 +15,10 @@ for (const code of readdirSync(root)) {
   const fail = (where, message) => errors.push(`${code}/${where} : ${message}`);
   const { country } = await import(pathToFileURL(resolve(dir, "country.ts")).href);
 
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(country.legal?.documentsUpdatedAt ?? "")) {
+    fail("country.ts", "legal.documentsUpdatedAt absent ou invalide");
+  }
+
   const messagesByLocale = {};
   for (const locale of country.locales) {
     const path = join(dir, "locales", `${locale}.json`);
@@ -87,7 +91,7 @@ for (const code of readdirSync(root)) {
   }
 
   for (const [locale, messages] of Object.entries(messagesByLocale)) {
-    for (const key of ["country.homeTitle", "country.homePitch"]) {
+    for (const key of ["country.homeTitle", "country.homePitch", "country.legal.authority", "country.legal.governingLaw"]) {
       if (typeof lookup(messages, key) !== "string") fail(`locales/${locale}.json`, `${key} absent`);
     }
   }
