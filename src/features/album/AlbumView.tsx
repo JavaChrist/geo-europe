@@ -1,12 +1,13 @@
 "use client";
 
-import { Award, BookOpen, Lock } from "lucide-react";
+import { BookOpen } from "lucide-react";
 import { useState } from "react";
 import { cardsByTheme, isBadgeEarned, isCardEarned, summarizeCollections } from "@/engine/album";
 import type { RewardBadge, SouvenirCard } from "@/engine/types";
 import { useChallengeRecords, useLevelRecords } from "@/features/journey/useLevelRecords";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { AlbumCard } from "./AlbumCard";
+import { BadgeEmblem } from "./BadgeEmblem";
 import { collections } from "./collections";
 
 type AlbumMode = "territories" | "themes";
@@ -61,11 +62,10 @@ function CardGrid({ cards }: { cards: readonly SouvenirCard[] }) {
 function BadgeRow({ badge, cards }: { badge: RewardBadge; cards: readonly SouvenirCard[] }) {
   const { t, tContent } = useTranslation();
   const earned = isBadgeEarned(badge, cards, useLevelRecords(), useChallengeRecords());
-  const Icon = earned ? Award : Lock;
 
   return (
     <div className={`flex items-start gap-3 rounded-2xl border p-3 ${earned ? "border-gold bg-gold/10" : "border-gold/15 bg-abyss/30"}`}>
-      <Icon aria-hidden className={`mt-0.5 size-6 shrink-0 ${earned ? "text-gold" : "text-ink-soft"}`} />
+      <BadgeEmblem badge={badge} earned={earned} />
       <div className="flex min-w-0 flex-col gap-0.5">
         <span className="text-xs text-ink-soft">{t(`album.badge.${badge.kind}`)}</span>
         <span className="font-semibold">{tContent(badge.nameKey)}</span>

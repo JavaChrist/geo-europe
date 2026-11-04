@@ -234,6 +234,8 @@ export interface RewardBadge {
   descriptionKey: string;
   /** Liste figée : une carte ajoutée plus tard à la collection ne retire pas un badge déjà gagné. Vide pour `master`. */
   cardIds: string[];
+  /** Illustration créditée du badge. Sans elle, le badge affiche son icône. */
+  mediaId?: string;
 }
 
 /**
@@ -256,6 +258,8 @@ export interface Territory extends WithCover {
   levels: Level[];
   souvenirCards: SouvenirCard[];
   badges: RewardBadge[];
+  /** Bonnes réponses à obtenir au Défi Maître, si le territoire s'écarte de la règle commune. */
+  masterPassCorrect?: number;
   /** Un territoire publié a au moins un niveau jouable. */
   status: RegionStatus;
 }

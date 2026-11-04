@@ -1,6 +1,6 @@
 "use client";
 
-import { Award, BookOpen, Check, Minus, RotateCcw, Smartphone, Trophy, X } from "lucide-react";
+import { ArrowLeft, Award, BookOpen, Check, Minus, RotateCcw, Smartphone, Trophy, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 import type { ChallengeResult, RunBank } from "@/engine/level-run";
@@ -20,13 +20,17 @@ interface SpecialChallengeResultProps {
   improved: boolean;
   /** Nom du badge gagné par cette partie, `null` s'il n'y en a pas de nouveau. */
   newBadgeName: string | null;
+  /** Nom du badge que le joueur possède déjà ou vient de gagner, `null` s'il n'en a pas. */
+  keptBadgeName: string | null;
   /** `null` : l'enregistrement a échoué, le joueur en a été prévenu. */
   record: ChallengeRecord | null;
   onReplay: () => void;
+  backHref: string;
+  backLabel: string;
 }
 
 /** Résultat commun aux défis : seuls les éléments prévus par la configuration s'affichent. */
-export function SpecialChallengeResult({ rules, bank, challengeIds, results, timeMs, expired, improved, newBadgeName, record, onReplay }: SpecialChallengeResultProps) {
+export function SpecialChallengeResult({ rules, bank, challengeIds, results, timeMs, expired, improved, newBadgeName, keptBadgeName, record, onReplay, backHref, backLabel }: SpecialChallengeResultProps) {
   const { t, tContent } = useTranslation();
   const headingRef = useRef<HTMLHeadingElement>(null);
   const correct = correctCount(results);
@@ -57,10 +61,12 @@ export function SpecialChallengeResult({ rules, bank, challengeIds, results, tim
         <p className="text-xl font-semibold text-gold">{t("journey.specials.result.score", { count: correct, total: rules.questions })}</p>
         {passable && !passed && rules.passCorrect !== null && <p className="text-ink-soft">{t("journey.specials.result.need", { count: rules.passCorrect })}</p>}
         {passable && !passed && record?.passed && <p className="font-semibold">{t("journey.specials.result.kept")}</p>}
-        {newBadgeName && (
+        {(newBadgeName || keptBadgeName) && (
           <p className="flex items-center gap-2 font-semibold">
             <Award aria-hidden className="size-5 shrink-0 text-gold" />
-            {t("journey.specials.result.badge", { name: newBadgeName })}
+            {newBadgeName
+              ? t("journey.specials.result.badge", { name: newBadgeName })
+              : t("journey.specials.result.badgeKept", { name: keptBadgeName ?? "" })}
           </p>
         )}
         {timeMs !== null && <p>{t("journey.specials.result.time", { time: formatChallengeTime(t, timeMs) })}</p>}
@@ -91,6 +97,14 @@ export function SpecialChallengeResult({ rules, bank, challengeIds, results, tim
         <RotateCcw aria-hidden className="size-5" />
         {t("journey.replay")}
       </button>
+
+      <Link
+        href={backHref}
+        className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-gold/40 px-5 text-center font-semibold text-gold transition-colors hover:bg-gold/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+      >
+        <ArrowLeft aria-hidden className="size-5 shrink-0" />
+        {backLabel}
+      </Link>
 
       {newBadgeName && (
         <Link

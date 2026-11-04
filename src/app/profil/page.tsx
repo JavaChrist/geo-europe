@@ -2,6 +2,7 @@ import { UserRound } from "lucide-react";
 import Link from "next/link";
 import content from "@country";
 import { summarizeLevel } from "@/engine/level-unlock";
+import { PlayerRewards } from "@/features/album/PlayerRewards";
 import { NationalProgress } from "@/features/journey/ProgressPanels";
 import { getTranslator } from "@/i18n/translator";
 import { ComingSoon } from "@/ui/ComingSoon";
@@ -27,6 +28,7 @@ export default function ProfilePage() {
       }
     >
       <NationalProgress territories={territories} />
+      <PlayerRewards />
     </ComingSoon>
   );
 }

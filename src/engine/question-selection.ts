@@ -42,16 +42,29 @@ export function questionsPerRunOf(level: QuestionBank, target: number = SELECTIO
   return Math.min(groups.size, target);
 }
 
-const Rank = { Review: 0, Unseen: 1, Older: 2, Recent: 3 } as const;
+const Rank = { Review: 0, Unseen: 1, Older: 2, Recent: 3, Avoided: 4 } as const;
+
+/** Réglages facultatifs d'un tirage. Sans eux, le tirage d'un niveau reste inchangé. */
+export interface SelectionOptions {
+  /** Questions reprises seulement si la banque ne permet pas de faire autrement. */
+  avoid?: ReadonlySet<string>;
+  /** Une question de chaque thème de la banque d'abord, tant que la partie a la place. */
+  coverCategories?: boolean;
+}
+
+/** Les questions de la dernière partie terminée d'un historique. */
+export const lastRunQuestions = (history: QuestionHistory): Set<string> =>
+  new Set(Object.entries(history.questions).filter(([, memory]) => memory.lastPlay === history.plays).map(([id]) => id));
 
 /** Classe la banque, de la question à proposer en premier à celle à éviter. */
-function rankedQuestions(questions: LevelChallenge[], history: QuestionHistory, random: RandomSource): LevelChallenge[] {
+function rankedQuestions(questions: LevelChallenge[], history: QuestionHistory, random: RandomSource, avoid?: ReadonlySet<string>): LevelChallenge[] {
   const age = (question: LevelChallenge) => history.plays - (history.questions[question.id]?.lastPlay ?? 0);
   let reviews = 0;
   const ranked = shuffled(questions, random)
     // Les erreurs les plus anciennes reviennent d'abord ; à âge égal, l'ordre reste aléatoire.
     .sort((a, b) => age(b) - age(a))
     .map((question) => {
+      if (avoid?.has(question.id)) return { question, rank: Rank.Avoided };
       const memory = history.questions[question.id];
       if (!memory) return { question, rank: Rank.Unseen };
       const questionAge = history.plays - memory.lastPlay;
@@ -74,9 +87,10 @@ export function selectQuestions(
   history: QuestionHistory,
   random: RandomSource,
   target: number = SELECTION_RULES.questionsPerRun,
+  options: SelectionOptions = {},
 ): string[] {
   const size = questionsPerRunOf(level, target);
-  const ranked = rankedQuestions(eligibleQuestions(level), history, random);
+  const ranked = rankedQuestions(eligibleQuestions(level), history, random, options.avoid);
   const picked: LevelChallenge[] = [];
 
   const canPick = (question: LevelChallenge, maxPerCategory: number) =>
@@ -89,6 +103,13 @@ export function selectQuestions(
   for (const kind of shuffled([...new Set(ranked.map((question) => question.kind))], random)) {
     const question = ranked.find((candidate) => candidate.kind === kind && canPick(candidate, SELECTION_RULES.maxPerCategory));
     if (question) picked.push(question);
+  }
+  if (options.coverCategories) {
+    for (const category of shuffled([...new Set(ranked.map((question) => question.category))], random)) {
+      if (picked.some((other) => other.category === category)) continue;
+      const question = ranked.find((candidate) => candidate.category === category && canPick(candidate, SELECTION_RULES.maxPerCategory));
+      if (question) picked.push(question);
+    }
   }
   for (const maxPerCategory of [SELECTION_RULES.maxPerCategory, size]) {
     for (const question of ranked) {

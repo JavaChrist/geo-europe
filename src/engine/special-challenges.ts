@@ -2,7 +2,8 @@
  * Défis spéciaux de fin de parcours, communs à tous les territoires et à tous les pays.
  * Un territoire n'apporte que ses questions et son badge : les règles vivent ici.
  */
-import { questionsPerRunOf } from "./question-selection.ts";
+import { lastRunQuestions, type QuestionBank, type QuestionHistory, questionsPerRunOf, selectQuestions } from "./question-selection.ts";
+import type { RandomSource } from "./random.ts";
 import type { QuestionDifficulty, Territory } from "./types.ts";
 
 export type SpecialChallengeKind = "master" | "chrono";
@@ -20,6 +21,10 @@ export interface SpecialChallengeRules {
   timeLimitMs: number | null;
   /** Bonnes réponses à obtenir pour réussir, `null` pour un défi sans échec. */
   passCorrect: number | null;
+  /** Le tirage représente d'abord chaque thème du territoire. */
+  coverCategories: boolean;
+  /** Le tirage évite la dernière partie de niveau jouée, si la banque le permet. */
+  avoidLastLevel: boolean;
 }
 
 export const SPECIAL_CHALLENGES: readonly SpecialChallengeRules[] = [
@@ -27,12 +32,14 @@ export const SPECIAL_CHALLENGES: readonly SpecialChallengeRules[] = [
     kind: "master",
     slug: "maitre",
     questions: 10,
-    minDifficulty: 3,
+    minDifficulty: 2,
     maxDifficulty: 3,
     maxAttempts: 1,
     jokers: 0,
     timeLimitMs: null,
     passCorrect: 8,
+    coverCategories: true,
+    avoidLastLevel: true,
   },
   {
     kind: "chrono",
@@ -44,10 +51,16 @@ export const SPECIAL_CHALLENGES: readonly SpecialChallengeRules[] = [
     jokers: 0,
     timeLimitMs: 120_000,
     passCorrect: null,
+    coverCategories: false,
+    avoidLastLevel: false,
   },
 ];
 
-type ChallengeTerritory = Pick<Territory, "id" | "levels">;
+type ChallengeTerritory = Pick<Territory, "id" | "levels" | "masterPassCorrect">;
+
+/** Les règles communes, avec la condition de réussite que le territoire a pu déclarer. */
+export const rulesForTerritory = (territory: ChallengeTerritory, rules: SpecialChallengeRules): SpecialChallengeRules =>
+  rules.kind === "master" && territory.masterPassCorrect !== undefined ? { ...rules, passCorrect: territory.masterPassCorrect } : rules;
 
 /** Ce résultat vit à part de ceux des niveaux, sous cette clé : elle ne peut pas être un id de niveau. */
 export const challengeKey = (territoryId: string, kind: SpecialChallengeKind): string => `${territoryId}:${kind}`;
@@ -65,7 +78,30 @@ export const isSpecialChallengeAvailable = (territory: ChallengeTerritory, rules
   questionsPerRunOf(specialChallengeBank(territory, rules), rules.questions) === rules.questions;
 
 export const availableSpecialChallenges = (territory: ChallengeTerritory): SpecialChallengeRules[] =>
-  SPECIAL_CHALLENGES.filter((rules) => isSpecialChallengeAvailable(territory, rules));
+  SPECIAL_CHALLENGES.filter((rules) => isSpecialChallengeAvailable(territory, rules)).map((rules) => rulesForTerritory(territory, rules));
+
+/** Le niveau joué en dernier, d'après la date de ses résultats. */
+export function lastPlayedLevelId(levelIds: readonly string[], records: Readonly<Record<string, { lastPlayedAt: string } | undefined>>): string | null {
+  let latest: string | null = null;
+  for (const id of levelIds) {
+    const playedAt = records[id]?.lastPlayedAt;
+    if (playedAt !== undefined && (latest === null || playedAt >= (records[latest]?.lastPlayedAt ?? ""))) latest = id;
+  }
+  return latest;
+}
+
+/** Compose une partie de défi, selon ce que ses règles demandent. */
+export const drawSpecialChallenge = (
+  bank: QuestionBank,
+  rules: SpecialChallengeRules,
+  history: QuestionHistory,
+  lastLevel: QuestionHistory,
+  random: RandomSource,
+): string[] =>
+  selectQuestions(bank, history, random, rules.questions, {
+    coverCategories: rules.coverCategories,
+    avoid: rules.avoidLastLevel ? lastRunQuestions(lastLevel) : undefined,
+  });
 
 /** Ouverts quand tous les niveaux du parcours ont un résultat, quel que soit le score. */
 export const areSpecialChallengesUnlocked = (

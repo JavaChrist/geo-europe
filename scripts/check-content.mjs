@@ -179,9 +179,14 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
       if (badge.kind === "collector" && badge.cardIds.length === 0) fail(label, "badge de collection sans carte");
       if (badge.kind === "master") {
         if (badge.cardIds.length > 0) fail(label, "un badge de maîtrise ne dépend d'aucune carte");
-        if (!isSpecialChallengeAvailable(territory, SPECIAL_CHALLENGES.find((rules) => rules.kind === "master"))) {
-          fail(label, "pas assez de questions difficiles pour le Défi Maître");
-        }
+        const masterRules = SPECIAL_CHALLENGES.find((rules) => rules.kind === "master");
+        if (!isSpecialChallengeAvailable(territory, masterRules)) fail(label, "pas assez de questions pour le Défi Maître");
+        const pass = territory.masterPassCorrect;
+        if (pass !== undefined && !(Number.isInteger(pass) && pass >= 1 && pass <= masterRules.questions)) fail(label, `condition de réussite invalide : ${pass}`);
+      }
+      if (badge.mediaId !== undefined) {
+        needMedia(badge.mediaId);
+        if (!creditsById.get(badge.mediaId)?.file.startsWith("/media/")) fail(label, "illustration de badge sans photo créditée");
       }
       for (const id of badge.cardIds) {
         if (!territoryCardIds.has(id)) fail(label, `carte inconnue : ${id}`);

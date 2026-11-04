@@ -20,7 +20,7 @@ import {
 } from "../src/engine/level-run.ts";
 import { isLevelUnlocked, UNLOCK_RULES } from "../src/engine/level-unlock.ts";
 import { earnedXp, summarizeCountry, summarizeProgress, xpAfterRun, xpForScore } from "../src/engine/progress-summary.ts";
-import { EMPTY_HISTORY, questionsPerRunOf, SELECTION_RULES, selectQuestions, withRunResults } from "../src/engine/question-selection.ts";
+import { EMPTY_HISTORY, lastRunQuestions, questionsPerRunOf, SELECTION_RULES, selectQuestions, withRunResults } from "../src/engine/question-selection.ts";
 import {
   areSpecialChallengesUnlocked,
   availableSpecialChallenges,
@@ -33,6 +33,9 @@ import {
   remainingMs,
   SPECIAL_CHALLENGES,
   specialChallengeBank,
+  drawSpecialChallenge,
+  lastPlayedLevelId,
+  rulesForTerritory,
   withChallengeResult,
 } from "../src/engine/special-challenges.ts";
 
@@ -484,7 +487,7 @@ for (let seed = 0; seed < 50; seed++) {
     const alsaceBank = specialChallengeBank(alsace, rules);
     let history = EMPTY_HISTORY;
     for (let seed = 0; seed < 200; seed += 1) {
-      const drawn = selectQuestions(alsaceBank, history, seeded(seed), rules.questions);
+      const drawn = drawSpecialChallenge(alsaceBank, rules, history, EMPTY_HISTORY, seeded(seed));
       assert.equal(drawn.length, 10);
       assert.equal(new Set(drawn).size, 10, "aucun doublon");
       const picked = drawn.map((id) => alsaceBank.questions.find((candidate) => candidate.id === id));
@@ -502,6 +505,53 @@ for (let seed = 0; seed < 50; seed++) {
       }
     }
   }
+
+  // Défi Maître : difficulté normale à avancée, tous les thèmes de la banque.
+  assert.deepEqual([masterRules.minDifficulty, masterRules.maxDifficulty], [2, 3]);
+  const masterBank = specialChallengeBank(alsace, masterRules);
+  const eligible = masterBank.questions.filter((candidate) => candidate.difficulty >= 2);
+  const themes = new Set(eligible.map((candidate) => candidate.category));
+  for (const theme of ["geographie", "gastronomie", "patrimoine", "traditions", "savoir-faire", "personnalites"]) assert.ok(themes.has(theme), theme);
+  const pickedOf = (ids) => ids.map((id) => masterBank.questions.find((candidate) => candidate.id === id));
+  let difficulties = new Set();
+  for (let seed = 0; seed < 200; seed += 1) {
+    const picked = pickedOf(drawSpecialChallenge(masterBank, masterRules, EMPTY_HISTORY, EMPTY_HISTORY, seeded(seed)));
+    assert.equal(new Set(picked.map((candidate) => candidate.category)).size, themes.size, "chaque thème est présent");
+    assert.ok(Object.values(Object.groupBy(picked, (candidate) => candidate.category)).every((list) => list.length <= SELECTION_RULES.maxPerCategory), "aucun thème ne domine");
+    difficulties = new Set([...difficulties, ...picked.map((candidate) => candidate.difficulty)]);
+  }
+  assert.deepEqual([...difficulties].sort(), [2, 3], "les deux difficultés sortent");
+
+  // Défi Maître : la dernière partie de niveau est évitée quand la banque permet une autre sélection.
+  const lastLevelIds = eligible.slice(0, 8).map((candidate) => candidate.id);
+  const lastLevel = withRunResults(withRunResults(EMPTY_HISTORY, [{ challengeId: eligible[9].id, correct: true }]), lastLevelIds.map((challengeId) => ({ challengeId, correct: true })));
+  assert.deepEqual([...lastRunQuestions(lastLevel)].sort(), [...lastLevelIds].sort(), "seule la dernière partie compte");
+  for (let seed = 0; seed < 100; seed += 1) {
+    const drawn = drawSpecialChallenge(masterBank, masterRules, EMPTY_HISTORY, lastLevel, seeded(seed));
+    assert.equal(drawn.filter((id) => lastLevelIds.includes(id)).length, 0, "questions du dernier niveau évitées");
+  }
+  // Une banque tout juste suffisante reprend ces questions plutôt que d'en manquer.
+  const tight = levelWith(Array.from({ length: 10 }, (_, i) => question(`t${i}`, { difficulty: 3 })), 3, 2);
+  const tightLast = withRunResults(EMPTY_HISTORY, tight.questions.slice(0, 8).map((candidate) => ({ challengeId: candidate.id, correct: true })));
+  assert.equal(new Set(drawSpecialChallenge(tight, masterRules, EMPTY_HISTORY, tightLast, seeded(5))).size, 10, "partie complète");
+  // Le Chrono ne change pas : il ne lit pas la dernière partie de niveau.
+  for (let seed = 0; seed < 20; seed += 1) {
+    assert.deepEqual(
+      drawSpecialChallenge(specialChallengeBank(alsace, chronoRules), chronoRules, EMPTY_HISTORY, lastLevel, seeded(seed)),
+      selectQuestions(specialChallengeBank(alsace, chronoRules), EMPTY_HISTORY, seeded(seed), chronoRules.questions),
+    );
+  }
+
+  // Niveau joué en dernier, d'après la date.
+  assert.equal(lastPlayedLevelId(["a", "b"], {}), null);
+  assert.equal(lastPlayedLevelId(["a", "b", "c"], { a: { lastPlayedAt: "2026-11-02T00:00:00.000Z" }, b: { lastPlayedAt: "2026-11-04T00:00:00.000Z" }, c: { lastPlayedAt: "2026-11-03T00:00:00.000Z" } }), "b");
+
+  // Un territoire peut déclarer sa condition de réussite ; le Chrono reste sans échec.
+  const strict = { id: "x", levels: alsace.levels, masterPassCorrect: 9 };
+  assert.equal(rulesForTerritory(strict, masterRules).passCorrect, 9);
+  assert.equal(rulesForTerritory(strict, chronoRules).passCorrect, null);
+  assert.equal(rulesForTerritory(alsace, masterRules), masterRules, "l'Alsace garde la règle commune");
+  assert.equal(availableSpecialChallenges(strict)[0].passCorrect, 9);
 }
 
 console.log("Moteur de jeu valide.");

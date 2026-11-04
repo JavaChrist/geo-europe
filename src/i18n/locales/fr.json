@@ -141,7 +141,7 @@
       "optional": "Facultatif",
       "master": {
         "name": "Défi Maître",
-        "description": "Les questions les plus difficiles du parcours, sans limite de temps. Réussissez pour gagner le badge du territoire."
+        "description": "Des questions de niveau normal à avancé sur tous les thèmes du parcours, sans limite de temps. Réussissez pour gagner le badge du territoire."
       },
       "chrono": {
         "name": "Défi Chrono",
@@ -180,15 +180,16 @@
       },
       "result": {
         "passed": "Défi réussi",
-        "failed": "Pas encore réussi",
+        "failed": "Défi à retenter",
         "finished": "Défi terminé",
         "expired": "Temps écoulé",
         "score": {
           "one": "{count} bonne réponse sur {total}",
           "other": "{count} bonnes réponses sur {total}"
         },
-        "need": "Il faut au moins {count} bonnes réponses pour réussir. Rejouez quand vous voulez.",
+        "need": "Il faut au moins {count} bonnes réponses pour réussir. Vous ne perdez rien : retentez le défi quand vous voulez.",
         "badge": "Badge obtenu : {name}",
+        "badgeKept": "Badge déjà obtenu : {name}",
         "openAlbum": "Voir l'album",
         "time": "Temps réalisé : {time}",
         "newRecord": "Nouveau record",
@@ -490,6 +491,11 @@
       "earned": "Badge obtenu",
       "locked": "Badge à gagner"
     },
+    "rewards": {
+      "title": "Mes récompenses",
+      "empty": "Aucun badge pour le moment. Terminez une collection ou réussissez un Défi Maître pour en gagner.",
+      "open": "Voir l'album"
+    },
     "detail": {
       "anecdote": "Le saviez-vous ?",
       "earnedBy": "Obtenue en terminant le niveau « {level} ».",
@@ -498,7 +504,7 @@
     "reward": {
       "cardTitle": "Nouvelle carte souvenir",
       "cardBody": "« {name} » rejoint votre album.",
-      "badgeTitle": "Nouveau badge",
+      "badgeTitle": "Félicitations, nouveau badge",
       "badgeBody": "{name} : {description}"
     },
     "result": {

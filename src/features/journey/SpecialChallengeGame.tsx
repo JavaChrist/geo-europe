@@ -6,17 +6,19 @@ import { useEffect, useState } from "react";
 import content from "@country";
 import { newRewards } from "@/engine/album";
 import { isRunOver, type LevelRun, nextChallenge, startRun, submitAnswer } from "@/engine/level-run";
-import { selectQuestions } from "@/engine/question-selection";
+import { EMPTY_HISTORY } from "@/engine/question-selection";
 import {
   areSpecialChallengesUnlocked,
+  availableSpecialChallenges,
   type ChallengeRecord,
   type ChronoClock,
   challengeKey,
   correctCount,
+  drawSpecialChallenge,
   elapsedMs,
   isBetterPerformance,
+  lastPlayedLevelId,
   remainingMs,
-  SPECIAL_CHALLENGES,
   type SpecialChallengeKind,
   specialChallengeBank,
 } from "@/engine/special-challenges";
@@ -114,12 +116,13 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
   const [outcome, setOutcome] = useState<Outcome | null>(null);
 
   const territory = content.territories.find((candidate) => candidate.id === territoryId);
-  const rules = SPECIAL_CHALLENGES.find((candidate) => candidate.kind === kind);
+  const rules = territory && availableSpecialChallenges(territory).find((candidate) => candidate.kind === kind);
   if (!territory || !rules) return null;
 
   const bank = specialChallengeBank(territory, rules);
   const limitMs = rules.timeLimitMs;
-  const unlocked = areSpecialChallengesUnlocked(territory.levels.map((level) => level.id), records);
+  const levelIds = territory.levels.map((level) => level.id);
+  const unlocked = areSpecialChallengesUnlocked(levelIds, records);
   const masterBadge = territory.badges.find((badge) => badge.kind === "master");
   const Icon = SPECIAL_ICONS[kind];
   const name = t(`journey.specials.${kind}.name`);
@@ -128,7 +131,9 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
     setOutcome(null);
     setStoppedMs(null);
     const history = readQuestionHistory(content.country.code, bank.id);
-    setRun(startRun(bank, selectQuestions(bank, history, Math.random, rules.questions), Math.random, rules));
+    const lastLevelId = lastPlayedLevelId(levelIds, records);
+    const lastLevel = lastLevelId ? readQuestionHistory(content.country.code, lastLevelId) : EMPTY_HISTORY;
+    setRun(startRun(bank, drawSpecialChallenge(bank, rules, history, lastLevel, Math.random), Math.random, rules));
     setClock(readClock());
   };
 
@@ -236,8 +241,11 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
           expired={outcome.expired}
           improved={outcome.improved}
           newBadgeName={outcome.newBadgeName}
+          keptBadgeName={outcome.record?.passed && masterBadge ? tContent(masterBadge.nameKey) : null}
           record={outcome.record}
           onReplay={start}
+          backHref={backHref}
+          backLabel={backLabel}
         />
       )}
 
@@ -273,7 +281,7 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
         </section>
       )}
 
-      {!run && <BackLink href={backHref} label={backLabel} />}
+      {!run && !outcome && <BackLink href={backHref} label={backLabel} />}
     </main>
   );
 }
