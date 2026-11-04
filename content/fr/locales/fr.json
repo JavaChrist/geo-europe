@@ -2,6 +2,11 @@
   "country": {
     "homeTitle": "Partez à la découverte de la France",
     "homePitch": "Parcourez ses {count} régions sur la carte, relevez des défis et composez votre album de voyage.",
+    "subdivisionsTitle": "Départements",
+    "subdivisionCount": {
+      "one": "{count} département",
+      "other": "{count} départements"
+    },
     "legal": {
       "authority": "la Commission nationale de l'informatique et des libertés (CNIL)",
       "governingLaw": "le droit français",
@@ -11,6 +16,27 @@
       "mapRegions": {
         "title": "Carte des régions",
         "note": "Outre-mer présenté en encarts, sans respect de l'échelle."
+      },
+      "mapGrandEst": {
+        "title": "Cartes du Grand Est",
+        "note": "Départements et territoires historiques, contours simplifiés pour le jeu."
+      },
+      "photoResized": "Photo redimensionnée pour le jeu.",
+      "photoStrasbourg": {
+        "title": "Strasbourg, quartier de la Petite France",
+        "alt": "Maisons anciennes aux toits de tuiles, au bord d'une rivière où nagent des cygnes."
+      },
+      "photoKougelhopf": {
+        "title": "Kougelhopf",
+        "alt": "Gâteau en forme de couronne cannelée, saupoudré de sucre glace, posé sur un napperon."
+      },
+      "photoHautKoenigsbourg": {
+        "title": "Château du Haut-Koenigsbourg, Orschwiller",
+        "alt": "Château fort de grès rose, avec ses tours et ses remparts, dominant une vaste plaine."
+      },
+      "photoPoterie": {
+        "title": "Pichet en grès de Betschdorf",
+        "alt": "Pichet bleu et gris, décoré de grappes de raisin et de feuilles de vigne."
       }
     }
   },
@@ -33,5 +59,114 @@
     "guyane": "Guyane",
     "la-reunion": "La Réunion",
     "mayotte": "Mayotte"
+  },
+  "departments": {
+    "08": "Ardennes",
+    "10": "Aube",
+    "51": "Marne",
+    "52": "Haute-Marne",
+    "54": "Meurthe-et-Moselle",
+    "55": "Meuse",
+    "57": "Moselle",
+    "67": "Bas-Rhin",
+    "68": "Haut-Rhin",
+    "88": "Vosges"
+  },
+  "places": {
+    "strasbourg": "Strasbourg",
+    "colmar": "Colmar",
+    "metz": "Metz",
+    "mulhouse": "Mulhouse",
+    "haut-koenigsbourg": "Le château du Haut-Koenigsbourg",
+    "soufflenheim": "Soufflenheim",
+    "betschdorf": "Betschdorf"
+  },
+  "territories": {
+    "champagne-ardenne": {
+      "name": "Champagne-Ardenne"
+    },
+    "lorraine": {
+      "name": "Lorraine",
+      "description": "Au nord-est de la France, la Lorraine s'étend entre la Champagne et l'Alsace, jusqu'aux frontières de la Belgique, du Luxembourg et de l'Allemagne."
+    },
+    "alsace": {
+      "name": "Alsace",
+      "description": "Entre le massif des Vosges et le Rhin, l'Alsace réunit le Bas-Rhin et le Haut-Rhin. Sa ville la plus connue, ses saveurs et ses savoir-faire vous attendent.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Alsace",
+          "description": "Huit défis pour situer l'Alsace et découvrir sa ville, ses saveurs, son patrimoine et ses savoir-faire.",
+          "q1": {
+            "prompt": "Touchez sur la carte le département qui porte le numéro 67.",
+            "hint": "Il borde le Rhin, tout au nord de l'Alsace.",
+            "anecdote": "Le 67 est le Bas-Rhin. « Bas » et « Haut » suivent le cours du Rhin : le Bas-Rhin est en aval, au nord, et le Haut-Rhin en amont, au sud."
+          },
+          "q2": {
+            "prompt": "Quel est le numéro du département du Haut-Rhin ?",
+            "hint": "Il suit directement celui du Bas-Rhin, le 67.",
+            "anecdote": "Colmar est la préfecture du Haut-Rhin. Depuis le 1er janvier 2021, le Bas-Rhin et le Haut-Rhin forment la Collectivité européenne d'Alsace. Les deux départements existent toujours et gardent leurs numéros.",
+            "answers": {
+              "57": "57",
+              "67": "67",
+              "68": "68",
+              "88": "88"
+            }
+          },
+          "q3": {
+            "prompt": "Quelle est cette ville alsacienne ?",
+            "hint": "C'est la préfecture du Bas-Rhin.",
+            "anecdote": "Vous êtes à Strasbourg, dans le quartier de la Petite France. Il fait partie de la Grande-Île, le centre historique inscrit au patrimoine mondial de l'UNESCO depuis 1988."
+          },
+          "q4": {
+            "prompt": "Situez l'Alsace dans le Grand Est : touchez-la sur la carte.",
+            "hint": "Cherchez à l'est, le long du Rhin.",
+            "anecdote": "L'Alsace n'est pas une région administrative. Depuis 2016, elle fait partie de la région Grand Est, avec la Lorraine et la Champagne-Ardenne."
+          },
+          "q5": {
+            "prompt": "Quelle est cette spécialité alsacienne ?",
+            "hint": "C'est une pâte levée, reconnaissable à sa forme de couronne.",
+            "anecdote": "Le kougelhopf doit sa forme à son moule, cannelé et creux au centre. À Soufflenheim, la poterie culinaire sert à préparer les plats emblématiques de l'Alsace, dont le kougelhopf.",
+            "answers": {
+              "calisson": "Le calisson",
+              "cannele": "Le cannelé",
+              "kouign-amann": "Le kouign-amann",
+              "kougelhopf": "Le kougelhopf"
+            }
+          },
+          "q6": {
+            "prompt": "Quel est ce monument alsacien ?",
+            "hint": "Ce château fort domine la plaine d'Alsace, à Orschwiller, dans le Bas-Rhin.",
+            "anecdote": "En 1899, la ville de Sélestat offre le château à l'empereur Guillaume II, à l'époque où l'Alsace est allemande. Restauré par l'architecte Bodo Ebhardt, il est inauguré en 1908.",
+            "answers": {
+              "carcassonne": "La cité de Carcassonne",
+              "chambord": "Le château de Chambord",
+              "mont-saint-michel": "Le Mont-Saint-Michel"
+            }
+          },
+          "q7": {
+            "prompt": "Quel savoir-faire Soufflenheim et Betschdorf ont-ils en commun ?",
+            "hint": "Il consiste à façonner de l'argile, puis à la cuire au four.",
+            "anecdote": "L'indication géographique « Poteries d'Alsace » couvre les deux communes : poterie émaillée à Soufflenheim, grès au sel à Betschdorf. Le pichet de la photo est en grès de Betschdorf.",
+            "answers": {
+              "coutellerie": "La coutellerie",
+              "dentelle": "La dentelle",
+              "poterie": "La poterie",
+              "verrerie": "La verrerie"
+            }
+          },
+          "q8": {
+            "prompt": "Quelle phrase décrit bien l'Alsace ?",
+            "hint": "Repensez aux deux départements rencontrés au début de ce niveau.",
+            "anecdote": "Le Rhin sépare l'Alsace de l'Allemagne. Tout au sud, l'Alsace touche aussi la Suisse.",
+            "answers": {
+              "rhin": "Elle réunit le Bas-Rhin et le Haut-Rhin, le long de la frontière allemande.",
+              "meuse": "Elle réunit la Meuse et les Ardennes, le long de la frontière espagnole.",
+              "region": "Elle forme à elle seule la région Grand Est.",
+              "atlantique": "Elle réunit quatre départements, sur la côte atlantique."
+            }
+          }
+        }
+      }
+    }
   }
 }

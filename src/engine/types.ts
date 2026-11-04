@@ -32,8 +32,12 @@ export interface MediaCredit {
   author: string;
   license: string;
   source: string;
+  /** Adresse du texte de la licence, quand elle l'exige pour réutiliser le média. */
+  licenseUrl?: string;
   /** Date de mise à jour publiée par la source, au format AAAA-MM-JJ. Ne jamais l'estimer. */
   sourceUpdatedAt?: string;
+  /** Description d'une photo pour les lecteurs d'écran. Elle ne doit pas donner la réponse d'un défi. */
+  altKey?: string;
 }
 
 /** `null` : information à fournir, jamais à inventer. */
@@ -102,12 +106,118 @@ export interface CountryMap {
   regions: MapRegion[];
 }
 
+/** Zone cliquable d'une carte de défi. Son id est celui d'une réponse. */
+export interface GameMapZone {
+  id: string;
+  path: string;
+}
+
+/** Carte d'un défi, générée par scripts/build-game-maps.mjs. */
+export interface GameMap {
+  id: string;
+  viewBox: string;
+  zones: GameMapZone[];
+}
+
+export interface ChallengeAnswer {
+  id: string;
+  labelKey: string;
+}
+
+interface ChallengeBase {
+  id: string;
+  promptKey: string;
+  answers: ChallengeAnswer[];
+  /** Id de la bonne réponse. */
+  answerId: string;
+  /** Affiché après une première erreur. */
+  hintKey: string;
+  /** Affichée une fois le défi terminé. */
+  anecdoteKey: string;
+}
+
+export interface ChoiceChallenge extends ChallengeBase {
+  kind: "choice";
+}
+
+export interface VisualChallenge extends ChallengeBase {
+  kind: "visual";
+  /** Photo créditée dans media/credits.json. */
+  mediaId: string;
+}
+
+export interface MapChallenge extends ChallengeBase {
+  kind: "map";
+  /** Carte de content/<pays>/maps/. Chaque réponse correspond à une zone. */
+  mapId: string;
+}
+
+export type LevelChallenge = ChoiceChallenge | VisualChallenge | MapChallenge;
+
+/** Points à atteindre pour 1, 2 et 3 étoiles. */
+export interface StarThresholds {
+  one: number;
+  two: number;
+  three: number;
+}
+
+export interface Level {
+  /** Identifiant stable : c'est lui qui relie les résultats enregistrés au niveau. */
+  id: string;
+  slug: string;
+  nameKey: string;
+  descriptionKey: string;
+  stars: StarThresholds;
+  challenges: LevelChallenge[];
+  /** Cartes souvenirs gagnées en terminant le niveau. */
+  rewardCardIds: string[];
+}
+
+export interface TerritoryPlace {
+  id: string;
+  nameKey: string;
+  kind: "city" | "monument" | "village";
+  /** Code de la subdivision de la région où se trouve le lieu. */
+  subdivisionId: string;
+}
+
+export interface SouvenirCard {
+  id: string;
+  nameKey: string;
+  mediaId: string;
+}
+
+/**
+ * Territoire historique ou culturel, à l'intérieur d'une région administrative.
+ * Ce n'est pas un découpage administratif : la région reste la seule entrée de la carte du pays.
+ */
+export interface Territory {
+  id: string;
+  /** Identique au nom du fichier du territoire. */
+  slug: string;
+  kind: "cultural";
+  /** Région administrative qui donne accès à ce territoire. */
+  regionId: string;
+  nameKey: string;
+  descriptionKey: string;
+  /** Codes des subdivisions de la région qui composent ce territoire. */
+  subdivisionIds: string[];
+  places: TerritoryPlace[];
+  mediaIds: string[];
+  levels: Level[];
+  souvenirCards: SouvenirCard[];
+  /** Un territoire publié a au moins un niveau jouable. */
+  status: RegionStatus;
+}
+
 export type ContentMessages = Record<string, unknown>;
 
 export interface CountryContent {
   country: CountryConfig;
   regions: Region[];
   map: CountryMap;
+  territories: Territory[];
+  gameMaps: GameMap[];
   credits: MediaCredit[];
   /** Textes propres au pays, par langue. */
   messages: Record<string, ContentMessages>;

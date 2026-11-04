@@ -4,6 +4,7 @@ import { ChevronDown, ChevronRight, MapPin, Search } from "lucide-react";
 import Link from "next/link";
 import { useId, useState } from "react";
 import content from "@country";
+import { hasPlayableTerritory } from "@/features/journey/territories";
 import { useTranslation } from "@/i18n/I18nProvider";
 
 const normalize = (text: string) =>
@@ -62,7 +63,9 @@ export function RegionList() {
                   <span className="min-w-0 flex-1">
                     <span className="block font-semibold">{tContent(region.nameKey)}</span>
                     <span className="block text-sm text-ink-soft">
-                      {t(region.status === "published" ? "explorer.statusPublished" : "explorer.statusDraft")}
+                      {hasPlayableTerritory(region.id)
+                        ? t("explorer.statusJourney")
+                        : t(region.status === "published" ? "explorer.statusPublished" : "explorer.statusDraft")}
                     </span>
                   </span>
                   <ChevronRight aria-hidden className="size-5 shrink-0 text-ink-soft" />

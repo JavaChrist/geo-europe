@@ -91,7 +91,102 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
     fail("map.json", "fichier manquant");
   }
 
+  // Cartes de défi : chaque zone est une réponse possible.
+  const gameMaps = new Map();
+  const mapsDir = join(dir, "maps");
+  if (existsSync(mapsDir)) {
+    for (const file of readdirSync(mapsDir).filter((name) => name.endsWith(".json"))) {
+      const gameMap = readJson(join(mapsDir, file));
+      if (gameMap.id !== basename(file, ".json")) fail(`maps/${file}`, "l'id doit être le nom du fichier");
+      gameMaps.set(gameMap.id, new Set(gameMap.zones.map((zone) => zone.id)));
+    }
+  }
+
+  const creditsById = new Map(credits.map((media) => [media.id, media]));
+  // Une photo créditée doit exister, et son crédit doit pouvoir s'afficher en jeu.
+  for (const media of credits.filter((candidate) => candidate.file.startsWith("/media/"))) {
+    if (!existsSync(join("public", media.file))) fail("media/credits.json", `${media.id} : fichier absent ${media.file}`);
+    if (!media.altKey) fail("media/credits.json", `${media.id} : photo sans altKey`);
+  }
+
+  const territoriesDir = join(dir, "territories");
+  const indexSource = readFileSync(join(dir, "index.ts"), "utf8");
+  const regionFiles = new Map(files.map((file) => [readJson(join(dir, "regions", file)).id, readJson(join(dir, "regions", file))]));
+  for (const file of existsSync(territoriesDir) ? readdirSync(territoriesDir).filter((name) => name.endsWith(".json")) : []) {
+    const territory = readJson(join(territoriesDir, file));
+    const where = `territories/${file}`;
+    const keys = [territory.nameKey, territory.descriptionKey];
+    const needMedia = (id) => {
+      if (!mediaIds.has(id)) fail(where, `média sans crédit : ${id}`);
+    };
+
+    if (!indexSource.includes(`./territories/${file}`)) fail(where, "absent de index.ts");
+    if (territory.slug !== basename(file, ".json")) fail(where, "le slug doit être le nom du fichier");
+    if (territory.kind !== "cultural") fail(where, `type invalide : ${territory.kind}`);
+    if (!STATUSES.has(territory.status)) fail(where, `statut invalide : ${territory.status}`);
+
+    const region = regionFiles.get(territory.regionId);
+    if (!region) fail(where, `région inconnue : ${territory.regionId}`);
+    const subdivisionIds = new Set((region?.subdivisions ?? []).map((subdivision) => subdivision.id));
+    for (const id of territory.subdivisionIds) {
+      if (!subdivisionIds.has(id)) fail(where, `subdivision hors de la région : ${id}`);
+    }
+    for (const place of territory.places) {
+      keys.push(place.nameKey);
+      if (!territory.subdivisionIds.includes(place.subdivisionId)) fail(where, `${place.id} : subdivision hors du territoire`);
+    }
+    territory.mediaIds.forEach(needMedia);
+    for (const card of territory.souvenirCards) {
+      keys.push(card.nameKey);
+      needMedia(card.mediaId);
+    }
+    if (territory.status === "published" && territory.levels.length === 0) fail(where, "publié sans niveau");
+
+    const cardIds = new Set(territory.souvenirCards.map((card) => card.id));
+    for (const level of territory.levels) {
+      const at = `${where} ${level.id}`;
+      keys.push(level.nameKey, level.descriptionKey);
+      const { one, two, three } = level.stars;
+      if (!(0 < one && one < two && two < three && three <= 100 * level.challenges.length)) fail(at, "seuils d'étoiles invalides");
+      if (level.challenges.length !== 8) fail(at, `${level.challenges.length} défis pour 8 attendus`);
+      if (new Set(level.challenges.map((challenge) => challenge.id)).size !== level.challenges.length) fail(at, "défi en double");
+      for (const id of level.rewardCardIds) {
+        if (!cardIds.has(id)) fail(at, `carte souvenir inconnue : ${id}`);
+      }
+      for (const challenge of level.challenges) {
+        const label = `${at} ${challenge.id}`;
+        const answerIds = challenge.answers.map((answer) => answer.id);
+        keys.push(challenge.promptKey, challenge.hintKey, challenge.anecdoteKey, ...challenge.answers.map((answer) => answer.labelKey));
+        if (new Set(answerIds).size !== answerIds.length) fail(label, "réponse en double");
+        if (!answerIds.includes(challenge.answerId)) fail(label, "la bonne réponse n'est pas proposée");
+        if (answerIds.length < 2) fail(label, "moins de deux réponses");
+        if (challenge.kind === "visual") {
+          needMedia(challenge.mediaId);
+          if (!creditsById.get(challenge.mediaId)?.file.startsWith("/media/")) fail(label, "photo sans fichier");
+        } else if (challenge.kind === "map") {
+          const zones = gameMaps.get(challenge.mapId);
+          if (!zones) fail(label, `carte inconnue : ${challenge.mapId}`);
+          else if (zones.size !== answerIds.length || answerIds.some((id) => !zones.has(id))) fail(label, "réponses et zones différentes");
+        } else if (challenge.kind !== "choice") {
+          fail(label, `type invalide : ${challenge.kind}`);
+        }
+      }
+    }
+
+    for (const [locale, messages] of Object.entries(messagesByLocale)) {
+      for (const key of keys) {
+        if (typeof lookup(messages, key) !== "string") fail(where, `${key} absent de ${locale}.json`);
+      }
+    }
+  }
+
   for (const [locale, messages] of Object.entries(messagesByLocale)) {
+    for (const media of credits.filter((candidate) => candidate.altKey)) {
+      if (typeof lookup(messages, media.altKey) !== "string") fail(`locales/${locale}.json`, `${media.altKey} absent`);
+    }
+    for (const key of ["country.subdivisionsTitle", "country.subdivisionCount.other"]) {
+      if (typeof lookup(messages, key) !== "string") fail(`locales/${locale}.json`, `${key} absent`);
+    }
     for (const key of ["country.homeTitle", "country.homePitch", "country.legal.authority", "country.legal.governingLaw", "country.legal.consumerLaw"]) {
       if (typeof lookup(messages, key) !== "string") fail(`locales/${locale}.json`, `${key} absent`);
     }

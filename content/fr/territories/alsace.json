@@ -1,0 +1,154 @@
+{
+  "id": "alsace",
+  "slug": "alsace",
+  "kind": "cultural",
+  "regionId": "FR-GES",
+  "nameKey": "territories.alsace.name",
+  "descriptionKey": "territories.alsace.description",
+  "subdivisionIds": ["67", "68"],
+  "places": [
+    { "id": "strasbourg", "nameKey": "places.strasbourg", "kind": "city", "subdivisionId": "67" },
+    { "id": "colmar", "nameKey": "places.colmar", "kind": "city", "subdivisionId": "68" },
+    { "id": "haut-koenigsbourg", "nameKey": "places.haut-koenigsbourg", "kind": "monument", "subdivisionId": "67" },
+    { "id": "soufflenheim", "nameKey": "places.soufflenheim", "kind": "village", "subdivisionId": "67" },
+    { "id": "betschdorf", "nameKey": "places.betschdorf", "kind": "village", "subdivisionId": "67" }
+  ],
+  "mediaIds": ["photo-strasbourg-petite-france", "photo-kougelhopf", "photo-haut-koenigsbourg", "photo-poterie-betschdorf"],
+  "souvenirCards": [],
+  "status": "published",
+  "levels": [
+    {
+      "id": "alsace-bienvenue",
+      "slug": "bienvenue",
+      "nameKey": "territories.alsace.levels.bienvenue.name",
+      "descriptionKey": "territories.alsace.levels.bienvenue.description",
+      "stars": { "one": 400, "two": 600, "three": 720 },
+      "rewardCardIds": [],
+      "challenges": [
+        {
+          "id": "departement-67",
+          "kind": "map",
+          "mapId": "grand-est-departements",
+          "promptKey": "territories.alsace.levels.bienvenue.q1.prompt",
+          "hintKey": "territories.alsace.levels.bienvenue.q1.hint",
+          "anecdoteKey": "territories.alsace.levels.bienvenue.q1.anecdote",
+          "answerId": "67",
+          "answers": [
+            { "id": "08", "labelKey": "departments.08" },
+            { "id": "10", "labelKey": "departments.10" },
+            { "id": "51", "labelKey": "departments.51" },
+            { "id": "52", "labelKey": "departments.52" },
+            { "id": "54", "labelKey": "departments.54" },
+            { "id": "55", "labelKey": "departments.55" },
+            { "id": "57", "labelKey": "departments.57" },
+            { "id": "67", "labelKey": "departments.67" },
+            { "id": "68", "labelKey": "departments.68" },
+            { "id": "88", "labelKey": "departments.88" }
+          ]
+        },
+        {
+          "id": "numero-haut-rhin",
+          "kind": "choice",
+          "promptKey": "territories.alsace.levels.bienvenue.q2.prompt",
+          "hintKey": "territories.alsace.levels.bienvenue.q2.hint",
+          "anecdoteKey": "territories.alsace.levels.bienvenue.q2.anecdote",
+          "answerId": "68",
+          "answers": [
+            { "id": "57", "labelKey": "territories.alsace.levels.bienvenue.q2.answers.57" },
+            { "id": "67", "labelKey": "territories.alsace.levels.bienvenue.q2.answers.67" },
+            { "id": "68", "labelKey": "territories.alsace.levels.bienvenue.q2.answers.68" },
+            { "id": "88", "labelKey": "territories.alsace.levels.bienvenue.q2.answers.88" }
+          ]
+        },
+        {
+          "id": "reconnaitre-strasbourg",
+          "kind": "visual",
+          "mediaId": "photo-strasbourg-petite-france",
+          "promptKey": "territories.alsace.levels.bienvenue.q3.prompt",
+          "hintKey": "territories.alsace.levels.bienvenue.q3.hint",
+          "anecdoteKey": "territories.alsace.levels.bienvenue.q3.anecdote",
+          "answerId": "strasbourg",
+          "answers": [
+            { "id": "colmar", "labelKey": "places.colmar" },
+            { "id": "metz", "labelKey": "places.metz" },
+            { "id": "mulhouse", "labelKey": "places.mulhouse" },
+            { "id": "strasbourg", "labelKey": "places.strasbourg" }
+          ]
+        },
+        {
+          "id": "situer-alsace",
+          "kind": "map",
+          "mapId": "grand-est-territoires",
+          "promptKey": "territories.alsace.levels.bienvenue.q4.prompt",
+          "hintKey": "territories.alsace.levels.bienvenue.q4.hint",
+          "anecdoteKey": "territories.alsace.levels.bienvenue.q4.anecdote",
+          "answerId": "alsace",
+          "answers": [
+            { "id": "alsace", "labelKey": "territories.alsace.name" },
+            { "id": "champagne-ardenne", "labelKey": "territories.champagne-ardenne.name" },
+            { "id": "lorraine", "labelKey": "territories.lorraine.name" }
+          ]
+        },
+        {
+          "id": "specialite-kougelhopf",
+          "kind": "visual",
+          "mediaId": "photo-kougelhopf",
+          "promptKey": "territories.alsace.levels.bienvenue.q5.prompt",
+          "hintKey": "territories.alsace.levels.bienvenue.q5.hint",
+          "anecdoteKey": "territories.alsace.levels.bienvenue.q5.anecdote",
+          "answerId": "kougelhopf",
+          "answers": [
+            { "id": "calisson", "labelKey": "territories.alsace.levels.bienvenue.q5.answers.calisson" },
+            { "id": "cannele", "labelKey": "territories.alsace.levels.bienvenue.q5.answers.cannele" },
+            { "id": "kouign-amann", "labelKey": "territories.alsace.levels.bienvenue.q5.answers.kouign-amann" },
+            { "id": "kougelhopf", "labelKey": "territories.alsace.levels.bienvenue.q5.answers.kougelhopf" }
+          ]
+        },
+        {
+          "id": "monument-haut-koenigsbourg",
+          "kind": "visual",
+          "mediaId": "photo-haut-koenigsbourg",
+          "promptKey": "territories.alsace.levels.bienvenue.q6.prompt",
+          "hintKey": "territories.alsace.levels.bienvenue.q6.hint",
+          "anecdoteKey": "territories.alsace.levels.bienvenue.q6.anecdote",
+          "answerId": "haut-koenigsbourg",
+          "answers": [
+            { "id": "carcassonne", "labelKey": "territories.alsace.levels.bienvenue.q6.answers.carcassonne" },
+            { "id": "chambord", "labelKey": "territories.alsace.levels.bienvenue.q6.answers.chambord" },
+            { "id": "haut-koenigsbourg", "labelKey": "places.haut-koenigsbourg" },
+            { "id": "mont-saint-michel", "labelKey": "territories.alsace.levels.bienvenue.q6.answers.mont-saint-michel" }
+          ]
+        },
+        {
+          "id": "savoir-faire-poterie",
+          "kind": "visual",
+          "mediaId": "photo-poterie-betschdorf",
+          "promptKey": "territories.alsace.levels.bienvenue.q7.prompt",
+          "hintKey": "territories.alsace.levels.bienvenue.q7.hint",
+          "anecdoteKey": "territories.alsace.levels.bienvenue.q7.anecdote",
+          "answerId": "poterie",
+          "answers": [
+            { "id": "coutellerie", "labelKey": "territories.alsace.levels.bienvenue.q7.answers.coutellerie" },
+            { "id": "dentelle", "labelKey": "territories.alsace.levels.bienvenue.q7.answers.dentelle" },
+            { "id": "poterie", "labelKey": "territories.alsace.levels.bienvenue.q7.answers.poterie" },
+            { "id": "verrerie", "labelKey": "territories.alsace.levels.bienvenue.q7.answers.verrerie" }
+          ]
+        },
+        {
+          "id": "synthese-alsace",
+          "kind": "choice",
+          "promptKey": "territories.alsace.levels.bienvenue.q8.prompt",
+          "hintKey": "territories.alsace.levels.bienvenue.q8.hint",
+          "anecdoteKey": "territories.alsace.levels.bienvenue.q8.anecdote",
+          "answerId": "rhin",
+          "answers": [
+            { "id": "rhin", "labelKey": "territories.alsace.levels.bienvenue.q8.answers.rhin" },
+            { "id": "meuse", "labelKey": "territories.alsace.levels.bienvenue.q8.answers.meuse" },
+            { "id": "region", "labelKey": "territories.alsace.levels.bienvenue.q8.answers.region" },
+            { "id": "atlantique", "labelKey": "territories.alsace.levels.bienvenue.q8.answers.atlantique" }
+          ]
+        }
+      ]
+    }
+  ]
+}

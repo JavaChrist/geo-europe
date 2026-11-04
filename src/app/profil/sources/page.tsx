@@ -38,15 +38,28 @@ export default function SourcesPage() {
               )}
             </dl>
             {credit.noteKey && <p className="text-sm text-ink-soft">{tContent(credit.noteKey)}</p>}
-            <a
-              href={credit.source}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex min-h-11 items-center gap-2 self-start rounded-xl text-sm text-gold underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-gold"
-            >
-              {t("sources.viewSource")}
-              <ExternalLink aria-hidden className="size-4" />
-            </a>
+            <div className="flex flex-wrap gap-x-5">
+              <a
+                href={credit.source}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex min-h-11 items-center gap-2 rounded-xl text-sm text-gold underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-gold"
+              >
+                {t("sources.viewSource")}
+                <ExternalLink aria-hidden className="size-4" />
+              </a>
+              {credit.licenseUrl && (
+                <a
+                  href={credit.licenseUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex min-h-11 items-center gap-2 rounded-xl text-sm text-gold underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-gold"
+                >
+                  {t("sources.viewLicense")}
+                  <ExternalLink aria-hidden className="size-4" />
+                </a>
+              )}
+            </div>
           </li>
         ))}
       </ul>

@@ -109,6 +109,53 @@ html:has(dialog[open]) {
   stroke-width: 3;
 }
 
+/* Carte d'un défi : l'état de chaque zone vient du moteur de jeu. */
+.game-map .game-zone {
+  fill: var(--color-surface-light);
+  stroke: var(--color-gold);
+  stroke-opacity: 0.7;
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+  outline: none;
+  transition: fill 160ms ease, opacity 160ms ease;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.game-map .game-zone[data-available="true"] {
+  cursor: pointer;
+}
+
+.game-map .game-zone[data-available="true"]:hover {
+  fill: var(--color-gold);
+  fill-opacity: 0.55;
+}
+
+.game-map .game-zone:focus-visible {
+  stroke: var(--color-ink);
+  stroke-opacity: 1;
+  stroke-width: 3;
+  fill: var(--color-gold-light);
+  fill-opacity: 0.6;
+}
+
+.game-map .game-zone[data-state="removed"] {
+  fill: var(--color-abyss);
+  opacity: 0.45;
+}
+
+.game-map .game-zone[data-state="wrong"] {
+  fill: var(--color-danger);
+}
+
+.game-map .game-zone[data-state="correct"] {
+  fill: var(--color-success);
+}
+
+.game-map .game-zone[data-state="revealed"] {
+  fill: var(--color-gold);
+}
+
 .fade-in {
   animation: fade-in 320ms ease-out;
 }
@@ -126,7 +173,8 @@ html:has(dialog[open]) {
     animation: none;
   }
 
-  .country-map * {
+  .country-map *,
+  .game-map * {
     transition: none;
   }
 }

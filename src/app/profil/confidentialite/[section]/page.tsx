@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import content from "@country";
 import { getLegalValues } from "@/features/privacy/legal-values";
 import { LegalIdentity } from "@/features/privacy/LegalIdentity";
+import { LocalResultsDelete, LocalResultsList } from "@/features/privacy/LocalResults";
 import { PRIVACY_SECTIONS } from "@/features/privacy/sections";
 import { getTranslator } from "@/i18n/translator";
 import { BackLink } from "@/ui/BackLink";
@@ -33,6 +34,8 @@ export default async function PrivacySectionPage({ params }: { params: Promise<{
       </section>
 
       {section.showsIdentity && <LegalIdentity />}
+      {section.localResults === "view" && <LocalResultsList />}
+      {section.localResults === "delete" && <LocalResultsDelete />}
 
       {section.blocks.map((block) => (
         <section key={block.titleKey} className="flex flex-col gap-2 rounded-3xl border border-gold/25 bg-surface/50 p-5">

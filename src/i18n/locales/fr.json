@@ -42,15 +42,89 @@
     "noResult": "Aucune région ne correspond à cette recherche.",
     "statusDraft": "En préparation",
     "statusPublished": "Disponible",
+    "statusJourney": "Parcours disponible",
     "backToMap": "Retour à la carte"
+  },
+  "journey": {
+    "regionIntro": "Choisissez un parcours pour continuer le voyage.",
+    "regionNote": "{region} est une région administrative. Ses parcours suivent des territoires historiques et culturels, qui ne sont pas des régions administratives.",
+    "territoryNote": "Territoire historique et culturel de la région {region}. Ce n'est pas une région administrative.",
+    "placesTitle": "Villes et lieux",
+    "levelsTitle": "Niveaux",
+    "inPreparation": "Ce parcours se prépare : ses niveaux arriveront ici.",
+    "notPlayed": "Pas encore joué",
+    "bestScore": "Meilleur score : {score} sur {max}",
+    "plays": {
+      "one": "{count} partie",
+      "other": "{count} parties"
+    },
+    "stars": {
+      "one": "{count} étoile sur 3",
+      "other": "{count} étoiles sur 3"
+    },
+    "deviceOnly": "Résultats enregistrés sur cet appareil uniquement.",
+    "play": "Jouer",
+    "replay": "Rejouer",
+    "start": "Commencer",
+    "backTo": "Retour à {name}",
+    "rules": {
+      "title": "Règles du niveau",
+      "challenges": "{count} défis, sans limite de temps.",
+      "attempts": "{count} essais par défi, avec un indice après la première erreur.",
+      "jokers": "{count} jokers par niveau, un seul par défi. Un joker retire environ la moitié des mauvaises réponses.",
+      "points": "{first} points au premier essai, {second} au deuxième. Le joker retire {cost} points sur le défi.",
+      "stars": "Une étoile à {one} points, deux à {two}, trois à {three}."
+    },
+    "game": {
+      "progress": "Défi {current} sur {total}",
+      "score": {
+        "one": "{count} point",
+        "other": "{count} points"
+      },
+      "quit": "Quitter",
+      "quitTitle": "Quitter la partie ?",
+      "quitBody": "Cette partie n'est pas terminée : elle ne sera pas enregistrée.",
+      "joker": "Utiliser un joker",
+      "jokersLeft": {
+        "one": "{count} joker restant.",
+        "other": "{count} jokers restants."
+      },
+      "jokerCost": "Coût : {cost} points.",
+      "wrong": "Ce n'est pas la bonne réponse. Il vous reste un essai.",
+      "correct": {
+        "one": "Bonne réponse, {count} point gagné.",
+        "other": "Bonne réponse, {count} points gagnés."
+      },
+      "failed": "Aucun point sur ce défi. La bonne réponse était : {answer}",
+      "next": "Défi suivant",
+      "seeResult": "Voir le résultat",
+      "mapLabel": "Carte à toucher",
+      "photoCredit": "Photo : {author}"
+    },
+    "result": {
+      "title": "Niveau terminé",
+      "score": {
+        "one": "{count} point sur {max}",
+        "other": "{count} points sur {max}"
+      },
+      "stars": {
+        "one": "Bravo, vous gagnez {count} étoile. Rejouez quand vous voulez pour faire mieux.",
+        "other": "Bravo, vous gagnez {count} étoiles."
+      },
+      "noStar": "Pas d'étoile cette fois. La première s'obtient à {one} points : rejouez quand vous voulez.",
+      "best": "Meilleur score sur cet appareil : {score} sur {max}",
+      "notSaved": "Ce résultat n'a pas pu être enregistré sur cet appareil.",
+      "detail": "Détail des défis"
+    }
   },
   "sources": {
     "title": "Sources et licences",
     "intro": "L'origine et la licence des données et des médias utilisés dans le jeu.",
     "author": "Source",
     "license": "Licence",
-    "updatedAt": "Mise à jour du jeu de données",
-    "viewSource": "Voir le jeu de données"
+    "updatedAt": "Mise à jour de la source",
+    "viewSource": "Voir la source",
+    "viewLicense": "Voir la licence"
   },
   "privacy": {
     "title": "Paramètres et confidentialité",
@@ -61,6 +135,18 @@
     "toComplete": "à compléter",
     "pendingValidation": "En attente de validation administrative avant publication.",
     "sourcesSummary": "L'origine et la licence des cartes, données et médias.",
+    "localResults": {
+      "title": "Résultats enregistrés sur cet appareil",
+      "empty": "Aucun résultat n'est enregistré sur cet appareil.",
+      "lastScore": "Dernier score : {score} sur {max}",
+      "lastPlayed": "Dernière partie : {date}",
+      "deleteAction": "Effacer mes résultats",
+      "deleteIntro": "Efface tous les résultats de parcours enregistrés sur cet appareil.",
+      "deleteTitle": "Effacer vos résultats ?",
+      "deleteBody": "Scores, étoiles et nombre de parties seront définitivement effacés de cet appareil.",
+      "deletedTitle": "Résultats effacés",
+      "deletedBody": "Plus aucun résultat n'est enregistré sur cet appareil."
+    },
     "identity": {
       "publisherTitle": "Éditeur",
       "hostTitle": "Hébergeur",
@@ -91,7 +177,7 @@
           },
           "local": {
             "title": "Profils et progression sur l'appareil",
-            "body": "Aujourd'hui, le jeu ne demande ni compte, ni nom, ni adresse e-mail, ni âge. Il ne crée aucun profil et n'enregistre aucune progression sur votre appareil. Il ne dépose lui-même ni cookie ni traceur. Lorsque des profils locaux seront proposés, cette politique décrira ce qui est enregistré avant leur mise en service."
+            "body": "Aujourd'hui, le jeu ne demande ni compte, ni nom, ni adresse e-mail, ni âge, et ne crée aucun profil. Quand vous terminez un niveau, il enregistre le résultat dans le stockage local de votre navigateur ou de votre appareil : niveau joué, meilleur et dernier score, étoiles, nombre de parties et date de la dernière partie. Ces résultats ne sont pas envoyés à nos serveurs. Vous pouvez les consulter et les effacer dans les rubriques dédiées. Le jeu ne dépose lui-même ni cookie ni traceur publicitaire. Lorsque des profils locaux seront proposés, cette politique décrira ce qui est enregistré avant leur mise en service."
           },
           "hosting": {
             "title": "Données techniques liées à l'hébergement",
@@ -133,7 +219,7 @@
           },
           "access": {
             "title": "Fonctions gratuites",
-            "body": "Le jeu est aujourd'hui gratuit et sans compte : il permet d'explorer la carte et la liste des régions. D'autres fonctions sont en préparation et signalées comme telles. Aucun achat n'est proposé. Les conditions de l'offre {appName} Premium figurent dans une rubrique dédiée et s'appliqueront à son ouverture."
+            "body": "Le jeu est aujourd'hui gratuit et sans compte : il permet d'explorer la carte et la liste des régions, et de jouer aux parcours disponibles. D'autres fonctions sont en préparation et signalées comme telles. Aucun achat n'est proposé. Les conditions de l'offre {appName} Premium figurent dans une rubrique dédiée et s'appliqueront à son ouverture."
           },
           "content": {
             "title": "Contenus",
@@ -209,7 +295,7 @@
         "blocks": {
           "state": {
             "title": "Aujourd'hui",
-            "body": "Le jeu n'utilise ni publicité, ni cookie, ni traceur soumis à votre accord. Vous n'avez donc rien à accepter ou à refuser."
+            "body": "Le jeu n'utilise ni publicité, ni cookie, ni traceur soumis à votre accord. Le stockage local sert uniquement à conserver vos résultats, pour le jeu que vous avez lancé. Vous n'avez donc rien à accepter ou à refuser."
           },
           "later": {
             "title": "Si cela change",
@@ -223,15 +309,15 @@
         "blocks": {
           "local": {
             "title": "Profils locaux",
-            "body": "Le jeu ne crée aujourd'hui aucun profil et n'enregistre aucune progression sur cet appareil : il n'y a rien à consulter ni à exporter."
+            "body": "Le jeu ne crée aujourd'hui aucun profil. Les résultats affichés ci-dessus sont les seules données qu'il enregistre, et uniquement sur cet appareil."
           },
           "account": {
             "title": "Comptes en ligne",
             "body": "Aucun compte Firebase ni aucun autre compte en ligne n'existe aujourd'hui. Si des comptes sont créés, leurs données seront présentées séparément des profils locaux."
           },
           "action": {
-            "title": "Action indisponible",
-            "body": "La consultation et l'export ne sont pas proposés tant que le jeu n'enregistre rien. Ils seront ajoutés ici en même temps que les profils ou les comptes. Pour toute question : {contact}."
+            "title": "Export",
+            "body": "L'export sous forme de fichier n'est pas encore proposé : il sera ajouté ici en même temps que les profils ou les comptes. Pour toute question : {contact}."
           }
         }
       },
@@ -241,15 +327,15 @@
         "blocks": {
           "local": {
             "title": "Profils locaux",
-            "body": "Le jeu ne crée aujourd'hui aucun profil et n'enregistre aucune progression sur cet appareil : il n'y a rien à supprimer."
+            "body": "Le jeu ne crée aujourd'hui aucun profil. Seuls vos résultats de parcours sont enregistrés, uniquement sur cet appareil : le bouton ci-dessus les efface. Ils disparaissent aussi si vous videz les données du site ou de l'application."
           },
           "account": {
             "title": "Comptes en ligne",
             "body": "Aucun compte Firebase ni aucun autre compte en ligne n'existe aujourd'hui. Les journaux techniques de l'hébergeur ne sont pas accessibles depuis le jeu : pour toute demande les concernant, écrivez à {contact}."
           },
           "action": {
-            "title": "Action indisponible",
-            "body": "La suppression n'est pas proposée tant que le jeu n'enregistre rien. Elle sera ajoutée ici, après confirmation, en même temps que les profils ou les comptes. Pour toute demande : {contact}."
+            "title": "Autres demandes",
+            "body": "L'effacement des futurs profils ou comptes sera ajouté ici, après confirmation, en même temps qu'eux. Pour toute demande : {contact}."
           }
         }
       },
@@ -263,7 +349,7 @@
           },
           "local": {
             "title": "Profils locaux",
-            "body": "Les futurs profils locaux ne seront pas des comptes. Leur suppression passera par la rubrique dédiée à la suppression des données."
+            "body": "Les résultats enregistrés sur cet appareil et les futurs profils locaux ne sont pas des comptes. Leur suppression passe par la rubrique dédiée à la suppression des données."
           },
           "later": {
             "title": "Si des comptes sont créés",

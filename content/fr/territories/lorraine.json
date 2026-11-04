@@ -1,0 +1,14 @@
+{
+  "id": "lorraine",
+  "slug": "lorraine",
+  "kind": "cultural",
+  "regionId": "FR-GES",
+  "nameKey": "territories.lorraine.name",
+  "descriptionKey": "territories.lorraine.description",
+  "subdivisionIds": ["54", "55", "57", "88"],
+  "places": [],
+  "mediaIds": [],
+  "souvenirCards": [],
+  "status": "draft",
+  "levels": []
+}

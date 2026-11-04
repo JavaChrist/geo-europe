@@ -1,0 +1,42 @@
+{
+  "source": {
+    "url": "https://static.data.gouv.fr/resources/contours-des-communes-de-france-simplifie-avec-regions-et-departement-doutre-mer-rapproches/20210523-142601/a-dep2021.json",
+    "sha256": "b8f99d864124d3d41445727ca40f05a287229f5c2d1f6abde960fc5c5d2ddae4"
+  },
+  "projection": "+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +datum=WGS84",
+  "idProperty": "dep",
+  "maps": [
+    {
+      "id": "grand-est-departements",
+      "simplify": "22%",
+      "zones": {
+        "08": "08",
+        "10": "10",
+        "51": "51",
+        "52": "52",
+        "54": "54",
+        "55": "55",
+        "57": "57",
+        "67": "67",
+        "68": "68",
+        "88": "88"
+      }
+    },
+    {
+      "id": "grand-est-territoires",
+      "simplify": "22%",
+      "zones": {
+        "08": "champagne-ardenne",
+        "10": "champagne-ardenne",
+        "51": "champagne-ardenne",
+        "52": "champagne-ardenne",
+        "54": "lorraine",
+        "55": "lorraine",
+        "57": "lorraine",
+        "88": "lorraine",
+        "67": "alsace",
+        "68": "alsace"
+      }
+    }
+  ]
+}

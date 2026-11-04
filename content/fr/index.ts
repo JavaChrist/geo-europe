@@ -1,8 +1,12 @@
-import type { CountryContent, CountryMap, MediaCredit, Region } from "../../src/engine/types.ts";
+import type { CountryContent, CountryMap, GameMap, MediaCredit, Region, Territory } from "../../src/engine/types.ts";
 import { country } from "./country.ts";
 import map from "./map.json";
 import credits from "./media/credits.json";
 import fr from "./locales/fr.json";
+import mapGrandEstDepartements from "./maps/grand-est-departements.json";
+import mapGrandEstTerritoires from "./maps/grand-est-territoires.json";
+import alsace from "./territories/alsace.json";
+import lorraine from "./territories/lorraine.json";
 import region0 from "./regions/auvergne-rhone-alpes.json";
 import region1 from "./regions/bourgogne-franche-comte.json";
 import region2 from "./regions/bretagne.json";
@@ -26,6 +30,8 @@ const content: CountryContent = {
   country,
   regions: [region0, region1, region2, region3, region4, region5, region6, region7, region8, region9, region10, region11, region12, region13, region14, region15, region16, region17] as Region[],
   map: map as CountryMap,
+  territories: [alsace, lorraine] as Territory[],
+  gameMaps: [mapGrandEstDepartements, mapGrandEstTerritoires] as GameMap[],
   credits: credits as MediaCredit[],
   messages: { fr },
 };

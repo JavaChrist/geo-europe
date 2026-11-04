@@ -8,5 +8,58 @@
     "license": "Licence Ouverte 2.0",
     "source": "https://www.data.gouv.fr/datasets/contours-des-communes-de-france-simplifie-avec-regions-et-departement-doutre-mer-rapproches/",
     "sourceUpdatedAt": "2021-05-23"
+  },
+  {
+    "id": "map-grand-est",
+    "file": "content/fr/maps/",
+    "titleKey": "country.credits.mapGrandEst.title",
+    "noteKey": "country.credits.mapGrandEst.note",
+    "author": "IGN (ADMIN EXPRESS COG), généralisation icem7",
+    "license": "Licence Ouverte 2.0",
+    "source": "https://www.data.gouv.fr/datasets/contours-des-communes-de-france-simplifie-avec-regions-et-departement-doutre-mer-rapproches/",
+    "sourceUpdatedAt": "2021-05-23"
+  },
+  {
+    "id": "photo-strasbourg-petite-france",
+    "file": "/media/fr/alsace/strasbourg-petite-france.jpg",
+    "titleKey": "country.credits.photoStrasbourg.title",
+    "noteKey": "country.credits.photoResized",
+    "altKey": "country.credits.photoStrasbourg.alt",
+    "author": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stra%C3%9Fburg_(Frankreich),_Petite_France_--_2011_--_1759.jpg"
+  },
+  {
+    "id": "photo-kougelhopf",
+    "file": "/media/fr/alsace/kougelhopf.jpg",
+    "titleKey": "country.credits.photoKougelhopf.title",
+    "noteKey": "country.credits.photoResized",
+    "altKey": "country.credits.photoKougelhopf.alt",
+    "author": "Arnaud 25",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.fr",
+    "source": "https://commons.wikimedia.org/wiki/File:Kouglof_01.jpg"
+  },
+  {
+    "id": "photo-haut-koenigsbourg",
+    "file": "/media/fr/alsace/haut-koenigsbourg.jpg",
+    "titleKey": "country.credits.photoHautKoenigsbourg.title",
+    "noteKey": "country.credits.photoResized",
+    "altKey": "country.credits.photoHautKoenigsbourg.alt",
+    "author": "Gzen92",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_du_Haut-Koenigsbourg_(755_m)_(Orschwiller)_(19).jpg"
+  },
+  {
+    "id": "photo-poterie-betschdorf",
+    "file": "/media/fr/alsace/poterie-betschdorf.jpg",
+    "titleKey": "country.credits.photoPoterie.title",
+    "noteKey": "country.credits.photoResized",
+    "altKey": "country.credits.photoPoterie.alt",
+    "author": "Véronique Pagnier",
+    "license": "Domaine public",
+    "source": "https://commons.wikimedia.org/wiki/File:Pot_en_gr%C3%A8s_de_Betschdorf.JPG"
   }
 ]

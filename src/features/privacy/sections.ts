@@ -27,6 +27,8 @@ export interface PrivacySection {
   blocks: PrivacyBlock[];
   /** Affiche l'identité de l'éditeur, de l'hébergeur et du médiateur issue de la configuration du pays. */
   showsIdentity?: boolean;
+  /** Affiche les résultats enregistrés sur l'appareil, ou le bouton pour les effacer. */
+  localResults?: "view" | "delete";
 }
 
 const MEDIATION_BLOCK: PrivacyBlock = {
@@ -110,6 +112,7 @@ export const PRIVACY_SECTIONS: PrivacySection[] = [
     icon: Download,
     titleKey: "privacy.sections.data.title",
     summaryKey: "privacy.sections.data.summary",
+    localResults: "view",
     blocks: [
       { titleKey: "privacy.sections.data.blocks.local.title", bodyKey: "privacy.sections.data.blocks.local.body" },
       { titleKey: "privacy.sections.data.blocks.account.title", bodyKey: "privacy.sections.data.blocks.account.body" },
@@ -121,6 +124,7 @@ export const PRIVACY_SECTIONS: PrivacySection[] = [
     icon: Trash2,
     titleKey: "privacy.sections.deleteData.title",
     summaryKey: "privacy.sections.deleteData.summary",
+    localResults: "delete",
     blocks: [
       { titleKey: "privacy.sections.deleteData.blocks.local.title", bodyKey: "privacy.sections.deleteData.blocks.local.body" },
       { titleKey: "privacy.sections.deleteData.blocks.account.title", bodyKey: "privacy.sections.deleteData.blocks.account.body" },
