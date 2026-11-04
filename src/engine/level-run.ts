@@ -1,8 +1,9 @@
 /** Règles d'une partie de niveau, sans interface : toute action rend un nouvel état. */
-import type { Level, LevelChallenge, StarThresholds } from "./types";
+import { questionsPerRunOf } from "./question-selection.ts";
+import { type RandomSource, shuffled } from "./random.ts";
+import type { Level, LevelChallenge, StarThresholds } from "./types.ts";
 
 export const LEVEL_RULES = {
-  challengesPerLevel: 8,
   maxAttempts: 2,
   jokersPerLevel: 2,
   points: { first: 100, firstWithJoker: 75, second: 50, secondWithJoker: 25 },
@@ -23,6 +24,8 @@ export interface ChallengeResult {
 
 export interface LevelRun {
   levelId: string;
+  /** Défis de cette partie, fixés au départ. */
+  challengeIds: string[];
   /** Position du défi en cours. */
   index: number;
   jokersLeft: number;
@@ -38,37 +41,26 @@ export interface LevelRun {
   results: ChallengeResult[];
 }
 
-export type RandomSource = () => number;
-
-function shuffled<T>(items: readonly T[], random: RandomSource): T[] {
-  const copy = [...items];
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j] as T, copy[i] as T];
-  }
-  return copy;
-}
-
-function challengeAt(level: Level, index: number): LevelChallenge {
-  const challenge = level.challenges[index];
+function challengeAt(level: Level, challengeIds: readonly string[], index: number): LevelChallenge {
+  const challenge = level.questions.find((question) => question.id === challengeIds[index]);
   if (!challenge) throw new Error(`Défi introuvable : ${level.id} n° ${index}`);
   return challenge;
 }
 
-const freshChallenge = (level: Level, index: number, random: RandomSource) => ({
+const freshChallenge = (level: Level, challengeIds: readonly string[], index: number, random: RandomSource) => ({
   index,
-  answerOrder: shuffled(challengeAt(level, index).answers.map((answer) => answer.id), random),
+  answerOrder: shuffled(challengeAt(level, challengeIds, index).answers.map((answer) => answer.id), random),
   tried: [],
   removed: [],
   jokerUsed: false,
   state: "playing" as const,
 });
 
-export function startRun(level: Level, random: RandomSource): LevelRun {
-  return { levelId: level.id, jokersLeft: LEVEL_RULES.jokersPerLevel, results: [], ...freshChallenge(level, 0, random) };
+export function startRun(level: Level, challengeIds: string[], random: RandomSource): LevelRun {
+  return { levelId: level.id, challengeIds, jokersLeft: LEVEL_RULES.jokersPerLevel, results: [], ...freshChallenge(level, challengeIds, 0, random) };
 }
 
-export const currentChallenge = (run: LevelRun, level: Level): LevelChallenge => challengeAt(level, run.index);
+export const currentChallenge = (run: LevelRun, level: Level): LevelChallenge => challengeAt(level, run.challengeIds, run.index);
 
 export function pointsFor(attempt: number, jokerUsed: boolean): number {
   const { first, firstWithJoker, second, secondWithJoker } = LEVEL_RULES.points;
@@ -86,7 +78,7 @@ export function starsFor(score: number, { one, two, three }: StarThresholds): St
 
 export const scoreOf = (run: LevelRun): number => run.results.reduce((total, result) => total + result.points, 0);
 
-export const maxScoreOf = (level: Level): number => level.challenges.length * LEVEL_RULES.points.first;
+export const maxScoreOf = (level: Level): number => questionsPerRunOf(level) * LEVEL_RULES.points.first;
 
 /** Une réponse reste proposable si elle n'a été ni essayée ni retirée par le joker. */
 export const isAnswerAvailable = (run: LevelRun, answerId: string): boolean =>
@@ -137,10 +129,10 @@ export function submitAnswer(run: LevelRun, level: Level, answerId: string): Lev
 }
 
 /** Vrai quand le dernier défi est terminé. */
-export const isRunOver = (run: LevelRun, level: Level): boolean =>
-  run.state !== "playing" && run.index === level.challenges.length - 1;
+export const isRunOver = (run: LevelRun): boolean =>
+  run.state !== "playing" && run.index === run.challengeIds.length - 1;
 
 export function nextChallenge(run: LevelRun, level: Level, random: RandomSource): LevelRun {
-  if (run.state === "playing" || isRunOver(run, level)) return run;
-  return { ...run, ...freshChallenge(level, run.index + 1, random) };
+  if (run.state === "playing" || isRunOver(run)) return run;
+  return { ...run, ...freshChallenge(level, run.challengeIds, run.index + 1, random) };
 }

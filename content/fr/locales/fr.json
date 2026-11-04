@@ -42,6 +42,34 @@
       "photoPoterie": {
         "title": "Pichet en grès de Betschdorf",
         "alt": "Pichet bleu et gris, décoré de grappes de raisin et de feuilles de vigne."
+      },
+      "photoGrandBallon": {
+        "title": "Le Grand Ballon sous la neige",
+        "alt": "Sommet arrondi et enneigé, surmonté d'une installation en forme de dôme, au-dessus de pentes boisées."
+      },
+      "photoFlammekueche": {
+        "title": "Flammekueche",
+        "alt": "Tarte très fine aux bords grillés, couverte de crème, de lardons et d'oignon, posée sur une planche en bois."
+      },
+      "photoMunster": {
+        "title": "Munster",
+        "alt": "Fromage à pâte crémeuse et à croûte orangée, coupé et posé sur une ardoise."
+      },
+      "photoCathedraleStrasbourg": {
+        "title": "Cathédrale de Strasbourg",
+        "alt": "Façade très ouvragée de grès rose et haute flèche, vues depuis le pied de l'édifice."
+      },
+      "photoHorloge": {
+        "title": "Horloge astronomique de la cathédrale de Strasbourg",
+        "alt": "Monumentale horloge ornée de cadrans, de statuettes et de peintures, devant un vitrail."
+      },
+      "photoEcomusee": {
+        "title": "Maison à colombages de l'Écomusée d'Alsace",
+        "alt": "Maison à colombages aux murs jaunes et aux volets bleus, sous un ciel dégagé."
+      },
+      "photoNidCigognes": {
+        "title": "Nid sur le toit de l'église des Récollets, Rouffach",
+        "alt": "Grand nid de branches posé sur une armature métallique, au sommet d'un toit de tuiles."
       }
     }
   },
@@ -100,14 +128,14 @@
       "levels": {
         "bienvenue": {
           "name": "Bienvenue en Alsace",
-          "description": "Huit défis pour situer l'Alsace et découvrir sa ville, ses saveurs, son patrimoine et ses savoir-faire.",
+          "description": "Huit défis renouvelés à chaque partie : villes, saveurs, patrimoine, savoir-faire, traditions et grandes figures de l'Alsace.",
           "q1": {
             "prompt": "Touchez sur la carte le département qui porte le numéro 67.",
             "hint": "Il borde le Rhin, tout au nord de l'Alsace.",
             "anecdote": "Le 67 est le Bas-Rhin. « Bas » et « Haut » suivent le cours du Rhin : le Bas-Rhin est en aval, au nord, et le Haut-Rhin en amont, au sud."
           },
           "q2": {
-            "prompt": "Quel est le numéro du département du Haut-Rhin ?",
+            "prompt": "Quel est le numéro du département du Haut-Rhin ?",
             "hint": "Il suit directement celui du Bas-Rhin, le 67.",
             "anecdote": "Colmar est la préfecture du Haut-Rhin. Depuis le 1er janvier 2021, le Bas-Rhin et le Haut-Rhin forment la Collectivité européenne d'Alsace. Les deux départements existent toujours et gardent leurs numéros.",
             "answers": {
@@ -118,7 +146,7 @@
             }
           },
           "q3": {
-            "prompt": "Quelle est cette ville alsacienne ?",
+            "prompt": "Quelle est cette ville alsacienne ?",
             "hint": "C'est la préfecture du Bas-Rhin.",
             "anecdote": "Vous êtes à Strasbourg, dans le quartier de la Petite France. Il fait partie de la Grande-Île, le centre historique inscrit au patrimoine mondial de l'UNESCO depuis 1988."
           },
@@ -128,7 +156,7 @@
             "anecdote": "L'Alsace n'est pas une région administrative. Depuis 2016, elle fait partie de la région Grand Est, avec la Lorraine et la Champagne-Ardenne."
           },
           "q5": {
-            "prompt": "Quelle est cette spécialité alsacienne ?",
+            "prompt": "Quelle est cette spécialité alsacienne ?",
             "hint": "C'est une pâte levée, reconnaissable à sa forme de couronne.",
             "anecdote": "Le kougelhopf doit sa forme à son moule, cannelé et creux au centre. À Soufflenheim, la poterie culinaire sert à préparer les plats emblématiques de l'Alsace, dont le kougelhopf.",
             "answers": {
@@ -139,7 +167,7 @@
             }
           },
           "q6": {
-            "prompt": "Quel est ce monument alsacien ?",
+            "prompt": "Quel est ce monument alsacien ?",
             "hint": "Ce château fort domine la plaine d'Alsace, à Orschwiller, dans le Bas-Rhin.",
             "anecdote": "En 1899, la ville de Sélestat offre le château à l'empereur Guillaume II, à l'époque où l'Alsace est allemande. Restauré par l'architecte Bodo Ebhardt, il est inauguré en 1908.",
             "answers": {
@@ -149,7 +177,7 @@
             }
           },
           "q7": {
-            "prompt": "Quel savoir-faire Soufflenheim et Betschdorf ont-ils en commun ?",
+            "prompt": "Quel savoir-faire Soufflenheim et Betschdorf ont-ils en commun ?",
             "hint": "Il consiste à façonner de l'argile, puis à la cuire au four.",
             "anecdote": "L'indication géographique « Poteries d'Alsace » couvre les deux communes : poterie émaillée à Soufflenheim, grès au sel à Betschdorf. Le pichet de la photo est en grès de Betschdorf.",
             "answers": {
@@ -160,14 +188,366 @@
             }
           },
           "q8": {
-            "prompt": "Quelle phrase décrit bien l'Alsace ?",
-            "hint": "Repensez aux deux départements rencontrés au début de ce niveau.",
+            "prompt": "Quelle phrase décrit bien l'Alsace ?",
+            "hint": "Pensez au grand fleuve qui borde cette partie de la France, à l'est.",
             "anecdote": "Le Rhin sépare l'Alsace de l'Allemagne. Tout au sud, l'Alsace touche aussi la Suisse.",
             "answers": {
               "rhin": "Elle réunit le Bas-Rhin et le Haut-Rhin, le long de la frontière allemande.",
               "meuse": "Elle réunit la Meuse et les Ardennes, le long de la frontière espagnole.",
               "region": "Elle forme à elle seule la région Grand Est.",
               "atlantique": "Elle réunit quatre départements, sur la côte atlantique."
+            }
+          },
+          "q9": {
+            "prompt": "Quelle ville est la préfecture du Bas-Rhin ?",
+            "hint": "Elle est aussi préfecture de la région Grand Est.",
+            "anecdote": "Strasbourg est à la fois préfecture du Bas-Rhin et de la région Grand Est.",
+            "answers": {
+              "colmar": "Colmar",
+              "haguenau": "Haguenau",
+              "metz": "Metz",
+              "strasbourg": "Strasbourg"
+            }
+          },
+          "q10": {
+            "prompt": "Quelle ville est la préfecture du Haut-Rhin ?",
+            "hint": "Ce n'est pas la plus grande ville du département.",
+            "anecdote": "La préfecture du Haut-Rhin siège à Colmar, tandis que Mulhouse est sous-préfecture.",
+            "answers": {
+              "altkirch": "Altkirch",
+              "colmar": "Colmar",
+              "mulhouse": "Mulhouse",
+              "thann": "Thann"
+            }
+          },
+          "q11": {
+            "prompt": "En quelle année est née la Collectivité européenne d'Alsace ?",
+            "hint": "Elle a vu le jour au tout début des années 2020.",
+            "anecdote": "Elle est née le 1er janvier 2021 de la fusion des conseils départementaux du Bas-Rhin et du Haut-Rhin.",
+            "answers": {
+              "2016": "2016",
+              "2019": "2019",
+              "2021": "2021",
+              "2024": "2024"
+            }
+          },
+          "q12": {
+            "prompt": "Quelle rivière coule dans la Petite Venise de Colmar ?",
+            "hint": "Son nom est court et commence par un L.",
+            "anecdote": "La Lauch servait à acheminer les marchandises des maraîchers et des vignerons vers le Marché Couvert.",
+            "answers": {
+              "l-ill": "L'Ill",
+              "la-lauch": "La Lauch",
+              "la-moselle": "La Moselle",
+              "la-thur": "La Thur"
+            }
+          },
+          "q13": {
+            "prompt": "Dans quelle ville peut-on visiter la Cité de l'Automobile ?",
+            "hint": "Cette ville se trouve dans le sud de l'Alsace.",
+            "anecdote": "Le musée de Mulhouse présente environ 400 véhicules, dont une Bugatti Royale.",
+            "answers": {
+              "colmar": "Colmar",
+              "mulhouse": "Mulhouse",
+              "selestat": "Sélestat",
+              "strasbourg": "Strasbourg"
+            }
+          },
+          "q14": {
+            "prompt": "Quelle ville abrite la Bibliothèque humaniste ?",
+            "hint": "Elle se situe entre Strasbourg et Colmar.",
+            "anecdote": "Issue d'une école latine fondée en 1452, elle a reçu en 1547 les 670 volumes de Beatus Rhenanus. Elle est inscrite à la Mémoire du monde de l'Unesco depuis 2011.",
+            "answers": {
+              "colmar": "Colmar",
+              "saverne": "Saverne",
+              "selestat": "Sélestat",
+              "wissembourg": "Wissembourg"
+            }
+          },
+          "q15": {
+            "prompt": "Quel est le plus haut sommet des Vosges ?",
+            "hint": "Son nom associe une forme arrondie et une grande taille.",
+            "anecdote": "Le Grand Ballon culmine à 1 424 mètres.",
+            "answers": {
+              "le-ballon-d-alsace": "Le Ballon d'Alsace",
+              "le-donon": "Le Donon",
+              "le-grand-ballon": "Le Grand Ballon",
+              "le-hohneck": "Le Hohneck"
+            }
+          },
+          "q16": {
+            "prompt": "Quelle rivière borde la Grande-Île de Strasbourg ?",
+            "hint": "Son nom tient en trois lettres.",
+            "anecdote": "Avec le canal du Faux-Rempart, l'Ill entoure le centre historique, relié au reste de la ville par 21 ponts et passerelles.",
+            "answers": {
+              "l-ill": "L'Ill",
+              "la-doller": "La Doller",
+              "la-lauch": "La Lauch",
+              "la-moselle": "La Moselle"
+            }
+          },
+          "q17": {
+            "prompt": "Quelle route touristique relie Marlenheim à Thann ?",
+            "hint": "On y traverse surtout des coteaux de vignes.",
+            "anecdote": "Inaugurée en 1953, la Route des Vins d'Alsace s'étire sur 170 kilomètres.",
+            "answers": {
+              "la-route-de-la-carpe-frite": "La Route de la Carpe frite",
+              "la-route-des-cretes": "La Route des Crêtes",
+              "la-route-des-vins": "La Route des Vins",
+              "la-route-romane": "La Route Romane"
+            }
+          },
+          "q18": {
+            "prompt": "Comment s'appelle cette tarte fine à la crème, aux lardons et à l'oignon ?",
+            "hint": "Son nom alsacien évoque la flamme.",
+            "anecdote": "Sa pâte à pain très fine est garnie de crème fraîche, de lardons et d'oignon cru.",
+            "answers": {
+              "la-flammekueche": "La flammekueche",
+              "la-pissaladiere": "La pissaladière",
+              "la-quiche": "La quiche",
+              "la-tourte": "La tourte"
+            }
+          },
+          "q19": {
+            "prompt": "Quel plat alsacien réunit bœuf, agneau et porc ?",
+            "hint": "C'est une potée mijotée, typique de l'Alsace.",
+            "anecdote": "Le baeckeoffe est une potée alsacienne qui mélange trois viandes différentes.",
+            "answers": {
+              "la-choucroute": "La choucroute",
+              "le-baeckeoffe": "Le baeckeoffe",
+              "le-presskopf": "Le presskopf",
+              "les-spatzle": "Les spätzle"
+            }
+          },
+          "q20": {
+            "prompt": "Quel fromage porte le nom d'une vallée et d'une ville alsaciennes ?",
+            "hint": "Fromage au lait de vache, il se fabrique des deux côtés des Vosges.",
+            "anecdote": "AOC depuis 1969, ce fromage s'appelle munster côté Alsace et géromé côté Lorraine.",
+            "answers": {
+              "le-comte": "Le comté",
+              "le-langres": "Le langres",
+              "le-munster": "Le munster",
+              "le-reblochon": "Le reblochon"
+            }
+          },
+          "q21": {
+            "prompt": "Comment appelle-t-on les petits gâteaux préparés en Alsace pendant l'Avent ?",
+            "hint": "Ils sont petits et se partagent avant Noël.",
+            "anecdote": "Ces petits biscuits font partie des traditions alsaciennes de l'Avent.",
+            "answers": {
+              "les-bredele": "Les bredele",
+              "les-bretzels": "Les bretzels",
+              "les-kougelhopfs": "Les kougelhopfs",
+              "les-spatzle": "Les spätzle"
+            }
+          },
+          "q22": {
+            "prompt": "Dans quelle ville se dresse cette cathédrale, dont la flèche atteint 142 mètres ?",
+            "hint": "Le Parlement européen y a son siège.",
+            "anecdote": "La flèche de la cathédrale de Strasbourg culmine à 142 mètres.",
+            "answers": {
+              "colmar": "Colmar",
+              "metz": "Metz",
+              "reims": "Reims",
+              "strasbourg": "Strasbourg"
+            }
+          },
+          "q23": {
+            "prompt": "Quel automate chante trois fois sur l'horloge astronomique de Strasbourg ?",
+            "hint": "Cet animal chante aussi au lever du jour.",
+            "anecdote": "Son chant rappelle le reniement de saint Pierre. Le mécanisme actuel date de 1842 et a été créé par Jean-Baptiste Schwilgué.",
+            "answers": {
+              "un-aigle": "Un aigle",
+              "un-coq": "Un coq",
+              "un-hibou": "Un hibou",
+              "une-cigogne": "Une cigogne"
+            }
+          },
+          "q24": {
+            "prompt": "Quelle œuvre majeure peut-on voir au musée Unterlinden de Colmar ?",
+            "hint": "C'est un grand ensemble peint et sculpté.",
+            "anecdote": "Il a été réalisé de 1512 à 1516 par Grünewald et Nicolas de Haguenau.",
+            "answers": {
+              "la-joconde": "La Joconde",
+              "la-tapisserie-de-bayeux": "La Tapisserie de Bayeux",
+              "le-radeau-de-la-meduse": "Le Radeau de la Méduse",
+              "le-retable-d-issenheim": "Le Retable d'Issenheim"
+            }
+          },
+          "q25": {
+            "prompt": "Dans quelle commune se trouve l'Écomusée d'Alsace ?",
+            "hint": "Elle se trouve au nord de Mulhouse.",
+            "anecdote": "Ce village reconstitue l'Alsace du début du XXe siècle. L'office de tourisme de Mulhouse le présente comme le plus grand musée vivant de plein air de France.",
+            "answers": {
+              "eguisheim": "Eguisheim",
+              "hunawihr": "Hunawihr",
+              "soufflenheim": "Soufflenheim",
+              "ungersheim": "Ungersheim"
+            }
+          },
+          "q26": {
+            "prompt": "Dans quelle commune du Bas-Rhin se trouvent le musée et la cristallerie Lalique ?",
+            "hint": "Son nom contient celui d'une rivière des Vosges du Nord.",
+            "anecdote": "La tradition verrière de la commune remonte au début du XVIIIe siècle. Meisenthal et Saint-Louis-lès-Bitche, eux, sont en Moselle.",
+            "answers": {
+              "meisenthal": "Meisenthal",
+              "saint-louis-les-bitche": "Saint-Louis-lès-Bitche",
+              "soufflenheim": "Soufflenheim",
+              "wingen-sur-moder": "Wingen-sur-Moder"
+            }
+          },
+          "q27": {
+            "prompt": "Quel tissu alsacien traditionnel est tissé en lin ou en chanvre ?",
+            "hint": "Il se reconnaît à ses teintes bleues et rouges sur fond écru.",
+            "anecdote": "Lié au Grand Ried et à Muttersholtz, le kelsch se décline traditionnellement en bleu et en rouge sur fond écru.",
+            "answers": {
+              "la-toile-de-jouy": "La toile de Jouy",
+              "le-kelsch": "Le kelsch",
+              "le-madras": "Le madras",
+              "le-vichy": "Le vichy"
+            }
+          },
+          "q28": {
+            "prompt": "Quel savoir-faire présente le musée installé à Rixheim ?",
+            "hint": "Il s'admire sur les murs.",
+            "anecdote": "La manufacture date de 1797. Le musée a ouvert en 1983, dans une ancienne commanderie teutonique.",
+            "answers": {
+              "l-horlogerie": "L'horlogerie",
+              "la-faience": "La faïence",
+              "le-cristal": "Le cristal",
+              "le-papier-peint": "Le papier peint"
+            }
+          },
+          "q29": {
+            "prompt": "Comment s'appelle le marché de Noël historique de Strasbourg ?",
+            "hint": "Son nom alsacien évoque l'Enfant Jésus.",
+            "anecdote": "Il remonte à 1570 et son nom signifie « marché dédié à l'Enfant Jésus ».",
+            "answers": {
+              "la-grande-kermesse": "La Grande Kermesse",
+              "le-christkindelsmarik": "Le Christkindelsmärik",
+              "le-marche-saint-nicolas": "Le marché Saint-Nicolas",
+              "le-striezelmarkt": "Le Striezelmarkt"
+            }
+          },
+          "q30": {
+            "prompt": "Quel personnage inquiétant du Noël alsacien s'inspirerait d'un chevalier brigand ?",
+            "hint": "Son prénom est germanique et il effraie les enfants désobéissants.",
+            "anecdote": "Hans Trapp serait inspiré de Hans von Trotta, chevalier du château de Berwartstein.",
+            "answers": {
+              "hans-trapp": "Hans Trapp",
+              "hansel": "Hansel",
+              "le-christkindel": "Le Christkindel",
+              "till-l-espiegle": "Till l'Espiègle"
+            }
+          },
+          "q31": {
+            "prompt": "Quel oiseau, symbole de l'Alsace, construit ce grand nid sur les toits ?",
+            "hint": "Oiseau de bon augure, il est associé aux naissances.",
+            "anecdote": "Symbole de fertilité et oiseau de bon augure, la cigogne a motivé la création du parc de Hunawihr en 1976.",
+            "answers": {
+              "la-cigogne-blanche": "La cigogne blanche",
+              "la-grue": "La grue",
+              "le-coq": "Le coq",
+              "le-heron-cendre": "Le héron cendré"
+            }
+          },
+          "q32": {
+            "prompt": "Quelle pièce du costume féminin alsacien est ornée d'un grand nœud ?",
+            "hint": "Elle se porte sur la tête.",
+            "anecdote": "Le grand nœud est récent : la coiffe à petit nœud frontal n'apparaît que vers 1830, à Brumath et dans le Kochersberg.",
+            "answers": {
+              "la-cape": "La cape",
+              "la-coiffe": "La coiffe",
+              "le-tablier": "Le tablier",
+              "les-sabots": "Les sabots"
+            }
+          },
+          "q33": {
+            "prompt": "Quelle sainte est la patronne de l'Alsace ?",
+            "hint": "Un mont près d'Obernai porte son nom.",
+            "anecdote": "Selon la légende, elle naît aveugle. Elle devient la première abbesse de Hohenburg.",
+            "answers": {
+              "sainte-catherine": "Sainte Catherine",
+              "sainte-genevieve": "Sainte Geneviève",
+              "sainte-odile": "Sainte Odile",
+              "sainte-therese": "Sainte Thérèse"
+            }
+          },
+          "q34": {
+            "prompt": "Quel jeu traditionnel s'est surtout développé en Alsace et en Bourgogne ?",
+            "hint": "On y renverse des pièces avec une boule.",
+            "anecdote": "Apparu à la fin du XIXe siècle, le Ninepin Bowling Classic figure à l'inventaire du patrimoine culturel immatériel. Il a figuré aux Jeux olympiques de 1936.",
+            "answers": {
+              "la-pelote-basque": "La pelote basque",
+              "la-petanque": "La pétanque",
+              "le-jeu-de-paume": "Le jeu de paume",
+              "les-quilles-a-9": "Les quilles à 9"
+            }
+          },
+          "q35": {
+            "prompt": "Quelle œuvre célèbre doit-on à Auguste Bartholdi, né à Colmar ?",
+            "hint": "Elle se dresse à New York.",
+            "anecdote": "Né le 2 août 1834, Bartholdi voit sa statue inaugurée à New York le 28 octobre 1886.",
+            "answers": {
+              "l-arc-de-triomphe": "L'Arc de Triomphe",
+              "la-statue-de-la-liberte": "La statue de la Liberté",
+              "la-tour-eiffel": "La tour Eiffel",
+              "le-penseur": "Le Penseur"
+            }
+          },
+          "q36": {
+            "prompt": "Quel prix a reçu Albert Schweitzer, né à Kaysersberg ?",
+            "hint": "Il récompense l'engagement au service de l'humanité.",
+            "anecdote": "Né le 14 janvier 1875, Albert Schweitzer a fondé un hôpital à Lambaréné, au Gabon.",
+            "answers": {
+              "le-prix-goncourt": "Le prix Goncourt",
+              "le-prix-nobel-de-la-paix": "Le prix Nobel de la paix",
+              "le-prix-nobel-de-medecine": "Le prix Nobel de médecine",
+              "le-prix-pritzker": "Le prix Pritzker"
+            }
+          },
+          "q37": {
+            "prompt": "Quel album pour enfants doit-on au Strasbourgeois Tomi Ungerer ?",
+            "hint": "Ses héros sont trois hommes en noir.",
+            "anecdote": "L'album paraît en 1961. À Strasbourg, un musée conserve les 14 000 dessins que Tomi Ungerer a donnés à sa ville natale.",
+            "answers": {
+              "babar": "Babar",
+              "le-petit-prince": "Le Petit Prince",
+              "les-trois-brigands": "Les Trois Brigands",
+              "max-et-les-maximonstres": "Max et les Maximonstres"
+            }
+          },
+          "q38": {
+            "prompt": "Quel chant Rouget de Lisle a-t-il composé à Strasbourg en 1792 ?",
+            "hint": "C'est aujourd'hui l'hymne national.",
+            "anecdote": "Écrit dans la nuit du 25 au 26 avril 1792, il s'appelait d'abord « Chant de guerre pour l'armée du Rhin ».",
+            "answers": {
+              "ca-ira": "Ça ira",
+              "la-marseillaise": "La Marseillaise",
+              "le-chant-des-partisans": "Le Chant des partisans",
+              "le-temps-des-cerises": "Le Temps des cerises"
+            }
+          },
+          "q39": {
+            "prompt": "Combien de titres mondiaux consécutifs de rallye Sébastien Loeb a-t-il gagnés ?",
+            "hint": "C'est un de moins que dix.",
+            "anecdote": "Né à Haguenau, Sébastien Loeb a été champion du monde sans interruption de 2004 à 2012.",
+            "answers": {
+              "5": "5",
+              "7": "7",
+              "9": "9",
+              "12": "12"
+            }
+          },
+          "q40": {
+            "prompt": "Quel club anglais le Strasbourgeois Arsène Wenger a-t-il longtemps entraîné ?",
+            "hint": "Son nom ressemble au prénom de l'entraîneur.",
+            "anecdote": "Arrivé en 1996, il a mené les « Invincibles » à une saison 2003-2004 sans défaite en championnat.",
+            "answers": {
+              "arsenal": "Arsenal",
+              "chelsea": "Chelsea",
+              "liverpool": "Liverpool",
+              "manchester-united": "Manchester United"
             }
           }
         }

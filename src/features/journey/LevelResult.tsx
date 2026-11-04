@@ -57,7 +57,7 @@ export function LevelResult({ level, results, score, stars, record, onReplay }: 
         <h3 className="font-display text-xl font-semibold">{t("journey.result.detail")}</h3>
         <ol className="flex flex-col gap-2">
           {results.map((result) => {
-            const challenge = level.challenges.find((candidate) => candidate.id === result.challengeId);
+            const challenge = level.questions.find((candidate) => candidate.id === result.challengeId);
             const Icon = result.correct ? Check : X;
             return (
               <li key={result.challengeId} className="flex items-start gap-2 text-sm">

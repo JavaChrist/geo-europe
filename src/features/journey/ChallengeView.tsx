@@ -93,7 +93,7 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit }:
       <header className="flex flex-col gap-2">
         <div className="flex items-center justify-between gap-3 text-sm">
           <span className="font-semibold text-gold">
-            {t("journey.game.progress", { current: run.index + 1, total: level.challenges.length })}
+            {t("journey.game.progress", { current: run.index + 1, total: run.challengeIds.length })}
           </span>
           <span>{t("journey.game.score", { count: scoreOf(run) })}</span>
           <button
@@ -108,7 +108,7 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit }:
         <div aria-hidden className="h-1.5 overflow-hidden rounded-full bg-abyss/60">
           <div
             className="h-full rounded-full bg-gold transition-[width]"
-            style={{ width: `${(run.results.length / level.challenges.length) * 100}%` }}
+            style={{ width: `${(run.results.length / run.challengeIds.length) * 100}%` }}
           />
         </div>
       </header>
@@ -173,7 +173,7 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit }:
             onClick={onNext}
             className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-gold px-5 font-semibold text-abyss transition-colors hover:bg-gold-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
           >
-            {t(isRunOver(run, level) ? "journey.game.seeResult" : "journey.game.next")}
+            {t(isRunOver(run) ?"journey.game.seeResult" : "journey.game.next")}
             <ArrowRight aria-hidden className="size-5" />
           </button>
         )}

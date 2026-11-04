@@ -2,9 +2,11 @@
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { basename, join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
+import { maxScoreOf } from "../src/engine/level-run.ts";
 
 const root = process.argv[2] ?? "content";
 const STATUSES = new Set(["draft", "published"]);
+const DIFFICULTIES = new Set([1, 2, 3]);
 const errors = [];
 
 const readJson = (path) => JSON.parse(readFileSync(path, "utf8"));
@@ -157,22 +159,34 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
       keys.push(level.nameKey, level.descriptionKey);
       const { one, two, three } = level.stars;
       // Un niveau terminé rapporte toujours au moins une étoile : le premier seuil vaut 0.
-      if (!(one === 0 && one < two && two < three && three <= 100 * level.challenges.length)) fail(at, "seuils d'étoiles invalides");
-      if (level.challenges.length !== 8) fail(at, `${level.challenges.length} défis pour 8 attendus`);
-      if (new Set(level.challenges.map((challenge) => challenge.id)).size !== level.challenges.length) fail(at, "défi en double");
+      // Une partie compte moins de 8 défis si la banque est insuffisante : les seuils doivent rester atteignables.
+      if (!(one === 0 && one < two && two < three && three <= maxScoreOf(level))) fail(at, "seuils d'étoiles invalides");
+      if (!DIFFICULTIES.has(level.maxDifficulty)) fail(at, `difficulté invalide : ${level.maxDifficulty}`);
+      if (level.questions.length === 0) fail(at, "banque de questions vide");
+      if (new Set(level.questions.map((challenge) => challenge.id)).size !== level.questions.length) fail(at, "défi en double");
       for (const id of level.rewardCardIds) {
         if (!cardIds.has(id)) fail(at, `carte souvenir inconnue : ${id}`);
       }
-      for (const challenge of level.challenges) {
+      const groupByPhoto = new Map();
+      for (const challenge of level.questions) {
         const label = `${at} ${challenge.id}`;
         const answerIds = challenge.answers.map((answer) => answer.id);
         keys.push(challenge.promptKey, challenge.hintKey, challenge.anecdoteKey, ...challenge.answers.map((answer) => answer.labelKey));
+        if (typeof challenge.category !== "string" || !challenge.category) fail(label, "sans catégorie");
+        if (!DIFFICULTIES.has(challenge.difficulty)) fail(label, `difficulté invalide : ${challenge.difficulty}`);
+        else if (challenge.difficulty > level.maxDifficulty) fail(label, "plus difficile que son niveau : jamais tirée");
         if (new Set(answerIds).size !== answerIds.length) fail(label, "réponse en double");
         if (!answerIds.includes(challenge.answerId)) fail(label, "la bonne réponse n'est pas proposée");
-        if (answerIds.length < 2) fail(label, "moins de deux réponses");
+        // Le joker retire deux mauvaises réponses d'un QCM : il lui en faut trois.
+        if (challenge.kind !== "map" && answerIds.length !== 4) fail(label, `${answerIds.length} réponses pour 4 attendues`);
         if (challenge.kind === "visual") {
           needMedia(challenge.mediaId);
+          if (!territory.mediaIds.includes(challenge.mediaId)) fail(label, "photo absente des médias du territoire");
           if (!creditsById.get(challenge.mediaId)?.file.startsWith("/media/")) fail(label, "photo sans fichier");
+          // Une même photo ne doit pas revenir, ni souffler une réponse, dans une partie.
+          const photoGroup = challenge.group ?? challenge.id;
+          if (groupByPhoto.has(challenge.mediaId) && groupByPhoto.get(challenge.mediaId) !== photoGroup) fail(label, "photo partagée hors de son groupe");
+          groupByPhoto.set(challenge.mediaId, photoGroup);
         } else if (challenge.kind === "map") {
           const zones = gameMaps.get(challenge.mapId);
           if (!zones) fail(label, `carte inconnue : ${challenge.mapId}`);

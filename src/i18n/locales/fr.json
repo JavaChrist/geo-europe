@@ -142,7 +142,7 @@
       "deleteAction": "Effacer mes résultats",
       "deleteIntro": "Efface tous les résultats de parcours enregistrés sur cet appareil.",
       "deleteTitle": "Effacer vos résultats ?",
-      "deleteBody": "Scores, étoiles et nombre de parties seront définitivement effacés de cet appareil.",
+      "deleteBody": "Scores, étoiles, nombre de parties et questions déjà rencontrées seront définitivement effacés de cet appareil.",
       "deletedTitle": "Résultats effacés",
       "deletedBody": "Plus aucun résultat n'est enregistré sur cet appareil."
     },

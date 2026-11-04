@@ -133,8 +133,17 @@ export interface ChallengeAnswer {
   labelKey: string;
 }
 
+/** 1 : accessible, 2 : intermédiaire, 3 : difficile. */
+export type QuestionDifficulty = 1 | 2 | 3;
+
 interface ChallengeBase {
+  /** Identifiant stable : l'historique du joueur s'y réfère. */
   id: string;
+  /** Thème de la question, libre pour chaque pays. Sert à varier une partie. */
+  category: string;
+  difficulty: QuestionDifficulty;
+  /** Les questions d'un même groupe se donnent la réponse : une seule par partie. */
+  group?: string;
   promptKey: string;
   answers: ChallengeAnswer[];
   /** Id de la bonne réponse. */
@@ -177,7 +186,10 @@ export interface Level {
   nameKey: string;
   descriptionKey: string;
   stars: StarThresholds;
-  challenges: LevelChallenge[];
+  /** Difficulté la plus haute admise dans une partie de ce niveau. */
+  maxDifficulty: QuestionDifficulty;
+  /** Banque du niveau. Chaque partie y tire ses défis, voir question-selection.ts. */
+  questions: LevelChallenge[];
   /** Cartes souvenirs gagnées en terminant le niveau. */
   rewardCardIds: string[];
 }

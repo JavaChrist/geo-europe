@@ -17,9 +17,10 @@ import {
   type LevelRun,
   type StarCount,
 } from "@/engine/level-run";
+import { questionsPerRunOf, selectQuestions } from "@/engine/question-selection";
 import type { Level } from "@/engine/types";
 import { useTranslation } from "@/i18n/I18nProvider";
-import { type LevelRecord, recordLevelResult } from "@/services/local-progress";
+import { type LevelRecord, readQuestionHistory, recordLevelResult } from "@/services/local-progress";
 import { BackLink } from "@/ui/BackLink";
 import { useModal } from "@/ui/modal/ModalProvider";
 import { ChallengeView } from "./ChallengeView";
@@ -43,13 +44,14 @@ export function LevelGame({ level, backHref, backLabel }: LevelGameProps) {
   const { t, tContent } = useTranslation();
   const modal = useModal();
   const router = useRouter();
-  // La partie démarre au clic : l'ordre aléatoire des réponses n'existe pas au rendu serveur.
+  // La partie démarre au clic : le tirage et l'ordre des réponses n'existent pas au rendu serveur.
   const [run, setRun] = useState<LevelRun | null>(null);
   const [outcome, setOutcome] = useState<Outcome | null>(null);
 
   const start = () => {
     setOutcome(null);
-    setRun(startRun(level, Math.random));
+    const history = readQuestionHistory(content.country.code, level.id);
+    setRun(startRun(level, selectQuestions(level, history, Math.random), Math.random));
   };
 
   const finish = (finished: LevelRun) => {
@@ -57,7 +59,7 @@ export function LevelGame({ level, backHref, backLabel }: LevelGameProps) {
     const stars = starsFor(score, level.stars);
     let record: LevelRecord | null = null;
     try {
-      record = recordLevelResult(content.country.code, level.id, score, stars);
+      record = recordLevelResult(content.country.code, level.id, score, stars, finished.results);
     } catch (error) {
       void modal.error(error);
     }
@@ -67,7 +69,7 @@ export function LevelGame({ level, backHref, backLabel }: LevelGameProps) {
 
   const next = () => {
     if (!run) return;
-    if (isRunOver(run, level)) finish(run);
+    if (isRunOver(run)) finish(run);
     else setRun(nextChallenge(run, level, Math.random));
   };
 
@@ -112,7 +114,7 @@ export function LevelGame({ level, backHref, backLabel }: LevelGameProps) {
           <p className="text-ink-soft">{tContent(level.descriptionKey)}</p>
           <h2 className="font-display text-xl font-semibold">{t("journey.rules.title")}</h2>
           <ul className="flex list-disc flex-col gap-2 pl-5 text-ink-soft">
-            <li>{t("journey.rules.challenges", { count: level.challenges.length })}</li>
+            <li>{t("journey.rules.challenges", { count: questionsPerRunOf(level) })}</li>
             <li>{t("journey.rules.attempts", { count: LEVEL_RULES.maxAttempts })}</li>
             <li>{t("journey.rules.jokers", { count: LEVEL_RULES.jokersPerLevel })}</li>
             <li>
