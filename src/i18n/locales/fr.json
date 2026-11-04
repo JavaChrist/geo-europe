@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "description": "Découvrez toutes les régions de France en jouant."
+  },
+  "common": {
+    "ok": "OK",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "delete": "Supprimer",
+    "buy": "Acheter",
+    "continue": "Continuer",
+    "backHome": "Retour à l'accueil",
+    "retry": "Réessayer"
+  },
+  "home": {
+    "tagline": "Aventure et découverte, région après région.",
+    "regionsTitle": "Les régions",
+    "regionCount": {
+      "one": "{count} région à explorer",
+      "other": "{count} régions à explorer"
+    },
+    "statusDraft": "En préparation",
+    "statusPublished": "Disponible",
+    "demoLink": "Voir les modales"
+  },
+  "errors": {
+    "unknown": {
+      "title": "Un problème est survenu",
+      "body": "L'action n'a pas abouti. Réessayez dans un instant."
+    },
+    "network": {
+      "title": "Connexion indisponible",
+      "body": "Vérifiez votre connexion Internet. Les contenus déjà installés restent accessibles."
+    },
+    "storage": {
+      "title": "Sauvegarde impossible",
+      "body": "Votre progression n'a pas pu être enregistrée sur cet appareil."
+    },
+    "contentUnavailable": {
+      "title": "Contenu indisponible",
+      "body": "Ce contenu n'est pas disponible pour le moment."
+    },
+    "paymentFailed": {
+      "title": "Paiement non abouti",
+      "body": "Aucun montant n'a été validé. Vous pouvez réessayer."
+    }
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "body": "Cette page n'existe pas ou a été déplacée."
+  },
+  "demo": {
+    "title": "Modales",
+    "intro": "Écran de contrôle du système de modales. Aucune action n'est réellement effectuée.",
+    "lastResult": "Dernier résultat : {result}",
+    "resultNone": "aucun",
+    "resultConfirmed": "confirmé",
+    "resultCancelled": "annulé",
+    "resultClosed": "fermé",
+    "open": {
+      "info": "Information",
+      "success": "Succès",
+      "error": "Erreur",
+      "confirm": "Confirmation",
+      "destructive": "Suppression",
+      "purchase": "Achat",
+      "reward": "Récompense",
+      "queue": "Deux modales à la suite"
+    },
+    "info": {
+      "title": "Le saviez-vous ?",
+      "body": "La France compte {count} régions, dont cinq en outre-mer."
+    },
+    "success": {
+      "title": "Progression enregistrée",
+      "body": "Votre partie a bien été sauvegardée sur cet appareil."
+    },
+    "confirm": {
+      "title": "Quitter la partie ?",
+      "body": "Votre progression dans ce niveau ne sera pas conservée."
+    },
+    "destructive": {
+      "title": "Supprimer ce profil ?",
+      "body": "Toute sa progression sera définitivement effacée de cet appareil."
+    },
+    "purchase": {
+      "title": "Passer à {app} Premium",
+      "body": "Achat unique de {price}, sans publicité. Démonstration : aucun paiement n'est lancé."
+    },
+    "reward": {
+      "title": "Nouvelle récompense",
+      "body": "Vous avez découvert une nouvelle carte de collection."
+    }
+  }
+}

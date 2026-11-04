@@ -1,0 +1,10 @@
+{
+  "id": "FR-BRE",
+  "slug": "bretagne",
+  "nameKey": "regions.bretagne",
+  "subdivisions": [],
+  "mapSvg": null,
+  "questionSetIds": [],
+  "mediaIds": [],
+  "status": "draft"
+}

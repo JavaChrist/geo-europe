@@ -1,0 +1,10 @@
+{
+  "id": "FR-PAC",
+  "slug": "provence-alpes-cote-d-azur",
+  "nameKey": "regions.provence-alpes-cote-d-azur",
+  "subdivisions": [],
+  "mapSvg": null,
+  "questionSetIds": [],
+  "mediaIds": [],
+  "status": "draft"
+}

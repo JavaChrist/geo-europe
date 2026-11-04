@@ -1,0 +1,10 @@
+{
+  "id": "FR-IDF",
+  "slug": "ile-de-france",
+  "nameKey": "regions.ile-de-france",
+  "subdivisions": [],
+  "mapSvg": null,
+  "questionSetIds": [],
+  "mediaIds": [],
+  "status": "draft"
+}

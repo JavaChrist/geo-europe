@@ -1,0 +1,10 @@
+{
+  "id": "FR-GES",
+  "slug": "grand-est",
+  "nameKey": "regions.grand-est",
+  "subdivisions": [],
+  "mapSvg": null,
+  "questionSetIds": [],
+  "mediaIds": [],
+  "status": "draft"
+}

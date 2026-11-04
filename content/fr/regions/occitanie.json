@@ -1,0 +1,10 @@
+{
+  "id": "FR-OCC",
+  "slug": "occitanie",
+  "nameKey": "regions.occitanie",
+  "subdivisions": [],
+  "mapSvg": null,
+  "questionSetIds": [],
+  "mediaIds": [],
+  "status": "draft"
+}
