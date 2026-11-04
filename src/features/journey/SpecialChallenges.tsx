@@ -19,10 +19,12 @@ interface SpecialChallengesProps {
   levelIds: string[];
   challenges: SpecialChallengeRules[];
   basePath: string;
+  /** Titre de la liste, par exemple le nom du territoire sur la page Défis. */
+  title?: string;
 }
 
 /** Entrées de fin de parcours, déduites de la configuration commune des défis. */
-export function SpecialChallenges({ territoryId, levelIds, challenges, basePath }: SpecialChallengesProps) {
+export function SpecialChallenges({ territoryId, levelIds, challenges, basePath, title }: SpecialChallengesProps) {
   const { t } = useTranslation();
   const records = useLevelRecords();
   const results = useChallengeRecords();
@@ -33,7 +35,7 @@ export function SpecialChallenges({ territoryId, levelIds, challenges, basePath 
 
   return (
     <section className="flex flex-col gap-3">
-      <h2 className="font-display text-xl font-semibold">{t("journey.specials.title")}</h2>
+      <h2 className="font-display text-xl font-semibold">{title ?? t("journey.specials.title")}</h2>
       {challenges.map((rules) => {
         const Icon = SPECIAL_ICONS[rules.kind];
         const name = t(`journey.specials.${rules.kind}.name`);

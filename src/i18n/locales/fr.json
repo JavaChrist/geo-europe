@@ -28,7 +28,8 @@
       "one": "{count} région à explorer",
       "other": "{count} régions à explorer"
     },
-    "challengeTitle": "Défi du jour",
+    "challengeTitle": "Défis",
+    "challengeNote": "Défi Maître et Défi Chrono",
     "familyTitle": "Mode Famille"
   },
   "explorer": {
@@ -511,11 +512,13 @@
       "open": "Voir la carte « {name} »"
     }
   },
+  "challenges": {
+    "title": "Défis",
+    "intro": "Terminez les niveaux d'un territoire pour débloquer son Défi Maître et son Défi Chrono.",
+    "empty": "Aucun défi n'est encore proposé.",
+    "openTerritory": "Voir le parcours : {name}"
+  },
   "soon": {
-    "challenges": {
-      "title": "Défis",
-      "body": "Le Défi du jour et les épreuves se préparent. Vous pourrez bientôt tester vos connaissances ici."
-    },
     "profile": {
       "title": "Profil",
       "body": "Vous pourrez bientôt créer vos profils de joueurs et suivre votre parcours."

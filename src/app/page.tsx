@@ -47,7 +47,7 @@ export default function HomePage() {
         {/* La progression du joueur prendra place ici quand elle existera : rien d'inventé d'ici là. */}
 
         <div className="hidden flex-col gap-3 lg:flex">
-          <SideCard href="/defis" title={t("home.challengeTitle")} note={t("common.comingSoon")} icon={Swords} />
+          <SideCard href="/defis" title={t("home.challengeTitle")} note={t("home.challengeNote")} icon={Swords} />
           <SideCard href="/famille" title={t("home.familyTitle")} note={t("common.comingSoon")} icon={UsersRound} />
         </div>
       </div>
@@ -68,7 +68,7 @@ export default function HomePage() {
       </Link>
 
       <div className="flex flex-col gap-3 lg:hidden">
-        <SideCard href="/defis" title={t("home.challengeTitle")} note={t("common.comingSoon")} icon={Swords} />
+        <SideCard href="/defis" title={t("home.challengeTitle")} note={t("home.challengeNote")} icon={Swords} />
         <SideCard href="/famille" title={t("home.familyTitle")} note={t("common.comingSoon")} icon={UsersRound} />
       </div>
     </main>
