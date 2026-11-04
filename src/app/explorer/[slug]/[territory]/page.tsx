@@ -5,6 +5,7 @@ import { previousSummary, summarizeLevel } from "@/engine/level-unlock";
 import type { TerritoryPlace } from "@/engine/types";
 import { CoverPhoto } from "@/features/journey/CoverPhoto";
 import { LevelCard } from "@/features/journey/LevelCard";
+import { TerritoryProgress } from "@/features/journey/ProgressPanels";
 import { findTerritory, regionSlugOf, territoryPath } from "@/features/journey/territories";
 import { getTranslator } from "@/i18n/translator";
 import { BackLink } from "@/ui/BackLink";
@@ -77,6 +78,7 @@ export default async function TerritoryPage({ params }: { params: Promise<{ slug
           <p className="rounded-3xl border border-gold/25 bg-surface/50 p-5 text-ink-soft">{t("journey.inPreparation")}</p>
         ) : (
           <>
+            <TerritoryProgress levels={territory.levels.map(summarizeLevel)} />
             {territory.levels.map((level, index) => (
               <LevelCard
                 key={level.id}

@@ -1,4 +1,5 @@
 import type { ChallengeResult, StarCount } from "@/engine/level-run";
+import { xpAfterRun } from "@/engine/progress-summary";
 import { EMPTY_HISTORY, type QuestionHistory, withRunResults } from "@/engine/question-selection";
 import { AppError } from "./app-error";
 
@@ -19,6 +20,8 @@ export interface LevelRecord {
   plays: number;
   /** Date ISO de la dernière partie terminée. */
   lastPlayedAt: string;
+  /** XP cumulés sur ce niveau, seul total impossible à recalculer. Absent des résultats enregistrés avant son arrivée. */
+  xp?: number;
 }
 
 export type LevelRecords = Record<string, LevelRecord>;
@@ -51,7 +54,8 @@ function isLevelRecord(value: unknown): value is LevelRecord {
     isCount(record.lastScore) &&
     isStars(record.lastStars) &&
     isCount(record.plays) &&
-    typeof record.lastPlayedAt === "string"
+    typeof record.lastPlayedAt === "string" &&
+    (record.xp === undefined || isCount(record.xp))
   );
 }
 
@@ -131,6 +135,7 @@ export function recordLevelResult(
     lastStars: stars,
     plays: (previous?.plays ?? 0) + 1,
     lastPlayedAt: new Date().toISOString(),
+    xp: xpAfterRun(previous, score),
   };
   const current = parseStored(readRaw(key));
   const stored: StoredProgress = {

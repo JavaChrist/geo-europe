@@ -17,6 +17,7 @@ import {
   submitAnswer,
 } from "../src/engine/level-run.ts";
 import { isLevelUnlocked, UNLOCK_RULES } from "../src/engine/level-unlock.ts";
+import { earnedXp, summarizeCountry, summarizeProgress, xpAfterRun, xpForScore } from "../src/engine/progress-summary.ts";
 import { EMPTY_HISTORY, questionsPerRunOf, SELECTION_RULES, selectQuestions, withRunResults } from "../src/engine/question-selection.ts";
 
 const answers = (count) => Array.from({ length: count }, (_, i) => ({ id: `a${i}`, labelKey: `k${i}` }));
@@ -235,6 +236,62 @@ for (let seed = 0; seed < 200; seed++) {
   assert.equal(isLevelUnlocked(previous, { niveau: { bestScore: 399 } }), false);
   assert.equal(isLevelUnlocked(previous, { niveau: { bestScore: 400 } }), true);
   assert.equal(isLevelUnlocked(previous, { autre: { bestScore: 800 } }), false);
+}
+
+// Progression cumulée : recalculée depuis les résultats, chaque niveau compté une fois pour son meilleur score.
+{
+  const stars = { one: 0, two: 400, three: 640 };
+  const levels = ["n1", "n2", "n3", "n4", "n5"].map((id) => ({ id, stars, maxScore: 800 }));
+
+  assert.deepEqual(summarizeProgress(levels, {}), { levelsFinished: 0, levelsTotal: 5, bestScoreTotal: 0, bestScoreMax: 4000, stars: 0, starsMax: 15, xp: 0 });
+
+  // XP : 10 points pour 1 XP, à l'unité inférieure.
+  assert.deepEqual([0, 9, 10, 725, 800].map(xpForScore), [0, 0, 1, 72, 80]);
+
+  // Un niveau terminé fait monter les compteurs, même à 0 point : une partie terminée vaut une étoile.
+  const zero = summarizeProgress(levels, { n1: { bestScore: 0, xp: 0 } });
+  assert.deepEqual([zero.levelsFinished, zero.bestScoreTotal, zero.stars, zero.xp], [1, 0, 1, 0]);
+
+  // Les cinq niveaux se cumulent.
+  const all = summarizeProgress(levels, {
+    n1: { bestScore: 725, xp: 72 },
+    n2: { bestScore: 800, xp: 80 },
+    n3: { bestScore: 400, xp: 40 },
+    n4: { bestScore: 399, xp: 39 },
+    n5: { bestScore: 640, xp: 64 },
+  });
+  assert.deepEqual(all, { levelsFinished: 5, levelsTotal: 5, bestScoreTotal: 2964, bestScoreMax: 4000, stars: 3 + 3 + 2 + 1 + 3, starsMax: 15, xp: 295 });
+
+  // Rejouer sans record : le total des points et les étoiles ne bougent pas, l'XP augmente.
+  const before = { bestScore: 725, xp: 72 };
+  const replayed = { bestScore: Math.max(725, 300), xp: xpAfterRun(before, 300) };
+  const [a, b] = [summarizeProgress(levels, { n1: before }), summarizeProgress(levels, { n1: replayed })];
+  assert.deepEqual([b.levelsFinished, b.bestScoreTotal, b.stars], [a.levelsFinished, a.bestScoreTotal, a.stars]);
+  assert.equal(b.xp, 72 + 30);
+
+  // Un record actualise le cumul.
+  const improved = summarizeProgress(levels, { n1: { bestScore: 800, xp: xpAfterRun(before, 800) } });
+  assert.deepEqual([improved.bestScoreTotal, improved.stars, improved.xp], [800, 3, 152]);
+
+  // Résultat enregistré avant l'XP : compté pour son meilleur score, puis complété à la partie suivante.
+  assert.equal(earnedXp({ bestScore: 725 }), 72);
+  assert.equal(xpAfterRun({ bestScore: 725 }, 100), 72 + 10);
+  assert.equal(xpAfterRun(undefined, 100), 10);
+
+  // Un résultat sans niveau correspondant ne compte pas.
+  assert.equal(summarizeProgress(levels, { ancien: { bestScore: 800, xp: 80 } }).levelsFinished, 0);
+
+  // Le pays applique les mêmes règles, un territoire sans niveau ne compte jamais comme exploré.
+  const territories = [
+    { id: "t1", levels },
+    { id: "t2", levels: [{ id: "autre", stars, maxScore: 800 }] },
+    { id: "vide", levels: [] },
+  ];
+  const records = { n1: { bestScore: 725, xp: 102 }, autre: { bestScore: 400, xp: 40 } };
+  const country = summarizeCountry(territories, records);
+  assert.deepEqual(country, { levelsFinished: 2, levelsTotal: 6, bestScoreTotal: 1125, bestScoreMax: 4800, stars: 5, starsMax: 18, xp: 142, territoriesExplored: 2 });
+  assert.equal(summarizeCountry(territories, {}).territoriesExplored, 0);
+  assert.equal(country.bestScoreTotal, summarizeProgress(levels, records).bestScoreTotal + summarizeProgress(territories[1].levels, records).bestScoreTotal);
 }
 
 // Banque insuffisante : la partie joue ce qui existe, sans rien inventer, même si les règles de diversité cèdent.

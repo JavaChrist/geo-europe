@@ -3,6 +3,7 @@
 import { Trash2 } from "lucide-react";
 import content from "@country";
 import { maxScoreOf, starsFor } from "@/engine/level-run";
+import { earnedXp } from "@/engine/progress-summary";
 import { useLevelRecords } from "@/features/journey/useLevelRecords";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { clearLevelRecords } from "@/services/local-progress";
@@ -33,6 +34,7 @@ export function LocalResultsList() {
               <span className="text-ink-soft">{t("journey.bestScore", { score: record.bestScore, max: maxScoreOf(level) })}</span>
               <span className="text-ink-soft">{t("privacy.localResults.lastScore", { score: record.lastScore, max: maxScoreOf(level) })}</span>
               <span className="text-ink-soft">{t("journey.stars", { count: starsFor(record.bestScore, level.stars) })}</span>
+              <span className="text-ink-soft">{t("privacy.localResults.xp", { count: earnedXp(record) })}</span>
               <span className="text-ink-soft">{t("journey.plays", { count: record.plays })}</span>
               <span className="text-ink-soft">
                 {t("privacy.localResults.lastPlayed", { date: dateFormat.format(new Date(record.lastPlayedAt)) })}

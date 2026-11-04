@@ -1,10 +1,14 @@
 import { UserRound } from "lucide-react";
 import Link from "next/link";
+import content from "@country";
+import { summarizeLevel } from "@/engine/level-unlock";
+import { NationalProgress } from "@/features/journey/ProgressPanels";
 import { getTranslator } from "@/i18n/translator";
 import { ComingSoon } from "@/ui/ComingSoon";
 
 export default function ProfilePage() {
   const { t } = getTranslator();
+  const territories = content.territories.map((territory) => ({ id: territory.id, levels: territory.levels.map(summarizeLevel) }));
   return (
     <ComingSoon
       icon={UserRound}
@@ -21,6 +25,8 @@ export default function ProfilePage() {
           {t("privacy.title")}
         </Link>
       }
-    />
+    >
+      <NationalProgress territories={territories} />
+    </ComingSoon>
   );
 }

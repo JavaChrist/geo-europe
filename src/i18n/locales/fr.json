@@ -68,6 +68,15 @@
       "one": "{count} étoile sur 3",
       "other": "{count} étoiles sur 3"
     },
+    "progress": {
+      "title": "Votre progression",
+      "levels": "Niveaux terminés",
+      "stars": "Étoiles",
+      "score": "Total des meilleurs scores",
+      "xp": "XP cumulés",
+      "territories": "Territoires explorés",
+      "ofTotal": "{value} / {total}"
+    },
     "deviceOnly": "Résultats enregistrés sur cet appareil uniquement.",
     "play": "Jouer",
     "replay": "Rejouer",
@@ -145,10 +154,11 @@
       "empty": "Aucun résultat n'est enregistré sur cet appareil.",
       "lastScore": "Dernier score : {score} sur {max}",
       "lastPlayed": "Dernière partie : {date}",
+      "xp": "XP cumulés : {count}",
       "deleteAction": "Effacer mes résultats",
       "deleteIntro": "Efface tous les résultats de parcours enregistrés sur cet appareil.",
       "deleteTitle": "Effacer vos résultats ?",
-      "deleteBody": "Scores, étoiles, nombre de parties et questions déjà rencontrées seront définitivement effacés de cet appareil.",
+      "deleteBody": "Scores, étoiles, XP, nombre de parties et questions déjà rencontrées seront définitivement effacés de cet appareil.",
       "deletedTitle": "Résultats effacés",
       "deletedBody": "Plus aucun résultat n'est enregistré sur cet appareil."
     },
@@ -182,7 +192,7 @@
           },
           "local": {
             "title": "Profils et progression sur l'appareil",
-            "body": "Aujourd'hui, le jeu ne demande ni compte, ni nom, ni adresse e-mail, ni âge, et ne crée aucun profil. Quand vous terminez un niveau, il enregistre le résultat dans le stockage local de votre navigateur ou de votre appareil : niveau joué, meilleur et dernier score, étoiles, nombre de parties et date de la dernière partie. Ces résultats ne sont pas envoyés à nos serveurs. Vous pouvez les consulter et les effacer dans les rubriques dédiées. Le jeu ne dépose lui-même ni cookie ni traceur publicitaire. Lorsque des profils locaux seront proposés, cette politique décrira ce qui est enregistré avant leur mise en service."
+            "body": "Aujourd'hui, le jeu ne demande ni compte, ni nom, ni adresse e-mail, ni âge, et ne crée aucun profil. Quand vous terminez un niveau, il enregistre le résultat dans le stockage local de votre navigateur ou de votre appareil : niveau joué, meilleur et dernier score, étoiles, XP gagnés, nombre de parties et date de la dernière partie. Ces résultats ne sont pas envoyés à nos serveurs. Vous pouvez les consulter et les effacer dans les rubriques dédiées. Le jeu ne dépose lui-même ni cookie ni traceur publicitaire. Lorsque des profils locaux seront proposés, cette politique décrira ce qui est enregistré avant leur mise en service."
           },
           "hosting": {
             "title": "Données techniques liées à l'hébergement",
