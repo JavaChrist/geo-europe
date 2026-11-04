@@ -53,6 +53,12 @@
     "levelsTitle": "Niveaux",
     "inPreparation": "Ce parcours se prépare : ses niveaux arriveront ici.",
     "notPlayed": "Pas encore joué",
+    "locked": {
+      "hint": {
+        "one": "Obtenez {count} étoile à « {level} » pour débloquer ce niveau.",
+        "other": "Obtenez {count} étoiles à « {level} » pour débloquer ce niveau."
+      }
+    },
     "bestScore": "Meilleur score : {score} sur {max}",
     "plays": {
       "one": "{count} partie",

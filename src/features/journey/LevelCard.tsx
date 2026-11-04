@@ -1,18 +1,39 @@
 "use client";
 
-import { ChevronRight, Play, RotateCcw } from "lucide-react";
+import { ChevronRight, Lock, Play, RotateCcw } from "lucide-react";
 import Link from "next/link";
-import type { Level } from "@/engine/types";
-import { maxScoreOf, starsFor } from "@/engine/level-run";
+import { starsFor } from "@/engine/level-run";
+import { isLevelUnlocked, type LevelSummary, UNLOCK_RULES } from "@/engine/level-unlock";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { StarRating } from "./StarRating";
 import { useLevelRecords } from "./useLevelRecords";
 
+interface LevelCardProps {
+  level: LevelSummary;
+  /** Niveau à réussir avant celui-ci, `null` pour le premier du parcours. */
+  previous: LevelSummary | null;
+  href: string;
+}
+
 /** Niveau d'un territoire, avec les résultats réellement enregistrés sur cet appareil. */
-export function LevelCard({ level, href }: { level: Level; href: string }) {
+export function LevelCard({ level, previous, href }: LevelCardProps) {
   const { t, tContent } = useTranslation();
-  const record = useLevelRecords()[level.id];
+  const records = useLevelRecords();
+  const record = records[level.id];
   const Icon = record ? RotateCcw : Play;
+
+  if (!isLevelUnlocked(previous, records)) {
+    return (
+      <div className="flex flex-col gap-3 rounded-3xl border border-gold/10 bg-surface/30 p-5">
+        <span className="font-display text-xl font-semibold text-ink-soft">{tContent(level.nameKey)}</span>
+        <span className="text-ink-soft">{tContent(level.descriptionKey)}</span>
+        <span className="flex items-start gap-2 text-sm font-semibold">
+          <Lock aria-hidden className="mt-0.5 size-4 shrink-0 text-gold" />
+          {previous && t("journey.locked.hint", { count: UNLOCK_RULES.stars, level: tContent(previous.nameKey) })}
+        </span>
+      </div>
+    );
+  }
 
   return (
     <Link
@@ -24,7 +45,7 @@ export function LevelCard({ level, href }: { level: Level; href: string }) {
       {record ? (
         <span className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
           <StarRating count={starsFor(record.bestScore, level.stars)} />
-          <span>{t("journey.bestScore", { score: record.bestScore, max: maxScoreOf(level) })}</span>
+          <span>{t("journey.bestScore", { score: record.bestScore, max: level.maxScore })}</span>
           <span className="text-ink-soft">{t("journey.plays", { count: record.plays })}</span>
         </span>
       ) : (

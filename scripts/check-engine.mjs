@@ -16,6 +16,7 @@ import {
   startRun,
   submitAnswer,
 } from "../src/engine/level-run.ts";
+import { isLevelUnlocked, UNLOCK_RULES } from "../src/engine/level-unlock.ts";
 import { EMPTY_HISTORY, questionsPerRunOf, SELECTION_RULES, selectQuestions, withRunResults } from "../src/engine/question-selection.ts";
 
 const answers = (count) => Array.from({ length: count }, (_, i) => ({ id: `a${i}`, labelKey: `k${i}` }));
@@ -31,12 +32,13 @@ const question = (id, overrides = {}) => ({
   answers: answers(4),
   ...overrides,
 });
-const levelWith = (questions, maxDifficulty = 2) => ({
+const levelWith = (questions, maxDifficulty = 2, minDifficulty = 1) => ({
   id: "niveau",
   slug: "niveau",
   nameKey: "n",
   descriptionKey: "d",
   stars: { one: 0, two: 400, three: 640 },
+  minDifficulty,
   maxDifficulty,
   rewardCardIds: [],
   questions,
@@ -219,6 +221,20 @@ for (let seed = 0; seed < 200; seed++) {
 {
   const mixed = levelWith([...Array.from({ length: 8 }, (_, i) => question(`f${i}`)), question("dure", { difficulty: 3 })], 1);
   for (let seed = 0; seed < 50; seed++) assert.equal(selectQuestions(mixed, EMPTY_HISTORY, seeded(seed)).includes("dure"), false);
+  const hard = levelWith([...Array.from({ length: 8 }, (_, i) => question(`d${i}`, { difficulty: 3 })), question("facile")], 3, 2);
+  for (let seed = 0; seed < 50; seed++) assert.equal(selectQuestions(hard, EMPTY_HISTORY, seeded(seed)).includes("facile"), false);
+  assert.equal(questionsPerRunOf(hard), 8);
+}
+
+// Déblocage : le premier niveau est ouvert, les suivants demandent deux étoiles au précédent.
+{
+  const previous = levelWith([]);
+  assert.equal(UNLOCK_RULES.stars, 2);
+  assert.equal(isLevelUnlocked(null, {}), true);
+  assert.equal(isLevelUnlocked(previous, {}), false);
+  assert.equal(isLevelUnlocked(previous, { niveau: { bestScore: 399 } }), false);
+  assert.equal(isLevelUnlocked(previous, { niveau: { bestScore: 400 } }), true);
+  assert.equal(isLevelUnlocked(previous, { autre: { bestScore: 800 } }), false);
 }
 
 // Banque insuffisante : la partie joue ce qui existe, sans rien inventer, même si les règles de diversité cèdent.

@@ -186,7 +186,8 @@ export interface Level {
   nameKey: string;
   descriptionKey: string;
   stars: StarThresholds;
-  /** Difficulté la plus haute admise dans une partie de ce niveau. */
+  /** Difficultés admises dans une partie de ce niveau, bornes comprises. */
+  minDifficulty: QuestionDifficulty;
   maxDifficulty: QuestionDifficulty;
   /** Banque du niveau. Chaque partie y tire ses défis, voir question-selection.ts. */
   questions: LevelChallenge[];

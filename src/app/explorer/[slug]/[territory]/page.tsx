@@ -1,6 +1,7 @@
 import { Building2, Castle, Compass, type LucideIcon, TreePine } from "lucide-react";
 import { notFound } from "next/navigation";
 import content from "@country";
+import { previousSummary, summarizeLevel } from "@/engine/level-unlock";
 import type { TerritoryPlace } from "@/engine/types";
 import { CoverPhoto } from "@/features/journey/CoverPhoto";
 import { LevelCard } from "@/features/journey/LevelCard";
@@ -76,8 +77,13 @@ export default async function TerritoryPage({ params }: { params: Promise<{ slug
           <p className="rounded-3xl border border-gold/25 bg-surface/50 p-5 text-ink-soft">{t("journey.inPreparation")}</p>
         ) : (
           <>
-            {territory.levels.map((level) => (
-              <LevelCard key={level.id} level={level} href={`${territoryPath(region.slug, territory.slug)}/${level.slug}`} />
+            {territory.levels.map((level, index) => (
+              <LevelCard
+                key={level.id}
+                level={summarizeLevel(level)}
+                previous={previousSummary(territory.levels, index)}
+                href={`${territoryPath(region.slug, territory.slug)}/${level.slug}`}
+              />
             ))}
             <p className="text-sm text-ink-soft">{t("journey.deviceOnly")}</p>
           </>

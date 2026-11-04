@@ -154,6 +154,8 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
     if (territory.status === "published" && territory.levels.length === 0) fail(where, "publié sans niveau");
 
     const cardIds = new Set(territory.souvenirCards.map((card) => card.id));
+    const questionIds = new Set();
+    const prompts = new Map();
     for (const level of territory.levels) {
       const at = `${where} ${level.id}`;
       keys.push(level.nameKey, level.descriptionKey);
@@ -161,7 +163,8 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
       // Un niveau terminé rapporte toujours au moins une étoile : le premier seuil vaut 0.
       // Une partie compte moins de 8 défis si la banque est insuffisante : les seuils doivent rester atteignables.
       if (!(one === 0 && one < two && two < three && three <= maxScoreOf(level))) fail(at, "seuils d'étoiles invalides");
-      if (!DIFFICULTIES.has(level.maxDifficulty)) fail(at, `difficulté invalide : ${level.maxDifficulty}`);
+      if (!DIFFICULTIES.has(level.maxDifficulty) || !DIFFICULTIES.has(level.minDifficulty)) fail(at, "difficulté invalide");
+      else if (level.minDifficulty > level.maxDifficulty) fail(at, "difficultés inversées");
       if (level.questions.length === 0) fail(at, "banque de questions vide");
       if (new Set(level.questions.map((challenge) => challenge.id)).size !== level.questions.length) fail(at, "défi en double");
       for (const id of level.rewardCardIds) {
@@ -174,7 +177,16 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
         keys.push(challenge.promptKey, challenge.hintKey, challenge.anecdoteKey, ...challenge.answers.map((answer) => answer.labelKey));
         if (typeof challenge.category !== "string" || !challenge.category) fail(label, "sans catégorie");
         if (!DIFFICULTIES.has(challenge.difficulty)) fail(label, `difficulté invalide : ${challenge.difficulty}`);
-        else if (challenge.difficulty > level.maxDifficulty) fail(label, "plus difficile que son niveau : jamais tirée");
+        else if (challenge.difficulty > level.maxDifficulty || challenge.difficulty < level.minDifficulty) fail(label, "hors de la difficulté de son niveau : jamais tirée");
+        // Une question n'appartient qu'à un niveau, et son historique se réfère à son id.
+        if (questionIds.has(challenge.id)) fail(label, "identifiant déjà utilisé dans le territoire");
+        questionIds.add(challenge.id);
+        for (const messages of Object.values(messagesByLocale)) {
+          const prompt = lookup(messages, challenge.promptKey);
+          if (typeof prompt !== "string") continue;
+          if (prompts.has(prompt)) fail(label, `énoncé déjà utilisé : ${prompts.get(prompt)}`);
+          prompts.set(prompt, challenge.id);
+        }
         if (new Set(answerIds).size !== answerIds.length) fail(label, "réponse en double");
         if (!answerIds.includes(challenge.answerId)) fail(label, "la bonne réponse n'est pas proposée");
         // Le joker retire deux mauvaises réponses d'un QCM : il lui en faut trois.

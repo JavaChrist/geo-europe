@@ -1,6 +1,6 @@
 "use client";
 
-import { Play } from "lucide-react";
+import { Lock, Play } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import content from "@country";
@@ -17,6 +17,7 @@ import {
   type LevelRun,
   type StarCount,
 } from "@/engine/level-run";
+import { isLevelUnlocked, type LevelSummary, UNLOCK_RULES } from "@/engine/level-unlock";
 import { questionsPerRunOf, selectQuestions } from "@/engine/question-selection";
 import type { Level } from "@/engine/types";
 import { useTranslation } from "@/i18n/I18nProvider";
@@ -25,9 +26,12 @@ import { BackLink } from "@/ui/BackLink";
 import { useModal } from "@/ui/modal/ModalProvider";
 import { ChallengeView } from "./ChallengeView";
 import { LevelResult } from "./LevelResult";
+import { useLevelRecords } from "./useLevelRecords";
 
 interface LevelGameProps {
   level: Level;
+  /** Niveau à réussir avant celui-ci, `null` pour le premier du parcours. */
+  previous: LevelSummary | null;
   backHref: string;
   backLabel: string;
 }
@@ -40,10 +44,11 @@ interface Outcome {
 }
 
 /** Déroulé d'un niveau. Tout vient du contenu : ce composant ne connaît aucun territoire. */
-export function LevelGame({ level, backHref, backLabel }: LevelGameProps) {
+export function LevelGame({ level, previous, backHref, backLabel }: LevelGameProps) {
   const { t, tContent } = useTranslation();
   const modal = useModal();
   const router = useRouter();
+  const unlocked = isLevelUnlocked(previous, useLevelRecords());
   // La partie démarre au clic : le tirage et l'ordre des réponses n'existent pas au rendu serveur.
   const [run, setRun] = useState<LevelRun | null>(null);
   const [outcome, setOutcome] = useState<Outcome | null>(null);
@@ -109,7 +114,14 @@ export function LevelGame({ level, backHref, backLabel }: LevelGameProps) {
         />
       )}
 
-      {!run && !outcome && (
+      {!run && !outcome && !unlocked && previous && (
+        <section className="fade-in flex items-start gap-3 rounded-3xl border border-gold/25 bg-surface/50 p-5">
+          <Lock aria-hidden className="mt-0.5 size-5 shrink-0 text-gold" />
+          <p>{t("journey.locked.hint", { count: UNLOCK_RULES.stars, level: tContent(previous.nameKey) })}</p>
+        </section>
+      )}
+
+      {!run && !outcome && unlocked && (
         <section className="fade-in flex flex-col gap-4 rounded-3xl border border-gold/25 bg-surface/50 p-5">
           <p className="text-ink-soft">{tContent(level.descriptionKey)}</p>
           <h2 className="font-display text-xl font-semibold">{t("journey.rules.title")}</h2>

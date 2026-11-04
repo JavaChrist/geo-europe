@@ -70,6 +70,74 @@
       "photoNidCigognes": {
         "title": "Nid sur le toit de l'église des Récollets, Rouffach",
         "alt": "Grand nid de branches posé sur une armature métallique, au sommet d'un toit de tuiles."
+      },
+      "photoNeufBrisach": {
+        "title": "Neuf-Brisach vue du ciel",
+        "alt": "Vue aérienne d'une ville fortifiée au plan en étoile, entourée de champs et de forêts."
+      },
+      "photoPontsCouverts": {
+        "title": "Les Ponts Couverts de Strasbourg",
+        "alt": "Trois tours médiévales carrées reliées par des ponts, reflétées dans l'eau d'une rivière."
+      },
+      "photoPalaisRohan": {
+        "title": "Le palais Rohan à Strasbourg",
+        "alt": "Façade classique en pierre claire, rythmée de hautes colonnes et de grandes fenêtres."
+      },
+      "photoSchoenenbourg": {
+        "title": "L'ouvrage de Schoenenbourg",
+        "alt": "Long tunnel souterrain éclairé, parcouru par des rails et bordé de citernes."
+      },
+      "photoPlatSundgau": {
+        "title": "Carpe frite du Sundgau",
+        "alt": "Plat ovale garni de morceaux de poisson panés et frits."
+      },
+      "photoPorteDolder": {
+        "title": "La porte du Dolder à Riquewihr",
+        "alt": "Rue pavée animée, bordée de maisons colorées, menant à une haute tour-porte à colombages."
+      },
+      "photoMurPaien": {
+        "title": "Le Mur païen",
+        "alt": "Mur de gros blocs de grès moussus, au milieu d'une forêt."
+      },
+      "photoHartmannswillerkopf": {
+        "title": "Le mémorial du Hartmannswillerkopf",
+        "alt": "Entrée d'un mémorial de pierre claire, au bout d'une allée, sous une colline portant un drapeau."
+      },
+      "photoPalaisDuRhin": {
+        "title": "Grille du palais du Rhin à Strasbourg",
+        "alt": "Grille de fer forgé bleue entre deux piliers de pierre, devant un grand bâtiment de grès."
+      },
+      "photoChateauLembach": {
+        "title": "Le château de Fleckenstein",
+        "alt": "Salle à ciel ouvert taillée dans un rocher de grès, avec une passerelle au-dessus."
+      },
+      "photoAbbatialeChoeur": {
+        "title": "L'abbatiale de Murbach",
+        "alt": "Église romane à deux tours carrées, nichée dans une vallée boisée."
+      },
+      "photoAbbatialeOctogone": {
+        "title": "Intérieur de l'abbatiale d'Ottmarsheim",
+        "alt": "Intérieur d'une église à plan centré, avec des arcades sur deux étages et une tribune de bois."
+      },
+      "photoGrandeEcluse": {
+        "title": "Le barrage Vauban à Strasbourg",
+        "alt": "Long bâtiment de pierre à arches, posé sur l'eau, avec des fleurs au premier plan."
+      },
+      "photoChateauScherwiller": {
+        "title": "Le château de l'Ortenbourg",
+        "alt": "Ruine de château fort sur un éperon boisé, vue du ciel, dominée par une haute tour."
+      },
+      "photoOrgueMarmoutier": {
+        "title": "L'orgue de l'abbatiale de Marmoutier",
+        "alt": "Nef sombre d'une église, avec un orgue en tribune sous une haute fenêtre."
+      },
+      "photoTroisChateaux": {
+        "title": "Les Trois-Châteaux d'Eguisheim",
+        "alt": "Trois donjons alignés au sommet d'une colline boisée."
+      },
+      "photoMuseeFerroviaire": {
+        "title": "Locomotives à la Cité du train",
+        "alt": "Trois locomotives anciennes, verte, noire et rouge, côte à côte dans un hall."
       }
     }
   },
@@ -94,7 +162,6 @@
     "mayotte": "Mayotte"
   },
   "departments": {
-    "08": "Ardennes",
     "10": "Aube",
     "51": "Marne",
     "52": "Haute-Marne",
@@ -103,7 +170,8 @@
     "57": "Moselle",
     "67": "Bas-Rhin",
     "68": "Haut-Rhin",
-    "88": "Vosges"
+    "88": "Vosges",
+    "08": "Ardennes"
   },
   "places": {
     "strasbourg": "Strasbourg",
@@ -126,9 +194,9 @@
       "name": "Alsace",
       "description": "Entre le massif des Vosges et le Rhin, l'Alsace réunit le Bas-Rhin et le Haut-Rhin. Sa ville la plus connue, ses saveurs et ses savoir-faire vous attendent.",
       "levels": {
-        "bienvenue": {
-          "name": "Bienvenue en Alsace",
-          "description": "Huit défis renouvelés à chaque partie : villes, saveurs, patrimoine, savoir-faire, traditions et grandes figures de l'Alsace.",
+        "decouverte": {
+          "name": "Découverte",
+          "description": "Les grands repères de l'Alsace : villes, saveurs, patrimoine et traditions, en huit défis renouvelés à chaque partie.",
           "q1": {
             "prompt": "Touchez sur la carte le département qui porte le numéro 67.",
             "hint": "Il borde le Rhin, tout au nord de l'Alsace.",
@@ -220,28 +288,6 @@
               "thann": "Thann"
             }
           },
-          "q11": {
-            "prompt": "En quelle année est née la Collectivité européenne d'Alsace ?",
-            "hint": "Elle a vu le jour au tout début des années 2020.",
-            "anecdote": "Elle est née le 1er janvier 2021 de la fusion des conseils départementaux du Bas-Rhin et du Haut-Rhin.",
-            "answers": {
-              "2016": "2016",
-              "2019": "2019",
-              "2021": "2021",
-              "2024": "2024"
-            }
-          },
-          "q12": {
-            "prompt": "Quelle rivière coule dans la Petite Venise de Colmar ?",
-            "hint": "Son nom est court et commence par un L.",
-            "anecdote": "La Lauch servait à acheminer les marchandises des maraîchers et des vignerons vers le Marché Couvert.",
-            "answers": {
-              "l-ill": "L'Ill",
-              "la-lauch": "La Lauch",
-              "la-moselle": "La Moselle",
-              "la-thur": "La Thur"
-            }
-          },
           "q13": {
             "prompt": "Dans quelle ville peut-on visiter la Cité de l'Automobile ?",
             "hint": "Cette ville se trouve dans le sud de l'Alsace.",
@@ -251,17 +297,6 @@
               "mulhouse": "Mulhouse",
               "selestat": "Sélestat",
               "strasbourg": "Strasbourg"
-            }
-          },
-          "q14": {
-            "prompt": "Quelle ville abrite la Bibliothèque humaniste ?",
-            "hint": "Elle se situe entre Strasbourg et Colmar.",
-            "anecdote": "Issue d'une école latine fondée en 1452, elle a reçu en 1547 les 670 volumes de Beatus Rhenanus. Elle est inscrite à la Mémoire du monde de l'Unesco depuis 2011.",
-            "answers": {
-              "colmar": "Colmar",
-              "saverne": "Saverne",
-              "selestat": "Sélestat",
-              "wissembourg": "Wissembourg"
             }
           },
           "q15": {
@@ -308,17 +343,6 @@
               "la-tourte": "La tourte"
             }
           },
-          "q19": {
-            "prompt": "Quel plat alsacien réunit bœuf, agneau et porc ?",
-            "hint": "C'est une potée mijotée, typique de l'Alsace.",
-            "anecdote": "Le baeckeoffe est une potée alsacienne qui mélange trois viandes différentes.",
-            "answers": {
-              "la-choucroute": "La choucroute",
-              "le-baeckeoffe": "Le baeckeoffe",
-              "le-presskopf": "Le presskopf",
-              "les-spatzle": "Les spätzle"
-            }
-          },
           "q20": {
             "prompt": "Quel fromage porte le nom d'une vallée et d'une ville alsaciennes ?",
             "hint": "Fromage au lait de vache, il se fabrique des deux côtés des Vosges.",
@@ -363,17 +387,6 @@
               "une-cigogne": "Une cigogne"
             }
           },
-          "q24": {
-            "prompt": "Quelle œuvre majeure peut-on voir au musée Unterlinden de Colmar ?",
-            "hint": "C'est un grand ensemble peint et sculpté.",
-            "anecdote": "Il a été réalisé de 1512 à 1516 par Grünewald et Nicolas de Haguenau.",
-            "answers": {
-              "la-joconde": "La Joconde",
-              "la-tapisserie-de-bayeux": "La Tapisserie de Bayeux",
-              "le-radeau-de-la-meduse": "Le Radeau de la Méduse",
-              "le-retable-d-issenheim": "Le Retable d'Issenheim"
-            }
-          },
           "q25": {
             "prompt": "Dans quelle commune se trouve l'Écomusée d'Alsace ?",
             "hint": "Elle se trouve au nord de Mulhouse.",
@@ -385,39 +398,6 @@
               "ungersheim": "Ungersheim"
             }
           },
-          "q26": {
-            "prompt": "Dans quelle commune du Bas-Rhin se trouvent le musée et la cristallerie Lalique ?",
-            "hint": "Son nom contient celui d'une rivière des Vosges du Nord.",
-            "anecdote": "La tradition verrière de la commune remonte au début du XVIIIe siècle. Meisenthal et Saint-Louis-lès-Bitche, eux, sont en Moselle.",
-            "answers": {
-              "meisenthal": "Meisenthal",
-              "saint-louis-les-bitche": "Saint-Louis-lès-Bitche",
-              "soufflenheim": "Soufflenheim",
-              "wingen-sur-moder": "Wingen-sur-Moder"
-            }
-          },
-          "q27": {
-            "prompt": "Quel tissu alsacien traditionnel est tissé en lin ou en chanvre ?",
-            "hint": "Il se reconnaît à ses teintes bleues et rouges sur fond écru.",
-            "anecdote": "Lié au Grand Ried et à Muttersholtz, le kelsch se décline traditionnellement en bleu et en rouge sur fond écru.",
-            "answers": {
-              "la-toile-de-jouy": "La toile de Jouy",
-              "le-kelsch": "Le kelsch",
-              "le-madras": "Le madras",
-              "le-vichy": "Le vichy"
-            }
-          },
-          "q28": {
-            "prompt": "Quel savoir-faire présente le musée installé à Rixheim ?",
-            "hint": "Il s'admire sur les murs.",
-            "anecdote": "La manufacture date de 1797. Le musée a ouvert en 1983, dans une ancienne commanderie teutonique.",
-            "answers": {
-              "l-horlogerie": "L'horlogerie",
-              "la-faience": "La faïence",
-              "le-cristal": "Le cristal",
-              "le-papier-peint": "Le papier peint"
-            }
-          },
           "q29": {
             "prompt": "Comment s'appelle le marché de Noël historique de Strasbourg ?",
             "hint": "Son nom alsacien évoque l'Enfant Jésus.",
@@ -427,17 +407,6 @@
               "le-christkindelsmarik": "Le Christkindelsmärik",
               "le-marche-saint-nicolas": "Le marché Saint-Nicolas",
               "le-striezelmarkt": "Le Striezelmarkt"
-            }
-          },
-          "q30": {
-            "prompt": "Quel personnage inquiétant du Noël alsacien s'inspirerait d'un chevalier brigand ?",
-            "hint": "Son prénom est germanique et il effraie les enfants désobéissants.",
-            "anecdote": "Hans Trapp serait inspiré de Hans von Trotta, chevalier du château de Berwartstein.",
-            "answers": {
-              "hans-trapp": "Hans Trapp",
-              "hansel": "Hansel",
-              "le-christkindel": "Le Christkindel",
-              "till-l-espiegle": "Till l'Espiègle"
             }
           },
           "q31": {
@@ -473,17 +442,6 @@
               "sainte-therese": "Sainte Thérèse"
             }
           },
-          "q34": {
-            "prompt": "Quel jeu traditionnel s'est surtout développé en Alsace et en Bourgogne ?",
-            "hint": "On y renverse des pièces avec une boule.",
-            "anecdote": "Apparu à la fin du XIXe siècle, le Ninepin Bowling Classic figure à l'inventaire du patrimoine culturel immatériel. Il a figuré aux Jeux olympiques de 1936.",
-            "answers": {
-              "la-pelote-basque": "La pelote basque",
-              "la-petanque": "La pétanque",
-              "le-jeu-de-paume": "Le jeu de paume",
-              "les-quilles-a-9": "Les quilles à 9"
-            }
-          },
           "q35": {
             "prompt": "Quelle œuvre célèbre doit-on à Auguste Bartholdi, né à Colmar ?",
             "hint": "Elle se dresse à New York.",
@@ -493,17 +451,6 @@
               "la-statue-de-la-liberte": "La statue de la Liberté",
               "la-tour-eiffel": "La tour Eiffel",
               "le-penseur": "Le Penseur"
-            }
-          },
-          "q36": {
-            "prompt": "Quel prix a reçu Albert Schweitzer, né à Kaysersberg ?",
-            "hint": "Il récompense l'engagement au service de l'humanité.",
-            "anecdote": "Né le 14 janvier 1875, Albert Schweitzer a fondé un hôpital à Lambaréné, au Gabon.",
-            "answers": {
-              "le-prix-goncourt": "Le prix Goncourt",
-              "le-prix-nobel-de-la-paix": "Le prix Nobel de la paix",
-              "le-prix-nobel-de-medecine": "Le prix Nobel de médecine",
-              "le-prix-pritzker": "Le prix Pritzker"
             }
           },
           "q37": {
@@ -548,6 +495,1903 @@
               "chelsea": "Chelsea",
               "liverpool": "Liverpool",
               "manchester-united": "Manchester United"
+            }
+          },
+          "dep-suisse-frontiere-haut-rhin": {
+            "prompt": "En plus de l'Allemagne, quel pays borde le Haut-Rhin ?",
+            "hint": "Ce pays commence tout près de Saint-Louis, dans le sud du département.",
+            "anecdote": "Le Haut-Rhin touche deux pays étrangers, et de nombreux habitants y traversent la frontière chaque jour pour aller travailler.",
+            "answers": {
+              "la-suisse": "La Suisse",
+              "le-luxembourg": "Le Luxembourg",
+              "la-belgique": "La Belgique",
+              "l-italie": "L'Italie"
+            }
+          },
+          "ville-strasbourg-parlement-europeen": {
+            "prompt": "Quelle institution européenne tient normalement ses sessions plénières à Strasbourg ?",
+            "hint": "Ses membres sont élus directement par les citoyens de l'Union.",
+            "anecdote": "Ses sessions plénières ont normalement lieu à Strasbourg quatre jours par mois, et l'institution siège aussi à Bruxelles et à Luxembourg.",
+            "answers": {
+              "le-parlement-europeen": "Le Parlement européen",
+              "la-commission-europeenne": "La Commission européenne",
+              "la-banque-centrale-europeenne": "La Banque centrale européenne",
+              "la-cour-de-justice-de-l-union-europeenne": "La Cour de justice de l'Union européenne"
+            }
+          },
+          "ville-kaysersberg-village-prefere": {
+            "prompt": "Quelle commune alsacienne a été élue Village préféré des Français en 2017 ?",
+            "hint": "Son nom évoque l'empereur et la montagne en allemand, et la Weiss la traverse.",
+            "anecdote": "Traversée par la Weiss, la cité est dominée par les ruines du château du Schlossberg, élevé au XIIIe siècle.",
+            "answers": {
+              "kaysersberg": "Kaysersberg",
+              "riquewihr": "Riquewihr",
+              "eguisheim": "Eguisheim",
+              "ribeauville": "Ribeauvillé"
+            }
+          },
+          "ville-neuf-brisach-vauban": {
+            "prompt": "Quel grand bâtisseur de Louis XIV a conçu la ville fortifiée de Neuf-Brisach ?",
+            "hint": "Cet ingénieur militaire a fortifié de nombreuses places aux frontières du royaume.",
+            "anecdote": "Créée de toutes pièces sur ordre de Louis XIV, la ville est inscrite au patrimoine mondial de l'UNESCO depuis 2008 avec onze autres sites de cet ingénieur.",
+            "answers": {
+              "vauban": "Vauban",
+              "andre-le-notre": "André Le Nôtre",
+              "jules-hardouin-mansart": "Jules Hardouin-Mansart",
+              "claude-perrault": "Claude Perrault"
+            }
+          },
+          "gastro-bretzel-forme": {
+            "prompt": "Quel pain alsacien se reconnaît à sa forme entrelacée ?",
+            "hint": "On le trouve souvent recouvert de gros sel.",
+            "anecdote": "Sa pâte levée est pochée dans un bain de soude, puis recouverte de gros sel avant la cuisson. Sa forme en fait un symbole de l'Alsace et de ses boulangers.",
+            "answers": {
+              "le-bretzel": "Le bretzel",
+              "le-manele": "Le manele",
+              "le-kougelhopf": "Le kougelhopf",
+              "le-streusel": "Le streusel"
+            }
+          },
+          "gastro-choucroute-fermentation": {
+            "prompt": "Quelle transformation donne au chou de la choucroute son goût acidulé ?",
+            "hint": "Ce procédé naturel se déroule sans cuisson et permet de conserver le légume.",
+            "anecdote": "La choucroute d'Alsace est obtenue par fermentation naturelle de feuilles de chou coupées en fines lanières. Ce procédé permettait de conserver le chou tout l'hiver.",
+            "answers": {
+              "la-fermentation": "La fermentation",
+              "le-fumage": "Le fumage",
+              "le-sechage": "Le séchage",
+              "la-cuisson-au-four": "La cuisson au four"
+            }
+          },
+          "savoir-gertwiller-pain-epices": {
+            "prompt": "Quelle spécialité a fait la renommée du village de Gertwiller ?",
+            "hint": "Il sent le miel et la cannelle, surtout à Noël.",
+            "anecdote": "Cette tradition y dure depuis plus de deux siècles, et deux fabricants y sont encore installés.",
+            "answers": {
+              "le-pain-d-epices": "Le pain d'épices",
+              "le-macaron": "Le macaron",
+              "le-nougat": "Le nougat",
+              "le-bretzel": "Le bretzel"
+            }
+          },
+          "savoir-mulhouse-manchester": {
+            "prompt": "Quelle ville alsacienne, grande cité textile, a été surnommée le « Manchester français » ?",
+            "hint": "Cette ville se trouve dans le Haut-Rhin, mais ce n'est pas sa préfecture.",
+            "anecdote": "Cette ancienne ville textile a vu ses usines fermer à partir des années 1950, puis s'est reconvertie, notamment avec l'arrivée de Peugeot en 1962.",
+            "answers": {
+              "mulhouse": "Mulhouse",
+              "colmar": "Colmar",
+              "selestat": "Sélestat",
+              "strasbourg": "Strasbourg"
+            }
+          },
+          "patrimoine-malgre-nous": {
+            "prompt": "Comment appelle-t-on les Alsaciens et les Mosellans incorporés de force dans l'armée allemande pendant la Seconde Guerre mondiale ?",
+            "hint": "Leur nom dit qu'ils n'ont pas choisi de porter cet uniforme.",
+            "anecdote": "Environ 130 000 hommes ont été incorporés de force. Selon les estimations, environ 40 000 ne sont jamais revenus.",
+            "answers": {
+              "les-malgre-nous": "Les Malgré-nous",
+              "les-refractaires": "Les Réfractaires",
+              "les-poilus": "Les Poilus",
+              "les-grognards": "Les Grognards"
+            }
+          },
+          "pers-marceau-mime": {
+            "prompt": "Quel célèbre mime, créateur du personnage de Bip, est né à Strasbourg en 1923 ?",
+            "hint": "Il a choisi son nom de scène pendant qu'il combattait dans la Résistance.",
+            "anecdote": "Né Marcel Mangel, il prend le nom de Marceau dans la Résistance en 1943. Son personnage de Bip apparaît en 1947 au Théâtre de Poche, à Paris.",
+            "answers": {
+              "marcel-marceau": "Marcel Marceau",
+              "jean-louis-barrault": "Jean-Louis Barrault",
+              "etienne-decroux": "Étienne Decroux",
+              "jacques-tati": "Jacques Tati"
+            }
+          },
+          "trad-christkindel": {
+            "prompt": "Quel personnage du Noël alsacien, vêtu de blanc et couronné de bougies, apporte les cadeaux aux enfants ?",
+            "hint": "Son nom évoque le Christ enfant.",
+            "anecdote": "Sa figure est rattachée à la Réforme protestante du XVIe siècle, quand saint Nicolas a perdu son rôle de porteur de cadeaux chez les réformés. Il est souvent représenté sous les traits d'une jeune fille voilée.",
+            "answers": {
+              "le-christkindel": "Le Christkindel",
+              "saint-nicolas": "Saint Nicolas",
+              "hans-trapp": "Hans Trapp",
+              "le-peckeresel": "Le Peckeresel"
+            }
+          }
+        },
+        "exploration": {
+          "name": "Exploration",
+          "description": "On quitte les cartes postales : des repères connus et des curiosités pour les visiteurs attentifs.",
+          "collectivite-europeenne-2021": {
+            "prompt": "En quelle année est née la Collectivité européenne d'Alsace ?",
+            "hint": "Elle a vu le jour au tout début des années 2020.",
+            "anecdote": "Elle est née le 1er janvier 2021 de la fusion des conseils départementaux du Bas-Rhin et du Haut-Rhin.",
+            "answers": {
+              "2016": "2016",
+              "2019": "2019",
+              "2021": "2021",
+              "2024": "2024"
+            }
+          },
+          "colmar-petite-venise": {
+            "prompt": "Quelle rivière coule dans la Petite Venise de Colmar ?",
+            "hint": "Son nom est court et commence par un L.",
+            "anecdote": "La Lauch servait à acheminer les marchandises des maraîchers et des vignerons vers le Marché Couvert.",
+            "answers": {
+              "l-ill": "L'Ill",
+              "la-lauch": "La Lauch",
+              "la-moselle": "La Moselle",
+              "la-thur": "La Thur"
+            }
+          },
+          "selestat-bibliotheque-humaniste": {
+            "prompt": "Quelle ville abrite la Bibliothèque humaniste ?",
+            "hint": "Elle se situe entre Strasbourg et Colmar.",
+            "anecdote": "Issue d'une école latine fondée en 1452, elle a reçu en 1547 les 670 volumes de Beatus Rhenanus. Elle est inscrite à la Mémoire du monde de l'Unesco depuis 2011.",
+            "answers": {
+              "colmar": "Colmar",
+              "saverne": "Saverne",
+              "selestat": "Sélestat",
+              "wissembourg": "Wissembourg"
+            }
+          },
+          "baeckeoffe": {
+            "prompt": "Quel plat alsacien réunit bœuf, agneau et porc ?",
+            "hint": "C'est une potée mijotée, typique de l'Alsace.",
+            "anecdote": "Le baeckeoffe est une potée alsacienne qui mélange trois viandes différentes.",
+            "answers": {
+              "la-choucroute": "La choucroute",
+              "le-baeckeoffe": "Le baeckeoffe",
+              "le-presskopf": "Le presskopf",
+              "les-spatzle": "Les spätzle"
+            }
+          },
+          "retable-issenheim": {
+            "prompt": "Quelle œuvre majeure peut-on voir au musée Unterlinden de Colmar ?",
+            "hint": "C'est un grand ensemble peint et sculpté.",
+            "anecdote": "Il a été réalisé de 1512 à 1516 par Grünewald et Nicolas de Haguenau.",
+            "answers": {
+              "la-joconde": "La Joconde",
+              "la-tapisserie-de-bayeux": "La Tapisserie de Bayeux",
+              "le-radeau-de-la-meduse": "Le Radeau de la Méduse",
+              "le-retable-d-issenheim": "Le Retable d'Issenheim"
+            }
+          },
+          "lalique-wingen": {
+            "prompt": "Dans quelle commune du Bas-Rhin se trouvent le musée et la cristallerie Lalique ?",
+            "hint": "Son nom contient celui d'une rivière des Vosges du Nord.",
+            "anecdote": "La tradition verrière de la commune remonte au début du XVIIIe siècle. Meisenthal et Saint-Louis-lès-Bitche, eux, sont en Moselle.",
+            "answers": {
+              "meisenthal": "Meisenthal",
+              "saint-louis-les-bitche": "Saint-Louis-lès-Bitche",
+              "soufflenheim": "Soufflenheim",
+              "wingen-sur-moder": "Wingen-sur-Moder"
+            }
+          },
+          "kelsch": {
+            "prompt": "Quel tissu alsacien traditionnel est tissé en lin ou en chanvre ?",
+            "hint": "Il se reconnaît à ses teintes bleues et rouges sur fond écru.",
+            "anecdote": "Lié au Grand Ried et à Muttersholtz, le kelsch se décline traditionnellement en bleu et en rouge sur fond écru.",
+            "answers": {
+              "la-toile-de-jouy": "La toile de Jouy",
+              "le-kelsch": "Le kelsch",
+              "le-madras": "Le madras",
+              "le-vichy": "Le vichy"
+            }
+          },
+          "zuber-rixheim": {
+            "prompt": "Quel savoir-faire présente le musée installé à Rixheim ?",
+            "hint": "Il s'admire sur les murs.",
+            "anecdote": "La manufacture date de 1797. Le musée a ouvert en 1983, dans une ancienne commanderie teutonique.",
+            "answers": {
+              "l-horlogerie": "L'horlogerie",
+              "la-faience": "La faïence",
+              "le-cristal": "Le cristal",
+              "le-papier-peint": "Le papier peint"
+            }
+          },
+          "hans-trapp": {
+            "prompt": "Quel personnage inquiétant du Noël alsacien s'inspirerait d'un chevalier brigand ?",
+            "hint": "Son prénom est germanique et il effraie les enfants désobéissants.",
+            "anecdote": "Hans Trapp serait inspiré de Hans von Trotta, chevalier du château de Berwartstein.",
+            "answers": {
+              "hans-trapp": "Hans Trapp",
+              "hansel": "Hansel",
+              "le-christkindel": "Le Christkindel",
+              "till-l-espiegle": "Till l'Espiègle"
+            }
+          },
+          "quilles-ninepin": {
+            "prompt": "Quel jeu traditionnel s'est surtout développé en Alsace et en Bourgogne ?",
+            "hint": "On y renverse des pièces avec une boule.",
+            "anecdote": "Apparu à la fin du XIXe siècle, le Ninepin Bowling Classic figure à l'inventaire du patrimoine culturel immatériel. Il a figuré aux Jeux olympiques de 1936.",
+            "answers": {
+              "la-pelote-basque": "La pelote basque",
+              "la-petanque": "La pétanque",
+              "le-jeu-de-paume": "Le jeu de paume",
+              "les-quilles-a-9": "Les quilles à 9"
+            }
+          },
+          "schweitzer": {
+            "prompt": "Quel prix a reçu Albert Schweitzer, né à Kaysersberg ?",
+            "hint": "Il récompense l'engagement au service de l'humanité.",
+            "anecdote": "Né le 14 janvier 1875, Albert Schweitzer a fondé un hôpital à Lambaréné, au Gabon.",
+            "answers": {
+              "le-prix-goncourt": "Le prix Goncourt",
+              "le-prix-nobel-de-la-paix": "Le prix Nobel de la paix",
+              "le-prix-nobel-de-medecine": "Le prix Nobel de médecine",
+              "le-prix-pritzker": "Le prix Pritzker"
+            }
+          },
+          "dep-mulhouse-plus-grande-ville-haut-rhin": {
+            "prompt": "Quelle est la plus grande ville du Haut-Rhin, sans en être la préfecture ?",
+            "hint": "Cette ville industrielle, traversée par l'Ill, se trouve à une trentaine de kilomètres de Bâle.",
+            "anecdote": "Avec 110 174 habitants en 2018, Mulhouse est de loin la plus grande ville du Haut-Rhin, dont la préfecture reste Colmar.",
+            "answers": {
+              "mulhouse": "Mulhouse",
+              "saint-louis": "Saint-Louis",
+              "guebwiller": "Guebwiller",
+              "thann": "Thann"
+            }
+          },
+          "dep-saverne-bas-rhin": {
+            "prompt": "Dans quel département se trouve la ville de Saverne ?",
+            "hint": "C'est le département alsacien dont la préfecture est Strasbourg.",
+            "anecdote": "Saverne est une sous-préfecture de ce département, à environ 5 km du col qui porte son nom.",
+            "answers": {
+              "le-bas-rhin": "Le Bas-Rhin",
+              "le-haut-rhin": "Le Haut-Rhin",
+              "la-moselle": "La Moselle",
+              "les-vosges": "Les Vosges"
+            }
+          },
+          "dep-altkirch-sundgau": {
+            "prompt": "Quelle sous-préfecture du Haut-Rhin se trouve au cœur du Sundgau ?",
+            "hint": "Cette petite ville est bâtie sur l'Ill, à 18 km au sud-sud-ouest de Mulhouse.",
+            "anecdote": "Son arrondissement, entre les contreforts du Jura et les Vosges, voit beaucoup d'habitants partir travailler de l'autre côté de la frontière suisse.",
+            "answers": {
+              "altkirch": "Altkirch",
+              "thann": "Thann",
+              "guebwiller": "Guebwiller",
+              "colmar": "Colmar"
+            }
+          },
+          "geo-allemagne-rive-rhin": {
+            "prompt": "Quel pays le Rhin sépare-t-il de l'Alsace ?",
+            "hint": "Ce pays a pour capitale Berlin.",
+            "anecdote": "Le fleuve sert de frontière entre les deux pays, le long du Bas-Rhin comme du Haut-Rhin.",
+            "answers": {
+              "l-allemagne": "L'Allemagne",
+              "l-autriche": "L'Autriche",
+              "le-luxembourg": "Le Luxembourg",
+              "la-belgique": "La Belgique"
+            }
+          },
+          "geo-route-cretes-premiere-guerre": {
+            "prompt": "Pendant quel conflit la Route des Crêtes a-t-elle été construite ?",
+            "hint": "Elle devait ravitailler un front installé dans les Vosges, entre 1914 et 1918.",
+            "anecdote": "Tracée pour acheminer matériel et vivres à l'abri des tirs, elle relie aujourd'hui Cernay à Sainte-Marie-aux-Mines et ferme en hiver.",
+            "answers": {
+              "la-premiere-guerre-mondiale": "La Première Guerre mondiale",
+              "la-guerre-de-1870": "La guerre de 1870",
+              "la-seconde-guerre-mondiale": "La Seconde Guerre mondiale",
+              "la-guerre-de-trente-ans": "La guerre de Trente Ans"
+            }
+          },
+          "geo-foret-noire": {
+            "prompt": "Quel massif allemand fait face aux Vosges, de l'autre côté de la plaine du Rhin ?",
+            "hint": "Le nom de ce massif évoque de sombres sapins.",
+            "anecdote": "Les Vosges et ce massif se répondent de part et d'autre de la vallée du Rhin.",
+            "answers": {
+              "la-foret-noire": "La Forêt-Noire",
+              "le-harz": "Le Harz",
+              "l-eifel": "L'Eifel",
+              "les-alpes-bavaroises": "Les Alpes bavaroises"
+            }
+          },
+          "geo-sundgau-sud": {
+            "prompt": "Dans quelle partie de l'Alsace se trouve le Sundgau ?",
+            "hint": "Cette région de collines commence après Mulhouse, en direction de la Suisse.",
+            "anecdote": "Pays de collines autour d'Altkirch, il a appartenu aux Habsbourg avant d'être cédé à la France par le traité de Münster, en 1648.",
+            "answers": {
+              "tout-au-sud": "Tout au sud",
+              "tout-au-nord": "Tout au nord",
+              "sur-les-cretes-de-l-ouest": "Sur les crêtes de l'ouest",
+              "autour-de-strasbourg": "Autour de Strasbourg"
+            }
+          },
+          "geo-ballon-sommet-arrondi": {
+            "prompt": "Dans les Vosges, que désigne le mot « ballon » ?",
+            "hint": "Le mot décrit la forme du relief vu de loin.",
+            "anecdote": "Le Petit Ballon et le ballon d'Alsace portent eux aussi ce nom, tout comme le parc naturel régional des Ballons des Vosges.",
+            "answers": {
+              "un-sommet-arrondi": "Un sommet arrondi",
+              "une-vallee-glaciaire": "Une vallée glaciaire",
+              "un-lac-d-altitude": "Un lac d'altitude",
+              "un-col-routier": "Un col routier"
+            }
+          },
+          "ville-saint-louis-bale": {
+            "prompt": "Près de quelle grande ville suisse se trouve Saint-Louis ?",
+            "hint": "Cette ville se trouve sur le Rhin, là où se rejoignent la France, la Suisse et l'Allemagne.",
+            "anecdote": "Saint-Louis n'est qu'à 4 km de cette ville, dans la région des trois frontières.",
+            "answers": {
+              "bale": "Bâle",
+              "zurich": "Zurich",
+              "geneve": "Genève",
+              "lausanne": "Lausanne"
+            }
+          },
+          "ville-molsheim-bugatti": {
+            "prompt": "Quelle marque automobile de prestige est née à Molsheim ?",
+            "hint": "Son fondateur, Ettore, était d'origine italienne.",
+            "anecdote": "Ettore Bugatti installe ses ateliers à Molsheim, sur la Bruche, au début du XXe siècle ; le siège de la marque est aujourd'hui établi dans la commune voisine de Dorlisheim.",
+            "answers": {
+              "bugatti": "Bugatti",
+              "peugeot": "Peugeot",
+              "delage": "Delage",
+              "hispano-suiza": "Hispano-Suiza"
+            }
+          },
+          "ville-euroairport-suisse": {
+            "prompt": "Avec quel pays la France partage-t-elle l'aéroport binational situé près de Saint-Louis ?",
+            "hint": "Bâle, l'une des villes qu'il dessert, se trouve dans ce pays.",
+            "anecdote": "Ouvert en 1946, l'EuroAirport se présente comme le seul aéroport binational au monde, bien qu'il soit entièrement bâti sur le sol français.",
+            "answers": {
+              "la-suisse": "La Suisse",
+              "l-allemagne": "L'Allemagne",
+              "le-luxembourg": "Le Luxembourg",
+              "l-italie": "L'Italie"
+            }
+          },
+          "gastro-cremant-effervescent": {
+            "prompt": "Comment s'appelle le vin effervescent d'appellation produit en Alsace ?",
+            "hint": "Son nom évoque une texture douce et onctueuse.",
+            "anecdote": "Il est élaboré selon la méthode traditionnelle, avec une seconde fermentation en bouteille. L'Alsace est la première région française productrice de crémant.",
+            "answers": {
+              "le-cremant": "Le crémant",
+              "le-champagne": "Le champagne",
+              "le-prosecco": "Le prosecco",
+              "le-cava": "Le cava"
+            }
+          },
+          "gastro-schiltigheim-biere": {
+            "prompt": "Quelle boisson est à l'honneur à Schiltigheim, avec ses brasseries et sa fête ?",
+            "hint": "Le houblon entre dans sa fabrication.",
+            "anecdote": "La brasserie de l'Espérance, ouverte en 1862, a fait la fierté de la ville.",
+            "answers": {
+              "la-biere": "La bière",
+              "le-cidre": "Le cidre",
+              "le-kirsch": "Le kirsch",
+              "le-vin-blanc": "Le vin blanc"
+            }
+          },
+          "gastro-carpe-frite-sundgau": {
+            "prompt": "Quelle spécialité est le plat typique du Sundgau, pays d'étangs du sud de l'Alsace ?",
+            "hint": "Ce poisson d'étang se mange panné et se déguste avec les doigts.",
+            "anecdote": "Panée puis frite, elle se mange avec les doigts, accompagnée de frites, de salade verte, de citron et de mayonnaise.",
+            "answers": {
+              "la-carpe-frite": "La carpe frite",
+              "la-truite-au-bleu": "La truite au bleu",
+              "le-sandre-roti": "Le sandre rôti",
+              "la-friture-de-perche": "La friture de perche"
+            }
+          },
+          "gastro-bouteille-flute": {
+            "prompt": "Comment s'appelle la bouteille élancée typique des vins d'Alsace ?",
+            "hint": "Elle porte le nom d'un instrument de musique à vent.",
+            "anecdote": "L'INAO la décrit comme la bouteille typique, réservée aux vins d'Alsace.",
+            "answers": {
+              "la-flute": "La flûte",
+              "la-bordelaise": "La bordelaise",
+              "la-bourguignonne": "La bourguignonne",
+              "le-clavelin": "Le clavelin"
+            }
+          },
+          "savoir-mine-argent": {
+            "prompt": "Quel métal extrayait-on à la mine Saint-Louis Eisenthür de Sainte-Marie-aux-Mines ?",
+            "hint": "Ce métal précieux a donné son nom à une médaille de deuxième place.",
+            "anecdote": "Son réseau, classé monument historique, compte près d'un kilomètre de galeries, où il fait environ 10 °C.",
+            "answers": {
+              "l-argent": "L'argent",
+              "l-or": "L'or",
+              "l-etain": "L'étain",
+              "le-zinc": "Le zinc"
+            }
+          },
+          "savoir-indiennes": {
+            "prompt": "Comment appelait-on les toiles de coton imprimées ou peintes fabriquées en Alsace au XVIIIe siècle ?",
+            "hint": "Leur nom rappelle un grand pays d'Asie.",
+            "anecdote": "Un décret royal de 1759 autorise leur fabrication en France, et Wesserling devient en 1762 une manufacture d'indiennes.",
+            "answers": {
+              "les-indiennes": "Les indiennes",
+              "les-gobelins": "Les gobelins",
+              "les-dentelles": "Les dentelles",
+              "les-soieries": "Les soieries"
+            }
+          },
+          "patrimoine-palais-rohan-musees": {
+            "prompt": "Quel palais de Strasbourg, bâti au XVIIIe siècle pour le prince-évêque, abrite aujourd'hui trois musées ?",
+            "hint": "Il porte le nom de la famille du cardinal qui l'a commandé.",
+            "anecdote": "Réalisé de 1732 à 1742 en grès jaune, il est devenu hôtel de ville après la Révolution. Il accueille depuis 1889 les musées des Beaux-Arts et archéologique, rejoints par les Arts décoratifs en 1918.",
+            "answers": {
+              "le-palais-rohan": "Le palais Rohan",
+              "le-palais-du-rhin": "Le palais du Rhin",
+              "le-palais-universitaire": "Le palais universitaire",
+              "le-palais-de-la-musique-et-des-congres": "Le palais de la Musique et des Congrès"
+            }
+          },
+          "patrimoine-ponts-couverts": {
+            "prompt": "Quel ensemble médiéval de Strasbourg réunit trois tours subsistantes de l'ancienne enceinte ?",
+            "hint": "Son nom rappelle des galeries de bois qui ont disparu en 1784.",
+            "anecdote": "Vers 1300, les ponts reçoivent des galeries de bois couvertes d'un toit, qui disparaissent en 1784. Les trois ponts actuels, en grès, datent de 1863-1865.",
+            "answers": {
+              "les-ponts-couverts": "Les Ponts Couverts",
+              "le-barrage-vauban": "Le barrage Vauban",
+              "le-quai-des-bateliers": "Le quai des Bateliers",
+              "la-place-du-chateau": "La place du Château"
+            }
+          },
+          "patrimoine-schoenenbourg-maginot": {
+            "prompt": "À quelle ligne de fortifications françaises appartient l'ouvrage de Schoenenbourg, à Hunspach ?",
+            "hint": "Elle a été édifiée entre 1929 et 1936 et porte le nom d'un ministre.",
+            "anecdote": "Construit de 1931 à 1935 à environ 30 m sous terre, l'ouvrage compte environ 3 km de galeries. Il n'a jamais été pris au combat et s'est rendu le 1er juillet 1940 sur ordre du Haut Commandement français.",
+            "answers": {
+              "la-ligne-maginot": "La ligne Maginot",
+              "la-ligne-sere-de-rivieres": "La ligne Séré de Rivières",
+              "la-ligne-siegfried": "La ligne Siegfried",
+              "le-mur-de-l-atlantique": "Le mur de l'Atlantique"
+            }
+          },
+          "patrimoine-natzweiler-struthof": {
+            "prompt": "Quel fut le seul camp de concentration nazi situé sur le territoire français actuel ?",
+            "hint": "Il se trouve dans le Bas-Rhin.",
+            "anecdote": "Ouvert le 1er mai 1941, il est découvert le 25 novembre 1944 par l'armée américaine, après son évacuation. Il compte parmi les dix hauts lieux de la mémoire nationale.",
+            "answers": {
+              "natzweiler-struthof": "Natzweiler-Struthof",
+              "schirmeck": "Schirmeck",
+              "drancy": "Drancy",
+              "gurs": "Gurs"
+            }
+          },
+          "pers-kleber-place": {
+            "prompt": "Quel général né à Strasbourg en 1753 a donné son nom à une grande place de la ville ?",
+            "hint": "Il a commandé l'armée d'Égypte.",
+            "anecdote": "Tué au Caire en 1800, il repose aujourd'hui sous un monument de bronze, sur la place qui porte son nom.",
+            "answers": {
+              "jean-baptiste-kleber": "Jean-Baptiste Kléber",
+              "louis-desaix": "Louis Desaix",
+              "lazare-hoche": "Lazare Hoche",
+              "francois-marceau": "François Marceau"
+            }
+          },
+          "pers-hansi-pseudonyme": {
+            "prompt": "Sous quel pseudonyme l'illustrateur colmarien Jean-Jacques Waltz est-il connu ?",
+            "hint": "Il est également surnommé « l'oncle », et ce nom ressemble à un diminutif de prénom.",
+            "anecdote": "Né à Colmar en 1873, il y succède à son père comme conservateur du musée Unterlinden. Ses villages fleuris, ses enfants en costume et ses cigognes sont restés célèbres.",
+            "answers": {
+              "hansi": "Hansi",
+              "tomi": "Tomi",
+              "schnock": "Schnock",
+              "knatschke": "Knatschke"
+            }
+          },
+          "pers-gutenberg-strasbourg": {
+            "prompt": "Quel pionnier de l'imprimerie a vécu à Strasbourg de 1434 à 1444 ?",
+            "hint": "Originaire de Mayence, il a sa statue sur une place strasbourgeoise qui porte son nom.",
+            "anecdote": "À Strasbourg, il fabrique notamment des miroirs de pèlerinage. Sa statue de bronze, œuvre de David d'Angers, se dresse depuis 1840 sur la place Gutenberg.",
+            "answers": {
+              "johannes-gutenberg": "Johannes Gutenberg",
+              "alde-manuce": "Alde Manuce",
+              "christophe-plantin": "Christophe Plantin",
+              "william-caxton": "William Caxton"
+            }
+          },
+          "trad-mannele-saint-nicolas": {
+            "prompt": "Quel jour offre-t-on traditionnellement aux enfants alsaciens le mannele, une brioche en forme de petit bonhomme ?",
+            "hint": "Cette fête d'un saint évêque tombe au début du mois de décembre.",
+            "anecdote": "Les boulangeries alsaciennes préparent les mannele dès le soir du 5 décembre. En alsacien, leur nom signifie simplement « petit homme ».",
+            "answers": {
+              "le-6-decembre-a-la-saint-nicolas": "Le 6 décembre, à la Saint-Nicolas",
+              "le-24-decembre-veille-de-noel": "Le 24 décembre, veille de Noël",
+              "le-6-janvier-a-l-epiphanie": "Le 6 janvier, à l'Épiphanie",
+              "le-2-fevrier-a-la-chandeleur": "Le 2 février, à la Chandeleur"
+            }
+          },
+          "trad-chou-krautergersheim": {
+            "prompt": "Quel légume le village de Krautergersheim fête-t-il chaque automne ?",
+            "hint": "Ce légume est à la base d'un plat alsacien emblématique.",
+            "anecdote": "Le nom du village porte la trace de ce légume : « Kraut » signifie « chou ». La fête se tient le dernier week-end de septembre et le premier samedi d'octobre.",
+            "answers": {
+              "le-chou": "Le chou",
+              "l-asperge": "L'asperge",
+              "l-oignon": "L'oignon",
+              "la-betterave": "La betterave"
+            }
+          },
+          "trad-alsacien-famille-germanique": {
+            "prompt": "À quelle famille de langues appartiennent les dialectes alsaciens ?",
+            "hint": "Ces parlers sont apparentés à ceux que l'on entend de l'autre côté du Rhin.",
+            "anecdote": "Leur histoire commence à partir du IVe siècle avec les invasions germaniques : les Alamans arrivent d'abord, puis les Francs prennent l'ascendant au début du VIe siècle.",
+            "answers": {
+              "les-langues-germaniques": "Les langues germaniques",
+              "les-langues-romanes": "Les langues romanes",
+              "les-langues-celtiques": "Les langues celtiques",
+              "les-langues-slaves": "Les langues slaves"
+            }
+          },
+          "trad-corso-dahlias-selestat": {
+            "prompt": "Quelle fleur recouvre les chars du Corso fleuri de Sélestat ?",
+            "hint": "Cette fleur d'été aux nombreux pétales se récolte encore en août.",
+            "anecdote": "Environ 500 000 fleurs habillent une douzaine de chars. Le Corso a été officialisé en 1929 par le maire Auguste Bronner.",
+            "answers": {
+              "le-dahlia": "Le dahlia",
+              "la-rose": "La rose",
+              "la-tulipe": "La tulipe",
+              "le-geranium": "Le géranium"
+            }
+          },
+          "trad-thann-trois-sapins": {
+            "prompt": "Dans quelle ville du Haut-Rhin brûle-t-on trois sapins chaque 30 juin au soir ?",
+            "hint": "Cette ville de la vallée de la Thur est connue pour sa collégiale.",
+            "anecdote": "Les trois sapins sont embrasés vers 23 heures sur la place Joffre, devant le public venu assister à la crémation.",
+            "answers": {
+              "thann": "Thann",
+              "guebwiller": "Guebwiller",
+              "munster": "Munster",
+              "cernay": "Cernay"
+            }
+          }
+        },
+        "connaissance": {
+          "name": "Connaissance",
+          "description": "Histoire, terroirs et traditions : il faut désormais connaître l'Alsace au-delà de ses grands symboles.",
+          "dep-quatre-sous-prefectures-bas-rhin": {
+            "prompt": "Combien de sous-préfectures compte le Bas-Rhin ?",
+            "hint": "Il y en a une de plus que dans le Haut-Rhin.",
+            "anecdote": "Ce sont Haguenau-Wissembourg, Molsheim, Saverne et Sélestat, la préfecture restant à Strasbourg.",
+            "answers": {
+              "quatre": "Quatre",
+              "deux": "Deux",
+              "six": "Six",
+              "huit": "Huit"
+            }
+          },
+          "dep-territoire-de-belfort": {
+            "prompt": "Quel département est né de la partie du Haut-Rhin restée française après 1871 ?",
+            "hint": "Sa ville principale est connue pour sa citadelle et son grand lion de pierre.",
+            "anecdote": "En 1871, l'essentiel de l'Alsace passe à l'Allemagne, mais ce secteur francophone reste français ; il devient officiellement un département en 1922.",
+            "answers": {
+              "le-territoire-de-belfort": "Le Territoire de Belfort",
+              "les-vosges": "Les Vosges",
+              "le-doubs": "Le Doubs",
+              "la-haute-saone": "La Haute-Saône"
+            }
+          },
+          "dep-haguenau-wissembourg": {
+            "prompt": "Avec quelle ville Haguenau partage-t-elle sa sous-préfecture ?",
+            "hint": "Cette ville se trouve encore plus au nord, tout contre la frontière allemande.",
+            "anecdote": "Cette sous-préfecture double couvre le nord du Bas-Rhin, de Haguenau, sur la Moder, jusqu'à la Lauter et la frontière.",
+            "answers": {
+              "wissembourg": "Wissembourg",
+              "saverne": "Saverne",
+              "molsheim": "Molsheim",
+              "selestat": "Sélestat"
+            }
+          },
+          "geo-ried": {
+            "prompt": "Quel nom porte la plaine humide marquée par d'anciens bras du Rhin ?",
+            "hint": "Ce nom très court désigne une zone longtemps inondable, le long du fleuve.",
+            "anecdote": "Cette plaine d'inondation du Rhin garde la trace d'anciens bras marécageux du fleuve.",
+            "answers": {
+              "le-ried": "Le Ried",
+              "le-kochersberg": "Le Kochersberg",
+              "le-sundgau": "Le Sundgau",
+              "la-hardt": "La Hardt"
+            }
+          },
+          "geo-col-saverne-plateau-lorrain": {
+            "prompt": "Le col de Saverne fait passer de la plaine d'Alsace à quel plateau ?",
+            "hint": "Il s'agit de la région voisine d'Alsace, à l'ouest des Vosges.",
+            "anecdote": "À 410 m d'altitude, ce grand passage ouest-est est emprunté par la route, tandis que l'autoroute de l'Est passe plus au nord et le canal de la Marne au Rhin plus au sud.",
+            "answers": {
+              "le-plateau-lorrain": "Le plateau lorrain",
+              "le-plateau-de-langres": "Le plateau de Langres",
+              "le-plateau-suisse": "Le plateau suisse",
+              "le-plateau-de-millevaches": "Le plateau de Millevaches"
+            }
+          },
+          "geo-grand-canal-hydroelectricite": {
+            "prompt": "À quoi sert surtout le Grand Canal d'Alsace ?",
+            "hint": "Kembs, Ottmarsheim et Vogelgrun y abritent de grands équipements.",
+            "anecdote": "Ce canal latéral au Rhin alimente plusieurs centrales, notamment à Kembs, Ottmarsheim, Fessenheim et Vogelgrun.",
+            "answers": {
+              "a-produire-de-l-hydroelectricite": "À produire de l'hydroélectricité",
+              "a-irriguer-le-vignoble": "À irriguer le vignoble",
+              "a-alimenter-strasbourg-en-eau-potable": "À alimenter Strasbourg en eau potable",
+              "a-relier-le-rhin-a-la-seine": "À relier le Rhin à la Seine"
+            }
+          },
+          "geo-ill-source-jura": {
+            "prompt": "Dans quel massif l'Ill prend-elle sa source ?",
+            "hint": "Ce massif marque la limite sud de l'Alsace, vers la Suisse.",
+            "anecdote": "L'Ill naît au Glaserberg, à Winkel, passe à Altkirch, Mulhouse, Colmar, Sélestat et Strasbourg, puis rejoint le Rhin.",
+            "answers": {
+              "le-jura": "Le Jura",
+              "les-vosges": "Les Vosges",
+              "la-foret-noire": "La Forêt-Noire",
+              "les-alpes": "Les Alpes"
+            }
+          },
+          "geo-petite-camargue-alsacienne": {
+            "prompt": "Quelle réserve, près de Saint-Louis, est la première réserve naturelle nationale d'Alsace ?",
+            "hint": "Son nom rappelle celui d'une célèbre zone humide du delta du Rhône.",
+            "anecdote": "Classée en 1982, elle occupe un ancien lit majeur du Rhin sur environ 15 km de long.",
+            "answers": {
+              "la-petite-camargue-alsacienne": "La Petite Camargue alsacienne",
+              "la-reserve-du-frankenthal-missheimle": "La réserve du Frankenthal-Missheimle",
+              "la-foret-d-erstein": "La forêt d'Erstein",
+              "la-reserve-du-rhin-de-rhinau": "La réserve du Rhin de Rhinau"
+            }
+          },
+          "ville-riquewihr-dolder": {
+            "prompt": "Dans quelle cité du vignoble se dresse la porte du Dolder ?",
+            "hint": "Cette cité se trouve à 13 km au nord-ouest de Colmar.",
+            "anecdote": "Cette porte du XIIIe siècle veille sur une cité d'environ 1 100 habitants.",
+            "answers": {
+              "riquewihr": "Riquewihr",
+              "ribeauville": "Ribeauvillé",
+              "bergheim": "Bergheim",
+              "turckheim": "Turckheim"
+            }
+          },
+          "ville-obernai-mont-sainte-odile": {
+            "prompt": "Quelle ville se trouve au pied du mont Sainte-Odile, à environ 12 km de son abbaye ?",
+            "hint": "Cette ville du Bas-Rhin est aussi associée à une brasserie.",
+            "anecdote": "L'abbaye voisine, fondée au VIIe siècle au sommet du mont, conserve le tombeau de la sainte.",
+            "answers": {
+              "obernai": "Obernai",
+              "saverne": "Saverne",
+              "thann": "Thann",
+              "ribeauville": "Ribeauvillé"
+            }
+          },
+          "ville-strasbourg-rang-port": {
+            "prompt": "Quel rang occupe le port de Strasbourg parmi les ports fluviaux français ?",
+            "hint": "Seul un autre port fluvial français, sur la Seine, le devance.",
+            "anecdote": "Implanté sur le Rhin, le Port autonome de Strasbourg a été créé par une loi du 26 avril 1924.",
+            "answers": {
+              "le-deuxieme": "Le deuxième",
+              "le-premier": "Le premier",
+              "le-quatrieme": "Le quatrième",
+              "le-septieme": "Le septième"
+            }
+          },
+          "ville-wissembourg-lauter": {
+            "prompt": "Quelle ville du nord de l'Alsace, arrosée par la Lauter, touche la frontière allemande ?",
+            "hint": "Elle partage sa sous-préfecture avec une ville située plus au sud, près d'une grande forêt.",
+            "anecdote": "En aval de la ville, la Lauter marque la frontière entre la France et l'Allemagne jusqu'au Rhin.",
+            "answers": {
+              "wissembourg": "Wissembourg",
+              "haguenau": "Haguenau",
+              "saverne": "Saverne",
+              "niederbronn-les-bains": "Niederbronn-les-Bains"
+            }
+          },
+          "gastro-spaetzle-moineau": {
+            "prompt": "Quel oiseau a donné son nom aux spätzle ?",
+            "hint": "C'est un petit oiseau très commun, en ville comme à la campagne.",
+            "anecdote": "Le nom vient de « Spatzen », les moineaux. Une fois dressées dans l'assiette, ces petites pâtes font penser à un nid d'oiseau.",
+            "answers": {
+              "le-moineau": "Le moineau",
+              "le-merle": "Le merle",
+              "la-grive": "La grive",
+              "la-cigogne": "La cigogne"
+            }
+          },
+          "gastro-choucroute-surkrut": {
+            "prompt": "Que signifie le mot alsacien dont vient le français « choucroute » ?",
+            "hint": "Le mot décrit la saveur du plat.",
+            "anecdote": "« Choucroute » est une adaptation de l'alsacien « Sûrkrût », et n'a rien à voir avec une croûte.",
+            "answers": {
+              "chou-aigre": "Chou aigre",
+              "chou-sale": "Chou salé",
+              "chou-d-hiver": "Chou d'hiver",
+              "chou-de-ferme": "Chou de ferme"
+            }
+          },
+          "gastro-sept-cepages": {
+            "prompt": "De combien de cépages principaux les vins d'Alsace sont-ils généralement issus ?",
+            "hint": "Le nombre est le même que celui des jours de la semaine.",
+            "anecdote": "Parmi eux figurent le gewurztraminer, le pinot gris, le pinot blanc, le muscat et le sylvaner.",
+            "answers": {
+              "sept": "Sept",
+              "trois": "Trois",
+              "cinq": "Cinq",
+              "douze": "Douze"
+            }
+          },
+          "gastro-gewurz-epice": {
+            "prompt": "Que signifie le mot allemand « Gewürz », à l'origine du nom du gewurztraminer ?",
+            "hint": "On en trouve dans un pain alsacien de Gertwiller.",
+            "anecdote": "Le nom de ce cépage emblématique d'Alsace vient directement de ce mot allemand.",
+            "answers": {
+              "epice": "Épice",
+              "fleur": "Fleur",
+              "miel": "Miel",
+              "soleil": "Soleil"
+            }
+          },
+          "gastro-pinot-noir": {
+            "prompt": "Quel cépage est la grande exception rouge d'un vignoble alsacien surtout blanc ?",
+            "hint": "Son nom appartient à la même famille que deux cépages blancs d'Alsace.",
+            "anecdote": "Il est vinifié en rouge ou en rosé, et c'est le seul cépage autorisé pour le crémant d'Alsace rosé.",
+            "answers": {
+              "le-pinot-noir": "Le pinot noir",
+              "le-merlot": "Le merlot",
+              "la-syrah": "La syrah",
+              "le-gamay": "Le gamay"
+            }
+          },
+          "gastro-biere-1664": {
+            "prompt": "Quelle bière porte le nom de l'année où Jérôme Hatt a fondé sa brasserie à Strasbourg ?",
+            "hint": "C'est une année du XVIIe siècle.",
+            "anecdote": "La brasserie est bien plus ancienne que la marque, créée seulement en 1952.",
+            "answers": {
+              "1515": "1515",
+              "1664": "1664",
+              "1789": "1789",
+              "1870": "1870"
+            }
+          },
+          "gastro-kronenbourg-obernai": {
+            "prompt": "Dans quelle ville du Bas-Rhin se trouvent le siège et la brasserie de Kronenbourg ?",
+            "hint": "Cette ville se trouve au pied du Mont Sainte-Odile.",
+            "anecdote": "La famille Hatt a dirigé l'entreprise jusqu'en 1977. Le nom Kronenbourg vient d'un quartier de Strasbourg où elle s'était installée.",
+            "answers": {
+              "obernai": "Obernai",
+              "selestat": "Sélestat",
+              "saverne": "Saverne",
+              "wissembourg": "Wissembourg"
+            }
+          },
+          "savoir-musee-impression-mulhouse": {
+            "prompt": "Dans quelle ville peut-on visiter le Musée de l'impression sur étoffes ?",
+            "hint": "Cette ville du Haut-Rhin a bâti sa richesse sur le textile.",
+            "anecdote": "Ce musée, classé Musée de France en 2003, conserve environ 50 000 textiles.",
+            "answers": {
+              "mulhouse": "Mulhouse",
+              "colmar": "Colmar",
+              "strasbourg": "Strasbourg",
+              "guebwiller": "Guebwiller"
+            }
+          },
+          "savoir-hannong-faience": {
+            "prompt": "Quel art la dynastie Hannong a-t-elle illustré à Strasbourg au XVIIIe siècle ?",
+            "hint": "Il s'agit de terre cuite recouverte d'un émail.",
+            "anecdote": "Les premiers décors, bleu et blanc, imitent le style chinois. Ils laissent place vers le milieu du siècle à une inspiration rocaille.",
+            "answers": {
+              "la-faience": "La faïence",
+              "le-vitrail": "Le vitrail",
+              "l-orfevrerie": "L'orfèvrerie",
+              "la-tapisserie": "La tapisserie"
+            }
+          },
+          "savoir-wesserling-thur": {
+            "prompt": "Dans quelle vallée vosgienne se trouve l'ancienne manufacture textile de Wesserling ?",
+            "hint": "La rivière de cette vallée passe aussi à Thann.",
+            "anecdote": "En 1789, la manufacture emploie 1 400 salariés, dont beaucoup travaillent à domicile pour le filage et le tissage.",
+            "answers": {
+              "la-vallee-de-la-thur": "La vallée de la Thur",
+              "la-vallee-de-la-doller": "La vallée de la Doller",
+              "la-vallee-de-la-lauch": "La vallée de la Lauch",
+              "la-vallee-de-la-bruche": "La vallée de la Bruche"
+            }
+          },
+          "patrimoine-decapole": {
+            "prompt": "Comment appelle-t-on l'alliance de dix villes d'Alsace reconnue par l'empereur Charles IV au XIVe siècle ?",
+            "hint": "Son nom, formé sur le grec, évoque le nombre de ses villes.",
+            "anecdote": "Haguenau en était le chef-lieu, et Colmar, Sélestat ou Wissembourg en faisaient partie. Mulhouse la quitte au début du XVIe siècle pour rejoindre les Confédérés suisses, et Landau la remplace.",
+            "answers": {
+              "la-decapole": "La Décapole",
+              "la-hanse": "La Hanse",
+              "la-ligue-souabe": "La Ligue souabe",
+              "la-ligue-de-cambrai": "La Ligue de Cambrai"
+            }
+          },
+          "patrimoine-strasbourg-1681": {
+            "prompt": "En quelle année Strasbourg est-elle rattachée au royaume de France ?",
+            "hint": "C'est sous le règne de Louis XIV, plusieurs décennies après la guerre de Trente Ans.",
+            "anecdote": "Louis XIV y fait son entrée en octobre de la même année. La ville conserve la liberté de culte luthérien, tandis que la cathédrale est rendue aux catholiques.",
+            "answers": {
+              "1648": "1648",
+              "1681": "1681",
+              "1697": "1697",
+              "1714": "1714"
+            }
+          },
+          "patrimoine-traite-francfort": {
+            "prompt": "Quel traité cède l'Alsace à l'Empire allemand en 1871 ?",
+            "hint": "Il porte le nom d'une grande ville allemande et a été signé le 10 mai.",
+            "anecdote": "Il met fin à la guerre franco-allemande, en cédant aussi une partie de la Lorraine. Belfort, qui avait résisté, reste français.",
+            "answers": {
+              "le-traite-de-francfort": "Le traité de Francfort",
+              "le-traite-de-versailles": "Le traité de Versailles",
+              "le-traite-de-verdun": "Le traité de Verdun",
+              "le-traite-de-westphalie": "Le traité de Westphalie"
+            }
+          },
+          "patrimoine-concordat": {
+            "prompt": "Quel régime issu de 1801 organise encore les cultes en Alsace-Moselle ?",
+            "hint": "Conservé en 1918, il repose sur un accord avec le Saint-Siège.",
+            "anecdote": "La loi de 1905 n'a pas été rendue applicable dans le Bas-Rhin, le Haut-Rhin et la Moselle. Le Conseil constitutionnel a confirmé en 2013 la rémunération des pasteurs de ces départements.",
+            "answers": {
+              "le-concordat": "Le Concordat",
+              "l-edit-de-nantes": "L'édit de Nantes",
+              "la-constitution-civile-du-clerge": "La Constitution civile du clergé",
+              "la-loi-de-separation": "La loi de séparation"
+            }
+          },
+          "patrimoine-serments-strasbourg": {
+            "prompt": "Quel texte de 842, juré en langue romane et en tudesque, est considéré comme le plus ancien témoin écrit du français ?",
+            "hint": "Son nom désigne un engagement solennel pris dans une ville du Rhin.",
+            "anecdote": "Le 14 février 842, Louis le Germanique et Charles le Chauve s'allient contre Lothaire, chacun jurant dans la langue de l'autre camp. Le texte nous est parvenu grâce à Nithard, petit-fils de Charlemagne, et par un seul manuscrit.",
+            "answers": {
+              "les-serments-de-strasbourg": "Les serments de Strasbourg",
+              "le-traite-de-verdun": "Le traité de Verdun",
+              "la-sequence-de-sainte-eulalie": "La Séquence de sainte Eulalie",
+              "le-capitulaire-de-quierzy": "Le capitulaire de Quierzy"
+            }
+          },
+          "patrimoine-neustadt": {
+            "prompt": "Quel quartier de Strasbourg, bâti de 1871 à 1918, a rejoint le patrimoine mondial de l'UNESCO en 2017 ?",
+            "hint": "Son nom allemand signifie qu'il s'agit d'une ville nouvelle.",
+            "anecdote": "Cette extension a triplé la superficie de la ville. On y trouve la place de la République, ancienne place impériale, et le Palais du Rhin.",
+            "answers": {
+              "la-neustadt": "La Neustadt",
+              "la-krutenau": "La Krutenau",
+              "la-robertsau": "La Robertsau",
+              "l-esplanade": "L'Esplanade"
+            }
+          },
+          "patrimoine-mur-paien": {
+            "prompt": "Quel lieu de pèlerinage alsacien est entouré par le Mur païen ?",
+            "hint": "On y trouve l'ancienne abbaye de Hohenbourg.",
+            "anecdote": "Cette enceinte d'une dizaine de kilomètres garde ses origines et sa date inconnues. Le bâtiment actuel de l'abbaye provient surtout de la reconstruction de 1681 par les Prémontrés.",
+            "answers": {
+              "le-mont-sainte-odile": "Le mont Sainte-Odile",
+              "thierenbach": "Thierenbach",
+              "marienthal": "Marienthal",
+              "les-trois-epis": "Les Trois-Épis"
+            }
+          },
+          "patrimoine-vieil-armand": {
+            "prompt": "Sous quel autre nom le Hartmannswillerkopf est-il connu ?",
+            "hint": "Ce nom français date de la Première Guerre mondiale et ressemble à un prénom.",
+            "anecdote": "Ce sommet de 956 m a surtout été disputé en 1915. Un Historial franco-allemand y a ouvert le 3 août 2017.",
+            "answers": {
+              "le-vieil-armand": "Le Vieil-Armand",
+              "le-linge": "Le Linge",
+              "le-mort-homme": "Le Mort-Homme",
+              "la-tete-des-faux": "La Tête des Faux"
+            }
+          },
+          "pers-dore-illustrateur": {
+            "prompt": "Quel illustrateur de la Divine Comédie et de la Bible est né à Strasbourg en 1832 ?",
+            "hint": "Il a aussi illustré Rabelais et les Contes de Perrault.",
+            "anecdote": "Il a illustré plus de 120 volumes entre 1852 et 1883, publiés en France, en Angleterre, en Allemagne et en Russie.",
+            "answers": {
+              "gustave-dore": "Gustave Doré",
+              "honore-daumier": "Honoré Daumier",
+              "grandville": "Grandville",
+              "edouard-manet": "Édouard Manet"
+            }
+          },
+          "pers-dreyfus-mulhouse": {
+            "prompt": "Dans quelle ville alsacienne est né le capitaine Alfred Dreyfus ?",
+            "hint": "Une statue de lui y a été inaugurée en 2016 dans un parc de la ville.",
+            "anecdote": "Réhabilité en 1906, il est honoré dans sa ville natale par une statue inaugurée en octobre 2016 au parc Steinbach.",
+            "answers": {
+              "mulhouse": "Mulhouse",
+              "colmar": "Colmar",
+              "strasbourg": "Strasbourg",
+              "selestat": "Sélestat"
+            }
+          },
+          "pers-goethe-strasbourg": {
+            "prompt": "Quel grand écrivain allemand a étudié le droit à Strasbourg en 1770 et 1771 ?",
+            "hint": "Il est notamment l'auteur de Faust.",
+            "anecdote": "À Strasbourg, il rencontre Herder, qui lui fait découvrir Shakespeare et la poésie populaire. Il écrira ensuite un hymne à la cathédrale.",
+            "answers": {
+              "johann-wolfgang-von-goethe": "Johann Wolfgang von Goethe",
+              "friedrich-schiller": "Friedrich Schiller",
+              "heinrich-heine": "Heinrich Heine",
+              "friedrich-holderlin": "Friedrich Hölderlin"
+            }
+          },
+          "pers-tussaud-strasbourg": {
+            "prompt": "Quelle femme née à Strasbourg en 1761 a donné son nom à un célèbre musée de cire de Londres ?",
+            "hint": "On parle souvent d'elle en l'appelant simplement « Madame ».",
+            "anecdote": "Ses figures de cire sont installées à Baker Street en 1835. Son petit-fils les déplace en 1884 vers Marylebone Road.",
+            "answers": {
+              "marie-tussaud": "Marie Tussaud",
+              "camille-claudel": "Camille Claudel",
+              "elisabeth-vigee-le-brun": "Élisabeth Vigée Le Brun",
+              "rosa-bonheur": "Rosa Bonheur"
+            }
+          },
+          "pers-kellermann-valmy": {
+            "prompt": "Quelle bataille de 1792 a fait la gloire du général strasbourgeois Kellermann ?",
+            "hint": "Cette victoire française a été remportée contre les Prussiens.",
+            "anecdote": "Né à Strasbourg en 1735, il devient maréchal en 1804, puis reçoit en 1808 un titre de duc portant le nom de cette bataille.",
+            "answers": {
+              "valmy": "Valmy",
+              "jemappes": "Jemappes",
+              "fleurus": "Fleurus",
+              "wattignies": "Wattignies"
+            }
+          },
+          "pers-sport-rc-strasbourg-1979": {
+            "prompt": "En quelle année le Racing Club de Strasbourg a-t-il remporté son unique titre de champion de France ?",
+            "hint": "Ce titre lui a ouvert la Coupe d'Europe des clubs champions la saison suivante.",
+            "anecdote": "Le club a aussi remporté trois Coupes de France : en 1951, 1966 et 2001.",
+            "answers": {
+              "1951": "1951",
+              "1966": "1966",
+              "1979": "1979",
+              "2001": "2001"
+            }
+          },
+          "trad-waggis-mulhouse": {
+            "prompt": "Quelle figure masquée au nez rouge est emblématique du carnaval de Mulhouse ?",
+            "hint": "Son nom désignait d'abord un maraîcher alsacien qui vendait au marché de Bâle.",
+            "anecdote": "Le mot désignait à l'origine des maraîchers alsaciens vendant leurs produits à Bâle. Pendant la cavalcade, les Waggis taquinent le public et lancent confettis et friandises.",
+            "answers": {
+              "le-waggis": "Le Waggis",
+              "le-gille": "Le Gille",
+              "l-arlequin": "L'Arlequin",
+              "le-pierrot": "Le Pierrot"
+            }
+          },
+          "trad-hunawihr-loutre": {
+            "prompt": "Le parc de Hunawihr, connu pour ses cigognes, élève depuis 1991 quel mammifère aquatique ?",
+            "hint": "Un tunnel vitré permet de la regarder nager sous l'eau.",
+            "anecdote": "L'aventure du parc, aujourd'hui appelé NaturOparC, a commencé en 1976. Il se consacre à la sauvegarde d'espèces locales menacées, comme la cigogne blanche et le grand hamster.",
+            "answers": {
+              "la-loutre-d-europe": "La loutre d'Europe",
+              "le-castor-d-europe": "Le castor d'Europe",
+              "le-vison-d-europe": "Le vison d'Europe",
+              "le-rat-musque": "Le rat musqué"
+            }
+          },
+          "trad-schieweschlawe-offwiller": {
+            "prompt": "Que lance-t-on dans le ciel lors du Schieweschlawe d'Offwiller ?",
+            "hint": "Ces projectiles ronds sont portés au rouge dans un grand feu.",
+            "anecdote": "Les disques sont allumés à un grand feu puis lancés à la tombée de la nuit, à l'aide de pierres plates disposées en rampes face à la vallée. Les villageois préparent le bois pendant des semaines.",
+            "answers": {
+              "des-disques-de-bois-enflammes": "Des disques de bois enflammés",
+              "des-lanternes-de-papier": "Des lanternes de papier",
+              "des-torches-de-resine": "Des torches de résine",
+              "des-fusees-de-feu-d-artifice": "Des fusées de feu d'artifice"
+            }
+          },
+          "trad-messti": {
+            "prompt": "Que désigne le messti dans le nord de l'Alsace ?",
+            "hint": "Cette fête s'accompagne souvent de manèges et de stands forains.",
+            "anecdote": "Le mot vient de l'allemand Messtag, « jour de la messe » : la grand-messe en l'honneur du saint patron de la paroisse.",
+            "answers": {
+              "la-fete-votive-du-village": "La fête votive du village",
+              "le-marche-de-noel-du-village": "Le marché de Noël du village",
+              "la-benediction-des-vendanges": "La bénédiction des vendanges",
+              "le-repas-de-fin-de-moisson": "Le repas de fin de moisson"
+            }
+          }
+        },
+        "maitrise": {
+          "name": "Maîtrise",
+          "description": "Châteaux, abbatiales et savoir-faire : des questions pointues pour les visiteurs déjà bien renseignés.",
+          "dep-thann-guebwiller": {
+            "prompt": "Quel duo de villes forme une seule sous-préfecture du Haut-Rhin ?",
+            "hint": "Ces deux villes sont situées au pied des Vosges, l'une sur la Thur.",
+            "anecdote": "Le Haut-Rhin compte trois sous-préfectures : Altkirch, Mulhouse et ce duo de villes du piémont vosgien.",
+            "answers": {
+              "thann-et-guebwiller": "Thann et Guebwiller",
+              "mulhouse-et-guebwiller": "Mulhouse et Guebwiller",
+              "thann-et-altkirch": "Thann et Altkirch",
+              "cernay-et-masevaux": "Cernay et Masevaux"
+            }
+          },
+          "dep-moselle-pnr-vosges-du-nord": {
+            "prompt": "Le parc naturel régional des Vosges du Nord s'étend sur le Bas-Rhin et sur quel autre département ?",
+            "hint": "Ce département lorrain touche le nord-ouest de l'Alsace.",
+            "anecdote": "Malgré son nom, ce parc n'occupe pas le département des Vosges : il se partage entre l'Alsace et la Lorraine.",
+            "answers": {
+              "la-moselle": "La Moselle",
+              "le-haut-rhin": "Le Haut-Rhin",
+              "les-vosges": "Les Vosges",
+              "la-meurthe-et-moselle": "La Meurthe-et-Moselle"
+            }
+          },
+          "geo-foret-haguenau-indivise": {
+            "prompt": "Quelle particularité présente la propriété de la forêt de Haguenau ?",
+            "hint": "Il s'agit d'une copropriété entre deux acteurs publics.",
+            "anecdote": "Cette copropriété à parts égales, dite indivise, porte sur un massif de pins sylvestres et de chênes.",
+            "answers": {
+              "elle-est-partagee-entre-l-etat-et-la-ville": "Elle est partagée entre l'État et la ville",
+              "elle-appartient-a-une-famille-noble": "Elle appartient à une famille noble",
+              "elle-appartient-a-l-allemagne": "Elle appartient à l'Allemagne",
+              "elle-appartient-a-l-eglise": "Elle appartient à l'Église"
+            }
+          },
+          "geo-hardt": {
+            "prompt": "Quelle forêt s'étend au sud de Colmar, sur les cailloutis déposés par le Rhin ?",
+            "hint": "Elle se trouve dans le Haut-Rhin et son nom ne compte qu'une syllabe.",
+            "anecdote": "Cette forêt occupe un sol de graviers apportés par le fleuve, dans le Haut-Rhin.",
+            "answers": {
+              "la-hardt": "La Hardt",
+              "la-foret-de-haguenau": "La forêt de Haguenau",
+              "le-bienwald": "Le Bienwald",
+              "la-foret-de-baviere": "La forêt de Bavière"
+            }
+          },
+          "geo-col-schlucht-hohneck": {
+            "prompt": "Quel col se trouve juste au nord du Hohneck ?",
+            "hint": "Son nom signifie à peu près « gorge » et il relie Munster à Gérardmer.",
+            "anecdote": "Le Hohneck dépasse les 1 360 m, et ce col compte parmi les passages les plus touristiques et les plus pittoresques des Vosges.",
+            "answers": {
+              "le-col-de-la-schlucht": "Le col de la Schlucht",
+              "le-col-du-bonhomme": "Le col du Bonhomme",
+              "le-col-de-bussang": "Le col de Bussang",
+              "le-col-de-saverne": "Le col de Saverne"
+            }
+          },
+          "geo-lac-blanc-orbey": {
+            "prompt": "Sur quelle commune se trouve le lac Blanc, dans les Vosges ?",
+            "hint": "Cette commune de la vallée de la Weiss accueille aussi une station de ski du même nom que le lac.",
+            "anecdote": "Ce lac glaciaire, à l'ouest de Colmar, sert aussi de réserve hydroélectrique, reliée au lac Noir situé plus bas.",
+            "answers": {
+              "orbey": "Orbey",
+              "munster": "Munster",
+              "kaysersberg": "Kaysersberg",
+              "ribeauville": "Ribeauvillé"
+            }
+          },
+          "geo-thur-affluent-ill": {
+            "prompt": "Quelle rivière arrose Thann avant de rejoindre l'Ill près d'Ensisheim ?",
+            "hint": "Son nom ressemble à celui de la ville citée dans la question.",
+            "anecdote": "Elle naît au pied du Rainkopf, à environ 1 050 m, et alimente la retenue de Kruth-Wildenstein.",
+            "answers": {
+              "la-thur": "La Thur",
+              "la-doller": "La Doller",
+              "la-lauch": "La Lauch",
+              "la-fecht": "La Fecht"
+            }
+          },
+          "geo-kochersberg": {
+            "prompt": "Quelle région limoneuse s'étend entre les basses vallées de la Bruche et de la Zorn ?",
+            "hint": "Ce pays agricole se trouve dans le Bas-Rhin, à l'ouest de Strasbourg.",
+            "anecdote": "Ses collines de lœss se prêtent aux grandes cultures, notamment au houblon et à la betterave.",
+            "answers": {
+              "le-kochersberg": "Le Kochersberg",
+              "l-outre-foret": "L'Outre-Forêt",
+              "le-sundgau": "Le Sundgau",
+              "l-alsace-bossue": "L'Alsace bossue"
+            }
+          },
+          "geo-champ-du-feu": {
+            "prompt": "Quel haut plateau vosgien du Bas-Rhin s'étend au nord du Hohwald ?",
+            "hint": "Son nom associe un espace découvert et un élément brûlant.",
+            "anecdote": "Ce plateau est connu pour ses sports d'hiver.",
+            "answers": {
+              "le-champ-du-feu": "Le Champ du Feu",
+              "le-markstein": "Le Markstein",
+              "le-gazon-du-faing": "Le Gazon du Faing",
+              "le-grand-wintersberg": "Le Grand Wintersberg"
+            }
+          },
+          "ville-saverne-zorn-canal": {
+            "prompt": "Quelle ville alsacienne est bâtie à la fois sur la Zorn et sur le canal de la Marne au Rhin ?",
+            "hint": "Elle garde l'accès au principal passage entre la plaine d'Alsace et la Lorraine.",
+            "anecdote": "La ville conserve un palais des Rohan de style Louis XVI, qui abrite un musée.",
+            "answers": {
+              "saverne": "Saverne",
+              "haguenau": "Haguenau",
+              "selestat": "Sélestat",
+              "molsheim": "Molsheim"
+            }
+          },
+          "ville-wittelsheim-potasse": {
+            "prompt": "Quelle ressource du sous-sol a fait de Wittelsheim une cité minière ?",
+            "hint": "Ce minerai sert surtout à fabriquer des engrais.",
+            "anecdote": "Au début du XXe siècle, cette exploitation a fait de la région de Mulhouse une capitale mondiale de ce minerai.",
+            "answers": {
+              "la-potasse": "La potasse",
+              "le-charbon": "Le charbon",
+              "le-fer": "Le fer",
+              "l-argent": "L'argent"
+            }
+          },
+          "ville-guebwiller-saint-leger": {
+            "prompt": "Dans quelle ville du Haut-Rhin se dresse l'église Saint-Léger, des XIIe-XIVe siècles ?",
+            "hint": "Cette ville forme une sous-préfecture double avec une voisine.",
+            "anecdote": "Ses habitants s'appellent les Guebwillerois, et un musée occupe l'ancienne église des Dominicains.",
+            "answers": {
+              "guebwiller": "Guebwiller",
+              "altkirch": "Altkirch",
+              "ensisheim": "Ensisheim",
+              "kaysersberg": "Kaysersberg"
+            }
+          },
+          "ville-wissembourg-1870": {
+            "prompt": "Quelle ville alsacienne a donné son nom à la première bataille de la guerre franco-allemande, le 4 août 1870 ?",
+            "hint": "Cette ville se trouve dans l'extrême nord de l'Alsace, tout près de la frontière.",
+            "anecdote": "Les troupes françaises y étaient commandées par le général Abel Douay ; cette défaite précède de deux jours la bataille de Frœschwiller-Wœrth.",
+            "answers": {
+              "wissembourg": "Wissembourg",
+              "selestat": "Sélestat",
+              "haguenau": "Haguenau",
+              "neuf-brisach": "Neuf-Brisach"
+            }
+          },
+          "gastro-streusel": {
+            "prompt": "Quelle brioche alsacienne est couverte d'un mélange de farine, de beurre et de sucre à la cannelle ?",
+            "hint": "Son nom sonne allemand et son dessus forme des miettes croustillantes.",
+            "anecdote": "Son parfum de cannelle vient de la garniture posée sur la brioche.",
+            "answers": {
+              "le-streusel": "Le streusel",
+              "le-manele": "Le manele",
+              "le-dampfnudle": "Le dampfnüdle",
+              "le-bretzel": "Le bretzel"
+            }
+          },
+          "gastro-klevener-heiligenstein": {
+            "prompt": "Quel vin alsacien, issu du savagnin rose, est attaché au village de Heiligenstein ?",
+            "hint": "Son nom, peu connu hors d'Alsace, se termine par « -ener ».",
+            "anecdote": "Ce cépage n'est planté qu'à Heiligenstein et dans quelques secteurs voisins.",
+            "answers": {
+              "le-klevener": "Le klevener",
+              "le-sylvaner": "Le sylvaner",
+              "l-edelzwicker": "L'edelzwicker",
+              "l-auxerrois": "L'auxerrois"
+            }
+          },
+          "gastro-chardonnay-cremant": {
+            "prompt": "En Alsace, à quel seul vin le chardonnay est-il destiné ?",
+            "hint": "Ce vin se reconnaît à ses bulles.",
+            "anecdote": "Ce vin effervescent assemble aussi le pinot blanc, le plus utilisé, l'auxerrois, le pinot gris et le pinot noir.",
+            "answers": {
+              "le-cremant-d-alsace": "Le crémant d'Alsace",
+              "le-klevener-de-heiligenstein": "Le klevener de Heiligenstein",
+              "l-edelzwicker": "L'edelzwicker",
+              "les-vendanges-tardives": "Les vendanges tardives"
+            }
+          },
+          "gastro-houblon-95": {
+            "prompt": "Quelle part du houblon français est produite en Alsace ?",
+            "hint": "C'est la très grande majorité de la production.",
+            "anecdote": "La culture s'étend sur moins de 500 hectares, contre 4 600 au début du XXe siècle.",
+            "answers": {
+              "environ-95": "Environ 95 %",
+              "environ-25": "Environ 25 %",
+              "environ-50": "Environ 50 %",
+              "environ-70": "Environ 70 %"
+            }
+          },
+          "savoir-fortwenger-palais": {
+            "prompt": "Quelle maison de Gertwiller a ouvert le Palais du pain d'épices ?",
+            "hint": "Ce fabricant est présenté comme le plus ancien d'Alsace.",
+            "anecdote": "Cette maison remonte à la fin du XVIIIe siècle, et un personnage nommé Mannele guide les visiteurs du Palais.",
+            "answers": {
+              "fortwenger": "Fortwenger",
+              "lips": "Lips",
+              "habsiger": "Habsiger",
+              "silbereisen": "Silbereisen"
+            }
+          },
+          "savoir-spindler-saint-leonard": {
+            "prompt": "Dans quelle ancienne abbaye l'atelier de marqueterie Spindler est-il installé ?",
+            "hint": "Elle se trouve à Boersch, au pied du Mont Sainte-Odile.",
+            "anecdote": "Cette ancienne abbaye bénédictine a été fondée en 1109. La famille Spindler y travaille depuis trois générations.",
+            "answers": {
+              "l-abbaye-saint-leonard": "L'abbaye Saint-Léonard",
+              "l-abbaye-de-murbach": "L'abbaye de Murbach",
+              "l-abbaye-de-marmoutier": "L'abbaye de Marmoutier",
+              "le-couvent-d-unterlinden": "Le couvent d'Unterlinden"
+            }
+          },
+          "savoir-dmc-initiales": {
+            "prompt": "Que signifient les initiales DMC, entreprise textile fondée à Mulhouse ?",
+            "hint": "Elles reprennent des noms de familles d'industriels mulhousiens.",
+            "anecdote": "L'entreprise est née d'une manufacture d'indiennes créée à Dornach en 1797, qui prend ce nom en 1800.",
+            "answers": {
+              "dollfus-mieg-et-compagnie": "Dollfus-Mieg et Compagnie",
+              "dornach-manufacture-de-coton": "Dornach Manufacture de Coton",
+              "dentelles-de-mulhouse-et-colmar": "Dentelles de Mulhouse et Colmar",
+              "draperies-mulhousiennes-et-compagnie": "Draperies Mulhousiennes et Compagnie"
+            }
+          },
+          "savoir-impression-planche": {
+            "prompt": "Avec quel outil gravé imprimait-on les étoffes à la main, avant le rouleau mécanique ?",
+            "hint": "Cet outil en bois est encré puis appliqué sur le tissu.",
+            "anecdote": "À Mulhouse, la première machine à imprimer au rouleau date de 1804. L'impression à la planche a pourtant subsisté jusque dans les années 1980.",
+            "answers": {
+              "la-planche": "La planche",
+              "le-pochoir": "Le pochoir",
+              "le-tampon-en-caoutchouc": "Le tampon en caoutchouc",
+              "la-serigraphie": "La sérigraphie"
+            }
+          },
+          "patrimoine-ottmarsheim-modele": {
+            "prompt": "De quel édifice l'abbatiale d'Ottmarsheim reprend-elle le plan octogonal ?",
+            "hint": "Il s'agit d'une chapelle liée au souvenir de Charlemagne.",
+            "anecdote": "À l'extérieur, Ottmarsheim présente 8 côtés, contre 16 pour son modèle. Monument historique depuis 1841, l'église a subi un incendie en 1991.",
+            "answers": {
+              "la-chapelle-palatine-d-aix-la-chapelle": "La chapelle palatine d'Aix-la-Chapelle",
+              "la-cathedrale-de-spire": "La cathédrale de Spire",
+              "sainte-sophie-de-constantinople": "Sainte-Sophie de Constantinople",
+              "le-baptistere-de-florence": "Le baptistère de Florence"
+            }
+          },
+          "patrimoine-westphalie-1648": {
+            "prompt": "Quels traités de 1648 donnent à la France une grande partie de l'Alsace, sans Strasbourg ?",
+            "hint": "Ils mettent fin à la guerre de Trente Ans.",
+            "anecdote": "Les villes libres, dont Strasbourg et Mulhouse, restent alors en dehors de ce rattachement. Mazarin y défend les intérêts français.",
+            "answers": {
+              "les-traites-de-westphalie": "Les traités de Westphalie",
+              "les-traites-de-nimegue": "Les traités de Nimègue",
+              "les-traites-de-ryswick": "Les traités de Ryswick",
+              "les-traites-d-utrecht": "Les traités d'Utrecht"
+            }
+          },
+          "patrimoine-saint-thomas-saxe": {
+            "prompt": "Dans quelle église de Strasbourg se dresse le mausolée du maréchal de Saxe ?",
+            "hint": "Le maréchal était protestant, et cette église est luthérienne.",
+            "anecdote": "Commandé par Louis XV, il a été réalisé par Jean-Baptiste Pigalle de 1756 à 1777. L'église abrite aussi un orgue Silbermann de 1741, joué ou admiré par Mozart en 1778.",
+            "answers": {
+              "l-eglise-saint-thomas": "L'église Saint-Thomas",
+              "l-eglise-saint-pierre-le-vieux": "L'église Saint-Pierre-le-Vieux",
+              "l-eglise-saint-guillaume": "L'église Saint-Guillaume",
+              "le-temple-neuf": "Le Temple Neuf"
+            }
+          },
+          "patrimoine-tour-bouchers": {
+            "prompt": "Quelle tour-porte de Ribeauvillé, ancien beffroi et ancienne prison, est la seule encore debout ?",
+            "hint": "Son nom rappelle un métier exercé dans les maisons à ses pieds.",
+            "anecdote": "Elle reliait les quartiers de la ville, et les autres tours-portes ont pour la plupart disparu au XIXe siècle. Sa balustrade Renaissance porte les armes des Ribeaupierre.",
+            "answers": {
+              "la-tour-des-bouchers": "La tour des Bouchers",
+              "la-tour-du-dolder": "La tour du Dolder",
+              "la-tour-des-sorcieres": "La tour des Sorcières",
+              "la-tour-saint-ulrich": "La tour Saint-Ulrich"
+            }
+          },
+          "patrimoine-fleckenstein": {
+            "prompt": "Quel château du XIIe siècle, construit dans un rocher de grès, se dresse à Lembach ?",
+            "hint": "Il porte le nom de la famille qui l'a tenu pendant environ 600 ans.",
+            "anecdote": "Ses ruines sont classées depuis le 6 décembre 1898. Sa construction remonte à l'époque des Hohenstaufen.",
+            "answers": {
+              "le-fleckenstein": "Le Fleckenstein",
+              "l-ortenbourg": "L'Ortenbourg",
+              "le-hohlandsbourg": "Le Hohlandsbourg",
+              "le-haut-barr": "Le Haut-Barr"
+            }
+          },
+          "patrimoine-andlau-frise": {
+            "prompt": "Quelle abbatiale alsacienne est réputée pour la grande frise romane sculptée sur son extérieur ?",
+            "hint": "Elle se trouve dans un village de la Route des Vins, dans le Bas-Rhin.",
+            "anecdote": "Longue d'environ 30 m, cette frise mêle héros mythologiques et scènes de la vie quotidienne.",
+            "answers": {
+              "l-abbatiale-d-andlau": "L'abbatiale d'Andlau",
+              "l-abbatiale-de-murbach": "L'abbatiale de Murbach",
+              "l-abbatiale-d-ottmarsheim": "L'abbatiale d'Ottmarsheim",
+              "l-abbatiale-de-marmoutier": "L'abbatiale de Marmoutier"
+            }
+          },
+          "patrimoine-murbach-nef": {
+            "prompt": "Quelle abbatiale alsacienne a perdu sa nef au XVIIIe siècle, ne gardant que le chœur et le transept ?",
+            "hint": "Ses moines ont voulu s'installer à Guebwiller.",
+            "anecdote": "Un projet de reconstruction a été lancé en 1738, puis abandonné. L'édifice actuel date de la première moitié du XIIe siècle.",
+            "answers": {
+              "l-abbatiale-de-murbach": "L'abbatiale de Murbach",
+              "l-abbatiale-d-ebersmunster": "L'abbatiale d'Ebersmunster",
+              "l-abbatiale-de-marmoutier": "L'abbatiale de Marmoutier",
+              "l-abbatiale-d-ottmarsheim": "L'abbatiale d'Ottmarsheim"
+            }
+          },
+          "patrimoine-musee-wurth": {
+            "prompt": "Dans quelle commune se trouve le musée Würth, consacré à l'art moderne et contemporain ?",
+            "hint": "C'est une commune du Bas-Rhin, au sud de Strasbourg.",
+            "anecdote": "Ouvert en janvier 2008 à côté du siège de Würth France, il présente une collection d'entreprise. Il a été dessiné par les architectes Jacques et Clément Vergély.",
+            "answers": {
+              "erstein": "Erstein",
+              "molsheim": "Molsheim",
+              "obernai": "Obernai",
+              "haguenau": "Haguenau"
+            }
+          },
+          "patrimoine-ligne-bleue": {
+            "prompt": "Quel homme d'État a évoqué dans son testament « cette ligne bleue des Vosges » ?",
+            "hint": "Il souhaitait reposer à Saint-Dié.",
+            "anecdote": "Ce testament a été rendu public après sa mort, le 17 mars 1893. Dès 1889, à Saint-Dié, il parlait dans un discours de la « ligne bleue des Hautes Vosges ».",
+            "answers": {
+              "jules-ferry": "Jules Ferry",
+              "georges-clemenceau": "Georges Clemenceau",
+              "leon-gambetta": "Léon Gambetta",
+              "raymond-poincare": "Raymond Poincaré"
+            }
+          },
+          "patrimoine-aubette": {
+            "prompt": "Quel lieu de la place Kléber, à Strasbourg, conserve des décors de 1928 de Theo van Doesburg, Hans Arp et Sophie Taeuber-Arp ?",
+            "hint": "C'est un ancien complexe de loisirs, avec un Ciné-dancing et un Foyer-bar.",
+            "anecdote": "Son premier étage, entièrement restitué, est classé monument historique. Il comprend le Ciné-dancing, le Foyer-bar et la Salle des fêtes.",
+            "answers": {
+              "l-aubette": "L'Aubette",
+              "la-maison-kammerzell": "La Maison Kammerzell",
+              "le-palais-du-rhin": "Le Palais du Rhin",
+              "le-neubau": "Le Neubau"
+            }
+          },
+          "pers-rapp-statue-colmar": {
+            "prompt": "Quel général, aide de camp de Napoléon, a sa statue par Bartholdi au Champ de Mars de Colmar ?",
+            "hint": "Il est né à Colmar en 1771.",
+            "anecdote": "Né au Koïfhus, dont son père était le gardien, il gouverne Dantzig et y soutient un siège en 1813. Sa statue date de 1859.",
+            "answers": {
+              "jean-rapp": "Jean Rapp",
+              "jean-baptiste-kleber": "Jean-Baptiste Kléber",
+              "francois-christophe-kellermann": "François Christophe Kellermann",
+              "francois-joseph-lefebvre": "François Joseph Lefebvre"
+            }
+          },
+          "pers-oberlin-ban-de-la-roche": {
+            "prompt": "Quel pasteur a transformé la vie du Ban de la Roche, dans les Vosges, pendant 59 ans ?",
+            "hint": "Un musée lui est consacré à Waldersbach.",
+            "anecdote": "Il y a fait construire routes et ponts, développé l'agriculture et ouvert des écoles, y compris pour les filles et les adultes. Son attention à la petite enfance a inspiré les premières écoles maternelles.",
+            "answers": {
+              "jean-frederic-oberlin": "Jean-Frédéric Oberlin",
+              "martin-bucer": "Martin Bucer",
+              "philipp-jakob-spener": "Philipp Jakob Spener",
+              "albert-schweitzer": "Albert Schweitzer"
+            }
+          },
+          "pers-brant-nef-des-fous": {
+            "prompt": "Quel auteur strasbourgeois a écrit La Nef des fous, publiée à Bâle à la fin du XVe siècle ?",
+            "hint": "Il a fait ses études à Sélestat puis à Bâle.",
+            "anecdote": "Né en 1458 dans une famille modeste de Strasbourg, il fait paraître son livre le jour de Carnaval de 1494.",
+            "answers": {
+              "sebastien-brant": "Sébastien Brant",
+              "thomas-murner": "Thomas Murner",
+              "erasme": "Érasme",
+              "jean-geiler-de-kaysersberg": "Jean Geiler de Kaysersberg"
+            }
+          },
+          "pers-sport-internationaux-strasbourg": {
+            "prompt": "Sur quelle surface se disputent les Internationaux de Strasbourg, tournoi féminin de tennis ?",
+            "hint": "C'est la surface du tournoi de Roland-Garros, qui a lieu juste après.",
+            "anecdote": "Créé en 1987, ce tournoi se joue traditionnellement la semaine précédant Roland-Garros, dans des conditions proches de celles du Grand Chelem.",
+            "answers": {
+              "la-terre-battue": "La terre battue",
+              "le-gazon": "Le gazon",
+              "la-surface-dure": "La surface dure",
+              "la-moquette": "La moquette"
+            }
+          },
+          "pers-kleber-architecte": {
+            "prompt": "Quel métier le futur général Kléber a-t-il exercé avant sa carrière militaire de premier plan ?",
+            "hint": "Il a suivi à Paris les cours de Chalgrin.",
+            "anecdote": "Vers 1785, il est inspecteur des bâtiments publics en Alsace, et il construit l'hôpital de Thann.",
+            "answers": {
+              "architecte": "Architecte",
+              "avocat": "Avocat",
+              "medecin": "Médecin",
+              "imprimeur": "Imprimeur"
+            }
+          },
+          "pers-goethe-sessenheim": {
+            "prompt": "Goethe a vécu une brève idylle avec Frédérique Brion, fille du pasteur de quel village alsacien ?",
+            "hint": "Ce village se trouve au nord de Strasbourg, dans le Bas-Rhin.",
+            "anecdote": "Cette histoire date du séjour de Goethe à Strasbourg en 1770 et 1771.",
+            "answers": {
+              "sessenheim": "Sessenheim",
+              "seebach": "Seebach",
+              "riquewihr": "Riquewihr",
+              "hunawihr": "Hunawihr"
+            }
+          },
+          "trad-festival-houblon-haguenau": {
+            "prompt": "Quelle ville du Bas-Rhin accueille chaque mois d'août le Festival du Houblon ?",
+            "hint": "Cette ville du nord de l'Alsace fut une place internationale du commerce du houblon.",
+            "anecdote": "Née pour marquer le début de la récolte du houblon, la fête rassemble aujourd'hui des artistes de nombreux pays. Elle est affiliée au CIOFF France.",
+            "answers": {
+              "haguenau": "Haguenau",
+              "saverne": "Saverne",
+              "wissembourg": "Wissembourg",
+              "obernai": "Obernai"
+            }
+          },
+          "trad-alsacien-francique-alemanique": {
+            "prompt": "De quelles deux branches dialectales relèvent les parlers d'Alsace ?",
+            "hint": "Ces branches portent le nom de deux peuples germaniques installés en Alsace.",
+            "anecdote": "L'INA distingue quatre dialectes principaux : le francique rhénan, le francique rhénan méridional, le bas-alémanique et le haut-alémanique.",
+            "answers": {
+              "le-francique-et-l-alemanique": "Le francique et l'alémanique",
+              "le-saxon-et-le-bavarois": "Le saxon et le bavarois",
+              "le-flamand-et-le-picard": "Le flamand et le picard",
+              "le-thuringien-et-le-frison": "Le thuringien et le frison"
+            }
+          },
+          "trad-peckeresel": {
+            "prompt": "Quel animal est le Peckeresel, compagnon du Noël alsacien ?",
+            "hint": "Les enfants déposent pour lui une botte de foin devant la porte.",
+            "anecdote": "Il aide saint Nicolas ou le Christkindel à distribuer le pain d'épices et les friandises. Les enfants lui laissent du foin pour lui donner des forces.",
+            "answers": {
+              "un-ane": "Un âne",
+              "un-renne": "Un renne",
+              "une-chevre": "Une chèvre",
+              "un-cheval": "Un cheval"
+            }
+          }
+        },
+        "grand-defi": {
+          "name": "Grand défi alsacien",
+          "description": "Des dates, des noms et des détails réservés aux connaisseurs de la région.",
+          "dep-superficie-alsace": {
+            "prompt": "Quelle superficie couvrent ensemble le Bas-Rhin et le Haut-Rhin ?",
+            "hint": "Le Bas-Rhin représente à lui seul plus de 4 700 km².",
+            "anecdote": "Le Bas-Rhin couvre 4 755 km² et le Haut-Rhin 3 525 km².",
+            "answers": {
+              "8-280-km": "8 280 km²",
+              "2-800-km": "2 800 km²",
+              "18-280-km": "18 280 km²",
+              "28-000-km": "28 000 km²"
+            }
+          },
+          "geo-grand-wintersberg": {
+            "prompt": "Quel sommet de 581 m est le point culminant des Vosges du Nord ?",
+            "hint": "Il se dresse à Niederbronn-les-Bains et son nom évoque l'hiver en allemand.",
+            "anecdote": "Une tour panoramique en occupe le sommet, sur la commune de Niederbronn-les-Bains.",
+            "answers": {
+              "le-grand-wintersberg": "Le Grand Wintersberg",
+              "le-donon": "Le Donon",
+              "le-champ-du-feu": "Le Champ du Feu",
+              "le-mont-sainte-odile": "Le mont Sainte-Odile"
+            }
+          },
+          "geo-pfalzerwald-biosphere": {
+            "prompt": "Avec quelle région allemande les Vosges du Nord forment-elles une réserve de biosphère transfrontalière ?",
+            "hint": "Ce nom désigne la forêt du Palatinat, juste de l'autre côté de la frontière.",
+            "anecdote": "Reconnues par l'UNESCO, les Vosges du Nord partagent ce statut de réserve de biosphère avec leur voisin allemand.",
+            "answers": {
+              "le-pfalzerwald": "Le Pfälzerwald",
+              "la-foret-noire": "La Forêt-Noire",
+              "l-odenwald": "L'Odenwald",
+              "la-foret-de-baviere": "La forêt de Bavière"
+            }
+          },
+          "geo-pnr-vosges-du-nord-1975": {
+            "prompt": "En quelle année a été créé le parc naturel régional des Vosges du Nord ?",
+            "hint": "Il a été créé pendant la présidence de Valéry Giscard d'Estaing.",
+            "anecdote": "Il a été créé le 30 décembre, tout à la fin de cette année, bien avant le parc voisin des Ballons des Vosges.",
+            "answers": {
+              "1967": "1967",
+              "1975": "1975",
+              "1989": "1989",
+              "1998": "1998"
+            }
+          },
+          "geo-alsace-bossue": {
+            "prompt": "Quelle région du nord-ouest du Bas-Rhin se rattache géologiquement à la Lorraine ?",
+            "hint": "Son nom évoque un relief bosselé, autour de Sarre-Union.",
+            "anecdote": "Drainée par la Sarre, elle est presque entourée par le département de la Moselle sur trois côtés.",
+            "answers": {
+              "l-alsace-bossue": "L'Alsace bossue",
+              "le-kochersberg": "Le Kochersberg",
+              "l-outre-foret": "L'Outre-Forêt",
+              "le-ried": "Le Ried"
+            }
+          },
+          "geo-vosges-altitude-sud-nord": {
+            "prompt": "Dans quel sens les Vosges perdent-elles de l'altitude, côté alsacien ?",
+            "hint": "Comparez le Grand Ballon et ses 1 424 m au Grand Wintersberg et ses 581 m.",
+            "anecdote": "Elles s'abaissent ainsi jusqu'au col de Saverne, passage naturel entre l'Alsace et la Lorraine.",
+            "answers": {
+              "du-sud-vers-le-nord": "Du sud vers le nord",
+              "du-nord-vers-le-sud": "Du nord vers le sud",
+              "de-l-est-vers-l-ouest-sans-changement-du-nord-au-sud": "De l'est vers l'ouest, sans changement du nord au sud",
+              "elles-gardent-partout-la-meme-altitude": "Elles gardent partout la même altitude"
+            }
+          },
+          "ville-huningue-barbanegre": {
+            "prompt": "Quel général a défendu Huningue contre les Autrichiens en 1815 ?",
+            "hint": "Son nom reste moins connu que ceux des généraux alsaciens de l'Empire.",
+            "anecdote": "Largement détruite à l'issue de ce siège, la forteresse a ensuite été démantelée à la demande de Bâle.",
+            "answers": {
+              "barbanegre": "Barbanègre",
+              "kleber": "Kléber",
+              "rapp": "Rapp",
+              "lefebvre": "Lefebvre"
+            }
+          },
+          "ville-neuf-brisach-48-ilots": {
+            "prompt": "En combien d'îlots est découpé le plan de Neuf-Brisach ?",
+            "hint": "Ce nombre est un multiple de douze.",
+            "anecdote": "Ces îlots s'organisent autour d'une place d'armes centrale, à l'intérieur d'une enceinte en forme d'octogone.",
+            "answers": {
+              "16": "16",
+              "24": "24",
+              "48": "48",
+              "64": "64"
+            }
+          },
+          "ville-saint-louis-ludoviciens": {
+            "prompt": "Comment s'appellent les habitants de Saint-Louis, dans le Haut-Rhin ?",
+            "hint": "Ce nom vient de la forme latine du prénom Louis.",
+            "anecdote": "Cette ville de plus de 20 000 habitants, voisine de la Suisse, accueille aussi un centre de recherche franco-allemand.",
+            "answers": {
+              "les-ludoviciens": "Les Ludoviciens",
+              "les-louisiens": "Les Louisiens",
+              "les-saint-louisiens": "Les Saint-Louisiens",
+              "les-lodoviciens": "Les Lodoviciens"
+            }
+          },
+          "gastro-choucroute-igp-2018": {
+            "prompt": "En quelle année la choucroute d'Alsace a-t-elle été reconnue en IGP ?",
+            "hint": "C'est au XXIe siècle, après une démarche d'une vingtaine d'années.",
+            "anecdote": "La filière a travaillé une vingtaine d'années pour l'obtenir. En 2006, la Commission européenne avait refusé une première demande.",
+            "answers": {
+              "1996": "1996",
+              "2006": "2006",
+              "2011": "2011",
+              "2018": "2018"
+            }
+          },
+          "gastro-aoc-alsace-1962": {
+            "prompt": "En quelle année l'appellation d'origine contrôlée Alsace a-t-elle été créée ?",
+            "hint": "C'est au début des années 1960.",
+            "anecdote": "Les règles sur la mise en bouteille sont venues une dizaine d'années plus tard.",
+            "answers": {
+              "1936": "1936",
+              "1962": "1962",
+              "1975": "1975",
+              "1984": "1984"
+            }
+          },
+          "gastro-mise-bouteille-1972": {
+            "prompt": "Depuis quelle année la mise en bouteille des vins d'Alsace en Alsace est-elle obligatoire ?",
+            "hint": "C'est au début des années 1970.",
+            "anecdote": "Une loi du 5 juillet impose cette règle dans le Bas-Rhin et le Haut-Rhin, à la suite d'une protestation.",
+            "answers": {
+              "1952": "1952",
+              "1972": "1972",
+              "1984": "1984",
+              "1996": "1996"
+            }
+          },
+          "gastro-cremant-1976": {
+            "prompt": "En quelle année l'appellation Crémant d'Alsace a-t-elle été reconnue ?",
+            "hint": "C'est dans la seconde moitié des années 1970.",
+            "anecdote": "Les vins effervescents existaient pourtant en Alsace depuis la fin du XIXe siècle.",
+            "answers": {
+              "1952": "1952",
+              "1962": "1962",
+              "1976": "1976",
+              "1990": "1990"
+            }
+          },
+          "savoir-mulhouse-1746": {
+            "prompt": "En quelle année ouvre à Mulhouse la première manufacture de toiles peintes ?",
+            "hint": "C'est au milieu du XVIIIe siècle, avant la Révolution.",
+            "anecdote": "Samuel Koechlin, Jean-Jacques Schmalzer et Jean Henri Dollfus la créent. En 1766, la ville compte déjà quinze fabriques et 2 250 ouvriers.",
+            "answers": {
+              "1648": "1648",
+              "1746": "1746",
+              "1789": "1789",
+              "1826": "1826"
+            }
+          },
+          "savoir-hannong-1721": {
+            "prompt": "En quelle année Charles-François Hannong lance-t-il la faïence à Strasbourg ?",
+            "hint": "C'est au début du XVIIIe siècle.",
+            "anecdote": "Il fabriquait d'abord des pipes. La manufacture familiale ferme en 1781, endettée.",
+            "answers": {
+              "1648": "1648",
+              "1681": "1681",
+              "1721": "1721",
+              "1789": "1789"
+            }
+          },
+          "savoir-hannong-petit-feu": {
+            "prompt": "Quelle technique de décor Paul Hannong met-il au point pour obtenir les roses et les violets de Strasbourg ?",
+            "hint": "Elle se distingue d'une autre cuisson par sa température plus basse.",
+            "anecdote": "Ces roses et ces violets sont devenus caractéristiques de la faïence de Strasbourg.",
+            "answers": {
+              "le-petit-feu": "Le petit feu",
+              "le-grand-feu": "Le grand feu",
+              "la-grisaille": "La grisaille",
+              "le-lustre-metallique": "Le lustre métallique"
+            }
+          },
+          "savoir-hannong-frankenthal": {
+            "prompt": "Où Paul Hannong doit-il transférer sa porcelaine, à cause du monopole royal français ?",
+            "hint": "Cette ville se trouve dans le Palatinat, hors de France.",
+            "anecdote": "Ce monopole interdisait de produire cette porcelaine à pâte dure à Strasbourg, ce qui a conduit à ce départ.",
+            "answers": {
+              "a-frankenthal": "À Frankenthal",
+              "a-sevres": "À Sèvres",
+              "a-meissen": "À Meissen",
+              "a-niderviller": "À Niderviller"
+            }
+          },
+          "savoir-mine-1549": {
+            "prompt": "En quelle année ouvre la mine d'argent Saint-Louis Eisenthür ?",
+            "hint": "C'est en pleine Renaissance, au milieu du XVIe siècle.",
+            "anecdote": "L'ASEPAM, association née pour étudier et protéger ces galeries, la présente comme la plus belle mine d'argent de la Renaissance en Europe.",
+            "answers": {
+              "1349": "1349",
+              "1549": "1549",
+              "1648": "1648",
+              "1789": "1789"
+            }
+          },
+          "savoir-sim-1826": {
+            "prompt": "Quelle institution d'industriels fondée en 1826 est à l'origine du musée textile de Mulhouse ?",
+            "hint": "Elle porte le nom de la ville où elle a été créée.",
+            "anecdote": "Dès 1833, ses membres commencent à conserver leurs créations textiles, ce qui donne plus tard un musée du dessin industriel, en 1857.",
+            "answers": {
+              "la-societe-industrielle-de-mulhouse": "La Société industrielle de Mulhouse",
+              "la-chambre-de-commerce-de-strasbourg": "La Chambre de commerce de Strasbourg",
+              "la-compagnie-des-mines-de-potasse": "La Compagnie des mines de potasse",
+              "le-grand-conseil-de-mulhouse": "Le Grand Conseil de Mulhouse"
+            }
+          },
+          "patrimoine-rohan-robert-de-cotte": {
+            "prompt": "Quel premier architecte du roi a conçu le projet du palais Rohan de Strasbourg ?",
+            "hint": "Le chantier a ensuite été dirigé sur place par Joseph Massol.",
+            "anecdote": "Le sculpteur Robert Le Lorrain a participé au palais. Louis XV y séjourne dès 1744.",
+            "answers": {
+              "robert-de-cotte": "Robert de Cotte",
+              "jules-hardouin-mansart": "Jules Hardouin-Mansart",
+              "ange-jacques-gabriel": "Ange-Jacques Gabriel",
+              "germain-boffrand": "Germain Boffrand"
+            }
+          },
+          "patrimoine-barrage-tarade": {
+            "prompt": "Quel collaborateur de Vauban a dressé les plans de la grande écluse de Strasbourg, dite barrage Vauban ?",
+            "hint": "Le monument ne porte pas son nom, mais celui de son supérieur.",
+            "anecdote": "Ses treize arches couvrent toute la largeur de l'Ill. Des panneaux de fer mobiles permettaient d'inonder le front sud de la ville.",
+            "answers": {
+              "jacques-tarade": "Jacques Tarade",
+              "joseph-massol": "Joseph Massol",
+              "robert-de-cotte": "Robert de Cotte",
+              "bernard-de-belidor": "Bernard de Bélidor"
+            }
+          },
+          "patrimoine-incorporation-1942": {
+            "prompt": "En quelle année l'incorporation de force des Alsaciens dans l'armée allemande est-elle décrétée ?",
+            "hint": "C'est environ deux ans après le début de l'annexion de fait.",
+            "anecdote": "Le décret date du 25 août. Robert Wagner, chargé de l'administration civile de l'Alsace depuis août 1940, a été jugé à Strasbourg en 1946.",
+            "answers": {
+              "1940": "1940",
+              "1941": "1941",
+              "1942": "1942",
+              "1943": "1943"
+            }
+          },
+          "patrimoine-optants": {
+            "prompt": "Comment appelle-t-on les Alsaciens-Lorrains qui ont gardé la nationalité française après 1871 en quittant la province ?",
+            "hint": "Leur nom vient du choix que le traité de Francfort leur offrait.",
+            "anecdote": "Ils devaient partir avant octobre 1872. L'Alsace-Lorraine devient alors une « terre d'empire » régie par l'empereur.",
+            "answers": {
+              "les-optants": "Les optants",
+              "les-reintegres": "Les réintégrés",
+              "les-exiles-de-francfort": "Les exilés de Francfort",
+              "les-malgre-nous": "Les Malgré-nous"
+            }
+          },
+          "patrimoine-mulhouse-1798": {
+            "prompt": "En quelle année Mulhouse devient-elle française ?",
+            "hint": "C'est sous le Directoire, plus d'un siècle après Strasbourg.",
+            "anecdote": "Ville libre, elle n'avait pas été concernée par les traités de Westphalie de 1648. Elle a donc rejoint la France bien après le reste de la région.",
+            "answers": {
+              "1697": "1697",
+              "1748": "1748",
+              "1798": "1798",
+              "1815": "1815"
+            }
+          },
+          "patrimoine-ottmarsheim-1049": {
+            "prompt": "En quelle année l'abbatiale d'Ottmarsheim a-t-elle été consacrée ?",
+            "hint": "C'est au milieu du XIe siècle, par le pape Léon IX.",
+            "anecdote": "Elle a connu deux incendies marquants, en 1272 et en 1991. Sa restauration après le second s'est achevée en 1999.",
+            "answers": {
+              "1009": "1009",
+              "1049": "1049",
+              "1095": "1095",
+              "1148": "1148"
+            }
+          },
+          "patrimoine-marmoutier-silbermann": {
+            "prompt": "Quel facteur d'orgues a signé l'orgue de l'abbatiale de Marmoutier ?",
+            "hint": "Le nom de cette famille évoque l'argent en allemand.",
+            "anecdote": "Cet orgue compte parmi les très rares exemples conservés de l'œuvre d'André Silbermann. L'abbatiale possède aussi une façade romane en grès rouge des Vosges.",
+            "answers": {
+              "silbermann": "Silbermann",
+              "cavaille-coll": "Cavaillé-Coll",
+              "clicquot": "Clicquot",
+              "kern": "Kern"
+            }
+          },
+          "patrimoine-unterlinden-schongauer": {
+            "prompt": "Quelle société gère depuis 1853 le musée Unterlinden de Colmar ?",
+            "hint": "Elle porte le nom d'un grand peintre et graveur colmarien, auteur du retable des Dominicains.",
+            "anecdote": "Le musée a ouvert le 3 avril 1853 dans l'ancien couvent d'Unterlinden, d'abord dans la seule chapelle. Il conserve une mosaïque de Bergheim du IIIe siècle découverte en 1848.",
+            "answers": {
+              "la-societe-schongauer": "La Société Schongauer",
+              "la-societe-industrielle-de-colmar": "La Société industrielle de Colmar",
+              "la-societe-bartholdi": "La Société Bartholdi",
+              "la-societe-des-amis-de-grunewald": "La Société des Amis de Grünewald"
+            }
+          },
+          "patrimoine-cite-train-origine": {
+            "prompt": "Sous quel nom le musée ferroviaire de Mulhouse a-t-il ouvert en 1971 ?",
+            "hint": "Son nom d'origine précisait le pays et le mode de transport.",
+            "anecdote": "Il rouvre le 11 mars 2005 sous le nom de Cité du Train. Depuis 2018, il s'appelle Cité du Train - Patrimoine SNCF.",
+            "answers": {
+              "le-musee-francais-du-chemin-de-fer": "Le Musée français du chemin de fer",
+              "le-musee-national-des-transports": "Le Musée national des transports",
+              "le-musee-du-rail-d-alsace": "Le Musée du rail d'Alsace",
+              "le-musee-de-la-vapeur": "Le Musée de la vapeur"
+            }
+          },
+          "patrimoine-eguisheim-wahlenbourg": {
+            "prompt": "Lequel des Trois-Châteaux d'Eguisheim est le plus ancien ?",
+            "hint": "C'est celui du centre.",
+            "anecdote": "Ces trois donjons de grès rose se dressent à 591 m au-dessus de la plaine. Ils dominent Eguisheim et Husseren-les-Châteaux.",
+            "answers": {
+              "le-wahlenbourg": "Le Wahlenbourg",
+              "le-dagsbourg": "Le Dagsbourg",
+              "le-weckmund": "Le Weckmund",
+              "le-hohlandsbourg": "Le Hohlandsbourg"
+            }
+          },
+          "patrimoine-andlau-richarde": {
+            "prompt": "Quelle épouse de l'empereur Charles le Gros a fondé l'abbaye d'Andlau ?",
+            "hint": "Elle a ensuite été honorée comme sainte.",
+            "anecdote": "La fondation remonte au IXe siècle, et une légende lie le choix du lieu à une ourse. L'église actuelle date du XIe siècle, avec des travaux jusqu'au XVIIIe.",
+            "answers": {
+              "richarde": "Richarde",
+              "hildegarde": "Hildegarde",
+              "adelaide": "Adélaïde",
+              "mathilde": "Mathilde"
+            }
+          },
+          "patrimoine-serment-koufra": {
+            "prompt": "Après la prise de quel fort Leclerc jure-t-il, en 1941, de ne déposer les armes qu'une fois le drapeau français sur la cathédrale de Strasbourg ?",
+            "hint": "Ce fort italien est situé dans le désert, après une marche de 650 km.",
+            "anecdote": "Le serment est accompli le 23 novembre 1944, quand le drapeau est hissé sur la flèche de la cathédrale. La 2e division blindée de Leclerc libère alors Strasbourg.",
+            "answers": {
+              "koufra": "Koufra",
+              "bir-hakeim": "Bir Hakeim",
+              "tobrouk": "Tobrouk",
+              "el-alamein": "El-Alamein"
+            }
+          },
+          "patrimoine-vendredi-saint": {
+            "prompt": "En Alsace-Moselle, où le Vendredi saint est-il férié ?",
+            "hint": "Tout dépend du lieu de culte présent dans la commune.",
+            "anecdote": "Le 26 décembre, appelé 2e jour de Noël, y est également férié.",
+            "answers": {
+              "dans-les-communes-ayant-un-temple-protestant-ou-une-eglise-mixte": "Dans les communes ayant un temple protestant ou une église mixte",
+              "dans-toutes-les-communes-de-plus-de-5-000-habitants": "Dans toutes les communes de plus de 5 000 habitants",
+              "dans-les-seules-prefectures-et-sous-prefectures": "Dans les seules préfectures et sous-préfectures",
+              "dans-les-communes-ayant-une-cathedrale": "Dans les communes ayant une cathédrale"
+            }
+          },
+          "patrimoine-ortenbourg-donjon": {
+            "prompt": "Quelle forme a le plan du donjon de l'Ortenbourg, à Scherwiller ?",
+            "hint": "Son plan compte plus de quatre côtés, mais moins de six.",
+            "anecdote": "Ce donjon mesure 32 m de haut. Le château a été assiégé dès 1265 par l'évêque Walter de Geroldseck.",
+            "answers": {
+              "pentagonale": "Pentagonale",
+              "carree": "Carrée",
+              "circulaire": "Circulaire",
+              "octogonale": "Octogonale"
+            }
+          },
+          "pers-waldteufel-patineurs": {
+            "prompt": "Quel compositeur né à Strasbourg en 1837 a écrit la célèbre valse Les Patineurs ?",
+            "hint": "Il a été le pianiste de l'impératrice Eugénie.",
+            "anecdote": "Composée en 1882, cette valse est parfois attribuée à tort à Johann Strauss. Son auteur a dirigé les bals de la cour de Napoléon III.",
+            "answers": {
+              "emile-waldteufel": "Émile Waldteufel",
+              "johann-strauss": "Johann Strauss",
+              "jacques-offenbach": "Jacques Offenbach",
+              "charles-gounod": "Charles Gounod"
+            }
+          },
+          "pers-lefebvre-dantzig": {
+            "prompt": "Quel titre Napoléon a-t-il accordé au maréchal François Joseph Lefebvre, né à Rouffach ?",
+            "hint": "Ce titre rappelle un siège qu'il a conduit en 1807.",
+            "anecdote": "Ce fut le premier duché créé par Napoléon. Son épouse, ancienne blanchisseuse, est restée connue sous le nom de Madame Sans-Gêne.",
+            "answers": {
+              "duc-de-dantzig": "Duc de Dantzig",
+              "duc-d-auerstaedt": "Duc d'Auerstaedt",
+              "duc-d-elchingen": "Duc d'Elchingen",
+              "duc-de-valmy": "Duc de Valmy"
+            }
+          },
+          "pers-munch-orchestre-de-paris": {
+            "prompt": "Quel chef d'orchestre né à Strasbourg en 1891 a dirigé le nouvel Orchestre de Paris à sa création en 1967 ?",
+            "hint": "Son père enseignait l'orgue au conservatoire de Strasbourg.",
+            "anecdote": "C'est André Malraux qui lui a confié cette mission. Il est mort en 1968, lors d'une tournée aux États-Unis.",
+            "answers": {
+              "charles-munch": "Charles Munch",
+              "pierre-boulez": "Pierre Boulez",
+              "pierre-monteux": "Pierre Monteux",
+              "georges-pretre": "Georges Prêtre"
+            }
+          },
+          "pers-kastler-nobel": {
+            "prompt": "Quel physicien né à Guebwiller a reçu le prix Nobel de physique en 1966 ?",
+            "hint": "Il est récompensé pour une méthode optique, le pompage optique.",
+            "anecdote": "Sa méthode, qui utilise la lumière pour agir sur les niveaux d'énergie des atomes, a donné lieu à de nombreuses applications, dont les lasers.",
+            "answers": {
+              "alfred-kastler": "Alfred Kastler",
+              "louis-neel": "Louis Néel",
+              "louis-de-broglie": "Louis de Broglie",
+              "pierre-gilles-de-gennes": "Pierre-Gilles de Gennes"
+            }
+          },
+          "pers-lehn-nobel": {
+            "prompt": "Quel chimiste né à Rosheim a reçu le prix Nobel de chimie en 1987 ?",
+            "hint": "Il a mené ses recherches à l'université de Strasbourg.",
+            "anecdote": "Il a partagé ce prix avec Donald Cram et Charles Pedersen, pour des molécules creuses capables de se lier sélectivement à d'autres.",
+            "answers": {
+              "jean-marie-lehn": "Jean-Marie Lehn",
+              "yves-chauvin": "Yves Chauvin",
+              "guy-ourisson": "Guy Ourisson",
+              "paul-sabatier": "Paul Sabatier"
+            }
+          },
+          "pers-calvin-strasbourg": {
+            "prompt": "Quel réformateur a été pasteur des réfugiés francophones de Strasbourg de 1538 à 1541 ?",
+            "hint": "Il arrive de Genève, où il retournera ensuite.",
+            "anecdote": "Invité par Martin Bucer, il y traduit en français son Institution de la religion chrétienne. Il repart à Genève en 1541.",
+            "answers": {
+              "jean-calvin": "Jean Calvin",
+              "martin-luther": "Martin Luther",
+              "ulrich-zwingli": "Ulrich Zwingli",
+              "theodore-de-beze": "Théodore de Bèze"
+            }
+          },
+          "trad-thann-saint-thiebaut": {
+            "prompt": "Quel saint est au cœur de la légende fondatrice de Thann, célébrée par la crémation des trois sapins ?",
+            "hint": "Évêque de Gubbio, en Ombrie, il a donné son nom à la collégiale de la ville.",
+            "anecdote": "Selon la légende, en 1161, le serviteur du saint s'endort près d'un sapin et son bâton y prend racine, tandis que trois lumières apparaissent. Une chapelle est alors bâtie, à l'origine de la ville.",
+            "answers": {
+              "saint-thiebaut": "Saint Thiébaut",
+              "saint-arbogast": "Saint Arbogast",
+              "saint-morand": "Saint Morand",
+              "saint-leger": "Saint Léger"
             }
           }
         }

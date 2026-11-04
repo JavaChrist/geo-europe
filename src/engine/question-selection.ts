@@ -28,7 +28,7 @@ export interface QuestionHistory {
 export const EMPTY_HISTORY: QuestionHistory = { plays: 0, questions: {} };
 
 const eligibleQuestions = (level: Level): LevelChallenge[] =>
-  level.questions.filter((question) => question.difficulty <= level.maxDifficulty);
+  level.questions.filter((question) => question.difficulty >= level.minDifficulty && question.difficulty <= level.maxDifficulty);
 
 /** Une question sans groupe forme à elle seule son propre groupe. */
 const groupOf = (question: LevelChallenge): string => question.group ?? `id:${question.id}`;
