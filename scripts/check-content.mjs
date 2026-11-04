@@ -4,6 +4,7 @@ import { basename, join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { ALBUM_THEMES } from "../src/engine/album.ts";
 import { maxScoreOf } from "../src/engine/level-run.ts";
+import { SPECIAL_CHALLENGES, isSpecialChallengeAvailable } from "../src/engine/special-challenges.ts";
 
 const root = process.argv[2] ?? "content";
 const BADGE_KINDS = new Set(["collector", "master"]);
@@ -174,7 +175,14 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
       if (!BADGE_KINDS.has(badge.kind)) fail(label, `type de badge inconnu : ${badge.kind}`);
       if (badgeKinds.has(badge.kind)) fail(label, `plusieurs badges ${badge.kind} dans le territoire`);
       badgeKinds.add(badge.kind);
-      if (badge.cardIds.length === 0) fail(label, "badge sans carte");
+      if (badge.territoryId !== territory.id) fail(label, `territoire inattendu : ${badge.territoryId}`);
+      if (badge.kind === "collector" && badge.cardIds.length === 0) fail(label, "badge de collection sans carte");
+      if (badge.kind === "master") {
+        if (badge.cardIds.length > 0) fail(label, "un badge de maîtrise ne dépend d'aucune carte");
+        if (!isSpecialChallengeAvailable(territory, SPECIAL_CHALLENGES.find((rules) => rules.kind === "master"))) {
+          fail(label, "pas assez de questions difficiles pour le Défi Maître");
+        }
+      }
       for (const id of badge.cardIds) {
         if (!territoryCardIds.has(id)) fail(label, `carte inconnue : ${id}`);
       }

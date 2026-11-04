@@ -4,7 +4,7 @@ import { Award, BookOpen, Lock } from "lucide-react";
 import { useState } from "react";
 import { cardsByTheme, isBadgeEarned, isCardEarned, summarizeCollections } from "@/engine/album";
 import type { RewardBadge, SouvenirCard } from "@/engine/types";
-import { useLevelRecords } from "@/features/journey/useLevelRecords";
+import { useChallengeRecords, useLevelRecords } from "@/features/journey/useLevelRecords";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { AlbumCard } from "./AlbumCard";
 import { collections } from "./collections";
@@ -60,7 +60,7 @@ function CardGrid({ cards }: { cards: readonly SouvenirCard[] }) {
 
 function BadgeRow({ badge, cards }: { badge: RewardBadge; cards: readonly SouvenirCard[] }) {
   const { t, tContent } = useTranslation();
-  const earned = isBadgeEarned(badge, cards, useLevelRecords());
+  const earned = isBadgeEarned(badge, cards, useLevelRecords(), useChallengeRecords());
   const Icon = earned ? Award : Lock;
 
   return (
@@ -79,6 +79,7 @@ function BadgeRow({ badge, cards }: { badge: RewardBadge; cards: readonly Souven
 export function AlbumView() {
   const { t, tContent } = useTranslation();
   const records = useLevelRecords();
+  const challenges = useChallengeRecords();
   const [mode, setMode] = useState(remembered.mode);
   const [territoryFilter, setTerritoryFilter] = useState(remembered.territory);
   const [themeFilter, setThemeFilter] = useState(remembered.theme);
@@ -96,7 +97,7 @@ export function AlbumView() {
     setThemeFilter(next);
   };
 
-  const total = summarizeCollections(collections, records);
+  const total = summarizeCollections(collections, records, challenges);
   const ofTotal = (value: number, max: number) => t("album.counters.ofTotal", { value, total: max });
 
   return (
@@ -141,7 +142,7 @@ export function AlbumView() {
           {collections
             .filter((territory) => territoryFilter === null || territory.id === territoryFilter)
             .map((territory) => {
-              const progress = summarizeCollections([territory], records);
+              const progress = summarizeCollections([territory], records, challenges);
               const name = tContent(territory.nameKey);
               return (
                 <section key={territory.id} className="flex flex-col gap-3 rounded-3xl border border-gold/25 bg-surface/50 p-5">

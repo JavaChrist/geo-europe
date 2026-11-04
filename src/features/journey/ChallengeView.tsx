@@ -13,8 +13,10 @@ import {
   scoreOf,
   type AnswerState,
   type LevelRun,
+  type RunBank,
 } from "@/engine/level-run";
-import type { Level, LevelChallenge } from "@/engine/types";
+import { correctCount } from "@/engine/special-challenges";
+import type { LevelChallenge } from "@/engine/types";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { ChallengeMap, ChallengePhoto } from "./ChallengeMedia";
 
@@ -29,12 +31,14 @@ const ANSWER_STYLES: Record<AnswerState, string> = {
 const ANSWER_ICONS: Partial<Record<AnswerState, typeof Check>> = { wrong: X, correct: Check, revealed: Check };
 
 interface ChallengeViewProps {
-  level: Level;
+  level: RunBank;
   run: LevelRun;
   onAnswer: (answerId: string) => void;
-  onJoker: () => void;
+  onJoker?: () => void;
   onNext: () => void;
   onQuit: () => void;
+  /** Défi spécial : bonnes réponses au lieu des points, pas de joker. `timed` laisse la place au chronomètre et va droit au but. */
+  special?: { timed: boolean };
 }
 
 function AnswerButtons({ challenge, run, onAnswer }: { challenge: LevelChallenge; run: LevelRun; onAnswer: (id: string) => void }) {
@@ -67,7 +71,7 @@ function AnswerButtons({ challenge, run, onAnswer }: { challenge: LevelChallenge
 }
 
 /** Écran commun à tous les défis : seul le support (photo, carte) dépend du type de défi. */
-export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit }: ChallengeViewProps) {
+export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit, special }: ChallengeViewProps) {
   const { t, tContent } = useTranslation();
   const rootRef = useRef<HTMLDivElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
@@ -89,13 +93,17 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit }:
   }, [hasFeedback, run.state]);
 
   return (
-    <div ref={rootRef} className="fade-in flex scroll-mt-2 flex-col gap-4">
+    <div ref={rootRef} className={`fade-in flex flex-col gap-4 ${special?.timed ? "scroll-mt-20" : "scroll-mt-2"}`}>
       <header className="flex flex-col gap-2">
         <div className="flex items-center justify-between gap-3 text-sm">
           <span className="font-semibold text-gold">
             {t("journey.game.progress", { current: run.index + 1, total: run.challengeIds.length })}
           </span>
-          <span>{t("journey.game.score", { count: scoreOf(run) })}</span>
+          <span>
+            {special
+              ? t("journey.specials.game.tally", { count: correctCount(run.results) })
+              : t("journey.game.score", { count: scoreOf(run) })}
+          </span>
           <button
             type="button"
             onClick={onQuit}
@@ -139,18 +147,23 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit }:
             <div className={`rounded-2xl border p-4 ${result.correct ? "border-success/50 bg-success/10" : "border-gold/50 bg-gold/10"}`}>
               <p className="font-semibold">
                 {result.correct
-                  ? t("journey.game.correct", { count: result.points })
-                  : t("journey.game.failed", { answer: tContent(answerLabel) })}
+                  ? special
+                    ? t("journey.specials.game.correct")
+                    : t("journey.game.correct", { count: result.points })
+                  : t(special ? "journey.specials.game.failed" : "journey.game.failed", { answer: tContent(answerLabel) })}
               </p>
-              <p className="mt-2 flex gap-2 text-ink-soft">
-                <Sparkles aria-hidden className="size-5 shrink-0 text-gold" />
-                <span>{tContent(challenge.anecdoteKey)}</span>
-              </p>
+              {!special?.timed && (
+                <p className="mt-2 flex gap-2 text-ink-soft">
+                  <Sparkles aria-hidden className="size-5 shrink-0 text-gold" />
+                  <span>{tContent(challenge.anecdoteKey)}</span>
+                </p>
+              )}
             </div>
           )}
         </div>
 
         {run.state === "playing" ? (
+          !special && (
           <div className="flex flex-col gap-1">
             <button
               type="button"
@@ -167,6 +180,7 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit }:
               {t("journey.game.jokerCost", { cost: LEVEL_RULES.points.first - LEVEL_RULES.points.firstWithJoker })}
             </p>
           </div>
+          )
         ) : (
           <button
             type="button"

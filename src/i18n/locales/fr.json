@@ -129,6 +129,75 @@
       "best": "Meilleur score sur cet appareil : {score} sur {max}",
       "notSaved": "Ce résultat n'a pas pu être enregistré sur cet appareil.",
       "detail": "Détail des défis"
+    },
+    "specials": {
+      "title": "Défis spéciaux",
+      "locked": {
+        "one": "Terminez le niveau du parcours pour débloquer ce défi.",
+        "other": "Terminez les {count} niveaux du parcours pour débloquer ce défi."
+      },
+      "levelsDone": "Niveaux terminés : {done} / {total}",
+      "notPlayed": "Pas encore tenté",
+      "optional": "Facultatif",
+      "master": {
+        "name": "Défi Maître",
+        "description": "Les questions les plus difficiles du parcours, sans limite de temps. Réussissez pour gagner le badge du territoire."
+      },
+      "chrono": {
+        "name": "Défi Chrono",
+        "description": "Des questions variées contre la montre, pour battre votre propre record."
+      },
+      "best": {
+        "one": "Meilleur résultat : {count} bonne réponse sur {total}",
+        "other": "Meilleur résultat : {count} bonnes réponses sur {total}"
+      },
+      "bestTimed": {
+        "one": "Record : {count} bonne réponse sur {total} en {time}",
+        "other": "Record : {count} bonnes réponses sur {total} en {time}"
+      },
+      "passed": "Défi réussi",
+      "duration": "{minutes} min {seconds} s",
+      "rules": {
+        "title": "Règles du défi",
+        "questions": "{count} questions variées tirées du parcours, sans doublon.",
+        "noLimit": "Aucune limite de temps.",
+        "timeLimit": "{seconds} secondes pour l'ensemble des questions.",
+        "oneAttempt": "Une seule tentative par question, sans joker.",
+        "pass": "Au moins {count} bonnes réponses pour réussir.",
+        "badge": "Votre première réussite donne le badge « {name} », conservé pour toujours. Rejouez librement.",
+        "clock": "Le chronomètre continue pendant un changement d'onglet ou la mise en arrière-plan. À la fin du temps, la partie s'arrête.",
+        "ranking": "Le record retient le plus de bonnes réponses, puis le temps le plus court.",
+        "separate": "Ce défi ne donne pas d'XP et ne compte pas dans les niveaux terminés."
+      },
+      "game": {
+        "tally": {
+          "one": "{count} bonne réponse",
+          "other": "{count} bonnes réponses"
+        },
+        "correct": "Bonne réponse.",
+        "failed": "La bonne réponse était : {answer}",
+        "timer": "Temps restant : {time}"
+      },
+      "result": {
+        "passed": "Défi réussi",
+        "failed": "Pas encore réussi",
+        "finished": "Défi terminé",
+        "expired": "Temps écoulé",
+        "score": {
+          "one": "{count} bonne réponse sur {total}",
+          "other": "{count} bonnes réponses sur {total}"
+        },
+        "need": "Il faut au moins {count} bonnes réponses pour réussir. Rejouez quand vous voulez.",
+        "badge": "Badge obtenu : {name}",
+        "openAlbum": "Voir l'album",
+        "time": "Temps réalisé : {time}",
+        "newRecord": "Nouveau record",
+        "answers": "Réponses correctes",
+        "unanswered": "Sans réponse",
+        "failedAgain": "Pas réussi cette fois",
+        "kept": "Votre réussite précédente reste acquise."
+      },
+      "durationSeconds": "{seconds} s"
     }
   },
   "sources": {
@@ -158,9 +227,14 @@
       "deleteAction": "Effacer mes résultats",
       "deleteIntro": "Efface tous les résultats de parcours enregistrés sur cet appareil.",
       "deleteTitle": "Effacer vos résultats ?",
-      "deleteBody": "Scores, étoiles, XP, nombre de parties et questions déjà rencontrées seront définitivement effacés de cet appareil.",
+      "deleteBody": "Scores, étoiles, XP, cartes, badges, records des défis, nombre de parties et questions déjà rencontrées seront définitivement effacés de cet appareil.",
       "deletedTitle": "Résultats effacés",
-      "deletedBody": "Plus aucun résultat n'est enregistré sur cet appareil."
+      "deletedBody": "Plus aucun résultat n'est enregistré sur cet appareil.",
+      "challengeName": "{challenge}, {territory}",
+      "lastCorrect": {
+        "one": "Dernier résultat : {count} bonne réponse sur {total}",
+        "other": "Dernier résultat : {count} bonnes réponses sur {total}"
+      }
     },
     "identity": {
       "publisherTitle": "Éditeur",
@@ -192,7 +266,7 @@
           },
           "local": {
             "title": "Profils et progression sur l'appareil",
-            "body": "Aujourd'hui, le jeu ne demande ni compte, ni nom, ni adresse e-mail, ni âge, et ne crée aucun profil. Quand vous terminez un niveau, il enregistre le résultat dans le stockage local de votre navigateur ou de votre appareil : niveau joué, meilleur et dernier score, étoiles, XP gagnés, nombre de parties et date de la dernière partie. Ces résultats ne sont pas envoyés à nos serveurs. Vous pouvez les consulter et les effacer dans les rubriques dédiées. Le jeu ne dépose lui-même ni cookie ni traceur publicitaire. Lorsque des profils locaux seront proposés, cette politique décrira ce qui est enregistré avant leur mise en service."
+            "body": "Aujourd'hui, le jeu ne demande ni compte, ni nom, ni adresse e-mail, ni âge, et ne crée aucun profil. Quand vous terminez un niveau, il enregistre le résultat dans le stockage local de votre navigateur ou de votre appareil : niveau joué, meilleur et dernier score, étoiles, XP gagnés, nombre de parties et date de la dernière partie. Il en va de même pour les défis spéciaux : meilleur et dernier nombre de bonnes réponses, meilleur temps, réussite du défi, nombre de parties et date de la dernière partie. Ces résultats ne sont pas envoyés à nos serveurs. Vous pouvez les consulter et les effacer dans les rubriques dédiées. Le jeu ne dépose lui-même ni cookie ni traceur publicitaire. Lorsque des profils locaux seront proposés, cette politique décrira ce qui est enregistré avant leur mise en service."
           },
           "hosting": {
             "title": "Données techniques liées à l'hébergement",

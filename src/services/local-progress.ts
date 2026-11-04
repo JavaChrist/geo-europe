@@ -1,6 +1,7 @@
 import type { ChallengeResult, StarCount } from "@/engine/level-run";
 import { xpAfterRun } from "@/engine/progress-summary";
 import { EMPTY_HISTORY, type QuestionHistory, withRunResults } from "@/engine/question-selection";
+import { type ChallengePerformance, type ChallengeRecord, type SpecialChallengeRules, withChallengeResult } from "@/engine/special-challenges";
 import { AppError } from "./app-error";
 
 /**
@@ -30,6 +31,8 @@ interface StoredSpace {
   levels: LevelRecords;
   /** Absent des données enregistrées avant l'arrivée de la banque de questions. */
   questions?: Record<string, QuestionHistory>;
+  /** Défis spéciaux, à part des niveaux : ils n'entrent ni dans les compteurs régionaux ni dans l'XP. */
+  challenges?: Record<string, ChallengeRecord>;
 }
 
 interface StoredProgress {
@@ -38,6 +41,7 @@ interface StoredProgress {
 }
 
 const NO_RECORDS: LevelRecords = {};
+const NO_CHALLENGES: Record<string, ChallengeRecord> = {};
 
 const storageKey = (countryCode: string) => `geo-europe.${countryCode}.progress`;
 
@@ -56,6 +60,19 @@ function isLevelRecord(value: unknown): value is LevelRecord {
     isCount(record.plays) &&
     typeof record.lastPlayedAt === "string" &&
     (record.xp === undefined || isCount(record.xp))
+  );
+}
+
+function isChallengeRecord(value: unknown): value is ChallengeRecord {
+  if (!isObject(value)) return false;
+  const record = value as Partial<ChallengeRecord>;
+  return (
+    isCount(record.plays) &&
+    isCount(record.lastCorrect) &&
+    typeof record.lastPlayedAt === "string" &&
+    isCount(record.bestCorrect) &&
+    (record.bestTimeMs === null || isCount(record.bestTimeMs)) &&
+    typeof record.passed === "boolean"
   );
 }
 
@@ -83,7 +100,14 @@ function parseRecords(raw: string | null): LevelRecords {
   return Object.fromEntries(Object.entries(levels).filter(([, record]) => isLevelRecord(record)));
 }
 
+function parseChallenges(raw: string | null): Record<string, ChallengeRecord> {
+  const challenges = parseStored(raw)?.spaces?.[DEVICE_SPACE]?.challenges;
+  if (!challenges) return NO_CHALLENGES;
+  return Object.fromEntries(Object.entries(challenges).filter(([, record]) => isChallengeRecord(record)));
+}
+
 let cache: { key: string; raw: string | null; records: LevelRecords } | null = null;
+let challengeCache: { key: string; raw: string | null; records: Record<string, ChallengeRecord> } | null = null;
 const listeners = new Set<() => void>();
 
 function readRaw(key: string): string | null {
@@ -100,6 +124,14 @@ export function readLevelRecords(countryCode: string): LevelRecords {
   const raw = readRaw(key);
   if (cache?.key !== key || cache.raw !== raw) cache = { key, raw, records: parseRecords(raw) };
   return cache.records;
+}
+
+/** Même garantie que readLevelRecords, pour les défis spéciaux. */
+export function readChallengeRecords(countryCode: string): Record<string, ChallengeRecord> {
+  const key = storageKey(countryCode);
+  const raw = readRaw(key);
+  if (challengeCache?.key !== key || challengeCache.raw !== raw) challengeCache = { key, raw, records: parseChallenges(raw) };
+  return challengeCache.records;
 }
 
 /** Sans stockage disponible, l'historique est vide : le tirage fonctionne quand même. */
@@ -119,6 +151,25 @@ export function subscribeToLevelRecords(listener: () => void): () => void {
 
 const notify = () => listeners.forEach((listener) => listener());
 
+const withHistory = (countryCode: string, historyKey: string, results: readonly ChallengeResult[]) => ({
+  ...parseStored(readRaw(storageKey(countryCode)))?.spaces?.[DEVICE_SPACE]?.questions,
+  [historyKey]: withRunResults(readQuestionHistory(countryCode, historyKey), results),
+});
+
+function writeSpace(countryCode: string, space: StoredSpace): void {
+  const key = storageKey(countryCode);
+  const stored: StoredProgress = {
+    version: FORMAT_VERSION,
+    spaces: { ...parseStored(readRaw(key))?.spaces, [DEVICE_SPACE]: space },
+  };
+  try {
+    window.localStorage.setItem(key, JSON.stringify(stored));
+  } catch (cause) {
+    throw new AppError("storage", { cause });
+  }
+  notify();
+}
+
 export function recordLevelResult(
   countryCode: string,
   levelId: string,
@@ -126,7 +177,6 @@ export function recordLevelResult(
   stars: StarCount,
   results: readonly ChallengeResult[],
 ): LevelRecord {
-  const key = storageKey(countryCode);
   const previous = readLevelRecords(countryCode)[levelId];
   const record: LevelRecord = {
     bestScore: Math.max(score, previous?.bestScore ?? 0),
@@ -137,26 +187,28 @@ export function recordLevelResult(
     lastPlayedAt: new Date().toISOString(),
     xp: xpAfterRun(previous, score),
   };
-  const current = parseStored(readRaw(key));
-  const stored: StoredProgress = {
-    version: FORMAT_VERSION,
-    spaces: {
-      ...current?.spaces,
-      [DEVICE_SPACE]: {
-        levels: { ...readLevelRecords(countryCode), [levelId]: record },
-        questions: {
-          ...current?.spaces?.[DEVICE_SPACE]?.questions,
-          [levelId]: withRunResults(readQuestionHistory(countryCode, levelId), results),
-        },
-      },
-    },
-  };
-  try {
-    window.localStorage.setItem(key, JSON.stringify(stored));
-  } catch (cause) {
-    throw new AppError("storage", { cause });
-  }
-  notify();
+  writeSpace(countryCode, {
+    levels: { ...readLevelRecords(countryCode), [levelId]: record },
+    questions: withHistory(countryCode, levelId, results),
+    challenges: readChallengeRecords(countryCode),
+  });
+  return record;
+}
+
+export function recordChallengeResult(
+  countryCode: string,
+  challengeKey: string,
+  rules: SpecialChallengeRules,
+  performance: ChallengePerformance,
+  results: readonly ChallengeResult[],
+): ChallengeRecord {
+  const challenges = readChallengeRecords(countryCode);
+  const record = withChallengeResult(challenges[challengeKey], rules, performance, new Date().toISOString());
+  writeSpace(countryCode, {
+    levels: readLevelRecords(countryCode),
+    questions: withHistory(countryCode, challengeKey, results),
+    challenges: { ...challenges, [challengeKey]: record },
+  });
   return record;
 }
 

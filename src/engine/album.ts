@@ -1,4 +1,5 @@
 /** Album de souvenirs, commun à tous les pays. Cartes et badges se déduisent des résultats enregistrés : rien n'est stocké à part. */
+import { type ChallengeRecords, challengeKey } from "./special-challenges.ts";
 import type { AlbumThemeId, RewardBadge, SouvenirCard, Territory } from "./types.ts";
 
 export const ALBUM_THEMES: readonly AlbumThemeId[] = ["cities", "gastronomy", "heritage", "traditions", "crafts"];
@@ -27,9 +28,14 @@ export interface NewRewards {
 
 export const isCardEarned = (card: SouvenirCard, records: AlbumRecords): boolean => records[card.unlock.levelId] !== undefined;
 
-export function isBadgeEarned(badge: RewardBadge, cards: readonly SouvenirCard[], records: AlbumRecords): boolean {
-  // La règle du badge de maîtrise reste à définir : il ne se gagne pas encore.
-  if (badge.kind !== "collector" || badge.cardIds.length === 0) return false;
+export function isBadgeEarned(
+  badge: RewardBadge,
+  cards: readonly SouvenirCard[],
+  records: AlbumRecords,
+  challenges: ChallengeRecords = {},
+): boolean {
+  if (badge.kind === "master") return challenges[challengeKey(badge.territoryId, "master")]?.passed === true;
+  if (badge.cardIds.length === 0) return false;
   return badge.cardIds.every((id) => {
     const card = cards.find((candidate) => candidate.id === id);
     return card !== undefined && isCardEarned(card, records);
@@ -40,13 +46,17 @@ export function isBadgeEarned(badge: RewardBadge, cards: readonly SouvenirCard[]
 export const albumCollections = <T extends AlbumTerritory>(territories: readonly T[]): T[] =>
   territories.filter((territory) => territory.status === "published" && territory.souvenirCards.length > 0);
 
-export function summarizeCollections(territories: readonly AlbumTerritory[], records: AlbumRecords): CollectionProgress {
+export function summarizeCollections(
+  territories: readonly AlbumTerritory[],
+  records: AlbumRecords,
+  challenges: ChallengeRecords = {},
+): CollectionProgress {
   const cards = territories.flatMap((territory) => territory.souvenirCards);
-  const badges = territories.flatMap((territory) => territory.badges.filter((badge) => badge.kind === "collector"));
+  const badges = territories.flatMap((territory) => territory.badges);
   return {
     cardsEarned: cards.filter((card) => isCardEarned(card, records)).length,
     cardsTotal: cards.length,
-    badgesEarned: badges.filter((badge) => isBadgeEarned(badge, cards, records)).length,
+    badgesEarned: badges.filter((badge) => isBadgeEarned(badge, cards, records, challenges)).length,
     badgesTotal: badges.length,
   };
 }
@@ -60,13 +70,19 @@ export function cardsByTheme(territories: readonly AlbumTerritory[]): ThemeGroup
 }
 
 /** Ce qu'un nouveau résultat vient de faire gagner : rien lors d'un rejeu. */
-export function newRewards(territories: readonly AlbumTerritory[], before: AlbumRecords, after: AlbumRecords): NewRewards {
+export function newRewards(
+  territories: readonly AlbumTerritory[],
+  before: AlbumRecords,
+  after: AlbumRecords,
+  challengesBefore: ChallengeRecords = {},
+  challengesAfter: ChallengeRecords = challengesBefore,
+): NewRewards {
   const collections = albumCollections(territories);
   const cards = collections.flatMap((territory) => territory.souvenirCards);
   return {
     cards: cards.filter((card) => !isCardEarned(card, before) && isCardEarned(card, after)),
     badges: collections
       .flatMap((territory) => territory.badges)
-      .filter((badge) => !isBadgeEarned(badge, cards, before) && isBadgeEarned(badge, cards, after)),
+      .filter((badge) => !isBadgeEarned(badge, cards, before, challengesBefore) && isBadgeEarned(badge, cards, after, challengesAfter)),
   };
 }

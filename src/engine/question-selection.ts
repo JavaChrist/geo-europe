@@ -27,16 +27,19 @@ export interface QuestionHistory {
 
 export const EMPTY_HISTORY: QuestionHistory = { plays: 0, questions: {} };
 
-const eligibleQuestions = (level: Level): LevelChallenge[] =>
+/** Ce que le tirage lit : la banque d'un niveau ou celle d'un défi spécial. */
+export type QuestionBank = Pick<Level, "questions" | "minDifficulty" | "maxDifficulty">;
+
+const eligibleQuestions = (level: QuestionBank): LevelChallenge[] =>
   level.questions.filter((question) => question.difficulty >= level.minDifficulty && question.difficulty <= level.maxDifficulty);
 
 /** Une question sans groupe forme à elle seule son propre groupe. */
 const groupOf = (question: LevelChallenge): string => question.group ?? `id:${question.id}`;
 
 /** Nombre de questions d'une partie : il ne dépend pas de l'historique du joueur. */
-export function questionsPerRunOf(level: Level): number {
+export function questionsPerRunOf(level: QuestionBank, target: number = SELECTION_RULES.questionsPerRun): number {
   const groups = new Set(eligibleQuestions(level).map(groupOf));
-  return Math.min(groups.size, SELECTION_RULES.questionsPerRun);
+  return Math.min(groups.size, target);
 }
 
 const Rank = { Review: 0, Unseen: 1, Older: 2, Recent: 3 } as const;
@@ -66,8 +69,13 @@ function rankedQuestions(questions: LevelChallenge[], history: QuestionHistory, 
  * Le résultat est calculé une fois au départ : la partie ne change plus ensuite.
  * Les règles de diversité cèdent seulement si la banque ne permet pas de les tenir.
  */
-export function selectQuestions(level: Level, history: QuestionHistory, random: RandomSource): string[] {
-  const size = questionsPerRunOf(level);
+export function selectQuestions(
+  level: QuestionBank,
+  history: QuestionHistory,
+  random: RandomSource,
+  target: number = SELECTION_RULES.questionsPerRun,
+): string[] {
+  const size = questionsPerRunOf(level, target);
   const ranked = rankedQuestions(eligibleQuestions(level), history, random);
   const picked: LevelChallenge[] = [];
 

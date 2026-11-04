@@ -1,5 +1,6 @@
 // Vérifie les règles d'une partie et le tirage dans une banque. Usage : node scripts/check-engine.mjs
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { albumCollections, cardsByTheme, isBadgeEarned, isCardEarned, newRewards, summarizeCollections } from "../src/engine/album.ts";
 import {
   applyJoker,
@@ -20,6 +21,20 @@ import {
 import { isLevelUnlocked, UNLOCK_RULES } from "../src/engine/level-unlock.ts";
 import { earnedXp, summarizeCountry, summarizeProgress, xpAfterRun, xpForScore } from "../src/engine/progress-summary.ts";
 import { EMPTY_HISTORY, questionsPerRunOf, SELECTION_RULES, selectQuestions, withRunResults } from "../src/engine/question-selection.ts";
+import {
+  areSpecialChallengesUnlocked,
+  availableSpecialChallenges,
+  challengeKey,
+  correctCount,
+  elapsedMs,
+  isBetterPerformance,
+  isChallengePassed,
+  isSpecialChallengeAvailable,
+  remainingMs,
+  SPECIAL_CHALLENGES,
+  specialChallengeBank,
+  withChallengeResult,
+} from "../src/engine/special-challenges.ts";
 
 const answers = (count) => Array.from({ length: count }, (_, i) => ({ id: `a${i}`, labelKey: `k${i}` }));
 const question = (id, overrides = {}) => ({
@@ -336,8 +351,8 @@ for (let seed = 0; seed < 50; seed++) {
 {
   const card = (id, themeId, levelId) => ({ id, territoryId: "t", themeId, nameKey: "n", descriptionKey: "d", anecdoteKey: "a", mediaId: "m", unlock: { kind: "level-finished", levelId } });
   const cards = [card("c1", "cities", "l1"), card("c2", "gastronomy", "l2"), card("c3", "cities", "l3")];
-  const collector = { id: "b", kind: "collector", nameKey: "n", descriptionKey: "d", cardIds: ["c1", "c2", "c3"] };
-  const master = { ...collector, id: "m", kind: "master" };
+  const collector = { id: "b", kind: "collector", territoryId: "t", nameKey: "n", descriptionKey: "d", cardIds: ["c1", "c2", "c3"] };
+  const master = { ...collector, id: "m", kind: "master", cardIds: [] };
   const territory = { id: "t", status: "published", souvenirCards: cards, badges: [collector, master] };
   const draft = { ...territory, id: "draft", status: "draft" };
   const empty = { ...territory, id: "empty", souvenirCards: [], badges: [] };
@@ -349,7 +364,7 @@ for (let seed = 0; seed < 50; seed++) {
 
   // Une ancienne progression reconnue d'emblée, sans doublon.
   const old = { l1: { bestScore: 800 }, l2: zero };
-  assert.deepEqual(summarizeCollections([territory], old), { cardsEarned: 2, cardsTotal: 3, badgesEarned: 0, badgesTotal: 1 });
+  assert.deepEqual(summarizeCollections([territory], old), { cardsEarned: 2, cardsTotal: 3, badgesEarned: 0, badgesTotal: 2 });
 
   // Une seule carte dans chaque vue : les thèmes regroupent les mêmes objets.
   const groups = cardsByTheme([territory]);
@@ -365,7 +380,7 @@ for (let seed = 0; seed < 50; seed++) {
   assert.deepEqual(replay, { cards: [], badges: [] });
   assert.deepEqual(newRewards([draft], {}, { l1: zero }), { cards: [], badges: [] }, "un brouillon ne récompense pas");
 
-  // Le badge arrive avec la dernière carte. Le badge de maîtrise reste distinct et ne se gagne pas encore.
+  // Le badge arrive avec la dernière carte. Le badge de maîtrise reste distinct : les cartes ne le donnent pas.
   const all = { l1: zero, l2: zero, l3: zero };
   const last = newRewards([territory], { l1: zero, l2: zero }, all);
   assert.deepEqual(last.cards.map((earned) => earned.id), ["c3"]);
@@ -375,6 +390,118 @@ for (let seed = 0; seed < 50; seed++) {
 
   // Une carte ajoutée plus tard à la collection ne retire pas le badge.
   assert.equal(isBadgeEarned(collector, [...cards, card("c4", "crafts", "l4")], all), true);
+
+  // Le badge Maître vient de la réussite du défi : une seule fois, jamais perdu, sans doublon au rejeu.
+  const passedRecord = { passed: true };
+  const failedRecord = { passed: false };
+  const key = challengeKey("t", "master");
+  assert.equal(isBadgeEarned(master, cards, all, { [key]: failedRecord }), false);
+  assert.equal(isBadgeEarned(master, cards, {}, { [key]: passedRecord }), true);
+  assert.deepEqual(newRewards([territory], all, all, {}, { [key]: failedRecord }).badges, []);
+  assert.deepEqual(newRewards([territory], all, all, {}, { [key]: passedRecord }).badges.map((badge) => badge.id), ["m"]);
+  assert.deepEqual(newRewards([territory], all, all, { [key]: passedRecord }, { [key]: passedRecord }), { cards: [], badges: [] });
+  assert.equal(summarizeCollections([territory], all, { [key]: passedRecord }).badgesEarned, 2);
+}
+
+// Défis spéciaux : une seule configuration pour tous les territoires.
+{
+  const [masterRules, chronoRules] = SPECIAL_CHALLENGES;
+  assert.equal(masterRules.kind, "master");
+  assert.equal(chronoRules.kind, "chrono");
+  for (const rules of SPECIAL_CHALLENGES) {
+    assert.equal(rules.questions, 10);
+    assert.equal(rules.maxAttempts, 1);
+    assert.equal(rules.jokers, 0);
+  }
+  assert.equal(masterRules.timeLimitMs, null);
+  assert.equal(chronoRules.timeLimitMs, 120_000);
+
+  // Déblocage : tous les niveaux ont un résultat, quel que soit le score.
+  assert.equal(areSpecialChallengesUnlocked(["a", "b"], {}), false);
+  assert.equal(areSpecialChallengesUnlocked(["a", "b"], { a: {} }), false);
+  assert.equal(areSpecialChallengesUnlocked(["a", "b"], { a: {}, b: {} }), true);
+  assert.equal(areSpecialChallengesUnlocked([], {}), false, "un territoire vide n'ouvre rien");
+
+  // Réussite à partir de huit.
+  assert.equal(isChallengePassed(masterRules, 7), false);
+  assert.equal(isChallengePassed(masterRules, 8), true);
+  assert.equal(isChallengePassed(masterRules, 10), true);
+  assert.equal(isChallengePassed(chronoRules, 10), false, "le Chrono n'a pas de réussite");
+
+  // Records : réussite permanente, bonnes réponses puis temps.
+  const at = "2026-11-04T10:00:00.000Z";
+  let record = withChallengeResult(undefined, masterRules, { correct: 8, timeMs: null }, at);
+  assert.deepEqual(record, { plays: 1, lastCorrect: 8, lastPlayedAt: at, bestCorrect: 8, bestTimeMs: null, passed: true });
+  record = withChallengeResult(record, masterRules, { correct: 3, timeMs: null }, at);
+  assert.deepEqual(record, { plays: 2, lastCorrect: 3, lastPlayedAt: at, bestCorrect: 8, bestTimeMs: null, passed: true }, "un rejeu moins bon ne retire rien");
+
+  assert.equal(isBetterPerformance({ correct: 7, timeMs: 110_000 }, { correct: 6, timeMs: 40_000 }), true, "les bonnes réponses d'abord");
+  assert.equal(isBetterPerformance({ correct: 6, timeMs: 39_000 }, { correct: 6, timeMs: 40_000 }), true, "puis le temps");
+  assert.equal(isBetterPerformance({ correct: 6, timeMs: 40_000 }, { correct: 6, timeMs: 40_000 }), false);
+  assert.equal(isBetterPerformance({ correct: 5, timeMs: 1_000 }, { correct: 6, timeMs: 40_000 }), false);
+  let chrono = withChallengeResult(undefined, chronoRules, { correct: 6, timeMs: 80_000 }, at);
+  chrono = withChallengeResult(chrono, chronoRules, { correct: 6, timeMs: 70_000 }, at);
+  assert.equal(chrono.bestTimeMs, 70_000);
+  chrono = withChallengeResult(chrono, chronoRules, { correct: 4, timeMs: 20_000 }, at);
+  assert.deepEqual([chrono.bestCorrect, chrono.bestTimeMs, chrono.lastCorrect, chrono.plays], [6, 70_000, 4, 3], "le temps suit la meilleure partie");
+  chrono = withChallengeResult(chrono, chronoRules, { correct: 7, timeMs: 120_000 }, at);
+  assert.deepEqual([chrono.bestCorrect, chrono.bestTimeMs], [7, 120_000]);
+  assert.equal(chrono.passed, false);
+
+  // Chronomètre : l'arrière-plan et le changement d'heure ne font pas gagner de temps.
+  const start = { wall: 1_000_000, monotonic: 500 };
+  assert.equal(elapsedMs(start, { wall: 1_030_000, monotonic: 30_500 }), 30_000);
+  assert.equal(elapsedMs(start, { wall: 1_090_000, monotonic: 10_500 }), 90_000, "veille : l'horloge monotone peut rester figée");
+  assert.equal(elapsedMs(start, { wall: 900_000, monotonic: 45_500 }), 45_000, "horloge reculée à la main");
+  assert.equal(elapsedMs(start, { wall: 999_000, monotonic: 400 }), 0);
+  assert.equal(remainingMs(120_000, 45_000), 75_000);
+  assert.equal(remainingMs(120_000, 500_000), 0);
+
+  // Règles d'une partie de défi : un essai, pas de joker. Les niveaux ne changent pas.
+  const bank = levelWith(Array.from({ length: 12 }, (_, i) => question(`s${i}`)));
+  const ids = bank.questions.slice(0, 10).map((candidate) => candidate.id);
+  const special = startRun(bank, ids, random, masterRules);
+  assert.equal(special.jokersLeft, 0);
+  assert.equal(canUseJoker(special, bank), false);
+  const wrongId = special.answerOrder.find((id) => id !== "a0");
+  const wrong = submitAnswer(special, bank, wrongId);
+  assert.equal(wrong.state, "failed", "une seule tentative");
+  assert.equal(isHintVisible(wrong), false);
+  assert.equal(correctCount([{ correct: true }, { correct: false }, { correct: true }]), 2);
+  const normal = startRun(bank, ids, random);
+  assert.equal(normal.jokersLeft, 2);
+  assert.equal(submitAnswer(normal, bank, normal.answerOrder.find((id) => id !== "a0")).state, "playing", "un niveau garde ses deux essais");
+
+  // Banque trop petite : le défi n'est pas proposé, rien n'est inventé.
+  const small = { id: "small", levels: [levelWith(Array.from({ length: 9 }, (_, i) => question(`m${i}`, { difficulty: 3 })), 3, 3)] };
+  assert.equal(isSpecialChallengeAvailable(small, masterRules), false);
+  assert.deepEqual(availableSpecialChallenges({ id: "none", levels: [] }), []);
+
+  // Les vraies questions de l'Alsace, sur de nombreux tirages.
+  const alsace = JSON.parse(readFileSync(new URL("../content/fr/territories/alsace.json", import.meta.url), "utf8"));
+  assert.deepEqual(availableSpecialChallenges(alsace).map((rules) => rules.kind), ["master", "chrono"]);
+  for (const rules of SPECIAL_CHALLENGES) {
+    const alsaceBank = specialChallengeBank(alsace, rules);
+    let history = EMPTY_HISTORY;
+    for (let seed = 0; seed < 200; seed += 1) {
+      const drawn = selectQuestions(alsaceBank, history, seeded(seed), rules.questions);
+      assert.equal(drawn.length, 10);
+      assert.equal(new Set(drawn).size, 10, "aucun doublon");
+      const picked = drawn.map((id) => alsaceBank.questions.find((candidate) => candidate.id === id));
+      for (const candidate of picked) {
+        assert.ok(candidate.difficulty >= rules.minDifficulty && candidate.difficulty <= rules.maxDifficulty, "difficulté du défi");
+      }
+      assert.equal(new Set(picked.map((candidate) => candidate.promptKey)).size, 10, "aucune question répétée");
+      assert.ok(new Set(picked.map((candidate) => candidate.category)).size >= 5, "catégories variées");
+      assert.equal(startRun(alsaceBank, drawn, seeded(seed), rules).challengeIds, drawn, "questions fixes pendant la partie");
+      if (seed < 4) {
+        const seen = new Set(Object.keys(history.questions));
+        const reused = picked.filter((candidate) => seen.has(candidate.id));
+        assert.ok(reused.every((candidate) => candidate.kind !== "choice"), "questions récentes évitées, hors type garanti");
+        history = withRunResults(history, drawn.map((challengeId) => ({ challengeId, correct: true, points: 100 })));
+      }
+    }
+  }
 }
 
 console.log("Moteur de jeu valide.");

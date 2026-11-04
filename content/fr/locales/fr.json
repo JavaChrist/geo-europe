@@ -2433,6 +2433,10 @@
           "collector": {
             "name": "Collectionneur d'Alsace",
             "description": "Réunir les cinq cartes de la collection d'Alsace."
+          },
+          "master": {
+            "name": "Maître d'Alsace",
+            "description": "Réussir le Défi Maître d'Alsace, avec au moins huit bonnes réponses sur dix."
           }
         }
       }

@@ -223,15 +223,16 @@ export interface SouvenirCard {
   unlock: CardUnlock;
 }
 
-/** `collector` : réunir des cartes. `master` : réservé au futur badge de maîtrise d'un territoire. */
+/** `collector` : réunir des cartes. `master` : réussir le Défi Maître du territoire. */
 export type RewardBadgeKind = "collector" | "master";
 
 export interface RewardBadge {
   id: string;
   kind: RewardBadgeKind;
+  territoryId: string;
   nameKey: string;
   descriptionKey: string;
-  /** Liste figée : une carte ajoutée plus tard à la collection ne retire pas un badge déjà gagné. */
+  /** Liste figée : une carte ajoutée plus tard à la collection ne retire pas un badge déjà gagné. Vide pour `master`. */
   cardIds: string[];
 }
 

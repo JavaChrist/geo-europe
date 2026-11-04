@@ -2,10 +2,12 @@ import { Building2, Castle, Compass, type LucideIcon, TreePine } from "lucide-re
 import { notFound } from "next/navigation";
 import content from "@country";
 import { previousSummary, summarizeLevel } from "@/engine/level-unlock";
+import { availableSpecialChallenges } from "@/engine/special-challenges";
 import type { TerritoryPlace } from "@/engine/types";
 import { CoverPhoto } from "@/features/journey/CoverPhoto";
 import { LevelCard } from "@/features/journey/LevelCard";
 import { TerritoryProgress } from "@/features/journey/ProgressPanels";
+import { SpecialChallenges } from "@/features/journey/SpecialChallenges";
 import { findTerritory, regionSlugOf, territoryPath } from "@/features/journey/territories";
 import { getTranslator } from "@/i18n/translator";
 import { BackLink } from "@/ui/BackLink";
@@ -91,6 +93,13 @@ export default async function TerritoryPage({ params }: { params: Promise<{ slug
           </>
         )}
       </section>
+
+      <SpecialChallenges
+        territoryId={territory.id}
+        levelIds={territory.levels.map((level) => level.id)}
+        challenges={availableSpecialChallenges(territory)}
+        basePath={`${territoryPath(region.slug, territory.slug)}/defis`}
+      />
 
       <BackLink href={`/explorer/${region.slug}`} label={t("journey.backTo", { name: regionName })} />
     </main>

@@ -4,12 +4,15 @@ import { Trash2 } from "lucide-react";
 import content from "@country";
 import { maxScoreOf, starsFor } from "@/engine/level-run";
 import { earnedXp } from "@/engine/progress-summary";
-import { useLevelRecords } from "@/features/journey/useLevelRecords";
+import { availableSpecialChallenges, challengeKey } from "@/engine/special-challenges";
+import { formatChallengeTime } from "@/features/journey/challenge-time";
+import { useChallengeRecords, useLevelRecords } from "@/features/journey/useLevelRecords";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { clearLevelRecords } from "@/services/local-progress";
 import { useModal } from "@/ui/modal/ModalProvider";
 
 const levels = content.territories.flatMap((territory) => territory.levels);
+const specials = content.territories.flatMap((territory) => availableSpecialChallenges(territory).map((rules) => ({ territory, rules })));
 
 /** Ce que le jeu a réellement enregistré sur cet appareil, niveau par niveau. */
 export function LocalResultsList() {
@@ -18,6 +21,11 @@ export function LocalResultsList() {
   const played = levels.flatMap((level) => {
     const record = records[level.id];
     return record ? [{ level, record }] : [];
+  });
+  const challenges = useChallengeRecords();
+  const playedSpecials = specials.flatMap(({ territory, rules }) => {
+    const record = challenges[challengeKey(territory.id, rules.kind)];
+    return record ? [{ territory, rules, record }] : [];
   });
   const dateFormat = new Intl.DateTimeFormat(locale, { dateStyle: "long" });
 
@@ -35,6 +43,24 @@ export function LocalResultsList() {
               <span className="text-ink-soft">{t("privacy.localResults.lastScore", { score: record.lastScore, max: maxScoreOf(level) })}</span>
               <span className="text-ink-soft">{t("journey.stars", { count: starsFor(record.bestScore, level.stars) })}</span>
               <span className="text-ink-soft">{t("privacy.localResults.xp", { count: earnedXp(record) })}</span>
+              <span className="text-ink-soft">{t("journey.plays", { count: record.plays })}</span>
+              <span className="text-ink-soft">
+                {t("privacy.localResults.lastPlayed", { date: dateFormat.format(new Date(record.lastPlayedAt)) })}
+              </span>
+            </li>
+          ))}
+          {playedSpecials.map(({ territory, rules, record }) => (
+            <li key={`${territory.id}:${rules.kind}`} className="flex flex-col gap-1 rounded-2xl border border-gold/15 bg-abyss/30 p-4 text-sm">
+              <span className="font-semibold">
+                {t("privacy.localResults.challengeName", { challenge: t(`journey.specials.${rules.kind}.name`), territory: tContent(territory.nameKey) })}
+              </span>
+              <span className="text-ink-soft">
+                {record.bestTimeMs === null
+                  ? t("journey.specials.best", { count: record.bestCorrect, total: rules.questions })
+                  : t("journey.specials.bestTimed", { count: record.bestCorrect, total: rules.questions, time: formatChallengeTime(t, record.bestTimeMs) })}
+              </span>
+              <span className="text-ink-soft">{t("privacy.localResults.lastCorrect", { count: record.lastCorrect, total: rules.questions })}</span>
+              {record.passed && <span className="text-ink-soft">{t("journey.specials.passed")}</span>}
               <span className="text-ink-soft">{t("journey.plays", { count: record.plays })}</span>
               <span className="text-ink-soft">
                 {t("privacy.localResults.lastPlayed", { date: dateFormat.format(new Date(record.lastPlayedAt)) })}
