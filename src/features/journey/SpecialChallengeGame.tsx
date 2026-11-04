@@ -1,8 +1,8 @@
 "use client";
 
 import { Lock, Play } from "lucide-react";
-import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { type MouseEvent, useEffect, useState } from "react";
 import content from "@country";
 import { newRewards } from "@/engine/album";
 import { isRunOver, type LevelRun, nextChallenge, startRun, submitAnswer } from "@/engine/level-run";
@@ -27,6 +27,7 @@ import { readQuestionHistory, recordChallengeResult } from "@/services/local-pro
 import { BackLink } from "@/ui/BackLink";
 import { useModal } from "@/ui/modal/ModalProvider";
 import { ChallengeView } from "./ChallengeView";
+import { canReturnThroughHistory, challengeListPath, ORIGIN_PARAM } from "./challenge-origin";
 import { formatCountdown } from "./challenge-time";
 import { SpecialChallengeResult } from "./SpecialChallengeResult";
 import { SPECIAL_ICONS } from "./SpecialChallenges";
@@ -107,6 +108,7 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
   const { t, tContent } = useTranslation();
   const modal = useModal();
   const router = useRouter();
+  const origin = useSearchParams().get(ORIGIN_PARAM);
   const records = useLevelRecords();
   const challenges = useChallengeRecords();
   // La partie démarre au clic : le tirage, l'ordre des réponses et l'heure de départ n'existent pas au rendu serveur.
@@ -126,6 +128,17 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
   const masterBadge = territory.badges.find((badge) => badge.kind === "master");
   const Icon = SPECIAL_ICONS[kind];
   const name = t(`journey.specials.${kind}.name`);
+  const fromList = origin === "defis";
+  const returnHref = fromList ? challengeListPath(rules.slug) : backHref;
+  const returnLabel = fromList ? t("challenges.backToList") : backLabel;
+  // L'écran d'où vient le joueur est juste avant dans l'historique : y revenir n'ajoute pas d'entrée, donc pas de boucle.
+  const canGoBack = () => origin !== null && canReturnThroughHistory();
+
+  const onBack = (event: MouseEvent<HTMLAnchorElement>) => {
+    if (event.ctrlKey || event.metaKey || event.shiftKey || !canGoBack()) return;
+    event.preventDefault();
+    router.back();
+  };
 
   const start = () => {
     setOutcome(null);
@@ -198,7 +211,9 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
       bodyKey: "journey.game.quitBody",
       confirmKey: "journey.game.quit",
     });
-    if (confirmed) router.push(backHref);
+    if (!confirmed) return;
+    if (canGoBack()) router.back();
+    else router.push(returnHref);
   };
 
   return (
@@ -244,8 +259,9 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
           keptBadgeName={outcome.record?.passed && masterBadge ? tContent(masterBadge.nameKey) : null}
           record={outcome.record}
           onReplay={start}
-          backHref={backHref}
-          backLabel={backLabel}
+          backHref={returnHref}
+          backLabel={returnLabel}
+          onBack={onBack}
         />
       )}
 
@@ -281,7 +297,7 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
         </section>
       )}
 
-      {!run && !outcome && <BackLink href={backHref} label={backLabel} />}
+      {!run && !outcome && <BackLink href={returnHref} label={returnLabel} onClick={onBack} />}
     </main>
   );
 }

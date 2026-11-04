@@ -2,11 +2,11 @@
 
 import { ArrowLeft, Award, BookOpen, Check, Minus, RotateCcw, Smartphone, Trophy, X } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useRef } from "react";
+import { type MouseEvent, useEffect, useRef } from "react";
 import type { ChallengeResult, RunBank } from "@/engine/level-run";
 import { type ChallengeRecord, correctCount, isChallengePassed, type SpecialChallengeRules } from "@/engine/special-challenges";
 import { useTranslation } from "@/i18n/I18nProvider";
-import { formatChallengeTime } from "./challenge-time";
+import { formatBestResult, formatChallengeTime } from "./challenge-time";
 
 interface SpecialChallengeResultProps {
   rules: SpecialChallengeRules;
@@ -27,10 +27,11 @@ interface SpecialChallengeResultProps {
   onReplay: () => void;
   backHref: string;
   backLabel: string;
+  onBack: (event: MouseEvent<HTMLAnchorElement>) => void;
 }
 
 /** Résultat commun aux défis : seuls les éléments prévus par la configuration s'affichent. */
-export function SpecialChallengeResult({ rules, bank, challengeIds, results, timeMs, expired, improved, newBadgeName, keptBadgeName, record, onReplay, backHref, backLabel }: SpecialChallengeResultProps) {
+export function SpecialChallengeResult({ rules, bank, challengeIds, results, timeMs, expired, improved, newBadgeName, keptBadgeName, record, onReplay, backHref, backLabel, onBack }: SpecialChallengeResultProps) {
   const { t, tContent } = useTranslation();
   const headingRef = useRef<HTMLHeadingElement>(null);
   const correct = correctCount(results);
@@ -77,11 +78,7 @@ export function SpecialChallengeResult({ rules, bank, challengeIds, results, tim
           </p>
         )}
         {record && (
-          <p className="text-sm">
-            {record.bestTimeMs === null
-              ? t("journey.specials.best", { count: record.bestCorrect, total: rules.questions })
-              : t("journey.specials.bestTimed", { count: record.bestCorrect, total: rules.questions, time: formatChallengeTime(t, record.bestTimeMs) })}
-          </p>
+          <p className="text-sm">{formatBestResult(t, record, rules.questions)}</p>
         )}
         <p className="flex items-center gap-2 text-sm text-ink-soft">
           <Smartphone aria-hidden className="size-4 shrink-0" />
@@ -100,6 +97,7 @@ export function SpecialChallengeResult({ rules, bank, challengeIds, results, tim
 
       <Link
         href={backHref}
+        onClick={onBack}
         className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-gold/40 px-5 text-center font-semibold text-gold transition-colors hover:bg-gold/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
       >
         <ArrowLeft aria-hidden className="size-5 shrink-0" />

@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronRight, Crown, Lock, type LucideIcon, Play, RotateCcw, Timer } from "lucide-react";
+import { Award, ChevronRight, Lock, type LucideIcon, Play, RotateCcw, Timer } from "lucide-react";
 import Link from "next/link";
 import {
   areSpecialChallengesUnlocked,
@@ -9,22 +9,21 @@ import {
   type SpecialChallengeRules,
 } from "@/engine/special-challenges";
 import { useTranslation } from "@/i18n/I18nProvider";
-import { formatChallengeTime } from "./challenge-time";
+import { challengeEntryHref, markChallengeEntry } from "./challenge-origin";
+import { formatBestResult } from "./challenge-time";
 import { useChallengeRecords, useLevelRecords } from "./useLevelRecords";
 
-export const SPECIAL_ICONS: Record<SpecialChallengeKind, LucideIcon> = { master: Crown, chrono: Timer };
+export const SPECIAL_ICONS: Record<SpecialChallengeKind, LucideIcon> = { master: Award, chrono: Timer };
 
 interface SpecialChallengesProps {
   territoryId: string;
   levelIds: string[];
   challenges: SpecialChallengeRules[];
   basePath: string;
-  /** Titre de la liste, par exemple le nom du territoire sur la page Défis. */
-  title?: string;
 }
 
 /** Entrées de fin de parcours, déduites de la configuration commune des défis. */
-export function SpecialChallenges({ territoryId, levelIds, challenges, basePath, title }: SpecialChallengesProps) {
+export function SpecialChallenges({ territoryId, levelIds, challenges, basePath }: SpecialChallengesProps) {
   const { t } = useTranslation();
   const records = useLevelRecords();
   const results = useChallengeRecords();
@@ -35,7 +34,7 @@ export function SpecialChallenges({ territoryId, levelIds, challenges, basePath,
 
   return (
     <section className="flex flex-col gap-3">
-      <h2 className="font-display text-xl font-semibold">{title ?? t("journey.specials.title")}</h2>
+      <h2 className="font-display text-xl font-semibold">{t("journey.specials.title")}</h2>
       {challenges.map((rules) => {
         const Icon = SPECIAL_ICONS[rules.kind];
         const name = t(`journey.specials.${rules.kind}.name`);
@@ -64,7 +63,8 @@ export function SpecialChallenges({ territoryId, levelIds, challenges, basePath,
         return (
           <Link
             key={rules.kind}
-            href={`${basePath}/${rules.slug}`}
+            href={challengeEntryHref(`${basePath}/${rules.slug}`, "parcours")}
+            onClick={markChallengeEntry}
             className="flex flex-col gap-3 rounded-3xl border border-gold/25 bg-surface/50 p-5 transition-colors hover:border-gold/60 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
           >
             <span className="flex flex-wrap items-center gap-x-2 gap-y-1">
@@ -75,11 +75,7 @@ export function SpecialChallenges({ territoryId, levelIds, challenges, basePath,
             <span className="text-ink-soft">{description}</span>
             {record ? (
               <span className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
-                <span>
-                  {record.bestTimeMs === null
-                    ? t("journey.specials.best", { count: record.bestCorrect, total: rules.questions })
-                    : t("journey.specials.bestTimed", { count: record.bestCorrect, total: rules.questions, time: formatChallengeTime(t, record.bestTimeMs) })}
-                </span>
+                <span>{formatBestResult(t, record, rules.questions)}</span>
                 {record.passed && <span className="font-semibold text-gold">{t("journey.specials.passed")}</span>}
                 <span className="text-ink-soft">{t("journey.plays", { count: record.plays })}</span>
               </span>

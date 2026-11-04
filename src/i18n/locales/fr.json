@@ -514,9 +514,47 @@
   },
   "challenges": {
     "title": "Défis",
-    "intro": "Terminez les niveaux d'un territoire pour débloquer son Défi Maître et son Défi Chrono.",
-    "empty": "Aucun défi n'est encore proposé.",
-    "openTerritory": "Voir le parcours : {name}"
+    "intro": "Choisissez votre prochaine épreuve, seul ou en famille.",
+    "preparing": "En préparation",
+    "regionalTitle": "Défis régionaux",
+    "otherTitle": "Prochains modes",
+    "openTerritory": "Voir le parcours",
+    "backToHub": "Retour aux défis",
+    "backToList": "Retour aux défis régionaux",
+    "status": {
+      "locked": "Verrouillé",
+      "available": "Disponible",
+      "badge": "Badge obtenu"
+    },
+    "regional": {
+      "master": {
+        "title": "Défis Maître régionaux",
+        "note": "Réussissez le défi d'un territoire pour gagner son badge.",
+        "intro": "Terminez les niveaux d'un territoire pour débloquer son Défi Maître, puis réussissez-le pour gagner son badge."
+      },
+      "chrono": {
+        "title": "Défis Chrono régionaux",
+        "note": "Battez votre record sur chaque territoire.",
+        "intro": "Terminez les niveaux d'un territoire pour débloquer son Défi Chrono, puis battez votre record."
+      }
+    },
+    "modes": {
+      "daily": {
+        "title": "Défi du jour",
+        "note": "Une nouvelle épreuve chaque jour."
+      },
+      "country": {
+        "note": "Des questions sur tout le pays."
+      },
+      "themes": {
+        "title": "Défis thématiques",
+        "note": "Une épreuve autour d'un seul thème."
+      },
+      "family": {
+        "title": "Mode Famille",
+        "note": "Jouez à plusieurs sur un même appareil."
+      }
+    }
   },
   "soon": {
     "profile": {

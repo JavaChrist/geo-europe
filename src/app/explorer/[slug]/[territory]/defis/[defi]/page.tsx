@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import content from "@country";
 import { availableSpecialChallenges } from "@/engine/special-challenges";
 import { SpecialChallengeGame } from "@/features/journey/SpecialChallengeGame";
@@ -22,11 +23,14 @@ export default async function SpecialChallengePage({ params }: { params: Promise
 
   const { t, tContent } = getTranslator();
   return (
-    <SpecialChallengeGame
-      territoryId={found.territory.id}
-      kind={rules.kind}
-      backHref={territoryPath(found.region.slug, found.territory.slug)}
-      backLabel={t("journey.backTo", { name: tContent(found.territory.nameKey) })}
-    />
+    // Le jeu lit son chemin d'accès dans l'adresse : en export statique, cette lecture exige une frontière Suspense.
+    <Suspense>
+      <SpecialChallengeGame
+        territoryId={found.territory.id}
+        kind={rules.kind}
+        backHref={territoryPath(found.region.slug, found.territory.slug)}
+        backLabel={t("journey.backTo", { name: tContent(found.territory.nameKey) })}
+      />
+    </Suspense>
   );
 }

@@ -1,6 +1,7 @@
 {
   "country": {
     "homeTitle": "Partez à la découverte de la France",
+    "challengeTitle": "Défi France",
     "homePitch": "Parcourez ses {count} régions sur la carte, relevez des défis et composez votre album de voyage.",
     "progressTitle": "Votre progression en France",
     "subdivisionsTitle": "Départements",
