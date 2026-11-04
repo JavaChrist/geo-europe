@@ -44,11 +44,30 @@ export interface CountryConfig {
   backgroundColor: string;
 }
 
+export interface MapRegion {
+  regionId: string;
+  path: string;
+  /** x, y, largeur, hauteur dans le repère de la carte. */
+  bbox: [number, number, number, number];
+  center: [number, number];
+  /** Zone tactile élargie pour une région trop petite au doigt. */
+  hitRadius?: number;
+  /** Cadre d'un territoire présenté à part de la carte principale, par exemple l'outre-mer. */
+  inset?: { x: number; y: number; width: number; height: number };
+}
+
+/** Carte du pays, générée par scripts/build-map.mjs. */
+export interface CountryMap {
+  viewBox: string;
+  regions: MapRegion[];
+}
+
 export type ContentMessages = Record<string, unknown>;
 
 export interface CountryContent {
   country: CountryConfig;
   regions: Region[];
+  map: CountryMap;
   credits: MediaCredit[];
   /** Textes propres au pays, par langue. */
   messages: Record<string, ContentMessages>;

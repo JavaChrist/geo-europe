@@ -47,8 +47,86 @@ html:has(dialog[open]) {
   }
 }
 
+/* Carte du pays : les couleurs vivent ici, les tracés dans le contenu. */
+.country-map .map-shape {
+  fill: var(--color-surface-light);
+  stroke: var(--color-gold);
+  stroke-opacity: 0.7;
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+  transition: fill 160ms ease;
+}
+
+.country-map .map-shape-solo {
+  fill: var(--color-gold);
+  fill-opacity: 0.85;
+}
+
+.country-map .map-cell {
+  fill: rgb(6 21 48 / 0.45);
+  stroke: var(--color-gold);
+  stroke-opacity: 0.3;
+  stroke-width: 1.5;
+  transition: stroke-opacity 160ms ease;
+}
+
+.country-map .map-label {
+  fill: var(--color-ink-soft);
+  font-size: 25px;
+  font-family: var(--font-sans);
+}
+
+.country-map .map-link {
+  outline: none;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.map-card:hover .map-shape,
+.map-link:hover .map-shape {
+  fill: var(--color-gold);
+}
+
+.map-card:hover .map-shape {
+  fill-opacity: 0.55;
+}
+
+.map-link:hover .map-cell {
+  stroke-opacity: 1;
+}
+
+.map-link:focus-visible .map-shape {
+  fill: var(--color-gold-light);
+  stroke: var(--color-ink);
+  stroke-opacity: 1;
+  stroke-width: 3;
+}
+
+.map-link:focus-visible .map-cell {
+  stroke: var(--color-ink);
+  stroke-opacity: 1;
+  stroke-width: 3;
+}
+
+.fade-in {
+  animation: fade-in 320ms ease-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .modal[open] {
+  .modal[open],
+  .fade-in {
     animation: none;
+  }
+
+  .country-map * {
+    transition: none;
   }
 }

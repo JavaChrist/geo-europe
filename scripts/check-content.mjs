@@ -62,6 +62,27 @@ for (const code of readdirSync(root)) {
       if (!region.mediaIds?.length) fail(where, "publiée sans médias");
     }
   }
+
+  // Chaque région doit figurer une fois sur la carte, et la carte ne doit rien montrer d'autre.
+  const mapPath = join(dir, "map.json");
+  if (existsSync(mapPath)) {
+    const mapIds = readJson(mapPath).regions.map((region) => region.regionId);
+    for (const id of seen) {
+      if (!mapIds.includes(id)) fail("map.json", `région absente de la carte : ${id}`);
+    }
+    for (const id of mapIds) {
+      if (!seen.has(id)) fail("map.json", `région inconnue : ${id}`);
+    }
+    if (new Set(mapIds).size !== mapIds.length) fail("map.json", "région en double");
+  } else {
+    fail("map.json", "fichier manquant");
+  }
+
+  for (const [locale, messages] of Object.entries(messagesByLocale)) {
+    for (const key of ["country.homeTitle", "country.homePitch", "country.mapCredit"]) {
+      if (typeof lookup(messages, key) !== "string") fail(`locales/${locale}.json`, `${key} absent`);
+    }
+  }
 }
 
 if (errors.length > 0) {

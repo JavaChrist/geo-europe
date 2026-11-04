@@ -6,6 +6,7 @@ import { I18nProvider } from "@/i18n/I18nProvider";
 import { getMessages, getTranslator } from "@/i18n/translator";
 import { AppHeader } from "@/ui/AppHeader";
 import { ModalProvider } from "@/ui/modal/ModalProvider";
+import { BottomNav } from "@/ui/nav/BottomNav";
 import "./globals.css";
 
 const body = Figtree({ subsets: ["latin"], variable: "--font-body" });
@@ -34,8 +35,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <I18nProvider locale={locale} messages={getMessages(locale)}>
           <ModalProvider>
-            <AppHeader />
-            {children}
+            {/* Réserve la hauteur de la barre fixe pour qu'elle ne masque jamais le contenu. */}
+            <div className="pb-[calc(4rem+env(safe-area-inset-bottom))] lg:pb-0">
+              <AppHeader />
+              {children}
+            </div>
+            <BottomNav />
           </ModalProvider>
         </I18nProvider>
       </body>

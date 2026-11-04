@@ -10,18 +10,60 @@
     "buy": "Acheter",
     "continue": "Continuer",
     "backHome": "Retour à l'accueil",
-    "retry": "Réessayer"
+    "retry": "Réessayer",
+    "comingSoon": "Bientôt disponible"
+  },
+  "nav": {
+    "label": "Navigation principale",
+    "home": "Accueil",
+    "explorer": "Explorer",
+    "challenges": "Défis",
+    "album": "Album",
+    "profile": "Profil"
   },
   "home": {
     "tagline": "Aventure et découverte, région après région.",
-    "regionsTitle": "Les régions",
+    "exploreCta": "Explorer la carte",
     "regionCount": {
       "one": "{count} région à explorer",
       "other": "{count} régions à explorer"
     },
+    "challengeTitle": "Défi du jour",
+    "familyTitle": "Mode Famille"
+  },
+  "explorer": {
+    "title": "Explorer",
+    "intro": "Choisissez une région sur la carte pour commencer le voyage.",
+    "mapLabel": "Carte des régions",
+    "mapHint": "Touchez une région",
+    "listTitle": "Toutes les régions",
+    "searchLabel": "Rechercher une région",
+    "searchPlaceholder": "Nom de la région",
+    "noResult": "Aucune région ne correspond à cette recherche.",
     "statusDraft": "En préparation",
     "statusPublished": "Disponible",
-    "demoLink": "Voir les modales"
+    "backToMap": "Retour à la carte"
+  },
+  "soon": {
+    "challenges": {
+      "title": "Défis",
+      "body": "Le Défi du jour et les épreuves se préparent. Vous pourrez bientôt tester vos connaissances ici."
+    },
+    "album": {
+      "title": "Album",
+      "body": "Vos découvertes viendront remplir cet album au fil de vos voyages."
+    },
+    "profile": {
+      "title": "Profil",
+      "body": "Vous pourrez bientôt créer vos profils de joueurs et suivre votre parcours."
+    },
+    "family": {
+      "title": "Mode Famille",
+      "body": "Bientôt, jouez à plusieurs sur un même appareil, petits et grands."
+    },
+    "region": {
+      "body": "Cette étape du voyage se prépare : photos, questions et anecdotes arriveront ici."
+    }
   },
   "errors": {
     "unknown": {

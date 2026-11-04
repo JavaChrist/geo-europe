@@ -1,48 +1,76 @@
+import { ArrowRight, ChevronRight, Swords, UsersRound, type LucideIcon } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, MapPin } from "lucide-react";
 import content from "@country";
 import { getTranslator } from "@/i18n/translator";
+import { CountryMap } from "@/ui/map/CountryMap";
+
+function SideCard({ href, title, note, icon: Icon }: { href: string; title: string; note: string; icon: LucideIcon }) {
+  return (
+    <Link
+      href={href}
+      className="flex min-h-20 items-center gap-4 rounded-2xl border border-gold/25 bg-surface/60 p-4 transition-colors hover:border-gold/60 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+    >
+      <span className="flex size-12 shrink-0 items-center justify-center rounded-full border border-gold/40 bg-abyss/50">
+        <Icon aria-hidden className="size-6 text-gold" />
+      </span>
+      <span className="min-w-0 flex-1">
+        <span className="block font-display text-lg font-semibold">{title}</span>
+        <span className="block text-sm text-ink-soft">{note}</span>
+      </span>
+      <ChevronRight aria-hidden className="size-5 shrink-0 text-ink-soft" />
+    </Link>
+  );
+}
 
 export default function HomePage() {
   const { t, tContent } = getTranslator();
   const { country, regions } = content;
 
   return (
-    <main className="mx-auto flex w-full max-w-5xl flex-col gap-8 px-4 py-8">
-      <section className="flex flex-col gap-2">
-        <h1 className="font-display text-4xl font-semibold sm:text-5xl">{country.appName}</h1>
-        <p className="text-lg text-ink-soft">{t("home.tagline")}</p>
-      </section>
+    <main className="mx-auto grid w-full max-w-5xl gap-6 px-4 pt-[max(1.5rem,env(safe-area-inset-top))] pb-8 lg:grid-cols-2 lg:items-center lg:gap-10 lg:pt-8">
+      <div className="flex flex-col gap-6">
+        <section className="fade-in flex flex-col items-center gap-3 text-center lg:items-start lg:text-left">
+          <Image
+            src={country.icons.icon512}
+            alt={country.appName}
+            width={88}
+            height={88}
+            className="rounded-3xl shadow-lg shadow-abyss/60 lg:hidden"
+            priority
+          />
+          <p className="font-semibold text-gold">{t("home.tagline")}</p>
+          <h1 className="font-display text-3xl font-semibold text-balance sm:text-4xl">{tContent("country.homeTitle")}</h1>
+          <p className="text-ink-soft">{tContent("country.homePitch", { count: regions.length })}</p>
+        </section>
 
-      <section className="flex flex-col gap-4" aria-labelledby="regions-title">
-        <div className="flex flex-wrap items-baseline justify-between gap-2">
-          <h2 id="regions-title" className="font-display text-2xl font-semibold">
-            {t("home.regionsTitle")}
-          </h2>
-          <p className="text-gold">{t("home.regionCount", { count: regions.length })}</p>
+        {/* La progression du joueur prendra place ici quand elle existera : rien d'inventé d'ici là. */}
+
+        <div className="hidden flex-col gap-3 lg:flex">
+          <SideCard href="/defis" title={t("home.challengeTitle")} note={t("common.comingSoon")} icon={Swords} />
+          <SideCard href="/famille" title={t("home.familyTitle")} note={t("common.comingSoon")} icon={UsersRound} />
         </div>
-        <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {regions.map((region) => (
-            <li key={region.id} className="flex items-center gap-3 rounded-2xl border border-gold/20 bg-surface/70 p-4">
-              <MapPin aria-hidden className="size-6 shrink-0 text-gold" />
-              <div className="min-w-0">
-                <p className="font-semibold">{tContent(region.nameKey)}</p>
-                <p className="text-sm text-ink-soft">
-                  {t(region.status === "published" ? "home.statusPublished" : "home.statusDraft")}
-                </p>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </section>
+      </div>
 
       <Link
-        href="/demo"
-        className="inline-flex min-h-12 items-center gap-2 self-start rounded-xl bg-gold px-5 font-semibold text-abyss transition-colors hover:bg-gold-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+        href="/explorer"
+        className="map-card fade-in flex flex-col gap-3 rounded-3xl border border-gold/30 bg-surface/50 p-4 shadow-lg shadow-abyss/40 transition-colors hover:border-gold/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
       >
-        {t("home.demoLink")}
-        <ArrowRight aria-hidden className="size-5" />
+        {/* Sur mobile, la largeur limitée garde le bouton visible sans défiler. */}
+        <div className="mx-auto w-full max-w-60 sm:max-w-sm lg:max-w-none">
+          <CountryMap nameOf={tContent} />
+        </div>
+        <span className="text-center text-sm text-gold">{t("home.regionCount", { count: regions.length })}</span>
+        <span className="flex min-h-12 items-center justify-center gap-2 rounded-xl bg-gold px-5 font-semibold text-abyss">
+          {t("home.exploreCta")}
+          <ArrowRight aria-hidden className="size-5" />
+        </span>
       </Link>
+
+      <div className="flex flex-col gap-3 lg:hidden">
+        <SideCard href="/defis" title={t("home.challengeTitle")} note={t("common.comingSoon")} icon={Swords} />
+        <SideCard href="/famille" title={t("home.familyTitle")} note={t("common.comingSoon")} icon={UsersRound} />
+      </div>
     </main>
   );
 }

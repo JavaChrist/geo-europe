@@ -1,4 +1,9 @@
 {
+  "country": {
+    "homeTitle": "Partez à la découverte de la France",
+    "homePitch": "Parcourez ses {count} régions sur la carte, relevez des défis et composez votre album de voyage.",
+    "mapCredit": "Fond de carte : IGN ADMIN EXPRESS, généralisation icem7, Licence Ouverte 2.0. Outre-mer présenté en encarts, sans respect de l'échelle."
+  },
   "regions": {
     "auvergne-rhone-alpes": "Auvergne-Rhône-Alpes",
     "bourgogne-franche-comte": "Bourgogne-Franche-Comté",

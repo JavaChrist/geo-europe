@@ -10,6 +10,7 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - `npm run build`: web build, with server routes
 - `npm run build:export`: static export to `out/`, for Capacitor, without server routes
 - `GEO_COUNTRY=fr`: selects the country at build time, `fr` by default
+- `node scripts/build-map.mjs <country>`: regenerates `content/<country>/map.json` from `map.config.json`. Run once per country, the result is committed.
 
 ## Where things live
 - `src/engine/`: types and game logic, with no React, Next, Firebase or UI import
@@ -34,4 +35,4 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - Modify other JavaChrist projects, including JavaChrist-Promotions.
 
 ## Before the first production deploy
-Remove `/demo` and its `home.demoLink` link, which are the Lot 1 check screen, and `/api/health`, which is the example server route.
+Remove `/api/health`, which is the example server route. `/demo` is a development tool: it answers 404 in every build and no menu links to it.
