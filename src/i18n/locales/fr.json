@@ -73,7 +73,7 @@
       "attempts": "{count} essais par défi, avec un indice après la première erreur.",
       "jokers": "{count} jokers par niveau, un seul par défi. Un joker retire environ la moitié des mauvaises réponses.",
       "points": "{first} points au premier essai, {second} au deuxième. Le joker retire {cost} points sur le défi.",
-      "stars": "Une étoile à {one} points, deux à {two}, trois à {three}."
+      "stars": "Une étoile de {one} à {oneEnd} points, deux étoiles de {two} à {twoEnd} points, trois étoiles de {three} à {max} points."
     },
     "game": {
       "progress": "Défi {current} sur {total}",
@@ -108,10 +108,9 @@
         "other": "{count} points sur {max}"
       },
       "stars": {
-        "one": "Bravo, vous gagnez {count} étoile. Rejouez quand vous voulez pour faire mieux.",
+        "one": "Vous gagnez {count} étoile. Rejouez quand vous voulez pour faire mieux.",
         "other": "Bravo, vous gagnez {count} étoiles."
       },
-      "noStar": "Pas d'étoile cette fois. La première s'obtient à {one} points : rejouez quand vous voulez.",
       "best": "Meilleur score sur cet appareil : {score} sur {max}",
       "notSaved": "Ce résultat n'a pas pu être enregistré sur cet appareil.",
       "detail": "Détail des défis"

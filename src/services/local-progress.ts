@@ -11,6 +11,7 @@ const DEVICE_SPACE = "device";
 
 export interface LevelRecord {
   bestScore: number;
+  /** Étoiles selon le barème du jour de la partie. L'affichage les recalcule depuis `bestScore`. */
   bestStars: StarCount;
   lastScore: number;
   lastStars: StarCount;

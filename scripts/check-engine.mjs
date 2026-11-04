@@ -23,7 +23,7 @@ const level = {
   slug: "niveau",
   nameKey: "n",
   descriptionKey: "d",
-  stars: { one: 400, two: 600, three: 720 },
+  stars: { one: 0, two: 400, three: 640 },
   rewardCardIds: [],
   challenges: Array.from({ length: 8 }, (_, i) => ({
     id: `c${i}`,
@@ -40,7 +40,7 @@ const random = () => 0.5;
 // Barème et étoiles.
 assert.deepEqual([pointsFor(1, false), pointsFor(1, true), pointsFor(2, false), pointsFor(2, true), pointsFor(3, false)], [100, 75, 50, 25, 0]);
 assert.equal(maxScoreOf(level), 800);
-assert.deepEqual([399, 400, 599, 600, 719, 720, 800].map((score) => starsFor(score, level.stars)), [0, 1, 1, 2, 2, 3, 3]);
+assert.deepEqual([0, 399, 400, 639, 640, 800].map((score) => starsFor(score, level.stars)), [1, 1, 2, 2, 3, 3]);
 
 // Premier essai : 100 points, pas d'indice.
 let run = startRun(level, random);

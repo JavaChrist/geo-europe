@@ -22,6 +22,8 @@
   {
     "id": "photo-strasbourg-petite-france",
     "file": "/media/fr/alsace/strasbourg-petite-france.jpg",
+    "width": 1280,
+    "height": 853,
     "titleKey": "country.credits.photoStrasbourg.title",
     "noteKey": "country.credits.photoResized",
     "altKey": "country.credits.photoStrasbourg.alt",
@@ -33,6 +35,8 @@
   {
     "id": "photo-kougelhopf",
     "file": "/media/fr/alsace/kougelhopf.jpg",
+    "width": 1280,
+    "height": 960,
     "titleKey": "country.credits.photoKougelhopf.title",
     "noteKey": "country.credits.photoResized",
     "altKey": "country.credits.photoKougelhopf.alt",
@@ -44,6 +48,8 @@
   {
     "id": "photo-haut-koenigsbourg",
     "file": "/media/fr/alsace/haut-koenigsbourg.jpg",
+    "width": 1280,
+    "height": 1778,
     "titleKey": "country.credits.photoHautKoenigsbourg.title",
     "noteKey": "country.credits.photoResized",
     "altKey": "country.credits.photoHautKoenigsbourg.alt",
@@ -55,11 +61,26 @@
   {
     "id": "photo-poterie-betschdorf",
     "file": "/media/fr/alsace/poterie-betschdorf.jpg",
+    "width": 1280,
+    "height": 960,
     "titleKey": "country.credits.photoPoterie.title",
     "noteKey": "country.credits.photoResized",
     "altKey": "country.credits.photoPoterie.alt",
     "author": "Véronique Pagnier",
     "license": "Domaine public",
     "source": "https://commons.wikimedia.org/wiki/File:Pot_en_gr%C3%A8s_de_Betschdorf.JPG"
+  },
+  {
+    "id": "photo-riquewihr-vignoble",
+    "file": "/media/fr/alsace/riquewihr-vignoble.jpg",
+    "width": 1280,
+    "height": 720,
+    "titleKey": "country.credits.photoRiquewihr.title",
+    "noteKey": "country.credits.photoCropped",
+    "altKey": "country.credits.photoRiquewihr.alt",
+    "author": "Yzen2023",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:View_on_Riquewihr.jpg"
   }
 ]

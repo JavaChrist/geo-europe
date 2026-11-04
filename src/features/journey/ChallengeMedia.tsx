@@ -5,18 +5,21 @@ import content from "@country";
 import { answerStateOf, isAnswerAvailable, type LevelRun } from "@/engine/level-run";
 import type { MapChallenge, VisualChallenge } from "@/engine/types";
 import { useTranslation } from "@/i18n/I18nProvider";
+import { PhotoCredit } from "@/ui/PhotoCredit";
 
 /** Photo d'un défi, toujours accompagnée de son crédit. */
 export function ChallengePhoto({ challenge }: { challenge: VisualChallenge }) {
-  const { t, tContent } = useTranslation();
+  const { tContent } = useTranslation();
   const credit = content.credits.find((candidate) => candidate.id === challenge.mediaId);
-  if (!credit) return null;
-
-  const linkClass = "underline underline-offset-2 focus-visible:outline-2 focus-visible:outline-gold";
+  if (!credit?.width || !credit.height) return null;
 
   return (
-    <figure className="flex flex-col gap-2">
-      <div className="relative h-64 w-full overflow-hidden rounded-2xl border border-gold/20 bg-abyss/60 sm:h-96">
+    <figure className="flex flex-col gap-1.5">
+      {/* La place est réservée avant le chargement et plafonnée selon l'écran : la photo n'est jamais recadrée. */}
+      <div
+        className="relative max-h-[34dvh] w-full overflow-hidden rounded-2xl border border-gold/20 bg-abyss/60 sm:max-h-96"
+        style={{ aspectRatio: credit.width / credit.height }}
+      >
         <Image
           src={credit.file}
           alt={credit.altKey ? tContent(credit.altKey) : ""}
@@ -25,18 +28,7 @@ export function ChallengePhoto({ challenge }: { challenge: VisualChallenge }) {
           className="object-contain"
         />
       </div>
-      <figcaption className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-ink-soft">
-        <a href={credit.source} target="_blank" rel="noopener noreferrer" className={linkClass}>
-          {t("journey.game.photoCredit", { author: credit.author })}
-        </a>
-        {credit.licenseUrl ? (
-          <a href={credit.licenseUrl} target="_blank" rel="noopener noreferrer" className={linkClass}>
-            {credit.license}
-          </a>
-        ) : (
-          <span>{credit.license}</span>
-        )}
-      </figcaption>
+      <PhotoCredit credit={credit} />
     </figure>
   );
 }

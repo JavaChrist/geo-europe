@@ -3,7 +3,7 @@
 import { ChevronRight, Play, RotateCcw } from "lucide-react";
 import Link from "next/link";
 import type { Level } from "@/engine/types";
-import { maxScoreOf } from "@/engine/level-run";
+import { maxScoreOf, starsFor } from "@/engine/level-run";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { StarRating } from "./StarRating";
 import { useLevelRecords } from "./useLevelRecords";
@@ -23,7 +23,7 @@ export function LevelCard({ level, href }: { level: Level; href: string }) {
       <span className="text-ink-soft">{tContent(level.descriptionKey)}</span>
       {record ? (
         <span className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
-          <StarRating count={record.bestStars} />
+          <StarRating count={starsFor(record.bestScore, level.stars)} />
           <span>{t("journey.bestScore", { score: record.bestScore, max: maxScoreOf(level) })}</span>
           <span className="text-ink-soft">{t("journey.plays", { count: record.plays })}</span>
         </span>

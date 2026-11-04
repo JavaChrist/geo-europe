@@ -41,7 +41,8 @@ function AnswerButtons({ challenge, run, onAnswer }: { challenge: LevelChallenge
   const { tContent } = useTranslation();
 
   return (
-    <ul className="grid gap-2 sm:grid-cols-2">
+    // Sous une photo, deux colonnes gardent les quatre réponses à portée de pouce.
+    <ul className={`grid gap-2 ${challenge.kind === "visual" ? "grid-cols-2" : "sm:grid-cols-2"}`}>
       {run.answerOrder.map((id) => {
         const answer = challenge.answers.find((candidate) => candidate.id === id);
         if (!answer) return null;
@@ -53,7 +54,7 @@ function AnswerButtons({ challenge, run, onAnswer }: { challenge: LevelChallenge
               type="button"
               disabled={!isAnswerAvailable(run, id)}
               onClick={() => onAnswer(id)}
-              className={`flex h-full min-h-14 w-full items-center gap-2 rounded-xl border px-4 py-2 text-left font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold ${ANSWER_STYLES[state]}`}
+              className={`flex h-full min-h-14 w-full items-center gap-2 rounded-xl border px-3 py-2 text-left font-semibold wrap-anywhere transition-colors sm:px-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold ${ANSWER_STYLES[state]}`}
             >
               <span className="min-w-0 flex-1">{tContent(answer.labelKey)}</span>
               {Icon && <Icon aria-hidden className="size-5 shrink-0" />}
@@ -68,6 +69,7 @@ function AnswerButtons({ challenge, run, onAnswer }: { challenge: LevelChallenge
 /** Écran commun à tous les défis : seul le support (photo, carte) dépend du type de défi. */
 export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit }: ChallengeViewProps) {
   const { t, tContent } = useTranslation();
+  const rootRef = useRef<HTMLDivElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
   const feedbackRef = useRef<HTMLDivElement>(null);
   const hasFeedback = run.state !== "playing" || isHintVisible(run);
@@ -75,9 +77,9 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit }:
   const result = run.state === "playing" ? undefined : run.results.at(-1);
   const answerLabel = challenge.answers.find((answer) => answer.id === challenge.answerId)?.labelKey ?? "";
 
-  // Le composant est recréé à chaque défi : le joueur repart du haut, le lecteur d'écran lit la question.
+  // Le composant est recréé à chaque défi : le joueur repart du défi lui-même, le lecteur d'écran lit la question.
   useEffect(() => {
-    window.scrollTo(0, 0);
+    rootRef.current?.scrollIntoView({ block: "start" });
     headingRef.current?.focus({ preventScroll: true });
   }, []);
 
@@ -87,7 +89,7 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit }:
   }, [hasFeedback, run.state]);
 
   return (
-    <div className="fade-in flex flex-col gap-4">
+    <div ref={rootRef} className="fade-in flex scroll-mt-2 flex-col gap-4">
       <header className="flex flex-col gap-2">
         <div className="flex items-center justify-between gap-3 text-sm">
           <span className="font-semibold text-gold">

@@ -36,9 +36,7 @@ export function LevelResult({ level, results, score, stars, record, onReplay }: 
         </h2>
         <StarRating count={stars} large />
         <p className="text-xl font-semibold text-gold">{t("journey.result.score", { count: score, max })}</p>
-        <p className="text-ink-soft">
-          {stars === 0 ? t("journey.result.noStar", { one: level.stars.one }) : t("journey.result.stars", { count: stars })}
-        </p>
+        <p className="text-ink-soft">{t("journey.result.stars", { count: stars })}</p>
         {record && <p className="text-sm">{t("journey.result.best", { score: record.bestScore, max })}</p>}
         <p className="flex items-center gap-2 text-sm text-ink-soft">
           <Smartphone aria-hidden className="size-4 shrink-0" />

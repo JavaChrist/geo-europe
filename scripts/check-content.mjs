@@ -107,7 +107,15 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
   for (const media of credits.filter((candidate) => candidate.file.startsWith("/media/"))) {
     if (!existsSync(join("public", media.file))) fail("media/credits.json", `${media.id} : fichier absent ${media.file}`);
     if (!media.altKey) fail("media/credits.json", `${media.id} : photo sans altKey`);
+    if (!(media.width > 0 && media.height > 0)) fail("media/credits.json", `${media.id} : photo sans dimensions`);
   }
+
+  // Une couverture est une photo créditée, quelle que soit la fiche qui l'affiche.
+  const checkCover = (where, entry) => {
+    if (entry.coverMediaId === undefined) return;
+    if (!creditsById.get(entry.coverMediaId)?.file.startsWith("/media/")) fail(where, `couverture sans photo créditée : ${entry.coverMediaId}`);
+  };
+  for (const file of files) checkCover(`regions/${file}`, readJson(join(dir, "regions", file)));
 
   const territoriesDir = join(dir, "territories");
   const indexSource = readFileSync(join(dir, "index.ts"), "utf8");
@@ -136,6 +144,7 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
       if (!territory.subdivisionIds.includes(place.subdivisionId)) fail(where, `${place.id} : subdivision hors du territoire`);
     }
     territory.mediaIds.forEach(needMedia);
+    checkCover(where, territory);
     for (const card of territory.souvenirCards) {
       keys.push(card.nameKey);
       needMedia(card.mediaId);
@@ -147,7 +156,8 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
       const at = `${where} ${level.id}`;
       keys.push(level.nameKey, level.descriptionKey);
       const { one, two, three } = level.stars;
-      if (!(0 < one && one < two && two < three && three <= 100 * level.challenges.length)) fail(at, "seuils d'étoiles invalides");
+      // Un niveau terminé rapporte toujours au moins une étoile : le premier seuil vaut 0.
+      if (!(one === 0 && one < two && two < three && three <= 100 * level.challenges.length)) fail(at, "seuils d'étoiles invalides");
       if (level.challenges.length !== 8) fail(at, `${level.challenges.length} défis pour 8 attendus`);
       if (new Set(level.challenges.map((challenge) => challenge.id)).size !== level.challenges.length) fail(at, "défi en double");
       for (const id of level.rewardCardIds) {

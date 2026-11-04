@@ -8,6 +8,7 @@ import {
   applyJoker,
   isRunOver,
   LEVEL_RULES,
+  maxScoreOf,
   nextChallenge,
   scoreOf,
   starsFor,
@@ -121,7 +122,16 @@ export function LevelGame({ level, backHref, backLabel }: LevelGameProps) {
                 cost: LEVEL_RULES.points.first - LEVEL_RULES.points.firstWithJoker,
               })}
             </li>
-            <li>{t("journey.rules.stars", { one: level.stars.one, two: level.stars.two, three: level.stars.three })}</li>
+            <li>
+              {t("journey.rules.stars", {
+                one: level.stars.one,
+                oneEnd: level.stars.two - 1,
+                two: level.stars.two,
+                twoEnd: level.stars.three - 1,
+                three: level.stars.three,
+                max: maxScoreOf(level),
+              })}
+            </li>
           </ul>
           <button
             type="button"

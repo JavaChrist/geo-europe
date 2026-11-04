@@ -2,6 +2,7 @@ import { Building2, Castle, Compass, type LucideIcon, TreePine } from "lucide-re
 import { notFound } from "next/navigation";
 import content from "@country";
 import type { TerritoryPlace } from "@/engine/types";
+import { CoverPhoto } from "@/features/journey/CoverPhoto";
 import { LevelCard } from "@/features/journey/LevelCard";
 import { findTerritory, regionSlugOf, territoryPath } from "@/features/journey/territories";
 import { getTranslator } from "@/i18n/translator";
@@ -28,13 +29,16 @@ export default async function TerritoryPage({ params }: { params: Promise<{ slug
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
-      <section className="fade-in flex flex-col gap-3 rounded-3xl border border-gold/25 bg-surface/60 p-5">
-        <span className="flex size-12 items-center justify-center rounded-full border border-gold/40 bg-abyss/50">
-          <Compass aria-hidden className="size-6 text-gold" />
-        </span>
-        <h1 className="font-display text-3xl font-semibold">{tContent(territory.nameKey)}</h1>
-        <p className="text-ink-soft">{tContent(territory.descriptionKey)}</p>
-        <p className="text-sm text-sky">{t("journey.territoryNote", { region: regionName })}</p>
+      <section className="fade-in flex flex-col gap-3 overflow-hidden rounded-3xl border border-gold/25 bg-surface/60">
+        {territory.coverMediaId && <CoverPhoto mediaId={territory.coverMediaId} />}
+        <div className={`flex flex-col gap-3 px-5 pb-5 ${territory.coverMediaId ? "" : "pt-5"}`}>
+          <span className="flex size-12 items-center justify-center rounded-full border border-gold/40 bg-abyss/50">
+            <Compass aria-hidden className="size-6 text-gold" />
+          </span>
+          <h1 className="font-display text-3xl font-semibold">{tContent(territory.nameKey)}</h1>
+          <p className="text-ink-soft">{tContent(territory.descriptionKey)}</p>
+          <p className="text-sm text-sky">{t("journey.territoryNote", { region: regionName })}</p>
+        </div>
       </section>
 
       <section className="flex flex-col gap-2">

@@ -13,7 +13,8 @@
     { "id": "soufflenheim", "nameKey": "places.soufflenheim", "kind": "village", "subdivisionId": "67" },
     { "id": "betschdorf", "nameKey": "places.betschdorf", "kind": "village", "subdivisionId": "67" }
   ],
-  "mediaIds": ["photo-strasbourg-petite-france", "photo-kougelhopf", "photo-haut-koenigsbourg", "photo-poterie-betschdorf"],
+  "coverMediaId": "photo-riquewihr-vignoble",
+  "mediaIds": ["photo-riquewihr-vignoble", "photo-strasbourg-petite-france", "photo-kougelhopf", "photo-haut-koenigsbourg", "photo-poterie-betschdorf"],
   "souvenirCards": [],
   "status": "published",
   "levels": [
@@ -22,7 +23,7 @@
       "slug": "bienvenue",
       "nameKey": "territories.alsace.levels.bienvenue.name",
       "descriptionKey": "territories.alsace.levels.bienvenue.description",
-      "stars": { "one": 400, "two": 600, "three": 720 },
+      "stars": { "one": 0, "two": 400, "three": 640 },
       "rewardCardIds": [],
       "challenges": [
         {

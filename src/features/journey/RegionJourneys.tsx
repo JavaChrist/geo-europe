@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Region } from "@/engine/types";
 import { getTranslator } from "@/i18n/translator";
 import { BackLink } from "@/ui/BackLink";
+import { CoverPhoto } from "./CoverPhoto";
 import { territoriesOf, territoryPath } from "./territories";
 
 /** Entrée d'une région administrative vers ses parcours historiques et culturels. */
@@ -12,6 +13,12 @@ export function RegionJourneys({ region }: { region: Region }) {
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
+      {region.coverMediaId && (
+        <div className="overflow-hidden rounded-3xl border border-gold/25 bg-surface/60 pb-3">
+          <CoverPhoto mediaId={region.coverMediaId} />
+        </div>
+      )}
+
       <section className="flex flex-col gap-1">
         <h1 className="font-display text-3xl font-semibold">{regionName}</h1>
         <p className="text-ink-soft">{t("journey.regionIntro")}</p>

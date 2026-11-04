@@ -8,7 +8,13 @@ export interface Subdivision {
   nameKey: string;
 }
 
-export interface Region {
+/** Ce que la fiche d'une région ou d'un territoire peut afficher en tête de page. */
+interface WithCover {
+  /** Photo de couverture, créditée dans media/credits.json. Facultative : la fiche s'affiche sans. */
+  coverMediaId?: string;
+}
+
+export interface Region extends WithCover {
   /** Code ISO 3166-2 : FR-OCC, DE-BY, ES-AN. Ne change jamais. */
   id: string;
   /** Identique au nom du fichier de la région. */
@@ -38,6 +44,9 @@ export interface MediaCredit {
   sourceUpdatedAt?: string;
   /** Description d'une photo pour les lecteurs d'écran. Elle ne doit pas donner la réponse d'un défi. */
   altKey?: string;
+  /** Dimensions réelles d'une photo, en pixels : elles fixent ses proportions à l'écran. */
+  width?: number;
+  height?: number;
 }
 
 /** `null` : information à fournir, jamais à inventer. */
@@ -191,7 +200,7 @@ export interface SouvenirCard {
  * Territoire historique ou culturel, à l'intérieur d'une région administrative.
  * Ce n'est pas un découpage administratif : la région reste la seule entrée de la carte du pays.
  */
-export interface Territory {
+export interface Territory extends WithCover {
   id: string;
   /** Identique au nom du fichier du territoire. */
   slug: string;

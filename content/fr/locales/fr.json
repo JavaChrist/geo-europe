@@ -22,6 +22,11 @@
         "note": "Départements et territoires historiques, contours simplifiés pour le jeu."
       },
       "photoResized": "Photo redimensionnée pour le jeu.",
+      "photoCropped": "Photo recadrée et redimensionnée pour le jeu.",
+      "photoRiquewihr": {
+        "title": "Riquewihr vue depuis le vignoble",
+        "alt": "Village aux toits de tuiles au pied de collines couvertes de vignes, sous un ciel nuageux, avec des montagnes à l'horizon."
+      },
       "photoStrasbourg": {
         "title": "Strasbourg, quartier de la Petite France",
         "alt": "Maisons anciennes aux toits de tuiles, au bord d'une rivière où nagent des cygnes."
