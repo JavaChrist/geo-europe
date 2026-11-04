@@ -4,6 +4,7 @@ import { Lock, Play } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import content from "@country";
+import { newRewards, type NewRewards } from "@/engine/album";
 import {
   applyJoker,
   isRunOver,
@@ -48,7 +49,8 @@ export function LevelGame({ level, previous, backHref, backLabel }: LevelGamePro
   const { t, tContent } = useTranslation();
   const modal = useModal();
   const router = useRouter();
-  const unlocked = isLevelUnlocked(previous, useLevelRecords());
+  const records = useLevelRecords();
+  const unlocked = isLevelUnlocked(previous, records);
   // La partie démarre au clic : le tirage et l'ordre des réponses n'existent pas au rendu serveur.
   const [run, setRun] = useState<LevelRun | null>(null);
   const [outcome, setOutcome] = useState<Outcome | null>(null);
@@ -70,6 +72,25 @@ export function LevelGame({ level, previous, backHref, backLabel }: LevelGamePro
     }
     setOutcome({ run: finished, score, stars, record });
     setRun(null);
+    if (record) celebrate(newRewards(content.territories, records, { ...records, [level.id]: record }));
+  };
+
+  // Seulement au premier gain : un rejeu ne fait rien gagner de nouveau.
+  const celebrate = ({ cards, badges }: NewRewards) => {
+    for (const card of cards) {
+      void modal.reward({
+        titleKey: "album.reward.cardTitle",
+        bodyKey: "album.reward.cardBody",
+        values: { name: tContent(card.nameKey) },
+      });
+    }
+    for (const badge of badges) {
+      void modal.reward({
+        titleKey: "album.reward.badgeTitle",
+        bodyKey: "album.reward.badgeBody",
+        values: { name: tContent(badge.nameKey), description: tContent(badge.descriptionKey) },
+      });
+    }
   };
 
   const next = () => {

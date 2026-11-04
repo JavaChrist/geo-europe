@@ -2,9 +2,11 @@
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { basename, join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
+import { ALBUM_THEMES } from "../src/engine/album.ts";
 import { maxScoreOf } from "../src/engine/level-run.ts";
 
 const root = process.argv[2] ?? "content";
+const BADGE_KINDS = new Set(["collector", "master"]);
 const STATUSES = new Set(["draft", "published"]);
 const DIFFICULTIES = new Set([1, 2, 3]);
 const errors = [];
@@ -120,6 +122,8 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
   for (const file of files) checkCover(`regions/${file}`, readJson(join(dir, "regions", file)));
 
   const territoriesDir = join(dir, "territories");
+  const allCardIds = new Set();
+  const allBadgeIds = new Set();
   const indexSource = readFileSync(join(dir, "index.ts"), "utf8");
   const regionFiles = new Map(files.map((file) => [readJson(join(dir, "regions", file)).id, readJson(join(dir, "regions", file))]));
   for (const file of existsSync(territoriesDir) ? readdirSync(territoriesDir).filter((name) => name.endsWith(".json")) : []) {
@@ -147,13 +151,36 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
     }
     territory.mediaIds.forEach(needMedia);
     checkCover(where, territory);
+    const levelIds = new Set(territory.levels.map((level) => level.id));
     for (const card of territory.souvenirCards) {
-      keys.push(card.nameKey);
+      const label = `${where} ${card.id}`;
+      keys.push(card.nameKey, card.descriptionKey, card.anecdoteKey);
       needMedia(card.mediaId);
+      if (!creditsById.get(card.mediaId)?.file.startsWith("/media/")) fail(label, "carte sans photo créditée");
+      if (allCardIds.has(card.id)) fail(label, "identifiant de carte déjà utilisé");
+      allCardIds.add(card.id);
+      if (card.territoryId !== territory.id) fail(label, `territoire incohérent : ${card.territoryId}`);
+      if (!ALBUM_THEMES.includes(card.themeId)) fail(label, `thème inconnu : ${card.themeId}`);
+      if (card.unlock?.kind !== "level-finished") fail(label, `déblocage inconnu : ${card.unlock?.kind}`);
+      else if (!levelIds.has(card.unlock.levelId)) fail(label, `niveau inconnu : ${card.unlock.levelId}`);
+    }
+    const territoryCardIds = new Set(territory.souvenirCards.map((card) => card.id));
+    const badgeKinds = new Set();
+    for (const badge of territory.badges) {
+      const label = `${where} ${badge.id}`;
+      keys.push(badge.nameKey, badge.descriptionKey);
+      if (allBadgeIds.has(badge.id)) fail(label, "identifiant de badge déjà utilisé");
+      allBadgeIds.add(badge.id);
+      if (!BADGE_KINDS.has(badge.kind)) fail(label, `type de badge inconnu : ${badge.kind}`);
+      if (badgeKinds.has(badge.kind)) fail(label, `plusieurs badges ${badge.kind} dans le territoire`);
+      badgeKinds.add(badge.kind);
+      if (badge.cardIds.length === 0) fail(label, "badge sans carte");
+      for (const id of badge.cardIds) {
+        if (!territoryCardIds.has(id)) fail(label, `carte inconnue : ${id}`);
+      }
     }
     if (territory.status === "published" && territory.levels.length === 0) fail(where, "publié sans niveau");
 
-    const cardIds = new Set(territory.souvenirCards.map((card) => card.id));
     const questionIds = new Set();
     const prompts = new Map();
     for (const level of territory.levels) {
@@ -167,9 +194,6 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
       else if (level.minDifficulty > level.maxDifficulty) fail(at, "difficultés inversées");
       if (level.questions.length === 0) fail(at, "banque de questions vide");
       if (new Set(level.questions.map((challenge) => challenge.id)).size !== level.questions.length) fail(at, "défi en double");
-      for (const id of level.rewardCardIds) {
-        if (!cardIds.has(id)) fail(at, `carte souvenir inconnue : ${id}`);
-      }
       const groupByPhoto = new Map();
       for (const challenge of level.questions) {
         const label = `${at} ${challenge.id}`;

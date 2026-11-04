@@ -71,9 +71,91 @@
     "photo-orgue-marmoutier",
     "photo-musee-ferroviaire",
     "photo-trois-chateaux",
-    "photo-chateau-scherwiller"
+    "photo-chateau-scherwiller",
+    "photo-costumes-musee-alsacien"
   ],
-  "souvenirCards": [],
+  "souvenirCards": [
+    {
+      "id": "alsace-strasbourg",
+      "territoryId": "alsace",
+      "themeId": "cities",
+      "nameKey": "territories.alsace.album.cards.strasbourg.name",
+      "descriptionKey": "territories.alsace.album.cards.strasbourg.description",
+      "anecdoteKey": "territories.alsace.album.cards.strasbourg.anecdote",
+      "mediaId": "photo-strasbourg-petite-france",
+      "unlock": {
+        "kind": "level-finished",
+        "levelId": "alsace-bienvenue"
+      }
+    },
+    {
+      "id": "alsace-kougelhopf",
+      "territoryId": "alsace",
+      "themeId": "gastronomy",
+      "nameKey": "territories.alsace.album.cards.kougelhopf.name",
+      "descriptionKey": "territories.alsace.album.cards.kougelhopf.description",
+      "anecdoteKey": "territories.alsace.album.cards.kougelhopf.anecdote",
+      "mediaId": "photo-kougelhopf",
+      "unlock": {
+        "kind": "level-finished",
+        "levelId": "alsace-exploration"
+      }
+    },
+    {
+      "id": "alsace-haut-koenigsbourg",
+      "territoryId": "alsace",
+      "themeId": "heritage",
+      "nameKey": "territories.alsace.album.cards.haut-koenigsbourg.name",
+      "descriptionKey": "territories.alsace.album.cards.haut-koenigsbourg.description",
+      "anecdoteKey": "territories.alsace.album.cards.haut-koenigsbourg.anecdote",
+      "mediaId": "photo-haut-koenigsbourg",
+      "unlock": {
+        "kind": "level-finished",
+        "levelId": "alsace-connaissance"
+      }
+    },
+    {
+      "id": "alsace-costume",
+      "territoryId": "alsace",
+      "themeId": "traditions",
+      "nameKey": "territories.alsace.album.cards.costume.name",
+      "descriptionKey": "territories.alsace.album.cards.costume.description",
+      "anecdoteKey": "territories.alsace.album.cards.costume.anecdote",
+      "mediaId": "photo-costumes-musee-alsacien",
+      "unlock": {
+        "kind": "level-finished",
+        "levelId": "alsace-maitrise"
+      }
+    },
+    {
+      "id": "alsace-savoir-faire",
+      "territoryId": "alsace",
+      "themeId": "crafts",
+      "nameKey": "territories.alsace.album.cards.savoir-faire.name",
+      "descriptionKey": "territories.alsace.album.cards.savoir-faire.description",
+      "anecdoteKey": "territories.alsace.album.cards.savoir-faire.anecdote",
+      "mediaId": "photo-poterie-betschdorf",
+      "unlock": {
+        "kind": "level-finished",
+        "levelId": "alsace-grand-defi"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "id": "alsace-collectionneur",
+      "kind": "collector",
+      "nameKey": "territories.alsace.album.badges.collector.name",
+      "descriptionKey": "territories.alsace.album.badges.collector.description",
+      "cardIds": [
+        "alsace-strasbourg",
+        "alsace-kougelhopf",
+        "alsace-haut-koenigsbourg",
+        "alsace-costume",
+        "alsace-savoir-faire"
+      ]
+    }
+  ],
   "status": "published",
   "levels": [
     {
@@ -86,7 +168,6 @@
         "two": 400,
         "three": 640
       },
-      "rewardCardIds": [],
       "minDifficulty": 1,
       "maxDifficulty": 1,
       "questions": [
@@ -1269,7 +1350,6 @@
         "two": 400,
         "three": 640
       },
-      "rewardCardIds": [],
       "minDifficulty": 1,
       "maxDifficulty": 2,
       "questions": [
@@ -2417,7 +2497,6 @@
         "two": 400,
         "three": 640
       },
-      "rewardCardIds": [],
       "minDifficulty": 2,
       "maxDifficulty": 2,
       "questions": [
@@ -3566,7 +3645,6 @@
         "two": 400,
         "three": 640
       },
-      "rewardCardIds": [],
       "minDifficulty": 2,
       "maxDifficulty": 3,
       "questions": [
@@ -4708,7 +4786,6 @@
         "two": 400,
         "three": 640
       },
-      "rewardCardIds": [],
       "minDifficulty": 3,
       "maxDifficulty": 3,
       "questions": [

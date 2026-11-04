@@ -139,6 +139,10 @@
       "photoMuseeFerroviaire": {
         "title": "Locomotives à la Cité du train",
         "alt": "Trois locomotives anciennes, verte, noire et rouge, côte à côte dans un hall."
+      },
+      "photoCostumes": {
+        "title": "Costumes de fête, Musée alsacien de Strasbourg",
+        "alt": "Quatre mannequins sans visage en costumes de fête alsaciens, coiffés de nœuds noirs ou colorés, devant des boiseries peintes."
       }
     }
   },
@@ -2394,6 +2398,41 @@
               "saint-morand": "Saint Morand",
               "saint-leger": "Saint Léger"
             }
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "strasbourg": {
+            "name": "Strasbourg",
+            "description": "Née d'un camp romain, Argentoratum, vers 12 av. J.-C., Strasbourg est aujourd'hui le siège officiel du Parlement européen. Son centre, la Grande-Île, où se trouve le quartier de la Petite France, est inscrit au patrimoine mondial de l'UNESCO depuis 1988, rejoint par la Neustadt en 2017.",
+            "anecdote": "La Grande-Île garde la trace du camp romain : la rue du Dôme et la rue des Hallebardes suivent ses deux axes principaux."
+          },
+          "kougelhopf": {
+            "name": "Kougelhopf",
+            "description": "Cette brioche alsacienne à la pâte levée, garnie de raisins secs et d'amandes, cuit dans un moule cannelé creux au centre. Le moule traditionnel est en poterie émaillée, souvent de Soufflenheim.",
+            "anecdote": "Selon une légende populaire, les Rois mages, de passage à Ribeauvillé, auraient créé ce gâteau pour remercier un pâtissier nommé Kugel, et sa forme imiterait leurs turbans."
+          },
+          "haut-koenigsbourg": {
+            "name": "Château du Haut-Kœnigsbourg",
+            "description": "Dressé à 757 mètres d'altitude dans les Vosges, le château apparaît dans les textes dès 1147. Pris par les Suédois après 52 jours de siège en 1633, pendant la guerre de Trente Ans, il est ensuite détruit par un incendie et abandonné.",
+            "anecdote": "En 1899, la ville de Sélestat offre ses ruines à l'empereur Guillaume II, à l'époque où l'Alsace est allemande. L'architecte Bodo Ebhardt le reconstruit tel qu'il pouvait être vers 1500, et il est inauguré le 13 mai 1908."
+          },
+          "costume": {
+            "name": "Costume traditionnel alsacien",
+            "description": "Le costume paysan alsacien disait beaucoup de la personne qui le portait : sa condition sociale, son état civil, sa confession. Pour les jours de fête, la tenue féminine associe notamment plastron, tablier, châle et coiffe.",
+            "anecdote": "Le grand nœud noir, devenu l'emblème de l'Alsace, est récent : une petite coiffe à nœud frontal apparaît vers 1830 à Brumath et dans le Kochersberg, puis grandit peu à peu. Hansi a largement popularisé cette image."
+          },
+          "savoir-faire": {
+            "name": "Savoir-faire alsacien",
+            "description": "Dans le nord de l'Alsace, deux villages ont fait de la terre leur spécialité : Soufflenheim, pour sa poterie culinaire émaillée, et Betschdorf, pour son grès au sel. Le pichet de la photo vient de Betschdorf.",
+            "anecdote": "L'indication géographique « Poteries d'Alsace » protège ces deux savoir-faire distincts : son nom est toujours suivi de celui du village, Soufflenheim ou Betschdorf."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur d'Alsace",
+            "description": "Réunir les cinq cartes de la collection d'Alsace."
           }
         }
       }

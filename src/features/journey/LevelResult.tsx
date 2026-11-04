@@ -1,9 +1,11 @@
 "use client";
 
-import { Check, RotateCcw, Smartphone, X } from "lucide-react";
+import { BookOpen, Check, RotateCcw, Smartphone, X } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { maxScoreOf, type ChallengeResult, type StarCount } from "@/engine/level-run";
 import type { Level } from "@/engine/types";
+import { cardPath, cardsOfLevel } from "@/features/album/collections";
 import { useTranslation } from "@/i18n/I18nProvider";
 import type { LevelRecord } from "@/services/local-progress";
 import { StarRating } from "./StarRating";
@@ -52,6 +54,18 @@ export function LevelResult({ level, results, score, stars, record, onReplay }: 
         <RotateCcw aria-hidden className="size-5" />
         {t("journey.replay")}
       </button>
+
+      {record &&
+        cardsOfLevel(level.id).map((card) => (
+          <Link
+            key={card.id}
+            href={cardPath(card)}
+            className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-gold/40 px-5 text-center font-semibold text-gold transition-colors hover:bg-gold/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+          >
+            <BookOpen aria-hidden className="size-5 shrink-0" />
+            {t("album.result.open", { name: tContent(card.nameKey) })}
+          </Link>
+        ))}
 
       <section className="flex flex-col gap-3 rounded-3xl border border-gold/25 bg-surface/50 p-5">
         <h3 className="font-display text-xl font-semibold">{t("journey.result.detail")}</h3>

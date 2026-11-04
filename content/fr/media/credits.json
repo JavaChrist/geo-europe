@@ -394,5 +394,18 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Cite_du_Train_Mulhouse_2014_142_(15952381709).jpg"
+  },
+  {
+    "id": "photo-costumes-musee-alsacien",
+    "file": "/media/fr/alsace/costumes-musee-alsacien.jpg",
+    "width": 1280,
+    "height": 853,
+    "titleKey": "country.credits.photoCostumes.title",
+    "noteKey": "country.credits.photoResized",
+    "altKey": "country.credits.photoCostumes.alt",
+    "author": "Ji-Elle",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr",
+    "source": "https://commons.wikimedia.org/wiki/File:Costumes_de_f%C3%AAte-Mus%C3%A9e_alsacien_de_Strasbourg_(1).jpg"
   }
 ]

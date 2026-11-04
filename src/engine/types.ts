@@ -191,8 +191,6 @@ export interface Level {
   maxDifficulty: QuestionDifficulty;
   /** Banque du niveau. Chaque partie y tire ses défis, voir question-selection.ts. */
   questions: LevelChallenge[];
-  /** Cartes souvenirs gagnées en terminant le niveau. */
-  rewardCardIds: string[];
 }
 
 export interface TerritoryPlace {
@@ -203,10 +201,38 @@ export interface TerritoryPlace {
   subdivisionId: string;
 }
 
+/** Thèmes de l'album, communs à tous les pays. Leur libellé vient de l'interface. */
+export type AlbumThemeId = "cities" | "gastronomy" | "heritage" | "traditions" | "crafts";
+
+/** Ce qui donne une carte. Une carte méritée se déduit des résultats : voir album.ts. */
+export interface CardUnlock {
+  kind: "level-finished";
+  levelId: string;
+}
+
 export interface SouvenirCard {
+  /** Identifiant stable, unique dans tout le pays. */
   id: string;
+  territoryId: string;
+  themeId: AlbumThemeId;
   nameKey: string;
+  descriptionKey: string;
+  anecdoteKey: string;
+  /** Photo créditée : son auteur et sa licence viennent des crédits du pays. */
   mediaId: string;
+  unlock: CardUnlock;
+}
+
+/** `collector` : réunir des cartes. `master` : réservé au futur badge de maîtrise d'un territoire. */
+export type RewardBadgeKind = "collector" | "master";
+
+export interface RewardBadge {
+  id: string;
+  kind: RewardBadgeKind;
+  nameKey: string;
+  descriptionKey: string;
+  /** Liste figée : une carte ajoutée plus tard à la collection ne retire pas un badge déjà gagné. */
+  cardIds: string[];
 }
 
 /**
@@ -228,6 +254,7 @@ export interface Territory extends WithCover {
   mediaIds: string[];
   levels: Level[];
   souvenirCards: SouvenirCard[];
+  badges: RewardBadge[];
   /** Un territoire publié a au moins un niveau jouable. */
   status: RegionStatus;
 }

@@ -1,5 +1,6 @@
 // Vérifie les règles d'une partie et le tirage dans une banque. Usage : node scripts/check-engine.mjs
 import assert from "node:assert/strict";
+import { albumCollections, cardsByTheme, isBadgeEarned, isCardEarned, newRewards, summarizeCollections } from "../src/engine/album.ts";
 import {
   applyJoker,
   answerStateOf,
@@ -41,7 +42,6 @@ const levelWith = (questions, maxDifficulty = 2, minDifficulty = 1) => ({
   stars: { one: 0, two: 400, three: 640 },
   minDifficulty,
   maxDifficulty,
-  rewardCardIds: [],
   questions,
 });
 const level = levelWith(Array.from({ length: 8 }, (_, i) => question(`c${i}`, { answers: answers(i === 0 ? 10 : 4) })));
@@ -330,6 +330,51 @@ for (let seed = 0; seed < 50; seed++) {
   }
   assert.deepEqual(current.results.map((result) => result.challengeId), ids);
   assert.equal(scoreOf(current), 6 * 100 + 2 * 75);
+}
+
+// Album : tout se déduit des résultats, quel que soit le score.
+{
+  const card = (id, themeId, levelId) => ({ id, territoryId: "t", themeId, nameKey: "n", descriptionKey: "d", anecdoteKey: "a", mediaId: "m", unlock: { kind: "level-finished", levelId } });
+  const cards = [card("c1", "cities", "l1"), card("c2", "gastronomy", "l2"), card("c3", "cities", "l3")];
+  const collector = { id: "b", kind: "collector", nameKey: "n", descriptionKey: "d", cardIds: ["c1", "c2", "c3"] };
+  const master = { ...collector, id: "m", kind: "master" };
+  const territory = { id: "t", status: "published", souvenirCards: cards, badges: [collector, master] };
+  const draft = { ...territory, id: "draft", status: "draft" };
+  const empty = { ...territory, id: "empty", souvenirCards: [], badges: [] };
+  const zero = { bestScore: 0 };
+
+  assert.deepEqual(albumCollections([territory, draft, empty]), [territory], "ni brouillon ni territoire sans carte");
+  assert.equal(isCardEarned(cards[0], {}), false);
+  assert.equal(isCardEarned(cards[0], { l1: zero }), true, "aucun score minimal");
+
+  // Une ancienne progression reconnue d'emblée, sans doublon.
+  const old = { l1: { bestScore: 800 }, l2: zero };
+  assert.deepEqual(summarizeCollections([territory], old), { cardsEarned: 2, cardsTotal: 3, badgesEarned: 0, badgesTotal: 1 });
+
+  // Une seule carte dans chaque vue : les thèmes regroupent les mêmes objets.
+  const groups = cardsByTheme([territory]);
+  assert.deepEqual(groups.map((group) => group.themeId), ["cities", "gastronomy"]);
+  assert.equal(groups.flatMap((group) => group.cards).length, cards.length);
+  assert.equal(groups[0].cards[0], cards[0]);
+
+  // Premier gain, puis rien au rejeu.
+  const first = newRewards([territory], {}, { l1: zero });
+  assert.deepEqual(first.cards.map((earned) => earned.id), ["c1"]);
+  assert.deepEqual(first.badges, []);
+  const replay = newRewards([territory], { l1: zero }, { l1: { bestScore: 800 } });
+  assert.deepEqual(replay, { cards: [], badges: [] });
+  assert.deepEqual(newRewards([draft], {}, { l1: zero }), { cards: [], badges: [] }, "un brouillon ne récompense pas");
+
+  // Le badge arrive avec la dernière carte. Le badge de maîtrise reste distinct et ne se gagne pas encore.
+  const all = { l1: zero, l2: zero, l3: zero };
+  const last = newRewards([territory], { l1: zero, l2: zero }, all);
+  assert.deepEqual(last.cards.map((earned) => earned.id), ["c3"]);
+  assert.deepEqual(last.badges.map((badge) => badge.id), ["b"]);
+  assert.equal(isBadgeEarned(master, cards, all), false);
+  assert.equal(summarizeCollections([territory], all).badgesEarned, 1);
+
+  // Une carte ajoutée plus tard à la collection ne retire pas le badge.
+  assert.equal(isBadgeEarned(collector, [...cards, card("c4", "crafts", "l4")], all), true);
 }
 
 console.log("Moteur de jeu valide.");

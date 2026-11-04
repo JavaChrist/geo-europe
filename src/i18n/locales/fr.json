@@ -378,14 +378,63 @@
       "body": "En cas de litige, adressez d'abord une réclamation écrite à {publisher} : {contact}. En l'absence de résolution amiable, vous pouvez saisir gratuitement le médiateur de la consommation compétent, {mediator}, conformément aux dispositions applicables {consumerLaw}. Coordonnées du médiateur : {mediatorAddress}, {mediatorWebsite}."
     }
   },
+  "album": {
+    "title": "Album",
+    "intro": "Chaque niveau terminé pour la première fois ajoute une carte souvenir à votre album.",
+    "counters": {
+      "cards": "Cartes obtenues",
+      "badges": "Badges obtenus",
+      "ofTotal": "{value} sur {total}"
+    },
+    "views": {
+      "label": "Vue de l'album",
+      "territories": "Territoires",
+      "themes": "Thèmes"
+    },
+    "filters": {
+      "territories": "Filtrer par territoire",
+      "themes": "Filtrer par thème",
+      "all": "Tous"
+    },
+    "themes": {
+      "cities": "Villes",
+      "gastronomy": "Gastronomie",
+      "heritage": "Patrimoine",
+      "traditions": "Traditions",
+      "crafts": "Savoir-faire"
+    },
+    "collection": {
+      "progress": "Progression de la collection {name}"
+    },
+    "hidden": {
+      "title": "Carte à découvrir",
+      "hint": "Terminez le niveau « {level} » du parcours {territory}."
+    },
+    "badge": {
+      "collector": "Badge de collection",
+      "master": "Badge de maîtrise",
+      "earned": "Badge obtenu",
+      "locked": "Badge à gagner"
+    },
+    "detail": {
+      "anecdote": "Le saviez-vous ?",
+      "earnedBy": "Obtenue en terminant le niveau « {level} ».",
+      "back": "Retour à l'album"
+    },
+    "reward": {
+      "cardTitle": "Nouvelle carte souvenir",
+      "cardBody": "« {name} » rejoint votre album.",
+      "badgeTitle": "Nouveau badge",
+      "badgeBody": "{name} : {description}"
+    },
+    "result": {
+      "open": "Voir la carte « {name} »"
+    }
+  },
   "soon": {
     "challenges": {
       "title": "Défis",
       "body": "Le Défi du jour et les épreuves se préparent. Vous pourrez bientôt tester vos connaissances ici."
-    },
-    "album": {
-      "title": "Album",
-      "body": "Vos découvertes viendront remplir cet album au fil de vos voyages."
     },
     "profile": {
       "title": "Profil",
