@@ -144,6 +144,162 @@
       "photoCostumes": {
         "title": "Costumes de fête, Musée alsacien de Strasbourg",
         "alt": "Quatre mannequins sans visage en costumes de fête alsaciens, coiffés de nœuds noirs ou colorés, devant des boiseries peintes."
+      },
+      "photoLorrainePlaceStanislas": {
+        "title": "Fontaine d'Amphitrite, place Stanislas, Nancy",
+        "alt": "Fontaine dorée adossée à de hautes grilles ouvragées rehaussées d'or."
+      },
+      "photoLorraineArcHere": {
+        "title": "Arc Héré, Nancy",
+        "alt": "Grand arc de triomphe en pierre claire, orné de statues et de dorures."
+      },
+      "photoLorrainePorteAllemands": {
+        "title": "Porte des Allemands, Metz",
+        "alt": "Château fort aux tours rondes, à toits pointus, enjambant une rivière."
+      },
+      "photoLorraineGareMetz": {
+        "title": "Gare de Metz",
+        "alt": "Long bâtiment de pierre grise au haut clocher carré."
+      },
+      "photoLorrainePorteChaussee": {
+        "title": "Porte Chaussée, Verdun",
+        "alt": "Deux grosses tours médiévales crénelées, au bout d'un pont de pierre."
+      },
+      "photoLorraineImagerieEpinal": {
+        "title": "Imagerie, Épinal",
+        "alt": "Atelier ancien, avec des images populaires colorées accrochées aux murs."
+      },
+      "photoLorraineLacGerardmer": {
+        "title": "Lac de Gérardmer",
+        "alt": "Vaste lac entouré de collines couvertes de forêts."
+      },
+      "photoLorraineHohneck": {
+        "title": "Le Hohneck, vu du Steinkopf",
+        "alt": "Sommet arrondi aux pentes herbeuses, au-dessus de vallées boisées."
+      },
+      "photoLorraineBarLeDuc": {
+        "title": "Rue des Ducs-de-Bar, Bar-le-Duc",
+        "alt": "Façade Renaissance sculptée, dans une rue ancienne."
+      },
+      "photoLorraineCathedraleToul": {
+        "title": "Ancienne cathédrale Saint-Étienne, Toul",
+        "alt": "Façade gothique très ornée, flanquée de deux tours à sommet plat."
+      },
+      "photoLorraineChateauLuneville": {
+        "title": "Château de Lunéville",
+        "alt": "Grand château classique, vu depuis ses bosquets."
+      },
+      "photoLorrainePlombieres": {
+        "title": "Plombières-les-Bains",
+        "alt": "Petite ville serrée au fond d'une vallée boisée."
+      },
+      "photoLorraineQuicheLorraine": {
+        "title": "Quiche lorraine",
+        "alt": "Tarte salée dorée, garnie de morceaux de lard."
+      },
+      "photoLorrainePateLorrain": {
+        "title": "Pâtés lorrains",
+        "alt": "Pâtés dorés en croûte feuilletée."
+      },
+      "photoLorraineMacaronNancy": {
+        "title": "Macarons de Nancy",
+        "alt": "Petits gâteaux ronds et dorés, à la surface craquelée."
+      },
+      "photoLorraineBergamotes": {
+        "title": "Bergamotes de Nancy",
+        "alt": "Bonbons carrés, plats et translucides, de couleur ambrée."
+      },
+      "photoLorraineMirabelles": {
+        "title": "Mirabelles sur l'arbre, photographiées en Pologne",
+        "alt": "Petits fruits ronds et jaunes sur une branche."
+      },
+      "photoLorraineTarteMirabelles": {
+        "title": "Tarte aux mirabelles",
+        "alt": "Tarte dorée garnie de petits fruits jaunes."
+      },
+      "photoLorraineNefMetz": {
+        "title": "Nef de la cathédrale Saint-Étienne, Metz",
+        "alt": "Vue vers le haut d'une très haute nef gothique, baignée de lumière."
+      },
+      "photoLorraineSaintNicolasDePort": {
+        "title": "Chœur de la basilique, Saint-Nicolas-de-Port",
+        "alt": "Chœur gothique aux piliers élancés et aux hauts vitraux."
+      },
+      "photoLorraineChateauMalbrouck": {
+        "title": "Château de Malbrouck, Manderen-Ritzing",
+        "alt": "Château fort de pierre claire aux tours rondes, au milieu de la campagne."
+      },
+      "photoLorraineCitadelleBitche": {
+        "title": "Citadelle de Bitche",
+        "alt": "Longue forteresse posée sur un rocher, au-dessus d'une ville."
+      },
+      "photoLorraineSepulcreRichier": {
+        "title": "Sépulcre de Ligier Richier, église Saint-Étienne, Saint-Mihiel",
+        "alt": "Groupe de statues de pierre autour du corps du Christ."
+      },
+      "photoLorraineBasiliqueEpinal": {
+        "title": "Basilique Saint-Maurice, Épinal",
+        "alt": "Église de pierre au massif clocher carré."
+      },
+      "photoLorraineVillaMajorelle": {
+        "title": "Villa Majorelle, Nancy",
+        "alt": "Maison aux lignes courbes, avec balcons et ferronneries végétales."
+      },
+      "photoLorraineVittel": {
+        "title": "Pavillon du parc thermal, Vittel",
+        "alt": "Pavillon blanc arrondi, sous une coupole, au milieu d'un parc."
+      },
+      "photoLorraineArzviller": {
+        "title": "Plan incliné de Saint-Louis-Arzviller",
+        "alt": "Grand bac rempli d'eau sur une pente boisée, reliant deux biefs d'un canal."
+      },
+      "photoLorraineFortDouaumont": {
+        "title": "Fort de Douaumont",
+        "alt": "Vestiges de béton d'un fort, dans un terrain bosselé envahi par l'herbe."
+      },
+      "photoLorraineHackenberg": {
+        "title": "Ouvrage du Hackenberg",
+        "alt": "Bloc de béton armé, à demi enterré dans la végétation."
+      },
+      "photoLorraineDomremy": {
+        "title": "Maison natale de Jeanne d'Arc, Domrémy-la-Pucelle",
+        "alt": "Modeste maison ancienne de pierre, à toit de tuiles."
+      },
+      "photoLorraineLustreBaccarat": {
+        "title": "Lustre Baccarat, Yebisu Garden Place, Tokyo",
+        "alt": "Immense lustre de cristal scintillant."
+      },
+      "photoLorraineVaseDaum": {
+        "title": "Vase Automne, Daum, 1905, musée des Beaux-Arts de Nancy",
+        "alt": "Vase de verre aux couleurs d'automne, orné de motifs végétaux."
+      },
+      "photoLorraineVaseGalle": {
+        "title": "Vase Seulette suis, Émile Gallé, 1889-1900",
+        "alt": "Vase de verre gravé, à décor végétal."
+      },
+      "photoLorraineEmauxLongwy": {
+        "title": "Émaux de Longwy, détail",
+        "alt": "Décor émaillé aux couleurs vives, aux motifs cernés."
+      },
+      "photoLorraineFaienceSarreguemines": {
+        "title": "Faïence de Sarreguemines, modèle Papillon, fin du XIXe siècle",
+        "alt": "Assiette de faïence décorée de papillons."
+      },
+      "photoLorraineGraoully": {
+        "title": "Effigie du Graoully, crypte de la cathédrale de Metz",
+        "alt": "Grand dragon suspendu, à la gueule ouverte, dans une crypte de pierre."
+      },
+      "photoLorraineLacLongemer": {
+        "title": "Lac de Longemer",
+        "alt": "Lac long et étroit, dans une vallée verdoyante entourée de sapins."
+      },
+      "photoLorraineMuseeEcoleNancy": {
+        "title": "Musée de l'École de Nancy",
+        "alt": "Grande maison bourgeoise de la Belle Époque, derrière un jardin."
+      },
+      "photoLorraineCathedraleMetzVue": {
+        "title": "Cathédrale Saint-Étienne, Metz",
+        "alt": "Immense cathédrale gothique de pierre jaune, percée de très hautes verrières."
       }
     }
   },
@@ -186,7 +342,28 @@
     "mulhouse": "Mulhouse",
     "haut-koenigsbourg": "Le château du Haut-Koenigsbourg",
     "soufflenheim": "Soufflenheim",
-    "betschdorf": "Betschdorf"
+    "betschdorf": "Betschdorf",
+    "nancy": "Nancy",
+    "verdun": "Verdun",
+    "epinal": "Épinal",
+    "bar-le-duc": "Bar-le-Duc",
+    "toul": "Toul",
+    "luneville": "Lunéville",
+    "gerardmer": "Gérardmer",
+    "baccarat": "Baccarat",
+    "commercy": "Commercy",
+    "thionville": "Thionville",
+    "longwy": "Longwy",
+    "mirecourt": "Mirecourt",
+    "saint-die-des-vosges": "Saint-Dié-des-Vosges",
+    "vittel": "Vittel",
+    "contrexeville": "Contrexéville",
+    "plombieres-les-bains": "Plombières-les-Bains",
+    "sarreguemines": "Sarreguemines",
+    "saint-mihiel": "Saint-Mihiel",
+    "domremy-la-pucelle": "Domrémy-la-Pucelle",
+    "rodemack": "Rodemack",
+    "grand": "Grand"
   },
   "territories": {
     "champagne-ardenne": {
@@ -194,7 +371,2005 @@
     },
     "lorraine": {
       "name": "Lorraine",
-      "description": "Au nord-est de la France, la Lorraine s'étend entre la Champagne et l'Alsace, jusqu'aux frontières de la Belgique, du Luxembourg et de l'Allemagne."
+      "description": "Au nord-est de la France, la Lorraine s'étend entre la Champagne et l'Alsace, jusqu'aux frontières de la Belgique, du Luxembourg et de l'Allemagne.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Lorraine",
+          "description": "Les grands repères du territoire : ses quatre départements, ses villes et ses paysages, en huit défis renouvelés à chaque partie.",
+          "situer-lorraine": {
+            "prompt": "Situez la Lorraine dans le Grand Est : touchez-la sur la carte.",
+            "hint": "Elle occupe le centre de la région, entre les deux autres territoires.",
+            "anecdote": "La Lorraine se trouve entre la Champagne-Ardenne, à l'ouest, et l'Alsace, à l'est. Ces trois anciennes régions forment le Grand Est depuis le 1er janvier 2016."
+          },
+          "carte-departement-54": {
+            "prompt": "Touchez la Meurthe-et-Moselle sur la carte.",
+            "hint": "Ce département étiré va de la frontière belge jusqu'aux portes des Vosges.",
+            "anecdote": "La Meurthe-et-Moselle a pour préfecture Nancy. Sa forme allongée vient de la frontière tracée en 1871, après la guerre franco-prussienne."
+          },
+          "carte-departement-55": {
+            "prompt": "Touchez la Meuse sur la carte.",
+            "hint": "C'est le département lorrain situé le plus à l'ouest.",
+            "anecdote": "La Meuse doit son nom au fleuve qui la traverse du sud au nord. Elle touche la Champagne-Ardenne à l'ouest."
+          },
+          "carte-departement-57": {
+            "prompt": "Touchez la Moselle sur la carte.",
+            "hint": "Ce département lorrain borde l'Allemagne au nord-est.",
+            "anecdote": "La Moselle partage sa frontière avec l'Allemagne et le Luxembourg. Sa préfecture est Metz."
+          },
+          "carte-departement-88": {
+            "prompt": "Touchez les Vosges sur la carte.",
+            "hint": "C'est le département lorrain situé le plus au sud.",
+            "anecdote": "Le département des Vosges occupe le sud de la Lorraine. Sa préfecture, Épinal, est traversée par la Moselle."
+          },
+          "numero-meurthe-et-moselle": {
+            "prompt": "Quel est le numéro du département de la Meurthe-et-Moselle ?",
+            "hint": "C'est le plus petit des quatre numéros lorrains.",
+            "anecdote": "La Meurthe-et-Moselle porte le numéro 54. Il suit l'ordre alphabétique des départements français.",
+            "answers": {
+              "54": "54",
+              "55": "55",
+              "57": "57",
+              "88": "88"
+            }
+          },
+          "numero-meuse": {
+            "prompt": "Quel est le numéro du département de la Meuse ?",
+            "hint": "Il suit directement celui de la Meurthe-et-Moselle.",
+            "anecdote": "La Meuse porte le numéro 55, juste après la Meurthe-et-Moselle.",
+            "answers": {
+              "54": "54",
+              "55": "55",
+              "57": "57",
+              "88": "88"
+            }
+          },
+          "numero-moselle": {
+            "prompt": "Quel est le numéro du département de la Moselle ?",
+            "hint": "Il se termine par un 7.",
+            "anecdote": "La Moselle porte le numéro 57, deux rangs après la Meuse. Entre les deux se glisse le Morbihan, dans l'ordre alphabétique.",
+            "answers": {
+              "54": "54",
+              "55": "55",
+              "57": "57",
+              "88": "88"
+            }
+          },
+          "numero-vosges": {
+            "prompt": "Quel est le numéro du département des Vosges ?",
+            "hint": "C'est le plus grand des quatre numéros lorrains.",
+            "anecdote": "Les Vosges portent le numéro 88, loin des trois autres départements lorrains dans l'ordre alphabétique.",
+            "answers": {
+              "54": "54",
+              "55": "55",
+              "57": "57",
+              "88": "88"
+            }
+          },
+          "nombre-departements": {
+            "prompt": "Combien de départements actuels forment le territoire lorrain ?",
+            "hint": "Autant que de saisons dans l'année.",
+            "anecdote": "Quatre départements : Meurthe-et-Moselle, Meuse, Moselle et Vosges. Ils formaient l'ancienne région administrative de Lorraine.",
+            "answers": {
+              "quatre": "Quatre",
+              "deux": "Deux",
+              "trois": "Trois",
+              "six": "Six"
+            }
+          },
+          "prefecture-meurthe-et-moselle": {
+            "prompt": "Quelle ville est la préfecture de la Meurthe-et-Moselle ?",
+            "hint": "Sa grande place aux grilles dorées est célèbre dans le monde entier.",
+            "anecdote": "Nancy est la préfecture de la Meurthe-et-Moselle. Son ensemble du XVIIIe siècle attire des visiteurs du monde entier.",
+            "answers": {
+              "briey": "Briey"
+            }
+          },
+          "prefecture-meuse": {
+            "prompt": "Quelle ville est la préfecture de la Meuse ?",
+            "hint": "Son nom rappelle les ducs qui l'ont gouvernée.",
+            "anecdote": "La préfecture de la Meuse est Bar-le-Duc, et non Verdun, pourtant plus célèbre."
+          },
+          "prefecture-moselle": {
+            "prompt": "Quelle ville est la préfecture de la Moselle ?",
+            "hint": "Sa cathédrale gothique est bâtie en pierre jaune.",
+            "anecdote": "Metz est la préfecture de la Moselle. Elle se trouve au confluent de la Moselle et de la Seille.",
+            "answers": {
+              "forbach": "Forbach"
+            }
+          },
+          "prefecture-vosges": {
+            "prompt": "Quelle ville est la préfecture des Vosges ?",
+            "hint": "Elle est connue pour ses images populaires.",
+            "anecdote": "Épinal est la préfecture des Vosges. Elle s'étend de part et d'autre de la Moselle.",
+            "answers": {
+              "remiremont": "Remiremont"
+            }
+          },
+          "reconnaitre-nancy": {
+            "prompt": "Dans quelle ville lorraine se trouve cette fontaine aux grilles dorées ?",
+            "hint": "C'est l'ancienne capitale des ducs de Lorraine.",
+            "anecdote": "Vous êtes à Nancy, place Stanislas, devant la fontaine d'Amphitrite et les grilles dorées de Jean Lamour."
+          },
+          "reconnaitre-arc-nancy": {
+            "prompt": "Quelle ville lorraine abrite cet arc de triomphe ?",
+            "hint": "Il relie sa place la plus célèbre à la place de la Carrière.",
+            "anecdote": "C'est l'arc Héré, à Nancy. Il porte le nom de l'architecte Emmanuel Héré et rend hommage au roi Louis XV."
+          },
+          "reconnaitre-metz": {
+            "prompt": "Dans quelle ville se dresse cette porte fortifiée au-dessus de la Seille ?",
+            "hint": "C'est la préfecture de la Moselle.",
+            "anecdote": "C'est la porte des Allemands, à Metz. Ce château-pont est un vestige des anciennes fortifications médiévales de la ville.",
+            "answers": {
+              "bitche": "Bitche"
+            }
+          },
+          "reconnaitre-gare-metz": {
+            "prompt": "Dans quelle ville se trouve cette gare à la haute tour d'horloge ?",
+            "hint": "La ville est au confluent de la Moselle et de la Seille.",
+            "anecdote": "C'est la gare de Metz, inaugurée en 1908, à l'époque où la ville faisait partie de l'Empire allemand.",
+            "answers": {
+              "sarrebourg": "Sarrebourg"
+            }
+          },
+          "reconnaitre-verdun": {
+            "prompt": "Quelle ville de la Meuse garde cette porte aux deux tours rondes ?",
+            "hint": "Son nom reste lié à une immense bataille de 1916.",
+            "anecdote": "C'est la porte Chaussée, à Verdun. Cette porte médiévale gardait l'entrée de la ville au bord de la Meuse."
+          },
+          "reconnaitre-epinal": {
+            "prompt": "Dans quelle ville se trouve ce site consacré à l'image populaire ?",
+            "hint": "C'est la préfecture des Vosges.",
+            "anecdote": "C'est l'Imagerie d'Épinal. Son nom est passé dans la langue française avec l'expression « image d'Épinal ».",
+            "answers": {
+              "remiremont": "Remiremont"
+            }
+          },
+          "reconnaitre-gerardmer": {
+            "prompt": "Près de quelle ville vosgienne s'étend ce lac ?",
+            "hint": "Le lac porte le même nom que la ville.",
+            "anecdote": "C'est le lac de Gérardmer, dans les Vosges. Il attire les promeneurs en toute saison.",
+            "answers": {
+              "remiremont": "Remiremont",
+              "neufchateau": "Neufchâteau"
+            }
+          },
+          "reconnaitre-vosges": {
+            "prompt": "Quel massif montagneux découvre-t-on sur cette photo ?",
+            "hint": "Il donne son nom à un département lorrain.",
+            "anecdote": "Ce sont les Vosges, ici autour du Hohneck. Le massif sépare la Lorraine de l'Alsace.",
+            "answers": {
+              "les-vosges": "Les Vosges",
+              "le-jura": "Le Jura",
+              "les-ardennes": "Les Ardennes",
+              "le-massif-central": "Le Massif central"
+            }
+          },
+          "reconnaitre-bar-le-duc": {
+            "prompt": "Quelle préfecture lorraine possède cette maison ancienne de sa ville haute ?",
+            "hint": "C'est la préfecture de la Meuse.",
+            "anecdote": "Nous sommes à Bar-le-Duc, rue des Ducs-de-Bar. La ville haute conserve de nombreuses façades de la Renaissance."
+          },
+          "reconnaitre-toul": {
+            "prompt": "Quelle ville de Meurthe-et-Moselle possède cette ancienne cathédrale ?",
+            "hint": "Elle se trouve à l'ouest de Nancy, dans une boucle de la Moselle.",
+            "anecdote": "C'est l'ancienne cathédrale Saint-Étienne de Toul. Sa façade est un bel exemple de gothique flamboyant.",
+            "answers": {
+              "pont-a-mousson": "Pont-à-Mousson"
+            }
+          },
+          "reconnaitre-luneville": {
+            "prompt": "Quelle ville lorraine possède ce grand château et ses jardins ?",
+            "hint": "On surnomme ce château le « Versailles lorrain ».",
+            "anecdote": "C'est le château de Lunéville, en Meurthe-et-Moselle. Le roi Stanislas y a vécu et y est mort en 1766."
+          },
+          "reconnaitre-plombieres": {
+            "prompt": "Quelle ville thermale vosgienne s'étire ainsi au fond de sa vallée ?",
+            "hint": "Son nom se termine par « les-Bains ».",
+            "anecdote": "C'est Plombières-les-Bains, dans les Vosges. On y prenait déjà les eaux à l'époque romaine."
+          },
+          "capitale-ducs": {
+            "prompt": "Quelle ville fut la capitale du duché de Lorraine ?",
+            "hint": "Elle est aujourd'hui préfecture de Meurthe-et-Moselle.",
+            "anecdote": "Nancy était la capitale du duché. Le palais ducal, dans la vieille ville, rappelle ce passé."
+          },
+          "commune-plus-peuplee": {
+            "prompt": "Quelle est la commune la plus peuplée de Lorraine ?",
+            "hint": "C'est la préfecture du département de la Moselle.",
+            "anecdote": "Metz compte environ 120 000 habitants, devant Nancy. L'agglomération de Nancy reste toutefois très importante."
+          },
+          "ville-bataille-1916": {
+            "prompt": "Quelle ville lorraine a donné son nom à une très longue bataille de 1916 ?",
+            "hint": "Elle se trouve dans la Meuse.",
+            "anecdote": "La bataille de Verdun a duré environ dix mois, de février à décembre 1916. Elle reste un symbole de la Première Guerre mondiale."
+          },
+          "ville-cristal": {
+            "prompt": "Quelle ville de Meurthe-et-Moselle est mondialement connue pour son cristal ?",
+            "hint": "Elle se trouve sur la Meurthe, en amont de Lunéville.",
+            "anecdote": "Baccarat a donné son nom à une célèbre manufacture. Fondée en 1764 comme verrerie, elle s'est tournée vers le cristal à partir de 1816.",
+            "answers": {
+              "pont-a-mousson": "Pont-à-Mousson"
+            }
+          },
+          "frontiere-luxembourg": {
+            "prompt": "Quelle ville mosellane se trouve tout près de la frontière luxembourgeoise ?",
+            "hint": "Elle est au bord de la Moselle, au nord de Metz.",
+            "anecdote": "Thionville n'est qu'à une trentaine de kilomètres de la ville de Luxembourg. De nombreux habitants traversent chaque jour la frontière pour aller y travailler.",
+            "answers": {
+              "bitche": "Bitche",
+              "sarrebourg": "Sarrebourg",
+              "forbach": "Forbach"
+            }
+          },
+          "pays-non-voisin": {
+            "prompt": "Lequel de ces pays n'a pas de frontière avec la Lorraine ?",
+            "hint": "Ce pays montagneux se situe plus au sud.",
+            "anecdote": "La Lorraine borde la Belgique, le Luxembourg et l'Allemagne. La Suisse est bien plus au sud.",
+            "answers": {
+              "la-suisse": "La Suisse",
+              "l-allemagne": "L'Allemagne",
+              "la-belgique": "La Belgique",
+              "le-luxembourg": "Le Luxembourg"
+            }
+          },
+          "riviere-nancy": {
+            "prompt": "Quelle rivière traverse Nancy ?",
+            "hint": "Elle a donné la première partie du nom du département.",
+            "anecdote": "La Meurthe traverse Nancy avant de rejoindre la Moselle un peu plus au nord.",
+            "answers": {
+              "la-meurthe": "La Meurthe",
+              "la-meuse": "La Meuse",
+              "la-sarre": "La Sarre",
+              "la-seille": "La Seille"
+            }
+          },
+          "fleuve-verdun": {
+            "prompt": "Quel fleuve traverse Verdun ?",
+            "hint": "Il a donné son nom au département.",
+            "anecdote": "La Meuse traverse Verdun, puis poursuit sa route vers les Ardennes, la Belgique et les Pays-Bas.",
+            "answers": {
+              "la-meuse": "La Meuse",
+              "la-marne": "La Marne",
+              "la-meurthe": "La Meurthe",
+              "la-moselle": "La Moselle"
+            }
+          },
+          "riviere-deux-departements": {
+            "prompt": "Quelle rivière apparaît dans le nom de deux départements lorrains ?",
+            "hint": "Elle traverse Épinal et Metz.",
+            "anecdote": "La Moselle apparaît dans les noms de la Moselle et de la Meurthe-et-Moselle.",
+            "answers": {
+              "la-moselle": "La Moselle",
+              "la-meuse": "La Meuse",
+              "la-sarre": "La Sarre",
+              "la-seille": "La Seille"
+            }
+          },
+          "voisin-est": {
+            "prompt": "Quel territoire se trouve de l'autre côté des Vosges, à l'est de la Lorraine ?",
+            "hint": "Sa grande ville est Strasbourg.",
+            "anecdote": "L'Alsace s'étend entre les Vosges et le Rhin. Elle forme le Grand Est avec la Lorraine et la Champagne-Ardenne.",
+            "answers": {
+              "l-alsace": "L'Alsace",
+              "la-bourgogne": "La Bourgogne",
+              "la-champagne": "La Champagne",
+              "la-franche-comte": "La Franche-Comté"
+            }
+          },
+          "region-administrative": {
+            "prompt": "Dans quelle région administrative se trouve la Lorraine aujourd'hui ?",
+            "hint": "Son nom évoque un point cardinal.",
+            "anecdote": "La Lorraine appartient au Grand Est. Elle reste un territoire historique et culturel, sans être une région administrative aujourd'hui.",
+            "answers": {
+              "le-grand-est": "Le Grand Est",
+              "la-bourgogne-franche-comte": "La Bourgogne-Franche-Comté",
+              "les-hauts-de-france": "Les Hauts-de-France",
+              "l-ile-de-france": "L'Île-de-France"
+            }
+          },
+          "chef-lieu-grand-est": {
+            "prompt": "Quelle ville est le chef-lieu de la région Grand Est ?",
+            "hint": "Elle se trouve en Alsace.",
+            "anecdote": "Strasbourg est le chef-lieu du Grand Est. Metz était celui de l'ancienne région Lorraine.",
+            "answers": {
+              "strasbourg": "Strasbourg",
+              "reims": "Reims"
+            }
+          },
+          "territoires-grand-est": {
+            "prompt": "Avec quels territoires la Lorraine forme-t-elle le Grand Est ?",
+            "hint": "L'un produit un vin à bulles célèbre, l'autre borde le Rhin.",
+            "anecdote": "Depuis le 1er janvier 2016, le Grand Est réunit l'Alsace, la Champagne-Ardenne et la Lorraine.",
+            "answers": {
+              "l-alsace-et-la-champagne-ardenne": "L'Alsace et la Champagne-Ardenne",
+              "l-alsace-et-la-franche-comte": "L'Alsace et la Franche-Comté",
+              "la-bourgogne-et-la-champagne-ardenne": "La Bourgogne et la Champagne-Ardenne",
+              "la-franche-comte-et-la-picardie": "La Franche-Comté et la Picardie"
+            }
+          },
+          "ville-image": {
+            "prompt": "Quelle ville lorraine a donné son nom à une expression sur les images trop idéales ?",
+            "hint": "On y imprime des images populaires depuis la fin du XVIIIe siècle.",
+            "anecdote": "Une « image d'Épinal » désigne une vision naïve et embellie de la réalité. L'expression vient des gravures populaires imprimées dans cette ville."
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs de Lorraine",
+          "description": "Quiche, mirabelle, bergamote et madeleine : la table lorraine, ses douceurs et les produits de son terroir.",
+          "photo-quiche": {
+            "prompt": "Quelle spécialité lorraine reconnaissez-vous dans cette assiette ?",
+            "hint": "Une pâte garnie d'œufs, de crème et de lardons.",
+            "anecdote": "C'est la quiche lorraine. Ce plat est devenu l'une des spécialités les plus connues de la cuisine française.",
+            "answers": {
+              "la-quiche-lorraine": "La quiche lorraine",
+              "la-flammekueche": "La flammekueche",
+              "le-pate-lorrain": "Le pâté lorrain",
+              "la-tourte-de-la-vallee-de-munster": "La tourte de la vallée de Munster"
+            }
+          },
+          "quiche-garniture": {
+            "prompt": "Quelle garniture trouve-t-on dans la quiche lorraine traditionnelle ?",
+            "hint": "Elle associe un produit du cochon à un appareil crémeux.",
+            "anecdote": "La recette traditionnelle réunit lardons, œufs et crème. Le fromage y est un ajout plus récent, que les puristes écartent.",
+            "answers": {
+              "des-lardons-des-oeufs-et-de-la-creme": "Des lardons, des œufs et de la crème",
+              "du-jambon-et-des-champignons": "Du jambon et des champignons",
+              "du-poisson-et-des-poireaux": "Du poisson et des poireaux",
+              "des-pommes-de-terre-et-du-munster": "Des pommes de terre et du munster"
+            }
+          },
+          "quiche-migaine": {
+            "prompt": "Comment appelle-t-on en Lorraine le mélange d'œufs et de crème de la quiche ?",
+            "hint": "Le mot commence par « mi » et vient du patois lorrain.",
+            "anecdote": "La migaine, mélange d'œufs et de crème, sert aussi à napper d'autres tartes salées ou sucrées de la région.",
+            "answers": {
+              "la-migaine": "La migaine",
+              "la-bechamel": "La béchamel",
+              "la-gaufrette": "La gaufrette",
+              "la-royale-des-vosges": "La royale des Vosges"
+            }
+          },
+          "photo-pate-lorrain": {
+            "prompt": "Quelle spécialité salée sort ainsi dorée du four, en croûte feuilletée ?",
+            "hint": "Elle contient de la viande marinée.",
+            "anecdote": "C'est le pâté lorrain, une croûte feuilletée garnie de viande de porc et de veau.",
+            "answers": {
+              "le-pate-lorrain": "Le pâté lorrain",
+              "la-bouchee-a-la-reine": "La bouchée à la reine",
+              "la-galette-des-rois": "La galette des rois",
+              "la-quiche-lorraine": "La quiche lorraine"
+            }
+          },
+          "pate-lorrain-marinade": {
+            "prompt": "Dans quoi fait-on traditionnellement mariner la viande du pâté lorrain ?",
+            "hint": "C'est une boisson issue de la vigne.",
+            "anecdote": "La viande de porc et de veau marine dans du vin blanc avec des aromates, avant d'être enfermée dans la pâte feuilletée.",
+            "answers": {
+              "du-vin-blanc": "Du vin blanc",
+              "de-la-biere-brune": "De la bière brune",
+              "du-cidre": "Du cidre",
+              "du-lait": "Du lait"
+            }
+          },
+          "potee": {
+            "prompt": "Quel légume domine dans la potée lorraine ?",
+            "hint": "Il pousse en feuilles serrées.",
+            "anecdote": "La potée lorraine fait mijoter le chou avec du lard, de la saucisse et d'autres légumes, comme les carottes et les pommes de terre.",
+            "answers": {
+              "le-chou": "Le chou",
+              "l-aubergine": "L'aubergine",
+              "le-fenouil": "Le fenouil",
+              "la-tomate": "La tomate"
+            }
+          },
+          "fuseau": {
+            "prompt": "Qu'appelle-t-on le fuseau lorrain ?",
+            "hint": "C'est une charcuterie de porc de forme allongée.",
+            "anecdote": "Le fuseau lorrain est un saucisson de porc fumé, à la forme allongée.",
+            "answers": {
+              "un-saucisson-fume": "Un saucisson fumé",
+              "un-fromage-de-chevre": "Un fromage de chèvre",
+              "un-gateau-aux-noix": "Un gâteau aux noix",
+              "un-pain-de-seigle": "Un pain de seigle"
+            }
+          },
+          "andouille-val-ajol": {
+            "prompt": "Quelle commune vosgienne est réputée pour son andouille fumée ?",
+            "hint": "Le nom de cette commune évoque un « val ».",
+            "anecdote": "L'andouille du Val-d'Ajol est une spécialité vosgienne, fêtée chaque année par une confrérie locale.",
+            "answers": {
+              "le-val-d-ajol": "Le Val-d'Ajol"
+            }
+          },
+          "tofailles": {
+            "prompt": "Quel féculent compose la tofaille, plat rustique des Vosges ?",
+            "hint": "Il est aussi à la base des frites.",
+            "anecdote": "La tofaille fait mijoter des pommes de terre avec des oignons et du lard.",
+            "answers": {
+              "la-pomme-de-terre": "La pomme de terre",
+              "le-mais": "Le maïs",
+              "le-riz": "Le riz",
+              "la-semoule": "La semoule"
+            }
+          },
+          "bouchee-reine": {
+            "prompt": "À quelle reine, fille de Stanislas, attribue-t-on la bouchée à la reine ?",
+            "hint": "Elle épousa le roi Louis XV.",
+            "anecdote": "La tradition attribue cette bouchée feuilletée à Marie Leszczynska, reine de France et fille de Stanislas. Cette origine reste une tradition culinaire.",
+            "answers": {
+              "marie-leszczynska": "Marie Leszczynska",
+              "anne-d-autriche": "Anne d'Autriche",
+              "catherine-de-medicis": "Catherine de Médicis",
+              "marie-antoinette": "Marie-Antoinette"
+            }
+          },
+          "madeleine-ville": {
+            "prompt": "De quelle ville de la Meuse la madeleine est-elle la grande spécialité ?",
+            "hint": "Ses habitants ont longtemps vendu ce gâteau aux voyageurs sur les quais de la gare.",
+            "anecdote": "La madeleine de Commercy a fait la réputation de la ville. Elle s'est longtemps vendue sur les quais de la gare."
+          },
+          "madeleine-legende": {
+            "prompt": "D'après la légende, pour quel souverain la madeleine aurait-elle été servie à Commercy ?",
+            "hint": "Il fut roi de Pologne puis duc de Lorraine.",
+            "anecdote": "Selon la légende, une jeune servante nommée Madeleine aurait préparé ce gâteau pour Stanislas au château de Commercy, vers 1755.",
+            "answers": {
+              "stanislas": "Stanislas",
+              "charlemagne": "Charlemagne",
+              "louis-xiv": "Louis XIV",
+              "napoleon-ier": "Napoléon Ier"
+            }
+          },
+          "photo-macaron": {
+            "prompt": "Quelle douceur nancéienne, craquelée en surface, voyez-vous ici ?",
+            "hint": "Elle est faite d'amandes, de sucre et de blanc d'œuf.",
+            "anecdote": "C'est le macaron de Nancy. Contrairement au macaron parisien, il n'est pas garni et se présente comme un petit gâteau craquelé.",
+            "answers": {
+              "le-macaron-de-nancy": "Le macaron de Nancy",
+              "la-galette-de-perouges": "La galette de Pérouges",
+              "la-madeleine-de-commercy": "La madeleine de Commercy",
+              "le-sable-de-nancy": "Le sablé de Nancy"
+            }
+          },
+          "soeurs-macarons": {
+            "prompt": "Selon la tradition, qui serait à l'origine de la renommée du macaron de Nancy ?",
+            "hint": "Ces femmes de religion ont dû quitter leur couvent à la Révolution.",
+            "anecdote": "Selon la tradition, deux religieuses chassées de leur couvent nancéien à la Révolution auraient vécu de la vente de macarons, d'où leur surnom de « Sœurs Macarons ». Ce récit est mal documenté.",
+            "answers": {
+              "deux-religieuses": "Deux religieuses",
+              "deux-officiers-de-napoleon": "Deux officiers de Napoléon",
+              "un-eveque-de-toul": "Un évêque de Toul",
+              "une-famille-de-meuniers": "Une famille de meuniers"
+            }
+          },
+          "macaron-boulay": {
+            "prompt": "Quelle ville de Moselle a aussi ses macarons réputés ?",
+            "hint": "Son nom complet contient celui d'une rivière.",
+            "anecdote": "Les macarons de Boulay, en Moselle, sont fabriqués depuis le XIXe siècle.",
+            "answers": {
+              "boulay-moselle": "Boulay-Moselle",
+              "forbach": "Forbach"
+            }
+          },
+          "photo-bergamote": {
+            "prompt": "Quel bonbon carré et translucide, spécialité de Nancy, reconnaissez-vous ?",
+            "hint": "Il est parfumé avec l'essence d'un agrume.",
+            "anecdote": "C'est la bergamote de Nancy, un sucre cuit parfumé à l'huile essentielle de bergamote. Elle bénéficie d'une indication géographique protégée.",
+            "answers": {
+              "la-bergamote-de-nancy": "La bergamote de Nancy",
+              "la-betise-de-cambrai": "La bêtise de Cambrai",
+              "le-berlingot-de-carpentras": "Le berlingot de Carpentras",
+              "le-coussin-de-lyon": "Le coussin de Lyon"
+            }
+          },
+          "bergamote-parfum": {
+            "prompt": "Quel fruit parfume le célèbre bonbon de Nancy ?",
+            "hint": "Cet agrume parfume aussi le thé Earl Grey.",
+            "anecdote": "La bergamote est un agrume cultivé notamment en Calabre. Son essence donne son parfum au bonbon nancéien.",
+            "answers": {
+              "la-bergamote": "La bergamote",
+              "la-fraise": "La fraise",
+              "la-poire": "La poire",
+              "la-violette": "La violette"
+            }
+          },
+          "baba-stanislas": {
+            "prompt": "Quel gâteau imbibé d'alcool est associé à la table du roi Stanislas ?",
+            "hint": "Il est souvent parfumé au rhum.",
+            "anecdote": "La tradition rattache le baba à Stanislas, qui aurait fait imbiber une brioche devenue trop sèche. Son pâtissier Nicolas Stohrer l'aurait ensuite fait connaître à Paris.",
+            "answers": {
+              "le-baba": "Le baba",
+              "le-fraisier": "Le fraisier",
+              "le-millefeuille": "Le millefeuille",
+              "le-paris-brest": "Le paris-brest"
+            }
+          },
+          "dragees-verdun": {
+            "prompt": "Quelle confiserie, souvent offerte lors des baptêmes, a fait la réputation de Verdun ?",
+            "hint": "Une amande enrobée de sucre.",
+            "anecdote": "Verdun est connue pour ses dragées depuis des siècles. La maison Braquier fait remonter son activité à 1783.",
+            "answers": {
+              "la-dragee": "La dragée",
+              "le-nougat": "Le nougat",
+              "le-calisson": "Le calisson",
+              "la-reglisse": "La réglisse"
+            }
+          },
+          "saint-epvre": {
+            "prompt": "Quel gâteau de Nancy, à la meringue et à la nougatine, porte le nom d'une basilique de la ville ?",
+            "hint": "Ce saint a été évêque de Toul.",
+            "anecdote": "Le Saint-Epvre porte le nom de la basilique de la vieille ville de Nancy. Il associe meringue, crème et nougatine.",
+            "answers": {
+              "le-saint-epvre": "Le Saint-Epvre",
+              "le-saint-honore": "Le Saint-Honoré",
+              "le-saint-marc": "Le Saint-Marc",
+              "le-saint-nicolas": "Le Saint-Nicolas"
+            }
+          },
+          "bonbons-vosges": {
+            "prompt": "Quel arbre donne leur parfum aux célèbres bonbons des Vosges ?",
+            "hint": "Cet arbre résineux couvre une grande partie du massif.",
+            "anecdote": "Les bonbons des Vosges sont parfumés au sapin. Des confiseries les fabriquent encore dans le massif et font visiter leurs ateliers.",
+            "answers": {
+              "le-sapin": "Le sapin",
+              "le-bouleau": "Le bouleau",
+              "le-chene": "Le chêne",
+              "le-hetre": "Le hêtre"
+            }
+          },
+          "photo-mirabelles": {
+            "prompt": "Quel petit fruit jaune, emblème de la Lorraine, reconnaissez-vous sur cet arbre ?",
+            "hint": "C'est une petite prune dorée.",
+            "anecdote": "La mirabelle est le fruit emblématique de la Lorraine, qui assure l'essentiel de la production mondiale.",
+            "answers": {
+              "la-mirabelle": "La mirabelle",
+              "l-abricot": "L'abricot",
+              "le-coing": "Le coing",
+              "la-nefle": "La nèfle"
+            }
+          },
+          "photo-tarte-mirabelles": {
+            "prompt": "Quelle tarte dorée, typique de la fin de l'été en Lorraine, voyez-vous en vitrine ?",
+            "hint": "Elle est garnie d'une petite prune jaune.",
+            "anecdote": "C'est la tarte aux mirabelles. La récolte du fruit, courte, a lieu de la mi-août à la mi-septembre environ.",
+            "answers": {
+              "la-tarte-aux-mirabelles": "La tarte aux mirabelles",
+              "la-tarte-a-la-rhubarbe": "La tarte à la rhubarbe",
+              "la-tarte-au-citron": "La tarte au citron",
+              "la-tarte-tatin": "La tarte Tatin"
+            }
+          },
+          "mirabelle-saison": {
+            "prompt": "À quelle période récolte-t-on les mirabelles en Lorraine ?",
+            "hint": "Les vacances d'été se terminent à peu près à ce moment-là.",
+            "anecdote": "La récolte est courte : quelques semaines, le plus souvent de la mi-août à la mi-septembre, avec des variations selon les années.",
+            "answers": {
+              "de-la-mi-aout-a-la-mi-septembre": "De la mi-août à la mi-septembre",
+              "de-janvier-a-fevrier": "De janvier à février",
+              "de-mars-a-avril": "De mars à avril",
+              "de-novembre-a-decembre": "De novembre à décembre"
+            }
+          },
+          "mirabelle-production": {
+            "prompt": "Quelle part de la production mondiale de mirabelles vient de Lorraine ?",
+            "hint": "Bien plus de la moitié.",
+            "anecdote": "La Lorraine produit environ 70 % des mirabelles du monde. Le fruit y bénéficie d'une indication géographique protégée.",
+            "answers": {
+              "environ-70": "Environ 70 %",
+              "environ-5": "Environ 5 %",
+              "environ-15": "Environ 15 %",
+              "environ-30": "Environ 30 %"
+            }
+          },
+          "fete-mirabelle": {
+            "prompt": "Quelle ville lorraine couronne chaque été une reine de la mirabelle ?",
+            "hint": "Elle fête ce fruit au bord de la Moselle, à la fin du mois d'août.",
+            "anecdote": "Les Fêtes de la mirabelle animent Metz depuis le milieu du XXe siècle, avec leur corso fleuri et l'élection de leur reine."
+          },
+          "roi-rene-mirabelle": {
+            "prompt": "Quel duc passe pour avoir introduit la mirabelle en Lorraine ?",
+            "hint": "On le surnomme le « bon roi ».",
+            "anecdote": "La tradition attribue l'introduction du fruit à René d'Anjou, duc de Lorraine au XVe siècle, sans que cela soit établi avec certitude.",
+            "answers": {
+              "rene-d-anjou": "René d'Anjou",
+              "charles-le-temeraire": "Charles le Téméraire",
+              "leopold-ier": "Léopold Ier",
+              "stanislas": "Stanislas"
+            }
+          },
+          "brimbelles": {
+            "prompt": "Dans les Vosges, quel fruit des bois appelle-t-on la brimbelle ?",
+            "hint": "Ce petit fruit bleu tache la langue.",
+            "anecdote": "La brimbelle est le nom vosgien de la myrtille, qu'on retrouve notamment dans une tarte très appréciée.",
+            "answers": {
+              "la-myrtille": "La myrtille",
+              "la-cerise": "La cerise",
+              "la-framboise": "La framboise",
+              "la-groseille": "La groseille"
+            }
+          },
+          "groseilles-bar": {
+            "prompt": "Quelle confiture de Bar-le-Duc est célèbre pour ses fruits épépinés à la plume d'oie ?",
+            "hint": "Un petit fruit acidulé en grappes, rouge ou blanc.",
+            "anecdote": "La confiture de groseilles de Bar-le-Duc est épépinée à la main, grain par grain, avec une plume d'oie. Elle est parfois surnommée le « caviar de Bar ».",
+            "answers": {
+              "la-confiture-de-groseilles": "La confiture de groseilles",
+              "la-confiture-d-abricots": "La confiture d'abricots",
+              "la-confiture-de-figues": "La confiture de figues",
+              "la-confiture-de-mures": "La confiture de mûres"
+            }
+          },
+          "quetsche": {
+            "prompt": "Quelle prune violette garnit de nombreuses tartes lorraines à la fin de l'été ?",
+            "hint": "Son nom commence par un Q.",
+            "anecdote": "La quetsche est une prune violette et allongée, très présente dans les vergers de l'est de la France.",
+            "answers": {
+              "la-quetsche": "La quetsche",
+              "la-cerise": "La cerise",
+              "la-peche": "La pêche",
+              "la-poire": "La poire"
+            }
+          },
+          "eau-vittel": {
+            "prompt": "Quelle eau minérale célèbre porte le nom d'une ville des Vosges ?",
+            "hint": "La ville est aussi connue pour ses thermes.",
+            "anecdote": "L'eau de Vittel est exploitée depuis le XIXe siècle. La ville est restée une station thermale et sportive.",
+            "answers": {
+              "evian": "Évian",
+              "perrier": "Perrier",
+              "volvic": "Volvic"
+            }
+          },
+          "eau-contrex": {
+            "prompt": "De quelle commune vosgienne vient l'eau minérale Contrex ?",
+            "hint": "Son nom commence comme celui de l'eau.",
+            "anecdote": "Contrex vient de Contrexéville, une station thermale voisine de Vittel.",
+            "answers": {
+              "remiremont": "Remiremont"
+            }
+          },
+          "eau-hepar": {
+            "prompt": "Quelle eau riche en magnésium est puisée à Vittel ?",
+            "hint": "Son nom ressemble au mot grec qui désigne le foie.",
+            "anecdote": "L'eau d'Hépar, très riche en magnésium, provient de Vittel. Son nom évoque le mot grec désignant le foie.",
+            "answers": {
+              "hepar": "Hépar",
+              "badoit": "Badoit",
+              "salvetat": "Salvetat",
+              "vichy": "Vichy"
+            }
+          },
+          "gris-toul": {
+            "prompt": "Quel vin très pâle, entre blanc et rosé, fait la réputation du Toulois ?",
+            "hint": "Son nom évoque une couleur qui n'est ni blanche ni rouge.",
+            "anecdote": "Le gris de Toul est un vin gris très clair, issu du pressurage direct de raisins noirs, produit dans l'appellation Côtes de Toul.",
+            "answers": {
+              "le-gris-de-toul": "Le gris de Toul",
+              "le-clairet-de-nancy": "Le clairet de Nancy",
+              "le-rose-de-moselle": "Le rosé de Moselle",
+              "le-rubis-de-verdun": "Le rubis de Verdun"
+            }
+          },
+          "eau-de-vie-mirabelle": {
+            "prompt": "Quelle eau-de-vie lorraine bénéficie d'une appellation d'origine ?",
+            "hint": "Elle est distillée à partir du fruit emblématique de la région.",
+            "anecdote": "L'eau-de-vie « Mirabelle de Lorraine » est distillée à partir du petit fruit jaune. Elle se déguste souvent en fin de repas.",
+            "answers": {
+              "la-mirabelle-de-lorraine": "La mirabelle de Lorraine",
+              "le-calvados": "Le calvados",
+              "le-cognac": "Le cognac",
+              "la-poire-de-normandie": "La poire de Normandie"
+            }
+          },
+          "biere-champigneulles": {
+            "prompt": "Quelle commune près de Nancy abrite une grande brasserie historique ?",
+            "hint": "Son nom rappelle les champignons.",
+            "anecdote": "La brasserie de Champigneulles, fondée à la fin du XIXe siècle, a marqué l'histoire de la bière en Lorraine.",
+            "answers": {
+              "champigneulles": "Champigneulles",
+              "remiremont": "Remiremont"
+            }
+          },
+          "gerome": {
+            "prompt": "Quel fromage du massif des Vosges doit son nom à Gérardmer ?",
+            "hint": "Côté alsacien, le même fromage s'appelle munster.",
+            "anecdote": "Le géromé est le nom lorrain du munster. Il partage avec lui l'appellation d'origine Munster ou Munster-Géromé.",
+            "answers": {
+              "le-gerome": "Le géromé",
+              "le-brie": "Le brie",
+              "le-comte": "Le comté",
+              "le-roquefort": "Le roquefort"
+            }
+          },
+          "miel-sapin": {
+            "prompt": "Quel miel des Vosges bénéficie d'une appellation d'origine ?",
+            "hint": "Il est sombre et récolté dans les forêts de résineux.",
+            "anecdote": "Le miel de sapin des Vosges bénéficie d'une appellation d'origine. Les abeilles y butinent le miellat produit sur les sapins.",
+            "answers": {
+              "le-miel-de-sapin": "Le miel de sapin",
+              "le-miel-d-acacia": "Le miel d'acacia",
+              "le-miel-de-lavande": "Le miel de lavande",
+              "le-miel-d-oranger": "Le miel d'oranger"
+            }
+          },
+          "carte-commercy": {
+            "prompt": "Touchez le département de Commercy, ville de la madeleine.",
+            "hint": "Commercy se trouve entre Bar-le-Duc et Toul.",
+            "anecdote": "Commercy se trouve dans la Meuse. La ville conserve aussi le château où a séjourné Stanislas."
+          },
+          "carte-metz-mirabelle": {
+            "prompt": "Touchez le département où Metz fête chaque été la mirabelle.",
+            "hint": "Metz en est la préfecture.",
+            "anecdote": "Metz est la préfecture de la Moselle. Le département compte aussi de nombreux vergers de mirabelliers."
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Monuments, paysages et grandes pages d'histoire, de la place Stanislas aux forts de Verdun.",
+          "stanislas-unesco": {
+            "prompt": "Depuis quelle année les places Stanislas, de la Carrière et d'Alliance sont-elles classées par l'UNESCO ?",
+            "hint": "C'était au début des années 1980.",
+            "anecdote": "Les trois places de Nancy sont inscrites au patrimoine mondial depuis 1983. Elles forment un ensemble du XVIIIe siècle d'une grande unité.",
+            "answers": {
+              "1945": "1945",
+              "1961": "1961",
+              "1983": "1983",
+              "2005": "2005"
+            }
+          },
+          "stanislas-architecte": {
+            "prompt": "Quel architecte a conçu la place Stanislas ?",
+            "hint": "Un arc de la ville porte aussi son nom.",
+            "anecdote": "Emmanuel Héré a dirigé le chantier de la place, achevée en 1755, à la demande de Stanislas.",
+            "answers": {
+              "emmanuel-here": "Emmanuel Héré",
+              "jules-hardouin-mansart": "Jules Hardouin-Mansart",
+              "le-corbusier": "Le Corbusier",
+              "vauban": "Vauban"
+            }
+          },
+          "stanislas-grilles": {
+            "prompt": "Quel ferronnier a réalisé les grilles dorées de la place Stanislas ?",
+            "hint": "Son prénom est Jean.",
+            "anecdote": "Jean Lamour, ferronnier d'art nancéien, a créé les grilles rehaussées d'or qui font la renommée de la place.",
+            "answers": {
+              "jean-lamour": "Jean Lamour",
+              "barthelemy-guibal": "Barthélemy Guibal",
+              "emile-galle": "Émile Gallé",
+              "louis-majorelle": "Louis Majorelle"
+            }
+          },
+          "metz-lanterne": {
+            "prompt": "Quel surnom donne-t-on à la cathédrale de Metz, à cause de ses immenses verrières ?",
+            "hint": "Il évoque une source de lumière.",
+            "anecdote": "Avec près de 6 500 m² de vitraux, la cathédrale Saint-Étienne est surnommée la « Lanterne du Bon Dieu ».",
+            "answers": {
+              "la-lanterne-du-bon-dieu": "La Lanterne du Bon Dieu",
+              "la-dame-de-pierre": "La Dame de pierre",
+              "la-foret-de-verre": "La Forêt de verre",
+              "l-etoile-du-nord": "L'Étoile du Nord"
+            }
+          },
+          "photo-nef-metz": {
+            "prompt": "Quelle cathédrale lorraine possède cette nef très élevée ?",
+            "hint": "Elle se trouve au bord de la Moselle, dans une préfecture.",
+            "anecdote": "C'est la cathédrale Saint-Étienne de Metz. Sa nef, haute d'environ 42 mètres, est l'une des plus élevées de France."
+          },
+          "metz-chagall": {
+            "prompt": "Quel peintre du XXe siècle a créé des vitraux pour la cathédrale de Metz ?",
+            "hint": "Né en Biélorussie actuelle, il est célèbre pour ses personnages qui volent.",
+            "anecdote": "Marc Chagall a dessiné plusieurs verrières de la cathédrale dans les années 1960.",
+            "answers": {
+              "marc-chagall": "Marc Chagall",
+              "claude-monet": "Claude Monet",
+              "pablo-picasso": "Pablo Picasso",
+              "henri-rousseau": "Henri Rousseau"
+            }
+          },
+          "metz-pierre": {
+            "prompt": "Quelle pierre donne à Metz sa couleur dorée ?",
+            "hint": "Elle est extraite près de la ville et porte un nom de lieu.",
+            "anecdote": "La pierre de Jaumont, un calcaire jaune, a servi à bâtir la cathédrale et de nombreux édifices messins.",
+            "answers": {
+              "la-pierre-de-jaumont": "La pierre de Jaumont",
+              "le-granit-de-la-bresse": "Le granit de la Bresse",
+              "le-marbre-de-carrare": "Le marbre de Carrare",
+              "le-tuffeau-de-touraine": "Le tuffeau de Touraine"
+            }
+          },
+          "metz-saint-pierre": {
+            "prompt": "Quelle église de Metz est considérée comme l'une des plus anciennes de France ?",
+            "hint": "Son nom évoque des religieuses.",
+            "anecdote": "Saint-Pierre-aux-Nonnains date d'un édifice romain du IVe siècle, transformé ensuite en église.",
+            "answers": {
+              "saint-pierre-aux-nonnains": "Saint-Pierre-aux-Nonnains",
+              "saint-epvre": "Saint-Epvre",
+              "saint-maurice": "Saint-Maurice",
+              "sainte-segolene": "Sainte-Ségolène"
+            }
+          },
+          "photo-saint-nicolas": {
+            "prompt": "Quelle basilique gothique, haut lieu de pèlerinage, se trouve au sud-est de Nancy ?",
+            "hint": "Elle abrite une relique du saint patron de la Lorraine.",
+            "anecdote": "La basilique de Saint-Nicolas-de-Port, de style gothique flamboyant, abrite une relique de saint Nicolas.",
+            "answers": {
+              "saint-nicolas-de-port": "Saint-Nicolas-de-Port",
+              "saint-etienne-de-toul": "Saint-Étienne de Toul",
+              "saint-maurice-d-epinal": "Saint-Maurice d'Épinal"
+            }
+          },
+          "photo-malbrouck": {
+            "prompt": "Quel château mosellan du XVe siècle, proche du Luxembourg, voyez-vous ici ?",
+            "hint": "Il doit son nom à un général anglais, resté célèbre grâce à une chanson.",
+            "anecdote": "Le château de Malbrouck, à Manderen-Ritzing, doit son nom au duc de Marlborough, qui y établit son quartier général en juin 1705.",
+            "answers": {
+              "le-chateau-de-malbrouck": "Le château de Malbrouck",
+              "le-chateau-de-commercy": "Le château de Commercy",
+              "le-chateau-de-luneville": "Le château de Lunéville",
+              "la-citadelle-de-bitche": "La citadelle de Bitche"
+            }
+          },
+          "photo-bitche": {
+            "prompt": "Quelle citadelle domine ainsi une ville du nord-est de la Moselle ?",
+            "hint": "Elle a résisté à un long siège en 1870 et 1871.",
+            "anecdote": "La citadelle de Bitche, perchée sur un promontoire rocheux, n'a pas été prise d'assaut pendant le siège de 1870-1871. Sa garnison ne l'a quittée qu'en mars 1871, sur ordre du gouvernement et avec les honneurs de la guerre.",
+            "answers": {
+              "la-citadelle-de-bitche": "La citadelle de Bitche",
+              "la-citadelle-de-verdun": "La citadelle de Verdun",
+              "le-fort-de-douaumont": "Le fort de Douaumont",
+              "le-chateau-de-malbrouck": "Le château de Malbrouck"
+            }
+          },
+          "longwy-vauban": {
+            "prompt": "Quelle ville de Meurthe-et-Moselle compte parmi les sites Vauban de l'UNESCO ?",
+            "hint": "Elle se trouve tout près de la Belgique et du Luxembourg.",
+            "anecdote": "La ville neuve de Longwy, bâtie par Vauban à la fin du XVIIe siècle, est inscrite au patrimoine mondial depuis 2008.",
+            "answers": {
+              "pont-a-mousson": "Pont-à-Mousson"
+            }
+          },
+          "photo-sepulcre": {
+            "prompt": "Quelle ville de la Meuse conserve ce sépulcre sculpté de Ligier Richier ?",
+            "hint": "Elle porte le nom d'un archange.",
+            "anecdote": "Le Sépulcre de Saint-Mihiel est le chef-d'œuvre du sculpteur lorrain Ligier Richier, au XVIe siècle.",
+            "answers": {
+              "vaucouleurs": "Vaucouleurs"
+            }
+          },
+          "photo-epinal-basilique": {
+            "prompt": "Dans quelle préfecture lorraine se trouve la basilique Saint-Maurice, visible ici ?",
+            "hint": "La ville est traversée par la Moselle, dans les Vosges.",
+            "anecdote": "La basilique Saint-Maurice d'Épinal mêle styles roman et gothique et compte parmi les monuments majeurs de la ville."
+          },
+          "ecole-nancy-style": {
+            "prompt": "Quel courant artistique l'École de Nancy représente-t-elle autour de 1900 ?",
+            "hint": "Il s'inspire des formes de la nature.",
+            "anecdote": "L'École de Nancy, fondée officiellement en 1901, est l'un des grands foyers français de l'Art nouveau.",
+            "answers": {
+              "l-art-nouveau": "L'Art nouveau",
+              "le-cubisme": "Le cubisme",
+              "le-romantisme": "Le romantisme",
+              "le-surrealisme": "Le surréalisme"
+            }
+          },
+          "photo-villa-majorelle": {
+            "prompt": "Dans quelle ville se dresse la villa Majorelle, chef-d'œuvre de l'Art nouveau ?",
+            "hint": "Cette ville est celle de l'ébéniste Louis Majorelle.",
+            "anecdote": "La villa Majorelle, construite à Nancy vers 1901 par l'architecte Henri Sauvage, était la maison de l'ébéniste Louis Majorelle."
+          },
+          "pompidou-metz": {
+            "prompt": "Quel grand musée d'art moderne a ouvert à Metz en 2010 ?",
+            "hint": "Il est la première antenne régionale d'une grande institution parisienne.",
+            "anecdote": "Le Centre Pompidou-Metz, dessiné par Shigeru Ban et Jean de Gastines, se reconnaît à sa grande toiture ondulée.",
+            "answers": {
+              "le-centre-pompidou": "Le Centre Pompidou",
+              "le-musee-d-orsay": "Le musée d'Orsay",
+              "le-louvre": "Le Louvre",
+              "le-musee-rodin": "Le musée Rodin"
+            }
+          },
+          "photo-vittel": {
+            "prompt": "Dans quelle station thermale vosgienne se trouve ce pavillon à la coupole arrondie ?",
+            "hint": "Son nom est aussi, tel quel, celui d'une eau minérale très connue.",
+            "anecdote": "Vous êtes à Vittel. Charles Garnier, l'architecte de l'Opéra de Paris, y a bâti l'établissement thermal en 1884.",
+            "answers": {
+              "la-voge-les-bains": "La Vôge-les-Bains"
+            }
+          },
+          "pont-a-mousson-universite": {
+            "prompt": "Quelle ville de Lorraine accueillit une université dès le XVIe siècle ?",
+            "hint": "Elle se trouve sur la Moselle, entre Nancy et Metz, et son nom évoque un pont.",
+            "anecdote": "L'université de Pont-à-Mousson, fondée en 1572, a ensuite été transférée à Nancy au XVIIIe siècle.",
+            "answers": {
+              "pont-a-mousson": "Pont-à-Mousson",
+              "sarrebourg": "Sarrebourg"
+            }
+          },
+          "sarrebourg-chagall": {
+            "prompt": "Quelle ville de Moselle abrite le vitrail « La Paix » de Marc Chagall ?",
+            "hint": "Elle se trouve dans le sud de la Moselle, et son nom évoque la Sarre.",
+            "anecdote": "La chapelle des Cordeliers de Sarrebourg abrite cet immense vitrail de Chagall.",
+            "answers": {
+              "sarrebourg": "Sarrebourg",
+              "forbach": "Forbach"
+            }
+          },
+          "photo-arzviller": {
+            "prompt": "Quel ouvrage permet aux bateaux de franchir ce dénivelé en Moselle ?",
+            "hint": "Il se situe sur le canal de la Marne au Rhin.",
+            "anecdote": "Le plan incliné de Saint-Louis-Arzviller, mis en service en 1969, a remplacé une longue série d'écluses.",
+            "answers": {
+              "le-plan-incline-de-saint-louis-arzviller": "Le plan incliné de Saint-Louis-Arzviller",
+              "le-barrage-de-pierre-percee": "Le barrage de Pierre-Percée",
+              "le-pont-de-pont-a-mousson": "Le pont de Pont-à-Mousson",
+              "le-viaduc-de-longeville": "Le viaduc de Longeville"
+            }
+          },
+          "plus-haut-sommet": {
+            "prompt": "Quel sommet est le point culminant du département des Vosges ?",
+            "hint": "Il s'élève à plus de 1 300 mètres, sur la frontière avec l'Alsace.",
+            "anecdote": "Le Hohneck culmine à 1 363 mètres, à la limite des Vosges et du Haut-Rhin. C'est aussi le point culminant de la Lorraine.",
+            "answers": {
+              "le-hohneck": "Le Hohneck",
+              "le-donon": "Le Donon",
+              "le-grand-ballon": "Le Grand Ballon",
+              "la-schlucht": "La Schlucht"
+            }
+          },
+          "route-cretes": {
+            "prompt": "Quelle route panoramique suit la ligne de partage du massif des Vosges ?",
+            "hint": "Elle a été tracée pendant la Première Guerre mondiale.",
+            "anecdote": "La route des Crêtes a été construite par l'armée française pendant la Grande Guerre, à l'abri des regards ennemis.",
+            "answers": {
+              "la-route-des-cretes": "La route des Crêtes",
+              "la-route-napoleon": "La route Napoléon",
+              "la-route-des-vins": "La route des Vins",
+              "la-voie-sacree": "La Voie sacrée"
+            }
+          },
+          "gerardmer-plus-grand": {
+            "prompt": "Quelle particularité a le lac de Gérardmer ?",
+            "hint": "Elle concerne sa taille parmi les lacs du massif.",
+            "anecdote": "D'origine glaciaire, le lac de Gérardmer s'étend sur environ 115 hectares. C'est le plus grand lac naturel des Vosges.",
+            "answers": {
+              "c-est-le-plus-grand-lac-naturel-des-vosges": "C'est le plus grand lac naturel des Vosges",
+              "c-est-le-plus-grand-lac-de-france": "C'est le plus grand lac de France",
+              "c-est-le-lac-le-plus-profond-d-europe": "C'est le lac le plus profond d'Europe",
+              "c-est-un-lac-sale": "C'est un lac salé"
+            }
+          },
+          "lac-madine": {
+            "prompt": "Quel grand lac artificiel, situé surtout dans la Meuse, est un lieu de loisirs très fréquenté ?",
+            "hint": "Il se trouve au cœur du Parc naturel régional de Lorraine.",
+            "anecdote": "Le lac de Madine couvre environ 1 100 hectares. Il sert aussi de réserve d'eau pour Metz.",
+            "answers": {
+              "le-lac-de-madine": "Le lac de Madine",
+              "le-lac-de-der": "Le lac de Der",
+              "le-lac-de-longemer": "Le lac de Longemer",
+              "le-lac-de-pierre-percee": "Le lac de Pierre-Percée"
+            }
+          },
+          "parc-lorraine": {
+            "prompt": "Quel parc naturel régional s'étend à cheval sur la Meuse, la Meurthe-et-Moselle et la Moselle ?",
+            "hint": "Il porte simplement le nom du territoire.",
+            "anecdote": "Créé en 1974, le Parc naturel régional de Lorraine protège notamment des côtes, des étangs et des pelouses calcaires.",
+            "answers": {
+              "le-parc-naturel-regional-de-lorraine": "Le Parc naturel régional de Lorraine",
+              "le-parc-des-ardennes": "Le Parc des Ardennes",
+              "le-parc-du-morvan": "Le Parc du Morvan",
+              "le-parc-du-vercors": "Le Parc du Vercors"
+            }
+          },
+          "source-moselle": {
+            "prompt": "Dans quel massif la Moselle prend-elle sa source ?",
+            "hint": "Sa source se trouve près du col de Bussang.",
+            "anecdote": "La Moselle naît dans les Vosges, à Bussang. Elle rejoint le Rhin à Coblence, en Allemagne.",
+            "answers": {
+              "les-vosges": "Les Vosges",
+              "les-alpes": "Les Alpes",
+              "les-ardennes": "Les Ardennes",
+              "le-jura": "Le Jura"
+            }
+          },
+          "photo-douaumont": {
+            "prompt": "Quel fort de la bataille de Verdun, pris puis repris en 1916, voyez-vous ?",
+            "hint": "Son nom est aussi celui d'un célèbre ossuaire voisin.",
+            "anecdote": "Le fort de Douaumont est tombé aux mains allemandes dès le 25 février 1916. Les troupes françaises l'ont repris le 24 octobre.",
+            "answers": {
+              "le-fort-de-douaumont": "Le fort de Douaumont",
+              "le-fort-de-hackenberg": "Le fort de Hackenberg",
+              "la-citadelle-de-bitche": "La citadelle de Bitche",
+              "la-porte-chaussee": "La porte Chaussée"
+            }
+          },
+          "photo-hackenberg": {
+            "prompt": "Quelle ligne de fortifications des années 1930 comptait ce bloc du Hackenberg ?",
+            "hint": "Elle porte le nom d'un ministre de la Guerre.",
+            "anecdote": "L'ouvrage du Hackenberg, en Moselle, est l'un des plus grands et des plus puissants de la ligne Maginot, bâtie le long de la frontière nord-est.",
+            "answers": {
+              "la-ligne-maginot": "La ligne Maginot",
+              "la-ligne-hindenburg": "La ligne Hindenburg",
+              "la-ligne-siegfried": "La ligne Siegfried",
+              "le-mur-de-l-atlantique": "Le mur de l'Atlantique"
+            }
+          },
+          "ossuaire": {
+            "prompt": "Que conserve l'ossuaire de Douaumont ?",
+            "hint": "Il est l'un des grands lieux de mémoire de la Première Guerre mondiale.",
+            "anecdote": "L'ossuaire conserve les restes d'environ 130 000 soldats non identifiés, français et allemands, tombés à Verdun.",
+            "answers": {
+              "les-restes-de-soldats-non-identifies": "Les restes de soldats non identifiés",
+              "des-archives-napoleoniennes": "Des archives napoléoniennes",
+              "des-vitraux-de-chagall": "Des vitraux de Chagall",
+              "le-tresor-des-ducs-de-lorraine": "Le trésor des ducs de Lorraine"
+            }
+          },
+          "voie-sacree": {
+            "prompt": "Quel nom donne-t-on à la route qui reliait Bar-le-Duc à Verdun en 1916 ?",
+            "hint": "Maurice Barrès lui a donné ce nom.",
+            "anecdote": "La Voie sacrée a permis d'acheminer sans relâche hommes et munitions vers le front.",
+            "answers": {
+              "la-voie-sacree": "La Voie sacrée",
+              "la-route-des-cretes": "La Route des Crêtes",
+              "la-route-royale": "La Route royale",
+              "le-chemin-des-dames": "Le Chemin des Dames"
+            }
+          },
+          "soldat-inconnu": {
+            "prompt": "Dans quelle ville a été désigné le Soldat inconnu, en novembre 1920 ?",
+            "hint": "Elle se trouve dans la Meuse.",
+            "anecdote": "Le choix a eu lieu dans la citadelle souterraine de Verdun, avant l'inhumation sous l'Arc de Triomphe à Paris.",
+            "answers": {
+              "paris": "Paris"
+            }
+          },
+          "carte-verdun": {
+            "prompt": "Touchez le département de la citadelle de Verdun.",
+            "hint": "Il porte le nom du fleuve qui traverse la ville.",
+            "anecdote": "Verdun se trouve dans la Meuse, comme les principaux lieux de la bataille de Verdun de 1916."
+          },
+          "carte-hackenberg": {
+            "prompt": "Touchez le département de l'ouvrage du Hackenberg.",
+            "hint": "C'est le seul département lorrain frontalier de l'Allemagne.",
+            "anecdote": "Le Hackenberg se trouve à Veckring, en Moselle, au nord de Metz."
+          },
+          "photo-domremy": {
+            "prompt": "Dans quel village vosgien se trouve cette maison natale de Jeanne d'Arc ?",
+            "hint": "Le nom du village rappelle aujourd'hui le surnom de Jeanne.",
+            "anecdote": "Jeanne d'Arc est née vers 1412 à Domrémy, village aujourd'hui appelé Domrémy-la-Pucelle.",
+            "answers": {
+              "bussang": "Bussang",
+              "charmes": "Charmes",
+              "vaucouleurs": "Vaucouleurs"
+            }
+          },
+          "stanislas-qui": {
+            "prompt": "Quel pays Stanislas Leszczynski a-t-il gouverné avant la Lorraine ?",
+            "hint": "Sa capitale est aujourd'hui Varsovie.",
+            "anecdote": "Roi de Pologne déchu et beau-père de Louis XV, Stanislas a reçu le duché de Lorraine en 1737.",
+            "answers": {
+              "la-pologne": "La Pologne",
+              "l-autriche": "L'Autriche",
+              "la-russie": "La Russie",
+              "la-suede": "La Suède"
+            }
+          },
+          "rattachement-1766": {
+            "prompt": "En quelle année le duché de Lorraine a-t-il été rattaché à la France ?",
+            "hint": "C'est l'année de la mort de Stanislas.",
+            "anecdote": "À la mort de Stanislas à Lunéville, en 1766, les duchés de Lorraine et de Bar sont passés à la France, comme le prévoyaient les accords conclus à la fin des années 1730. Metz, Toul et Verdun, les Trois-Évêchés, étaient déjà français depuis le siècle précédent.",
+            "answers": {
+              "1648": "1648",
+              "1766": "1766",
+              "1789": "1789",
+              "1871": "1871"
+            }
+          },
+          "bataille-nancy": {
+            "prompt": "Quel duc de Bourgogne a été tué en 1477 devant Nancy ?",
+            "hint": "Son surnom évoque l'audace, voire l'imprudence.",
+            "anecdote": "Charles le Téméraire est mort à la bataille de Nancy, le 5 janvier 1477, face aux troupes du duc René II.",
+            "answers": {
+              "charles-le-temeraire": "Charles le Téméraire",
+              "francois-ier": "François Ier",
+              "jean-sans-peur": "Jean sans Peur",
+              "philippe-le-bon": "Philippe le Bon"
+            }
+          },
+          "croix-lorraine": {
+            "prompt": "Quel mouvement a choisi la croix de Lorraine comme emblème pendant la Seconde Guerre mondiale ?",
+            "hint": "Il était conduit depuis Londres par le général de Gaulle.",
+            "anecdote": "La France libre a adopté en 1940 la croix à double traverse, symbole de résistance rattaché à l'histoire lorraine.",
+            "answers": {
+              "la-france-libre": "La France libre",
+              "la-croix-rouge": "La Croix-Rouge",
+              "la-legion-etrangere": "La Légion étrangère",
+              "la-sncf": "La SNCF"
+            }
+          },
+          "annexion-1871": {
+            "prompt": "Quel département actuel correspond à la partie lorraine du territoire annexé par l'Allemagne en 1871 ?",
+            "hint": "Sa préfecture a été sous administration allemande de 1871 à 1918.",
+            "anecdote": "De 1871 à 1918, le territoire de l'actuelle Moselle a été rattaché à l'Empire allemand. Metz y a gardé une forte empreinte architecturale.",
+            "answers": {
+              "la-moselle": "La Moselle",
+              "la-meurthe-et-moselle": "La Meurthe-et-Moselle",
+              "la-meuse": "La Meuse",
+              "les-vosges": "Les Vosges"
+            }
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Cristal, émaux et lutherie, saint Nicolas et le Graoully, grandes figures et champions lorrains.",
+          "photo-lustre": {
+            "prompt": "Quelle cristallerie lorraine a réalisé ce lustre, photographié au Japon ?",
+            "hint": "Elle porte le nom d'une ville de Meurthe-et-Moselle.",
+            "anecdote": "Ce lustre est signé Baccarat. La manufacture, restée en Lorraine, exporte son cristal dans le monde entier.",
+            "answers": {
+              "daum": "Daum",
+              "lalique": "Lalique",
+              "saint-louis": "Saint-Louis"
+            }
+          },
+          "baccarat-fondation": {
+            "prompt": "Au XVIIIe siècle, en quelle année Louis XV autorise-t-il la création d'une verrerie à Baccarat ?",
+            "hint": "Quelques années avant le rattachement du duché à la France.",
+            "anecdote": "La verrerie de Baccarat a été autorisée en 1764. Le cristal n'y a été produit qu'à partir du XIXe siècle.",
+            "answers": {
+              "1664": "1664",
+              "1764": "1764",
+              "1864": "1864",
+              "1914": "1914"
+            }
+          },
+          "baccarat-eveque": {
+            "prompt": "Quel prélat a demandé à Louis XV de fonder une verrerie à Baccarat ?",
+            "hint": "La ville dépendait alors de ses terres, dans un évêché voisin.",
+            "anecdote": "Monseigneur de Montmorency-Laval, évêque de Metz, voulait ainsi mettre en valeur le bois de ses forêts.",
+            "answers": {
+              "l-eveque-de-metz": "L'évêque de Metz",
+              "l-archeveque-de-reims": "L'archevêque de Reims",
+              "l-eveque-de-strasbourg": "L'évêque de Strasbourg",
+              "le-pape-clement-xiii": "Le pape Clément XIII"
+            }
+          },
+          "saint-louis": {
+            "prompt": "Quelle cristallerie du pays de Bitche fait remonter ses origines à 1586 ?",
+            "hint": "Elle porte le nom d'un roi de France canonisé.",
+            "anecdote": "La cristallerie Saint-Louis, à Saint-Louis-lès-Bitche, a reçu ce nom en 1767 et se dit la plus ancienne de France.",
+            "answers": {
+              "saint-louis": "Saint-Louis",
+              "daum": "Daum",
+              "meisenthal": "Meisenthal"
+            }
+          },
+          "meisenthal": {
+            "prompt": "Quel ornement de Noël en verre soufflé fait la renommée de Meisenthal ?",
+            "hint": "On l'accroche aux branches du sapin.",
+            "anecdote": "Selon la légende, après la sécheresse de 1858, un souffleur de verre de Goetzenbruck, village voisin de Meisenthal, a créé des boules pour remplacer les fruits manquants sur les sapins. Depuis la fin des années 1990, le Centre international d'art verrier de Meisenthal perpétue ce savoir-faire.",
+            "answers": {
+              "la-boule-de-noel": "La boule de Noël",
+              "la-bougie-torsadee": "La bougie torsadée",
+              "la-couronne-de-l-avent": "La couronne de l'Avent",
+              "l-etoile-de-bethleem": "L'étoile de Bethléem"
+            }
+          },
+          "photo-daum": {
+            "prompt": "Quelle maison de verrerie d'art, installée à Nancy, a signé ce vase ?",
+            "hint": "Le nom de la maison est celui de son fondateur.",
+            "anecdote": "La maison Daum, née à Nancy à la fin du XIXe siècle, a pris part au mouvement de l'École de Nancy.",
+            "answers": {
+              "daum": "Daum",
+              "lalique": "Lalique",
+              "saint-louis": "Saint-Louis"
+            }
+          },
+          "photo-galle": {
+            "prompt": "Quel maître verrier de Nancy a créé ce vase aux motifs végétaux ?",
+            "hint": "Il a présidé l'École de Nancy dès sa fondation.",
+            "anecdote": "Émile Gallé a renouvelé l'art du verre en s'inspirant des plantes et des insectes.",
+            "answers": {
+              "emile-galle": "Émile Gallé",
+              "antonin-daum": "Antonin Daum",
+              "jacques-gruber": "Jacques Gruber",
+              "rene-lalique": "René Lalique"
+            }
+          },
+          "galle-devise": {
+            "prompt": "Quelle devise ornait la porte des ateliers d'Émile Gallé ?",
+            "hint": "Elle évoque la nature, source de son inspiration.",
+            "anecdote": "« Ma racine est au fond des bois » résume le lien de Gallé avec le monde végétal.",
+            "answers": {
+              "ma-racine-est-au-fond-des-bois": "Ma racine est au fond des bois",
+              "l-art-est-une-longue-patience": "L'art est une longue patience",
+              "le-feu-donne-la-forme": "Le feu donne la forme",
+              "rien-sans-la-lumiere": "Rien sans la lumière"
+            }
+          },
+          "majorelle-metier": {
+            "prompt": "Quel métier a fait la réputation de Louis Majorelle ?",
+            "hint": "Il travaillait le bois et dessinait des meubles.",
+            "anecdote": "Né à Toul, Louis Majorelle est l'un des grands ébénistes de l'Art nouveau. Ses meubles ornés de motifs végétaux sont très recherchés.",
+            "answers": {
+              "ebeniste": "Ébéniste",
+              "horloger": "Horloger",
+              "luthier": "Luthier",
+              "orfevre": "Orfèvre"
+            }
+          },
+          "photo-longwy": {
+            "prompt": "Quelle ville de Meurthe-et-Moselle est célèbre pour ces émaux aux couleurs vives ?",
+            "hint": "Elle se trouve tout au nord du département, près de la frontière.",
+            "anecdote": "Les émaux de Longwy sont fabriqués depuis le XIXe siècle. Leur décor est souvent cerné de traits en relief."
+          },
+          "photo-sarreguemines": {
+            "prompt": "Quelle ville de Moselle a donné son nom à cette faïence ?",
+            "hint": "Elle se trouve sur la Sarre, à la frontière allemande.",
+            "anecdote": "La faïencerie de Sarreguemines, née à la fin du XVIIIe siècle, a compté parmi les plus importantes d'Europe.",
+            "answers": {
+              "forbach": "Forbach",
+              "saint-avold": "Saint-Avold"
+            }
+          },
+          "luneville-broderie": {
+            "prompt": "Quelle technique textile a fait connaître le point de Lunéville ?",
+            "hint": "Elle se pratique avec un crochet très fin et des perles.",
+            "anecdote": "La broderie de Lunéville, faite au crochet par l'envers du tissu, orne encore des tenues de haute couture.",
+            "answers": {
+              "la-broderie-au-crochet": "La broderie au crochet",
+              "la-dentelle-aux-fuseaux": "La dentelle aux fuseaux",
+              "la-tapisserie-de-haute-lisse": "La tapisserie de haute lisse",
+              "le-tissage-de-la-soie": "Le tissage de la soie"
+            }
+          },
+          "mirecourt": {
+            "prompt": "Quelle ville des Vosges est considérée comme la capitale française de la lutherie ?",
+            "hint": "Elle abrite un musée consacré aux violons.",
+            "anecdote": "Mirecourt fabrique des instruments à cordes depuis le XVIIe siècle et conserve une école et un musée de la lutherie.",
+            "answers": {
+              "bussang": "Bussang",
+              "neufchateau": "Neufchâteau",
+              "rambervillers": "Rambervillers"
+            }
+          },
+          "vuillaume": {
+            "prompt": "Quel grand luthier du XIXe siècle est né à Mirecourt ?",
+            "hint": "Il s'est installé à Paris et a travaillé sur des violons de Stradivarius.",
+            "anecdote": "Jean-Baptiste Vuillaume, né à Mirecourt en 1798, a fait carrière à Paris où il est devenu l'un des luthiers les plus renommés d'Europe.",
+            "answers": {
+              "jean-baptiste-vuillaume": "Jean-Baptiste Vuillaume",
+              "antonio-stradivari": "Antonio Stradivari",
+              "giuseppe-guarneri": "Giuseppe Guarneri",
+              "niccolo-amati": "Niccolò Amati"
+            }
+          },
+          "pellerin": {
+            "prompt": "Quelle famille a fondé la célèbre imagerie d'Épinal, à la fin du XVIIIe siècle ?",
+            "hint": "Jean-Charles en est le fondateur.",
+            "anecdote": "Jean-Charles Pellerin, fondateur de l'imagerie en 1796, a diffusé des images populaires dans toute la France.",
+            "answers": {
+              "la-famille-pellerin": "La famille Pellerin",
+              "la-famille-daum": "La famille Daum",
+              "la-famille-de-wendel": "La famille de Wendel",
+              "la-famille-galle": "La famille Gallé"
+            }
+          },
+          "schlitte": {
+            "prompt": "À quoi servait la schlitte dans les forêts des Vosges ?",
+            "hint": "Ce traîneau glissait sur des rondins de bois.",
+            "anecdote": "Le schlitteur retenait de tout son poids ce traîneau chargé de bois, sur des chemins pentus aménagés de traverses.",
+            "answers": {
+              "descendre-le-bois-des-montagnes": "Descendre le bois des montagnes",
+              "battre-le-ble": "Battre le blé",
+              "porter-le-lait-aux-villages": "Porter le lait aux villages",
+              "tailler-le-granit": "Tailler le granit"
+            }
+          },
+          "marcaire": {
+            "prompt": "Dans le massif des Vosges, qu'est-ce qu'un marcaire ?",
+            "hint": "Son nom désigne un métier lié aux chaumes et aux vaches.",
+            "anecdote": "Le marcaire est un fermier d'estive qui fabrique du fromage. Le repas marcaire perpétue cette tradition en ferme-auberge.",
+            "answers": {
+              "un-fermier-fromager-d-estive": "Un fermier fromager d'estive",
+              "un-guide-de-haute-montagne": "Un guide de haute montagne",
+              "un-marchand-de-sapins": "Un marchand de sapins",
+              "un-tailleur-de-pierre": "Un tailleur de pierre"
+            }
+          },
+          "linge-gerardmer": {
+            "prompt": "Quelle production textile fait la réputation de la région de Gérardmer ?",
+            "hint": "On le trouve sur les tables et dans les cuisines.",
+            "anecdote": "Le linge de maison reste une spécialité des Vosges, où l'industrie textile a longtemps été très présente.",
+            "answers": {
+              "le-linge-de-maison": "Le linge de maison",
+              "la-soie": "La soie",
+              "le-denim": "Le denim",
+              "la-fourrure": "La fourrure"
+            }
+          },
+          "carte-mirecourt": {
+            "prompt": "Touchez le département de Mirecourt, ville des luthiers.",
+            "hint": "Il porte le nom du massif de l'est de la Lorraine.",
+            "anecdote": "Mirecourt se trouve dans les Vosges, à l'ouest d'Épinal."
+          },
+          "carte-baccarat": {
+            "prompt": "Touchez le département de Baccarat, ville du cristal.",
+            "hint": "Son nom réunit deux rivières.",
+            "anecdote": "Baccarat se trouve en Meurthe-et-Moselle, au bord de la Meurthe, au sud-est de Lunéville."
+          },
+          "saint-nicolas-date": {
+            "prompt": "À quelle date fête-t-on saint Nicolas, patron de la Lorraine ?",
+            "hint": "C'est au mois de décembre.",
+            "anecdote": "Saint Nicolas se fête le 6 décembre. Défilés et chars le célèbrent ce week-end-là ou le plus proche, notamment à Nancy et à Metz.",
+            "answers": {
+              "le-6-decembre": "Le 6 décembre",
+              "le-1er-novembre": "Le 1er novembre",
+              "le-25-decembre": "Le 25 décembre",
+              "le-6-janvier": "Le 6 janvier"
+            }
+          },
+          "pere-fouettard": {
+            "prompt": "Quel inquiétant personnage accompagne saint Nicolas dans ses tournées ?",
+            "hint": "Il est réputé punir les enfants désobéissants.",
+            "anecdote": "Le Père Fouettard, tout de noir vêtu, accompagne le saint pendant que celui-ci récompense les enfants sages.",
+            "answers": {
+              "le-pere-fouettard": "Le Père Fouettard",
+              "le-graoully": "Le Graoully",
+              "le-grand-saint-eloi": "Le Grand Saint-Éloi",
+              "le-croquemitaine-des-vosges": "Le Croquemitaine des Vosges"
+            }
+          },
+          "trois-enfants": {
+            "prompt": "Selon la légende, combien d'enfants saint Nicolas a-t-il ressuscités ?",
+            "hint": "Un boucher les avait mis au saloir.",
+            "anecdote": "La légende raconte que le saint ramena à la vie trois enfants égarés, tués par un boucher.",
+            "answers": {
+              "trois": "Trois",
+              "deux": "Deux",
+              "cinq": "Cinq",
+              "sept": "Sept"
+            }
+          },
+          "photo-graoully": {
+            "prompt": "Quel dragon légendaire de Metz reconnaissez-vous ici ?",
+            "hint": "Son nom commence par « Gra ».",
+            "anecdote": "Le Graoully terrorisait la ville selon la légende, jusqu'à ce que saint Clément le chasse.",
+            "answers": {
+              "le-graoully": "Le Graoully",
+              "la-tarasque": "La Tarasque",
+              "la-vouivre": "La Vouivre",
+              "le-lindwurm": "Le Lindwurm"
+            }
+          },
+          "graoully-saint": {
+            "prompt": "Quel saint, premier évêque de Metz, aurait chassé le Graoully ?",
+            "hint": "Son prénom signifie « doux ».",
+            "anecdote": "Saint Clément, considéré comme le premier évêque de Metz, aurait mené le dragon jusqu'à la Seille pour l'y noyer.",
+            "answers": {
+              "saint-clement": "Saint Clément",
+              "saint-arnoul": "Saint Arnoul",
+              "saint-epvre": "Saint Epvre",
+              "saint-livier": "Saint Livier"
+            }
+          },
+          "jonquilles": {
+            "prompt": "Quelle fleur est célébrée par un grand défilé de chars à Gérardmer ?",
+            "hint": "Elle est jaune et fleurit au printemps.",
+            "anecdote": "La fête des Jonquilles de Gérardmer a lieu en principe tous les deux ans, au mois d'avril.",
+            "answers": {
+              "la-jonquille": "La jonquille",
+              "la-pivoine": "La pivoine",
+              "la-rose": "La rose",
+              "la-tulipe": "La tulipe"
+            }
+          },
+          "gerardmer-fantastique": {
+            "prompt": "Quel genre de cinéma est à l'honneur dans le festival de Gérardmer, chaque année en hiver ?",
+            "hint": "Il joue avec le surnaturel et l'étrange.",
+            "anecdote": "Depuis 1994, Gérardmer accueille un festival international consacré au film fantastique.",
+            "answers": {
+              "le-film-fantastique": "Le film fantastique",
+              "le-dessin-anime": "Le dessin animé",
+              "le-documentaire-animalier": "Le documentaire animalier",
+              "le-western": "Le western"
+            }
+          },
+          "jazz-pulsations": {
+            "prompt": "Quel festival musical anime Nancy chaque automne depuis 1973 ?",
+            "hint": "Son nom contient un genre musical né aux États-Unis.",
+            "anecdote": "Nancy Jazz Pulsations mêle aujourd'hui le jazz à de nombreux autres styles musicaux.",
+            "answers": {
+              "nancy-jazz-pulsations": "Nancy Jazz Pulsations",
+              "les-eurockeennes": "Les Eurockéennes",
+              "les-francofolies": "Les Francofolies",
+              "les-vieilles-charrues": "Les Vieilles Charrues"
+            }
+          },
+          "bussang": {
+            "prompt": "Quel théâtre fondé à Bussang en 1895 par Maurice Pottecher joue encore aujourd'hui ?",
+            "hint": "Le fond de sa scène peut s'ouvrir sur la forêt.",
+            "anecdote": "Le Théâtre du Peuple a été pensé pour réunir tous les publics, amateurs et professionnels.",
+            "answers": {
+              "le-theatre-du-peuple": "Le Théâtre du Peuple",
+              "le-theatre-des-bouffes": "Le Théâtre des Bouffes",
+              "le-theatre-du-soleil": "Le Théâtre du Soleil",
+              "la-comedie-francaise": "La Comédie-Française"
+            }
+          },
+          "fig-saint-die": {
+            "prompt": "Quelle ville vosgienne accueille chaque année le Festival international de géographie ?",
+            "hint": "Le nom de cette ville est celui d'un saint.",
+            "anecdote": "Créé en 1990, ce festival rappelle le rôle de Saint-Dié-des-Vosges dans l'histoire de la cartographie.",
+            "answers": {
+              "remiremont": "Remiremont"
+            }
+          },
+          "chanson-sabots": {
+            "prompt": "Dans la chanson traditionnelle « En passant par la Lorraine », quelles chaussures sont citées ?",
+            "hint": "Elles sont taillées dans le bois.",
+            "anecdote": "Les sabots du refrain rappellent une chaussure longtemps portée dans les campagnes lorraines.",
+            "answers": {
+              "des-sabots": "Des sabots",
+              "des-bottes": "Des bottes",
+              "des-escarpins": "Des escarpins",
+              "des-mocassins": "Des mocassins"
+            }
+          },
+          "la-tour": {
+            "prompt": "Quel peintre lorrain du XVIIe siècle est célèbre pour ses scènes éclairées à la bougie ?",
+            "hint": "Il est né à Vic-sur-Seille et a vécu à Lunéville.",
+            "anecdote": "Oublié après sa mort, Georges de La Tour a été redécouvert au début du XXe siècle. Il est aujourd'hui célèbre pour ses scènes nocturnes aux forts contrastes de lumière.",
+            "answers": {
+              "georges-de-la-tour": "Georges de La Tour",
+              "eugene-delacroix": "Eugène Delacroix",
+              "jean-honore-fragonard": "Jean-Honoré Fragonard",
+              "nicolas-poussin": "Nicolas Poussin"
+            }
+          },
+          "verlaine": {
+            "prompt": "Quel poète français est né à Metz en 1844 ?",
+            "hint": "On lui doit les « Poèmes saturniens ».",
+            "anecdote": "Paul Verlaine est né à Metz, où son père était alors en garnison.",
+            "answers": {
+              "paul-verlaine": "Paul Verlaine",
+              "charles-baudelaire": "Charles Baudelaire",
+              "arthur-rimbaud": "Arthur Rimbaud",
+              "victor-hugo": "Victor Hugo"
+            }
+          },
+          "schuman": {
+            "prompt": "Quel homme politique, considéré comme l'un des pères de l'Europe, a vécu à Scy-Chazelles ?",
+            "hint": "Il a prononcé une célèbre déclaration en mai 1950.",
+            "anecdote": "Robert Schuman, député de la Moselle, a vécu à Scy-Chazelles, où sa maison se visite.",
+            "answers": {
+              "robert-schuman": "Robert Schuman",
+              "jean-monnet": "Jean Monnet",
+              "aristide-briand": "Aristide Briand",
+              "charles-de-gaulle": "Charles de Gaulle"
+            }
+          },
+          "raymond-poincare": {
+            "prompt": "Quelle fonction Raymond Poincaré, né à Bar-le-Duc, a-t-il occupée pendant la Grande Guerre ?",
+            "hint": "C'était la plus haute fonction de l'État.",
+            "anecdote": "Raymond Poincaré a été président de la République de 1913 à 1920.",
+            "answers": {
+              "president-de-la-republique": "Président de la République",
+              "chef-d-etat-major": "Chef d'état-major",
+              "maire-de-paris": "Maire de Paris",
+              "ministre-de-la-marine": "Ministre de la Marine"
+            }
+          },
+          "henri-poincare": {
+            "prompt": "Dans quel domaine Henri Poincaré, né à Nancy en 1854, s'est-il illustré ?",
+            "hint": "Une université de Nancy a porté son nom.",
+            "anecdote": "Mathématicien et physicien de premier plan, Henri Poincaré était aussi le cousin de Raymond Poincaré.",
+            "answers": {
+              "les-mathematiques": "Les mathématiques",
+              "la-medecine": "La médecine",
+              "la-musique": "La musique",
+              "la-peinture": "La peinture"
+            }
+          },
+          "michaux": {
+            "prompt": "À quelle invention le Barisien Pierre Michaux reste-t-il associé ?",
+            "hint": "On lui attribue, avec son fils Ernest, l'ajout de pédales à la roue avant, une paternité discutée.",
+            "anecdote": "Pierre Michaux, né à Bar-le-Duc en 1813, a été le premier fabricant connu de vélocipèdes à pédales en série. La paternité de l'invention reste débattue.",
+            "answers": {
+              "le-velocipede-a-pedales": "Le vélocipède à pédales",
+              "la-machine-a-coudre": "La machine à coudre",
+              "la-montgolfiere": "La montgolfière",
+              "le-moteur-a-vapeur": "Le moteur à vapeur"
+            }
+          },
+          "platini": {
+            "prompt": "Quel footballeur, né à Jœuf en 1955, a remporté trois Ballons d'or ?",
+            "hint": "Il a débuté à l'AS Nancy-Lorraine avant de jouer à Saint-Étienne et à la Juventus.",
+            "anecdote": "Michel Platini a remporté le Ballon d'or en 1983, 1984 et 1985.",
+            "answers": {
+              "michel-platini": "Michel Platini",
+              "just-fontaine": "Just Fontaine",
+              "raymond-kopa": "Raymond Kopa",
+              "zinedine-zidane": "Zinédine Zidane"
+            }
+          },
+          "stade-marcel-picot": {
+            "prompt": "Quel club de football joue au stade Marcel-Picot, à Tomblaine ?",
+            "hint": "Il est connu sous l'abréviation ASNL.",
+            "anecdote": "L'AS Nancy-Lorraine joue dans ce stade situé à Tomblaine, dans l'agglomération de Nancy.",
+            "answers": {
+              "l-as-nancy-lorraine": "L'AS Nancy-Lorraine",
+              "le-fc-metz": "Le FC Metz",
+              "l-es-thaon": "L'ES Thaon",
+              "le-sas-epinal": "Le SAS Épinal"
+            }
+          },
+          "absalon": {
+            "prompt": "Dans quelle discipline Julien Absalon, né à Remiremont, a-t-il été deux fois champion olympique ?",
+            "hint": "Elle se pratique à vélo, sur des chemins de montagne.",
+            "anecdote": "Julien Absalon a remporté l'or olympique en VTT cross-country à Athènes en 2004 et à Pékin en 2008.",
+            "answers": {
+              "le-vtt": "Le VTT",
+              "le-biathlon": "Le biathlon",
+              "le-bmx": "Le BMX",
+              "le-cyclisme-sur-piste": "Le cyclisme sur piste"
+            }
+          }
+        },
+        "grand-voyage": {
+          "name": "Grand voyage lorrain",
+          "description": "Des dates, des noms et des détails réservés aux connaisseurs de la Lorraine.",
+          "traite-843": {
+            "prompt": "Quel partage a été décidé à Verdun en 843 ?",
+            "hint": "Il concerne les petits-fils de Charlemagne.",
+            "anecdote": "Le traité de Verdun a divisé l'Empire carolingien entre Charles le Chauve, Lothaire et Louis le Germanique.",
+            "answers": {
+              "le-partage-de-l-empire-carolingien": "Le partage de l'Empire carolingien",
+              "le-partage-de-la-pologne": "Le partage de la Pologne",
+              "le-partage-de-la-bourgogne": "Le partage de la Bourgogne",
+              "le-partage-de-l-empire-romain": "Le partage de l'Empire romain"
+            }
+          },
+          "lotharingie": {
+            "prompt": "De quel souverain le nom de « Lorraine » tire-t-il son origine ?",
+            "hint": "Il a régné au IXe siècle sur un royaume appelé plus tard Lotharingie.",
+            "anecdote": "Le nom vient du « royaume de Lothaire » (Lotharii regnum), celui de Lothaire II, devenu la Lotharingie, puis la Lorraine.",
+            "answers": {
+              "lothaire-ii": "Lothaire II",
+              "charlemagne": "Charlemagne",
+              "clovis": "Clovis",
+              "louis-le-germanique": "Louis le Germanique"
+            }
+          },
+          "trois-eveches-roi": {
+            "prompt": "Quel roi de France a pris le contrôle des Trois-Évêchés en 1552 ?",
+            "hint": "Il était le fils de François Ier.",
+            "anecdote": "Henri II a occupé Metz, Toul et Verdun en 1552. Le traité de Westphalie a confirmé leur appartenance à la France en 1648.",
+            "answers": {
+              "henri-ii": "Henri II",
+              "francois-ii": "François II",
+              "henri-iv": "Henri IV",
+              "louis-xiii": "Louis XIII"
+            }
+          },
+          "trois-eveches-villes": {
+            "prompt": "Quelles villes formaient les Trois-Évêchés ?",
+            "hint": "Ces trois cités étaient distinctes du duché de Lorraine.",
+            "anecdote": "Metz, Toul et Verdun formaient un ensemble distinct du duché : la Lorraine actuelle réunit donc plusieurs histoires.",
+            "answers": {
+              "metz-toul-et-verdun": "Metz, Toul et Verdun",
+              "bar-le-duc-epinal-et-nancy": "Bar-le-Duc, Épinal et Nancy",
+              "luneville-nancy-et-toul": "Lunéville, Nancy et Toul",
+              "metz-nancy-et-thionville": "Metz, Nancy et Thionville"
+            }
+          },
+          "francois-toscane": {
+            "prompt": "Quel territoire le duc François III a-t-il reçu en échange de la Lorraine, au XVIIIe siècle ?",
+            "hint": "Sa capitale est Florence.",
+            "anecdote": "François III a cédé la Lorraine contre la Toscane. Il a épousé Marie-Thérèse d'Autriche et est devenu empereur.",
+            "answers": {
+              "la-toscane": "La Toscane",
+              "la-baviere": "La Bavière",
+              "la-boheme": "La Bohême",
+              "la-savoie": "La Savoie"
+            }
+          },
+          "traite-francfort": {
+            "prompt": "Quel traité a cédé à l'Allemagne une partie de la Lorraine, en 1871 ?",
+            "hint": "Il porte le nom d'une ville allemande sur le Main.",
+            "anecdote": "Le traité de Francfort a mis fin à la guerre franco-allemande de 1870-1871 et annexé l'Alsace et une partie de la Lorraine.",
+            "answers": {
+              "le-traite-de-francfort": "Le traité de Francfort",
+              "le-traite-de-berlin": "Le traité de Berlin",
+              "le-traite-de-vienne": "Le traité de Vienne",
+              "le-traite-de-westphalie": "Le traité de Westphalie"
+            }
+          },
+          "creation-54": {
+            "prompt": "À quelle occasion a été créé le département de Meurthe-et-Moselle ?",
+            "hint": "Il réunit ce qui restait de deux anciens départements.",
+            "anecdote": "En 1871, les parties restées françaises de la Meurthe et de la Moselle ont été réunies pour former ce nouveau département.",
+            "answers": {
+              "apres-l-annexion-de-1871": "Après l'annexion de 1871",
+              "a-la-revolution-de-1789": "À la Révolution de 1789",
+              "a-la-creation-du-grand-est": "À la création du Grand Est",
+              "apres-la-guerre-de-1940": "Après la guerre de 1940"
+            }
+          },
+          "malgre-nous": {
+            "prompt": "Qui a-t-on appelé les « Malgré-nous » ?",
+            "hint": "Ils ont été incorporés de force pendant la Seconde Guerre mondiale.",
+            "anecdote": "Mosellans et Alsaciens incorporés de force dans l'armée allemande ont reçu ce nom, après l'annexion de fait de 1940.",
+            "answers": {
+              "des-incorpores-de-force-dans-l-armee-allemande": "Des incorporés de force dans l'armée allemande",
+              "des-prisonniers-evades-des-camps": "Des prisonniers évadés des camps",
+              "des-habitants-evacues-vers-le-sud": "Des habitants évacués vers le sud",
+              "des-soldats-francais-demobilises": "Des soldats français démobilisés"
+            }
+          },
+          "droit-local": {
+            "prompt": "Quel département lorrain applique encore un droit local hérité de son histoire ?",
+            "hint": "Il a été allemand de 1871 à 1918.",
+            "anecdote": "Le droit local d'Alsace-Moselle maintient par exemple le concordat et certains jours fériés supplémentaires.",
+            "answers": {
+              "la-moselle": "La Moselle",
+              "la-meurthe-et-moselle": "La Meurthe-et-Moselle",
+              "la-meuse": "La Meuse",
+              "les-vosges": "Les Vosges"
+            }
+          },
+          "verdun-debut": {
+            "prompt": "Quel jour a débuté la bataille de Verdun ?",
+            "hint": "C'était en hiver 1916.",
+            "anecdote": "L'offensive allemande a commencé le 21 février 1916. La bataille a duré près de dix mois.",
+            "answers": {
+              "le-21-fevrier-1916": "Le 21 février 1916",
+              "le-1er-juillet-1916": "Le 1er juillet 1916",
+              "le-2-aout-1914": "Le 2 août 1914",
+              "le-11-novembre-1918": "Le 11 novembre 1918"
+            }
+          },
+          "villages-detruits": {
+            "prompt": "Combien de villages du champ de bataille de Verdun ont été détruits en 1916 et déclarés « morts pour la France » ?",
+            "hint": "Moins d'une dizaine.",
+            "anecdote": "Neuf villages ont été détruits et déclarés « morts pour la France ». Six n'ont jamais été reconstruits et sont administrés par un maire nommé par le préfet. Vaux-devant-Damloup a été rebâti, Douaumont et Ornes en partie.",
+            "answers": {
+              "neuf": "Neuf",
+              "trois": "Trois",
+              "vingt": "Vingt",
+              "cinquante": "Cinquante"
+            }
+          },
+          "auguste-thin": {
+            "prompt": "Quel soldat a désigné le cercueil du Soldat inconnu en novembre 1920 ?",
+            "hint": "Il a additionné les chiffres de son régiment pour faire son choix.",
+            "anecdote": "Auguste Thin a choisi le sixième cercueil, en additionnant les chiffres de son unité, le 132e régiment.",
+            "answers": {
+              "auguste-thin": "Auguste Thin",
+              "andre-maginot": "André Maginot",
+              "philippe-petain": "Philippe Pétain",
+              "maurice-genevoix": "Maurice Genevoix"
+            }
+          },
+          "vaucouleurs": {
+            "prompt": "De quelle ville de la Meuse Jeanne d'Arc est-elle partie vers le dauphin, en 1429 ?",
+            "hint": "Robert de Baudricourt y commandait.",
+            "anecdote": "Jeanne d'Arc a quitté Vaucouleurs en février 1429 pour rejoindre le futur Charles VII à Chinon.",
+            "answers": {
+              "vaucouleurs": "Vaucouleurs",
+              "stenay": "Stenay"
+            }
+          },
+          "plombieres-1858": {
+            "prompt": "Avec qui Napoléon III a-t-il eu une entrevue secrète à Plombières, en 1858 ?",
+            "hint": "Il était un homme d'État italien.",
+            "anecdote": "L'entrevue de Plombières entre Napoléon III et Cavour a préparé l'alliance franco-sarde contre l'Autriche.",
+            "answers": {
+              "cavour": "Cavour",
+              "bismarck": "Bismarck",
+              "metternich": "Metternich",
+              "wellington": "Wellington"
+            }
+          },
+          "saint-die-america": {
+            "prompt": "Quel nom a été imprimé pour la première fois à Saint-Dié, en 1507 ?",
+            "hint": "Il rend hommage à un navigateur florentin.",
+            "anecdote": "La « Cosmographiae Introductio » et la carte de Waldseemüller ont donné le nom « America » au Nouveau Monde.",
+            "answers": {
+              "america": "America",
+              "australia": "Australia",
+              "europa": "Europa",
+              "oceania": "Oceania"
+            }
+          },
+          "ligne-bleue": {
+            "prompt": "À quel homme politique né à Saint-Dié associe-t-on l'expression « la ligne bleue des Vosges » ?",
+            "hint": "Il a aussi rendu l'école gratuite et obligatoire.",
+            "anecdote": "Jules Ferry a évoqué cette ligne d'horizon, symbole de la frontière de 1871, dans son testament.",
+            "answers": {
+              "jules-ferry": "Jules Ferry",
+              "leon-gambetta": "Léon Gambetta",
+              "georges-clemenceau": "Georges Clemenceau",
+              "adolphe-thiers": "Adolphe Thiers"
+            }
+          },
+          "source-meuse": {
+            "prompt": "Dans quel département se trouve la source de la Meuse ?",
+            "hint": "Ce n'est pas la Meuse elle-même, mais un département voisin.",
+            "anecdote": "La Meuse naît à Pouilly-en-Bassigny, village du Châtelet-sur-Meuse, en Haute-Marne, avant de traverser la Lorraine, la Belgique et les Pays-Bas.",
+            "answers": {
+              "la-haute-marne": "La Haute-Marne",
+              "la-meuse": "La Meuse",
+              "la-meurthe-et-moselle": "La Meurthe-et-Moselle",
+              "les-vosges": "Les Vosges"
+            }
+          },
+          "schlucht": {
+            "prompt": "Quel col relie Gérardmer à Munster à 1 139 mètres d'altitude ?",
+            "hint": "Son nom signifie « gorge » en allemand.",
+            "anecdote": "Le col de la Schlucht marquait la frontière entre la France et l'Allemagne de 1871 à 1918.",
+            "answers": {
+              "le-col-de-la-schlucht": "Le col de la Schlucht",
+              "le-col-de-bussang": "Le col de Bussang",
+              "le-col-du-bonhomme": "Le col du Bonhomme",
+              "le-col-du-donon": "Le col du Donon"
+            }
+          },
+          "photo-longemer": {
+            "prompt": "Quel lac glaciaire vosgien, voisin de Gérardmer, voyez-vous ici ?",
+            "hint": "Son nom suggère une grande longueur.",
+            "anecdote": "Le lac de Longemer s'étire sur près de deux kilomètres, dans la vallée de la Vologne.",
+            "answers": {
+              "le-lac-de-longemer": "Le lac de Longemer",
+              "le-lac-de-madine": "Le lac de Madine",
+              "le-lac-de-pierre-percee": "Le lac de Pierre-Percée",
+              "le-lac-de-retournemer": "Le lac de Retournemer"
+            }
+          },
+          "carte-domremy": {
+            "prompt": "Touchez le département de Domrémy-la-Pucelle.",
+            "hint": "Domrémy se trouve dans la pointe ouest d'un département montagneux.",
+            "anecdote": "Domrémy-la-Pucelle est une commune des Vosges, toute proche de la limite avec la Meuse."
+          },
+          "carte-saint-mihiel": {
+            "prompt": "Touchez le département de Saint-Mihiel.",
+            "hint": "Saint-Mihiel se trouve au bord du fleuve qui donne son nom au département.",
+            "anecdote": "Saint-Mihiel se situe dans la Meuse, au nord de Commercy."
+          },
+          "carte-longwy": {
+            "prompt": "Touchez le département de Longwy.",
+            "hint": "Ce département en forme de longue bande remonte jusqu'à la Belgique.",
+            "anecdote": "Longwy se trouve à l'extrême nord de la Meurthe-et-Moselle, département à la forme très étirée."
+          },
+          "carte-bitche": {
+            "prompt": "Touchez le département de Bitche.",
+            "hint": "Son nom est celui d'une rivière, affluent du Rhin.",
+            "anecdote": "Bitche se trouve dans l'est de la Moselle, près de l'Alsace et de l'Allemagne."
+          },
+          "photo-musee-ecole": {
+            "prompt": "Quel musée de Nancy occupe cette maison du mécène Eugène Corbin ?",
+            "hint": "Il rassemble l'Art nouveau nancéien.",
+            "anecdote": "Le musée de l'École de Nancy présente mobilier, verrerie et décors dans l'ancienne propriété d'Eugène Corbin.",
+            "answers": {
+              "le-musee-de-l-ecole-de-nancy": "Le musée de l'École de Nancy",
+              "le-musee-des-beaux-arts": "Le musée des Beaux-Arts",
+              "le-musee-lorrain": "Le musée lorrain",
+              "le-palais-des-ducs": "Le Palais des ducs"
+            }
+          },
+          "gare-kroger": {
+            "prompt": "Dans quel contexte a été bâtie la gare de Metz, inaugurée en 1908 ?",
+            "hint": "Metz n'était alors pas française.",
+            "anecdote": "La gare a été bâtie pendant l'annexion allemande, selon les plans de Jürgen Kröger, avec une vocation à la fois civile et militaire.",
+            "answers": {
+              "pendant-l-annexion-allemande": "Pendant l'annexion allemande",
+              "sous-le-second-empire": "Sous le Second Empire",
+              "sous-le-regne-de-stanislas": "Sous le règne de Stanislas",
+              "pendant-la-reconstruction-de-1945": "Pendant la Reconstruction de 1945"
+            }
+          },
+          "luneville-versailles": {
+            "prompt": "Quel surnom donne-t-on au château de Lunéville ?",
+            "hint": "Il rappelle un célèbre château royal français.",
+            "anecdote": "Le duc Léopold l'a fait bâtir au début du XVIIIe siècle, notamment par Germain Boffrand. Un incendie l'a gravement touché en 2003.",
+            "answers": {
+              "le-versailles-lorrain": "Le Versailles lorrain",
+              "le-chambord-de-l-est": "Le Chambord de l'Est",
+              "le-fontainebleau-vosgien": "Le Fontainebleau vosgien",
+              "le-louvre-de-lorraine": "Le Louvre de Lorraine"
+            }
+          },
+          "transi": {
+            "prompt": "Quelle œuvre macabre de Ligier Richier est conservée à Bar-le-Duc ?",
+            "hint": "Elle représente un squelette dressé, tenant son cœur dans la main.",
+            "anecdote": "Le Transi de René de Chalon, dans l'église Saint-Étienne, a été sculpté au XVIe siècle.",
+            "answers": {
+              "le-transi-de-rene-de-chalon": "Le Transi de René de Chalon",
+              "le-christ-de-verdun": "Le Christ de Verdun",
+              "le-pleurant-de-toul": "Le Pleurant de Toul",
+              "la-danse-macabre-de-metz": "La Danse macabre de Metz"
+            }
+          },
+          "grand-antique": {
+            "prompt": "Quel village vosgien conserve un amphithéâtre et une grande mosaïque romaine ?",
+            "hint": "Son nom ne semble pas être celui d'un petit village.",
+            "anecdote": "Grand, ancien sanctuaire gallo-romain, a conservé un amphithéâtre de grande capacité et une mosaïque remarquable.",
+            "answers": {
+              "bains-les-bains": "Bains-les-Bains",
+              "charmes": "Charmes",
+              "vagney": "Vagney"
+            }
+          },
+          "colline-inspiree": {
+            "prompt": "Quel écrivain a surnommé la colline de Sion la « Colline inspirée » ?",
+            "hint": "Né à Charmes, il a beaucoup écrit sur la Lorraine.",
+            "anecdote": "Maurice Barrès a publié « La Colline inspirée » en 1913. Le site reste un lieu de pèlerinage lorrain.",
+            "answers": {
+              "maurice-barres": "Maurice Barrès",
+              "paul-claudel": "Paul Claudel",
+              "andre-gide": "André Gide",
+              "emile-zola": "Émile Zola"
+            }
+          },
+          "rodemack": {
+            "prompt": "Quel village fortifié de Moselle est surnommé la « Petite Carcassonne lorraine » ?",
+            "hint": "Son nom commence comme celui d'un sculpteur français célèbre.",
+            "anecdote": "Rodemack, près du Luxembourg, a gardé une partie de ses remparts médiévaux et de sa citadelle.",
+            "answers": {
+              "manderen": "Manderen",
+              "sierck-les-bains": "Sierck-les-Bains",
+              "vic-sur-seille": "Vic-sur-Seille"
+            }
+          },
+          "le-corbusier": {
+            "prompt": "Quel bâtiment de Saint-Dié, signé Le Corbusier, est inscrit au patrimoine mondial ?",
+            "hint": "C'est un lieu de travail, sur un site reconstruit après guerre.",
+            "anecdote": "L'usine Duval, conçue par Le Corbusier après la Seconde Guerre mondiale, a été inscrite à l'UNESCO en 2016.",
+            "answers": {
+              "l-usine-duval": "L'usine Duval",
+              "la-chapelle-de-ronchamp": "La chapelle de Ronchamp",
+              "la-cathedrale-de-saint-die": "La cathédrale de Saint-Dié",
+              "la-villa-savoye": "La villa Savoye"
+            }
+          },
+          "minette": {
+            "prompt": "Comment appelle-t-on le minerai de fer de Lorraine ?",
+            "hint": "Son nom ressemble à un petit surnom affectueux.",
+            "anecdote": "Pauvre en fer, la minette lorraine a nourri la sidérurgie régionale, notamment grâce au procédé Thomas à partir de la fin du XIXe siècle.",
+            "answers": {
+              "la-minette": "La minette",
+              "la-cassiterite": "La cassitérite",
+              "la-chamotte": "La chamotte",
+              "la-pyrite": "La pyrite"
+            }
+          },
+          "houve": {
+            "prompt": "En quelle année la dernière mine de charbon de France a-t-elle fermé, à La Houve ?",
+            "hint": "C'était au début du XXIe siècle.",
+            "anecdote": "La fermeture du puits de La Houve, à Creutzwald, le 23 avril 2004, a marqué la fin de l'extraction du charbon en France.",
+            "answers": {
+              "1974": "1974",
+              "1990": "1990",
+              "2004": "2004",
+              "2015": "2015"
+            }
+          },
+          "u4-uckange": {
+            "prompt": "Que conserve le site du U4, à Uckange ?",
+            "hint": "Cet immense équipement servait à produire la fonte.",
+            "anecdote": "Le U4 est un haut fourneau conservé en Moselle, devenu un lieu de mémoire et de culture.",
+            "answers": {
+              "un-haut-fourneau": "Un haut fourneau",
+              "un-chevalement-de-charbon": "Un chevalement de charbon",
+              "une-centrale-nucleaire": "Une centrale nucléaire",
+              "une-raffinerie": "Une raffinerie"
+            }
+          },
+          "wendel": {
+            "prompt": "Quelle famille d'industriels a dominé la sidérurgie à Hayange ?",
+            "hint": "Son nom a la particule et sonne allemand.",
+            "anecdote": "Les de Wendel se sont installés à Hayange en 1704. Ils ont bâti un empire de l'acier sur près de trois siècles.",
+            "answers": {
+              "de-wendel": "De Wendel",
+              "peugeot": "Peugeot",
+              "renault": "Renault",
+              "schneider": "Schneider"
+            }
+          },
+          "pont-a-mousson-fonte": {
+            "prompt": "Quel produit fait la renommée mondiale de la fonderie de Pont-à-Mousson ?",
+            "hint": "On y marche dessus dans de nombreuses villes du monde.",
+            "anecdote": "Les usines de Pont-à-Mousson produisent des tuyaux et plaques d'égout en fonte, exportés dans de nombreux pays.",
+            "answers": {
+              "les-canalisations-et-plaques-en-fonte": "Les canalisations et plaques en fonte",
+              "les-pieces-d-avion": "Les pièces d'avion",
+              "les-rails-en-acier": "Les rails en acier",
+              "les-vitrages-automobiles": "Les vitrages automobiles"
+            }
+          },
+          "callot": {
+            "prompt": "Quel graveur nancéien du XVIIe siècle a réalisé les « Misères de la guerre » ?",
+            "hint": "Son prénom est Jacques.",
+            "anecdote": "Jacques Callot y décrit les violences de la guerre de Trente Ans, qui a durement frappé la Lorraine.",
+            "answers": {
+              "jacques-callot": "Jacques Callot",
+              "francisco-de-goya": "Francisco de Goya",
+              "gustave-dore": "Gustave Doré",
+              "albrecht-durer": "Albrecht Dürer"
+            }
+          },
+          "claude-gellee": {
+            "prompt": "Quel peintre de paysages, né à Chamagne, est surnommé « le Lorrain » ?",
+            "hint": "Il a surtout travaillé à Rome et il s'appelait Gellée.",
+            "anecdote": "Claude Gellée, dit le Lorrain, a marqué la peinture de paysage du XVIIe siècle et est mort à Rome en 1682.",
+            "answers": {
+              "claude-gellee": "Claude Gellée",
+              "georges-de-la-tour": "Georges de La Tour",
+              "jean-baptiste-greuze": "Jean-Baptiste Greuze",
+              "nicolas-poussin": "Nicolas Poussin"
+            }
+          },
+          "lyautey": {
+            "prompt": "Quel maréchal de France, né à Nancy en 1854, est associé au Maroc ?",
+            "hint": "Son château de Thorey peut se visiter.",
+            "anecdote": "Hubert Lyautey a été résident général au Maroc. Il s'est retiré à Thorey, en Meurthe-et-Moselle.",
+            "answers": {
+              "hubert-lyautey": "Hubert Lyautey",
+              "ferdinand-foch": "Ferdinand Foch",
+              "joseph-joffre": "Joseph Joffre",
+              "philippe-leclerc": "Philippe Leclerc"
+            }
+          },
+          "goncourt": {
+            "prompt": "Quel écrivain à l'origine d'un célèbre prix littéraire est né à Nancy en 1822 ?",
+            "hint": "Il écrivait avec son frère Jules.",
+            "anecdote": "Edmond de Goncourt, né à Nancy, a légué sa fortune pour créer l'académie qui décerne le prix portant son nom.",
+            "answers": {
+              "edmond-de-goncourt": "Edmond de Goncourt",
+              "gustave-flaubert": "Gustave Flaubert",
+              "emile-littre": "Émile Littré",
+              "prosper-merimee": "Prosper Mérimée"
+            }
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "place-stanislas": {
+            "name": "Place Stanislas",
+            "description": "Au cœur de Nancy, cette place royale du XVIIIe siècle réunit pavillons, fontaines et grilles dorées. Elle est inscrite au patrimoine mondial avec les places de la Carrière et d'Alliance.",
+            "anecdote": "Elle a d'abord porté le nom de place Royale, avec une statue de Louis XV en son centre."
+          },
+          "mirabelle": {
+            "name": "Mirabelle de Lorraine",
+            "description": "Petite prune dorée, la mirabelle est le fruit emblématique de la Lorraine. Elle se déguste fraîche, en tarte, en confiture ou en eau-de-vie.",
+            "anecdote": "Sa récolte ne dure que quelques semaines, le plus souvent de la mi-août à la mi-septembre."
+          },
+          "cathedrale-metz": {
+            "name": "Cathédrale de Metz",
+            "description": "Bâtie en pierre de Jaumont, la cathédrale Saint-Étienne domine la Moselle. Ses immenses verrières réunissent des œuvres du Moyen Âge jusqu'au XXe siècle.",
+            "anecdote": "Sa surface de vitraux lui vaut le surnom de « Lanterne du Bon Dieu »."
+          },
+          "cristal-baccarat": {
+            "name": "Cristal de Baccarat",
+            "description": "Fondée en 1764 comme verrerie sur les bords de la Meurthe, la manufacture de Baccarat s'est tournée vers le cristal à partir de 1816. Ses verriers perpétuent des gestes de haute précision.",
+            "anecdote": "Le lustre de cette carte a été photographié à Tokyo, loin de sa ville d'origine."
+          },
+          "massif-vosges": {
+            "name": "Massif des Vosges",
+            "description": "Forêts de sapins, lacs glaciaires et hautes chaumes dessinent le massif des Vosges. Il forme la limite naturelle entre la Lorraine et l'Alsace.",
+            "anecdote": "Le Hohneck, à 1 363 mètres, est l'un de ses sommets les plus visités."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur de Lorraine",
+            "description": "Réunir les cinq cartes de la collection de Lorraine."
+          },
+          "master": {
+            "name": "Maître de Lorraine",
+            "description": "Réussir le Défi Maître de Lorraine, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
     },
     "alsace": {
       "name": "Alsace",

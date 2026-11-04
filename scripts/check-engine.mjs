@@ -481,23 +481,35 @@ for (let seed = 0; seed < 50; seed++) {
   assert.equal(isSpecialChallengeAvailable(small, masterRules), false);
   assert.deepEqual(availableSpecialChallenges({ id: "none", levels: [] }), []);
 
-  // Les vraies questions de l'Alsace, sur de nombreux tirages.
+  // Les vraies questions des territoires publiés, sur de nombreux tirages.
   const alsace = JSON.parse(readFileSync(new URL("../content/fr/territories/alsace.json", import.meta.url), "utf8"));
   assert.deepEqual(availableSpecialChallenges(alsace).map((rules) => rules.kind), ["master", "chrono"]);
-  for (const rules of SPECIAL_CHALLENGES) {
-    const alsaceBank = specialChallengeBank(alsace, rules);
+  const lorraine = JSON.parse(readFileSync(new URL("../content/fr/territories/lorraine.json", import.meta.url), "utf8"));
+  assert.deepEqual(availableSpecialChallenges(lorraine).map((rules) => rules.kind), ["master", "chrono"]);
+  // Chaque niveau publié compose une partie complète, sans question répétée.
+  for (const level of [...alsace.levels, ...lorraine.levels]) {
+    for (let seed = 0; seed < 100; seed += 1) {
+      const drawn = selectQuestions(level, EMPTY_HISTORY, seeded(seed), 8);
+      assert.equal(new Set(drawn).size, 8, `partie complète : ${level.id}`);
+      const picked = drawn.map((id) => level.questions.find((candidate) => candidate.id === id));
+      assert.equal(new Set(picked.map((candidate) => candidate.promptKey)).size, 8, `énoncés distincts : ${level.id}`);
+      assert.equal(new Set(picked.map((candidate) => candidate.group ?? candidate.id)).size, 8, `sujets distincts : ${level.id}`);
+    }
+  }
+  for (const [territory, rules] of [alsace, lorraine].flatMap((territory) => SPECIAL_CHALLENGES.map((rules) => [territory, rules]))) {
+    const challengeBank = specialChallengeBank(territory, rules);
     let history = EMPTY_HISTORY;
     for (let seed = 0; seed < 200; seed += 1) {
-      const drawn = drawSpecialChallenge(alsaceBank, rules, history, EMPTY_HISTORY, seeded(seed));
+      const drawn = drawSpecialChallenge(challengeBank, rules, history, EMPTY_HISTORY, seeded(seed));
       assert.equal(drawn.length, 10);
       assert.equal(new Set(drawn).size, 10, "aucun doublon");
-      const picked = drawn.map((id) => alsaceBank.questions.find((candidate) => candidate.id === id));
+      const picked = drawn.map((id) => challengeBank.questions.find((candidate) => candidate.id === id));
       for (const candidate of picked) {
         assert.ok(candidate.difficulty >= rules.minDifficulty && candidate.difficulty <= rules.maxDifficulty, "difficulté du défi");
       }
       assert.equal(new Set(picked.map((candidate) => candidate.promptKey)).size, 10, "aucune question répétée");
       assert.ok(new Set(picked.map((candidate) => candidate.category)).size >= 5, "catégories variées");
-      assert.equal(startRun(alsaceBank, drawn, seeded(seed), rules).challengeIds, drawn, "questions fixes pendant la partie");
+      assert.equal(startRun(challengeBank, drawn, seeded(seed), rules).challengeIds, drawn, "questions fixes pendant la partie");
       if (seed < 4) {
         const seen = new Set(Object.keys(history.questions));
         const reused = picked.filter((candidate) => seen.has(candidate.id));
