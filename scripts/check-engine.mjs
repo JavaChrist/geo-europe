@@ -19,6 +19,7 @@ import {
   submitAnswer,
 } from "../src/engine/level-run.ts";
 import { isLevelUnlocked, UNLOCK_RULES } from "../src/engine/level-unlock.ts";
+import { applyReset, previewReset, resetTargets } from "../src/engine/progress-reset.ts";
 import { earnedXp, summarizeCountry, summarizeProgress, xpAfterRun, xpForScore } from "../src/engine/progress-summary.ts";
 import { EMPTY_HISTORY, lastRunQuestions, questionsPerRunOf, SELECTION_RULES, selectQuestions, withRunResults } from "../src/engine/question-selection.ts";
 import {
@@ -552,6 +553,78 @@ for (let seed = 0; seed < 50; seed++) {
   assert.equal(rulesForTerritory(strict, chronoRules).passCorrect, null);
   assert.equal(rulesForTerritory(alsace, masterRules), masterRules, "l'Alsace garde la règle commune");
   assert.equal(availableSpecialChallenges(strict)[0].passCorrect, 9);
+}
+
+// Réinitialisation : seule la portée demandée disparaît, le reste se déduit.
+{
+  const resetLevel = (id) => ({
+    id,
+    stars: { one: 0, two: 100, three: 200 },
+    questions: Array.from({ length: 5 }, (_, i) => question(`${id}-${i}`, { difficulty: 3 })),
+  });
+  const card = (id, levelId) => ({ id, unlock: { levelId } });
+  const territoryOf = (id, levelIds) => ({
+    id,
+    status: "published",
+    levels: levelIds.map(resetLevel),
+    souvenirCards: levelIds.map((levelId) => card(`card-${levelId}`, levelId)),
+    badges: [
+      { kind: "collection", territoryId: id, cardIds: levelIds.map((levelId) => `card-${levelId}`) },
+      { kind: "master", territoryId: id, cardIds: [] },
+    ],
+  });
+  const north = territoryOf("north", ["n1", "n2", "n3"]);
+  const south = territoryOf("south", ["s1"]);
+  const world = [north, south];
+  const run = { bestScore: 300, xp: 40, plays: 2 };
+  const records = { n1: run, n2: run, n3: run, s1: run };
+  const results = {
+    "north:master": { passed: true },
+    "north:chrono": { passed: false },
+    "south:master": { passed: true },
+  };
+  const space = {
+    levels: records,
+    questions: { n1: "h", n2: "h", n3: "h", s1: "h", "north:master": "h", "north:chrono": "h", "south:master": "h" },
+    challenges: results,
+  };
+
+  // Un niveau : ses résultats et son historique, pas ceux du défi ni des voisins.
+  const levelScope = { kind: "level", levelId: "n2" };
+  const afterLevel = applyReset(space, resetTargets(levelScope, world));
+  assert.deepEqual(Object.keys(afterLevel.levels), ["n1", "n3", "s1"]);
+  assert.deepEqual(Object.keys(afterLevel.questions), ["n1", "n3", "s1", "north:master", "north:chrono", "south:master"]);
+  assert.deepEqual(afterLevel.challenges, results);
+  const levelPreview = previewReset(levelScope, world, records, results);
+  assert.deepEqual(
+    { ...levelPreview },
+    { hasData: true, levels: 1, stars: 3, score: 300, plays: 2, xp: 40, challenges: 0, cards: 1, badges: 1, relockedLevels: 1, relockedChallenges: 1 },
+    "carte et badge de collection perdus, niveau suivant et défis reverrouillés, badge Maître conservé",
+  );
+
+  // Un territoire : niveaux, défis et historiques des deux, sans toucher au voisin.
+  const territoryScope = { kind: "territory", territoryId: "north" };
+  const afterTerritory = applyReset(space, resetTargets(territoryScope, world));
+  assert.deepEqual(Object.keys(afterTerritory.levels), ["s1"]);
+  assert.deepEqual(Object.keys(afterTerritory.questions), ["s1", "south:master"]);
+  assert.deepEqual(Object.keys(afterTerritory.challenges), ["south:master"]);
+  const territoryPreview = previewReset(territoryScope, world, records, results);
+  assert.equal(territoryPreview.xp, 120);
+  assert.equal(territoryPreview.challenges, 2);
+  assert.equal(territoryPreview.cards, 3);
+  assert.equal(territoryPreview.badges, 2, "collection et Maître");
+  assert.equal(territoryPreview.relockedLevels, 2, "le premier niveau reste ouvert");
+  assert.equal(summarizeCountry(world, afterTerritory.levels).xp, 40, "l'XP restant est celui du voisin");
+
+  // Tout le pays : l'espace repart vide, résultats hors catalogue compris.
+  const afterCountry = applyReset({ ...space, levels: { ...records, ancien: run } }, resetTargets({ kind: "country" }, world));
+  assert.deepEqual(afterCountry, { levels: {}, questions: {}, challenges: {} });
+  assert.equal(previewReset({ kind: "country" }, world, { ancien: run }, {}).hasData, true, "un résultat hors catalogue reste à effacer");
+
+  // Rien à effacer : l'opération le dit, sans rien changer.
+  assert.equal(previewReset(levelScope, world, { n1: run }, {}).hasData, false);
+  assert.equal(previewReset({ kind: "territory", territoryId: "absent" }, world, records, results).hasData, false);
+  assert.deepEqual(applyReset(space, resetTargets({ kind: "territory", territoryId: "absent" }, world)), space);
 }
 
 console.log("Moteur de jeu valide.");

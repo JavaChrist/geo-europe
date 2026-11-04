@@ -556,6 +556,68 @@
       }
     }
   },
+  "reset": {
+    "title": "Réinitialiser ma progression",
+    "summary": "Effacer un niveau, un territoire ou toute la progression.",
+    "intro": "Choisissez précisément ce que vous voulez effacer. Choisir un niveau ou un territoire n'efface rien : chaque opération demande votre confirmation.",
+    "profileLimit": "Les profils de joueurs n'existent pas encore. La progression de {app} est commune à tous ceux qui jouent sur cet appareil : une réinitialisation les concerne tous.",
+    "xpRule": "L'XP est enregistré niveau par niveau, rejeux compris. Une réinitialisation retire exactement l'XP gagné sur les niveaux effacés. Les défis ne rapportent pas d'XP.",
+    "confirm": "Confirmer la réinitialisation",
+    "nothing": "Rien à effacer ici : aucun résultat n'est enregistré.",
+    "territoryLabel": "Territoire",
+    "levelLabel": "Niveau",
+    "territoryPreparing": "{territory} (en préparation)",
+    "details": {
+      "title": "Sera effacé",
+      "levels": "Niveaux terminés",
+      "stars": "Étoiles",
+      "score": "Points de meilleurs scores",
+      "plays": "Parties de niveaux",
+      "xp": "XP",
+      "challenges": "Records de défis",
+      "cards": "Cartes souvenirs",
+      "badges": "Badges",
+      "relockedLevels": {
+        "one": "{count} niveau suivant se verrouillera jusqu'à ce que la condition habituelle soit de nouveau remplie.",
+        "other": "{count} niveaux suivants se verrouilleront jusqu'à ce que la condition habituelle soit de nouveau remplie."
+      },
+      "relockedChallenges": "Le Défi Maître et le Défi Chrono de ce territoire se verrouilleront jusqu'à ce que tous ses niveaux soient de nouveau terminés."
+    },
+    "level": {
+      "title": "Un niveau",
+      "intro": "Efface uniquement les résultats du niveau choisi.",
+      "action": "Réinitialiser ce niveau",
+      "history": "L'historique des questions du niveau {level} sera aussi effacé.",
+      "kept": "Conservés : les autres niveaux, les défis et le badge Maître de ce territoire, et tous les autres territoires.",
+      "confirmTitle": "Réinitialiser ce niveau ?",
+      "confirmBody": "Niveau {level}, {territory}. Seront effacés : étoiles ({stars}), points de meilleur score ({score}), parties ({plays}), XP ({xp}), cartes souvenirs ({cards}), badges ({badges}) et l'historique des questions du niveau. Cette progression est commune à tous ceux qui jouent sur cet appareil. Cette action est définitive.",
+      "doneTitle": "Niveau réinitialisé",
+      "doneBody": "Les résultats du niveau {level} ont été effacés."
+    },
+    "territory": {
+      "title": "Un territoire",
+      "intro": "Efface toute la progression du territoire choisi, sans toucher aux autres.",
+      "action": "Réinitialiser ce territoire",
+      "history": "L'historique des questions de ce territoire, niveaux et défis, sera aussi effacé.",
+      "kept": "Conservés : tous les autres territoires, leurs cartes et leurs badges.",
+      "confirmTitle": "Réinitialiser ce territoire ?",
+      "confirmBody": "{territory}. Seront effacés : résultats des {total} niveaux, étoiles ({stars}), points de meilleurs scores ({score}), parties ({plays}), XP ({xp}), records du Défi Maître et du Défi Chrono ({challenges}), cartes souvenirs ({cards}), badges ({badges}) et l'historique des questions. Les autres territoires sont conservés. Cette progression est commune à tous ceux qui jouent sur cet appareil. Cette action est définitive.",
+      "doneTitle": "Territoire réinitialisé",
+      "doneBody": "La progression du territoire {territory} a été effacée. Les autres territoires n'ont pas changé."
+    },
+    "country": {
+      "title": "Tout {app}",
+      "intro": "Efface toute la progression de {app} enregistrée sur cet appareil.",
+      "action": "Réinitialiser tout {app}",
+      "history": "L'historique de toutes les questions sera aussi effacé. Les niveaux et les défis repartiront de leurs conditions de déblocage habituelles.",
+      "kept": "Conservés : les contenus du jeu. Les cartes et les badges restent à regagner en rejouant.",
+      "understand": "J'ai compris que toute la progression de {app} sur cet appareil sera définitivement effacée, pour tous ceux qui y jouent.",
+      "confirmTitle": "Réinitialiser tout {app} ?",
+      "confirmBody": "Toute la progression de {app} sera effacée : niveaux terminés ({levels}), étoiles ({stars}), points de meilleurs scores ({score}), parties ({plays}), XP ({xp}), records de défis ({challenges}), cartes souvenirs ({cards}), badges ({badges}) et l'historique de toutes les questions. Elle est commune à tous ceux qui jouent sur cet appareil. Cette action est définitive.",
+      "doneTitle": "Progression réinitialisée",
+      "doneBody": "Toute la progression de {app} a été effacée. Vous pouvez repartir de zéro."
+    }
+  },
   "soon": {
     "profile": {
       "title": "Profil",

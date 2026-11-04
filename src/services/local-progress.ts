@@ -1,4 +1,5 @@
 import type { ChallengeResult, StarCount } from "@/engine/level-run";
+import { applyReset, type ResetTargets } from "@/engine/progress-reset";
 import { xpAfterRun } from "@/engine/progress-summary";
 import { EMPTY_HISTORY, type QuestionHistory, withRunResults } from "@/engine/question-selection";
 import { type ChallengePerformance, type ChallengeRecord, type SpecialChallengeRules, withChallengeResult } from "@/engine/special-challenges";
@@ -212,6 +213,19 @@ export function recordChallengeResult(
   return record;
 }
 
+/**
+ * Efface une partie de l'espace actif et rien d'autre : les autres espaces restent intacts.
+ * Lève une erreur si l'écriture échoue : le joueur n'est averti d'une réussite qu'après coup.
+ */
+export function resetProgress(countryCode: string, targets: ResetTargets): void {
+  const space = parseStored(readRaw(storageKey(countryCode)))?.spaces?.[DEVICE_SPACE];
+  writeSpace(
+    countryCode,
+    applyReset({ levels: space?.levels ?? {}, questions: space?.questions ?? {}, challenges: space?.challenges ?? {} }, targets),
+  );
+}
+
+/** Efface tout ce que l'appareil garde pour ce pays, tous espaces confondus : réservé à la suppression des données de l'appareil. */
 export function clearLevelRecords(countryCode: string): void {
   try {
     window.localStorage.removeItem(storageKey(countryCode));

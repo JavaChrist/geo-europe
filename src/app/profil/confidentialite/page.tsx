@@ -1,4 +1,4 @@
-import { ChevronRight, type LucideIcon, Map as MapIcon } from "lucide-react";
+import { ChevronRight, type LucideIcon, Map as MapIcon, RotateCcw } from "lucide-react";
 import Link from "next/link";
 import { getLegalValues } from "@/features/privacy/legal-values";
 import { PRIVACY_SECTIONS } from "@/features/privacy/sections";
@@ -11,6 +11,7 @@ export default function PrivacyHubPage() {
   const values = getLegalValues(translator);
 
   const entries: { href: string; icon: LucideIcon; title: string; summary: string }[] = [
+    { href: "/profil/reinitialiser", icon: RotateCcw, title: t("reset.title"), summary: t("reset.summary") },
     ...PRIVACY_SECTIONS.map((section) => ({
       href: `/profil/confidentialite/${section.slug}`,
       icon: section.icon,
