@@ -44,6 +44,15 @@
     "statusPublished": "Disponible",
     "backToMap": "Retour à la carte"
   },
+  "sources": {
+    "title": "Sources et licences",
+    "intro": "L'origine et la licence des données et des médias utilisés dans le jeu.",
+    "author": "Source",
+    "license": "Licence",
+    "updatedAt": "Mise à jour du jeu de données",
+    "viewSource": "Voir le jeu de données",
+    "backToProfile": "Retour au profil"
+  },
   "soon": {
     "challenges": {
       "title": "Défis",

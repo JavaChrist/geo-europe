@@ -2,8 +2,11 @@
   {
     "id": "map-regions",
     "file": "content/fr/map.json",
+    "titleKey": "country.credits.mapRegions.title",
+    "noteKey": "country.credits.mapRegions.note",
     "author": "IGN (ADMIN EXPRESS COG), généralisation icem7",
     "license": "Licence Ouverte 2.0",
-    "source": "https://www.data.gouv.fr/datasets/contours-des-communes-de-france-simplifie-avec-regions-et-departement-doutre-mer-rapproches/"
+    "source": "https://www.data.gouv.fr/datasets/contours-des-communes-de-france-simplifie-avec-regions-et-departement-doutre-mer-rapproches/",
+    "sourceUpdatedAt": "2021-05-23"
   }
 ]

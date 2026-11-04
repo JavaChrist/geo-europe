@@ -3,7 +3,7 @@ import { RegionList } from "@/features/explorer/RegionList";
 import { getTranslator } from "@/i18n/translator";
 
 export default function ExplorerPage() {
-  const { t, tContent } = getTranslator();
+  const { t } = getTranslator();
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
@@ -17,8 +17,6 @@ export default function ExplorerPage() {
       </section>
 
       <RegionList />
-
-      <p className="text-xs text-ink-soft">{tContent("country.mapCredit")}</p>
     </main>
   );
 }

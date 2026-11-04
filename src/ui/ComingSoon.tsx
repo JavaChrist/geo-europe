@@ -11,10 +11,12 @@ interface ComingSoonProps {
   icon?: LucideIcon;
   /** Illustration à la place de l'icône, par exemple la forme d'une région. */
   visual?: ReactNode;
+  /** Lien secondaire affiché sous le bouton de retour. */
+  extra?: ReactNode;
 }
 
 /** Écran d'une rubrique pas encore disponible. */
-export function ComingSoon({ title, body, badge, backHref, backLabel, icon: Icon, visual }: ComingSoonProps) {
+export function ComingSoon({ title, body, badge, backHref, backLabel, icon: Icon, visual, extra }: ComingSoonProps) {
   return (
     <main className="mx-auto flex w-full max-w-xl flex-col items-center gap-5 px-4 py-10 text-center">
       <div className="fade-in flex w-full flex-col items-center gap-5 rounded-3xl border border-gold/25 bg-surface/60 px-6 py-10 shadow-lg shadow-abyss/40">
@@ -36,6 +38,7 @@ export function ComingSoon({ title, body, badge, backHref, backLabel, icon: Icon
         <ArrowLeft aria-hidden className="size-5" />
         {backLabel}
       </Link>
+      {extra}
     </main>
   );
 }

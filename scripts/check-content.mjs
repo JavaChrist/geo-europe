@@ -27,8 +27,16 @@ for (const code of readdirSync(root)) {
   for (const media of credits) {
     if (mediaIds.has(media.id)) fail("media/credits.json", `id en double : ${media.id}`);
     mediaIds.add(media.id);
-    for (const field of ["id", "file", "author", "license", "source"]) {
+    for (const field of ["id", "file", "titleKey", "author", "license", "source"]) {
       if (!media[field]) fail("media/credits.json", `${media.id ?? "?"} sans ${field}`);
+    }
+    if (media.sourceUpdatedAt && !/^\d{4}-\d{2}-\d{2}$/.test(media.sourceUpdatedAt)) {
+      fail("media/credits.json", `${media.id} : date invalide ${media.sourceUpdatedAt}`);
+    }
+    for (const [locale, messages] of Object.entries(messagesByLocale)) {
+      for (const key of [media.titleKey, media.noteKey].filter(Boolean)) {
+        if (typeof lookup(messages, key) !== "string") fail(`locales/${locale}.json`, `${key} absent`);
+      }
     }
   }
 
@@ -79,7 +87,7 @@ for (const code of readdirSync(root)) {
   }
 
   for (const [locale, messages] of Object.entries(messagesByLocale)) {
-    for (const key of ["country.homeTitle", "country.homePitch", "country.mapCredit"]) {
+    for (const key of ["country.homeTitle", "country.homePitch"]) {
       if (typeof lookup(messages, key) !== "string") fail(`locales/${locale}.json`, `${key} absent`);
     }
   }

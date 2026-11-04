@@ -25,9 +25,15 @@ export interface Region {
 export interface MediaCredit {
   id: string;
   file: string;
+  /** Titre affiché dans « Sources et licences ». */
+  titleKey: string;
+  /** Précision facultative sur l'usage du média. */
+  noteKey?: string;
   author: string;
   license: string;
   source: string;
+  /** Date de mise à jour publiée par la source, au format AAAA-MM-JJ. Ne jamais l'estimer. */
+  sourceUpdatedAt?: string;
 }
 
 export interface CountryConfig {
