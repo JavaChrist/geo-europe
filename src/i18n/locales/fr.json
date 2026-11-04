@@ -59,33 +59,55 @@
     "backToHub": "Retour aux paramètres",
     "updatedAt": "Dernière mise à jour : {date}",
     "toComplete": "à compléter",
+    "pendingValidation": "En attente de validation administrative avant publication.",
     "sourcesSummary": "L'origine et la licence des cartes, données et médias.",
     "identity": {
       "publisherTitle": "Éditeur",
       "hostTitle": "Hébergeur",
+      "mediatorTitle": "Médiateur de la consommation",
       "name": "Nom",
+      "tradeName": "Nom commercial",
+      "entrepreneur": "Entrepreneur",
       "status": "Statut",
+      "siren": "SIREN",
       "siret": "SIRET",
+      "registry": "Registre",
       "address": "Adresse",
       "director": "Directeur de la publication",
-      "contactEmail": "Contact"
+      "phone": "Téléphone",
+      "contactEmail": "Contact et support",
+      "website": "Site web",
+      "vat": "TVA",
+      "vatFranchise": "TVA non applicable, article 293 B du CGI"
     },
     "sections": {
       "policy": {
         "title": "Politique de confidentialité",
-        "summary": "Ce que {appName} collecte, et ce qu'il ne collecte pas.",
+        "summary": "Ce que {appName} traite aujourd'hui, et ce qui pourrait s'y ajouter.",
         "blocks": {
           "controller": {
             "title": "Responsable du traitement",
-            "body": "{publisher} édite {appName} et est responsable du traitement des données personnelles. Contact : {contact}."
+            "body": "{appName} est édité par {publisher}, nom commercial de {entrepreneur}, {status}, responsable du traitement des données personnelles. Contact : {contact}."
           },
-          "collected": {
-            "title": "Données collectées par le jeu",
-            "body": "Aujourd'hui, le jeu ne demande ni compte, ni nom, ni adresse e-mail, ni âge. Il n'enregistre aucune donnée personnelle et ne dépose ni cookie ni traceur."
+          "local": {
+            "title": "Profils et progression sur l'appareil",
+            "body": "Aujourd'hui, le jeu ne demande ni compte, ni nom, ni adresse e-mail, ni âge. Il ne crée aucun profil et n'enregistre aucune progression sur votre appareil. Il ne dépose lui-même ni cookie ni traceur. Lorsque des profils locaux seront proposés, cette politique décrira ce qui est enregistré avant leur mise en service."
           },
           "hosting": {
-            "title": "Hébergement",
-            "body": "Sur le web, l'hébergeur ({host}) peut enregistrer des journaux techniques, comme l'adresse IP et la page demandée, pour faire fonctionner et sécuriser le service. Selon l'hébergeur, ces journaux peuvent être traités hors de l'Union européenne."
+            "title": "Données techniques liées à l'hébergement",
+            "body": "Sur le web, l'hébergeur ({host}) traite des données techniques, comme l'adresse IP et la page demandée, pour faire fonctionner et sécuriser le service. {host} est établi aux États-Unis : ces données peuvent être traitées hors de l'Union européenne."
+          },
+          "firebase": {
+            "title": "Services Firebase",
+            "body": "Le jeu n'utilise aujourd'hui aucun service Firebase. Si des comptes ou une sauvegarde en ligne sont proposés, Firebase, service de Google, interviendra comme prestataire technique. Cette politique indiquera alors les services activés et les données concernées."
+          },
+          "purchases": {
+            "title": "Achats Premium",
+            "body": "Aucun achat n'est possible aujourd'hui et aucune donnée de paiement n'est traitée. Lorsque {appName} Premium sera ouvert, le paiement sera traité par Mollie sur le web et par Google Play sur Android. Cette politique précisera alors les données concernées."
+          },
+          "promotions": {
+            "title": "Promotions de l'éditeur",
+            "body": "Le jeu n'affiche aujourd'hui ni publicité ni promotion, et n'envoie aucun message commercial. Si des promotions pour d'autres jeux {publisher} sont ajoutées et qu'elles nécessitent votre accord, celui-ci sera demandé au préalable dans la rubrique des consentements."
           },
           "minors": {
             "title": "Mineurs",
@@ -93,7 +115,7 @@
           },
           "rights": {
             "title": "Vos droits",
-            "body": "Vous pouvez demander l'accès à vos données, leur rectification ou leur effacement, et vous opposer à leur traitement, à cette adresse : {contact}. Vous pouvez aussi saisir {authority}."
+            "body": "Vous pouvez demander l'accès à vos données, leur rectification, leur effacement, la limitation de leur traitement ou leur portabilité, et vous opposer à leur traitement, à cette adresse : {contact}. Vous pouvez aussi saisir {authority}."
           },
           "changes": {
             "title": "Évolutions",
@@ -110,20 +132,70 @@
             "body": "{appName} est un jeu de découverte géographique édité par {publisher}. Utiliser le jeu implique d'accepter ces conditions."
           },
           "access": {
-            "title": "Accès",
-            "body": "Le jeu est aujourd'hui gratuit et sans compte. Aucun achat n'est proposé. Les conditions d'une offre payante seront publiées ici avant son ouverture."
+            "title": "Fonctions gratuites",
+            "body": "Le jeu est aujourd'hui gratuit et sans compte : il permet d'explorer la carte et la liste des régions. D'autres fonctions sont en préparation et signalées comme telles. Aucun achat n'est proposé. Les conditions de l'offre {appName} Premium figurent dans une rubrique dédiée et s'appliqueront à son ouverture."
           },
           "content": {
             "title": "Contenus",
             "body": "Les contenus sont proposés à des fins de découverte et peuvent comporter des erreurs ou évoluer. Les sources et licences des contenus tiers sont indiquées dans la rubrique dédiée. Le reste du jeu ne peut pas être réutilisé sans autorisation."
           },
+          "forbidden": {
+            "title": "Comportements interdits",
+            "body": "Il est interdit de perturber le fonctionnement du jeu, de tenter d'accéder à ses systèmes ou à des fonctions payantes sans y avoir droit, d'extraire ses contenus de manière automatisée ou de l'utiliser à des fins illicites."
+          },
           "availability": {
             "title": "Disponibilité",
             "body": "L'éditeur s'efforce de maintenir le jeu accessible, sans pouvoir le garantir en permanence. Il peut le modifier ou l'interrompre, notamment pour maintenance."
           },
+          "liability": {
+            "title": "Responsabilité",
+            "body": "L'éditeur ne répond pas des dommages causés par une mauvaise utilisation du jeu, par une panne de votre appareil ou de votre connexion, ou par un événement qu'il ne maîtrise pas. Ces limites s'appliquent dans la mesure permise par la loi et ne réduisent pas les droits que la loi garantit aux consommateurs."
+          },
           "law": {
             "title": "Droit applicable",
             "body": "Le droit applicable à ces conditions est {law}. Pour toute question : {contact}."
+          }
+        }
+      },
+      "sales": {
+        "title": "Conditions générales de vente Premium",
+        "summary": "Les règles de l'achat unique {appName} Premium, qui n'est pas encore ouvert.",
+        "blocks": {
+          "state": {
+            "title": "Offre pas encore ouverte",
+            "body": "Le paiement n'est pas activé : aucun achat n'est possible et aucune somme ne peut être demandée aujourd'hui. Ces conditions préparent l'ouverture de l'offre et seront mises à jour si nécessaire avant celle-ci."
+          },
+          "seller": {
+            "title": "Vendeur",
+            "body": "{publisher}, nom commercial de {entrepreneur}, {status}, SIRET {siret}, {address}. Téléphone : {phone}. Contact : {contact}. {vatNotice}."
+          },
+          "product": {
+            "title": "Offre et prix",
+            "body": "{appName} Premium est un achat unique de {price}, sans abonnement. Son contenu et le prix total seront présentés avant la validation de la commande."
+          },
+          "web": {
+            "title": "Achat sur le web",
+            "body": "Sur le web, le paiement passera par Mollie, prestataire de paiement. L'accès Premium sera ouvert une fois le paiement confirmé par nos serveurs."
+          },
+          "android": {
+            "title": "Achat sur Android",
+            "body": "Sur Android, l'achat passera par Google Play Billing. Le paiement et les demandes de remboursement suivront aussi les règles de Google Play."
+          },
+          "withdrawal": {
+            "title": "Droit de rétractation",
+            "body": "Vous disposez en principe de 14 jours pour vous rétracter. Premium étant un contenu numérique fourni immédiatement, votre accord exprès pour cette exécution immédiate et votre renoncement à ce droit seront demandés au moment de l'achat. Sans cet accord, le droit de rétractation reste applicable."
+          },
+          "warranty": {
+            "title": "Garanties légales",
+            "body": "Les garanties légales applicables aux contenus numériques restent dues, quel que soit le moyen de paiement."
+          },
+          "claims": {
+            "title": "Réclamations",
+            "body": "Toute réclamation peut être adressée par écrit à {contact}."
+          },
+          "law": {
+            "title": "Droit applicable",
+            "body": "Le droit applicable à ces conditions est {law}, sans préjudice des droits que vous accorde la loi de votre pays de résidence."
           }
         }
       },
@@ -149,13 +221,17 @@
         "title": "Consulter et exporter mes données",
         "summary": "L'accès à vos données personnelles.",
         "blocks": {
-          "state": {
-            "title": "Aujourd'hui",
-            "body": "Le jeu n'enregistre aucune donnée personnelle : il n'y a rien à consulter ni à exporter."
+          "local": {
+            "title": "Profils locaux",
+            "body": "Le jeu ne crée aujourd'hui aucun profil et n'enregistre aucune progression sur cet appareil : il n'y a rien à consulter ni à exporter."
           },
-          "later": {
-            "title": "Si cela change",
-            "body": "Lorsque le jeu enregistrera des données vous concernant, vous pourrez les consulter et les exporter depuis cette rubrique."
+          "account": {
+            "title": "Comptes en ligne",
+            "body": "Aucun compte Firebase ni aucun autre compte en ligne n'existe aujourd'hui. Si des comptes sont créés, leurs données seront présentées séparément des profils locaux."
+          },
+          "action": {
+            "title": "Action indisponible",
+            "body": "La consultation et l'export ne sont pas proposés tant que le jeu n'enregistre rien. Ils seront ajoutés ici en même temps que les profils ou les comptes. Pour toute question : {contact}."
           }
         }
       },
@@ -163,13 +239,17 @@
         "title": "Supprimer mes données",
         "summary": "L'effacement de vos données personnelles.",
         "blocks": {
-          "state": {
-            "title": "Aujourd'hui",
-            "body": "Le jeu n'enregistre aucune donnée personnelle : il n'y a rien à supprimer. Pour toute demande : {contact}."
+          "local": {
+            "title": "Profils locaux",
+            "body": "Le jeu ne crée aujourd'hui aucun profil et n'enregistre aucune progression sur cet appareil : il n'y a rien à supprimer."
           },
-          "later": {
-            "title": "Si cela change",
-            "body": "Lorsque le jeu enregistrera des données vous concernant, vous pourrez les supprimer depuis cette rubrique, après confirmation."
+          "account": {
+            "title": "Comptes en ligne",
+            "body": "Aucun compte Firebase ni aucun autre compte en ligne n'existe aujourd'hui. Les journaux techniques de l'hébergeur ne sont pas accessibles depuis le jeu : pour toute demande les concernant, écrivez à {contact}."
+          },
+          "action": {
+            "title": "Action indisponible",
+            "body": "La suppression n'est pas proposée tant que le jeu n'enregistre rien. Elle sera ajoutée ici, après confirmation, en même temps que les profils ou les comptes. Pour toute demande : {contact}."
           }
         }
       },
@@ -178,15 +258,23 @@
         "summary": "La fermeture de votre compte.",
         "blocks": {
           "state": {
-            "title": "Aujourd'hui",
-            "body": "Le jeu fonctionne sans compte : il n'y a aucun compte à supprimer."
+            "title": "Action indisponible",
+            "body": "Le jeu fonctionne sans compte : il n'y a aucun compte à supprimer et cette action n'est pas disponible."
+          },
+          "local": {
+            "title": "Profils locaux",
+            "body": "Les futurs profils locaux ne seront pas des comptes. Leur suppression passera par la rubrique dédiée à la suppression des données."
           },
           "later": {
-            "title": "Si cela change",
-            "body": "Si des comptes sont créés, vous pourrez supprimer le vôtre depuis cette rubrique, après confirmation dans une fenêtre dédiée."
+            "title": "Si des comptes sont créés",
+            "body": "Si des comptes Firebase sont créés, vous pourrez supprimer le vôtre depuis cette rubrique, après confirmation dans une fenêtre dédiée."
           }
         }
       }
+    },
+    "mediation": {
+      "title": "Médiation de la consommation",
+      "body": "En cas de litige, adressez d'abord une réclamation écrite à {publisher} : {contact}. En l'absence de résolution amiable, vous pouvez saisir gratuitement le médiateur de la consommation compétent, {mediator}, conformément aux dispositions applicables {consumerLaw}. Coordonnées du médiateur : {mediatorAddress}, {mediatorWebsite}."
     }
   },
   "soon": {

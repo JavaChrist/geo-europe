@@ -36,17 +36,35 @@ export interface MediaCredit {
   sourceUpdatedAt?: string;
 }
 
-/** Identité légale d'une application. `null` : information à fournir, jamais à inventer. */
+/** `null` : information à fournir, jamais à inventer. */
+export interface LegalPublisher {
+  tradeName: string | null;
+  entrepreneur: string | null;
+  status: string | null;
+  siren: string | null;
+  siret: string | null;
+  registry: string | null;
+  address: string | null;
+  director: string | null;
+  phone: string | null;
+  supportEmail: string | null;
+  website: string | null;
+}
+
+export interface LegalHost {
+  name: string | null;
+  address: string | null;
+  website: string | null;
+}
+
+/** Identité légale d'une application. */
 export interface LegalConfig {
-  publisher: {
-    name: string | null;
-    status: string | null;
-    siret: string | null;
-    address: string | null;
-    director: string | null;
-    contactEmail: string | null;
-  };
-  host: { name: string | null; address: string | null };
+  publisher: LegalPublisher;
+  host: LegalHost;
+  /** `confirmed` : le régime a été validé administrativement. Sinon, la mention est signalée à l'écran. */
+  vat: { regime: "franchise" | null; confirmed: boolean };
+  /** `confirmed` : l'adhésion de l'éditeur est confirmée pour cette application. Sinon, la rubrique est signalée à l'écran. */
+  mediator: { name: string | null; address: string | null; website: string | null; confirmed: boolean };
   /** Date de dernière modification des documents légaux, au format AAAA-MM-JJ. */
   documentsUpdatedAt: string;
 }

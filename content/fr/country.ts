@@ -1,4 +1,5 @@
 import type { CountryConfig } from "../../src/engine/types.ts";
+import { publisher, webHost } from "../_shared/legal.ts";
 
 export const country: CountryConfig = {
   code: "fr",
@@ -9,15 +10,15 @@ export const country: CountryConfig = {
   regionCount: 18,
   premium: { priceCents: 499, currency: "EUR" },
   legal: {
-    publisher: {
-      name: "JavaChrist",
-      status: null,
-      siret: null,
-      address: null,
-      director: null,
-      contactEmail: null,
+    publisher,
+    host: webHost,
+    vat: { regime: "franchise", confirmed: false },
+    mediator: {
+      name: "Médiation Consommation Développement",
+      address: "Centre d'Affaires Stéphanois, Immeuble l'Horizon, Esplanade de France, 3 rue J. Constant Milleret, 42000 Saint-Étienne",
+      website: "https://www.medconsodev.eu/",
+      confirmed: true,
     },
-    host: { name: "Vercel Inc.", address: null },
     documentsUpdatedAt: "2026-11-04",
   },
   icons: {

@@ -4,7 +4,8 @@
     "homePitch": "Parcourez ses {count} régions sur la carte, relevez des défis et composez votre album de voyage.",
     "legal": {
       "authority": "la Commission nationale de l'informatique et des libertés (CNIL)",
-      "governingLaw": "le droit français"
+      "governingLaw": "le droit français",
+      "consumerLaw": "du Code de la consommation"
     },
     "credits": {
       "mapRegions": {

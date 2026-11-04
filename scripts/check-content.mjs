@@ -10,7 +10,8 @@ const errors = [];
 const readJson = (path) => JSON.parse(readFileSync(path, "utf8"));
 const lookup = (messages, key) => key?.split(".").reduce((node, part) => node?.[part], messages);
 
-for (const code of readdirSync(root)) {
+// Un dossier préfixé par « _ » contient des données partagées, pas un pays.
+for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
   const dir = join(root, code);
   const fail = (where, message) => errors.push(`${code}/${where} : ${message}`);
   const { country } = await import(pathToFileURL(resolve(dir, "country.ts")).href);
@@ -91,7 +92,7 @@ for (const code of readdirSync(root)) {
   }
 
   for (const [locale, messages] of Object.entries(messagesByLocale)) {
-    for (const key of ["country.homeTitle", "country.homePitch", "country.legal.authority", "country.legal.governingLaw"]) {
+    for (const key of ["country.homeTitle", "country.homePitch", "country.legal.authority", "country.legal.governingLaw", "country.legal.consumerLaw"]) {
       if (typeof lookup(messages, key) !== "string") fail(`locales/${locale}.json`, `${key} absent`);
     }
   }

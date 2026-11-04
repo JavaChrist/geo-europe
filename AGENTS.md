@@ -15,6 +15,7 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 ## Where things live
 - `src/engine/`: types and game logic, with no React, Next, Firebase or UI import
 - `content/<country>/`: country config, regions, media credits, content translations
+- `content/_shared/`: publisher and web host shared by every country. Not a country: `check-content` skips folders starting with `_`.
 - `src/i18n/locales/`: interface text shared by every country
 - `src/ui/`: shared components, including the modal system
 - `src/features/`: screens and features
@@ -35,4 +36,4 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - Modify other JavaChrist projects, including JavaChrist-Promotions.
 
 ## Before the first production deploy
-Remove `/api/health`, which is the example server route. `/demo` is a development tool: it answers 404 in every build and no menu links to it. Fill every `legal` field left at `null` in `content/<country>/country.ts`, then have the legal texts reviewed.
+Remove `/api/health`, which is the example server route. `/demo` is a development tool: it answers 404 in every build and no menu links to it. Fill every `legal` field left at `null` in `content/<country>/country.ts` and `content/_shared/legal.ts`. Confirm the `RCS Toulouse` registry against the official extract. Confirm the VAT regime and the mediator membership, then set `legal.vat.confirmed` and `legal.mediator.confirmed` to `true`, which removes the warning shown on screen. Have the legal texts reviewed.

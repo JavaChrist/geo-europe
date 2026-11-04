@@ -37,6 +37,9 @@ export default async function PrivacySectionPage({ params }: { params: Promise<{
       {section.blocks.map((block) => (
         <section key={block.titleKey} className="flex flex-col gap-2 rounded-3xl border border-gold/25 bg-surface/50 p-5">
           <h2 className="font-display text-xl font-semibold">{t(block.titleKey)}</h2>
+          {block.pendsOn && !content.country.legal[block.pendsOn].confirmed && (
+            <p className="text-sm text-gold">{t("privacy.pendingValidation")}</p>
+          )}
           <p className="text-ink-soft">{t(block.bodyKey, values)}</p>
         </section>
       ))}
