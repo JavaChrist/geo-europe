@@ -828,6 +828,194 @@
       "photoMidiPyreneesIsard": {
         "title": "Isard des Pyrénées",
         "alt": "Petit ongulé aux cornes noires recourbées, qui observe derrière un rocher sur un versant rocailleux."
+      },
+      "photoBourgognePalaisDucs": {
+        "title": "Palais des ducs de Bourgogne à Dijon",
+        "alt": "Façade classique de pierre claire, avec une grande horloge et un fronton sculpté sous un toit d'ardoise."
+      },
+      "photoBourgognePlaceLiberation": {
+        "title": "Place de la Libération à Dijon",
+        "alt": "Vaste place dallée en demi-cercle, bordée de façades de pierre claire, où des passants s'assoient."
+      },
+      "photoBourgogneChouette": {
+        "title": "La chouette de Notre-Dame de Dijon",
+        "alt": "Petite sculpture de pierre usée par les mains, à l'angle d'un mur d'église."
+      },
+      "photoBourgogneHospices": {
+        "title": "Toits des Hospices de Beaune",
+        "alt": "Toits très pentus couverts de tuiles colorées à motifs géométriques, autour d'une cour."
+      },
+      "photoBourgogneAuxerre": {
+        "title": "Cathédrale Saint-Étienne d'Auxerre",
+        "alt": "Grande cathédrale gothique et maisons anciennes dominant une rivière, vue depuis le quai opposé."
+      },
+      "photoBourgogneNevers": {
+        "title": "Nevers et le pont sur la Loire",
+        "alt": "Long pont de pierre à arches sur un large fleuve, avec une ville au loin."
+      },
+      "photoBourgognePalaisNevers": {
+        "title": "Palais ducal de Nevers",
+        "alt": "Long bâtiment Renaissance de pierre claire, flanqué de tourelles d'escalier, derrière une esplanade."
+      },
+      "photoBourgogneSettons": {
+        "title": "Lac des Settons",
+        "alt": "Grand plan d'eau bordé de forêts, sous un ciel de nuages blancs."
+      },
+      "photoBourgogneSens": {
+        "title": "Portail de la cathédrale de Sens",
+        "alt": "Tympan sculpté de scènes religieuses au-dessus d'une grande porte, encadré de statues."
+      },
+      "photoBourgogneAutun": {
+        "title": "Porte d'Arroux à Autun",
+        "alt": "Ancienne porte romaine à quatre arcades de pierre, surmontée d'une galerie à petites arcades."
+      },
+      "photoBourgogneMoutarde": {
+        "title": "Pots anciens de moutarde de Dijon",
+        "alt": "Deux grands pots anciens décorés et portant une inscription, dans une vitrine."
+      },
+      "photoBourgogneBoeuf": {
+        "title": "Bœuf bourguignon",
+        "alt": "Petite cocotte rouge remplie de morceaux de viande en sauce, avec des carottes."
+      },
+      "photoBourgogneCharolaise": {
+        "title": "Troupeau de charolaises",
+        "alt": "Grandes vaches au pelage blanc crème dans un pré vert."
+      },
+      "photoBourgogneEpoisses": {
+        "title": "Époisses",
+        "alt": "Fromage à croûte orangée, entamé, à la pâte très coulante."
+      },
+      "photoBourgognePainEpices": {
+        "title": "Pain d'épices de Dijon",
+        "alt": "Grand pain brun décoré de fruits sur une planche, entouré de sachets."
+      },
+      "photoBourgognePouletBresse": {
+        "title": "Volailles de Bresse en plein air",
+        "alt": "Poulets au plumage blanc, aux pattes bleutées et à la crête rouge, dans un pré."
+      },
+      "photoBourgogneChablis": {
+        "title": "Vignoble de Chablis",
+        "alt": "Rangs de vigne sur des coteaux doux, au-dessus d'un plan d'eau."
+      },
+      "photoBourgogneRomanee": {
+        "title": "Vigne de la Romanée-Conti",
+        "alt": "Parcelle de vigne bordée d'un muret de pierre, au pied d'un coteau."
+      },
+      "photoBourgogneJambon": {
+        "title": "Jambon persillé",
+        "alt": "Tranches roses marbrées de vert, sur une ardoise, avec des cubes de gelée."
+      },
+      "photoBourgogneAnis": {
+        "title": "Fabrique d'anis de Flavigny",
+        "alt": "Bâtiments anciens d'abbaye, avec une enseigne, dans une rue de village."
+      },
+      "photoBourgogneSolutre": {
+        "title": "Roche de Solutré",
+        "alt": "Grand escarpement calcaire en forme de proue, dominant les vignes et les prés."
+      },
+      "photoBourgogneVezelay": {
+        "title": "Basilique de Vézelay vue du ciel",
+        "alt": "Grande église romane au sommet d'une colline, entourée de toits de village et de campagne."
+      },
+      "photoBourgogneCluny": {
+        "title": "Abbaye de Cluny vue du ciel",
+        "alt": "Haut clocher octogonal et bras d'église subsistant au milieu de bâtiments monastiques et de toits."
+      },
+      "photoBourgogneFontenay": {
+        "title": "Abbaye de Fontenay",
+        "alt": "Façade d'église très sobre, en pierre claire, sur une pelouse, sans sculptures."
+      },
+      "photoBourgogneGuedelon": {
+        "title": "Chantier de Guédelon",
+        "alt": "Château fort de pierre en cours de construction, avec des échafaudages en bois et des ouvriers."
+      },
+      "photoBourgogneTournus": {
+        "title": "Chœur de l'abbatiale de Tournus",
+        "alt": "Intérieur roman en pierre aux tons roses, avec de grosses colonnes et un chœur voûté."
+      },
+      "photoBourgogneParay": {
+        "title": "Abside de la basilique de Paray-le-Monial",
+        "alt": "Chevet roman étagé, couronné de clochers et de chapelles rayonnantes, en pierre dorée."
+      },
+      "photoBourgogneAncy": {
+        "title": "Château d'Ancy-le-Franc vu du ciel",
+        "alt": "Château carré à cour fermée, avec quatre pavillons d'angle, au milieu d'un parc."
+      },
+      "photoBourgogneBussy": {
+        "title": "Château de Bussy-Rabutin",
+        "alt": "Château de pierre claire flanqué de deux grosses tours rondes, sous un ciel nuageux."
+      },
+      "photoBourgogneClosVougeot": {
+        "title": "Château du Clos de Vougeot",
+        "alt": "Château de pierre aux grands toits de tuiles, au milieu de rangs de vigne."
+      },
+      "photoBourgogneCanal": {
+        "title": "Écluse de Pont d'Ouche",
+        "alt": "Chemin bordé d'arbres en fleurs le long d'une voie d'eau, près d'une écluse."
+      },
+      "photoBourgogneSaintFargeau": {
+        "title": "Château de Saint-Fargeau",
+        "alt": "Massif château de brique rose à grosses tours rondes coiffées d'ardoise."
+      },
+      "photoBourgogneVercingetorix": {
+        "title": "Statue de Vercingétorix à Alise-Sainte-Reine",
+        "alt": "Grande statue de guerrier moustachu aux cheveux longs, dressée sur un socle, avec une épée."
+      },
+      "photoBourgogneFaience": {
+        "title": "Plat en faïence de Nevers",
+        "alt": "Grand plat ovale orné de personnages, en bleu sur fond blanc."
+      },
+      "photoBourgogneTastevin": {
+        "title": "Vitrail de la confrérie du Tastevin",
+        "alt": "Vitrail coloré montrant un blason surmonté d'un casque, entouré de grappes et de feuilles de vigne."
+      },
+      "photoBourgogneSaintVincent": {
+        "title": "Saint-Vincent tournante à Prissé",
+        "alt": "Défilé de personnes en habits de cérémonie et bannières colorées dans une rue de village."
+      },
+      "photoBourgogneMagny": {
+        "title": "Stands du circuit de Nevers Magny-Cours",
+        "alt": "Longue rangée de stands blancs en bord de piste automobile."
+      },
+      "photoBourgognePuitsMoise": {
+        "title": "Moïse au Puits de Moïse à Dijon",
+        "alt": "Sculpture de pierre d'un vieil homme à la longue barbe bouclée."
+      },
+      "photoBourgogneSourceSeine": {
+        "title": "Source de la Seine",
+        "alt": "Statue de femme allongée dans une grotte artificielle de pierre, entourée de verdure."
+      },
+      "photoBourgogneArcy": {
+        "title": "Entrée de la Grande Grotte d'Arcy-sur-Cure",
+        "alt": "Ouverture sombre dans une paroi de calcaire, au bord d'une forêt."
+      },
+      "photoBourgogneLouhans": {
+        "title": "Arcades de Louhans",
+        "alt": "Longue rue bordée de maisons anciennes reposant sur des arcades à colonnes."
+      },
+      "photoBourgogneNiepce": {
+        "title": "Point de vue du Gras, par Niépce",
+        "alt": "Image très contrastée et floue en noir et blanc montrant des toits et des bâtiments vus d'une fenêtre."
+      },
+      "photoBourgogneEscargots": {
+        "title": "Escargots à la bourguignonne",
+        "alt": "Assiette de coquilles garnies d'un beurre vert."
+      },
+      "photoBourgogneSemur": {
+        "title": "Semur-en-Auxois",
+        "alt": "Ville perchée au-dessus d'une rivière, avec de grosses tours rondes et un pont de pierre."
+      },
+      "photoBourgogneGougeres": {
+        "title": "Kir et gougères",
+        "alt": "Petits choux dorés dans une assiette, à côté de verres remplis d'une boisson rouge."
+      },
+      "photoBourgogneCassis": {
+        "title": "Liqueurs de cassis de Bourgogne",
+        "alt": "Bouteilles de liqueur sombre, avec des étiquettes, préparées pour une dégustation."
+      },
+      "photoBourgogneTonneau": {
+        "title": "Pièce de la vente des vins de Beaune",
+        "alt": "Fût de chêne marqué et décoré, posé dans un cellier."
       }
     }
   },
@@ -855,10 +1043,13 @@
     "10": "Aube",
     "11": "Aude",
     "12": "Aveyron",
+    "21": "Côte-d'Or",
+    "25": "Doubs",
     "30": "Gard",
     "31": "Haute-Garonne",
     "32": "Gers",
     "34": "Hérault",
+    "39": "Jura",
     "46": "Lot",
     "48": "Lozère",
     "51": "Marne",
@@ -866,13 +1057,18 @@
     "54": "Meurthe-et-Moselle",
     "55": "Meuse",
     "57": "Moselle",
+    "58": "Nièvre",
     "65": "Hautes-Pyrénées",
     "66": "Pyrénées-Orientales",
     "67": "Bas-Rhin",
     "68": "Haut-Rhin",
+    "70": "Haute-Saône",
+    "71": "Saône-et-Loire",
     "81": "Tarn",
     "82": "Tarn-et-Garonne",
     "88": "Vosges",
+    "89": "Yonne",
+    "90": "Territoire de Belfort",
     "08": "Ardennes",
     "09": "Ariège"
   },
@@ -1048,7 +1244,43 @@
     "auvillar": "Auvillar",
     "lauzerte": "Lauzerte",
     "bruniquel": "Bruniquel",
-    "saint-antonin-noble-val": "Saint-Antonin-Noble-Val"
+    "saint-antonin-noble-val": "Saint-Antonin-Noble-Val",
+    "dijon": "Dijon",
+    "beaune": "Beaune",
+    "semur-en-auxois": "Semur-en-Auxois",
+    "montbard": "Montbard",
+    "chatillon-sur-seine": "Châtillon-sur-Seine",
+    "nuits-saint-georges": "Nuits-Saint-Georges",
+    "flavigny-sur-ozerain": "Flavigny-sur-Ozerain",
+    "epoisses": "Époisses",
+    "vougeot": "Vougeot",
+    "meursault": "Meursault",
+    "nevers": "Nevers",
+    "clamecy": "Clamecy",
+    "chateau-chinon": "Château-Chinon",
+    "cosne-cours-sur-loire": "Cosne-Cours-sur-Loire",
+    "decize": "Decize",
+    "la-charite-sur-loire": "La Charité-sur-Loire",
+    "pouilly-sur-loire": "Pouilly-sur-Loire",
+    "macon": "Mâcon",
+    "chalon-sur-saone": "Chalon-sur-Saône",
+    "autun": "Autun",
+    "le-creusot": "Le Creusot",
+    "tournus": "Tournus",
+    "cluny": "Cluny",
+    "paray-le-monial": "Paray-le-Monial",
+    "louhans": "Louhans",
+    "digoin": "Digoin",
+    "charolles": "Charolles",
+    "montceau-les-mines": "Montceau-les-Mines",
+    "auxerre": "Auxerre",
+    "sens": "Sens",
+    "joigny": "Joigny",
+    "avallon": "Avallon",
+    "tonnerre": "Tonnerre",
+    "chablis": "Chablis",
+    "vezelay": "Vézelay",
+    "irancy": "Irancy"
   },
   "territories": {
     "champagne-ardenne": {
@@ -11289,6 +11521,2035 @@
           }
         }
       }
+    },
+    "bourgogne": {
+      "name": "Bourgogne",
+      "description": "Entre Seine, Loire et Saône, un ancien duché d'abbayes romanes, de vignobles aux climats célèbres, de châteaux et de bonnes tables, aujourd'hui au sein de la région Bourgogne-Franche-Comté.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Bourgogne",
+          "description": "Quatre départements, leurs villes et les grands repères d'un territoire entre Morvan, Côte viticole et vallée de la Saône.",
+          "carte-territoire": {
+            "prompt": "Touchez sur la carte le territoire historique de la Bourgogne.",
+            "hint": "C'est la partie ouest de la région, du côté de la Loire.",
+            "anecdote": "La Bourgogne forme l'ouest de la région actuelle. La Franche-Comté en occupe l'est, jusqu'à la frontière suisse."
+          },
+          "nombre-departements": {
+            "prompt": "Combien de départements compte la Bourgogne ?",
+            "hint": "Autant que de saisons dans l'année.",
+            "anecdote": "La Côte-d'Or, la Nièvre, la Saône-et-Loire et l'Yonne formaient l'ancienne région Bourgogne.",
+            "answers": {
+              "quatre": "Quatre",
+              "trois": "Trois",
+              "six": "Six",
+              "huit": "Huit"
+            }
+          },
+          "region-actuelle": {
+            "prompt": "Dans quelle région administrative la Bourgogne se trouve-t-elle depuis 2016 ?",
+            "hint": "Son nom associe deux anciennes régions voisines.",
+            "anecdote": "La Bourgogne et la Franche-Comté ont été réunies le 1er janvier 2016. La Bourgogne reste un territoire historique au sein de cette région.",
+            "answers": {
+              "bourgogne-franche-comte": "Bourgogne-Franche-Comté",
+              "grand-est": "Grand Est",
+              "auvergne-rhone-alpes": "Auvergne-Rhône-Alpes",
+              "centre-val-de-loire": "Centre-Val de Loire"
+            }
+          },
+          "chef-lieu-region": {
+            "prompt": "Quelle ville bourguignonne est le chef-lieu de la région actuelle ?",
+            "hint": "Elle est aussi préfecture de la Côte-d'Or.",
+            "anecdote": "Dijon accueille la préfecture de région, tandis que le conseil régional se réunit à Besançon, en Franche-Comté."
+          },
+          "ville-peuplee": {
+            "prompt": "Quelle est la ville la plus peuplée de Bourgogne ?",
+            "hint": "Elle a été la capitale des ducs.",
+            "anecdote": "Avec environ 160 000 habitants, Dijon devance largement Chalon-sur-Saône, Nevers et Auxerre."
+          },
+          "ducs-capitale": {
+            "prompt": "Quels souverains ont fait de Dijon leur capitale au Moyen Âge ?",
+            "hint": "Leur titre porte le nom du territoire.",
+            "anecdote": "Les ducs ont régné sur un vaste État jusqu'en 1477. Leur palais abrite aujourd'hui la mairie et le musée des Beaux-Arts.",
+            "answers": {
+              "les-ducs-de-bourgogne": "Les ducs de Bourgogne",
+              "les-comtes-de-toulouse": "Les comtes de Toulouse",
+              "les-rois-de-navarre": "Les rois de Navarre",
+              "les-ducs-de-savoie": "Les ducs de Savoie"
+            }
+          },
+          "route-grands-crus": {
+            "prompt": "Quelle route touristique relie Dijon à Santenay en longeant les vignes ?",
+            "hint": "Son nom évoque les plus grands vins.",
+            "anecdote": "Longue d'environ 60 kilomètres, elle traverse Gevrey-Chambertin, Vougeot, Nuits-Saint-Georges, Beaune et Pommard.",
+            "answers": {
+              "la-route-des-grands-crus": "La route des Grands Crus",
+              "la-route-napoleon": "La route Napoléon",
+              "la-route-des-cretes": "La route des Crêtes",
+              "la-route-du-sel": "La route du Sel"
+            }
+          },
+          "autoroute-soleil": {
+            "prompt": "Quelle autoroute, surnommée autoroute du Soleil, traverse la Bourgogne du nord au sud ?",
+            "hint": "Elle relie Paris à Lyon.",
+            "anecdote": "Elle dessert notamment Auxerre, Beaune, Chalon-sur-Saône et Mâcon, avant de rejoindre Lyon.",
+            "answers": {
+              "l-a6": "L'A6",
+              "l-a10": "L'A10",
+              "l-a4": "L'A4",
+              "l-a75": "L'A75"
+            }
+          },
+          "carte-cote-dor": {
+            "prompt": "Touchez sur la carte le département de la Côte-d'Or.",
+            "hint": "C'est le département de Dijon, au nord-est de la Bourgogne.",
+            "anecdote": "Il porte le nom de la côte viticole qui s'étire au sud de Dijon."
+          },
+          "carte-nievre": {
+            "prompt": "Touchez sur la carte le département de la Nièvre.",
+            "hint": "C'est le département le plus à l'ouest, le long de la Loire.",
+            "anecdote": "Il réunit les bords de Loire et une grande partie du massif du Morvan."
+          },
+          "carte-saone-et-loire": {
+            "prompt": "Touchez sur la carte le département de la Saône-et-Loire.",
+            "hint": "C'est le département le plus au sud de la Bourgogne.",
+            "anecdote": "C'est le deuxième département le plus étendu de Bourgogne, derrière la Côte-d'Or. Il va de la Loire à la Bresse."
+          },
+          "carte-yonne": {
+            "prompt": "Touchez sur la carte le département de l'Yonne.",
+            "hint": "C'est le département le plus au nord de la Bourgogne.",
+            "anecdote": "Sa position en fait la porte de la Bourgogne quand on arrive de Paris."
+          },
+          "numero-cote-dor": {
+            "prompt": "Quel numéro porte le département de la Côte-d'Or ?",
+            "hint": "Le plus petit des quatre numéros bourguignons.",
+            "anecdote": "Les départements bourguignons portent les numéros 21, 58, 71 et 89, suivant l'ordre alphabétique français.",
+            "answers": {
+              "21": "21",
+              "58": "58",
+              "71": "71",
+              "89": "89"
+            }
+          },
+          "numero-71": {
+            "prompt": "Quel département bourguignon porte le numéro 71 ?",
+            "hint": "Son nom associe deux cours d'eau.",
+            "anecdote": "La Saône-et-Loire tire son nom de la rivière qui traverse son est et du fleuve qui longe son ouest.",
+            "answers": {
+              "la-saone-et-loire": "La Saône-et-Loire",
+              "la-cote-d-or": "La Côte-d'Or",
+              "la-nievre": "La Nièvre",
+              "l-yonne": "L'Yonne"
+            }
+          },
+          "chablis-departement": {
+            "prompt": "Dans quel département se trouve la ville de Chablis ?",
+            "hint": "C'est le plus au nord des quatre.",
+            "anecdote": "Chablis se trouve à une vingtaine de kilomètres d'Auxerre, sur les bords du Serein.",
+            "answers": {
+              "l-yonne": "L'Yonne",
+              "la-cote-d-or": "La Côte-d'Or",
+              "la-nievre": "La Nièvre",
+              "la-saone-et-loire": "La Saône-et-Loire"
+            }
+          },
+          "cluny-departement": {
+            "prompt": "Dans quel département se trouve l'abbaye de Cluny ?",
+            "hint": "C'est le département de Mâcon.",
+            "anecdote": "Cluny est située dans le Mâconnais, à une vingtaine de kilomètres au nord-ouest de Mâcon.",
+            "answers": {
+              "la-saone-et-loire": "La Saône-et-Loire",
+              "l-yonne": "L'Yonne",
+              "la-cote-d-or": "La Côte-d'Or",
+              "la-nievre": "La Nièvre"
+            }
+          },
+          "prefecture-cote-dor": {
+            "prompt": "Quelle est la préfecture de la Côte-d'Or ?",
+            "hint": "Sa moutarde est connue dans le monde entier.",
+            "anecdote": "Ancienne capitale des ducs, Dijon a conservé un riche centre historique, inscrit au patrimoine mondial avec les climats du vignoble."
+          },
+          "prefecture-nievre": {
+            "prompt": "Quelle est la préfecture de la Nièvre ?",
+            "hint": "Elle est réputée pour sa faïence.",
+            "anecdote": "Nevers s'étage au-dessus de la Loire, autour de sa cathédrale et de son palais ducal."
+          },
+          "prefecture-saone-et-loire": {
+            "prompt": "Quelle est la préfecture de la Saône-et-Loire ?",
+            "hint": "Le poète Lamartine y est né.",
+            "anecdote": "Ce n'est pas la plus grande ville du département, Chalon-sur-Saône étant plus peuplée."
+          },
+          "prefecture-yonne": {
+            "prompt": "Quelle est la préfecture de l'Yonne ?",
+            "hint": "Son club de football a été champion de France en 1996.",
+            "anecdote": "Auxerre se reconnaît à sa tour de l'Horloge et à ses églises dominant la rivière."
+          },
+          "carte-dijon": {
+            "prompt": "Touchez sur la carte le département dont Dijon est la préfecture.",
+            "hint": "Il se trouve dans le nord-est de la Bourgogne.",
+            "anecdote": "Dijon est à la fois préfecture de la Côte-d'Or et chef-lieu de la région."
+          },
+          "carte-nevers": {
+            "prompt": "Touchez sur la carte le département dont Nevers est la préfecture.",
+            "hint": "La Loire marque sa limite ouest.",
+            "anecdote": "Nevers est la préfecture de la Nièvre, au confluent de la rivière du même nom et de la Loire."
+          },
+          "carte-macon": {
+            "prompt": "Touchez sur la carte le département dont Mâcon est la préfecture.",
+            "hint": "Il se trouve au sud de la Bourgogne.",
+            "anecdote": "Mâcon est la préfecture de la Saône-et-Loire, sur la rive droite de la Saône."
+          },
+          "carte-auxerre": {
+            "prompt": "Touchez sur la carte le département dont Auxerre est la préfecture.",
+            "hint": "Il se trouve au nord de la Bourgogne.",
+            "anecdote": "Auxerre est la préfecture de l'Yonne, au bord de la rivière qui a donné son nom au département."
+          },
+          "capitale-vins": {
+            "prompt": "Quelle ville de Côte-d'Or est surnommée la capitale des vins de Bourgogne ?",
+            "hint": "Elle abrite un célèbre hôtel-Dieu du XVe siècle.",
+            "anecdote": "Le négoce du vin y est installé de longue date et une grande vente de charité s'y tient chaque mois de novembre."
+          },
+          "ville-schneider": {
+            "prompt": "Quelle ville industrielle de Saône-et-Loire a grandi autour de la famille Schneider ?",
+            "hint": "Son nom commence par un article.",
+            "anecdote": "À partir de 1836, les frères Schneider y développent un immense complexe de forges et d'ateliers."
+          },
+          "maire-mitterrand": {
+            "prompt": "De quelle petite ville du Morvan François Mitterrand a-t-il été le maire ?",
+            "hint": "Elle se trouve dans la Nièvre et son nom contient un accent circonflexe.",
+            "anecdote": "Il en a été le maire de 1959 à 1981. Un musée y présente les cadeaux reçus pendant sa présidence.",
+            "answers": {
+              "saulieu": "Saulieu"
+            }
+          },
+          "riviere-saone": {
+            "prompt": "Quelle grande rivière arrose à la fois Chalon et Mâcon ?",
+            "hint": "Elle donne la première moitié du nom du département.",
+            "anecdote": "Elle coule du nord au sud dans une large plaine, avant de rejoindre le Rhône à Lyon.",
+            "answers": {
+              "la-saone": "La Saône",
+              "la-loire": "La Loire",
+              "l-yonne": "L'Yonne",
+              "la-seine": "La Seine"
+            }
+          },
+          "fleuve-nevers": {
+            "prompt": "Quel grand fleuve coule au pied de Nevers ?",
+            "hint": "C'est le plus long fleuve de France.",
+            "anecdote": "Il borde l'ouest de la Bourgogne, où il forme de larges bancs de sable.",
+            "answers": {
+              "la-loire": "La Loire",
+              "la-seine": "La Seine",
+              "le-rhone": "Le Rhône",
+              "la-garonne": "La Garonne"
+            }
+          },
+          "riviere-auxerre": {
+            "prompt": "Quelle rivière traverse la ville d'Auxerre ?",
+            "hint": "Elle a donné son nom au département.",
+            "anecdote": "Née dans le Morvan, elle a longtemps transporté le bois vers Paris avant de se jeter dans la Seine.",
+            "answers": {
+              "l-yonne": "L'Yonne",
+              "l-armancon": "L'Armançon",
+              "la-cure": "La Cure",
+              "l-ouche": "L'Ouche"
+            }
+          },
+          "massif-morvan": {
+            "prompt": "Quel massif granitique et boisé occupe le cœur de la Bourgogne ?",
+            "hint": "Son nom viendrait de mots celtiques signifiant la montagne noire.",
+            "anecdote": "Ce massif de forêts et de lacs est protégé par un parc naturel régional créé en 1970.",
+            "answers": {
+              "le-morvan": "Le Morvan",
+              "le-jura": "Le Jura",
+              "les-vosges": "Les Vosges",
+              "le-vercors": "Le Vercors"
+            }
+          },
+          "parc-quatre-departements": {
+            "prompt": "Sur combien de départements s'étend le parc naturel régional du Morvan ?",
+            "hint": "Il touche tous les départements bourguignons.",
+            "anecdote": "Il couvre une partie de la Côte-d'Or, de la Nièvre, de la Saône-et-Loire et de l'Yonne.",
+            "answers": {
+              "quatre": "Quatre",
+              "un": "Un",
+              "deux": "Deux",
+              "trois": "Trois"
+            }
+          },
+          "plaine-bresse": {
+            "prompt": "Quelle plaine de l'est de la Saône-et-Loire est réputée pour ses volailles ?",
+            "hint": "Louhans en est la capitale bourguignonne.",
+            "anecdote": "Elle s'étend aussi sur l'Ain et le Jura. Ses fermes à colombages et ses volailles en font la réputation.",
+            "answers": {
+              "la-bresse": "La Bresse",
+              "la-beauce": "La Beauce",
+              "la-brie": "La Brie",
+              "la-sologne": "La Sologne"
+            }
+          },
+          "photo-place-liberation": {
+            "prompt": "Cette place en demi-cercle s'ouvre devant le palais des ducs. Dans quelle ville se trouve-t-elle ?",
+            "hint": "C'est la capitale historique des ducs.",
+            "anecdote": "La place de la Libération a été dessinée à la fin du XVIIe siècle par Jules Hardouin-Mansart et Martin de Noinville, à la gloire de Louis XIV."
+          },
+          "photo-auxerre": {
+            "prompt": "Cette cathédrale Saint-Étienne domine les quais de l'Yonne. Quelle ville voyez-vous ?",
+            "hint": "C'est la préfecture du département.",
+            "anecdote": "Commencée au XIIIe siècle, la cathédrale d'Auxerre n'a gardé qu'une seule tour achevée."
+          },
+          "photo-nevers": {
+            "prompt": "Quelle ville bourguignonne s'élève ici au-dessus de la Loire ?",
+            "hint": "C'est l'ancienne capitale du Nivernais.",
+            "anecdote": "Sa cathédrale Saint-Cyr-et-Sainte-Julitte, dominant le fleuve, est l'un des rares édifices français à posséder deux absides opposées."
+          },
+          "photo-settons": {
+            "prompt": "Ce lac du Morvan a été créé au XIXe siècle pour faciliter le flottage du bois. Lequel est-ce ?",
+            "hint": "Son nom se termine en s et il est le plus touristique du massif.",
+            "anecdote": "Son barrage, construit dans les années 1850, retenait l'eau de la Cure pour lancer les trains de bois vers Paris. Le lac est aujourd'hui un lieu de baignade et de voile.",
+            "answers": {
+              "le-lac-des-settons": "Le lac des Settons",
+              "le-lac-de-panneciere": "Le lac de Pannecière",
+              "le-lac-de-chaumecon": "Le lac de Chaumeçon",
+              "le-lac-de-saint-agnan": "Le lac de Saint-Agnan"
+            }
+          },
+          "photo-canal": {
+            "prompt": "Cette écluse appartient au canal qui relie l'Yonne à la Saône. Comment se nomme-t-il ?",
+            "hint": "Il porte le nom du territoire.",
+            "anecdote": "Long d'environ 240 kilomètres, il compte près de 190 écluses et passe sous le seuil de Pouilly-en-Auxois par un tunnel de plus de 3 kilomètres.",
+            "answers": {
+              "le-canal-de-bourgogne": "Le canal de Bourgogne",
+              "le-canal-du-midi": "Le canal du Midi",
+              "le-canal-de-briare": "Le canal de Briare",
+              "le-canal-de-l-est": "Le canal de l'Est"
+            }
+          },
+          "photo-source-seine": {
+            "prompt": "Cette statue de nymphe veille, en Côte-d'Or, sur la source d'un grand fleuve. Lequel ?",
+            "hint": "Il traverse Paris avant de rejoindre la Manche.",
+            "anecdote": "Le fleuve naît sur le plateau de Langres. La ville de Paris a longtemps possédé ce site et y a fait installer la statue au XIXe siècle.",
+            "answers": {
+              "la-seine": "La Seine",
+              "la-loire": "La Loire",
+              "la-marne": "La Marne",
+              "la-meuse": "La Meuse"
+            }
+          },
+          "photo-semur": {
+            "prompt": "Quelle cité médiévale de Côte-d'Or se dresse ici au-dessus de l'Armançon ?",
+            "hint": "Ses remparts dominent une boucle de la rivière.",
+            "anecdote": "Ses grosses tours rondes et son pont Pinard forment l'une des images les plus connues de la Bourgogne.",
+            "answers": {
+              "saulieu": "Saulieu"
+            }
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs de Bourgogne",
+          "description": "Grands vins, moutarde, fromages, volailles et plats mijotés : une table réputée, ancrée dans ses terroirs.",
+          "photo-boeuf": {
+            "prompt": "Quel plat mijoté au vin rouge voyez-vous dans cette cocotte ?",
+            "hint": "La viande vient d'un grand bovin, et le plat porte le nom du territoire.",
+            "anecdote": "La viande cuit longuement dans le vin avec des lardons, des oignons et des champignons. Plat paysan à l'origine, il permettait d'attendrir des morceaux peu nobles.",
+            "answers": {
+              "le-boeuf-bourguignon": "Le bœuf bourguignon",
+              "la-blanquette-de-veau": "La blanquette de veau",
+              "le-pot-au-feu": "Le pot-au-feu",
+              "le-cassoulet": "Le cassoulet"
+            }
+          },
+          "photo-escargots": {
+            "prompt": "Ces coquilles sont garnies d'un beurre à l'ail et au persil. Quel est ce plat ?",
+            "hint": "On les sert brûlants, souvent par demi-douzaine ou douzaine.",
+            "anecdote": "La recette utilise traditionnellement le gros escargot de Bourgogne, Helix pomatia, aujourd'hui protégé et largement importé.",
+            "answers": {
+              "les-escargots-a-la-bourguignonne": "Les escargots à la bourguignonne",
+              "les-moules-marinieres": "Les moules marinières",
+              "les-huitres-chaudes": "Les huîtres chaudes",
+              "les-bulots-mayonnaise": "Les bulots mayonnaise"
+            }
+          },
+          "photo-jambon": {
+            "prompt": "Cette tranche rose marbrée de vert est une charcuterie bourguignonne servie froide, notamment à Pâques. Laquelle ?",
+            "hint": "Une herbe aromatique donne sa couleur verte à la gelée.",
+            "anecdote": "Des morceaux de viande sont pris dans une gelée parfumée au vin blanc et à l'herbe. Le plat se partage traditionnellement au repas pascal.",
+            "answers": {
+              "le-jambon-persille": "Le jambon persillé",
+              "le-pate-en-croute": "Le pâté en croûte",
+              "la-rosette": "La rosette",
+              "la-tete-de-veau": "La tête de veau"
+            }
+          },
+          "photo-gougeres": {
+            "prompt": "Ces petits choux au fromage accompagnent souvent l'apéritif en Bourgogne. Comment les appelle-t-on ?",
+            "hint": "Leur nom commence par la lettre g.",
+            "anecdote": "Faites de pâte à choux et de fromage, généralement du comté ou de l'emmental, elles se dégustent tièdes.",
+            "answers": {
+              "les-gougeres": "Les gougères",
+              "les-pets-de-nonne": "Les pets-de-nonne",
+              "les-chouquettes": "Les chouquettes",
+              "les-profiteroles": "Les profiteroles"
+            }
+          },
+          "coq-vin": {
+            "prompt": "Quelle volaille mijote traditionnellement au vin rouge dans ce grand plat de la cuisine bourguignonne ?",
+            "hint": "Il chante au lever du jour.",
+            "anecdote": "La longue cuisson au vin attendrit la chair de cette volaille âgée. La sauce est souvent liée au sang.",
+            "answers": {
+              "le-coq": "Le coq",
+              "le-canard": "Le canard",
+              "la-dinde": "La dinde",
+              "l-oie": "L'oie"
+            }
+          },
+          "oeufs-meurette": {
+            "prompt": "Quel aliment est poché, puis servi dans la sauce au vin rouge appelée meurette ?",
+            "hint": "Il vient de la poule.",
+            "anecdote": "La sauce associe vin rouge, lardons, oignons et champignons. Elle se sert sur des croûtons.",
+            "answers": {
+              "l-oeuf": "L'œuf",
+              "la-pomme-de-terre": "La pomme de terre",
+              "le-pigeon": "Le pigeon",
+              "la-poire": "La poire"
+            }
+          },
+          "pochouse": {
+            "prompt": "Quel plat de la Saône et du Doubs associe des poissons de rivière et du vin blanc ?",
+            "hint": "Son nom viendrait de celui donné en patois aux pêcheurs et bateliers de Verdun-sur-le-Doubs.",
+            "anecdote": "Verdun-sur-le-Doubs en a fait sa spécialité. On y met notamment de l'anguille, de la tanche, de la perche et du brochet.",
+            "answers": {
+              "la-pochouse": "La pochouse",
+              "la-bouillabaisse": "La bouillabaisse",
+              "la-bourride": "La bourride",
+              "la-cotriade": "La cotriade"
+            }
+          },
+          "saupiquet": {
+            "prompt": "Dans le saupiquet des Amognes, plat de la Nièvre, quelle viande est servie avec une sauce crémée ?",
+            "hint": "C'est une viande de porc.",
+            "anecdote": "Ce plat du Nivernais présente des tranches poêlées, nappées d'une sauce relevée au vin, au vinaigre et à la crème.",
+            "answers": {
+              "du-jambon": "Du jambon",
+              "du-canard": "Du canard",
+              "du-lapin": "Du lapin",
+              "du-veau": "Du veau"
+            }
+          },
+          "photo-epoisses": {
+            "prompt": "Quel fromage de Côte-d'Or à croûte orangée et à pâte coulante voyez-vous ici ?",
+            "hint": "Il porte le nom d'un village de l'Auxois, doté d'un château.",
+            "anecdote": "Fait de lait de vache, ce fromage est protégé par une appellation depuis 1991. Sa croûte est lavée durant l'affinage.",
+            "answers": {
+              "l-epoisses": "L'époisses",
+              "le-camembert": "Le camembert",
+              "le-comte": "Le comté",
+              "le-saint-nectaire": "Le saint-nectaire"
+            }
+          },
+          "lavage-marc": {
+            "prompt": "Quelle eau-de-vie lave la croûte de l'époisses pendant son affinage ?",
+            "hint": "Elle est tirée des résidus du pressurage du raisin.",
+            "anecdote": "Ce lavage donne au fromage sa couleur et sa forte odeur.",
+            "answers": {
+              "le-marc-de-bourgogne": "Le marc de Bourgogne",
+              "le-cognac": "Le cognac",
+              "le-calvados": "Le calvados",
+              "l-armagnac": "L'armagnac"
+            }
+          },
+          "fromage-citeaux": {
+            "prompt": "Qui fabrique le fromage de l'abbaye de Cîteaux, en Côte-d'Or ?",
+            "hint": "Ils vivent en communauté dans l'abbaye.",
+            "anecdote": "Les trappistes de l'abbaye le fabriquent à partir du lait de leur troupeau.",
+            "answers": {
+              "les-moines": "Les moines",
+              "les-vignerons": "Les vignerons",
+              "les-bergers-du-jura": "Les bergers du Jura",
+              "les-maitres-d-ecole": "Les maîtres d'école"
+            }
+          },
+          "lait-charolais": {
+            "prompt": "Avec quel lait le fromage appelé charolais est-il fabriqué ?",
+            "hint": "Malgré son nom, il ne vient pas de la célèbre vache blanche.",
+            "anecdote": "Ce fromage en forme de petit tonneau a obtenu l'AOC en 2010, puis l'AOP en 2014. Sa production est fermière et artisanale.",
+            "answers": {
+              "de-chevre": "De chèvre",
+              "de-vache": "De vache",
+              "de-brebis": "De brebis",
+              "de-bufflonne": "De bufflonne"
+            }
+          },
+          "carte-epoisses": {
+            "prompt": "Touchez sur la carte le département du village d'Époisses.",
+            "hint": "Son nom évoque l'or.",
+            "anecdote": "Ce village de l'Auxois se trouve en Côte-d'Or, à l'ouest de Dijon, non loin de Semur-en-Auxois."
+          },
+          "photo-moutarde": {
+            "prompt": "Ces pots anciens gardent le souvenir d'un condiment dijonnais. Quel ingrédient a remplacé le vinaigre dans sa recette en 1856 ?",
+            "hint": "C'est un jus acide, tiré de raisins encore verts.",
+            "anecdote": "En 1856, le Dijonnais Jean Naigeon introduit ce jus de raisin vert, qui donne un condiment plus blanc et plus doux.",
+            "answers": {
+              "le-verjus": "Le verjus",
+              "le-cidre": "Le cidre",
+              "le-citron": "Le citron",
+              "le-vin-rose": "Le vin rosé"
+            }
+          },
+          "condiment-dijon": {
+            "prompt": "Quel condiment piquant fait la renommée mondiale de Dijon ?",
+            "hint": "Il accompagne souvent le rôti et les vinaigrettes.",
+            "anecdote": "Le nom de Dijon désigne une recette et n'est pas protégé. Une indication géographique protège en revanche la moutarde de Bourgogne.",
+            "answers": {
+              "la-moutarde": "La moutarde",
+              "le-ketchup": "Le ketchup",
+              "le-raifort": "Le raifort",
+              "le-wasabi": "Le wasabi"
+            }
+          },
+          "photo-charolaise": {
+            "prompt": "À quelle grande race à viande, née en Bourgogne, appartiennent ces vaches blanches ?",
+            "hint": "Elle porte le nom d'un pays de Saône-et-Loire.",
+            "anecdote": "Élevée aujourd'hui dans le monde entier, elle a été développée dans le Charollais et le Brionnais.",
+            "answers": {
+              "la-charolaise": "La charolaise",
+              "la-limousine": "La limousine",
+              "la-salers": "La salers",
+              "l-aubrac": "L'aubrac"
+            }
+          },
+          "marche-bovins": {
+            "prompt": "Quel village de Saône-et-Loire accueille chaque semaine un célèbre marché aux bovins ?",
+            "hint": "Son nom se termine par celui du pays voisin du Charollais.",
+            "anecdote": "Né à la fin du Moyen Âge, ce marché réunit chaque mercredi matin éleveurs et négociants. Les bêtes s'y vendent de gré à gré ou, depuis 2009, au cadran.",
+            "answers": {
+              "saint-christophe-en-brionnais": "Saint-Christophe-en-Brionnais",
+              "saint-fargeau": "Saint-Fargeau",
+              "saint-leger-vauban": "Saint-Léger-Vauban",
+              "saint-bris-le-vineux": "Saint-Bris-le-Vineux"
+            }
+          },
+          "photo-poulet-bresse": {
+            "prompt": "Quelle volaille à l'appellation protégée reconnaît-on à son plumage blanc et à ses pattes bleues ?",
+            "hint": "Elle vient de la plaine dont Louhans est une capitale.",
+            "anecdote": "Elle est élevée en plein air sur un territoire partagé entre l'Ain, la Saône-et-Loire et le Jura. Son appellation date de 1957.",
+            "answers": {
+              "la-volaille-de-bresse": "La volaille de Bresse",
+              "le-poulet-de-loue": "Le poulet de Loué",
+              "le-chapon-du-perigord": "Le chapon du Périgord",
+              "la-poularde-du-mans": "La poularde du Mans"
+            }
+          },
+          "couleurs-poulet": {
+            "prompt": "Plumes blanches, pattes bleues, crête rouge : qu'évoquent les couleurs du célèbre poulet de la Bresse ?",
+            "hint": "On les voit flotter sur les bâtiments publics.",
+            "anecdote": "Cette ressemblance avec les trois couleurs nationales a contribué à sa popularité.",
+            "answers": {
+              "le-drapeau-francais": "Le drapeau français",
+              "le-blason-de-dijon": "Le blason de Dijon",
+              "le-maillot-de-l-aj-auxerre": "Le maillot de l'AJ Auxerre",
+              "les-tuiles-de-beaune": "Les tuiles de Beaune"
+            }
+          },
+          "photo-pain-epices": {
+            "prompt": "Quelle spécialité dijonnaise, préparée au miel, voyez-vous sur cette planche ?",
+            "hint": "Son nom contient le mot pain.",
+            "anecdote": "La maison Mulot et Petitjean en fabrique à Dijon depuis 1796. On trouve aussi sa version en nonnettes fourrées.",
+            "answers": {
+              "le-pain-d-epices": "Le pain d'épices",
+              "le-quatre-quarts": "Le quatre-quarts",
+              "le-kouglof": "Le kouglof",
+              "le-far": "Le far"
+            }
+          },
+          "photo-anis": {
+            "prompt": "Dans cette ancienne abbaye de Côte-d'Or, quelle petite confiserie ronde est fabriquée ?",
+            "hint": "Une graine aromatique se cache en son cœur.",
+            "anecdote": "Elle est fabriquée à Flavigny-sur-Ozerain, depuis des siècles, dans les murs de l'abbaye. Le village a servi de décor au film Le Chocolat.",
+            "answers": {
+              "les-anis": "Les anis",
+              "les-calissons": "Les calissons",
+              "les-betises": "Les bêtises",
+              "les-bergamotes": "Les bergamotes"
+            }
+          },
+          "nougatine": {
+            "prompt": "Quelle confiserie au caramel et aux amandes a fait la réputation de Nevers ?",
+            "hint": "Son nom ressemble à celui d'une friandise de Montélimar.",
+            "anecdote": "Elle aurait été offerte à l'impératrice Eugénie lors de son passage à Nevers en 1862, ce qui a lancé sa notoriété.",
+            "answers": {
+              "la-nougatine": "La nougatine",
+              "le-pralin": "Le pralin",
+              "le-berlingot": "Le berlingot",
+              "le-fruit-confit": "Le fruit confit"
+            }
+          },
+          "negus": {
+            "prompt": "Quel bonbon de Nevers, au caramel mou chocolaté enrobé de sucre cuit, porte le nom d'un titre des empereurs d'Éthiopie ?",
+            "hint": "Son nom commence par un N.",
+            "anecdote": "Il a été créé vers 1900 par la confiserie Grelier, en hommage à Ménélik II.",
+            "answers": {
+              "le-negus": "Le négus",
+              "le-sultan": "Le sultan",
+              "le-shah": "Le shah",
+              "le-pharaon": "Le pharaon"
+            }
+          },
+          "creme-dijon": {
+            "prompt": "De quel petit fruit noir la célèbre crème de Dijon est-elle tirée ?",
+            "hint": "Il pousse en grappes sur des arbustes.",
+            "anecdote": "Cette liqueur se prépare depuis le XIXe siècle avec une variété locale, et l'appellation Crème de cassis de Dijon est protégée.",
+            "answers": {
+              "le-cassis": "Le cassis",
+              "la-myrtille": "La myrtille",
+              "la-mure": "La mûre",
+              "la-prune": "La prune"
+            }
+          },
+          "pinot-noir": {
+            "prompt": "Quel cépage produit les grands vins rouges de la Côte de Nuits ?",
+            "hint": "Son nom comprend celui d'une couleur.",
+            "anecdote": "En Bourgogne, ce cépage donne des vins élégants, le plus souvent en mono-cépage. La Bourgogne l'a largement fait connaître.",
+            "answers": {
+              "le-pinot-noir": "Le pinot noir",
+              "le-merlot": "Le merlot",
+              "la-syrah": "La syrah",
+              "le-cabernet-sauvignon": "Le cabernet-sauvignon"
+            }
+          },
+          "chardonnay": {
+            "prompt": "Quel cépage donne les grands vins blancs de Bourgogne, de Chablis à Meursault ?",
+            "hint": "Un village du Mâconnais porte le même nom.",
+            "anecdote": "Ce cépage a conquis les vignobles du monde entier, mais ses références restent bourguignonnes.",
+            "answers": {
+              "le-chardonnay": "Le chardonnay",
+              "le-muscadet": "Le muscadet",
+              "le-riesling": "Le riesling",
+              "le-viognier": "Le viognier"
+            }
+          },
+          "aligote": {
+            "prompt": "Quel cépage blanc bourguignon entre traditionnellement dans la recette du kir ?",
+            "hint": "Le village de Bouzeron en a fait sa spécialité.",
+            "anecdote": "Ce vin blanc vif équilibre la douceur de la crème de cassis. Il a sa propre appellation, Bourgogne Aligoté.",
+            "answers": {
+              "l-aligote": "L'aligoté",
+              "le-sauvignon": "Le sauvignon",
+              "le-chenin": "Le chenin",
+              "le-semillon": "Le sémillon"
+            }
+          },
+          "photo-chablis": {
+            "prompt": "Quel vignoble de l'Yonne, célèbre pour ses vins blancs secs, voyez-vous ici ?",
+            "hint": "Son nom est aussi celui de sa petite ville, sur le Serein.",
+            "anecdote": "Ses vins, tirés du chardonnay, poussent sur des sols calcaires riches en fossiles d'huîtres. Il compte sept climats de grand cru.",
+            "answers": {
+              "sancerre": "Sancerre",
+              "pommard": "Pommard"
+            }
+          },
+          "carte-chablis": {
+            "prompt": "Touchez sur la carte le département du vignoble de Chablis.",
+            "hint": "C'est le département bourguignon le plus au nord.",
+            "anecdote": "Le vignoble de Chablis se situe dans l'Yonne, près d'Auxerre, bien au nord-ouest de la Côte de Beaune."
+          },
+          "photo-romanee": {
+            "prompt": "Cette parcelle de la Côte de Nuits, d'environ 1,8 hectare, produit l'un des vins les plus chers du monde. Laquelle ?",
+            "hint": "Elle a appartenu à un cousin de Louis XV.",
+            "anecdote": "Cette parcelle de Vosne-Romanée a été acquise en 1760 par le prince de Conti, un cousin de Louis XV. Selon la tradition, il l'aurait emporté sur Madame de Pompadour.",
+            "answers": {
+              "la-romanee-conti": "La Romanée-Conti",
+              "le-chambertin": "Le Chambertin",
+              "le-montrachet": "Le Montrachet",
+              "le-corton": "Le Corton"
+            }
+          },
+          "vin-napoleon": {
+            "prompt": "Selon la tradition, quel empereur appréciait particulièrement le chambertin ?",
+            "hint": "Il aurait emporté ce vin jusque dans ses campagnes.",
+            "anecdote": "Le récit de ce goût impérial a beaucoup contribué au prestige de Gevrey-Chambertin.",
+            "answers": {
+              "napoleon-ier": "Napoléon Ier",
+              "charlemagne": "Charlemagne",
+              "napoleon-iii": "Napoléon III",
+              "maximilien-du-mexique": "Maximilien du Mexique"
+            }
+          },
+          "village-paulee": {
+            "prompt": "Quel village de la Côte de Beaune est réputé pour ses grands vins blancs au goût de noisette ?",
+            "hint": "Son nom a été porté par le héros du roman L'Étranger d'Albert Camus.",
+            "anecdote": "Ce village accueille aussi une célèbre fête, la Paulée, qui clôt les Trois Glorieuses chaque mois de novembre.",
+            "answers": {
+              "gevrey-chambertin": "Gevrey-Chambertin",
+              "vosne-romanee": "Vosne-Romanée"
+            }
+          },
+          "pouilly-fuisse": {
+            "prompt": "Quel vin blanc du Mâconnais pousse au pied des roches de Solutré et de Vergisson ?",
+            "hint": "Son nom est composé de ceux de deux villages.",
+            "anecdote": "Issu du chardonnay, ce vin bénéficie depuis 2020 de la hiérarchie des premiers crus.",
+            "answers": {
+              "le-pouilly-fuisse": "Le pouilly-fuissé",
+              "le-pouilly-fume": "Le pouilly-fumé",
+              "le-saint-bris": "Le saint-bris",
+              "le-rully": "Le rully"
+            }
+          },
+          "pouilly-fume": {
+            "prompt": "Quel vin blanc de sauvignon vient de la Nièvre, sur la rive droite de la Loire ?",
+            "hint": "Son nom évoque la fumée et il ne faut pas le confondre avec un vin du Mâconnais.",
+            "anecdote": "Le vignoble se trouve autour de Pouilly-sur-Loire, face à Sancerre, sur l'autre rive du fleuve.",
+            "answers": {
+              "le-pouilly-fume": "Le pouilly-fumé",
+              "le-pouilly-fuisse": "Le pouilly-fuissé",
+              "le-meursault": "Le meursault",
+              "le-macon": "Le mâcon"
+            }
+          },
+          "carte-pouilly": {
+            "prompt": "Touchez sur la carte le département de Pouilly-sur-Loire.",
+            "hint": "La Loire marque sa limite ouest.",
+            "anecdote": "Pouilly-sur-Loire se trouve dans la Nièvre, en aval de Cosne-Cours-sur-Loire."
+          },
+          "irancy": {
+            "prompt": "Quel village de l'Yonne, niché dans un cirque de collines, est connu pour son vin rouge ?",
+            "hint": "Son nom commence par un I.",
+            "anecdote": "Son appellation, au sud d'Auxerre, associe le pinot noir et parfois un vieux cépage local, le césar."
+          },
+          "cremant": {
+            "prompt": "Comment se nomme le vin effervescent élaboré en Bourgogne selon la méthode traditionnelle ?",
+            "hint": "Son nom ressemble au mot crème.",
+            "anecdote": "Son appellation date de 1975. Les caves souterraines de Bailly, près d'Auxerre, en conservent une grande quantité.",
+            "answers": {
+              "le-cremant": "Le crémant",
+              "le-champagne": "Le champagne",
+              "la-blanquette": "La blanquette",
+              "le-prosecco": "Le prosecco"
+            }
+          },
+          "climats-definition": {
+            "prompt": "Comment appelle-t-on, en Bourgogne, les parcelles de vigne précisément délimitées et nommées depuis des siècles ?",
+            "hint": "Le mot sert habituellement à parler du temps qu'il fait.",
+            "anecdote": "Chaque parcelle possède son nom, son sol et son exposition. Ce découpage très ancien fonde la hiérarchie des vins.",
+            "answers": {
+              "les-climats": "Les climats",
+              "les-bastides": "Les bastides",
+              "les-chais": "Les chais",
+              "les-crus-bourgeois": "Les crus bourgeois"
+            }
+          },
+          "photo-cassis": {
+            "prompt": "Mêlée à du vin blanc, cette liqueur forme quel apéritif, nommé d'après un maire de Dijon ?",
+            "hint": "Ce nom court compte trois lettres.",
+            "anecdote": "Le chanoine Félix Kir, député-maire de Dijon, en a fait la boisson officielle de ses réceptions.",
+            "answers": {
+              "le-kir": "Le kir",
+              "le-spritz": "Le spritz",
+              "le-pastis": "Le pastis",
+              "le-pineau": "Le pineau"
+            }
+          },
+          "chanoine": {
+            "prompt": "Quelle fonction religieuse occupait Félix Kir, le maire de Dijon de 1945 à 1968 ?",
+            "hint": "C'était un membre du clergé d'une cathédrale.",
+            "anecdote": "Résistant et député, cet homme d'Église a dirigé la ville pendant plus de vingt ans.",
+            "answers": {
+              "chanoine": "Chanoine",
+              "pasteur": "Pasteur",
+              "moine-trappiste": "Moine trappiste",
+              "rabbin": "Rabbin"
+            }
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Palais des ducs, grandes abbayes, châteaux et cités d'art : mille ans d'histoire à reconnaître sur le terrain.",
+          "photo-palais-ducs": {
+            "prompt": "Cette façade dijonnaise appartient à un vaste ensemble qui abrite la mairie et le musée des Beaux-Arts. Lequel ?",
+            "hint": "Ses premiers occupants ont régné sur le territoire jusqu'en 1477.",
+            "anecdote": "Agrandi au XVIIe siècle pour les États de la province, cet ensemble conserve aussi les tombeaux de deux souverains.",
+            "answers": {
+              "le-palais-des-ducs-de-bourgogne": "Le palais des ducs de Bourgogne",
+              "le-palais-de-la-berbie": "Le palais de la Berbie",
+              "le-palais-rohan": "Le palais Rohan",
+              "le-palais-des-rois-de-majorque": "Le palais des Rois de Majorque"
+            }
+          },
+          "tour-philippe": {
+            "prompt": "Quel duc a donné son nom à la tour de 46 mètres qui domine Dijon ?",
+            "hint": "Son surnom évoque une qualité morale.",
+            "anecdote": "Élevée au XVe siècle, cette tour se visite encore. Ses 316 marches mènent à une vue étendue sur la ville.",
+            "answers": {
+              "philippe-le-bon": "Philippe le Bon",
+              "charles-le-temeraire": "Charles le Téméraire",
+              "jean-sans-peur": "Jean sans Peur",
+              "philippe-auguste": "Philippe Auguste"
+            }
+          },
+          "chartreuse": {
+            "prompt": "Quel duc fonde en 1383 la chartreuse de Champmol, près de Dijon, pour y installer sa sépulture ?",
+            "hint": "Son surnom évoque le courage.",
+            "anecdote": "Le monastère est détruit à la Révolution, mais le tombeau du fondateur a rejoint le musée des Beaux-Arts de Dijon.",
+            "answers": {
+              "philippe-le-hardi": "Philippe le Hardi",
+              "philippe-le-bon": "Philippe le Bon",
+              "charles-le-temeraire": "Charles le Téméraire",
+              "jean-sans-terre": "Jean sans Terre"
+            }
+          },
+          "photo-hospices": {
+            "prompt": "Fondé en 1443, quel hôtel-Dieu bourguignon reconnaît-on à ces toits de tuiles colorées ?",
+            "hint": "Il se trouve dans la capitale des vins.",
+            "anecdote": "Hôpital jusqu'en 1971, il est devenu un musée visité par des centaines de milliers de personnes chaque année.",
+            "answers": {
+              "les-hospices-de-beaune": "Les Hospices de Beaune",
+              "l-abbaye-de-pontigny": "L'abbaye de Pontigny",
+              "l-hotel-dieu-de-louhans": "L'hôtel-Dieu de Louhans",
+              "l-hotel-dieu-de-tonnerre": "L'hôtel-Dieu de Tonnerre"
+            }
+          },
+          "fondateur-hospices": {
+            "prompt": "Quel chancelier du duc Philippe le Bon a fondé l'hôtel-Dieu de Beaune ?",
+            "hint": "Son épouse, Guigone de Salins, l'a accompagné dans cette fondation.",
+            "anecdote": "L'hôpital est créé à la fin de la guerre de Cent Ans, pour soigner une population appauvrie.",
+            "answers": {
+              "nicolas-rolin": "Nicolas Rolin",
+              "claus-sluter": "Claus Sluter",
+              "jacques-coeur": "Jacques Cœur",
+              "thomas-becket": "Thomas Becket"
+            }
+          },
+          "polyptyque": {
+            "prompt": "Quel grand thème représente le célèbre polyptyque de Rogier van der Weyden conservé à Beaune ?",
+            "hint": "Il montre la pesée des âmes.",
+            "anecdote": "Ce retable flamand était ouvert devant les malades, dans la grande salle de l'hôpital.",
+            "answers": {
+              "le-jugement-dernier": "Le Jugement dernier",
+              "la-cene": "La Cène",
+              "la-nativite": "La Nativité",
+              "l-annonciation": "L'Annonciation"
+            }
+          },
+          "photo-vezelay": {
+            "prompt": "Cette basilique domine une colline de l'Yonne, point de départ d'un chemin vers Compostelle. Où se trouve-t-elle ?",
+            "hint": "Le site est surnommé la colline éternelle.",
+            "anecdote": "La basilique et sa colline sont inscrites au patrimoine mondial de l'Unesco depuis 1979.",
+            "answers": {
+              "a-vezelay": "À Vézelay",
+              "a-noyers": "À Noyers",
+              "a-avallon": "À Avallon",
+              "a-pontigny": "À Pontigny"
+            }
+          },
+          "sainte-vezelay": {
+            "prompt": "À quelle sainte la basilique de Vézelay est-elle dédiée ?",
+            "hint": "Les Évangiles en font le premier témoin de la Résurrection.",
+            "anecdote": "La présence annoncée de ses reliques attire des foules de pèlerins à partir du XIe siècle.",
+            "answers": {
+              "marie-madeleine": "Marie-Madeleine",
+              "bernadette": "Bernadette",
+              "jeanne-d-arc": "Jeanne d'Arc",
+              "genevieve": "Geneviève"
+            }
+          },
+          "carte-vezelay": {
+            "prompt": "Touchez sur la carte le département de la colline de Vézelay.",
+            "hint": "Il se trouve au nord de la Bourgogne, à la limite de la Nièvre.",
+            "anecdote": "Vézelay se trouve dans l'Yonne, en bordure du massif du Morvan."
+          },
+          "croisade": {
+            "prompt": "Quel grand moine prêche la deuxième croisade à Vézelay, en 1146 ?",
+            "hint": "Ce moine cistercien, plus tard canonisé, a marqué tout le XIIe siècle.",
+            "anecdote": "Sa prédication attire une foule considérable, en présence du roi Louis VII.",
+            "answers": {
+              "bernard-de-clairvaux": "Bernard de Clairvaux",
+              "francois-d-assise": "François d'Assise",
+              "thomas-d-aquin": "Thomas d'Aquin",
+              "dominique-de-guzman": "Dominique de Guzmán"
+            }
+          },
+          "photo-cluny": {
+            "prompt": "Il ne reste qu'une partie de cette abbaye de Saône-et-Loire, très influente au Moyen Âge. Laquelle est-ce ?",
+            "hint": "Son nom est aussi celui d'un musée parisien du Moyen Âge.",
+            "anecdote": "Elle a rayonné sur plus d'un millier de maisons. Son église a été en grande partie démolie après la Révolution.",
+            "answers": {
+              "l-abbaye-de-cluny": "L'abbaye de Cluny",
+              "l-abbaye-de-citeaux": "L'abbaye de Cîteaux",
+              "l-abbaye-de-pontigny": "L'abbaye de Pontigny",
+              "l-abbaye-de-fontenay": "L'abbaye de Fontenay"
+            }
+          },
+          "annee-cluny": {
+            "prompt": "En quelle année l'abbaye de Cluny a-t-elle été fondée ?",
+            "hint": "C'est au tout début du Xe siècle.",
+            "anecdote": "Le duc Guillaume d'Aquitaine la place directement sous l'autorité du pape, hors de tout pouvoir local.",
+            "answers": {
+              "910": "910",
+              "1098": "1098",
+              "1209": "1209",
+              "1443": "1443"
+            }
+          },
+          "saint-pierre": {
+            "prompt": "Quelle église a fini par dépasser l'abbatiale de Cluny, longtemps la plus vaste de la chrétienté ?",
+            "hint": "Elle se trouve au Vatican.",
+            "anecdote": "Il a fallu attendre sa reconstruction, au XVIe siècle, pour que l'abbatiale bourguignonne perde ce rang.",
+            "answers": {
+              "saint-pierre-de-rome": "Saint-Pierre de Rome",
+              "notre-dame-de-paris": "Notre-Dame de Paris",
+              "sainte-sophie": "Sainte-Sophie",
+              "saint-paul-de-londres": "Saint-Paul de Londres"
+            }
+          },
+          "ordre-citeaux": {
+            "prompt": "Quel ordre religieux est né en 1098 à Cîteaux, en Côte-d'Or ?",
+            "hint": "Son nom vient du latin de Cîteaux.",
+            "anecdote": "En réaction au faste, ces moines prônent la simplicité et le travail manuel. L'ordre s'est répandu dans toute l'Europe.",
+            "answers": {
+              "les-cisterciens": "Les cisterciens",
+              "les-chartreux": "Les chartreux",
+              "les-franciscains": "Les franciscains",
+              "les-jesuites": "Les jésuites"
+            }
+          },
+          "photo-fontenay": {
+            "prompt": "Fondée en 1118 et inscrite à l'Unesco en 1981, quelle abbaye cistercienne de Côte-d'Or voyez-vous ?",
+            "hint": "Elle se situe non loin de Montbard, dans un vallon boisé.",
+            "anecdote": "C'est l'une des plus anciennes abbayes cisterciennes conservées en Europe, restée d'une grande sobriété.",
+            "answers": {
+              "l-abbaye-de-fontenay": "L'abbaye de Fontenay",
+              "l-abbaye-de-citeaux": "L'abbaye de Cîteaux",
+              "l-abbaye-de-flavigny": "L'abbaye de Flavigny",
+              "l-abbaye-de-vezelay": "L'abbaye de Vézelay"
+            }
+          },
+          "carte-fontenay": {
+            "prompt": "Touchez sur la carte le département de l'abbaye de Fontenay.",
+            "hint": "Il porte le nom d'une côte viticole.",
+            "anecdote": "L'abbaye se trouve à Marmagne, en Côte-d'Or, tout près de Montbard."
+          },
+          "photo-guedelon": {
+            "prompt": "Depuis 1997, on y bâtit un château fort avec les techniques du XIIIe siècle. Quel est ce chantier ?",
+            "hint": "Il se trouve dans une ancienne carrière de la Puisaye.",
+            "anecdote": "Tailleurs de pierre, charpentiers et forgerons y travaillent devant le public, sans machines modernes.",
+            "answers": {
+              "guedelon": "Guédelon",
+              "bussy-rabutin": "Bussy-Rabutin",
+              "pierre-perthuis": "Pierre-Perthuis",
+              "chateauneuf": "Châteauneuf"
+            }
+          },
+          "carte-guedelon": {
+            "prompt": "Touchez sur la carte le département du chantier de Guédelon.",
+            "hint": "C'est le plus au nord de la Bourgogne.",
+            "anecdote": "Le chantier se situe à Treigny, dans l'Yonne, au cœur de la Puisaye."
+          },
+          "photo-tournus": {
+            "prompt": "Dans quelle ville de la vallée de la Saône se trouve cette grande abbatiale romane Saint-Philibert ?",
+            "hint": "Elle se situe entre Chalon et Mâcon.",
+            "anecdote": "Ses piliers massifs et ses pierres roses font de cette abbatiale un chef-d'œuvre du premier art roman.",
+            "answers": {
+              "a-tournus": "À Tournus",
+              "a-autun": "À Autun",
+              "a-sens": "À Sens",
+              "a-cluny": "À Cluny"
+            }
+          },
+          "photo-paray": {
+            "prompt": "Cette basilique du Sacré-Cœur, inspirée de Cluny, se trouve dans quelle ville de Saône-et-Loire ?",
+            "hint": "Son nom se termine par un mot qui évoque les moines.",
+            "anecdote": "Elle en reproduit en réduction les volumes. La ville est aujourd'hui un grand lieu de pèlerinage.",
+            "answers": {
+              "a-paray-le-monial": "À Paray-le-Monial",
+              "a-charolles": "À Charolles",
+              "a-digoin": "À Digoin",
+              "a-autun": "À Autun"
+            }
+          },
+          "alacoque": {
+            "prompt": "Quelle religieuse a fait de Paray-le-Monial un grand centre de la dévotion au Sacré-Cœur ?",
+            "hint": "Elle était visitandine et vivait au XVIIe siècle.",
+            "anecdote": "Ses visions, survenues dans les années 1670, ont lancé un pèlerinage toujours actif.",
+            "answers": {
+              "marguerite-marie-alacoque": "Marguerite-Marie Alacoque",
+              "therese-de-lisieux": "Thérèse de Lisieux",
+              "jeanne-de-chantal": "Jeanne de Chantal",
+              "catherine-laboure": "Catherine Labouré"
+            }
+          },
+          "photo-ancy": {
+            "prompt": "Ce château Renaissance de l'Yonne, à Ancy-le-Franc, est attribué à quel architecte italien ?",
+            "hint": "Il a été invité à la cour de François Ier.",
+            "anecdote": "Son plan carré, très régulier, a beaucoup marqué l'architecture française du XVIe siècle.",
+            "answers": {
+              "sebastiano-serlio": "Sebastiano Serlio",
+              "leonard-de-vinci": "Léonard de Vinci",
+              "andrea-palladio": "Andrea Palladio",
+              "le-bernin": "Le Bernin"
+            }
+          },
+          "photo-bussy": {
+            "prompt": "Quel château de Côte-d'Or, décoré de centaines de portraits par un comte exilé, reconnaissez-vous ?",
+            "hint": "Son nom comporte celui d'une famille restée célèbre grâce à Madame de Sévigné.",
+            "anecdote": "Retiré sur ses terres, ce comte a peint et fait peindre les murs de son château avec beaucoup d'esprit.",
+            "answers": {
+              "le-chateau-de-bussy-rabutin": "Le château de Bussy-Rabutin",
+              "le-chateau-de-tanlay": "Le château de Tanlay",
+              "le-chateau-de-commarin": "Le château de Commarin",
+              "le-chateau-de-sully": "Le château de Sully"
+            }
+          },
+          "exil-bussy": {
+            "prompt": "Quel roi a exilé Roger de Bussy-Rabutin en Bourgogne, après son Histoire amoureuse des Gaules ?",
+            "hint": "Il a régné 72 ans.",
+            "anecdote": "Ce récit satirique visait la cour. Son auteur connaît la Bastille, puis l'exil, à partir de 1666.",
+            "answers": {
+              "louis-xiv": "Louis XIV",
+              "louis-xi": "Louis XI",
+              "henri-iv": "Henri IV",
+              "louis-xv": "Louis XV"
+            }
+          },
+          "photo-clos-vougeot": {
+            "prompt": "Quel domaine, créé par les moines de Cîteaux, voyez-vous au milieu des vignes de la Côte de Nuits ?",
+            "hint": "Ses murs entourent environ 50 hectares d'un seul tenant.",
+            "anecdote": "Les moines y conservaient d'immenses pressoirs. Le château accueille aujourd'hui la grande confrérie des vins.",
+            "answers": {
+              "le-clos-de-vougeot": "Le clos de Vougeot",
+              "le-chateau-de-pommard": "Le château de Pommard",
+              "le-chateau-de-meursault": "Le château de Meursault",
+              "le-clos-de-tart": "Le clos de Tart"
+            }
+          },
+          "photo-saint-fargeau": {
+            "prompt": "Quelle princesse, exilée après la Fronde, a fait transformer ce château de Saint-Fargeau ?",
+            "hint": "Cousine de Louis XIV, elle porte un surnom qui évoque sa taille et son rang.",
+            "anecdote": "Elle y a résidé dans les années 1650. Un grand spectacle historique, donné chaque été depuis 1980, fait revivre le passé du château.",
+            "answers": {
+              "la-grande-mademoiselle": "La Grande Mademoiselle",
+              "madame-de-maintenon": "Madame de Maintenon",
+              "la-reine-margot": "La reine Margot",
+              "marguerite-d-autriche": "Marguerite d'Autriche"
+            }
+          },
+          "photo-autun": {
+            "prompt": "Dans quelle ville de Saône-et-Loire se dresse cette porte romaine d'Arroux ?",
+            "hint": "Son théâtre antique comptait parmi les plus grands de Gaule.",
+            "anecdote": "Elle a conservé plusieurs vestiges de son passé antique, dont deux portes et le temple dit de Janus.",
+            "answers": {
+              "a-autun": "À Autun",
+              "a-macon": "À Mâcon",
+              "a-chalon-sur-saone": "À Chalon-sur-Saône",
+              "a-tournus": "À Tournus"
+            }
+          },
+          "empereur-autun": {
+            "prompt": "Sous quel empereur romain la ville d'Autun a-t-elle été fondée ?",
+            "hint": "Son nom se retrouve dans celui de la cité antique et dans le mois d'août.",
+            "anecdote": "Cette capitale des Éduens romanisés a été présentée comme la sœur et l'émule de Rome.",
+            "answers": {
+              "auguste": "Auguste",
+              "neron": "Néron",
+              "trajan": "Trajan",
+              "marc-aurele": "Marc Aurèle"
+            }
+          },
+          "gislebert": {
+            "prompt": "Quel nom est gravé sous les pieds du Christ, sur le tympan du Jugement dernier de la cathédrale Saint-Lazare d'Autun ?",
+            "hint": "Ce nom a longtemps été considéré comme celui du sculpteur.",
+            "anecdote": "L'inscription « Gislebertus hoc fecit » a longtemps été lue comme une signature, rare à l'époque romane. Certains historiens y voient plutôt un commanditaire. Le tympan date du XIIe siècle.",
+            "answers": {
+              "gislebert": "Gislebert",
+              "claus-sluter": "Claus Sluter",
+              "viollet-le-duc": "Viollet-le-Duc",
+              "francois-rude": "François Rude"
+            }
+          },
+          "carte-autun": {
+            "prompt": "Touchez sur la carte le département d'Autun.",
+            "hint": "C'est le département le plus au sud de la Bourgogne.",
+            "anecdote": "Autun se trouve dans le nord de la Saône-et-Loire, au pied du Morvan."
+          },
+          "photo-sens": {
+            "prompt": "Ce portail appartient à une cathédrale de l'Yonne, souvent présentée comme la première grande église gothique de France. Dans quelle ville ?",
+            "hint": "Son nom en français désigne aussi l'odorat ou le toucher.",
+            "anecdote": "Sa construction commence vers 1135. Elle a accueilli le mariage de saint Louis en 1234.",
+            "answers": {
+              "a-sens": "À Sens",
+              "a-auxerre": "À Auxerre",
+              "a-tonnerre": "À Tonnerre",
+              "a-joigny": "À Joigny"
+            }
+          },
+          "photo-palais-nevers": {
+            "prompt": "Ce palais ducal Renaissance se trouve dans quelle ville de la Nièvre ?",
+            "hint": "Cette ville est celle de la faïence et de la nougatine.",
+            "anecdote": "Élevé à partir du XVe siècle et remanié au XVIe, ce palais est souvent présenté comme le premier des châteaux de la Loire.",
+            "answers": {
+              "a-nevers": "À Nevers",
+              "a-clamecy": "À Clamecy",
+              "a-decize": "À Decize",
+              "a-chateau-chinon": "À Château-Chinon"
+            }
+          },
+          "unesco-climats": {
+            "prompt": "En quelle année les climats du vignoble de Bourgogne ont-ils été inscrits au patrimoine mondial de l'Unesco ?",
+            "hint": "Les climats y sont inscrits avec les centres historiques de Dijon et de Beaune.",
+            "anecdote": "Ce classement protège plus de 1 200 parcelles nommées, entre Dijon et les Maranges.",
+            "answers": {
+              "1979": "1979",
+              "1998": "1998",
+              "2015": "2015",
+              "2021": "2021"
+            }
+          },
+          "charite": {
+            "prompt": "Quelle ville de la Nièvre, au bord de la Loire, est surnommée la fille aînée de Cluny ?",
+            "hint": "Son nom évoque l'hospitalité envers les pauvres.",
+            "anecdote": "Son prieuré a été l'un des plus importants de l'ordre. La ville s'est aussi fait connaître pour ses librairies."
+          },
+          "bernadette": {
+            "prompt": "Quelle sainte, célèbre pour ses apparitions à Lourdes, repose à Nevers ?",
+            "hint": "Elle a rejoint le couvent Saint-Gildard en 1866.",
+            "anecdote": "Elle y a vécu jusqu'à sa mort, en 1879. Son corps, conservé dans une châsse, y est vénéré par des pèlerins du monde entier.",
+            "answers": {
+              "bernadette-soubirous": "Bernadette Soubirous",
+              "therese-de-lisieux": "Thérèse de Lisieux",
+              "jeanne-d-arc": "Jeanne d'Arc",
+              "marguerite-marie-alacoque": "Marguerite-Marie Alacoque"
+            }
+          },
+          "fosse-dionne": {
+            "prompt": "Quelle source bleu-vert, aménagée en lavoir circulaire, fait la curiosité de la ville de Tonnerre ?",
+            "hint": "Son bassin a longtemps servi aux lavandières de la ville.",
+            "anecdote": "Son eau remonte d'un réseau noyé difficile à explorer, qui a nourri bien des légendes locales.",
+            "answers": {
+              "la-fosse-dionne": "La fosse Dionne",
+              "la-source-de-la-seine": "La source de la Seine",
+              "la-fontaine-de-vaucluse": "La fontaine de Vaucluse",
+              "le-gouffre-de-padirac": "Le gouffre de Padirac"
+            }
+          },
+          "lamartine": {
+            "prompt": "Quel poète romantique, auteur du Lac, est né à Mâcon en 1790 ?",
+            "hint": "Il a aussi proclamé la République en 1848.",
+            "anecdote": "Attaché au Mâconnais, il a vécu au château de Saint-Point, où il est enterré.",
+            "answers": {
+              "alphonse-de-lamartine": "Alphonse de Lamartine",
+              "victor-hugo": "Victor Hugo",
+              "alfred-de-musset": "Alfred de Musset",
+              "alfred-de-vigny": "Alfred de Vigny"
+            }
+          },
+          "buffon": {
+            "prompt": "Quel grand naturaliste du XVIIIe siècle, auteur d'une Histoire naturelle, est né à Montbard ?",
+            "hint": "Il a dirigé le Jardin du roi à Paris.",
+            "anecdote": "Il a travaillé dans sa ville natale et a fait bâtir une grande forge tout près de là.",
+            "answers": {
+              "buffon": "Buffon",
+              "lamarck": "Lamarck",
+              "cuvier": "Cuvier",
+              "linne": "Linné"
+            }
+          },
+          "jacquemart": {
+            "prompt": "D'où Philippe le Hardi a-t-il rapporté en 1382 le jacquemart de l'église Notre-Dame de Dijon ?",
+            "hint": "C'est une ville de Flandre aujourd'hui en Belgique.",
+            "anecdote": "Cet automate sonneur de cloches a été pris après la bataille de Roosebeke. Il frappe encore les heures, avec sa famille.",
+            "answers": {
+              "de-courtrai": "De Courtrai",
+              "de-paris": "De Paris",
+              "de-venise": "De Venise",
+              "d-avignon": "D'Avignon"
+            }
+          },
+          "tuiles": {
+            "prompt": "Quelles tuiles dessinent les motifs géométriques colorés des toits bourguignons ?",
+            "hint": "Elles sont recouvertes d'un enduit brillant.",
+            "anecdote": "On en voit à Beaune, à Dijon ou à La Rochepot. Ces toits sont devenus l'un des emblèmes du territoire.",
+            "answers": {
+              "les-tuiles-vernissees": "Les tuiles vernissées",
+              "les-ardoises": "Les ardoises",
+              "les-lauzes": "Les lauzes",
+              "les-tuiles-canal": "Les tuiles canal"
+            }
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Confréries du vin, faïence, fêtes de village, grands noms et circuits automobiles : la Bourgogne vivante.",
+          "photo-chouette": {
+            "prompt": "Cette petite sculpture de l'église Notre-Dame de Dijon porte bonheur à qui la touche. Quel oiseau représente-t-elle ?",
+            "hint": "C'est un rapace nocturne.",
+            "anecdote": "Usée par les mains des passants, elle a donné son nom à un parcours fléché à travers le centre de Dijon.",
+            "answers": {
+              "la-chouette": "La chouette",
+              "le-corbeau": "Le corbeau",
+              "le-coq": "Le coq",
+              "la-colombe": "La colombe"
+            }
+          },
+          "chouette-main": {
+            "prompt": "De quelle main faut-il toucher la petite sculpture porte-bonheur de Notre-Dame de Dijon ?",
+            "hint": "C'est la main du cœur.",
+            "anecdote": "Le geste, accompagné d'un vœu, se fait selon la tradition de la main gauche.",
+            "answers": {
+              "la-main-gauche": "La main gauche",
+              "la-main-droite": "La main droite",
+              "les-deux-mains": "Les deux mains",
+              "le-revers-de-la-main": "Le revers de la main"
+            }
+          },
+          "photo-tastevin": {
+            "prompt": "Ce vitrail est celui d'une célèbre confrérie bachique bourguignonne. Dans quel château tient-elle ses chapitres ?",
+            "hint": "Les moines de Cîteaux l'ont fait prospérer.",
+            "anecdote": "Les chevaliers de la confrérie y reçoivent leurs invités lors de grands dîners, dans l'ancien cellier des moines.",
+            "answers": {
+              "le-clos-de-vougeot": "Le Clos de Vougeot",
+              "le-chateau-de-tanlay": "Le château de Tanlay",
+              "le-palais-des-ducs": "Le palais des ducs",
+              "le-chateau-d-ancy-le-franc": "Le château d'Ancy-le-Franc"
+            }
+          },
+          "annee-confrerie": {
+            "prompt": "En quelle année la confrérie des Chevaliers du Tastevin a-t-elle été fondée ?",
+            "hint": "C'était pendant la crise économique de l'entre-deux-guerres.",
+            "anecdote": "Fondée en 1934 à Nuits-Saint-Georges pour soutenir les vins en pleine mévente, elle tient ses chapitres au château du Clos de Vougeot depuis son acquisition par ses proches, fin 1944.",
+            "answers": {
+              "en-1934": "En 1934",
+              "en-1789": "En 1789",
+              "en-1477": "En 1477",
+              "en-1968": "En 1968"
+            }
+          },
+          "tastevin-objet": {
+            "prompt": "Qu'est-ce qu'un tastevin ?",
+            "hint": "Le mot signifie littéralement goûter le vin.",
+            "anecdote": "Traditionnellement en argent, cette petite tasse aide à apprécier la couleur et la limpidité du vin dans la pénombre des caves.",
+            "answers": {
+              "une-petite-tasse-plate": "Une petite tasse plate",
+              "un-tire-bouchon": "Un tire-bouchon",
+              "un-tonneau": "Un tonneau",
+              "une-serpe-de-vigneron": "Une serpe de vigneron"
+            }
+          },
+          "photo-saint-vincent": {
+            "prompt": "Cette fête du patron des vignerons a lieu en quel mois, autour du 22 ?",
+            "hint": "C'est en plein hiver, alors que la vigne est au repos.",
+            "anecdote": "La Saint-Vincent rassemble les confréries et leurs bannières, en pleine période de taille de la vigne.",
+            "answers": {
+              "en-janvier": "En janvier",
+              "en-avril": "En avril",
+              "en-juillet": "En juillet",
+              "en-septembre": "En septembre"
+            }
+          },
+          "tournante": {
+            "prompt": "Pourquoi la grande Saint-Vincent de Bourgogne est-elle dite tournante ?",
+            "hint": "Il s'agit de son lieu d'organisation.",
+            "anecdote": "Depuis 1938, cette fête organisée sous l'égide des Chevaliers du Tastevin s'installe chaque année dans un autre village.",
+            "answers": {
+              "elle-change-de-village-chaque-annee": "Elle change de village chaque année",
+              "le-defile-tourne-autour-de-l-eglise": "Le défilé tourne autour de l'église",
+              "les-vins-sont-servis-en-ronde": "Les vins sont servis en ronde",
+              "elle-tourne-autour-de-dijon": "Elle tourne autour de Dijon"
+            }
+          },
+          "photo-tonneau": {
+            "prompt": "En quel mois se tient la vente aux enchères de ces vins de bienfaisance à Beaune ?",
+            "hint": "C'est à la fin de l'automne, après les vendanges.",
+            "anecdote": "Cette vente de charité, d'audience internationale, a lieu le troisième week-end du mois. Elle finance notamment les hôpitaux de Beaune.",
+            "answers": {
+              "en-novembre": "En novembre",
+              "en-mars": "En mars",
+              "en-juin": "En juin",
+              "en-aout": "En août"
+            }
+          },
+          "trois-glorieuses": {
+            "prompt": "Comment appelle-t-on les trois journées de fête qui entourent la vente des vins de Beaune ?",
+            "hint": "Le même surnom désigne aussi trois journées de la révolution de 1830.",
+            "anecdote": "Elles réunissent un dîner au Clos de Vougeot, la vente à Beaune, puis la Paulée de Meursault.",
+            "answers": {
+              "les-trois-glorieuses": "Les Trois Glorieuses",
+              "les-trois-vendanges": "Les Trois Vendanges",
+              "les-saintes-journees": "Les Saintes Journées",
+              "le-triduum-des-crus": "Le Triduum des crus"
+            }
+          },
+          "ban-bourguignon": {
+            "prompt": "Comment s'appelle le chant à boire accompagné de mains qui tournent, très répandu en Bourgogne ?",
+            "hint": "Il se chante uniquement sur des la-la-la.",
+            "anecdote": "On l'entend dans les caves et les banquets, à la santé de tout un chacun. Il serait né vers 1905 à Dijon, dans le quartier de Montchapet.",
+            "answers": {
+              "le-ban-bourguignon": "Le ban bourguignon",
+              "la-farandole": "La farandole",
+              "la-bourree": "La bourrée",
+              "le-rondeau": "Le rondeau"
+            }
+          },
+          "goniots": {
+            "prompt": "Quelle ville bourguignonne fête chaque année son carnaval avec ses Gôniots ?",
+            "hint": "Elle se trouve sur la Saône et compte aussi son île Saint-Laurent.",
+            "anecdote": "Ce grand carnaval populaire se tient avant le carême et s'achève le jour de Mardi gras."
+          },
+          "vielle": {
+            "prompt": "Quel instrument à cordes et à manivelle est au cœur de la musique traditionnelle du Morvan ?",
+            "hint": "Il accompagne souvent la cornemuse.",
+            "anecdote": "Le village d'Anost, en Saône-et-Loire, lui consacre une grande fête chaque année, à la fin du mois d'août.",
+            "answers": {
+              "la-vielle-a-roue": "La vielle à roue",
+              "le-violoncelle": "Le violoncelle",
+              "la-harpe": "La harpe",
+              "le-biniou": "Le biniou"
+            }
+          },
+          "foire-dijon": {
+            "prompt": "Quelle grande manifestation annuelle se tient à Dijon, début novembre, depuis les années 1920 ?",
+            "hint": "On y vient pour goûter et manger.",
+            "anecdote": "Elle a invité plusieurs pays d'honneur et fait de la cité des ducs une capitale de la table.",
+            "answers": {
+              "la-foire-gastronomique": "La Foire gastronomique",
+              "le-festival-de-la-bande-dessinee": "Le Festival de la bande dessinée",
+              "le-salon-de-l-automobile": "Le Salon de l'automobile",
+              "le-marathon-des-cimes": "Le Marathon des cimes"
+            }
+          },
+          "photo-faience": {
+            "prompt": "Ce décor de bleu et de blanc est typique d'un art du feu qui a fait la renommée de Nevers. Lequel ?",
+            "hint": "Ses pièces sont en terre recouverte d'un émail.",
+            "anecdote": "Cette production nivernaise a marqué la France au XVIIe siècle. Quelques ateliers perpétuent encore cet art en ville.",
+            "answers": {
+              "la-faience": "La faïence",
+              "le-cristal": "Le cristal",
+              "l-orfevrerie": "L'orfèvrerie",
+              "la-dentelle": "La dentelle"
+            }
+          },
+          "gonzague": {
+            "prompt": "Quelle famille italienne, devenue ducale à Nevers, y a favorisé l'arrivée de faïenciers à la fin du XVIe siècle ?",
+            "hint": "Elle a régné sur Mantoue.",
+            "anecdote": "Louis de Gonzague, duc de Nevers, a accueilli des artisans venus de Ligurie, comme Augustin Conrade.",
+            "answers": {
+              "les-gonzague": "Les Gonzague",
+              "les-medicis": "Les Médicis",
+              "les-borgia": "Les Borgia",
+              "les-sforza": "Les Sforza"
+            }
+          },
+          "piece": {
+            "prompt": "Comment appelle-t-on le fût bourguignon traditionnel de 228 litres ?",
+            "hint": "Ce mot courant désigne aussi une partie d'un logement.",
+            "anecdote": "Sa contenance équivaut à environ 300 bouteilles. Les vins de la vente de Beaune sont traditionnellement proposés dans ce format.",
+            "answers": {
+              "la-piece": "La pièce",
+              "la-barrique-bordelaise": "La barrique bordelaise",
+              "le-foudre": "Le foudre",
+              "la-feuillette": "La feuillette"
+            }
+          },
+          "bois-tonneau": {
+            "prompt": "Dans quel bois les tonneliers bourguignons taillent-ils leurs fûts ?",
+            "hint": "Cet arbre donne les glands.",
+            "anecdote": "Les forêts de l'Allier, de la Nièvre et de l'Yonne fournissent un bois au grain serré, très recherché pour l'élevage du vin.",
+            "answers": {
+              "le-chene": "Le chêne",
+              "le-pin": "Le pin",
+              "le-peuplier": "Le peuplier",
+              "le-bouleau": "Le bouleau"
+            }
+          },
+          "ouvree": {
+            "prompt": "Quelle ancienne mesure bourguignonne, d'environ 4,3 ares, reste utilisée dans les vignes ?",
+            "hint": "Son nom vient du travail réalisable par un homme en une journée.",
+            "anecdote": "Une vigne d'un hectare représente environ 24 de ces unités, encore employées par les vignerons.",
+            "answers": {
+              "l-ouvree": "L'ouvrée",
+              "l-arpent": "L'arpent",
+              "la-toise": "La toise",
+              "la-pinte": "La pinte"
+            }
+          },
+          "flottage": {
+            "prompt": "Quelle marchandise les flotteurs de Clamecy envoyaient-ils vers Paris par l'Yonne ?",
+            "hint": "Elle servait à chauffer la capitale.",
+            "anecdote": "Ces trains de bûches ont approvisionné Paris pendant des siècles, jusqu'à la fin du XIXe siècle.",
+            "answers": {
+              "du-bois": "Du bois",
+              "du-charbon": "Du charbon",
+              "du-vin": "Du vin",
+              "du-ble": "Du blé"
+            }
+          },
+          "nourrices": {
+            "prompt": "Quel métier ont exercé de nombreuses femmes du Morvan auprès des familles parisiennes au XIXe siècle ?",
+            "hint": "Il consistait à allaiter les enfants des autres.",
+            "anecdote": "Ces départs ont apporté un revenu à bien des foyers modestes. Un musée leur est consacré à Alligny-en-Morvan.",
+            "answers": {
+              "nourrice": "Nourrice",
+              "couturiere": "Couturière",
+              "institutrice": "Institutrice",
+              "blanchisseuse": "Blanchisseuse"
+            }
+          },
+          "marteau-creusot": {
+            "prompt": "Quelle machine géante, conservée à l'entrée de la ville, reste l'emblème industriel du Creusot ?",
+            "hint": "Elle frappe l'acier à grands coups, à la façon d'un outil familier.",
+            "anecdote": "Mis au point à partir de 1841 par l'ingénieur François Bourdon, dans les usines Schneider, cet outil a permis de forger de très grosses pièces.",
+            "answers": {
+              "le-marteau-pilon": "Le marteau-pilon",
+              "la-locomotive": "La locomotive",
+              "la-grue": "La grue",
+              "le-haut-fourneau": "Le haut fourneau"
+            }
+          },
+          "gres": {
+            "prompt": "Quelle céramique robuste fait la réputation des potiers de Saint-Amand-en-Puisaye ?",
+            "hint": "C'est aussi le nom d'une roche sableuse.",
+            "anecdote": "Les argiles locales, cuites à haute température, ont fait de ce village un centre de poterie depuis des siècles.",
+            "answers": {
+              "le-gres": "Le grès",
+              "la-porcelaine": "La porcelaine",
+              "la-majolique": "La majolique",
+              "la-terre-sigillee": "La terre sigillée"
+            }
+          },
+          "carte-saint-amand": {
+            "prompt": "Touchez sur la carte le département de Saint-Amand-en-Puisaye.",
+            "hint": "Ce département borde la Loire.",
+            "anecdote": "Le village se trouve dans la Nièvre, près de la limite avec l'Yonne. La Puisaye s'étend aussi sur l'Yonne et le Loiret."
+          },
+          "haras": {
+            "prompt": "Quel animal est à l'honneur du haras national de Cluny, voulu par Napoléon Ier ?",
+            "hint": "On y organise des concours d'équitation.",
+            "anecdote": "Ouvert en 1807, il a été bâti à partir de 1814 avec les matériaux de l'ancienne abbaye, sur ses fondations.",
+            "answers": {
+              "le-cheval": "Le cheval",
+              "le-taureau": "Le taureau",
+              "le-mouton": "Le mouton",
+              "le-chien": "Le chien"
+            }
+          },
+          "photo-magny": {
+            "prompt": "Ces stands appartiennent à quel circuit de la Nièvre, qui a accueilli le Grand Prix de France de 1991 à 2008 ?",
+            "hint": "Son nom comporte celui de la préfecture voisine.",
+            "anecdote": "La compétition y a vu plusieurs succès de Michael Schumacher. Le circuit accueille encore des épreuves et une école de pilotage.",
+            "answers": {
+              "nevers-magny-cours": "Nevers Magny-Cours",
+              "dijon-prenois": "Dijon-Prenois",
+              "le-castellet": "Le Castellet",
+              "le-mans": "Le Mans"
+            }
+          },
+          "carte-magny": {
+            "prompt": "Touchez sur la carte le département du circuit de Magny-Cours.",
+            "hint": "C'est le département de Nevers.",
+            "anecdote": "Le circuit se situe dans la Nièvre, au sud de Nevers."
+          },
+          "prenois": {
+            "prompt": "Quel pilote français a remporté le Grand Prix de France 1979 à Dijon-Prenois, première victoire d'une voiture turbo ?",
+            "hint": "Il courait sur une Renault jaune et noire.",
+            "anecdote": "Cette victoire historique reste associée au duel de la fin de course entre Villeneuve et Arnoux, pour la deuxième place.",
+            "answers": {
+              "jean-pierre-jabouille": "Jean-Pierre Jabouille",
+              "alain-prost": "Alain Prost",
+              "jacques-laffite": "Jacques Laffite",
+              "patrick-depailler": "Patrick Depailler"
+            }
+          },
+          "guy-roux": {
+            "prompt": "Quel entraîneur a mené l'AJ Auxerre pendant plus de quarante ans, jusqu'au titre de 1996 ?",
+            "hint": "Il est connu pour son bonnet.",
+            "anecdote": "Il prend en charge le club en 1961 et le hisse du niveau amateur à la Ligue des champions.",
+            "answers": {
+              "guy-roux": "Guy Roux",
+              "aime-jacquet": "Aimé Jacquet",
+              "didier-deschamps": "Didier Deschamps",
+              "arsene-wenger": "Arsène Wenger"
+            }
+          },
+          "photo-puits-moise": {
+            "prompt": "Quel sculpteur venu de Hollande a réalisé ce prophète du Puits de Moïse, à Dijon ?",
+            "hint": "Il a travaillé pour le duc Philippe le Hardi.",
+            "anecdote": "Réalisées autour de 1400 pour la chartreuse de Champmol, ces figures impressionnent par leur réalisme.",
+            "answers": {
+              "claus-sluter": "Claus Sluter",
+              "michel-ange": "Michel-Ange",
+              "jan-van-eyck": "Jan van Eyck",
+              "donatello": "Donatello"
+            }
+          },
+          "marey": {
+            "prompt": "Quel savant né à Beaune, pionnier de la chronophotographie, a décomposé le mouvement en images ?",
+            "hint": "Il étudiait le vol des oiseaux et la marche des hommes.",
+            "anecdote": "Physiologiste, il a préparé la voie au cinéma. Sa ville natale conserve une part de ses recherches.",
+            "answers": {
+              "etienne-jules-marey": "Étienne-Jules Marey",
+              "louis-lumiere": "Louis Lumière",
+              "georges-melies": "Georges Méliès",
+              "louis-pasteur": "Louis Pasteur"
+            }
+          },
+          "eiffel": {
+            "prompt": "Quel ingénieur, né à Dijon en 1832, a donné son nom à une célèbre tour parisienne ?",
+            "hint": "Son patronyme est connu dans le monde entier.",
+            "anecdote": "Un de ses ancêtres, venu de l'Eifel en Allemagne, s'était installé à Paris au début du XVIIIe siècle, et son père a travaillé à Dijon. Il fait construire la tour pour l'Exposition universelle de 1889.",
+            "answers": {
+              "gustave-eiffel": "Gustave Eiffel",
+              "ferdinand-de-lesseps": "Ferdinand de Lesseps",
+              "le-baron-haussmann": "Le baron Haussmann",
+              "auguste-perret": "Auguste Perret"
+            }
+          },
+          "rude": {
+            "prompt": "Quel sculpteur dijonnais a créé le groupe de La Marseillaise sur l'Arc de triomphe ?",
+            "hint": "Son nom signifie aussi rugueux.",
+            "anecdote": "Son œuvre, appelée Le Départ des volontaires de 1792, orne la façade tournée vers les Champs-Élysées.",
+            "answers": {
+              "francois-rude": "François Rude",
+              "auguste-rodin": "Auguste Rodin",
+              "jean-baptiste-carpeaux": "Jean-Baptiste Carpeaux",
+              "frederic-bartholdi": "Frédéric Bartholdi"
+            }
+          },
+          "colette": {
+            "prompt": "Quelle romancière, auteure de la série des Claudine, est née à Saint-Sauveur-en-Puisaye ?",
+            "hint": "Elle signe simplement d'un seul nom.",
+            "anecdote": "Sa maison natale de l'Yonne a été restaurée et ouverte au public en 2016.",
+            "answers": {
+              "colette": "Colette",
+              "george-sand": "George Sand",
+              "marguerite-duras": "Marguerite Duras",
+              "simone-de-beauvoir": "Simone de Beauvoir"
+            }
+          },
+          "larousse": {
+            "prompt": "Quel lexicographe, né à Toucy dans l'Yonne en 1817, a donné son nom à un célèbre dictionnaire ?",
+            "hint": "Son nom reste associé à la devise Je sème à tout vent.",
+            "anecdote": "Instituteur, il a fondé une maison d'édition à Paris, puis publié un immense dictionnaire universel.",
+            "answers": {
+              "pierre-larousse": "Pierre Larousse",
+              "emile-littre": "Émile Littré",
+              "paul-robert": "Paul Robert",
+              "denis-diderot": "Denis Diderot"
+            }
+          },
+          "rolland": {
+            "prompt": "Quel écrivain né à Clamecy, auteur de Jean-Christophe, a reçu le prix Nobel de littérature en 1915 ?",
+            "hint": "Il est aussi l'auteur de Colas Breugnon, roman situé dans sa ville natale.",
+            "anecdote": "Pacifiste, il a écrit Au-dessus de la mêlée pendant la Première Guerre mondiale. Il est mort à Vézelay en 1944.",
+            "answers": {
+              "romain-rolland": "Romain Rolland",
+              "anatole-france": "Anatole France",
+              "andre-gide": "André Gide",
+              "roger-martin-du-gard": "Roger Martin du Gard"
+            }
+          },
+          "renard": {
+            "prompt": "Quel écrivain, maire de Chitry-les-Mines dans la Nièvre de 1904 à sa mort, a écrit Poil de Carotte ?",
+            "hint": "Son nom de famille est celui d'un animal roux.",
+            "anecdote": "Il a tiré de son enfance nivernaise ce récit à succès, ainsi qu'un Journal resté célèbre.",
+            "answers": {
+              "jules-renard": "Jules Renard",
+              "alphonse-daudet": "Alphonse Daudet",
+              "marcel-pagnol": "Marcel Pagnol",
+              "jules-valles": "Jules Vallès"
+            }
+          },
+          "cadet": {
+            "prompt": "Quel personnage de chanson populaire, aux trois maisons sans poutres, a vraiment vécu à Auxerre ?",
+            "hint": "Cet huissier, né dans le Jura, exerçait à Auxerre.",
+            "anecdote": "La chanson, écrite en 1792, a fait connaître ce bourgeois excentrique bien au-delà de sa ville.",
+            "answers": {
+              "cadet-roussel": "Cadet Roussel",
+              "le-bon-roi-dagobert": "Le bon roi Dagobert",
+              "malbrough": "Malbrough",
+              "compere-guilleri": "Compère Guilleri"
+            }
+          },
+          "loiseau": {
+            "prompt": "Quel grand chef a porté à trois étoiles le restaurant La Côte d'Or de Saulieu ?",
+            "hint": "Son nom ressemble à celui d'un petit animal à plumes.",
+            "anecdote": "Il obtient la troisième étoile en 1991 et a contribué à faire de sa cuisine aux jus de légumes une référence.",
+            "answers": {
+              "bernard-loiseau": "Bernard Loiseau",
+              "paul-bocuse": "Paul Bocuse",
+              "michel-guerard": "Michel Guérard",
+              "alain-chapel": "Alain Chapel"
+            }
+          },
+          "photo-louhans": {
+            "prompt": "Quelle ville de la Bresse bourguignonne est réputée pour ces arcades qui bordent sa Grande-Rue ?",
+            "hint": "Elle compte cent cinquante-sept arcades.",
+            "anecdote": "Ces arcades abritent le commerce depuis le Moyen Âge. Chaque lundi, la ville accueille un grand marché, avec ses volaillers place de la Charité.",
+            "answers": {
+              "cuisery": "Cuisery"
+            }
+          },
+          "glorieuses-bresse": {
+            "prompt": "Comment appelle-t-on les concours de volailles fines qui ont lieu chaque décembre en Bresse ?",
+            "hint": "Le mot évoque la vente des vins de Beaune et une révolution.",
+            "anecdote": "Les meilleurs chapons et poulardes de Bresse, soigneusement roulés dans une toile, y sont exposés et récompensés.",
+            "answers": {
+              "les-glorieuses": "Les Glorieuses",
+              "les-trophees-d-or": "Les Trophées d'or",
+              "les-grands-crus": "Les Grands Crus",
+              "les-sacres": "Les Sacres"
+            }
+          }
+        },
+        "grand-voyage": {
+          "name": "Grand voyage en Bourgogne",
+          "description": "De la préhistoire à la Résistance, des Éduens aux grands ducs : le niveau le plus exigeant du territoire.",
+          "photo-solutre": {
+            "prompt": "Quel escarpement calcaire du Mâconnais, grand site de France, reconnaissez-vous ?",
+            "hint": "Son nom a été donné à une culture de la préhistoire.",
+            "anecdote": "Ce rocher domine des vignes et a livré, à son pied, des restes d'innombrables chevaux chassés il y a des millénaires.",
+            "answers": {
+              "la-roche-de-solutre": "La roche de Solutré",
+              "la-roche-de-vergisson": "La roche de Vergisson",
+              "le-mont-beuvray": "Le mont Beuvray",
+              "le-mont-saint-vincent": "Le mont Saint-Vincent"
+            }
+          },
+          "solutreen": {
+            "prompt": "Comment se nomme la culture du Paléolithique supérieur dont le nom vient de ce site de Saône-et-Loire ?",
+            "hint": "Elle est réputée pour ses fines feuilles de laurier taillées dans le silex.",
+            "anecdote": "Elle s'est développée il y a environ 23 000 à 18 000 ans. Le musée au pied du rocher en présente les outils.",
+            "answers": {
+              "le-solutreen": "Le solutréen",
+              "l-aurignacien": "L'aurignacien",
+              "le-magdalenien": "Le magdalénien",
+              "le-mousterien": "Le moustérien"
+            }
+          },
+          "ascension": {
+            "prompt": "Quel président français gravissait chaque année ce rocher du Mâconnais, à la Pentecôte ?",
+            "hint": "Il avait été député de la Nièvre.",
+            "anecdote": "Ce rendez-vous, accompagné de journalistes et de proches, est resté une image forte de ses deux septennats.",
+            "answers": {
+              "francois-mitterrand": "François Mitterrand",
+              "charles-de-gaulle": "Charles de Gaulle",
+              "georges-pompidou": "Georges Pompidou",
+              "jacques-chirac": "Jacques Chirac"
+            }
+          },
+          "carte-solutre": {
+            "prompt": "Touchez sur la carte le département de la roche de Solutré.",
+            "hint": "Il s'étend jusqu'à la Saône, à l'est.",
+            "anecdote": "Solutré se trouve en Saône-et-Loire, à moins de dix kilomètres à l'ouest de Mâcon."
+          },
+          "photo-arcy": {
+            "prompt": "Quelles grottes de la vallée de la Cure, dans l'Yonne, conservent des peintures vieilles d'environ 28 000 ans ?",
+            "hint": "Son nom contient celui de la rivière qui les a creusées.",
+            "anecdote": "Ces peintures, découvertes en 1990, comptent parmi les plus anciennes de France.",
+            "answers": {
+              "les-grottes-d-arcy-sur-cure": "Les grottes d'Arcy-sur-Cure",
+              "la-grotte-de-lascaux": "La grotte de Lascaux",
+              "la-grotte-cosquer": "La grotte Cosquer",
+              "la-grotte-de-niaux": "La grotte de Niaux"
+            }
+          },
+          "carte-arcy": {
+            "prompt": "Touchez sur la carte le département des grottes d'Arcy-sur-Cure.",
+            "hint": "C'est le premier département bourguignon traversé par l'A6 en venant de Paris.",
+            "anecdote": "Arcy-sur-Cure se trouve dans l'Yonne, à une trentaine de kilomètres au sud d'Auxerre."
+          },
+          "bibracte": {
+            "prompt": "Comment s'appelait la capitale gauloise des Éduens, sur le mont Beuvray ?",
+            "hint": "Son nom commence comme le mot bibliothèque.",
+            "anecdote": "Le site, à cheval sur la Nièvre et la Saône-et-Loire, est fouillé par des équipes européennes depuis les années 1980.",
+            "answers": {
+              "bibracte": "Bibracte",
+              "alesia": "Alésia",
+              "gergovie": "Gergovie",
+              "lutece": "Lutèce"
+            }
+          },
+          "eduens": {
+            "prompt": "Quel peuple gaulois occupait une grande partie de la Bourgogne au temps de César ?",
+            "hint": "Son nom commence par un É.",
+            "anecdote": "Longtemps allié de Rome, il rejoint la révolte de Vercingétorix en 52 avant notre ère. Bibracte accueille alors l'assemblée qui confirme le chef arverne.",
+            "answers": {
+              "les-eduens": "Les Éduens",
+              "les-arvernes": "Les Arvernes",
+              "les-sequanes": "Les Séquanes",
+              "les-parisii": "Les Parisii"
+            }
+          },
+          "photo-vercingetorix": {
+            "prompt": "Cette statue domine le site présumé du siège où Vercingétorix a été vaincu. Comment s'appelle cette bataille ?",
+            "hint": "Elle se déroule à Alise-Sainte-Reine, selon la thèse la plus admise.",
+            "anecdote": "Les fouilles menées ici sous Napoléon III, puis dans les années 1990, ont fortement étayé cette localisation.",
+            "answers": {
+              "alesia": "Alésia",
+              "gergovie": "Gergovie",
+              "bibracte": "Bibracte",
+              "marathon": "Marathon"
+            }
+          },
+          "annee-alesia": {
+            "prompt": "En quelle année s'est déroulé le siège qui a vu la reddition de Vercingétorix face à César ?",
+            "hint": "C'est au milieu du Ier siècle avant notre ère.",
+            "anecdote": "Sa défaite met fin à la grande révolte gauloise. Il est emmené à Rome, où il est exécuté six ans plus tard.",
+            "answers": {
+              "52-avant-notre-ere": "52 avant notre ère",
+              "476-de-notre-ere": "476 de notre ère",
+              "732-de-notre-ere": "732 de notre ère",
+              "121-avant-notre-ere": "121 avant notre ère"
+            }
+          },
+          "napoleon-statue": {
+            "prompt": "Quel souverain a fait élever en 1865 la statue de Vercingétorix par Aimé Millet ?",
+            "hint": "Passionné de César, il a publié une histoire de sa vie.",
+            "anecdote": "L'empereur a fait mener des fouilles sur le site. Le sculpteur aurait donné à Vercingétorix les traits de Napoléon III, par déférence.",
+            "answers": {
+              "napoleon-iii": "Napoléon III",
+              "louis-xviii": "Louis XVIII",
+              "louis-philippe": "Louis-Philippe",
+              "napoleon-ier": "Napoléon Ier"
+            }
+          },
+          "carte-alesia": {
+            "prompt": "Touchez sur la carte le département d'Alise-Sainte-Reine.",
+            "hint": "C'est celui de Dijon.",
+            "anecdote": "Le village se trouve en Côte-d'Or, sur le mont Auxois, non loin de Venarey-les-Laumes."
+          },
+          "vix": {
+            "prompt": "Quel objet géant en bronze a été découvert en 1953 près de Châtillon-sur-Seine, dans la tombe d'une princesse celte ?",
+            "hint": "Il est grec et mesure 1,64 mètre de haut.",
+            "anecdote": "D'une contenance d'environ 1 100 litres, ce vase est présenté au musée de Châtillon-sur-Seine.",
+            "answers": {
+              "le-cratere-de-vix": "Le cratère de Vix",
+              "le-chaudron-de-gundestrup": "Le chaudron de Gundestrup",
+              "la-cuirasse-de-marmesse": "La cuirasse de Marmesse",
+              "le-tresor-de-vaux": "Le trésor de Vaux"
+            }
+          },
+          "hardi": {
+            "prompt": "À quelle bataille Philippe de France a-t-il gagné son surnom de Hardi, en défendant son père ?",
+            "hint": "Elle a eu lieu en 1356, pendant la guerre de Cent Ans.",
+            "anecdote": "Le jeune prince se serait écrié, pour protéger Jean le Bon : Père, gardez-vous à droite ! Père, gardez-vous à gauche !",
+            "answers": {
+              "poitiers": "Poitiers",
+              "azincourt": "Azincourt",
+              "crecy": "Crécy",
+              "bouvines": "Bouvines"
+            }
+          },
+          "sans-peur": {
+            "prompt": "Sur quel pont le duc Jean sans Peur a-t-il été assassiné en 1419 ?",
+            "hint": "C'est au confluent de l'Yonne et de la Seine.",
+            "anecdote": "Ce meurtre, commis lors d'une rencontre avec le dauphin Charles, a poussé les Bourguignons à s'allier aux Anglais.",
+            "answers": {
+              "le-pont-de-montereau": "Le pont de Montereau",
+              "le-pont-d-avignon": "Le pont d'Avignon",
+              "le-pont-neuf": "Le pont Neuf",
+              "le-pont-de-sens": "Le pont de Sens"
+            }
+          },
+          "jeanne": {
+            "prompt": "À qui les Bourguignons ont-ils vendu Jeanne d'Arc, capturée à Compiègne en 1430 ?",
+            "hint": "Ils sont alors ennemis du royaume de Charles VII.",
+            "anecdote": "Jeanne est livrée contre rançon, puis jugée à Rouen par un tribunal d'Église, et brûlée en 1431.",
+            "answers": {
+              "aux-anglais": "Aux Anglais",
+              "aux-espagnols": "Aux Espagnols",
+              "aux-flamands": "Aux Flamands",
+              "aux-suisses": "Aux Suisses"
+            }
+          },
+          "toison": {
+            "prompt": "Quel ordre de chevalerie le duc Philippe le Bon a-t-il fondé en 1430 ?",
+            "hint": "Son nom évoque la quête de Jason.",
+            "anecdote": "Créé à Bruges, cet ordre prestigieux existe encore aujourd'hui, dans deux branches, en Autriche et en Espagne.",
+            "answers": {
+              "la-toison-d-or": "La Toison d'or",
+              "la-jarretiere": "La Jarretière",
+              "le-saint-esprit": "Le Saint-Esprit",
+              "la-legion-d-honneur": "La Légion d'honneur"
+            }
+          },
+          "temeraire": {
+            "prompt": "Devant quelle ville Charles le Téméraire a-t-il trouvé la mort en 1477 ?",
+            "hint": "Elle se trouve en Lorraine.",
+            "anecdote": "Sa disparition met fin au rêve d'un grand État bourguignon entre la France et l'Empire.",
+            "answers": {
+              "nancy": "Nancy",
+              "morat": "Morat",
+              "liege": "Liège"
+            }
+          },
+          "annexion": {
+            "prompt": "Quel roi de France a pris possession du duché de Bourgogne après la mort de Charles le Téméraire ?",
+            "hint": "Il est surnommé l'Universelle Aragne.",
+            "anecdote": "Il rattache le duché au domaine royal dès 1477, mais une grande partie des terres du Nord échappe à la France.",
+            "answers": {
+              "louis-xi": "Louis XI",
+              "francois-ier": "François Ier",
+              "charles-vii": "Charles VII",
+              "louis-xii": "Louis XII"
+            }
+          },
+          "marie": {
+            "prompt": "Quel futur empereur l'héritière Marie de Bourgogne a-t-elle épousé en 1477 ?",
+            "hint": "Il appartient à la maison de Habsbourg.",
+            "anecdote": "Ce mariage fait passer les Pays-Bas bourguignons aux Habsbourg. Leur petit-fils sera Charles Quint.",
+            "answers": {
+              "maximilien-d-autriche": "Maximilien d'Autriche",
+              "charles-quint": "Charles Quint",
+              "frederic-barberousse": "Frédéric Barberousse",
+              "philippe-ii-d-espagne": "Philippe II d'Espagne"
+            }
+          },
+          "flandres": {
+            "prompt": "Quelle riche région du Nord le mariage de Philippe le Hardi avec Marguerite de Male a-t-il fait entrer dans l'héritage bourguignon ?",
+            "hint": "Bruges et Gand en sont des villes emblématiques.",
+            "anecdote": "Le duc en hérite en 1384. Cet ensemble devient la grande source de richesse de ses descendants.",
+            "answers": {
+              "la-flandre": "La Flandre",
+              "la-lorraine": "La Lorraine",
+              "la-bretagne": "La Bretagne",
+              "la-provence": "La Provence"
+            }
+          },
+          "demarcation": {
+            "prompt": "Quelle ligne, entre 1940 et 1943, coupait la Saône-et-Loire, notamment à Chalon et à Digoin ?",
+            "hint": "Elle séparait la zone occupée de la zone dite libre.",
+            "anecdote": "De nombreux passeurs l'ont franchie clandestinement, en particulier le long du canal du Centre et de la Saône.",
+            "answers": {
+              "la-ligne-de-demarcation": "La ligne de démarcation",
+              "la-ligne-maginot": "La ligne Maginot",
+              "la-ligne-siegfried": "La ligne Siegfried",
+              "la-ligne-gothique": "La ligne Gothique"
+            }
+          },
+          "dun": {
+            "prompt": "Quel village du Morvan a été le théâtre d'un massacre de civils par l'armée allemande en juin 1944 ?",
+            "hint": "Son nom contient le mot places.",
+            "anecdote": "Du 26 au 28 juin 1944, les troupes allemandes ont occupé et incendié le village. Vingt-sept hommes, soupçonnés de soutenir les maquis de la région, y ont été tués.",
+            "answers": {
+              "dun-les-places": "Dun-les-Places",
+              "saint-leger-vauban": "Saint-Léger-Vauban",
+              "oradour-sur-glane": "Oradour-sur-Glane",
+              "lormes": "Lormes"
+            }
+          },
+          "nod": {
+            "prompt": "Dans quelle région de Bourgogne les troupes venues de Normandie et de Provence se sont-elles rejointes en septembre 1944 ?",
+            "hint": "Cette jonction a lieu sur la haute Seine, dans le nord de la Côte-d'Or.",
+            "anecdote": "Le 12 septembre 1944, à Nod-sur-Seine, la 2e DB de Leclerc, venue de Normandie, a rejoint la 1re division française libre, venue de Provence.",
+            "answers": {
+              "le-chatillonnais": "Le Châtillonnais",
+              "la-bresse": "La Bresse",
+              "la-puisaye": "La Puisaye",
+              "le-brionnais": "Le Brionnais"
+            }
+          },
+          "beregovoy": {
+            "prompt": "Quel ancien Premier ministre, maire de Nevers, a mis fin à ses jours en 1993 ?",
+            "hint": "Il a dirigé le gouvernement entre 1992 et 1993.",
+            "anecdote": "Ancien ouvrier ajusteur, ce fidèle de François Mitterrand a été maire de la ville pendant dix ans.",
+            "answers": {
+              "pierre-beregovoy": "Pierre Bérégovoy",
+              "michel-rocard": "Michel Rocard",
+              "laurent-fabius": "Laurent Fabius",
+              "edith-cresson": "Édith Cresson"
+            }
+          },
+          "montceau": {
+            "prompt": "Quelle ville minière de Saône-et-Loire a connu les troubles de la Bande noire, dans les années 1880 ?",
+            "hint": "Son nom comporte le mot mines.",
+            "anecdote": "Elle est née de l'exploitation du charbon. La mine y a fermé à la fin du XXe siècle, laissant un fort héritage ouvrier.",
+            "answers": {
+              "chagny": "Chagny"
+            }
+          },
+          "bazoches-vauban": {
+            "prompt": "Quel maréchal de Louis XIV, grand bâtisseur de fortifications, a acquis le château de Bazoches, dans le Morvan, en 1675 ?",
+            "hint": "Il est né à Saint-Léger, dans l'Yonne, village qui porte aujourd'hui son nom.",
+            "anecdote": "Le maréchal y a installé son bureau de dessin. Ses places fortes sont inscrites à l'Unesco depuis 2008.",
+            "answers": {
+              "vauban": "Vauban",
+              "colbert": "Colbert",
+              "turenne": "Turenne",
+              "louvois": "Louvois"
+            }
+          },
+          "carte-bazoches": {
+            "prompt": "Touchez sur la carte le département du château de Bazoches.",
+            "hint": "C'est le département de Nevers.",
+            "anecdote": "Bazoches se trouve dans la Nièvre, sur les premiers contreforts du Morvan, non loin de Vézelay."
+          },
+          "photo-niepce": {
+            "prompt": "Vers 1827, quel inventeur bourguignon a réalisé cette vue depuis sa fenêtre, la plus ancienne photographie conservée ?",
+            "hint": "Il vivait près de Chalon et a travaillé avec Daguerre.",
+            "anecdote": "La pose aurait duré plusieurs jours. Le procédé utilisait une plaque enduite de bitume de Judée.",
+            "answers": {
+              "nicephore-niepce": "Nicéphore Niépce",
+              "louis-daguerre": "Louis Daguerre",
+              "nadar": "Nadar",
+              "eugene-atget": "Eugène Atget"
+            }
+          },
+          "carte-niepce": {
+            "prompt": "Touchez sur la carte le département de Saint-Loup-de-Varennes, où a été prise la première photographie.",
+            "hint": "C'est celui de Chalon-sur-Saône.",
+            "anecdote": "La propriété du Gras se trouve en Saône-et-Loire, à quelques kilomètres au sud de Chalon-sur-Saône."
+          },
+          "bernard-naissance": {
+            "prompt": "Où saint Bernard, grand réformateur cistercien, serait-il né vers 1090 ?",
+            "hint": "C'est un village tout proche de Dijon.",
+            "anecdote": "Issu d'une famille noble, il entre à Cîteaux avec une trentaine de compagnons, avant de fonder Clairvaux.",
+            "answers": {
+              "a-fontaine-les-dijon": "À Fontaine-lès-Dijon",
+              "a-vezelay": "À Vézelay",
+              "a-sens": "À Sens",
+              "a-autun": "À Autun"
+            }
+          },
+          "bossuet": {
+            "prompt": "Quel évêque et grand prédicateur du XVIIe siècle, surnommé l'Aigle de Meaux, est né à Dijon ?",
+            "hint": "Il est l'auteur d'oraisons funèbres célèbres.",
+            "anecdote": "Né en 1627 dans une famille de parlementaires, il a été précepteur du Grand Dauphin.",
+            "answers": {
+              "bossuet": "Bossuet",
+              "fenelon": "Fénelon",
+              "richelieu": "Richelieu",
+              "mazarin": "Mazarin"
+            }
+          },
+          "rameau": {
+            "prompt": "Quel compositeur des Indes galantes est né à Dijon en 1683 ?",
+            "hint": "Son nom désigne aussi une petite branche d'arbre.",
+            "anecdote": "Théoricien de l'harmonie, il a dominé l'opéra français au XVIIIe siècle, bien après son départ de Bourgogne.",
+            "answers": {
+              "jean-philippe-rameau": "Jean-Philippe Rameau",
+              "jean-baptiste-lully": "Jean-Baptiste Lully",
+              "francois-couperin": "François Couperin",
+              "hector-berlioz": "Hector Berlioz"
+            }
+          },
+          "talleyrand": {
+            "prompt": "Quel futur grand diplomate a été évêque d'Autun à partir de 1788 ?",
+            "hint": "Il a servi la Révolution, l'Empire et la Restauration.",
+            "anecdote": "Député aux États généraux, il a proposé la mise à disposition des biens du clergé, puis a quitté la prêtrise.",
+            "answers": {
+              "talleyrand": "Talleyrand",
+              "fouche": "Fouché",
+              "mirabeau": "Mirabeau",
+              "sieyes": "Sieyès"
+            }
+          },
+          "sevigne": {
+            "prompt": "De quelle célèbre épistolière Roger de Bussy-Rabutin était-il le cousin ?",
+            "hint": "Elle a écrit de nombreuses lettres à sa fille.",
+            "anecdote": "Née Marie de Rabutin-Chantal, elle a échangé avec lui une longue correspondance. Sa famille possédait des terres en Auxois.",
+            "answers": {
+              "madame-de-sevigne": "Madame de Sévigné",
+              "madame-de-la-fayette": "Madame de La Fayette",
+              "madame-de-stael": "Madame de Staël",
+              "madame-du-chatelet": "Madame du Châtelet"
+            }
+          },
+          "haut-folin": {
+            "prompt": "Quel est le point culminant du Morvan et de la Bourgogne, à 901 mètres ?",
+            "hint": "Son nom commence par le mot haut.",
+            "anecdote": "Situé en Saône-et-Loire, près de la limite de la Nièvre, ce sommet boisé reste modeste.",
+            "answers": {
+              "le-haut-folin": "Le Haut-Folin",
+              "le-mont-beuvray": "Le mont Beuvray",
+              "le-mont-aigoual": "Le mont Aigoual",
+              "le-haut-koenigsbourg": "Le Haut-Koenigsbourg"
+            }
+          },
+          "trois-mers": {
+            "prompt": "Vers combien de mers ou océans différents coulent les eaux de la Bourgogne ?",
+            "hint": "Pensez à la Seine, à la Loire et à la Saône.",
+            "anecdote": "La Seine rejoint la Manche, la Loire l'Atlantique et la Saône, par le Rhône, la Méditerranée.",
+            "answers": {
+              "trois": "Trois",
+              "un": "Un",
+              "deux": "Deux",
+              "cinq": "Cinq"
+            }
+          },
+          "canterbury": {
+            "prompt": "De quelle cathédrale anglaise Guillaume de Sens a-t-il reconstruit le chœur après l'incendie de 1174 ?",
+            "hint": "Elle est liée à Thomas Becket, un temps réfugié à Sens.",
+            "anecdote": "L'art gothique traverse ainsi la Manche, grâce à ce maître d'œuvre venu de Sens, dans l'actuelle Yonne.",
+            "answers": {
+              "cantorbery": "Cantorbéry",
+              "westminster": "Westminster",
+              "salisbury": "Salisbury",
+              "york": "York"
+            }
+          },
+          "carnot": {
+            "prompt": "Quel membre du Comité de salut public, surnommé l'Organisateur de la victoire, est né à Nolay, en Côte-d'Or, en 1753 ?",
+            "hint": "Son petit-fils Sadi a présidé la République.",
+            "anecdote": "Chargé des affaires militaires au Comité de salut public à partir de 1793, il organise les armées de la Révolution.",
+            "answers": {
+              "lazare-carnot": "Lazare Carnot",
+              "georges-danton": "Georges Danton",
+              "maximilien-de-robespierre": "Maximilien de Robespierre",
+              "louis-antoine-de-saint-just": "Louis Antoine de Saint-Just"
+            }
+          },
+          "mac-mahon": {
+            "prompt": "Quel maréchal, président de la République de 1873 à 1879, est né au château de Sully, en Saône-et-Loire ?",
+            "hint": "Sa famille, d'origine irlandaise, avait suivi Jacques II en exil.",
+            "anecdote": "Fait maréchal et duc de Magenta après la campagne d'Italie de 1859, il succède à Thiers en 1873 et démissionne en 1879.",
+            "answers": {
+              "patrice-de-mac-mahon": "Patrice de Mac Mahon",
+              "francois-achille-bazaine": "François Achille Bazaine",
+              "francois-certain-de-canrobert": "François Certain de Canrobert",
+              "aimable-pelissier": "Aimable Pélissier"
+            }
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "dijon": {
+            "name": "Dijon",
+            "description": "Ancienne capitale du duché de Bourgogne, Dijon a gardé un riche centre historique autour du palais des ducs. La place de la Libération, dessinée à la fin du XVIIe siècle par Jules Hardouin-Mansart, s'ouvre en demi-cercle devant le palais.",
+            "anecdote": "Les passants caressent de la main gauche la petite chouette de l'église Notre-Dame, réputée porter bonheur."
+          },
+          "moutarde-dijon": {
+            "name": "Moutarde de Dijon",
+            "description": "Cette moutarde forte associe des graines broyées à du verjus ou à du vin blanc. Dijon en a fait sa spécialité dès le Moyen Âge, et son nom désigne aujourd'hui une recette plutôt qu'une origine.",
+            "anecdote": "La moutarde de Bourgogne, elle, bénéficie depuis 2009 d'une indication géographique protégée."
+          },
+          "hospices-beaune": {
+            "name": "Hospices de Beaune",
+            "description": "Le chancelier Nicolas Rolin et son épouse Guigone de Salins fondent cet hôtel-Dieu en 1443 pour soigner les pauvres. Ses toits de tuiles vernissées à motifs géométriques sont devenus un symbole de la Bourgogne.",
+            "anecdote": "Le bâtiment a continué d'accueillir des malades jusque dans les années 1970."
+          },
+          "vente-vins-beaune": {
+            "name": "Vente des vins de Beaune",
+            "description": "Chaque année en novembre, les Hospices de Beaune vendent aux enchères les vins de leur domaine, au profit de leurs œuvres. Cette vente de charité, organisée depuis 1859, attire des acheteurs du monde entier.",
+            "anecdote": "Les vins y sont vendus en pièces, des fûts bourguignons d'environ 228 litres."
+          },
+          "vezelay": {
+            "name": "Vézelay",
+            "description": "Sur sa colline de l'Yonne, la basilique romane Sainte-Marie-Madeleine domine un village de pierre. Haut lieu de pèlerinage et départ d'une voie vers Compostelle, le site est inscrit au patrimoine mondial depuis 1979.",
+            "anecdote": "Au solstice d'été, le soleil de midi dessine un chemin de taches de lumière au centre de la nef."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur de Bourgogne",
+            "description": "Réunir les cinq cartes de la collection de Bourgogne."
+          },
+          "master": {
+            "name": "Maître de Bourgogne",
+            "description": "Réussir le Défi Maître de Bourgogne, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
+    },
+    "franche-comte": {
+      "name": "Franche-Comté"
     }
   }
 }

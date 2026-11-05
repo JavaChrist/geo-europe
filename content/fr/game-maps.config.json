@@ -75,6 +75,34 @@
         "82": "midi-pyrenees",
         "09": "midi-pyrenees"
       }
+    },
+    {
+      "id": "bourgogne-franche-comte-departements",
+      "simplify": "22%",
+      "zones": {
+        "21": "21",
+        "25": "25",
+        "39": "39",
+        "58": "58",
+        "70": "70",
+        "71": "71",
+        "89": "89",
+        "90": "90"
+      }
+    },
+    {
+      "id": "bourgogne-franche-comte-territoires",
+      "simplify": "22%",
+      "zones": {
+        "21": "bourgogne",
+        "25": "franche-comte",
+        "39": "franche-comte",
+        "58": "bourgogne",
+        "70": "franche-comte",
+        "71": "bourgogne",
+        "89": "bourgogne",
+        "90": "franche-comte"
+      }
     }
   ]
 }

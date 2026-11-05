@@ -2,7 +2,40 @@
   "id": "FR-BFC",
   "slug": "bourgogne-franche-comte",
   "nameKey": "regions.bourgogne-franche-comte",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "21",
+      "nameKey": "departments.21"
+    },
+    {
+      "id": "25",
+      "nameKey": "departments.25"
+    },
+    {
+      "id": "39",
+      "nameKey": "departments.39"
+    },
+    {
+      "id": "58",
+      "nameKey": "departments.58"
+    },
+    {
+      "id": "70",
+      "nameKey": "departments.70"
+    },
+    {
+      "id": "71",
+      "nameKey": "departments.71"
+    },
+    {
+      "id": "89",
+      "nameKey": "departments.89"
+    },
+    {
+      "id": "90",
+      "nameKey": "departments.90"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],
