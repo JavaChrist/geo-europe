@@ -2560,6 +2560,466 @@
       "photoProvenceAlpesCoteDAzurZola": {
         "title": "Portrait de Zola, par Manet",
         "alt": "Tableau d'un homme barbu assis à son bureau, un livre ouvert à la main."
+      },
+      "photoAquitaineBourse": {
+        "title": "Place de la Bourse et miroir d'eau, Bordeaux",
+        "alt": "Grande place classique aux façades de pierre, reflétée dans une fine nappe d'eau."
+      },
+      "photoAquitaineBiarritz": {
+        "title": "Grande Plage de Biarritz",
+        "alt": "Longue plage de sable battue par les vagues, bordée d'immeubles et d'une pointe rocheuse avec un phare."
+      },
+      "photoAquitainePilat": {
+        "title": "Vue depuis la dune du Pilat",
+        "alt": "Immense étendue de sable clair dominant l'océan et un banc de sable au large."
+      },
+      "photoAquitaineSarlat": {
+        "title": "Place de la Liberté, Sarlat-la-Canéda",
+        "alt": "Place médiévale aux maisons de pierre dorée, animée par des terrasses de café."
+      },
+      "photoAquitaineBoulevardPyrenees": {
+        "title": "Boulevard des Pyrénées, Pau",
+        "alt": "Promenade en balcon bordée de palmiers, de drapeaux et de grands immeubles blancs."
+      },
+      "photoAquitaineBayonne": {
+        "title": "La Nive à Bayonne",
+        "alt": "Rivière calme bordée de quais et de hautes maisons aux volets colorés."
+      },
+      "photoAquitainePontCanal": {
+        "title": "Pont-canal d'Agen",
+        "alt": "Long ouvrage de pierre à grandes arches, portant une voie d'eau au-dessus d'une rivière."
+      },
+      "photoAquitaineSaintFront": {
+        "title": "Intérieur de la cathédrale Saint-Front, Périgueux",
+        "alt": "Vaste nef de pierre claire couverte de coupoles, avec de grands lustres dorés."
+      },
+      "photoAquitaineCabanesTchanquees": {
+        "title": "Cabane tchanquée, bassin d'Arcachon",
+        "alt": "Cabane de bois perchée sur de hauts pilotis, au milieu d'une étendue découverte par la marée."
+      },
+      "photoAquitaineSaintEmilion": {
+        "title": "Toits de Saint-Émilion",
+        "alt": "Village de toits de tuiles dominé par un haut clocher de pierre à flèche."
+      },
+      "photoAquitaineSaintJeanDeLuz": {
+        "title": "Port de Saint-Jean-de-Luz",
+        "alt": "Bateaux de pêche colorés amarrés dans un port, devant une ville aux maisons blanches."
+      },
+      "photoAquitaineFoieGras": {
+        "title": "Tranche de foie gras",
+        "alt": "Tranche rosée posée dans une assiette blanche, avec des triangles de pain grillé."
+      },
+      "photoAquitaineConfit": {
+        "title": "Confit de canard",
+        "alt": "Assiette garnie d'une cuisse dorée, de pommes de terre sautées et de légumes."
+      },
+      "photoAquitaineMagret": {
+        "title": "Magret de canard",
+        "alt": "Pièce de viande à la peau dorée et quadrillée, servie sur des champignons."
+      },
+      "photoAquitaineJambonBayonne": {
+        "title": "Jambon de Bayonne",
+        "alt": "Jambon sec entier suspendu dans une épicerie, recouvert d'une croûte rouge."
+      },
+      "photoAquitaineAxoa": {
+        "title": "Axoa",
+        "alt": "Viande finement hachée en sauce rouge, servie dans une assiette carrée avec des quenelles de pomme de terre."
+      },
+      "photoAquitaineGarbure": {
+        "title": "Garbure du Béarn",
+        "alt": "Soupe épaisse de légumes et de morceaux de viande, servie dans une terrine blanche."
+      },
+      "photoAquitainePiperade": {
+        "title": "Pipérade",
+        "alt": "Préparation fondante de légumes rouges, longuement mijotée, dans une assiette."
+      },
+      "photoAquitaineCanele": {
+        "title": "Canelé",
+        "alt": "Petit gâteau cannelé à la croûte brune et caramélisée."
+      },
+      "photoAquitaineGateauBasque": {
+        "title": "Gâteau basque",
+        "alt": "Part de gâteau doré, quadrillé sur le dessus et fourré de crème, sur une assiette à rayures."
+      },
+      "photoAquitainePruneaux": {
+        "title": "Pruneaux",
+        "alt": "Tas de petits fruits séchés, noirs et ridés."
+      },
+      "photoAquitaineChocolat": {
+        "title": "Plaques de chocolat à Bayonne",
+        "alt": "Plaques sombres gravées de motifs, posées sur une feuille dans un atelier."
+      },
+      "photoAquitainePiment": {
+        "title": "Piments d'Espelette sur une façade",
+        "alt": "Maison blanche aux volets rouges, décorée de guirlandes de petits fruits rouges qui sèchent."
+      },
+      "photoAquitaineOssauIraty": {
+        "title": "Fromage Ossau-Iraty",
+        "alt": "Morceau de fromage à pâte dorée, à la croûte brune."
+      },
+      "photoAquitaineTruffe": {
+        "title": "Truffe noire",
+        "alt": "Champignon noir et bosselé, à la surface rugueuse, légèrement entaillé."
+      },
+      "photoAquitaineNoix": {
+        "title": "Noix",
+        "alt": "Grand tas de fruits secs à la coque claire et ridée."
+      },
+      "photoAquitaineCepes": {
+        "title": "Cèpes",
+        "alt": "Deux gros champignons à chapeau brun et pied renflé, dans un sous-bois."
+      },
+      "photoAquitaineJurancon": {
+        "title": "Vignoble de Jurançon",
+        "alt": "Rangs de vigne sur une colline verdoyante, avec des montagnes enneigées à l'horizon."
+      },
+      "photoAquitaineYquem": {
+        "title": "Château d'Yquem, Sauternes",
+        "alt": "Château à tourelles posé au sommet d'un coteau couvert de vignes."
+      },
+      "photoAquitaineVignesSaintEmilion": {
+        "title": "Vignoble de Saint-Émilion",
+        "alt": "Vignes aux couleurs d'automne au premier plan, plaine viticole à l'arrière-plan."
+      },
+      "photoAquitaineGrosseCloche": {
+        "title": "Grosse Cloche de Bordeaux",
+        "alt": "Porte médiévale à deux tours pointues et grande cloche, entre des immeubles de pierre."
+      },
+      "photoAquitaineCailhau": {
+        "title": "Porte Cailhau, Bordeaux",
+        "alt": "Porte fortifiée de pierre claire, hérissée de tourelles et de toits en poivrière."
+      },
+      "photoAquitaineSaintAndre": {
+        "title": "Tour Pey-Berland, Bordeaux",
+        "alt": "Haute tour gothique ajourée, surmontée d'une statue dorée, sur un ciel bleu."
+      },
+      "photoAquitainePontPierre": {
+        "title": "Pont de pierre, Bordeaux",
+        "alt": "Long pont de briques et de pierre à nombreuses arches, au-dessus d'un fleuve brun."
+      },
+      "photoAquitaineCiteVin": {
+        "title": "La Cité du Vin, Bordeaux",
+        "alt": "Bâtiment moderne aux courbes brillantes, vu de loin de l'autre côté d'un fleuve."
+      },
+      "photoAquitaineGrandTheatre": {
+        "title": "Grand Théâtre de Bordeaux",
+        "alt": "Façade néoclassique à grande colonnade surmontée de statues, sur une place."
+      },
+      "photoAquitaineMonolithe": {
+        "title": "Clocher de l'église monolithe de Saint-Émilion",
+        "alt": "Haut clocher de pierre à flèche pointue, sur fond de ciel nuageux."
+      },
+      "photoAquitaineBlaye": {
+        "title": "Citadelle de Blaye",
+        "alt": "Hauts remparts de pierre et fossé enherbé d'une place forte."
+      },
+      "photoAquitaineCordouan": {
+        "title": "Phare de Cordouan",
+        "alt": "Sommet d'un phare de pierre richement sculpté, avec colonnes et coupole."
+      },
+      "photoAquitaineSauveMajeure": {
+        "title": "Abbaye de la Sauve-Majeure",
+        "alt": "Ruines d'une abbaye dominées par un haut clocher de pierre à baies."
+      },
+      "photoAquitaineChateauCadillac": {
+        "title": "Château des ducs d'Épernon, Cadillac",
+        "alt": "Vaste château de pierre à hauts toits d'ardoise, précédé d'un jardin."
+      },
+      "photoAquitaineRoquetaillade": {
+        "title": "Château de Roquetaillade",
+        "alt": "Forteresse à grosses tours crénelées et donjon central."
+      },
+      "photoAquitaineLaBrede": {
+        "title": "Château de La Brède",
+        "alt": "Château gothique à tourelles se reflétant dans de larges douves."
+      },
+      "photoAquitaineVilleHiver": {
+        "title": "Villa de la Ville d'hiver, Arcachon",
+        "alt": "Villa de brique et de bois à tourelle pointue, dans la verdure."
+      },
+      "photoAquitaineChateauPau": {
+        "title": "Château de Pau",
+        "alt": "Château et tour de briques dominant les toits d'une ville, au bord d'une rivière."
+      },
+      "photoAquitaineSauveterre": {
+        "title": "Pont de la Légende, Sauveterre-de-Béarn",
+        "alt": "Vieille tour de pierre et arche de pont brisée au-dessus d'une rivière."
+      },
+      "photoAquitaineOloron": {
+        "title": "Portail de la cathédrale Sainte-Marie, Oloron-Sainte-Marie",
+        "alt": "Portail roman sculpté, à voussures historiées et double porte de bois."
+      },
+      "photoAquitaineEspelette": {
+        "title": "Rue d'Espelette",
+        "alt": "Maisons blanches à colombages et volets rouges autour d'une place de village."
+      },
+      "photoAquitaineAinhoa": {
+        "title": "Ainhoa",
+        "alt": "Grande maison blanche à colombages rouges et clocher de pierre sur fond de ciel bleu."
+      },
+      "photoAquitaineSjpp": {
+        "title": "La Nive à Saint-Jean-Pied-de-Port",
+        "alt": "Maisons blanches à balcons fleuris au bord d'une rivière, près d'un vieux pont."
+      },
+      "photoAquitaineBastideClairence": {
+        "title": "La Bastide-Clairence",
+        "alt": "Maisons blanches à colombages rouges et verts, avec arcades au rez-de-chaussée."
+      },
+      "photoAquitaineArnaga": {
+        "title": "Villa Arnaga, Cambo-les-Bains",
+        "alt": "Jardin à la française avec bassin, fontaines et pergola à colonnes."
+      },
+      "photoAquitaineHotelPalais": {
+        "title": "Hôtel du Palais, Biarritz",
+        "alt": "Grand palace de brique dominant une plage, face à l'océan."
+      },
+      "photoAquitainePhareBiarritz": {
+        "title": "Phare de Biarritz",
+        "alt": "Phare blanc dressé sur une pointe boisée, au-dessus des rochers et de l'océan."
+      },
+      "photoAquitaineAbbadia": {
+        "title": "Château d'Abbadia, Hendaye",
+        "alt": "Château néogothique à grosse tour crénelée, entouré de pins."
+      },
+      "photoAquitaineBeynac": {
+        "title": "Château de Beynac",
+        "alt": "Forteresse perchée au sommet d'une haute falaise boisée."
+      },
+      "photoAquitaineCastelnaud": {
+        "title": "Château de Castelnaud",
+        "alt": "Château fort à donjon carré dominant une vallée verdoyante."
+      },
+      "photoAquitaineBiron": {
+        "title": "Château de Biron",
+        "alt": "Vaste ensemble de bâtiments de plusieurs époques, sur une colline verdoyante."
+      },
+      "photoAquitaineHautefort": {
+        "title": "Château de Hautefort",
+        "alt": "Élégant château à tours coiffées de dômes, précédé de jardins taillés."
+      },
+      "photoAquitaineMonbazillac": {
+        "title": "Château de Monbazillac",
+        "alt": "Château de pierre à grosses tours pointues et haute toiture brune."
+      },
+      "photoAquitaineDomme": {
+        "title": "Vue aérienne de Domme",
+        "alt": "Village perché au bord d'un plateau boisé, vu du ciel."
+      },
+      "photoAquitaineRoqueGageac": {
+        "title": "La Roque-Gageac",
+        "alt": "Maisons de pierre blotties au pied d'une haute falaise, au bord d'une rivière."
+      },
+      "photoAquitaineBrantome": {
+        "title": "Brantôme et la Dronne",
+        "alt": "Abbaye et clocher se reflétant dans une rivière paisible, au pied d'un rocher."
+      },
+      "photoAquitaineBonaguil": {
+        "title": "Château de Bonaguil",
+        "alt": "Grande forteresse de pierre à hautes tours, adossée à une colline boisée."
+      },
+      "photoAquitaineNerac": {
+        "title": "Château de Nérac",
+        "alt": "Aile de château à galerie d'arcades et colonnes, sur une place."
+      },
+      "photoAquitaineVillereal": {
+        "title": "Halle de Villeréal",
+        "alt": "Grande charpente de bois supportant le toit d'une halle de marché."
+      },
+      "photoAquitaineMonflanquin": {
+        "title": "Place de Monflanquin",
+        "alt": "Place de bastide bordée de maisons à colombages."
+      },
+      "photoAquitaineMakhila": {
+        "title": "Makhilas au musée Basque de Bayonne",
+        "alt": "Rangée de bâtons de bois sombre à poignée, suspendus dans une vitrine."
+      },
+      "photoAquitaineEspadrilles": {
+        "title": "Espadrilles à Mauléon-Licharre",
+        "alt": "Présentoir de chaussures de toile multicolores à semelle de corde."
+      },
+      "photoAquitaineGemmage": {
+        "title": "Pin entaillé pour la résine",
+        "alt": "Tronc de pin à l'écorce retirée, portant de longues entailles claires."
+      },
+      "photoAquitaineBeret": {
+        "title": "Béret rouge",
+        "alt": "Spectateur vu de dos, en chemise blanche et foulard rouge, coiffé d'un couvre-chef rouge."
+      },
+      "photoAquitaineTonnellerie": {
+        "title": "Tonnellerie",
+        "alt": "Artisan cerclant un tonneau de bois, à côté d'un feu de copeaux."
+      },
+      "photoAquitainePinasse": {
+        "title": "Pinasse, bassin d'Arcachon",
+        "alt": "Bateau de bois verni à fond plat, naviguant près d'un banc de sable."
+      },
+      "photoAquitainePelote": {
+        "title": "Fronton d'Uza, Landes",
+        "alt": "Grand mur ocre au sommet arrondi, dressé sur un terrain de village."
+      },
+      "photoAquitaineCestaPunta": {
+        "title": "Partie de cesta punta",
+        "alt": "Joueurs équipés d'un long gant recourbé, sur un terrain à haut mur vert."
+      },
+      "photoAquitaineForceBasque": {
+        "title": "Force basque à Saint-Palais",
+        "alt": "Homme portant de lourds bidons à bout de bras devant des spectateurs."
+      },
+      "photoAquitaineCourseLandaise": {
+        "title": "Écart de course landaise, carte postale ancienne",
+        "alt": "Photographie ancienne d'un homme esquivant une vache dans une arène."
+      },
+      "photoAquitaineEchassiers": {
+        "title": "Jeu d'échasses, carte postale ancienne",
+        "alt": "Photographie ancienne de jeunes gens juchés sur de hautes perches de bois."
+      },
+      "photoAquitainePottok": {
+        "title": "Pottok et son poulain sur la Rhune",
+        "alt": "Petit cheval brun à crinière épaisse et son poulain, sur une crête."
+      },
+      "photoAquitaineFetesBayonne": {
+        "title": "Fêtes de Bayonne, mairie",
+        "alt": "Foule vêtue de blanc et de rouge devant un grand bâtiment municipal à colonnes."
+      },
+      "photoAquitaineLauburu": {
+        "title": "Lauburu sur un manche",
+        "alt": "Motif métallique à quatre têtes arrondies, serti au sommet d'un manche de cuir."
+      },
+      "photoAquitaineTranshumance": {
+        "title": "Transhumance en vallée d'Ossau",
+        "alt": "Troupeau de brebis sur une pente verte, un pic rocheux à l'horizon."
+      },
+      "photoAquitaineMontaigne": {
+        "title": "Portrait de Michel de Montaigne",
+        "alt": "Gravure ancienne d'un homme à fraise blanche et toque, dans un médaillon."
+      },
+      "photoAquitaineMontesquieu": {
+        "title": "Portrait de Montesquieu",
+        "alt": "Dessin ancien d'un homme âgé vu de profil, dans un ovale."
+      },
+      "photoAquitaineMauriac": {
+        "title": "Terrasse de Malagar",
+        "alt": "Banc de fer sous une tonnelle, face à un paysage de vignes."
+      },
+      "photoAquitaineBaker": {
+        "title": "Château des Milandes",
+        "alt": "Château de pierre à tourelles et terrasse, au-dessus d'une vallée."
+      },
+      "photoAquitaineRavel": {
+        "title": "Maurice Ravel en 1925",
+        "alt": "Portrait d'un homme aux cheveux blancs, en costume, cravate et pochette."
+      },
+      "photoAquitaineMalrome": {
+        "title": "Château Malromé",
+        "alt": "Château à tour pointue au fond d'un parc planté de grands arbres."
+      },
+      "photoAquitaineGoya": {
+        "title": "La Laitière de Bordeaux, de Goya",
+        "alt": "Tableau d'une jeune femme assise, drapée d'un châle sombre, la tête inclinée."
+      },
+      "photoAquitaineForetLandes": {
+        "title": "Forêt des Landes",
+        "alt": "Silhouettes de pins élancés dans une brume dorée."
+      },
+      "photoAquitaineHuchet": {
+        "title": "Embouchure du courant d'Huchet",
+        "alt": "Cours d'eau rejoignant une plage de sable, au pied d'une dune."
+      },
+      "photoAquitaineHossegor": {
+        "title": "Surf à Hossegor",
+        "alt": "Spectateurs sur le sable, regardant des surfeurs dans de grosses vagues."
+      },
+      "photoAquitainePicOssau": {
+        "title": "Pic du Midi d'Ossau",
+        "alt": "Sommet rocheux à deux pointes, au-dessus d'une forêt de sapins."
+      },
+      "photoAquitaineArtouste": {
+        "title": "Petit train d'Artouste",
+        "alt": "Petit train rouge et jaune sur une voie étroite, à flanc de montagne."
+      },
+      "photoAquitaineLescun": {
+        "title": "Cirque de Lescun",
+        "alt": "Village niché dans les prairies, au pied d'un cirque de sommets calcaires."
+      },
+      "photoAquitaineAubisque": {
+        "title": "Col d'Aubisque",
+        "alt": "Route de montagne passant entre des croupes herbeuses, vers un hôtel isolé."
+      },
+      "photoAquitaineProumeyssac": {
+        "title": "Gouffre de Proumeyssac",
+        "alt": "Immense draperie de calcite orangée, éclairée dans une cavité souterraine."
+      },
+      "photoAquitaineTremolat": {
+        "title": "Cingle de Trémolat",
+        "alt": "Grande boucle de rivière autour d'une plaine cultivée, vue depuis une falaise boisée."
+      },
+      "photoAquitaineRhune": {
+        "title": "Petit train de la Rhune",
+        "alt": "Train à crémaillère en bois verni, montant dans la verdure."
+      },
+      "photoAquitaineCorniche": {
+        "title": "Corniche basque",
+        "alt": "Falaises aux strates obliques plongeant dans l'océan agité."
+      },
+      "photoAquitaineKakuetta": {
+        "title": "Gorges de Kakuetta",
+        "alt": "Cascade dévalant une gorge étroite couverte de végétation."
+      },
+      "photoAquitaineEstuaire": {
+        "title": "Estuaire de la Gironde vu de Blaye",
+        "alt": "Immense étendue d'eau brune sous un ciel gris, avec quelques îles au loin."
+      },
+      "photoAquitaineIsard": {
+        "title": "Isards dans les Pyrénées",
+        "alt": "Petit ongulé à cornes crochues, debout dans un éboulis."
+      },
+      "photoAquitaineVautour": {
+        "title": "Vautour fauve",
+        "alt": "Tête d'un grand rapace au duvet blanc et au bec crochu."
+      },
+      "photoAquitaineLascaux": {
+        "title": "Peinture de Lascaux, fac-similé probable",
+        "alt": "Peintures préhistoriques d'animaux en ocre et en noir sur une paroi claire."
+      },
+      "photoAquitaineFontDeGaume": {
+        "title": "Grotte de Font-de-Gaume, entrée",
+        "alt": "Entrée sombre d'une grotte dans une paroi calcaire."
+      },
+      "photoAquitaineCroMagnon": {
+        "title": "Abri de Cro-Magnon",
+        "alt": "Grand abri sous roche dans une falaise calcaire, ombragé par des arbres."
+      },
+      "photoAquitaineIsturitz": {
+        "title": "Entrée de la grotte d'Isturitz",
+        "alt": "Porche de grotte dans une falaise, aménagé pour les visiteurs."
+      },
+      "photoAquitaineFaisans": {
+        "title": "Île des Faisans",
+        "alt": "Petit îlot boisé au milieu d'une rivière à marée basse."
+      },
+      "photoAquitaineBaseSousMarine": {
+        "title": "Base sous-marine de Bordeaux",
+        "alt": "Énorme masse de béton brut, surplombant de ses corniches, sur un ciel bleu."
+      },
+      "photoAquitaineGirondins": {
+        "title": "Monument aux Girondins, Bordeaux",
+        "alt": "Haute colonne surmontée d'une statue, au-dessus d'une fontaine de bronze."
+      },
+      "photoAquitainePortLune": {
+        "title": "Quais de Bordeaux",
+        "alt": "Large fleuve brun longé d'un quai, en courbe, avec un pont levant au loin."
+      },
+      "photoAquitaineHenriIv": {
+        "title": "Henri IV, école de Frans Pourbus le Jeune",
+        "alt": "Portrait en pied d'un roi en noir, à fraise blanche et cordon bleu."
+      },
+      "photoAquitaineAlienor": {
+        "title": "Gisant d'Aliénor d'Aquitaine, moulage",
+        "alt": "Visage couronné d'une reine sculptée, allongée sur un coussin."
+      },
+      "photoAquitaineBernadotte": {
+        "title": "Charles XIV Jean de Suède, d'après François Gérard",
+        "alt": "Portrait en pied d'un maréchal en uniforme sombre à ceinture dorée."
       }
     }
   },
@@ -2589,18 +3049,26 @@
     "12": "Aveyron",
     "13": "Bouches-du-Rhône",
     "15": "Cantal",
+    "16": "Charente",
+    "17": "Charente-Maritime",
+    "19": "Corrèze",
     "21": "Côte-d'Or",
+    "23": "Creuse",
+    "24": "Dordogne",
     "25": "Doubs",
     "26": "Drôme",
     "30": "Gard",
     "31": "Haute-Garonne",
     "32": "Gers",
+    "33": "Gironde",
     "34": "Hérault",
     "38": "Isère",
     "39": "Jura",
+    "40": "Landes",
     "42": "Loire",
     "43": "Haute-Loire",
     "46": "Lot",
+    "47": "Lot-et-Garonne",
     "48": "Lozère",
     "51": "Marne",
     "52": "Haute-Marne",
@@ -2609,6 +3077,7 @@
     "57": "Moselle",
     "58": "Nièvre",
     "63": "Puy-de-Dôme",
+    "64": "Pyrénées-Atlantiques",
     "65": "Hautes-Pyrénées",
     "66": "Pyrénées-Orientales",
     "67": "Bas-Rhin",
@@ -2618,10 +3087,13 @@
     "71": "Saône-et-Loire",
     "73": "Savoie",
     "74": "Haute-Savoie",
+    "79": "Deux-Sèvres",
     "81": "Tarn",
     "82": "Tarn-et-Garonne",
     "83": "Var",
     "84": "Vaucluse",
+    "86": "Vienne",
+    "87": "Haute-Vienne",
     "88": "Vosges",
     "89": "Yonne",
     "90": "Territoire de Belfort",
@@ -3040,7 +3512,67 @@
     "roussillon": "Roussillon",
     "bonnieux": "Bonnieux",
     "lourmarin": "Lourmarin",
-    "fontaine-de-vaucluse": "Fontaine-de-Vaucluse"
+    "fontaine-de-vaucluse": "Fontaine-de-Vaucluse",
+    "perigueux": "Périgueux",
+    "bergerac": "Bergerac",
+    "sarlat-la-caneda": "Sarlat-la-Canéda",
+    "nontron": "Nontron",
+    "riberac": "Ribérac",
+    "montignac": "Montignac",
+    "les-eyzies": "Les Eyzies",
+    "domme": "Domme",
+    "la-roque-gageac": "La Roque-Gageac",
+    "beynac-et-cazenac": "Beynac-et-Cazenac",
+    "brantome": "Brantôme",
+    "monpazier": "Monpazier",
+    "hautefort": "Hautefort",
+    "bordeaux": "Bordeaux",
+    "arcachon": "Arcachon",
+    "libourne": "Libourne",
+    "langon": "Langon",
+    "blaye": "Blaye",
+    "pauillac": "Pauillac",
+    "lacanau": "Lacanau",
+    "saint-emilion": "Saint-Émilion",
+    "la-teste-de-buch": "La Teste-de-Buch",
+    "cadillac": "Cadillac",
+    "bazas": "Bazas",
+    "soulac-sur-mer": "Soulac-sur-Mer",
+    "sauternes": "Sauternes",
+    "mont-de-marsan": "Mont-de-Marsan",
+    "dax": "Dax",
+    "biscarrosse": "Biscarrosse",
+    "mimizan": "Mimizan",
+    "hossegor": "Hossegor",
+    "capbreton": "Capbreton",
+    "saint-sever": "Saint-Sever",
+    "aire-sur-l-adour": "Aire-sur-l'Adour",
+    "sabres": "Sabres",
+    "agen": "Agen",
+    "villeneuve-sur-lot": "Villeneuve-sur-Lot",
+    "marmande": "Marmande",
+    "nerac": "Nérac",
+    "monflanquin": "Monflanquin",
+    "villereal": "Villeréal",
+    "pujols": "Pujols",
+    "tonneins": "Tonneins",
+    "fumel": "Fumel",
+    "pau": "Pau",
+    "bayonne": "Bayonne",
+    "biarritz": "Biarritz",
+    "anglet": "Anglet",
+    "saint-jean-de-luz": "Saint-Jean-de-Luz",
+    "hendaye": "Hendaye",
+    "oloron-sainte-marie": "Oloron-Sainte-Marie",
+    "orthez": "Orthez",
+    "espelette": "Espelette",
+    "saint-jean-pied-de-port": "Saint-Jean-Pied-de-Port",
+    "ainhoa": "Ainhoa",
+    "cambo-les-bains": "Cambo-les-Bains",
+    "mauleon-licharre": "Mauléon-Licharre",
+    "salies-de-bearn": "Salies-de-Béarn",
+    "lescar": "Lescar",
+    "sare": "Sare"
   },
   "territories": {
     "champagne-ardenne": {
@@ -23072,6 +23604,1893 @@
           }
         }
       }
+    },
+    "aquitaine": {
+      "name": "Aquitaine",
+      "description": "De l'estuaire de la Gironde aux Pyrénées, un pays de vignobles et de forêts de pins, de bastides et de grottes ornées, de surf et de pelote, entre Pays basque, Béarn, Landes et Périgord, aujourd'hui au sein de la région Nouvelle-Aquitaine.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Aquitaine",
+          "description": "Cinq départements, leurs villes et les grands repères d'un pays qui va de l'océan aux Pyrénées et aux vallées du Périgord.",
+          "carte-territoire": {
+            "prompt": "Touchez sur la carte le territoire historique de l'Aquitaine.",
+            "hint": "C'est la partie sud de la région, de l'océan aux Pyrénées.",
+            "anecdote": "L'Aquitaine était une région administrative jusqu'en 2015. Elle a fusionné avec le Limousin et Poitou-Charentes le 1er janvier 2016."
+          },
+          "carte-voisin": {
+            "prompt": "Touchez le territoire voisin qui prolonge l'Aquitaine vers le nord, le long de l'Atlantique.",
+            "hint": "C'est la partie nord-ouest de la région, avec La Rochelle et Poitiers.",
+            "anecdote": "Le troisième territoire de la région, le Limousin, se trouve à l'est, sans accès à la mer."
+          },
+          "capitale": {
+            "prompt": "Quelle ville est la capitale de l'Aquitaine et le chef-lieu de la région Nouvelle-Aquitaine ?",
+            "hint": "Elle est bâtie sur les rives de la Garonne.",
+            "anecdote": "Son port en forme de croissant lui a valu le surnom de port de la Lune."
+          },
+          "cinq": {
+            "prompt": "Combien de départements compte l'Aquitaine ?",
+            "hint": "C'est autant que de doigts sur une main.",
+            "anecdote": "Ce sont la Dordogne, la Gironde, les Landes, le Lot-et-Garonne et les Pyrénées-Atlantiques.",
+            "answers": {
+              "cinq": "Cinq",
+              "trois": "Trois",
+              "huit": "Huit",
+              "douze": "Douze"
+            }
+          },
+          "fusion": {
+            "prompt": "Comment s'appelle la grande région née de la fusion de l'Aquitaine, du Limousin et de Poitou-Charentes ?",
+            "hint": "Son nom ajoute un adjectif à celui de l'ancienne région.",
+            "anecdote": "Créée le 1er janvier 2016, c'est la plus vaste région de la France métropolitaine.",
+            "answers": {
+              "la-nouvelle-aquitaine": "La Nouvelle-Aquitaine",
+              "la-grande-aquitaine": "La Grande Aquitaine",
+              "le-grand-sud-ouest": "Le Grand Sud-Ouest",
+              "l-aquitaine-atlantique": "L'Aquitaine-Atlantique"
+            }
+          },
+          "espagne": {
+            "prompt": "Avec quel pays l'Aquitaine partage-t-elle une frontière ?",
+            "hint": "Il se trouve de l'autre côté des Pyrénées.",
+            "anecdote": "La frontière va de l'océan, à Hendaye, jusqu'aux hautes montagnes de la vallée d'Ossau.",
+            "answers": {
+              "l-espagne": "L'Espagne",
+              "l-italie": "L'Italie",
+              "le-portugal": "Le Portugal",
+              "l-andorre": "L'Andorre"
+            }
+          },
+          "ocean": {
+            "prompt": "Quelle étendue d'eau borde toute la côte de l'Aquitaine ?",
+            "hint": "Elle sépare l'Europe de l'Amérique.",
+            "anecdote": "Cette côte s'ouvre sur le golfe de Gascogne, qui s'étend de la Bretagne au nord de l'Espagne.",
+            "answers": {
+              "l-ocean-atlantique": "L'océan Atlantique",
+              "la-mer-mediterranee": "La mer Méditerranée",
+              "la-manche": "La Manche",
+              "la-mer-du-nord": "La mer du Nord"
+            }
+          },
+          "garonne": {
+            "prompt": "Quel fleuve traverse Bordeaux ?",
+            "hint": "Il prend sa source en Espagne, dans les Pyrénées.",
+            "anecdote": "Il rejoint la Dordogne au bec d'Ambès, pour former l'estuaire de la Gironde.",
+            "answers": {
+              "la-garonne": "La Garonne",
+              "la-loire": "La Loire",
+              "le-rhone": "Le Rhône",
+              "la-seine": "La Seine"
+            }
+          },
+          "plus-vaste": {
+            "prompt": "Quel département d'Aquitaine est le plus vaste de la France métropolitaine ?",
+            "hint": "Il porte le nom d'un grand estuaire.",
+            "anecdote": "Il couvre près de 10 000 km², juste devant son voisin du sud, les Landes.",
+            "answers": {
+              "la-gironde": "La Gironde",
+              "la-dordogne": "La Dordogne",
+              "les-landes": "Les Landes",
+              "le-lot-et-garonne": "Le Lot-et-Garonne"
+            }
+          },
+          "prefecture-64": {
+            "prompt": "Quelle ville est la préfecture des Pyrénées-Atlantiques ?",
+            "hint": "Elle fait face à la chaîne des Pyrénées, depuis un célèbre boulevard.",
+            "anecdote": "Le roi Henri IV y est né en 1553, dans le château."
+          },
+          "prefecture-40": {
+            "prompt": "Quelle ville est la préfecture des Landes ?",
+            "hint": "Elle est bâtie là où la Douze et le Midou se rejoignent.",
+            "anecdote": "Ces deux rivières y forment la Midouze."
+          },
+          "pays-64": {
+            "prompt": "Quels deux pays traditionnels composent le département des Pyrénées-Atlantiques ?",
+            "hint": "L'un a Pau pour capitale, l'autre a sa propre langue, sans parenté connue.",
+            "anecdote": "Ce département s'est appelé Basses-Pyrénées jusqu'en 1969.",
+            "answers": {
+              "le-bearn-et-le-pays-basque": "Le Béarn et le Pays basque",
+              "le-perigord-et-l-agenais": "Le Périgord et l'Agenais",
+              "le-medoc-et-le-bazadais": "Le Médoc et le Bazadais",
+              "la-bigorre-et-la-chalosse": "La Bigorre et la Chalosse"
+            }
+          },
+          "prefecture-47": {
+            "prompt": "Quelle ville est la préfecture du Lot-et-Garonne ?",
+            "hint": "Elle est située sur la Garonne, à mi-chemin entre Bordeaux et Toulouse.",
+            "anecdote": "Son équipe de rugby, le SU Agen, a remporté huit titres de champion de France."
+          },
+          "prefecture-24": {
+            "prompt": "Quelle ville est la préfecture de la Dordogne ?",
+            "hint": "Elle est bâtie sur l'Isle, au cœur du Périgord blanc.",
+            "anecdote": "Elle s'appelait Vesunna à l'époque romaine. Un musée présente aujourd'hui les vestiges de cette ville antique."
+          },
+          "carte-bordeaux": {
+            "prompt": "Touchez le département de Bordeaux.",
+            "hint": "C'est le plus au nord de l'Aquitaine sur la côte atlantique, autour d'un grand estuaire.",
+            "anecdote": "Son nom vient de l'estuaire formé par la Garonne et la Dordogne."
+          },
+          "carte-arcachon": {
+            "prompt": "Touchez le département du bassin d'Arcachon.",
+            "hint": "C'est le plus au nord de l'Aquitaine sur la côte atlantique, autour d'un grand estuaire.",
+            "anecdote": "Ce bassin ouvert sur l'océan se trouve au sud de la pointe du Médoc."
+          },
+          "carte-libourne": {
+            "prompt": "Touchez le département de Libourne, port du vin sur la Dordogne.",
+            "hint": "C'est le plus au nord de l'Aquitaine sur la côte atlantique, autour d'un grand estuaire.",
+            "anecdote": "Cette bastide a été fondée au XIIIe siècle par Roger de Leybourne, un sénéchal anglais."
+          },
+          "carte-pauillac": {
+            "prompt": "Touchez le département de Pauillac, au cœur du Médoc.",
+            "hint": "C'est le plus au nord de l'Aquitaine sur la côte atlantique, autour d'un grand estuaire.",
+            "anecdote": "Cette commune viticole se trouve au bord de l'estuaire."
+          },
+          "carte-mont-de-marsan": {
+            "prompt": "Touchez le département de Mont-de-Marsan.",
+            "hint": "Il s'étend le long de l'océan, entre la Gironde et le Pays basque.",
+            "anecdote": "Ce département tire son nom de ses anciennes étendues sablonneuses, couvertes de forêt depuis le XIXe siècle."
+          },
+          "carte-dax": {
+            "prompt": "Touchez le département de Dax, grande ville thermale.",
+            "hint": "Il s'étend le long de l'océan, entre la Gironde et le Pays basque.",
+            "anecdote": "Cette ville est connue pour ses eaux chaudes et ses boues soignantes."
+          },
+          "carte-hossegor": {
+            "prompt": "Touchez le département de Hossegor, haut lieu du surf.",
+            "hint": "Il s'étend le long de l'océan, entre la Gironde et le Pays basque.",
+            "anecdote": "Ses vagues accueillent des compétitions internationales."
+          },
+          "carte-pau": {
+            "prompt": "Touchez le département de Pau.",
+            "hint": "C'est le département tout au sud-ouest, le long de la frontière espagnole.",
+            "anecdote": "Il s'appelle Pyrénées-Atlantiques depuis 1969."
+          },
+          "carte-bayonne": {
+            "prompt": "Touchez le département de Bayonne.",
+            "hint": "C'est le département tout au sud-ouest, le long de la frontière espagnole.",
+            "anecdote": "Cette ville se trouve au confluent de l'Adour et de la Nive."
+          },
+          "carte-biarritz": {
+            "prompt": "Touchez le département de Biarritz.",
+            "hint": "C'est le département tout au sud-ouest, le long de la frontière espagnole.",
+            "anecdote": "L'impératrice Eugénie y a lancé la mode des bains de mer au XIXe siècle."
+          },
+          "carte-agen": {
+            "prompt": "Touchez le département d'Agen.",
+            "hint": "Ce petit département sans littoral se trouve à l'est des Landes.",
+            "anecdote": "Cette ville se trouve sur la Garonne, entre Bordeaux et Toulouse."
+          },
+          "carte-villeneuve": {
+            "prompt": "Touchez le département de Villeneuve-sur-Lot.",
+            "hint": "Ce petit département sans littoral se trouve à l'est des Landes.",
+            "anecdote": "Cette ancienne bastide est traversée par la rivière qui donne au département la moitié de son nom."
+          },
+          "carte-marmande": {
+            "prompt": "Touchez le département de Marmande, connue pour ses tomates.",
+            "hint": "Ce petit département sans littoral se trouve à l'est des Landes.",
+            "anecdote": "Une variété de grosses tomates côtelées porte le nom de cette ville."
+          },
+          "carte-perigueux": {
+            "prompt": "Touchez le département de Périgueux.",
+            "hint": "C'est le département le plus au nord-est de l'Aquitaine, sans littoral.",
+            "anecdote": "Sa cathédrale à coupoles a inspiré la basilique du Sacré-Cœur de Paris."
+          },
+          "carte-sarlat": {
+            "prompt": "Touchez le département de Sarlat.",
+            "hint": "C'est le département le plus au nord-est de l'Aquitaine, sans littoral.",
+            "anecdote": "Cette cité médiévale se trouve dans le Périgord noir."
+          },
+          "bourse": {
+            "prompt": "Dans quelle ville peut-on voir cette place royale se refléter dans une fine nappe d'eau ?",
+            "hint": "Elle s'ouvre sur les quais de la Garonne.",
+            "anecdote": "Le miroir d'eau, inauguré en 2006, fait face à la place de la Bourse, bâtie au XVIIIe siècle."
+          },
+          "biarritz": {
+            "prompt": "Quelle station balnéaire de la côte basque voit-on ici ?",
+            "hint": "Elle est la voisine de Bayonne et d'Anglet.",
+            "anecdote": "Napoléon III y a fait bâtir pour Eugénie une villa, devenue l'Hôtel du Palais."
+          },
+          "pilat": {
+            "prompt": "Comment s'appelle cette immense dune de sable, à l'entrée du bassin d'Arcachon ?",
+            "hint": "Son nom vient d'un mot gascon qui désigne un tas, un monticule.",
+            "anecdote": "Haute d'une centaine de mètres, c'est la plus haute dune d'Europe.",
+            "answers": {
+              "la-dune-du-pilat": "La dune du Pilat",
+              "la-dune-du-medoc": "La dune du Médoc",
+              "la-dune-de-mimizan": "La dune de Mimizan",
+              "la-dune-du-cap": "La dune du Cap"
+            }
+          },
+          "sarlat": {
+            "prompt": "Quelle cité médiévale du Périgord noir montre ces façades de pierre dorée ?",
+            "hint": "C'est la ville natale d'Étienne de La Boétie.",
+            "anecdote": "Son secteur sauvegardé, créé après la loi Malraux de 1962, a préservé tout le centre ancien."
+          },
+          "boulevard": {
+            "prompt": "Dans quelle ville se promène-t-on sur ce boulevard face aux montagnes ?",
+            "hint": "Elle est la capitale historique du Béarn.",
+            "anecdote": "Le boulevard des Pyrénées offre par beau temps un panorama sur le pic du Midi de Bigorre et le pic du Midi d'Ossau."
+          },
+          "bayonne": {
+            "prompt": "Quelle ville du Pays basque aligne ces maisons colorées sur la Nive ?",
+            "hint": "Elle a donné son nom à un jambon réputé.",
+            "anecdote": "Elle est aussi connue pour ses grandes fêtes d'été, où la foule s'habille de blanc et de rouge."
+          },
+          "pont-canal": {
+            "prompt": "Dans quelle ville du Lot-et-Garonne ce pont fait-il franchir la Garonne à un canal ?",
+            "hint": "Elle est connue pour ses pruneaux.",
+            "anecdote": "Avec ses 23 arches, cet ouvrage de pierre porte le canal latéral à la Garonne depuis le milieu du XIXe siècle."
+          },
+          "saint-front": {
+            "prompt": "Dans quelle ville du Périgord se dresse cette cathédrale à coupoles ?",
+            "hint": "C'est la préfecture de la Dordogne.",
+            "anecdote": "La cathédrale Saint-Front a été largement restaurée au XIXe siècle par l'architecte Paul Abadie."
+          },
+          "cabanes": {
+            "prompt": "Dans quel bassin se dressent ces cabanes sur pilotis ?",
+            "hint": "Il porte le nom d'une ville balnéaire de Gironde.",
+            "anecdote": "Ces cabanes tchanquées se trouvent près de l'île aux Oiseaux. Leur nom vient du gascon, pour des échasses.",
+            "answers": {
+              "le-bassin-d-arcachon": "Le bassin d'Arcachon",
+              "le-lac-de-biscarrosse": "Le lac de Biscarrosse",
+              "l-estuaire-de-l-adour": "L'estuaire de l'Adour",
+              "le-lac-d-hourtin": "Le lac d'Hourtin"
+            }
+          },
+          "saint-emilion": {
+            "prompt": "Quel village viticole de Gironde, inscrit à l'Unesco, voit-on sur cette photo ?",
+            "hint": "Son nom est celui d'un moine breton qui y aurait vécu en ermite.",
+            "anecdote": "Sa juridiction a été le premier paysage viticole inscrit au patrimoine mondial, en 1999.",
+            "answers": {
+              "margaux": "Margaux"
+            }
+          },
+          "saint-jean-de-luz": {
+            "prompt": "Quel port basque, où Louis XIV s'est marié, montre cette photo ?",
+            "hint": "Il partage sa baie avec Ciboure.",
+            "anecdote": "Le mariage du roi avec Marie-Thérèse d'Autriche y a été célébré en 1660."
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs d'Aquitaine",
+          "description": "Canard et jambon, piment et pruneau, huîtres du bassin et grands vins : une table généreuse, de l'océan aux vallées du Périgord.",
+          "foie-gras": {
+            "prompt": "Quelle spécialité du Sud-Ouest voit-on tranchée sur cette assiette ?",
+            "hint": "Cette spécialité festive se sert souvent à Noël, avec du pain grillé.",
+            "anecdote": "Le Périgord et les Landes sont deux grands territoires de production de cette spécialité, protégée par une indication géographique du Sud-Ouest.",
+            "answers": {
+              "le-foie-gras": "Le foie gras",
+              "le-pate-de-campagne": "Le pâté de campagne",
+              "la-terrine-de-lievre": "La terrine de lièvre",
+              "le-boudin-blanc": "Le boudin blanc"
+            }
+          },
+          "confit": {
+            "prompt": "Comment appelle-t-on cette cuisse de canard cuite puis conservée dans sa graisse ?",
+            "hint": "Son nom évoque une méthode de conservation lente.",
+            "anecdote": "Ce procédé permettait de garder la viande pendant des mois, bien avant le réfrigérateur.",
+            "answers": {
+              "le-confit": "Le confit",
+              "le-magret": "Le magret",
+              "le-salmis": "Le salmis",
+              "le-civet": "Le civet"
+            }
+          },
+          "magret": {
+            "prompt": "Quel morceau de canard est servi ici, tranché et rosé ?",
+            "hint": "C'est le filet d'un canard gavé.",
+            "anecdote": "Cette découpe s'est popularisée dans les années 1960, à partir du Sud-Ouest.",
+            "answers": {
+              "le-magret": "Le magret",
+              "le-confit": "Le confit",
+              "le-gesier": "Le gésier",
+              "l-aiguillette-de-boeuf": "L'aiguillette de bœuf"
+            }
+          },
+          "jambon-bayonne": {
+            "prompt": "Quel jambon sec porte le nom d'une ville du Pays basque ?",
+            "hint": "Cette ville se trouve au bord de l'Adour et de la Nive.",
+            "anecdote": "Il est salé au sel du bassin de l'Adour et longuement affiné. Il bénéficie d'une indication géographique protégée.",
+            "answers": {
+              "le-jambon-de-bayonne": "Le jambon de Bayonne",
+              "le-jambon-de-parme": "Le jambon de Parme",
+              "le-jambon-de-paris": "Le jambon de Paris",
+              "le-jambon-d-auvergne": "Le jambon d'Auvergne"
+            }
+          },
+          "axoa": {
+            "prompt": "Quel plat basque de viande hachée, au piment doux, voit-on ici ?",
+            "hint": "Son nom basque s'écrit avec un x et se prononce achoa.",
+            "anecdote": "Ce plat de veau, servi les jours de marché et de foire, est une grande spécialité d'Espelette.",
+            "answers": {
+              "l-axoa": "L'axoa",
+              "le-ttoro": "Le ttoro",
+              "la-garbure": "La garbure",
+              "le-tourin": "Le tourin"
+            }
+          },
+          "garbure": {
+            "prompt": "Quelle soupe épaisse au chou, plat paysan du Béarn et de la Gascogne, voit-on ici ?",
+            "hint": "On y ajoute souvent un morceau de confit.",
+            "anecdote": "On la mangeait autrefois à toute heure et la cuillère devait presque tenir debout.",
+            "answers": {
+              "la-garbure": "La garbure",
+              "la-bouillabaisse": "La bouillabaisse",
+              "le-tourin": "Le tourin",
+              "la-potee-lorraine": "La potée lorraine"
+            }
+          },
+          "piperade": {
+            "prompt": "Quelle préparation basque de poivrons, tomates et oignons voit-on ici ?",
+            "hint": "Son nom vient du mot béarnais pour désigner le poivron.",
+            "anecdote": "Elle accompagne souvent des œufs ou une tranche de jambon de Bayonne.",
+            "answers": {
+              "la-piperade": "La pipérade",
+              "la-ratatouille": "La ratatouille",
+              "l-axoa": "L'axoa",
+              "le-gaspacho": "Le gaspacho"
+            }
+          },
+          "chipirons": {
+            "prompt": "Quels petits encornets sont une spécialité de la côte basque ?",
+            "hint": "On les cuisine parfois dans leur encre.",
+            "anecdote": "Ils sont souvent servis à la plancha ou à la basquaise, avec des poivrons et des tomates.",
+            "answers": {
+              "les-chipirons": "Les chipirons",
+              "les-couteaux": "Les couteaux",
+              "les-pibales": "Les pibales",
+              "les-sardines": "Les sardines"
+            }
+          },
+          "lamproie": {
+            "prompt": "Quel étrange poisson sans mâchoire est cuisiné à la bordelaise ?",
+            "hint": "Il remonte l'estuaire de la Gironde au printemps pour se reproduire.",
+            "anecdote": "On le prépare en matelote, dans une sauce au vin rouge liée avec son propre sang.",
+            "answers": {
+              "la-lamproie": "La lamproie",
+              "l-anguille": "L'anguille",
+              "l-esturgeon": "L'esturgeon",
+              "le-congre": "Le congre"
+            }
+          },
+          "poule-au-pot": {
+            "prompt": "À quel roi né à Pau attribue-t-on le souhait de voir une poule au pot chaque dimanche sur la table des paysans ?",
+            "hint": "On le surnomme le Vert Galant.",
+            "anecdote": "Cette phrase n'est pas attestée de son vivant, mais la légende a fait de ce plat un symbole de son règne.",
+            "answers": {
+              "henri-iv": "Henri IV",
+              "louis-xiv": "Louis XIV",
+              "francois-ier": "François Ier",
+              "napoleon-iii": "Napoléon III"
+            }
+          },
+          "ttoro": {
+            "prompt": "Le ttoro est une soupe de pêcheurs associée à quel port de la côte basque ?",
+            "hint": "Louis XIV s'y est marié.",
+            "anecdote": "Ce plat de pêcheurs utilisait les poissons les moins bien vendus. Il est aujourd'hui enrichi de langoustines et de moules."
+          },
+          "tourin": {
+            "prompt": "Quel est l'ingrédient principal du tourin, la soupe traditionnelle du Périgord ?",
+            "hint": "Il est aussi réputé pour éloigner les vampires.",
+            "anecdote": "On y ajoute du vin rouge à la fin de l'assiette. Ce geste se dit faire chabrol, ou chabrot.",
+            "answers": {
+              "l-ail": "L'ail",
+              "la-carotte": "La carotte",
+              "la-chataigne": "La châtaigne",
+              "le-potiron": "Le potiron"
+            }
+          },
+          "canele": {
+            "prompt": "Quel petit gâteau de Bordeaux, à la croûte caramélisée, voit-on ici ?",
+            "hint": "Il est parfumé au rhum et à la vanille, avec une croûte épaisse et un cœur moelleux.",
+            "anecdote": "Une légende relie sa recette aux jaunes d'œufs laissés par les vignerons, qui utilisaient les blancs pour clarifier le vin.",
+            "answers": {
+              "le-canele": "Le canelé",
+              "le-macaron": "Le macaron",
+              "le-financier": "Le financier",
+              "le-baba": "Le baba"
+            }
+          },
+          "gateau-basque": {
+            "prompt": "Quelle pâtisserie fourrée, à la crème ou aux cerises noires, voit-on ici ?",
+            "hint": "Il renferme une crème ou de la confiture de cerises noires.",
+            "anecdote": "Ses versions à la crème pâtissière et aux cerises noires d'Itxassou se disputent les faveurs des amateurs.",
+            "answers": {
+              "le-gateau-basque": "Le gâteau basque",
+              "le-pastis-landais": "Le pastis landais",
+              "la-tourte-bearnaise": "La tourte béarnaise",
+              "le-far-breton": "Le far breton"
+            }
+          },
+          "pruneaux": {
+            "prompt": "Quel fruit séché fait la réputation du Lot-et-Garonne ?",
+            "hint": "Il est obtenu en séchant la prune d'Ente.",
+            "anecdote": "Il tient son nom d'Agen, car il était expédié autrefois par le port de cette ville sur la Garonne. Il bénéficie d'une indication géographique protégée.",
+            "answers": {
+              "le-pruneau": "Le pruneau",
+              "l-abricot-sec": "L'abricot sec",
+              "la-figue": "La figue",
+              "le-raisin-de-corinthe": "Le raisin de Corinthe"
+            }
+          },
+          "macarons": {
+            "prompt": "Quelle douceur à l'amande est associée à Saint-Émilion ?",
+            "hint": "Sa recette remonte aux religieuses ursulines, au XVIIe siècle.",
+            "anecdote": "Ils se distinguent des macarons parisiens par leur forme simple, sans garniture.",
+            "answers": {
+              "le-macaron": "Le macaron",
+              "le-canele": "Le canelé",
+              "le-calisson": "Le calisson",
+              "le-nougat": "Le nougat"
+            }
+          },
+          "chocolat": {
+            "prompt": "Quelle ville du Pays basque, où l'on travaille ces plaques de chocolat, est réputée pour cette spécialité depuis le XVIIe siècle ?",
+            "hint": "Elle se trouve au confluent de la Nive et de l'Adour.",
+            "anecdote": "Selon la tradition bayonnaise, des familles juives chassées d'Espagne et du Portugal y ont apporté le chocolat au XVIIe siècle."
+          },
+          "pastis": {
+            "prompt": "Comment s'appelle la brioche landaise parfumée au rhum et à l'anis ?",
+            "hint": "Elle porte le nom d'une boisson anisée du Midi, mais n'a rien à voir.",
+            "anecdote": "Elle était préparée pour les grandes fêtes de famille, comme les mariages et les communions.",
+            "answers": {
+              "le-pastis-landais": "Le pastis landais",
+              "la-fouace": "La fouace",
+              "la-tourtiere": "La tourtière",
+              "le-kouglof": "Le kouglof"
+            }
+          },
+          "piment": {
+            "prompt": "Quel condiment rouge sèche sur les façades d'un village basque ?",
+            "hint": "Il vient d'un village du Labourd et bénéficie d'une appellation.",
+            "anecdote": "Sa culture s'étend sur dix communes du Pays basque. C'est la seule épice française protégée par une appellation d'origine.",
+            "answers": {
+              "le-piment-d-espelette": "Le piment d'Espelette",
+              "le-paprika-de-hongrie": "Le paprika de Hongrie",
+              "le-poivre-de-kampot": "Le poivre de Kampot",
+              "le-safran-du-quercy": "Le safran du Quercy"
+            }
+          },
+          "ossau-iraty": {
+            "prompt": "Quel fromage de brebis, protégé par une appellation, vient du Béarn et du Pays basque ?",
+            "hint": "Son nom réunit une vallée du Béarn et une forêt du Pays basque.",
+            "anecdote": "Il se déguste traditionnellement avec une confiture de cerises noires.",
+            "answers": {
+              "l-ossau-iraty": "L'ossau-iraty",
+              "le-roquefort": "Le roquefort",
+              "le-cantal": "Le cantal",
+              "le-saint-nectaire": "Le saint-nectaire"
+            }
+          },
+          "truffe": {
+            "prompt": "Quel champignon souterrain, surnommé le diamant noir, fait la fierté du Périgord ?",
+            "hint": "On le cherche avec un chien ou un cochon, au pied des chênes.",
+            "anecdote": "Le village de Sorges lui consacre un écomusée et un sentier.",
+            "answers": {
+              "la-truffe": "La truffe",
+              "le-cepe": "Le cèpe",
+              "la-morille": "La morille",
+              "la-girolle": "La girolle"
+            }
+          },
+          "noix": {
+            "prompt": "Quel fruit à coque du Périgord est protégé par une appellation d'origine ?",
+            "hint": "Il pousse sur de grands arbres et sert aussi à faire une huile.",
+            "anecdote": "Ses principales variétés sont la marbot, la corne, la grandjean et la franquette.",
+            "answers": {
+              "la-noix": "La noix",
+              "la-noisette": "La noisette",
+              "l-amande": "L'amande",
+              "la-chataigne": "La châtaigne"
+            }
+          },
+          "huitres": {
+            "prompt": "Quel coquillage fait vivre les ports du bassin d'Arcachon ?",
+            "hint": "On le mange cru, souvent à Noël.",
+            "anecdote": "Le bassin est un grand centre de captage : ses naissains partent ensuite vers d'autres bassins de France.",
+            "answers": {
+              "l-huitre": "L'huître",
+              "la-moule": "La moule",
+              "la-coque": "La coque",
+              "la-palourde": "La palourde"
+            }
+          },
+          "cepes": {
+            "prompt": "Quel champignon des forêts est aussi appelé bouchon de champagne quand il est jeune ?",
+            "hint": "Son chapeau brun s'ouvre sur des tubes, pas des lamelles.",
+            "anecdote": "On le cuisine souvent à la persillade, dans la graisse de canard.",
+            "answers": {
+              "le-cepe": "Le cèpe",
+              "la-girolle": "La girolle",
+              "la-truffe": "La truffe",
+              "la-morille": "La morille"
+            }
+          },
+          "sel": {
+            "prompt": "Quelle commune du Béarn est connue pour son sel, utilisé pour saler le jambon de Bayonne ?",
+            "hint": "Ses salines sont exploitées depuis l'âge du Bronze.",
+            "anecdote": "Sa source, dix fois plus salée que la mer, y alimente aussi des thermes."
+          },
+          "tomate": {
+            "prompt": "Quelle commune du Lot-et-Garonne a donné son nom à une variété de grosse tomate ?",
+            "hint": "Elle se trouve au bord de la Garonne, à l'ouest d'Agen.",
+            "anecdote": "La ville organise chaque année des fêtes autour de ce fruit."
+          },
+          "fraise": {
+            "prompt": "Quel fruit rouge, cultivé autour de Vergt, bénéficie d'une indication géographique en Périgord ?",
+            "hint": "Il est récolté surtout au printemps.",
+            "anecdote": "Elle est la première fraise française à avoir obtenu cette protection, en 2004.",
+            "answers": {
+              "la-fraise": "La fraise",
+              "la-framboise": "La framboise",
+              "la-cerise": "La cerise",
+              "la-groseille": "La groseille"
+            }
+          },
+          "kiwi": {
+            "prompt": "Quel fruit à la peau velue, originaire de Chine et popularisé par la Nouvelle-Zélande, est cultivé le long de l'Adour ?",
+            "hint": "Il porte le nom d'un oiseau de Nouvelle-Zélande.",
+            "anecdote": "Les vallées de l'Adour lui offrent un climat doux et humide. Il y a une indication géographique protégée.",
+            "answers": {
+              "le-kiwi": "Le kiwi",
+              "l-ananas": "L'ananas",
+              "la-mangue": "La mangue",
+              "le-litchi": "Le litchi"
+            }
+          },
+          "agneau": {
+            "prompt": "Quel agneau de lait porte le nom d'une commune viticole du Médoc ?",
+            "hint": "Il partage son nom avec un célèbre vin.",
+            "anecdote": "Il est élevé sous la mère, nourri essentiellement de son lait et abattu très jeune, sans sevrage.",
+            "answers": {
+              "l-agneau-de-pauillac": "L'agneau de Pauillac",
+              "l-agneau-de-sisteron": "L'agneau de Sisteron",
+              "l-agneau-du-quercy": "L'agneau du Quercy",
+              "l-agneau-de-lozere": "L'agneau de Lozère"
+            }
+          },
+          "boeuf-bazas": {
+            "prompt": "Quelle ville de Gironde fête chaque année ses bœufs gras, le jeudi qui précède Mardi gras ?",
+            "hint": "Elle est dominée par une grande cathédrale gothique.",
+            "anecdote": "Les bêtes y défilent, cornes fleuries, au son des fifres et des tambours."
+          },
+          "poulet-landes": {
+            "prompt": "Quelle céréale nourrit surtout le poulet jaune des Landes ?",
+            "hint": "Elle lui donne sa couleur et couvre de grands champs dans le département.",
+            "anecdote": "Élevé en plein air, à la lisière de la forêt, il porte le Label rouge et une indication géographique protégée.",
+            "answers": {
+              "le-mais": "Le maïs",
+              "le-seigle": "Le seigle",
+              "le-riz": "Le riz",
+              "l-orge": "L'orge"
+            }
+          },
+          "jurancon": {
+            "prompt": "Quel vin blanc du Béarn a, selon la légende, baptisé les lèvres d'Henri IV ?",
+            "hint": "Son vignoble s'étage sur les coteaux au sud de Pau.",
+            "anecdote": "Le nouveau-né aurait reçu sur les lèvres une gousse d'ail et une goutte de ce vin.",
+            "answers": {
+              "le-jurancon": "Le jurançon",
+              "le-monbazillac": "Le monbazillac",
+              "le-sauternes": "Le sauternes",
+              "l-irouleguy": "L'irouléguy"
+            }
+          },
+          "yquem": {
+            "prompt": "Quel vignoble liquoreux de Gironde abrite le célèbre château d'Yquem ?",
+            "hint": "Son raisin est touché par la pourriture noble.",
+            "anecdote": "Yquem est le seul vin classé premier cru supérieur en 1855.",
+            "answers": {
+              "margaux": "Margaux"
+            }
+          },
+          "saint-emilion-vignes": {
+            "prompt": "Quel vignoble, autour d'un village de la rive droite, s'étend sur ces coteaux ?",
+            "hint": "Ce village de Gironde est inscrit à l'Unesco.",
+            "anecdote": "Sur la rive droite, le merlot y domine, contrairement au Médoc qui privilégie le cabernet-sauvignon.",
+            "answers": {
+              "jurancon": "Jurançon"
+            }
+          },
+          "armagnac": {
+            "prompt": "Quelle eau-de-vie est produite dans le Gers, mais aussi dans les Landes et le Lot-et-Garonne ?",
+            "hint": "Elle est distillée à partir de vin blanc et vieillie en fût de chêne.",
+            "anecdote": "Son usage médicinal est décrit dès 1310, et sa vente est attestée en 1461.",
+            "answers": {
+              "l-armagnac": "L'armagnac",
+              "le-cognac": "Le cognac",
+              "le-calvados": "Le calvados",
+              "la-chartreuse": "La chartreuse"
+            }
+          },
+          "izarra": {
+            "prompt": "Quelle liqueur de plantes, verte ou jaune, porte le nom basque de l'étoile ?",
+            "hint": "Elle est née au Pays basque et reste associée à Bayonne.",
+            "anecdote": "Elle a été lancée au début du XXe siècle, et sa recette associe de nombreuses plantes et épices.",
+            "answers": {
+              "l-izarra": "L'Izarra",
+              "la-chartreuse": "La chartreuse",
+              "le-lillet": "Le Lillet",
+              "la-benedictine": "La bénédictine"
+            }
+          },
+          "iroulegy": {
+            "prompt": "Quelle est la seule appellation de vin du Pays basque français ?",
+            "hint": "Son vignoble grimpe en terrasses autour de Saint-Étienne-de-Baïgorry.",
+            "anecdote": "Ses pentes raides, très ensoleillées, donnent surtout des vins rouges à base de tannat.",
+            "answers": {
+              "l-irouleguy": "L'irouléguy",
+              "le-jurancon": "Le jurançon",
+              "le-madiran": "Le madiran",
+              "le-tursan": "Le tursan"
+            }
+          },
+          "carte-piment": {
+            "prompt": "Touchez le département où pousse le piment d'Espelette.",
+            "hint": "Il borde la frontière espagnole.",
+            "anecdote": "Sa culture est limitée à dix communes du Labourd."
+          },
+          "carte-pruneau": {
+            "prompt": "Touchez le département des pruneaux d'Agen.",
+            "hint": "Il est situé sur la Garonne, à l'est des Landes.",
+            "anecdote": "Le séchage de la prune d'Ente s'y est développé au Moyen Âge."
+          },
+          "carte-truffe": {
+            "prompt": "Touchez le département des truffes du Périgord.",
+            "hint": "Il se trouve au nord-est de l'Aquitaine, sans littoral.",
+            "anecdote": "Les marchés de Sorges et de Sarlat sont réputés en hiver."
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Portes et ponts de Bordeaux, châteaux du Périgord, bastides, villages basques et maisons de stars : une pierre à chaque détour.",
+          "grosse-cloche": {
+            "prompt": "Comment s'appelle cette porte médiévale de Bordeaux, surmontée d'un beffroi ?",
+            "hint": "Elle figure sur les armoiries de la ville.",
+            "anecdote": "Elle dépendait de l'ancien hôtel de ville. Elle a aussi servi de prison.",
+            "answers": {
+              "la-grosse-cloche": "La Grosse Cloche",
+              "la-porte-cailhau": "La porte Cailhau",
+              "la-tour-pey-berland": "La tour Pey-Berland",
+              "la-porte-dijeaux": "La porte Dijeaux"
+            }
+          },
+          "cailhau": {
+            "prompt": "Quelle porte de Bordeaux, proche des quais, a été dédiée à Charles VIII après sa victoire de Fornoue ?",
+            "hint": "Son nom rappelle le quai voisin, le premier de Bordeaux pavé de galets.",
+            "anecdote": "Bâtie de 1493 à 1496, elle a été dédiée au roi après la bataille de Fornoue, en 1495.",
+            "answers": {
+              "la-porte-cailhau": "La porte Cailhau",
+              "la-grosse-cloche": "La Grosse Cloche",
+              "la-porte-d-aquitaine": "La porte d'Aquitaine",
+              "la-porte-de-la-monnaie": "La porte de la Monnaie"
+            }
+          },
+          "saint-andre": {
+            "prompt": "À quelle cathédrale bordelaise appartient cette tour, bâtie à part ?",
+            "hint": "Aliénor d'Aquitaine y a épousé le futur Louis VII, en 1137.",
+            "anecdote": "Sa tour porte le nom de l'archevêque Pey-Berland. Elle est bâtie à part, pour préserver la cathédrale des vibrations des cloches.",
+            "answers": {
+              "la-cathedrale-saint-andre": "La cathédrale Saint-André",
+              "la-cathedrale-saint-front": "La cathédrale Saint-Front",
+              "la-basilique-saint-michel": "La basilique Saint-Michel",
+              "la-basilique-saint-seurin": "La basilique Saint-Seurin"
+            }
+          },
+          "pont-pierre": {
+            "prompt": "Quel ouvrage a été le seul pont routier de Bordeaux jusqu'en 1965 ?",
+            "hint": "Il a été voulu par Napoléon Ier et achevé en 1822.",
+            "anecdote": "Ses 17 arches sont souvent rapprochées des 17 lettres de Napoléon Bonaparte, mais ce n'est qu'une légende : le projet initial en prévoyait 19.",
+            "answers": {
+              "le-pont-de-pierre": "Le pont de pierre",
+              "le-pont-d-aquitaine": "Le pont d'Aquitaine",
+              "le-pont-chaban-delmas": "Le pont Chaban-Delmas",
+              "le-pont-saint-jean": "Le pont Saint-Jean"
+            }
+          },
+          "cite-vin": {
+            "prompt": "Quel lieu culturel bordelais, ouvert en 2016, est parfois surnommé la Carafe pour sa silhouette ?",
+            "hint": "Il est consacré aux cultures du vin dans le monde.",
+            "anecdote": "Ce bâtiment aux courbes dorées se dresse au bord de la Garonne, dans le quartier des Bassins à flot.",
+            "answers": {
+              "la-cite-du-vin": "La Cité du Vin",
+              "le-musee-d-aquitaine": "Le musée d'Aquitaine",
+              "le-grand-theatre": "Le Grand Théâtre",
+              "la-base-sous-marine": "La base sous-marine"
+            }
+          },
+          "grand-theatre": {
+            "prompt": "Quel édifice bordelais à colonnes a été bâti par l'architecte Victor Louis ?",
+            "hint": "Il a été inauguré en 1780.",
+            "anecdote": "Sa façade à douze colonnes est surmontée de statues des Muses et de déesses.",
+            "answers": {
+              "le-grand-theatre": "Le Grand Théâtre",
+              "le-palais-rohan": "Le palais Rohan",
+              "la-bourse": "La Bourse",
+              "le-palais-gallien": "Le palais Gallien"
+            }
+          },
+          "monolithe": {
+            "prompt": "Quelle église a été creusée dans la roche d'un village de Gironde ?",
+            "hint": "Son clocher domine les toits du village.",
+            "anecdote": "Creusée aux XIe et XIIe siècles, elle est présentée comme la plus vaste église souterraine d'Europe.",
+            "answers": {
+              "l-eglise-monolithe-de-saint-emilion": "L'église monolithe de Saint-Émilion",
+              "l-eglise-saint-seurin": "L'église Saint-Seurin",
+              "l-abbaye-de-la-sauve-majeure": "L'abbaye de la Sauve-Majeure",
+              "la-collegiale-de-saint-emilion": "La collégiale de Saint-Émilion"
+            }
+          },
+          "blaye": {
+            "prompt": "Quelle citadelle de Vauban défend l'estuaire de la Gironde ?",
+            "hint": "Elle forme le verrou de l'estuaire avec le fort Paté et le fort Médoc.",
+            "anecdote": "L'ensemble est inscrit au patrimoine mondial depuis 2008, avec les autres sites majeurs de Vauban.",
+            "answers": {
+              "la-citadelle-de-blaye": "La citadelle de Blaye",
+              "le-chateau-de-cadillac": "Le château de Cadillac",
+              "le-fort-de-socoa": "Le fort de Socoa",
+              "la-citadelle-de-bayonne": "La citadelle de Bayonne"
+            }
+          },
+          "cordouan": {
+            "prompt": "Quel phare de Gironde, surnommé le roi des phares, se dresse en mer à l'entrée de l'estuaire ?",
+            "hint": "Il est inscrit au patrimoine mondial depuis 2021.",
+            "anecdote": "Il a été construit à partir de 1584 par l'architecte Louis de Foix. C'est le plus ancien phare de France encore en service.",
+            "answers": {
+              "le-phare-de-cordouan": "Le phare de Cordouan",
+              "le-phare-de-biarritz": "Le phare de Biarritz",
+              "le-phare-du-cap-ferret": "Le phare du Cap Ferret",
+              "le-phare-de-contis": "Le phare de Contis"
+            }
+          },
+          "sauve-majeure": {
+            "prompt": "Quelle abbaye de l'Entre-deux-Mers, dont il reste de belles ruines, est liée aux chemins de Compostelle ?",
+            "hint": "Son nom évoque la grande forêt dans laquelle elle a été fondée.",
+            "anecdote": "Fondée en 1079 par saint Gérard, elle est inscrite au patrimoine mondial, au titre des chemins de Compostelle.",
+            "answers": {
+              "l-abbaye-de-la-sauve-majeure": "L'abbaye de la Sauve-Majeure",
+              "l-abbaye-de-saint-sever": "L'abbaye de Saint-Sever",
+              "l-abbaye-de-sorde": "L'abbaye de Sorde",
+              "l-abbaye-de-brantome": "L'abbaye de Brantôme"
+            }
+          },
+          "cadillac": {
+            "prompt": "Quel château de Gironde a été construit pour le duc d'Épernon, à partir de 1599 ?",
+            "hint": "Le nom de cette ville est aujourd'hui aussi celui d'une marque américaine.",
+            "anecdote": "Après avoir été confisqué à la Révolution, il a servi de prison pour femmes, puis de centre pour jeunes filles jusqu'au milieu du XXe siècle.",
+            "answers": {
+              "le-chateau-de-cadillac": "Le château de Cadillac",
+              "le-chateau-de-la-brede": "Le château de la Brède",
+              "le-chateau-de-roquetaillade": "Le château de Roquetaillade",
+              "le-chateau-de-nerac": "Le château de Nérac"
+            }
+          },
+          "roquetaillade": {
+            "prompt": "Quel château médiéval de Gironde a été remanié au XIXe siècle par Viollet-le-Duc ?",
+            "hint": "Il se dresse à Mazères, près de Langon.",
+            "anecdote": "Bâti au XIVe siècle, il a été doté d'étonnants décors intérieurs par Viollet-le-Duc et Duthoit.",
+            "answers": {
+              "le-chateau-de-roquetaillade": "Le château de Roquetaillade",
+              "le-chateau-de-cadillac": "Le château de Cadillac",
+              "le-chateau-de-malrome": "Le château de Malromé",
+              "le-chateau-d-abbadia": "Le château d'Abbadia"
+            }
+          },
+          "la-brede": {
+            "prompt": "Quel château entouré d'eau a vu naître l'auteur de De l'esprit des lois ?",
+            "hint": "Il est situé au sud de Bordeaux, dans les Graves.",
+            "anecdote": "Montesquieu y est né en 1689 et y a écrit une grande partie de son œuvre.",
+            "answers": {
+              "le-chateau-de-la-brede": "Le château de la Brède",
+              "le-chateau-de-montaigne": "Le château de Montaigne",
+              "le-chateau-des-milandes": "Le château des Milandes",
+              "le-chateau-de-roquetaillade": "Le château de Roquetaillade"
+            }
+          },
+          "ville-hiver": {
+            "prompt": "Dans quelle station de Gironde se trouve ce quartier de villas nommé la Ville d'hiver ?",
+            "hint": "Elle borde le bassin qui porte son nom.",
+            "anecdote": "Les frères Pereire ont lancé ce quartier en 1862, pour accueillir des curistes au climat des pins."
+          },
+          "chateau-pau": {
+            "prompt": "Quel château a vu naître Henri IV en 1553 ?",
+            "hint": "Il domine le gave, face aux Pyrénées.",
+            "anecdote": "On y conserve une carapace de tortue, présentée comme le berceau du roi.",
+            "answers": {
+              "le-chateau-de-pau": "Le château de Pau",
+              "le-chateau-de-nerac": "Le château de Nérac",
+              "le-chateau-de-morlanne": "Le château de Morlanne",
+              "le-chateau-de-biron": "Le château de Biron"
+            }
+          },
+          "sauveterre": {
+            "prompt": "Dans quel village béarnais se dresse ce pont fortifié, dit de la Légende ?",
+            "hint": "Son nom signifie la terre sauve, un lieu placé sous la protection de l'Église.",
+            "anecdote": "La vicomtesse Sancie y aurait subi l'épreuve de l'eau en 1170, jetée dans le gave depuis ce pont.",
+            "answers": {
+              "sauveterre-de-bearn": "Sauveterre-de-Béarn"
+            }
+          },
+          "oloron": {
+            "prompt": "Dans quelle ville béarnaise cette cathédrale au portail roman sculpté est-elle inscrite à l'Unesco ?",
+            "hint": "Elle se trouve au confluent de deux gaves, à l'entrée des vallées d'Aspe et d'Ossau.",
+            "anecdote": "Ce portail du XIIe siècle présente une descente de croix au tympan et les vieillards de l'Apocalypse sur les voussures."
+          },
+          "espelette-village": {
+            "prompt": "Quel village basque aux maisons blanches et rouges voit-on ici ?",
+            "hint": "Il a donné son nom au plus célèbre des piments français.",
+            "anecdote": "Ses façades se couvrent de guirlandes rouges à la fin de l'été. Une grande fête s'y tient chaque octobre."
+          },
+          "ainhoa": {
+            "prompt": "Quel village du Labourd, classé parmi les plus beaux de France, aligne ces maisons sur une rue unique ?",
+            "hint": "Cette ancienne bastide accueillait les pèlerins de Compostelle venus par la route du Baztan.",
+            "anecdote": "Le long de sa rue principale s'alignent de grandes maisons labourdines, rebâties après les destructions du XVIIe siècle.",
+            "answers": {
+              "la-bastide-clairence": "La Bastide-Clairence"
+            }
+          },
+          "sjpp": {
+            "prompt": "Quelle ancienne capitale de la Basse-Navarre, dernière étape française vers Compostelle, voit-on ici ?",
+            "hint": "Son nom évoque le pied du col de Roncevaux.",
+            "anecdote": "La porte Saint-Jacques, par laquelle passent les pèlerins, est inscrite au patrimoine mondial."
+          },
+          "bastide-clairence": {
+            "prompt": "Quelle bastide basque, fondée en 1312 par le futur Louis X, voit-on ici ?",
+            "hint": "Elle est classée parmi les plus beaux villages de France.",
+            "anecdote": "Ce roi de Navarre voulait donner à son royaume un débouché vers le port de Bayonne, par la rivière Joyeuse.",
+            "answers": {
+              "la-bastide-clairence": "La Bastide-Clairence"
+            }
+          },
+          "arnaga": {
+            "prompt": "Quel auteur a fait bâtir la villa Arnaga, à Cambo-les-Bains ?",
+            "hint": "Il a écrit Cyrano de Bergerac.",
+            "anecdote": "Il s'y est installé au début du XXe siècle, pour sa santé. Elle abrite aujourd'hui un musée.",
+            "answers": {
+              "edmond-rostand": "Edmond Rostand",
+              "pierre-loti": "Pierre Loti",
+              "victor-hugo": "Victor Hugo",
+              "francois-mauriac": "François Mauriac"
+            }
+          },
+          "hotel-palais": {
+            "prompt": "Quel palace de Biarritz occupe l'ancienne villa de l'impératrice Eugénie ?",
+            "hint": "Son nom rappelle ses origines impériales.",
+            "anecdote": "La villa Eugénie a été construite en 1855. L'édifice actuel date du début du XXe siècle, après un incendie.",
+            "answers": {
+              "l-hotel-du-palais": "L'Hôtel du Palais",
+              "le-grand-hotel-de-bordeaux": "Le Grand Hôtel de Bordeaux",
+              "le-miramar": "Le Miramar",
+              "le-chateau-d-abbadia": "Le château d'Abbadia"
+            }
+          },
+          "phare-biarritz": {
+            "prompt": "Sur quelle pointe de Biarritz se dresse ce phare allumé en 1834 ?",
+            "hint": "Elle porte le nom d'un saint évêque de Tours.",
+            "anecdote": "Haut de 47 mètres, il porte son feu à 73 mètres au-dessus de la mer. Il marque la fin de la côte sableuse des Landes et le début de la côte rocheuse.",
+            "answers": {
+              "la-pointe-saint-martin": "La pointe Saint-Martin",
+              "la-pointe-du-cap-ferret": "La pointe du Cap Ferret",
+              "la-pointe-de-grave": "La pointe de Grave",
+              "la-pointe-de-socoa": "La pointe de Socoa"
+            }
+          },
+          "abbadia": {
+            "prompt": "Quel château néogothique de Hendaye a été bâti pour un savant explorateur de l'Éthiopie ?",
+            "hint": "Il a été dessiné par Viollet-le-Duc et son disciple Edmond Duthoit.",
+            "anecdote": "Il abrite un observatoire astronomique. Il appartient aujourd'hui à l'Académie des sciences.",
+            "answers": {
+              "le-chateau-d-abbadia": "Le château d'Abbadia",
+              "le-chateau-de-roquetaillade": "Le château de Roquetaillade",
+              "l-hotel-du-palais": "L'Hôtel du Palais",
+              "la-villa-arnaga": "La villa Arnaga"
+            }
+          },
+          "beynac": {
+            "prompt": "Quel château féodal voit-on ici, au sommet d'une falaise de la rive nord de la Dordogne ?",
+            "hint": "Il a servi de décor au film Les Couloirs du temps : Les Visiteurs 2.",
+            "anecdote": "Richard Cœur de Lion l'a confié à son capitaine Mercadier à la fin du XIIe siècle. Il est tourné vers son rival de Castelnaud.",
+            "answers": {
+              "le-chateau-de-beynac": "Le château de Beynac",
+              "le-chateau-de-castelnaud": "Le château de Castelnaud",
+              "le-chateau-de-biron": "Le château de Biron",
+              "le-chateau-de-bonaguil": "Le château de Bonaguil"
+            }
+          },
+          "castelnaud": {
+            "prompt": "Quel château du Périgord abrite un musée de la guerre au Moyen Âge ?",
+            "hint": "Il fait face à Beynac, sur l'autre rive de la Dordogne.",
+            "anecdote": "Ses machines de siège reconstituées, trébuchets et mangonneaux, sont visibles sur ses terrasses.",
+            "answers": {
+              "le-chateau-de-castelnaud": "Le château de Castelnaud",
+              "le-chateau-de-beynac": "Le château de Beynac",
+              "le-chateau-de-hautefort": "Le château de Hautefort",
+              "le-chateau-de-monbazillac": "Le château de Monbazillac"
+            }
+          },
+          "biron": {
+            "prompt": "Quel immense château du Périgord a été la résidence des barons de Gontaut ?",
+            "hint": "Il domine les confins du Périgord et de l'Agenais.",
+            "anecdote": "Charles de Gontaut, maréchal de France, a été exécuté en 1602 pour avoir comploté contre Henri IV.",
+            "answers": {
+              "le-chateau-de-biron": "Le château de Biron",
+              "le-chateau-de-bonaguil": "Le château de Bonaguil",
+              "le-chateau-de-hautefort": "Le château de Hautefort",
+              "le-chateau-de-castelnaud": "Le château de Castelnaud"
+            }
+          },
+          "hautefort": {
+            "prompt": "Quel château du Périgord est réputé pour ses jardins à la française aux buis taillés ?",
+            "hint": "Il a été ravagé par un incendie en 1968, puis restauré.",
+            "anecdote": "Il a été la demeure de Marie de Hautefort, favorite de Louis XIII.",
+            "answers": {
+              "le-chateau-de-hautefort": "Le château de Hautefort",
+              "le-chateau-de-monbazillac": "Le château de Monbazillac",
+              "le-chateau-de-biron": "Le château de Biron",
+              "le-chateau-des-milandes": "Le château des Milandes"
+            }
+          },
+          "monbazillac-chateau": {
+            "prompt": "Quel château Renaissance domine des vignobles liquoreux près de Bergerac ?",
+            "hint": "Son nom est aussi celui d'un vin blanc doux réputé.",
+            "anecdote": "Il appartient depuis 1960 à la cave coopérative de l'appellation.",
+            "answers": {
+              "le-chateau-de-monbazillac": "Le château de Monbazillac",
+              "le-chateau-de-hautefort": "Le château de Hautefort",
+              "le-chateau-de-beynac": "Le château de Beynac",
+              "le-chateau-des-milandes": "Le château des Milandes"
+            }
+          },
+          "domme": {
+            "prompt": "Quelle bastide royale du Périgord noir surplombe la Dordogne depuis une falaise ?",
+            "hint": "Elle a été fondée en 1281 par Philippe III le Hardi.",
+            "anecdote": "La porte des Tours porte une centaine de graffitis, longtemps attribués à des Templiers emprisonnés, une attribution aujourd'hui très discutée."
+          },
+          "roque-gageac": {
+            "prompt": "Quel village accroché à sa falaise se reflète dans la Dordogne ?",
+            "hint": "Son nom commence par le mot occitan désignant un rocher fortifié.",
+            "anecdote": "On y voit un fort troglodytique et des jardins exotiques abrités par la falaise, grâce à un microclimat."
+          },
+          "brantome-abbaye": {
+            "prompt": "Quelle commune du Périgord vert, entourée par la Dronne, est surnommée la Venise du Périgord ?",
+            "hint": "Son abbaye adossée à la falaise a eu pour abbé commendataire un célèbre chroniqueur.",
+            "anecdote": "Son abbaye possède un clocher du XIe siècle, considéré comme l'un des plus anciens de France."
+          },
+          "bonaguil": {
+            "prompt": "Quelle forteresse du Lot-et-Garonne a été modernisée à la fin du XVe siècle pour résister à l'artillerie ?",
+            "hint": "Elle se trouve à côté de Fumel, à la charnière de l'Agenais et du Quercy.",
+            "anecdote": "Bérenger de Roquefeuil l'a transformée en une place forte hérissée de canonnières.",
+            "answers": {
+              "le-chateau-de-bonaguil": "Le château de Bonaguil",
+              "le-chateau-de-biron": "Le château de Biron",
+              "le-chateau-de-nerac": "Le château de Nérac",
+              "le-chateau-de-duras": "Le château de Duras"
+            }
+          },
+          "nerac-chateau": {
+            "prompt": "Dans quelle ville du Lot-et-Garonne se trouve ce château où a vécu Marguerite de Navarre ?",
+            "hint": "Elle se trouve sur les bords de la Baïse, en Albret.",
+            "anecdote": "La cour de Navarre y a accueilli le futur Henri IV et de nombreux poètes et savants."
+          },
+          "villereal": {
+            "prompt": "Quelle bastide du Lot-et-Garonne, fondée par Alphonse de Poitiers dans les années 1260, est connue pour sa halle ?",
+            "hint": "Son nom signifie la ville royale.",
+            "anecdote": "Sa halle en bois à étage, souvent datée du XIVe siècle et reprise vers 1515, se trouve au centre de la place."
+          },
+          "monflanquin": {
+            "prompt": "Quelle bastide, fondée en 1256, domine la vallée de la Lède dans le Lot-et-Garonne ?",
+            "hint": "Elle figure parmi les plus beaux villages de France.",
+            "anecdote": "Sa place est bordée d'arcades, les cornières, typiques des bastides du Sud-Ouest."
+          },
+          "carte-monpazier": {
+            "prompt": "Touchez le département de Monpazier, bastide anglaise modèle.",
+            "hint": "Il se trouve au nord-est de l'Aquitaine, sans littoral.",
+            "anecdote": "Fondée en 1284 par Édouard Ier, elle conserve un plan régulier en damier."
+          },
+          "carte-hendaye": {
+            "prompt": "Touchez le département de Hendaye, au bord de la Bidassoa.",
+            "hint": "Il borde la frontière espagnole et l'océan.",
+            "anecdote": "Cette commune est la dernière ville de la côte française avant l'Espagne."
+          },
+          "carte-bazas": {
+            "prompt": "Touchez le département de Bazas.",
+            "hint": "Il se trouve au nord des Landes, sur la côte atlantique.",
+            "anecdote": "Son ancienne cathédrale gothique est inscrite au patrimoine mondial, au titre des chemins de Compostelle."
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Pelote et course landaise, makhila et espadrilles, échassiers et résiniers, écrivains et penseurs : l'âme de l'Aquitaine.",
+          "makhila": {
+            "prompt": "Comment s'appelle ce bâton de marche basque, en néflier, qui cache une pointe ?",
+            "hint": "Son nom basque évoque le bâton du berger.",
+            "anecdote": "Fabriqué à la main, notamment par l'atelier Ainciart Bergara, à Larressore, il est gravé sur l'arbre vivant, puis séché pendant des années.",
+            "answers": {
+              "le-makhila": "Le makhila",
+              "le-lauburu": "Le lauburu",
+              "le-txistu": "Le txistu",
+              "l-alpargate": "L'alpargate"
+            }
+          },
+          "espadrilles": {
+            "prompt": "Quelle chaussure de toile à semelle de corde s'est développée à Mauléon-Licharre ?",
+            "hint": "Son nom vient d'une plante, le sparte.",
+            "anecdote": "Au XIXe siècle, sa fabrication est devenue une véritable industrie dans cette ville de la Soule.",
+            "answers": {
+              "l-espadrille": "L'espadrille",
+              "le-sabot": "Le sabot",
+              "le-mocassin": "Le mocassin",
+              "la-galoche": "La galoche"
+            }
+          },
+          "gemmage": {
+            "prompt": "Comment appelle-t-on cette récolte de résine sur les pins des Landes ?",
+            "hint": "Le geste consiste à entailler le tronc de l'arbre.",
+            "anecdote": "Ce métier de résinier, qui a fait vivre la forêt des Landes, a quasiment disparu à la fin des années 1980.",
+            "answers": {
+              "le-gemmage": "Le gemmage",
+              "l-ecorcage": "L'écorçage",
+              "le-greffage": "Le greffage",
+              "le-debardage": "Le débardage"
+            }
+          },
+          "beret": {
+            "prompt": "Quel couvre-chef de laine, surtout fabriqué en Béarn, voit-on ici ?",
+            "hint": "On l'appelle souvent basque, bien qu'il soit né côté béarnais.",
+            "anecdote": "Son dernier fabricant historique, Laulhère, se trouve à Oloron-Sainte-Marie. Ce couvre-chef se feutre et se tond.",
+            "answers": {
+              "le-beret": "Le béret",
+              "le-canotier": "Le canotier",
+              "la-casquette": "La casquette",
+              "le-chapeau-de-feutre": "Le chapeau de feutre"
+            }
+          },
+          "linge-basque": {
+            "prompt": "Quel tissu traditionnel à rayures colorées vient du Pays basque ?",
+            "hint": "Des ateliers le tissent encore, comme Lartigue, fondé en 1910 à Ascain.",
+            "anecdote": "Ses rayures colorées en font un tissu emblématique du Pays basque, déjà très apprécié au XIXe siècle.",
+            "answers": {
+              "le-linge-basque": "Le linge basque",
+              "le-tissu-madras": "Le tissu madras",
+              "la-toile-de-jouy": "La toile de Jouy",
+              "le-tartan": "Le tartan"
+            }
+          },
+          "tonnellerie": {
+            "prompt": "Quel métier du vignoble bordelais fabrique ces barriques de chêne ?",
+            "hint": "La barrique bordelaise contient 225 litres.",
+            "anecdote": "Les douelles sont chauffées au feu, pour être cintrées et pour aromatiser le vin.",
+            "answers": {
+              "la-tonnellerie": "La tonnellerie",
+              "la-vannerie": "La vannerie",
+              "la-ferronnerie": "La ferronnerie",
+              "la-marqueterie": "La marqueterie"
+            }
+          },
+          "pinasse": {
+            "prompt": "Comment s'appelle ce bateau traditionnel à fond plat du bassin d'Arcachon ?",
+            "hint": "Elle était traditionnellement construite en pin des Landes.",
+            "anecdote": "À l'origine sans quille, sa coque effilée lui permettait de passer les faibles fonds et les bancs de sable du bassin.",
+            "answers": {
+              "la-pinasse": "La pinasse",
+              "la-gondole": "La gondole",
+              "le-chalutier": "Le chalutier",
+              "la-chaloupe": "La chaloupe"
+            }
+          },
+          "nontron": {
+            "prompt": "De quel arbre est traditionnellement fait le manche du couteau de Nontron ?",
+            "hint": "C'est un petit arbuste au bois jaune et dense, souvent taillé en boule.",
+            "anecdote": "Son manche est orné de motifs pyrogravés. Fabriqué à Nontron depuis 1653 au moins, il passe pour le plus ancien couteau de France.",
+            "answers": {
+              "le-buis": "Le buis",
+              "l-olivier": "L'olivier",
+              "le-frene": "Le frêne",
+              "le-neflier": "Le néflier"
+            }
+          },
+          "hirondelles": {
+            "prompt": "Quel surnom portaient les jeunes Espagnoles venues chaque saison travailler dans les ateliers de Mauléon ?",
+            "hint": "Comme un oiseau migrateur, elles arrivaient et repartaient à date fixe.",
+            "anecdote": "Elles franchissaient les Pyrénées à pied depuis la Navarre et l'Aragon, pour fabriquer des espadrilles.",
+            "answers": {
+              "les-hirondelles": "Les hirondelles",
+              "les-cigognes": "Les cigognes",
+              "les-palombes": "Les palombes",
+              "les-mouettes": "Les mouettes"
+            }
+          },
+          "pelote": {
+            "prompt": "Quel sport se joue contre ce mur, le fronton, sur les places des villages du Pays basque et des Landes ?",
+            "hint": "On y frappe une balle, à la main nue ou avec un gant ou une raquette.",
+            "anecdote": "Il en existe de nombreuses spécialités, comme la main nue, le rebot ou le joko garbi.",
+            "answers": {
+              "la-pelote-basque": "La pelote basque",
+              "la-force-basque": "La force basque",
+              "le-rugby": "Le rugby",
+              "la-course-landaise": "La course landaise"
+            }
+          },
+          "cesta-punta": {
+            "prompt": "Comment s'appelle cette spécialité de pelote qui utilise un grand gant d'osier ?",
+            "hint": "Son nom vient de l'espagnol et évoque un panier à pointe.",
+            "anecdote": "Elle se joue dans un mur à gauche, le jaï alaï. La balle peut y atteindre 300 km/h.",
+            "answers": {
+              "la-cesta-punta": "La cesta punta",
+              "le-joko-garbi": "Le joko garbi",
+              "la-main-nue": "La main nue",
+              "la-paleta": "La paleta"
+            }
+          },
+          "force-basque": {
+            "prompt": "Quelles épreuves de ce type, héritées du travail des fermes, voit-on sur cette photo ?",
+            "hint": "On y soulève des pierres et on tire à la corde.",
+            "anecdote": "Ce sont des jeux issus des gestes du quotidien : lever de la paille, sciage du bois, lever de pierre ou tir à la corde.",
+            "answers": {
+              "la-force-basque": "La force basque",
+              "la-pelote": "La pelote",
+              "la-course-landaise": "La course landaise",
+              "le-rugby": "Le rugby"
+            }
+          },
+          "course-landaise": {
+            "prompt": "Quel jeu traditionnel, sans mise à mort, oppose un sauteur à une vache ?",
+            "hint": "L'écarteur évite l'animal en jouant de son corps.",
+            "anecdote": "Elle se distingue de la corrida espagnole : la vache n'est pas mise à mort et revient d'une saison à l'autre.",
+            "answers": {
+              "la-course-landaise": "La course landaise",
+              "la-corrida-portugaise": "La corrida portugaise",
+              "la-course-camarguaise": "La course camarguaise",
+              "le-rodeo": "Le rodéo"
+            }
+          },
+          "echassiers": {
+            "prompt": "Sur quoi les bergers des Landes se déplaçaient-ils pour surveiller leurs troupeaux ?",
+            "hint": "Le terrain était autrefois un vaste marécage de sable.",
+            "anecdote": "Ces hautes pièces de bois leur permettaient de traverser la lande humide et de voir de loin. Des groupes folkloriques en maintiennent la tradition.",
+            "answers": {
+              "des-echasses": "Des échasses",
+              "des-raquettes": "Des raquettes",
+              "des-skis": "Des skis",
+              "des-barques": "Des barques"
+            }
+          },
+          "pottok": {
+            "prompt": "Comment s'appelle ce petit cheval rustique du Pays basque ?",
+            "hint": "Son nom, en basque, signifie petit cheval.",
+            "anecdote": "Il vit en semi-liberté, sur les pentes de la Rhune et d'autres montagnes du Labourd.",
+            "answers": {
+              "le-pottok": "Le pottok",
+              "le-merens": "Le mérens",
+              "le-camargue": "Le camargue",
+              "le-pur-sang": "Le pur-sang"
+            }
+          },
+          "fetes-bayonne": {
+            "prompt": "Dans quelle ville du Pays basque la foule s'habille-t-elle en blanc et rouge pour ces fêtes d'été ?",
+            "hint": "Elles ont été créées en 1932, sur l'Adour.",
+            "anecdote": "Elles comptent parmi les plus grandes fêtes de France et attirent des centaines de milliers de festayres, parfois annoncés à plus d'un million."
+          },
+          "lauburu": {
+            "prompt": "Comment s'appelle cette croix à quatre têtes, symbole du Pays basque ?",
+            "hint": "Son nom signifie quatre têtes, en basque.",
+            "anecdote": "On la retrouve sur les stèles funéraires, les bijoux et les linteaux des maisons basques.",
+            "answers": {
+              "le-lauburu": "Le lauburu",
+              "le-makhila": "Le makhila",
+              "l-ikurrina": "L'ikurriña",
+              "le-txistu": "Le txistu"
+            }
+          },
+          "palombiere": {
+            "prompt": "Comment appelle-t-on la cabane camouflée d'où l'on guette le pigeon ramier ?",
+            "hint": "Des pigeons appelants y attirent les vols de passage, à l'automne.",
+            "anecdote": "Ce mode de chasse, pratiqué notamment dans les Landes, est un rendez-vous d'automne très attendu du Sud-Ouest.",
+            "answers": {
+              "la-palombiere": "La palombière",
+              "la-bergerie": "La bergerie",
+              "la-cabane-tchanquee": "La cabane tchanquée",
+              "la-gariote": "La gariote"
+            }
+          },
+          "transhumance": {
+            "prompt": "Dans quelle vallée du Béarn les bergers mènent-ils encore leurs brebis vers les estives ?",
+            "hint": "Son nom se retrouve dans celui d'un fromage de brebis et d'un pic.",
+            "anecdote": "La montée vers les pâturages a lieu au début de l'été, et la descente à l'automne. En octobre, Laruns accueille une grande foire au fromage.",
+            "answers": {
+              "la-vallee-d-ossau": "La vallée d'Ossau",
+              "la-vallee-de-la-dordogne": "La vallée de la Dordogne",
+              "la-vallee-de-la-vezere": "La vallée de la Vézère",
+              "la-vallee-du-lot": "La vallée du Lot"
+            }
+          },
+          "txistu": {
+            "prompt": "Comment s'appelle cette flûte à trois trous du Pays basque, jouée d'une seule main ?",
+            "hint": "Son nom s'écrit en basque avec le groupe de lettres tx.",
+            "anecdote": "Le musicien joue en même temps d'un petit tambour, de l'autre main.",
+            "answers": {
+              "le-txistu": "Le txistu",
+              "le-ttun-ttun": "Le ttun-ttun",
+              "le-makhila": "Le makhila",
+              "l-alboka": "L'alboka"
+            }
+          },
+          "bandas": {
+            "prompt": "Comment appelle-t-on ces orchestres de cuivres qui animent les fêtes et les matchs du Sud-Ouest ?",
+            "hint": "Le mot vient d'une langue voisine.",
+            "anecdote": "Ces groupes, formés à l'école de musique ou entre amis, font partie de la vie des arènes de Dax et des stades du Sud-Ouest.",
+            "answers": {
+              "les-bandas": "Les bandas",
+              "les-fanfares-de-chasse": "Les fanfares de chasse",
+              "les-chorales": "Les chorales",
+              "les-philharmoniques": "Les philharmoniques"
+            }
+          },
+          "euskara": {
+            "prompt": "Comment s'appelle la langue basque, dans la langue elle-même ?",
+            "hint": "Elle n'a aucune parenté connue avec les autres langues d'Europe.",
+            "anecdote": "Elle est parlée de part et d'autre de la frontière franco-espagnole, sur trois provinces côté français.",
+            "answers": {
+              "l-euskara": "L'euskara",
+              "l-occitan": "L'occitan",
+              "le-gascon": "Le gascon",
+              "le-catalan": "Le catalan"
+            }
+          },
+          "surf": {
+            "prompt": "Dans quelle ville française le surf a-t-il été introduit en 1957, par le scénariste Peter Viertel ?",
+            "hint": "Il y tournait une adaptation d'Hemingway, Le soleil se lève aussi.",
+            "anecdote": "Le sport a pris sa place sur la Côte des Basques et s'est étendu jusqu'à Hossegor et Lacanau."
+          },
+          "mascarades": {
+            "prompt": "Quelle province du Pays basque est connue pour ses mascarades, jouées chaque hiver de village en village ?",
+            "hint": "C'est la plus petite des trois provinces françaises.",
+            "anecdote": "Des personnages rouges et noirs y dansent, dont le Zamalzain, un homme-cheval. Le théâtre chanté des pastorales y est aussi vivant.",
+            "answers": {
+              "la-soule": "La Soule",
+              "le-labourd": "Le Labourd",
+              "la-basse-navarre": "La Basse-Navarre",
+              "le-bearn": "Le Béarn"
+            }
+          },
+          "bertsulari": {
+            "prompt": "Comment appelle-t-on ces improvisateurs qui chantent des vers en basque devant le public ?",
+            "hint": "Le nom vient du mot basque désignant le vers.",
+            "anecdote": "Ils reçoivent un thème et composent aussitôt leurs couplets, sur un air connu, sans aucun accompagnement.",
+            "answers": {
+              "les-bertsolari": "Les bertsolari",
+              "les-trikitilari": "Les trikitilari",
+              "les-pelotari": "Les pelotari",
+              "les-txalaparta": "Les txalaparta"
+            }
+          },
+          "montaigne": {
+            "prompt": "Quel philosophe, ancien maire de Bordeaux, est l'auteur des Essais ?",
+            "hint": "Il travaillait dans une tour de son château, près de Castillon.",
+            "anecdote": "Il a fait graver des sentences sur les solives de sa bibliothèque, qui se visite encore.",
+            "answers": {
+              "michel-de-montaigne": "Michel de Montaigne",
+              "montesquieu": "Montesquieu",
+              "etienne-de-la-boetie": "Étienne de La Boétie",
+              "fenelon": "Fénelon"
+            }
+          },
+          "montesquieu": {
+            "prompt": "Quel penseur des Lumières, né près de Bordeaux, a écrit De l'esprit des lois ?",
+            "hint": "Il est aussi l'auteur des Lettres persanes.",
+            "anecdote": "Sa théorie de la séparation des pouvoirs a influencé les constitutions modernes.",
+            "answers": {
+              "montesquieu": "Montesquieu",
+              "voltaire": "Voltaire",
+              "michel-de-montaigne": "Michel de Montaigne",
+              "rousseau": "Rousseau"
+            }
+          },
+          "mauriac": {
+            "prompt": "Quel écrivain bordelais, prix Nobel de littérature 1952, a vécu dans ce domaine de Malagar ?",
+            "hint": "Il est l'auteur de Thérèse Desqueyroux.",
+            "anecdote": "Ce domaine viticole, à Saint-Maixant, surplombe la vallée de la Garonne. Il se visite aujourd'hui.",
+            "answers": {
+              "francois-mauriac": "François Mauriac",
+              "edmond-rostand": "Edmond Rostand",
+              "michel-de-montaigne": "Michel de Montaigne",
+              "pierre-loti": "Pierre Loti"
+            }
+          },
+          "baker": {
+            "prompt": "Quelle artiste et résistante a vécu au château des Milandes, en Dordogne ?",
+            "hint": "Elle y a élevé sa tribu arc-en-ciel, ses douze enfants adoptés.",
+            "anecdote": "Elle est entrée au Panthéon en 2021.",
+            "answers": {
+              "josephine-baker": "Joséphine Baker",
+              "edith-piaf": "Édith Piaf",
+              "colette": "Colette",
+              "simone-veil": "Simone Veil"
+            }
+          },
+          "ravel": {
+            "prompt": "Quel compositeur du Boléro est né à Ciboure, en 1875 ?",
+            "hint": "Sa mère était basque.",
+            "anecdote": "Sa maison natale se trouve face au port de Saint-Jean-de-Luz, sur la rive de la Nivelle.",
+            "answers": {
+              "maurice-ravel": "Maurice Ravel",
+              "claude-debussy": "Claude Debussy",
+              "hector-berlioz": "Hector Berlioz",
+              "erik-satie": "Erik Satie"
+            }
+          },
+          "lautrec": {
+            "prompt": "Quel peintre est mort en 1901 dans ce château de Malromé, en Gironde ?",
+            "hint": "Il est surtout connu pour ses affiches du Moulin-Rouge.",
+            "anecdote": "Sa mère y vivait et il repose à proximité, au cimetière de Verdelais.",
+            "answers": {
+              "henri-de-toulouse-lautrec": "Henri de Toulouse-Lautrec",
+              "francisco-de-goya": "Francisco de Goya",
+              "edgar-degas": "Edgar Degas",
+              "odilon-redon": "Odilon Redon"
+            }
+          },
+          "goya": {
+            "prompt": "Quel peintre espagnol, mort en 1828, a fini ses jours à Bordeaux ?",
+            "hint": "C'est là qu'il a peint La Laitière de Bordeaux.",
+            "anecdote": "Exilé pour fuir la répression en Espagne, il y a passé ses quatre dernières années.",
+            "answers": {
+              "francisco-de-goya": "Francisco de Goya",
+              "diego-velasquez": "Diego Vélasquez",
+              "pablo-picasso": "Pablo Picasso",
+              "salvador-dali": "Salvador Dalí"
+            }
+          },
+          "laboetie": {
+            "prompt": "Quel ami de Montaigne, né à Sarlat, a écrit le Discours de la servitude volontaire ?",
+            "hint": "Montaigne a dit de cette amitié : parce que c'était lui, parce que c'était moi.",
+            "anecdote": "Sa maison natale, de style Renaissance, se dresse encore au cœur de Sarlat.",
+            "answers": {
+              "etienne-de-la-boetie": "Étienne de La Boétie",
+              "michel-de-montaigne": "Michel de Montaigne",
+              "fenelon": "Fénelon",
+              "bertran-de-born": "Bertran de Born"
+            }
+          },
+          "cyrano": {
+            "prompt": "Quelle ville de Dordogne a dressé deux statues à Cyrano, héros d'Edmond Rostand ?",
+            "hint": "Elle est au bord de la Dordogne, et son nom complète celui du héros.",
+            "anecdote": "Le vrai Cyrano est un écrivain parisien du XVIIe siècle, mais la ville a adopté son personnage."
+          },
+          "bertran": {
+            "prompt": "Bertran de Born, seigneur de Hautefort, est resté célèbre comme quel type d'artiste au XIIe siècle ?",
+            "hint": "Il composait en langue d'oc.",
+            "anecdote": "Il a chanté la guerre et a été cité par Dante, qui le place en enfer, sa tête à la main.",
+            "answers": {
+              "troubadour": "Troubadour",
+              "sculpteur": "Sculpteur",
+              "enlumineur": "Enlumineur",
+              "architecte": "Architecte"
+            }
+          },
+          "fenelon": {
+            "prompt": "Quel écrivain et archevêque de Cambrai, né en Périgord en 1651, a écrit Les Aventures de Télémaque ?",
+            "hint": "Il est né au château qui porte ce nom, à Sainte-Mondane.",
+            "anecdote": "Ce livre, écrit pour le petit-fils de Louis XIV, a déplu au roi, qui y a vu une critique de son règne.",
+            "answers": {
+              "fenelon": "Fénelon",
+              "bossuet": "Bossuet",
+              "montesquieu": "Montesquieu",
+              "la-fontaine": "La Fontaine"
+            }
+          },
+          "aviron": {
+            "prompt": "Quel sport a fait de Bayonne, Biarritz, Pau, Agen et Bordeaux de grandes villes de championnat ?",
+            "hint": "On le joue à quinze contre quinze, avec un ballon ovale.",
+            "anecdote": "L'Aviron bayonnais, le Biarritz olympique, la Section paloise, le SU Agen et l'Union Bordeaux-Bègles font sa légende.",
+            "answers": {
+              "le-rugby": "Le rugby",
+              "le-football": "Le football",
+              "le-handball": "Le handball",
+              "le-basket": "Le basket"
+            }
+          },
+          "carte-baker": {
+            "prompt": "Touchez le département du château des Milandes, demeure de Joséphine Baker.",
+            "hint": "Il se trouve au nord-est de l'Aquitaine, sans littoral.",
+            "anecdote": "Elle a acheté ce château au bord de la Dordogne en 1947."
+          },
+          "carte-course": {
+            "prompt": "Touchez le département qui a donné son nom à la course landaise.",
+            "hint": "Il se trouve entre la Gironde et le Pays basque.",
+            "anecdote": "Cette tradition est aussi vivante dans le Gers voisin."
+          },
+          "carte-espadrille": {
+            "prompt": "Touchez le département de Mauléon-Licharre, capitale de l'espadrille.",
+            "hint": "Il borde la frontière espagnole.",
+            "anecdote": "La Soule, dont Mauléon est la capitale, est la plus petite province du Pays basque."
+          }
+        },
+        "grand-voyage": {
+          "name": "Le grand voyage aquitain",
+          "description": "Forêts de pins et cirques pyrénéens, grottes ornées et grandes dates de l'histoire : le dernier voyage, pour les connaisseurs.",
+          "foret-landes": {
+            "prompt": "Quelle grande forêt de pins maritimes, plantée au XIXe siècle, voit-on ici ?",
+            "hint": "Elle couvre près d'un million d'hectares, entre Gironde, Landes et Lot-et-Garonne.",
+            "anecdote": "La loi de 1857, sous Napoléon III, a imposé l'assainissement et l'ensemencement de ces vastes marécages.",
+            "answers": {
+              "la-foret-des-landes": "La forêt des Landes",
+              "la-foret-de-troncais": "La forêt de Tronçais",
+              "la-foret-d-iraty": "La forêt d'Iraty",
+              "la-foret-de-compiegne": "La forêt de Compiègne"
+            }
+          },
+          "huchet": {
+            "prompt": "Quel petit fleuve côtier sauvage des Landes, sous les cyprès chauves, voit-on ici ?",
+            "hint": "Il relie l'étang de Léon à l'océan.",
+            "anecdote": "Ses bateliers font encore descendre les visiteurs à bord de galupes, sur la réserve naturelle.",
+            "answers": {
+              "le-courant-d-huchet": "Le courant d'Huchet",
+              "l-adour": "L'Adour",
+              "la-leyre": "La Leyre",
+              "la-midouze": "La Midouze"
+            }
+          },
+          "hossegor-surf": {
+            "prompt": "Quelle commune des Landes, proche du gouf de Capbreton, est réputée pour ses vagues ?",
+            "hint": "Son lac marin est relié à l'océan par un canal.",
+            "anecdote": "Un canyon sous-marin tout proche et des bancs de sable créent des vagues puissantes, dont la célèbre Gravière."
+          },
+          "pic-ossau": {
+            "prompt": "Quel sommet pyrénéen, à la forme de dent bifide, se dresse à 2 884 mètres ?",
+            "hint": "Il domine une vallée du Béarn et son nom cite cette vallée.",
+            "anecdote": "Ce sommet est un ancien volcan et l'emblème du Béarn. On le surnomme Jean-Pierre.",
+            "answers": {
+              "le-pic-du-midi-d-ossau": "Le pic du Midi d'Ossau",
+              "le-pic-du-midi-de-bigorre": "Le pic du Midi de Bigorre",
+              "la-rhune": "La Rhune",
+              "le-pic-d-anie": "Le pic d'Anie"
+            }
+          },
+          "artouste": {
+            "prompt": "Quel train touristique à voie très étroite, souvent présenté comme le plus haut d'Europe en son genre, mène à un lac du Béarn ?",
+            "hint": "Il a été construit pour le chantier d'un barrage.",
+            "anecdote": "Sur une voie étroite à flanc de montagne, il atteint près de 2 000 mètres d'altitude.",
+            "answers": {
+              "le-petit-train-d-artouste": "Le petit train d'Artouste",
+              "le-train-de-la-rhune": "Le train de la Rhune",
+              "le-train-jaune": "Le train jaune",
+              "le-tramway-du-mont-blanc": "Le tramway du Mont-Blanc"
+            }
+          },
+          "lescun": {
+            "prompt": "Quel cirque de la vallée d'Aspe, en Béarn, voit-on ici ?",
+            "hint": "Il porte le nom d'un petit village de montagne.",
+            "anecdote": "Sa couronne de sommets calcaires compte le pic d'Anie, à plus de 2 500 mètres.",
+            "answers": {
+              "le-cirque-de-lescun": "Le cirque de Lescun",
+              "le-cirque-de-gavarnie": "Le cirque de Gavarnie",
+              "le-cirque-de-troumouse": "Le cirque de Troumouse",
+              "le-cirque-d-estaube": "Le cirque d'Estaubé"
+            }
+          },
+          "aubisque": {
+            "prompt": "Quel col pyrénéen, à 1 709 mètres, est un grand rendez-vous du Tour de France ?",
+            "hint": "Il relie Laruns et la vallée d'Ossau à Argelès-Gazost.",
+            "anecdote": "Le Tour y est passé pour la première fois en 1910.",
+            "answers": {
+              "le-col-d-aubisque": "Le col d'Aubisque",
+              "le-col-du-tourmalet": "Le col du Tourmalet",
+              "le-col-de-peyresourde": "Le col de Peyresourde",
+              "le-col-du-somport": "Le col du Somport"
+            }
+          },
+          "proumeyssac": {
+            "prompt": "Quel gouffre de Dordogne, surnommé la cathédrale de cristal, peut se découvrir en descendant dans une nacelle ?",
+            "hint": "Il se trouve près d'Audrix, en Périgord noir.",
+            "anecdote": "Ses premiers visiteurs descendaient dans une nacelle tirée par un cheval.",
+            "answers": {
+              "le-gouffre-de-proumeyssac": "Le gouffre de Proumeyssac",
+              "le-gouffre-de-padirac": "Le gouffre de Padirac",
+              "la-grotte-de-lascaux": "La grotte de Lascaux",
+              "la-grotte-de-rouffignac": "La grotte de Rouffignac"
+            }
+          },
+          "tremolat": {
+            "prompt": "Comment s'appelle cette grande boucle de la Dordogne, près de Trémolat ?",
+            "hint": "Ce terme désigne un méandre encaissé, dans la région.",
+            "anecdote": "Le village voisin, Trémolat, a servi de décor au film Le Boucher, de Claude Chabrol, tourné en 1969.",
+            "answers": {
+              "le-cingle": "Le cingle",
+              "la-gorge": "La gorge",
+              "la-cluse": "La cluse",
+              "le-canyon": "Le canyon"
+            }
+          },
+          "rhune": {
+            "prompt": "Quel sommet basque, d'environ 900 mètres, est accessible par un petit train à crémaillère depuis 1924 ?",
+            "hint": "Il se trouve sur la frontière, près de Sare.",
+            "anecdote": "Son sommet offre un vaste panorama sur le golfe de Gascogne et le Pays basque espagnol.",
+            "answers": {
+              "la-rhune": "La Rhune",
+              "le-pic-d-anie": "Le pic d'Anie",
+              "l-artzamendi": "L'Artzamendi",
+              "le-mont-baigura": "Le mont Baïgura"
+            }
+          },
+          "corniche": {
+            "prompt": "Comment s'appelle cette route des falaises entre Saint-Jean-de-Luz et Hendaye ?",
+            "hint": "Elle longe les pentes de flysch de l'océan.",
+            "anecdote": "On y voit les couches de roche sédimentaire, redressées par la formation des Pyrénées.",
+            "answers": {
+              "la-corniche-basque": "La corniche basque",
+              "la-cote-d-argent": "La Côte d'Argent",
+              "la-route-des-lacs": "La route des lacs",
+              "la-route-des-cretes": "La route des crêtes"
+            }
+          },
+          "kakuetta": {
+            "prompt": "Quelles gorges étroites de la Soule, où coule un torrent, voit-on ici ?",
+            "hint": "Elles se trouvent à Sainte-Engrâce, en Haute-Soule.",
+            "anecdote": "Larges de quelques mètres seulement par endroits, elles atteignent jusqu'à 350 mètres de profondeur. Fermées après un accident en 2020, leur réouverture est en projet.",
+            "answers": {
+              "les-gorges-de-kakuetta": "Les gorges de Kakuetta",
+              "les-gorges-du-verdon": "Les gorges du Verdon",
+              "les-gorges-de-la-dordogne": "Les gorges de la Dordogne",
+              "les-gorges-du-tarn": "Les gorges du Tarn"
+            }
+          },
+          "estuaire": {
+            "prompt": "Quel est le plus grand estuaire d'Europe de l'Ouest, formé par la Garonne et la Dordogne ?",
+            "hint": "Il donne son nom à un département.",
+            "anecdote": "Il est long de 75 kilomètres et atteint 12 kilomètres dans sa plus grande largeur.",
+            "answers": {
+              "l-estuaire-de-la-gironde": "L'estuaire de la Gironde",
+              "l-estuaire-de-la-loire": "L'estuaire de la Loire",
+              "l-estuaire-de-la-seine": "L'estuaire de la Seine",
+              "l-estuaire-de-l-adour": "L'estuaire de l'Adour"
+            }
+          },
+          "isard": {
+            "prompt": "Quel cousin pyrénéen du chamois voit-on ici ?",
+            "hint": "Il vit dans les hautes vallées, au sud de Pau.",
+            "anecdote": "Symbole du parc national des Pyrénées, créé en 1967, il y est protégé.",
+            "answers": {
+              "l-isard": "L'isard",
+              "le-bouquetin": "Le bouquetin",
+              "le-mouflon": "Le mouflon",
+              "le-chevreuil": "Le chevreuil"
+            }
+          },
+          "vautour": {
+            "prompt": "Quel grand rapace charognard plane souvent au-dessus des gorges du Béarn ?",
+            "hint": "Il a un cou nu et un grand collier clair.",
+            "anecdote": "Ce sont des oiseaux grégaires. Ils nichent en colonies dans les falaises calcaires.",
+            "answers": {
+              "le-vautour-fauve": "Le vautour fauve",
+              "l-aigle-royal": "L'aigle royal",
+              "le-faucon-pelerin": "Le faucon pèlerin",
+              "le-milan-royal": "Le milan royal"
+            }
+          },
+          "lascaux": {
+            "prompt": "Quelle grotte, découverte en 1940, est surnommée la chapelle Sixtine de l'art pariétal ?",
+            "hint": "Elle se trouve à Montignac, sur la Vézère.",
+            "anecdote": "Fermée au public depuis 1963, elle se découvre aujourd'hui par un fac-similé complet.",
+            "answers": {
+              "lascaux": "Lascaux",
+              "font-de-gaume": "Font-de-Gaume",
+              "rouffignac": "Rouffignac",
+              "isturitz": "Isturitz"
+            }
+          },
+          "font-de-gaume": {
+            "prompt": "Quelle grotte ornée des Eyzies, aux polychromes de bisons, est encore ouverte aux visiteurs ?",
+            "hint": "Son nom commence par un mot évoquant une fontaine.",
+            "anecdote": "Elle est l'une des dernières grottes ornées polychromes encore visitables, avec un nombre limité de visiteurs.",
+            "answers": {
+              "font-de-gaume": "Font-de-Gaume",
+              "lascaux": "Lascaux",
+              "rouffignac": "Rouffignac",
+              "isturitz": "Isturitz"
+            }
+          },
+          "cro-magnon": {
+            "prompt": "Quel abri-sous-roche des Eyzies a livré en 1868 des squelettes d'hommes préhistoriques ?",
+            "hint": "Le nom désigne depuis lors les premiers Homo sapiens d'Europe.",
+            "anecdote": "Louis Lartet y a découvert cinq squelettes, âgés d'environ 28 000 ans.",
+            "answers": {
+              "l-abri-de-cro-magnon": "L'abri de Cro-Magnon",
+              "l-abri-du-poisson": "L'abri du Poisson",
+              "le-moustier": "Le Moustier",
+              "la-madeleine": "La Madeleine"
+            }
+          },
+          "isturitz": {
+            "prompt": "Quelles grottes basques ont livré de très anciennes flûtes en os ?",
+            "hint": "Elles se trouvent en Basse-Navarre, associées à la grotte d'Oxocelhaya.",
+            "anecdote": "Les plus anciennes de ces flûtes ont environ 35 000 ans, ce qui les place parmi les plus vieilles d'Europe.",
+            "answers": {
+              "les-grottes-d-isturitz": "Les grottes d'Isturitz",
+              "les-grottes-de-sare": "Les grottes de Sare",
+              "la-grotte-de-lascaux": "La grotte de Lascaux",
+              "le-gouffre-de-proumeyssac": "Le gouffre de Proumeyssac"
+            }
+          },
+          "faisans": {
+            "prompt": "Quelle petite île de la Bidassoa change d'administration tous les six mois ?",
+            "hint": "Le traité des Pyrénées y a été signé en 1659.",
+            "anecdote": "Cette île, condominium franco-espagnol, passe tous les six mois d'une administration à l'autre. Hendaye et Irun l'entretiennent à tour de rôle.",
+            "answers": {
+              "l-ile-des-faisans": "L'île des Faisans",
+              "l-ile-aux-oiseaux": "L'île aux Oiseaux",
+              "l-ile-de-re": "L'île de Ré",
+              "l-ile-d-oleron": "L'île d'Oléron"
+            }
+          },
+          "base-sous-marine": {
+            "prompt": "Quel immense édifice de béton, construit à Bordeaux sous l'Occupation, abritait des sous-marins ?",
+            "hint": "Il se trouve dans le quartier de Bacalan.",
+            "anecdote": "Elle a été construite par les Allemands. Elle accueille aujourd'hui les Bassins des Lumières, un centre d'art numérique.",
+            "answers": {
+              "la-base-sous-marine": "La base sous-marine",
+              "la-cite-du-vin": "La Cité du Vin",
+              "le-fort-medoc": "Le fort Médoc",
+              "la-citadelle-de-blaye": "La citadelle de Blaye"
+            }
+          },
+          "girondins": {
+            "prompt": "Quels députés de la Révolution ce monument bordelais honore-t-il ?",
+            "hint": "Ils sont nommés d'après le département d'où plusieurs venaient.",
+            "anecdote": "Ces députés ont été éliminés par les Montagnards en 1793. Le monument se dresse sur la place des Quinconces.",
+            "answers": {
+              "les-girondins": "Les Girondins",
+              "les-jacobins": "Les Jacobins",
+              "les-sans-culottes": "Les Sans-culottes",
+              "les-feuillants": "Les Feuillants"
+            }
+          },
+          "port-lune": {
+            "prompt": "Comment surnomme-t-on ce grand méandre de la Garonne, à Bordeaux, inscrit à l'Unesco ?",
+            "hint": "Il tient son nom de sa forme de croissant.",
+            "anecdote": "Le site est inscrit au patrimoine mondial depuis 2007. Les quais ont été réaménagés dans les années 2000.",
+            "answers": {
+              "le-port-de-la-lune": "Le port de la Lune",
+              "le-port-de-l-aurore": "Le port de l'Aurore",
+              "le-port-du-soleil": "Le port du Soleil",
+              "le-port-royal": "Le port Royal"
+            }
+          },
+          "henri-iv": {
+            "prompt": "Quel roi de France, né à Pau, a mis fin aux guerres de Religion par l'édit de Nantes ?",
+            "hint": "Il a été assassiné à Paris par Ravaillac, en 1610.",
+            "anecdote": "Roi de Navarre avant d'être roi de France, il a fondé la dynastie des Bourbons.",
+            "answers": {
+              "henri-iv": "Henri IV",
+              "louis-xiii": "Louis XIII",
+              "francois-ier": "François Ier",
+              "charles-ix": "Charles IX"
+            }
+          },
+          "alienor": {
+            "prompt": "Quelle duchesse d'Aquitaine, reine de France puis d'Angleterre, voit-on sur cette copie de gisant ?",
+            "hint": "Elle a épousé successivement Louis VII et Henri II Plantagenêt.",
+            "anecdote": "Elle repose à Fontevraud. Son remariage, en 1152, a fait passer l'Aquitaine aux Plantagenêts, rois d'Angleterre à partir de 1154, pour trois siècles.",
+            "answers": {
+              "alienor-d-aquitaine": "Aliénor d'Aquitaine",
+              "blanche-de-castille": "Blanche de Castille",
+              "marguerite-de-navarre": "Marguerite de Navarre",
+              "anne-de-bretagne": "Anne de Bretagne"
+            }
+          },
+          "bernadotte": {
+            "prompt": "Quel maréchal d'Empire, né à Pau, est devenu roi de Suède sous le nom de Charles XIV ?",
+            "hint": "Sa dynastie règne encore sur ce royaume.",
+            "anecdote": "Né en 1763 dans une maison paloise devenue musée, il a été élu prince héritier de Suède en 1810.",
+            "answers": {
+              "jean-baptiste-bernadotte": "Jean-Baptiste Bernadotte",
+              "joachim-murat": "Joachim Murat",
+              "michel-ney": "Michel Ney",
+              "louis-nicolas-davout": "Louis-Nicolas Davout"
+            }
+          },
+          "castillon": {
+            "prompt": "Quelle bataille, remportée en 1453 près de la Dordogne, est considérée comme la dernière de la guerre de Cent Ans ?",
+            "hint": "Elle a coûté la vie au général anglais John Talbot.",
+            "anecdote": "L'artillerie française y a écrasé les troupes anglaises. Bordeaux, anglaise depuis trois siècles, est redevenue française peu après.",
+            "answers": {
+              "la-bataille-de-castillon": "La bataille de Castillon",
+              "la-bataille-d-azincourt": "La bataille d'Azincourt",
+              "la-bataille-de-crecy": "La bataille de Crécy",
+              "la-bataille-de-poitiers": "La bataille de Poitiers"
+            }
+          },
+          "mariage-aquitaine": {
+            "prompt": "En quelle année l'Aquitaine passe-t-elle aux Plantagenêts, futurs rois d'Angleterre, avec le mariage d'Aliénor et d'Henri ?",
+            "hint": "C'est le milieu du XIIe siècle.",
+            "anecdote": "Le mariage a lieu deux mois après l'annulation de son union avec le roi de France.",
+            "answers": {
+              "1066": "1066",
+              "1152": "1152",
+              "1214": "1214",
+              "1453": "1453"
+            }
+          },
+          "traite": {
+            "prompt": "Quel traité, signé en 1659 sur la Bidassoa, a mis fin à la guerre entre France et Espagne ?",
+            "hint": "Il porte le nom de la chaîne de montagnes voisine.",
+            "anecdote": "Il a aussi prévu le mariage de Louis XIV avec l'infante Marie-Thérèse.",
+            "answers": {
+              "le-traite-des-pyrenees": "Le traité des Pyrénées",
+              "le-traite-de-verdun": "Le traité de Verdun",
+              "le-traite-d-utrecht": "Le traité d'Utrecht",
+              "le-traite-de-bordeaux": "Le traité de Bordeaux"
+            }
+          },
+          "bordeaux-capitale": {
+            "prompt": "Pendant quelles circonstances le gouvernement français s'est-il replié à Bordeaux en 1914 et en 1940 ?",
+            "hint": "Il voulait fuir l'avancée de l'ennemi sur Paris.",
+            "anecdote": "Le gouvernement y a aussi siégé en 1870-1871. En juin 1940, c'est là que Paul Reynaud a démissionné et que le maréchal Pétain a été appelé au pouvoir.",
+            "answers": {
+              "une-invasion-allemande": "Une invasion allemande",
+              "une-grande-crue-de-la-seine": "Une grande crue de la Seine",
+              "une-epidemie-de-cholera": "Une épidémie de choléra",
+              "une-revolution-parisienne": "Une révolution parisienne"
+            }
+          },
+          "traite-negriere": {
+            "prompt": "Quel triste commerce a enrichi Bordeaux aux XVIIIe et XIXe siècles ?",
+            "hint": "Il reliait l'Europe, l'Afrique et les Amériques.",
+            "anecdote": "Environ 500 expéditions ont été armées depuis le port. Le musée d'Aquitaine y consacre des salles et une statue de Modeste Testas la rappelle sur les quais.",
+            "answers": {
+              "la-traite-negriere": "La traite négrière",
+              "la-vente-de-la-laine": "La vente de la laine",
+              "le-commerce-du-charbon": "Le commerce du charbon",
+              "le-trafic-d-opium": "Le trafic d'opium"
+            }
+          },
+          "trois-provinces": {
+            "prompt": "Quelles sont les trois provinces du Pays basque français ?",
+            "hint": "L'une a Saint-Jean-Pied-de-Port pour capitale.",
+            "anecdote": "Avec les quatre provinces du côté espagnol, elles forment les sept provinces basques.",
+            "answers": {
+              "labourd-basse-navarre-et-soule": "Labourd, Basse-Navarre et Soule",
+              "bearn-bigorre-et-armagnac": "Béarn, Bigorre et Armagnac",
+              "agenais-bazadais-et-medoc": "Agenais, Bazadais et Médoc",
+              "marensin-born-et-chalosse": "Marensin, Born et Chalosse"
+            }
+          },
+          "parc-national": {
+            "prompt": "En quelle année a été créé le parc national des Pyrénées, sur le Béarn et la Bigorre ?",
+            "hint": "C'est un an avant Mai 68.",
+            "anecdote": "Il abrite notamment l'isard, le vautour fauve, le gypaète barbu et l'ours brun, dans ses hautes vallées.",
+            "answers": {
+              "1936": "1936",
+              "1967": "1967",
+              "1985": "1985",
+              "2002": "2002"
+            }
+          },
+          "mascaret": {
+            "prompt": "Comment s'appelle cette grande vague remontant la Dordogne et la Garonne, à marée montante ?",
+            "hint": "Certains surfeurs la suivent sur plusieurs kilomètres.",
+            "anecdote": "Ce phénomène est particulièrement net aux grandes marées, à Saint-Pardon de Vayres ou à Podensac.",
+            "answers": {
+              "le-mascaret": "Le mascaret",
+              "la-houle": "La houle",
+              "le-gouf": "Le gouf",
+              "le-tsunami": "Le tsunami"
+            }
+          },
+          "bremontier": {
+            "prompt": "Quel ingénieur est resté associé à la fixation des dunes de Gascogne par les plantations, à partir de la fin du XVIIIe siècle ?",
+            "hint": "Un monument lui rend hommage dans la forêt de La Teste-de-Buch, et un lycée de Bordeaux porte son nom.",
+            "anecdote": "Avant lui, les sables poussés par le vent avançaient vers l'intérieur et menaçaient les villages.",
+            "answers": {
+              "nicolas-bremontier": "Nicolas Brémontier",
+              "francois-jules-chambrelent": "François Jules Chambrelent",
+              "vauban": "Vauban",
+              "louis-de-foix": "Louis de Foix"
+            }
+          },
+          "gouf": {
+            "prompt": "Comment appelle-t-on le canyon sous-marin qui s'ouvre au large de Capbreton ?",
+            "hint": "Son nom évoque un gouffre.",
+            "anecdote": "Il atteint plusieurs milliers de mètres de profondeur, à très faible distance du rivage.",
+            "answers": {
+              "le-gouf": "Le gouf",
+              "le-rift": "Le rift",
+              "le-lagon": "Le lagon",
+              "l-estran": "L'estran"
+            }
+          },
+          "compostelle": {
+            "prompt": "Quel col pyrénéen de la Navarre est franchi par les pèlerins de Compostelle, après Saint-Jean-Pied-de-Port ?",
+            "hint": "La Chanson de Roland y situe la mort de ce héros.",
+            "anecdote": "Roland, neveu de Charlemagne, y serait tombé dans une embuscade en 778.",
+            "answers": {
+              "le-col-de-roncevaux": "Le col de Roncevaux",
+              "le-col-d-aubisque": "Le col d'Aubisque",
+              "le-col-du-tourmalet": "Le col du Tourmalet",
+              "le-col-de-puymorens": "Le col de Puymorens"
+            }
+          },
+          "carte-lascaux": {
+            "prompt": "Touchez le département de Lascaux et de la vallée de la Vézère.",
+            "hint": "Il est sans littoral, au nord-est de l'Aquitaine.",
+            "anecdote": "Quinze sites préhistoriques y sont inscrits au patrimoine mondial depuis 1979."
+          },
+          "carte-castillon": {
+            "prompt": "Touchez le département de Castillon-la-Bataille, où s'est jouée la dernière bataille de la guerre de Cent Ans.",
+            "hint": "Il touche la Dordogne et l'océan.",
+            "anecdote": "Cette commune porte le nom de l'événement depuis 1953."
+          },
+          "carte-huchet": {
+            "prompt": "Touchez le département du courant d'Huchet.",
+            "hint": "Il se trouve entre la Gironde et le Pays basque.",
+            "anecdote": "Ce cours d'eau côtier est classé réserve naturelle."
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "bordeaux": {
+            "name": "Bordeaux",
+            "description": "Port de la Lune installé dans un méandre de la Garonne, la ville a connu son âge d'or au XVIIIe siècle. Son centre, avec ses façades de pierre blonde, est inscrit au patrimoine mondial depuis 2007.",
+            "anecdote": "Le miroir d'eau, face à la place de la Bourse, couvre environ 3 450 mètres carrés."
+          },
+          "piment": {
+            "name": "Piment d'Espelette",
+            "description": "Ce piment doux, cultivé sur dix communes du Pays basque, sèche à l'automne en guirlandes sur les façades. Il bénéficie d'une appellation d'origine protégée.",
+            "anecdote": "Venu du Mexique, il serait arrivé en Europe au XVIe siècle et aurait pris racine à Espelette au XVIIe. Il sert aujourd'hui à relever l'axoa, la pipérade et le jambon de Bayonne."
+          },
+          "cordouan": {
+            "name": "Phare de Cordouan",
+            "description": "Dressé en mer à l'entrée de l'estuaire de la Gironde, ce phare surnommé le roi des phares a été construit à partir de 1584. Il est inscrit au patrimoine mondial depuis 2021.",
+            "anecdote": "Il abrite une chapelle royale, ce qui est rare pour un phare. Des gardiens y séjournent encore en alternance, bien que le phare soit automatisé."
+          },
+          "makhila": {
+            "name": "Makhila",
+            "description": "Ce bâton de marche basque est taillé dans le néflier. Gravé sur l'arbre vivant, il sèche pendant des années avant d'être monté, avec une pointe dissimulée sous sa poignée.",
+            "anecdote": "Chaque pièce est faite sur mesure et porte une devise gravée en basque."
+          },
+          "pic-ossau": {
+            "name": "Pic du Midi d'Ossau",
+            "description": "Cet ancien volcan à deux pointes s'élève à 2 884 mètres, au cœur du parc national des Pyrénées. Il domine la vallée d'Ossau, où les bergers montent encore leurs brebis en estive.",
+            "anecdote": "Sa silhouette reconnaissable est visible depuis la plaine de Pau, par temps clair."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur d'Aquitaine",
+            "description": "Réunir les cinq cartes de la collection d'Aquitaine."
+          },
+          "master": {
+            "name": "Maître d'Aquitaine",
+            "description": "Réussir le Défi Maître d'Aquitaine, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
+    },
+    "limousin": {
+      "name": "Limousin"
+    },
+    "poitou-charentes": {
+      "name": "Poitou-Charentes"
     }
   }
 }

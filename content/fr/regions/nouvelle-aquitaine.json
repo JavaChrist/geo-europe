@@ -2,7 +2,56 @@
   "id": "FR-NAQ",
   "slug": "nouvelle-aquitaine",
   "nameKey": "regions.nouvelle-aquitaine",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "16",
+      "nameKey": "departments.16"
+    },
+    {
+      "id": "17",
+      "nameKey": "departments.17"
+    },
+    {
+      "id": "19",
+      "nameKey": "departments.19"
+    },
+    {
+      "id": "23",
+      "nameKey": "departments.23"
+    },
+    {
+      "id": "24",
+      "nameKey": "departments.24"
+    },
+    {
+      "id": "33",
+      "nameKey": "departments.33"
+    },
+    {
+      "id": "40",
+      "nameKey": "departments.40"
+    },
+    {
+      "id": "47",
+      "nameKey": "departments.47"
+    },
+    {
+      "id": "64",
+      "nameKey": "departments.64"
+    },
+    {
+      "id": "79",
+      "nameKey": "departments.79"
+    },
+    {
+      "id": "86",
+      "nameKey": "departments.86"
+    },
+    {
+      "id": "87",
+      "nameKey": "departments.87"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],

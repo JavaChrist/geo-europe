@@ -502,8 +502,10 @@ assert.deepEqual(availableSpecialChallenges(francheComte).map((rules) => rules.k
   assert.deepEqual(availableSpecialChallenges(rhoneAlpes).map((rules) => rules.kind), ["master", "chrono"]);
   const provenceAlpesCoteDAzur = JSON.parse(readFileSync(new URL("../content/fr/territories/provence-alpes-cote-d-azur.json", import.meta.url), "utf8"));
   assert.deepEqual(availableSpecialChallenges(provenceAlpesCoteDAzur).map((rules) => rules.kind), ["master", "chrono"]);
+  const aquitaine = JSON.parse(readFileSync(new URL("../content/fr/territories/aquitaine.json", import.meta.url), "utf8"));
+  assert.deepEqual(availableSpecialChallenges(aquitaine).map((rules) => rules.kind), ["master", "chrono"]);
   // Chaque niveau publié compose une partie complète, sans question répétée.
-  for (const level of [...alsace.levels, ...lorraine.levels, ...champagneArdenne.levels, ...languedocRoussillon.levels, ...midiPyrenees.levels, ...bourgogne.levels, ...francheComte.levels, ...auvergne.levels, ...rhoneAlpes.levels, ...provenceAlpesCoteDAzur.levels]) {
+  for (const level of [...alsace.levels, ...lorraine.levels, ...champagneArdenne.levels, ...languedocRoussillon.levels, ...midiPyrenees.levels, ...bourgogne.levels, ...francheComte.levels, ...auvergne.levels, ...rhoneAlpes.levels, ...provenceAlpesCoteDAzur.levels, ...aquitaine.levels]) {
     for (let seed = 0; seed < 100; seed += 1) {
       const drawn = selectQuestions(level, EMPTY_HISTORY, seeded(seed), 8);
       assert.equal(new Set(drawn).size, 8, `partie complète : ${level.id}`);
@@ -512,7 +514,7 @@ assert.deepEqual(availableSpecialChallenges(francheComte).map((rules) => rules.k
       assert.equal(new Set(picked.map((candidate) => candidate.group ?? candidate.id)).size, 8, `sujets distincts : ${level.id}`);
     }
   }
-  for (const [territory, rules] of [alsace, lorraine, champagneArdenne, languedocRoussillon, midiPyrenees, bourgogne, francheComte, auvergne, rhoneAlpes, provenceAlpesCoteDAzur].flatMap((territory) => SPECIAL_CHALLENGES.map((rules) => [territory, rules]))) {
+  for (const [territory, rules] of [alsace, lorraine, champagneArdenne, languedocRoussillon, midiPyrenees, bourgogne, francheComte, auvergne, rhoneAlpes, provenceAlpesCoteDAzur, aquitaine].flatMap((territory) => SPECIAL_CHALLENGES.map((rules) => [territory, rules]))) {
     const challengeBank = specialChallengeBank(territory, rules);
     let history = EMPTY_HISTORY;
     for (let seed = 0; seed < 200; seed += 1) {
