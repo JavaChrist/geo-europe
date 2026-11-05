@@ -618,6 +618,12 @@
       "doneBody": "Toute la progression de {app} a été effacée. Vous pouvez repartir de zéro."
     }
   },
+  "update": {
+    "title": "Nouvelle version disponible",
+    "body": "Une mise à jour de l'application est prête. Votre progression est conservée.",
+    "confirm": "Mettre à jour",
+    "later": "Plus tard"
+  },
   "soon": {
     "profile": {
       "title": "Profil",

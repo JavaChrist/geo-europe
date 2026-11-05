@@ -22,6 +22,7 @@ import {
   type SpecialChallengeKind,
   specialChallengeBank,
 } from "@/engine/special-challenges";
+import { useHoldUpdate } from "@/features/update/update-hold";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { readQuestionHistory, recordChallengeResult } from "@/services/local-progress";
 import { BackLink } from "@/ui/BackLink";
@@ -116,6 +117,7 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
   const [clock, setClock] = useState<ChronoClock | null>(null);
   const [stoppedMs, setStoppedMs] = useState<number | null>(null);
   const [outcome, setOutcome] = useState<Outcome | null>(null);
+  useHoldUpdate(run !== null);
 
   const territory = content.territories.find((candidate) => candidate.id === territoryId);
   const rules = territory && availableSpecialChallenges(territory).find((candidate) => candidate.kind === kind);

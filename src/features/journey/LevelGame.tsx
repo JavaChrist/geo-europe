@@ -21,6 +21,7 @@ import {
 import { isLevelUnlocked, type LevelSummary, UNLOCK_RULES } from "@/engine/level-unlock";
 import { questionsPerRunOf, selectQuestions } from "@/engine/question-selection";
 import type { Level } from "@/engine/types";
+import { useHoldUpdate } from "@/features/update/update-hold";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { type LevelRecord, readQuestionHistory, recordLevelResult } from "@/services/local-progress";
 import { BackLink } from "@/ui/BackLink";
@@ -54,6 +55,7 @@ export function LevelGame({ level, previous, backHref, backLabel }: LevelGamePro
   // La partie démarre au clic : le tirage et l'ordre des réponses n'existent pas au rendu serveur.
   const [run, setRun] = useState<LevelRun | null>(null);
   const [outcome, setOutcome] = useState<Outcome | null>(null);
+  useHoldUpdate(run !== null);
 
   const start = () => {
     setOutcome(null);

@@ -3,6 +3,7 @@ import { Figtree, Fraunces } from "next/font/google";
 import type { ReactNode } from "react";
 import content from "@country";
 import { I18nProvider } from "@/i18n/I18nProvider";
+import { UpdatePrompt } from "@/features/update/UpdatePrompt";
 import { getMessages, getTranslator } from "@/i18n/translator";
 import { AppHeader } from "@/ui/AppHeader";
 import { ModalProvider } from "@/ui/modal/ModalProvider";
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               {children}
             </div>
             <BottomNav />
+            <UpdatePrompt />
           </ModalProvider>
         </I18nProvider>
       </body>
