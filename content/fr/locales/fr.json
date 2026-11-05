@@ -1016,6 +1016,258 @@
       "photoBourgogneTonneau": {
         "title": "Pièce de la vente des vins de Beaune",
         "alt": "Fût de chêne marqué et décoré, posé dans un cellier."
+      },
+      "photoFrancheComteCitadelle": {
+        "title": "Citadelle de Besançon",
+        "alt": "Vaste forteresse de pierre aux remparts étagés, sur une colline, entourée de pelouses et de jardins."
+      },
+      "photoFrancheComteBoucle": {
+        "title": "Besançon dans la boucle du Doubs",
+        "alt": "Vue aérienne d'une ville très dense, presque entièrement enserrée par un méandre de rivière, au pied d'une colline boisée."
+      },
+      "photoFrancheComteHorloge": {
+        "title": "Horloge astronomique de la cathédrale de Besançon",
+        "alt": "Haut mécanisme de bois sombre et de laiton, couvert de nombreux cadrans dorés et de petites statues."
+      },
+      "photoFrancheComtePorteNoire": {
+        "title": "Porte Noire à Besançon",
+        "alt": "Arc de triomphe antique en pierre, couvert de reliefs usés, entre des façades de ville."
+      },
+      "photoFrancheComteQuaiVauban": {
+        "title": "Quai Vauban à Besançon",
+        "alt": "Longue façade régulière de pierre, le long d'une large rivière, sous un ciel nuageux."
+      },
+      "photoFrancheComteGranvelle": {
+        "title": "Palais Granvelle à Besançon",
+        "alt": "Cour Renaissance entourée d'une galerie à arcades, sous de grands toits de tuiles vernissées à losanges."
+      },
+      "photoFrancheComteLion": {
+        "title": "Lion de Belfort",
+        "alt": "Immense tête de fauve sculptée dans le grès rouge, adossée à une paroi rocheuse."
+      },
+      "photoFrancheComteCitadelleBelfort": {
+        "title": "Citadelle de Belfort",
+        "alt": "Bastions de pierre et de terre couverts d'herbe, surmontés d'un drapeau français."
+      },
+      "photoFrancheComteDole": {
+        "title": "Dole et sa collégiale",
+        "alt": "Haute tour d'église dominant les toits d'une ville, au-dessus d'un canal bordé d'un quai."
+      },
+      "photoFrancheComteLons": {
+        "title": "Arcades de la rue du Commerce à Lons-le-Saunier",
+        "alt": "Galerie couverte aux arches de pierre brute, qui se succèdent le long d'une rue."
+      },
+      "photoFrancheComteRouget": {
+        "title": "Statue de Rouget de Lisle à Lons-le-Saunier",
+        "alt": "Statue de bronze d'un homme en manteau, le bras tendu vers le ciel."
+      },
+      "photoFrancheComtePontarlier": {
+        "title": "Porte Saint-Pierre à Pontarlier",
+        "alt": "Porte monumentale de pierre claire surmontée d'un clocheton à horloge, au bout d'une rue."
+      },
+      "photoFrancheComteMontbeliard": {
+        "title": "Château de Montbéliard",
+        "alt": "Château aux grosses tours rondes coiffées de dômes, dressé sur un rocher."
+      },
+      "photoFrancheComteTemple": {
+        "title": "Temple Saint-Martin à Montbéliard",
+        "alt": "Grand édifice de pierre très sobre, au clocher élancé d'ardoise, sur une place de ville."
+      },
+      "photoFrancheComteSautDoubs": {
+        "title": "Saut du Doubs",
+        "alt": "Puissante chute d'eau tombant dans une gorge boisée, avec un petit arc-en-ciel."
+      },
+      "photoFrancheComteChalain": {
+        "title": "Lac de Chalain",
+        "alt": "Lac d'un bleu turquoise entre des coteaux boisés, vu depuis une hauteur."
+      },
+      "photoFrancheComteVouglans": {
+        "title": "Lac de Vouglans",
+        "alt": "Long plan d'eau vert entre des collines couvertes de forêts, sous un ciel d'orage."
+      },
+      "photoFrancheComteHerisson": {
+        "title": "Cascades du Hérisson",
+        "alt": "Rideau d'eau tombant dans un bassin de rochers, avec une maison ancienne au fond."
+      },
+      "photoFrancheComteLoue": {
+        "title": "Source de la Loue",
+        "alt": "Rivière jaillissant d'une grotte au pied d'une grande falaise, parmi d'anciens murs moussus."
+      },
+      "photoFrancheComteMilleEtangs": {
+        "title": "Plateau des Mille Étangs",
+        "alt": "Petite maison blanche au bord d'un étang calme, bordé de bouleaux qui s'y reflètent."
+      },
+      "photoFrancheComteBallon": {
+        "title": "Ballon d'Alsace",
+        "alt": "Sommet arrondi et herbeux, traversé par une route, sous un grand ciel bleu."
+      },
+      "photoFrancheComteSaintPoint": {
+        "title": "Lac de Saint-Point",
+        "alt": "Lac bleu dans une vallée de prés et de forêts de sapins, vu depuis un belvédère."
+      },
+      "photoFrancheComteLadoye": {
+        "title": "Cirque de Ladoye",
+        "alt": "Grande reculée aux falaises calcaires, couverte de forêts, vue depuis le rebord du plateau."
+      },
+      "photoFrancheComteGrandeSaline": {
+        "title": "Roue hydraulique de la Grande Saline de Salins-les-Bains",
+        "alt": "Immense roue de bois dans une galerie sombre, éclairée par une lumière orangée."
+      },
+      "photoFrancheComteSalineRoyale": {
+        "title": "Saline royale d'Arc-et-Senans",
+        "alt": "Pavillon néoclassique à colonnes annelées et à fronton, au fond d'une grande pelouse."
+      },
+      "photoFrancheComteBaume": {
+        "title": "Baume-les-Messieurs",
+        "alt": "Village ancien et abbaye au fond d'une vallée encaissée, entre des coteaux herbeux en terrasses."
+      },
+      "photoFrancheComteChateauChalon": {
+        "title": "Château-Chalon",
+        "alt": "Maisons de pierre d'un vieux village, avec un jardin fleuri et une treille, sous un ciel bleu."
+      },
+      "photoFrancheComteJoux": {
+        "title": "Château de Joux",
+        "alt": "Forteresse aux murailles étagées, perchée au bord d'une vallée escarpée, coiffée de talus herbeux."
+      },
+      "photoFrancheComteSaintClaude": {
+        "title": "Chapelle de la cathédrale Saint-Pierre de Saint-Claude",
+        "alt": "Chapelle aux boiseries sombres, avec un autel doré derrière une grille et des cierges allumés."
+      },
+      "photoFrancheComteOrnans": {
+        "title": "Ornans au bord de la Loue",
+        "alt": "Maisons anciennes aux pieds dans l'eau et pont de pierre fleuri, sur une rivière très calme."
+      },
+      "photoFrancheComteLuxeuil": {
+        "title": "Cloître de l'abbaye de Luxeuil",
+        "alt": "Galerie de cloître en grès rouge, aux arcs brisés et aux colonnes groupées."
+      },
+      "photoFrancheComteGray": {
+        "title": "Hôtel de ville de Gray",
+        "alt": "Façade Renaissance à arcades et à colonnes de marbre rose, avec des jardinières fleuries et une statue."
+      },
+      "photoFrancheComteRay": {
+        "title": "Château de Ray-sur-Saône",
+        "alt": "Château massif de pierre sur une terrasse herbeuse, au sommet d'une butte, sous un ciel nuageux."
+      },
+      "photoFrancheComteFilain": {
+        "title": "Château de Filain",
+        "alt": "Château aux toits de tuiles dominant un petit village, vu du ciel, au milieu de la campagne."
+      },
+      "photoFrancheComteComte": {
+        "title": "Comté",
+        "alt": "Morceau de fromage à pâte jaune dorée et à la croûte brune, sur un fond noir."
+      },
+      "photoFrancheComteCaveComte": {
+        "title": "Cave d'affinage du fort Saint-Antoine",
+        "alt": "Étagères de bois portant des rangées de grandes meules de fromage numérotées."
+      },
+      "photoFrancheComteMorbier": {
+        "title": "Morbier",
+        "alt": "Part de fromage à pâte ivoire, traversée en son milieu d'une fine raie sombre, sur une ardoise."
+      },
+      "photoFrancheComteMontDor": {
+        "title": "Mont-d'or",
+        "alt": "Part de fromage à pâte crémeuse et à la croûte plissée, sur une ardoise ronde."
+      },
+      "photoFrancheComteCancoillotte": {
+        "title": "Cancoillotte",
+        "alt": "Petit bol blanc rempli d'une crème jaune pâle, très coulante, avec une cuillère."
+      },
+      "photoFrancheComteBleuGex": {
+        "title": "Bleu de Gex",
+        "alt": "Part de fromage à pâte claire veinée de bleu, à la croûte fine, sur une ardoise."
+      },
+      "photoFrancheComteMorteau": {
+        "title": "Saucisse de Morteau",
+        "alt": "Grosses saucisses orange fumées, avec leur étiquette, sur un étal."
+      },
+      "photoFrancheComteMontbeliardSaucisse": {
+        "title": "Saucisse de Montbéliard",
+        "alt": "Saucisses à la peau marbrée d'orange, rangées côte à côte."
+      },
+      "photoFrancheComteVinJaune": {
+        "title": "Bouteille ancienne de vin jaune",
+        "alt": "Très vieille bouteille trapue, couverte de poussière et de cire, posée sur une table."
+      },
+      "photoFrancheComteArbois": {
+        "title": "Vignoble d'Arbois",
+        "alt": "Coteaux de vignes et prés fleuris, sous un grand ciel, vus depuis une hauteur."
+      },
+      "photoFrancheComtePoularde": {
+        "title": "Poularde aux morilles",
+        "alt": "Morceau de volaille en sauce crémeuse, avec de grosses morilles, dans une assiette blanche."
+      },
+      "photoFrancheComteCroute": {
+        "title": "Croûte aux morilles",
+        "alt": "Tranche de pain grillé et morilles dans une sauce à la crème, dans une assiette blanche."
+      },
+      "photoFrancheComteGriottines": {
+        "title": "Griottines de Fougerolles",
+        "alt": "Coupe de verre remplie de petits fruits rouge sombre, avec une cuillère, sur une nappe imprimée."
+      },
+      "photoFrancheComteAbsinthe": {
+        "title": "Bouteilles de la distillerie Armand Guy à Pontarlier",
+        "alt": "Bouteilles aux étiquettes illustrées, alignées sur une étagère de bois, à côté d'un tarif."
+      },
+      "photoFrancheComteGentiane": {
+        "title": "Gentiane jaune",
+        "alt": "Plante aux larges feuilles vert clair à nervures marquées, dans l'herbe."
+      },
+      "photoFrancheComteMontbeliarde": {
+        "title": "Vache montbéliarde",
+        "alt": "Vaches à la robe pie rouge et blanche, avec une cloche, dans un pré au bord de la forêt."
+      },
+      "photoFrancheComtePeugeot": {
+        "title": "Musée de l'Aventure Peugeot à Sochaux",
+        "alt": "Grand bâtiment moderne à la façade grise, avec une marquise de verre, derrière un parvis."
+      },
+      "photoFrancheComteJouet": {
+        "title": "Musée du Jouet à Moirans-en-Montagne",
+        "alt": "Vitrines de jouets anciens dans une salle moderne au sol gris."
+      },
+      "photoFrancheComteMaisonPasteur": {
+        "title": "Maison de Louis Pasteur à Arbois",
+        "alt": "Haute maison de pierre grise aux volets clairs, couverte de lierre, au bord d'une rivière."
+      },
+      "photoFrancheComtePasteur": {
+        "title": "Louis Pasteur par Albert Edelfelt",
+        "alt": "Tableau d'un savant barbu en redingote, examinant un flacon dans son laboratoire."
+      },
+      "photoFrancheComteComtoise": {
+        "title": "Horloges comtoises",
+        "alt": "Hautes horloges de parquet à la caisse galbée et peinte, alignées contre un mur."
+      },
+      "photoFrancheComteEnterrement": {
+        "title": "Un enterrement à Ornans, de Gustave Courbet",
+        "alt": "Très grande toile montrant une foule en deuil autour d'une fosse, sous un crucifix."
+      },
+      "photoFrancheComteNancray": {
+        "title": "Musée des maisons comtoises de Nancray",
+        "alt": "Grande ferme à pignon de bois sombre et à large toit, derrière un potager."
+      },
+      "photoFrancheComtePipe": {
+        "title": "Polisseuse de pipes à Saint-Claude, gravure de Gustave Fraipont",
+        "alt": "Gravure ancienne montrant deux femmes penchées sur un établi d'atelier."
+      },
+      "photoFrancheComteLunettes": {
+        "title": "Instrument du Musée de la lunette à Morez",
+        "alt": "Instrument d'optique ancien, long et effilé, posé dans une vitrine."
+      },
+      "photoFrancheComteTaillanderie": {
+        "title": "Grande Taillanderie de Nans-sous-Sainte-Anne",
+        "alt": "Bâtiment d'atelier avec une grande roue à eau, au bord d'un étang, et un groupe de visiteurs."
+      },
+      "photoFrancheComteTransju": {
+        "title": "Départ de la Transjurassienne",
+        "alt": "Foule de skieurs de fond portant des dossards, sur une piste enneigée entre les arbres."
+      },
+      "photoFrancheComteRochere": {
+        "title": "Verrerie de La Rochère",
+        "alt": "Artisans au travail près de fours et de tuyauteries, dans un grand atelier."
+      },
+      "photoFrancheComteEurock": {
+        "title": "Presqu'île de Malsaucy et les Eurockéennes",
+        "alt": "Vue aérienne d'une presqu'île boisée, entre deux plans d'eau, avec de grandes tentes blanches."
       }
     }
   },
@@ -1280,7 +1532,38 @@
     "tonnerre": "Tonnerre",
     "chablis": "Chablis",
     "vezelay": "Vézelay",
-    "irancy": "Irancy"
+    "irancy": "Irancy",
+    "besancon": "Besançon",
+    "montbeliard": "Montbéliard",
+    "pontarlier": "Pontarlier",
+    "morteau": "Morteau",
+    "ornans": "Ornans",
+    "sochaux": "Sochaux",
+    "audincourt": "Audincourt",
+    "arc-et-senans": "Arc-et-Senans",
+    "mouthe": "Mouthe",
+    "lons-le-saunier": "Lons-le-Saunier",
+    "dole": "Dole",
+    "saint-claude": "Saint-Claude",
+    "arbois": "Arbois",
+    "salins-les-bains": "Salins-les-Bains",
+    "morez": "Morez",
+    "poligny": "Poligny",
+    "champagnole": "Champagnole",
+    "baume-les-messieurs": "Baume-les-Messieurs",
+    "chateau-chalon": "Château-Chalon",
+    "moirans-en-montagne": "Moirans-en-Montagne",
+    "vesoul": "Vesoul",
+    "gray": "Gray",
+    "lure": "Lure",
+    "luxeuil-les-bains": "Luxeuil-les-Bains",
+    "ronchamp": "Ronchamp",
+    "champlitte": "Champlitte",
+    "fougerolles": "Fougerolles",
+    "pesmes": "Pesmes",
+    "belfort": "Belfort",
+    "delle": "Delle",
+    "giromagny": "Giromagny"
   },
   "territories": {
     "champagne-ardenne": {
@@ -13549,7 +13832,1979 @@
       }
     },
     "franche-comte": {
-      "name": "Franche-Comté"
+      "name": "Franche-Comté",
+      "description": "Entre Vosges et Jura, une ancienne province de forêts, de lacs et de combes, de citadelles et de salines, de fromages de montagne et de vins jaunes, aujourd'hui au sein de la région Bourgogne-Franche-Comté.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Franche-Comté",
+          "description": "Quatre départements, leurs villes et les grands repères d'un territoire entre Vosges, plateaux et montagne du Jura.",
+          "carte-territoire": {
+            "prompt": "Touchez sur la carte le territoire historique de la Franche-Comté.",
+            "hint": "C'est la partie est de la région, le long de la frontière suisse.",
+            "anecdote": "La Franche-Comté forme l'est de la région actuelle. La Bourgogne en occupe l'ouest, jusqu'à la Loire."
+          },
+          "nombre-departements": {
+            "prompt": "Combien de départements compte la Franche-Comté ?",
+            "hint": "Autant que de saisons dans l'année.",
+            "anecdote": "Le Doubs, le Jura, la Haute-Saône et le Territoire de Belfort formaient l'ancienne région Franche-Comté.",
+            "answers": {
+              "quatre": "Quatre",
+              "trois": "Trois",
+              "six": "Six",
+              "huit": "Huit"
+            }
+          },
+          "region-actuelle": {
+            "prompt": "Dans quelle région administrative la Franche-Comté se trouve-t-elle depuis 2016 ?",
+            "hint": "Son nom associe deux anciennes régions voisines.",
+            "anecdote": "Les deux anciennes régions ont été réunies le 1er janvier 2016. La Franche-Comté reste un territoire historique au sein de cet ensemble.",
+            "answers": {
+              "bourgogne-franche-comte": "Bourgogne-Franche-Comté",
+              "grand-est": "Grand Est",
+              "auvergne-rhone-alpes": "Auvergne-Rhône-Alpes",
+              "centre-val-de-loire": "Centre-Val de Loire"
+            }
+          },
+          "ville-peuplee": {
+            "prompt": "Quelle est la ville la plus peuplée de Franche-Comté ?",
+            "hint": "Elle est la préfecture du Doubs.",
+            "anecdote": "Besançon compte plus de 118 000 habitants. Elle a succédé à Dole comme capitale de la province, à la fin du XVIIe siècle."
+          },
+          "conseil-regional": {
+            "prompt": "Dans quelle ville franc-comtoise se trouve le siège du conseil régional de Bourgogne-Franche-Comté ?",
+            "hint": "Cette ville s'est construite dans une boucle de rivière.",
+            "anecdote": "Dijon est le chef-lieu de la région et accueille les séances plénières, tandis que le siège du conseil régional se trouve à Besançon."
+          },
+          "pays-voisin": {
+            "prompt": "Quel pays la Franche-Comté borde-t-elle à l'est ?",
+            "hint": "C'est le pays des cantons.",
+            "anecdote": "La frontière court sur environ 230 kilomètres, le long du massif du Jura. De nombreux Francs-Comtois y travaillent chaque jour.",
+            "answers": {
+              "la-suisse": "La Suisse",
+              "l-allemagne": "L'Allemagne",
+              "l-italie": "L'Italie",
+              "le-luxembourg": "Le Luxembourg"
+            }
+          },
+          "sens-franche": {
+            "prompt": "Que signifie le mot « franche » dans le nom de cette ancienne province ?",
+            "hint": "Le mot s'oppose à « soumise ».",
+            "anecdote": "Ce nom, apparu à la fin du Moyen Âge, évoque l'indépendance revendiquée par ce comté. La province n'a été rattachée à la France qu'en 1678.",
+            "answers": {
+              "libre": "Libre",
+              "froide": "Froide",
+              "boisee": "Boisée",
+              "montagneuse": "Montagneuse"
+            }
+          },
+          "massif-sud": {
+            "prompt": "Quel massif montagneux borde le sud-est de la Franche-Comté ?",
+            "hint": "Il a donné son nom à une période de l'ère des dinosaures.",
+            "anecdote": "Ses plis calcaires s'étendent jusqu'en Suisse. Les géologues du XIXe siècle ont tiré de son nom celui du Jurassique.",
+            "answers": {
+              "le-jura": "Le Jura",
+              "les-vosges": "Les Vosges",
+              "les-alpes": "Les Alpes",
+              "le-massif-central": "Le Massif central"
+            }
+          },
+          "carte-doubs": {
+            "prompt": "Touchez sur la carte le Doubs.",
+            "hint": "Il longe la frontière suisse, entre le Territoire de Belfort et le Jura.",
+            "anecdote": "Le Doubs porte le numéro 25. Sa préfecture est Besançon."
+          },
+          "carte-jura": {
+            "prompt": "Touchez sur la carte le Jura.",
+            "hint": "C'est le département le plus au sud de la Franche-Comté.",
+            "anecdote": "Le Jura porte le numéro 39. Il s'étend de la plaine de la Bresse aux sommets de sa montagne."
+          },
+          "carte-haute-saone": {
+            "prompt": "Touchez sur la carte la Haute-Saône.",
+            "hint": "C'est le département le plus au nord de la Franche-Comté.",
+            "anecdote": "La Haute-Saône porte le numéro 70. Elle tire son nom de la rivière qui la traverse, du nord-est au sud-ouest."
+          },
+          "carte-belfort": {
+            "prompt": "Touchez sur la carte le Territoire de Belfort.",
+            "hint": "C'est le tout petit département de l'extrême nord-est.",
+            "anecdote": "Il porte le numéro 90. C'est un des plus petits départements de France métropolitaine."
+          },
+          "numero-39": {
+            "prompt": "Quel département porte le numéro 39 ?",
+            "hint": "Son nom est aussi celui d'un massif.",
+            "anecdote": "Sa préfecture est Lons-le-Saunier. Le département voisin de la Suisse porte le nom de sa montagne.",
+            "answers": {
+              "le-jura": "Le Jura",
+              "le-doubs": "Le Doubs",
+              "la-haute-saone": "La Haute-Saône",
+              "le-territoire-de-belfort": "Le Territoire de Belfort"
+            }
+          },
+          "prefecture-jura": {
+            "prompt": "Quelle ville est la préfecture du Jura ?",
+            "hint": "Son nom rappelle le sel, autrefois exploité sur place.",
+            "anecdote": "Lons-le-Saunier est une ville thermale. Le mot « saunier » désigne celui qui produit ou vend le sel."
+          },
+          "prefecture-haute-saone": {
+            "prompt": "Quelle ville est la préfecture de la Haute-Saône ?",
+            "hint": "Jacques Brel l'a citée dans une chanson célèbre.",
+            "anecdote": "Vesoul s'étend au pied de la colline de la Motte. La chanson de Brel, sortie en 1968, a fait connaître son nom bien au-delà de la région."
+          },
+          "nom-prefecture": {
+            "prompt": "Quel département franc-comtois porte dans son nom celui de sa préfecture ?",
+            "hint": "C'est le plus petit des quatre.",
+            "anecdote": "Ce territoire est la partie de l'Alsace restée française après la guerre de 1870. Il est devenu un département à part entière en 1922.",
+            "answers": {
+              "le-territoire-de-belfort": "Le Territoire de Belfort",
+              "le-doubs": "Le Doubs",
+              "le-jura": "Le Jura",
+              "la-haute-saone": "La Haute-Saône"
+            }
+          },
+          "carte-besancon": {
+            "prompt": "Touchez le département de Besançon.",
+            "hint": "Il porte le nom de la rivière qui entoure la vieille ville.",
+            "anecdote": "Besançon est la préfecture du Doubs et la plus grande ville de Franche-Comté."
+          },
+          "carte-lons": {
+            "prompt": "Touchez le département de Lons-le-Saunier.",
+            "hint": "C'est le plus au sud de la Franche-Comté.",
+            "anecdote": "Lons-le-Saunier est la préfecture du Jura, au pied du Revermont."
+          },
+          "carte-vesoul": {
+            "prompt": "Touchez le département de Vesoul.",
+            "hint": "C'est le plus au nord de la Franche-Comté.",
+            "anecdote": "Vesoul est la préfecture de la Haute-Saône, un département de forêts et d'étangs."
+          },
+          "carte-montbeliard": {
+            "prompt": "Touchez le département de Montbéliard.",
+            "hint": "C'est le même que celui de Besançon.",
+            "anecdote": "Montbéliard se trouve au nord-est du Doubs, près de Belfort et de la frontière suisse."
+          },
+          "photo-citadelle": {
+            "prompt": "Quelle ville franc-comtoise cette grande citadelle de Vauban domine-t-elle ?",
+            "hint": "La rivière y dessine une boucle presque fermée.",
+            "anecdote": "Élevée à la fin du XVIIe siècle, elle est inscrite au patrimoine mondial depuis 2008. Elle abrite aujourd'hui plusieurs musées et un parc zoologique."
+          },
+          "photo-lion": {
+            "prompt": "Dans quelle ville se dresse ce lion de grès, sculpté au pied d'une citadelle ?",
+            "hint": "Elle a résisté à un long siège en 1870-1871.",
+            "anecdote": "Sculpté par Bartholdi et achevé en 1880, ce lion mesure environ 22 mètres de long. Il rend hommage à la résistance de la ville."
+          },
+          "photo-dole": {
+            "prompt": "Quelle ville du Jura, ancienne capitale de la Comté, se reconnaît à ce canal et à ce clocher ?",
+            "hint": "Elle a vu naître Louis Pasteur.",
+            "anecdote": "Elle a été la capitale de la province jusqu'à sa conquête par Louis XIV. Sa collégiale Notre-Dame domine le canal des Tanneurs."
+          },
+          "photo-lons": {
+            "prompt": "Quelle préfecture est connue pour cette rue commerçante à arcades ?",
+            "hint": "Rouget de Lisle y est né.",
+            "anecdote": "Cette rue compte 146 arcades, élevées pour l'essentiel après l'incendie de 1637. Les commerces y sont toujours installés."
+          },
+          "ville-pasteur": {
+            "prompt": "Dans quelle ville du Jura Louis Pasteur est-il né en 1822 ?",
+            "hint": "Elle a longtemps été la capitale de la Comté.",
+            "anecdote": "Sa maison natale, le long du canal des Tanneurs, se visite. Sa famille s'installe ensuite à Arbois."
+          },
+          "ecrivain-besancon": {
+            "prompt": "Quel écrivain, auteur des Misérables, est né à Besançon en 1802 ?",
+            "hint": "Il a aussi écrit Notre-Dame de Paris.",
+            "anecdote": "Il a quitté la ville à quelques semaines. Il l'évoque pourtant dans un poème célèbre : « Ce siècle avait deux ans ».",
+            "answers": {
+              "victor-hugo": "Victor Hugo",
+              "honore-de-balzac": "Honoré de Balzac",
+              "alexandre-dumas": "Alexandre Dumas",
+              "emile-zola": "Émile Zola"
+            }
+          },
+          "constructeur-sochaux": {
+            "prompt": "Quel constructeur automobile est installé à Sochaux, près de Montbéliard ?",
+            "hint": "Sa marque porte un lion.",
+            "anecdote": "Sa famille a commencé par l'acier et l'outillage, dans le pays de Montbéliard. L'usine de Sochaux fabrique des voitures depuis le début du XXe siècle.",
+            "answers": {
+              "peugeot": "Peugeot",
+              "renault": "Renault",
+              "citroen": "Citroën",
+              "alpine": "Alpine"
+            }
+          },
+          "horlogerie-capitale": {
+            "prompt": "Quelle ville a longtemps été la capitale de l'horlogerie française ?",
+            "hint": "Son horloge astronomique se visite dans sa cathédrale.",
+            "anecdote": "L'horlogerie s'y développe à la fin du XVIIIe siècle. La ville a abrité de grandes marques comme Lip."
+          },
+          "riviere-besancon": {
+            "prompt": "Quelle rivière entoure le centre historique de Besançon ?",
+            "hint": "Elle donne son nom au département.",
+            "anecdote": "Elle forme autour de la vieille ville une boucle presque complète, que ferme la colline de la citadelle.",
+            "answers": {
+              "le-doubs": "Le Doubs",
+              "la-saone": "La Saône",
+              "la-loue": "La Loue",
+              "l-ognon": "L'Ognon"
+            }
+          },
+          "photo-saut": {
+            "prompt": "Quel site de la frontière franco-suisse voyez-vous sur cette photo ?",
+            "hint": "Son nom évoque un bond de la rivière frontalière.",
+            "anecdote": "La rivière y chute d'environ 27 mètres, à Villers-le-Lac. On y accède en bateau ou par un sentier.",
+            "answers": {
+              "le-saut-du-doubs": "Le saut du Doubs",
+              "les-cascades-du-herisson": "Les cascades du Hérisson",
+              "la-source-de-la-loue": "La source de la Loue",
+              "le-lac-de-chalain": "Le lac de Chalain"
+            }
+          },
+          "photo-herisson": {
+            "prompt": "Quel ensemble de chutes d'eau du Jura voyez-vous sur cette photo ?",
+            "hint": "Son nom est aussi celui d'un petit animal à piquants.",
+            "anecdote": "La rivière franchit plusieurs chutes en quelques kilomètres, dont l'Éventail, haute d'environ 65 mètres.",
+            "answers": {
+              "les-cascades-du-herisson": "Les cascades du Hérisson",
+              "le-saut-du-doubs": "Le saut du Doubs",
+              "les-cascades-de-baume": "Les cascades de Baume",
+              "les-chutes-de-la-loue": "Les chutes de la Loue"
+            }
+          },
+          "photo-chalain": {
+            "prompt": "Quel lac du Jura, connu pour ses vestiges de villages préhistoriques, voyez-vous ici ?",
+            "hint": "Il s'étend entre Lons-le-Saunier et Champagnole.",
+            "anecdote": "Ses rives ont conservé des vestiges de villages lacustres, inscrits au patrimoine mondial en 2011 parmi les sites palafittiques des Alpes.",
+            "answers": {
+              "le-lac-de-chalain": "Le lac de Chalain",
+              "le-lac-de-saint-point": "Le lac de Saint-Point",
+              "le-lac-de-vouglans": "Le lac de Vouglans",
+              "le-lac-de-remoray": "Le lac de Remoray"
+            }
+          },
+          "photo-vouglans": {
+            "prompt": "Quelle grande retenue du Jura, créée par un barrage sur l'Ain, voyez-vous ici ?",
+            "hint": "Son barrage a été achevé en 1968.",
+            "anecdote": "Cette retenue s'étire sur environ 35 kilomètres. Elle est l'une des plus grandes de France par sa capacité.",
+            "answers": {
+              "le-lac-de-vouglans": "Le lac de Vouglans",
+              "le-lac-de-chalain": "Le lac de Chalain",
+              "le-lac-de-saint-point": "Le lac de Saint-Point",
+              "le-lac-de-clairvaux": "Le lac de Clairvaux"
+            }
+          },
+          "source-doubs": {
+            "prompt": "Quel village du Haut-Doubs, connu pour ses records de froid, voit naître la rivière Doubs ?",
+            "hint": "On le surnomme la petite Sibérie française.",
+            "anecdote": "On y a relevé -36,7 °C le 13 janvier 1968. La rivière naît à plus de 900 mètres d'altitude et parcourt plus de 450 kilomètres avant de rejoindre la Saône.",
+            "answers": {
+              "metabief": "Métabief"
+            }
+          },
+          "pontarlier-haute": {
+            "prompt": "Quelle ville du Doubs, à plus de 800 mètres d'altitude, est souvent présentée comme la deuxième plus haute de France ?",
+            "hint": "Elle est connue pour une ancienne production d'absinthe.",
+            "anecdote": "Elle se situe à environ 837 mètres, seule Briançon la dépasse parmi les villes de cette importance."
+          },
+          "photo-ballon": {
+            "prompt": "Quel sommet des Vosges, au nord du Territoire de Belfort, voyez-vous sur cette photo ?",
+            "hint": "Son nom évoque la région voisine.",
+            "anecdote": "Il culmine à 1 247 mètres. Il marque le point le plus haut du Territoire de Belfort, à la limite de quatre départements.",
+            "answers": {
+              "le-ballon-d-alsace": "Le ballon d'Alsace",
+              "le-ballon-de-servance": "Le ballon de Servance",
+              "le-grand-ballon": "Le Grand Ballon",
+              "le-mont-donon": "Le mont Donon"
+            }
+          },
+          "etangs-haute-saone": {
+            "prompt": "Quel plateau de Haute-Saône est réputé pour ses très nombreux plans d'eau ?",
+            "hint": "Son nom annonce un chiffre rond.",
+            "anecdote": "Modelé par les anciens glaciers des Vosges, ce plateau compte en réalité plusieurs centaines d'étangs, entre Faucogney et Mélisey.",
+            "answers": {
+              "le-plateau-des-mille-etangs": "Le plateau des Mille Étangs",
+              "le-plateau-de-langres": "Le plateau de Langres",
+              "le-plateau-de-maiche": "Le plateau de Maîche",
+              "le-plateau-de-levier": "Le plateau de Levier"
+            }
+          },
+          "foret-arbre": {
+            "prompt": "Quel conifère domine la forêt de la Joux, sur les plateaux du Jura ?",
+            "hint": "On en décore un à Noël dans bien des maisons.",
+            "anecdote": "La forêt de la Joux abrite l'une des plus belles sapinières de France, avec des arbres parfois hauts de plus de 40 mètres.",
+            "answers": {
+              "le-sapin": "Le sapin",
+              "le-meleze": "Le mélèze",
+              "le-pin-maritime": "Le pin maritime",
+              "le-cedre": "Le cèdre"
+            }
+          },
+          "massif-nord": {
+            "prompt": "Quel massif montagneux borde le nord de la Franche-Comté ?",
+            "hint": "Il sépare ce territoire de l'Alsace et de la Lorraine.",
+            "anecdote": "Ses sommets arrondis, les ballons, dominent le nord de la Haute-Saône et du Territoire de Belfort.",
+            "answers": {
+              "les-vosges": "Les Vosges",
+              "le-jura": "Le Jura",
+              "le-morvan": "Le Morvan",
+              "les-ardennes": "Les Ardennes"
+            }
+          },
+          "parc-haut-jura": {
+            "prompt": "Quel parc naturel régional s'étend sur la montagne jurassienne ?",
+            "hint": "Son nom désigne les plus hautes terres du massif.",
+            "anecdote": "Créé en 1986, il s'étend sur les départements du Jura, du Doubs et de l'Ain, entre forêts, combes et tourbières.",
+            "answers": {
+              "le-parc-du-haut-jura": "Le parc du Haut-Jura",
+              "le-parc-du-morvan": "Le parc du Morvan",
+              "le-parc-des-bauges": "Le parc des Bauges",
+              "le-parc-du-vercors": "Le parc du Vercors"
+            }
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs de Franche-Comté",
+          "description": "Comté, vin jaune, saucisses fumées, morilles et eaux-de-vie : une table de montagne, ancrée dans ses terroirs.",
+          "photo-comte": {
+            "prompt": "Quel grand fromage franc-comtois voyez-vous sur cette photo ?",
+            "hint": "Il porte presque le nom de la province.",
+            "anecdote": "Ce fromage au lait cru de vache est le premier fromage français par le volume sous appellation d'origine. Il a obtenu l'AOC en 1958.",
+            "answers": {
+              "le-comte": "Le comté",
+              "le-beaufort": "Le beaufort",
+              "l-emmental": "L'emmental",
+              "le-gruyere": "Le gruyère"
+            }
+          },
+          "photo-morbier": {
+            "prompt": "Quel fromage du massif du Jura se reconnaît à cette raie sombre en son centre ?",
+            "hint": "Il porte le nom d'une commune du Haut-Jura.",
+            "anecdote": "Cette raie rappelle la cendre que l'on posait autrefois sur le caillé du matin, pour le protéger jusqu'à la traite du soir. Elle est aujourd'hui végétale.",
+            "answers": {
+              "le-morbier": "Le morbier",
+              "le-comte": "Le comté",
+              "le-reblochon": "Le reblochon",
+              "le-saint-nectaire": "Le saint-nectaire"
+            }
+          },
+          "photo-mont-dor": {
+            "prompt": "Quel fromage d'hiver, cerclé d'épicéa, se déguste à la cuillère ?",
+            "hint": "Son nom est aussi celui d'un sommet du Haut-Doubs.",
+            "anecdote": "Fabriqué d'août à mars, il s'affine dans sa sangle d'épicéa, qui lui donne son parfum. Il se vend en boîte, et se mange souvent chaud.",
+            "answers": {
+              "le-mont-d-or": "Le mont-d'or",
+              "le-munster": "Le munster",
+              "le-maroilles": "Le maroilles",
+              "le-langres": "Le langres"
+            }
+          },
+          "photo-cancoillotte": {
+            "prompt": "Quelle spécialité fromagère coulante de Franche-Comté voyez-vous sur cette photo ?",
+            "hint": "On la sert chaude, souvent parfumée à l'ail, sur du pain.",
+            "anecdote": "Elle est préparée à partir de metton, un lait écrémé caillé, fondu avec de l'eau et du beurre. On la mange chaude ou froide.",
+            "answers": {
+              "la-cancoillotte": "La cancoillotte",
+              "la-fondue-savoyarde": "La fondue savoyarde",
+              "la-faisselle": "La faisselle",
+              "la-creme-de-bresse": "La crème de Bresse"
+            }
+          },
+          "lait-comte": {
+            "prompt": "Comment appelle-t-on, en Franche-Comté, la fromagerie de village où l'on met le lait en commun ?",
+            "hint": "Son nom évoque le fruit du travail partagé.",
+            "anecdote": "Ces coopératives, connues dès le Moyen Âge, permettaient de réunir le lait de plusieurs fermes pour fabriquer de grosses meules.",
+            "answers": {
+              "la-fruitiere": "La fruitière",
+              "la-laiterie": "La laiterie",
+              "la-buronnerie": "La buronnerie",
+              "la-salaison": "La salaison"
+            }
+          },
+          "lait-meule": {
+            "prompt": "Combien de litres de lait faut-il environ pour une meule de comté de 40 kilos ?",
+            "hint": "C'est bien plus que ce que donne une vache en un jour.",
+            "anecdote": "Il en faut environ 400 litres, soit le lait quotidien d'une vingtaine de vaches. La meule s'affine ensuite au moins quatre mois.",
+            "answers": {
+              "400-litres": "400 litres",
+              "40-litres": "40 litres",
+              "100-litres": "100 litres",
+              "2-000-litres": "2 000 litres"
+            }
+          },
+          "photo-cave-comte": {
+            "prompt": "Dans ce fort militaire du Haut-Doubs, reconverti en cave d'affinage, quel fromage mûrit sur ces planches ?",
+            "hint": "Il s'agit de meules de montagne, frottées régulièrement au sel.",
+            "anecdote": "Le fort Saint-Antoine, bâti après 1870, accueille depuis les années 1960 des dizaines de milliers de meules, à Saint-Antoine.",
+            "answers": {
+              "le-comte": "Le comté",
+              "le-roquefort": "Le roquefort",
+              "le-saint-nectaire": "Le saint-nectaire",
+              "le-cantal": "Le cantal"
+            }
+          },
+          "photo-bleu": {
+            "prompt": "Quel fromage à pâte persillée du Haut-Jura voyez-vous sur cette photo ?",
+            "hint": "Son nom désigne aussi un pays voisin, dans l'Ain.",
+            "anecdote": "Il est aussi appelé bleu du Haut-Jura ou de Septmoncel. Son appellation s'étend sur le Jura et l'Ain.",
+            "answers": {
+              "le-bleu-de-gex": "Le bleu de Gex",
+              "le-bleu-d-auvergne": "Le bleu d'Auvergne",
+              "la-fourme-d-ambert": "La fourme d'Ambert",
+              "le-roquefort": "Le roquefort"
+            }
+          },
+          "vache-race": {
+            "prompt": "Quelle race de vache, à la robe pie rouge, fournit l'essentiel du lait à comté ?",
+            "hint": "Elle porte le nom d'une ville du Doubs.",
+            "anecdote": "Avec la simmental française, c'est la seule race autorisée pour le comté. Elle a été sélectionnée dans la région, au XIXe siècle.",
+            "answers": {
+              "la-montbeliarde": "La montbéliarde",
+              "la-charolaise": "La charolaise",
+              "la-normande": "La normande",
+              "la-salers": "La salers"
+            }
+          },
+          "photo-vin-jaune": {
+            "prompt": "Quel vin du Jura, célèbre pour sa couleur et son goût de noix, est présenté dans cette bouteille ?",
+            "hint": "Son nom est une simple couleur.",
+            "anecdote": "Il vieillit plus de six ans en fût, sous un voile de levures, sans jamais être complété. Il peut se conserver des décennies.",
+            "answers": {
+              "le-vin-jaune": "Le vin jaune",
+              "le-vin-de-paille": "Le vin de paille",
+              "le-macvin": "Le macvin",
+              "le-cremant-du-jura": "Le crémant du Jura"
+            }
+          },
+          "clavelin": {
+            "prompt": "Comment s'appelle la bouteille trapue de 62 centilitres réservée au vin jaune ?",
+            "hint": "Son nom se termine par « -elin ».",
+            "anecdote": "Sa contenance rappelle ce qu'il reste d'un litre de vin après son long vieillissement en fût.",
+            "answers": {
+              "le-clavelin": "Le clavelin",
+              "le-magnum": "Le magnum",
+              "le-jeroboam": "Le jéroboam",
+              "la-fillette": "La fillette"
+            }
+          },
+          "cepage-jaune": {
+            "prompt": "Quel cépage blanc donne le vin jaune ?",
+            "hint": "Son nom commence comme celui du savoir.",
+            "anecdote": "Ce cépage ancien, parfois appelé naturé, mûrit tardivement. Lui seul est autorisé pour ce vin.",
+            "answers": {
+              "le-savagnin": "Le savagnin",
+              "le-chardonnay": "Le chardonnay",
+              "le-riesling": "Le riesling",
+              "le-muscat": "Le muscat"
+            }
+          },
+          "vin-voile": {
+            "prompt": "Qu'est-ce qui se forme à la surface du vin jaune pendant son élevage, et le protège ?",
+            "hint": "Le mot désigne aussi une pièce de tissu.",
+            "anecdote": "Ces levures forment une fine pellicule. Le vin évolue dessous, à l'abri d'une oxydation trop rapide, et prend ses arômes de noix.",
+            "answers": {
+              "un-voile-de-levures": "Un voile de levures",
+              "une-couche-de-cire": "Une couche de cire",
+              "une-croute-de-sel": "Une croûte de sel",
+              "une-feuille-de-liege": "Une feuille de liège"
+            }
+          },
+          "appellation-chateau": {
+            "prompt": "Quelle appellation jurassienne ne produit que du vin jaune ?",
+            "hint": "C'est un village perché sur une falaise, au-dessus de la Seille.",
+            "anecdote": "Le vignoble s'accroche au pied du village, qui domine la vallée. L'appellation date de 1936.",
+            "answers": {
+              "l-etoile": "L'Étoile",
+              "cotes-du-jura": "Côtes du Jura"
+            }
+          },
+          "photo-arbois": {
+            "prompt": "Quel vignoble jurassien, une des toutes premières AOC de France, voyez-vous ici ?",
+            "hint": "Louis Pasteur y a passé son enfance.",
+            "anecdote": "Son appellation a été reconnue en 1936. Pasteur y a mené une partie de ses travaux sur la fermentation.",
+            "answers": {
+              "chablis": "Chablis",
+              "sancerre": "Sancerre",
+              "beaune": "Beaune"
+            }
+          },
+          "pasteur-vin": {
+            "prompt": "Quel procédé de chauffage, nommé d'après un savant jurassien, a d'abord été étudié pour préserver le vin ?",
+            "hint": "Le mot dérive directement du nom de ce savant.",
+            "anecdote": "Pasteur l'a mis au point vers 1865 pour lutter contre les maladies du vin, après avoir installé un laboratoire de campagne à Arbois.",
+            "answers": {
+              "la-pasteurisation": "La pasteurisation",
+              "la-fermentation": "La fermentation",
+              "la-distillation": "La distillation",
+              "la-vinification": "La vinification"
+            }
+          },
+          "vin-paille": {
+            "prompt": "Quel vin doux du Jura est fait de raisins longuement séchés, autrefois sur des lits de végétaux ?",
+            "hint": "Son nom évoque ce qui garnit une étable.",
+            "anecdote": "Les grappes sèchent plusieurs semaines, souvent suspendues ou sur des claies. Le vin est riche, très sucré, et rare.",
+            "answers": {
+              "le-vin-de-paille": "Le vin de paille",
+              "le-vin-jaune": "Le vin jaune",
+              "le-cremant": "Le crémant",
+              "le-macvin": "Le macvin"
+            }
+          },
+          "macvin": {
+            "prompt": "Quelle mistelle du Jura associe du moût de raisin et de l'eau-de-vie de marc ?",
+            "hint": "Son nom se termine par le mot « vin ».",
+            "anecdote": "Cette boisson est servie fraîche à l'apéritif, ou avec le melon. Elle a obtenu son appellation en 1991.",
+            "answers": {
+              "le-macvin": "Le macvin",
+              "le-pineau": "Le pineau",
+              "le-floc": "Le floc",
+              "le-ratafia": "Le ratafia"
+            }
+          },
+          "percee": {
+            "prompt": "Quelle grande fête du Jura célèbre chaque année, en février, la mise en perce du nouveau millésime de vin jaune ?",
+            "hint": "Son nom évoque l'ouverture du tonneau.",
+            "anecdote": "Elle change de village chaque année et rassemble des dizaines de milliers de visiteurs, depuis 1997.",
+            "answers": {
+              "la-percee-du-vin-jaune": "La Percée du vin jaune",
+              "la-saint-vincent-tournante": "La Saint-Vincent tournante",
+              "les-trois-glorieuses": "Les Trois Glorieuses",
+              "le-biou": "Le Biou"
+            }
+          },
+          "carte-arbois": {
+            "prompt": "Touchez le département du vignoble d'Arbois.",
+            "hint": "Il porte le nom du massif voisin.",
+            "anecdote": "Le vignoble du Jura s'étend en une étroite bande, le long du Revermont, entre Salins et Saint-Amour."
+          },
+          "photo-morteau": {
+            "prompt": "Quelle saucisse fumée du Haut-Doubs voyez-vous sur cette photo ?",
+            "hint": "Elle porte le nom d'une ville proche de la frontière suisse.",
+            "anecdote": "Elle est fumée lentement au bois de résineux et se reconnaît à sa petite cheville de bois, qui ferme l'une de ses extrémités.",
+            "answers": {
+              "la-saucisse-de-morteau": "La saucisse de Morteau",
+              "la-saucisse-de-toulouse": "La saucisse de Toulouse",
+              "l-andouille-de-vire": "L'andouille de Vire",
+              "le-diot-de-savoie": "Le diot de Savoie"
+            }
+          },
+          "photo-montbeliard": {
+            "prompt": "Quelle saucisse fumée, plus fine que sa cousine du Haut-Doubs, voyez-vous ici ?",
+            "hint": "Elle porte le nom d'une ville du nord du Doubs, connue pour une race de vache.",
+            "anecdote": "Parfumée au carvi ou au cumin selon les recettes, elle bénéficie d'une indication géographique protégée, comme sa voisine de Morteau.",
+            "answers": {
+              "la-saucisse-de-montbeliard": "La saucisse de Montbéliard",
+              "la-saucisse-de-morteau": "La saucisse de Morteau",
+              "le-cervelas": "Le cervelas",
+              "la-chipolata": "La chipolata"
+            }
+          },
+          "photo-poularde": {
+            "prompt": "Quel champignon de printemps accompagne traditionnellement la volaille au vin jaune ?",
+            "hint": "Son chapeau alvéolé ressemble à une éponge.",
+            "anecdote": "Ce plat emblématique associe volaille, crème, vin jaune et ce champignon recherché.",
+            "answers": {
+              "la-morille": "La morille",
+              "la-truffe": "La truffe",
+              "le-cepe": "Le cèpe",
+              "la-girolle": "La girolle"
+            }
+          },
+          "photo-croute": {
+            "prompt": "Quelle entrée franc-comtoise, à base de pain grillé et de champignons à la crème, voyez-vous ici ?",
+            "hint": "Son nom évoque la partie dorée du pain.",
+            "anecdote": "Elle est souvent relevée au vin jaune, et gratinée parfois au comté.",
+            "answers": {
+              "la-croute-aux-morilles": "La croûte aux morilles",
+              "le-vol-au-vent": "Le vol-au-vent",
+              "la-tourte-lorraine": "La tourte lorraine",
+              "la-flamiche": "La flamiche"
+            }
+          },
+          "bresi": {
+            "prompt": "Quelle viande de bœuf séchée et fumée est une spécialité du Haut-Doubs ?",
+            "hint": "Son nom évoque des braises.",
+            "anecdote": "Elle se déguste en très fines tranches. Cette viande salée et fumée au tuyé permettait de conserver le bœuf pour l'hiver.",
+            "answers": {
+              "le-bresi": "Le brési",
+              "la-viande-des-grisons": "La viande des Grisons",
+              "le-bacon": "Le bacon",
+              "le-pastrami": "Le pastrami"
+            }
+          },
+          "tuye": {
+            "prompt": "Comment appelle-t-on la grande cheminée pyramidale de bois où l'on fumait viandes et saucisses dans les fermes du Haut-Doubs ?",
+            "hint": "Son nom rappelle celui d'un tuyau.",
+            "anecdote": "Sa hotte, large comme une petite pièce, servait à fumer les salaisons au-dessus du feu de résineux.",
+            "answers": {
+              "le-tuye": "Le tuyé",
+              "le-bucher": "Le bûcher",
+              "le-cantou": "Le cantou",
+              "le-poele": "Le poêle"
+            }
+          },
+          "gaudes": {
+            "prompt": "Quelle bouillie franc-comtoise, autrefois quotidienne, est faite de farine de maïs grillée ?",
+            "hint": "Ce mot court rime avec « chaudes ».",
+            "anecdote": "Le grillage donne à la farine un goût de noisette. On la mange encore, parfois avec de la crème.",
+            "answers": {
+              "les-gaudes": "Les gaudes",
+              "la-polenta": "La polenta",
+              "le-gratin": "Le gratin",
+              "la-cramaillotte": "La cramaillotte"
+            }
+          },
+          "fondue-comtoise": {
+            "prompt": "Quel vin blanc rehausse le plus souvent la fondue comtoise ?",
+            "hint": "Il vient du vignoble le plus proche des fromageries comtoises.",
+            "anecdote": "Le fromage de la fondue comtoise est fondu dans ce vin blanc de la région, avec un peu d'ail et parfois de kirsch.",
+            "answers": {
+              "un-vin-blanc-du-jura": "Un vin blanc du Jura",
+              "un-rose-de-provence": "Un rosé de Provence",
+              "un-champagne": "Un champagne",
+              "un-vin-de-bordeaux": "Un vin de Bordeaux"
+            }
+          },
+          "photo-kirsch": {
+            "prompt": "Quelle eau-de-vie de cerises fait la renommée de Fougerolles, en Haute-Saône ?",
+            "hint": "Son nom vient du mot allemand désignant la cerise.",
+            "anecdote": "Elle bénéficie d'une appellation d'origine depuis 2010. Le village a longtemps été une capitale de la cerise.",
+            "answers": {
+              "le-kirsch": "Le kirsch",
+              "la-mirabelle": "La mirabelle",
+              "la-poire-williams": "La poire williams",
+              "le-marc": "Le marc"
+            }
+          },
+          "photo-griottines": {
+            "prompt": "Quel fruit, macéré dans une liqueur de kirsch, remplit cette coupe, spécialité de Fougerolles ?",
+            "hint": "C'est une petite variété de cerise acide.",
+            "anecdote": "Cette spécialité, conservée dans de l'alcool, est connue sous la marque des Griottines. Elle se déguste en dessert.",
+            "answers": {
+              "la-griotte": "La griotte",
+              "la-framboise": "La framboise",
+              "la-mirabelle": "La mirabelle",
+              "la-myrtille": "La myrtille"
+            }
+          },
+          "photo-absinthe": {
+            "prompt": "Quelle boisson anisée, longtemps interdite, a fait la renommée de Pontarlier et de cette distillerie ?",
+            "hint": "On la surnommait la fée verte.",
+            "anecdote": "Interdite en France en 1915, elle est de nouveau distillée à Pontarlier depuis 2001. La ville en était la capitale à la Belle Époque.",
+            "answers": {
+              "l-absinthe": "L'absinthe",
+              "le-pastis": "Le pastis",
+              "le-genepi": "Le génépi",
+              "la-chartreuse": "La chartreuse"
+            }
+          },
+          "photo-gentiane": {
+            "prompt": "De quelle plante de montagne, dont on voit ici la fleur, tire-t-on un apéritif amer du Jura ?",
+            "hint": "C'est la racine, très amère, qui sert à la boisson.",
+            "anecdote": "Cette grande plante à fleurs jaunes peut vivre plus de cinquante ans. On arrache ses racines à la fourche, pour la macérer ou la distiller.",
+            "answers": {
+              "la-gentiane": "La gentiane",
+              "la-verveine": "La verveine",
+              "le-genepi": "Le génépi",
+              "l-anis": "L'anis"
+            }
+          },
+          "liqueur-sapin": {
+            "prompt": "Quelle partie du sapin parfume la liqueur et les bonbons de Pontarlier ?",
+            "hint": "Ces petites pousses pointent au printemps.",
+            "anecdote": "Leur arôme résineux entre dans la composition du sirop, de la liqueur et de bonbons, dont la tradition reste vivante dans le Haut-Doubs.",
+            "answers": {
+              "les-bourgeons": "Les bourgeons",
+              "l-ecorce": "L'écorce",
+              "les-racines": "Les racines",
+              "les-pommes-de-pin": "Les pommes de pin"
+            }
+          },
+          "cramaillotte": {
+            "prompt": "Quelle fleur sert à préparer la cramaillotte, cette gelée franc-comtoise aux airs de miel ?",
+            "hint": "Ses feuilles se mangent aussi en salade, avec des lardons.",
+            "anecdote": "On fait cuire les fleurs dans de l'eau avec des agrumes et du sucre, jusqu'à obtenir une gelée couleur de miel.",
+            "answers": {
+              "le-pissenlit": "Le pissenlit",
+              "le-coquelicot": "Le coquelicot",
+              "la-violette": "La violette",
+              "la-lavande": "La lavande"
+            }
+          },
+          "carte-morteau": {
+            "prompt": "Touchez le département de Morteau et de sa saucisse.",
+            "hint": "Il s'étend jusqu'à la Suisse, entre Pontarlier et Montbéliard.",
+            "anecdote": "Morteau se trouve dans le Haut-Doubs, tout à côté de la frontière suisse."
+          },
+          "carte-fougerolles": {
+            "prompt": "Touchez le département du kirsch de Fougerolles.",
+            "hint": "C'est le plus au nord de la Franche-Comté, au pied des Vosges.",
+            "anecdote": "Fougerolles se trouve au nord-est de ce département, à la limite des Vosges. Ses cerisiers ont longtemps fleuri par milliers."
+          },
+          "bois-fumage": {
+            "prompt": "Avec quels bois fume-t-on, selon la tradition, la saucisse de Morteau ?",
+            "hint": "Ce sont les arbres qui dominent la montagne jurassienne.",
+            "anecdote": "Le cahier des charges impose des sciures de résineux du massif jurassien. Le fumage dure au moins 48 heures.",
+            "answers": {
+              "le-sapin-et-l-epicea": "Le sapin et l'épicéa",
+              "le-chene-et-le-hetre": "Le chêne et le hêtre",
+              "l-olivier-et-le-pin": "L'olivier et le pin",
+              "le-pommier-et-le-poirier": "Le pommier et le poirier"
+            }
+          },
+          "sel-salins": {
+            "prompt": "Quelle ressource, puisée dans le sous-sol, a fait la fortune de Salins et de Lons-le-Saunier ?",
+            "hint": "Elle relève la saveur de tous les plats.",
+            "anecdote": "Cette richesse a été exploitée dès le Moyen Âge, et jusqu'au XXe siècle, à partir de sources salées chauffées au bois.",
+            "answers": {
+              "le-sel": "Le sel",
+              "le-charbon": "Le charbon",
+              "l-argent": "L'argent",
+              "le-fer": "Le fer"
+            }
+          },
+          "jesus-morteau": {
+            "prompt": "Comment appelle-t-on la grosse saucisse fumée de Morteau, servie à l'occasion des fêtes ?",
+            "hint": "On la mangeait autrefois à Noël.",
+            "anecdote": "Plus épaisse et plus longue à fumer que la saucisse courante, elle se partage en famille, souvent avec des pommes de terre.",
+            "answers": {
+              "le-jesus": "Le jésus",
+              "le-boudin": "Le boudin",
+              "le-cervelas": "Le cervelas",
+              "le-gendarme": "Le gendarme"
+            }
+          },
+          "etoile-aoc": {
+            "prompt": "Quelle petite appellation du Jura doit peut-être son nom à des fossiles en forme d'astre, présents dans son sol ?",
+            "hint": "On en voit la nuit, dans le ciel.",
+            "anecdote": "Ces petits fossiles marins sont des fragments de pentacrines, de la famille des échinodermes. Ses vins blancs sont réputés.",
+            "answers": {
+              "l-etoile": "L'Étoile",
+              "cotes-du-jura": "Côtes du Jura"
+            }
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Citadelles de Vauban, salines royales, chapelle de Ronchamp et grandes figures nées au pays comtois.",
+          "photo-horloge": {
+            "prompt": "Dans quelle cathédrale de Franche-Comté cette horloge astronomique se trouve-t-elle ?",
+            "hint": "C'est dans la ville la plus peuplée de Franche-Comté.",
+            "anecdote": "Réalisée au XIXe siècle par Auguste-Lucien Vérité, elle compte environ 30 000 pièces et peut indiquer l'heure de plusieurs villes du monde.",
+            "answers": {
+              "la-cathedrale-saint-jean-de-besancon": "La cathédrale Saint-Jean de Besançon",
+              "la-cathedrale-saint-pierre-de-saint-claude": "La cathédrale Saint-Pierre de Saint-Claude",
+              "la-collegiale-notre-dame-de-dole": "La collégiale Notre-Dame de Dole",
+              "la-basilique-de-gray": "La basilique de Gray"
+            }
+          },
+          "photo-porte-noire": {
+            "prompt": "Comment s'appelle cet arc de triomphe romain de Besançon ?",
+            "hint": "Son nom évoque une couleur sombre.",
+            "anecdote": "Élevé au IIe siècle, sous Marc Aurèle, il marquait l'entrée de la cité romaine de Vesontio. Ses bas-reliefs sont très érodés.",
+            "answers": {
+              "la-porte-noire": "La Porte Noire",
+              "la-porte-rivotte": "La Porte Rivotte",
+              "la-porte-taillee": "La Porte Taillée",
+              "la-porte-de-mars": "La Porte de Mars"
+            }
+          },
+          "photo-granvelle": {
+            "prompt": "Comment s'appelle ce palais Renaissance de Besançon, qui abrite le musée du Temps ?",
+            "hint": "Il porte le nom d'une famille au service de Charles Quint.",
+            "anecdote": "Nicolas Perrenot, garde des sceaux de Charles Quint, l'a fait bâtir au XVIe siècle. Sa cour est entourée d'arcades.",
+            "answers": {
+              "le-palais-granvelle": "Le palais Granvelle",
+              "le-palais-lumiere": "Le palais Lumière",
+              "le-palais-rihour": "Le palais Rihour",
+              "le-palais-rohan": "Le palais Rohan"
+            }
+          },
+          "photo-saline": {
+            "prompt": "Quel architecte a dessiné la saline royale d'Arc-et-Senans, visible ici ?",
+            "hint": "Il rêvait d'une cité idéale, disposée en cercle.",
+            "anecdote": "Élevée à partir de 1775, elle forme un vaste demi-cercle. Elle est inscrite au patrimoine mondial depuis 1982.",
+            "answers": {
+              "claude-nicolas-ledoux": "Claude-Nicolas Ledoux",
+              "vauban": "Vauban",
+              "jacques-germain-soufflot": "Jacques-Germain Soufflot",
+              "le-corbusier": "Le Corbusier"
+            }
+          },
+          "photo-grande-saline": {
+            "prompt": "Dans quelle ville jurassienne cette immense roue actionnait-elle les pompes de la Grande Saline ?",
+            "hint": "Son nom contient déjà le produit qu'on y extrayait.",
+            "anecdote": "Exploitée dès le Moyen Âge, elle a fermé en 1962. Elle a rejoint Arc-et-Senans au patrimoine mondial en 2009."
+          },
+          "saumoduc": {
+            "prompt": "Comment la saumure de Salins rejoignait-elle la saline d'Arc-et-Senans ?",
+            "hint": "Elle parcourait environ 21 kilomètres sans quitter le sol.",
+            "anecdote": "Cette conduite utilisait des troncs de sapin évidés. On a préféré amener l'eau salée près de la forêt de Chaux, plutôt que le bois à la saumure.",
+            "answers": {
+              "par-une-canalisation-de-bois": "Par une canalisation de bois",
+              "par-des-chariots-tires-par-des-boeufs": "Par des chariots tirés par des bœufs",
+              "par-des-barges-sur-le-doubs": "Par des barges sur le Doubs",
+              "par-un-chemin-de-fer": "Par un chemin de fer"
+            }
+          },
+          "photo-ronchamp": {
+            "prompt": "Quel architecte a conçu la chapelle Notre-Dame-du-Haut, à Ronchamp, en Haute-Saône ?",
+            "hint": "Son pseudonyme est resté plus célèbre que son nom, Charles-Édouard Jeanneret.",
+            "anecdote": "Achevée en 1955, elle domine Ronchamp avec son toit de béton en forme de coque. Elle est inscrite au patrimoine mondial depuis 2016.",
+            "answers": {
+              "le-corbusier": "Le Corbusier",
+              "auguste-perret": "Auguste Perret",
+              "oscar-niemeyer": "Oscar Niemeyer",
+              "tadao-ando": "Tadao Andō"
+            }
+          },
+          "ronchamp-piano": {
+            "prompt": "Quel architecte italien a signé le monastère de clarisses, ouvert en 2011 près de la chapelle de Ronchamp ?",
+            "hint": "Il a aussi conçu le Centre Pompidou, avec Richard Rogers.",
+            "anecdote": "Le bâtiment se fond dans la colline, pour ne pas concurrencer la chapelle voisine.",
+            "answers": {
+              "renzo-piano": "Renzo Piano",
+              "aldo-rossi": "Aldo Rossi",
+              "gae-aulenti": "Gae Aulenti",
+              "massimiliano-fuksas": "Massimiliano Fuksas"
+            }
+          },
+          "photo-baume": {
+            "prompt": "Quel village du Jura, au fond d'une reculée, abrite cette ancienne abbaye ?",
+            "hint": "Son nom se termine par un mot qui désigne des hommes.",
+            "anecdote": "Le village compte parmi les Plus Beaux Villages de France. L'abbaye y a joué un grand rôle au Moyen Âge.",
+            "answers": {
+              "nans-sous-sainte-anne": "Nans-sous-Sainte-Anne"
+            }
+          },
+          "baume-cluny": {
+            "prompt": "De quelle grande abbaye bourguignonne Bernon, abbé de Baume, devient-il le premier abbé en 910 ?",
+            "hint": "Elle a dirigé un immense réseau de monastères.",
+            "anecdote": "Bernon en emmène douze moines, venus de Baume et de Gigny. Le Jura se trouve ainsi aux origines de ce grand monastère.",
+            "answers": {
+              "cluny": "Cluny",
+              "citeaux": "Cîteaux",
+              "vezelay": "Vézelay",
+              "fontenay": "Fontenay"
+            }
+          },
+          "photo-joux": {
+            "prompt": "Quel fort, près de Pontarlier, garde ainsi la cluse du Haut-Doubs ?",
+            "hint": "Son nom est aussi celui d'une grande forêt de sapins.",
+            "anecdote": "Sa construction a commencé au Moyen Âge et s'est poursuivie jusqu'au XIXe siècle. Il a servi de prison d'État.",
+            "answers": {
+              "le-fort-de-joux": "Le fort de Joux",
+              "le-fort-saint-antoine": "Le fort Saint-Antoine",
+              "le-fort-griffon": "Le fort Griffon",
+              "le-fort-du-salbert": "Le fort du Salbert"
+            }
+          },
+          "joux-prisonnier": {
+            "prompt": "Quel héros de l'indépendance d'Haïti est mort en captivité au fort de Joux, en 1803 ?",
+            "hint": "Son nom évoque l'idée d'une ouverture.",
+            "anecdote": "Napoléon Bonaparte l'y a fait enfermer. Il y est mort le 7 avril, de froid et de maladie. Mirabeau y avait aussi été enfermé.",
+            "answers": {
+              "toussaint-louverture": "Toussaint Louverture",
+              "jean-jacques-dessalines": "Jean-Jacques Dessalines",
+              "alexandre-petion": "Alexandre Pétion",
+              "henri-christophe": "Henri Christophe"
+            }
+          },
+          "photo-belfort": {
+            "prompt": "Quel ingénieur de Louis XIV a remodelé cette citadelle de Belfort ?",
+            "hint": "On lui doit aussi celle de Besançon.",
+            "anecdote": "Il a transformé le château fortifié en une place majeure. Denfert-Rochereau y a résisté aux Prussiens, près de deux siècles plus tard.",
+            "answers": {
+              "vauban": "Vauban",
+              "claude-nicolas-ledoux": "Claude-Nicolas Ledoux",
+              "philippe-de-montalembert": "Philippe de Montalembert",
+              "louvois": "Louvois"
+            }
+          },
+          "photo-temple": {
+            "prompt": "Dans quelle ville du Doubs se trouve ce temple Saint-Martin, bâti au début du XVIIe siècle ?",
+            "hint": "Elle a longtemps dépendu du duché de Wurtemberg.",
+            "anecdote": "Conçu par l'architecte Heinrich Schickhardt, c'est l'un des plus anciens temples protestants de France encore utilisés."
+          },
+          "photo-chateau-montbeliard": {
+            "prompt": "Quels souverains ont possédé ce château de Montbéliard pendant des siècles ?",
+            "hint": "Ils venaient d'un État allemand.",
+            "anecdote": "Le comté de Montbéliard a appartenu à la maison de Wurtemberg de 1397 à 1793. Le château domine toujours la ville.",
+            "answers": {
+              "les-ducs-de-wurtemberg": "Les ducs de Wurtemberg",
+              "les-ducs-de-savoie": "Les ducs de Savoie",
+              "les-princes-de-monaco": "Les princes de Monaco",
+              "les-medicis": "Les Médicis"
+            }
+          },
+          "musee-besancon": {
+            "prompt": "Quelle particularité est attribuée au musée des Beaux-Arts et d'Archéologie de Besançon ?",
+            "hint": "Elle tient à sa date de naissance.",
+            "anecdote": "Cette collection est née en 1694, quand l'abbé Boisot a légué ses biens aux bénédictins, sous condition de les ouvrir au public.",
+            "answers": {
+              "il-abrite-la-plus-ancienne-collection-publique-de-france": "Il abrite la plus ancienne collection publique de France",
+              "il-est-le-plus-grand-musee-de-france": "Il est le plus grand musée de France",
+              "il-est-installe-dans-une-ancienne-saline": "Il est installé dans une ancienne saline",
+              "il-est-entierement-souterrain": "Il est entièrement souterrain"
+            }
+          },
+          "palafittes": {
+            "prompt": "Avec Chalain, quel lac du Jura possède des vestiges néolithiques inscrits au patrimoine mondial ?",
+            "hint": "C'est un petit lac de la région des Lacs, près d'un bourg du même nom.",
+            "anecdote": "Ces deux lacs ont conservé des pieux et des objets de villages préhistoriques, grâce à la protection de l'eau.",
+            "answers": {
+              "le-lac-de-clairvaux": "Le lac de Clairvaux",
+              "le-lac-de-saint-point": "Le lac de Saint-Point",
+              "le-lac-de-vouglans": "Le lac de Vouglans",
+              "le-lac-de-remoray": "Le lac de Remoray"
+            }
+          },
+          "unesco-vauban": {
+            "prompt": "Quelle est la seule ville de Franche-Comté à figurer au patrimoine mondial au titre des fortifications de Vauban ?",
+            "hint": "La rivière y dessine une boucle presque fermée.",
+            "anecdote": "La citadelle, l'enceinte urbaine et le fort Griffon y figurent parmi les douze sites retenus en 2008."
+          },
+          "photo-filain": {
+            "prompt": "Dans quel département franc-comtois se trouve ce château de Filain, de la Renaissance ?",
+            "hint": "C'est celui de Vesoul et de Gray.",
+            "anecdote": "Élevé au XVIe siècle sur un ancien château fort, il garde une belle façade à galerie. Plusieurs châteaux de ce département méritent le détour.",
+            "answers": {
+              "la-haute-saone": "La Haute-Saône",
+              "le-doubs": "Le Doubs",
+              "le-jura": "Le Jura",
+              "le-territoire-de-belfort": "Le Territoire de Belfort"
+            }
+          },
+          "carte-arc": {
+            "prompt": "Touchez le département de la saline royale d'Arc-et-Senans.",
+            "hint": "Il porte le nom de la rivière de Besançon.",
+            "anecdote": "Arc-et-Senans se trouve au sud-ouest de ce département, entre les forêts de Chaux et la Loue."
+          },
+          "photo-pontarlier": {
+            "prompt": "Dans quelle ville du Doubs passe-t-on sous cette porte Saint-Pierre ?",
+            "hint": "C'est une ville d'altitude, proche de la Suisse.",
+            "anecdote": "Cette porte de la fin du XVIIIe siècle, inspirée d'un arc de triomphe, est un repère de son centre-ville."
+          },
+          "photo-gray": {
+            "prompt": "Quelle ville de Haute-Saône, sur la Saône, possède cet hôtel de ville Renaissance ?",
+            "hint": "Son nom ressemble à un mot anglais désignant une couleur.",
+            "anecdote": "Ancien port sur la Saône, elle a vécu du commerce des grains. Le toit de son hôtel de ville est couvert de tuiles vernissées."
+          },
+          "photo-ornans": {
+            "prompt": "Quelle petite ville du Doubs voyez-vous, avec ses maisons sur pilotis au bord de la Loue ?",
+            "hint": "Un grand peintre réaliste y est né en 1819.",
+            "anecdote": "On la surnomme parfois la petite Venise comtoise. L'hôtel Hébert, ancienne demeure de la famille Courbet, abrite un musée qui lui est consacré.",
+            "answers": {
+              "quingey": "Quingey",
+              "baume-les-dames": "Baume-les-Dames",
+              "montbenoit": "Montbenoît"
+            }
+          },
+          "photo-luxeuil": {
+            "prompt": "Quelle ville thermale de Haute-Saône doit son abbaye au moine irlandais Colomban ?",
+            "hint": "Elle se trouve au pied des Vosges saônoises.",
+            "anecdote": "L'abbaye, fondée vers 590, a rayonné dans toute la Gaule mérovingienne. Les sources y étaient déjà appréciées des Romains.",
+            "answers": {
+              "villersexel": "Villersexel"
+            }
+          },
+          "photo-chateau-chalon": {
+            "prompt": "Quel village du Jura, classé parmi les Plus Beaux Villages de France, voyez-vous perché ici ?",
+            "hint": "Il domine un vignoble célèbre pour son vin jaune.",
+            "anecdote": "Né autour d'une abbaye de bénédictines, le village se dresse sur un éperon rocheux, à plus de 400 mètres d'altitude.",
+            "answers": {
+              "arlay": "Arlay"
+            }
+          },
+          "photo-saint-claude": {
+            "prompt": "Dans quelle ville du Haut-Jura se trouve la cathédrale dont voici une chapelle ?",
+            "hint": "Elle porte le nom d'un évêque et elle est connue pour ses pipes.",
+            "anecdote": "Née autour d'une abbaye, sur la Bienne et le Tacon, elle a été une capitale de la pipe et de la taille des pierres.",
+            "answers": {
+              "oyonnax": "Oyonnax"
+            }
+          },
+          "pesmes": {
+            "prompt": "Quel bourg de Haute-Saône, au bord de l'Ognon, figure parmi les Plus Beaux Villages de France ?",
+            "hint": "Son nom ne compte qu'une syllabe, à l'oreille.",
+            "anecdote": "Ses rues gardent des maisons de marchands et de maîtres de forges, autour d'un château et d'une église dominant la rivière.",
+            "answers": {
+              "jussey": "Jussey",
+              "marnay": "Marnay"
+            }
+          },
+          "champlitte": {
+            "prompt": "Vers quel pays des habitants de Champlitte ont-ils émigré en 1833, pour y fonder une colonie ?",
+            "hint": "C'est un pays d'Amérique, au sud des États-Unis.",
+            "anecdote": "Partis pour fuir la misère, ils se sont installés dans l'État de Veracruz. Leurs descendants gardent des liens avec le village.",
+            "answers": {
+              "le-mexique": "Le Mexique",
+              "le-canada": "Le Canada",
+              "l-argentine": "L'Argentine",
+              "le-bresil": "Le Brésil"
+            }
+          },
+          "carte-ronchamp": {
+            "prompt": "Touchez le département de Ronchamp.",
+            "hint": "Il touche les Vosges, au nord de la Franche-Comté.",
+            "anecdote": "Ronchamp se trouve à l'est de ce département, près de Lure et de Belfort."
+          },
+          "carte-saint-claude": {
+            "prompt": "Touchez le département de Saint-Claude.",
+            "hint": "Il porte le nom de son massif.",
+            "anecdote": "Saint-Claude, sous-préfecture, se trouve dans le sud montagneux de ce département."
+          },
+          "photo-pasteur": {
+            "prompt": "Quel savant jurassien est représenté sur ce portrait d'Albert Edelfelt ?",
+            "hint": "On lui doit le premier vaccin contre la rage.",
+            "anecdote": "Né à Dole en 1822, il a grandi à Arbois, où il revenait chaque été. Le portrait, de 1885, montre le savant dans son laboratoire.",
+            "answers": {
+              "louis-pasteur": "Louis Pasteur",
+              "claude-bernard": "Claude Bernard",
+              "pierre-curie": "Pierre Curie",
+              "georges-cuvier": "Georges Cuvier"
+            }
+          },
+          "photo-enterrement": {
+            "prompt": "Quel peintre franc-comtois a signé ce grand tableau, Un enterrement à Ornans ?",
+            "hint": "Il est le chef de file du réalisme français.",
+            "anecdote": "Présentée en 1850-1851, cette toile immense a fait scandale, car elle donnait à des gens simples la taille d'un tableau d'histoire.",
+            "answers": {
+              "gustave-courbet": "Gustave Courbet",
+              "jean-francois-millet": "Jean-François Millet",
+              "edouard-manet": "Édouard Manet",
+              "camille-corot": "Camille Corot"
+            }
+          },
+          "photo-rouget": {
+            "prompt": "Quel officier, auteur de La Marseillaise, cette statue de Lons-le-Saunier représente-t-elle ?",
+            "hint": "Son nom évoque un poisson rouge de mer.",
+            "anecdote": "Né à Lons en 1760, il écrit le chant à Strasbourg en 1792. La statue de la ville est signée Bartholdi.",
+            "answers": {
+              "rouget-de-lisle": "Rouget de Lisle",
+              "lazare-carnot": "Lazare Carnot",
+              "kleber": "Kléber",
+              "la-fayette": "La Fayette"
+            }
+          },
+          "freres-lumiere": {
+            "prompt": "Quels inventeurs du cinématographe sont nés à Besançon, en 1862 et 1864 ?",
+            "hint": "Leur nom évoque ce qui fait voir.",
+            "anecdote": "Leur maison natale se trouve place Victor-Hugo, à côté de celle de l'écrivain. La famille partira ensuite pour Lyon.",
+            "answers": {
+              "les-freres-lumiere": "Les frères Lumière",
+              "les-freres-montgolfier": "Les frères Montgolfier",
+              "les-freres-pathe": "Les frères Pathé",
+              "les-freres-michelin": "Les frères Michelin"
+            }
+          },
+          "cuvier": {
+            "prompt": "Quel savant né à Montbéliard en 1769 est considéré comme un père de la paléontologie ?",
+            "hint": "On lui doit l'anatomie comparée.",
+            "anecdote": "Il a montré que des espèces ont disparu, en comparant des fossiles à des animaux vivants. Une statue honore sa mémoire dans sa ville natale.",
+            "answers": {
+              "georges-cuvier": "Georges Cuvier",
+              "georges-buffon": "Georges Buffon",
+              "charles-darwin": "Charles Darwin",
+              "jean-baptiste-lamarck": "Jean-Baptiste Lamarck"
+            }
+          },
+          "proudhon": {
+            "prompt": "Quel penseur bisontin a écrit, en 1840, « La propriété, c'est le vol » ?",
+            "hint": "Il est l'une des grandes figures du socialisme libertaire.",
+            "anecdote": "Fils d'un tonnelier, il a d'abord été typographe. Son livre, Qu'est-ce que la propriété ?, l'a rendu célèbre.",
+            "answers": {
+              "pierre-joseph-proudhon": "Pierre-Joseph Proudhon",
+              "karl-marx": "Karl Marx",
+              "auguste-blanqui": "Auguste Blanqui",
+              "saint-simon": "Saint-Simon"
+            }
+          },
+          "fourier": {
+            "prompt": "Quel penseur né à Besançon en 1772 a imaginé les communautés du phalanstère ?",
+            "hint": "Il porte le même nom qu'un célèbre mathématicien, né à Auxerre.",
+            "anecdote": "Ce théoricien d'une société idéale a inspiré le familistère de Guise. Son disciple, Victor Considerant, est né à Salins.",
+            "answers": {
+              "charles-fourier": "Charles Fourier",
+              "robert-owen": "Robert Owen",
+              "etienne-cabet": "Étienne Cabet",
+              "louis-blanc": "Louis Blanc"
+            }
+          },
+          "carte-pasteur": {
+            "prompt": "Touchez le département où Pasteur est né et a grandi.",
+            "hint": "Il compte Dole et Arbois.",
+            "anecdote": "Sa maison natale de Dole et sa maison d'Arbois peuvent toutes les deux se visiter."
+          },
+          "photo-ray": {
+            "prompt": "Quel château de Haute-Saône domine ainsi sa vallée, au-dessus d'un village perché ?",
+            "hint": "Son nom est très court, suivi de celui de la rivière voisine.",
+            "anecdote": "Transmis par alliances durant des siècles, il appartient depuis 2015 au département. Sa terrasse offre une large vue sur la plaine.",
+            "answers": {
+              "le-chateau-de-ray-sur-saone": "Le château de Ray-sur-Saône",
+              "le-chateau-de-filain": "Le château de Filain",
+              "le-chateau-de-champlitte": "Le château de Champlitte",
+              "le-chateau-d-oricourt": "Le château d'Oricourt"
+            }
+          },
+          "photo-quai-vauban": {
+            "prompt": "Dans quelle ville ce quai aux longues façades régulières longe-t-il le Doubs ?",
+            "hint": "Son nom est celui de l'ingénieur de sa citadelle.",
+            "anecdote": "Élevé à la fin du XVIIe siècle par l'ingénieur Isaac Robelin, contre l'avis de Vauban, il s'étire sur la rive gauche de la rivière, au pied du centre historique."
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Montres de Besançon, lunettes de Morez, pipes de Saint-Claude, fêtes du Jura et plumes du pays comtois.",
+          "photo-biou": {
+            "prompt": "Quelle fête d'Arbois voit porter à l'église une énorme grappe, faite de milliers de grains ?",
+            "hint": "Ce mot bref désigne la grappe elle-même.",
+            "anecdote": "Le premier dimanche de septembre, des vignerons portent en procession cette grappe géante, qui approche parfois les cent kilos, jusqu'à l'église Saint-Just.",
+            "answers": {
+              "le-biou": "Le Biou",
+              "la-percee": "La Percée",
+              "la-paulee": "La Paulée",
+              "la-saint-vernier": "La Saint-Vernier"
+            }
+          },
+          "photo-transju": {
+            "prompt": "Quelle grande course populaire de ski de fond voit-on ici, reliant traditionnellement Lamoura à Mouthe ?",
+            "hint": "Son nom évoque la traversée d'un massif.",
+            "anecdote": "Créée en 1979, elle rassemble des milliers de skieurs quand la neige le permet. Elle appartient au circuit mondial Worldloppet.",
+            "answers": {
+              "la-transjurassienne": "La Transjurassienne",
+              "la-vasaloppet": "La Vasaloppet",
+              "la-marcialonga": "La Marcialonga",
+              "la-foulee-blanche": "La Foulée blanche"
+            }
+          },
+          "photo-eurock": {
+            "prompt": "Quel grand festival de rock se tient depuis 1989 sur la presqu'île du Malsaucy, près de Belfort ?",
+            "hint": "Son nom contient le mot « rock », et évoque un continent.",
+            "anecdote": "Il est né de la volonté du conseil général, avec ses scènes au bord de l'étang. C'est l'un des plus grands festivals français.",
+            "answers": {
+              "les-eurockeennes": "Les Eurockéennes",
+              "les-vieilles-charrues": "Les Vieilles Charrues",
+              "le-hellfest": "Le Hellfest",
+              "les-francofolies": "Les Francofolies"
+            }
+          },
+          "fimu": {
+            "prompt": "Que signifie le festival FIMU, organisé chaque année à Belfort ?",
+            "hint": "Le U renvoie aux étudiants.",
+            "anecdote": "À la Pentecôte, des musiciens du monde entier jouent gratuitement dans les rues de la ville. Il existe depuis 1987.",
+            "answers": {
+              "festival-international-de-musique-universitaire": "Festival international de musique universitaire",
+              "fete-internationale-des-metiers-d-usine": "Fête internationale des métiers d'usine",
+              "festival-international-du-mime-urbain": "Festival international du mime urbain",
+              "foire-internationale-des-musees-universitaires": "Foire internationale des musées universitaires"
+            }
+          },
+          "festival-besancon": {
+            "prompt": "Quel concours international le festival de musique de Besançon organise-t-il ?",
+            "hint": "Seiji Ozawa l'a remporté en 1959.",
+            "anecdote": "Ce concours a révélé bien des grands noms de la baguette. Il a lieu tous les deux ans.",
+            "answers": {
+              "un-concours-de-jeunes-chefs-d-orchestre": "Un concours de jeunes chefs d'orchestre",
+              "un-concours-d-orgue": "Un concours d'orgue",
+              "un-concours-de-clavecin": "Un concours de clavecin",
+              "un-concours-de-chant-lyrique": "Un concours de chant lyrique"
+            }
+          },
+          "sainte-catherine": {
+            "prompt": "Dans quelle ville se tient la grande foire de la Sainte-Catherine, chaque 25 novembre ?",
+            "hint": "C'est la préfecture de Haute-Saône.",
+            "anecdote": "Cette foire ancienne remonte au Moyen Âge. Elle attire chaque année des dizaines de milliers de visiteurs."
+          },
+          "vesoul-brel": {
+            "prompt": "Quel accordéoniste Jacques Brel interpelle-t-il dans sa chanson consacrée à Vesoul ?",
+            "hint": "Il répète : « Chauffe, ... ! »",
+            "anecdote": "« Chauffe, Marcel ! » : Brel lance cet appel improvisé à Marcel Azzola, qui joue l'accompagnement de ce morceau.",
+            "answers": {
+              "marcel": "Marcel",
+              "emile": "Émile",
+              "yvette": "Yvette",
+              "aimable": "Aimable"
+            }
+          },
+          "nom-comtois": {
+            "prompt": "Quelle devise est traditionnellement attribuée aux Francs-Comtois ?",
+            "hint": "Elle dit le refus de céder.",
+            "anecdote": "Cette réplique, que la tradition rattache au siège de Dole de 1636, résume l'esprit de résistance prêté aux Comtois.",
+            "answers": {
+              "comtois-rends-toi-nenni-ma-foi": "« Comtois, rends-toi ! Nenni, ma foi ! »",
+              "toujours-plus-haut": "« Toujours plus haut »",
+              "liberte-j-ecris-ton-nom": "« Liberté, j'écris ton nom »",
+              "fluctuat-nec-mergitur": "« Fluctuat nec mergitur »"
+            }
+          },
+          "ski-defrasne": {
+            "prompt": "Dans quel sport le Pontissalien Vincent Defrasne est-il devenu champion olympique, à Turin en 2006 ?",
+            "hint": "Ce sport mêle ski de fond et tir à la carabine.",
+            "anecdote": "Il a remporté la poursuite. Le massif du Jura a formé bien des champions de ce sport et du ski de fond.",
+            "answers": {
+              "le-biathlon": "Le biathlon",
+              "le-saut-a-ski": "Le saut à ski",
+              "le-ski-alpin": "Le ski alpin",
+              "le-snowboard": "Le snowboard"
+            }
+          },
+          "ski-lamy": {
+            "prompt": "Quel Jurassien a remporté l'or olympique en combiné nordique à Vancouver, en 2010 ?",
+            "hint": "Il a grandi à Bois-d'Amont, dans le Haut-Jura.",
+            "anecdote": "Grand spécialiste de la discipline, il a aussi remporté plusieurs titres mondiaux.",
+            "answers": {
+              "jason-lamy-chappuis": "Jason Lamy-Chappuis",
+              "martin-fourcade": "Martin Fourcade",
+              "maurice-manificat": "Maurice Manificat",
+              "fabrice-guy": "Fabrice Guy"
+            }
+          },
+          "fabrice-guy": {
+            "prompt": "Quel Pontissalien a remporté l'or olympique en combiné nordique à Albertville, en 1992 ?",
+            "hint": "Son prénom est aussi celui d'un héros de Stendhal.",
+            "anecdote": "Il a dominé la discipline au début des années 1990. Il s'était formé sur les pistes du Haut-Doubs.",
+            "answers": {
+              "fabrice-guy": "Fabrice Guy",
+              "sylvain-guillaume": "Sylvain Guillaume",
+              "vincent-defrasne": "Vincent Defrasne",
+              "herve-balland": "Hervé Balland"
+            }
+          },
+          "photo-nancray": {
+            "prompt": "Quel musée de plein air, à Nancray, conserve ces fermes franc-comtoises ?",
+            "hint": "Son nom rassemble des habitations de la région.",
+            "anecdote": "Des maisons et ateliers de tout le pays y ont été démontés puis reconstruits. On y découvre leur grand toit et leur tuyé.",
+            "answers": {
+              "le-musee-des-maisons-comtoises": "Le musée des Maisons comtoises",
+              "l-ecomusee-d-alsace": "L'écomusée d'Alsace",
+              "le-musee-de-la-mine": "Le musée de la Mine",
+              "le-musee-de-la-vigne": "Le musée de la Vigne"
+            }
+          },
+          "tavaillons": {
+            "prompt": "Comment appelle-t-on les petites planches d'épicéa qui protègent les façades du Haut-Jura ?",
+            "hint": "Le mot commence comme « tavelure ».",
+            "anecdote": "Fendues à la main, elles se posent comme des écailles sur les murs exposés à la neige et au vent.",
+            "answers": {
+              "les-tavaillons": "Les tavaillons",
+              "les-lauzes": "Les lauzes",
+              "les-ardoises": "Les ardoises",
+              "les-bardeaux-d-anjou": "Les bardeaux d'Anjou"
+            }
+          },
+          "carte-eurock": {
+            "prompt": "Touchez le département du festival des Eurockéennes.",
+            "hint": "C'est le plus petit de la Franche-Comté.",
+            "anecdote": "Le site du Malsaucy se trouve au nord-ouest de Belfort, entre l'étang du même nom et le pied des Vosges."
+          },
+          "photo-comtoise": {
+            "prompt": "Comment appelle-t-on cette grande horloge de parquet, née dans le Haut-Jura ?",
+            "hint": "Son nom rappelle la province d'origine.",
+            "anecdote": "Produite à partir du XVIIe siècle autour de Morbier et de Morez, elle a orné de nombreuses maisons françaises jusqu'au début du XXe siècle.",
+            "answers": {
+              "la-comtoise": "La comtoise",
+              "le-cartel": "Le cartel",
+              "la-neuchateloise": "La neuchâteloise",
+              "le-coucou": "Le coucou"
+            }
+          },
+          "lip": {
+            "prompt": "Quelle grande marque de montres, née à Besançon, reste associée à l'histoire de la ville ?",
+            "hint": "Son nom de trois lettres est aussi un mot anglais pour « lèvre ».",
+            "anecdote": "Fondée au XIXe siècle par Emmanuel Lipmann, l'entreprise a été un fleuron français. Elle a fabriqué l'une des premières montres électriques.",
+            "answers": {
+              "lip": "Lip",
+              "breguet": "Breguet",
+              "herbelin": "Herbelin",
+              "cartier": "Cartier"
+            }
+          },
+          "photo-lunettes": {
+            "prompt": "Quelle ville du Haut-Jura, capitale historique de la lunetterie française, conserve cet instrument dans son musée ?",
+            "hint": "L'activité est née tout près, à la fin du XVIIIe siècle, avec un cloutier.",
+            "anecdote": "Tout près, à Prémanon, Pierre-Hyacinthe Caseaux aurait façonné ses premières paires vers 1796. La ville abrite aujourd'hui un musée consacré à la lunette.",
+            "answers": {
+              "oyonnax": "Oyonnax"
+            }
+          },
+          "photo-pipe": {
+            "prompt": "Quel objet du fumeur, taillé en racine de bruyère, a fait la renommée de Saint-Claude ?",
+            "hint": "Son nom s'écrit avec deux fois la même consonne.",
+            "anecdote": "Fabriquée dès le XIXe siècle à partir de bruyère méditerranéenne, elle fait encore vivre quelques ateliers. Une confrérie en assure la promotion.",
+            "answers": {
+              "la-pipe": "La pipe",
+              "la-tabatiere": "La tabatière",
+              "le-fume-cigarette": "Le fume-cigarette",
+              "le-briquet": "Le briquet"
+            }
+          },
+          "saint-claude-diamant": {
+            "prompt": "Quel autre savoir-faire précieux a fait vivre Saint-Claude et ses environs ?",
+            "hint": "Ce travail exige une très grande précision, sur une matière très dure.",
+            "anecdote": "La taille du diamant s'y est implantée à la fin du XIXe siècle, après celle des pierres fines, et a compté plusieurs milliers d'ouvriers.",
+            "answers": {
+              "la-taille-du-diamant": "La taille du diamant",
+              "la-fonte-de-l-or": "La fonte de l'or",
+              "la-nacre": "La nacre",
+              "le-travail-de-l-ivoire": "Le travail de l'ivoire"
+            }
+          },
+          "photo-jouet": {
+            "prompt": "Dans quelle commune du Jura ce musée du Jouet rappelle-t-il un savoir-faire local ?",
+            "hint": "Son nom se termine par « en-Montagne ».",
+            "anecdote": "Le travail du bois y a mené à la fabrication de jouets, puis du plastique. Plusieurs entreprises du secteur sont restées dans le Haut-Jura.",
+            "answers": {
+              "lamoura": "Lamoura"
+            }
+          },
+          "photo-taillanderie": {
+            "prompt": "Quels outils tranchants étaient fabriqués à la Grande Taillanderie de Nans-sous-Sainte-Anne, visible ici ?",
+            "hint": "Les paysans s'en servaient pour couper l'herbe.",
+            "anecdote": "Les marteaux y étaient actionnés par la force de l'eau. L'atelier a fermé en 1969 et il se visite aujourd'hui.",
+            "answers": {
+              "des-faux": "Des faux",
+              "des-couteaux-de-table": "Des couteaux de table",
+              "des-rasoirs": "Des rasoirs",
+              "des-epees": "Des épées"
+            }
+          },
+          "photo-rochere": {
+            "prompt": "Quelle matière travaille-t-on, depuis 1475, à La Rochère, en Haute-Saône ?",
+            "hint": "Elle se souffle à la canne.",
+            "anecdote": "Elle est présentée comme l'une des plus anciennes verreries d'art encore en activité en Europe.",
+            "answers": {
+              "le-verre": "Le verre",
+              "la-faience": "La faïence",
+              "la-ceramique": "La céramique",
+              "l-etain": "L'étain"
+            }
+          },
+          "photo-peugeot": {
+            "prompt": "Dans quelle ville du Doubs se trouve ce musée de l'Aventure Peugeot ?",
+            "hint": "Elle touche Montbéliard, et l'usine historique de la marque s'y trouve.",
+            "anecdote": "Le musée retrace l'histoire de la famille industrielle, passée des moulins à café et des outils aux voitures. L'usine voisine a été créée en 1912."
+          },
+          "japy": {
+            "prompt": "Quelle famille d'industriels de Beaucourt, dans le Territoire de Belfort, a produit horloges, machines à écrire et moulins à café ?",
+            "hint": "Son nom de quatre lettres finit par un y.",
+            "anecdote": "L'entreprise est née en 1777, quand Frédéric Japy a créé une manufacture de montres. Son musée se visite à Beaucourt.",
+            "answers": {
+              "les-japy": "Les Japy",
+              "les-peugeot": "Les Peugeot",
+              "les-schneider": "Les Schneider",
+              "les-dollfus": "Les Dollfus"
+            }
+          },
+          "alstom": {
+            "prompt": "Quelle grande fabrication reste liée aux usines Alstom de Belfort ?",
+            "hint": "La plus célèbre tire un train à grande vitesse.",
+            "anecdote": "L'usine y assemble des locomotives depuis la fin du XIXe siècle et a produit les motrices du TGV. Elle reste un employeur majeur.",
+            "answers": {
+              "des-locomotives": "Des locomotives",
+              "des-paquebots": "Des paquebots",
+              "des-avions": "Des avions",
+              "des-tracteurs": "Des tracteurs"
+            }
+          },
+          "vache-qui-rit": {
+            "prompt": "Quel fromage fondu au logo célèbre a été lancé par Léon Bel, à Lons-le-Saunier ?",
+            "hint": "Cette marque porte ses boucles d'oreilles sur un visage hilare.",
+            "anecdote": "Lancée en 1921, elle a pris son image d'un dessin de Benjamin Rabier. Un musée, à Lons, raconte son histoire.",
+            "answers": {
+              "la-vache-qui-rit": "La Vache qui rit",
+              "kiri": "Kiri",
+              "babybel": "Babybel",
+              "apericube": "Apéricube"
+            }
+          },
+          "epicea-resonance": {
+            "prompt": "À quels artisans le bois d'épicéa de la forêt du Risoux est-il destiné, pour ses meilleures qualités ?",
+            "hint": "Son bois fin et régulier donne un beau son.",
+            "anecdote": "Ce bois de résonance est très recherché pour les tables d'harmonie. Son croît lent et régulier, en altitude, explique sa qualité.",
+            "answers": {
+              "aux-luthiers": "Aux luthiers",
+              "aux-orfevres": "Aux orfèvres",
+              "aux-tonneliers": "Aux tonneliers",
+              "aux-charrons": "Aux charrons"
+            }
+          },
+          "carte-morez": {
+            "prompt": "Touchez le département de Morez et de ses lunettes.",
+            "hint": "Il compte aussi Saint-Claude.",
+            "anecdote": "Morez se trouve dans le Haut-Jura, sur la Bienne, tout près de la frontière suisse."
+          },
+          "pergaud": {
+            "prompt": "Quel écrivain du Doubs a écrit La Guerre des boutons, publié en 1912 ?",
+            "hint": "Il a été instituteur à Landresse, et il est mort au front en 1915.",
+            "anecdote": "Né à Belmont, il situe son livre dans un pays très proche de celui où il a enseigné.",
+            "answers": {
+              "louis-pergaud": "Louis Pergaud",
+              "alain-fournier": "Alain-Fournier",
+              "marcel-pagnol": "Marcel Pagnol",
+              "jules-valles": "Jules Vallès"
+            }
+          },
+          "pergaud-goncourt": {
+            "prompt": "Quel recueil de récits sur les animaux a valu à Louis Pergaud le prix Goncourt, en 1910 ?",
+            "hint": "Le titre évoque deux animaux, l'un de ruse, l'autre bavard.",
+            "anecdote": "Ses récits portent un regard tendre et précis sur les bêtes de la campagne franc-comtoise.",
+            "answers": {
+              "de-goupil-a-margot": "De Goupil à Margot",
+              "les-rustiques": "Les Rustiques",
+              "maria-chapdelaine": "Maria Chapdelaine",
+              "le-roman-de-renart": "Le Roman de Renart"
+            }
+          },
+          "marcel-ayme": {
+            "prompt": "Quel écrivain a grandi dans le Jura, et y a situé son roman La Vouivre, en 1943 ?",
+            "hint": "Il est aussi l'auteur des Contes du chat perché.",
+            "anecdote": "Orphelin de mère, il a été élevé par ses grands-parents à Villers-Robert. Il a fait ses études à Dole.",
+            "answers": {
+              "marcel-ayme": "Marcel Aymé",
+              "marcel-pagnol": "Marcel Pagnol",
+              "jean-giono": "Jean Giono",
+              "jules-renard": "Jules Renard"
+            }
+          },
+          "bernard-clavel": {
+            "prompt": "Quel romancier né à Lons-le-Saunier en 1923 a reçu le Goncourt pour Les Fruits de l'hiver ?",
+            "hint": "Fils de boulanger, il est l'auteur du cycle La Grande Patience.",
+            "anecdote": "Il a dépeint la vie simple et les métiers d'autrefois, puis s'est aussi attaché au Québec, où il a vécu.",
+            "answers": {
+              "bernard-clavel": "Bernard Clavel",
+              "bernard-dimey": "Bernard Dimey",
+              "henri-troyat": "Henri Troyat",
+              "michel-tournier": "Michel Tournier"
+            }
+          },
+          "nodier": {
+            "prompt": "Quel écrivain né à Besançon en 1780 a animé un célèbre salon romantique à l'Arsenal, à Paris ?",
+            "hint": "Il a été bibliothécaire de l'Arsenal.",
+            "anecdote": "Conteur romantique, il y a reçu de jeunes écrivains, comme Hugo. On lui doit notamment Trilby.",
+            "answers": {
+              "charles-nodier": "Charles Nodier",
+              "charles-baudelaire": "Charles Baudelaire",
+              "charles-peguy": "Charles Péguy",
+              "charles-perrault": "Charles Perrault"
+            }
+          },
+          "stendhal-verrieres": {
+            "prompt": "Dans quelle ville imaginaire de Franche-Comté Stendhal fait-il commencer Le Rouge et le Noir ?",
+            "hint": "Son nom est aussi lié au verre.",
+            "anecdote": "Le roman de 1830 s'ouvre par la description de cette petite ville, où Julien Sorel devient précepteur.",
+            "answers": {
+              "verrieres": "Verrières",
+              "vergy": "Vergy",
+              "valbonne": "Valbonne",
+              "vauvert": "Vauvert"
+            }
+          },
+          "chardonnet": {
+            "prompt": "Quel Bisontin a inventé la soie artificielle, à la fin du XIXe siècle ?",
+            "hint": "Son nom ressemble à celui d'un cépage célèbre.",
+            "anecdote": "Hilaire de Chardonnet a présenté ses fibres en 1889 et a fondé une usine à Besançon, qui a longtemps fait vivre le quartier.",
+            "answers": {
+              "hilaire-de-chardonnet": "Hilaire de Chardonnet",
+              "joseph-jacquard": "Joseph Jacquard",
+              "louis-bleriot": "Louis Blériot",
+              "auguste-lumiere": "Auguste Lumière"
+            }
+          },
+          "gaffiot": {
+            "prompt": "Quel ouvrage bien connu des latinistes a pour auteur Félix Gaffiot, né à Liesle dans le Doubs ?",
+            "hint": "Les lycéens l'appellent du nom de son auteur.",
+            "anecdote": "Ce professeur à l'université de Besançon l'a publié en 1934. Il a longtemps été une référence.",
+            "answers": {
+              "un-dictionnaire-latin-francais": "Un dictionnaire latin-français",
+              "une-grammaire-grecque": "Une grammaire grecque",
+              "une-histoire-de-rome": "Une histoire de Rome",
+              "un-manuel-d-algebre": "Un manuel d'algèbre"
+            }
+          },
+          "christophe": {
+            "prompt": "Quel dessinateur né à Lure en 1856 a créé, sous le nom de Christophe, La Famille Fenouillard et Le Sapeur Camember ?",
+            "hint": "Son vrai nom est aussi celui d'un grand navigateur.",
+            "anecdote": "Professeur de sciences, il est aujourd'hui considéré comme un précurseur français de la bande dessinée.",
+            "answers": {
+              "georges-colomb": "Georges Colomb",
+              "herge": "Hergé",
+              "rodolphe-topffer": "Rodolphe Töpffer",
+              "alain-saint-ogan": "Alain Saint-Ogan"
+            }
+          },
+          "tristan-bernard": {
+            "prompt": "Quel auteur né à Besançon en 1866 est resté célèbre pour ses mots d'esprit ?",
+            "hint": "Il s'agit de Paul de son vrai prénom, mais il a choisi celui d'un héros de légende, amoureux d'Yseult.",
+            "anecdote": "Romancier et dramaturge, il a été une des figures du Paris de la Belle Époque, avec ses mots qu'on cite encore.",
+            "answers": {
+              "tristan-bernard": "Tristan Bernard",
+              "sacha-guitry": "Sacha Guitry",
+              "georges-feydeau": "Georges Feydeau",
+              "alphonse-allais": "Alphonse Allais"
+            }
+          },
+          "peugeot-origine": {
+            "prompt": "Quel objet du quotidien, fabriqué par les Peugeot, a précédé leurs voitures ?",
+            "hint": "Il sert à moudre un grain matinal.",
+            "anecdote": "La famille a commencé par l'acier et les outils, dans le pays de Montbéliard, puis a produit crinolines et vélos.",
+            "answers": {
+              "le-moulin-a-cafe": "Le moulin à café",
+              "le-fer-a-repasser": "Le fer à repasser",
+              "le-telephone": "Le téléphone",
+              "l-aspirateur": "L'aspirateur"
+            }
+          },
+          "photo-maison-pasteur": {
+            "prompt": "Dans quelle ville du Jura se trouve cette maison où Louis Pasteur revenait chaque été ?",
+            "hint": "Elle a aussi donné son nom à un vignoble réputé.",
+            "anecdote": "Il y a passé son enfance, et y a installé un laboratoire. La maison, restée dans son état, se visite aujourd'hui."
+          }
+        },
+        "grand-voyage": {
+          "name": "Grand voyage en Franche-Comté",
+          "description": "Des Séquanes à la conquête de Louis XIV, des reculées du Jura aux grandes mémoires du XXe siècle.",
+          "photo-boucle": {
+            "prompt": "Sur quel mont de Besançon la citadelle ferme-t-elle ce méandre presque complet du Doubs ?",
+            "hint": "Il porte le nom du premier martyr chrétien.",
+            "anecdote": "César notait déjà que la rivière entourait presque toute la ville, et qu'une haute colline fermait le reste. Vauban y a bâti sa citadelle.",
+            "answers": {
+              "le-mont-saint-etienne": "Le mont Saint-Étienne",
+              "la-colline-de-bregille": "La colline de Bregille",
+              "le-mont-poupet": "Le mont Poupet",
+              "le-mont-rivel": "Le mont Rivel"
+            }
+          },
+          "photo-loue": {
+            "prompt": "Quelle rivière du Doubs, peinte par Courbet, sort d'une grotte à cet endroit ?",
+            "hint": "Son nom se prononce comme le verbe « louer » à la troisième personne.",
+            "anecdote": "Cette résurgence, à Ouhans, sort d'un grand porche rocheux. C'est en réalité une partie du Doubs qui réapparaît ici.",
+            "answers": {
+              "la-loue": "La Loue",
+              "l-ain": "L'Ain",
+              "la-bienne": "La Bienne",
+              "le-dessoubre": "Le Dessoubre"
+            }
+          },
+          "pernod-1901": {
+            "prompt": "Quel incident de 1901, à Pontarlier, a prouvé que la Loue est alimentée par des pertes du Doubs ?",
+            "hint": "La foudre a frappé une distillerie, où coulait une liqueur verte.",
+            "anecdote": "De l'absinthe s'est déversée dans le Doubs. Deux jours plus tard, la source de la Loue sentait l'anis. C'est une belle expérience involontaire.",
+            "answers": {
+              "l-incendie-de-l-usine-pernod": "L'incendie de l'usine Pernod",
+              "l-explosion-d-un-barrage": "L'explosion d'un barrage",
+              "une-crue-du-drugeon": "Une crue du Drugeon",
+              "un-tremblement-de-terre": "Un tremblement de terre"
+            }
+          },
+          "photo-ladoye": {
+            "prompt": "Comment appelle-t-on ces vallées en cul-de-sac, entaillées dans les plateaux du Jura ?",
+            "hint": "Le mot évoque un mouvement vers l'arrière.",
+            "anecdote": "Ces vallées se terminent par un cirque de falaises. Celles de Ladoye, de Baume et des Planches comptent parmi les plus connues.",
+            "answers": {
+              "les-reculees": "Les reculées",
+              "les-cluses": "Les cluses",
+              "les-combes": "Les combes",
+              "les-gorges": "Les gorges"
+            }
+          },
+          "photo-saint-point": {
+            "prompt": "Quel grand lac naturel du Haut-Doubs, traversé par le Doubs, voyez-vous ici ?",
+            "hint": "Il porte le nom d'un ermite local, devenu saint.",
+            "anecdote": "Long d'environ sept kilomètres, c'est l'un des plus grands lacs naturels de France. Malbuisson en est la station principale.",
+            "answers": {
+              "le-lac-de-saint-point": "Le lac de Saint-Point",
+              "le-lac-de-chalain": "Le lac de Chalain",
+              "le-lac-de-remoray": "Le lac de Remoray",
+              "le-lac-de-narlay": "Le lac de Narlay"
+            }
+          },
+          "photo-mille-etangs": {
+            "prompt": "Quel phénomène naturel a d'abord façonné ce plateau de Haute-Saône, parsemé de plans d'eau ?",
+            "hint": "C'est une masse de glace qui a creusé le sol.",
+            "anecdote": "En se retirant, ils ont laissé des cuvettes, peu à peu remplies d'eau. Les hommes en ont aussi aménagé pour élever le poisson.",
+            "answers": {
+              "des-glaciers": "Des glaciers",
+              "des-volcans": "Des volcans",
+              "la-mer": "La mer",
+              "des-seismes": "Des séismes"
+            }
+          },
+          "cret-pela": {
+            "prompt": "Quel sommet marque le point culminant du département du Jura, à 1 495 mètres ?",
+            "hint": "Son nom évoque un sommet pelé.",
+            "anecdote": "Il se dresse près de Lajoux, dans le Parc naturel régional du Haut-Jura. Il domine la vallée de la Valserine.",
+            "answers": {
+              "le-cret-pela": "Le Crêt Pela",
+              "le-cret-de-la-neige": "Le Crêt de la Neige",
+              "le-mont-d-or": "Le mont d'Or",
+              "le-risoux": "Le Risoux"
+            }
+          },
+          "foret-chaux": {
+            "prompt": "Quelle vaste forêt de feuillus du Jura fournissait le bois de la saline d'Arc-et-Senans ?",
+            "hint": "Son nom est aussi celui d'un matériau de construction blanc.",
+            "anecdote": "Elle couvre environ 20 000 hectares. Elle compte parmi les grandes forêts de feuillus de France.",
+            "answers": {
+              "la-foret-de-chaux": "La forêt de Chaux",
+              "la-foret-de-la-joux": "La forêt de la Joux",
+              "la-foret-du-risoux": "La forêt du Risoux",
+              "la-foret-de-troncais": "La forêt de Tronçais"
+            }
+          },
+          "jurassique": {
+            "prompt": "Quel savant français a proposé en 1829 le nom de terrains jurassiques ?",
+            "hint": "Il a dirigé la manufacture de Sèvres.",
+            "anecdote": "Le naturaliste Alexander von Humboldt avait évoqué ces calcaires du Jura dès 1795. Le nom désigne aujourd'hui une période entière.",
+            "answers": {
+              "alexandre-brongniart": "Alexandre Brongniart",
+              "georges-cuvier": "Georges Cuvier",
+              "louis-agassiz": "Louis Agassiz",
+              "elie-de-beaumont": "Élie de Beaumont"
+            }
+          },
+          "carte-mouthe": {
+            "prompt": "Touchez le département où naît la rivière Doubs.",
+            "hint": "La rivière lui a donné son nom.",
+            "anecdote": "Elle y naît à Mouthe, près de la Suisse. Son parcours sinueux la fait aussi passer par le Jura."
+          },
+          "carte-chaux": {
+            "prompt": "Touchez le département où s'étend l'essentiel de la forêt de Chaux.",
+            "hint": "Il compte la ville de Dole, tout près d'elle.",
+            "anecdote": "Elle s'étire entre le Doubs et la Loue, à l'est de Dole."
+          },
+          "sequanes": {
+            "prompt": "Quel peuple gaulois occupait le pays comtois au temps de César ?",
+            "hint": "Son nom ressemble à celui de la Seine.",
+            "anecdote": "Ils ont fait de Vesontio leur place forte. César les décrit, dans ses Commentaires, en rivalité avec leurs voisins éduens.",
+            "answers": {
+              "les-sequanes": "Les Séquanes",
+              "les-eduens": "Les Éduens",
+              "les-helvetes": "Les Helvètes",
+              "les-lingons": "Les Lingons"
+            }
+          },
+          "vesontio": {
+            "prompt": "Quel nom antique portait Besançon, occupée par César en 58 av. J.-C. ?",
+            "hint": "Il commence par la lettre V.",
+            "anecdote": "Le général s'en empare pour devancer Arioviste, et y tient son armée. Le nom a évolué, au fil des siècles, jusqu'à la forme actuelle.",
+            "answers": {
+              "vesontio": "Vesontio",
+              "lutece": "Lutèce",
+              "divio": "Divio",
+              "bibracte": "Bibracte"
+            }
+          },
+          "mandeure": {
+            "prompt": "Quel grand vestige romain se visite encore à Mandeure, dans le pays de Montbéliard ?",
+            "hint": "On y donnait des pièces et des spectacles.",
+            "anecdote": "Il pouvait accueillir plusieurs milliers de spectateurs. C'était l'un des plus grands de Gaule, sur la cité antique d'Epomanduodurum.",
+            "answers": {
+              "un-theatre": "Un théâtre",
+              "un-aqueduc": "Un aqueduc",
+              "un-phare": "Un phare",
+              "un-arc-de-triomphe": "Un arc de triomphe"
+            }
+          },
+          "barberousse": {
+            "prompt": "Quel empereur germanique a épousé en 1156 Béatrice, héritière du comté de Bourgogne ?",
+            "hint": "Son surnom évoque sa pilosité rousse.",
+            "anecdote": "Le mariage a fait entrer le comté dans la sphère de l'Empire. Il a tenu une diète à Besançon en 1157.",
+            "answers": {
+              "frederic-barberousse": "Frédéric Barberousse",
+              "charlemagne": "Charlemagne",
+              "charles-quint": "Charles Quint",
+              "othon-le-grand": "Othon le Grand"
+            }
+          },
+          "besancon-empire": {
+            "prompt": "Quel statut Besançon a-t-elle gardé jusqu'au XVIIe siècle, à côté du comté ?",
+            "hint": "Elle ne dépendait que d'un lointain empereur.",
+            "anecdote": "Elle a été indépendante du comté pendant plusieurs siècles, et battait sa propre monnaie, jusqu'à sa cession à l'Espagne, décidée en 1654.",
+            "answers": {
+              "celui-de-ville-libre-d-empire": "Celui de ville libre d'Empire",
+              "celui-de-duche-independant": "Celui de duché indépendant",
+              "celui-de-port-royal": "Celui de port royal",
+              "celui-de-principaute-papale": "Celui de principauté papale"
+            }
+          },
+          "universite-dole": {
+            "prompt": "Dans quelle ville le duc Philippe le Bon a-t-il créé, en 1423, l'université de la Comté ?",
+            "hint": "Louis XIV la fera transférer à Besançon, après sa conquête.",
+            "anecdote": "Elle a fonctionné pendant plus de deux siècles et demi, avant son transfert à Besançon en 1691."
+          },
+          "dix-ans": {
+            "prompt": "Quelle guerre très meurtrière a ravagé la Comté, à partir de 1634 ?",
+            "hint": "Son nom indique sa durée.",
+            "anecdote": "Épisode comtois de la guerre de Trente Ans, elle a provoqué famines et épidémies. La population de la province a très fortement chuté.",
+            "answers": {
+              "la-guerre-de-dix-ans": "La guerre de Dix Ans",
+              "la-guerre-de-cent-ans": "La guerre de Cent Ans",
+              "la-guerre-de-sept-ans": "La guerre de Sept Ans",
+              "la-fronde": "La Fronde"
+            }
+          },
+          "siege-dole": {
+            "prompt": "Quelle ville comtoise a résisté, en 1636, à un siège de près de trois mois conduit par Condé ?",
+            "hint": "Elle était alors la capitale de la province.",
+            "anecdote": "La résistance de la ville reste l'un des grands souvenirs de la province. Les Français ont dû lever le siège en août."
+          },
+          "conquete": {
+            "prompt": "Quel roi a conquis la Franche-Comté en 1668, puis définitivement en 1674 ?",
+            "hint": "Il a fait construire Versailles.",
+            "anecdote": "Il a assisté en personne à la prise de Besançon, en 1674. La province a été rendue une première fois, puis gardée.",
+            "answers": {
+              "louis-xiv": "Louis XIV",
+              "louis-xiii": "Louis XIII",
+              "louis-xv": "Louis XV",
+              "henri-iv": "Henri IV"
+            }
+          },
+          "nimegue": {
+            "prompt": "Quel traité a officiellement rattaché la Franche-Comté à la France, en 1678 ?",
+            "hint": "Il porte le nom d'une ville des Pays-Bas.",
+            "anecdote": "L'Espagne y a renoncé à la province. Louis XIV a fait de Besançon sa capitale, au détriment de Dole.",
+            "answers": {
+              "le-traite-de-nimegue": "Le traité de Nimègue",
+              "le-traite-de-westphalie": "Le traité de Westphalie",
+              "le-traite-d-utrecht": "Le traité d'Utrecht",
+              "le-traite-des-pyrenees": "Le traité des Pyrénées"
+            }
+          },
+          "montbeliard-1793": {
+            "prompt": "En quelle année la principauté de Montbéliard est-elle devenue française ?",
+            "hint": "C'est en pleine Révolution.",
+            "anecdote": "La ville a longtemps été luthérienne, sous l'autorité de Wurtemberg, et n'a pas suivi le même destin que le reste de la province.",
+            "answers": {
+              "1678": "1678",
+              "1793": "1793",
+              "1815": "1815",
+              "1871": "1871"
+            }
+          },
+          "voltaire-serfs": {
+            "prompt": "Quel écrivain a défendu, au XVIIIe siècle, les serfs de l'abbaye de Saint-Claude ?",
+            "hint": "Il vivait à Ferney, de l'autre côté du Haut-Jura.",
+            "anecdote": "Il a porté leur cause devant l'opinion, sans obtenir tout de suite gain de cause. La mainmorte n'a disparu qu'avec la Révolution.",
+            "answers": {
+              "voltaire": "Voltaire",
+              "rousseau": "Rousseau",
+              "diderot": "Diderot",
+              "montesquieu": "Montesquieu"
+            }
+          },
+          "siege-belfort": {
+            "prompt": "Quel colonel a commandé la résistance de Belfort pendant le siège de 1870-1871 ?",
+            "hint": "Une station du métro parisien porte son nom.",
+            "anecdote": "La place a tenu 103 jours et n'a cédé que sur ordre du gouvernement. Elle a ainsi gagné de rester française.",
+            "answers": {
+              "denfert-rochereau": "Denfert-Rochereau",
+              "bazaine": "Bazaine",
+              "mac-mahon": "Mac Mahon",
+              "gambetta": "Gambetta"
+            }
+          },
+          "bourbaki": {
+            "prompt": "Quel pays a accueilli, début 1871, l'armée française de Bourbaki, repoussée dans le Haut-Doubs ?",
+            "hint": "C'est le pays neutre tout proche.",
+            "anecdote": "Environ 87 000 hommes ont franchi la frontière aux Verrières. Un panorama, à Lucerne, garde le souvenir de cet épisode.",
+            "answers": {
+              "la-suisse": "La Suisse",
+              "l-italie": "L'Italie",
+              "la-belgique": "La Belgique",
+              "l-espagne": "L'Espagne"
+            }
+          },
+          "hericourt": {
+            "prompt": "Près de quelle ville de Haute-Saône l'armée de l'Est a-t-elle tenté, en janvier 1871, de débloquer Belfort ?",
+            "hint": "Son nom se termine comme celui de nombreuses villes du Nord.",
+            "anecdote": "La bataille, livrée dans le froid sur la Lizaine, n'a pas permis de forcer les lignes allemandes.",
+            "answers": {
+              "hericourt": "Héricourt"
+            }
+          },
+          "lgv": {
+            "prompt": "Quelle ligne à grande vitesse dessert Belfort et Besançon depuis 2011 ?",
+            "hint": "Son nom associe deux fleuves.",
+            "anecdote": "Elle a mis la Franche-Comté à environ deux heures de Paris. Deux gares nouvelles ont été construites.",
+            "answers": {
+              "la-lgv-rhin-rhone": "La LGV Rhin-Rhône",
+              "la-lgv-est": "La LGV Est",
+              "la-lgv-atlantique": "La LGV Atlantique",
+              "la-lgv-mediterranee": "La LGV Méditerranée"
+            }
+          },
+          "granvelle": {
+            "prompt": "Quel cardinal d'origine comtoise, Antoine Perrenot, a servi Charles Quint et Philippe II ?",
+            "hint": "Il est connu sous le nom d'un palais de Besançon.",
+            "anecdote": "Ce fils de Nicolas Perrenot a été l'un des grands hommes d'État de son temps, notamment aux Pays-Bas et à Naples.",
+            "answers": {
+              "le-cardinal-de-granvelle": "Le cardinal de Granvelle",
+              "le-cardinal-de-richelieu": "Le cardinal de Richelieu",
+              "le-cardinal-de-mazarin": "Le cardinal de Mazarin",
+              "le-cardinal-de-retz": "Le cardinal de Retz"
+            }
+          },
+          "lacuzon": {
+            "prompt": "Sous quel surnom est connu Claude Prost, chef de guerre comtois contre les Français au XVIIe siècle ?",
+            "hint": "Le mot évoque un caractère soucieux, en patois.",
+            "anecdote": "Ce héros de Longchaumois a harcelé les troupes françaises pendant des années. Il est mort en exil à Milan, en 1681.",
+            "answers": {
+              "lacuzon": "Lacuzon",
+              "bayard": "Bayard",
+              "cartouche": "Cartouche",
+              "du-guesclin": "Du Guesclin"
+            }
+          },
+          "vernier": {
+            "prompt": "Quel mathématicien d'Ornans a donné son nom à une petite échelle de mesure de précision ?",
+            "hint": "Son nom désigne encore cette échelle graduée.",
+            "anecdote": "En 1631, il décrit un instrument permettant de lire plus finement une graduation, à Bruxelles. On le trouve encore sur les pieds à coulisse.",
+            "answers": {
+              "pierre-vernier": "Pierre Vernier",
+              "blaise-pascal": "Blaise Pascal",
+              "girard-desargues": "Girard Desargues",
+              "rene-descartes": "René Descartes"
+            }
+          },
+          "jouffroy": {
+            "prompt": "Quel inventeur a mené, à Baume-les-Dames, les premiers essais d'un bateau à vapeur sur le Doubs ?",
+            "hint": "Ce noble franc-comtois porte un nom à particule.",
+            "anecdote": "Il y a fait naviguer son Palmipède, en 1776, puis a réussi à Lyon en 1783 à remonter la Saône avec son Pyroscaphe.",
+            "answers": {
+              "le-marquis-de-jouffroy-d-abbans": "Le marquis de Jouffroy d'Abbans",
+              "robert-fulton": "Robert Fulton",
+              "denis-papin": "Denis Papin",
+              "nicolas-cugnot": "Nicolas Cugnot"
+            }
+          },
+          "grevy": {
+            "prompt": "Quel président de la République, de 1879 à 1887, était né à Mont-sous-Vaudrey, dans le Jura ?",
+            "hint": "Un scandale impliquant son gendre l'a poussé à démissionner.",
+            "anecdote": "Républicain convaincu, il a été réélu en 1885, puis a démissionné en 1887, à la suite du scandale des décorations.",
+            "answers": {
+              "jules-grevy": "Jules Grévy",
+              "sadi-carnot": "Sadi Carnot",
+              "adolphe-thiers": "Adolphe Thiers",
+              "felix-faure": "Félix Faure"
+            }
+          },
+          "moncey": {
+            "prompt": "Quel maréchal d'Empire, né dans le Doubs en 1754, a défendu la barrière de Clichy en 1814 ?",
+            "hint": "Sa statue se dresse sur la place de Clichy, à Paris.",
+            "anecdote": "Premier inspecteur de la gendarmerie, il a ensuite refusé de présider le conseil de guerre jugeant Ney, ce qui lui a valu destitution et arrêts à Ham.",
+            "answers": {
+              "moncey": "Moncey",
+              "ney": "Ney",
+              "soult": "Soult",
+              "massena": "Masséna"
+            }
+          },
+          "edgar-faure": {
+            "prompt": "Quel président du Conseil de la IVe République a été maire de Port-Lesney et député du Jura ?",
+            "hint": "Sa mémoire reste associée à une réforme de l'université, en 1968.",
+            "anecdote": "Élu du Jura et du Doubs, il a aussi présidé l'Assemblée nationale et le conseil régional de Franche-Comté.",
+            "answers": {
+              "edgar-faure": "Edgar Faure",
+              "pierre-mendes-france": "Pierre Mendès France",
+              "rene-coty": "René Coty",
+              "guy-mollet": "Guy Mollet"
+            }
+          },
+          "carte-grevy": {
+            "prompt": "Touchez le département natal du président Jules Grévy.",
+            "hint": "Il compte aussi Dole.",
+            "anecdote": "Il est né à Mont-sous-Vaudrey, et il y est mort. Il a aussi été élu de ce département."
+          },
+          "lip-1973": {
+            "prompt": "Quel slogan a résumé la grande grève de Lip, à Besançon, en 1973 ?",
+            "hint": "Les ouvriers y décident de vendre eux-mêmes ce qu'ils produisent.",
+            "anecdote": "Les salariés ont relancé la production et vendu les montres, pour se payer eux-mêmes. Le conflit a eu un retentissement national.",
+            "answers": {
+              "on-fabrique-on-vend-on-se-paie": "« On fabrique, on vend, on se paie »",
+              "travailler-plus-pour-gagner-plus": "« Travailler plus pour gagner plus »",
+              "sous-les-paves-la-plage": "« Sous les pavés, la plage »",
+              "le-pain-et-la-paix": "« Le pain et la paix »"
+            }
+          },
+          "fertet": {
+            "prompt": "Quel jeune résistant de 16 ans a été fusillé à la citadelle de Besançon, en 1943 ?",
+            "hint": "Lycéen à Besançon, il a laissé une lettre célèbre.",
+            "anecdote": "Il a écrit une lettre d'adieu à ses parents, restée un texte majeur de la Résistance.",
+            "answers": {
+              "henri-fertet": "Henri Fertet",
+              "guy-moquet": "Guy Môquet",
+              "jean-moulin": "Jean Moulin",
+              "pierre-brossolette": "Pierre Brossolette"
+            }
+          },
+          "citadelle-resistants": {
+            "prompt": "Combien de résistants ont été fusillés par l'occupant à la citadelle de Besançon, pendant la guerre ?",
+            "hint": "C'est un nombre rond.",
+            "anecdote": "Un mémorial rappelle leur souvenir, sur le lieu même des exécutions. Un musée de la Résistance et de la Déportation y a ouvert en 1971.",
+            "answers": {
+              "une-centaine": "Une centaine",
+              "une-dizaine": "Une dizaine",
+              "un-millier": "Un millier",
+              "trois-cents": "Trois cents"
+            }
+          },
+          "demarcation": {
+            "prompt": "Quelle frontière intérieure a coupé le département du Jura entre 1940 et 1943 ?",
+            "hint": "Elle séparait zone occupée et zone libre.",
+            "anecdote": "La ligne passait à proximité de Dole, de Poligny et d'Arbois. Des passeurs ont aidé de nombreux réfugiés à la franchir.",
+            "answers": {
+              "la-ligne-de-demarcation": "La ligne de démarcation",
+              "la-ligne-maginot": "La ligne Maginot",
+              "la-ligne-siegfried": "La ligne Siegfried",
+              "le-mur-de-l-atlantique": "Le mur de l'Atlantique"
+            }
+          },
+          "territoire-1871": {
+            "prompt": "Pourquoi la région de Belfort est-elle restée française en 1871, malgré l'annexion de l'Alsace ?",
+            "hint": "Sa résistance a pesé dans la négociation.",
+            "anecdote": "Thiers a obtenu de la conserver, en échange de la cession d'autres communes de Lorraine et du droit de défilé à Paris pour l'armée prussienne.",
+            "answers": {
+              "grace-a-la-resistance-de-sa-place-forte": "Grâce à la résistance de sa place forte",
+              "parce-qu-elle-etait-germanophone": "Parce qu'elle était germanophone",
+              "parce-qu-elle-dependait-de-la-suisse": "Parce qu'elle dépendait de la Suisse",
+              "grace-a-un-plebiscite-des-habitants": "Grâce à un plébiscite des habitants"
+            }
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "besancon": {
+            "name": "Besançon",
+            "description": "Capitale historique de la Franche-Comté, Besançon s'est bâtie dans une boucle du Doubs, que ferme une colline. Vauban y a élevé, à la fin du XVIIe siècle, une citadelle inscrite au patrimoine mondial depuis 2008.",
+            "anecdote": "La citadelle abrite aujourd'hui un jardin zoologique, un aquarium et un musée de la Résistance et de la Déportation."
+          },
+          "comte": {
+            "name": "Comté",
+            "description": "Ce fromage de lait cru se fabrique dans de petites fromageries de village, les fruitières, puis s'affine durant des mois en cave. Il bénéficie d'une AOC depuis 1958.",
+            "anecdote": "Il faut environ 400 litres de lait pour obtenir une seule meule d'une quarantaine de kilos."
+          },
+          "saline-royale": {
+            "name": "Saline royale d'Arc-et-Senans",
+            "description": "Claude-Nicolas Ledoux construit cette manufacture de sel à partir de 1775, sous le règne de Louis XVI. Ses bâtiments en arc de cercle sont inscrits au patrimoine mondial depuis 1982.",
+            "anecdote": "L'architecte rêvait d'en faire le cœur d'une ville idéale, restée sur le papier. Seule la moitié du cercle a été bâtie."
+          },
+          "horloge-comtoise": {
+            "name": "Horloge comtoise",
+            "description": "Née dans le Haut-Jura à la fin du XVIIe siècle, autour de Morez et de Morbier, cette horloge de parquet a gagné les maisons de toute la France. Sa caisse galbée et peinte est aisément reconnaissable.",
+            "anecdote": "Au XIXe siècle, les ateliers de la montagne en produisaient des dizaines de milliers par an."
+          },
+          "lion-belfort": {
+            "name": "Lion de Belfort",
+            "description": "Sculpté dans le grès rouge au pied de la citadelle, ce lion de 22 mètres de long rappelle la résistance de la ville, assiégée durant la guerre de 1870. Il a été achevé en 1880.",
+            "anecdote": "Son auteur, Auguste Bartholdi, a aussi créé la statue de la Liberté à New York."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur de Franche-Comté",
+            "description": "Réunir les cinq cartes de la collection de Franche-Comté."
+          },
+          "master": {
+            "name": "Maître de Franche-Comté",
+            "description": "Réussir le Défi Maître de Franche-Comté, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
     }
   }
 }
