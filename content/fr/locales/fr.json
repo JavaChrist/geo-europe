@@ -1640,6 +1640,450 @@
       "photoAuvergneMontDore": {
         "title": "Le Mont-Dore",
         "alt": "Ville au fond d'une vallée, avec un massif au loin."
+      },
+      "photoRhoneAlpesFourviere": {
+        "title": "Basilique Notre-Dame de Fourvière à Lyon",
+        "alt": "Grande basilique blanche à quatre tours, avec une statue dorée, au sommet d'une colline boisée."
+      },
+      "photoRhoneAlpesTraboule": {
+        "title": "Traboule du Vieux Lyon",
+        "alt": "Couloir voûté et éclairé, qui traverse un immeuble ancien."
+      },
+      "photoRhoneAlpesBellecour": {
+        "title": "Place Bellecour à Lyon",
+        "alt": "Statue équestre de bronze d'un souverain, sous un ciel nuageux."
+      },
+      "photoRhoneAlpesTheatreFourviere": {
+        "title": "Théâtre antique de Fourvière à Lyon",
+        "alt": "Gradins de pierre d'un théâtre romain, à flanc de colline."
+      },
+      "photoRhoneAlpesFeteLumieres": {
+        "title": "Fête des Lumières à Lyon",
+        "alt": "Ville illuminée de nuit, vue d'en haut, avec une grande roue."
+      },
+      "photoRhoneAlpesHorlogeSaintJean": {
+        "title": "Horloge astronomique de la cathédrale Saint-Jean à Lyon",
+        "alt": "Grand cadran ancien bleu et doré, avec un soleil en son centre."
+      },
+      "photoRhoneAlpesPartDieu": {
+        "title": "Quartier de la Part-Dieu à Lyon",
+        "alt": "Tours d'un quartier d'affaires, dont l'une en forme de crayon, au-dessus des toits d'une grande ville."
+      },
+      "photoRhoneAlpesGuignol": {
+        "title": "Marionnette de Guignol, musées Gadagne à Lyon",
+        "alt": "Marionnette à gaine en costume sombre, dans une niche rose."
+      },
+      "photoRhoneAlpesConfluence": {
+        "title": "Confluent du Rhône et de la Saône à Lyon",
+        "alt": "Longue digue de terre entre deux étendues d'eau, sous un ciel bleu."
+      },
+      "photoRhoneAlpesFicelle": {
+        "title": "Funiculaire de Lyon",
+        "alt": "Petite voiture de funiculaire rouge et blanche, sur sa voie, à la sortie d'un tunnel."
+      },
+      "photoRhoneAlpesInstitutLumiere": {
+        "title": "Institut Lumière à Lyon",
+        "alt": "Grande villa à la façade claire très ornée, sous un haut toit d'ardoise."
+      },
+      "photoRhoneAlpesAmpere": {
+        "title": "Monument à André-Marie Ampère à Lyon",
+        "alt": "Statue de bronze d'un savant assis, un livre à la main, devant une façade jaune."
+      },
+      "photoRhoneAlpesDugoujon": {
+        "title": "Maison du docteur Dugoujon à Caluire-et-Cuire",
+        "alt": "Maison bourgeoise ocre à trois niveaux et aux volets clairs, derrière une grille."
+      },
+      "photoRhoneAlpesBulles": {
+        "title": "Téléphérique de Grenoble",
+        "alt": "Cabine ronde de téléphérique suspendue au-dessus d'une ville et d'une rivière."
+      },
+      "photoRhoneAlpesBayard": {
+        "title": "Statue du chevalier Bayard à Grenoble",
+        "alt": "Statue de bronze d'un chevalier sur son socle, devant un immeuble."
+      },
+      "photoRhoneAlpesStendhal": {
+        "title": "Buste de Stendhal au musée de l'Ancien Évêché à Grenoble",
+        "alt": "Buste de bronze d'un homme aux cheveux bouclés et aux favoris."
+      },
+      "photoRhoneAlpesChampollion": {
+        "title": "Musée Champollion à Vif",
+        "alt": "Maison de maître et son jardin, au pied d'une colline boisée."
+      },
+      "photoRhoneAlpesVizille": {
+        "title": "Château de Vizille",
+        "alt": "Grand château de pierre aux toits d'ardoise, qui se reflète dans un plan d'eau."
+      },
+      "photoRhoneAlpesPalaisIsle": {
+        "title": "Palais de l'Isle à Annecy",
+        "alt": "Vieil édifice de pierre en forme de proue de navire, au milieu d'un canal bordé de maisons."
+      },
+      "photoRhoneAlpesLacAnnecy": {
+        "title": "Lac d'Annecy",
+        "alt": "Grand lac bleu entre les montagnes, vu du ciel, avec un parapente."
+      },
+      "photoRhoneAlpesElephants": {
+        "title": "Fontaine des Éléphants à Chambéry",
+        "alt": "Haute colonne surmontée d'une statue, portée par des éléphants, sur une place."
+      },
+      "photoRhoneAlpesChateauDucs": {
+        "title": "Château des ducs de Savoie à Chambéry",
+        "alt": "Château et sa chapelle vus d'en haut, devant des montagnes."
+      },
+      "photoRhoneAlpesCharmettes": {
+        "title": "Les Charmettes à Chambéry",
+        "alt": "Maison de campagne en pierre, aux volets bruns, sous la neige."
+      },
+      "photoRhoneAlpesCiteDesign": {
+        "title": "Cité du design à Saint-Étienne",
+        "alt": "Grille monumentale devant un long bâtiment, entre des arbres nus."
+      },
+      "photoRhoneAlpesManufrance": {
+        "title": "Ancienne usine Manufrance à Saint-Étienne",
+        "alt": "Vaste bâtiment industriel à la façade rythmée, derrière des arbres d'automne."
+      },
+      "photoRhoneAlpesCouriot": {
+        "title": "Salle des pendus du puits Couriot à Saint-Étienne",
+        "alt": "Grande salle où des chaînes cadenassées descendent d'un plafond chargé de vêtements."
+      },
+      "photoRhoneAlpesKiosquePeynet": {
+        "title": "Kiosque Peynet à Valence",
+        "alt": "Kiosque à musique à toit blanc, dans un jardin fleuri, devant une montagne."
+      },
+      "photoRhoneAlpesMaisonTetes": {
+        "title": "Maison des Têtes à Valence",
+        "alt": "Façade Renaissance couverte de sculptures, dans une rue étroite."
+      },
+      "photoRhoneAlpesBrou": {
+        "title": "Église du monastère royal de Brou à Bourg-en-Bresse",
+        "alt": "Pignon de pierre finement sculpté, sous un toit de tuiles vernissées."
+      },
+      "photoRhoneAlpesBrouTombeau": {
+        "title": "Tombeau de Marguerite d'Autriche à Brou",
+        "alt": "Pieds nus d'un gisant de marbre blanc, drapé, entre des colonnes sculptées."
+      },
+      "photoRhoneAlpesTempleVienne": {
+        "title": "Temple d'Auguste et de Livie à Vienne",
+        "alt": "Temple romain à colonnes corinthiennes, au milieu d'une place."
+      },
+      "photoRhoneAlpesPyramideVienne": {
+        "title": "Pyramide du cirque romain de Vienne",
+        "alt": "Pyramide de pierre posée sur quatre arcades, au milieu de maisons."
+      },
+      "photoRhoneAlpesPerouges": {
+        "title": "Cité médiévale de Pérouges",
+        "alt": "Village ancien aux toits de tuiles, vu du ciel."
+      },
+      "photoRhoneAlpesYvoire": {
+        "title": "Château d'Yvoire",
+        "alt": "Château médiéval à tourelles et grand toit, au bord de l'eau, vu depuis des jardins."
+      },
+      "photoRhoneAlpesCremieu": {
+        "title": "Halle de Crémieu",
+        "alt": "Charpente de bois d'une halle ancienne, sur de lourds piliers."
+      },
+      "photoRhoneAlpesSaintAntoine": {
+        "title": "Portail de l'abbatiale de Saint-Antoine-l'Abbaye",
+        "alt": "Portail gothique sculpté, à l'entrée d'une grande église."
+      },
+      "photoRhoneAlpesFacteurCheval": {
+        "title": "Palais idéal du facteur Cheval à Hauterives",
+        "alt": "Édifice fantastique de pierres assemblées, couvert de figures et de colonnes."
+      },
+      "photoRhoneAlpesGrignan": {
+        "title": "Château de Grignan",
+        "alt": "Façade Renaissance claire d'un château perché, à grandes fenêtres."
+      },
+      "photoRhoneAlpesOingt": {
+        "title": "Village d'Oingt",
+        "alt": "Village de pierre ocre et sa tour, au-dessus de champs et de vignes."
+      },
+      "photoRhoneAlpesBalazuc": {
+        "title": "Village de Balazuc",
+        "alt": "Maisons de pierre accrochées à une falaise, au-dessus d'une rivière."
+      },
+      "photoRhoneAlpesAnnonay": {
+        "title": "Monument aux frères Montgolfier à Annonay",
+        "alt": "Statue de deux hommes en costume ancien, près d'un globe."
+      },
+      "photoRhoneAlpesMontgolfier1783": {
+        "title": "Envol d'Annonay, estampe du XVIIIe siècle",
+        "alt": "Gravure ancienne : un grand ballon s'élève au-dessus d'une foule rassemblée autour d'un feu."
+      },
+      "photoRhoneAlpesHautecombe": {
+        "title": "Abbaye d'Hautecombe",
+        "alt": "Abbaye claire aux toits d'ardoise et sa tour, au bord d'un lac, vue depuis l'eau."
+      },
+      "photoRhoneAlpesCharlieu": {
+        "title": "Abbaye bénédictine de Charlieu",
+        "alt": "Tympan roman sculpté d'un Christ en majesté."
+      },
+      "photoRhoneAlpesBastieUrfe": {
+        "title": "Château de la Bâtie d'Urfé",
+        "alt": "Château à tourelle et à galerie, sous un ciel gris."
+      },
+      "photoRhoneAlpesArs": {
+        "title": "Basilique d'Ars-sur-Formans",
+        "alt": "Basilique à dôme vert et petite église de brique, dans un village, sous un ciel bleu."
+      },
+      "photoRhoneAlpesGrandeChartreuse": {
+        "title": "Monastère de la Grande Chartreuse",
+        "alt": "Vaste monastère aux nombreux toits, isolé au milieu d'une forêt de montagne."
+      },
+      "photoRhoneAlpesConflans": {
+        "title": "Cité de Conflans à Albertville",
+        "alt": "Clocher et muraille d'une cité médiévale, sur une hauteur."
+      },
+      "photoRhoneAlpesViviers": {
+        "title": "Clocher de la cathédrale de Viviers",
+        "alt": "Haute tour-clocher de pierre, vue d'en bas, percée d'une grande arche."
+      },
+      "photoRhoneAlpesCrest": {
+        "title": "Tour de Crest",
+        "alt": "Donjon massif au sommet d'une colline, dans la lumière du couchant."
+      },
+      "photoRhoneAlpesMontBlanc": {
+        "title": "Massif du Mont-Blanc",
+        "alt": "Immense massif enneigé aux glaciers scintillants, sous un ciel bleu."
+      },
+      "photoRhoneAlpesAiguilleMidi": {
+        "title": "Aiguille du Midi",
+        "alt": "Station d'altitude posée sur un piton rocheux, dans les neiges."
+      },
+      "photoRhoneAlpesMerDeGlace": {
+        "title": "Mer de Glace depuis le Montenvers",
+        "alt": "Grand glacier couvert de débris, au fond d'une vallée de haute montagne."
+      },
+      "photoRhoneAlpesLacBourget": {
+        "title": "Lac du Bourget et mont du Chat",
+        "alt": "Grand lac turquoise, au pied d'une longue montagne."
+      },
+      "photoRhoneAlpesEvian": {
+        "title": "Évian-les-Bains et le lac Léman",
+        "alt": "Bateau blanc sur un très grand lac, sous un ciel nuageux."
+      },
+      "photoRhoneAlpesBuvetteCachat": {
+        "title": "Ancienne buvette Cachat à Évian-les-Bains",
+        "alt": "Détail d'une verrière Art nouveau aux ferronneries ouvragées."
+      },
+      "photoRhoneAlpesThonon": {
+        "title": "Funiculaire de Thonon-les-Bains",
+        "alt": "Entrée d'une petite gare à charpente blanche et à toit de tuiles."
+      },
+      "photoRhoneAlpesPaladru": {
+        "title": "Lac de Paladru",
+        "alt": "Lac turquoise vu entre les branches, avec des collines au loin."
+      },
+      "photoRhoneAlpesAiguebelette": {
+        "title": "Lac d'Aiguebelette",
+        "alt": "Lac tranquille au pied d'une montagne boisée."
+      },
+      "photoRhoneAlpesNantua": {
+        "title": "Lac de Nantua",
+        "alt": "Lac étroit et vert, entre deux versants boisés."
+      },
+      "photoRhoneAlpesMontAiguille": {
+        "title": "Mont Aiguille",
+        "alt": "Haute montagne isolée à sommet plat et parois verticales."
+      },
+      "photoRhoneAlpesGrandsGoulets": {
+        "title": "Les Grands Goulets",
+        "alt": "Route étroite creusée en tunnel dans une gorge."
+      },
+      "photoRhoneAlpesPontEnRoyans": {
+        "title": "Maisons suspendues de Pont-en-Royans",
+        "alt": "Maisons colorées suspendues au-dessus d'une rivière, contre une falaise."
+      },
+      "photoRhoneAlpesPontArc": {
+        "title": "Pont d'Arc",
+        "alt": "Immense arche naturelle de calcaire, au-dessus d'une rivière."
+      },
+      "photoRhoneAlpesGorgesArdeche": {
+        "title": "Gorges de l'Ardèche",
+        "alt": "Rivière qui serpente au fond d'un profond canyon calcaire."
+      },
+      "photoRhoneAlpesGerbier": {
+        "title": "Mont Gerbier-de-Jonc",
+        "alt": "Petite montagne rocheuse en forme de cône, couverte de végétation et d'éboulis."
+      },
+      "photoRhoneAlpesIssarles": {
+        "title": "Lac d'Issarlès",
+        "alt": "Lac rond et bleu, entouré de forêts, avec une petite plage."
+      },
+      "photoRhoneAlpesOrgnac": {
+        "title": "Aven d'Orgnac",
+        "alt": "Immense salle souterraine, avec de hautes stalagmites éclairées."
+      },
+      "photoRhoneAlpesChauvet": {
+        "title": "Réplique de la grotte Chauvet",
+        "alt": "Dessin de lions au fusain, tracé sur une paroi claire."
+      },
+      "photoRhoneAlpesMastrou": {
+        "title": "Train de l'Ardèche",
+        "alt": "Locomotive à vapeur noire, panache de fumée au vent, devant une petite gare."
+      },
+      "photoRhoneAlpesFerACheval": {
+        "title": "Cirque du Fer-à-Cheval",
+        "alt": "Immense amphithéâtre de falaises, strié de cascades."
+      },
+      "photoRhoneAlpesDombes": {
+        "title": "Étang de la Dombes",
+        "alt": "Vaste étang qui reflète le ciel et les nuages, au couchant."
+      },
+      "photoRhoneAlpesIseran": {
+        "title": "Col de l'Iseran",
+        "alt": "Col d'altitude presque nu, avec un petit bâtiment et des sommets enneigés."
+      },
+      "photoRhoneAlpesAlpeHuez": {
+        "title": "Route de l'Alpe d'Huez",
+        "alt": "Route en lacets, qui grimpe sur un versant herbeux."
+      },
+      "photoRhoneAlpesBouquetin": {
+        "title": "Bouquetin en Vanoise",
+        "alt": "Bouquetin aux longues cornes recourbées, sur des rochers."
+      },
+      "photoRhoneAlpesDentCrolles": {
+        "title": "Dent de Crolles",
+        "alt": "Montagne calcaire à la forme de dent, au-dessus d'une vallée plantée d'arbres."
+      },
+      "photoRhoneAlpesBeaujolais": {
+        "title": "Tonneaux dans le Beaujolais",
+        "alt": "Charrette bleue chargée de tonneaux fleuris, sur une pelouse."
+      },
+      "photoRhoneAlpesCoteRotie": {
+        "title": "Vignoble à Ampuis",
+        "alt": "Coteaux de vignes très pentus, derrière des maisons de vignerons."
+      },
+      "photoRhoneAlpesNyons": {
+        "title": "Nyons",
+        "alt": "Ville de maisons serrées, avec un vieux pont, au pied d'une montagne."
+      },
+      "photoRhoneAlpesLavande": {
+        "title": "Récolte de la lavande",
+        "alt": "Machine agricole qui coupe des rangs de fleurs violettes."
+      },
+      "photoRhoneAlpesIzieu": {
+        "title": "Maison d'Izieu",
+        "alt": "Grande maison de campagne aux volets bleus, sur une pelouse."
+      },
+      "photoRhoneAlpesCourchevel": {
+        "title": "Courchevel 1850",
+        "alt": "Station de ski enneigée, avec ses grands chalets et un manège."
+      },
+      "photoRhoneAlpesTignes": {
+        "title": "Lac de Tignes",
+        "alt": "Lac bleu d'altitude, bordé d'immeubles de station, vu du ciel."
+      },
+      "photoRhoneAlpesReblochon": {
+        "title": "Reblochon",
+        "alt": "Fromage rond à croûte orangée, coupé en deux, à la pâte souple et ivoire."
+      },
+      "photoRhoneAlpesBeaufort": {
+        "title": "Beaufort",
+        "alt": "Morceau de fromage à pâte ferme et ivoire, posé sur une ardoise."
+      },
+      "photoRhoneAlpesBleuGex": {
+        "title": "Bleu de Gex",
+        "alt": "Part de fromage à pâte persillée de bleu."
+      },
+      "photoRhoneAlpesSaintMarcellin": {
+        "title": "Saint-marcellin",
+        "alt": "Petit fromage rond à croûte plissée et crème, vu du dessus."
+      },
+      "photoRhoneAlpesPicodon": {
+        "title": "Picodon",
+        "alt": "Deux petits fromages de chèvre ronds, dont l'un coupé, à la croûte blanche."
+      },
+      "photoRhoneAlpesAbondance": {
+        "title": "Abondance",
+        "alt": "Morceau de fromage à pâte jaune et croûte ambrée, posé sur une ardoise."
+      },
+      "photoRhoneAlpesPouletBresse": {
+        "title": "Volaille de Bresse",
+        "alt": "Poule blanche à crête rouge et pattes bleues, dans un pré."
+      },
+      "photoRhoneAlpesTartiflette": {
+        "title": "Tartiflette",
+        "alt": "Poêle de pommes de terre et de lardons, couverte de fromage fondu."
+      },
+      "photoRhoneAlpesFondue": {
+        "title": "Fondue",
+        "alt": "Morceau de pain ressorti d'un caquelon de fromage fondu, au bout d'une fourchette."
+      },
+      "photoRhoneAlpesGratin": {
+        "title": "Gratin dauphinois",
+        "alt": "Plat de lamelles de pommes de terre gratinées, à côté d'un verre de vin rouge."
+      },
+      "photoRhoneAlpesQuenelle": {
+        "title": "Quenelle sauce Nantua",
+        "alt": "Grande pièce dorée et gonflée, dans une sauce orangée, servie en poêlon."
+      },
+      "photoRhoneAlpesRosette": {
+        "title": "Rosette de Lyon",
+        "alt": "Gros saucissons secs ficelés, sur une nappe à carreaux."
+      },
+      "photoRhoneAlpesCervelleCanut": {
+        "title": "Cervelle de canut",
+        "alt": "Verre de fromage blanc aux herbes, avec une cuillère."
+      },
+      "photoRhoneAlpesTartePralines": {
+        "title": "Tarte aux pralines",
+        "alt": "Part de tarte d'un rouge vif, avec de la crème fouettée."
+      },
+      "photoRhoneAlpesBouchon": {
+        "title": "Bouchon lyonnais",
+        "alt": "Façade rouge d'un petit restaurant, dans une rue pavée."
+      },
+      "photoRhoneAlpesNougat": {
+        "title": "Nougat de Montélimar",
+        "alt": "Gros blocs de confiserie blancs, roses et verts, parsemés d'amandes."
+      },
+      "photoRhoneAlpesNoix": {
+        "title": "Noix de Grenoble",
+        "alt": "Panier grillagé rempli de fruits à coque."
+      },
+      "photoRhoneAlpesOlivesNyons": {
+        "title": "Olives de Nyons",
+        "alt": "Bol d'olives noires et ridées, sur une nappe rouge."
+      },
+      "photoRhoneAlpesRavioles": {
+        "title": "Ravioles de Romans",
+        "alt": "Plaque de minuscules carrés de pâte farcis."
+      },
+      "photoRhoneAlpesPogne": {
+        "title": "Pogne de Romans",
+        "alt": "Brioche tranchée, à la mie légère et à la croûte brune."
+      },
+      "photoRhoneAlpesClairette": {
+        "title": "Clairette de Die",
+        "alt": "Bouteille de vin à bouchon de champagne et sa flûte, devant un meuble en bois."
+      },
+      "photoRhoneAlpesCoussin": {
+        "title": "Coussin de Lyon",
+        "alt": "Bonbon turquoise en forme de petit coussin, coupé pour montrer son intérieur."
+      },
+      "photoRhoneAlpesChartreuse": {
+        "title": "Liqueur de Chartreuse",
+        "alt": "Quatre bouteilles de liqueur, sur le comptoir d'un bar."
+      },
+      "photoRhoneAlpesDiots": {
+        "title": "Diots",
+        "alt": "Saucisses cuites à la poêle, avec des oignons et des pommes de terre."
+      },
+      "photoRhoneAlpesOpinel": {
+        "title": "Couteau Opinel",
+        "alt": "Couteau pliant à manche de bois clair et bague de métal, sur un tissu rouge."
+      },
+      "photoRhoneAlpesEmaux": {
+        "title": "Émaux bressans au musée de Saint-Cyr-sur-Menthon",
+        "alt": "Bijou doré très ouvragé, serti de petits émaux colorés."
+      },
+      "photoRhoneAlpesChaussureRomans": {
+        "title": "Musée de la Chaussure à Romans-sur-Isère",
+        "alt": "Salle de musée avec des vitrines et de vieilles machines."
+      },
+      "photoRhoneAlpesMandrin": {
+        "title": "Louis Mandrin, gravure du XVIIIe siècle",
+        "alt": "Gravure d'un homme enchaîné, assis sur une pierre, dans un cachot."
       }
     }
   },
@@ -1986,7 +2430,68 @@
     "yssingeaux": "Yssingeaux",
     "langeac": "Langeac",
     "le-chambon-sur-lignon": "Le Chambon-sur-Lignon",
-    "blesle": "Blesle"
+    "blesle": "Blesle",
+    "montelimar": "Montélimar",
+    "romans-sur-isere": "Romans-sur-Isère",
+    "nyons": "Nyons",
+    "die": "Die",
+    "crest": "Crest",
+    "grignan": "Grignan",
+    "hauterives": "Hauterives",
+    "grenoble": "Grenoble",
+    "vienne": "Vienne",
+    "voiron": "Voiron",
+    "bourgoin-jallieu": "Bourgoin-Jallieu",
+    "vizille": "Vizille",
+    "cremieu": "Crémieu",
+    "saint-antoine-l-abbaye": "Saint-Antoine-l'Abbaye",
+    "pont-en-royans": "Pont-en-Royans",
+    "saint-etienne": "Saint-Étienne",
+    "roanne": "Roanne",
+    "montbrison": "Montbrison",
+    "firminy": "Firminy",
+    "saint-chamond": "Saint-Chamond",
+    "charlieu": "Charlieu",
+    "lyon": "Lyon",
+    "villeurbanne": "Villeurbanne",
+    "villefranche-sur-saone": "Villefranche-sur-Saône",
+    "tarare": "Tarare",
+    "oingt": "Oingt",
+    "beaujeu": "Beaujeu",
+    "chambery": "Chambéry",
+    "aix-les-bains": "Aix-les-Bains",
+    "albertville": "Albertville",
+    "saint-jean-de-maurienne": "Saint-Jean-de-Maurienne",
+    "bourg-saint-maurice": "Bourg-Saint-Maurice",
+    "moutiers": "Moûtiers",
+    "modane": "Modane",
+    "tignes": "Tignes",
+    "courchevel": "Courchevel",
+    "annecy": "Annecy",
+    "chamonix": "Chamonix",
+    "thonon-les-bains": "Thonon-les-Bains",
+    "evian-les-bains": "Évian-les-Bains",
+    "annemasse": "Annemasse",
+    "megeve": "Megève",
+    "sallanches": "Sallanches",
+    "cluses": "Cluses",
+    "yvoire": "Yvoire",
+    "talloires": "Talloires",
+    "bourg-en-bresse": "Bourg-en-Bresse",
+    "oyonnax": "Oyonnax",
+    "belley": "Belley",
+    "nantua": "Nantua",
+    "amberieu-en-bugey": "Ambérieu-en-Bugey",
+    "perouges": "Pérouges",
+    "ars-sur-formans": "Ars-sur-Formans",
+    "izieu": "Izieu",
+    "privas": "Privas",
+    "annonay": "Annonay",
+    "aubenas": "Aubenas",
+    "tournon-sur-rhone": "Tournon-sur-Rhône",
+    "viviers": "Viviers",
+    "vals-les-bains": "Vals-les-Bains",
+    "balazuc": "Balazuc"
   },
   "territories": {
     "champagne-ardenne": {
@@ -18129,7 +18634,1958 @@
       }
     },
     "rhone-alpes": {
-      "name": "Rhône-Alpes"
+      "name": "Rhône-Alpes",
+      "description": "Du Rhône aux sommets des Alpes, une ancienne région de grands lacs et de stations de montagne, de traboules et de villages perchés, de fromages d'alpage et de savoir-faire, aujourd'hui au sein de la région Auvergne-Rhône-Alpes.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Rhône-Alpes",
+          "description": "Huit départements, leurs villes et les grands repères d'un pays de fleuves, de lacs et de hautes montagnes.",
+          "carte-territoire": {
+            "prompt": "Touchez sur la carte le territoire historique de Rhône-Alpes.",
+            "hint": "C'est la partie est de la région, du côté des Alpes.",
+            "anecdote": "Rhône-Alpes était une région administrative jusqu'en 2015. Elle a fusionné avec l'Auvergne le 1er janvier 2016."
+          },
+          "carte-voisin": {
+            "prompt": "Touchez le territoire voisin de Rhône-Alpes, avec lequel il forme aujourd'hui une seule région.",
+            "hint": "C'est la partie ouest, au cœur du Massif central.",
+            "anecdote": "Ce territoire voisin compte quatre départements, contre huit pour Rhône-Alpes."
+          },
+          "region": {
+            "prompt": "À quelle région administrative Lyon et Grenoble appartiennent-elles aujourd'hui ?",
+            "hint": "Son nom réunit un territoire de volcans et un fleuve avec des montagnes.",
+            "anecdote": "Cette grande région a été créée le 1er janvier 2016. Lyon en est le chef-lieu.",
+            "answers": {
+              "auvergne-rhone-alpes": "Auvergne-Rhône-Alpes",
+              "bourgogne-franche-comte": "Bourgogne-Franche-Comté",
+              "provence-alpes-cote-d-azur": "Provence-Alpes-Côte d'Azur",
+              "occitanie": "Occitanie"
+            }
+          },
+          "huit": {
+            "prompt": "Combien de départements compte le territoire de Rhône-Alpes ?",
+            "hint": "C'est le double du nombre de départements de l'Auvergne.",
+            "anecdote": "Ce sont l'Ain, l'Ardèche, la Drôme, l'Isère, la Loire, le Rhône, la Savoie et la Haute-Savoie.",
+            "answers": {
+              "huit": "Huit",
+              "quatre": "Quatre",
+              "six": "Six",
+              "douze": "Douze"
+            }
+          },
+          "capitale": {
+            "prompt": "Quelle ville est le chef-lieu de la région Auvergne-Rhône-Alpes ?",
+            "hint": "Elle se trouve au confluent du Rhône et de la Saône.",
+            "anecdote": "Elle est aussi le centre d'une métropole de plus d'un million d'habitants.",
+            "answers": {
+              "clermont-ferrand": "Clermont-Ferrand"
+            }
+          },
+          "nom": {
+            "prompt": "De quels éléments géographiques le nom « Rhône-Alpes » est-il formé ?",
+            "hint": "L'un coule, l'autre s'élève.",
+            "anecdote": "Le premier traverse le territoire jusqu'aux portes de la Provence. Le second couvre tout l'est.",
+            "answers": {
+              "un-fleuve-et-un-massif": "Un fleuve et un massif",
+              "deux-fleuves": "Deux fleuves",
+              "deux-massifs": "Deux massifs",
+              "un-lac-et-un-col": "Un lac et un col"
+            }
+          },
+          "frontieres": {
+            "prompt": "Avec quels pays Rhône-Alpes partage-t-il une frontière ?",
+            "hint": "L'un est connu pour ses banques et ses montres, l'autre pour ses pâtes.",
+            "anecdote": "La frontière passe par le Léman et les crêtes des Alpes. Le tunnel du Mont-Blanc relie Chamonix à l'autre versant.",
+            "answers": {
+              "la-suisse-et-l-italie": "La Suisse et l'Italie",
+              "l-allemagne-et-la-suisse": "L'Allemagne et la Suisse",
+              "l-italie-et-l-espagne": "L'Italie et l'Espagne",
+              "la-belgique-et-la-suisse": "La Belgique et la Suisse"
+            }
+          },
+          "tgv": {
+            "prompt": "Quelle ville a été reliée à Paris par la première ligne à grande vitesse française, en 1981 ?",
+            "hint": "C'est la plus grande ville du territoire.",
+            "anecdote": "La ligne nouvelle a été inaugurée en septembre 1981. Elle a fortement réduit le temps de trajet entre les deux villes.",
+            "answers": {
+              "marseille": "Marseille",
+              "dijon": "Dijon"
+            }
+          },
+          "stephanois": {
+            "prompt": "Comment appelle-t-on les habitants de Saint-Étienne ?",
+            "hint": "Le nom vient de la forme grecque du prénom Étienne.",
+            "anecdote": "Les joueurs de l'AS Saint-Étienne, surnommés les Verts, sont aussi appelés les Stéphanois.",
+            "answers": {
+              "les-stephanois": "Les Stéphanois",
+              "les-etiennais": "Les Étiennais",
+              "les-foreziens": "Les Foréziens",
+              "les-ligeriens": "Les Ligériens"
+            }
+          },
+          "autoroute": {
+            "prompt": "Quel surnom donne-t-on à l'autoroute qui descend de Lyon vers Marseille ?",
+            "hint": "On y pense en partant en vacances d'été.",
+            "anecdote": "Ce surnom désigne l'A6, de Paris à Lyon, et l'A7, qui longe le Rhône de Lyon à Marseille.",
+            "answers": {
+              "l-autoroute-du-soleil": "L'autoroute du Soleil",
+              "l-autoroute-blanche": "L'autoroute Blanche",
+              "l-autoroute-des-deux-mers": "L'autoroute des Deux Mers",
+              "l-autoroute-du-mont-blanc": "L'autoroute du Mont-Blanc"
+            }
+          },
+          "carte-ain": {
+            "prompt": "Touchez le département de l'Ain.",
+            "hint": "Il se trouve au nord du territoire, entre la Saône et le Jura.",
+            "anecdote": "Il porte le nom d'une rivière, affluent du Rhône. Son code est le 01, le premier de la liste des départements."
+          },
+          "carte-ardeche": {
+            "prompt": "Touchez le département de l'Ardèche.",
+            "hint": "Il se trouve au sud-ouest du territoire, sur la rive droite du Rhône.",
+            "anecdote": "Son nom vient de la rivière qui a creusé les célèbres gorges du sud du département."
+          },
+          "carte-drome": {
+            "prompt": "Touchez le département de la Drôme.",
+            "hint": "Il se trouve au sud du territoire, sur la rive gauche du Rhône.",
+            "anecdote": "Du Vercors à la Provence, ce département passe des falaises calcaires aux champs de lavande."
+          },
+          "carte-isere": {
+            "prompt": "Touchez le département de l'Isère.",
+            "hint": "Il se trouve au centre du territoire, entre le Rhône et les Alpes.",
+            "anecdote": "La rivière qui lui donne son nom naît en Savoie, traverse Grenoble et rejoint le Rhône près de Valence."
+          },
+          "carte-loire": {
+            "prompt": "Touchez le département de la Loire.",
+            "hint": "C'est le département le plus à l'ouest du territoire.",
+            "anecdote": "Le plus long fleuve de France prend sa source en Ardèche, puis traverse ce département du sud au nord."
+          },
+          "carte-rhone": {
+            "prompt": "Touchez le département du Rhône.",
+            "hint": "C'est un petit département, à l'ouest de l'Isère.",
+            "anecdote": "Depuis 2015, la métropole de Lyon forme une collectivité à part, sur une partie de ce territoire."
+          },
+          "carte-savoie": {
+            "prompt": "Touchez le département de la Savoie.",
+            "hint": "Il touche l'Italie, mais pas la Suisse.",
+            "anecdote": "Ses vallées de la Tarentaise et de la Maurienne abritent certaines des plus grandes stations de ski françaises."
+          },
+          "carte-haute-savoie": {
+            "prompt": "Touchez le département de la Haute-Savoie.",
+            "hint": "C'est le département le plus au nord-est, au bord du Léman.",
+            "anecdote": "Il touche à la fois la Suisse et l'Italie, et comprend le massif du Mont-Blanc."
+          },
+          "carte-bourg": {
+            "prompt": "Touchez le département dont Bourg-en-Bresse est la préfecture.",
+            "hint": "Il se trouve à la limite nord du territoire.",
+            "anecdote": "Bourg-en-Bresse est connue pour le monastère royal de Brou et pour sa volaille."
+          },
+          "carte-privas": {
+            "prompt": "Touchez le département dont Privas est la préfecture.",
+            "hint": "Il se trouve à l'ouest du Rhône, au sud du territoire.",
+            "anecdote": "Annonay est plus peuplée que Privas, mais c'est bien cette dernière qui reste la préfecture."
+          },
+          "carte-valence": {
+            "prompt": "Touchez le département dont Valence est la préfecture.",
+            "hint": "Il se trouve à l'est du Rhône, au sud du territoire.",
+            "anecdote": "Valence est souvent présentée comme la porte du Midi, sur la route de la Méditerranée."
+          },
+          "carte-grenoble": {
+            "prompt": "Touchez le département dont Grenoble est la préfecture.",
+            "hint": "Il se trouve entre le département du Rhône et la Savoie.",
+            "anecdote": "Grenoble se trouve entre trois massifs : le Vercors, la Chartreuse et Belledonne."
+          },
+          "carte-saint-etienne": {
+            "prompt": "Touchez le département dont Saint-Étienne est la préfecture.",
+            "hint": "Il borde le territoire à l'ouest.",
+            "anecdote": "Saint-Étienne est devenue préfecture en 1855, à la place de Montbrison."
+          },
+          "carte-chambery": {
+            "prompt": "Touchez le département dont Chambéry est la préfecture.",
+            "hint": "Il touche l'Italie, mais pas la Suisse.",
+            "anecdote": "Chambéry fut la capitale des États de Savoie jusqu'au XVIe siècle."
+          },
+          "carte-annecy": {
+            "prompt": "Touchez le département dont Annecy est la préfecture.",
+            "hint": "Il se trouve au nord-est du territoire, au bord de la Suisse.",
+            "anecdote": "Annecy borde le lac du même nom, au pied des montagnes."
+          },
+          "grenoble-bulles": {
+            "prompt": "Dans quelle ville ces « bulles » de téléphérique montent-elles vers une ancienne forteresse ?",
+            "hint": "C'est la grande ville de l'Isère.",
+            "anecdote": "Le téléphérique de la Bastille, ouvert en 1934, est l'un des plus anciens téléphériques urbains au monde."
+          },
+          "fete-lumieres": {
+            "prompt": "Quelle ville s'illumine chaque année en décembre, lors d'une célèbre fête ?",
+            "hint": "On y trouve la basilique de Fourvière.",
+            "anecdote": "La tradition remonte à 1852 : les habitants avaient posé des lumignons à leurs fenêtres, pour fêter la statue de la Vierge."
+          },
+          "part-dieu": {
+            "prompt": "Dans quelle ville se trouve ce quartier d'affaires, avec sa tour surnommée « le crayon » ?",
+            "hint": "C'est la capitale des Gaules.",
+            "anecdote": "Ce surnom désigne la tour de la Part-Dieu, à cause de sa forme, avec son sommet en pointe.",
+            "answers": {
+              "marseille": "Marseille",
+              "bordeaux": "Bordeaux"
+            }
+          },
+          "chaudron": {
+            "prompt": "Quelle ville possède le stade Geoffroy-Guichard, surnommé « le Chaudron » ?",
+            "hint": "Son club de football joue en vert.",
+            "anecdote": "Le stade Geoffroy-Guichard porte le nom du fondateur du groupe Casino. Son club y a connu ses grandes heures dans les années 1970."
+          },
+          "palais-isle": {
+            "prompt": "Dans quelle ville peut-on voir ce palais de l'Isle, au milieu d'un canal ?",
+            "hint": "On la surnomme la Venise des Alpes.",
+            "anecdote": "Ce bâtiment du XIIe siècle a servi de résidence, d'atelier monétaire, de tribunal et de prison."
+          },
+          "elephants": {
+            "prompt": "Quelle ville a élevé cette fontaine aux éléphants, surnommée « les quatre sans cul » ?",
+            "hint": "C'est la préfecture de la Savoie.",
+            "anecdote": "Elle rend hommage au général de Boigne, enfant du pays devenu riche aux Indes, qui a beaucoup donné à sa ville natale."
+          },
+          "albertville": {
+            "prompt": "Quelle ville a accueilli les Jeux olympiques d'hiver de 1992 ?",
+            "hint": "Son nom contient un prénom royal.",
+            "anecdote": "Les épreuves se sont réparties entre cette ville et plusieurs stations de Savoie, surtout en Tarentaise."
+          },
+          "peynet": {
+            "prompt": "Dans quelle ville de la Drôme se trouve ce kiosque, associé aux Amoureux du dessinateur Peynet ?",
+            "hint": "C'est la préfecture du département.",
+            "anecdote": "Raymond Peynet, de passage à Valence en 1942, a dessiné ici un violoniste et son admiratrice, les premiers de ses Amoureux."
+          },
+          "aix": {
+            "prompt": "Quelle ville thermale de Savoie borde ce grand lac ?",
+            "hint": "Elle se trouve sur la rive est de ce lac.",
+            "anecdote": "Cette station thermale a connu un grand succès à la Belle Époque, et la reine Victoria y a séjourné.",
+            "answers": {
+              "allevard": "Allevard"
+            }
+          },
+          "mont-blanc": {
+            "prompt": "Quel est le nom de ce massif, qui porte le plus haut sommet des Alpes ?",
+            "hint": "Son nom évoque la couleur de la neige.",
+            "anecdote": "Son sommet dépasse 4 800 mètres d'altitude. Sa hauteur exacte varie selon l'épaisseur de la glace.",
+            "answers": {
+              "le-mont-blanc": "Le Mont-Blanc",
+              "la-vanoise": "La Vanoise",
+              "les-ecrins": "Les Écrins",
+              "le-vercors": "Le Vercors"
+            }
+          },
+          "leman": {
+            "prompt": "Quel très grand lac, partagé avec la Suisse, voit-on sur cette image ?",
+            "hint": "Genève se trouve à son extrémité.",
+            "anecdote": "Ce lac alimenté par le Rhône est l'un des plus grands d'Europe de l'Ouest.",
+            "answers": {
+              "le-leman": "Le Léman",
+              "le-lac-du-bourget": "Le lac du Bourget",
+              "le-lac-d-annecy": "Le lac d'Annecy",
+              "le-lac-de-serre-poncon": "Le lac de Serre-Ponçon"
+            }
+          },
+          "lac-annecy": {
+            "prompt": "Dans quel département se trouve ce lac réputé pour la pureté de ses eaux, au pied de la ville du même nom ?",
+            "hint": "Ce département touche à la fois la Suisse et l'Italie.",
+            "anecdote": "Ce lac d'origine glaciaire est très apprécié pour le parapente, la voile et la baignade.",
+            "answers": {
+              "la-haute-savoie": "La Haute-Savoie",
+              "la-savoie": "La Savoie",
+              "l-ain": "L'Ain",
+              "l-isere": "L'Isère"
+            }
+          },
+          "saone": {
+            "prompt": "Quelle rivière se jette dans le Rhône à Lyon, à la pointe de ce quartier ?",
+            "hint": "Elle arrive du nord, depuis la Bourgogne.",
+            "anecdote": "Le quartier de la Confluence, au sud de la Presqu'île, s'est transformé au XXIe siècle. Son musée marque la pointe du confluent.",
+            "answers": {
+              "la-saone": "La Saône",
+              "l-isere": "L'Isère",
+              "la-loire": "La Loire",
+              "la-drome": "La Drôme"
+            }
+          },
+          "rhone-mer": {
+            "prompt": "Dans quelle mer le Rhône se jette-t-il ?",
+            "hint": "C'est la mer des vacances du Sud de la France.",
+            "anecdote": "Né dans un glacier suisse, le fleuve traverse le Léman et Lyon, puis forme la Camargue à son embouchure.",
+            "answers": {
+              "la-mediterranee": "La Méditerranée",
+              "la-mer-du-nord": "La mer du Nord",
+              "l-ocean-atlantique": "L'océan Atlantique",
+              "la-manche": "La Manche"
+            }
+          },
+          "isere-riviere": {
+            "prompt": "Quelle grande ville des Alpes la rivière Isère traverse-t-elle ?",
+            "hint": "Elle est entourée de trois massifs : la Chartreuse, le Vercors et Belledonne.",
+            "anecdote": "Née en Savoie, près du col de l'Iseran, la rivière rejoint le Rhône au nord de Valence.",
+            "answers": {
+              "gap": "Gap"
+            }
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs de Rhône-Alpes",
+          "description": "Fromages d'alpage, bouchons lyonnais, vins de la vallée du Rhône et douceurs de la Drôme.",
+          "reblochon": {
+            "prompt": "Quel fromage de Savoie, à la croûte safranée, sert à préparer la tartiflette ?",
+            "hint": "Son nom évoque une traite faite en douce.",
+            "anecdote": "Ce fromage à pâte pressée non cuite vient des Aravis et du val d'Arly.",
+            "answers": {
+              "le-reblochon": "Le reblochon",
+              "le-beaufort": "Le beaufort",
+              "l-abondance": "L'abondance",
+              "le-bleu-de-gex": "Le bleu de Gex"
+            }
+          },
+          "reblochon-nom": {
+            "prompt": "Que signifie le verbe savoyard « reblocher », à l'origine du nom d'un célèbre fromage ?",
+            "hint": "Les paysans voulaient réduire la redevance due au propriétaire des alpages.",
+            "anecdote": "On raconte que les paysans ne vidaient pas toute la mamelle devant le contrôleur. Ils trayaient le reste, plus riche, après son départ.",
+            "answers": {
+              "traire-une-seconde-fois": "Traire une seconde fois",
+              "saler-le-fromage": "Saler le fromage",
+              "monter-a-l-alpage": "Monter à l'alpage",
+              "retourner-la-meule": "Retourner la meule"
+            }
+          },
+          "beaufort": {
+            "prompt": "Quel fromage de Savoie, en grosses meules, a été surnommé « le prince des gruyères » ?",
+            "hint": "Il porte le nom d'une région de la Savoie.",
+            "anecdote": "Ce surnom est attribué au gastronome Brillat-Savarin. Sa fabrication demande beaucoup de lait : une meule pèse de 20 à 70 kilos.",
+            "answers": {
+              "le-beaufort": "Le beaufort",
+              "le-reblochon": "Le reblochon",
+              "la-raclette": "La raclette",
+              "le-saint-marcellin": "Le saint-marcellin"
+            }
+          },
+          "carte-beaufort": {
+            "prompt": "Touchez le département du Beaufortain, le pays du beaufort.",
+            "hint": "Il touche l'Italie et compte Chambéry.",
+            "anecdote": "La zone de production du fromage couvre aussi la Tarentaise et la Maurienne."
+          },
+          "bleu-gex": {
+            "prompt": "Quel fromage persillé vient du haut Jura, dans l'Ain et le Jura ?",
+            "hint": "Il porte le nom d'une petite ville du pays situé près de Genève.",
+            "anecdote": "Ce fromage de vache est aussi appelé bleu de Septmoncel. Il garde un léger goût de noisette.",
+            "answers": {
+              "le-bleu-de-gex": "Le bleu de Gex",
+              "la-fourme-d-ambert": "La fourme d'Ambert",
+              "le-bleu-d-auvergne": "Le bleu d'Auvergne",
+              "le-roquefort": "Le roquefort"
+            }
+          },
+          "saint-marcellin": {
+            "prompt": "Quel petit fromage rond et crémeux porte le nom d'une ville de l'Isère ?",
+            "hint": "Il se marie bien avec les noix du Dauphiné.",
+            "anecdote": "Longtemps fabriqué avec du lait de vache, parfois mêlé de chèvre, il se fait aujourd'hui uniquement au lait de vache.",
+            "answers": {
+              "le-saint-marcellin": "Le saint-marcellin",
+              "le-saint-nectaire": "Le saint-nectaire",
+              "le-saint-felicien": "Le saint-félicien",
+              "le-saint-paulin": "Le saint-paulin"
+            }
+          },
+          "louis-xi": {
+            "prompt": "Selon la légende, quel futur roi de France aurait découvert le saint-marcellin, lors d'une chasse dans le Dauphiné ?",
+            "hint": "Il a régné juste avant Charles VIII.",
+            "anecdote": "Attaqué par un ours, il aurait été sauvé par des bûcherons, qui lui auraient servi ce fromage.",
+            "answers": {
+              "louis-xi": "Louis XI",
+              "francois-ier": "François Ier",
+              "henri-iv": "Henri IV",
+              "louis-xiv": "Louis XIV"
+            }
+          },
+          "picodon": {
+            "prompt": "Quel petit fromage de chèvre, de la Drôme et de l'Ardèche, doit son nom à son goût piquant ?",
+            "hint": "Son nom ressemble au mot occitan « pica », qui signifie piquer.",
+            "anecdote": "Cette spécialité de chèvre a un petit format rond et plat. Elle bénéficie d'une appellation d'origine.",
+            "answers": {
+              "le-picodon": "Le picodon",
+              "le-rocamadour": "Le rocamadour",
+              "le-pelardon": "Le pélardon",
+              "le-crottin": "Le crottin"
+            }
+          },
+          "abondance": {
+            "prompt": "Quel fromage de Haute-Savoie porte le nom d'une vallée et d'une race de vaches ?",
+            "hint": "Son nom évoque aussi une grande quantité de biens.",
+            "anecdote": "Les moines de l'abbaye du même nom l'auraient développé dès le Moyen Âge, dans le Chablais.",
+            "answers": {
+              "l-abondance": "L'abondance",
+              "la-tomme-des-bauges": "La tomme des Bauges",
+              "le-beaufort": "Le beaufort",
+              "le-comte": "Le comté"
+            }
+          },
+          "tarine": {
+            "prompt": "Quelle race de vache, à la robe fauve et aux yeux cernés, vient de la Tarentaise ?",
+            "hint": "Son nom est proche de celui de cette vallée.",
+            "anecdote": "Rustique et bonne marcheuse, elle se déplace bien en alpage. Son lait sert notamment au beaufort.",
+            "answers": {
+              "la-tarine": "La tarine",
+              "la-charolaise": "La charolaise",
+              "l-aubrac": "L'aubrac",
+              "la-salers": "La salers"
+            }
+          },
+          "rigotte": {
+            "prompt": "Quel petit fromage de chèvre AOP porte le nom d'une commune du Rhône, sur les bords du fleuve ?",
+            "hint": "Cette commune est aussi connue pour ses vins blancs de viognier.",
+            "anecdote": "Elle est produite sur le massif du Pilat, dans des communes de la Loire et du Rhône. Elle est reconnue en AOP depuis 2013.",
+            "answers": {
+              "la-rigotte-de-condrieu": "La rigotte de Condrieu",
+              "le-saint-felicien": "Le saint-félicien",
+              "le-picodon": "Le picodon",
+              "le-pelardon": "Le pélardon"
+            }
+          },
+          "tartiflette": {
+            "prompt": "Quel plat réunit pommes de terre, lardons, oignons et fromage fondu ?",
+            "hint": "Son nom vient d'un mot savoyard pour la pomme de terre.",
+            "anecdote": "Cette recette est apparue dans les années 1980, à partir d'un plat savoyard plus ancien, la péla. Elle a fait connaître le reblochon.",
+            "answers": {
+              "la-tartiflette": "La tartiflette",
+              "la-raclette": "La raclette",
+              "le-gratin-dauphinois": "Le gratin dauphinois",
+              "la-fondue": "La fondue"
+            }
+          },
+          "fondue": {
+            "prompt": "Quel plat consiste à tremper du pain dans du fromage fondu au vin blanc ?",
+            "hint": "On le partage dans un caquelon, au centre de la table.",
+            "anecdote": "Les recettes associent généralement plusieurs fromages de la région : beaufort, comté et emmental par exemple.",
+            "answers": {
+              "la-fondue-savoyarde": "La fondue savoyarde",
+              "la-tartiflette": "La tartiflette",
+              "la-raclette": "La raclette",
+              "les-diots": "Les diots"
+            }
+          },
+          "gratin": {
+            "prompt": "Quel plat de pommes de terre, cuites dans du lait ou de la crème, vient de l'ancienne province autour de Grenoble ?",
+            "hint": "Cette province a donné son titre à l'héritier du trône de France.",
+            "anecdote": "La première mention connue du plat remonte à un repas de 1788, offert par le duc de Clermont-Tonnerre à Gap.",
+            "answers": {
+              "le-gratin-dauphinois": "Le gratin dauphinois",
+              "la-truffade": "La truffade",
+              "la-tartiflette": "La tartiflette",
+              "l-aligot": "L'aligot"
+            }
+          },
+          "diots": {
+            "prompt": "Comment appelle-t-on ces petites saucisses de Savoie, souvent cuites au vin blanc ?",
+            "hint": "Au singulier, ce nom ne compte que quatre lettres.",
+            "anecdote": "Ces saucisses se servent souvent avec de la polenta ou des crozets, de petites pâtes carrées.",
+            "answers": {
+              "les-diots": "Les diots",
+              "les-crozets": "Les crozets",
+              "les-andouillettes": "Les andouillettes",
+              "les-merguez": "Les merguez"
+            }
+          },
+          "quenelle": {
+            "prompt": "Quelle spécialité lyonnaise, à la chair légère et moelleuse, est souvent préparée avec du brochet ?",
+            "hint": "Son nom vient peut-être d'un mot allemand qui veut dire boulette.",
+            "anecdote": "Pochée puis gratinée au four, elle gonfle comme un soufflé.",
+            "answers": {
+              "la-quenelle": "La quenelle",
+              "la-rosette": "La rosette",
+              "le-tablier-de-sapeur": "Le tablier de sapeur",
+              "l-andouillette": "L'andouillette"
+            }
+          },
+          "nantua": {
+            "prompt": "Quelle sauce aux écrevisses, qui porte le nom d'une ville de l'Ain, accompagne traditionnellement la quenelle ?",
+            "hint": "Cette ville se trouve au bord d'un lac, dans le Haut-Bugey.",
+            "anecdote": "Les écrevisses venaient autrefois des lacs et des rivières du Bugey.",
+            "answers": {
+              "la-sauce-nantua": "La sauce Nantua",
+              "la-sauce-bearnaise": "La sauce béarnaise",
+              "la-sauce-mornay": "La sauce Mornay",
+              "la-sauce-gribiche": "La sauce gribiche"
+            }
+          },
+          "rosette": {
+            "prompt": "Quel gros saucisson sec lyonnais, en boyau de porc, porte un nom qui évoque une petite fleur ?",
+            "hint": "Son nom viendrait de la teinte de sa chair, ou de la forme du boyau.",
+            "anecdote": "Ce saucisson s'affine pendant plusieurs semaines. Il est très présent sur les tables des bouchons.",
+            "answers": {
+              "la-rosette": "La rosette",
+              "le-jesus": "Le jésus",
+              "le-cervelas": "Le cervelas",
+              "le-sabodet": "Le sabodet"
+            }
+          },
+          "cervelle": {
+            "prompt": "Quelle préparation lyonnaise de fromage blanc aux herbes porte un nom lié aux ouvriers de la soie ?",
+            "hint": "Ces ouvriers travaillaient sur la colline de la Croix-Rousse.",
+            "anecdote": "Aucune cervelle dans cette recette : ce nom moqueur refléterait le peu d'estime des Lyonnais aisés pour les canuts.",
+            "answers": {
+              "la-cervelle-de-canut": "La cervelle de canut",
+              "le-machon": "Le mâchon",
+              "la-cancoillotte": "La cancoillotte",
+              "la-quenelle": "La quenelle"
+            }
+          },
+          "bouchon": {
+            "prompt": "Comment appelle-t-on ce type de restaurant typiquement lyonnais ?",
+            "hint": "C'est aussi l'objet qui ferme une bouteille.",
+            "anecdote": "Le nom viendrait du bouchon de paille accroché aux auberges, à l'époque où on s'y arrêtait à cheval.",
+            "answers": {
+              "un-bouchon": "Un bouchon",
+              "une-auberge": "Une auberge",
+              "une-brasserie": "Une brasserie",
+              "un-estaminet": "Un estaminet"
+            }
+          },
+          "ravioles": {
+            "prompt": "Quelle spécialité de Romans-sur-Isère se présente sous forme de minuscules carrés de pâte farcis ?",
+            "hint": "On les farcit au fromage et au persil, et elles rappellent l'Italie.",
+            "anecdote": "Mentionnées dès 1228 dans la région, elles étaient préparées à domicile par des « ravioleuses », avant d'être servies dans les cafés de Romans à la fin du XIXe siècle.",
+            "answers": {
+              "les-ravioles": "Les ravioles",
+              "les-crozets": "Les crozets",
+              "les-gnocchis": "Les gnocchis",
+              "les-quenelles": "Les quenelles"
+            }
+          },
+          "bresse": {
+            "prompt": "De quelle région vient cette volaille à plumes blanches, à crête rouge et à pattes bleues ?",
+            "hint": "Bourg en est la capitale.",
+            "anecdote": "Protégée depuis 1957, cette volaille rappelle à elle seule les couleurs du drapeau français.",
+            "answers": {
+              "la-bresse": "La Bresse",
+              "la-dombes": "La Dombes",
+              "le-bugey": "Le Bugey",
+              "le-beaujolais": "Le Beaujolais"
+            }
+          },
+          "noix": {
+            "prompt": "Dans quelle vallée pousse principalement ce fruit à coque AOP du Dauphiné ?",
+            "hint": "La rivière de ce nom passe à Grenoble.",
+            "anecdote": "Ce fruit porte le nom de Grenoble. En 1938, il a été le premier fruit français à obtenir une AOC.",
+            "answers": {
+              "la-vallee-de-l-isere": "La vallée de l'Isère",
+              "la-vallee-de-la-loire": "La vallée de la Loire",
+              "la-vallee-de-l-ain": "La vallée de l'Ain",
+              "la-vallee-de-l-arve": "La vallée de l'Arve"
+            }
+          },
+          "olives": {
+            "prompt": "Quelle ville de la Drôme donne son nom à ces olives noires et ridées ?",
+            "hint": "Elle se trouve dans la Drôme provençale, sur l'Eygues.",
+            "anecdote": "Ces olives viennent d'une variété locale, la tanche. Elles sont protégées par une AOP."
+          },
+          "pontias": {
+            "prompt": "Quel vent local souffle sur cette ville de la Drôme, à la fin de la nuit et au petit matin ?",
+            "hint": "Son nom ressemble à celui d'un pont.",
+            "anecdote": "Il descend de la vallée de l'Eygues. Cette brise purifie et rafraîchit l'air de la ville, à l'abri du mistral, où mûrissent les olives.",
+            "answers": {
+              "le-pontias": "Le pontias",
+              "le-mistral": "Le mistral",
+              "la-tramontane": "La tramontane",
+              "le-foehn": "Le foehn"
+            }
+          },
+          "lavande": {
+            "prompt": "Quelle plante parfumée récolte-t-on ainsi en été dans la Drôme provençale ?",
+            "hint": "Ses fleurs violettes parfument les armoires.",
+            "anecdote": "Elle est ensuite distillée pour obtenir une huile essentielle utilisée en parfumerie et en cosmétique.",
+            "answers": {
+              "la-lavande": "La lavande",
+              "le-thym": "Le thym",
+              "le-romarin": "Le romarin",
+              "le-safran": "Le safran"
+            }
+          },
+          "carte-chataigne": {
+            "prompt": "Touchez le département de la châtaigne AOP, dont Privas fait son marron glacé.",
+            "hint": "Il se trouve à l'ouest du Rhône, au sud du territoire.",
+            "anecdote": "Le châtaignier y a longtemps été surnommé l'arbre à pain, car ses fruits ont nourri les habitants pendant des siècles."
+          },
+          "carte-truffe": {
+            "prompt": "Touchez le département de Saint-Paul-Trois-Châteaux, une ville réputée pour sa truffe noire.",
+            "hint": "Il se trouve à l'est du Rhône, au sud du territoire.",
+            "anecdote": "Le Tricastin, autour de cette ville, est l'un des grands terroirs français de la truffe noire."
+          },
+          "beaujolais": {
+            "prompt": "Quel vignoble, au nord de Lyon, fête son vin nouveau chaque troisième jeudi de novembre ?",
+            "hint": "Son nom vient de la ville de Beaujeu.",
+            "anecdote": "Depuis 1985, le jour de cette fête est fixé au troisième jeudi de novembre.",
+            "answers": {
+              "le-beaujolais": "Le Beaujolais",
+              "le-bugey": "Le Bugey",
+              "la-cote-rotie": "La Côte-Rôtie",
+              "la-savoie": "La Savoie"
+            }
+          },
+          "gamay": {
+            "prompt": "Quel cépage rouge est le principal du vignoble au nord de Lyon ?",
+            "hint": "Son nom commence comme gamelle.",
+            "anecdote": "Philippe le Hardi l'avait banni de la Bourgogne en 1395. Il a trouvé sa terre d'élection plus au sud.",
+            "answers": {
+              "le-gamay": "Le gamay",
+              "la-syrah": "La syrah",
+              "le-pinot-noir": "Le pinot noir",
+              "la-mondeuse": "La mondeuse"
+            }
+          },
+          "cote-rotie": {
+            "prompt": "Quelle appellation de la vallée du Rhône, sur les pentes d'Ampuis, doit son nom au soleil ?",
+            "hint": "Son nom suggère une pente passée au four.",
+            "anecdote": "Ce vin rouge de syrah pousse sur des terrasses très raides, en rive droite du fleuve.",
+            "answers": {
+              "la-cote-rotie": "La Côte-Rôtie",
+              "le-saint-joseph": "Le Saint-Joseph",
+              "le-cornas": "Le Cornas",
+              "le-crozes-hermitage": "Le Crozes-Hermitage"
+            }
+          },
+          "clairette": {
+            "prompt": "Quel type de vin est cette spécialité de la vallée de la Drôme ?",
+            "hint": "De petites bulles remontent dans sa flûte.",
+            "anecdote": "Sa méthode dioise ancestrale laisse le vin finir sa fermentation en bouteille.",
+            "answers": {
+              "un-vin-effervescent": "Un vin effervescent",
+              "un-vin-rouge-tannique": "Un vin rouge tannique",
+              "un-vin-jaune": "Un vin jaune",
+              "un-vin-de-paille": "Un vin de paille"
+            }
+          },
+          "chartreuse": {
+            "prompt": "Combien de plantes entrent, selon les moines qui la fabriquent, dans la recette de cette liqueur ?",
+            "hint": "C'est un peu plus d'une centaine.",
+            "anecdote": "La recette est tenue secrète. Seuls quelques moines la connaissent, et la composition n'a jamais été publiée.",
+            "answers": {
+              "environ-130": "Environ 130",
+              "environ-10": "Environ 10",
+              "environ-30": "Environ 30",
+              "environ-1-000": "Environ 1 000"
+            }
+          },
+          "evian": {
+            "prompt": "Quelle eau minérale célèbre doit son origine à cette source Cachat, sur la rive du Léman ?",
+            "hint": "La ville porte le même nom, avec « les-Bains » en plus.",
+            "anecdote": "Le marquis de Lessert y aurait soigné ses calculs rénaux à la fin du XVIIIe siècle. L'eau a ensuite fait la fortune de la ville.",
+            "answers": {
+              "evian": "Évian",
+              "vittel": "Vittel",
+              "contrexeville": "Contrexéville",
+              "volvic": "Volvic"
+            }
+          },
+          "genepi": {
+            "prompt": "Quelle liqueur des Alpes est préparée à partir d'une petite armoise de haute montagne ?",
+            "hint": "Le mot se termine par un i.",
+            "anecdote": "La plante pousse à haute altitude, sur les rochers. Sa cueillette est réglementée.",
+            "answers": {
+              "le-genepi": "Le génépi",
+              "la-gentiane": "La gentiane",
+              "le-pastis": "Le pastis",
+              "le-kirsch": "Le kirsch"
+            }
+          },
+          "pralines": {
+            "prompt": "Quelle tarte lyonnaise doit sa couleur rouge à des amandes enrobées de sucre ?",
+            "hint": "Elles sont vendues aussi concassées.",
+            "anecdote": "Cette tarte s'est imposée comme un dessert de bouchons lyonnais.",
+            "answers": {
+              "la-tarte-aux-pralines": "La tarte aux pralines",
+              "la-tarte-tatin": "La tarte Tatin",
+              "la-tarte-au-citron": "La tarte au citron",
+              "la-tarte-aux-myrtilles": "La tarte aux myrtilles"
+            }
+          },
+          "nougat": {
+            "prompt": "Quelle ville de la Drôme est célèbre pour cette confiserie aux amandes et au miel ?",
+            "hint": "Le mot « Mont » commence son nom.",
+            "anecdote": "L'arrivée de l'amandier dans la région, à partir du XVIIe siècle, aurait lancé cette production locale."
+          },
+          "pogne": {
+            "prompt": "Comment s'appelle cette brioche en couronne, parfumée à la fleur d'oranger, de Romans-sur-Isère ?",
+            "hint": "Son nom ressemble à un mot familier qui désigne la main.",
+            "anecdote": "Le nom viendrait du fait qu'on la pétrit à pleines mains. Elle se préparait traditionnellement à Pâques.",
+            "answers": {
+              "la-pogne": "La pogne",
+              "la-fouace": "La fouace",
+              "le-kouglof": "Le kouglof",
+              "la-brioche-de-saint-genix": "La brioche de Saint-Genix"
+            }
+          },
+          "coussin": {
+            "prompt": "Quelle confiserie lyonnaise, verte et fourrée au chocolat, évoque un épisode de peste de 1643 ?",
+            "hint": "Elle a la forme de l'objet sur lequel on repose la tête.",
+            "anecdote": "Les échevins auraient porté à la Vierge un cierge et une pièce d'or, posés sur un objet de cette forme. La confiserie a été créée en 1960 par le chocolatier Voisin.",
+            "answers": {
+              "le-coussin-de-lyon": "Le coussin de Lyon",
+              "la-papillote": "La papillote",
+              "le-marron-glace": "Le marron glacé",
+              "le-bugnon": "Le bugnon"
+            }
+          },
+          "marron": {
+            "prompt": "Quelle confiserie, préparée avec un fruit cuit dans du sucre, fait la réputation de Privas ?",
+            "hint": "Ce fruit tombe des arbres en automne, dans sa bogue.",
+            "anecdote": "L'industrie du marron glacé naît à Privas en 1882, alors que la sériciculture est en crise. Clément Faugier lui donne ensuite son renom.",
+            "answers": {
+              "le-marron-glace": "Le marron glacé",
+              "le-calisson": "Le calisson",
+              "le-berlingot": "Le berlingot",
+              "la-praline": "La praline"
+            }
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Lyon et ses traboules, Vienne la romaine, châteaux, abbayes et villages perchés de la vallée du Rhône aux Alpes.",
+          "fourviere": {
+            "prompt": "Quel surnom moqueur les Lyonnais donnent-ils à cette basilique ?",
+            "hint": "Ses quatre tours font penser à des pattes tournées vers le ciel.",
+            "anecdote": "Elle a été construite à la fin du XIXe siècle, sur la colline qui domine la ville. Une statue dorée de la Vierge se dresse à côté.",
+            "answers": {
+              "l-elephant-renverse": "L'éléphant renversé",
+              "la-tortue-blanche": "La tortue blanche",
+              "le-gros-gateau": "Le gros gâteau",
+              "le-chateau-de-sucre": "Le château de sucre"
+            }
+          },
+          "theatre": {
+            "prompt": "Quelle ville romaine se trouvait autour de ce théâtre antique ?",
+            "hint": "Son nom latin ressemble à celui de la ville actuelle.",
+            "anecdote": "Ce théâtre, redécouvert au XXe siècle, accueille encore des spectacles en été.",
+            "answers": {
+              "lugdunum": "Lugdunum",
+              "augustonemetum": "Augustonemetum",
+              "nemausus": "Nemausus",
+              "massilia": "Massilia"
+            }
+          },
+          "horloge": {
+            "prompt": "Dans quel édifice lyonnais peut-on voir cette horloge astronomique ?",
+            "hint": "Cet édifice se trouve dans le Vieux Lyon, au pied de Fourvière.",
+            "anecdote": "Cette horloge se met en mouvement à certaines heures de la journée, avec ses automates.",
+            "answers": {
+              "la-cathedrale-saint-jean": "La cathédrale Saint-Jean",
+              "la-basilique-saint-nizier": "La basilique Saint-Nizier",
+              "l-abbaye-d-ainay": "L'abbaye d'Ainay",
+              "l-eglise-saint-bruno": "L'église Saint-Bruno"
+            }
+          },
+          "temple-vienne": {
+            "prompt": "Dans quelle ville de l'Isère, au bord du Rhône, se dresse ce temple romain ?",
+            "hint": "Son nom est aussi celui de la capitale de l'Autriche.",
+            "anecdote": "Dédié à Auguste et à Livie, il a été préservé parce qu'il a servi d'église."
+          },
+          "pyramide": {
+            "prompt": "Quel équipement romain cette pyramide ornait-elle, dans l'Antiquité ?",
+            "hint": "On y faisait courir des chars.",
+            "anecdote": "Elle se dressait sur l'arête centrale de la piste. Au Moyen Âge, on racontait qu'elle était le tombeau de Ponce Pilate.",
+            "answers": {
+              "un-cirque": "Un cirque",
+              "un-theatre": "Un théâtre",
+              "des-thermes": "Des thermes",
+              "un-aqueduc": "Un aqueduc"
+            }
+          },
+          "brou": {
+            "prompt": "Dans quelle ville de l'Ain se trouve ce monastère royal aux tuiles vernissées ?",
+            "hint": "C'est la préfecture du département.",
+            "anecdote": "Ce chef-d'œuvre du gothique flamboyant a été construit au début du XVIe siècle."
+          },
+          "brou-tombeau": {
+            "prompt": "Quelle princesse a fait bâtir ce monastère de l'Ain, où elle repose avec son mari ?",
+            "hint": "Elle a été gouvernante des Pays-Bas et duchesse de Savoie.",
+            "anecdote": "Elle voulait y honorer la mémoire de son époux, Philibert le Beau, mort en 1504.",
+            "answers": {
+              "marguerite-d-autriche": "Marguerite d'Autriche",
+              "anne-de-bretagne": "Anne de Bretagne",
+              "louise-de-savoie": "Louise de Savoie",
+              "catherine-de-medicis": "Catherine de Médicis"
+            }
+          },
+          "antonins": {
+            "prompt": "Quel ordre hospitalier, qui soignait le mal des ardents, a marqué cette abbaye de l'Isère ?",
+            "hint": "Son nom vient du saint dont les reliques étaient conservées ici.",
+            "anecdote": "Le mal des ardents était provoqué par un champignon du seigle. Les pèlerins venaient de loin pour en guérir.",
+            "answers": {
+              "les-antonins": "Les Antonins",
+              "les-cisterciens": "Les Cisterciens",
+              "les-templiers": "Les Templiers",
+              "les-chartreux": "Les Chartreux"
+            }
+          },
+          "palais-ideal": {
+            "prompt": "Quel métier exerçait l'homme qui a construit seul cet édifice, à Hauterives ?",
+            "hint": "Il ramassait ses pierres lors de ses tournées à pied.",
+            "anecdote": "Ferdinand Cheval y a travaillé pendant 33 ans, de 1879 à 1912. Le monument a été classé en 1969.",
+            "answers": {
+              "facteur": "Facteur",
+              "macon": "Maçon",
+              "instituteur": "Instituteur",
+              "boulanger": "Boulanger"
+            }
+          },
+          "grignan": {
+            "prompt": "Quelle marquise, célèbre pour ses lettres à sa fille, est morte dans ce château de la Drôme ?",
+            "hint": "Sa correspondance est un monument de la littérature du XVIIe siècle.",
+            "anecdote": "Sa fille avait épousé le comte de Grignan, lieutenant général en Provence. La marquise est morte ici en 1696.",
+            "answers": {
+              "madame-de-sevigne": "Madame de Sévigné",
+              "madame-de-pompadour": "Madame de Pompadour",
+              "madame-de-la-fayette": "Madame de La Fayette",
+              "madame-de-maintenon": "Madame de Maintenon"
+            }
+          },
+          "suaire": {
+            "prompt": "Quelle relique, ensuite transférée à Turin en 1578, a été conservée dans ce château de Chambéry ?",
+            "hint": "Ce long linge porterait l'image d'un homme.",
+            "anecdote": "Elle a été abîmée par un incendie de la Sainte-Chapelle en 1532. On en voit encore les traces.",
+            "answers": {
+              "le-saint-suaire": "Le saint suaire",
+              "la-sainte-couronne": "La sainte couronne",
+              "la-sainte-lance": "La sainte lance",
+              "le-saint-calice": "Le saint calice"
+            }
+          },
+          "vizille": {
+            "prompt": "Quel musée occupe aujourd'hui ce château de l'Isère ?",
+            "hint": "En 1788, une assemblée s'y est réunie pour réclamer les états généraux.",
+            "anecdote": "Le connétable de Lesdiguières a fait élever ce château au XVIIe siècle.",
+            "answers": {
+              "le-musee-de-la-revolution-francaise": "Le musée de la Révolution française",
+              "le-musee-de-la-resistance": "Le musée de la Résistance",
+              "le-musee-de-la-chartreuse": "Le musée de la Chartreuse",
+              "le-musee-de-la-houille-blanche": "Le musée de la Houille blanche"
+            }
+          },
+          "charlieu": {
+            "prompt": "Dans quel département se trouve cette abbaye bénédictine, près de Roanne ?",
+            "hint": "Il porte le nom du plus long fleuve de France.",
+            "anecdote": "Ce site roman est réputé pour ses portails sculptés, parmi les plus remarquables du Brionnais.",
+            "answers": {
+              "la-loire": "La Loire",
+              "le-rhone": "Le Rhône",
+              "l-ain": "L'Ain",
+              "l-ardeche": "L'Ardèche"
+            }
+          },
+          "astree": {
+            "prompt": "Quel long roman pastoral, écrit par un seigneur de ce château du Forez, a connu un grand succès au XVIIe siècle ?",
+            "hint": "Il raconte les amours d'une bergère et de Céladon.",
+            "anecdote": "Honoré d'Urfé a situé son histoire sur les bords du Lignon, dans le Forez où il a grandi.",
+            "answers": {
+              "l-astree": "L'Astrée",
+              "la-princesse-de-cleves": "La Princesse de Clèves",
+              "le-roman-de-la-rose": "Le Roman de la Rose",
+              "candide": "Candide"
+            }
+          },
+          "hautecombe": {
+            "prompt": "Quelle famille princière a sa nécropole dans cette abbaye, au bord du lac du Bourget ?",
+            "hint": "Elle a régné sur la région avant de monter sur le trône d'Italie.",
+            "anecdote": "Le dernier roi d'Italie, Humbert II, y a été enterré en 1983.",
+            "answers": {
+              "la-maison-de-savoie": "La maison de Savoie",
+              "les-medicis": "Les Médicis",
+              "les-bourbons": "Les Bourbons",
+              "les-habsbourg": "Les Habsbourg"
+            }
+          },
+          "crest": {
+            "prompt": "Dans quel département se dresse cette tour, souvent présentée comme le plus haut donjon de France ?",
+            "hint": "Sa préfecture est Valence.",
+            "anecdote": "Elle dépasse 50 mètres de hauteur et a longtemps servi de prison.",
+            "answers": {
+              "la-drome": "La Drôme",
+              "l-ardeche": "L'Ardèche",
+              "l-isere": "L'Isère",
+              "la-loire": "La Loire"
+            }
+          },
+          "viviers": {
+            "prompt": "Quelle petite cité épiscopale de l'Ardèche a donné son nom à l'ancien pays du Vivarais ?",
+            "hint": "Son nom ressemble à celui de l'ancienne province.",
+            "anecdote": "Elle se dresse au-dessus du Rhône, avec sa cathédrale et sa vieille ville."
+          },
+          "maison-tetes": {
+            "prompt": "Dans quelle ville de la Drôme admire-t-on cette façade du XVIe siècle couverte de visages ?",
+            "hint": "C'est la ville du kiosque Peynet.",
+            "anecdote": "Elle a été construite vers 1530 pour Antoine de Dorne, professeur de droit et consul de la ville."
+          },
+          "cure-ars": {
+            "prompt": "Quel saint, connu comme le curé d'Ars, attire les pèlerins dans ce village de l'Ain ?",
+            "hint": "Il est devenu le patron de tous les curés.",
+            "anecdote": "Il a passé plus de quarante ans dans ce village, jusqu'à sa mort en 1859. Il a été canonisé en 1925.",
+            "answers": {
+              "jean-marie-vianney": "Jean-Marie Vianney",
+              "francois-de-sales": "François de Sales",
+              "vincent-de-paul": "Vincent de Paul",
+              "jean-bosco": "Jean Bosco"
+            }
+          },
+          "traboule": {
+            "prompt": "Comment appelle-t-on ces passages lyonnais, qui traversent les immeubles d'une rue à l'autre ?",
+            "hint": "Le nom viendrait du latin « trans ambulare », passer à travers.",
+            "anecdote": "Ces passages ont notamment servi aux canuts à transporter la soie à l'abri, puis aux résistants.",
+            "answers": {
+              "les-traboules": "Les traboules",
+              "les-ruelles": "Les ruelles",
+              "les-venelles": "Les venelles",
+              "les-galeries": "Les galeries"
+            }
+          },
+          "bellecour": {
+            "prompt": "Quel roi est représenté par cette statue équestre, sur la grande place Bellecour de Lyon ?",
+            "hint": "On le surnomme le Roi-Soleil.",
+            "anecdote": "La statue actuelle a été installée en 1825. La précédente avait été détruite à la Révolution.",
+            "answers": {
+              "louis-xiv": "Louis XIV",
+              "henri-iv": "Henri IV",
+              "francois-ier": "François Ier",
+              "napoleon": "Napoléon"
+            }
+          },
+          "ficelle": {
+            "prompt": "Quel surnom les Lyonnais donnent-ils à leurs funiculaires ?",
+            "hint": "C'est aussi un petit cordon, et un pain très fin.",
+            "anecdote": "Les premières lignes ont été créées au XIXe siècle, pour monter sur les collines de la ville.",
+            "answers": {
+              "la-ficelle": "La ficelle",
+              "la-pente": "La pente",
+              "le-cremaillon": "Le crémaillon",
+              "le-serpent": "Le serpent"
+            }
+          },
+          "unesco": {
+            "prompt": "En quelle année le site historique de Lyon a-t-il été inscrit au patrimoine mondial de l'Unesco ?",
+            "hint": "C'est à la fin du XXe siècle, l'année d'une Coupe du monde en France.",
+            "anecdote": "Le site comprend notamment le Vieux Lyon, Fourvière, la Presqu'île et les pentes de la Croix-Rousse.",
+            "answers": {
+              "1975": "1975",
+              "1988": "1988",
+              "1998": "1998",
+              "2008": "2008"
+            }
+          },
+          "perouges": {
+            "prompt": "Quelle spécialité sucrée fait la renommée de ce village médiéval de l'Ain ?",
+            "hint": "C'est une pâte plate, garnie de beurre et de sucre.",
+            "anecdote": "Ce village fortifié a souvent servi de décor au cinéma, notamment pour « Les Trois Mousquetaires ».",
+            "answers": {
+              "la-galette-au-sucre": "La galette au sucre",
+              "le-pain-d-epices": "Le pain d'épices",
+              "le-nougat": "Le nougat",
+              "le-macaron": "Le macaron"
+            }
+          },
+          "yvoire": {
+            "prompt": "Au bord de quel lac se trouve ce château, dans un village médiéval de Haute-Savoie ?",
+            "hint": "La rive d'en face est suisse.",
+            "anecdote": "Ce village fleuri a fêté ses 700 ans en 2006. Ses fortifications remontent au XIVe siècle.",
+            "answers": {
+              "le-leman": "Le Léman",
+              "le-lac-d-annecy": "Le lac d'Annecy",
+              "le-lac-du-bourget": "Le lac du Bourget",
+              "le-lac-de-paladru": "Le lac de Paladru"
+            }
+          },
+          "cremieu": {
+            "prompt": "Dans quel département peut-on voir cette halle ancienne de Crémieu ?",
+            "hint": "Sa préfecture est Grenoble.",
+            "anecdote": "Cette cité marchande garde sa halle du Moyen Âge, ses remparts et ses maisons anciennes.",
+            "answers": {
+              "l-isere": "L'Isère",
+              "l-ain": "L'Ain",
+              "le-rhone": "Le Rhône",
+              "la-drome": "La Drôme"
+            }
+          },
+          "pierres-dorees": {
+            "prompt": "Comment appelle-t-on ce secteur du sud du Beaujolais, à cause de la couleur de sa roche ?",
+            "hint": "Cette couleur rappelle le métal précieux.",
+            "anecdote": "Ce calcaire ocre, chargé d'oxyde de fer, donne aux villages une teinte chaude, surtout en fin de journée.",
+            "answers": {
+              "le-pays-des-pierres-dorees": "Le pays des Pierres dorées",
+              "le-pays-des-pierres-noires": "Le pays des Pierres noires",
+              "la-vallee-d-or": "La vallée d'Or",
+              "la-cote-d-or": "La Côte d'Or"
+            }
+          },
+          "balazuc": {
+            "prompt": "Au-dessus de quelle rivière ce village se dresse-t-il sur sa falaise ?",
+            "hint": "Plus en aval, elle passe sous le pont d'Arc.",
+            "anecdote": "Ce village, l'un des plus beaux de France, a gardé ses ruelles, sa tour et son église romane.",
+            "answers": {
+              "l-ardeche": "L'Ardèche",
+              "la-drome": "La Drôme",
+              "l-isere": "L'Isère",
+              "l-ain": "L'Ain"
+            }
+          },
+          "conflans": {
+            "prompt": "De quelle ville savoyarde cette cité médiévale de Conflans fait-elle aujourd'hui partie ?",
+            "hint": "Cette ville a accueilli des Jeux olympiques d'hiver.",
+            "anecdote": "Conflans a fusionné en 1836 avec le bourg de l'Hôpital, pour former une ville nommée d'après le roi Charles-Albert."
+          },
+          "design": {
+            "prompt": "Quelle ville a transformé son ancienne manufacture d'armes en cité du design ?",
+            "hint": "C'est la préfecture de la Loire.",
+            "anecdote": "L'Unesco l'a inscrite dans son réseau des villes créatives pour le design, en 2010."
+          },
+          "manufrance": {
+            "prompt": "Quelle entreprise stéphanoise, célèbre pour son catalogue, occupait ces bâtiments ?",
+            "hint": "Son nom réunit le mot « manufacture » et le nom d'un pays.",
+            "anecdote": "Elle a vendu par correspondance des armes, des cycles et des machines à coudre. Elle a fermé en 1985.",
+            "answers": {
+              "manufrance": "Manufrance",
+              "la-redoute": "La Redoute",
+              "casino": "Casino",
+              "les-3-suisses": "Les 3 Suisses"
+            }
+          },
+          "couriot": {
+            "prompt": "Quelle activité évoque cette salle des pendus, conservée à Saint-Étienne ?",
+            "hint": "Les hommes y laissaient leurs vêtements avant de descendre.",
+            "anecdote": "Ces chaînes permettaient de sécher les vêtements près du plafond. Le site est devenu un musée.",
+            "answers": {
+              "la-mine-de-charbon": "La mine de charbon",
+              "la-soie": "La soie",
+              "l-armurerie": "L'armurerie",
+              "la-metallurgie-du-cycle": "La métallurgie du cycle"
+            }
+          },
+          "gratte-ciel": {
+            "prompt": "Quelle ville voisine de Lyon a bâti ses Gratte-Ciel dans les années 1930 ?",
+            "hint": "Son maire Lazare Goujon a lancé ce grand projet.",
+            "anecdote": "Ce quartier réunit un hôtel de ville, un théâtre et des immeubles avec tout le confort moderne de l'époque.",
+            "answers": {
+              "venissieux": "Vénissieux",
+              "vaulx-en-velin": "Vaulx-en-Velin",
+              "caluire-et-cuire": "Caluire-et-Cuire"
+            }
+          },
+          "carte-venise": {
+            "prompt": "Touchez le département de la ville surnommée la Venise des Alpes.",
+            "hint": "Il se trouve au nord-est du territoire.",
+            "anecdote": "Le surnom vient des canaux de la vieille ville, alimentés par le Thiou, qui sort du lac."
+          },
+          "carte-bastille": {
+            "prompt": "Touchez le département où un téléphérique monte depuis 1934 au fort de la Bastille.",
+            "hint": "Il se trouve au centre du territoire.",
+            "anecdote": "Le fort, achevé au XIXe siècle par le général Haxo, domine la ville et la vallée de l'Isère."
+          },
+          "carte-firminy": {
+            "prompt": "Touchez le département de Firminy, où se trouve un ensemble d'édifices de Le Corbusier.",
+            "hint": "Il se trouve à l'ouest du territoire.",
+            "anecdote": "Le site réunit notamment une église, une maison de la culture et une unité d'habitation."
+          },
+          "ampere": {
+            "prompt": "Quel savant, lié à Lyon, a donné son nom à l'unité d'intensité électrique ?",
+            "hint": "Le mot est utilisé sur tous les disjoncteurs, abrégé en A.",
+            "anecdote": "Il a posé les bases de l'électrodynamique. Son enfance s'est passée à Poleymieux, près de Lyon.",
+            "answers": {
+              "andre-marie-ampere": "André-Marie Ampère",
+              "alessandro-volta": "Alessandro Volta",
+              "georg-ohm": "Georg Ohm",
+              "charles-de-coulomb": "Charles de Coulomb"
+            }
+          },
+          "stendhal": {
+            "prompt": "Quel roman a écrit cet auteur né à Grenoble en 1783 ?",
+            "hint": "Son titre associe deux couleurs.",
+            "anecdote": "De son vrai nom Henri Beyle, il a beaucoup critiqué sa ville natale, où il a passé son enfance.",
+            "answers": {
+              "le-rouge-et-le-noir": "Le Rouge et le Noir",
+              "germinal": "Germinal",
+              "madame-bovary": "Madame Bovary",
+              "les-miserables": "Les Misérables"
+            }
+          },
+          "champollion": {
+            "prompt": "Quelle écriture le plus jeune des deux frères à qui ce musée de l'Isère est consacré a-t-il déchiffrée ?",
+            "hint": "Elle était gravée sur les temples d'Égypte.",
+            "anecdote": "Il a annoncé sa découverte en 1822, en s'appuyant notamment sur la pierre de Rosette.",
+            "answers": {
+              "les-hieroglyphes": "Les hiéroglyphes",
+              "le-cuneiforme": "Le cunéiforme",
+              "le-lineaire-b": "Le linéaire B",
+              "les-runes": "Les runes"
+            }
+          },
+          "charmettes": {
+            "prompt": "Quel philosophe a vécu dans cette maison près de Chambéry, auprès de Madame de Warens ?",
+            "hint": "Il est l'auteur des « Confessions » et du « Contrat social ».",
+            "anecdote": "Il y a séjourné par périodes entre 1736 et 1742, des années heureuses qu'il décrit dans ses Confessions.",
+            "answers": {
+              "jean-jacques-rousseau": "Jean-Jacques Rousseau",
+              "voltaire": "Voltaire",
+              "diderot": "Diderot",
+              "montesquieu": "Montesquieu"
+            }
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Soie lyonnaise, couteaux savoyards, houille blanche, marionnettes, fêtes et inventeurs de génie.",
+          "canuts": {
+            "prompt": "Comment appelait-on les ouvriers de la soie à Lyon ?",
+            "hint": "Ce mot court se termine par un t muet.",
+            "anecdote": "Ils travaillaient surtout à la Croix-Rousse, dans des appartements aux plafonds très hauts, adaptés aux métiers à tisser.",
+            "answers": {
+              "les-canuts": "Les canuts",
+              "les-drapiers": "Les drapiers",
+              "les-gones": "Les gones",
+              "les-magnans": "Les magnans"
+            }
+          },
+          "bistanclaque": {
+            "prompt": "Quel mot imitatif désigne, à Lyon, le bruit des métiers à tisser ?",
+            "hint": "Il imite un claquement répété, et commence comme bistrot.",
+            "anecdote": "Ce bruit résonnait autrefois dans tout le quartier de la Croix-Rousse.",
+            "answers": {
+              "bistanclaque": "Bistanclaque",
+              "tic-tac": "Tic-tac",
+              "patatras": "Patatras",
+              "flonflon": "Flonflon"
+            }
+          },
+          "ruban": {
+            "prompt": "Quel produit textile a fait, avec les armes et les cycles, la réputation de Saint-Étienne ?",
+            "hint": "Il sert à nouer un cadeau.",
+            "anecdote": "Le musée d'Art et d'Industrie de la ville conserve une importante collection sur cette activité.",
+            "answers": {
+              "le-ruban": "Le ruban",
+              "la-dentelle": "La dentelle",
+              "le-velours": "Le velours",
+              "le-drap-de-laine": "Le drap de laine"
+            }
+          },
+          "opinel": {
+            "prompt": "Dans quel département ce couteau a-t-il été mis au point, vers 1890 ?",
+            "hint": "Sa préfecture est Chambéry.",
+            "anecdote": "Joseph Opinel a imaginé ce couteau de poche dans un petit atelier de Maurienne. Son fils Marcel a ajouté en 1955 une bague de sécurité, le Virobloc.",
+            "answers": {
+              "la-savoie": "La Savoie",
+              "la-haute-savoie": "La Haute-Savoie",
+              "la-loire": "La Loire",
+              "l-isere": "L'Isère"
+            }
+          },
+          "main-couronnee": {
+            "prompt": "Quel symbole figure sur la lame des couteaux Opinel ?",
+            "hint": "Ce sont les armes de Saint-Jean-de-Maurienne, qui garde des reliques de saint Jean-Baptiste.",
+            "anecdote": "Joseph Opinel l'a choisi en 1909 : la main vient des armes de Saint-Jean-de-Maurienne, la couronne rappelle le duché de Savoie.",
+            "answers": {
+              "une-main-couronnee": "Une main couronnée",
+              "une-croix-blanche": "Une croix blanche",
+              "un-aigle": "Un aigle",
+              "une-tete-de-bouquetin": "Une tête de bouquetin"
+            }
+          },
+          "emaux": {
+            "prompt": "De quelle région de l'Ain viennent ces bijoux dorés aux émaux colorés ?",
+            "hint": "On y élève aussi une volaille célèbre.",
+            "anecdote": "Fabriqués à Bourg-en-Bresse, ces émaux sont posés sur une plaque d'or ou d'argent et décorés de paillons d'or. Ils ornaient autrefois les parures de fête.",
+            "answers": {
+              "la-bresse": "La Bresse",
+              "le-bugey": "Le Bugey",
+              "la-dombes": "La Dombes",
+              "le-pays-de-gex": "Le pays de Gex"
+            }
+          },
+          "chaussure": {
+            "prompt": "Quelle industrie a fait la réputation de Romans-sur-Isère, que retrace ce musée ?",
+            "hint": "Elle a fait la renommée de grands noms comme Jourdan et Clergerie.",
+            "anecdote": "Le musée est installé dans l'ancien couvent de la Visitation.",
+            "answers": {
+              "la-chaussure": "La chaussure",
+              "le-gant": "Le gant",
+              "la-soie": "La soie",
+              "le-chapeau": "Le chapeau"
+            }
+          },
+          "canson": {
+            "prompt": "Quelle marque de papier à dessin est née à Annonay, dans la famille Montgolfier ?",
+            "hint": "Elle porte le nom d'un gendre de la famille.",
+            "anecdote": "Le papier est une tradition ancienne dans la vallée de la Deûme, à Annonay. Les Montgolfier eux-mêmes étaient papetiers.",
+            "answers": {
+              "canson": "Canson",
+              "clairefontaine": "Clairefontaine",
+              "arches": "Arches",
+              "rhodia": "Rhodia"
+            }
+          },
+          "gants": {
+            "prompt": "Quel accessoire a fait la fortune de Grenoble au XIXe siècle, grâce aux innovations de Xavier Jouvin ?",
+            "hint": "Il protège la main.",
+            "anecdote": "En 1834, il a mis au point un système de tailles, puis en 1838 un emporte-pièce appelé « main de fer ».",
+            "answers": {
+              "le-gant": "Le gant",
+              "le-parapluie": "Le parapluie",
+              "le-chapeau": "Le chapeau",
+              "le-bouton": "Le bouton"
+            }
+          },
+          "houille-blanche": {
+            "prompt": "Quelle expression l'ingénieur Aristide Bergès a-t-il popularisée pour l'énergie des chutes d'eau ?",
+            "hint": "Ce n'est pas du charbon, malgré son nom.",
+            "anecdote": "Il a installé à Lancey, dans le Grésivaudan, des conduites forcées pour alimenter sa râperie, puis sa papeterie. Il a popularisé l'expression à l'Exposition universelle de 1889.",
+            "answers": {
+              "la-houille-blanche": "La houille blanche",
+              "l-or-bleu": "L'or bleu",
+              "la-force-des-torrents": "La force des torrents",
+              "l-energie-verte": "L'énergie verte"
+            }
+          },
+          "rossignol": {
+            "prompt": "Quelle marque de ski est née à Voiron, en Isère, au début du XXe siècle ?",
+            "hint": "Elle porte le nom d'un petit oiseau chanteur.",
+            "anecdote": "Abel Rossignol, menuisier à Voiron qui fabriquait des pièces en bois pour le textile, a produit ses premiers skis en bois en 1907.",
+            "answers": {
+              "rossignol": "Rossignol",
+              "salomon": "Salomon",
+              "dynastar": "Dynastar",
+              "fischer": "Fischer"
+            }
+          },
+          "carte-decolletage": {
+            "prompt": "Touchez le département de la vallée de l'Arve, capitale française du décolletage.",
+            "hint": "Il touche la Suisse et l'Italie.",
+            "anecdote": "Cette technique produit de petites pièces de métal très précises. Elle s'est développée à partir de l'horlogerie."
+          },
+          "carte-plastique": {
+            "prompt": "Touchez le département d'Oyonnax, au cœur de la Plastics Vallée.",
+            "hint": "Il se trouve au nord du territoire, près du Jura.",
+            "anecdote": "Cette spécialité est née des peignes en buis et en corne, puis du celluloïd."
+          },
+          "mousseline": {
+            "prompt": "Quel tissu fin a fait la réputation de Tarare, dans le Rhône ?",
+            "hint": "Son nom est aussi utilisé pour une purée légère.",
+            "anecdote": "Georges-Antoine Simonet a tenté de l'implanter vers 1757, après un séjour en Suisse. Son neveu Claude-Marie a réussi à lancer la production à la fin du XVIIIe siècle.",
+            "answers": {
+              "la-mousseline": "La mousseline",
+              "le-tweed": "Le tweed",
+              "le-satin": "Le satin",
+              "le-drap": "Le drap"
+            }
+          },
+          "mastrou": {
+            "prompt": "Quel surnom local porte ce train à vapeur, qui circule en Ardèche ?",
+            "hint": "Il vient du nom de la ville de Lamastre, sur la ligne.",
+            "anecdote": "La ligne remonte les gorges du Doux depuis Tournon. Elle a été ouverte en 1891.",
+            "answers": {
+              "le-mastrou": "Le Mastrou",
+              "le-train-jaune": "Le Train jaune",
+              "le-cevenol": "Le Cévenol",
+              "le-tortillard": "Le Tortillard"
+            }
+          },
+          "magnanerie": {
+            "prompt": "Comment appelle-t-on en Ardèche le bâtiment où l'on élevait les vers à soie ?",
+            "hint": "Le mot vient d'un nom local du ver, le magnan.",
+            "anecdote": "Le mûrier fournissait la nourriture des vers. Ces élevages approvisionnaient les soyeux lyonnais.",
+            "answers": {
+              "une-magnanerie": "Une magnanerie",
+              "une-filature": "Une filature",
+              "une-pepiniere": "Une pépinière",
+              "une-soierie": "Une soierie"
+            }
+          },
+          "berliet": {
+            "prompt": "Quel constructeur lyonnais, fondé en 1899, a installé ses grandes usines de camions à Vénissieux ?",
+            "hint": "Son fondateur, Marius, était le fils d'un canut lyonnais.",
+            "anecdote": "Marius Berliet a construit son premier moteur en 1894 et sa première voiture en 1895. L'entreprise est devenue Renault Véhicules industriels en 1978, aujourd'hui Renault Trucks.",
+            "answers": {
+              "berliet": "Berliet",
+              "saviem": "Saviem",
+              "unic": "Unic",
+              "panhard": "Panhard"
+            }
+          },
+          "guignol": {
+            "prompt": "Comment s'appelle cette marionnette née à Lyon ?",
+            "hint": "Son nom désigne aussi un théâtre pour enfants.",
+            "anecdote": "Elle commente l'actualité et se moque des puissants. Son compère s'appelle Gnafron.",
+            "answers": {
+              "guignol": "Guignol",
+              "polichinelle": "Polichinelle",
+              "pinocchio": "Pinocchio",
+              "arlequin": "Arlequin"
+            }
+          },
+          "lumignons": {
+            "prompt": "Quelle coutume lyonnaise marque le 8 décembre ?",
+            "hint": "Elle se voit le soir, dans toute la ville.",
+            "anecdote": "Elle est née en 1852, lors de l'inauguration d'une statue de la Vierge sur la colline de Fourvière.",
+            "answers": {
+              "poser-des-lumignons-aux-fenetres": "Poser des lumignons aux fenêtres",
+              "lancer-des-confettis-sur-les-quais": "Lancer des confettis sur les quais",
+              "defiler-avec-des-marionnettes": "Défiler avec des marionnettes",
+              "allumer-un-grand-feu-sur-la-place": "Allumer un grand feu sur la place"
+            }
+          },
+          "machon": {
+            "prompt": "Comment s'appelle ce solide casse-croûte matinal des ouvriers lyonnais ?",
+            "hint": "Le mot rappelle le verbe qui veut dire broyer avec les dents.",
+            "anecdote": "Il réunissait charcuteries et vin, tôt le matin, après les premières heures de travail.",
+            "answers": {
+              "le-machon": "Le mâchon",
+              "le-gone": "Le gone",
+              "le-coussin": "Le coussin",
+              "le-bouchon": "Le bouchon"
+            }
+          },
+          "pot": {
+            "prompt": "Quelle est la contenance du pot lyonnais, cette bouteille au fond très épais ?",
+            "hint": "C'est moins d'un demi-litre.",
+            "anecdote": "Son fond épais permettrait de servir moins de vin pour le même prix, selon une explication souvent racontée.",
+            "answers": {
+              "46-centilitres": "46 centilitres",
+              "25-centilitres": "25 centilitres",
+              "75-centilitres": "75 centilitres",
+              "1-litre": "1 litre"
+            }
+          },
+          "tablier": {
+            "prompt": "Quel est l'ingrédient principal du tablier de sapeur, une spécialité lyonnaise ?",
+            "hint": "C'est un morceau d'estomac de bœuf.",
+            "anecdote": "Il est mariné au vin blanc, pané puis grillé, et servi le plus souvent avec une sauce gribiche.",
+            "answers": {
+              "le-gras-double": "Le gras-double",
+              "le-boudin": "Le boudin",
+              "la-joue-de-porc": "La joue de porc",
+              "la-langue-de-veau": "La langue de veau"
+            }
+          },
+          "bugnes": {
+            "prompt": "Quels beignets lyonnais mange-t-on traditionnellement au moment de Mardi gras ?",
+            "hint": "Leur nom commence comme « bugle ».",
+            "anecdote": "Frites et saupoudrées de sucre glace, elles sont moelleuses ou plates et craquantes.",
+            "answers": {
+              "les-bugnes": "Les bugnes",
+              "les-churros": "Les churros",
+              "les-merveilles": "Les merveilles",
+              "les-chichis": "Les chichis"
+            }
+          },
+          "voeu": {
+            "prompt": "Contre quel fléau les échevins de Lyon ont-ils fait un vœu à la Vierge, en 1643 ?",
+            "hint": "Cette maladie a ravagé l'Europe à plusieurs reprises.",
+            "anecdote": "Depuis, la ville célèbre chaque 8 septembre une cérémonie, en offrant une pièce d'or et un cierge.",
+            "answers": {
+              "la-peste": "La peste",
+              "la-famine": "La famine",
+              "une-inondation": "Une inondation",
+              "la-guerre": "La guerre"
+            }
+          },
+          "vogue": {
+            "prompt": "Comment s'appelle la fête foraine d'automne de la Croix-Rousse ?",
+            "hint": "On y mange un fruit d'automne grillé, et on y boit du vin nouveau.",
+            "anecdote": "Elle réunit manèges et baraques sur le boulevard du quartier, à partir de l'automne.",
+            "answers": {
+              "la-vogue-des-marrons": "La Vogue des marrons",
+              "la-fete-du-bol-d-or": "La Fête du Bol d'Or",
+              "la-foire-de-beaucaire": "La Foire de Beaucaire",
+              "la-fete-de-la-saone": "La Fête de la Saône"
+            }
+          },
+          "clochers": {
+            "prompt": "Quelle forme ont souvent les clochers baroques de Savoie ?",
+            "hint": "Elle ressemble à celle d'un oignon.",
+            "anecdote": "La route du baroque relie ces églises, en Tarentaise, en Maurienne et dans le Beaufortain.",
+            "answers": {
+              "une-forme-de-bulbe": "Une forme de bulbe",
+              "une-forme-de-tour-crenelee": "Une forme de tour crénelée",
+              "une-forme-de-dome-aplati": "Une forme de dôme aplati",
+              "une-forme-de-pyramide": "Une forme de pyramide"
+            }
+          },
+          "carte-diables": {
+            "prompt": "Touchez le département de Bessans, le village des petits diables sculptés.",
+            "hint": "Il touche l'Italie, et sa préfecture est Chambéry.",
+            "anecdote": "Le diable de Bessans vient d'une tradition de sculpture sur bois, en haute Maurienne."
+          },
+          "barque": {
+            "prompt": "Quel type de voiles portaient les grandes barques de charge du Léman ?",
+            "hint": "Elles rappellent les bateaux de la Méditerranée.",
+            "anecdote": "Ces bateaux transportaient de la pierre de Meillerie vers Genève et d'autres ports du lac.",
+            "answers": {
+              "des-voiles-latines": "Des voiles latines",
+              "des-voiles-carrees": "Des voiles carrées",
+              "des-voiles-a-corne": "Des voiles à corne",
+              "des-voiles-de-jonque": "Des voiles de jonque"
+            }
+          },
+          "conscrits": {
+            "prompt": "Quelle ville du Beaujolais est célèbre pour la « vague » de sa fête des conscrits ?",
+            "hint": "C'est la sous-préfecture du Rhône, au nord de Lyon.",
+            "anecdote": "Les participants défilent bras dessus, bras dessous, en habit et chapeau haut de forme."
+          },
+          "arpitan": {
+            "prompt": "Quel autre nom donne-t-on au francoprovençal, la langue traditionnelle du Lyonnais, du nord du Dauphiné et de Savoie ?",
+            "hint": "Le mot évoque les alpages.",
+            "anecdote": "Cette langue est aussi présente en Suisse romande et dans la vallée d'Aoste.",
+            "answers": {
+              "l-arpitan": "L'arpitan",
+              "l-occitan": "L'occitan",
+              "le-gallo": "Le gallo",
+              "le-romanche": "Le romanche"
+            }
+          },
+          "bruno": {
+            "prompt": "Quel saint a fondé ce monastère et l'ordre des Chartreux, en 1084 ?",
+            "hint": "Il venait de Reims, et ce prénom se porte encore aujourd'hui.",
+            "anecdote": "Le monastère n'est pas ouvert au public : les moines y vivent dans le silence, et un musée présente leur vie.",
+            "answers": {
+              "saint-bruno": "Saint Bruno",
+              "saint-benoit": "Saint Benoît",
+              "saint-bernard": "Saint Bernard",
+              "saint-francois": "Saint François"
+            }
+          },
+          "desalpe": {
+            "prompt": "Comment appelle-t-on la descente des troupeaux de l'alpage, à la fin de l'été ?",
+            "hint": "C'est l'inverse de la montée en alpage.",
+            "anecdote": "Cette fête est l'occasion de décorer les vaches, avec des fleurs et des cloches.",
+            "answers": {
+              "la-desalpe": "La désalpe",
+              "la-transhumance-d-hiver": "La transhumance d'hiver",
+              "l-estive": "L'estive",
+              "la-vogue": "La vogue"
+            }
+          },
+          "mur-canuts": {
+            "prompt": "Dans quel quartier de Lyon se trouve le mur peint des Canuts ?",
+            "hint": "C'est la colline qui travaille, selon un dicton de la ville.",
+            "anecdote": "Peint en 1987 et plusieurs fois repris, il représente le quartier en trompe-l'œil.",
+            "answers": {
+              "la-croix-rousse": "La Croix-Rousse",
+              "fourviere": "Fourvière",
+              "la-part-dieu": "La Part-Dieu",
+              "confluence": "Confluence"
+            }
+          },
+          "mourguet": {
+            "prompt": "Quel ancien canut, devenu arracheur de dents, a créé la marionnette Guignol au début du XIXe siècle ?",
+            "hint": "Sa maison se trouve encore place Saint-Paul, à Lyon.",
+            "anecdote": "Pour attirer les clients, il présentait de petits spectacles de marionnettes.",
+            "answers": {
+              "laurent-mourguet": "Laurent Mourguet",
+              "jacques-de-vaucanson": "Jacques de Vaucanson",
+              "louis-lumiere": "Louis Lumière",
+              "edouard-herriot": "Édouard Herriot"
+            }
+          },
+          "lumiere": {
+            "prompt": "Quelle invention est restée liée aux frères Lumière, fils du bâtisseur de cette villa lyonnaise ?",
+            "hint": "Elle a permis les premières projections payantes de films, à Paris, en décembre 1895.",
+            "anecdote": "Antoine Lumière a fait bâtir cette villa entre 1899 et 1902, à côté de ses usines de Monplaisir. Le film « La Sortie de l'usine Lumière » a été tourné tout près, en 1895.",
+            "answers": {
+              "le-cinematographe": "Le cinématographe",
+              "le-telephone": "Le téléphone",
+              "le-phonographe": "Le phonographe",
+              "la-telegraphie-sans-fil": "La télégraphie sans fil"
+            }
+          },
+          "jacquard": {
+            "prompt": "Quel inventeur lyonnais a mis au point un métier à tisser programmable à cartes perforées ?",
+            "hint": "Son nom désigne aussi un motif de pull.",
+            "anecdote": "Son métier, présenté au début du XIXe siècle, a d'abord fait peur aux canuts, qui craignaient pour leur emploi.",
+            "answers": {
+              "joseph-marie-jacquard": "Joseph-Marie Jacquard",
+              "barthelemy-thimonnier": "Barthélemy Thimonnier",
+              "andre-marie-ampere": "André-Marie Ampère",
+              "claude-chappe": "Claude Chappe"
+            }
+          },
+          "montgolfier": {
+            "prompt": "Quelle invention ces deux frères d'Annonay, fils de papetier, ont-ils mise au point ?",
+            "hint": "Ils y ont utilisé l'air chaud et du papier.",
+            "anecdote": "Joseph et Étienne ont d'abord fait voler leur invention dans leur ville natale de l'Ardèche.",
+            "answers": {
+              "la-montgolfiere": "La montgolfière",
+              "le-parachute": "Le parachute",
+              "l-helicoptere": "L'hélicoptère",
+              "le-planeur": "Le planeur"
+            }
+          },
+          "envol": {
+            "prompt": "En quelle année a eu lieu ce premier envol public d'un ballon, à Annonay ?",
+            "hint": "C'est six ans avant la Révolution française.",
+            "anecdote": "Ce vol a eu lieu le 4 juin, devant les notables de la région. Le ballon s'est élevé haut, avant de retomber plus loin.",
+            "answers": {
+              "1750": "1750",
+              "1783": "1783",
+              "1815": "1815",
+              "1891": "1891"
+            }
+          },
+          "seguin": {
+            "prompt": "Quel ingénieur, né à Annonay, a construit le premier grand pont suspendu à câbles de fer, sur le Rhône ?",
+            "hint": "Il a d'abord essayé son idée au-dessus de la Cance.",
+            "anecdote": "Le pont reliait Tain et Tournon, en 1825. Il a aussi inventé une chaudière tubulaire pour les locomotives.",
+            "answers": {
+              "marc-seguin": "Marc Seguin",
+              "gustave-eiffel": "Gustave Eiffel",
+              "joseph-monier": "Joseph Monier",
+              "louis-vicat": "Louis Vicat"
+            }
+          },
+          "bocuse": {
+            "prompt": "Quel grand chef, installé à Collonges-au-Mont-d'Or, est mort en 2018 ?",
+            "hint": "Les halles de Lyon portent son nom.",
+            "anecdote": "Il a été l'un des visages de la nouvelle cuisine.",
+            "answers": {
+              "paul-bocuse": "Paul Bocuse",
+              "alain-ducasse": "Alain Ducasse",
+              "joel-robuchon": "Joël Robuchon",
+              "michel-troisgros": "Michel Troisgros"
+            }
+          }
+        },
+        "grand-voyage": {
+          "name": "Grand voyage en Rhône-Alpes",
+          "description": "Glaciers, gorges et lacs, de la Dombes au Mont-Blanc, avec la grande histoire de Lugdunum à la Résistance.",
+          "aiguille": {
+            "prompt": "De quelle ville part le téléphérique qui monte à cette station d'altitude ?",
+            "hint": "Elle a accueilli les premiers Jeux olympiques d'hiver, en 1924.",
+            "anecdote": "La station se trouve à plus de 3 800 mètres d'altitude, sur un piton du massif du Mont-Blanc."
+          },
+          "mer-glace": {
+            "prompt": "Comment s'appelle ce grand glacier du massif du Mont-Blanc ?",
+            "hint": "On le découvre depuis le Montenvers, et son nom évoque l'océan.",
+            "anecdote": "Ce glacier recule fortement avec le réchauffement. Une grotte de glace y est creusée chaque année.",
+            "answers": {
+              "la-mer-de-glace": "La Mer de Glace",
+              "le-glacier-d-argentiere": "Le glacier d'Argentière",
+              "le-glacier-des-bossons": "Le glacier des Bossons",
+              "le-glacier-de-saint-sorlin": "Le glacier de Saint-Sorlin"
+            }
+          },
+          "thonon": {
+            "prompt": "Quelle ville thermale du Chablais relie par ce funiculaire son centre et le port de Rives ?",
+            "hint": "Son nom se termine par « les-Bains » et elle est voisine d'Évian.",
+            "anecdote": "Elle est la capitale historique du Chablais, sur la rive française du Léman.",
+            "answers": {
+              "allevard": "Allevard"
+            }
+          },
+          "paladru": {
+            "prompt": "Quels vestiges ont été découverts sous les eaux de ce lac de l'Isère ?",
+            "hint": "Des archéologues-plongeurs les ont fouillés à Charavines.",
+            "anecdote": "Le site de Colletière, daté de l'époque de l'an mil, a livré de nombreux objets conservés dans la vase.",
+            "answers": {
+              "un-village-des-environs-de-l-an-mil": "Un village des environs de l'an mil",
+              "une-flotte-romaine": "Une flotte romaine",
+              "une-cathedrale-gothique": "Une cathédrale gothique",
+              "une-ville-de-l-age-du-fer": "Une ville de l'âge du fer"
+            }
+          },
+          "aiguebelette": {
+            "prompt": "Dans quel département se trouve ce lac d'Aiguebelette ?",
+            "hint": "Sa préfecture est Chambéry.",
+            "anecdote": "Les moteurs thermiques y sont interdits. Le lac a accueilli les championnats du monde d'aviron, en 2015.",
+            "answers": {
+              "la-savoie": "La Savoie",
+              "l-isere": "L'Isère",
+              "l-ain": "L'Ain",
+              "la-haute-savoie": "La Haute-Savoie"
+            }
+          },
+          "lac-nantua": {
+            "prompt": "Dans quel massif se trouve ce lac de l'Ain ?",
+            "hint": "Ce massif a donné son nom à une période géologique.",
+            "anecdote": "Ce lac d'origine glaciaire se trouve au fond d'une cluse, une vallée étroite qui coupe le relief.",
+            "answers": {
+              "le-jura": "Le Jura",
+              "le-vercors": "Le Vercors",
+              "les-bauges": "Les Bauges",
+              "la-chartreuse": "La Chartreuse"
+            }
+          },
+          "aiguille-1492": {
+            "prompt": "En quelle année a eu lieu la première ascension de ce sommet, sur ordre de Charles VIII ?",
+            "hint": "C'est l'année du premier voyage de Christophe Colomb.",
+            "anecdote": "Antoine de Ville a réussi cette ascension, parfois présentée comme l'acte de naissance de l'alpinisme.",
+            "answers": {
+              "1336": "1336",
+              "1492": "1492",
+              "1589": "1589",
+              "1786": "1786"
+            }
+          },
+          "goulets": {
+            "prompt": "Dans quel massif cette route spectaculaire a-t-elle été creusée dans la roche ?",
+            "hint": "C'est un haut lieu de la Résistance, au sud-ouest de Grenoble.",
+            "anecdote": "Cette route, percée au XIXe siècle, a longtemps été l'un des accès au plateau. Fermée en 2005 à cause des éboulements, elle a été remplacée par un tunnel en 2008.",
+            "answers": {
+              "le-vercors": "Le Vercors",
+              "la-chartreuse": "La Chartreuse",
+              "le-diois": "Le Diois",
+              "belledonne": "Belledonne"
+            }
+          },
+          "royans": {
+            "prompt": "Au-dessus de quelle rivière ces maisons sont-elles suspendues ?",
+            "hint": "Elle descend du Vercors par des gorges, avant de rejoindre l'Isère.",
+            "anecdote": "Ces maisons datent notamment du XVIe siècle. Elles ont été construites en surplomb pour gagner de la place et favoriser le commerce du bois.",
+            "answers": {
+              "la-bourne": "La Bourne",
+              "l-isere": "L'Isère",
+              "la-drome": "La Drôme",
+              "l-ardeche": "L'Ardèche"
+            }
+          },
+          "arc": {
+            "prompt": "Comment s'appelle cette arche naturelle, au-dessus d'une rivière ardéchoise ?",
+            "hint": "Il se trouve à l'entrée de gorges très fréquentées par les canoës.",
+            "anecdote": "La rivière a creusé cette arche d'environ 60 mètres de large, à l'entrée de ses gorges.",
+            "answers": {
+              "le-pont-d-arc": "Le Pont d'Arc",
+              "le-pont-du-diable": "Le Pont du Diable",
+              "la-porte-d-enfer": "La Porte d'Enfer",
+              "la-roche-percee": "La Roche percée"
+            }
+          },
+          "gorges": {
+            "prompt": "Quelle rivière a creusé ce canyon, très fréquenté par les canoës ?",
+            "hint": "Elle passe sous le Pont d'Arc.",
+            "anecdote": "Les gorges s'étendent sur une trentaine de kilomètres, entre Vallon-Pont-d'Arc et Saint-Martin.",
+            "answers": {
+              "l-ardeche": "L'Ardèche",
+              "la-drome": "La Drôme",
+              "le-tarn": "Le Tarn",
+              "le-verdon": "Le Verdon"
+            }
+          },
+          "gerbier": {
+            "prompt": "Quel fleuve prend sa source au pied de cette petite montagne d'Ardèche ?",
+            "hint": "C'est le plus long fleuve de France.",
+            "anecdote": "Trois sources se disputent ce titre autour de ce mont, formé par un volcan.",
+            "answers": {
+              "la-loire": "La Loire",
+              "le-rhone": "Le Rhône",
+              "la-garonne": "La Garonne",
+              "la-seine": "La Seine"
+            }
+          },
+          "issarles": {
+            "prompt": "Quelle est l'origine de ce lac presque rond d'Ardèche ?",
+            "hint": "Le Massif central a connu un grand nombre d'éruptions.",
+            "anecdote": "Il occupe un ancien maar, un cratère creusé par la rencontre de la lave et de l'eau. Il est profond de plus de 100 mètres.",
+            "answers": {
+              "un-ancien-cratere-volcanique": "Un ancien cratère volcanique",
+              "un-ancien-glacier": "Un ancien glacier",
+              "un-barrage-construit-par-l-homme": "Un barrage construit par l'homme",
+              "une-grotte-effondree": "Une grotte effondrée"
+            }
+          },
+          "orgnac": {
+            "prompt": "Comment appelle-t-on ce type de gouffre naturel, à la surface du calcaire ?",
+            "hint": "Le mot a quatre lettres et commence par un a.",
+            "anecdote": "Le spéléologue Robert de Joly a exploré celui-ci en 1935. Le site est devenu un grand lieu de visite.",
+            "answers": {
+              "un-aven": "Un aven",
+              "un-maar": "Un maar",
+              "un-canyon": "Un canyon",
+              "une-doline": "Une doline"
+            }
+          },
+          "fer-cheval": {
+            "prompt": "Quel nom porte ce vaste cirque de falaises de Haute-Savoie ?",
+            "hint": "Il se trouve au fond de la vallée du Giffre.",
+            "anecdote": "Ce cirque se trouve à Sixt, au fond de la vallée du Giffre, avec de nombreuses cascades au printemps.",
+            "answers": {
+              "le-fer-a-cheval": "Le Fer-à-Cheval",
+              "gavarnie": "Gavarnie",
+              "le-cirque-de-navacelles": "Le cirque de Navacelles",
+              "le-cirque-de-salazie": "Le cirque de Salazie"
+            }
+          },
+          "dombes": {
+            "prompt": "Comment s'appelle ce plateau de l'Ain, au millier d'étangs ?",
+            "hint": "Son nom commence comme le mot « dôme ».",
+            "anecdote": "Les moines y ont créé des étangs dès le Moyen Âge. On y élève des poissons, et de nombreux oiseaux y font halte.",
+            "answers": {
+              "la-dombes": "La Dombes",
+              "la-bresse": "La Bresse",
+              "le-bugey": "Le Bugey",
+              "le-revermont": "Le Revermont"
+            }
+          },
+          "iseran": {
+            "prompt": "Quelles vallées de Savoie ce col de l'Iseran relie-t-il ?",
+            "hint": "L'une est celle de l'Arc, l'autre celle de l'Isère.",
+            "anecdote": "Cette route dépasse 2 700 mètres d'altitude. Elle fait partie de la route des Grandes Alpes.",
+            "answers": {
+              "la-tarentaise-et-la-maurienne": "La Tarentaise et la Maurienne",
+              "le-chablais-et-le-faucigny": "Le Chablais et le Faucigny",
+              "le-beaufortain-et-le-val-d-arly": "Le Beaufortain et le Val d'Arly",
+              "le-gresivaudan-et-le-vercors": "Le Grésivaudan et le Vercors"
+            }
+          },
+          "dent": {
+            "prompt": "Dans quel massif se dresse cette montagne calcaire, au-dessus du Grésivaudan ?",
+            "hint": "Ce massif a donné son nom à une liqueur.",
+            "anecdote": "Elle est aussi connue pour son vaste réseau de grottes, très étudié par les spéléologues.",
+            "answers": {
+              "la-chartreuse": "La Chartreuse",
+              "le-vercors": "Le Vercors",
+              "belledonne": "Belledonne",
+              "les-bauges": "Les Bauges"
+            }
+          },
+          "tignes": {
+            "prompt": "Dans quelle vallée de Savoie se trouve la station de Tignes ?",
+            "hint": "Elle a aussi donné son nom à une race de vache.",
+            "anecdote": "L'ancien village a été englouti en 1952 par le barrage du Chevril, malgré une longue lutte de ses habitants.",
+            "answers": {
+              "la-tarentaise": "La Tarentaise",
+              "la-maurienne": "La Maurienne",
+              "le-beaufortain": "Le Beaufortain",
+              "le-chablais": "Le Chablais"
+            }
+          },
+          "trois-vallees": {
+            "prompt": "De quel très grand domaine skiable cette station de Courchevel fait-elle partie ?",
+            "hint": "Il relie notamment Méribel et Val Thorens.",
+            "anecdote": "Avec environ 600 km de pistes, il se présente comme le plus grand domaine skiable du monde.",
+            "answers": {
+              "les-trois-vallees": "Les Trois Vallées",
+              "l-espace-killy": "L'Espace Killy",
+              "les-portes-du-soleil": "Les Portes du Soleil",
+              "l-espace-diamant": "L'Espace Diamant"
+            }
+          },
+          "vanoise": {
+            "prompt": "Quel est le premier parc national français, créé en 1963 pour protéger cet animal ?",
+            "hint": "Il se trouve en Savoie, entre Tarentaise et Maurienne.",
+            "anecdote": "Il a notamment permis de sauver le bouquetin, devenu très rare dans les Alpes françaises.",
+            "answers": {
+              "la-vanoise": "La Vanoise",
+              "les-ecrins": "Les Écrins",
+              "le-mercantour": "Le Mercantour",
+              "les-cevennes": "Les Cévennes"
+            }
+          },
+          "alpe": {
+            "prompt": "Combien de virages compte cette célèbre montée cycliste de l'Alpe d'Huez ?",
+            "hint": "C'est le produit de 3 par 7.",
+            "anecdote": "Le Tour de France y est monté pour la première fois en 1952, avec une victoire de Fausto Coppi. Chaque virage porte le nom d'au moins un vainqueur.",
+            "answers": {
+              "12": "12",
+              "21": "21",
+              "33": "33",
+              "48": "48"
+            }
+          },
+          "chauvet": {
+            "prompt": "De quand datent les plus anciennes peintures de cette grotte, reproduites ici ?",
+            "hint": "C'est plus de trente millénaires.",
+            "anecdote": "La grotte d'origine, découverte en 1994 en Ardèche, reste fermée au public. Elle est inscrite à l'Unesco depuis 2014.",
+            "answers": {
+              "environ-36-000-ans": "Environ 36 000 ans",
+              "environ-3-000-ans": "Environ 3 000 ans",
+              "environ-12-000-ans": "Environ 12 000 ans",
+              "environ-100-000-ans": "Environ 100 000 ans"
+            }
+          },
+          "savoie-1860": {
+            "prompt": "En quelle année la Savoie a-t-elle été rattachée à la France, par le traité de Turin ?",
+            "hint": "C'est sous le Second Empire.",
+            "anecdote": "Le rattachement, négocié avec Cavour, a été validé par un plébiscite. Le comté de Nice est concerné par le même traité.",
+            "answers": {
+              "1792": "1792",
+              "1815": "1815",
+              "1860": "1860",
+              "1871": "1871"
+            }
+          },
+          "dauphine-1349": {
+            "prompt": "En quelle année le Dauphiné a-t-il été cédé à la France, sous le nom de « Transport » ?",
+            "hint": "C'est au milieu du XIVe siècle, pendant la grande peste.",
+            "anecdote": "Le dauphin Humbert II a vendu ses terres. Le fils aîné du roi portera ensuite le titre de dauphin.",
+            "answers": {
+              "1214": "1214",
+              "1349": "1349",
+              "1461": "1461",
+              "1589": "1589"
+            }
+          },
+          "carte-1786": {
+            "prompt": "Touchez le département de Chamonix, d'où Balmat et Paccard sont partis conquérir le mont Blanc, en 1786.",
+            "hint": "Il se trouve au nord-est du territoire.",
+            "anecdote": "Le savant genevois Saussure avait promis une récompense à ceux qui trouveraient une voie vers le sommet."
+          },
+          "tuiles": {
+            "prompt": "Dans quelle ville a eu lieu la journée des Tuiles, le 7 juin 1788 ?",
+            "hint": "C'est la capitale du Dauphiné.",
+            "anecdote": "Les habitants, montés sur les toits, ont lancé des tuiles sur les troupes royales. Cette émeute annonce la Révolution."
+          },
+          "lugdunum": {
+            "prompt": "En quelle année la colonie romaine de Lugdunum a-t-elle été fondée ?",
+            "hint": "C'est peu après l'assassinat de Jules César.",
+            "anecdote": "Elle a été fondée par Munatius Plancus. La ville est devenue la capitale des Gaules.",
+            "answers": {
+              "43-av-j-c": "43 av. J.-C.",
+              "52-av-j-c": "52 av. J.-C.",
+              "125-av-j-c": "125 av. J.-C.",
+              "79-apr-j-c": "79 apr. J.-C."
+            }
+          },
+          "canuts-1831": {
+            "prompt": "Quelle devise les canuts ont-ils portée sur leur drapeau noir, lors de leur révolte de 1831 ?",
+            "hint": "Elle oppose la vie de l'ouvrier à celle du soldat.",
+            "anecdote": "Ils réclamaient un tarif minimum. Maîtres de la ville quelques jours, ils ont vu l'armée revenir en décembre et le tarif annulé.",
+            "answers": {
+              "vivre-en-travaillant-ou-mourir-en-combattant": "Vivre en travaillant ou mourir en combattant",
+              "liberte-egalite-fraternite": "Liberté, égalité, fraternité",
+              "du-pain-ou-du-plomb": "Du pain ou du plomb",
+              "ni-dieu-ni-maitre": "Ni Dieu ni maître"
+            }
+          },
+          "dugoujon": {
+            "prompt": "Quel chef de la Résistance a été arrêté dans cette maison, à Caluire, le 21 juin 1943 ?",
+            "hint": "Il avait été préfet d'Eure-et-Loir.",
+            "anecdote": "Il y tenait une réunion clandestine, chez le docteur Dugoujon. Il est mort peu après, pendant son transfert en Allemagne.",
+            "answers": {
+              "jean-moulin": "Jean Moulin",
+              "pierre-brossolette": "Pierre Brossolette",
+              "lucie-aubrac": "Lucie Aubrac",
+              "henri-frenay": "Henri Frenay"
+            }
+          },
+          "izieu": {
+            "prompt": "Qui a été raflé dans cette maison de l'Ain, le 6 avril 1944 ?",
+            "hint": "Klaus Barbie a signé le télégramme qui en rend compte.",
+            "anecdote": "Quarante-quatre enfants et sept éducateurs ont été arrêtés. Un musée-mémorial y a ouvert en 1994.",
+            "answers": {
+              "des-enfants-juifs-et-leurs-educateurs": "Des enfants juifs et leurs éducateurs",
+              "un-groupe-de-maquisards": "Un groupe de maquisards",
+              "des-aviateurs-allies": "Des aviateurs alliés",
+              "des-religieuses": "Des religieuses"
+            }
+          },
+          "carte-vassieux": {
+            "prompt": "Touchez le département de Vassieux-en-Vercors, un village détruit en juillet 1944.",
+            "hint": "Il se trouve au sud du territoire, à l'est du Rhône.",
+            "anecdote": "Des planeurs allemands s'y sont posés le 21 juillet 1944, lors de l'attaque du maquis du Vercors."
+          },
+          "carte-glieres": {
+            "prompt": "Touchez le département du plateau des Glières, un haut lieu de la Résistance.",
+            "hint": "Il se trouve au nord-est du territoire.",
+            "anecdote": "Le maquis y a résisté en mars 1944, sous la devise « Vivre libre ou mourir ». Son chef, Tom Morel, a été tué le 10 mars lors d'une opération à Entremont, dans la vallée."
+          },
+          "barbie": {
+            "prompt": "Quel ancien chef de la Gestapo de Lyon a été jugé dans cette ville en 1987 ?",
+            "hint": "Il était surnommé le boucher de Lyon.",
+            "anecdote": "Ce procès a été le premier en France pour crime contre l'humanité. Il a été filmé, à titre historique.",
+            "answers": {
+              "klaus-barbie": "Klaus Barbie",
+              "paul-touvier": "Paul Touvier",
+              "maurice-papon": "Maurice Papon",
+              "alois-brunner": "Alois Brunner"
+            }
+          },
+          "carte-oyonnax": {
+            "prompt": "Touchez le département d'Oyonnax, où les maquisards ont défilé le 11 novembre 1943.",
+            "hint": "Il se trouve au nord du territoire.",
+            "anecdote": "Les maquis y ont défilé en plein jour, jusqu'au monument aux morts. L'exploit a eu un grand écho."
+          },
+          "compagnon": {
+            "prompt": "Quel titre le général de Gaulle a-t-il accordé à Grenoble, en 1944, pour sa résistance ?",
+            "hint": "Seules cinq communes françaises ont reçu cet honneur.",
+            "anecdote": "Les autres communes sont Nantes, Paris, Vassieux-en-Vercors et l'île de Sein.",
+            "answers": {
+              "compagnon-de-la-liberation": "Compagnon de la Libération",
+              "capitale-de-la-france-libre": "Capitale de la France libre",
+              "ville-medaillee-de-la-legion-d-honneur": "Ville médaillée de la Légion d'honneur",
+              "ville-soeur-de-londres": "Ville-sœur de Londres"
+            }
+          },
+          "bayard": {
+            "prompt": "Quel surnom porte ce chevalier du Dauphiné, mort en 1524 ?",
+            "hint": "Ce surnom salue son courage et son honneur.",
+            "anecdote": "Pierre Terrail de Bayard a été célèbre pour ses exploits en Italie, sous Charles VIII, Louis XII et François Ier.",
+            "answers": {
+              "le-chevalier-sans-peur-et-sans-reproche": "Le chevalier sans peur et sans reproche",
+              "le-lion-de-flandre": "Le lion de Flandre",
+              "le-preux-d-italie": "Le preux d'Italie",
+              "le-coeur-de-lion": "Le cœur de lion"
+            }
+          },
+          "mandrin": {
+            "prompt": "Dans quelle ville ce contrebandier du Dauphiné a-t-il été exécuté, en 1755 ?",
+            "hint": "C'est aujourd'hui la préfecture de la Drôme.",
+            "anecdote": "Il était populaire pour ses attaques contre les fermiers généraux, ces collecteurs d'impôts du roi."
+          },
+          "saint-ex": {
+            "prompt": "Quel écrivain et aviateur, auteur du « Petit Prince », est né à Lyon en 1900 ?",
+            "hint": "L'aéroport de Lyon porte son nom.",
+            "anecdote": "Il a disparu en mer en 1944, lors d'une mission de reconnaissance.",
+            "answers": {
+              "antoine-de-saint-exupery": "Antoine de Saint-Exupéry",
+              "jules-verne": "Jules Verne",
+              "joseph-kessel": "Joseph Kessel",
+              "roger-vailland": "Roger Vailland"
+            }
+          },
+          "frison-roche": {
+            "prompt": "Quel écrivain et guide de Chamonix a écrit le roman « Premier de cordée » ?",
+            "hint": "Il a aussi écrit « La Grande Crevasse ».",
+            "anecdote": "Ce roman, paru en 1941, raconte la vie d'une famille de guides dans la vallée.",
+            "answers": {
+              "roger-frison-roche": "Roger Frison-Roche",
+              "gaston-rebuffat": "Gaston Rébuffat",
+              "lionel-terray": "Lionel Terray",
+              "maurice-herzog": "Maurice Herzog"
+            }
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "lyon": {
+            "name": "Lyon",
+            "description": "Née de la colonie romaine de Lugdunum, la ville s'est développée au confluent du Rhône et de la Saône. Son site historique est inscrit au patrimoine mondial depuis 1998, de la colline de Fourvière aux pentes de la Croix-Rousse.",
+            "anecdote": "La colline de Fourvière est surnommée « la colline qui prie » et celle de la Croix-Rousse « la colline qui travaille »."
+          },
+          "reblochon": {
+            "name": "Reblochon",
+            "description": "Ce fromage à pâte pressée non cuite vient des alpages de Haute-Savoie et du val d'Arly. Il est protégé par une appellation d'origine depuis 1958.",
+            "anecdote": "Son nom viendrait de « reblocher », traire une seconde fois, une pratique qui permettait de garder du lait à l'insu du propriétaire de l'alpage."
+          },
+          "facteur-cheval": {
+            "name": "Palais idéal du facteur Cheval",
+            "description": "À Hauterives, le facteur Ferdinand Cheval a bâti seul ce palais de pierres ramassées lors de ses tournées. Le chantier a duré trente-trois ans, à partir de 1879. L'édifice est classé monument historique depuis 1969.",
+            "anecdote": "Tout a commencé par une pierre sur laquelle il aurait trébuché pendant sa tournée."
+          },
+          "opinel": {
+            "name": "Opinel",
+            "description": "Joseph Opinel met au point ce couteau de poche à manche de bois en 1890, à Albiez-le-Vieux, en Savoie. L'entreprise s'est installée à Cognin, aux portes de Chambéry, à partir de 1917, puis à Chambéry en 1973.",
+            "anecdote": "Sa bague de sécurité tournante, la Virobloc, a été ajoutée en 1955 par Marcel Opinel."
+          },
+          "mont-blanc": {
+            "name": "Mont Blanc",
+            "description": "Point culminant des Alpes, il domine la vallée de Chamonix à plus de 4 800 mètres, à la frontière franco-italienne. Sa première ascension connue remonte à 1786.",
+            "anecdote": "Sa hauteur varie de quelques mètres selon les années, car son sommet est une calotte de neige et de glace."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur de Rhône-Alpes",
+            "description": "Réunir les cinq cartes de la collection de Rhône-Alpes."
+          },
+          "master": {
+            "name": "Maître de Rhône-Alpes",
+            "description": "Réussir le Défi Maître de Rhône-Alpes, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
     }
   }
 }

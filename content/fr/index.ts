@@ -19,6 +19,7 @@ import champagneArdenne from "./territories/champagne-ardenne.json";
 import languedocRoussillon from "./territories/languedoc-roussillon.json";
 import midiPyrenees from "./territories/midi-pyrenees.json";
 import lorraine from "./territories/lorraine.json";
+import rhoneAlpes from "./territories/rhone-alpes.json";
 import region0 from "./regions/auvergne-rhone-alpes.json";
 import region1 from "./regions/bourgogne-franche-comte.json";
 import region2 from "./regions/bretagne.json";
@@ -42,7 +43,7 @@ const content: CountryContent = {
   country,
   regions: [region0, region1, region2, region3, region4, region5, region6, region7, region8, region9, region10, region11, region12, region13, region14, region15, region16, region17] as Region[],
   map: map as CountryMap,
-  territories: [alsace, lorraine, champagneArdenne, languedocRoussillon, midiPyrenees, bourgogne, francheComte, auvergne] as Territory[],
+  territories: [alsace, lorraine, champagneArdenne, languedocRoussillon, midiPyrenees, bourgogne, francheComte, auvergne, rhoneAlpes] as Territory[],
   gameMaps: [mapGrandEstDepartements, mapGrandEstTerritoires, mapOccitanieDepartements, mapOccitanieTerritoires, mapBourgogneFrancheComteDepartements, mapBourgogneFrancheComteTerritoires, mapAuvergneRhoneAlpesDepartements, mapAuvergneRhoneAlpesTerritoires] as GameMap[],
   credits: credits as MediaCredit[],
   messages: { fr },
