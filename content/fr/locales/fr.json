@@ -652,6 +652,182 @@
       "photoLanguedocRoussillonLagrasse": {
         "title": "Lagrasse et son vieux pont",
         "alt": "Pont de pierre en arc au-dessus d'une rivière, entre les maisons d'un village ancien."
+      },
+      "photoMidiPyreneesCapitole": {
+        "title": "Façade du Capitole de Toulouse",
+        "alt": "Grande façade de brique rose et de pierre blanche, à colonnes et fronton sculpté, sous un ciel bleu."
+      },
+      "photoMidiPyreneesPontNeuf": {
+        "title": "La Garonne sous le Pont-Neuf de Toulouse",
+        "alt": "Vue sous une arche de brique, vers un large cours d'eau bordé de quais où marchent des promeneurs."
+      },
+      "photoMidiPyreneesRocamadour": {
+        "title": "Rocamadour",
+        "alt": "Village de pierre et sanctuaires étagés sur une haute falaise boisée, dominés par un château."
+      },
+      "photoMidiPyreneesGavarnie": {
+        "title": "Cirque de Gavarnie",
+        "alt": "Muraille de montagnes enneigées au bout d'une vallée, avec un torrent caillouteux au premier plan."
+      },
+      "photoMidiPyreneesPontValentre": {
+        "title": "Pont Valentré à Cahors",
+        "alt": "Pont de pierre à arches gothiques et hautes tours carrées, reflété dans une rivière."
+      },
+      "photoMidiPyreneesLourdes": {
+        "title": "Basilique de l'Immaculée-Conception à Lourdes",
+        "alt": "Église à flèches élancées au-dessus de grandes rampes, au bord d'une rivière, avec une foule de visiteurs."
+      },
+      "photoMidiPyreneesAlbi": {
+        "title": "Albi et le Tarn au crépuscule",
+        "alt": "Vieille ville de brique illuminée et cathédrale massive, au-dessus d'un pont ancien et d'une rivière, à la tombée du jour."
+      },
+      "photoMidiPyreneesRoquefort": {
+        "title": "Part de roquefort",
+        "alt": "Part de fromage à pâte blanche veinée de bleu-vert, posée sur une ardoise."
+      },
+      "photoMidiPyreneesAligot": {
+        "title": "Bol d'aligot et saucisse",
+        "alt": "Bol de préparation blanche et lisse, servi sur une assiette avec une saucisse grillée et de la salade."
+      },
+      "photoMidiPyreneesSaucisse": {
+        "title": "Saucisse de Toulouse",
+        "alt": "Deux saucisses crues à la viande grossièrement hachée, sur une assiette blanche."
+      },
+      "photoMidiPyreneesAilRose": {
+        "title": "Ail rose de Lautrec",
+        "alt": "Tête et gousse d'ail à la peau veinée, sur un fond coloré."
+      },
+      "photoMidiPyreneesCabecou": {
+        "title": "Fromage de Rocamadour",
+        "alt": "Petit palet de fromage blanc entamé, avec son étiquette, sur une table de bois."
+      },
+      "photoMidiPyreneesViolette": {
+        "title": "Violettes cristallisées de Toulouse",
+        "alt": "Bol rempli de petites fleurs bleues couvertes de cristaux de sucre."
+      },
+      "photoMidiPyreneesVignesCahors": {
+        "title": "Vignoble de Cahors",
+        "alt": "Rangs de vigne au pied d'une colline boisée, dans la lumière du soir."
+      },
+      "photoMidiPyreneesSaintSernin": {
+        "title": "Façade de la basilique Saint-Sernin",
+        "alt": "Façade d'une grande église romane de brique, à deux portails et grande rose."
+      },
+      "photoMidiPyreneesJacobins": {
+        "title": "Le palmier des Jacobins, à Toulouse",
+        "alt": "Voûte gothique dont de nombreuses nervures rayonnent depuis une colonne, comme les feuilles d'un arbre."
+      },
+      "photoMidiPyreneesConques": {
+        "title": "Conques et l'abbatiale Sainte-Foy",
+        "alt": "Abbatiale romane à trois clochers, au milieu d'un village de maisons à toits de lauzes, sur un versant."
+      },
+      "photoMidiPyreneesRodez": {
+        "title": "Cathédrale Notre-Dame de Rodez",
+        "alt": "Façade de grès d'une cathédrale gothique encadrée de deux grosses tours, illuminée de nuit."
+      },
+      "photoMidiPyreneesCordes": {
+        "title": "Vue aérienne de Cordes-sur-Ciel",
+        "alt": "Bourg médiéval étiré sur le sommet d'une colline, vu du ciel, entouré de bois et de champs."
+      },
+      "photoMidiPyreneesCastres": {
+        "title": "Maisons sur l'Agout à Castres",
+        "alt": "Rangée de maisons colorées à balcons, plongeant dans une rivière calme, près d'un pont."
+      },
+      "photoMidiPyreneesAuchEscalier": {
+        "title": "Escalier monumental d'Auch",
+        "alt": "Grand escalier de pierre avec une statue en son milieu, dominé par une haute tour."
+      },
+      "photoMidiPyreneesLarressingle": {
+        "title": "Larressingle",
+        "alt": "Entrée d'un petit village fortifié de pierre, avec ses tours, sous un ciel bleu."
+      },
+      "photoMidiPyreneesMontauban": {
+        "title": "Montauban et le Pont-Vieux",
+        "alt": "Long pont de brique à arches sur une large rivière, avec une ville et un clocher à l'arrière-plan."
+      },
+      "photoMidiPyreneesMoissac": {
+        "title": "Cloître de l'abbaye de Moissac",
+        "alt": "Galerie de cloître à fines colonnes et arcs brisés, sous une charpente de bois, autour d'un jardin."
+      },
+      "photoMidiPyreneesFoix": {
+        "title": "Château de Foix",
+        "alt": "Château à trois tours sur un rocher dominant une petite ville, devant des collines boisées."
+      },
+      "photoMidiPyreneesMirepoix": {
+        "title": "Place des Couverts à Mirepoix",
+        "alt": "Maisons à pans de bois posées sur des piliers de bois, formant une galerie autour d'une place."
+      },
+      "photoMidiPyreneesNajac": {
+        "title": "Forteresse de Najac",
+        "alt": "Hauts murs ruinés et tour ronde d'une forteresse médiévale, sous un ciel d'un bleu profond."
+      },
+      "photoMidiPyreneesSaintCirq": {
+        "title": "Place du Sombral à Saint-Cirq-Lapopie",
+        "alt": "Place pavée d'un village médiéval, avec maisons de pierre, colombages et hauts toits de tuile."
+      },
+      "photoMidiPyreneesLaguiole": {
+        "title": "Couteaux de Laguiole",
+        "alt": "Deux vues d'un couteau pliant à manche de bois blond et courbé, sur un fond clair."
+      },
+      "photoMidiPyreneesGateauBroche": {
+        "title": "Préparation d'un gâteau à la broche à Arreau",
+        "alt": "Sur un stand de rue, un long gâteau doré hérissé de pointes tourne sur un axe, devant des passants."
+      },
+      "photoMidiPyreneesGasconne": {
+        "title": "Vache gasconne des Pyrénées",
+        "alt": "Vache à la robe grise portant une cloche, dans un pâturage de montagne."
+      },
+      "photoMidiPyreneesLacaune": {
+        "title": "Brebis de race lacaune",
+        "alt": "Petit groupe de brebis blanches à tête fine, broutant dans une prairie."
+      },
+      "photoMidiPyreneesCacor": {
+        "title": "Pont-canal du Cacor",
+        "alt": "Long pont de brique à nombreuses arches, au-dessus d'une large rivière, vu de la berge."
+      },
+      "photoMidiPyreneesMontsegur": {
+        "title": "Château de Montségur",
+        "alt": "Ruines d'un château au sommet d'un piton rocheux et boisé, se détachant sur le ciel."
+      },
+      "photoMidiPyreneesPadirac": {
+        "title": "Gouffre de Padirac",
+        "alt": "Immense puits de roche aux strates horizontales, avec des visiteurs sur une passerelle tout en bas."
+      },
+      "photoMidiPyreneesPicMidi": {
+        "title": "Observatoire du Pic du Midi",
+        "alt": "Coupole blanche sur une terrasse de béton, avec des crêtes de montagnes à l'arrière-plan."
+      },
+      "photoMidiPyreneesTourmalet": {
+        "title": "Col du Tourmalet",
+        "alt": "Route qui serpente sur de grands versants d'herbe jaunie, entre de hauts sommets."
+      },
+      "photoMidiPyreneesGaube": {
+        "title": "Lac de Gaube",
+        "alt": "Lac d'un bleu sombre au fond d'une vallée de montagne, avec de gros blocs de rochers et une randonneuse."
+      },
+      "photoMidiPyreneesMasAzil": {
+        "title": "Entrée de la grotte du Mas-d'Azil",
+        "alt": "Route s'engageant sous une immense ouverture sombre, au pied d'une falaise calcaire."
+      },
+      "photoMidiPyreneesFlaran": {
+        "title": "Abbaye de Flaran",
+        "alt": "Façade sobre d'une église abbatiale de pierre, avec une rosace et deux baies, sous un ciel bleu."
+      },
+      "photoMidiPyreneesSaintBertrand": {
+        "title": "Tour-clocher de la cathédrale de Saint-Bertrand-de-Comminges",
+        "alt": "Haute tour de pierre carrée coiffée d'un hourd de bois, avec un portail à sa base."
+      },
+      "photoMidiPyreneesAuvillar": {
+        "title": "Halle aux grains d'Auvillar",
+        "alt": "Halle circulaire à colonnes et toits de tuile, au milieu d'une place pavée entourée de maisons de brique."
+      },
+      "photoMidiPyreneesNeouvielle": {
+        "title": "Lac d'Aumar, réserve du Néouvielle",
+        "alt": "Lac de montagne reflétant des sommets enneigés, avec quelques pins sur ses rives."
+      },
+      "photoMidiPyreneesIsard": {
+        "title": "Isard des Pyrénées",
+        "alt": "Petit ongulé aux cornes noires recourbées, qui observe derrière un rocher sur un versant rocailleux."
       }
     }
   },
@@ -814,7 +990,65 @@
     "mont-louis": "Mont-Louis",
     "villefranche-de-conflent": "Villefranche-de-Conflent",
     "castelnou": "Castelnou",
-    "salses-le-chateau": "Salses-le-Château"
+    "salses-le-chateau": "Salses-le-Château",
+    "foix": "Foix",
+    "pamiers": "Pamiers",
+    "saint-girons": "Saint-Girons",
+    "lavelanet": "Lavelanet",
+    "mirepoix": "Mirepoix",
+    "saint-lizier": "Saint-Lizier",
+    "montsegur": "Montségur",
+    "rodez": "Rodez",
+    "millau": "Millau",
+    "villefranche-de-rouergue": "Villefranche-de-Rouergue",
+    "decazeville": "Decazeville",
+    "espalion": "Espalion",
+    "saint-affrique": "Saint-Affrique",
+    "conques": "Conques",
+    "najac": "Najac",
+    "estaing": "Estaing",
+    "laguiole": "Laguiole",
+    "roquefort": "Roquefort",
+    "toulouse": "Toulouse",
+    "muret": "Muret",
+    "saint-gaudens": "Saint-Gaudens",
+    "bagneres-de-luchon": "Bagnères-de-Luchon",
+    "saint-bertrand-de-comminges": "Saint-Bertrand-de-Comminges",
+    "auch": "Auch",
+    "condom": "Condom",
+    "lectoure": "Lectoure",
+    "mirande": "Mirande",
+    "fleurance": "Fleurance",
+    "marciac": "Marciac",
+    "larressingle": "Larressingle",
+    "cahors": "Cahors",
+    "figeac": "Figeac",
+    "gourdon": "Gourdon",
+    "souillac": "Souillac",
+    "rocamadour": "Rocamadour",
+    "saint-cirq-lapopie": "Saint-Cirq-Lapopie",
+    "tarbes": "Tarbes",
+    "lourdes": "Lourdes",
+    "bagneres-de-bigorre": "Bagnères-de-Bigorre",
+    "lannemezan": "Lannemezan",
+    "cauterets": "Cauterets",
+    "argeles-gazost": "Argelès-Gazost",
+    "gavarnie": "Gavarnie",
+    "albi": "Albi",
+    "castres": "Castres",
+    "gaillac": "Gaillac",
+    "mazamet": "Mazamet",
+    "graulhet": "Graulhet",
+    "cordes-sur-ciel": "Cordes-sur-Ciel",
+    "lautrec": "Lautrec",
+    "montauban": "Montauban",
+    "moissac": "Moissac",
+    "castelsarrasin": "Castelsarrasin",
+    "valence": "Valence",
+    "auvillar": "Auvillar",
+    "lauzerte": "Lauzerte",
+    "bruniquel": "Bruniquel",
+    "saint-antonin-noble-val": "Saint-Antonin-Noble-Val"
   },
   "territories": {
     "champagne-ardenne": {
@@ -7084,7 +7318,2010 @@
       }
     },
     "midi-pyrenees": {
-      "name": "Midi-Pyrénées"
+      "name": "Midi-Pyrénées",
+      "description": "Du sud du Massif central aux hauts sommets des Pyrénées, un vaste territoire de villes de brique, d'abbayes romanes, de bastides et de terroirs.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Midi-Pyrénées",
+          "description": "Huit départements, leurs villes et les grands repères d'un territoire entre Massif central, Garonne et Pyrénées.",
+          "carte-territoire": {
+            "prompt": "Touchez sur la carte le territoire de Midi-Pyrénées.",
+            "hint": "C'est la partie de l'Occitanie qui ne borde pas la mer.",
+            "anecdote": "Midi-Pyrénées forme l'ouest et le nord de l'Occitanie, de l'Aubrac jusqu'à la frontière espagnole."
+          },
+          "nombre-departements": {
+            "prompt": "Combien de départements compte Midi-Pyrénées ?",
+            "hint": "Un de plus que les jours de la semaine.",
+            "anecdote": "L'Ariège, l'Aveyron, la Haute-Garonne, le Gers, le Lot, les Hautes-Pyrénées, le Tarn et le Tarn-et-Garonne forment Midi-Pyrénées.",
+            "answers": {
+              "huit": "Huit",
+              "cinq": "Cinq",
+              "six": "Six",
+              "dix": "Dix"
+            }
+          },
+          "region-actuelle": {
+            "prompt": "Dans quelle région administrative Midi-Pyrénées se trouve-t-elle depuis 2016 ?",
+            "hint": "Son nom rappelle une langue parlée dans le sud de la France.",
+            "anecdote": "Midi-Pyrénées et le Languedoc-Roussillon ont été réunis en 2016 dans une seule région, l'Occitanie.",
+            "answers": {
+              "l-occitanie": "L'Occitanie",
+              "la-nouvelle-aquitaine": "La Nouvelle-Aquitaine",
+              "auvergne-rhone-alpes": "Auvergne-Rhône-Alpes",
+              "provence-alpes-cote-d-azur": "Provence-Alpes-Côte d'Azur"
+            }
+          },
+          "ancienne-capitale": {
+            "prompt": "Quelle ville était le chef-lieu de l'ancienne région Midi-Pyrénées ?",
+            "hint": "C'est aussi la plus grande ville du territoire, au bord de la Garonne.",
+            "anecdote": "Toulouse était le chef-lieu de Midi-Pyrénées. Elle est aujourd'hui celui de l'Occitanie."
+          },
+          "superficie": {
+            "prompt": "Par quoi Midi-Pyrénées se distinguait-elle des autres régions de métropole avant 2016 ?",
+            "hint": "Elle couvrait plus de 45 000 kilomètres carrés.",
+            "anecdote": "Avec plus de 45 000 kilomètres carrés, Midi-Pyrénées était la plus vaste des anciennes régions de France métropolitaine.",
+            "answers": {
+              "c-etait-la-plus-vaste": "C'était la plus vaste",
+              "c-etait-la-plus-peuplee": "C'était la plus peuplée",
+              "c-etait-la-plus-petite": "C'était la plus petite",
+              "c-etait-la-plus-au-nord": "C'était la plus au nord"
+            }
+          },
+          "pays-frontalier": {
+            "prompt": "Quel grand pays voisin se trouve de l'autre côté des Pyrénées ?",
+            "hint": "Sa capitale est Madrid.",
+            "anecdote": "Les Hautes-Pyrénées, la Haute-Garonne et l'Ariège partagent une frontière avec l'Espagne.",
+            "answers": {
+              "l-espagne": "L'Espagne",
+              "l-italie": "L'Italie",
+              "le-portugal": "Le Portugal",
+              "la-suisse": "La Suisse"
+            }
+          },
+          "andorre": {
+            "prompt": "Quelle petite principauté touche le département de l'Ariège ?",
+            "hint": "Elle est nichée au cœur des Pyrénées.",
+            "anecdote": "Andorre borde le sud-est de l'Ariège. Le président français en est l'un des deux coprinces, héritage des comtes de Foix.",
+            "answers": {
+              "andorre": "Andorre",
+              "monaco": "Monaco",
+              "le-liechtenstein": "Le Liechtenstein",
+              "saint-marin": "Saint-Marin"
+            }
+          },
+          "carte-ariege": {
+            "prompt": "Touchez sur la carte le département de l'Ariège.",
+            "hint": "Il touche l'Espagne et l'Andorre.",
+            "anecdote": "L'Ariège s'étend des collines du Plantaurel aux hauts sommets des Pyrénées."
+          },
+          "carte-gers": {
+            "prompt": "Touchez sur la carte le département du Gers.",
+            "hint": "Il se trouve à l'ouest de Toulouse, au nord des Hautes-Pyrénées.",
+            "anecdote": "Le Gers, cœur de l'ancienne Gascogne, est un pays de collines, de vignes et de villages."
+          },
+          "carte-lot": {
+            "prompt": "Touchez sur la carte le département du Lot.",
+            "hint": "C'est le département le plus au nord-ouest du territoire.",
+            "anecdote": "Le Lot correspond en grande partie à l'ancien Quercy, entre causses, vallées et falaises."
+          },
+          "carte-hautes-pyrenees": {
+            "prompt": "Touchez sur la carte le département des Hautes-Pyrénées.",
+            "hint": "Il borde l'Espagne, à l'ouest de la Haute-Garonne.",
+            "anecdote": "Les Hautes-Pyrénées réunissent Tarbes, Lourdes et les plus hauts sommets français de la chaîne."
+          },
+          "carte-tarn": {
+            "prompt": "Touchez sur la carte le département du Tarn.",
+            "hint": "Il s'étend à l'est de Toulouse, sans toucher la frontière.",
+            "anecdote": "Le Tarn va des plaines de l'Albigeois aux reliefs de la Montagne noire."
+          },
+          "numero-haute-garonne": {
+            "prompt": "Quel est le numéro du département de la Haute-Garonne ?",
+            "hint": "Il vient juste avant le numéro du Gers.",
+            "anecdote": "La Haute-Garonne porte le numéro 31, souvent repris par les Toulousains pour parler de leur département.",
+            "answers": {
+              "31": "31",
+              "32": "32",
+              "46": "46",
+              "81": "81"
+            }
+          },
+          "numero-ariege": {
+            "prompt": "Quel est le numéro du département de l'Ariège ?",
+            "hint": "C'est le plus petit numéro du territoire.",
+            "anecdote": "L'Ariège porte le numéro 09, l'ordre alphabétique la plaçant parmi les premiers départements.",
+            "answers": {
+              "12": "12",
+              "65": "65",
+              "82": "82",
+              "09": "09"
+            }
+          },
+          "intrus-departement": {
+            "prompt": "Lequel de ces départements n'appartient pas à Midi-Pyrénées ?",
+            "hint": "Il borde la Méditerranée.",
+            "anecdote": "L'Hérault fait partie du Languedoc-Roussillon, l'autre grand territoire de l'Occitanie.",
+            "answers": {
+              "l-herault": "L'Hérault",
+              "le-gers": "Le Gers",
+              "le-lot": "Le Lot",
+              "l-aveyron": "L'Aveyron"
+            }
+          },
+          "deux-rivieres": {
+            "prompt": "Quel département porte le nom de deux cours d'eau reliés par un « et » ?",
+            "hint": "Sa préfecture est Montauban.",
+            "anecdote": "Le Tarn-et-Garonne a été créé en 1808 sous Napoléon, avec des terres prises aux départements voisins.",
+            "answers": {
+              "le-tarn-et-garonne": "Le Tarn-et-Garonne",
+              "la-haute-garonne": "La Haute-Garonne",
+              "le-gers": "Le Gers",
+              "les-hautes-pyrenees": "Les Hautes-Pyrénées"
+            }
+          },
+          "plus-peuple": {
+            "prompt": "Quel est le département le plus peuplé de Midi-Pyrénées ?",
+            "hint": "La métropole toulousaine s'y trouve.",
+            "anecdote": "La Haute-Garonne compte plus de 1,4 million d'habitants, soit bien plus que chacun des sept autres départements.",
+            "answers": {
+              "la-haute-garonne": "La Haute-Garonne",
+              "le-tarn": "Le Tarn",
+              "l-aveyron": "L'Aveyron",
+              "le-lot": "Le Lot"
+            }
+          },
+          "prefecture-ariege": {
+            "prompt": "Quelle ville est la préfecture de l'Ariège ?",
+            "hint": "Son château à trois tours domine la ville.",
+            "anecdote": "Foix, l'une des plus petites préfectures de France, a longtemps été la capitale d'un puissant comté."
+          },
+          "prefecture-aveyron": {
+            "prompt": "Quelle ville est la préfecture de l'Aveyron ?",
+            "hint": "Elle se dresse sur une butte, avec une haute cathédrale de grès rose.",
+            "anecdote": "Rodez, ancienne capitale du Rouergue, surplombe la vallée de l'Aveyron."
+          },
+          "prefecture-gers": {
+            "prompt": "Quelle ville est la préfecture du Gers ?",
+            "hint": "Son nom ne compte que quatre lettres.",
+            "anecdote": "Auch, sur le Gers, est la capitale historique de la Gascogne."
+          },
+          "prefecture-lot": {
+            "prompt": "Quelle ville est la préfecture du Lot ?",
+            "hint": "Elle a donné son nom à un célèbre vin rouge.",
+            "anecdote": "Cahors est installée dans un grand méandre de la rivière Lot."
+          },
+          "prefecture-hautes-pyrenees": {
+            "prompt": "Quelle ville est la préfecture des Hautes-Pyrénées ?",
+            "hint": "Le maréchal Foch y est né.",
+            "anecdote": "Tarbes, au bord de l'Adour, est la capitale historique de la Bigorre."
+          },
+          "prefecture-tarn": {
+            "prompt": "Quelle ville est la préfecture du Tarn ?",
+            "hint": "Le peintre Toulouse-Lautrec y est né.",
+            "anecdote": "Albi, sur la rivière Tarn, conserve un remarquable centre ancien de brique."
+          },
+          "prefecture-tarn-et-garonne": {
+            "prompt": "Quelle ville est la préfecture du Tarn-et-Garonne ?",
+            "hint": "Le peintre Ingres y est né.",
+            "anecdote": "Montauban, sur le Tarn, a été fondée au XIIe siècle par le comte de Toulouse."
+          },
+          "ville-rose": {
+            "prompt": "Quelle ville surnomme-t-on la Ville rose ?",
+            "hint": "Ses façades de brique prennent de belles couleurs au soleil couchant.",
+            "anecdote": "La brique, faute de pierre à proximité, a donné à Toulouse sa couleur et son surnom."
+          },
+          "photo-lourdes": {
+            "prompt": "Quelle ville des Hautes-Pyrénées, grand lieu de pèlerinage, voit-on ici ?",
+            "hint": "Bernadette Soubirous y est née.",
+            "anecdote": "Le sanctuaire de Lourdes accueille chaque année des pèlerins du monde entier, depuis les apparitions rapportées en 1858."
+          },
+          "millau-departement": {
+            "prompt": "Dans quel département se trouve la ville de Millau ?",
+            "hint": "Sa préfecture est Rodez.",
+            "anecdote": "Millau, au bord du Tarn, est la deuxième ville de l'Aveyron.",
+            "answers": {
+              "l-aveyron": "L'Aveyron",
+              "le-tarn": "Le Tarn",
+              "le-lot": "Le Lot",
+              "le-gers": "Le Gers"
+            }
+          },
+          "photo-pont-neuf": {
+            "prompt": "Quel fleuve coule sous ce grand pont de brique, à Toulouse ?",
+            "hint": "Il prend sa source en Espagne et finit dans l'Atlantique.",
+            "anecdote": "La Garonne traverse Toulouse, puis rejoint l'estuaire de la Gironde en aval de Bordeaux.",
+            "answers": {
+              "la-garonne": "La Garonne",
+              "le-rhone": "Le Rhône",
+              "la-loire": "La Loire",
+              "la-dordogne": "La Dordogne"
+            }
+          },
+          "pyrenees": {
+            "prompt": "Quelle chaîne de montagnes marque le sud de ce territoire, à la frontière espagnole ?",
+            "hint": "Elle a donné la seconde moitié du nom du territoire.",
+            "anecdote": "Les Pyrénées s'étendent de l'Atlantique à la Méditerranée et séparent la France de l'Espagne.",
+            "answers": {
+              "les-pyrenees": "Les Pyrénées",
+              "les-alpes": "Les Alpes",
+              "les-vosges": "Les Vosges",
+              "le-jura": "Le Jura"
+            }
+          },
+          "photo-gavarnie": {
+            "prompt": "Quel immense cirque naturel des Pyrénées voit-on ici ?",
+            "hint": "Il se trouve au bout de la vallée de Luz, tout près de l'Espagne.",
+            "anecdote": "Victor Hugo a décrit Gavarnie comme un colosseum de la nature. Le site est inscrit au patrimoine mondial.",
+            "answers": {
+              "troumouse": "Troumouse",
+              "estaube": "Estaubé",
+              "navacelles": "Navacelles"
+            }
+          },
+          "riviere-albi": {
+            "prompt": "Quelle rivière traverse Albi ?",
+            "hint": "Elle a donné son nom au département.",
+            "anecdote": "Née sur le mont Lozère, cette rivière creuse des gorges célèbres avant d'arriver à Albi puis à Montauban.",
+            "answers": {
+              "le-tarn": "Le Tarn",
+              "l-aveyron": "L'Aveyron",
+              "le-lot": "Le Lot",
+              "l-ariege": "L'Ariège"
+            }
+          },
+          "riviere-cahors": {
+            "prompt": "Quelle rivière entoure presque entièrement le centre de Cahors ?",
+            "hint": "Le département porte le même nom.",
+            "anecdote": "Un méandre très serré du Lot a donné à Cahors une position naturellement défendue.",
+            "answers": {
+              "le-lot": "Le Lot",
+              "le-cele": "Le Célé",
+              "la-dordogne": "La Dordogne",
+              "le-tarn": "Le Tarn"
+            }
+          },
+          "sans-mer": {
+            "prompt": "Combien de départements de Midi-Pyrénées bordent la mer ?",
+            "hint": "Le territoire est entièrement à l'intérieur des terres.",
+            "anecdote": "Aucun des huit départements n'a de littoral. La mer la plus proche se trouve en Languedoc-Roussillon.",
+            "answers": {
+              "aucun": "Aucun",
+              "un": "Un",
+              "deux": "Deux",
+              "trois": "Trois"
+            }
+          },
+          "causses": {
+            "prompt": "Comment appelle-t-on les plateaux calcaires du Lot et de l'Aveyron ?",
+            "hint": "Le mot remonte, par l'occitan, à un mot latin désignant la chaux.",
+            "anecdote": "Les causses sont de grands plateaux secs, où l'eau s'infiltre dans le calcaire et creuse des grottes.",
+            "answers": {
+              "les-causses": "Les causses",
+              "les-landes": "Les landes",
+              "les-marais": "Les marais",
+              "les-polders": "Les polders"
+            }
+          },
+          "massif-central": {
+            "prompt": "Quel grand massif s'étend sur le nord-est de Midi-Pyrénées ?",
+            "hint": "L'Aubrac et les monts de Lacaune en font partie.",
+            "anecdote": "L'Aveyron et le Lot occupent le sud-ouest du Massif central, loin des grands sommets pyrénéens.",
+            "answers": {
+              "le-massif-central": "Le Massif central",
+              "le-massif-armoricain": "Le Massif armoricain",
+              "le-massif-du-mont-blanc": "Le massif du Mont-Blanc",
+              "le-massif-des-vosges": "Le massif des Vosges"
+            }
+          },
+          "photo-capitole": {
+            "prompt": "Quel monument, qui abrite la mairie de Toulouse, voit-on ici ?",
+            "hint": "Son nom rappelle une colline de la Rome antique.",
+            "anecdote": "La longue façade du XVIIIe siècle, en brique et en pierre, abrite aussi un théâtre. Elle domine une grande place au cœur de la ville.",
+            "answers": {
+              "le-capitole": "Le Capitole",
+              "le-louvre": "Le Louvre",
+              "la-bourse": "La Bourse",
+              "le-parlement": "Le Parlement"
+            }
+          },
+          "photo-albi": {
+            "prompt": "Quelle ville du Tarn, avec sa cathédrale de brique, voit-on ici ?",
+            "hint": "Elle a donné son nom à une croisade du XIIIe siècle.",
+            "anecdote": "La cathédrale Sainte-Cécile, commencée à la fin du XIIIe siècle, ressemble à une forteresse de brique au-dessus de la rivière."
+          },
+          "photo-rocamadour": {
+            "prompt": "Quel village du Lot, accroché à sa falaise, voit-on ici ?",
+            "hint": "C'est un célèbre lieu de pèlerinage, qui a aussi donné son nom à un fromage.",
+            "anecdote": "Maisons, sanctuaires et château s'étagent sur la falaise, au-dessus du canyon de l'Alzou."
+          },
+          "photo-pont-valentre": {
+            "prompt": "Quel pont fortifié de Cahors voit-on ici ?",
+            "hint": "Ses trois hautes tours se reflètent dans le Lot.",
+            "anecdote": "Ce pont du XIVe siècle est l'un des plus beaux exemples de pont fortifié médiéval en France.",
+            "answers": {
+              "le-pont-valentre": "Le pont Valentré",
+              "le-pont-d-avignon": "Le pont d'Avignon",
+              "le-pont-du-gard": "Le pont du Gard",
+              "le-pont-neuf": "Le Pont-Neuf"
+            }
+          },
+          "carte-haute-garonne": {
+            "prompt": "Touchez sur la carte le département de la Haute-Garonne.",
+            "hint": "Il s'étire de Toulouse jusqu'à la frontière espagnole.",
+            "anecdote": "Sa préfecture est Toulouse, et sa pointe sud touche l'Espagne, dans les Pyrénées."
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs de Midi-Pyrénées",
+          "description": "Roquefort, aligot, cassoulet et armagnac : les plats, les fromages et les produits d'un grand territoire de terroirs.",
+          "photo-saucisse": {
+            "prompt": "De quelle ville cette saucisse de porc porte-t-elle le nom ?",
+            "hint": "C'est la capitale de la région.",
+            "anecdote": "Faite de viande de porc hachée grossièrement, elle se grille ou entre dans le cassoulet."
+          },
+          "cassoulet": {
+            "prompt": "Quel plat de haricots blancs et de viandes Toulouse revendique-t-elle, comme Castelnaudary et Carcassonne ?",
+            "hint": "Il doit son nom au récipient de terre dans lequel il cuit.",
+            "anecdote": "Le cassoulet de Toulouse se reconnaît souvent à sa saucisse et à son confit de canard ou d'oie.",
+            "answers": {
+              "le-cassoulet": "Le cassoulet",
+              "la-garbure": "La garbure",
+              "le-pot-au-feu": "Le pot-au-feu",
+              "la-ratatouille": "La ratatouille"
+            }
+          },
+          "photo-aligot": {
+            "prompt": "Quel plat de l'Aubrac, qui file longuement, voit-on dans ce bol ?",
+            "hint": "Il mêle purée de pommes de terre et fromage.",
+            "anecdote": "Il se travaille longuement à la spatule jusqu'à former de longs rubans. On le sert souvent avec une saucisse.",
+            "answers": {
+              "l-aligot": "L'aligot",
+              "la-truffade": "La truffade",
+              "le-gratin-dauphinois": "Le gratin dauphinois",
+              "la-tartiflette": "La tartiflette"
+            }
+          },
+          "aligot-tomme": {
+            "prompt": "Quel fromage donne à l'aligot son aspect filant ?",
+            "hint": "Il est frais, jeune et encore peu affiné.",
+            "anecdote": "La tomme fraîche de l'Aubrac fond dans la purée et la rend élastique.",
+            "answers": {
+              "la-tomme-fraiche": "La tomme fraîche",
+              "le-roquefort": "Le roquefort",
+              "le-rocamadour": "Le rocamadour",
+              "le-bleu-des-causses": "Le bleu des Causses"
+            }
+          },
+          "garbure": {
+            "prompt": "Quelle épaisse soupe de chou et de légumes, souvent enrichie de confit, est typique de la Gascogne et de la Bigorre ?",
+            "hint": "Son nom commence par les mêmes lettres que le fleuve de Toulouse, la Garonne.",
+            "anecdote": "Plat de tous les jours dans les fermes, la garbure mijotait longtemps et se complétait selon les saisons.",
+            "answers": {
+              "la-garbure": "La garbure",
+              "la-bouillabaisse": "La bouillabaisse",
+              "la-potee-lorraine": "La potée lorraine",
+              "le-pistou": "Le pistou"
+            }
+          },
+          "confit": {
+            "prompt": "Comment appelle-t-on les morceaux de canard cuits et conservés dans leur propre graisse ?",
+            "hint": "Le mot sert aussi pour les fruits conservés dans le sucre.",
+            "anecdote": "Cette méthode permettait de garder la viande plusieurs mois, bien avant l'invention du réfrigérateur.",
+            "answers": {
+              "le-confit": "Le confit",
+              "le-magret": "Le magret",
+              "le-salmis": "Le salmis",
+              "la-daube": "La daube"
+            }
+          },
+          "foie-gras-gers": {
+            "prompt": "Quelle spécialité à base de canard ou d'oie fait la réputation des marchés du Gers ?",
+            "hint": "Elle se sert souvent pendant les fêtes de fin d'année.",
+            "anecdote": "Le Gers est l'un des grands départements du canard gras, avec une indication géographique propre au Sud-Ouest.",
+            "answers": {
+              "le-foie-gras": "Le foie gras",
+              "le-boudin-blanc": "Le boudin blanc",
+              "le-pate-en-croute": "Le pâté en croûte",
+              "le-jambon-de-bayonne": "Le jambon de Bayonne"
+            }
+          },
+          "estofinade": {
+            "prompt": "Quel plat du bassin de Decazeville est préparé avec du poisson séché, venu de loin ?",
+            "hint": "Son nom vient d'un mot désignant ce poisson séché de Norvège.",
+            "anecdote": "Le stockfish remontait, dit-on, la vallée du Lot par bateau depuis Bordeaux. Il est mélangé à des pommes de terre, des œufs et de l'huile de noix.",
+            "answers": {
+              "l-estofinade": "L'estofinade",
+              "la-brandade": "La brandade",
+              "la-bourride": "La bourride",
+              "la-tielle": "La tielle"
+            }
+          },
+          "tripoux": {
+            "prompt": "Comment s'appellent les petits paquets de tripes d'agneau ou de veau, spécialité de Naucelle, en Aveyron ?",
+            "hint": "Le nom ressemble à celui des abats dont ils sont faits.",
+            "anecdote": "Mijotés plusieurs heures, ils se dégustent traditionnellement au casse-croûte du matin.",
+            "answers": {
+              "les-tripoux": "Les tripoux",
+              "les-paupiettes": "Les paupiettes",
+              "les-quenelles": "Les quenelles",
+              "les-grattons": "Les grattons"
+            }
+          },
+          "mounjetado": {
+            "prompt": "Quel plat ariégeois réunit haricots, confit et saucisse, à la manière d'un cassoulet ?",
+            "hint": "Son nom vient d'un mot occitan désignant le haricot.",
+            "anecdote": "La mounjetado est le grand plat de fête de l'Ariège, préparé avec les haricots du pays.",
+            "answers": {
+              "la-mounjetado": "La mounjetado",
+              "la-cargolade": "La cargolade",
+              "la-bullinada": "La bullinada",
+              "la-garbure": "La garbure"
+            }
+          },
+          "photo-roquefort": {
+            "prompt": "Quel célèbre fromage bleu de l'Aveyron voit-on ici ?",
+            "hint": "Son village d'affinage se trouve au pied du Combalou.",
+            "anecdote": "Protégé dès 1925, il a été le premier fromage français à obtenir une appellation d'origine.",
+            "answers": {
+              "le-roquefort": "Le roquefort",
+              "le-bleu-d-auvergne": "Le bleu d'Auvergne",
+              "la-fourme-d-ambert": "La fourme d'Ambert",
+              "le-gorgonzola": "Le gorgonzola"
+            }
+          },
+          "roquefort-lait": {
+            "prompt": "De quel lait le roquefort est-il fait ?",
+            "hint": "Cet animal est très présent sur les causses du sud de l'Aveyron.",
+            "anecdote": "Le roquefort est fait uniquement de lait cru de brebis.",
+            "answers": {
+              "de-brebis": "De brebis",
+              "de-vache": "De vache",
+              "de-chevre": "De chèvre",
+              "de-bufflonne": "De bufflonne"
+            }
+          },
+          "combalou": {
+            "prompt": "Dans les éboulis de quelle montagne se trouvent les caves où s'affine le roquefort ?",
+            "hint": "Son effondrement a créé des failles, qui aèrent naturellement les caves.",
+            "anecdote": "Les failles du Combalou, appelées fleurines, font circuler dans les caves un air frais et humide.",
+            "answers": {
+              "le-combalou": "Le Combalou",
+              "le-larzac": "Le Larzac",
+              "l-aubrac": "L'Aubrac",
+              "le-plomb-du-cantal": "Le Plomb du Cantal"
+            }
+          },
+          "photo-rocamadour-fromage": {
+            "prompt": "De quel département vient ce petit fromage de chèvre, protégé par une appellation d'origine ?",
+            "hint": "Sa préfecture est Cahors.",
+            "anecdote": "Ce petit palet est protégé par une appellation d'origine. Il se déguste jeune, parfois juste passé au four.",
+            "answers": {
+              "le-lot": "Le Lot",
+              "le-gers": "Le Gers",
+              "le-tarn": "Le Tarn",
+              "l-ariege": "L'Ariège"
+            }
+          },
+          "bleu-causses": {
+            "prompt": "Quel bleu au lait de vache s'affine dans des caves naturelles du Rouergue et du Quercy ?",
+            "hint": "Son nom reprend celui des plateaux calcaires de la région.",
+            "anecdote": "Le bleu des Causses est le cousin au lait de vache du roquefort, affiné lui aussi dans des grottes.",
+            "answers": {
+              "le-bleu-des-causses": "Le bleu des Causses",
+              "le-bleu-de-gex": "Le bleu de Gex",
+              "le-bleu-du-vercors": "Le bleu du Vercors",
+              "la-fourme-de-montbrison": "La fourme de Montbrison"
+            }
+          },
+          "laguiole-fromage": {
+            "prompt": "Quel fromage au lait de vache de l'Aubrac porte le même nom qu'un célèbre couteau ?",
+            "hint": "Sa croûte épaisse et sa pâte pressée rappellent le cantal.",
+            "anecdote": "Le laguiole est protégé par une appellation d'origine. Il se fabrique sur le plateau de l'Aubrac.",
+            "answers": {
+              "le-laguiole": "Le laguiole",
+              "le-thiers": "Le thiers",
+              "le-nontron": "Le nontron",
+              "le-saint-nectaire": "Le saint-nectaire"
+            }
+          },
+          "bethmale": {
+            "prompt": "Quel fromage ariégeois porte le nom d'une vallée du Couserans ?",
+            "hint": "Cette vallée est aussi connue pour ses sabots à longue pointe.",
+            "anecdote": "Le bethmale est une tomme à pâte souple, emblématique des fromages de montagne de l'Ariège.",
+            "answers": {
+              "le-bethmale": "Le bethmale",
+              "l-ossau-iraty": "L'ossau-iraty",
+              "le-beaufort": "Le beaufort",
+              "le-morbier": "Le morbier"
+            }
+          },
+          "tomme-pyrenees": {
+            "prompt": "Quel fromage, souvent reconnaissable à sa croûte noire ou dorée, porte le nom de la chaîne frontalière ?",
+            "hint": "Il bénéficie d'une indication géographique protégée.",
+            "anecdote": "La tomme des Pyrénées est fabriquée surtout au lait de vache, dans plusieurs départements du massif.",
+            "answers": {
+              "la-tomme-des-pyrenees": "La tomme des Pyrénées",
+              "la-tomme-de-savoie": "La tomme de Savoie",
+              "la-tomme-de-lomagne": "La tomme de Lomagne",
+              "la-tomme-du-jura": "La tomme du Jura"
+            }
+          },
+          "photo-ail-rose": {
+            "prompt": "Quel produit voit-on ici, spécialité de Lautrec, dans le Tarn ?",
+            "hint": "Il parfume les plats et se tresse en bottes.",
+            "anecdote": "L'ail rose de Lautrec bénéficie d'un Label rouge et d'une indication géographique protégée. Une fête lui est consacrée chaque été.",
+            "answers": {
+              "de-l-ail-rose": "De l'ail rose",
+              "des-oignons-de-roscoff": "Des oignons de Roscoff",
+              "des-echalotes": "Des échalotes",
+              "des-radis": "Des radis"
+            }
+          },
+          "haricot-tarbais": {
+            "prompt": "Quel haricot blanc de Bigorre pousse traditionnellement le long des tiges de maïs ?",
+            "hint": "Il porte le nom de la préfecture des Hautes-Pyrénées.",
+            "anecdote": "Le maïs sert de tuteur à ce haricot réputé pour sa peau fine. Il bénéficie d'un Label rouge.",
+            "answers": {
+              "le-haricot-tarbais": "Le haricot tarbais",
+              "le-coco-de-paimpol": "Le coco de Paimpol",
+              "le-lingot-du-nord": "Le lingot du Nord",
+              "le-soissons": "Le soissons"
+            }
+          },
+          "noir-bigorre": {
+            "prompt": "Quel animal élevé en plein air dans les Pyrénées est appelé le noir de Bigorre ?",
+            "hint": "Il est connu pour son jambon.",
+            "anecdote": "Ce porc de race gasconne, longtemps menacé, a été sauvé par des éleveurs. Il est protégé par une appellation d'origine.",
+            "answers": {
+              "un-porc": "Un porc",
+              "un-mouton": "Un mouton",
+              "un-taureau": "Un taureau",
+              "un-canard": "Un canard"
+            }
+          },
+          "truffe-lalbenque": {
+            "prompt": "Touchez sur la carte le département de Lalbenque, célèbre pour son marché aux truffes.",
+            "hint": "Sa préfecture est Cahors.",
+            "anecdote": "De décembre à mars, les trufficulteurs du Quercy y présentent la truffe noire dans de petits paniers."
+          },
+          "safran": {
+            "prompt": "Quelle épice, tirée d'une fleur, est de nouveau cultivée dans le Quercy ?",
+            "hint": "Il faut des milliers de fleurs de crocus pour en récolter quelques grammes.",
+            "anecdote": "Présente au Moyen Âge, sa culture a disparu puis a été relancée à la fin du XXe siècle par des producteurs du Lot.",
+            "answers": {
+              "le-safran": "Le safran",
+              "le-poivre": "Le poivre",
+              "la-vanille": "La vanille",
+              "la-cannelle": "La cannelle"
+            }
+          },
+          "chasselas-carte": {
+            "prompt": "Touchez sur la carte le département de Moissac, célèbre pour son raisin de table, le chasselas.",
+            "hint": "Sa préfecture est Montauban.",
+            "anecdote": "Le chasselas de Moissac a été le premier fruit français à recevoir une appellation d'origine."
+          },
+          "melon-quercy": {
+            "prompt": "Quel fruit d'été bénéficie d'une indication géographique protégée dans le Quercy ?",
+            "hint": "Il est rond et sa chair orange est très sucrée.",
+            "anecdote": "Le melon du Quercy pousse sur les coteaux du Lot et du Tarn-et-Garonne.",
+            "answers": {
+              "le-melon": "Le melon",
+              "la-cerise": "La cerise",
+              "l-abricot": "L'abricot",
+              "la-peche": "La pêche"
+            }
+          },
+          "photo-lacaune": {
+            "prompt": "Quelle race de brebis voit-on ici, dont le lait sert à faire le roquefort ?",
+            "hint": "Elle porte le nom de monts du sud du Tarn.",
+            "anecdote": "Sélectionnée pour son lait, la lacaune est aujourd'hui la principale race laitière de brebis en France.",
+            "answers": {
+              "la-lacaune": "La lacaune",
+              "la-tarasconnaise": "La tarasconnaise",
+              "la-manech": "La manech",
+              "l-ouessant": "L'ouessant"
+            }
+          },
+          "photo-violette": {
+            "prompt": "Quelle fleur, emblème de Toulouse, est ici cristallisée dans le sucre ?",
+            "hint": "Cette petite fleur a aussi donné son nom à une couleur.",
+            "anecdote": "Cultivée dans la région depuis le XIXe siècle, elle a fait vivre des dizaines de familles de maraîchers.",
+            "answers": {
+              "la-violette": "La violette",
+              "le-coquelicot": "Le coquelicot",
+              "le-lys": "Le lys",
+              "la-lavande": "La lavande"
+            }
+          },
+          "photo-gateau-broche": {
+            "prompt": "Quel gâteau voit-on ici en préparation, sur ce stand ?",
+            "hint": "La pâte est versée peu à peu sur un axe qui tourne.",
+            "anecdote": "Sa forme hérissée se construit couche après couche. On le prépare à Arreau et dans les vallées des Hautes-Pyrénées, comme sur l'Aubrac.",
+            "answers": {
+              "le-gateau-a-la-broche": "Le gâteau à la broche",
+              "le-kouglof": "Le kouglof",
+              "le-pain-d-epices": "Le pain d'épices",
+              "le-paris-brest": "Le paris-brest"
+            }
+          },
+          "cachou": {
+            "prompt": "Quelle petite pastille à la réglisse, vendue dans sa boîte jaune, a été créée à Toulouse ?",
+            "hint": "Elle porte le nom du pharmacien Léon Lajaunie.",
+            "anecdote": "Mise au point en 1880, cette pastille noire au goût puissant servait à rafraîchir l'haleine.",
+            "answers": {
+              "le-cachou": "Le cachou",
+              "le-calisson": "Le calisson",
+              "la-betise": "La bêtise",
+              "la-bergamote": "La bergamote"
+            }
+          },
+          "croustade": {
+            "prompt": "Quel dessert gascon, aux feuilles de pâte très fines, se garnit de pommes parfumées à l'armagnac ?",
+            "hint": "On l'appelle aussi pastis gascon.",
+            "anecdote": "Sa pâte étirée à la main, très fine et légèrement froissée, demande un vrai savoir-faire.",
+            "answers": {
+              "la-croustade": "La croustade",
+              "la-tarte-tatin": "La tarte Tatin",
+              "le-far": "Le far",
+              "le-clafoutis": "Le clafoutis"
+            }
+          },
+          "fenetra": {
+            "prompt": "Quel gâteau toulousain réunit abricot, amande et citron confit ?",
+            "hint": "Son nom viendrait d'une fête romaine des morts, célébrée au printemps.",
+            "anecdote": "Ce gâteau traditionnel rappellerait une très ancienne fête de printemps, au cours de laquelle les Toulousains honoraient leurs morts.",
+            "answers": {
+              "le-fenetra": "Le fénétra",
+              "le-baba": "Le baba",
+              "le-saint-honore": "Le saint-honoré",
+              "la-tropezienne": "La tropézienne"
+            }
+          },
+          "fouace": {
+            "prompt": "Quelle brioche en couronne, parfumée à la fleur d'oranger, est typique de l'Aveyron ?",
+            "hint": "Rabelais parle d'un pain du même nom dans Gargantua.",
+            "anecdote": "La fouace, d'origine ancienne, se partage dans les fêtes de village et les grandes occasions.",
+            "answers": {
+              "la-fouace": "La fouace",
+              "le-kouign-amann": "Le kouign-amann",
+              "la-tarte-au-sucre": "La tarte au sucre",
+              "le-pain-perdu": "Le pain perdu"
+            }
+          },
+          "photo-vignes-cahors": {
+            "prompt": "Quel vignoble du Lot, dans la vallée de sa rivière, voit-on ici ?",
+            "hint": "Il porte le nom de la préfecture du département.",
+            "anecdote": "Le vignoble s'étend de part et d'autre du Lot, à l'ouest de la ville. Il est réputé pour ses vins très colorés.",
+            "answers": {
+              "le-cahors": "Le cahors",
+              "le-bergerac": "Le bergerac",
+              "le-saint-emilion": "Le saint-émilion",
+              "le-chinon": "Le chinon"
+            }
+          },
+          "malbec": {
+            "prompt": "Quel cépage, aussi appelé côt, est la base du vin de Cahors ?",
+            "hint": "Il a aussi fait la réputation de l'Argentine.",
+            "anecdote": "La couleur très sombre de ce vin lui a valu le surnom de vin noir. Il a été exporté très tôt par la Garonne et Bordeaux.",
+            "answers": {
+              "le-malbec": "Le malbec",
+              "le-merlot": "Le merlot",
+              "le-pinot-noir": "Le pinot noir",
+              "la-syrah": "La syrah"
+            }
+          },
+          "gaillac": {
+            "prompt": "Quel vignoble du Tarn, dont l'histoire remonterait à l'Antiquité, se trouve entre Albi et Toulouse ?",
+            "hint": "Il est notamment connu pour le cépage mauzac.",
+            "anecdote": "Le vignoble de Gaillac a profité de la navigation sur le Tarn. Il produit des vins rouges, blancs et effervescents.",
+            "answers": {
+              "le-gaillac": "Le gaillac",
+              "le-chablis": "Le chablis",
+              "le-sancerre": "Le sancerre",
+              "le-muscadet": "Le muscadet"
+            }
+          },
+          "madiran": {
+            "prompt": "Quel vin rouge du piémont pyrénéen est principalement fait de tannat ?",
+            "hint": "Il porte le nom d'un petit village du Sud-Ouest.",
+            "anecdote": "Le madiran, qui s'étend sur le Gers, les Hautes-Pyrénées et les Pyrénées-Atlantiques, est réputé pour sa structure et sa longue garde.",
+            "answers": {
+              "le-madiran": "Le madiran",
+              "le-beaujolais": "Le beaujolais",
+              "le-bourgogne": "Le bourgogne",
+              "le-pomerol": "Le pomerol"
+            }
+          },
+          "armagnac": {
+            "prompt": "Quelle eau-de-vie de vin, l'une des plus anciennes de France, est produite principalement dans le Gers ?",
+            "hint": "Elle a le même nom qu'une ancienne province de Gascogne.",
+            "anecdote": "L'armagnac est mentionné dès 1310 par un médecin, Vital du Four, ce qui en fait l'une des eaux-de-vie les plus anciennes du pays.",
+            "answers": {
+              "l-armagnac": "L'armagnac",
+              "le-cognac": "Le cognac",
+              "le-calvados": "Le calvados",
+              "le-marc-de-bourgogne": "Le marc de Bourgogne"
+            }
+          },
+          "floc": {
+            "prompt": "Quel apéritif gascon est obtenu en mêlant jus de raisin et armagnac jeune ?",
+            "hint": "Son nom signifie bouquet de fleurs en gascon.",
+            "anecdote": "Le floc de Gascogne est né dans les fermes du pays et bénéficie d'une appellation d'origine.",
+            "answers": {
+              "le-floc-de-gascogne": "Le floc de Gascogne",
+              "le-pineau-des-charentes": "Le pineau des Charentes",
+              "le-macvin": "Le macvin",
+              "le-pommeau": "Le pommeau"
+            }
+          },
+          "marcillac": {
+            "prompt": "Quel petit vignoble de l'Aveyron, au nord-ouest de Rodez, utilise le cépage mansois ?",
+            "hint": "Ses vignes s'accrochent aux pentes d'un vallon rouge.",
+            "anecdote": "Le vignoble de Marcillac, longtemps tenu par les moines de Conques, approvisionnait aussi les mineurs de Decazeville.",
+            "answers": {
+              "le-marcillac": "Le marcillac",
+              "le-corbieres": "Le corbières",
+              "le-minervois": "Le minervois",
+              "le-jurancon": "Le jurançon"
+            }
+          },
+          "fronton": {
+            "prompt": "Quel vignoble au nord de Toulouse est connu pour le cépage négrette ?",
+            "hint": "Son nom désigne aussi la partie haute d'une façade de temple.",
+            "anecdote": "La négrette, presque uniquement cultivée ici, donne des vins parfumés, souvent aux arômes de violette.",
+            "answers": {
+              "le-fronton": "Le fronton",
+              "le-pauillac": "Le pauillac",
+              "le-bandol": "Le bandol",
+              "le-vouvray": "Le vouvray"
+            }
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Brique de Toulouse et d'Albi, abbayes romanes, bastides et forteresses : huit départements riches en monuments.",
+          "photo-saint-sernin": {
+            "prompt": "Quelle grande basilique romane de Toulouse, étape vers Saint-Jacques-de-Compostelle, voit-on ici ?",
+            "hint": "Elle porte le nom du premier évêque de la ville.",
+            "anecdote": "Consacrée à la fin du XIe siècle, c'est l'une des plus grandes églises romanes conservées en Europe.",
+            "answers": {
+              "saint-sernin": "Saint-Sernin",
+              "saint-etienne": "Saint-Étienne",
+              "la-daurade": "La Daurade",
+              "la-dalbade": "La Dalbade"
+            }
+          },
+          "photo-jacobins": {
+            "prompt": "Dans quel couvent toulousain trouve-t-on cette voûte en forme de palmier ?",
+            "hint": "Il a été fondé par l'ordre de saint Dominique.",
+            "anecdote": "Le fameux palmier des Jacobins, dans le chœur, déploie vingt-deux nervures à partir d'une seule colonne.",
+            "answers": {
+              "les-jacobins": "Les Jacobins",
+              "les-augustins": "Les Augustins",
+              "les-cordeliers": "Les Cordeliers",
+              "les-carmes": "Les Carmes"
+            }
+          },
+          "thomas-aquin": {
+            "prompt": "Les reliques de quel grand théologien sont conservées au couvent des Jacobins de Toulouse ?",
+            "hint": "Il est l'auteur de la Somme théologique.",
+            "anecdote": "Les reliques de Thomas d'Aquin y ont été transférées en 1369, sur décision du pape Urbain V.",
+            "answers": {
+              "thomas-d-aquin": "Thomas d'Aquin",
+              "saint-augustin": "Saint Augustin",
+              "saint-bernard": "Saint Bernard",
+              "albert-le-grand": "Albert le Grand"
+            }
+          },
+          "assezat": {
+            "prompt": "Quelle teinture a enrichi Pierre d'Assézat, qui a fait bâtir à Toulouse un célèbre hôtel Renaissance ?",
+            "hint": "Cette plante donnait un bleu très recherché.",
+            "anecdote": "Le commerce de ce colorant bleu a fait la fortune de marchands toulousains au XVIe siècle. L'hôtel d'Assézat abrite aujourd'hui la Fondation Bemberg.",
+            "answers": {
+              "le-pastel": "Le pastel",
+              "la-pourpre": "La pourpre",
+              "la-garance": "La garance",
+              "le-safran": "Le safran"
+            }
+          },
+          "pont-neuf-ancien": {
+            "prompt": "Quelle particularité a le Pont-Neuf de Toulouse, malgré son nom ?",
+            "hint": "Sa construction a commencé au XVIe siècle.",
+            "anecdote": "Commencé dans les années 1540 et ouvert à la circulation en 1632, il a résisté aux crues de la Garonne qui ont emporté d'autres ponts.",
+            "answers": {
+              "c-est-le-plus-ancien-pont-de-la-ville-sur-la-garonne": "C'est le plus ancien pont de la ville sur la Garonne",
+              "il-n-a-jamais-ete-termine": "Il n'a jamais été terminé",
+              "il-est-entierement-en-bois": "Il est entièrement en bois",
+              "il-franchit-le-canal-du-midi": "Il franchit le canal du Midi"
+            }
+          },
+          "capitouls": {
+            "prompt": "Comment s'appelaient les magistrats qui administraient autrefois Toulouse ?",
+            "hint": "Leur nom est lié à celui de l'hôtel de ville.",
+            "anecdote": "Élus chaque année, ces consuls de la ville tenaient une place éminente. Leurs portraits étaient peints dans des registres.",
+            "answers": {
+              "les-capitouls": "Les capitouls",
+              "les-jurats": "Les jurats",
+              "les-echevins": "Les échevins",
+              "les-doges": "Les doges"
+            }
+          },
+          "albi-unesco": {
+            "prompt": "Sous quel nom le centre d'Albi est-il inscrit au patrimoine mondial depuis 2010 ?",
+            "hint": "Le mot rappelle le pouvoir des évêques sur la ville.",
+            "anecdote": "La cité épiscopale réunit la cathédrale Sainte-Cécile, le palais de la Berbie, le Pont-Vieux et les quartiers anciens.",
+            "answers": {
+              "la-cite-episcopale": "La cité épiscopale",
+              "la-cite-royale": "La cité royale",
+              "la-ville-romaine": "La ville romaine",
+              "la-cite-marchande": "La cité marchande"
+            }
+          },
+          "cecile-jugement": {
+            "prompt": "Quelle scène monumentale, peinte à la fin du XVe siècle, couvre le mur ouest de la cathédrale d'Albi ?",
+            "hint": "Elle montre les élus et les damnés.",
+            "anecdote": "Cette immense peinture a été amputée de sa partie centrale à la fin du XVIIe siècle, lorsqu'on a ouvert un passage vers la chapelle Saint-Clair.",
+            "answers": {
+              "le-jugement-dernier": "Le Jugement dernier",
+              "la-cene": "La Cène",
+              "la-nativite": "La Nativité",
+              "l-annonciation": "L'Annonciation"
+            }
+          },
+          "photo-cordes": {
+            "prompt": "Quelle bastide du Tarn, fondée en 1222 au sommet d'une colline, voit-on ici ?",
+            "hint": "Les jours de brume, elle semble flotter au-dessus de la vallée.",
+            "anecdote": "Fondée par le comte de Toulouse Raymond VII, elle conserve de belles maisons gothiques. Elle a ajouté « sur-Ciel » à son nom en 1993.",
+            "answers": {
+              "puycelsi": "Puycelsi",
+              "castelnau-de-montmiral": "Castelnau-de-Montmiral"
+            }
+          },
+          "photo-castres": {
+            "prompt": "Quelle ville du Tarn est connue pour ces maisons colorées au bord de l'Agout ?",
+            "hint": "C'est la ville natale de Jean Jaurès.",
+            "anecdote": "Ces anciennes maisons de tisserands et de tanneurs avaient des caves ouvertes sur la rivière."
+          },
+          "goya": {
+            "prompt": "Quel peintre espagnol a donné son nom au musée de Castres ?",
+            "hint": "Il a peint Les Fusillés du 3 mai.",
+            "anecdote": "Le musée Goya de Castres, consacré à l'art hispanique, est l'un des plus importants de France dans ce domaine.",
+            "answers": {
+              "goya": "Goya",
+              "picasso": "Picasso",
+              "velazquez": "Velázquez",
+              "dali": "Dalí"
+            }
+          },
+          "photo-conques": {
+            "prompt": "Quelle abbatiale de l'Aveyron, célèbre étape vers Compostelle, voit-on ici ?",
+            "hint": "Elle est dédiée à sainte Foy, dont le reliquaire d'or est un trésor.",
+            "anecdote": "L'abbatiale Sainte-Foy domine un village de pierre et de lauzes, sur le chemin du Puy-en-Velay.",
+            "answers": {
+              "sylvanes": "Sylvanès",
+              "saint-sever": "Saint-Sever"
+            }
+          },
+          "conques-tympan": {
+            "prompt": "Quelle scène est sculptée sur le célèbre tympan de l'abbatiale de Conques ?",
+            "hint": "Le Christ y sépare les élus des damnés.",
+            "anecdote": "Sculpté au XIIe siècle, ce tympan compte plus d'une centaine de personnages et portait autrefois des couleurs.",
+            "answers": {
+              "la-pesee-des-ames-et-le-jugement-dernier": "La pesée des âmes et le Jugement dernier",
+              "la-nativite": "La Nativité",
+              "l-entree-a-jerusalem": "L'entrée à Jérusalem",
+              "la-vie-de-saint-louis": "La vie de saint Louis"
+            }
+          },
+          "photo-rodez": {
+            "prompt": "Quelle cathédrale de grès rose de l'Aveyron voit-on ici ?",
+            "hint": "Elle domine la préfecture du département, sur sa butte.",
+            "anecdote": "Commencée à la fin du XIIIe siècle, elle est reconnaissable à sa façade fortifiée et à son haut clocher.",
+            "answers": {
+              "la-cathedrale-de-rodez": "La cathédrale de Rodez",
+              "la-cathedrale-d-albi": "La cathédrale d'Albi",
+              "la-cathedrale-de-cahors": "La cathédrale de Cahors",
+              "la-cathedrale-d-auch": "La cathédrale d'Auch"
+            }
+          },
+          "rodez-clocher": {
+            "prompt": "Quelle hauteur atteint environ le clocher de la cathédrale de Rodez ?",
+            "hint": "Il domine la ville du haut de sa butte.",
+            "anecdote": "Son clocher, achevé au début du XVIe siècle, s'élève à environ 87 mètres.",
+            "answers": {
+              "87-metres": "87 mètres",
+              "32-metres": "32 mètres",
+              "150-metres": "150 mètres",
+              "210-metres": "210 mètres"
+            }
+          },
+          "viaduc-carte": {
+            "prompt": "Touchez sur la carte le département du viaduc de Millau.",
+            "hint": "Sa préfecture est Rodez.",
+            "anecdote": "Ouvert en 2004, ce pont à haubans franchit la vallée du Tarn. Sa plus haute pile, surmontée de son pylône, culmine à 343 mètres."
+          },
+          "photo-najac": {
+            "prompt": "Quelle forteresse de l'Aveyron, qui domine une boucle de la rivière du même nom, voit-on ici ?",
+            "hint": "Le village s'étire le long d'une crête, jusqu'au château.",
+            "anecdote": "Sa forteresse royale du XIIIe siècle garde une vallée profonde, dans une grande boucle de la rivière.",
+            "answers": {
+              "peyrusse-le-roc": "Peyrusse-le-Roc"
+            }
+          },
+          "estaing-pont": {
+            "prompt": "Quel village de l'Aveyron est connu pour son pont gothique sur le Lot, au pied de son château ?",
+            "hint": "Son nom se retrouve dans celui d'un président de la République.",
+            "anecdote": "Son pont, inscrit au patrimoine mondial au titre des chemins de Compostelle, mène au château des comtes d'Estaing.",
+            "answers": {
+              "entraygues-sur-truyere": "Entraygues-sur-Truyère",
+              "saint-come-d-olt": "Saint-Côme-d'Olt"
+            }
+          },
+          "rocamadour-carte": {
+            "prompt": "Touchez sur la carte le département du sanctuaire de Rocamadour.",
+            "hint": "Il se trouve au nord du territoire, au cœur du Quercy.",
+            "anecdote": "Le sanctuaire, qui abrite une Vierge noire, attire les pèlerins depuis le Moyen Âge."
+          },
+          "photo-saint-cirq": {
+            "prompt": "Quel village perché du Lot voit-on ici, sur l'une de ses places ?",
+            "hint": "Il a été élu Village préféré des Français en 2012.",
+            "anecdote": "Son église et ses maisons médiévales s'accrochent à une falaise dominant le Lot d'une centaine de mètres.",
+            "answers": {
+              "autoire": "Autoire",
+              "carennac": "Carennac",
+              "loubressac": "Loubressac"
+            }
+          },
+          "photo-auch": {
+            "prompt": "Dans quelle ville du Gers trouve-t-on cet escalier monumental, avec sa statue de d'Artagnan ?",
+            "hint": "Elle est la préfecture du département.",
+            "anecdote": "Ses quelque 370 marches relient la ville basse, près de la rivière, à la ville haute et à la cathédrale Sainte-Marie."
+          },
+          "auch-gascogne": {
+            "prompt": "De quelle ancienne province Auch était-elle la capitale ?",
+            "hint": "C'est le pays des mousquetaires et de l'armagnac.",
+            "anecdote": "Sous l'Ancien Régime, Auch a été le siège d'une intendance et d'un archevêché importants pour tout le Sud-Ouest.",
+            "answers": {
+              "la-gascogne": "La Gascogne",
+              "le-languedoc": "Le Languedoc",
+              "le-bearn": "Le Béarn",
+              "la-guyenne": "La Guyenne"
+            }
+          },
+          "photo-larressingle": {
+            "prompt": "Quel minuscule village fortifié du Gers, surnommé la petite Carcassonne, voit-on ici ?",
+            "hint": "Il se trouve près de Condom, sur le chemin de Compostelle.",
+            "anecdote": "Cette enceinte du XIIIe siècle, restaurée au XXe siècle grâce à des mécènes américains, renferme un donjon et une petite église.",
+            "answers": {
+              "fources": "Fourcès",
+              "montreal-du-gers": "Montréal-du-Gers",
+              "la-romieu": "La Romieu"
+            }
+          },
+          "photo-moissac": {
+            "prompt": "Dans quelle abbaye du Tarn-et-Garonne se trouve ce célèbre cloître roman ?",
+            "hint": "Elle est aussi connue pour un tympan de l'Apocalypse.",
+            "anecdote": "Achevé vers l'an 1100, ce cloître de l'abbaye Saint-Pierre est parmi les plus anciens conservés avec des chapiteaux historiés.",
+            "answers": {
+              "flaran": "Flaran",
+              "sylvanes": "Sylvanès"
+            }
+          },
+          "moissac-chapiteaux": {
+            "prompt": "Combien de chapiteaux environ compte le cloître de Moissac ?",
+            "hint": "Bien plus que les doigts de plusieurs mains, mais moins de cent.",
+            "anecdote": "Ses 76 chapiteaux racontent des scènes bibliques ou portent des motifs végétaux et animaliers.",
+            "answers": {
+              "12": "12",
+              "76": "76",
+              "150": "150",
+              "300": "300"
+            }
+          },
+          "photo-montauban": {
+            "prompt": "Quelle ville voit-on ici, avec son Pont-Vieux de brique sur le Tarn ?",
+            "hint": "Elle est connue pour sa grande place à doubles arcades.",
+            "anecdote": "Ce pont du XIVe siècle, long d'environ 200 mètres, mène à l'ancien palais épiscopal devenu le musée Ingres-Bourdelle."
+          },
+          "photo-foix": {
+            "prompt": "Quelle forteresse à trois tours de l'Ariège voit-on ici ?",
+            "hint": "Elle était le siège d'un comté, sur un rocher au-dessus de la préfecture.",
+            "anecdote": "Ce château n'aurait jamais été pris d'assaut par les croisés de Simon de Montfort. Il abrite aujourd'hui un musée.",
+            "answers": {
+              "le-chateau-de-foix": "Le château de Foix",
+              "le-chateau-de-montsegur": "Le château de Montségur",
+              "le-chateau-de-puivert": "Le château de Puivert",
+              "le-chateau-de-lordat": "Le château de Lordat"
+            }
+          },
+          "photo-mirepoix": {
+            "prompt": "Quelle cité médiévale de l'Ariège voit-on ici, autour de sa place à couverts de bois ?",
+            "hint": "Son nom désigne aussi une préparation culinaire de légumes.",
+            "anecdote": "Rebâtie à la fin du XIIIe siècle après une crue dévastatrice, elle conserve des maisons à pans de bois sur galeries, sous lesquelles on circule à l'abri."
+          },
+          "bastide-def": {
+            "prompt": "Qu'appelle-t-on une bastide dans le Sud-Ouest ?",
+            "hint": "Son plan est souvent quadrillé, autour d'une place centrale.",
+            "anecdote": "Ces villes neuves du Moyen Âge ont souvent été fondées aux XIIIe et XIVe siècles par des seigneurs ou des rois, avec une charte.",
+            "answers": {
+              "une-ville-neuve-fondee-au-moyen-age": "Une ville neuve fondée au Moyen Âge",
+              "une-ferme-fortifiee-isolee": "Une ferme fortifiée isolée",
+              "une-grotte-amenagee": "Une grotte aménagée",
+              "un-monastere-de-montagne": "Un monastère de montagne"
+            }
+          },
+          "lourdes-bernadette": {
+            "prompt": "En quelle année Bernadette Soubirous a-t-elle rapporté des apparitions de la Vierge à Lourdes ?",
+            "hint": "C'était sous le Second Empire.",
+            "anecdote": "Bernadette avait quatorze ans au moment des apparitions, qui ont transformé cette petite ville des Pyrénées.",
+            "answers": {
+              "1789": "1789",
+              "1858": "1858",
+              "1905": "1905",
+              "1944": "1944"
+            }
+          },
+          "toulouse-lautrec": {
+            "prompt": "Quel peintre, célèbre pour ses affiches du Moulin-Rouge, est né à Albi en 1864 ?",
+            "hint": "Son nom contient celui de la capitale régionale.",
+            "anecdote": "Un musée lui est consacré à Albi, dans le palais de la Berbie, avec la plus grande collection publique de ses œuvres.",
+            "answers": {
+              "henri-de-toulouse-lautrec": "Henri de Toulouse-Lautrec",
+              "paul-cezanne": "Paul Cézanne",
+              "edouard-manet": "Édouard Manet",
+              "claude-monet": "Claude Monet"
+            }
+          },
+          "laperouse": {
+            "prompt": "Quel navigateur né près d'Albi a disparu avec son expédition dans le Pacifique en 1788 ?",
+            "hint": "Louis XVI aurait demandé de ses nouvelles au moment de monter à l'échafaud.",
+            "anecdote": "Ses deux navires ont fait naufrage à Vanikoro. Leur sort n'a été éclairci que bien après sa disparition.",
+            "answers": {
+              "la-perouse": "La Pérouse",
+              "bougainville": "Bougainville",
+              "jacques-cartier": "Jacques Cartier",
+              "dumont-d-urville": "Dumont d'Urville"
+            }
+          },
+          "jaures": {
+            "prompt": "Quel grand dirigeant socialiste, né à Castres en 1859, a été assassiné à Paris en 1914 ?",
+            "hint": "Il a fondé le journal L'Humanité.",
+            "anecdote": "Député du Tarn, il a soutenu les mineurs de Carmaux. Il a été assassiné quelques jours avant le début de la Première Guerre mondiale.",
+            "answers": {
+              "jean-jaures": "Jean Jaurès",
+              "leon-blum": "Léon Blum",
+              "georges-clemenceau": "Georges Clemenceau",
+              "aristide-briand": "Aristide Briand"
+            }
+          },
+          "soulages": {
+            "prompt": "Quel peintre né à Rodez a créé les vitraux de l'abbatiale de Conques ?",
+            "hint": "Il est connu pour son outrenoir.",
+            "anecdote": "Ses 104 vitraux jouent avec la lumière sans figurer de scène. Un musée lui est dédié dans sa ville natale.",
+            "answers": {
+              "pierre-soulages": "Pierre Soulages",
+              "marc-chagall": "Marc Chagall",
+              "henri-matisse": "Henri Matisse",
+              "fernand-leger": "Fernand Léger"
+            }
+          },
+          "champollion": {
+            "prompt": "Quel savant, né à Figeac en 1790, a déchiffré les hiéroglyphes égyptiens ?",
+            "hint": "La pierre de Rosette l'y a aidé.",
+            "anecdote": "Un musée des écritures du monde occupe sa maison natale, à Figeac, dans le Lot.",
+            "answers": {
+              "jean-francois-champollion": "Jean-François Champollion",
+              "gaspard-monge": "Gaspard Monge",
+              "auguste-mariette": "Auguste Mariette",
+              "vivant-denon": "Vivant Denon"
+            }
+          },
+          "gambetta": {
+            "prompt": "Quel homme politique né à Cahors a quitté Paris assiégé en ballon, en 1870 ?",
+            "hint": "Il a été l'un des fondateurs de la Troisième République.",
+            "anecdote": "Il voulait organiser la résistance à l'armée allemande depuis la province. Sa statue et son lycée rappellent à Cahors ce grand républicain.",
+            "answers": {
+              "leon-gambetta": "Léon Gambetta",
+              "adolphe-thiers": "Adolphe Thiers",
+              "jules-ferry": "Jules Ferry",
+              "victor-hugo": "Victor Hugo"
+            }
+          },
+          "ingres": {
+            "prompt": "Quel peintre, auteur de La Grande Odalisque, est né à Montauban ?",
+            "hint": "Sa passion pour le violon a donné une expression française.",
+            "anecdote": "Il a légué une partie de ses collections et de ses dessins à sa ville natale, où un musée porte son nom.",
+            "answers": {
+              "jean-auguste-dominique-ingres": "Jean-Auguste-Dominique Ingres",
+              "eugene-delacroix": "Eugène Delacroix",
+              "jacques-louis-david": "Jacques-Louis David",
+              "gustave-courbet": "Gustave Courbet"
+            }
+          },
+          "fermat": {
+            "prompt": "Quel mathématicien, né à Beaumont-de-Lomagne, a laissé un célèbre théorème non démontré ?",
+            "hint": "Il était aussi magistrat au parlement de Toulouse.",
+            "anecdote": "Son dernier théorème n'a été démontré qu'en 1994 par Andrew Wiles, plus de trois siècles plus tard.",
+            "answers": {
+              "pierre-de-fermat": "Pierre de Fermat",
+              "blaise-pascal": "Blaise Pascal",
+              "rene-descartes": "René Descartes",
+              "henri-poincare": "Henri Poincaré"
+            }
+          },
+          "foch": {
+            "prompt": "Quel maréchal, commandant en chef des armées alliées en 1918, est né à Tarbes ?",
+            "hint": "Il a signé l'armistice dans son wagon, à Rethondes.",
+            "anecdote": "Sa maison natale, à Tarbes, est devenue un musée. Il a dirigé les troupes alliées lors de la dernière année de la guerre.",
+            "answers": {
+              "ferdinand-foch": "Ferdinand Foch",
+              "joseph-joffre": "Joseph Joffre",
+              "philippe-leclerc": "Philippe Leclerc",
+              "hubert-lyautey": "Hubert Lyautey"
+            }
+          },
+          "vitraux-auch": {
+            "prompt": "Quel maître verrier a réalisé les grands vitraux de la cathédrale d'Auch, au début du XVIe siècle ?",
+            "hint": "Son prénom est une forme gasconne d'Arnaud.",
+            "anecdote": "Ses dix-huit verrières, achevées vers 1513, mêlent figures bibliques et personnages antiques.",
+            "answers": {
+              "arnaut-de-moles": "Arnaut de Moles",
+              "viollet-le-duc": "Viollet-le-Duc",
+              "nicolas-bachelier": "Nicolas Bachelier",
+              "bernard-palissy": "Bernard Palissy"
+            }
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Couteaux, pastel, avions, fêtes du feu et chemins de pèlerinage : ce que Midi-Pyrénées a appris à faire et à transmettre.",
+          "croix-occitane": {
+            "prompt": "Quel symbole figure sur le drapeau de l'Occitanie et sur le pavé de la place du Capitole, à Toulouse ?",
+            "hint": "Elle est à branches égales, avec douze petites boules.",
+            "anecdote": "Blason des comtes de Toulouse, cette croix est devenue l'emblème de la culture occitane.",
+            "answers": {
+              "la-croix-occitane": "La croix occitane",
+              "la-croix-de-lorraine": "La croix de Lorraine",
+              "la-fleur-de-lys": "La fleur de lys",
+              "l-hermine": "L'hermine"
+            }
+          },
+          "se-canta": {
+            "prompt": "Quel chant, souvent attribué à Gaston Fébus, est considéré comme l'hymne des pays d'oc ?",
+            "hint": "Son titre signifie « s'il chante ».",
+            "anecdote": "Sa mélodie est connue partout en pays d'oc, avec des paroles qui varient selon les régions.",
+            "answers": {
+              "se-canta": "Se Canta",
+              "la-marseillaise": "La Marseillaise",
+              "l-estaca": "L'Estaca",
+              "la-coupo-santo": "La Coupo Santo"
+            }
+          },
+          "stade-toulousain": {
+            "prompt": "Dans quel sport le Stade toulousain est-il l'un des clubs les plus titrés d'Europe ?",
+            "hint": "Le ballon y est ovale.",
+            "anecdote": "Ses joueurs rouge et noir ont remporté de nombreux championnats de France et plusieurs coupes d'Europe.",
+            "answers": {
+              "le-rugby": "Le rugby",
+              "le-football": "Le football",
+              "le-basket-ball": "Le basket-ball",
+              "le-handball": "Le handball"
+            }
+          },
+          "jazz-marciac": {
+            "prompt": "Touchez sur la carte le département de Marciac, célèbre pour son festival de jazz.",
+            "hint": "Sa préfecture est Auch.",
+            "anecdote": "Né à la fin des années 1970, Jazz in Marciac attire chaque été les grands noms du jazz dans cette petite bastide."
+          },
+          "course-landaise": {
+            "prompt": "Quelle tradition du Gers et des Landes met face à face des hommes et des vaches, sans mise à mort ?",
+            "hint": "Les participants esquivent l'animal par des écarts et des sauts.",
+            "anecdote": "Les écarteurs et les sauteurs y montrent leur agilité. L'animal, une vache coursière, retrouve ensuite son élevage.",
+            "answers": {
+              "la-course-landaise": "La course landaise",
+              "la-course-camarguaise": "La course camarguaise",
+              "le-rodeo": "Le rodéo",
+              "le-palio": "Le palio"
+            }
+          },
+          "transhumance-aubrac": {
+            "prompt": "Quelle fête, célébrée fin mai sur le plateau de l'Aubrac, accompagne la montée des vaches vers les estives ?",
+            "hint": "Les bêtes sont parées de fleurs, de drapeaux et de cloches.",
+            "anecdote": "La tradition rythme encore la vie du plateau, et les troupeaux de race Aubrac passent l'été en altitude.",
+            "answers": {
+              "la-transhumance": "La transhumance",
+              "la-vendange": "La vendange",
+              "la-moisson": "La moisson",
+              "le-pardon": "Le pardon"
+            }
+          },
+          "fetes-feu": {
+            "prompt": "Quelle tradition pyrénéenne de la Saint-Jean a été inscrite par l'Unesco en 2015 ?",
+            "hint": "Des villages descendent des torches ou dressent de hauts troncs enflammés.",
+            "anecdote": "Ces fêtes du feu du solstice d'été sont partagées entre la France, l'Andorre et l'Espagne. Elles se pratiquent notamment dans les vallées du Luchonnais.",
+            "answers": {
+              "les-fetes-du-feu": "Les fêtes du feu",
+              "les-joutes-nautiques": "Les joutes nautiques",
+              "la-fete-de-l-ours": "La fête de l'ours",
+              "les-geants-processionnels": "Les géants processionnels"
+            }
+          },
+          "quilles-huit": {
+            "prompt": "Quel jeu traditionnel est très pratiqué en Aveyron, avec de lourdes pièces de bois et une boule à poignée ?",
+            "hint": "Le nom de ce jeu indique le nombre de pièces à renverser.",
+            "anecdote": "Les quilles de huit restent un sport populaire, avec leurs propres clubs et leur championnat. On s'y dispute même les titres en plein air, en été.",
+            "answers": {
+              "les-quilles-de-huit": "Les quilles de huit",
+              "la-petanque": "La pétanque",
+              "la-pelote-basque": "La pelote basque",
+              "le-jeu-de-paume": "Le jeu de paume"
+            }
+          },
+          "via-podiensis": {
+            "prompt": "Où mène le grand chemin de pèlerinage qui passe par Conques, Figeac, Cahors et Moissac ?",
+            "hint": "Il se termine en Galice.",
+            "anecdote": "La voie du Puy, ou via Podiensis, est l'un des quatre grands chemins français vers Compostelle.",
+            "answers": {
+              "saint-jacques-de-compostelle": "Saint-Jacques-de-Compostelle",
+              "rome": "Rome",
+              "jerusalem": "Jérusalem"
+            }
+          },
+          "massabielle": {
+            "prompt": "Comment s'appelle la grotte de Lourdes où Bernadette Soubirous a dit avoir vu la Vierge ?",
+            "hint": "Son nom signifierait la vieille roche, dans la langue locale.",
+            "anecdote": "Chaque année, des millions de visiteurs passent devant cette grotte creusée au bord du gave de Pau.",
+            "answers": {
+              "massabielle": "Massabielle",
+              "niaux": "Niaux",
+              "betharram": "Bétharram",
+              "gargas": "Gargas"
+            }
+          },
+          "adishatz": {
+            "prompt": "Quel mot gascon sert à la fois à dire bonjour et au revoir ?",
+            "hint": "On l'entend souvent dans le Gers et les Hautes-Pyrénées.",
+            "anecdote": "Adishatz, littéralement « à Dieu soyez », s'emploie encore couramment en Gascogne.",
+            "answers": {
+              "adishatz": "Adishatz",
+              "bonjorn": "Bonjorn",
+              "bonser": "Bonser",
+              "bon-dia": "Bon dia"
+            }
+          },
+          "photo-laguiole": {
+            "prompt": "De quel village de l'Aubrac ce couteau pliant porte-t-il le nom ?",
+            "hint": "Le nom du village ne se prononce pas comme il s'écrit.",
+            "anecdote": "Apparu au XIXe siècle sur l'Aubrac, il est devenu un classique de la table française. Depuis 2024, une indication géographique protège le couteau de Laguiole fabriqué dans le nord de l'Aveyron.",
+            "answers": {
+              "thiers": "Thiers",
+              "nontron": "Nontron"
+            }
+          },
+          "abeille-laguiole": {
+            "prompt": "Quel petit motif décore souvent le ressort d'un couteau de Laguiole ?",
+            "hint": "On y voit un insecte, souvent appelé ainsi par les couteliers.",
+            "anecdote": "Cette forge, souvent dite abeille ou mouche, ne garantit pas à elle seule l'origine du couteau.",
+            "answers": {
+              "une-abeille": "Une abeille",
+              "un-papillon": "Un papillon",
+              "un-scarabee": "Un scarabée",
+              "une-libellule": "Une libellule"
+            }
+          },
+          "pastel-cocagne": {
+            "prompt": "Selon une explication souvent citée, de quelles boules de feuilles de pastel broyées viendrait l'expression « pays de cocagne » ?",
+            "hint": "Elles portaient un nom proche de celui d'une coquille.",
+            "anecdote": "Ces boules, les coques ou cocagnes, faisaient la richesse du Lauragais, avant que l'indigo importé ne leur fasse concurrence.",
+            "answers": {
+              "les-coques": "Les coques",
+              "les-fagots": "Les fagots",
+              "les-gerbes": "Les gerbes",
+              "les-meules": "Les meules"
+            }
+          },
+          "sidobre-carte": {
+            "prompt": "Touchez sur la carte le département du Sidobre, célèbre pour son granit.",
+            "hint": "Sa préfecture est Albi.",
+            "anecdote": "Ce massif, près de Castres, est semé de chaos et de rochers en équilibre. Il compte de nombreuses carrières et entreprises de taille."
+          },
+          "mazamet": {
+            "prompt": "Dans quelle activité la ville de Mazamet s'est-elle spécialisée, recevant des peaux du monde entier ?",
+            "hint": "Il s'agit de séparer la laine de la peau des moutons.",
+            "anecdote": "Du milieu du XIXe siècle aux années 1980, Mazamet a été un centre mondial du délainage, grâce notamment aux eaux douces de l'Arnette.",
+            "answers": {
+              "le-delainage": "Le délainage",
+              "la-coutellerie": "La coutellerie",
+              "la-verrerie": "La verrerie",
+              "la-faience": "La faïence"
+            }
+          },
+          "millau-gants": {
+            "prompt": "Quel accessoire de cuir a fait la réputation de Millau ?",
+            "hint": "Il se porte aux mains.",
+            "anecdote": "Les gantiers millavois utilisaient les peaux d'agneau des élevages de brebis du Larzac. Certains travaillent encore pour de grandes maisons de luxe.",
+            "answers": {
+              "le-gant": "Le gant",
+              "le-chapeau": "Le chapeau",
+              "la-ceinture": "La ceinture",
+              "la-chaussure": "La chaussure"
+            }
+          },
+          "graulhet": {
+            "prompt": "Quel travail des peaux est historiquement lié à la ville de Graulhet, dans le Tarn ?",
+            "hint": "Il donne un cuir fin et souple, à partir de petites peaux.",
+            "anecdote": "La mégisserie et la maroquinerie ont fait vivre la ville, grâce aux eaux du Dadou.",
+            "answers": {
+              "la-megisserie": "La mégisserie",
+              "la-dentelle": "La dentelle",
+              "la-porcelaine": "La porcelaine",
+              "la-vannerie": "La vannerie"
+            }
+          },
+          "airbus": {
+            "prompt": "Quel constructeur aéronautique assemble certains de ses avions à Toulouse-Blagnac ?",
+            "hint": "Son nom contient le mot anglais qui désigne l'air.",
+            "anecdote": "L'aéronautique est le grand moteur industriel de Toulouse, de l'Aéropostale au Concorde et aux avions d'aujourd'hui.",
+            "answers": {
+              "airbus": "Airbus",
+              "boeing": "Boeing",
+              "dassault": "Dassault",
+              "embraer": "Embraer"
+            }
+          },
+          "campan-carte": {
+            "prompt": "Touchez sur la carte le département du marbre de Campan, utilisé à Versailles.",
+            "hint": "Sa préfecture est Tarbes.",
+            "anecdote": "Le marbre vert et rouge de la vallée de Campan a notamment servi à décorer le Grand Trianon."
+          },
+          "durfort": {
+            "prompt": "Quel métal est traditionnellement travaillé à Durfort, près de Revel ?",
+            "hint": "Il donne de beaux chaudrons rouges et orangés.",
+            "anecdote": "Les martinets, grands marteaux mus par l'eau, ont longtemps frappé ce métal le long du Sor.",
+            "answers": {
+              "le-cuivre": "Le cuivre",
+              "le-fer": "Le fer",
+              "l-etain": "L'étain",
+              "l-argent": "L'argent"
+            }
+          },
+          "nougaro": {
+            "prompt": "Quel chanteur de jazz et poète a célébré sa ville dans la chanson « Ô Toulouse » ?",
+            "hint": "Il est aussi l'auteur de Cécile, ma fille et Armstrong.",
+            "anecdote": "Né à Toulouse en 1929, il a popularisé dans sa chanson l'image d'une ville de brique et d'accent.",
+            "answers": {
+              "claude-nougaro": "Claude Nougaro",
+              "georges-brassens": "Georges Brassens",
+              "charles-trenet": "Charles Trenet",
+              "serge-gainsbourg": "Serge Gainsbourg"
+            }
+          },
+          "ader": {
+            "prompt": "Quel ingénieur, né à Muret, a fait décoller son engin Éole en 1890 ?",
+            "hint": "On lui attribue le mot avion.",
+            "anecdote": "Son engin à vapeur a effectué un bond de quelques dizaines de mètres, dans le parc d'un château de Seine-et-Marne.",
+            "answers": {
+              "clement-ader": "Clément Ader",
+              "louis-bleriot": "Louis Blériot",
+              "henri-farman": "Henri Farman",
+              "roland-garros": "Roland Garros"
+            }
+          },
+          "aeropostale": {
+            "prompt": "Quelle compagnie aérienne, partie de Toulouse-Montaudran, a employé Mermoz et Saint-Exupéry ?",
+            "hint": "Elle transportait le courrier jusqu'en Amérique du Sud.",
+            "anecdote": "Fondées par Pierre-Georges Latécoère en 1918, les lignes ont d'abord relié Toulouse à Barcelone, puis à Dakar.",
+            "answers": {
+              "l-aeropostale": "L'Aéropostale",
+              "air-inter": "Air Inter",
+              "la-compagnie-transatlantique": "La Compagnie transatlantique",
+              "uta": "UTA"
+            }
+          },
+          "gouges": {
+            "prompt": "Quelle autrice, née à Montauban, a écrit une Déclaration des droits de la femme en 1791 ?",
+            "hint": "Elle a été guillotinée en 1793.",
+            "anecdote": "Née Marie Gouze, elle a défendu l'égalité entre femmes et hommes et l'abolition de l'esclavage.",
+            "answers": {
+              "olympe-de-gouges": "Olympe de Gouges",
+              "madame-de-stael": "Madame de Staël",
+              "george-sand": "George Sand",
+              "louise-michel": "Louise Michel"
+            }
+          },
+          "bourdelle": {
+            "prompt": "Quel sculpteur né à Montauban a réalisé Héraklès archer ?",
+            "hint": "Il a longtemps travaillé dans l'atelier de Rodin.",
+            "anecdote": "Le musée de sa ville natale, qu'il partage avec Ingres, conserve plusieurs de ses œuvres.",
+            "answers": {
+              "antoine-bourdelle": "Antoine Bourdelle",
+              "aristide-maillol": "Aristide Maillol",
+              "camille-claudel": "Camille Claudel",
+              "auguste-bartholdi": "Auguste Bartholdi"
+            }
+          },
+          "febus": {
+            "prompt": "Quel comte de Foix du XIVe siècle est l'auteur d'un célèbre Livre de la chasse ?",
+            "hint": "Il aurait lui-même choisi son surnom, évoquant le soleil.",
+            "anecdote": "Grand seigneur du Béarn et du comté de Foix, il a su garder son indépendance entre les rois de France et d'Angleterre.",
+            "answers": {
+              "gaston-febus": "Gaston Fébus",
+              "raymond-vii": "Raymond VII",
+              "henri-iv": "Henri IV",
+              "simon-de-montfort": "Simon de Montfort"
+            }
+          },
+          "lannes": {
+            "prompt": "Quel maréchal de Napoléon, né à Lectoure, a été mortellement blessé à Essling en 1809 ?",
+            "hint": "Sa statue se dresse dans sa ville natale.",
+            "anecdote": "Issu d'une famille de cultivateurs et de marchands du Gers, il est devenu duc de Montebello. Il a été l'un des rares amis proches de l'Empereur.",
+            "answers": {
+              "jean-lannes": "Jean Lannes",
+              "joachim-murat": "Joachim Murat",
+              "michel-ney": "Michel Ney",
+              "louis-nicolas-davout": "Louis-Nicolas Davout"
+            }
+          },
+          "artagnan": {
+            "prompt": "Quel Gascon né à Lupiac a inspiré le héros des Trois Mousquetaires ?",
+            "hint": "Il a réellement servi Louis XIV et est mort au siège de Maastricht.",
+            "anecdote": "Charles de Batz de Castelmore était capitaine-lieutenant des mousquetaires. Alexandre Dumas s'est inspiré de ses Mémoires apocryphes.",
+            "answers": {
+              "d-artagnan": "D'Artagnan",
+              "cyrano-de-bergerac": "Cyrano de Bergerac",
+              "le-chevalier-bayard": "Le chevalier Bayard",
+              "vauban": "Vauban"
+            }
+          },
+          "calas": {
+            "prompt": "Quel marchand protestant de Toulouse, condamné en 1762, a été réhabilité grâce à Voltaire ?",
+            "hint": "Voltaire a écrit à son sujet un Traité sur la tolérance.",
+            "anecdote": "Accusé à tort d'avoir tué son fils pour l'empêcher de se convertir, il a été exécuté avant d'être réhabilité en 1765.",
+            "answers": {
+              "jean-calas": "Jean Calas",
+              "pierre-bayle": "Pierre Bayle",
+              "jean-jaures": "Jean Jaurès",
+              "pierre-d-assezat": "Pierre d'Assézat"
+            }
+          },
+          "photo-cacor": {
+            "prompt": "Quelle rivière ce pont-canal de brique et de pierre franchit-il près de Moissac ?",
+            "hint": "Elle arrive d'Albi et de Montauban, et rejoint bientôt la Garonne.",
+            "anecdote": "Le pont-canal du Cacor, long de 356 mètres, porte le canal latéral à la Garonne au-dessus de la rivière.",
+            "answers": {
+              "le-tarn": "Le Tarn",
+              "le-lot": "Le Lot",
+              "l-aveyron": "L'Aveyron",
+              "l-ariege": "L'Ariège"
+            }
+          },
+          "canal-deux-mers": {
+            "prompt": "Quel nom donne-t-on à l'ensemble du canal du Midi et du canal de Garonne, qui relie l'Atlantique et la Méditerranée ?",
+            "hint": "Il permet en quelque sorte d'aller d'un rivage à l'autre.",
+            "anecdote": "Le canal du Midi rejoint Toulouse, d'où le canal latéral à la Garonne poursuit vers Castets-en-Dorthe, en Gironde.",
+            "answers": {
+              "le-canal-des-deux-mers": "Le canal des Deux-Mers",
+              "le-canal-de-l-est": "Le canal de l'Est",
+              "le-canal-royal": "Le canal Royal",
+              "le-canal-des-pyrenees": "Le canal des Pyrénées"
+            }
+          },
+          "couvertoirade-carte": {
+            "prompt": "Touchez sur la carte le département de La Couvertoirade, cité templière du Larzac.",
+            "hint": "Sa préfecture est Rodez.",
+            "anecdote": "Cette cité fortifiée, liée aux Templiers puis aux Hospitaliers, garde ses remparts au milieu du causse."
+          },
+          "photo-gasconne": {
+            "prompt": "Quelle race de vache, à la robe grise, élevée dans les Pyrénées, voit-on ici ?",
+            "hint": "Elle porte le nom d'une ancienne province du Sud-Ouest.",
+            "anecdote": "Rustique, cette race de montagne est conduite dans les estives pendant les mois d'été.",
+            "answers": {
+              "la-gasconne": "La gasconne",
+              "la-normande": "La normande",
+              "la-charolaise": "La charolaise",
+              "la-limousine": "La limousine"
+            }
+          },
+          "sauveterre": {
+            "prompt": "Quelle bastide royale de l'Aveyron, fondée en 1281, a gardé sa grande place à couverts ?",
+            "hint": "Son nom contient le mot Rouergue.",
+            "anecdote": "Sa place centrale entourée d'arcades reste un bel exemple du plan des villes neuves du Moyen Âge.",
+            "answers": {
+              "sauveterre-de-rouergue": "Sauveterre-de-Rouergue",
+              "villeneuve-d-aveyron": "Villeneuve-d'Aveyron",
+              "laissac": "Laissac"
+            }
+          },
+          "bruniquel-film": {
+            "prompt": "Quel film de Robert Enrico, sorti en 1975, a été tourné au château de Bruniquel ?",
+            "hint": "Philippe Noiret et Romy Schneider en sont les acteurs principaux.",
+            "anecdote": "Le film, grand succès, a remporté le premier César du meilleur film, en 1976.",
+            "answers": {
+              "le-vieux-fusil": "Le Vieux Fusil",
+              "le-corniaud": "Le Corniaud",
+              "jean-de-florette": "Jean de Florette",
+              "la-grande-vadrouille": "La Grande Vadrouille"
+            }
+          },
+          "breton-saint-cirq": {
+            "prompt": "Quel poète surréaliste a acheté une maison à Saint-Cirq-Lapopie en 1950 ?",
+            "hint": "C'est l'auteur de Nadja.",
+            "anecdote": "Il a écrit qu'il avait cessé de se désirer ailleurs en découvrant ce village du Lot.",
+            "answers": {
+              "andre-breton": "André Breton",
+              "paul-eluard": "Paul Éluard",
+              "louis-aragon": "Louis Aragon",
+              "tristan-tzara": "Tristan Tzara"
+            }
+          },
+          "valentre-diable": {
+            "prompt": "Selon la légende, avec qui l'architecte du pont Valentré a-t-il passé un pacte ?",
+            "hint": "Une petite figure sculptée sur une tour rappelle l'histoire.",
+            "anecdote": "L'architecte aurait piégé son complice en lui demandant de l'eau dans un crible. Une pierre manquante, sans cesse descellée, a été remplacée au XIXe siècle par un petit diable.",
+            "answers": {
+              "le-diable": "Le diable",
+              "un-roi-de-france": "Un roi de France",
+              "un-moine": "Un moine",
+              "un-sorcier": "Un sorcier"
+            }
+          },
+          "photo-auvillar": {
+            "prompt": "Dans quel village du Tarn-et-Garonne trouve-t-on cette halle circulaire à colonnes ?",
+            "hint": "Il domine la Garonne, sur le chemin de Compostelle.",
+            "anecdote": "Cette halle aux grains du XIXe siècle donne à sa place triangulaire une allure unique."
+          },
+          "sabots-bethmale": {
+            "prompt": "Quel détail distingue les sabots de la vallée de Bethmale, en Ariège ?",
+            "hint": "Regardez le bout du pied.",
+            "anecdote": "Une légende locale rattache cette forme à la revanche d'un berger sur des envahisseurs maures. Ces sabots se portent avec le costume traditionnel de la vallée.",
+            "answers": {
+              "une-longue-pointe-recourbee": "Une longue pointe recourbée",
+              "une-semelle-de-fer": "Une semelle de fer",
+              "une-boucle-d-argent": "Une boucle d'argent",
+              "un-talon-tres-haut": "Un talon très haut"
+            }
+          }
+        },
+        "grand-voyage": {
+          "name": "Le grand voyage",
+          "description": "Comtes de Toulouse, grottes ornées, hauts sommets et mémoires du XXe siècle : pour ceux qui connaissent déjà bien le territoire.",
+          "albigeois-nom": {
+            "prompt": "Quelle croisade lancée en 1209 contre les cathares porte le nom d'une ville du Tarn ?",
+            "hint": "Elle a été appelée ainsi d'après les habitants d'une cité épiscopale.",
+            "anecdote": "Elle a mené à de longues années de guerre et à l'intégration progressive du comté de Toulouse au domaine royal.",
+            "answers": {
+              "la-croisade-des-albigeois": "La croisade des Albigeois",
+              "la-croisade-des-castrais": "La croisade des Castrais",
+              "la-croisade-des-barons": "La croisade des barons",
+              "la-croisade-des-pauvres": "La croisade des pauvres"
+            }
+          },
+          "muret-1213": {
+            "prompt": "Quel roi a été tué à la bataille de Muret, en 1213, face à Simon de Montfort ?",
+            "hint": "Il régnait de l'autre côté des Pyrénées.",
+            "anecdote": "Sa mort a mis fin à l'espoir d'un grand ensemble autour des Pyrénées, allié au comte de Toulouse.",
+            "answers": {
+              "pierre-ii-d-aragon": "Pierre II d'Aragon",
+              "philippe-auguste": "Philippe Auguste",
+              "louis-viii": "Louis VIII",
+              "jean-sans-terre": "Jean sans Terre"
+            }
+          },
+          "montfort-1218": {
+            "prompt": "Quel chef de la croisade a été tué d'une pierre pendant le siège de Toulouse, en 1218 ?",
+            "hint": "Selon la tradition, la machine qui a lancé la pierre était servie par des femmes de la ville.",
+            "anecdote": "Sa mort a marqué un tournant dans le conflit. Son fils n'a pas réussi à conserver ses conquêtes.",
+            "answers": {
+              "simon-de-montfort": "Simon de Montfort",
+              "arnaud-amaury": "Arnaud Amaury",
+              "raymond-vi": "Raymond VI",
+              "blanche-de-castille": "Blanche de Castille"
+            }
+          },
+          "traite-paris-1229": {
+            "prompt": "Quel traité de 1229 a mis fin à la croisade et préparé le rattachement du comté de Toulouse à la Couronne ?",
+            "hint": "Il porte le nom de la capitale du royaume, où il a été ratifié.",
+            "anecdote": "Le comte Raymond VII y a accepté de marier sa fille à un frère du roi, et leur héritage est revenu à la Couronne en 1271.",
+            "answers": {
+              "le-traite-de-paris": "Le traité de Paris",
+              "le-traite-de-troyes": "Le traité de Troyes",
+              "le-traite-de-verdun": "Le traité de Verdun",
+              "le-traite-des-pyrenees": "Le traité des Pyrénées"
+            }
+          },
+          "universite-toulouse": {
+            "prompt": "Quelle institution a été fondée à Toulouse en 1229, à la suite de la croisade ?",
+            "hint": "On y enseignait notamment la théologie et le droit.",
+            "anecdote": "Cette université, l'une des plus anciennes de France, devait combattre l'hérésie par l'enseignement.",
+            "answers": {
+              "l-universite": "L'université",
+              "la-bourse": "La bourse",
+              "l-hopital": "L'hôpital",
+              "l-arsenal": "L'arsenal"
+            }
+          },
+          "parlement-1443": {
+            "prompt": "Quelle cour de justice a été créée à Toulouse en 1443, la deuxième de ce type en France ?",
+            "hint": "Seule Paris en avait déjà une.",
+            "anecdote": "Le parlement de Toulouse, fondé par Charles VII, a jugé jusqu'à la Révolution une vaste partie du Midi.",
+            "answers": {
+              "le-parlement": "Le parlement",
+              "le-conseil-d-etat": "Le conseil d'État",
+              "la-cour-des-comptes": "La cour des comptes",
+              "le-tribunal-de-commerce": "Le tribunal de commerce"
+            }
+          },
+          "foix-1607": {
+            "prompt": "Sous quel roi le comté de Foix a-t-il été réuni à la Couronne de France, en 1607 ?",
+            "hint": "Ce roi était lui-même comte de Foix avant de monter sur le trône.",
+            "anecdote": "Il était l'héritier du comté par sa famille béarnaise et l'a apporté à la France en réunissant ses domaines personnels.",
+            "answers": {
+              "henri-iv": "Henri IV",
+              "francois-ier": "François Ier",
+              "louis-xiii": "Louis XIII",
+              "louis-xiv": "Louis XIV"
+            }
+          },
+          "toulouse-1814": {
+            "prompt": "Quel général britannique a affronté le maréchal Soult à Toulouse, en avril 1814 ?",
+            "hint": "Il a aussi vaincu Napoléon à Waterloo, l'année suivante.",
+            "anecdote": "La bataille de Toulouse a eu lieu alors que Napoléon venait d'abdiquer, une nouvelle que les combattants ignoraient.",
+            "answers": {
+              "wellington": "Wellington",
+              "nelson": "Nelson",
+              "marlborough": "Marlborough",
+              "blucher": "Blücher"
+            }
+          },
+          "bastide-alphonse": {
+            "prompt": "Quelle bastide de l'Aveyron a été fondée en 1252 par Alphonse de Poitiers, frère de Saint Louis ?",
+            "hint": "Elle garde son nom de Rouergue et une grande place à couverts.",
+            "anecdote": "Fondée pour contrôler le territoire et le commerce, elle a grandi autour d'un plan régulier au bord de l'Aveyron."
+          },
+          "bayle": {
+            "prompt": "Quel philosophe protestant, né en 1647 en Ariège, a publié un Dictionnaire historique et critique ?",
+            "hint": "Son village natal, Le Carla, a ajouté son nom au sien.",
+            "anecdote": "Réfugié aux Provinces-Unies, il a défendu la tolérance. Ses idées ont influencé les philosophes des Lumières.",
+            "answers": {
+              "pierre-bayle": "Pierre Bayle",
+              "michel-de-montaigne": "Michel de Montaigne",
+              "jean-jacques-rousseau": "Jean-Jacques Rousseau",
+              "denis-diderot": "Denis Diderot"
+            }
+          },
+          "murat": {
+            "prompt": "Quel maréchal de Napoléon, fils d'aubergiste né dans le Lot, est devenu roi de Naples ?",
+            "hint": "Son village natal porte aujourd'hui son nom.",
+            "anecdote": "Beau-frère de l'Empereur, ce grand cavalier a été fusillé en Calabre en 1815, après une dernière tentative de reconquête.",
+            "answers": {
+              "joachim-murat": "Joachim Murat",
+              "jean-baptiste-bessieres": "Jean-Baptiste Bessières",
+              "jean-lannes": "Jean Lannes",
+              "michel-ney": "Michel Ney"
+            }
+          },
+          "russell": {
+            "prompt": "Quel pyrénéiste a fait creuser des grottes au Vignemale, pour y séjourner au XIXe siècle ?",
+            "hint": "Ce comte d'origine irlandaise a loué le massif pour un franc symbolique par an.",
+            "anecdote": "Il a obtenu en 1889 une concession de 99 ans, pour mieux profiter de la haute montagne. Ses grottes se visitent encore à pied.",
+            "answers": {
+              "henry-russell": "Henry Russell",
+              "louis-ramond-de-carbonnieres": "Louis Ramond de Carbonnières",
+              "franz-schrader": "Franz Schrader",
+              "edouard-alfred-martel": "Édouard-Alfred Martel"
+            }
+          },
+          "viollet-saint-sernin": {
+            "prompt": "Quel architecte a restauré Saint-Sernin de Toulouse au XIXe siècle, avant qu'une partie de son travail ne soit retirée ?",
+            "hint": "Il a aussi restauré Notre-Dame de Paris et la Cité de Carcassonne.",
+            "anecdote": "À la fin du XXe siècle, certains de ses ajouts ont été retirés, notamment sur les toitures de la basilique.",
+            "answers": {
+              "eugene-viollet-le-duc": "Eugène Viollet-le-Duc",
+              "charles-garnier": "Charles Garnier",
+              "jules-hardouin-mansart": "Jules Hardouin-Mansart",
+              "gustave-eiffel": "Gustave Eiffel"
+            }
+          },
+          "chemin-liberte": {
+            "prompt": "Quel chemin de montagne a permis à des fugitifs et à des aviateurs alliés de passer en Espagne, depuis Saint-Girons ?",
+            "hint": "Son nom évoque ce qu'ils espéraient trouver de l'autre côté.",
+            "anecdote": "Pendant l'Occupation, des passeurs ont conduit des évadés à travers les Pyrénées. Une marche rend chaque année hommage à leur mémoire.",
+            "answers": {
+              "le-chemin-de-la-liberte": "Le chemin de la Liberté",
+              "le-chemin-de-la-mature": "Le chemin de la Mâture",
+              "le-chemin-des-dames": "Le chemin des Dames",
+              "la-route-napoleon": "La route Napoléon"
+            }
+          },
+          "saliege": {
+            "prompt": "Quel archevêque de Toulouse a fait lire en 1942 une lettre publique contre les persécutions des Juifs ?",
+            "hint": "Il a été reconnu Juste parmi les nations.",
+            "anecdote": "Lue dans les églises du diocèse en août 1942, sa lettre rappelait que les Juifs sont des êtres humains. Elle a eu un fort écho.",
+            "answers": {
+              "jules-saliege": "Jules Saliège",
+              "pierre-marie-theas": "Pierre-Marie Théas",
+              "emmanuel-suhard": "Emmanuel Suhard",
+              "joseph-wresinski": "Joseph Wresinski"
+            }
+          },
+          "le-vernet": {
+            "prompt": "Dans quel département se trouvait le camp d'internement du Vernet, en service de 1939 à 1944 ?",
+            "hint": "Sa préfecture est Foix.",
+            "anecdote": "Le camp a enfermé des milliers d'étrangers jugés suspects, dont l'écrivain Arthur Koestler. Un cimetière et un petit musée en gardent la mémoire.",
+            "answers": {
+              "l-ariege": "L'Ariège",
+              "le-gers": "Le Gers",
+              "le-lot": "Le Lot",
+              "le-tarn": "Le Tarn"
+            }
+          },
+          "septfonds": {
+            "prompt": "Quels réfugiés ont été internés au camp de Septfonds, dans le Tarn-et-Garonne, à partir de 1939 ?",
+            "hint": "Ils fuyaient la victoire de Franco.",
+            "anecdote": "Le camp de Judes a d'abord accueilli des républicains espagnols, puis d'autres internés, dont des Juifs étrangers.",
+            "answers": {
+              "des-republicains-espagnols": "Des républicains espagnols",
+              "des-aviateurs-britanniques": "Des aviateurs britanniques",
+              "des-refugies-hongrois": "Des réfugiés hongrois",
+              "des-pecheurs-bretons": "Des pêcheurs bretons"
+            }
+          },
+          "larzac": {
+            "prompt": "Contre quel projet les paysans du Larzac ont-ils lutté de 1971 à 1981 ?",
+            "hint": "Ce projet concernait l'armée.",
+            "anecdote": "Rejoints par des soutiens venus de toute la France, ils ont obtenu l'abandon du projet après l'élection présidentielle de 1981.",
+            "answers": {
+              "l-extension-d-un-camp-militaire": "L'extension d'un camp militaire",
+              "la-construction-d-une-autoroute": "La construction d'une autoroute",
+              "l-ouverture-d-une-mine-d-uranium": "L'ouverture d'une mine d'uranium",
+              "un-barrage-sur-le-tarn": "Un barrage sur le Tarn"
+            }
+          },
+          "azf": {
+            "prompt": "Quelle usine de Toulouse a été détruite par une explosion le 21 septembre 2001 ?",
+            "hint": "Elle produisait des engrais, au sud de la ville.",
+            "anecdote": "Cette catastrophe a fait 31 morts et des milliers de blessés, et a profondément marqué la ville et les règles de sécurité industrielle.",
+            "answers": {
+              "azf": "AZF",
+              "airbus": "Airbus",
+              "latecoere": "Latécoère",
+              "motul": "Motul"
+            }
+          },
+          "photo-pic-midi": {
+            "prompt": "Quel sommet des Hautes-Pyrénées, couronné d'un observatoire, voit-on ici ?",
+            "hint": "Un téléphérique y monte depuis La Mongie.",
+            "anecdote": "Installé à 2 877 mètres, son observatoire a notamment servi à préparer la cartographie de la Lune pour les missions Apollo.",
+            "answers": {
+              "le-pic-du-midi": "Le pic du Midi",
+              "le-mont-aigoual": "Le mont Aigoual",
+              "le-pic-du-canigou": "Le pic du Canigou",
+              "le-puy-de-dome": "Le puy de Dôme"
+            }
+          },
+          "photo-gaube": {
+            "prompt": "Quel lac de montagne voit-on ici, au-dessus de Cauterets ?",
+            "hint": "Il se trouve au pied du Vignemale, tout près du pont d'Espagne.",
+            "anecdote": "Situé à plus de 1 700 mètres, ce lac d'origine glaciaire est l'une des promenades les plus connues du parc national des Pyrénées.",
+            "answers": {
+              "le-lac-de-gaube": "Le lac de Gaube",
+              "le-lac-d-annecy": "Le lac d'Annecy",
+              "le-lac-de-vassiviere": "Le lac de Vassivière",
+              "le-lac-de-serre-poncon": "Le lac de Serre-Ponçon"
+            }
+          },
+          "photo-tourmalet": {
+            "prompt": "Quel col routier célèbre, grand rendez-vous du Tour de France, voit-on ici ?",
+            "hint": "Il dépasse les 2 100 mètres, entre Barèges et La Mongie.",
+            "anecdote": "Le peloton l'a franchi pour la première fois en 1910. C'est l'un des plus hauts cols routiers des Pyrénées françaises et l'un des plus célèbres.",
+            "answers": {
+              "le-col-du-tourmalet": "Le col du Tourmalet",
+              "l-alpe-d-huez": "L'Alpe d'Huez",
+              "le-col-du-galibier": "Le col du Galibier",
+              "le-mont-ventoux": "Le mont Ventoux"
+            }
+          },
+          "photo-neouvielle": {
+            "prompt": "Dans quel massif des Hautes-Pyrénées, connu pour sa réserve naturelle et ses lacs, se trouve ce lac ?",
+            "hint": "Son nom signifierait vieille neige.",
+            "anecdote": "Sa réserve, créée dans les années 1930, abrite une des plus hautes forêts de pins à crochets d'Europe.",
+            "answers": {
+              "le-neouvielle": "Le Néouvielle",
+              "le-vercors": "Le Vercors",
+              "le-mercantour": "Le Mercantour",
+              "la-vanoise": "La Vanoise"
+            }
+          },
+          "photo-isard": {
+            "prompt": "Quel animal des Pyrénées, cousin du chamois, voit-on ici ?",
+            "hint": "Ses fines cornes noires se recourbent en crochet vers l'arrière.",
+            "anecdote": "Agile et sauvage, il vit dans les rochers et les pâturages d'altitude. Il a bien failli disparaître au XXe siècle.",
+            "answers": {
+              "l-isard": "L'isard",
+              "le-bouquetin": "Le bouquetin",
+              "le-mouflon": "Le mouflon",
+              "le-lynx": "Le lynx"
+            }
+          },
+          "photo-padirac": {
+            "prompt": "Quel gouffre du Lot, parcouru en partie en barque, voit-on ici ?",
+            "hint": "Il a été exploré pour la première fois par Édouard-Alfred Martel en 1889.",
+            "anecdote": "Une rivière souterraine y coule à plus de cent mètres de profondeur, dans de grandes salles ornées de concrétions.",
+            "answers": {
+              "le-gouffre-de-padirac": "Le gouffre de Padirac",
+              "l-aven-armand": "L'aven Armand",
+              "la-grotte-de-lascaux": "La grotte de Lascaux",
+              "le-gouffre-de-la-pierre-saint-martin": "Le gouffre de la Pierre-Saint-Martin"
+            }
+          },
+          "vignemale-carte": {
+            "prompt": "Touchez sur la carte le département du Vignemale, plus haut sommet des Pyrénées françaises.",
+            "hint": "Sa préfecture est Tarbes.",
+            "anecdote": "Le Vignemale atteint 3 298 mètres, à la frontière espagnole, au-dessus du lac de Gaube."
+          },
+          "estats-carte": {
+            "prompt": "Touchez sur la carte le département de la pique d'Estats, à 3 143 mètres.",
+            "hint": "Sa préfecture est Foix.",
+            "anecdote": "Sommet de ce département, elle se trouve à la frontière de la Catalogne, dont elle est aussi le point culminant."
+          },
+          "garonne-source": {
+            "prompt": "Dans quelle vallée la Garonne prend-elle sa source, côté espagnol ?",
+            "hint": "C'est une vallée de langue occitane, en Catalogne.",
+            "anecdote": "Elle naît dans les Pyrénées espagnoles et entre en France près de Saint-Béat. On y parle une forme d'occitan, l'aranais.",
+            "answers": {
+              "le-val-d-aran": "Le val d'Aran",
+              "la-vallee-d-ossau": "La vallée d'Ossau",
+              "la-vallee-d-aspe": "La vallée d'Aspe",
+              "la-cerdagne": "La Cerdagne"
+            }
+          },
+          "confluence-tarn": {
+            "prompt": "Près de quelle ville le Tarn se jette-t-il dans la Garonne ?",
+            "hint": "Le célèbre cloître d'une abbaye se trouve à proximité.",
+            "anecdote": "La confluence se trouve dans le Tarn-et-Garonne, près de Saint-Nicolas-de-la-Grave, à l'ouest de cette ville.",
+            "answers": {
+              "agen": "Agen"
+            }
+          },
+          "gavarnie-cascade": {
+            "prompt": "Quelle hauteur approximative atteint la grande cascade de Gavarnie ?",
+            "hint": "C'est l'une des plus hautes chutes d'eau d'Europe continentale.",
+            "anecdote": "D'une hauteur de plus de 400 mètres, elle naît de la fonte des neiges au-dessus du cirque.",
+            "answers": {
+              "plus-de-400-metres": "Plus de 400 mètres",
+              "environ-50-metres": "Environ 50 mètres",
+              "environ-100-metres": "Environ 100 mètres",
+              "plus-de-1-000-metres": "Plus de 1 000 mètres"
+            }
+          },
+          "mont-perdu": {
+            "prompt": "Sous quel nom Gavarnie est-il inscrit au patrimoine mondial depuis 1997, avec des sites espagnols ?",
+            "hint": "Ce nom évoque une montagne qu'on ne retrouve plus.",
+            "anecdote": "Ce bien transfrontalier, à la fois naturel et culturel, relie les cirques français et les canyons espagnols.",
+            "answers": {
+              "pyrenees-mont-perdu": "Pyrénées-Mont Perdu",
+              "pyrenees-vignemale": "Pyrénées-Vignemale",
+              "monts-du-midi": "Monts du Midi",
+              "cirques-de-bigorre": "Cirques de Bigorre"
+            }
+          },
+          "photo-montsegur": {
+            "prompt": "Quel château de l'Ariège, perché sur son pog, voit-on ici ?",
+            "hint": "Il a été le dernier grand refuge des cathares, assiégé en 1243 et 1244.",
+            "anecdote": "Après la reddition de 1244, plus de 200 cathares qui n'avaient pas renié leur foi ont été condamnés au bûcher. L'actuel château a été bâti après ces événements.",
+            "answers": {
+              "puilaurens": "Puilaurens",
+              "roquefixade": "Roquefixade"
+            }
+          },
+          "photo-mas-azil": {
+            "prompt": "Quelle immense grotte de l'Ariège, traversée par une route et une rivière, voit-on ici ?",
+            "hint": "Elle a donné son nom à une culture préhistorique, l'Azilien.",
+            "anecdote": "L'Arize y coule dans un tunnel naturel, et une route départementale y passe aussi. Le site a livré de nombreux objets préhistoriques.",
+            "answers": {
+              "le-mas-d-azil": "Le Mas-d'Azil",
+              "niaux": "Niaux",
+              "lombrives": "Lombrives",
+              "bedeilhac": "Bédeilhac"
+            }
+          },
+          "photo-flaran": {
+            "prompt": "Quelle abbaye cistercienne du Gers voit-on ici ?",
+            "hint": "Elle se trouve à Valence-sur-Baïse.",
+            "anecdote": "Fondée au XIIe siècle, elle est aujourd'hui un centre culturel consacré au patrimoine et aux expositions.",
+            "answers": {
+              "flaran": "Flaran",
+              "sylvanes": "Sylvanès"
+            }
+          },
+          "photo-saint-bertrand": {
+            "prompt": "À quelle cité de Haute-Garonne, ancienne ville romaine, appartient cette cathédrale ?",
+            "hint": "Elle se dresse sur une colline du Comminges.",
+            "anecdote": "Ancienne Lugdunum Convenarum, elle garde les vestiges d'une cité romaine au pied de la ville haute."
+          },
+          "pech-merle-carte": {
+            "prompt": "Touchez sur la carte le département de la grotte de Pech Merle et de ses chevaux ponctués.",
+            "hint": "Sa préfecture est Cahors.",
+            "anecdote": "Ouverte au public, cette grotte ornée de Cabrerets a conservé des peintures préhistoriques vieilles d'environ 25 000 ans."
+          },
+          "bruniquel-carte": {
+            "prompt": "Touchez sur la carte le département de la grotte de Bruniquel, aménagée par des Néandertaliens.",
+            "hint": "Sa préfecture est Montauban.",
+            "anecdote": "Des structures de stalagmites y ont été datées d'environ 176 000 ans. Fermée au public, elle bouscule ce qu'on pensait des Néandertaliens."
+          },
+          "niaux": {
+            "prompt": "Quelle grotte de l'Ariège est célèbre pour les bisons de son Salon noir ?",
+            "hint": "Elle se trouve près de Tarascon-sur-Ariège.",
+            "anecdote": "Ces dessins au charbon et à l'oxyde de manganèse datent de la fin du Paléolithique, il y a environ 13 000 à 14 000 ans.",
+            "answers": {
+              "niaux": "Niaux",
+              "lascaux": "Lascaux",
+              "chauvet": "Chauvet",
+              "altamira": "Altamira"
+            }
+          },
+          "aurignac": {
+            "prompt": "Quel village de Haute-Garonne a donné son nom à une culture du début du Paléolithique supérieur ?",
+            "hint": "Le préhistorien Édouard Lartet y a travaillé dans les années 1860.",
+            "anecdote": "L'Aurignacien désigne les premières cultures des hommes modernes en Europe. Un musée y présente cette histoire.",
+            "answers": {
+              "aurignac": "Aurignac",
+              "la-madeleine": "La Madeleine",
+              "le-moustier": "Le Moustier",
+              "solutre": "Solutré"
+            }
+          },
+          "lespugue": {
+            "prompt": "Quelle statuette préhistorique en ivoire a été découverte en 1922 en Haute-Garonne ?",
+            "hint": "Elle porte le nom d'un village du Comminges et appartient à la série des Vénus.",
+            "anecdote": "Sculptée dans de l'ivoire de mammouth il y a environ 25 000 ans, elle est conservée au musée de l'Homme, à Paris.",
+            "answers": {
+              "la-venus-de-lespugue": "La Vénus de Lespugue",
+              "la-venus-de-brassempouy": "La Vénus de Brassempouy",
+              "la-venus-de-laussel": "La Vénus de Laussel",
+              "la-venus-de-milo": "La Vénus de Milo"
+            }
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "capitole": {
+            "name": "Capitole de Toulouse",
+            "description": "Au cœur de la Ville rose, cet édifice réunit la mairie et un théâtre. Sa longue façade de brique et de pierre, élevée au milieu du XVIIIe siècle, domine une vaste place marquée d'une croix occitane.",
+            "anecdote": "Son nom rappelle les capitouls, les magistrats qui ont administré la ville pendant des siècles."
+          },
+          "roquefort": {
+            "name": "Roquefort",
+            "description": "Fait de lait cru de brebis, ce fromage bleu s'affine dans les caves naturelles de Roquefort-sur-Soulzon, en Aveyron. Il a été, en 1925, le premier fromage français protégé par une appellation d'origine.",
+            "anecdote": "Des failles de la roche, appelées fleurines, font circuler dans ses caves un air frais et humide."
+          },
+          "conques": {
+            "name": "Conques",
+            "description": "Dans un vallon de l'Aveyron, l'abbatiale romane Sainte-Foy domine un village de pierre et de lauzes. Étape de la voie du Puy, elle est inscrite au patrimoine mondial au titre des chemins de Compostelle.",
+            "anecdote": "Ses 104 vitraux contemporains sont l'œuvre du peintre Pierre Soulages, né à Rodez."
+          },
+          "couteau-laguiole": {
+            "name": "Couteau de Laguiole",
+            "description": "Né au XIXe siècle sur le plateau de l'Aubrac, ce couteau à la lame effilée accompagnait les gens du pays. Sa silhouette courbée en a fait un grand classique de la coutellerie française.",
+            "anecdote": "Depuis 2024, une indication géographique protège le couteau de Laguiole fabriqué dans le nord de l'Aveyron."
+          },
+          "gavarnie": {
+            "name": "Cirque de Gavarnie",
+            "description": "Au bout d'une vallée des Hautes-Pyrénées, ce cirque glaciaire aligne de gigantesques parois et une haute cascade. Il appartient au site Pyrénées-Mont Perdu, inscrit au patrimoine mondial en 1997.",
+            "anecdote": "Victor Hugo, marqué par sa visite, l'a appelé le colosseum de la nature."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur de Midi-Pyrénées",
+            "description": "Réunir les cinq cartes de la collection de Midi-Pyrénées."
+          },
+          "master": {
+            "name": "Maître de Midi-Pyrénées",
+            "description": "Réussir le Défi Maître de Midi-Pyrénées, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
     },
     "languedoc-roussillon": {
       "name": "Languedoc-Roussillon",
