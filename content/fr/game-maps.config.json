@@ -139,6 +139,18 @@
         "03": "auvergne",
         "07": "rhone-alpes"
       }
+    },
+    {
+      "id": "provence-alpes-cote-d-azur-departements",
+      "simplify": "22%",
+      "zones": {
+        "13": "13",
+        "83": "83",
+        "84": "84",
+        "04": "04",
+        "05": "05",
+        "06": "06"
+      }
     }
   ]
 }

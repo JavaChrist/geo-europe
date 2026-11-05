@@ -2084,6 +2084,482 @@
       "photoRhoneAlpesMandrin": {
         "title": "Louis Mandrin, gravure du XVIIIe siècle",
         "alt": "Gravure d'un homme enchaîné, assis sur une pierre, dans un cachot."
+      },
+      "photoProvenceAlpesCoteDAzurNotreDameGarde": {
+        "title": "Basilique Notre-Dame de la Garde à Marseille",
+        "alt": "Basilique à rayures claires et sombres, avec un haut clocher surmonté d'une statue dorée, sous un ciel bleu."
+      },
+      "photoProvenceAlpesCoteDAzurPalaisPapes": {
+        "title": "Palais des Papes à Avignon",
+        "alt": "Hautes murailles de pierre claire et deux flèches gothiques, vues d'en bas sous un ciel bleu."
+      },
+      "photoProvenceAlpesCoteDAzurPromenade": {
+        "title": "Promenade des Anglais à Nice",
+        "alt": "Longue promenade bordée de chaises, le long d'une plage de galets et d'une mer turquoise."
+      },
+      "photoProvenceAlpesCoteDAzurArenesArles": {
+        "title": "Arènes d'Arles",
+        "alt": "Amphithéâtre de pierre vu de l'intérieur, avec ses gradins autour d'une piste de sable cerclée de rouge."
+      },
+      "photoProvenceAlpesCoteDAzurCroisette": {
+        "title": "Bord de mer de Cannes",
+        "alt": "Longue ligne d'immeubles et d'hôtels au bord d'une baie, avec des collines en arrière-plan."
+      },
+      "photoProvenceAlpesCoteDAzurToulon": {
+        "title": "Rade de Toulon depuis le mont Faron",
+        "alt": "Vue de haut sur une ville, une rade et des presqu'îles."
+      },
+      "photoProvenceAlpesCoteDAzurValensole": {
+        "title": "Plateau de Valensole",
+        "alt": "Longues rangées de fleurs violettes qui s'étendent jusqu'à l'horizon."
+      },
+      "photoProvenceAlpesCoteDAzurVentoux": {
+        "title": "Sommet du mont Ventoux",
+        "alt": "Sommet pelé de cailloux blancs, couronné d'une haute tour rouge et blanche, avec une route en lacets."
+      },
+      "photoProvenceAlpesCoteDAzurFlamants": {
+        "title": "Flamant rose en Camargue",
+        "alt": "Grand oiseau rose et noir aux longues pattes, debout dans une eau peu profonde."
+      },
+      "photoProvenceAlpesCoteDAzurCalanque": {
+        "title": "Calanque d'En-Vau",
+        "alt": "Crique d'eau turquoise et plage blanche au pied de hautes falaises de calcaire et de pins."
+      },
+      "photoProvenceAlpesCoteDAzurSaintTropez": {
+        "title": "Port de Saint-Tropez",
+        "alt": "Mâts de voiliers serrés dans un petit port, avec un clocher ocre au loin."
+      },
+      "photoProvenceAlpesCoteDAzurBouillabaisse": {
+        "title": "Assiette de bouillabaisse",
+        "alt": "Assiette creuse de soupe orangée, garnie de poisson et d'une moule, avec un croûton."
+      },
+      "photoProvenceAlpesCoteDAzurRatatouille": {
+        "title": "Ratatouille",
+        "alt": "Assiette de légumes d'été mijotés, rouges, verts et violets, avec quelques olives."
+      },
+      "photoProvenceAlpesCoteDAzurSaladeNicoise": {
+        "title": "Salade niçoise",
+        "alt": "Grande assiette de salade avec thon, anchois, œufs, oignons en rondelles et olives noires."
+      },
+      "photoProvenceAlpesCoteDAzurTapenade": {
+        "title": "Tapenade",
+        "alt": "Pâte noire dans un bol de faïence jaune, et tartines garnies à l'arrière-plan."
+      },
+      "photoProvenceAlpesCoteDAzurSocca": {
+        "title": "Socca à Nice",
+        "alt": "Grande galette dorée dans une large plaque ronde, que l'on découpe sur un four."
+      },
+      "photoProvenceAlpesCoteDAzurPissaladiere": {
+        "title": "Pissaladière",
+        "alt": "Tarte ronde garnie d'oignons fondus, de pâte sombre et d'olives noires."
+      },
+      "photoProvenceAlpesCoteDAzurTourteBlettes": {
+        "title": "Tourte de blettes",
+        "alt": "Part de tourte verte saupoudrée de sucre, avec un filet de sauce."
+      },
+      "photoProvenceAlpesCoteDAzurDaube": {
+        "title": "Daube provençale",
+        "alt": "Cocotte de viande en sauce, avec des pommes de terre et des carottes."
+      },
+      "photoProvenceAlpesCoteDAzurOlivier": {
+        "title": "Oliveraie aux Mées",
+        "alt": "Rangées d'arbres au feuillage argenté dans un champ de terre claire, devant des collines."
+      },
+      "photoProvenceAlpesCoteDAzurMelon": {
+        "title": "Melons de Cavaillon",
+        "alt": "Fruits ronds à côtes vertes, dont l'un est fendu."
+      },
+      "photoProvenceAlpesCoteDAzurHerbes": {
+        "title": "Herbes de Provence",
+        "alt": "Grand bac de plantes séchées."
+      },
+      "photoProvenceAlpesCoteDAzurTruffe": {
+        "title": "Truffes noires de Provence",
+        "alt": "Champignons noirs et bosselés, posés sur une feuille d'aluminium."
+      },
+      "photoProvenceAlpesCoteDAzurBanon": {
+        "title": "Fromage de Banon",
+        "alt": "Fromage entouré de feuilles brunes nouées, à côté d'un autre déjà ouvert et d'un couteau."
+      },
+      "photoProvenceAlpesCoteDAzurRiz": {
+        "title": "Rizière en Camargue",
+        "alt": "Terres inondées, derrière des roseaux au premier plan."
+      },
+      "photoProvenceAlpesCoteDAzurChateauneuf": {
+        "title": "Vignes de Châteauneuf-du-Pape",
+        "alt": "Vignes basses dans un sol clair, devant une maison aux murs roses."
+      },
+      "photoProvenceAlpesCoteDAzurBandol": {
+        "title": "Vignoble de Bandol à La Cadière-d'Azur",
+        "alt": "Allée entre des rangs de vignes aux couleurs d'automne, à contre-jour."
+      },
+      "photoProvenceAlpesCoteDAzurCalisson": {
+        "title": "Calissons d'Aix",
+        "alt": "Petites confiseries blanches et lisses, serrées dans une boîte claire."
+      },
+      "photoProvenceAlpesCoteDAzurTarteTropezienne": {
+        "title": "Tarte tropézienne",
+        "alt": "Grosse brioche ronde garnie de crème et couverte de grains de sucre."
+      },
+      "photoProvenceAlpesCoteDAzurNavette": {
+        "title": "Navettes à la fleur d'oranger",
+        "alt": "Petits biscuits dorés et allongés, fendus au milieu, sur un plat posé sur une dentelle."
+      },
+      "photoProvenceAlpesCoteDAzurFruitsConfits": {
+        "title": "Boutique de fruits confits à Apt",
+        "alt": "Boutique avec des fruits rouges emballés, des étagères de bocaux et une grande peinture."
+      },
+      "photoProvenceAlpesCoteDAzurBerlingot": {
+        "title": "Berlingots de Carpentras",
+        "alt": "Cinq petits bonbons translucides rayés de blanc, sur un tissu rose."
+      },
+      "photoProvenceAlpesCoteDAzurCigale": {
+        "title": "Cigale à Sanary-sur-Mer",
+        "alt": "Gros insecte aux ailes transparentes, posé sur le bitume."
+      },
+      "photoProvenceAlpesCoteDAzurLongchamp": {
+        "title": "Palais Longchamp à Marseille",
+        "alt": "Palais à colonnades en arc de cercle, autour d'une grande fontaine en cascades et d'un bassin."
+      },
+      "photoProvenceAlpesCoteDAzurChateauIf": {
+        "title": "Château d'If au large de Marseille",
+        "alt": "Forteresse claire sur un îlot rocheux, dans la lumière dorée du soir."
+      },
+      "photoProvenceAlpesCoteDAzurVieilleCharite": {
+        "title": "Vieille Charité à Marseille",
+        "alt": "Chapelle à coupole ovale au centre d'une cour entourée de galeries à arcades."
+      },
+      "photoProvenceAlpesCoteDAzurPontAvignon": {
+        "title": "Pont Saint-Bénézet à Avignon",
+        "alt": "Pont de pierre interrompu au milieu d'un fleuve calme, devant une ville et un palais."
+      },
+      "photoProvenceAlpesCoteDAzurTheatreOrange": {
+        "title": "Théâtre antique d'Orange",
+        "alt": "Immense mur de pierre dorée, percé d'arcades à sa base, le long d'une rue."
+      },
+      "photoProvenceAlpesCoteDAzurAlyscamps": {
+        "title": "Alyscamps à Arles",
+        "alt": "Allée ombragée bordée de grands blocs de pierre creusés, sous les arbres."
+      },
+      "photoProvenceAlpesCoteDAzurSenanque": {
+        "title": "Abbaye de Sénanque",
+        "alt": "Abbaye de pierre vue du ciel, dans un vallon boisé, à côté de rangs de culture."
+      },
+      "photoProvenceAlpesCoteDAzurThoronet": {
+        "title": "Abbaye du Thoronet",
+        "alt": "Église romane de pierre claire, très sobre, avec un petit clocher carré, entre les arbres."
+      },
+      "photoProvenceAlpesCoteDAzurSisteron": {
+        "title": "Citadelle de Sisteron",
+        "alt": "Citadelle au sommet d'un rocher, au-dessus d'une ville et d'une rivière."
+      },
+      "photoProvenceAlpesCoteDAzurMontDauphin": {
+        "title": "Mont-Dauphin vu du ciel",
+        "alt": "Fortifications sur un plateau au-dessus d'une vallée, vues du ciel."
+      },
+      "photoProvenceAlpesCoteDAzurNegresco": {
+        "title": "Hôtel Negresco à Nice",
+        "alt": "Façade blanche d'un grand palace illuminé de nuit, en bord de mer, avec un palmier."
+      },
+      "photoProvenceAlpesCoteDAzurCarlton": {
+        "title": "Hôtel Carlton à Cannes",
+        "alt": "Façade blanche ornée d'un grand hôtel illuminé de nuit, avec une coupole d'angle."
+      },
+      "photoProvenceAlpesCoteDAzurEphrussi": {
+        "title": "Villa Ephrussi de Rothschild",
+        "alt": "Villa rose à arcades blanches, derrière un jardin taillé et un perron de pierre."
+      },
+      "photoProvenceAlpesCoteDAzurKerylos": {
+        "title": "Villa Kérylos à Beaulieu-sur-Mer",
+        "alt": "Villa blanche au bord de l'eau, sur une pointe, devant une baie et des maisons."
+      },
+      "photoProvenceAlpesCoteDAzurSaintNicolasNice": {
+        "title": "Cathédrale Saint-Nicolas de Nice",
+        "alt": "Église de brique et de pierre claire, coiffée de plusieurs bulbes verts et dorés."
+      },
+      "photoProvenceAlpesCoteDAzurBaux": {
+        "title": "Château des Baux-de-Provence",
+        "alt": "Ruines d'un château taillé dans un éperon rocheux clair, sous un ciel bleu."
+      },
+      "photoProvenceAlpesCoteDAzurGordes": {
+        "title": "Gordes",
+        "alt": "Village de pierre étagé sur le flanc d'une colline verdoyante, devant une vaste plaine."
+      },
+      "photoProvenceAlpesCoteDAzurRoussillon": {
+        "title": "Sentier des ocres à Roussillon",
+        "alt": "Falaises orange et rouges, ravinées, entre des pins."
+      },
+      "photoProvenceAlpesCoteDAzurOcres": {
+        "title": "Falaises d'ocre à Roussillon",
+        "alt": "Haute paroi orangée coiffée de pins, avec des promeneurs à son pied."
+      },
+      "photoProvenceAlpesCoteDAzurMoustiers": {
+        "title": "Moustiers-Sainte-Marie",
+        "alt": "Maisons au pied de deux grandes falaises calcaires séparées par une brèche."
+      },
+      "photoProvenceAlpesCoteDAzurBriancon": {
+        "title": "Cité Vauban de Briançon",
+        "alt": "Toits et clochers à deux tours, au pied d'une montagne verte."
+      },
+      "photoProvenceAlpesCoteDAzurSaintVeran": {
+        "title": "Saint-Véran",
+        "alt": "Hameaux sur un alpage en pente, au-dessus de la forêt."
+      },
+      "photoProvenceAlpesCoteDAzurBarcelonnette": {
+        "title": "Villa mexicaine à Barcelonnette",
+        "alt": "Grande villa jaune et rouge, à hauts toits, au milieu d'une pelouse, devant des montagnes."
+      },
+      "photoProvenceAlpesCoteDAzurSaleya": {
+        "title": "Cours Saleya à Nice",
+        "alt": "Étals de légumes abondants sous de grandes toiles rayées, avec des clients."
+      },
+      "photoProvenceAlpesCoteDAzurMenton": {
+        "title": "Menton",
+        "alt": "Vieille ville colorée, dominée par un clocher, au-dessus d'un port de plaisance."
+      },
+      "photoProvenceAlpesCoteDAzurFortCarre": {
+        "title": "Fort Carré d'Antibes",
+        "alt": "Fort de pierre sur une butte boisée, au-dessus d'un mur."
+      },
+      "photoProvenceAlpesCoteDAzurLerins": {
+        "title": "Abbaye de Lérins",
+        "alt": "Abbaye et son clocher, vus entre deux merlons de pierre, au milieu des pins."
+      },
+      "photoProvenceAlpesCoteDAzurFrejus": {
+        "title": "Amphithéâtre de Fréjus",
+        "alt": "Ruines d'arènes et structure moderne couvrant les gradins, avec une arche."
+      },
+      "photoProvenceAlpesCoteDAzurMirabeau": {
+        "title": "Cours Mirabeau à Aix-en-Provence",
+        "alt": "Large avenue bordée d'arbres, de terrasses et de façades ocre."
+      },
+      "photoProvenceAlpesCoteDAzurRotonde": {
+        "title": "Fontaine de la Rotonde à Aix-en-Provence",
+        "alt": "Grande fontaine ronde à plusieurs vasques, ornée de lions de bronze, avec des jets d'eau."
+      },
+      "photoProvenceAlpesCoteDAzurVaison": {
+        "title": "Pont romain de Vaison-la-Romaine",
+        "alt": "Pont de pierre à une grande arche au-dessus d'une rivière encaissée, près de falaises."
+      },
+      "photoProvenceAlpesCoteDAzurGlanum": {
+        "title": "Les Antiques à Saint-Rémy-de-Provence",
+        "alt": "Mausolée à colonnes et arc romain sculpté, côte à côte, sous des arbres."
+      },
+      "photoProvenceAlpesCoteDAzurVieuxPort": {
+        "title": "Vieux-Port de Marseille",
+        "alt": "Voiliers amarrés le long d'un ponton de bois, devant des façades claires."
+      },
+      "photoProvenceAlpesCoteDAzurFontaineVaucluse": {
+        "title": "Fontaine-de-Vaucluse",
+        "alt": "Village dans un creux de falaises boisées."
+      },
+      "photoProvenceAlpesCoteDAzurEze": {
+        "title": "Èze et le cap Ferrat",
+        "alt": "Village de pierre perché sur un piton rocheux, au-dessus de la mer, avec un long cap au loin."
+      },
+      "photoProvenceAlpesCoteDAzurSaintPaul": {
+        "title": "Saint-Paul-de-Vence",
+        "alt": "Village fortifié sur une colline, derrière ses remparts."
+      },
+      "photoProvenceAlpesCoteDAzurLourmarin": {
+        "title": "Château de Lourmarin",
+        "alt": "Château Renaissance, cyprès et église, devant des collines."
+      },
+      "photoProvenceAlpesCoteDAzurMajor": {
+        "title": "Cathédrale de la Major à Marseille",
+        "alt": "Immense cathédrale à coupoles et à deux tours, vue depuis la mer derrière une digue."
+      },
+      "photoProvenceAlpesCoteDAzurSavon": {
+        "title": "Savons de Marseille",
+        "alt": "Gros cubes beiges, gravés en creux, dans un panier."
+      },
+      "photoProvenceAlpesCoteDAzurSantons": {
+        "title": "Santons de Provence",
+        "alt": "Dizaines de petites figurines peintes, alignées sur des étagères en gradins."
+      },
+      "photoProvenceAlpesCoteDAzurFaience": {
+        "title": "Plat de faïence de Moustiers",
+        "alt": "Plat octogonal blanc décoré en bleu de personnages dans un paysage."
+      },
+      "photoProvenceAlpesCoteDAzurVallauris": {
+        "title": "Ancienne fabrique de poteries à Vallauris",
+        "alt": "Photo ancienne de grosses jarres devant un atelier."
+      },
+      "photoProvenceAlpesCoteDAzurGrasse": {
+        "title": "Parfumerie Molinard à Grasse",
+        "alt": "Grande demeure blanche à tourelle, au milieu des oliviers."
+      },
+      "photoProvenceAlpesCoteDAzurRoseMai": {
+        "title": "Rose centfeuilles",
+        "alt": "Grosse fleur aux très nombreux pétales roses, entourée de feuilles vertes."
+      },
+      "photoProvenceAlpesCoteDAzurLavandin": {
+        "title": "Lavandin à Rustrel",
+        "alt": "Champ aux rangs mauves et verts, devant des collines boisées."
+      },
+      "photoProvenceAlpesCoteDAzurFarandole": {
+        "title": "La farandole sur une image ancienne",
+        "alt": "Image ancienne de danseurs en costume, en chaîne, se tenant la main, derrière un joueur de tambour."
+      },
+      "photoProvenceAlpesCoteDAzurCourseCamarguaise": {
+        "title": "Course camarguaise au Cailar",
+        "alt": "Taureau noir poursuivant un homme en blanc dans une arène."
+      },
+      "photoProvenceAlpesCoteDAzurTreizeDesserts": {
+        "title": "Table de desserts de Noël en Provence",
+        "alt": "Table de Noël garnie de fruits secs, d'un gâteau rond et d'une bûche."
+      },
+      "photoProvenceAlpesCoteDAzurCarnaval": {
+        "title": "Carnaval de Nice en 1931",
+        "alt": "Photo ancienne d'un grand char à personnage, entouré d'une foule, sur une place."
+      },
+      "photoProvenceAlpesCoteDAzurFeteCitron": {
+        "title": "Fête du Citron à Menton",
+        "alt": "Lion et girafes géants faits d'agrumes, dans un jardin."
+      },
+      "photoProvenceAlpesCoteDAzurBravade": {
+        "title": "Bravade de Saint-Tropez",
+        "alt": "Rangée d'hommes en veste rouge et blanc tirant, dans la fumée, devant une foule."
+      },
+      "photoProvenceAlpesCoteDAzurSaintesMaries": {
+        "title": "Église des Saintes-Maries-de-la-Mer",
+        "alt": "Haute église fortifiée en pierre, aux murs à arcades, sans fenêtres, couronnée de créneaux."
+      },
+      "photoProvenceAlpesCoteDAzurTarasque": {
+        "title": "La Tarasque à Tarascon",
+        "alt": "Monstre vert à piques rouges, sur une place."
+      },
+      "photoProvenceAlpesCoteDAzurChevaux": {
+        "title": "Chevaux de Camargue",
+        "alt": "Quatre chevaux blancs au galop dans une eau peu profonde."
+      },
+      "photoProvenceAlpesCoteDAzurBories": {
+        "title": "Village des bories à Gordes",
+        "alt": "Cabanes arrondies en pierres sèches, en forme de dôme."
+      },
+      "photoProvenceAlpesCoteDAzurMistral": {
+        "title": "Portrait de Frédéric Mistral",
+        "alt": "Ancienne photo d'un homme moustachu en veste sombre et gilet clair, les mains dans les poches."
+      },
+      "photoProvenceAlpesCoteDAzurFestivalAvignon": {
+        "title": "Cour d'honneur du Palais des Papes",
+        "alt": "Grande tribune de sièges installée dans une cour, face à de hautes murailles gothiques."
+      },
+      "photoProvenceAlpesCoteDAzurMoulinDaudet": {
+        "title": "Moulin de Fontvieille",
+        "alt": "Moulin aux ailes de bois sur une butte, dans la lumière du soir."
+      },
+      "photoProvenceAlpesCoteDAzurNostradamus": {
+        "title": "Portrait de Nostradamus",
+        "alt": "Portrait ancien d'un homme à longue barbe grise et bonnet noir."
+      },
+      "photoProvenceAlpesCoteDAzurCollettes": {
+        "title": "La Ferme des Collettes, par Renoir",
+        "alt": "Tableau d'un grand olivier noueux et d'une maison dans un jardin."
+      },
+      "photoProvenceAlpesCoteDAzurEcrins": {
+        "title": "Massif des Écrins",
+        "alt": "Pics rocheux au-dessus d'un vallon, avec un glacier au loin."
+      },
+      "photoProvenceAlpesCoteDAzurGlacierBlanc": {
+        "title": "Glacier Blanc",
+        "alt": "Sommet neigeux et vaste langue de glace."
+      },
+      "photoProvenceAlpesCoteDAzurSerrePoncon": {
+        "title": "Lac de Serre-Ponçon",
+        "alt": "Lac bleu avec des voiliers, une montagne et une digue."
+      },
+      "photoProvenceAlpesCoteDAzurIzoard": {
+        "title": "La Casse Déserte",
+        "alt": "Aiguilles de roche brune dressées sur des pentes d'éboulis, traversées par une route."
+      },
+      "photoProvenceAlpesCoteDAzurDemoiselles": {
+        "title": "Demoiselles coiffées de Théus",
+        "alt": "Colonnes de terre grise coiffées de gros blocs bruns."
+      },
+      "photoProvenceAlpesCoteDAzurMees": {
+        "title": "Pénitents des Mées",
+        "alt": "Alignement de grands rochers pointus, au-dessus d'une bande de forêt et d'un champ."
+      },
+      "photoProvenceAlpesCoteDAzurColorado2": {
+        "title": "Colorado provençal à Rustrel",
+        "alt": "Terre orange, arbustes et falaise claire."
+      },
+      "photoProvenceAlpesCoteDAzurAmmonites": {
+        "title": "Dalle aux ammonites à Digne-les-Bains",
+        "alt": "Grande dalle grise inclinée, avec des visiteurs derrière une barrière."
+      },
+      "photoProvenceAlpesCoteDAzurVerdon": {
+        "title": "Gorges du Verdon",
+        "alt": "Canyon profond à l'eau turquoise, entre de hautes parois de calcaire, avec un lac au loin."
+      },
+      "photoProvenceAlpesCoteDAzurDaluis": {
+        "title": "Gorges de Daluis",
+        "alt": "Gorge étroite aux roches rouges."
+      },
+      "photoProvenceAlpesCoteDAzurChamois": {
+        "title": "Chamois",
+        "alt": "Animal aux cornes crochues, bondissant sur l'herbe."
+      },
+      "photoProvenceAlpesCoteDAzurPorquerolles": {
+        "title": "Plage Notre-Dame à Porquerolles",
+        "alt": "Plage blanche en arc de cercle, eau turquoise et pins."
+      },
+      "photoProvenceAlpesCoteDAzurEsterel": {
+        "title": "Massif de l'Esterel",
+        "alt": "Roches rouges au-dessus de la mer."
+      },
+      "photoProvenceAlpesCoteDAzurCassis": {
+        "title": "Port de Cassis",
+        "alt": "Barques bleues dans un port, devant une haute falaise dorée."
+      },
+      "photoProvenceAlpesCoteDAzurMimosa": {
+        "title": "Mimosas à Tanneron",
+        "alt": "Arbres en fleurs jaunes sur une colline, avec des maisons."
+      },
+      "photoProvenceAlpesCoteDAzurTrainPignes": {
+        "title": "Train à Plan-du-Var",
+        "alt": "Petit autorail bleu et blanc arrêté à un quai, entre de hautes montagnes."
+      },
+      "photoProvenceAlpesCoteDAzurDentelles": {
+        "title": "Dentelles de Montmirail",
+        "alt": "Crêtes rocheuses découpées au loin, derrière des genêts jaunes en fleurs."
+      },
+      "photoProvenceAlpesCoteDAzurSainteVictoire": {
+        "title": "Montagne Sainte-Victoire",
+        "alt": "Grand massif clair à l'horizon, sous un ciel d'orage, derrière une campagne."
+      },
+      "photoProvenceAlpesCoteDAzurTurbie": {
+        "title": "Trophée d'Auguste à La Turbie",
+        "alt": "Ruine romaine massive, avec quelques colonnes."
+      },
+      "photoProvenceAlpesCoteDAzurArcOrange": {
+        "title": "Arc de triomphe d'Orange",
+        "alt": "Arc romain sculpté à trois passages, au milieu d'une esplanade bordée d'arbres."
+      },
+      "photoProvenceAlpesCoteDAzurDebarquement": {
+        "title": "Flotte alliée au large de la Provence en 1944",
+        "alt": "Photo ancienne de dizaines de navires au mouillage devant une côte boisée."
+      },
+      "photoProvenceAlpesCoteDAzurSabordage": {
+        "title": "Navires coulés à Toulon en 1942",
+        "alt": "Photo ancienne de navires de guerre couchés et à demi coulés dans un port."
+      },
+      "photoProvenceAlpesCoteDAzurCezanne": {
+        "title": "La Montagne Sainte-Victoire, par Cézanne",
+        "alt": "Tableau d'une montagne bleutée au-dessus d'une plaine ocre, derrière des branches d'arbre."
+      },
+      "photoProvenceAlpesCoteDAzurVanGoghTerrasse": {
+        "title": "Terrasse du café le soir, par Van Gogh",
+        "alt": "Tableau d'une terrasse jaune éclairée, sur une place pavée, sous un ciel étoilé."
+      },
+      "photoProvenceAlpesCoteDAzurGaribaldi": {
+        "title": "Portrait de Garibaldi",
+        "alt": "Photo ancienne d'un homme barbu, en calot brodé et poncho rayé."
+      },
+      "photoProvenceAlpesCoteDAzurZola": {
+        "title": "Portrait de Zola, par Manet",
+        "alt": "Tableau d'un homme barbu assis à son bureau, un livre ouvert à la main."
       }
     }
   },
@@ -2111,6 +2587,7 @@
     "10": "Aube",
     "11": "Aude",
     "12": "Aveyron",
+    "13": "Bouches-du-Rhône",
     "15": "Cantal",
     "21": "Côte-d'Or",
     "25": "Doubs",
@@ -2143,6 +2620,8 @@
     "74": "Haute-Savoie",
     "81": "Tarn",
     "82": "Tarn-et-Garonne",
+    "83": "Var",
+    "84": "Vaucluse",
     "88": "Vosges",
     "89": "Yonne",
     "90": "Territoire de Belfort",
@@ -2150,7 +2629,10 @@
     "09": "Ariège",
     "01": "Ain",
     "03": "Allier",
-    "07": "Ardèche"
+    "07": "Ardèche",
+    "04": "Alpes-de-Haute-Provence",
+    "05": "Hautes-Alpes",
+    "06": "Alpes-Maritimes"
   },
   "places": {
     "strasbourg": "Strasbourg",
@@ -2491,7 +2973,74 @@
     "tournon-sur-rhone": "Tournon-sur-Rhône",
     "viviers": "Viviers",
     "vals-les-bains": "Vals-les-Bains",
-    "balazuc": "Balazuc"
+    "balazuc": "Balazuc",
+    "digne-les-bains": "Digne-les-Bains",
+    "manosque": "Manosque",
+    "sisteron": "Sisteron",
+    "barcelonnette": "Barcelonnette",
+    "castellane": "Castellane",
+    "forcalquier": "Forcalquier",
+    "moustiers-sainte-marie": "Moustiers-Sainte-Marie",
+    "valensole": "Valensole",
+    "les-mees": "Les Mées",
+    "banon": "Banon",
+    "gap": "Gap",
+    "briancon": "Briançon",
+    "embrun": "Embrun",
+    "laragne-monteglin": "Laragne-Montéglin",
+    "mont-dauphin": "Mont-Dauphin",
+    "saint-veran": "Saint-Véran",
+    "la-grave": "La Grave",
+    "serre-chevalier": "Serre Chevalier",
+    "nice": "Nice",
+    "cannes": "Cannes",
+    "antibes": "Antibes",
+    "grasse": "Grasse",
+    "menton": "Menton",
+    "vence": "Vence",
+    "vallauris": "Vallauris",
+    "cagnes-sur-mer": "Cagnes-sur-Mer",
+    "tende": "Tende",
+    "biot": "Biot",
+    "eze": "Èze",
+    "saint-paul-de-vence": "Saint-Paul-de-Vence",
+    "la-turbie": "La Turbie",
+    "isola-2000": "Isola 2000",
+    "marseille": "Marseille",
+    "aix-en-provence": "Aix-en-Provence",
+    "arles": "Arles",
+    "martigues": "Martigues",
+    "aubagne": "Aubagne",
+    "salon-de-provence": "Salon-de-Provence",
+    "la-ciotat": "La Ciotat",
+    "tarascon": "Tarascon",
+    "cassis": "Cassis",
+    "saint-remy-de-provence": "Saint-Rémy-de-Provence",
+    "les-baux-de-provence": "Les Baux-de-Provence",
+    "saintes-maries-de-la-mer": "Saintes-Maries-de-la-Mer",
+    "toulon": "Toulon",
+    "frejus": "Fréjus",
+    "hyeres": "Hyères",
+    "draguignan": "Draguignan",
+    "saint-raphael": "Saint-Raphaël",
+    "brignoles": "Brignoles",
+    "saint-tropez": "Saint-Tropez",
+    "bandol": "Bandol",
+    "sainte-maxime": "Sainte-Maxime",
+    "bormes-les-mimosas": "Bormes-les-Mimosas",
+    "le-thoronet": "Le Thoronet",
+    "avignon": "Avignon",
+    "orange": "Orange",
+    "carpentras": "Carpentras",
+    "cavaillon": "Cavaillon",
+    "apt": "Apt",
+    "vaison-la-romaine": "Vaison-la-Romaine",
+    "pertuis": "Pertuis",
+    "gordes": "Gordes",
+    "roussillon": "Roussillon",
+    "bonnieux": "Bonnieux",
+    "lourmarin": "Lourmarin",
+    "fontaine-de-vaucluse": "Fontaine-de-Vaucluse"
   },
   "territories": {
     "champagne-ardenne": {
@@ -20583,6 +21132,1943 @@
           "master": {
             "name": "Maître de Rhône-Alpes",
             "description": "Réussir le Défi Maître de Rhône-Alpes, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
+    },
+    "provence-alpes-cote-d-azur": {
+      "name": "Provence-Alpes-Côte d'Azur",
+      "description": "Des sommets des Écrins aux calanques de la Méditerranée, une région de cités romaines et de villages perchés, de lavande et d'oliviers, de grands festivals et de traditions provençales.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Provence-Alpes-Côte d'Azur",
+          "description": "Six départements, leurs villes et les grands repères d'une région qui va des sommets des Alpes aux plages de la Méditerranée.",
+          "chef-lieu": {
+            "prompt": "Quelle ville est le chef-lieu de la région Provence-Alpes-Côte d'Azur ?",
+            "hint": "C'est aussi la deuxième commune de France par sa population.",
+            "anecdote": "Le conseil régional y siège, place Jules-Guesde, près de la porte d'Aix."
+          },
+          "six": {
+            "prompt": "Combien de départements compte la région ?",
+            "hint": "Autant que de faces sur un dé à jouer.",
+            "anecdote": "Ce sont les Alpes-de-Haute-Provence, les Hautes-Alpes, les Alpes-Maritimes, les Bouches-du-Rhône, le Var et le Vaucluse.",
+            "answers": {
+              "six": "Six",
+              "quatre": "Quatre",
+              "huit": "Huit",
+              "douze": "Douze"
+            }
+          },
+          "sigle": {
+            "prompt": "Quel sigle de quatre lettres désigne couramment la région ?",
+            "hint": "Ses lettres reprennent, dans l'ordre, le nom complet de la région.",
+            "anecdote": "La lettre A y figure deux fois, pour les Alpes et pour l'Azur.",
+            "answers": {
+              "paca": "PACA",
+              "prov": "PROV",
+              "cote": "COTE",
+              "alpe": "ALPE"
+            }
+          },
+          "region-sud": {
+            "prompt": "Quel nom d'usage le conseil régional a-t-il adopté à la fin de 2017 ?",
+            "hint": "Il évoque simplement un point cardinal.",
+            "anecdote": "Ce nom sert à la communication de la collectivité. Le nom officiel de la région reste Provence-Alpes-Côte d'Azur.",
+            "answers": {
+              "region-sud": "Région Sud",
+              "region-azur": "Région Azur",
+              "grand-midi": "Grand Midi",
+              "riviera-francaise": "Riviera française"
+            }
+          },
+          "italie": {
+            "prompt": "Avec quel grand pays voisin la région partage-t-elle une frontière ?",
+            "hint": "Sa botte s'avance dans la mer, plus à l'est.",
+            "anecdote": "Cette frontière va des Alpes jusqu'à la Méditerranée, près de Menton. Elle touche trois des six départements.",
+            "answers": {
+              "l-italie": "L'Italie",
+              "l-espagne": "L'Espagne",
+              "la-suisse": "La Suisse",
+              "l-allemagne": "L'Allemagne"
+            }
+          },
+          "mer": {
+            "prompt": "Quelle mer baigne les côtes de la région ?",
+            "hint": "Elle sépare l'Europe de l'Afrique.",
+            "anecdote": "Le littoral de la région s'étend de la Camargue jusqu'à la frontière italienne.",
+            "answers": {
+              "la-mediterranee": "La Méditerranée",
+              "la-mer-adriatique": "La mer Adriatique",
+              "la-mer-du-nord": "La mer du Nord",
+              "la-mer-noire": "La mer Noire"
+            }
+          },
+          "fleuve": {
+            "prompt": "Quel grand fleuve marque la limite ouest de la région, avant de se jeter dans la mer ?",
+            "hint": "Il passe à Lyon, à Avignon et à Arles.",
+            "anecdote": "Il prend sa source en Suisse et forme un vaste delta, la Camargue.",
+            "answers": {
+              "le-rhone": "Le Rhône",
+              "la-loire": "La Loire",
+              "la-garonne": "La Garonne",
+              "la-seine": "La Seine"
+            }
+          },
+          "carte-monaco": {
+            "prompt": "Touchez le département qui entoure la principauté de Monaco.",
+            "hint": "C'est le département le plus à l'est, le long de la frontière italienne.",
+            "anecdote": "Monaco, petit État indépendant, se trouve entre Nice et Menton."
+          },
+          "carte-porquerolles": {
+            "prompt": "Touchez le département dont dépend l'île de Porquerolles.",
+            "hint": "Il occupe le centre du littoral, sans toucher l'Italie.",
+            "anecdote": "L'île fait partie de la commune de Hyères."
+          },
+          "carte-camargue": {
+            "prompt": "Touchez le département de la région où s'étend la Camargue.",
+            "hint": "Il s'étend à l'ouest du littoral, jusqu'à l'embouchure du Rhône.",
+            "anecdote": "Le delta du Rhône s'étend aussi, plus à l'ouest, sur le Gard, en Occitanie."
+          },
+          "carte-marseille": {
+            "prompt": "Touchez le département dont Marseille est la préfecture.",
+            "hint": "Il s'étend à l'ouest du littoral, jusqu'à l'embouchure du Rhône.",
+            "anecdote": "Le nom de ce département rappelle l'embouchure du grand fleuve qui le borde."
+          },
+          "carte-nice": {
+            "prompt": "Touchez le département dont Nice est la préfecture.",
+            "hint": "C'est le département le plus à l'est, le long de la frontière italienne.",
+            "anecdote": "Créé en 1860, lors du rattachement du comté de Nice à la France, ce département va de la mer aux sommets."
+          },
+          "carte-toulon": {
+            "prompt": "Touchez le département dont Toulon est la préfecture.",
+            "hint": "Il occupe le centre du littoral, sans toucher l'Italie.",
+            "anecdote": "Toulon en est la préfecture depuis 1974. C'était auparavant Draguignan."
+          },
+          "carte-avignon": {
+            "prompt": "Touchez le département dont Avignon est la préfecture.",
+            "hint": "Il borde le Rhône, au nord-ouest de la région, sans aucun accès à la mer.",
+            "anecdote": "Ce département a été créé en 1793, après le rattachement à la France des terres des papes."
+          },
+          "carte-gap": {
+            "prompt": "Touchez le département dont Gap est la préfecture.",
+            "hint": "C'est le département le plus au nord de la région.",
+            "anecdote": "C'est un département de haute montagne, entièrement à l'intérieur des terres."
+          },
+          "carte-digne": {
+            "prompt": "Touchez le département dont Digne-les-Bains est la préfecture.",
+            "hint": "Il se trouve au cœur de la région, sans littoral, et touche l'Italie.",
+            "anecdote": "Ce département s'est appelé Basses-Alpes jusqu'en 1970."
+          },
+          "carte-cannes": {
+            "prompt": "Touchez le département de Cannes.",
+            "hint": "C'est le département le plus à l'est, le long de la frontière italienne.",
+            "anecdote": "La ville n'en est pas la préfecture, mais son festival de cinéma lui donne une renommée mondiale."
+          },
+          "carte-arles": {
+            "prompt": "Touchez le département d'Arles.",
+            "hint": "Il s'étend à l'ouest du littoral, jusqu'à l'embouchure du Rhône.",
+            "anecdote": "Arles est la plus vaste commune de France métropolitaine."
+          },
+          "carte-saint-tropez": {
+            "prompt": "Touchez le département de Saint-Tropez.",
+            "hint": "Il occupe le centre du littoral, sans toucher l'Italie.",
+            "anecdote": "Ce petit port occupe le nord d'une presqu'île du massif des Maures, face au golfe qui porte son nom."
+          },
+          "carte-orange": {
+            "prompt": "Touchez le département d'Orange.",
+            "hint": "Il borde le Rhône, au nord-ouest de la région, sans aucun accès à la mer.",
+            "anecdote": "La ville conserve un théâtre et un arc romains, inscrits au patrimoine mondial."
+          },
+          "carte-ventoux": {
+            "prompt": "Touchez le département du mont Ventoux.",
+            "hint": "Il borde le Rhône, au nord-ouest de la région, sans aucun accès à la mer.",
+            "anecdote": "Ce sommet isolé culmine à plus de 1 900 mètres."
+          },
+          "carte-briancon": {
+            "prompt": "Touchez le département de Briançon.",
+            "hint": "C'est le département le plus au nord de la région.",
+            "anecdote": "Cette ville d'altitude est proche de la frontière italienne."
+          },
+          "carte-moustiers": {
+            "prompt": "Touchez le département de Moustiers-Sainte-Marie.",
+            "hint": "Il se trouve au cœur de la région, sans littoral, et touche l'Italie.",
+            "anecdote": "Ce village est réputé pour sa faïence, et se trouve à l'entrée des gorges du Verdon."
+          },
+          "carte-sisteron": {
+            "prompt": "Touchez le département de Sisteron.",
+            "hint": "Il se trouve au cœur de la région, sans littoral, et touche l'Italie.",
+            "anecdote": "La ville est surnommée la porte de la Provence."
+          },
+          "gap": {
+            "prompt": "Quelle ville est la préfecture des Hautes-Alpes ?",
+            "hint": "Elle se trouve sur la route Napoléon, entre Sisteron et Grenoble.",
+            "anecdote": "Elle se trouve à environ 750 mètres d'altitude, à mi-chemin entre la Provence et le Dauphiné."
+          },
+          "deuxieme-ville": {
+            "prompt": "Quelle ville est la plus peuplée de la région après Marseille ?",
+            "hint": "Elle se trouve sur la Côte d'Azur.",
+            "anecdote": "Elle compte environ 358 000 habitants, ce qui en fait la cinquième commune de France."
+          },
+          "phoceenne": {
+            "prompt": "Quelle ville surnomme-t-on la cité phocéenne, en souvenir de ses fondateurs grecs ?",
+            "hint": "Son port est le plus important de France.",
+            "anecdote": "Des Grecs venus de Phocée, en Asie Mineure, y ont fondé la colonie de Massalia vers 600 avant notre ère."
+          },
+          "bonne-mere": {
+            "prompt": "Dans quelle ville cette basilique, surnommée la Bonne Mère, veille-t-elle sur le port ?",
+            "hint": "C'est la ville du Vieux-Port et de la Canebière.",
+            "anecdote": "Sa grande statue dorée de la Vierge à l'Enfant domine toute la ville du haut de sa colline."
+          },
+          "papes": {
+            "prompt": "Dans quelle ville se dresse ce grand palais, résidence des papes au XIVe siècle ?",
+            "hint": "Une chanson fait danser sur son pont.",
+            "anecdote": "Ce palais est l'un des plus grands édifices gothiques d'Europe. Il est inscrit au patrimoine mondial depuis 1995."
+          },
+          "promenade": {
+            "prompt": "Quelle ville s'étire le long de cette baie, avec sa célèbre Promenade des Anglais ?",
+            "hint": "Elle est la préfecture des Alpes-Maritimes.",
+            "anecdote": "Ce bord de mer doit son nom aux riches hivernants britanniques, qui l'ont financé au XIXe siècle."
+          },
+          "arenes": {
+            "prompt": "Dans quelle ville se trouve cet amphithéâtre romain, encore utilisé pour des spectacles ?",
+            "hint": "Van Gogh y a peint de nombreuses toiles en 1888.",
+            "anecdote": "Construit à la fin du Ier siècle, il pouvait accueillir plus de 20 000 spectateurs."
+          },
+          "croisette": {
+            "prompt": "Quelle ville accueille, sur ce bord de mer, un grand festival de cinéma chaque année ?",
+            "hint": "Sa récompense suprême est une Palme d'or.",
+            "anecdote": "Le festival s'y tient depuis 1946, le plus souvent au mois de mai."
+          },
+          "toulon": {
+            "prompt": "Quelle ville du Var abrite, dans cette grande rade, le premier port militaire français ?",
+            "hint": "Elle se trouve au pied du mont Faron.",
+            "anecdote": "La ville accueille la principale base navale de la Marine nationale, dont le porte-avions Charles-de-Gaulle."
+          },
+          "lavande": {
+            "prompt": "Quelle plante aux fleurs violettes colore ces champs de Haute-Provence en été ?",
+            "hint": "On en parfume le linge et les savons.",
+            "anecdote": "Le plateau de Valensole est l'un de ses grands paysages. La floraison culmine en général entre juin et juillet.",
+            "answers": {
+              "la-lavande": "La lavande",
+              "le-lilas": "Le lilas",
+              "la-violette": "La violette",
+              "le-thym": "Le thym"
+            }
+          },
+          "ventoux": {
+            "prompt": "Quel sommet du Vaucluse, au crâne pelé et blanc, est célèbre grâce au Tour de France ?",
+            "hint": "Son nom fait penser aux bourrasques qui balaient sa cime.",
+            "anecdote": "Le sommet, dépourvu de végétation, est couvert d'éclats de calcaire blanc qui le font paraître enneigé.",
+            "answers": {
+              "le-mont-ventoux": "Le mont Ventoux",
+              "le-mont-faron": "Le mont Faron",
+              "la-montagne-de-lure": "La montagne de Lure",
+              "le-luberon": "Le Luberon"
+            }
+          },
+          "flamants": {
+            "prompt": "Quel grand échassier rose vit dans les étangs de Camargue ?",
+            "hint": "Il se nourrit la tête à l'envers, et se tient souvent sur une patte.",
+            "anecdote": "Sa couleur vient des petits crustacés dont il se nourrit.",
+            "answers": {
+              "le-flamant": "Le flamant",
+              "la-cigogne": "La cigogne",
+              "le-heron": "Le héron",
+              "la-grue": "La grue"
+            }
+          },
+          "calanque": {
+            "prompt": "Comment appelle-t-on ces criques aux falaises de calcaire, entre Marseille et Cassis ?",
+            "hint": "Un parc national porte leur nom depuis 2012.",
+            "anecdote": "Ces anciennes vallées ont été envahies par la mer après la dernière glaciation.",
+            "answers": {
+              "les-calanques": "Les calanques",
+              "les-fjords": "Les fjords",
+              "les-rias": "Les rias",
+              "les-lagunes": "Les lagunes"
+            }
+          },
+          "mistral": {
+            "prompt": "Quel vent froid et violent descend souvent la vallée du Rhône jusqu'à la mer ?",
+            "hint": "Son nom, en provençal, signifie « le maître ».",
+            "anecdote": "Il chasse les nuages, ce qui contribue au grand ensoleillement de la Provence.",
+            "answers": {
+              "le-mistral": "Le mistral",
+              "la-tramontane": "La tramontane",
+              "l-autan": "L'autan",
+              "le-foehn": "Le foehn"
+            }
+          },
+          "baie-anges": {
+            "prompt": "Quel nom porte la grande baie de Nice ?",
+            "hint": "Ce nom pourrait venir d'un requin plat, autrefois présent dans ses eaux.",
+            "anecdote": "Elle s'étend du cap de Nice jusqu'à Antibes.",
+            "answers": {
+              "la-baie-des-anges": "La baie des Anges",
+              "la-baie-des-citrons": "La baie des Citrons",
+              "la-baie-des-rois": "La baie des Rois",
+              "la-baie-de-la-lune": "La baie de la Lune"
+            }
+          },
+          "saint-tropez": {
+            "prompt": "Quel petit port du Var est devenu célèbre dans le monde entier grâce à Brigitte Bardot, dans les années 1950 ?",
+            "hint": "Son nom est celui d'une tarte à la crème.",
+            "anecdote": "Le film « Et Dieu... créa la femme », sorti en 1956, y a été tourné. Des peintres, comme Paul Signac, avaient déjà découvert ce port."
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs de Provence-Alpes-Côte d'Azur",
+          "description": "Soupe de poissons marseillaise, cuisine niçoise, huile d'olive, vins du soleil et douceurs de Noël.",
+          "bouillabaisse": {
+            "prompt": "Quelle soupe de poissons de roche, née à Marseille, se sert avec de la rouille et des croûtons ?",
+            "hint": "Son nom provençal évoquerait une cuisson à gros bouillons, puis à feu baissé.",
+            "anecdote": "Ce plat de pêcheurs servait à utiliser les poissons invendus. Il a depuis gagné les grandes tables.",
+            "answers": {
+              "la-bouillabaisse": "La bouillabaisse",
+              "la-bourride": "La bourride",
+              "l-aigo-boulido": "L'aïgo boulido",
+              "la-soupe-au-pistou": "La soupe au pistou"
+            }
+          },
+          "aioli": {
+            "prompt": "Quelle sauce à l'ail et à l'huile d'olive donne son nom à un grand repas de morue et de légumes ?",
+            "hint": "Son nom réunit l'ail et l'huile en provençal.",
+            "anecdote": "Frédéric Mistral a fondé en 1891 un journal qui portait ce nom.",
+            "answers": {
+              "l-aioli": "L'aïoli",
+              "la-rouille": "La rouille",
+              "l-anchoiade": "L'anchoïade",
+              "la-tapenade": "La tapenade"
+            }
+          },
+          "ratatouille": {
+            "prompt": "Quel plat de Nice réunit des aubergines, des courgettes, des poivrons et des tomates ?",
+            "hint": "Un film d'animation de 2007, avec un rat cuisinier, porte son nom.",
+            "anecdote": "Ce mijoté de légumes d'été se mange aussi bien chaud que froid.",
+            "answers": {
+              "la-ratatouille": "La ratatouille",
+              "la-piperade": "La piperade",
+              "la-caponata": "La caponata",
+              "le-pistou": "Le pistou"
+            }
+          },
+          "salade": {
+            "prompt": "Quelle salade composée de tomates, d'anchois, d'œufs et d'olives noires porte le nom d'une grande ville de la Côte d'Azur ?",
+            "hint": "Cette ville est la préfecture des Alpes-Maritimes.",
+            "anecdote": "Les puristes y refusent les légumes cuits et la vinaigrette trop riche.",
+            "answers": {
+              "la-salade-nicoise": "La salade niçoise",
+              "la-salade-cannoise": "La salade cannoise",
+              "la-salade-toulonnaise": "La salade toulonnaise",
+              "la-salade-antiboise": "La salade antiboise"
+            }
+          },
+          "tapenade": {
+            "prompt": "Quelle préparation à base d'olives, de câpres et d'anchois se tartine à l'apéritif ?",
+            "hint": "Son nom vient du mot provençal qui désigne la câpre.",
+            "anecdote": "Sa recette moderne a été popularisée à la fin du XIXe siècle par un cuisinier marseillais.",
+            "answers": {
+              "la-tapenade": "La tapenade",
+              "l-anchoiade": "L'anchoïade",
+              "la-rouille": "La rouille",
+              "la-brandade": "La brandade"
+            }
+          },
+          "socca": {
+            "prompt": "Quelle fine galette à la farine de pois chiches se mange brûlante dans les rues de Nice ?",
+            "hint": "Elle cuit au four sur une grande plaque ronde en cuivre.",
+            "anecdote": "Sa cousine de la côte ligure s'appelle la farinata.",
+            "answers": {
+              "la-socca": "La socca",
+              "la-panisse": "La panisse",
+              "la-pissaladiere": "La pissaladière",
+              "la-fougasse": "La fougasse"
+            }
+          },
+          "pissaladiere": {
+            "prompt": "Quelle tarte niçoise est garnie d'oignons confits, d'anchois et d'olives noires ?",
+            "hint": "Son nom rappelle une préparation de petits poissons salés.",
+            "anecdote": "Cette préparation, à base d'alevins, se tartinait autrefois sur la pâte avant la cuisson.",
+            "answers": {
+              "la-pissaladiere": "La pissaladière",
+              "la-socca": "La socca",
+              "la-tourte-de-blettes": "La tourte de blettes",
+              "la-quiche": "La quiche"
+            }
+          },
+          "tourte-blettes": {
+            "prompt": "Quelle tourte niçoise, garnie de légumes verts, se déguste sucrée, avec des raisins et des pignons ?",
+            "hint": "Le légume vert utilisé ressemble à de grandes feuilles d'épinard.",
+            "anecdote": "Elle est aussi servie salée à Nice, où on l'appelle tourta de bléa.",
+            "answers": {
+              "la-tourte-de-blettes": "La tourte de blettes",
+              "la-tarte-aux-pignons": "La tarte aux pignons",
+              "la-fougasse": "La fougasse",
+              "la-tarte-tropezienne": "La tarte tropézienne"
+            }
+          },
+          "pistou": {
+            "prompt": "Quelle soupe de légumes d'été est relevée au dernier moment d'un mélange de basilic, d'ail et d'huile d'olive ?",
+            "hint": "Le mélange a un proche cousin génois, le pesto.",
+            "anecdote": "Le mot provençal qui désigne ce mélange évoque l'action de piler, au mortier.",
+            "answers": {
+              "la-soupe-au-pistou": "La soupe au pistou",
+              "la-bouillabaisse": "La bouillabaisse",
+              "la-garbure": "La garbure",
+              "la-bourride": "La bourride"
+            }
+          },
+          "daube": {
+            "prompt": "Quel plat de bœuf, mariné au vin rouge et mijoté de longues heures, est un classique de Provence ?",
+            "hint": "Il cuit longuement dans un récipient ventru en terre ou en cuivre.",
+            "anecdote": "À Nice, son jus sert aussi à accommoder les raviolis.",
+            "answers": {
+              "la-daube": "La daube",
+              "le-boeuf-bourguignon": "Le bœuf bourguignon",
+              "la-carbonade": "La carbonade",
+              "le-pot-au-feu": "Le pot-au-feu"
+            }
+          },
+          "gardiane": {
+            "prompt": "Quel plat mijoté de viande de taureau est une spécialité de la Camargue ?",
+            "hint": "Son nom rappelle les cavaliers qui surveillent les troupeaux.",
+            "anecdote": "On le sert traditionnellement avec du riz de Camargue. La viande de taureau y bénéficie d'une AOP.",
+            "answers": {
+              "la-gardiane": "La gardiane",
+              "le-navarin": "Le navarin",
+              "le-civet": "Le civet",
+              "la-blanquette": "La blanquette"
+            }
+          },
+          "pieds-paquets": {
+            "prompt": "Quelle spécialité de Marseille et de Sisteron associe des tripes d'agneau farcies aux pattes de l'animal ?",
+            "hint": "Les tripes sont roulées en petits baluchons.",
+            "anecdote": "Ce plat mijote plusieurs heures avec du vin blanc et de la tomate.",
+            "answers": {
+              "les-pieds-paquets": "Les pieds-paquets",
+              "le-tablier-de-sapeur": "Le tablier de sapeur",
+              "les-tripoux": "Les tripoux",
+              "l-andouillette": "L'andouillette"
+            }
+          },
+          "panisse": {
+            "prompt": "Quelle friture à la farine de pois chiches est la spécialité du quartier de l'Estaque, à Marseille ?",
+            "hint": "Un personnage de la trilogie marseillaise de Marcel Pagnol porte ce nom.",
+            "anecdote": "Ces bâtonnets frits se mangent chauds, sur le pouce, comme des frites.",
+            "answers": {
+              "la-panisse": "La panisse",
+              "la-socca": "La socca",
+              "le-beignet-de-fleur": "Le beignet de fleur",
+              "la-navette": "La navette"
+            }
+          },
+          "olivier": {
+            "prompt": "Quel arbre au tronc noueux et au feuillage argenté est l'emblème des paysages de Provence ?",
+            "hint": "Son fruit donne une huile.",
+            "anecdote": "Il peut vivre plusieurs siècles. Sa culture aurait été diffusée en Provence par les Grecs de Marseille.",
+            "answers": {
+              "l-olivier": "L'olivier",
+              "le-figuier": "Le figuier",
+              "le-chene-vert": "Le chêne vert",
+              "l-amandier": "L'amandier"
+            }
+          },
+          "melon": {
+            "prompt": "De quelle ville du Vaucluse ce fruit à la chair orangée est-il la grande spécialité ?",
+            "hint": "Son nom commence comme celui d'un cavalier.",
+            "anecdote": "En 1864, Alexandre Dumas a offert ses livres à la bibliothèque de la ville, en échange d'une rente de douze de ces fruits par an."
+          },
+          "citron": {
+            "prompt": "Quel agrume bénéficie d'une indication géographique protégée à Menton ?",
+            "hint": "Il est jaune, et sa saveur est acide.",
+            "anecdote": "Son climat doux, presque sans gel, explique cette culture sur les terrasses de la ville.",
+            "answers": {
+              "le-citron": "Le citron",
+              "l-orange": "L'orange",
+              "la-mandarine": "La mandarine",
+              "le-pamplemousse": "Le pamplemousse"
+            }
+          },
+          "herbes": {
+            "prompt": "Quel mélange de plantes séchées, dont le thym et le romarin, parfume les grillades du Midi ?",
+            "hint": "Il porte le nom de l'ancienne province de la région.",
+            "anecdote": "Sa composition est encadrée par un Label rouge depuis 2003.",
+            "answers": {
+              "les-herbes-de-provence": "Les herbes de Provence",
+              "le-bouquet-garni": "Le bouquet garni",
+              "le-ras-el-hanout": "Le ras el-hanout",
+              "les-fines-herbes": "Les fines herbes"
+            }
+          },
+          "truffe": {
+            "prompt": "Quel champignon souterrain fait la renommée du marché de Richerenches, dans le Vaucluse ?",
+            "hint": "On le cherche avec un chien, ou parfois un cochon.",
+            "anecdote": "Le Vaucluse et le nord de la Provence fournissent une grande part de la production française de cette variété noire.",
+            "answers": {
+              "la-truffe": "La truffe",
+              "le-cepe": "Le cèpe",
+              "la-morille": "La morille",
+              "la-girolle": "La girolle"
+            }
+          },
+          "banon": {
+            "prompt": "Quel fromage de chèvre AOP est enveloppé de feuilles de châtaignier nouées avec du raphia ?",
+            "hint": "Il porte le nom d'un village des Alpes-de-Haute-Provence.",
+            "anecdote": "Ce fromage a obtenu son appellation d'origine en 2003. Les feuilles lui donnent un goût particulier.",
+            "answers": {
+              "le-banon": "Le banon",
+              "le-picodon": "Le picodon",
+              "le-pelardon": "Le pélardon",
+              "le-rocamadour": "Le rocamadour"
+            }
+          },
+          "brousse": {
+            "prompt": "Quel fromage frais de chèvre, moulé dans de petits cornets, porte une AOP au nom de la commune du Rove ?",
+            "hint": "Son nom désigne aussi une végétation d'Afrique.",
+            "anecdote": "Elle était autrefois vendue dans les rues de Marseille. Elle a obtenu son appellation d'origine en 2018.",
+            "answers": {
+              "la-brousse": "La brousse",
+              "la-faisselle": "La faisselle",
+              "la-tomme": "La tomme",
+              "la-caillade": "La caillade"
+            }
+          },
+          "riz": {
+            "prompt": "Quelle céréale est cultivée dans les terres inondées de Camargue ?",
+            "hint": "C'est la base de la paella et du risotto.",
+            "anecdote": "Sa culture s'est développée après la Seconde Guerre mondiale. Elle aide à dessaler les sols.",
+            "answers": {
+              "le-riz": "Le riz",
+              "le-ble": "Le blé",
+              "le-mais": "Le maïs",
+              "l-orge": "L'orge"
+            }
+          },
+          "cailletier": {
+            "prompt": "Quelle variété d'arbre donne les petites olives noires de Nice, en AOP ?",
+            "hint": "Son nom rappelle un petit oiseau de la famille de la perdrix.",
+            "anecdote": "Cette variété donne aussi une huile à l'appellation protégée.",
+            "answers": {
+              "le-cailletier": "Le cailletier",
+              "la-picholine": "La picholine",
+              "la-lucques": "La lucques",
+              "la-tanche": "La tanche"
+            }
+          },
+          "carte-figue": {
+            "prompt": "Touchez le département de Solliès-Pont, grande ville de la figue.",
+            "hint": "Il occupe le centre du littoral, sans toucher l'Italie.",
+            "anecdote": "Solliès-Pont se trouve près de Toulon. La figue de Solliès est protégée par une appellation d'origine depuis 2006."
+          },
+          "poutargue": {
+            "prompt": "Quelle spécialité de Martigues est préparée à partir d'œufs de mulet, salés et séchés ?",
+            "hint": "On la surnomme parfois le caviar de Martigues.",
+            "anecdote": "La poche d'œufs est enrobée de cire, pour la conserver.",
+            "answers": {
+              "la-poutargue": "La poutargue",
+              "l-anchoiade": "L'anchoïade",
+              "l-oursinade": "L'oursinade",
+              "la-rouille": "La rouille"
+            }
+          },
+          "pastis": {
+            "prompt": "Quelle boisson anisée, liée à Marseille, se trouble quand on y ajoute de l'eau ?",
+            "hint": "Son nom viendrait d'un mot provençal signifiant « mélange ».",
+            "anecdote": "Paul Ricard a lancé sa marque à Marseille en 1932, une dizaine d'années après l'autorisation des boissons anisées.",
+            "answers": {
+              "le-pastis": "Le pastis",
+              "le-genepi": "Le génépi",
+              "la-chartreuse": "La chartreuse",
+              "le-muscat": "Le muscat"
+            }
+          },
+          "rose": {
+            "prompt": "Quelle couleur de vin domine très largement les Côtes de Provence ?",
+            "hint": "Ce vin se boit très frais, souvent l'été, à l'apéritif.",
+            "anecdote": "Ce type de vin représente environ neuf bouteilles sur dix de l'appellation.",
+            "answers": {
+              "le-rose": "Le rosé",
+              "le-rouge": "Le rouge",
+              "le-blanc": "Le blanc",
+              "le-jaune": "Le jaune"
+            }
+          },
+          "chateauneuf": {
+            "prompt": "Quelle appellation du Vaucluse, plantée sur des galets roulés, porte le nom d'une résidence des papes ?",
+            "hint": "Sa bouteille porte souvent les armoiries papales.",
+            "anecdote": "En 1936, c'est l'une des toutes premières appellations d'origine contrôlée reconnues en France.",
+            "answers": {
+              "chateauneuf-du-pape": "Châteauneuf-du-Pape",
+              "gigondas": "Gigondas",
+              "vacqueyras": "Vacqueyras"
+            }
+          },
+          "bandol": {
+            "prompt": "Quelle appellation du Var produit de grands rouges, principalement à partir du cépage mourvèdre ?",
+            "hint": "Elle porte le nom d'une station balnéaire, entre Toulon et La Ciotat.",
+            "anecdote": "Ce cépage aime avoir, dit-on, la tête au soleil et les pieds près de la mer.",
+            "answers": {
+              "bellet": "Bellet",
+              "palette": "Palette"
+            }
+          },
+          "bellet": {
+            "prompt": "Quelle petite appellation viticole se trouve sur les collines de Nice ?",
+            "hint": "Son nom ressemble au mot italien pour « beau ».",
+            "anecdote": "C'est l'un des rares vignobles français situés sur le territoire d'une grande ville.",
+            "answers": {
+              "bellet": "Bellet",
+              "palette": "Palette",
+              "gigondas": "Gigondas"
+            }
+          },
+          "gigondas": {
+            "prompt": "Quelle appellation de vin rouge est produite au pied des Dentelles de Montmirail ?",
+            "hint": "Son vignoble s'étage en terrasses, autour d'un village du Vaucluse.",
+            "anecdote": "Ce cru des Côtes du Rhône est reconnu comme appellation à part entière depuis 1971.",
+            "answers": {
+              "gigondas": "Gigondas",
+              "palette": "Palette"
+            }
+          },
+          "carte-beaumes": {
+            "prompt": "Touchez le département de Beaumes-de-Venise, connue pour son muscat.",
+            "hint": "Il borde le Rhône, au nord-ouest de la région, sans aucun accès à la mer.",
+            "anecdote": "Ce vin doux naturel se sert à l'apéritif ou au dessert."
+          },
+          "calisson": {
+            "prompt": "Quelle confiserie en forme de losange, à l'amande et au melon confit, est la spécialité d'Aix-en-Provence ?",
+            "hint": "Elle est recouverte d'un glaçage blanc, sur une feuille d'hostie.",
+            "anecdote": "La légende la fait naître au XVe siècle, pour faire sourire la reine Jeanne de Laval, épouse du roi René.",
+            "answers": {
+              "le-calisson": "Le calisson",
+              "le-nougat": "Le nougat",
+              "le-berlingot": "Le berlingot",
+              "la-navette": "La navette"
+            }
+          },
+          "tropezienne": {
+            "prompt": "Quelle brioche garnie de crème, créée dans le Var en 1955, a été baptisée par Brigitte Bardot, selon la légende ?",
+            "hint": "Son nom évoque un célèbre port du golfe voisin.",
+            "anecdote": "Le pâtissier Alexandre Micka a régalé l'équipe du film « Et Dieu... créa la femme », tourné dans la ville.",
+            "answers": {
+              "la-tarte-tropezienne": "La tarte tropézienne",
+              "la-pompe-a-l-huile": "La pompe à l'huile",
+              "la-navette": "La navette",
+              "le-gibassier": "Le gibassier"
+            }
+          },
+          "navette": {
+            "prompt": "Quel biscuit en forme de barque, parfumé à la fleur d'oranger, est une spécialité de Marseille ?",
+            "hint": "Sa forme évoque aussi l'instrument de tissage qui porte le même nom.",
+            "anecdote": "Le four qui les produit depuis 1781, près de l'abbaye Saint-Victor, est une institution. Elles sont bénies à la Chandeleur.",
+            "answers": {
+              "la-navette": "La navette",
+              "le-calisson": "Le calisson",
+              "le-canistrelli": "Le canistrelli",
+              "la-pompe-a-l-huile": "La pompe à l'huile"
+            }
+          },
+          "fruits-confits": {
+            "prompt": "Quelle ville du Vaucluse se présente comme la capitale mondiale du fruit confit ?",
+            "hint": "Elle se trouve au pied du Luberon, sur les bords du Calavon.",
+            "anecdote": "Cette tradition y est attestée depuis le Moyen Âge, et les papes d'Avignon en étaient friands."
+          },
+          "berlingot": {
+            "prompt": "Quel petit bonbon rayé, en forme de tétraèdre, est une spécialité de Carpentras ?",
+            "hint": "Il ne faut pas le confondre avec un emballage de lait de la même forme.",
+            "anecdote": "On le prépare, selon la tradition, avec le sirop de cuisson des fruits confits.",
+            "answers": {
+              "le-berlingot": "Le berlingot",
+              "le-calisson": "Le calisson",
+              "le-nougat": "Le nougat",
+              "la-betise": "La bêtise"
+            }
+          },
+          "nougat": {
+            "prompt": "Quelle confiserie au miel et aux amandes, noire ou blanche, figure parmi les treize desserts de Noël ?",
+            "hint": "La ville de Montélimar l'a rendue célèbre, en dehors de la région.",
+            "anecdote": "À Sault, dans le Vaucluse, elle se prépare traditionnellement avec du miel de lavande.",
+            "answers": {
+              "le-nougat": "Le nougat",
+              "le-calisson": "Le calisson",
+              "la-pate-de-coing": "La pâte de coing",
+              "la-fougasse": "La fougasse"
+            }
+          },
+          "chichi": {
+            "prompt": "Quel long beignet parfumé à la fleur d'oranger se déguste sur le port de l'Estaque ?",
+            "hint": "Son nom sonne comme une petite manière, faite de minauderies.",
+            "anecdote": "Il se vend en cornet, encore chaud, et saupoudré de sucre.",
+            "answers": {
+              "le-chichi-fregi": "Le chichi frégi",
+              "la-bugne": "La bugne",
+              "l-oreillette": "L'oreillette",
+              "la-merveille": "La merveille"
+            }
+          },
+          "pompe": {
+            "prompt": "Quelle brioche plate, à l'huile d'olive, ne doit pas être coupée au couteau lors des treize desserts ?",
+            "hint": "Son nom évoque un outil qui sert à tirer de l'eau.",
+            "anecdote": "On la rompt à la main, en souvenir du partage du pain, sous peine de ruine pour l'année.",
+            "answers": {
+              "la-pompe-a-l-huile": "La pompe à l'huile",
+              "la-navette": "La navette",
+              "le-calisson": "Le calisson",
+              "la-tarte-tropezienne": "La tarte tropézienne"
+            }
+          },
+          "carte-violette": {
+            "prompt": "Touchez le département de Tourrettes-sur-Loup, cité de la violette cristallisée.",
+            "hint": "C'est le département le plus à l'est, le long de la frontière italienne.",
+            "anecdote": "Cette fleur y est la grande culture depuis la fin du XIXe siècle, et sert aussi à la parfumerie de Grasse."
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Ruines romaines, abbayes cisterciennes, citadelles de Vauban, palaces de la Riviera et villages perchés.",
+          "longchamp": {
+            "prompt": "Quel grand ouvrage hydraulique ce palais marseillais, avec ses cascades, célèbre-t-il ?",
+            "hint": "Il a amené à la ville, au XIXe siècle, les eaux de la Durance.",
+            "anecdote": "Bâti sous le Second Empire, ce palais de Longchamp abrite aussi le musée des Beaux-Arts et le muséum d'histoire naturelle.",
+            "answers": {
+              "le-canal-de-marseille": "Le canal de Marseille",
+              "le-canal-du-midi": "Le canal du Midi",
+              "le-pont-du-gard": "Le pont du Gard",
+              "le-canal-de-provence": "Le canal de Provence"
+            }
+          },
+          "if": {
+            "prompt": "Quel héros d'Alexandre Dumas est emprisonné dans cette forteresse, au large de Marseille ?",
+            "hint": "Il s'en évade après quatorze années, pour devenir comte de Monte-Cristo.",
+            "anecdote": "Le château d'If a été bâti sous François Ier, puis utilisé comme prison.",
+            "answers": {
+              "edmond-dantes": "Edmond Dantès",
+              "d-artagnan": "D'Artagnan",
+              "jean-valjean": "Jean Valjean",
+              "julien-sorel": "Julien Sorel"
+            }
+          },
+          "charite": {
+            "prompt": "Quel architecte et sculpteur marseillais a dessiné cet ancien hospice du quartier du Panier ?",
+            "hint": "Il a aussi travaillé à la décoration des navires de l'arsenal de Toulon.",
+            "anecdote": "La Vieille Charité accueillait les pauvres et les mendiants de la ville. Elle abrite aujourd'hui des musées.",
+            "answers": {
+              "pierre-puget": "Pierre Puget",
+              "jules-hardouin-mansart": "Jules Hardouin-Mansart",
+              "vauban": "Vauban",
+              "andre-le-notre": "André Le Nôtre"
+            }
+          },
+          "pont-avignon": {
+            "prompt": "Quel est le nom officiel de ce pont de la chanson, dont il ne reste que quatre arches ?",
+            "hint": "Il porte le nom d'un jeune berger qui, selon la légende, l'aurait fait construire.",
+            "anecdote": "Il a été emporté à plusieurs reprises par les crues du Rhône, puis abandonné au XVIIe siècle.",
+            "answers": {
+              "le-pont-saint-benezet": "Le pont Saint-Bénézet",
+              "le-pont-valentre": "Le pont Valentré",
+              "le-pont-neuf": "Le pont Neuf",
+              "le-pont-du-gard": "Le pont du Gard"
+            }
+          },
+          "theatre": {
+            "prompt": "Quelle partie de ce théâtre romain d'Orange Louis XIV appelait-il « la plus belle muraille de mon royaume » ?",
+            "hint": "Elle ferme le théâtre, derrière les acteurs, face aux gradins.",
+            "anecdote": "Ce mur de 37 mètres, dont Louis XIV admirait la façade extérieure, reste très bien conservé. Le site accueille chaque été un festival d'opéra, les Chorégies.",
+            "answers": {
+              "le-mur-de-scene": "Le mur de scène",
+              "l-enceinte-de-la-ville": "L'enceinte de la ville",
+              "l-arene": "L'arène",
+              "le-mur-du-fond-des-gradins": "Le mur du fond des gradins"
+            }
+          },
+          "alyscamps": {
+            "prompt": "Comment s'appelle cette allée de sarcophages d'Arles, ancienne nécropole romaine et chrétienne ?",
+            "hint": "Son nom provençal évoque les champs Élysées.",
+            "anecdote": "Van Gogh et Gauguin y ont peint côte à côte, à l'automne 1888.",
+            "answers": {
+              "les-alyscamps": "Les Alyscamps",
+              "les-catacombes": "Les Catacombes",
+              "les-cryptoportiques": "Les Cryptoportiques",
+              "les-thermes": "Les Thermes"
+            }
+          },
+          "senanque": {
+            "prompt": "Quel ordre religieux a fondé cette abbaye de Sénanque, entourée de champs violets, au XIIe siècle ?",
+            "hint": "Saint Bernard de Clairvaux en est la grande figure.",
+            "anecdote": "Une communauté monastique y vit encore aujourd'hui.",
+            "answers": {
+              "les-cisterciens": "Les cisterciens",
+              "les-chartreux": "Les chartreux",
+              "les-dominicains": "Les dominicains",
+              "les-jesuites": "Les jésuites"
+            }
+          },
+          "thoronet": {
+            "prompt": "Quelle abbaye du Var forme, avec Sénanque et Silvacane, les « trois sœurs provençales » ?",
+            "hint": "Elle se trouve dans le centre du département, entre Brignoles et Draguignan.",
+            "anecdote": "L'architecte Le Corbusier est venu l'étudier, dans les années 1950, avant de bâtir le couvent de La Tourette.",
+            "answers": {
+              "montmajour": "Montmajour",
+              "lerins": "Lérins",
+              "ganagobie": "Ganagobie"
+            }
+          },
+          "carte-silvacane": {
+            "prompt": "Touchez le département de l'abbaye de Silvacane, à La Roque-d'Anthéron.",
+            "hint": "Il s'étend à l'ouest du littoral, jusqu'à l'embouchure du Rhône.",
+            "anecdote": "La Roque-d'Anthéron accueille aussi un grand festival international de piano."
+          },
+          "sisteron": {
+            "prompt": "Quelle rivière coule au pied de cette citadelle de Sisteron ?",
+            "hint": "Elle naît près de Briançon, et rejoint le Rhône près d'Avignon.",
+            "anecdote": "La ville garde une étroite cluse, entre le Dauphiné et la Provence. Un bombardement allié l'a touchée en 1944.",
+            "answers": {
+              "la-durance": "La Durance",
+              "le-verdon": "Le Verdon",
+              "le-var": "Le Var",
+              "l-ubaye": "L'Ubaye"
+            }
+          },
+          "mont-dauphin": {
+            "prompt": "Quel ingénieur de Louis XIV a conçu cette place forte des Hautes-Alpes ?",
+            "hint": "Son nom est attaché à une douzaine de sites inscrits au patrimoine mondial.",
+            "anecdote": "Mont-Dauphin et Briançon figurent sur la liste de ces fortifications, inscrites en 2008.",
+            "answers": {
+              "vauban": "Vauban",
+              "louvois": "Louvois",
+              "colbert": "Colbert",
+              "sere-de-rivieres": "Séré de Rivières"
+            }
+          },
+          "negresco": {
+            "prompt": "Comment s'appelle ce palace niçois de la Promenade des Anglais, à la coupole rose ?",
+            "hint": "Il doit son nom à son fondateur, un Roumain.",
+            "anecdote": "Il a ouvert ses portes en 1913. Sa verrière centrale est attribuée aux ateliers de Gustave Eiffel.",
+            "answers": {
+              "le-negresco": "Le Negresco",
+              "le-carlton": "Le Carlton",
+              "le-martinez": "Le Martinez",
+              "le-ritz": "Le Ritz"
+            }
+          },
+          "carlton": {
+            "prompt": "Sur quelle célèbre promenade de Cannes se dresse ce grand hôtel aux coupoles ?",
+            "hint": "Son nom évoque une petite croix.",
+            "anecdote": "Le Carlton a été inauguré en 1911. On dit que ses deux coupoles rappellent la poitrine d'une belle danseuse de l'époque.",
+            "answers": {
+              "la-croisette": "La Croisette",
+              "la-promenade-des-anglais": "La Promenade des Anglais",
+              "les-allees-de-la-liberte": "Les Allées de la Liberté",
+              "la-canebiere": "La Canebière"
+            }
+          },
+          "ephrussi": {
+            "prompt": "De quelle grande famille de banquiers était issue Béatrice Ephrussi, qui a fait bâtir cette villa rose de Saint-Jean-Cap-Ferrat ?",
+            "hint": "Le nom de cette famille est lié au château de Ferrières.",
+            "anecdote": "Elle l'a léguée à l'Académie des beaux-arts en 1934, avec ses collections et ses jardins.",
+            "answers": {
+              "les-rothschild": "Les Rothschild",
+              "les-rockefeller": "Les Rockefeller",
+              "les-medicis": "Les Médicis",
+              "les-grimaldi": "Les Grimaldi"
+            }
+          },
+          "kerylos": {
+            "prompt": "Quelle civilisation antique cette villa de Beaulieu-sur-Mer reconstitue-t-elle ?",
+            "hint": "Son commanditaire, Théodore Reinach, était un savant archéologue et un mécène.",
+            "anecdote": "Elle a été construite au début du XXe siècle par l'architecte Emmanuel Pontremoli.",
+            "answers": {
+              "la-grece-antique": "La Grèce antique",
+              "l-egypte-ancienne": "L'Égypte ancienne",
+              "l-empire-romain": "L'Empire romain",
+              "la-perse-antique": "La Perse antique"
+            }
+          },
+          "saint-nicolas": {
+            "prompt": "Quelle communauté a fait bâtir à Nice cette grande cathédrale aux coupoles à bulbes ?",
+            "hint": "Le tsar Nicolas II a soutenu ce chantier.",
+            "anecdote": "Consacrée en 1912, elle est souvent présentée comme la plus grande église orthodoxe russe d'Europe occidentale.",
+            "answers": {
+              "la-communaute-russe": "La communauté russe",
+              "la-communaute-grecque": "La communauté grecque",
+              "la-communaute-armenienne": "La communauté arménienne",
+              "la-communaute-anglaise": "La communauté anglaise"
+            }
+          },
+          "baux": {
+            "prompt": "Quel minerai a été nommé d'après ce village perché des Alpilles, où il a été découvert ?",
+            "hint": "Il sert à fabriquer l'aluminium.",
+            "anecdote": "C'est en 1821 que le chimiste Pierre Berthier l'y a identifié.",
+            "answers": {
+              "la-bauxite": "La bauxite",
+              "l-ocre": "L'ocre",
+              "le-gypse": "Le gypse",
+              "l-ardoise": "L'ardoise"
+            }
+          },
+          "gordes": {
+            "prompt": "Quel village du Luberon s'étage ainsi autour de son château, sur une falaise ?",
+            "hint": "Il se trouve sur le flanc du plateau de Vaucluse, face à la montagne qui donne son nom au parc naturel.",
+            "anecdote": "Le peintre Victor Vasarely, qui découvre le village en 1948, a fait du château un musée de 1970 à 1996.",
+            "answers": {
+              "menerbes": "Ménerbes",
+              "lacoste": "Lacoste"
+            }
+          },
+          "roussillon": {
+            "prompt": "Quel pigment naturel donne leurs couleurs aux falaises et aux maisons de ce village du Vaucluse ?",
+            "hint": "Sa couleur va du jaune au rouge.",
+            "anecdote": "Un sentier parcourt d'anciennes carrières, dans des paysages de falaises flamboyantes.",
+            "answers": {
+              "l-ocre": "L'ocre",
+              "la-garance": "La garance",
+              "l-indigo": "L'indigo",
+              "le-pastel": "Le pastel"
+            }
+          },
+          "moustiers": {
+            "prompt": "Quel objet est suspendu à une chaîne, entre les deux falaises de ce village de Haute-Provence ?",
+            "hint": "On la voit la nuit dans le ciel.",
+            "anecdote": "Selon la tradition, un chevalier de retour de croisade, le baron de Blacas, aurait fait ce vœu.",
+            "answers": {
+              "une-etoile": "Une étoile",
+              "une-cloche": "Une cloche",
+              "une-croix": "Une croix",
+              "une-lanterne": "Une lanterne"
+            }
+          },
+          "briancon": {
+            "prompt": "Quelle cité fortifiée, à plus de 1 300 mètres d'altitude, garde la route de l'Italie ?",
+            "hint": "Cette ville des Hautes-Alpes se trouve au pied du col de Montgenèvre.",
+            "anecdote": "La cité haute, fortifiée par Vauban, a de longues rues pentues et un petit canal central, la Grande Gargouille."
+          },
+          "saint-veran": {
+            "prompt": "Quel village du Queyras, à plus de 2 000 mètres, se présente comme la plus haute commune d'Europe ?",
+            "hint": "Un observatoire astronomique se dresse au-dessus du village, sous le pic de Château-Renard.",
+            "anecdote": "On dit de ce village, avec ses cadrans solaires et ses fustes de bois, que le coq y picore les étoiles.",
+            "answers": {
+              "abries": "Abriès",
+              "molines-en-queyras": "Molines-en-Queyras",
+              "ceillac": "Ceillac"
+            }
+          },
+          "barcelonnette": {
+            "prompt": "Vers quel pays les habitants de la vallée de Barcelonnette ont-ils émigré, avant de bâtir ces riches villas à leur retour ?",
+            "hint": "Sa capitale fut longtemps le plus grand marché pour leur commerce de tissus.",
+            "anecdote": "Partis dès 1805 vers la Louisiane, puis installés au Mexique vers 1820, ils y ont fondé des magasins de textile, et même de grandes manufactures.",
+            "answers": {
+              "le-mexique": "Le Mexique",
+              "le-bresil": "Le Brésil",
+              "l-argentine": "L'Argentine",
+              "le-canada": "Le Canada"
+            }
+          },
+          "carte-embrun": {
+            "prompt": "Touchez le département d'Embrun, au bord du lac de Serre-Ponçon.",
+            "hint": "C'est le département le plus au nord de la région.",
+            "anecdote": "La ville fut le siège d'un archevêché. Sa cathédrale Notre-Dame-du-Réal mêle pierres noires et blanches."
+          },
+          "saleya": {
+            "prompt": "Quel est le nom de ce marché aux fleurs et aux légumes, au cœur du Vieux-Nice ?",
+            "hint": "Il se trouve entre la vieille ville et la mer, à deux pas de la Promenade des Anglais.",
+            "anecdote": "Ce lieu de promenade des hivernants, au XIXe siècle, reste l'un des grands rendez-vous de la ville.",
+            "answers": {
+              "le-cours-saleya": "Le cours Saleya",
+              "le-marche-de-cimiez": "Le marché de Cimiez",
+              "la-place-massena": "La place Masséna",
+              "le-port-lympia": "Le port Lympia"
+            }
+          },
+          "menton": {
+            "prompt": "Quelle ville, tout contre l'Italie, s'étage ainsi autour de sa basilique baroque ?",
+            "hint": "Son nom est aussi une partie du visage.",
+            "anecdote": "Le poète Jean Cocteau y a décoré la salle des mariages, et un musée lui est consacré."
+          },
+          "fort-carre": {
+            "prompt": "Quelle ville de la Côte d'Azur garde l'entrée de son port avec ce fort en forme d'étoile ?",
+            "hint": "Elle a été fondée par les Grecs, sous le nom d'Antipolis.",
+            "anecdote": "Le général Bonaparte, soupçonné d'être trop proche de Robespierre, y a été détenu quelques jours en 1794."
+          },
+          "lerins": {
+            "prompt": "Quel archipel, au large de Cannes, abrite cette abbaye encore habitée par des moines ?",
+            "hint": "Il compte deux îles principales, Sainte-Marguerite et Saint-Honorat.",
+            "anecdote": "Les moines de Saint-Honorat y produisent du vin. Sur l'île voisine, le Masque de fer a été emprisonné.",
+            "answers": {
+              "les-iles-de-lerins": "Les îles de Lérins",
+              "les-iles-d-hyeres": "Les îles d'Hyères",
+              "les-iles-du-frioul": "Les îles du Frioul",
+              "les-iles-des-embiez": "Les îles des Embiez"
+            }
+          },
+          "carte-lerins": {
+            "prompt": "Touchez le département de l'île Saint-Honorat, où des moines se sont établis dès l'Antiquité.",
+            "hint": "C'est le département le plus à l'est, le long de la frontière italienne.",
+            "anecdote": "L'île se trouve à quelques minutes de bateau de Cannes."
+          },
+          "frejus": {
+            "prompt": "Quelle ville romaine du Var a gardé cet amphithéâtre, ainsi qu'un groupe épiscopal médiéval ?",
+            "hint": "Son nom antique était Forum Julii.",
+            "anecdote": "Le port de cette cité a accueilli, sous Auguste, la flotte de guerre romaine."
+          },
+          "mirabeau": {
+            "prompt": "Comment s'appelle cette avenue bordée de platanes et d'hôtels particuliers, à Aix-en-Provence ?",
+            "hint": "Elle porte le nom d'un célèbre orateur de la Révolution.",
+            "anecdote": "Tracée au XVIIe siècle, elle compte plusieurs fontaines, dont l'une, couverte de mousse, déverse une eau thermale tiède.",
+            "answers": {
+              "le-cours-mirabeau": "Le cours Mirabeau",
+              "la-canebiere": "La Canebière",
+              "les-allees-provencales": "Les allées Provençales",
+              "le-cours-julien": "Le cours Julien"
+            }
+          },
+          "rotonde": {
+            "prompt": "Dans quelle ville se dresse cette fontaine monumentale de la Rotonde, au bout d'une grande avenue ?",
+            "hint": "Cette ville universitaire a été fondée par les Romains, pour ses sources chaudes.",
+            "anecdote": "Élevée en 1860, elle porte les statues de la Justice, de l'Agriculture et des Beaux-Arts."
+          },
+          "vaison": {
+            "prompt": "Dans quelle ville du Vaucluse ce pont romain franchit-il l'Ouvèze ?",
+            "hint": "Elle garde aussi deux quartiers antiques fouillés, avec de riches maisons.",
+            "anecdote": "Ce pont d'une seule arche a résisté à la terrible crue de septembre 1992, qui a fait de nombreuses victimes."
+          },
+          "glanum": {
+            "prompt": "Près de quelle ville des Alpilles se dressent ces monuments romains des Antiques, à l'entrée de Glanum ?",
+            "hint": "Nostradamus y est né, et Van Gogh y a été soigné.",
+            "anecdote": "Ce mausolée et cet arc figurent parmi les monuments romains les mieux conservés de la Gaule."
+          },
+          "canebiere": {
+            "prompt": "Quelle grande avenue de Marseille débouche sur ce Vieux-Port ?",
+            "hint": "Son nom vient du chanvre, que l'on travaillait autrefois dans ce quartier pour les cordages.",
+            "anecdote": "Selon le dicton marseillais, si Paris avait cette avenue, ce serait un petit Marseille.",
+            "answers": {
+              "la-canebiere": "La Canebière",
+              "le-cours-belsunce": "Le cours Belsunce",
+              "le-prado": "Le Prado",
+              "la-rue-de-la-republique": "La rue de la République"
+            }
+          },
+          "petrarque": {
+            "prompt": "Quel poète italien, amoureux de Laure, a vécu près de cette source du Vaucluse au XIVe siècle ?",
+            "hint": "Il est l'un des pères de l'humanisme.",
+            "anecdote": "Il aurait aussi fait l'ascension du mont Ventoux en 1336, à une époque où ce n'était pas une habitude.",
+            "answers": {
+              "petrarque": "Pétrarque",
+              "dante": "Dante",
+              "boccace": "Boccace",
+              "l-arioste": "L'Arioste"
+            }
+          },
+          "nietzsche": {
+            "prompt": "Quel philosophe allemand a donné son nom au sentier qui monte à ce village perché d'Èze ?",
+            "hint": "Il est l'auteur d'« Ainsi parlait Zarathoustra ».",
+            "anecdote": "Ce sentier raide relie le bord de mer au village, à plus de 400 mètres d'altitude.",
+            "answers": {
+              "nietzsche": "Nietzsche",
+              "kant": "Kant",
+              "hegel": "Hegel",
+              "schopenhauer": "Schopenhauer"
+            }
+          },
+          "chagall": {
+            "prompt": "Quel peintre né dans l'Empire russe, longtemps installé dans ce village des Alpes-Maritimes, y est enterré ?",
+            "hint": "Un musée national lui est consacré à Nice.",
+            "anecdote": "Le village de Saint-Paul-de-Vence attire, depuis les années 1920, des artistes du monde entier.",
+            "answers": {
+              "marc-chagall": "Marc Chagall",
+              "pablo-picasso": "Pablo Picasso",
+              "henri-matisse": "Henri Matisse",
+              "raoul-dufy": "Raoul Dufy"
+            }
+          },
+          "camus": {
+            "prompt": "Quel écrivain, prix Nobel de littérature, est enterré dans ce village du Luberon ?",
+            "hint": "Il est l'auteur de « L'Étranger » et de « La Peste ».",
+            "anecdote": "Il avait acheté une maison à Lourmarin en 1958, grâce à l'argent de son prix.",
+            "answers": {
+              "albert-camus": "Albert Camus",
+              "jean-giono": "Jean Giono",
+              "marcel-pagnol": "Marcel Pagnol",
+              "rene-char": "René Char"
+            }
+          },
+          "major": {
+            "prompt": "Quel style donne à cette cathédrale de la Major, à Marseille, ses coupoles et ses pierres de deux couleurs ?",
+            "hint": "Son nom associe Rome et l'Empire d'Orient, dont la capitale était Constantinople.",
+            "anecdote": "Construite au XIXe siècle, entre 1852 et 1893, elle compte parmi les plus grandes cathédrales de France.",
+            "answers": {
+              "le-style-romano-byzantin": "Le style romano-byzantin",
+              "le-gothique-flamboyant": "Le gothique flamboyant",
+              "le-baroque": "Le baroque",
+              "l-art-deco": "L'Art déco"
+            }
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Savon de Marseille, santons d'argile, parfums de Grasse, course camarguaise, fêtes de Noël et grands écrivains.",
+          "savon": {
+            "prompt": "Quel produit à l'huile végétale, moulé en cube, a fait la réputation de Marseille ?",
+            "hint": "On s'en sert pour laver le linge, et la peau.",
+            "anecdote": "Un édit de Louis XIV, signé en 1688 par Seignelay, le fils de Colbert, en a réglementé la fabrication.",
+            "answers": {
+              "le-savon": "Le savon",
+              "le-parfum": "Le parfum",
+              "la-bougie": "La bougie",
+              "la-lessive-en-poudre": "La lessive en poudre"
+            }
+          },
+          "savon-72": {
+            "prompt": "Quel pourcentage d'huile est traditionnellement gravé sur les cubes de savon de Marseille ?",
+            "hint": "C'est plus de deux tiers, mais moins de trois quarts.",
+            "anecdote": "Ce chiffre indique la teneur en corps gras d'origine végétale dans la recette traditionnelle.",
+            "answers": {
+              "50": "50 %",
+              "72": "72 %",
+              "85": "85 %",
+              "100": "100 %"
+            }
+          },
+          "santons": {
+            "prompt": "Comment nomme-t-on ces petites figurines d'argile qui garnissent les crèches de Provence ?",
+            "hint": "Leur nom signifie « petits saints » en provençal.",
+            "anecdote": "Autour de la crèche, ils représentent les métiers d'autrefois : meunier, poissonnière, berger.",
+            "answers": {
+              "les-santons": "Les santons",
+              "les-faiences": "Les faïences",
+              "les-automates": "Les automates",
+              "les-tanagras": "Les tanagras"
+            }
+          },
+          "lagnel": {
+            "prompt": "Quel artisan marseillais est considéré comme le créateur des figurines de crèche en argile, à la fin du XVIIIe siècle ?",
+            "hint": "Il a eu l'idée de les couler dans des moules de plâtre, après la fermeture des églises à la Révolution.",
+            "anecdote": "Sa technique a rendu ces figurines abordables pour toutes les familles.",
+            "answers": {
+              "jean-louis-lagnel": "Jean-Louis Lagnel",
+              "marcel-carbonel": "Marcel Carbonel",
+              "paul-fouque": "Paul Fouque",
+              "pierre-puget": "Pierre Puget"
+            }
+          },
+          "faience": {
+            "prompt": "De quelle cité de Haute-Provence ces faïences fines sont-elles originaires ?",
+            "hint": "Une étoile est suspendue au-dessus de ce village.",
+            "anecdote": "Son argile et les décors peints à la main ont fait sa réputation à partir du XVIIe siècle."
+          },
+          "clerissy": {
+            "prompt": "Quelle famille a lancé la production de faïence de Moustiers, à la fin du XVIIe siècle ?",
+            "hint": "Elle a eu pour premier grand nom un certain Pierre.",
+            "anecdote": "Selon la tradition, un moine italien leur aurait transmis le secret de l'émail.",
+            "answers": {
+              "les-clerissy": "Les Clérissy",
+              "les-olerys": "Les Olerys",
+              "les-ferrat": "Les Ferrat",
+              "les-pelloquin": "Les Pelloquin"
+            }
+          },
+          "biot": {
+            "prompt": "Quelle est la particularité du verre soufflé produit à Biot, dans les Alpes-Maritimes ?",
+            "hint": "De toutes petites poches d'air sont piégées dans la matière.",
+            "anecdote": "La verrerie a été fondée en 1956 par l'ingénieur céramiste Éloi Monod.",
+            "answers": {
+              "il-est-bulle": "Il est bullé",
+              "il-est-noir": "Il est noir",
+              "il-est-grave-d-or": "Il est gravé d'or",
+              "il-est-incassable": "Il est incassable"
+            }
+          },
+          "vallauris": {
+            "prompt": "Quel artiste célèbre a redonné vie à la poterie de Vallauris, à partir de la fin des années 1940 ?",
+            "hint": "Il est l'auteur de « Guernica ».",
+            "anecdote": "Il a travaillé à l'atelier Madoura, et a laissé à la ville une chapelle décorée, « La Guerre et la Paix ».",
+            "answers": {
+              "pablo-picasso": "Pablo Picasso",
+              "henri-matisse": "Henri Matisse",
+              "marc-chagall": "Marc Chagall",
+              "auguste-renoir": "Auguste Renoir"
+            }
+          },
+          "grasse": {
+            "prompt": "Grasse se présente comme la capitale mondiale de quelle industrie ?",
+            "hint": "Elle se travaille au nez.",
+            "anecdote": "Les savoir-faire liés à cette activité, à Grasse, sont inscrits au patrimoine immatériel de l'Unesco depuis 2018.",
+            "answers": {
+              "le-parfum": "Le parfum",
+              "la-ceramique": "La céramique",
+              "la-soierie": "La soierie",
+              "le-chocolat": "Le chocolat"
+            }
+          },
+          "carte-grasse": {
+            "prompt": "Touchez le département de Grasse, capitale des parfums.",
+            "hint": "C'est le département le plus à l'est, le long de la frontière italienne.",
+            "anecdote": "Le pays de Grasse cultive depuis longtemps le jasmin, la rose et la tubéreuse."
+          },
+          "rose-mai": {
+            "prompt": "Quelle fleur est cueillie au printemps autour de Grasse, à la main, pour les grands parfums ?",
+            "hint": "Ses pétales sont nombreux, et on la surnomme parfois « centifolia ».",
+            "anecdote": "Sa récolte s'effectue tôt le matin, en mai, d'où son nom usuel.",
+            "answers": {
+              "la-rose": "La rose",
+              "le-jasmin": "Le jasmin",
+              "la-tubereuse": "La tubéreuse",
+              "le-mimosa": "Le mimosa"
+            }
+          },
+          "gants": {
+            "prompt": "Quels articles de cuir, à l'odeur à masquer, ont lancé la parfumerie à Grasse ?",
+            "hint": "Catherine de Médicis en portait, dit-on, de parfumés.",
+            "anecdote": "Les tanneurs de la ville utilisaient les plantes aromatiques des environs, avant de se tourner vers le seul parfum.",
+            "answers": {
+              "les-gants": "Les gants",
+              "les-chaussures": "Les chaussures",
+              "les-ceintures": "Les ceintures",
+              "les-selles": "Les selles"
+            }
+          },
+          "lavandin": {
+            "prompt": "Quel hybride de plante aromatique, au rendement élevé, couvre aujourd'hui la plupart des champs mauves de Provence ?",
+            "hint": "Il donne plus d'huile essentielle, mais moins fine que sa cousine des altitudes.",
+            "anecdote": "Issu du croisement entre deux espèces, il est stérile et se reproduit par bouture.",
+            "answers": {
+              "le-lavandin": "Le lavandin",
+              "l-aspic": "L'aspic",
+              "la-sauge": "La sauge",
+              "l-hysope": "L'hysope"
+            }
+          },
+          "astier": {
+            "prompt": "Quel habitant de Roussillon a mis au point, vers 1780, une méthode pour exploiter l'ocre ?",
+            "hint": "Son initiative a fait vivre tout le pays d'Apt pendant plus d'un siècle.",
+            "anecdote": "Les pigments du pays d'Apt ont été exportés dans le monde entier jusqu'au milieu du XXe siècle.",
+            "answers": {
+              "jean-etienne-astier": "Jean-Étienne Astier",
+              "pierre-berthier": "Pierre Berthier",
+              "paul-ricard": "Paul Ricard",
+              "louis-lumiere": "Louis Lumière"
+            }
+          },
+          "tuile": {
+            "prompt": "Quel matériau, fabriqué à Saint-Henri et à l'Estaque, a été exporté de Marseille jusqu'en Amérique ?",
+            "hint": "On le pose sur les toits.",
+            "anecdote": "Ces produits de terre cuite, à emboîtement, se retrouvent aujourd'hui jusqu'au Mexique et en Australie.",
+            "answers": {
+              "la-tuile": "La tuile",
+              "la-brique": "La brique",
+              "l-ardoise": "L'ardoise",
+              "le-zinc": "Le zinc"
+            }
+          },
+          "indiennes": {
+            "prompt": "Comment nomme-t-on ces tissus de coton imprimés arrivés à Marseille au XVIIe siècle, qui ont inspiré les tissus provençaux ?",
+            "hint": "Leur nom évoque leur pays d'origine, en Asie.",
+            "anecdote": "Ils ont connu un tel succès que leur importation et leur fabrication ont été interdites en France de 1686 à 1759.",
+            "answers": {
+              "les-indiennes": "Les indiennes",
+              "les-toiles-de-jouy": "Les toiles de Jouy",
+              "les-soieries": "Les soieries",
+              "les-vichys": "Les vichys"
+            }
+          },
+          "boutis": {
+            "prompt": "Comment nomme-t-on cet ouvrage de couture à deux épaisseurs, dont le motif est mis en relief par des mèches de coton ?",
+            "hint": "Cet ouvrage est aussi appelé broderie de Marseille.",
+            "anecdote": "Cette technique servait à confectionner les couvertures, les jupons et les layettes de cérémonie.",
+            "answers": {
+              "le-boutis": "Le boutis",
+              "le-patchwork": "Le patchwork",
+              "la-dentelle": "La dentelle",
+              "la-tapisserie": "La tapisserie"
+            }
+          },
+          "petanque": {
+            "prompt": "Dans quelle ville de la côte le jeu de pétanque est-il né, au début du XXe siècle ?",
+            "hint": "C'est aussi la ville d'un train filmé par les frères Lumière.",
+            "anecdote": "Jules Lenoir, un joueur ne pouvant plus courir, aurait lancé ses boules, les pieds « tanqués », c'est-à-dire joints, en 1907 ou en 1910."
+          },
+          "cigale": {
+            "prompt": "Quel insecte, à l'été chantant, est devenu un symbole de la Provence ?",
+            "hint": "La Fontaine l'oppose à la fourmi.",
+            "anecdote": "Seul le mâle produit ce son, par des membranes situées sur l'abdomen.",
+            "answers": {
+              "la-cigale": "La cigale",
+              "le-grillon": "Le grillon",
+              "la-sauterelle": "La sauterelle",
+              "la-libellule": "La libellule"
+            }
+          },
+          "farandole": {
+            "prompt": "Quelle danse provençale se mène en longue chaîne, en se tenant par la main ?",
+            "hint": "Bizet en a fait entendre une dans la suite de « L'Arlésienne ».",
+            "anecdote": "On la danse au son du galoubet, petite flûte à trois trous, et du tambourin.",
+            "answers": {
+              "la-farandole": "La farandole",
+              "la-bourree": "La bourrée",
+              "la-gavotte": "La gavotte",
+              "le-rigodon": "Le rigodon"
+            }
+          },
+          "course": {
+            "prompt": "Lors d'une course camarguaise, que le raseteur doit-il attraper sur la tête du taureau ?",
+            "hint": "C'est un petit ornement rouge, fixé sur le front.",
+            "anecdote": "Dans ce sport, le taureau n'est pas tué. Les meilleures bêtes, très connues, reçoivent même une sépulture.",
+            "answers": {
+              "la-cocarde": "La cocarde",
+              "la-corne": "La corne",
+              "le-licol": "Le licol",
+              "le-collier": "Le collier"
+            }
+          },
+          "treize": {
+            "prompt": "Combien de desserts terminent traditionnellement le souper de Noël en Provence ?",
+            "hint": "On dit que ce nombre porte malheur à table.",
+            "anecdote": "Ce nombre évoque le Christ et ses douze apôtres. On y trouve des fruits secs, appelés mendiants.",
+            "answers": {
+              "treize": "Treize",
+              "sept": "Sept",
+              "neuf": "Neuf",
+              "douze": "Douze"
+            }
+          },
+          "gros-souper": {
+            "prompt": "Comment nomme-t-on le repas maigre, servi le soir du 24 décembre avant la messe de minuit ?",
+            "hint": "Son nom est trompeur, car il est fait sans viande.",
+            "anecdote": "Il est servi sur trois nappes, avec trois chandelles et trois coupelles de blé germé.",
+            "answers": {
+              "le-gros-souper": "Le gros souper",
+              "le-reveillon-blanc": "Le réveillon blanc",
+              "le-maigre-de-noel": "Le maigre de Noël",
+              "le-repas-des-bergers": "Le repas des bergers"
+            }
+          },
+          "carnaval": {
+            "prompt": "Quelle autre grande parade accompagne les chars du carnaval de Nice ?",
+            "hint": "Des brassées de mimosas et de marguerites y sont lancées au public.",
+            "anecdote": "Elle se déroule sur la Promenade des Anglais, depuis 1876.",
+            "answers": {
+              "la-bataille-de-fleurs": "La bataille de fleurs",
+              "la-bataille-de-confettis-d-argent": "La bataille de confettis d'argent",
+              "le-defile-des-lanternes": "Le défilé des lanternes",
+              "la-course-des-geants": "La course des géants"
+            }
+          },
+          "fete-citron": {
+            "prompt": "Dans quelle ville défilent ces chars couverts d'agrumes, chaque mois de février ?",
+            "hint": "C'est la dernière ville française du littoral, avant l'Italie.",
+            "anecdote": "Cette fête est née dans les années 1930, à partir d'un carnaval local, et des tonnes d'agrumes y sont utilisées."
+          },
+          "bravade": {
+            "prompt": "Quel saint les habitants de Saint-Tropez honorent-ils lors de leur bravade, chaque mois de mai ?",
+            "hint": "Le nom de la ville dérive de ce nom.",
+            "anecdote": "Depuis plus de quatre siècles, des habitants en costume paradent en tirant des salves de tromblons.",
+            "answers": {
+              "saint-torpes": "Saint Torpes",
+              "saint-nazaire": "Saint Nazaire",
+              "saint-honorat": "Saint Honorat",
+              "saint-victor": "Saint Victor"
+            }
+          },
+          "sara": {
+            "prompt": "Quelle sainte les Gitans vénèrent-ils en pèlerinage, chaque mois de mai, dans cette église fortifiée de Camargue ?",
+            "hint": "Sa statue noire se trouve dans la crypte.",
+            "anecdote": "Selon la légende, cette servante aurait accompagné les Saintes Maries, arrivées en barque de Palestine.",
+            "answers": {
+              "sara": "Sara",
+              "marthe": "Marthe",
+              "blandine": "Blandine",
+              "roseline": "Roseline"
+            }
+          },
+          "tarasque": {
+            "prompt": "Quel monstre légendaire, dompté par sainte Marthe, aurait selon la tradition donné son nom à une ville sur le Rhône ?",
+            "hint": "Mi-lion, mi-tortue, il terrorisait les rives du fleuve.",
+            "anecdote": "Les fêtes qui le font défiler ont été proclamées patrimoine immatériel par l'Unesco en 2005.",
+            "answers": {
+              "la-tarasque": "La Tarasque",
+              "la-vouivre": "La Vouivre",
+              "le-graoully": "Le Graoully",
+              "le-drac": "Le Drac"
+            }
+          },
+          "gardian": {
+            "prompt": "Comment s'appelle le cavalier qui, sur ces chevaux blancs, surveille les taureaux de Camargue ?",
+            "hint": "Il est armé d'un long trident.",
+            "anecdote": "Le poulain de ces chevaux naît noir ou brun. Sa robe ne blanchit qu'avec les années.",
+            "answers": {
+              "le-gardian": "Le gardian",
+              "le-berger": "Le berger",
+              "le-toreador": "Le toréador",
+              "le-cow-boy": "Le cow-boy"
+            }
+          },
+          "manade": {
+            "prompt": "Comment nomme-t-on, en Camargue, un élevage de taureaux et de chevaux en semi-liberté ?",
+            "hint": "Le mot provençal désigne ce que la main peut conduire.",
+            "anecdote": "Son propriétaire est appelé d'un nom dérivé, et des fêtes y sont organisées pour les visiteurs.",
+            "answers": {
+              "la-manade": "La manade",
+              "la-ganaderia": "La ganaderia",
+              "l-estive": "L'estive",
+              "la-bouvine": "La bouvine"
+            }
+          },
+          "nissart": {
+            "prompt": "Comment s'appelle le parler traditionnel de Nice ?",
+            "hint": "Son nom désigne aussi, sur place, l'habitant de la ville.",
+            "anecdote": "Cette forme de la langue d'oc a sa propre tradition littéraire.",
+            "answers": {
+              "le-nissart": "Le nissart",
+              "le-ligure": "Le ligure",
+              "le-mentonasque": "Le mentonasque",
+              "le-corse": "Le corse"
+            }
+          },
+          "bories": {
+            "prompt": "Comment appelle-t-on ces cabanes de pierre sèche, près de Gordes ?",
+            "hint": "Leur nom ressemble à celui d'un prénom russe.",
+            "anecdote": "Bâties sans mortier, la plupart datent des XVIIIe et XIXe siècles. Elles abritaient des outils, des bêtes ou des bergers.",
+            "answers": {
+              "les-bories": "Les bories",
+              "les-burons": "Les burons",
+              "les-mazets": "Les mazets",
+              "les-cabanons": "Les cabanons"
+            }
+          },
+          "felibrige": {
+            "prompt": "Quelle association a été fondée en 1854, à Châteauneuf-de-Gadagne, pour défendre la langue provençale ?",
+            "hint": "Son nom vient d'un mot rare, repris d'un vieux cantique.",
+            "anecdote": "Sept poètes l'ont fondée le jour de la Sainte-Estelle. Elle a pour emblème une étoile à sept branches.",
+            "answers": {
+              "le-felibrige": "Le Félibrige",
+              "la-pleiade": "La Pléiade",
+              "l-academie-provencale": "L'Académie provençale",
+              "le-parnasse": "Le Parnasse"
+            }
+          },
+          "mistral-poete": {
+            "prompt": "Quel poète de Maillane, auteur de « Mirèio », a reçu le prix Nobel de littérature en 1904 ?",
+            "hint": "Il a fondé le Félibrige avec six autres poètes.",
+            "anecdote": "Avec l'argent du prix, il a installé dans un hôtel particulier d'Arles le Museon Arlaten, le musée qu'il avait fondé sur la vie provençale.",
+            "answers": {
+              "frederic-mistral": "Frédéric Mistral",
+              "alphonse-daudet": "Alphonse Daudet",
+              "jean-giono": "Jean Giono",
+              "paul-arene": "Paul Arène"
+            }
+          },
+          "vilar": {
+            "prompt": "Quel homme de théâtre a créé, en 1947, le grand festival d'Avignon ?",
+            "hint": "Né à Sète, il a aussi dirigé le Théâtre national populaire.",
+            "anecdote": "Le festival a pour scène principale la Cour d'honneur du palais des Papes.",
+            "answers": {
+              "jean-vilar": "Jean Vilar",
+              "louis-jouvet": "Louis Jouvet",
+              "jacques-copeau": "Jacques Copeau",
+              "antoine-vitez": "Antoine Vitez"
+            }
+          },
+          "daudet": {
+            "prompt": "Quel écrivain est associé à ce moulin de Fontvieille, grâce à ses lettres ?",
+            "hint": "Il est aussi l'auteur de « Tartarin de Tarascon ».",
+            "anecdote": "« La Chèvre de monsieur Seguin » figure dans ses « Lettres de mon moulin », parues en 1869.",
+            "answers": {
+              "alphonse-daudet": "Alphonse Daudet",
+              "emile-zola": "Émile Zola",
+              "marcel-pagnol": "Marcel Pagnol",
+              "frederic-mistral": "Frédéric Mistral"
+            }
+          },
+          "carte-pagnol": {
+            "prompt": "Touchez le département d'Aubagne, ville natale de Marcel Pagnol.",
+            "hint": "Il s'étend à l'ouest du littoral, jusqu'à l'embouchure du Rhône.",
+            "anecdote": "L'écrivain et cinéaste a raconté son enfance dans les collines du Garlaban dans « La Gloire de mon père »."
+          },
+          "carte-giono": {
+            "prompt": "Touchez le département de Manosque, ville de Jean Giono.",
+            "hint": "Il se trouve au cœur de la région, sans littoral, et touche l'Italie.",
+            "anecdote": "Il est l'auteur du « Hussard sur le toit » et de « Regain », et il n'a presque jamais quitté cette ville."
+          },
+          "nostradamus": {
+            "prompt": "Quel médecin et astrologue, né à Saint-Rémy-de-Provence, a publié de célèbres « Prophéties » ?",
+            "hint": "Il est mort à Salon-de-Provence en 1566.",
+            "anecdote": "Son livre a été imprimé à Lyon en 1555. Il a aussi été consulté par Catherine de Médicis.",
+            "answers": {
+              "nostradamus": "Nostradamus",
+              "cagliostro": "Cagliostro",
+              "paracelse": "Paracelse",
+              "galilee": "Galilée"
+            }
+          },
+          "renoir": {
+            "prompt": "Quel peintre impressionniste a passé ses dernières années dans ce domaine des Collettes, à Cagnes-sur-Mer ?",
+            "hint": "Son fils Jean a été un grand cinéaste.",
+            "anecdote": "Souffrant de rhumatismes, il a continué de peindre jusqu'à sa mort, en 1919, le pinceau fixé à la main.",
+            "answers": {
+              "auguste-renoir": "Auguste Renoir",
+              "claude-monet": "Claude Monet",
+              "paul-signac": "Paul Signac",
+              "edgar-degas": "Edgar Degas"
+            }
+          }
+        },
+        "grand-voyage": {
+          "name": "Grand voyage en Provence-Alpes-Côte d'Azur",
+          "description": "Glaciers et gorges, roches rouges et îles d'Or, avec la grande histoire, de Massalia au débarquement de 1944.",
+          "ecrins": {
+            "prompt": "Quel est le plus haut sommet de la région, à 4 102 mètres ?",
+            "hint": "C'est le point culminant d'un parc national des Hautes-Alpes.",
+            "anecdote": "Il est le sommet le plus méridional des Alpes à dépasser les 4 000 mètres, et a été gravi pour la première fois en 1864.",
+            "answers": {
+              "la-barre-des-ecrins": "La barre des Écrins",
+              "la-meije": "La Meije",
+              "le-mont-pelvoux": "Le mont Pelvoux",
+              "le-mont-viso": "Le mont Viso"
+            }
+          },
+          "glacier": {
+            "prompt": "Quel est le nom de ce grand glacier du massif des Écrins, très prisé des randonneurs ?",
+            "hint": "On le rejoint à pied depuis le Pré de Madame Carle.",
+            "anecdote": "Son voisin porte un nom de la couleur opposée, car il est recouvert de cailloux.",
+            "answers": {
+              "le-glacier-blanc": "Le glacier Blanc",
+              "la-mer-de-glace": "La mer de Glace",
+              "le-glacier-d-argentiere": "Le glacier d'Argentière",
+              "le-glacier-des-bossons": "Le glacier des Bossons"
+            }
+          },
+          "serre-poncon": {
+            "prompt": "Quelle rivière est principalement retenue par le grand barrage de ce lac de Serre-Ponçon ?",
+            "hint": "Elle se jette dans le Rhône, en aval d'Avignon.",
+            "anecdote": "Achevé à la fin des années 1950, ce barrage a englouti le village d'Ubaye et une partie de celui de Savines.",
+            "answers": {
+              "la-durance": "La Durance",
+              "le-drac": "Le Drac",
+              "le-verdon": "Le Verdon",
+              "la-romanche": "La Romanche"
+            }
+          },
+          "izoard": {
+            "prompt": "Quel col du Queyras traverse ce paysage minéral appelé la Casse Déserte ?",
+            "hint": "Une stèle y honore Fausto Coppi et Louison Bobet.",
+            "anecdote": "Ce passage du Tour de France relie Briançon à la vallée du Guil, à plus de 2 300 mètres.",
+            "answers": {
+              "le-col-d-izoard": "Le col d'Izoard",
+              "le-col-du-galibier": "Le col du Galibier",
+              "le-col-de-vars": "Le col de Vars",
+              "le-col-d-allos": "Le col d'Allos"
+            }
+          },
+          "demoiselles": {
+            "prompt": "Comment appelle-t-on ces colonnes de roche, surmontées d'un gros bloc, à Théus ?",
+            "hint": "Leur nom les compare à des personnes élégantes.",
+            "anecdote": "L'érosion creuse le terrain meuble, sauf là où un rocher du sommet le protège de la pluie.",
+            "answers": {
+              "les-demoiselles-coiffees": "Les demoiselles coiffées",
+              "les-orgues": "Les orgues",
+              "les-aiguilles": "Les aiguilles",
+              "les-penitents": "Les pénitents"
+            }
+          },
+          "mees": {
+            "prompt": "Comment appelle-t-on ces rochers alignés, aux Mées, au bord de la Durance ?",
+            "hint": "La légende y voit des moines pétrifiés pour avoir regardé de belles captives.",
+            "anecdote": "Ces hautes colonnes de poudingue atteignent une centaine de mètres.",
+            "answers": {
+              "les-penitents": "Les Pénitents",
+              "les-demoiselles": "Les Demoiselles",
+              "les-moines-noirs": "Les Moines noirs",
+              "les-sept-freres": "Les Sept Frères"
+            }
+          },
+          "colorado": {
+            "prompt": "Quel surnom américain portent ces anciennes carrières d'ocre de Rustrel, dans le Vaucluse ?",
+            "hint": "C'est le nom d'un État américain et d'un grand canyon.",
+            "anecdote": "Le relief doit autant à l'érosion qu'aux hommes, qui y ont exploité les sables colorés jusqu'au début des années 1990.",
+            "answers": {
+              "le-colorado-provencal": "Le Colorado provençal",
+              "le-nevada-provencal": "Le Nevada provençal",
+              "l-arizona-provencal": "L'Arizona provençal",
+              "le-dakota-provencal": "Le Dakota provençal"
+            }
+          },
+          "ammonites": {
+            "prompt": "Quels fossiles couvrent par centaines cette grande dalle de pierre, près de Digne-les-Bains ?",
+            "hint": "Ce sont des coquilles enroulées en spirale.",
+            "anecdote": "Cette dalle inclinée se trouve dans la réserve géologique de Haute-Provence, l'une des premières créées en France pour la géologie.",
+            "answers": {
+              "des-ammonites": "Des ammonites",
+              "des-trilobites": "Des trilobites",
+              "des-oursins": "Des oursins",
+              "des-belemnites": "Des bélemnites"
+            }
+          },
+          "verdon": {
+            "prompt": "Quel spéléologue a exploré en 1905 l'intégralité de ces gorges, profondes de 700 mètres ?",
+            "hint": "Il a aussi fait connaître le gouffre de Padirac.",
+            "anecdote": "Son expédition a duré du 11 au 14 août, avec l'instituteur Isidore Blanc. Elle a révélé ce canyon au grand public.",
+            "answers": {
+              "edouard-alfred-martel": "Édouard-Alfred Martel",
+              "norbert-casteret": "Norbert Casteret",
+              "michel-siffre": "Michel Siffre",
+              "haroun-tazieff": "Haroun Tazieff"
+            }
+          },
+          "daluis": {
+            "prompt": "Quel fleuve côtier a creusé ces gorges de schistes rouges de Daluis ?",
+            "hint": "Il se jette dans la Méditerranée, juste à l'ouest de Nice.",
+            "anecdote": "Ces couleurs vives ont valu au site le surnom de Colorado niçois.",
+            "answers": {
+              "le-var": "Le Var",
+              "la-roya": "La Roya",
+              "la-tinee": "La Tinée",
+              "la-vesubie": "La Vésubie"
+            }
+          },
+          "mercantour": {
+            "prompt": "Quel parc national des Alpes du Sud abrite des chamois, des mouflons, et où le loup est revenu naturellement au début des années 1990 ?",
+            "hint": "Il s'étend sur les Alpes-Maritimes et les Alpes-de-Haute-Provence.",
+            "anecdote": "Créé en 1979, il a pour voisin, côté italien, le parc naturel des Alpes maritimes.",
+            "answers": {
+              "le-mercantour": "Le Mercantour",
+              "les-ecrins": "Les Écrins",
+              "la-vanoise": "La Vanoise",
+              "le-queyras": "Le Queyras"
+            }
+          },
+          "porquerolles": {
+            "prompt": "Quel surnom précieux porte l'archipel de Porquerolles, de Port-Cros et du Levant ?",
+            "hint": "Il viendrait de reflets dans la roche, au soleil.",
+            "anecdote": "François-Joseph Fournier, qui a acheté Porquerolles en 1912, y a fait planter des vignes, des eucalyptus, des mimosas et des pins parasols.",
+            "answers": {
+              "les-iles-d-or": "Les îles d'Or",
+              "les-iles-d-argent": "Les îles d'Argent",
+              "les-iles-de-perle": "Les îles de Perle",
+              "les-iles-de-corail": "Les îles de Corail"
+            }
+          },
+          "esterel": {
+            "prompt": "Quelle roche volcanique donne leur couleur rouge aux falaises de ce massif de l'Esterel ?",
+            "hint": "Elle est apparue voici environ 250 millions d'années et ressemble à du porphyre.",
+            "anecdote": "Ce massif plonge directement dans la mer, le long de la Corniche d'Or.",
+            "answers": {
+              "la-rhyolite": "La rhyolite",
+              "le-basalte": "Le basalte",
+              "le-granite": "Le granite",
+              "le-calcaire": "Le calcaire"
+            }
+          },
+          "cap-canaille": {
+            "prompt": "Quel cap termine des falaises culminant à 394 mètres, parmi les plus hautes falaises maritimes d'Europe ?",
+            "hint": "Il domine le port de Cassis.",
+            "anecdote": "Ses strates sont faites de poudingue et de calcaire à l'allure de mille-feuilles.",
+            "answers": {
+              "le-cap-canaille": "Le cap Canaille",
+              "le-cap-sicie": "Le cap Sicié",
+              "le-cap-croisette": "Le cap Croisette",
+              "le-cap-morgiou": "Le cap Morgiou"
+            }
+          },
+          "mimosa": {
+            "prompt": "Quel arbuste aux fleurs jaunes, venu d'Australie, colore en hiver le massif du Tanneron et les abords de Bormes ?",
+            "hint": "Ses petites boules jaunes annoncent la fin de l'hiver.",
+            "anecdote": "Une route touristique de 130 km lui est consacrée, entre Bormes-les-Mimosas et Grasse.",
+            "answers": {
+              "le-mimosa": "Le mimosa",
+              "le-genet": "Le genêt",
+              "l-ajonc": "L'ajonc",
+              "le-forsythia": "Le forsythia"
+            }
+          },
+          "train-pignes": {
+            "prompt": "Quel petit train relie Nice à Digne-les-Bains, par les vallées du Var et de la Haute-Provence ?",
+            "hint": "Son nom fait référence aux fruits du pin.",
+            "anecdote": "Cette ligne à voie métrique, longue de 151 km, est achevée depuis 1911.",
+            "answers": {
+              "le-train-des-pignes": "Le train des Pignes",
+              "le-train-jaune": "Le train Jaune",
+              "le-tramway-du-mont-blanc": "Le Tramway du Mont-Blanc",
+              "le-cevenol": "Le Cévenol"
+            }
+          },
+          "vaccares": {
+            "prompt": "Quel est le nom du grand étang au cœur de la réserve naturelle de Camargue ?",
+            "hint": "Son nom ressemble au mot qui désigne les bêtes à cornes.",
+            "anecdote": "Sa profondeur, faible, ne dépasse guère deux mètres. C'est le plus vaste plan d'eau de ce delta.",
+            "answers": {
+              "l-etang-de-vaccares": "L'étang de Vaccarès",
+              "l-etang-de-thau": "L'étang de Thau",
+              "l-etang-de-berre": "L'étang de Berre",
+              "l-etang-de-bages": "L'étang de Bages"
+            }
+          },
+          "carte-crau": {
+            "prompt": "Touchez le département de la Crau, vaste plaine de galets et de foin réputé.",
+            "hint": "Il s'étend à l'ouest du littoral, jusqu'à l'embouchure du Rhône.",
+            "anecdote": "Cette plaine est formée d'anciens galets de la Durance. Son foin bénéficie d'une AOP."
+          },
+          "carte-tende": {
+            "prompt": "Touchez le département de Tende, dans la haute vallée de la Roya.",
+            "hint": "C'est le département le plus à l'est, le long de la frontière italienne.",
+            "anecdote": "Le col et le tunnel de Tende relient cette vallée au Piémont italien."
+          },
+          "carte-queyras": {
+            "prompt": "Touchez le département du Queyras, vallée du Guil et de Saint-Véran.",
+            "hint": "C'est le département le plus au nord de la région.",
+            "anecdote": "Ce massif est protégé par un parc naturel régional, depuis 1977."
+          },
+          "dentelles": {
+            "prompt": "Comment s'appelle cette chaîne calcaire du Vaucluse, aux crêtes découpées, au pied du Ventoux ?",
+            "hint": "Ses crêtes se dressent au-dessus des vignes de Gigondas.",
+            "anecdote": "Ces arêtes de calcaire redressé attirent les grimpeurs, au milieu des vignes.",
+            "answers": {
+              "les-dentelles-de-montmirail": "Les Dentelles de Montmirail",
+              "les-alpilles": "Les Alpilles",
+              "les-baronnies": "Les Baronnies",
+              "le-luberon": "Le Luberon"
+            }
+          },
+          "sainte-victoire": {
+            "prompt": "Quel massif calcaire domine ainsi la campagne, à l'est d'Aix-en-Provence ?",
+            "hint": "Une ancienne tradition, sans preuve, relie son nom à la victoire de Marius sur les Teutons.",
+            "anecdote": "Grand Site de France, il a été ravagé par un incendie en 1989, puis s'est peu à peu reboisé.",
+            "answers": {
+              "la-montagne-sainte-victoire": "La montagne Sainte-Victoire",
+              "le-massif-de-la-sainte-baume": "Le massif de la Sainte-Baume",
+              "la-chaine-de-l-etoile": "La chaîne de l'Étoile",
+              "le-garlaban": "Le Garlaban"
+            }
+          },
+          "turbie": {
+            "prompt": "Quel empereur romain ce grand trophée de La Turbie célèbre-t-il, pour la conquête des peuples des Alpes ?",
+            "hint": "Il est le premier empereur romain, et donne son nom au mois d'août.",
+            "anecdote": "Érigé vers 6 avant notre ère, ce monument de 35 mètres porte la liste de 44 peuples soumis.",
+            "answers": {
+              "auguste": "Auguste",
+              "jules-cesar": "Jules César",
+              "trajan": "Trajan",
+              "neron": "Néron"
+            }
+          },
+          "arc-orange": {
+            "prompt": "À quel empereur l'arc de triomphe d'Orange aurait-il été dédié, en 26 ou 27 de notre ère ?",
+            "hint": "Il a succédé à Auguste.",
+            "anecdote": "Ses bas-reliefs montrent des scènes de bataille et des trophées navals.",
+            "answers": {
+              "tibere": "Tibère",
+              "hadrien": "Hadrien",
+              "vespasien": "Vespasien",
+              "caligula": "Caligula"
+            }
+          },
+          "massalia": {
+            "prompt": "Vers quelle époque les Grecs ont-ils fondé Massalia, l'ancêtre de Marseille ?",
+            "hint": "C'est bien avant l'arrivée de Jules César.",
+            "anecdote": "Selon la légende, le marin Protis y aurait épousé Gyptis, la fille du roi local.",
+            "answers": {
+              "vers-600-avant-notre-ere": "Vers 600 avant notre ère",
+              "vers-1500-avant-notre-ere": "Vers 1500 avant notre ère",
+              "vers-50-avant-notre-ere": "Vers 50 avant notre ère",
+              "vers-300-de-notre-ere": "Vers 300 de notre ère"
+            }
+          },
+          "avignon-papes": {
+            "prompt": "Au cours de quel siècle les papes ont-ils résidé à Avignon, en quittant Rome ?",
+            "hint": "C'est le siècle de la Grande Peste et de la guerre de Cent Ans.",
+            "anecdote": "Sept papes s'y sont succédé, de 1309 à 1377.",
+            "answers": {
+              "au-xive-siecle": "Au XIVe siècle",
+              "au-xiie-siecle": "Au XIIe siècle",
+              "au-xvie-siecle": "Au XVIe siècle",
+              "au-xviiie-siecle": "Au XVIIIe siècle"
+            }
+          },
+          "provence-france": {
+            "prompt": "Au cours de quel siècle le comté de Provence a-t-il été rattaché au royaume de France ?",
+            "hint": "C'est sous le règne de Louis XI et de son successeur.",
+            "anecdote": "Le roi René a laissé le comté à son neveu Charles du Maine, qui, mort sans enfant en 1481, l'a légué au roi de France.",
+            "answers": {
+              "au-xve-siecle": "Au XVe siècle",
+              "au-xiie-siecle": "Au XIIe siècle",
+              "au-xviie-siecle": "Au XVIIe siècle",
+              "au-xviiie-siecle": "Au XVIIIe siècle"
+            }
+          },
+          "nice-1860": {
+            "prompt": "En quelle année Nice a-t-elle été rattachée à la France, par un traité et un plébiscite ?",
+            "hint": "C'est sous Napoléon III.",
+            "anecdote": "Le traité de Turin a aussi donné à la France la Savoie, en échange de son appui à l'unité italienne.",
+            "answers": {
+              "1789": "1789",
+              "1815": "1815",
+              "1860": "1860",
+              "1871": "1871"
+            }
+          },
+          "tende-1947": {
+            "prompt": "En quelle année les communes de Tende et de La Brigue sont-elles devenues françaises ?",
+            "hint": "Peu après la Seconde Guerre mondiale.",
+            "anecdote": "Le traité de paix avec l'Italie a modifié la frontière, confirmée par un vote de leurs habitants.",
+            "answers": {
+              "1860": "1860",
+              "1919": "1919",
+              "1947": "1947",
+              "1962": "1962"
+            }
+          },
+          "merveilles": {
+            "prompt": "Quel sommet domine la vallée des Merveilles, couverte de gravures rupestres de l'âge du bronze ?",
+            "hint": "Cette montagne a longtemps été considérée comme sacrée.",
+            "anecdote": "On y a recensé des dizaines de milliers de gravures, à plus de 2 000 mètres d'altitude.",
+            "answers": {
+              "le-mont-bego": "Le mont Bégo",
+              "le-mont-viso": "Le mont Viso",
+              "le-mont-ventoux": "Le mont Ventoux",
+              "le-mont-pelat": "Le mont Pelat"
+            }
+          },
+          "cosquer": {
+            "prompt": "Quelle grotte ornée, dont l'entrée se trouve sous la mer, a été découverte dans les calanques de Marseille ?",
+            "hint": "Elle porte le nom du plongeur qui l'a découverte, dans les années 1980.",
+            "anecdote": "Sa reproduction, baptisée « Cosquer Méditerranée », a ouvert à Marseille en 2022.",
+            "answers": {
+              "la-grotte-cosquer": "La grotte Cosquer",
+              "la-grotte-chauvet": "La grotte Chauvet",
+              "la-grotte-de-lascaux": "La grotte de Lascaux",
+              "la-grotte-de-niaux": "La grotte de Niaux"
+            }
+          },
+          "marseillaise": {
+            "prompt": "Quel chant, composé à Strasbourg, a pris le nom des volontaires montés à Paris depuis le Midi, en 1792 ?",
+            "hint": "Rouget de Lisle l'a écrit en une nuit, en avril 1792.",
+            "anecdote": "Rouget de Lisle l'avait d'abord baptisé « Chant de guerre pour l'armée du Rhin ».",
+            "answers": {
+              "la-marseillaise": "La Marseillaise",
+              "le-chant-du-depart": "Le Chant du départ",
+              "la-carmagnole": "La Carmagnole",
+              "ca-ira": "Ça ira"
+            }
+          },
+          "debarquement": {
+            "prompt": "À quelle date les Alliés ont-ils débarqué sur les côtes du Var et de la Provence ?",
+            "hint": "C'est l'été de la Libération, deux mois après la Normandie.",
+            "anecdote": "Les troupes américaines et françaises, dont l'armée du général de Lattre, ont libéré Toulon et Marseille en quelques semaines.",
+            "answers": {
+              "le-15-aout-1944": "Le 15 août 1944",
+              "le-6-juin-1944": "Le 6 juin 1944",
+              "le-8-mai-1945": "Le 8 mai 1945",
+              "le-11-novembre-1942": "Le 11 novembre 1942"
+            }
+          },
+          "sabordage": {
+            "prompt": "Quel acte la flotte française a-t-elle accompli à Toulon, le 27 novembre 1942, pour ne pas être capturée ?",
+            "hint": "Ses marins ont préféré ne rien laisser à l'occupant.",
+            "anecdote": "Près de 90 navires ont été coulés, à l'arrivée des troupes allemandes.",
+            "answers": {
+              "elle-s-est-sabordee": "Elle s'est sabordée",
+              "elle-a-rejoint-alger": "Elle a rejoint Alger",
+              "elle-a-capitule": "Elle a capitulé",
+              "elle-a-attaque-la-ville": "Elle a attaqué la ville"
+            }
+          },
+          "vieux-port-1943": {
+            "prompt": "Quel quartier de Marseille a été évacué, puis dynamité par l'occupant allemand, au début de 1943 ?",
+            "hint": "Il se trouvait au nord de l'ancien bassin de la ville.",
+            "anecdote": "Environ 20 000 habitants ont été expulsés. Les rafles de ces jours-là ont envoyé plus de 1 600 personnes vers la déportation.",
+            "answers": {
+              "le-quartier-du-vieux-port": "Le quartier du Vieux-Port",
+              "le-quartier-de-l-estaque": "Le quartier de l'Estaque",
+              "le-quartier-de-saint-barnabe": "Le quartier de Saint-Barnabé",
+              "le-quartier-de-mazargues": "Le quartier de Mazargues"
+            }
+          },
+          "milles": {
+            "prompt": "Quel type d'usine, près d'Aix-en-Provence, a servi de camp d'internement et de déportation, le camp des Milles ?",
+            "hint": "On y produisait des matériaux de construction en argile.",
+            "anecdote": "Des artistes et des intellectuels y ont été internés. Plus de 2 000 Juifs en ont été déportés à l'été 1942.",
+            "answers": {
+              "une-tuilerie": "Une tuilerie",
+              "une-savonnerie": "Une savonnerie",
+              "une-huilerie": "Une huilerie",
+              "une-verrerie": "Une verrerie"
+            }
+          },
+          "cezanne": {
+            "prompt": "Quel peintre aixois a représenté ce massif dans des dizaines de toiles, comme celle-ci ?",
+            "hint": "Picasso et Matisse l'auraient appelé « notre père à tous ».",
+            "anecdote": "Son atelier des Lauves, à Aix, se visite encore, tel qu'il l'a laissé en 1906.",
+            "answers": {
+              "paul-cezanne": "Paul Cézanne",
+              "vincent-van-gogh": "Vincent van Gogh",
+              "claude-monet": "Claude Monet",
+              "paul-signac": "Paul Signac"
+            }
+          },
+          "van-gogh": {
+            "prompt": "Dans quelle ville Van Gogh a-t-il peint cette terrasse de café, à la nuit tombée, en 1888 ?",
+            "hint": "Il y a vécu dans une maison jaune.",
+            "anecdote": "Le peintre y a été rejoint par Gauguin à l'automne, pour une courte et tumultueuse vie commune."
+          },
+          "garibaldi": {
+            "prompt": "Quel héros de l'unité italienne, né à Nice en 1807, s'est opposé au rattachement de sa ville à la France ?",
+            "hint": "Il menait les Chemises rouges.",
+            "anecdote": "Une place de Nice porte aujourd'hui son nom, avec une statue. Il a aussi combattu pour la France en 1870.",
+            "answers": {
+              "giuseppe-garibaldi": "Giuseppe Garibaldi",
+              "camillo-cavour": "Camillo Cavour",
+              "giuseppe-mazzini": "Giuseppe Mazzini",
+              "victor-emmanuel-ii": "Victor-Emmanuel II"
+            }
+          },
+          "zola": {
+            "prompt": "Quel écrivain, qui a grandi à Aix-en-Provence, en a fait la ville de Plassans dans ses romans ?",
+            "hint": "Il est l'auteur des « Rougon-Macquart » et de « J'accuse...! ».",
+            "anecdote": "Il a été le camarade de collège de Paul Cézanne, avant que leur amitié ne se brise.",
+            "answers": {
+              "emile-zola": "Émile Zola",
+              "alphonse-daudet": "Alphonse Daudet",
+              "honore-de-balzac": "Honoré de Balzac",
+              "gustave-flaubert": "Gustave Flaubert"
+            }
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "marseille": {
+            "name": "Marseille",
+            "description": "Fondée par des Grecs de Phocée vers 600 avant notre ère, c'est la plus ancienne grande ville de France et sa deuxième commune par la population. Son port s'ouvre sur la Méditerranée, sous le regard de Notre-Dame de la Garde.",
+            "anecdote": "Les Marseillais surnomment la statue dorée de la basilique la Bonne Mère."
+          },
+          "bouillabaisse": {
+            "name": "Bouillabaisse",
+            "description": "Née chez les pêcheurs marseillais, cette soupe de poissons de roche se parfume au safran et au fenouil. Elle se sert en deux temps, le bouillon d'abord, avec des croûtons et de la rouille, puis les poissons.",
+            "anecdote": "Son nom viendrait du provençal, pour une cuisson à gros bouillons que l'on baisse ensuite."
+          },
+          "palais-papes": {
+            "name": "Palais des Papes",
+            "description": "Résidence des papes au XIVe siècle, ce palais d'Avignon est l'un des plus grands édifices gothiques d'Europe. Avec le centre historique et le pont Saint-Bénézet, il est inscrit au patrimoine mondial depuis 1995.",
+            "anecdote": "Sa Cour d'honneur accueille chaque été les grands spectacles du festival créé par Jean Vilar en 1947."
+          },
+          "santons": {
+            "name": "Santons de Provence",
+            "description": "Ces petites figurines d'argile peintes garnissent les crèches provençales depuis la fin du XVIIIe siècle. Autour de la Nativité, elles représentent les habitants d'un village et leurs métiers d'autrefois.",
+            "anecdote": "Leur nom vient du provençal santoun, qui signifie petit saint."
+          },
+          "verdon": {
+            "name": "Gorges du Verdon",
+            "description": "La rivière a creusé dans le calcaire un canyon qui atteint 700 mètres de profondeur, entre Castellane et le lac de Sainte-Croix. Ses eaux sont réputées pour leur couleur vert émeraude.",
+            "anecdote": "Il a fallu attendre 1905 pour que l'explorateur Édouard-Alfred Martel en réalise la traversée intégrale."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur de Provence-Alpes-Côte d'Azur",
+            "description": "Réunir les cinq cartes de la collection de Provence-Alpes-Côte d'Azur."
+          },
+          "master": {
+            "name": "Maître de Provence-Alpes-Côte d'Azur",
+            "description": "Réussir le Défi Maître de Provence-Alpes-Côte d'Azur, avec au moins huit bonnes réponses sur dix."
           }
         }
       }

@@ -127,7 +127,9 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
   const allBadgeIds = new Set();
   const indexSource = readFileSync(join(dir, "index.ts"), "utf8");
   const regionFiles = new Map(files.map((file) => [readJson(join(dir, "regions", file)).id, readJson(join(dir, "regions", file))]));
-  for (const file of existsSync(territoriesDir) ? readdirSync(territoriesDir).filter((name) => name.endsWith(".json")) : []) {
+  const territoryFiles = existsSync(territoriesDir) ? readdirSync(territoriesDir).filter((name) => name.endsWith(".json")) : [];
+  const territoriesByRegion = (regionId) => territoryFiles.filter((name) => readJson(join(territoriesDir, name)).regionId === regionId).length;
+  for (const file of territoryFiles) {
     const territory = readJson(join(territoriesDir, file));
     const where = `territories/${file}`;
     const keys = [territory.nameKey, territory.descriptionKey];
@@ -137,11 +139,12 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
 
     if (!indexSource.includes(`./territories/${file}`)) fail(where, "absent de index.ts");
     if (territory.slug !== basename(file, ".json")) fail(where, "le slug doit être le nom du fichier");
-    if (territory.kind !== "cultural") fail(where, `type invalide : ${territory.kind}`);
+    if (territory.kind !== "cultural" && territory.kind !== "administrative") fail(where, `type invalide : ${territory.kind}`);
     if (!STATUSES.has(territory.status)) fail(where, `statut invalide : ${territory.status}`);
 
     const region = regionFiles.get(territory.regionId);
     if (!region) fail(where, `région inconnue : ${territory.regionId}`);
+    if (territory.kind === "administrative" && territoriesByRegion(territory.regionId) > 1) fail(where, "un territoire administratif doit être seul dans sa région");
     const subdivisionIds = new Set((region?.subdivisions ?? []).map((subdivision) => subdivision.id));
     for (const id of territory.subdivisionIds) {
       if (!subdivisionIds.has(id)) fail(where, `subdivision hors de la région : ${id}`);

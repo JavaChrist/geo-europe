@@ -2,7 +2,32 @@
   "id": "FR-PAC",
   "slug": "provence-alpes-cote-d-azur",
   "nameKey": "regions.provence-alpes-cote-d-azur",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "04",
+      "nameKey": "departments.04"
+    },
+    {
+      "id": "05",
+      "nameKey": "departments.05"
+    },
+    {
+      "id": "06",
+      "nameKey": "departments.06"
+    },
+    {
+      "id": "13",
+      "nameKey": "departments.13"
+    },
+    {
+      "id": "83",
+      "nameKey": "departments.83"
+    },
+    {
+      "id": "84",
+      "nameKey": "departments.84"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],

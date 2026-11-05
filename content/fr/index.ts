@@ -11,6 +11,7 @@ import mapOccitanieDepartements from "./maps/occitanie-departements.json";
 import mapOccitanieTerritoires from "./maps/occitanie-territoires.json";
 import mapAuvergneRhoneAlpesDepartements from "./maps/auvergne-rhone-alpes-departements.json";
 import mapAuvergneRhoneAlpesTerritoires from "./maps/auvergne-rhone-alpes-territoires.json";
+import mapProvenceAlpesCoteDAzurDepartements from "./maps/provence-alpes-cote-d-azur-departements.json";
 import alsace from "./territories/alsace.json";
 import auvergne from "./territories/auvergne.json";
 import bourgogne from "./territories/bourgogne.json";
@@ -19,6 +20,7 @@ import champagneArdenne from "./territories/champagne-ardenne.json";
 import languedocRoussillon from "./territories/languedoc-roussillon.json";
 import midiPyrenees from "./territories/midi-pyrenees.json";
 import lorraine from "./territories/lorraine.json";
+import provenceAlpesCoteDAzur from "./territories/provence-alpes-cote-d-azur.json";
 import rhoneAlpes from "./territories/rhone-alpes.json";
 import region0 from "./regions/auvergne-rhone-alpes.json";
 import region1 from "./regions/bourgogne-franche-comte.json";
@@ -43,8 +45,8 @@ const content: CountryContent = {
   country,
   regions: [region0, region1, region2, region3, region4, region5, region6, region7, region8, region9, region10, region11, region12, region13, region14, region15, region16, region17] as Region[],
   map: map as CountryMap,
-  territories: [alsace, lorraine, champagneArdenne, languedocRoussillon, midiPyrenees, bourgogne, francheComte, auvergne, rhoneAlpes] as Territory[],
-  gameMaps: [mapGrandEstDepartements, mapGrandEstTerritoires, mapOccitanieDepartements, mapOccitanieTerritoires, mapBourgogneFrancheComteDepartements, mapBourgogneFrancheComteTerritoires, mapAuvergneRhoneAlpesDepartements, mapAuvergneRhoneAlpesTerritoires] as GameMap[],
+  territories: [alsace, lorraine, champagneArdenne, languedocRoussillon, midiPyrenees, bourgogne, francheComte, auvergne, rhoneAlpes, provenceAlpesCoteDAzur] as Territory[],
+  gameMaps: [mapGrandEstDepartements, mapGrandEstTerritoires, mapOccitanieDepartements, mapOccitanieTerritoires, mapBourgogneFrancheComteDepartements, mapBourgogneFrancheComteTerritoires, mapAuvergneRhoneAlpesDepartements, mapAuvergneRhoneAlpesTerritoires, mapProvenceAlpesCoteDAzurDepartements] as GameMap[],
   credits: credits as MediaCredit[],
   messages: { fr },
 };

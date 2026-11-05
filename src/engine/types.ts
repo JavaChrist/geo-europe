@@ -239,14 +239,15 @@ export interface RewardBadge {
 }
 
 /**
- * Territoire historique ou culturel, à l'intérieur d'une région administrative.
- * Ce n'est pas un découpage administratif : la région reste la seule entrée de la carte du pays.
+ * Parcours d'une région administrative. « cultural » : territoire historique ou culturel, à l'intérieur de la région,
+ * qui peut en compter plusieurs. « administrative » : la région entière, seule de sa région, dont le parcours s'ouvre directement.
+ * Dans tous les cas, la région reste la seule entrée de la carte du pays.
  */
 export interface Territory extends WithCover {
   id: string;
   /** Identique au nom du fichier du territoire. */
   slug: string;
-  kind: "cultural";
+  kind: "cultural" | "administrative";
   /** Région administrative qui donne accès à ce territoire. */
   regionId: string;
   nameKey: string;

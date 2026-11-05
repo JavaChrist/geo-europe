@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import content from "@country";
 import { RegionJourneys } from "@/features/journey/RegionJourneys";
-import { territoriesOf } from "@/features/journey/territories";
+import { administrativeTerritoryOf, territoriesOf } from "@/features/journey/territories";
+import { TerritoryJourney } from "@/features/journey/TerritoryJourney";
 import { getTranslator } from "@/i18n/translator";
 import { ComingSoon } from "@/ui/ComingSoon";
 
@@ -17,6 +18,8 @@ export default async function RegionPage({ params }: { params: Promise<{ slug: s
   const region = content.regions.find((candidate) => candidate.slug === slug);
   const shape = content.map.regions.find((candidate) => candidate.regionId === region?.id);
   if (!region || !shape) notFound();
+  const administrative = administrativeTerritoryOf(region.id);
+  if (administrative) return <TerritoryJourney region={region} territory={administrative} />;
   if (territoriesOf(region.id).length > 0) return <RegionJourneys region={region} />;
 
   const { t, tContent } = getTranslator();
