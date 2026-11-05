@@ -2,7 +2,60 @@
   "id": "FR-OCC",
   "slug": "occitanie",
   "nameKey": "regions.occitanie",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "09",
+      "nameKey": "departments.09"
+    },
+    {
+      "id": "11",
+      "nameKey": "departments.11"
+    },
+    {
+      "id": "12",
+      "nameKey": "departments.12"
+    },
+    {
+      "id": "30",
+      "nameKey": "departments.30"
+    },
+    {
+      "id": "31",
+      "nameKey": "departments.31"
+    },
+    {
+      "id": "32",
+      "nameKey": "departments.32"
+    },
+    {
+      "id": "34",
+      "nameKey": "departments.34"
+    },
+    {
+      "id": "46",
+      "nameKey": "departments.46"
+    },
+    {
+      "id": "48",
+      "nameKey": "departments.48"
+    },
+    {
+      "id": "65",
+      "nameKey": "departments.65"
+    },
+    {
+      "id": "66",
+      "nameKey": "departments.66"
+    },
+    {
+      "id": "81",
+      "nameKey": "departments.81"
+    },
+    {
+      "id": "82",
+      "nameKey": "departments.82"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],

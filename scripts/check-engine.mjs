@@ -488,8 +488,10 @@ for (let seed = 0; seed < 50; seed++) {
   assert.deepEqual(availableSpecialChallenges(lorraine).map((rules) => rules.kind), ["master", "chrono"]);
   const champagneArdenne = JSON.parse(readFileSync(new URL("../content/fr/territories/champagne-ardenne.json", import.meta.url), "utf8"));
   assert.deepEqual(availableSpecialChallenges(champagneArdenne).map((rules) => rules.kind), ["master", "chrono"]);
+  const languedocRoussillon = JSON.parse(readFileSync(new URL("../content/fr/territories/languedoc-roussillon.json", import.meta.url), "utf8"));
+  assert.deepEqual(availableSpecialChallenges(languedocRoussillon).map((rules) => rules.kind), ["master", "chrono"]);
   // Chaque niveau publié compose une partie complète, sans question répétée.
-  for (const level of [...alsace.levels, ...lorraine.levels, ...champagneArdenne.levels]) {
+  for (const level of [...alsace.levels, ...lorraine.levels, ...champagneArdenne.levels, ...languedocRoussillon.levels]) {
     for (let seed = 0; seed < 100; seed += 1) {
       const drawn = selectQuestions(level, EMPTY_HISTORY, seeded(seed), 8);
       assert.equal(new Set(drawn).size, 8, `partie complète : ${level.id}`);
@@ -498,7 +500,7 @@ for (let seed = 0; seed < 50; seed++) {
       assert.equal(new Set(picked.map((candidate) => candidate.group ?? candidate.id)).size, 8, `sujets distincts : ${level.id}`);
     }
   }
-  for (const [territory, rules] of [alsace, lorraine, champagneArdenne].flatMap((territory) => SPECIAL_CHALLENGES.map((rules) => [territory, rules]))) {
+  for (const [territory, rules] of [alsace, lorraine, champagneArdenne, languedocRoussillon].flatMap((territory) => SPECIAL_CHALLENGES.map((rules) => [territory, rules]))) {
     const challengeBank = specialChallengeBank(territory, rules);
     let history = EMPTY_HISTORY;
     for (let seed = 0; seed < 200; seed += 1) {

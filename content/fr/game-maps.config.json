@@ -10,7 +10,6 @@
       "id": "grand-est-departements",
       "simplify": "22%",
       "zones": {
-        "08": "08",
         "10": "10",
         "51": "51",
         "52": "52",
@@ -19,23 +18,62 @@
         "57": "57",
         "67": "67",
         "68": "68",
-        "88": "88"
+        "88": "88",
+        "08": "08"
       }
     },
     {
       "id": "grand-est-territoires",
       "simplify": "22%",
       "zones": {
-        "08": "champagne-ardenne",
         "10": "champagne-ardenne",
         "51": "champagne-ardenne",
         "52": "champagne-ardenne",
         "54": "lorraine",
         "55": "lorraine",
         "57": "lorraine",
-        "88": "lorraine",
         "67": "alsace",
-        "68": "alsace"
+        "68": "alsace",
+        "88": "lorraine",
+        "08": "champagne-ardenne"
+      }
+    },
+    {
+      "id": "occitanie-departements",
+      "simplify": "22%",
+      "zones": {
+        "11": "11",
+        "12": "12",
+        "30": "30",
+        "31": "31",
+        "32": "32",
+        "34": "34",
+        "46": "46",
+        "48": "48",
+        "65": "65",
+        "66": "66",
+        "81": "81",
+        "82": "82",
+        "09": "09"
+      }
+    },
+    {
+      "id": "occitanie-territoires",
+      "simplify": "22%",
+      "zones": {
+        "11": "languedoc-roussillon",
+        "12": "midi-pyrenees",
+        "30": "languedoc-roussillon",
+        "31": "midi-pyrenees",
+        "32": "midi-pyrenees",
+        "34": "languedoc-roussillon",
+        "46": "midi-pyrenees",
+        "48": "languedoc-roussillon",
+        "65": "midi-pyrenees",
+        "66": "languedoc-roussillon",
+        "81": "midi-pyrenees",
+        "82": "midi-pyrenees",
+        "09": "midi-pyrenees"
       }
     }
   ]

@@ -488,6 +488,170 @@
       "photoChampagneArdenneBourbonne": {
         "title": "Bourbonne-les-Bains, vue générale",
         "alt": "Vue d'une petite ville aux toits de tuile, avec un clocher, dans la campagne."
+      },
+      "photoLanguedocRoussillonCarcassonne": {
+        "title": "Remparts de la Cité de Carcassonne",
+        "alt": "Hautes murailles de pierre et tours crénelées d'une cité médiévale, sous un ciel bleu."
+      },
+      "photoLanguedocRoussillonArenesNimes": {
+        "title": "Arènes de Nîmes",
+        "alt": "Grand amphithéâtre romain à deux étages d'arcades, au bord d'une vaste esplanade, à la tombée du jour."
+      },
+      "photoLanguedocRoussillonCollioure": {
+        "title": "Collioure et le clocher de son église",
+        "alt": "Petit port au bord d'une baie, avec une haute tour ronde qui se dresse au bord de l'eau."
+      },
+      "photoLanguedocRoussillonCanigou": {
+        "title": "Le Canigou vu du Serrat d'en Vaquer",
+        "alt": "Massif montagneux enneigé qui domine une plaine et des collines."
+      },
+      "photoLanguedocRoussillonGorgesTarn": {
+        "title": "Gorges du Tarn depuis le Roc des Hourtous",
+        "alt": "Profonde vallée aux falaises calcaires, où serpente une rivière entre des pentes boisées."
+      },
+      "photoLanguedocRoussillonPontGard": {
+        "title": "Pont du Gard",
+        "alt": "Ouvrage antique de pierre dorée à plusieurs niveaux d'arches, au-dessus d'une vallée boisée."
+      },
+      "photoLanguedocRoussillonMaisonCarree": {
+        "title": "Maison carrée de Nîmes",
+        "alt": "Temple antique à colonnes et fronton, éclairé à la nuit tombante, au milieu d'une place."
+      },
+      "photoLanguedocRoussillonCanalMidi": {
+        "title": "Platanes du canal du Midi",
+        "alt": "Long canal rectiligne bordé de grands arbres, qui se reflètent dans l'eau calme."
+      },
+      "photoLanguedocRoussillonCassoulet": {
+        "title": "Cassoulet à Carcassonne",
+        "alt": "Plat de terre cuite rempli de haricots gratinés, posé sur une planche de bois avec une salade verte."
+      },
+      "photoLanguedocRoussillonBouzigues": {
+        "title": "Tables à huîtres de l'étang de Thau, vues de Loupian",
+        "alt": "Grandes structures alignées sur un vaste plan d'eau, devant une colline qui s'avance dans la mer."
+      },
+      "photoLanguedocRoussillonPelardon": {
+        "title": "Pélardon",
+        "alt": "Petit fromage de chèvre rond et blanc, posé sur une ardoise."
+      },
+      "photoLanguedocRoussillonAubrac": {
+        "title": "Vache Aubrac sur le mont Lozère",
+        "alt": "Vache à la robe fauve qui broute dans un pré d'altitude, dans la brume."
+      },
+      "photoLanguedocRoussillonBanyuls": {
+        "title": "Vignes en terrasses à Banyuls-sur-Mer",
+        "alt": "Pente aménagée en longues terrasses de vigne, soutenues par des murets."
+      },
+      "photoLanguedocRoussillonTourMagne": {
+        "title": "Tour Magne, à Nîmes",
+        "alt": "Grande tour de pierre antique en partie ruinée, au sommet d'une colline."
+      },
+      "photoLanguedocRoussillonJardinsFontaine": {
+        "title": "Jardins de la Fontaine, à Nîmes",
+        "alt": "Jardin classique avec balustrades, statues et bassins de pierre, sous de grands arbres."
+      },
+      "photoLanguedocRoussillonUzes": {
+        "title": "Le Duché d'Uzès",
+        "alt": "Château de pierre aux tours élevées et aux toits d'ardoise, derrière un mur d'enceinte."
+      },
+      "photoLanguedocRoussillonPeyrou": {
+        "title": "Promenade du Peyrou, à Montpellier",
+        "alt": "Statue équestre de bronze sur un haut socle, au milieu d'une large promenade plantée d'arbres, avec un petit temple au fond."
+      },
+      "photoLanguedocRoussillonFonserannes": {
+        "title": "Écluses de Fonseranes, à Béziers",
+        "alt": "Bateaux dans des écluses successives, le long d'un chemin fréquenté par des promeneurs."
+      },
+      "photoLanguedocRoussillonArcheveques": {
+        "title": "Palais des Archevêques de Narbonne",
+        "alt": "Puissantes tours médiévales de part et d'autre d'une façade néogothique à horloge."
+      },
+      "photoLanguedocRoussillonPalaisMajorque": {
+        "title": "Chapelle du palais des rois de Majorque, à Perpignan",
+        "alt": "Pignon de pierre et de brique avec une rosace et un clocher ajouré, au-dessus des toits d'une ville."
+      },
+      "photoLanguedocRoussillonVillefranche": {
+        "title": "Remparts de Villefranche-de-Conflent",
+        "alt": "Remparts de pierre et échauguette au pied d'une montagne boisée."
+      },
+      "photoLanguedocRoussillonSalses": {
+        "title": "Forteresse de Salses",
+        "alt": "Forteresse basse aux tours rondes et aux murs épais de pierre et de brique, entourée d'un large fossé."
+      },
+      "photoLanguedocRoussillonPeyrepertuse": {
+        "title": "Château de Peyrepertuse",
+        "alt": "Château aux murailles et à la tour de pierre, perché sur un éperon rocheux, face à de vastes collines."
+      },
+      "photoLanguedocRoussillonSaintGuilhem": {
+        "title": "Saint-Guilhem-le-Désert",
+        "alt": "Village de maisons de pierre aux toits de tuiles, serré au creux d'une vallée verdoyante."
+      },
+      "photoLanguedocRoussillonMende": {
+        "title": "Cathédrale de Mende",
+        "alt": "Façade d'une cathédrale gothique encadrée de deux hauts clochers de tailles différentes."
+      },
+      "photoLanguedocRoussillonFontfroide": {
+        "title": "Cloître de l'abbaye de Fontfroide",
+        "alt": "Galerie de cloître voûtée, avec de fines colonnes jumelées et un sol de pierre."
+      },
+      "photoLanguedocRoussillonElne": {
+        "title": "Cloître de la cathédrale d'Elne",
+        "alt": "Cloître roman à arcades sur colonnes de marbre, autour d'un petit jardin."
+      },
+      "photoLanguedocRoussillonSardane": {
+        "title": "Sardane à Caldes de Montbui, en Catalogne",
+        "alt": "Danseurs se tenant par la main en une grande ronde, sur une place ombragée, devant une église."
+      },
+      "photoLanguedocRoussillonJoutes": {
+        "title": "Joute nautique sur le canal de Sète",
+        "alt": "Barque rouge et blanche à rames, avec un homme debout sur une plateforme, sur un canal bordé de façades."
+      },
+      "photoLanguedocRoussillonTrainJaune": {
+        "title": "Train jaune sur la ligne de Cerdagne",
+        "alt": "Petit train jaune et rouge sur un pont métallique, au-dessus d'un torrent, dans une vallée de montagne."
+      },
+      "photoLanguedocRoussillonNavacelles": {
+        "title": "Cirque de Navacelles",
+        "alt": "Immense cirque de falaises calcaires, avec un petit village au creux d'un ancien méandre."
+      },
+      "photoLanguedocRoussillonSaintMartinCanigou": {
+        "title": "Abbaye Saint-Martin-du-Canigou",
+        "alt": "Cloître roman à arcades et petit jardin d'une abbaye, avec la montagne en arrière-plan."
+      },
+      "photoLanguedocRoussillonCuxa": {
+        "title": "Abbaye Saint-Michel-de-Cuxa",
+        "alt": "Abbaye romane avec une tour carrée, une longue nef et des arcs de cloître, entourée de pelouses."
+      },
+      "photoLanguedocRoussillonAigoual": {
+        "title": "Observatoire du mont Aigoual",
+        "alt": "Bâtiment de granit à tour crénelée et à antenne, sur un sommet, sous un ciel bleu."
+      },
+      "photoLanguedocRoussillonAvenArmand": {
+        "title": "Aven Armand",
+        "alt": "Grotte plongée dans la pénombre, remplie de très hautes stalagmites découpées."
+      },
+      "photoLanguedocRoussillonOrgues": {
+        "title": "Orgues d'Ille-sur-Têt",
+        "alt": "Cheminées de roche claire sculptées par l'érosion, sous un ciel bleu."
+      },
+      "photoLanguedocRoussillonAgde": {
+        "title": "Cathédrale Saint-Étienne d'Agde",
+        "alt": "Cathédrale sombre aux allures de forteresse, avec une tour carrée, au-dessus des maisons et des arbres."
+      },
+      "photoLanguedocRoussillonPontMontvert": {
+        "title": "Pont du Pont-de-Montvert",
+        "alt": "Pont de granit en dos d'âne, devant des maisons aux toits de lauzes."
+      },
+      "photoLanguedocRoussillonCastelnou": {
+        "title": "Vue de Castelnou",
+        "alt": "Village perché et son château, sur une colline verdoyante, avec de hautes montagnes au loin."
+      },
+      "photoLanguedocRoussillonSainteEnimie": {
+        "title": "Sainte-Enimie",
+        "alt": "Village aux toits gris étagés sur la pente, dominé par un long bâtiment ancien."
+      },
+      "photoLanguedocRoussillonLagrasse": {
+        "title": "Lagrasse et son vieux pont",
+        "alt": "Pont de pierre en arc au-dessus d'une rivière, entre les maisons d'un village ancien."
       }
     }
   },
@@ -513,15 +677,28 @@
   },
   "departments": {
     "10": "Aube",
+    "11": "Aude",
+    "12": "Aveyron",
+    "30": "Gard",
+    "31": "Haute-Garonne",
+    "32": "Gers",
+    "34": "Hérault",
+    "46": "Lot",
+    "48": "Lozère",
     "51": "Marne",
     "52": "Haute-Marne",
     "54": "Meurthe-et-Moselle",
     "55": "Meuse",
     "57": "Moselle",
+    "65": "Hautes-Pyrénées",
+    "66": "Pyrénées-Orientales",
     "67": "Bas-Rhin",
     "68": "Haut-Rhin",
+    "81": "Tarn",
+    "82": "Tarn-et-Garonne",
     "88": "Vosges",
-    "08": "Ardennes"
+    "08": "Ardennes",
+    "09": "Ariège"
   },
   "places": {
     "strasbourg": "Strasbourg",
@@ -587,7 +764,57 @@
     "bourbonne-les-bains": "Bourbonne-les-Bains",
     "wassy": "Wassy",
     "nogent": "Nogent",
-    "colombey-les-deux-eglises": "Colombey-les-Deux-Églises"
+    "colombey-les-deux-eglises": "Colombey-les-Deux-Églises",
+    "carcassonne": "Carcassonne",
+    "narbonne": "Narbonne",
+    "castelnaudary": "Castelnaudary",
+    "limoux": "Limoux",
+    "lezignan-corbieres": "Lézignan-Corbières",
+    "quillan": "Quillan",
+    "port-la-nouvelle": "Port-la-Nouvelle",
+    "lagrasse": "Lagrasse",
+    "minerve": "Minerve",
+    "nimes": "Nîmes",
+    "ales": "Alès",
+    "uzes": "Uzès",
+    "bagnols-sur-ceze": "Bagnols-sur-Cèze",
+    "beaucaire": "Beaucaire",
+    "aigues-mortes": "Aigues-Mortes",
+    "anduze": "Anduze",
+    "le-vigan": "Le Vigan",
+    "sommieres": "Sommières",
+    "saint-gilles": "Saint-Gilles",
+    "montpellier": "Montpellier",
+    "beziers": "Béziers",
+    "sete": "Sète",
+    "agde": "Agde",
+    "lodeve": "Lodève",
+    "pezenas": "Pézenas",
+    "lunel": "Lunel",
+    "frontignan": "Frontignan",
+    "meze": "Mèze",
+    "bouzigues": "Bouzigues",
+    "saint-guilhem-le-desert": "Saint-Guilhem-le-Désert",
+    "mende": "Mende",
+    "florac": "Florac",
+    "marvejols": "Marvejols",
+    "langogne": "Langogne",
+    "la-canourgue": "La Canourgue",
+    "sainte-enimie": "Sainte-Enimie",
+    "le-pont-de-montvert": "Le Pont-de-Montvert",
+    "perpignan": "Perpignan",
+    "collioure": "Collioure",
+    "ceret": "Céret",
+    "prades": "Prades",
+    "rivesaltes": "Rivesaltes",
+    "banyuls-sur-mer": "Banyuls-sur-Mer",
+    "elne": "Elne",
+    "argeles-sur-mer": "Argelès-sur-Mer",
+    "port-vendres": "Port-Vendres",
+    "mont-louis": "Mont-Louis",
+    "villefranche-de-conflent": "Villefranche-de-Conflent",
+    "castelnou": "Castelnou",
+    "salses-le-chateau": "Salses-le-Château"
   },
   "territories": {
     "champagne-ardenne": {
@@ -6852,6 +7079,1976 @@
           "master": {
             "name": "Maître d'Alsace",
             "description": "Réussir le Défi Maître d'Alsace, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
+    },
+    "midi-pyrenees": {
+      "name": "Midi-Pyrénées"
+    },
+    "languedoc-roussillon": {
+      "name": "Languedoc-Roussillon",
+      "description": "De la Méditerranée aux Cévennes et au Canigou, un territoire de cités fortifiées, de monuments romains, de vignes et de traditions catalanes.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Languedoc-Roussillon",
+          "description": "Cinq départements, leurs villes et les grands repères d'un territoire entre Méditerranée, Cévennes et Pyrénées.",
+          "carte-territoire": {
+            "prompt": "Touchez sur la carte le territoire du Languedoc-Roussillon.",
+            "hint": "C'est la partie de l'Occitanie qui borde la mer.",
+            "anecdote": "Le Languedoc-Roussillon forme l'est et le sud-est de l'Occitanie, du mont Lozère jusqu'à la frontière espagnole."
+          },
+          "nombre-departements": {
+            "prompt": "Combien de départements compte le Languedoc-Roussillon ?",
+            "hint": "Autant que de doigts sur une main.",
+            "anecdote": "L'Aude, le Gard, l'Hérault, la Lozère et les Pyrénées-Orientales forment le Languedoc-Roussillon.",
+            "answers": {
+              "cinq": "Cinq",
+              "trois": "Trois",
+              "quatre": "Quatre",
+              "huit": "Huit"
+            }
+          },
+          "region-actuelle": {
+            "prompt": "Dans quelle région administrative le Languedoc-Roussillon se trouve-t-il depuis 2016 ?",
+            "hint": "Son nom rappelle une langue parlée dans le sud de la France.",
+            "anecdote": "Le Languedoc-Roussillon et Midi-Pyrénées ont été réunis en 2016 dans une seule région, l'Occitanie.",
+            "answers": {
+              "l-occitanie": "L'Occitanie",
+              "la-nouvelle-aquitaine": "La Nouvelle-Aquitaine",
+              "provence-alpes-cote-d-azur": "Provence-Alpes-Côte d'Azur",
+              "auvergne-rhone-alpes": "Auvergne-Rhône-Alpes"
+            }
+          },
+          "chef-lieu-region": {
+            "prompt": "Quelle ville est aujourd'hui le chef-lieu de la région Occitanie ?",
+            "hint": "On la surnomme la Ville rose.",
+            "anecdote": "Toulouse est le chef-lieu de l'Occitanie. Montpellier garde toutefois des services régionaux et accueille les séances de l'assemblée.",
+            "answers": {
+              "toulouse": "Toulouse"
+            }
+          },
+          "ancienne-capitale": {
+            "prompt": "Quelle ville était le chef-lieu de l'ancienne région Languedoc-Roussillon ?",
+            "hint": "C'est la plus grande ville du territoire.",
+            "anecdote": "Montpellier accueillait le conseil régional du Languedoc-Roussillon jusqu'à la réforme de 2016."
+          },
+          "mer": {
+            "prompt": "Quelle mer borde le Languedoc-Roussillon ?",
+            "hint": "Elle baigne aussi Marseille et Nice.",
+            "anecdote": "Le littoral du territoire suit le golfe du Lion, sur la mer Méditerranée, de la Camargue à la frontière espagnole.",
+            "answers": {
+              "la-mer-mediterranee": "La mer Méditerranée",
+              "la-manche": "La Manche",
+              "la-mer-du-nord": "La mer du Nord",
+              "la-mer-baltique": "La mer Baltique"
+            }
+          },
+          "pays-frontalier": {
+            "prompt": "Quel grand pays voisin borde les Pyrénées-Orientales au sud ?",
+            "hint": "Barcelone n'est pas très loin de cette frontière.",
+            "anecdote": "Les Pyrénées-Orientales bordent l'Espagne, ainsi qu'un petit bout d'Andorre à l'ouest.",
+            "answers": {
+              "l-espagne": "L'Espagne",
+              "l-italie": "L'Italie",
+              "le-portugal": "Le Portugal",
+              "la-suisse": "La Suisse"
+            }
+          },
+          "carte-gard": {
+            "prompt": "Touchez sur la carte le département du Gard.",
+            "hint": "C'est le département le plus à l'est de l'Occitanie, le long du Rhône.",
+            "anecdote": "Le Gard s'étend des Cévennes à la Camargue, et le Rhône marque sa limite orientale."
+          },
+          "carte-lozere": {
+            "prompt": "Touchez sur la carte le département de la Lozère.",
+            "hint": "Il se trouve tout au nord-est de la région, loin de la mer.",
+            "anecdote": "La Lozère occupe le nord du territoire, entre l'Aubrac, la Margeride, les Causses et les Cévennes."
+          },
+          "carte-pyrenees-orientales": {
+            "prompt": "Touchez sur la carte le département des Pyrénées-Orientales.",
+            "hint": "C'est le département le plus au sud de la région, au bord de la mer.",
+            "anecdote": "Les Pyrénées-Orientales s'étendent de la Cerdagne jusqu'à la Méditerranée. Elles correspondent en grande partie à l'ancien Roussillon."
+          },
+          "carte-herault": {
+            "prompt": "Touchez sur la carte le département de l'Hérault.",
+            "hint": "Il borde la mer, entre l'Aude et le Gard.",
+            "anecdote": "L'Hérault s'étend du littoral méditerranéen jusqu'aux contreforts des Causses, autour de Montpellier et de Béziers."
+          },
+          "prefecture-aude": {
+            "prompt": "Quelle est la préfecture de l'Aude ?",
+            "hint": "Sa cité médiévale est connue dans le monde entier.",
+            "anecdote": "Carcassonne est la préfecture de l'Aude, même si Narbonne compte davantage d'habitants."
+          },
+          "prefecture-gard": {
+            "prompt": "Quelle est la préfecture du Gard ?",
+            "hint": "Elle possède des arènes romaines très bien conservées.",
+            "anecdote": "Nîmes est la préfecture du Gard. Alès et Le Vigan en sont les sous-préfectures."
+          },
+          "prefecture-herault": {
+            "prompt": "Quelle est la préfecture de l'Hérault ?",
+            "hint": "Sa grande place porte le nom de la Comédie.",
+            "anecdote": "Montpellier est la préfecture de l'Hérault. Béziers et Lodève en sont les sous-préfectures."
+          },
+          "prefecture-lozere": {
+            "prompt": "Quelle est la préfecture de la Lozère ?",
+            "hint": "Son nom ne compte que cinq lettres.",
+            "anecdote": "Mende, dans la vallée du Lot, est la préfecture de la Lozère. Florac en est la sous-préfecture."
+          },
+          "prefecture-pyrenees-orientales": {
+            "prompt": "Quelle est la préfecture des Pyrénées-Orientales ?",
+            "hint": "C'est une grande ville catalane, à une trentaine de kilomètres de l'Espagne.",
+            "anecdote": "Perpignan est la préfecture des Pyrénées-Orientales. Céret et Prades en sont les sous-préfectures."
+          },
+          "lozere-sans-mer": {
+            "prompt": "Lequel de ces départements n'a aucun accès à la mer ?",
+            "hint": "Sa préfecture est Mende.",
+            "anecdote": "La Lozère est le seul des cinq départements sans littoral. Le Gard touche la mer au Grau-du-Roi.",
+            "answers": {
+              "la-lozere": "La Lozère",
+              "l-aude": "L'Aude",
+              "le-gard": "Le Gard",
+              "l-herault": "L'Hérault"
+            }
+          },
+          "lozere-record": {
+            "prompt": "Quel record national détient la Lozère ?",
+            "hint": "Ses habitants ne sont pas très nombreux.",
+            "anecdote": "Avec moins de 80 000 habitants, la Lozère est le département le moins peuplé de France.",
+            "answers": {
+              "le-departement-le-moins-peuple": "Le département le moins peuplé",
+              "le-departement-le-plus-peuple": "Le département le plus peuplé",
+              "le-departement-le-plus-vaste": "Le département le plus vaste",
+              "le-point-le-plus-haut-de-france": "Le point le plus haut de France"
+            }
+          },
+          "photo-carcassonne": {
+            "prompt": "Quelle ville est dominée par cette cité fortifiée ?",
+            "hint": "C'est la préfecture de l'Aude.",
+            "anecdote": "La cité de Carcassonne, avec ses remparts et ses tours, est l'une des plus grandes forteresses médiévales d'Europe."
+          },
+          "photo-arenes": {
+            "prompt": "Dans quelle ville du Gard se trouvent ces arènes romaines ?",
+            "hint": "C'est la préfecture du département.",
+            "anecdote": "Les arènes de Nîmes, élevées vers la fin du Ier siècle, comptent parmi les amphithéâtres romains les mieux conservés."
+          },
+          "photo-collioure": {
+            "prompt": "Quel port catalan reconnaît-on à ce clocher au bord de l'eau ?",
+            "hint": "Ce petit port se trouve sur la Côte Vermeille.",
+            "anecdote": "Le clocher de l'église Notre-Dame-des-Anges, sans doute un ancien phare, est le grand symbole de Collioure."
+          },
+          "sete-ile": {
+            "prompt": "Quel port de l'Hérault est surnommé l'île singulière ?",
+            "hint": "Il se trouve entre la mer et l'étang de Thau.",
+            "anecdote": "Sète s'étend autour du mont Saint-Clair, entre la mer et l'étang de Thau, et ses canaux lui donnent un air d'île."
+          },
+          "montpellier-comedie": {
+            "prompt": "Dans quelle ville se trouve la place de la Comédie, surnommée l'Œuf ?",
+            "hint": "C'est la préfecture de l'Hérault.",
+            "anecdote": "La place de la Comédie doit son surnom à sa forme ovale d'origine. Elle est le grand lieu de rendez-vous de Montpellier."
+          },
+          "perpignan-castillet": {
+            "prompt": "Quelle ville a pour emblème le Castillet, ancienne porte fortifiée en briques roses ?",
+            "hint": "C'est la grande ville catalane du territoire.",
+            "anecdote": "Le Castillet gardait autrefois l'entrée de Perpignan. Il abrite aujourd'hui un musée consacré à la culture catalane."
+          },
+          "beziers-orb": {
+            "prompt": "Quelle ville de l'Hérault domine l'Orb avec sa cathédrale Saint-Nazaire ?",
+            "hint": "C'est la deuxième ville du département.",
+            "anecdote": "Béziers s'élève sur une colline au-dessus de l'Orb, et sa cathédrale fortifiée se voit de très loin."
+          },
+          "narbonne-via": {
+            "prompt": "Quelle ville de l'Aude montre un tronçon de la Via Domitia sur sa place de l'Hôtel-de-Ville ?",
+            "hint": "Son nom a aussi désigné une province romaine.",
+            "anecdote": "Les pavés de cette voie romaine ont été mis au jour en 1997 sur la place centrale de Narbonne."
+          },
+          "ales-mines": {
+            "prompt": "Quelle ville du Gard, au pied des Cévennes, fut un grand centre minier ?",
+            "hint": "C'est la deuxième ville du département.",
+            "anecdote": "Le bassin d'Alès a longtemps vécu du charbon. Une mine-témoin permet aujourd'hui de découvrir ce passé."
+          },
+          "aigues-mortes-saint-louis": {
+            "prompt": "Quelle cité du Gard, entourée de remparts, doit son port à Saint Louis ?",
+            "hint": "Son nom évoque des eaux immobiles.",
+            "anecdote": "Saint Louis voulait un port sur la Méditerranée. Il développa Aigues-Mortes, d'où il partit en croisade."
+          },
+          "pyrenees": {
+            "prompt": "Quelle chaîne de montagnes ferme le sud du territoire ?",
+            "hint": "Elle sépare la France de l'Espagne.",
+            "anecdote": "Les Pyrénées plongent dans la Méditerranée sur la Côte Vermeille, où leurs derniers reliefs forment les Albères.",
+            "answers": {
+              "les-pyrenees": "Les Pyrénées",
+              "les-alpes": "Les Alpes",
+              "les-vosges": "Les Vosges",
+              "le-jura": "Le Jura"
+            }
+          },
+          "cevennes": {
+            "prompt": "Quel massif s'étend entre le Gard et la Lozère ?",
+            "hint": "Ses vallées sont plantées de châtaigniers.",
+            "anecdote": "Les Cévennes forment le rebord sud-est du Massif central, entre schistes, granites et vallées profondes.",
+            "answers": {
+              "les-cevennes": "Les Cévennes",
+              "les-vosges": "Les Vosges",
+              "le-jura": "Le Jura",
+              "le-vercors": "Le Vercors"
+            }
+          },
+          "photo-canigou": {
+            "prompt": "Quelle montagne, symbole des Catalans, voit-on ici ?",
+            "hint": "Elle domine la plaine du Roussillon.",
+            "anecdote": "Le Canigou s'élève à 2 784 mètres. Sa silhouette se voit de très loin, jusque depuis la mer.",
+            "answers": {
+              "le-canigou": "Le Canigou",
+              "le-mont-blanc": "Le mont Blanc",
+              "le-pic-du-midi-de-bigorre": "Le pic du Midi de Bigorre",
+              "le-mont-ventoux": "Le mont Ventoux"
+            }
+          },
+          "photo-gorges-tarn": {
+            "prompt": "Quelle rivière a creusé ces gorges en Lozère ?",
+            "hint": "Elle a donné son nom à un département voisin.",
+            "anecdote": "Les gorges du Tarn entaillent les causses calcaires sur plusieurs dizaines de kilomètres, entre hautes falaises et villages de pierre.",
+            "answers": {
+              "le-tarn": "Le Tarn",
+              "le-rhone": "Le Rhône",
+              "l-aude": "L'Aude",
+              "l-herault": "L'Hérault"
+            }
+          },
+          "aude-carcassonne": {
+            "prompt": "Quel fleuve traverse Carcassonne ?",
+            "hint": "Il a donné son nom au département.",
+            "anecdote": "L'Aude prend sa source dans les Pyrénées, passe à Carcassonne et rejoint la Méditerranée.",
+            "answers": {
+              "l-aude": "L'Aude",
+              "l-orb": "L'Orb",
+              "le-tarn": "Le Tarn",
+              "l-herault": "L'Hérault"
+            }
+          },
+          "rhone-gard": {
+            "prompt": "Quel grand fleuve marque la limite orientale du Gard ?",
+            "hint": "Il passe à Lyon, puis à Avignon.",
+            "anecdote": "Le Rhône sépare le Gard du Vaucluse et des Bouches-du-Rhône, avant de se jeter dans la Méditerranée.",
+            "answers": {
+              "le-rhone": "Le Rhône",
+              "la-loire": "La Loire",
+              "la-garonne": "La Garonne",
+              "la-seine": "La Seine"
+            }
+          },
+          "camargue": {
+            "prompt": "Quelle vaste zone humide s'étend en partie dans le sud du Gard ?",
+            "hint": "On y croise des chevaux blancs et des flamants roses.",
+            "anecdote": "La Camargue gardoise, autour d'Aigues-Mortes, prolonge le grand delta du Rhône.",
+            "answers": {
+              "la-camargue": "La Camargue",
+              "la-brenne": "La Brenne",
+              "la-sologne": "La Sologne",
+              "la-dombes": "La Dombes"
+            }
+          },
+          "etang-thau": {
+            "prompt": "Quel grand étang borde la ville de Sète ?",
+            "hint": "Bouzigues se trouve sur ses rives.",
+            "anecdote": "L'étang de Thau est le plus vaste étang du Languedoc. Il est réputé pour ses élevages d'huîtres et de moules.",
+            "answers": {
+              "l-etang-de-thau": "L'étang de Thau",
+              "l-etang-de-leucate": "L'étang de Leucate",
+              "l-etang-de-vaccares": "L'étang de Vaccarès",
+              "l-etang-de-berre": "L'étang de Berre"
+            }
+          },
+          "photo-pont-gard": {
+            "prompt": "Quel célèbre pont-aqueduc romain voit-on ici ?",
+            "hint": "Il enjambe le Gardon, entre Uzès et Nîmes.",
+            "anecdote": "Le pont du Gard, haut d'environ 49 mètres, faisait partie de l'aqueduc qui alimentait Nîmes en eau.",
+            "answers": {
+              "le-pont-du-gard": "Le pont du Gard",
+              "le-pont-valentre": "Le pont Valentré",
+              "le-pont-julien": "Le pont Julien",
+              "le-pont-du-diable": "Le pont du Diable"
+            }
+          },
+          "canal-midi": {
+            "prompt": "Quel canal relie Toulouse à la Méditerranée ?",
+            "hint": "Il porte le nom d'un point cardinal, à l'ancienne.",
+            "anecdote": "Achevé en 1681, le canal du Midi traverse l'Aude et l'Hérault jusqu'à l'étang de Thau.",
+            "answers": {
+              "le-canal-du-midi": "Le canal du Midi",
+              "le-canal-de-bourgogne": "Le canal de Bourgogne",
+              "le-canal-de-nantes-a-brest": "Le canal de Nantes à Brest",
+              "le-canal-de-la-marne-au-rhin": "Le canal de la Marne au Rhin"
+            }
+          },
+          "pays-cathare": {
+            "prompt": "Sous quel nom désigne-t-on souvent l'Aude et ses châteaux perchés ?",
+            "hint": "Ce nom rappelle un mouvement religieux du Moyen Âge.",
+            "anecdote": "Le Pays cathare est le nom de la marque touristique de l'Aude, qui réunit ses grands châteaux et ses abbayes.",
+            "answers": {
+              "le-pays-cathare": "Le Pays cathare",
+              "le-pays-basque": "Le Pays basque",
+              "le-pays-de-caux": "Le pays de Caux",
+              "le-pays-d-auge": "Le pays d'Auge"
+            }
+          },
+          "photo-maison-carree": {
+            "prompt": "Comment s'appelle ce temple romain de Nîmes ?",
+            "hint": "Son nom évoque une forme, alors que son plan est plutôt rectangulaire.",
+            "anecdote": "La Maison Carrée, élevée au début de notre ère, est l'un des temples romains les mieux conservés au monde.",
+            "answers": {
+              "la-maison-carree": "La Maison Carrée",
+              "le-pantheon": "Le Panthéon",
+              "le-capitole": "Le Capitole",
+              "le-temple-de-diane": "Le temple de Diane"
+            }
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs du Languedoc-Roussillon",
+          "description": "Cassoulet, brandade, tielle, pélardon et crème catalane : la table du territoire, ses produits et ses paysages de vigne.",
+          "photo-cassoulet": {
+            "prompt": "Quel plat de haricots blancs et de viandes, mijoté au four, voit-on ici ?",
+            "hint": "Son nom vient du plat de terre cuite dans lequel il est préparé.",
+            "anecdote": "Le cassoulet doit son nom à la cassole, le plat de terre cuite dans lequel il mijote longuement.",
+            "answers": {
+              "le-cassoulet": "Le cassoulet",
+              "l-aligot": "L'aligot",
+              "la-brandade": "La brandade",
+              "la-garbure": "La garbure"
+            }
+          },
+          "cassoulet-ville": {
+            "prompt": "Quelle ville de l'Aude se présente comme la capitale mondiale du cassoulet ?",
+            "hint": "Elle se trouve sur le canal du Midi, à l'ouest du département.",
+            "anecdote": "Castelnaudary, au bord du canal du Midi, a fait du cassoulet son emblème et lui consacre une grande fête chaque été."
+          },
+          "cassoulet-haricot": {
+            "prompt": "Quel légume sec fait la base du cassoulet ?",
+            "hint": "Il est blanc et de forme allongée.",
+            "anecdote": "Le haricot blanc cuit longuement avec du confit, de la saucisse et du porc, jusqu'à former une croûte dorée.",
+            "answers": {
+              "le-haricot": "Le haricot",
+              "la-lentille": "La lentille",
+              "le-pois-chiche": "Le pois chiche",
+              "la-feve": "La fève"
+            }
+          },
+          "carte-castelnaudary": {
+            "prompt": "Touchez sur la carte le département de Castelnaudary.",
+            "hint": "Sa préfecture est célèbre pour sa cité médiévale.",
+            "anecdote": "Castelnaudary se trouve dans l'ouest de l'Aude, sur le canal du Midi, entre Toulouse et Carcassonne."
+          },
+          "brandade-ville": {
+            "prompt": "Quelle ville du Gard a donné son nom à une célèbre brandade de morue ?",
+            "hint": "C'est la préfecture du département.",
+            "anecdote": "La brandade de Nîmes est une préparation de morue, d'huile d'olive et de lait. On raconte que la morue salée arrivait à Nîmes en échange du sel d'Aigues-Mortes."
+          },
+          "brandade-poisson": {
+            "prompt": "Quel poisson entre dans la brandade ?",
+            "hint": "On le pêche dans les mers froides, puis on le sale.",
+            "anecdote": "La morue est dessalée, cuite, puis travaillée avec de l'huile d'olive et du lait jusqu'à former une crème.",
+            "answers": {
+              "la-morue": "La morue",
+              "la-sardine": "La sardine",
+              "le-thon": "Le thon",
+              "le-maquereau": "Le maquereau"
+            }
+          },
+          "aligot": {
+            "prompt": "Quel plat filant de pommes de terre et de tomme fraîche est une spécialité de l'Aubrac ?",
+            "hint": "On le soulève très haut pour montrer qu'il file bien.",
+            "anecdote": "L'aligot aurait été servi aux pèlerins de passage sur l'Aubrac, avant de devenir le plat de fête de ces hautes terres.",
+            "answers": {
+              "l-aligot": "L'aligot",
+              "la-truffade": "La truffade",
+              "la-tartiflette": "La tartiflette",
+              "le-gratin-dauphinois": "Le gratin dauphinois"
+            }
+          },
+          "bouillinade": {
+            "prompt": "Quel plat catalan de poissons et de pommes de terre vient des pêcheurs de la Côte Vermeille ?",
+            "hint": "Son nom évoque ce qui bout dans la marmite.",
+            "anecdote": "La bouillinade réunit poissons de roche, pommes de terre, ail et piment. Elle était préparée par les pêcheurs de Banyuls et de Collioure.",
+            "answers": {
+              "la-bouillinade": "La bouillinade",
+              "la-cotriade": "La cotriade",
+              "la-soupe-au-pistou": "La soupe au pistou",
+              "la-paella": "La paella"
+            }
+          },
+          "cargolade": {
+            "prompt": "Quel plat catalan repose sur des escargots grillés sur la braise ?",
+            "hint": "Le mot catalan cargol désigne l'escargot.",
+            "anecdote": "La cargolade est un repas de fête en plein air. Les escargots y sont grillés sur un feu de sarments.",
+            "answers": {
+              "la-cargolade": "La cargolade",
+              "l-escalivade": "L'escalivade",
+              "l-ollada": "L'ollada",
+              "la-fideua": "La fideuà"
+            }
+          },
+          "petits-pates": {
+            "prompt": "Quelle ville de l'Hérault est réputée pour ses petits pâtés sucrés et salés au mouton ?",
+            "hint": "Cette ville accueillait autrefois les États du Languedoc.",
+            "anecdote": "La recette des petits pâtés de Pézenas serait née au XVIIIe siècle, lors du séjour de Lord Clive et de ses cuisiniers indiens."
+          },
+          "tielle-ville": {
+            "prompt": "Quel port de l'Hérault a fait de la tielle sa grande spécialité ?",
+            "hint": "Ce port s'étend entre la mer et l'étang de Thau.",
+            "anecdote": "La tielle est arrivée à Sète avec des pêcheurs venus de Gaète, en Italie, à la fin du XIXe siècle.",
+            "answers": {
+              "palavas-les-flots": "Palavas-les-Flots"
+            }
+          },
+          "tielle-garniture": {
+            "prompt": "Quel ingrédient garnit traditionnellement la tielle ?",
+            "hint": "Cet animal marin a huit bras.",
+            "anecdote": "La tielle est une petite tourte garnie de poulpe, avec une sauce à la tomate relevée de piment.",
+            "answers": {
+              "le-poulpe": "Le poulpe",
+              "la-sardine": "La sardine",
+              "la-moule": "La moule",
+              "le-saumon": "Le saumon"
+            }
+          },
+          "photo-thau-huitres": {
+            "prompt": "Dans quel étang ces tables servent-elles à élever les huîtres de Bouzigues ?",
+            "hint": "Il borde la ville de Sète.",
+            "anecdote": "Les huîtres de l'étang de Thau grandissent suspendues à des cordes, sous de grandes tables fixées dans l'eau.",
+            "answers": {
+              "l-etang-de-thau": "L'étang de Thau",
+              "l-etang-de-leucate": "L'étang de Leucate",
+              "l-etang-de-vaccares": "L'étang de Vaccarès",
+              "l-etang-de-bages": "L'étang de Bages"
+            }
+          },
+          "carte-bouzigues": {
+            "prompt": "Touchez sur la carte le département de Bouzigues, village des huîtres.",
+            "hint": "Sa préfecture est Montpellier.",
+            "anecdote": "Bouzigues se trouve dans l'Hérault, sur la rive nord de l'étang de Thau, face à Sète."
+          },
+          "anchois": {
+            "prompt": "Quel port catalan est réputé pour ses anchois salés ?",
+            "hint": "Son clocher au bord de l'eau est très connu.",
+            "anecdote": "Les ateliers de Collioure préparent encore les anchois au sel, selon une tradition ancienne de la Côte Vermeille.",
+            "answers": {
+              "gruissan": "Gruissan"
+            }
+          },
+          "bourride": {
+            "prompt": "Quel poisson entre traditionnellement dans la bourride sétoise ?",
+            "hint": "C'est un poisson à la grosse tête, dont on mange surtout la queue.",
+            "anecdote": "La bourride sétoise associe la lotte à une sauce à l'aïoli.",
+            "answers": {
+              "la-lotte": "La lotte",
+              "le-thon": "Le thon",
+              "le-cabillaud": "Le cabillaud",
+              "la-raie": "La raie"
+            }
+          },
+          "macaronade": {
+            "prompt": "De quel pays sont venus les pêcheurs qui ont apporté la macaronade à Sète ?",
+            "hint": "Son nom fait penser à des pâtes.",
+            "anecdote": "La macaronade, faite de pâtes et d'une sauce tomate aux viandes, rappelle les familles italiennes installées à Sète.",
+            "answers": {
+              "l-italie": "L'Italie",
+              "l-espagne": "L'Espagne",
+              "la-grece": "La Grèce",
+              "le-portugal": "Le Portugal"
+            }
+          },
+          "sel-aigues-mortes": {
+            "prompt": "Que récolte-t-on dans les grands marais proches d'Aigues-Mortes ?",
+            "hint": "Il finit sur toutes les tables.",
+            "anecdote": "Les salins d'Aigues-Mortes font partie des plus grands de Méditerranée. Les algues et certaines bactéries y teintent l'eau de rose.",
+            "answers": {
+              "le-sel": "Le sel",
+              "le-ble": "Le blé",
+              "la-lavande": "La lavande",
+              "l-algue-spiruline": "L'algue spiruline"
+            }
+          },
+          "pelardon-lait": {
+            "prompt": "De quel lait le pélardon des Cévennes est-il fait ?",
+            "hint": "Cet animal aime grimper sur les pentes.",
+            "anecdote": "Le pélardon est un petit fromage rond au lait de chèvre, protégé par une appellation d'origine.",
+            "answers": {
+              "de-chevre": "De chèvre",
+              "de-vache": "De vache",
+              "de-brebis": "De brebis",
+              "de-bufflonne": "De bufflonne"
+            }
+          },
+          "photo-pelardon": {
+            "prompt": "Comment s'appelle ce petit fromage de chèvre des Cévennes ?",
+            "hint": "Il bénéficie d'une appellation d'origine propre aux Cévennes et au Languedoc.",
+            "anecdote": "Le pélardon est produit dans les Cévennes et une partie du Languedoc. Il se déguste frais ou affiné.",
+            "answers": {
+              "le-pelardon": "Le pélardon",
+              "le-chaource": "Le chaource",
+              "le-banon": "Le banon",
+              "le-picodon": "Le picodon"
+            }
+          },
+          "oignon-doux": {
+            "prompt": "Quel légume doux, cultivé en terrasses, fait la réputation des Cévennes ?",
+            "hint": "Il ne fait pas beaucoup pleurer.",
+            "anecdote": "L'oignon doux des Cévennes pousse sur des terrasses de pierre sèche, les bancels, et bénéficie d'une appellation d'origine.",
+            "answers": {
+              "l-oignon": "L'oignon",
+              "le-poireau": "Le poireau",
+              "le-navet": "Le navet",
+              "la-carotte": "La carotte"
+            }
+          },
+          "chataignier": {
+            "prompt": "Quel arbre surnommait-on l'arbre à pain dans les Cévennes ?",
+            "hint": "Ses fruits, très nourrissants, se cachent dans une bogue piquante.",
+            "anecdote": "Le châtaignier a longtemps nourri les familles cévenoles. Son bois servait aussi à la construction.",
+            "answers": {
+              "le-chataignier": "Le châtaignier",
+              "le-chene": "Le chêne",
+              "le-noyer": "Le noyer",
+              "le-figuier": "Le figuier"
+            }
+          },
+          "abricot": {
+            "prompt": "Quel fruit, dit rouge du Roussillon, a reçu une appellation d'origine ?",
+            "hint": "Son noyau est lisse et sa chair orangée.",
+            "anecdote": "L'abricot rouge du Roussillon pousse notamment dans les vallées de la Têt et de l'Agly.",
+            "answers": {
+              "l-abricot": "L'abricot",
+              "la-poire": "La poire",
+              "la-prune": "La prune",
+              "le-kiwi": "Le kiwi"
+            }
+          },
+          "cerises-ceret": {
+            "prompt": "Quel fruit de Céret, parmi les premiers de la saison, est envoyé chaque année au président de la République ?",
+            "hint": "Il pousse par deux, au bout d'une longue queue.",
+            "anecdote": "Depuis 1932, les producteurs de Céret envoient au président de la République une caissette des premières cerises de l'année.",
+            "answers": {
+              "la-cerise": "La cerise",
+              "la-peche": "La pêche",
+              "la-fraise": "La fraise",
+              "l-abricot": "L'abricot"
+            }
+          },
+          "bleu-causses": {
+            "prompt": "De quel lait le bleu des Causses est-il fait ?",
+            "hint": "Ce n'est pas celui du roquefort, son célèbre voisin.",
+            "anecdote": "Le bleu des Causses est un fromage au lait de vache, affiné dans des caves naturelles creusées dans le calcaire.",
+            "answers": {
+              "de-vache": "De vache",
+              "de-brebis": "De brebis",
+              "de-chevre": "De chèvre",
+              "de-bufflonne": "De bufflonne"
+            }
+          },
+          "photo-aubrac": {
+            "prompt": "Quelle race de vaches aux yeux noirs et à la robe fauve porte le nom de ce plateau, situé en partie en Lozère ?",
+            "hint": "Le plateau a donné son nom à la race.",
+            "anecdote": "La race Aubrac est une vache rustique, à la robe fauve et aux yeux soulignés de noir. Elle monte sur les estives à la fin du printemps.",
+            "answers": {
+              "l-aubrac": "L'Aubrac",
+              "la-charolaise": "La charolaise",
+              "la-salers": "La salers",
+              "la-limousine": "La limousine"
+            }
+          },
+          "creme-catalane": {
+            "prompt": "Quel dessert à la surface caramélisée est parfumé au citron et à la cannelle ?",
+            "hint": "Son nom indique son origine.",
+            "anecdote": "La crème catalane, parfumée au citron et à la cannelle, est caramélisée au dernier moment avec un fer brûlant.",
+            "answers": {
+              "la-creme-catalane": "La crème catalane",
+              "l-ile-flottante": "L'île flottante",
+              "le-tiramisu": "Le tiramisu",
+              "la-panna-cotta": "La panna cotta"
+            }
+          },
+          "oreillettes": {
+            "prompt": "Quelles fines pâtisseries frites sont préparées pour Carnaval en Languedoc ?",
+            "hint": "Leur nom évoque une partie du visage.",
+            "anecdote": "Les oreillettes sont de fines lamelles de pâte frites, parfumées selon les familles au citron, à l'orange ou à l'anis.",
+            "answers": {
+              "les-oreillettes": "Les oreillettes",
+              "les-eclairs": "Les éclairs",
+              "les-canneles": "Les cannelés",
+              "les-madeleines": "Les madeleines"
+            }
+          },
+          "rousquilles": {
+            "prompt": "Quel biscuit catalan en forme d'anneau est recouvert d'un glaçage blanc ?",
+            "hint": "C'est une spécialité du Vallespir, en pays catalan.",
+            "anecdote": "La rousquille est une spécialité du Vallespir : un petit biscuit tendre, en anneau, parfumé et couvert de glaçage.",
+            "answers": {
+              "la-rousquille": "La rousquille",
+              "le-canistrelli": "Le canistrelli",
+              "la-navette": "La navette",
+              "le-calisson": "Le calisson"
+            }
+          },
+          "touron": {
+            "prompt": "Quelle confiserie catalane d'amandes et de miel ressemble au nougat ?",
+            "hint": "On la découpe souvent à la pesée, sur les marchés de fin d'année.",
+            "anecdote": "Le touron est une pâte d'amandes et de miel, très présente dans le Roussillon et de l'autre côté des Pyrénées.",
+            "answers": {
+              "le-touron": "Le touron",
+              "le-calisson": "Le calisson",
+              "le-berlingot": "Le berlingot",
+              "la-praline": "La praline"
+            }
+          },
+          "croquants": {
+            "prompt": "Quel biscuit sec aux amandes fait la réputation de la maison Villaret, à Nîmes ?",
+            "hint": "Son nom dit bien comment il se mange.",
+            "anecdote": "La maison Villaret, fondée en 1775, est réputée pour ces fins biscuits très secs, aux amandes et au sucre.",
+            "answers": {
+              "le-croquant": "Le croquant",
+              "le-macaron": "Le macaron",
+              "le-palet": "Le palet",
+              "la-madeleine": "La madeleine"
+            }
+          },
+          "grisettes": {
+            "prompt": "Quels petits bonbons au miel et à la réglisse sont une spécialité de Montpellier ?",
+            "hint": "Leur nom évoque leur couleur.",
+            "anecdote": "Les grisettes de Montpellier sont de petites billes au miel et à la réglisse, liées depuis longtemps à la ville.",
+            "answers": {
+              "les-grisettes": "Les grisettes",
+              "les-betises": "Les bêtises",
+              "les-bergamotes": "Les bergamotes",
+              "les-pastilles": "Les pastilles"
+            }
+          },
+          "photo-banyuls": {
+            "prompt": "Quel vignoble catalan s'accroche à ces terrasses, au-dessus de la Méditerranée ?",
+            "hint": "Il porte le nom d'une station de la Côte Vermeille.",
+            "anecdote": "Le vignoble de Banyuls s'accroche à des terrasses de schiste. Des murets et des rigoles y retiennent la terre lors des orages.",
+            "answers": {
+              "banyuls": "Banyuls",
+              "cahors": "Cahors",
+              "sancerre": "Sancerre",
+              "chablis": "Chablis"
+            }
+          },
+          "rivesaltes": {
+            "prompt": "Quel vin doux naturel porte le nom d'une ville des Pyrénées-Orientales, au nord de Perpignan ?",
+            "hint": "Le maréchal Joffre est né dans cette ville.",
+            "anecdote": "Le Rivesaltes est un vin doux naturel du Roussillon, élaboré à partir de grenache et de muscat notamment.",
+            "answers": {
+              "le-rivesaltes": "Le rivesaltes",
+              "le-pomerol": "Le pomerol",
+              "le-sancerre": "Le sancerre",
+              "le-gigondas": "Le gigondas"
+            }
+          },
+          "limoux": {
+            "prompt": "Quelle ville de l'Aude a donné son nom à une blanquette, liée à l'abbaye de Saint-Hilaire ?",
+            "hint": "C'est une sous-préfecture de l'Aude, connue aussi pour son carnaval.",
+            "anecdote": "Selon la tradition, des moines de l'abbaye de Saint-Hilaire auraient observé la prise de mousse de ce vin dès le XVIe siècle."
+          },
+          "corbieres": {
+            "prompt": "Quel grand vignoble de l'Aude porte le nom d'un massif aride, semé de châteaux ?",
+            "hint": "Peyrepertuse et Quéribus se dressent dans ce massif.",
+            "anecdote": "Les Corbières s'étendent entre Carcassonne, Narbonne et la frontière du Roussillon. Vignes et garrigue y dominent.",
+            "answers": {
+              "les-corbieres": "Les Corbières",
+              "le-jura": "Le Jura",
+              "le-medoc": "Le Médoc",
+              "la-bourgogne": "La Bourgogne"
+            }
+          },
+          "minerve": {
+            "prompt": "Quel village perché de l'Hérault a donné son nom au vignoble du Minervois ?",
+            "hint": "Son nom est aussi celui d'une déesse romaine.",
+            "anecdote": "Minerve se dresse sur un éperon rocheux, entre deux gorges. C'était autrefois la capitale du Minervois.",
+            "answers": {
+              "olonzac": "Olonzac",
+              "saint-chinian": "Saint-Chinian"
+            }
+          },
+          "picpoul": {
+            "prompt": "Près de quel étang s'étend le vignoble du picpoul de Pinet ?",
+            "hint": "Il borde aussi Sète.",
+            "anecdote": "Le picpoul de Pinet est un vignoble de blanc, planté sur les pentes qui dominent l'étang de Thau.",
+            "answers": {
+              "l-etang-de-thau": "L'étang de Thau",
+              "l-etang-de-salses": "L'étang de Salses",
+              "l-etang-de-vaccares": "L'étang de Vaccarès",
+              "l-etang-de-bages": "L'étang de Bages"
+            }
+          },
+          "muscat": {
+            "prompt": "Quel cépage a fait la réputation de Frontignan et de Lunel ?",
+            "hint": "Son raisin a un goût très parfumé, que l'on retrouve dans le vin.",
+            "anecdote": "Le muscat à petits grains donne à Frontignan et à Lunel des vins doux naturels de très longue tradition.",
+            "answers": {
+              "le-muscat": "Le muscat",
+              "le-merlot": "Le merlot",
+              "le-riesling": "Le riesling",
+              "le-pinot-noir": "Le pinot noir"
+            }
+          },
+          "phylloxera": {
+            "prompt": "Quel puceron venu d'Amérique, repéré dans le Gard vers 1863, a ravagé le vignoble français ?",
+            "hint": "Il s'attaque aux racines de la vigne.",
+            "anecdote": "Le phylloxéra a détruit une grande partie du vignoble. La solution est venue du greffage sur des plants américains, plus résistants.",
+            "answers": {
+              "le-phylloxera": "Le phylloxéra",
+              "le-mildiou": "Le mildiou",
+              "le-doryphore": "Le doryphore",
+              "l-oidium": "L'oïdium"
+            }
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "La cité de Carcassonne, Nîmes la romaine, le pont du Gard, le canal du Midi et les forteresses du territoire.",
+          "carcassonne-unesco": {
+            "prompt": "En quelle année la cité de Carcassonne a-t-elle été inscrite au patrimoine mondial ?",
+            "hint": "C'était à la fin du XXe siècle.",
+            "anecdote": "La cité historique fortifiée de Carcassonne est inscrite au patrimoine mondial de l'Unesco depuis 1997.",
+            "answers": {
+              "1975": "1975",
+              "1997": "1997",
+              "2005": "2005",
+              "2015": "2015"
+            }
+          },
+          "viollet-le-duc": {
+            "prompt": "Quel architecte a dirigé la restauration de la cité de Carcassonne au XIXe siècle ?",
+            "hint": "Il a aussi travaillé sur Notre-Dame de Paris.",
+            "anecdote": "Eugène Viollet-le-Duc a lancé la restauration en 1853. Ses toits d'ardoise à l'allure du Nord ont fait débat.",
+            "answers": {
+              "eugene-viollet-le-duc": "Eugène Viollet-le-Duc",
+              "vauban": "Vauban",
+              "le-baron-haussmann": "Le baron Haussmann",
+              "gustave-eiffel": "Gustave Eiffel"
+            }
+          },
+          "carcassonne-enceintes": {
+            "prompt": "Combien d'enceintes entourent la cité de Carcassonne ?",
+            "hint": "Un espace, appelé les lices, les sépare.",
+            "anecdote": "Une double enceinte, longue de près de trois kilomètres au total, entoure la cité. Les lices s'étendent entre les deux murailles.",
+            "answers": {
+              "deux": "Deux",
+              "une": "Une",
+              "quatre": "Quatre",
+              "six": "Six"
+            }
+          },
+          "carte-carcassonne": {
+            "prompt": "Touchez sur la carte le département de la cité de Carcassonne.",
+            "hint": "Il porte le nom du fleuve qui passe au pied de la cité.",
+            "anecdote": "Carcassonne est la préfecture de l'Aude, entre la Montagne Noire et les Corbières."
+          },
+          "maison-carree-dediee": {
+            "prompt": "À qui la Maison Carrée de Nîmes a-t-elle été dédiée ?",
+            "hint": "Il s'agit de deux jeunes princes de la famille d'un empereur.",
+            "anecdote": "Le temple a été dédié à Caius et Lucius César, petits-fils et fils adoptifs d'Auguste. Il est inscrit au patrimoine mondial depuis 2023.",
+            "answers": {
+              "aux-petits-fils-d-auguste": "Aux petits-fils d'Auguste",
+              "a-jules-cesar": "À Jules César",
+              "a-neron": "À Néron",
+              "a-hadrien": "À Hadrien"
+            }
+          },
+          "photo-tour-magne": {
+            "prompt": "Comment s'appelle cette tour romaine qui domine Nîmes ?",
+            "hint": "Son nom signifie la grande.",
+            "anecdote": "La tour Magne appartenait à l'enceinte romaine de Nîmes. Elle se dresse au sommet du mont Cavalier.",
+            "answers": {
+              "la-tour-magne": "La tour Magne",
+              "la-tour-de-constance": "La tour de Constance",
+              "la-tour-philippe-le-bel": "La tour Philippe-le-Bel",
+              "la-tour-fenestrelle": "La tour Fenestrelle"
+            }
+          },
+          "arenes-places": {
+            "prompt": "Combien de spectateurs les arènes de Nîmes pouvaient-elles accueillir à l'époque romaine ?",
+            "hint": "Le chiffre dépasse largement dix mille.",
+            "anecdote": "L'amphithéâtre pouvait recevoir environ 24 000 spectateurs, répartis sur des gradins selon leur rang social.",
+            "answers": {
+              "environ-24-000": "Environ 24 000",
+              "environ-2-000": "Environ 2 000",
+              "environ-8-000": "Environ 8 000",
+              "environ-100-000": "Environ 100 000"
+            }
+          },
+          "crocodile": {
+            "prompt": "Quel animal, enchaîné à un palmier, figure sur les armes de Nîmes ?",
+            "hint": "Il rappelle la conquête de l'Égypte, sous Auguste.",
+            "anecdote": "Le crocodile vient d'une monnaie romaine frappée à Nîmes, qui célébrait la victoire sur l'Égypte.",
+            "answers": {
+              "le-crocodile": "Le crocodile",
+              "le-lion": "Le lion",
+              "le-taureau": "Le taureau",
+              "l-aigle": "L'aigle"
+            }
+          },
+          "photo-jardins-fontaine": {
+            "prompt": "À quel siècle ces jardins de la Fontaine ont-ils été aménagés à Nîmes ?",
+            "hint": "C'est celui des Lumières.",
+            "anecdote": "Aménagés au XVIIIe siècle autour d'une source antique, ils sont présentés comme l'un des premiers jardins publics d'Europe.",
+            "answers": {
+              "au-xviiie-siecle": "Au XVIIIe siècle",
+              "au-xiie-siecle": "Au XIIe siècle",
+              "au-xve-siecle": "Au XVe siècle",
+              "au-xxe-siecle": "Au XXe siècle"
+            }
+          },
+          "gardon": {
+            "prompt": "Quelle rivière le pont du Gard franchit-il ?",
+            "hint": "Son nom ressemble à celui du département.",
+            "anecdote": "Le pont du Gard enjambe le Gardon, près de Vers-Pont-du-Gard et de Remoulins.",
+            "answers": {
+              "le-gardon": "Le Gardon",
+              "l-herault": "L'Hérault",
+              "le-rhone": "Le Rhône",
+              "la-ceze": "La Cèze"
+            }
+          },
+          "pont-gard-etages": {
+            "prompt": "Combien d'étages d'arches compte le pont du Gard ?",
+            "hint": "Autant que les coups qui précèdent le lever de rideau au théâtre.",
+            "anecdote": "Les trois étages superposés portent, tout en haut, le canal de l'aqueduc. Le monument est inscrit à l'Unesco depuis 1985.",
+            "answers": {
+              "trois": "Trois",
+              "deux": "Deux",
+              "quatre": "Quatre",
+              "cinq": "Cinq"
+            }
+          },
+          "pont-gard-source": {
+            "prompt": "Près de quelle ville se trouve la source captée par l'aqueduc du pont du Gard ?",
+            "hint": "Cette ville du Gard se présente comme le premier duché de France.",
+            "anecdote": "L'aqueduc conduisait l'eau d'une source proche d'Uzès jusqu'à Nîmes, sur environ 50 kilomètres."
+          },
+          "photo-uzes": {
+            "prompt": "Quelle ville du Gard, connue comme le premier duché de France, voit-on ici ?",
+            "hint": "Son château ducal s'appelle le Duché.",
+            "anecdote": "La ville d'Uzès garde son château ducal, le Duché, sa tour Fenestrelle et ses places à arcades."
+          },
+          "tour-constance": {
+            "prompt": "Quelle tour d'Aigues-Mortes a servi de prison à des protestantes au XVIIIe siècle ?",
+            "hint": "Son nom est aussi un prénom féminin.",
+            "anecdote": "La tour de Constance, élevée au XIIIe siècle, a enfermé de nombreuses protestantes, parmi lesquelles Marie Durand.",
+            "answers": {
+              "la-tour-de-constance": "La tour de Constance",
+              "la-tour-magne": "La tour Magne",
+              "la-tour-fenestrelle": "La tour Fenestrelle",
+              "la-tour-barberousse": "La tour Barberousse"
+            }
+          },
+          "saint-louis": {
+            "prompt": "Quel roi de France a embarqué à Aigues-Mortes pour la croisade, en 1248 ?",
+            "hint": "Il a été canonisé.",
+            "anecdote": "Louis IX, Saint Louis, a pris la mer à Aigues-Mortes en 1248, puis en 1270 pour sa dernière croisade.",
+            "answers": {
+              "louis-ix": "Louis IX",
+              "philippe-le-bel": "Philippe le Bel",
+              "francois-ier": "François Ier",
+              "henri-iv": "Henri IV"
+            }
+          },
+          "faculte-medecine": {
+            "prompt": "Quelle faculté de Montpellier est connue pour être très ancienne et toujours en activité ?",
+            "hint": "On y soigne d'abord le corps.",
+            "anecdote": "L'école de médecine de Montpellier a reçu ses premiers statuts en 1220. Elle continue de former des médecins aujourd'hui.",
+            "answers": {
+              "la-faculte-de-medecine": "La faculté de médecine",
+              "la-faculte-de-droit": "La faculté de droit",
+              "la-faculte-de-lettres": "La faculté de lettres",
+              "la-faculte-de-pharmacie": "La faculté de pharmacie"
+            }
+          },
+          "photo-peyrou": {
+            "prompt": "Quel roi est représenté à cheval sur la promenade du Peyrou, à Montpellier ?",
+            "hint": "C'est le Roi-Soleil.",
+            "anecdote": "La statue équestre de Louis XIV domine la promenade, près du château d'eau et de l'aqueduc Saint-Clément.",
+            "answers": {
+              "louis-xiv": "Louis XIV",
+              "henri-iv": "Henri IV",
+              "napoleon-ier": "Napoléon Ier",
+              "francois-ier": "François Ier"
+            }
+          },
+          "antigone": {
+            "prompt": "Quel architecte catalan a conçu le quartier Antigone de Montpellier ?",
+            "hint": "Il est né à Barcelone en 1939.",
+            "anecdote": "Ricardo Bofill a dessiné Antigone dans les années 1980, en mêlant logements sociaux et grandes façades d'inspiration antique.",
+            "answers": {
+              "ricardo-bofill": "Ricardo Bofill",
+              "le-corbusier": "Le Corbusier",
+              "jean-nouvel": "Jean Nouvel",
+              "oscar-niemeyer": "Oscar Niemeyer"
+            }
+          },
+          "photo-fonserannes": {
+            "prompt": "Comment s'appelle cet ensemble d'écluses du canal du Midi, près de Béziers ?",
+            "hint": "On l'appelle parfois les neuf écluses.",
+            "anecdote": "Les écluses de Fonseranes, huit bassins et neuf portes, permettent aux bateaux de franchir une vingtaine de mètres de dénivelé, sur environ 300 mètres.",
+            "answers": {
+              "fonseranes": "Fonseranes",
+              "naurouze": "Naurouze",
+              "malpas": "Malpas",
+              "le-somail": "Le Somail"
+            }
+          },
+          "riquet": {
+            "prompt": "Qui a conçu le canal du Midi ?",
+            "hint": "Il est né à Béziers et a sa statue sur les allées de la ville.",
+            "anecdote": "Pierre-Paul Riquet, collecteur d'impôts, a porté ce projet. Il est mort en 1680, quelques mois avant la mise en service complète.",
+            "answers": {
+              "pierre-paul-riquet": "Pierre-Paul Riquet",
+              "vauban": "Vauban",
+              "colbert": "Colbert",
+              "sully": "Sully"
+            }
+          },
+          "malpas": {
+            "prompt": "Quel est le grand exploit du Malpas, sur le canal du Midi ?",
+            "hint": "Les bateaux y perdent de vue le ciel.",
+            "anecdote": "Creusé sous la colline d'Ensérune, le tunnel du Malpas est présenté comme le premier tunnel de canal en Europe.",
+            "answers": {
+              "un-tunnel": "Un tunnel",
+              "un-pont-suspendu": "Un pont suspendu",
+              "un-ascenseur-a-bateaux": "Un ascenseur à bateaux",
+              "une-ecluse-de-40-metres": "Une écluse de 40 mètres"
+            }
+          },
+          "photo-archeveques": {
+            "prompt": "Quel monument de Narbonne, qui abrite l'hôtel de ville et des musées, voit-on ici ?",
+            "hint": "De puissants hommes d'Église y vivaient.",
+            "anecdote": "Le palais des Archevêques réunit le Palais-Vieux et le Palais-Neuf, avec le donjon Gilles-Aycelin.",
+            "answers": {
+              "le-palais-des-archeveques": "Le palais des Archevêques",
+              "le-palais-des-papes": "Le palais des Papes",
+              "le-palais-des-rois-de-majorque": "Le palais des rois de Majorque",
+              "le-palais-du-tau": "Le palais du Tau"
+            }
+          },
+          "saint-just": {
+            "prompt": "Quelle est la particularité de la cathédrale Saint-Just-et-Saint-Pasteur de Narbonne ?",
+            "hint": "Les travaux se sont arrêtés au XIVe siècle.",
+            "anecdote": "Le chœur gothique, très élevé, a bien été achevé, mais la nef n'a jamais été construite.",
+            "answers": {
+              "sa-nef-n-a-jamais-ete-batie": "Sa nef n'a jamais été bâtie",
+              "elle-est-creusee-dans-la-roche": "Elle est creusée dans la roche",
+              "elle-est-faite-de-briques": "Elle est faite de briques",
+              "elle-est-toute-en-bois": "Elle est toute en bois"
+            }
+          },
+          "narbonnaise": {
+            "prompt": "Quelle cité romaine, fondée en 118 avant notre ère, a donné son nom à une grande province de Gaule ?",
+            "hint": "Cette ville de l'Aude est proche de la Méditerranée.",
+            "anecdote": "Fondée en 118 avant notre ère, Narbonne a donné son nom à la Gaule narbonnaise, l'une des grandes provinces romaines."
+          },
+          "photo-majorque": {
+            "prompt": "Quel palais domine ainsi Perpignan, souvenir d'un royaume médiéval ?",
+            "hint": "Ce royaume porte le nom d'une île des Baléares.",
+            "anecdote": "Le palais des rois de Majorque a été commencé à la fin du XIIIe siècle, quand Perpignan était une capitale continentale de ce royaume.",
+            "answers": {
+              "le-palais-des-rois-de-majorque": "Le palais des rois de Majorque",
+              "le-palais-des-papes": "Le palais des Papes",
+              "le-palais-des-archeveques": "Le palais des Archevêques",
+              "le-palais-des-ducs": "Le palais des Ducs"
+            }
+          },
+          "rigaud": {
+            "prompt": "Quel peintre né à Perpignan a réalisé le célèbre portrait de Louis XIV en costume de sacre ?",
+            "hint": "Le musée d'art de Perpignan porte son nom.",
+            "anecdote": "Hyacinthe Rigaud a peint ce portrait en 1701. Il est aujourd'hui exposé au musée du Louvre.",
+            "answers": {
+              "hyacinthe-rigaud": "Hyacinthe Rigaud",
+              "nicolas-poussin": "Nicolas Poussin",
+              "charles-le-brun": "Charles Le Brun",
+              "jean-auguste-dominique-ingres": "Jean-Auguste-Dominique Ingres"
+            }
+          },
+          "photo-villefranche": {
+            "prompt": "Quel ingénieur de Louis XIV a renforcé les remparts de Villefranche-de-Conflent ?",
+            "hint": "Il a fortifié les frontières du royaume, de Lille à Briançon.",
+            "anecdote": "Vauban a renforcé la cité et fait bâtir le fort Libéria. L'ensemble est inscrit au patrimoine mondial depuis 2008.",
+            "answers": {
+              "vauban": "Vauban",
+              "viollet-le-duc": "Viollet-le-Duc",
+              "colbert": "Colbert",
+              "pierre-paul-riquet": "Pierre-Paul Riquet"
+            }
+          },
+          "photo-salses": {
+            "prompt": "Quelle forteresse, élevée vers 1500 sur la frontière d'alors, voit-on ici ?",
+            "hint": "Elle se trouve au nord de Perpignan, près d'un grand étang.",
+            "anecdote": "La forteresse de Salses a été bâtie pour le roi d'Aragon, Ferdinand le Catholique. Elle est adaptée à l'artillerie, avec des murs épais et bas.",
+            "answers": {
+              "salses": "Salses",
+              "peyrepertuse": "Peyrepertuse",
+              "queribus": "Quéribus"
+            }
+          },
+          "photo-peyrepertuse": {
+            "prompt": "Quel château, perché sur une crête des Corbières, voit-on ici ?",
+            "hint": "Son nom signifie la pierre percée.",
+            "anecdote": "Peyrepertuse étire ses murs sur une longue crête rocheuse, à près de 800 mètres d'altitude.",
+            "answers": {
+              "peyrepertuse": "Peyrepertuse",
+              "montsegur": "Montségur",
+              "foix": "Foix",
+              "salses": "Salses"
+            }
+          },
+          "queribus": {
+            "prompt": "Quel château des Corbières est considéré comme l'un des derniers refuges cathares, tombé en 1255 ?",
+            "hint": "Son donjon se dresse sur un piton, tout près du Roussillon.",
+            "anecdote": "La chute de Quéribus, en 1255, est souvent présentée comme la fin de la résistance cathare, après celle de Montségur en 1244.",
+            "answers": {
+              "queribus": "Quéribus",
+              "peyrepertuse": "Peyrepertuse",
+              "salses": "Salses"
+            }
+          },
+          "fauvisme": {
+            "prompt": "Quel courant de peinture Matisse et Derain ont-ils développé à Collioure, en 1905 ?",
+            "hint": "Son nom évoque des bêtes sauvages.",
+            "anecdote": "Pendant l'été 1905, Matisse et Derain ont peint Collioure dans des couleurs très vives. Au Salon d'automne, un critique les a traités de fauves.",
+            "answers": {
+              "le-fauvisme": "Le fauvisme",
+              "le-cubisme": "Le cubisme",
+              "le-pointillisme": "Le pointillisme",
+              "le-surrealisme": "Le surréalisme"
+            }
+          },
+          "cimetiere-marin": {
+            "prompt": "Quel poème de Paul Valéry s'inspire de sa ville natale, Sète ?",
+            "hint": "Il évoque un lieu de repos face à la mer.",
+            "anecdote": "Publié en 1920, Le Cimetière marin s'inspire de ce lieu, sur le mont Saint-Clair, face à la mer. Valéry y est enterré.",
+            "answers": {
+              "le-cimetiere-marin": "Le Cimetière marin",
+              "le-bateau-ivre": "Le Bateau ivre",
+              "le-lac": "Le Lac",
+              "l-albatros": "L'Albatros"
+            }
+          },
+          "brassens": {
+            "prompt": "Quel chanteur, né à Sète, a écrit Supplique pour être enterré à la plage de Sète ?",
+            "hint": "Il chantait en s'accompagnant à la guitare, avec une moustache et une pipe.",
+            "anecdote": "Georges Brassens est né à Sète en 1921 et y est enterré. Un espace lui est consacré dans la ville.",
+            "answers": {
+              "georges-brassens": "Georges Brassens",
+              "charles-trenet": "Charles Trenet",
+              "leo-ferre": "Léo Ferré",
+              "jacques-brel": "Jacques Brel"
+            }
+          },
+          "moliere": {
+            "prompt": "Quel dramaturge a séjourné à Pézenas avec sa troupe, au XVIIe siècle ?",
+            "hint": "Il est l'auteur du Malade imaginaire.",
+            "anecdote": "La troupe de Molière a joué plusieurs fois à Pézenas, alors ville des États du Languedoc, dans les années 1650.",
+            "answers": {
+              "moliere": "Molière",
+              "racine": "Racine",
+              "corneille": "Corneille",
+              "beaumarchais": "Beaumarchais"
+            }
+          },
+          "photo-gellone": {
+            "prompt": "Quelle abbaye a fait naître ce village de Saint-Guilhem-le-Désert ?",
+            "hint": "Elle a été fondée par un compagnon de Charlemagne, en 804.",
+            "anecdote": "L'abbaye de Gellone se trouve sur l'un des chemins de Compostelle, et le village a pris le nom de son fondateur, Guilhem.",
+            "answers": {
+              "l-abbaye-de-gellone": "L'abbaye de Gellone",
+              "l-abbaye-de-clairvaux": "L'abbaye de Clairvaux",
+              "l-abbaye-de-fontevraud": "L'abbaye de Fontevraud",
+              "l-abbaye-de-citeaux": "L'abbaye de Cîteaux"
+            }
+          },
+          "photo-mende": {
+            "prompt": "Quel pape, originaire du Gévaudan, a fait construire cette cathédrale de Mende ?",
+            "hint": "Il a été pape à Avignon, au XIVe siècle.",
+            "anecdote": "Urbain V, né Guillaume de Grimoard en Lozère, a lancé le chantier en 1368 pour honorer sa terre natale.",
+            "answers": {
+              "urbain-v": "Urbain V",
+              "clement-v": "Clément V",
+              "jean-xxii": "Jean XXII",
+              "benoit-xii": "Benoît XII"
+            }
+          },
+          "photo-fontfroide": {
+            "prompt": "Quelle grande abbaye cistercienne, près de Narbonne, voit-on ici ?",
+            "hint": "Son nom évoque une eau qui n'est pas chaude.",
+            "anecdote": "L'abbaye de Fontfroide, fondée en 1093, s'est imposée au Moyen Âge comme l'une des grandes abbayes cisterciennes du sud de la France.",
+            "answers": {
+              "fontfroide": "Fontfroide",
+              "senanque": "Sénanque",
+              "fontenay": "Fontenay",
+              "le-thoronet": "Le Thoronet"
+            }
+          },
+          "photo-elne": {
+            "prompt": "Dans quelle petite ville du Roussillon se trouve ce cloître de marbre ?",
+            "hint": "Son nom rappelle Hélène, mère de l'empereur Constantin.",
+            "anecdote": "Le cloître de la cathédrale d'Elne, en marbre blanc veiné de bleu, est un chef-d'œuvre roman. Elne fut autrefois le siège de l'évêché du Roussillon.",
+            "answers": {
+              "thuir": "Thuir"
+            }
+          },
+          "carte-saint-guilhem": {
+            "prompt": "Touchez sur la carte le département de Saint-Guilhem-le-Désert.",
+            "hint": "Son nom est aussi celui du fleuve qui coule au pied du village.",
+            "anecdote": "Saint-Guilhem-le-Désert se trouve dans l'Hérault, au débouché des gorges du fleuve, près du pont du Diable."
+          },
+          "carte-mende": {
+            "prompt": "Touchez sur la carte le département de Mende.",
+            "hint": "C'est le département le moins peuplé de France.",
+            "anecdote": "Mende est la préfecture de la Lozère, dans la haute vallée du Lot."
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Sardane, joutes de Sète, soie des Cévennes, vases d'Anduze, grenat de Perpignan et grandes figures du territoire.",
+          "photo-sardane": {
+            "prompt": "Quelle danse catalane, dansée en ronde et en se tenant par la main, voit-on ici ?",
+            "hint": "Elle est jouée par un orchestre appelé la cobla.",
+            "anecdote": "La sardane se danse en cercle ouvert à tous. Elle est un symbole fort de l'identité catalane, des deux côtés des Pyrénées.",
+            "answers": {
+              "la-sardane": "La sardane",
+              "la-farandole": "La farandole",
+              "la-bourree": "La bourrée",
+              "la-jota": "La jota"
+            }
+          },
+          "langue-d-oc": {
+            "prompt": "Que voulait dire le mot oc, qui a donné son nom au Languedoc ?",
+            "hint": "Dans le nord du pays, on disait oïl dans le même sens.",
+            "anecdote": "Le nom du Languedoc vient de la langue d'oc, où oc voulait dire oui, tandis que oïl avait le même sens dans le nord du pays.",
+            "answers": {
+              "oui": "Oui",
+              "non": "Non",
+              "terre": "Terre",
+              "sud": "Sud"
+            }
+          },
+          "photo-joutes": {
+            "prompt": "Quelle tradition de Sète voit-on ici, avec ses barques et ses lances ?",
+            "hint": "Deux équipes s'affrontent pour faire tomber l'adversaire à l'eau.",
+            "anecdote": "La tradition fait remonter les joutes sétoises à la création du port, en 1666. Le grand tournoi se tient chaque été pour la Saint-Louis.",
+            "answers": {
+              "les-joutes": "Les joutes",
+              "les-regates": "Les régates",
+              "le-carnaval": "Le carnaval",
+              "la-peche-au-thon": "La pêche au thon"
+            }
+          },
+          "poulain-pezenas": {
+            "prompt": "Quel animal totémique est promené dans les rues de Pézenas ?",
+            "hint": "Il serait né de la jument d'un roi de passage.",
+            "anecdote": "Selon la légende, un roi de passage aurait laissé sa jument malade à Pézenas et l'aurait retrouvée avec son petit. Le Poulain est inscrit au patrimoine culturel immatériel de l'humanité, avec les géants et dragons processionnels.",
+            "answers": {
+              "le-poulain": "Le Poulain",
+              "le-chameau": "Le Chameau",
+              "le-boeuf": "Le Bœuf",
+              "le-loup": "Le Loup"
+            }
+          },
+          "carnaval-limoux": {
+            "prompt": "Quelle ville de l'Aude est connue pour son long carnaval et ses danseurs, les fécos ?",
+            "hint": "Elle a aussi donné son nom à une blanquette.",
+            "anecdote": "Le carnaval de Limoux dure plusieurs semaines en hiver. Les sorties des fécos, en costume, se font sur la place de la République."
+          },
+          "course-camarguaise": {
+            "prompt": "Dans la course camarguaise, que doivent attraper les raseteurs sur les cornes du taureau ?",
+            "hint": "C'est un petit ruban.",
+            "anecdote": "Le raseteur doit retirer les attributs fixés sur les cornes, dont la cocarde. Le taureau n'est pas mis à mort et il peut devenir une vedette.",
+            "answers": {
+              "la-cocarde": "La cocarde",
+              "une-clochette": "Une clochette",
+              "une-medaille": "Une médaille",
+              "un-foulard": "Un foulard"
+            }
+          },
+          "gardian": {
+            "prompt": "Comment appelle-t-on le cavalier qui surveille les taureaux en Camargue ?",
+            "hint": "Il travaille à cheval, avec un long trident.",
+            "anecdote": "Le gardian surveille les manades à cheval, avec son trident, sur les petits chevaux blancs de Camargue.",
+            "answers": {
+              "le-gardian": "Le gardian",
+              "le-vaquero": "Le vaquero",
+              "le-cow-boy": "Le cow-boy",
+              "le-berger": "Le berger"
+            }
+          },
+          "sanch": {
+            "prompt": "Quelle procession parcourt Perpignan le Vendredi saint, avec ses pénitents en cagoule ?",
+            "hint": "Son nom catalan évoque le sang.",
+            "anecdote": "La Sanch remonte au XVe siècle. Ses pénitents, vêtus de noir ou de rouge, portent des statues dans les rues de la ville.",
+            "answers": {
+              "la-sanch": "La Sanch",
+              "la-diada": "La Diada",
+              "la-fete-dieu": "La Fête-Dieu",
+              "la-retirada": "La Retirada"
+            }
+          },
+          "flamme-canigou": {
+            "prompt": "Quelle fête est lancée par une flamme portée depuis le sommet du Canigou, en juin ?",
+            "hint": "C'est au moment du solstice d'été.",
+            "anecdote": "La flamme descend du Canigou pour allumer les feux de la Saint-Jean, en pays catalan, des deux côtés de la frontière.",
+            "answers": {
+              "la-saint-jean": "La Saint-Jean",
+              "la-saint-louis": "La Saint-Louis",
+              "la-sainte-barbe": "La Sainte-Barbe",
+              "la-toussaint": "La Toussaint"
+            }
+          },
+          "sang-or": {
+            "prompt": "Quelles sont les couleurs du drapeau catalan, le sang et or ?",
+            "hint": "Il compte quatre bandes de la même couleur.",
+            "anecdote": "Le drapeau catalan compte quatre bandes rouges sur fond jaune. Le train de Cerdagne reprend ces deux couleurs.",
+            "answers": {
+              "rouge-et-jaune": "Rouge et jaune",
+              "bleu-et-blanc": "Bleu et blanc",
+              "vert-et-blanc": "Vert et blanc",
+              "noir-et-rouge": "Noir et rouge"
+            }
+          },
+          "usap": {
+            "prompt": "Quel sport a fait la renommée de l'USAP, à Perpignan ?",
+            "hint": "Le ballon y est ovale.",
+            "anecdote": "L'USAP, club de rugby à XV, compte sept titres de champion de France, le dernier en 2009.",
+            "answers": {
+              "le-rugby": "Le rugby",
+              "le-football": "Le football",
+              "le-basket": "Le basket",
+              "le-handball": "Le handball"
+            }
+          },
+          "grenat": {
+            "prompt": "Quelle pierre rouge orne les bijoux traditionnels de Perpignan ?",
+            "hint": "Sa couleur a donné un nom à une teinte de rouge foncé.",
+            "anecdote": "Le grenat de Perpignan, serti dans de l'or, est porté en bijou depuis plusieurs siècles en pays catalan.",
+            "answers": {
+              "le-grenat": "Le grenat",
+              "le-rubis": "Le rubis",
+              "l-amethyste": "L'améthyste",
+              "l-emeraude": "L'émeraude"
+            }
+          },
+          "espadrille": {
+            "prompt": "Quelle chaussure de toile à semelle de corde a fait vivre Saint-Laurent-de-Cerdans ?",
+            "hint": "Elle est aussi associée au Pays basque.",
+            "anecdote": "Saint-Laurent-de-Cerdans a compté de nombreux ateliers d'espadrilles. Ce savoir-faire s'y poursuit, avec le tissage de la toile catalane.",
+            "answers": {
+              "l-espadrille": "L'espadrille",
+              "le-sabot": "Le sabot",
+              "la-charentaise": "La charentaise",
+              "la-sandale-de-cuir": "La sandale de cuir"
+            }
+          },
+          "anduze": {
+            "prompt": "Quelle ville du Gard est connue pour ses grands vases de jardin en terre vernissée ?",
+            "hint": "On la surnomme la porte des Cévennes.",
+            "anecdote": "Le vase d'Anduze, décoré de guirlandes et de médaillons, serait né au XVIIe siècle, inspiré d'un vase italien."
+          },
+          "soie": {
+            "prompt": "Quel animal élevait-on dans les magnaneries des Cévennes ?",
+            "hint": "Il se nourrit de feuilles de mûrier.",
+            "anecdote": "Les magnaneries accueillaient les vers à soie. Cette activité a fait la richesse des Cévennes jusqu'au XIXe siècle.",
+            "answers": {
+              "le-ver-a-soie": "Le ver à soie",
+              "l-abeille": "L'abeille",
+              "la-cochenille": "La cochenille",
+              "l-escargot": "L'escargot"
+            }
+          },
+          "pasteur": {
+            "prompt": "Quel savant a étudié les maladies du ver à soie à Alès, à partir de 1865 ?",
+            "hint": "Il est aussi connu pour son vaccin contre la rage.",
+            "anecdote": "Louis Pasteur a séjourné plusieurs années près d'Alès pour comprendre la pébrine, une maladie qui ruinait les éleveurs.",
+            "answers": {
+              "louis-pasteur": "Louis Pasteur",
+              "claude-bernard": "Claude Bernard",
+              "pierre-curie": "Pierre Curie",
+              "robert-koch": "Robert Koch"
+            }
+          },
+          "denim": {
+            "prompt": "Quelle toile de coton devrait son nom à la ville de Nîmes ?",
+            "hint": "On en fait les jeans.",
+            "anecdote": "Le mot denim viendrait de l'expression serge de Nîmes, même si cette origine est encore discutée par les historiens.",
+            "answers": {
+              "le-denim": "Le denim",
+              "le-lin": "Le lin",
+              "le-velours": "Le velours",
+              "la-soie": "La soie"
+            }
+          },
+          "savonnerie": {
+            "prompt": "Quelle ville de l'Hérault abrite un atelier de la manufacture nationale de la Savonnerie, spécialisée dans les tapis ?",
+            "hint": "C'est une sous-préfecture, au pied du Larzac.",
+            "anecdote": "Cet atelier a ouvert à Lodève dans les années 1960. La ville avait longtemps été un grand centre de draperie."
+          },
+          "chapeau": {
+            "prompt": "Quel objet a fait la fortune d'Espéraza, dans la haute vallée de l'Aude ?",
+            "hint": "On le porte sur la tête.",
+            "anecdote": "Espéraza et Couiza ont été de grands centres de chapellerie. Un musée rappelle ce passé industriel à Espéraza.",
+            "answers": {
+              "le-chapeau": "Le chapeau",
+              "la-chaussure": "La chaussure",
+              "le-peigne": "Le peigne",
+              "le-parapluie": "Le parapluie"
+            }
+          },
+          "fourche-sauve": {
+            "prompt": "Quel outil de bois de micocoulier fait la réputation du village de Sauve, dans le Gard ?",
+            "hint": "Elle sert aux travaux des foins.",
+            "anecdote": "Les fourches de Sauve sont formées sur l'arbre lui-même, dont on conduit les branches pendant plusieurs années.",
+            "answers": {
+              "la-fourche": "La fourche",
+              "le-rateau": "Le râteau",
+              "la-beche": "La bêche",
+              "la-faux": "La faux"
+            }
+          },
+          "photo-train-jaune": {
+            "prompt": "Quel petit train de montagne voit-on ici, dans les Pyrénées catalanes ?",
+            "hint": "Son nom rappelle sa couleur.",
+            "anecdote": "Le Train jaune relie Villefranche-de-Conflent à Latour-de-Carol. Il passe sur le viaduc Séjourné et le pont Gisclard.",
+            "answers": {
+              "le-train-jaune": "Le Train jaune",
+              "le-train-des-pignes": "Le Train des Pignes",
+              "le-mont-blanc-express": "Le Mont-Blanc Express",
+              "le-tramway-du-mont-blanc": "Le Tramway du Mont-Blanc"
+            }
+          },
+          "odeillo": {
+            "prompt": "Que concentre le grand four d'Odeillo, en Cerdagne ?",
+            "hint": "On y compte beaucoup de jours sans nuages.",
+            "anecdote": "Ses grands miroirs concentrent la lumière du soleil. Ce four sert à la recherche sur les matériaux, à très haute température.",
+            "answers": {
+              "la-lumiere-du-soleil": "La lumière du soleil",
+              "la-chaleur-de-la-terre": "La chaleur de la terre",
+              "la-force-du-vent": "La force du vent",
+              "l-eau-des-torrents": "L'eau des torrents"
+            }
+          },
+          "photo-navacelles": {
+            "prompt": "Quel site spectaculaire, entre Gard et Hérault, voit-on ici ?",
+            "hint": "C'est un ancien méandre abandonné.",
+            "anecdote": "Le cirque de Navacelles est un immense méandre recoupé, profond d'environ 300 mètres, creusé dans les causses du Larzac et de Blandas.",
+            "answers": {
+              "le-cirque-de-navacelles": "Le cirque de Navacelles",
+              "le-cirque-de-gavarnie": "Le cirque de Gavarnie",
+              "les-gorges-du-verdon": "Les gorges du Verdon",
+              "le-cirque-de-moureze": "Le cirque de Mourèze"
+            }
+          },
+          "vis-navacelles": {
+            "prompt": "Quelle rivière a creusé le cirque de Navacelles ?",
+            "hint": "Son nom ne compte que trois lettres.",
+            "anecdote": "La Vis a creusé des gorges profondes dans le calcaire, avant d'abandonner son ancien méandre, qui forme le cirque.",
+            "answers": {
+              "la-vis": "La Vis",
+              "le-tarn": "Le Tarn",
+              "la-dourbie": "La Dourbie",
+              "l-aude": "L'Aude"
+            }
+          },
+          "agropastoralisme": {
+            "prompt": "Quelle activité a valu aux Causses et aux Cévennes leur inscription à l'Unesco en 2011 ?",
+            "hint": "Elle est liée aux bergers et à leurs troupeaux.",
+            "anecdote": "Ces paysages ont été façonnés par l'agropastoralisme : les bergers, les drailles, les terrasses et les fermes de pierre.",
+            "answers": {
+              "l-agropastoralisme": "L'agropastoralisme",
+              "l-exploitation-miniere": "L'exploitation minière",
+              "la-viticulture": "La viticulture",
+              "la-sylviculture": "La sylviculture"
+            }
+          },
+          "mont-louis": {
+            "prompt": "Quelle place forte de Vauban, en Cerdagne, a été inscrite au patrimoine mondial en 2008 ?",
+            "hint": "Son nom honore le roi qui l'a fait construire.",
+            "anecdote": "Mont-Louis, fondée en 1679 à plus de 1 500 mètres d'altitude, garde sa citadelle encore occupée par l'armée.",
+            "answers": {
+              "salses": "Salses"
+            }
+          },
+          "photo-canigou-abbaye": {
+            "prompt": "Quelle abbaye romane, accrochée à plus de 1 000 mètres d'altitude, voit-on ici ?",
+            "hint": "Elle porte le nom de la montagne qui la domine.",
+            "anecdote": "Saint-Martin-du-Canigou a été fondée au début du XIe siècle. Restaurée au XXe siècle, elle se visite après une longue montée à pied.",
+            "answers": {
+              "saint-martin-du-canigou": "Saint-Martin-du-Canigou",
+              "saint-michel-de-cuxa": "Saint-Michel-de-Cuxa",
+              "fontfroide": "Fontfroide"
+            }
+          },
+          "photo-cuxa": {
+            "prompt": "Quelle abbaye du Conflent, avec sa tour et ses arcs outrepassés, voit-on ici ?",
+            "hint": "Une partie de son cloître se trouve à New York.",
+            "anecdote": "Saint-Michel-de-Cuxa, près de Prades, a été consacrée en 974. Une grande partie de son cloître est conservée au musée des Cloisters.",
+            "answers": {
+              "saint-michel-de-cuxa": "Saint-Michel-de-Cuxa",
+              "saint-martin-du-canigou": "Saint-Martin-du-Canigou",
+              "fontfroide": "Fontfroide"
+            }
+          },
+          "maillol": {
+            "prompt": "Quel sculpteur est né à Banyuls-sur-Mer, en 1861 ?",
+            "hint": "Il a surtout sculpté de grands corps féminins.",
+            "anecdote": "Aristide Maillol a travaillé entre Banyuls et Marly-le-Roi. Sa maison, près de Banyuls, est devenue un musée où il repose.",
+            "answers": {
+              "aristide-maillol": "Aristide Maillol",
+              "auguste-rodin": "Auguste Rodin",
+              "antoine-bourdelle": "Antoine Bourdelle",
+              "camille-claudel": "Camille Claudel"
+            }
+          },
+          "joffre": {
+            "prompt": "Quel maréchal, vainqueur de la Marne en 1914, est né à Rivesaltes ?",
+            "hint": "On le surnommait Papa.",
+            "anecdote": "Joseph Joffre est né à Rivesaltes en 1852, dans une famille de tonneliers. Sa maison natale y est devenue un musée.",
+            "answers": {
+              "joseph-joffre": "Joseph Joffre",
+              "ferdinand-foch": "Ferdinand Foch",
+              "philippe-leclerc": "Philippe Leclerc",
+              "louis-franchet-d-esperey": "Louis Franchet d'Espèrey"
+            }
+          },
+          "bazille": {
+            "prompt": "Quel peintre, ami de Monet et de Renoir, est né à Montpellier en 1841 ?",
+            "hint": "Il a été tué lors de la guerre de 1870.",
+            "anecdote": "Frédéric Bazille a peint La Vue de village et La Réunion de famille. Le musée Fabre de Montpellier conserve plusieurs de ses œuvres.",
+            "answers": {
+              "frederic-bazille": "Frédéric Bazille",
+              "paul-cezanne": "Paul Cézanne",
+              "alfred-sisley": "Alfred Sisley",
+              "edgar-degas": "Edgar Degas"
+            }
+          },
+          "daudet": {
+            "prompt": "Quel auteur des Lettres de mon moulin est né à Nîmes, en 1840 ?",
+            "hint": "Il a aussi créé le personnage de Tartarin de Tarascon.",
+            "anecdote": "Alphonse Daudet est né à Nîmes, avant de grandir à Lyon. Son œuvre reste attachée au Midi.",
+            "answers": {
+              "alphonse-daudet": "Alphonse Daudet",
+              "marcel-pagnol": "Marcel Pagnol",
+              "jean-giono": "Jean Giono",
+              "emile-zola": "Émile Zola"
+            }
+          },
+          "trenet": {
+            "prompt": "Quel chanteur de La Mer est né à Narbonne, en 1913 ?",
+            "hint": "On le surnommait le Fou chantant.",
+            "anecdote": "Charles Trenet est né à Narbonne, où sa maison natale se visite. La Mer est l'une des chansons françaises les plus connues au monde.",
+            "answers": {
+              "charles-trenet": "Charles Trenet",
+              "georges-brassens": "Georges Brassens",
+              "tino-rossi": "Tino Rossi",
+              "yves-montand": "Yves Montand"
+            }
+          },
+          "jean-moulin": {
+            "prompt": "Quel grand résistant, chef du Conseil national de la Résistance, est né à Béziers ?",
+            "hint": "Ses cendres présumées reposent au Panthéon depuis 1964.",
+            "anecdote": "Jean Moulin est né à Béziers en 1899. Il a unifié les mouvements de Résistance, avant d'être arrêté en 1943.",
+            "answers": {
+              "jean-moulin": "Jean Moulin",
+              "pierre-brossolette": "Pierre Brossolette",
+              "lucie-aubrac": "Lucie Aubrac",
+              "germaine-tillion": "Germaine Tillion"
+            }
+          },
+          "stevenson": {
+            "prompt": "Quel animal a accompagné Robert Louis Stevenson à travers les Cévennes, en 1878 ?",
+            "hint": "Elle s'appelait Modestine.",
+            "anecdote": "L'auteur de L'Île au trésor a raconté ce voyage avec son ânesse. Son itinéraire est devenu un sentier de grande randonnée, le GR 70.",
+            "answers": {
+              "une-anesse": "Une ânesse",
+              "un-cheval": "Un cheval",
+              "un-chien": "Un chien",
+              "une-mule-de-bat": "Une mule de bât"
+            }
+          },
+          "rabelais": {
+            "prompt": "Quel auteur de Gargantua a étudié la médecine à Montpellier, au XVIe siècle ?",
+            "hint": "Il a aussi créé Pantagruel.",
+            "anecdote": "François Rabelais s'est inscrit à la faculté de médecine de Montpellier en 1530, où il a obtenu son diplôme de bachelier.",
+            "answers": {
+              "francois-rabelais": "François Rabelais",
+              "michel-de-montaigne": "Michel de Montaigne",
+              "pierre-de-ronsard": "Pierre de Ronsard",
+              "joachim-du-bellay": "Joachim du Bellay"
+            }
+          },
+          "carte-lodeve": {
+            "prompt": "Touchez sur la carte le département de Lodève.",
+            "hint": "Il porte le nom d'un fleuve côtier et borde la mer.",
+            "anecdote": "Lodève, sous-préfecture de l'Hérault, se trouve au pied du plateau du Larzac."
+          },
+          "carte-esperaza": {
+            "prompt": "Touchez sur la carte le département d'Espéraza.",
+            "hint": "Il est traversé par un fleuve qui passe aussi à Carcassonne.",
+            "anecdote": "Espéraza se trouve dans la haute vallée de l'Aude, au sud de Limoux."
+          },
+          "carte-prades": {
+            "prompt": "Touchez sur la carte le département de Prades, cité du festival Pablo Casals.",
+            "hint": "C'est le plus au sud de la région.",
+            "anecdote": "Le violoncelliste Pablo Casals, réfugié à Prades, y a créé en 1950 un festival de musique encore très actif."
+          },
+          "carte-florac": {
+            "prompt": "Touchez sur la carte le département de Florac, siège du parc national des Cévennes.",
+            "hint": "C'est le moins peuplé de France.",
+            "anecdote": "Florac, en Lozère, abrite le siège du parc national des Cévennes, dans le château de la ville."
+          }
+        },
+        "grand-voyage": {
+          "name": "Le grand voyage",
+          "description": "Cathares, camisards, vignerons de 1907, Causses, Canigou et mémoire de l'exil : le territoire dans toute son ampleur.",
+          "croisade-1209": {
+            "prompt": "En quelle année la croisade contre les Albigeois a-t-elle commencé en Languedoc, avec la prise de Béziers ?",
+            "hint": "C'est au début du XIIIe siècle.",
+            "anecdote": "En juillet 1209, Béziers a été prise et ses habitants massacrés. Carcassonne est tombée quelques semaines plus tard.",
+            "answers": {
+              "1099": "1099",
+              "1209": "1209",
+              "1348": "1348",
+              "1572": "1572"
+            }
+          },
+          "simon-montfort": {
+            "prompt": "Quel seigneur a pris la tête de la croisade contre les Albigeois après la chute de Carcassonne ?",
+            "hint": "Il est mort au siège de Toulouse, en 1218.",
+            "anecdote": "Simon de Montfort a reçu les terres des Trencavel et mené la guerre jusqu'à sa mort devant Toulouse.",
+            "answers": {
+              "simon-de-montfort": "Simon de Montfort",
+              "bertrand-du-guesclin": "Bertrand du Guesclin",
+              "philippe-auguste": "Philippe Auguste",
+              "raymond-vi-de-toulouse": "Raymond VI de Toulouse"
+            }
+          },
+          "traite-pyrenees": {
+            "prompt": "Quel traité a rattaché le Roussillon à la France, en 1659 ?",
+            "hint": "Il a été signé sur l'île des Faisans, au milieu de la Bidassoa.",
+            "anecdote": "Signé sur l'île des Faisans, le traité des Pyrénées a fixé la frontière entre la France et l'Espagne, et séparé la Catalogne du Nord du reste de la Catalogne.",
+            "answers": {
+              "le-traite-des-pyrenees": "Le traité des Pyrénées",
+              "le-traite-de-westphalie": "Le traité de Westphalie",
+              "le-traite-d-utrecht": "Le traité d'Utrecht",
+              "le-traite-de-nimegue": "Le traité de Nimègue"
+            }
+          },
+          "royaume-majorque": {
+            "prompt": "De quel royaume médiéval Perpignan a-t-elle été une capitale, de 1276 à 1344 ?",
+            "hint": "Il porte le nom d'une île des Baléares.",
+            "anecdote": "Le royaume de Majorque réunissait les Baléares, le Roussillon, la Cerdagne et Montpellier, avant son retour à la couronne d'Aragon.",
+            "answers": {
+              "le-royaume-de-majorque": "Le royaume de Majorque",
+              "le-royaume-de-navarre": "Le royaume de Navarre",
+              "le-royaume-de-castille": "Le royaume de Castille",
+              "le-royaume-de-sicile": "Le royaume de Sicile"
+            }
+          },
+          "camisards": {
+            "prompt": "Comment appelle-t-on les protestants des Cévennes révoltés à partir de 1702 ?",
+            "hint": "Leur nom viendrait de la chemise qu'ils portaient.",
+            "anecdote": "Après la révocation de l'édit de Nantes, les camisards ont pris les armes. La guerre a duré plusieurs années et a dévasté les Cévennes.",
+            "answers": {
+              "les-camisards": "Les camisards",
+              "les-chouans": "Les chouans",
+              "les-vaudois": "Les vaudois",
+              "les-federes": "Les fédérés"
+            }
+          },
+          "via-domitia": {
+            "prompt": "Quelle grande voie romaine traversait le territoire, de l'Italie à l'Espagne ?",
+            "hint": "Elle a pris le nom du général qui l'a fait construire, vers 118 avant notre ère.",
+            "anecdote": "La Via Domitia reliait les Alpes aux Pyrénées en passant par Nîmes, Béziers et Narbonne. On en voit encore des pavés et des bornes.",
+            "answers": {
+              "la-via-domitia": "La Via Domitia",
+              "la-via-appia": "La Via Appia",
+              "la-via-aurelia": "La Via Aurelia",
+              "la-via-agrippa": "La Via Agrippa"
+            }
+          },
+          "revolte-1907": {
+            "prompt": "Quelle crise a jeté des centaines de milliers de manifestants dans les rues du Languedoc, au printemps 1907 ?",
+            "hint": "Les prix s'étaient effondrés.",
+            "anecdote": "Le vin ne se vendait plus. Les manifestations ont culminé à Montpellier le 9 juin 1907, avec plusieurs centaines de milliers de personnes.",
+            "answers": {
+              "la-crise-viticole": "La crise viticole",
+              "la-crise-de-la-soie": "La crise de la soie",
+              "la-crise-du-charbon": "La crise du charbon",
+              "la-crise-du-sel": "La crise du sel"
+            }
+          },
+          "regiment-17": {
+            "prompt": "Quel régiment s'est mutiné à Agde en juin 1907, avant de marcher sur Béziers ?",
+            "hint": "Une chanson de Montéhus lui rend gloire.",
+            "anecdote": "Les soldats du 17e régiment d'infanterie, souvent originaires de la région, ont fraternisé avec la révolte des vignerons. L'événement a eu un grand retentissement.",
+            "answers": {
+              "le-17e": "Le 17e",
+              "le-1er": "Le 1er",
+              "le-6e": "Le 6e",
+              "le-110e": "Le 110e"
+            }
+          },
+          "jean-cavalier": {
+            "prompt": "Quel chef camisard, jeune boulanger, est devenu ensuite lieutenant-gouverneur de Jersey ?",
+            "hint": "Son nom évoque quelqu'un à cheval.",
+            "anecdote": "Jean Cavalier a mené la révolte jusqu'en 1704. Il a ensuite servi dans l'armée britannique.",
+            "answers": {
+              "jean-cavalier": "Jean Cavalier",
+              "pierre-laporte": "Pierre Laporte",
+              "abraham-mazel": "Abraham Mazel",
+              "antoine-court": "Antoine Court"
+            }
+          },
+          "marcelin-albert": {
+            "prompt": "Quel vigneron d'Argeliers est devenu la grande figure de la révolte de 1907 ?",
+            "hint": "On l'a surnommé le Rédempteur.",
+            "anecdote": "Marcelin Albert a rassemblé les foules, avant de perdre son crédit après une rencontre avec Clemenceau à Paris.",
+            "answers": {
+              "marcelin-albert": "Marcelin Albert",
+              "ernest-ferroul": "Ernest Ferroul",
+              "jean-jaures": "Jean Jaurès",
+              "georges-clemenceau": "Georges Clemenceau"
+            }
+          },
+          "eidenbenz": {
+            "prompt": "Quelle Suissesse, enseignante et infirmière, a dirigé la maternité d'Elne à partir de 1939 ?",
+            "hint": "Elle a été reconnue Juste parmi les nations.",
+            "anecdote": "Elisabeth Eidenbenz a permis la naissance de près de 600 enfants à Elne, entre 1939 et 1944.",
+            "answers": {
+              "elisabeth-eidenbenz": "Elisabeth Eidenbenz",
+              "marie-curie": "Marie Curie",
+              "florence-nightingale": "Florence Nightingale",
+              "clara-barton": "Clara Barton"
+            }
+          },
+          "chastel": {
+            "prompt": "Quel chasseur est réputé avoir tué la Bête du Gévaudan, en 1767 ?",
+            "hint": "Son nom ressemble à celui d'un grand bâtiment fortifié.",
+            "anecdote": "Jean Chastel a abattu un grand animal le 19 juin 1767, près du mont Mouchet, aujourd'hui en Haute-Loire, ce qui a mis fin à la série d'attaques.",
+            "answers": {
+              "jean-chastel": "Jean Chastel",
+              "francois-antoine": "François Antoine",
+              "le-comte-de-buffon": "Le comte de Buffon",
+              "louis-pasteur": "Louis Pasteur"
+            }
+          },
+          "marie-durand": {
+            "prompt": "Quel mot Marie Durand, enfermée 38 ans à la tour de Constance, aurait-elle gravé dans la pierre ?",
+            "hint": "Il invite à ne pas céder.",
+            "anecdote": "Marie Durand a été enfermée de 1730 à 1768. Le mot Register, résister en occitan, se lit encore sur la margelle. La tradition le lui attribue, sans preuve.",
+            "answers": {
+              "resister": "Résister",
+              "liberte": "Liberté",
+              "esperer": "Espérer",
+              "pardonner": "Pardonner"
+            }
+          },
+          "bete-gevaudan": {
+            "prompt": "Comment appelle-t-on l'animal mystérieux qui a semé la terreur, surtout dans l'actuelle Lozère, entre 1764 et 1767 ?",
+            "hint": "Son nom reprend celui d'une ancienne province.",
+            "anecdote": "La Bête du Gévaudan a fait une centaine de victimes. Sa nature fait encore débat, entre loup et autres hypothèses.",
+            "answers": {
+              "la-bete-du-gevaudan": "La Bête du Gévaudan",
+              "le-loup-garou-d-auvergne": "Le loup-garou d'Auvergne",
+              "le-dragon-de-tarascon": "Le dragon de Tarascon",
+              "le-monstre-du-loch": "Le monstre du Loch"
+            }
+          },
+          "retirada": {
+            "prompt": "Comment appelle-t-on l'exil de centaines de milliers de républicains espagnols vers la France, en 1939 ?",
+            "hint": "Le mot espagnol signifie la retraite.",
+            "anecdote": "La Retirada a jeté sur les routes près d'un demi-million de personnes, qui ont franchi la frontière des Pyrénées en quelques semaines.",
+            "answers": {
+              "la-retirada": "La Retirada",
+              "la-reconquista": "La Reconquista",
+              "la-diada": "La Diada",
+              "la-movida": "La Movida"
+            }
+          },
+          "rivesaltes-memorial": {
+            "prompt": "Quelle commune des Pyrénées-Orientales accueille le mémorial d'un ancien camp d'internement, ouvert en 2015 ?",
+            "hint": "Son nom est aussi celui d'un vin doux de la plaine.",
+            "anecdote": "Le mémorial de Rivesaltes rappelle l'histoire de ce camp, où ont été retenus républicains espagnols, juifs, tsiganes, puis harkis."
+          },
+          "musee-desert": {
+            "prompt": "Quelle mémoire le musée du Désert, à Mialet, garde-t-il ?",
+            "hint": "Le mot désert désigne la période où leur culte était interdit.",
+            "anecdote": "Installé dans une maison du hameau du Mas Soubeyran, le musée rappelle la vie des protestants cévenols, entre 1685 et 1787.",
+            "answers": {
+              "celle-des-protestants": "Celle des protestants",
+              "celle-des-mineurs": "Celle des mineurs",
+              "celle-des-bergers": "Celle des bergers",
+              "celle-des-pelerins": "Celle des pèlerins"
+            }
+          },
+          "carlit": {
+            "prompt": "Quel sommet est le point culminant des Pyrénées-Orientales ?",
+            "hint": "Ce n'est pas le Canigou, malgré sa renommée.",
+            "anecdote": "Le Carlit s'élève à 2 921 mètres, plus haut que le Canigou et ses 2 784 mètres.",
+            "answers": {
+              "le-carlit": "Le Carlit",
+              "le-canigou": "Le Canigou",
+              "le-puigmal": "Le Puigmal",
+              "le-madres": "Le Madrès"
+            }
+          },
+          "photo-aigoual": {
+            "prompt": "Quel sommet des Cévennes porte cet observatoire météorologique ?",
+            "hint": "Son nom évoque l'eau, car il y pleut beaucoup.",
+            "anecdote": "Le mont Aigoual culmine à 1 565 mètres. Son observatoire, ouvert à la fin du XIXe siècle, a longtemps été le dernier observatoire de montagne habité en France.",
+            "answers": {
+              "le-mont-aigoual": "Le mont Aigoual",
+              "le-mont-lozere": "Le mont Lozère",
+              "le-mont-ventoux": "Le mont Ventoux",
+              "le-puy-de-dome": "Le Puy de Dôme"
+            }
+          },
+          "finiels": {
+            "prompt": "Comment s'appelle le point culminant du mont Lozère ?",
+            "hint": "Il atteint 1 699 mètres.",
+            "anecdote": "Le sommet de Finiels est aussi le point le plus haut du parc national des Cévennes. Le Tarn prend sa source tout près.",
+            "answers": {
+              "finiels": "Finiels",
+              "l-aigoual": "L'Aigoual",
+              "le-cantal": "Le Cantal",
+              "le-mezenc": "Le Mézenc"
+            }
+          },
+          "allier-source": {
+            "prompt": "Laquelle de ces rivières prend sa source en Lozère, au Moure de la Gardille ?",
+            "hint": "Elle a donné son nom à un département du centre de la France.",
+            "anecdote": "L'Allier naît en Lozère, avant de rejoindre la Loire près de Nevers. Le Lot et le Tarn naissent eux aussi dans ce département.",
+            "answers": {
+              "l-allier": "L'Allier",
+              "la-loire": "La Loire",
+              "la-dordogne": "La Dordogne",
+              "la-garonne": "La Garonne"
+            }
+          },
+          "photo-aven-armand": {
+            "prompt": "Quel aven du causse Méjean, célèbre pour sa forêt de stalagmites, voit-on ici ?",
+            "hint": "Il porte le nom du serrurier qui en a repéré l'entrée.",
+            "anecdote": "L'aven Armand a été exploré en 1897 par Édouard-Alfred Martel et Louis Armand, serrurier au Rozier, qui en avait repéré l'entrée.",
+            "answers": {
+              "l-aven-armand": "L'aven Armand",
+              "le-gouffre-de-padirac": "Le gouffre de Padirac",
+              "la-grotte-de-clamouse": "La grotte de Clamouse",
+              "la-grotte-de-trabuc": "La grotte de Trabuc"
+            }
+          },
+          "photo-orgues": {
+            "prompt": "Comment s'appellent ces hautes colonnes de sable et d'argile, près d'Ille-sur-Têt ?",
+            "hint": "Elles font penser à un grand instrument d'église.",
+            "anecdote": "Les Orgues ont été sculptées par la pluie et le ruissellement, dans des sédiments âgés de plusieurs millions d'années.",
+            "answers": {
+              "les-orgues": "Les Orgues",
+              "les-demoiselles": "Les Demoiselles",
+              "les-aiguilles": "Les Aiguilles",
+              "les-cheminees": "Les Cheminées"
+            }
+          },
+          "leucate": {
+            "prompt": "Quel grand étang est partagé entre l'Aude et les Pyrénées-Orientales ?",
+            "hint": "Il porte aussi le nom de Salses.",
+            "anecdote": "L'étang de Salses-Leucate est une vaste lagune, séparée de la mer par un cordon de sable.",
+            "answers": {
+              "l-etang-de-leucate": "L'étang de Leucate",
+              "l-etang-de-thau": "L'étang de Thau",
+              "l-etang-de-vaccares": "L'étang de Vaccarès",
+              "l-etang-de-bages": "L'étang de Bages"
+            }
+          },
+          "tramontane": {
+            "prompt": "Quel vent sec et souvent violent souffle du nord-ouest sur le Roussillon et l'Aude ?",
+            "hint": "Son nom signifie au-delà des montagnes.",
+            "anecdote": "La tramontane dégage le ciel et assèche le vignoble. Elle fait aussi le bonheur des véliplanchistes de Leucate.",
+            "answers": {
+              "la-tramontane": "La tramontane",
+              "le-mistral": "Le mistral",
+              "le-sirocco": "Le sirocco",
+              "le-foehn": "Le foehn"
+            }
+          },
+          "gruissan": {
+            "prompt": "Quelle station de l'Aude, avec ses chalets sur pilotis, a servi de décor au film 37°2 le matin ?",
+            "hint": "Son vieux village s'enroule autour de la tour Barberousse.",
+            "anecdote": "Les chalets de Gruissan, sur la plage, ont été construits au bord de la mer. Le film de Jean-Jacques Beineix les a rendus célèbres en 1986.",
+            "answers": {
+              "gruissan": "Gruissan",
+              "leucate": "Leucate",
+              "le-barcares": "Le Barcarès",
+              "valras-plage": "Valras-Plage"
+            }
+          },
+          "przewalski": {
+            "prompt": "Quel cheval sauvage venu d'Asie vit en semi-liberté sur le causse Méjean ?",
+            "hint": "Son nom est celui d'un explorateur russe.",
+            "anecdote": "Une association y a installé un troupeau en 1993, pour préparer le retour de ces chevaux dans les steppes de Mongolie.",
+            "answers": {
+              "le-cheval-de-przewalski": "Le cheval de Przewalski",
+              "le-cheval-de-camargue": "Le cheval de Camargue",
+              "le-merens": "Le mérens",
+              "le-pottok": "Le pottok"
+            }
+          },
+          "parc-cevennes": {
+            "prompt": "Quelle est la particularité du parc national des Cévennes, créé en 1970 ?",
+            "hint": "Des gens vivent encore dans sa partie la plus protégée.",
+            "anecdote": "C'est le seul parc national français dont le cœur abrite une population permanente significative.",
+            "answers": {
+              "son-coeur-est-habite": "Son cœur est habité",
+              "il-touche-la-mer": "Il touche la mer",
+              "il-est-sur-une-ile": "Il est sur une île",
+              "il-couvre-les-plus-hauts-sommets-de-france": "Il couvre les plus hauts sommets de France"
+            }
+          },
+          "photo-agde": {
+            "prompt": "De quelle roche sombre cette cathédrale d'Agde est-elle construite ?",
+            "hint": "Elle vient d'un ancien volcan voisin.",
+            "anecdote": "La cathédrale Saint-Étienne, bâtie en basalte, ressemble à une forteresse noire. Le volcan du mont Saint-Loup domine la ville.",
+            "answers": {
+              "le-basalte": "Le basalte",
+              "le-granite": "Le granite",
+              "le-marbre": "Le marbre",
+              "le-calcaire": "Le calcaire"
+            }
+          },
+          "agde-grecs": {
+            "prompt": "Quel peuple a fondé Agde dans l'Antiquité ?",
+            "hint": "Ils venaient de Marseille, qu'ils avaient déjà fondée.",
+            "anecdote": "Agathé Tyché, la bonne fortune, a été fondée par des Grecs de Massalia. Un célèbre éphèbe en bronze a été retrouvé dans l'Hérault.",
+            "answers": {
+              "les-grecs": "Les Grecs",
+              "les-romains": "Les Romains",
+              "les-pheniciens": "Les Phéniciens",
+              "les-gaulois": "Les Gaulois"
+            }
+          },
+          "photo-pont-montvert": {
+            "prompt": "Quel village de Lozère, dont la révolte des camisards est partie en 1702, voit-on ici ?",
+            "hint": "Son nom contient celui d'un ouvrage qui franchit la rivière.",
+            "anecdote": "La révolte a commencé au Pont-de-Montvert, dans la nuit du 24 juillet 1702. C'est aussi une étape du chemin de Stevenson.",
+            "answers": {
+              "la-garde-guerin": "La Garde-Guérin"
+            }
+          },
+          "photo-castelnou": {
+            "prompt": "Quel village perché du Roussillon, dominé par son château, voit-on ici ?",
+            "hint": "Son nom catalan signifie château neuf.",
+            "anecdote": "Castelnou, classé parmi les plus beaux villages de France, était le siège d'une vicomté dès le Xe siècle.",
+            "answers": {
+              "eus": "Eus",
+              "mosset": "Mosset",
+              "evol": "Évol"
+            }
+          },
+          "photo-enimie": {
+            "prompt": "Quel village des gorges du Tarn, portant le nom d'une princesse mérovingienne, voit-on ici ?",
+            "hint": "La légende dit qu'elle y aurait guéri de la lèpre.",
+            "anecdote": "Selon la légende, la princesse Énimie aurait trouvé la guérison dans la source de la Burle, et fondé ici un monastère.",
+            "answers": {
+              "la-malene": "La Malène",
+              "ispagnac": "Ispagnac",
+              "meyrueis": "Meyrueis"
+            }
+          },
+          "photo-lagrasse": {
+            "prompt": "Quel village des Corbières, connu pour son abbaye et son pont en dos d'âne, voit-on ici ?",
+            "hint": "Il est traversé par l'Orbieu.",
+            "anecdote": "Lagrasse s'est développé autour d'une abbaye fondée à la fin du VIIIe siècle. Le village accueille chaque année un festival du livre.",
+            "answers": {
+              "caunes-minervois": "Caunes-Minervois",
+              "alet-les-bains": "Alet-les-Bains"
+            }
+          },
+          "caunes": {
+            "prompt": "Quel château royal a reçu du marbre rouge de Caunes-Minervois, sous Louis XIV ?",
+            "hint": "C'est le plus célèbre des palais du Roi-Soleil.",
+            "anecdote": "Le marbre rouge de Caunes-Minervois orne notamment les colonnes du Grand Trianon, à Versailles.",
+            "answers": {
+              "versailles": "Versailles",
+              "chambord": "Chambord",
+              "fontainebleau": "Fontainebleau",
+              "le-louvre": "Le Louvre"
+            }
+          },
+          "mission-racine": {
+            "prompt": "Quelle mission d'État a lancé en 1963 l'aménagement touristique du littoral, avec La Grande-Motte ?",
+            "hint": "Elle porte le nom du haut fonctionnaire qui la dirigeait, homonyme d'un dramaturge.",
+            "anecdote": "La mission Racine a fait démoustiquer les étangs et créé des stations comme La Grande-Motte, le Cap d'Agde, Gruissan et Port-Leucate.",
+            "answers": {
+              "la-mission-racine": "La mission Racine",
+              "la-mission-vauban": "La mission Vauban",
+              "la-mission-riquet": "La mission Riquet",
+              "la-mission-haussmann": "La mission Haussmann"
+            }
+          },
+          "carte-mialet": {
+            "prompt": "Touchez sur la carte le département de Mialet, en pays cévenol.",
+            "hint": "Sa préfecture est Nîmes.",
+            "anecdote": "Mialet se trouve dans le Gard, sur le Gardon, près d'Anduze."
+          },
+          "carte-minerve": {
+            "prompt": "Touchez sur la carte le département de Minerve, village assiégé en 1210.",
+            "hint": "Il borde la Méditerranée, entre l'Aude et le Gard.",
+            "anecdote": "Minerve se trouve à l'ouest de l'Hérault, tout près de la limite avec l'Aude, au cœur du Minervois."
+          },
+          "carte-queribus": {
+            "prompt": "Touchez sur la carte le département du château de Quéribus.",
+            "hint": "Il se trouve juste au nord de la limite avec les Pyrénées-Orientales.",
+            "anecdote": "Quéribus se dresse dans le sud de l'Aude, tout près de l'ancienne frontière entre la France et le royaume d'Aragon."
+          },
+          "carte-llivia": {
+            "prompt": "Touchez sur la carte le département qui entoure Llívia, enclave espagnole en Cerdagne.",
+            "hint": "C'est lui qui touche l'Espagne.",
+            "anecdote": "Llívia est restée espagnole après le traité des Pyrénées. La ville n'a pas été cédée car seuls les villages devaient l'être, et elle avait le titre de ville."
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "cite-carcassonne": {
+            "name": "Cité de Carcassonne",
+            "description": "Au-dessus de l'Aude, la Cité déploie sa double enceinte, ses tours et son château comtal. Restaurée au XIXe siècle par Viollet-le-Duc, elle est inscrite au patrimoine mondial depuis 1997.",
+            "anecdote": "Ses remparts s'étendent sur environ trois kilomètres et comptent plus de cinquante tours."
+          },
+          "collioure": {
+            "name": "Collioure",
+            "description": "Sur la Côte Vermeille, ce port catalan réunit ses barques, ses anchois et un clocher au pied dans l'eau, sans doute ancien phare de la baie.",
+            "anecdote": "En 1905, Matisse et Derain y ont peint ensemble des toiles aux couleurs vives, qui ont compté dans la naissance du fauvisme."
+          },
+          "arenes-nimes": {
+            "name": "Arènes de Nîmes",
+            "description": "Bâti vers la fin du Ier siècle, cet amphithéâtre romain est l'un des mieux conservés au monde. Long de 133 mètres, il pouvait accueillir environ 24 000 spectateurs.",
+            "anecdote": "Au Moyen Âge, des habitations s'y sont installées, formant un véritable quartier, qui n'a été dégagé qu'au XIXe siècle."
+          },
+          "canal-midi": {
+            "name": "Canal du Midi",
+            "description": "Creusé de 1666 à 1681 sous la direction de Pierre-Paul Riquet, il relie Toulouse à l'étang de Thau sur environ 240 kilomètres. Il est inscrit au patrimoine mondial depuis 1996.",
+            "anecdote": "Riquet est mort en 1680, quelques mois avant la mise en service de son canal."
+          },
+          "pont-du-gard": {
+            "name": "Pont du Gard",
+            "description": "Haut de près de 49 mètres, ce pont-aqueduc romain à trois niveaux enjambe le Gardon. Il portait l'eau captée près d'Uzès jusqu'à Nîmes et est inscrit au patrimoine mondial depuis 1985.",
+            "anecdote": "Au XVIIIe siècle, un pont routier lui a été accolé, afin de faire passer les voitures à côté de l'ouvrage antique."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur de Languedoc-Roussillon",
+            "description": "Réunir les cinq cartes de la collection de Languedoc-Roussillon."
+          },
+          "master": {
+            "name": "Maître de Languedoc-Roussillon",
+            "description": "Réussir le Défi Maître de Languedoc-Roussillon, avec au moins huit bonnes réponses sur dix."
           }
         }
       }
