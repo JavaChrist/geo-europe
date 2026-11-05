@@ -3524,6 +3524,442 @@
       "photoLimousinHollande": {
         "title": "François Hollande, 2024",
         "alt": "Homme à lunettes en costume sombre, en conversation."
+      },
+      "photoPoitouCharentesMarais": {
+        "title": "Venise verte, Marais poitevin",
+        "alt": "Canal couvert de lentilles d'eau vertes, bordé de grands arbres."
+      },
+      "photoPoitouCharentesCharenteFleuve": {
+        "title": "La Charente à Saintes",
+        "alt": "Large rivière calme reflétant le ciel, entre des rives boisées."
+      },
+      "photoPoitouCharentesPontRe": {
+        "title": "Pont de l'île de Ré",
+        "alt": "Long pont courbe sur pilotis au-dessus d'une baie à marée basse."
+      },
+      "photoPoitouCharentesVieuxPort": {
+        "title": "Tours du Vieux-Port, La Rochelle",
+        "alt": "Deux grosses tours médiévales de pierre de part et d'autre de l'entrée d'un port."
+      },
+      "photoPoitouCharentesNotreDameLaGrande": {
+        "title": "Notre-Dame-la-Grande, Poitiers",
+        "alt": "Église romane de pierre claire, avec un clocher à colonnettes et un toit en écailles."
+      },
+      "photoPoitouCharentesCathedraleAngouleme": {
+        "title": "Cathédrale Saint-Pierre, Angoulême",
+        "alt": "Façade romane couverte d'arcades et de sculptures, encadrée de deux clochetons."
+      },
+      "photoPoitouCharentesDonjonNiort": {
+        "title": "Donjon de Niort",
+        "alt": "Grand château fort de pierre aux tours carrées, devant une pelouse."
+      },
+      "photoPoitouCharentesCorderie": {
+        "title": "Corderie royale, Rochefort",
+        "alt": "Long bâtiment classique au toit d'ardoise, près d'une colonne-fontaine."
+      },
+      "photoPoitouCharentesArcGermanicus": {
+        "title": "Arc de Germanicus, Saintes",
+        "alt": "Arc antique à deux arches, au bord d'une rivière où est amarré un bateau."
+      },
+      "photoPoitouCharentesRoyan": {
+        "title": "Front de mer de Royan",
+        "alt": "Grande plage de sable devant de longs immeubles blancs et un haut clocher en béton."
+      },
+      "photoPoitouCharentesChatellerault": {
+        "title": "Pont Henri-IV, Châtellerault",
+        "alt": "Pont de pierre à nombreuses arches, fermé par deux tours à toits pointus."
+      },
+      "photoPoitouCharentesAlambic": {
+        "title": "Alambic charentais",
+        "alt": "Alambic de cuivre rouge à col de cygne, posé sur un fourneau de briques."
+      },
+      "photoPoitouCharentesChabichou": {
+        "title": "Chabichou du Poitou",
+        "alt": "Petit fromage de chèvre blanc en forme de cylindre, à la croûte plissée."
+      },
+      "photoPoitouCharentesChevrePoitevine": {
+        "title": "Chèvre poitevine",
+        "alt": "Chèvre aux longs poils sombres et au ventre clair, devant une grange."
+      },
+      "photoPoitouCharentesHuitres": {
+        "title": "Huîtres de Marennes-Oléron",
+        "alt": "Coquillage ouvert à la chair grise et nacrée."
+      },
+      "photoPoitouCharentesClaires": {
+        "title": "Claires de la Seudre",
+        "alt": "Vue aérienne en noir et blanc de nombreux bassins, au bord d'un estuaire traversé par un pont."
+      },
+      "photoPoitouCharentesSelRe": {
+        "title": "Marais salants, île de Ré",
+        "alt": "Bassins d'eau peu profonds séparés par de fines levées de terre."
+      },
+      "photoPoitouCharentesMelon": {
+        "title": "Melons charentais",
+        "alt": "Cagettes de bois remplies de fruits ronds à l'écorce vert pâle striée."
+      },
+      "photoPoitouCharentesMogettes": {
+        "title": "Mogettes",
+        "alt": "Assiette de légumes secs blancs servis avec une tranche de viande."
+      },
+      "photoPoitouCharentesBaudet": {
+        "title": "Baudets du Poitou",
+        "alt": "Ânes au long poil brun emmêlé, à l'ombre des arbres."
+      },
+      "photoPoitouCharentesEclade": {
+        "title": "Éclade de moules",
+        "alt": "Feu d'aiguilles de pin rougeoyant dans la nuit."
+      },
+      "photoPoitouCharentesBroye": {
+        "title": "Broyé du Poitou",
+        "alt": "Grand biscuit rond et doré, marqué de croisillons."
+      },
+      "photoPoitouCharentesTourteau": {
+        "title": "Tourteau fromager",
+        "alt": "Gâteau rond à la croûte noire et bombée, posé sur une pierre."
+      },
+      "photoPoitouCharentesMacarons": {
+        "title": "Macarons de Montmorillon",
+        "alt": "Petits gâteaux dorés aux amandes, en forme de spirale."
+      },
+      "photoPoitouCharentesTourLanterne": {
+        "title": "Tour de la Lanterne, La Rochelle",
+        "alt": "Tour ronde de pierre surmontée d'une haute flèche gothique."
+      },
+      "photoPoitouCharentesGrosseHorloge": {
+        "title": "Grosse Horloge, La Rochelle",
+        "alt": "Tour-porte de pierre à cadran et campanile, entre des immeubles anciens."
+      },
+      "photoPoitouCharentesHotelVilleRochelle": {
+        "title": "Hôtel de ville de La Rochelle",
+        "alt": "Mur crénelé de pierre claire, percé de deux portes rouges gothiques."
+      },
+      "photoPoitouCharentesCathedralePoitiers": {
+        "title": "Cathédrale Saint-Pierre, Poitiers",
+        "alt": "Large façade gothique à rosace, encadrée de deux tours de hauteur inégale."
+      },
+      "photoPoitouCharentesBaptistere": {
+        "title": "Baptistère Saint-Jean, Poitiers",
+        "alt": "Petit édifice de pierre et de brique au toit de tuiles, près d'un cyprès."
+      },
+      "photoPoitouCharentesPalaisPoitiers": {
+        "title": "Palais des comtes de Poitou, Poitiers",
+        "alt": "Grand pignon gothique flanqué de tours rondes, à hautes fenêtres."
+      },
+      "photoPoitouCharentesSaintHilaire": {
+        "title": "Église Saint-Hilaire-le-Grand, Poitiers",
+        "alt": "Chevet roman aux absides arrondies, derrière une grille."
+      },
+      "photoPoitouCharentesHotelVillePoitiers": {
+        "title": "Hôtel de ville de Poitiers",
+        "alt": "Cadran d'horloge doré encadré de deux statues assises, sur un toit d'ardoise."
+      },
+      "photoPoitouCharentesFuturoscope": {
+        "title": "Futuroscope, Chasseneuil-du-Poitou",
+        "alt": "Bâtiment de verre aux facettes de cristal, au bord d'un bassin et de gradins."
+      },
+      "photoPoitouCharentesCiteBd": {
+        "title": "Cité de la bande dessinée, Angoulême",
+        "alt": "Anciens bâtiments de pierre à grandes verrières, parmi les arbres."
+      },
+      "photoPoitouCharentesHotelVilleAngouleme": {
+        "title": "Hôtel de ville d'Angoulême",
+        "alt": "Bâtiment néogothique couvert de lierre, avec une tour ronde et un jardin fleuri."
+      },
+      "photoPoitouCharentesPiloriNiort": {
+        "title": "Le Pilori, Niort",
+        "alt": "Petit édifice Renaissance à tourelles et campanile, dans une rue."
+      },
+      "photoPoitouCharentesFregate": {
+        "title": "Frégate Hermione, Rochefort",
+        "alt": "Voilier ancien à trois mâts, à la poupe peinte en bleu et or, à quai."
+      },
+      "photoPoitouCharentesMaisonLoti": {
+        "title": "Maison de Pierre Loti, Rochefort",
+        "alt": "Façade de maison bourgeoise à étage en pans de bois, près d'un palmier."
+      },
+      "photoPoitouCharentesAmphitheatreSaintes": {
+        "title": "Amphithéâtre gallo-romain, Saintes",
+        "alt": "Arène ovale de sable entourée de gradins et d'arches en ruine, dans un vallon."
+      },
+      "photoPoitouCharentesAbbayeDames": {
+        "title": "Abbaye aux Dames, Saintes",
+        "alt": "Vue aérienne d'une abbaye aux bâtiments blancs autour d'une église et d'une pelouse."
+      },
+      "photoPoitouCharentesChateauCognac": {
+        "title": "Château des Valois, Cognac",
+        "alt": "Château de pierre à grosse tour ronde coiffée d'un toit pointu."
+      },
+      "photoPoitouCharentesNotreDameRoyan": {
+        "title": "Église Notre-Dame, Royan",
+        "alt": "Très haut clocher de béton en forme de proue, au-dessus des pins."
+      },
+      "photoPoitouCharentesAquarium": {
+        "title": "Aquarium de La Rochelle",
+        "alt": "Grand bâtiment moderne de verre et de bois, devant une esplanade pavée."
+      },
+      "photoPoitouCharentesPorteSaintJacques": {
+        "title": "Porte Saint-Jacques, Parthenay",
+        "alt": "Porte fortifiée à deux tours, au bout d'un pont de pierre sur une rivière."
+      },
+      "photoPoitouCharentesChateauThouars": {
+        "title": "Château de Thouars",
+        "alt": "Long château classique aux toits d'ardoise, au fond d'une cour pavée."
+      },
+      "photoPoitouCharentesEgliseMelle": {
+        "title": "Église Saint-Hilaire, Melle",
+        "alt": "Mur roman de pierre aux grandes baies et aux arcatures sculptées."
+      },
+      "photoPoitouCharentesTourCarree": {
+        "title": "Tour carrée, Loudun",
+        "alt": "Haute tour de pierre à quatre faces, au bout d'une allée."
+      },
+      "photoPoitouCharentesCitadelleRe": {
+        "title": "Citadelle de Saint-Martin-de-Ré",
+        "alt": "Fortifications basses de pierre au bord de l'estran à marée basse."
+      },
+      "photoPoitouCharentesClocherArs": {
+        "title": "Clocher d'Ars-en-Ré",
+        "alt": "Flèche d'église peinte en noir et blanc, au-dessus d'une rue fleurie de roses trémières."
+      },
+      "photoPoitouCharentesAulnay": {
+        "title": "Église Saint-Pierre, Aulnay",
+        "alt": "Église romane à haut clocher pointu, au milieu d'un cimetière."
+      },
+      "photoPoitouCharentesAbbayeAngely": {
+        "title": "Abbaye royale, Saint-Jean-d'Angély",
+        "alt": "Long bâtiment classique à toit d'ardoise, devant une place plantée d'arbres taillés."
+      },
+      "photoPoitouCharentesDonjonPons": {
+        "title": "Donjon de Pons",
+        "alt": "Haute tour carrée de pierre couronnée de créneaux."
+      },
+      "photoPoitouCharentesFortFouras": {
+        "title": "Fort Vauban, Fouras",
+        "alt": "Vue aérienne d'un fort à donjon carré entouré de remparts, au bord d'une plage."
+      },
+      "photoPoitouCharentesEgliseEsnandes": {
+        "title": "Église Saint-Martin, Esnandes",
+        "alt": "Vue aérienne d'une église aux murs couronnés de créneaux, près d'un parking."
+      },
+      "photoPoitouCharentesCitadelleOleron": {
+        "title": "Citadelle du Château-d'Oléron",
+        "alt": "Porte monumentale de pierre au bout d'un pont à arches, sur un fossé."
+      },
+      "photoPoitouCharentesPortMinimes": {
+        "title": "Port des Minimes, La Rochelle",
+        "alt": "Bassin rempli de voiliers sous un ciel traversé de rayons de soleil."
+      },
+      "photoPoitouCharentesQuaisNiort": {
+        "title": "Quais de la Sèvre, Niort",
+        "alt": "Rivière bordée de quais de pierre, près d'une grande halle de verre."
+      },
+      "photoPoitouCharentesRempartsAngouleme": {
+        "title": "Remparts d'Angoulême",
+        "alt": "Vue plongeante sur une ville haute aux toits de tuiles et aux clochers."
+      },
+      "photoPoitouCharentesPortSaintMartin": {
+        "title": "Port de Saint-Martin-de-Ré",
+        "alt": "Port rempli de voiliers, entouré de maisons basses."
+      },
+      "photoPoitouCharentesClocherMarennes": {
+        "title": "Clocher de Marennes",
+        "alt": "Haut clocher gothique de pierre à flèche, au-dessus des arbres."
+      },
+      "photoPoitouCharentesMoulinPapier": {
+        "title": "Moulin du Verger, Puymoyen",
+        "alt": "Ancien moulin de pierre blanche au bord d'une rivière, dans la verdure."
+      },
+      "photoPoitouCharentesCarrelet": {
+        "title": "Carrelet, Tonnay-Charente",
+        "alt": "Ponton de bois avec des perches, au bord d'une rivière boueuse."
+      },
+      "photoPoitouCharentesTraitPoitevin": {
+        "title": "Cheval de trait poitevin",
+        "alt": "Gros cheval clair et puissant, aux crins sombres, attelé à une voiture."
+      },
+      "photoPoitouCharentesPoterieSaintonge": {
+        "title": "Musée de la Poterie, La Chapelle-des-Pots",
+        "alt": "Salle de musée aux vitrines remplies de pots et de vases."
+      },
+      "photoPoitouCharentesLanterneMorts": {
+        "title": "Lanterne des morts, Fenioux",
+        "alt": "Haute colonne de pierre surmontée d'une pyramide à colonnettes, dans un pré."
+      },
+      "photoPoitouCharentesPlate": {
+        "title": "Barques du Marais poitevin, Coulon",
+        "alt": "Barques de bois noires amarrées sur un canal."
+      },
+      "photoPoitouCharentesAlienor": {
+        "title": "Gisant d'Aliénor d'Aquitaine",
+        "alt": "Visage d'une statue couchée en pierre blanche, coiffée d'une couronne."
+      },
+      "photoPoitouCharentesRichelieu": {
+        "title": "Portrait du cardinal de Richelieu",
+        "alt": "Homme debout en grand manteau rouge, tenant un papier."
+      },
+      "photoPoitouCharentesLoti": {
+        "title": "Portrait de Pierre Loti",
+        "alt": "Homme moustachu en uniforme d'officier de marine, décoré de médailles."
+      },
+      "photoPoitouCharentesFrancoisIer": {
+        "title": "Portrait de François Ier",
+        "alt": "Homme barbu en pourpoint brodé, coiffé d'un chapeau à plume, devant une tenture rouge."
+      },
+      "photoPoitouCharentesMarguerite": {
+        "title": "Portrait de Marguerite d'Angoulême",
+        "alt": "Femme en robe sombre à motifs blancs, tenant un perroquet vert."
+      },
+      "photoPoitouCharentesCaillie": {
+        "title": "Portrait de René Caillié",
+        "alt": "Homme en habit sombre et cravate blanche, tenant une plume."
+      },
+      "photoPoitouCharentesMonnet": {
+        "title": "Jean Monnet",
+        "alt": "Homme souriant à moustache, en costume et cravate, photographie noir et blanc."
+      },
+      "photoPoitouCharentesRenaudot": {
+        "title": "Portrait de Théophraste Renaudot",
+        "alt": "Gravure d'un homme en col blanc, assis à une table devant une draperie."
+      },
+      "photoPoitouCharentesPalissy": {
+        "title": "Statue de Bernard Palissy, Saintes",
+        "alt": "Statue d'homme debout sur un haut piédestal de pierre, sur une place."
+      },
+      "photoPoitouCharentesMontespan": {
+        "title": "Portrait de Madame de Montespan",
+        "alt": "Femme aux cheveux bouclés vêtue de bleu, près d'un angelot ailé."
+      },
+      "photoPoitouCharentesGuiton": {
+        "title": "Statue de Jean Guiton, La Rochelle",
+        "alt": "Statue de bronze d'un homme en cape, devant un bâtiment de pierre."
+      },
+      "photoPoitouCharentesPhareBaleines": {
+        "title": "Phare des Baleines, île de Ré",
+        "alt": "Haute tour octogonale de pierre grise, au-dessus d'un bâtiment."
+      },
+      "photoPoitouCharentesChassiron": {
+        "title": "Phare de Chassiron, île d'Oléron",
+        "alt": "Phare cylindrique rayé de bandes noires et blanches."
+      },
+      "photoPoitouCharentesCoubre": {
+        "title": "Phare de la Coubre, La Tremblade",
+        "alt": "Haut phare blanc au sommet rouge, à côté d'une bouée jaune."
+      },
+      "photoPoitouCharentesFortBoyard": {
+        "title": "Fort Boyard",
+        "alt": "Fort ovale de pierre au milieu de la mer, avec un ponton d'accès."
+      },
+      "photoPoitouCharentesFortLouvois": {
+        "title": "Fort Louvois, Bourcefranc-le-Chapus",
+        "alt": "Fort en fer à cheval avec une tour, entouré d'eau verte."
+      },
+      "photoPoitouCharentesIleAix": {
+        "title": "Côte de l'île d'Aix",
+        "alt": "Mer bleue vue entre des arbres, au-dessus d'une côte rocheuse."
+      },
+      "photoPoitouCharentesGartempe": {
+        "title": "La Gartempe, Vicq-sur-Gartempe",
+        "alt": "Rivière sinueuse bordée d'arbres, au milieu de prairies, vue du ciel."
+      },
+      "photoPoitouCharentesChauvigny": {
+        "title": "Cité médiévale, Chauvigny",
+        "alt": "Place aux maisons de pierre et aux terrasses de café, près d'une tour à toit pointu."
+      },
+      "photoPoitouCharentesAngles": {
+        "title": "Angles-sur-l'Anglin",
+        "alt": "Village de maisons de pierre et de toits pointus étagés sur une colline."
+      },
+      "photoPoitouCharentesAubeterre": {
+        "title": "Aubeterre-sur-Dronne",
+        "alt": "Village de maisons claires perché au-dessus d'une pente boisée."
+      },
+      "photoPoitouCharentesTalmont": {
+        "title": "Église Sainte-Radegonde, Talmont-sur-Gironde",
+        "alt": "Église romane au bord d'une falaise, au-dessus de l'eau."
+      },
+      "photoPoitouCharentesMornac": {
+        "title": "Mornac-sur-Seudre",
+        "alt": "Cabane blanche au bord d'un chenal, dans un marais herbeux."
+      },
+      "photoPoitouCharentesBougon": {
+        "title": "Tumulus de Bougon",
+        "alt": "Grand monticule de pierres sèches couvert d'herbe, percé d'une entrée."
+      },
+      "photoPoitouCharentesPoitiers732": {
+        "title": "Bataille de Poitiers, Charles de Steuben",
+        "alt": "Tableau de cavaliers en armes qui s'affrontent dans une mêlée."
+      },
+      "photoPoitouCharentesSiegeRochelle": {
+        "title": "Siège de La Rochelle, Henri Motte",
+        "alt": "Tableau d'un homme en manteau rouge sur une digue de bois battue par les vagues."
+      },
+      "photoPoitouCharentesMelleMines": {
+        "title": "Mines d'argent, Melle",
+        "alt": "Démonstration de frappe de pièces métalliques, près d'un foyer."
+      },
+      "photoPoitouCharentesBrouage": {
+        "title": "Brouage",
+        "alt": "Vue aérienne d'une petite ville fortifiée en étoile, au milieu des marais."
+      },
+      "photoPoitouCharentesMaisonEmpereur": {
+        "title": "Maison de l'Empereur, île d'Aix",
+        "alt": "Maison bourgeoise de pierre aux volets blancs, surmontée d'un aigle."
+      },
+      "photoPoitouCharentesBaseSousMarine": {
+        "title": "Base sous-marine, La Rochelle",
+        "alt": "Énorme bâtiment de béton aux grandes ouvertures sur l'eau."
+      },
+      "photoPoitouCharentesTransbordeur": {
+        "title": "Pont transbordeur du Martrou, Rochefort",
+        "alt": "Pont métallique entre deux pylônes, au-dessus d'une rivière et de prés."
+      },
+      "photoPoitouCharentesSaintSavin": {
+        "title": "Abbatiale de Saint-Savin",
+        "alt": "Longue nef romane aux colonnes peintes et à la voûte couverte de fresques."
+      },
+      "photoPoitouCharentesQuichenotte": {
+        "title": "Coiffe saintongeaise, île d'Oléron, 1914",
+        "alt": "Jeune femme portant une coiffe de tissu blanc à large visière."
+      },
+      "photoPoitouCharentesBouchots": {
+        "title": "Bouchots, pointe Saint-Clément",
+        "alt": "Rangées de pieux de bois plantés dans la mer à marée basse."
+      },
+      "photoPoitouCharentesCagouilles": {
+        "title": "Escargot petit-gris",
+        "alt": "Escargot à coquille brune rayée, avançant sur le bitume."
+      },
+      "photoPoitouCharentesAngelique": {
+        "title": "Angélique",
+        "alt": "Grande plante aux ombelles vert pâle et aux tiges épaisses."
+      },
+      "photoPoitouCharentesFromentin": {
+        "title": "Portrait d'Eugène Fromentin",
+        "alt": "Gravure d'un homme âgé à barbe, en veste sombre."
+      },
+      "photoPoitouCharentesSardines": {
+        "title": "Sardines grillées",
+        "alt": "Assiette de petits poissons grillés, avec des pommes de terre et des poivrons."
+      },
+      "photoPoitouCharentesCharentaise": {
+        "title": "Charentaises",
+        "alt": "Pantoufles de feutre gris, jaunes et rouges empilées sur un étal."
+      },
+      "photoPoitouCharentesTonnellerie": {
+        "title": "Tonnellerie",
+        "alt": "Artisan au travail sur un fût de bois, près d'un petit feu."
+      },
+      "photoPoitouCharentesVignesCognac": {
+        "title": "Vignoble des Borderies, Cherves-Richemont",
+        "alt": "Rangs de vigne bien alignés, devant un bois, sous un ciel bleu."
+      },
+      "photoPoitouCharentesMelusine": {
+        "title": "Mélusine, édition de 1517",
+        "alt": "Gravure ancienne d'une femme à queue de serpent dans un bassin, près d'une tour."
+      },
+      "photoPoitouCharentesChamplain": {
+        "title": "Monument à Samuel de Champlain, Québec",
+        "alt": "Statue de bronze sur un haut monument de pierre, sur une terrasse."
       }
     }
   },
@@ -4122,7 +4558,55 @@
     "chalus": "Châlus",
     "ambazac": "Ambazac",
     "aixe-sur-vienne": "Aixe-sur-Vienne",
-    "magnac-laval": "Magnac-Laval"
+    "magnac-laval": "Magnac-Laval",
+    "angouleme": "Angoulême",
+    "cognac": "Cognac",
+    "jarnac": "Jarnac",
+    "confolens": "Confolens",
+    "ruffec": "Ruffec",
+    "la-rochefoucauld": "La Rochefoucauld",
+    "barbezieux-saint-hilaire": "Barbezieux-Saint-Hilaire",
+    "aubeterre-sur-dronne": "Aubeterre-sur-Dronne",
+    "puymoyen": "Puymoyen",
+    "villebois-lavalette": "Villebois-Lavalette",
+    "la-rochelle": "La Rochelle",
+    "rochefort": "Rochefort",
+    "saintes": "Saintes",
+    "royan": "Royan",
+    "saint-jean-d-angely": "Saint-Jean-d'Angély",
+    "jonzac": "Jonzac",
+    "pons": "Pons",
+    "marennes-hiers-brouage": "Marennes-Hiers-Brouage",
+    "saint-martin-de-re": "Saint-Martin-de-Ré",
+    "fouras": "Fouras",
+    "chatelaillon-plage": "Châtelaillon-Plage",
+    "le-chateau-d-oleron": "Le Château-d'Oléron",
+    "talmont-sur-gironde": "Talmont-sur-Gironde",
+    "mornac-sur-seudre": "Mornac-sur-Seudre",
+    "ars-en-re": "Ars-en-Ré",
+    "aulnay": "Aulnay",
+    "esnandes": "Esnandes",
+    "ile-d-aix": "Île-d'Aix",
+    "niort": "Niort",
+    "parthenay": "Parthenay",
+    "thouars": "Thouars",
+    "bressuire": "Bressuire",
+    "melle": "Melle",
+    "saint-maixent-l-ecole": "Saint-Maixent-l'École",
+    "coulon": "Coulon",
+    "arcais": "Arçais",
+    "bougon": "Bougon",
+    "oiron": "Oiron",
+    "poitiers": "Poitiers",
+    "chatellerault": "Châtellerault",
+    "loudun": "Loudun",
+    "montmorillon": "Montmorillon",
+    "chauvigny": "Chauvigny",
+    "civray": "Civray",
+    "lusignan": "Lusignan",
+    "saint-savin": "Saint-Savin",
+    "angles-sur-l-anglin": "Angles-sur-l'Anglin",
+    "nouaille-maupertuis": "Nouaillé-Maupertuis"
   },
   "territories": {
     "champagne-ardenne": {
@@ -27900,7 +28384,1988 @@
       }
     },
     "poitou-charentes": {
-      "name": "Poitou-Charentes"
+      "name": "Poitou-Charentes",
+      "description": "Des tours du Vieux-Port de La Rochelle aux églises romanes de Poitiers, un pays d'océan, d'îles et de marais, celui du cognac, du beurre et des huîtres de Marennes-Oléron, entre Charente, Charente-Maritime, Deux-Sèvres et Vienne, aujourd'hui au sein de la région Nouvelle-Aquitaine.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Poitou-Charentes",
+          "description": "Quatre départements, leurs villes et les grands repères d'un pays d'océan, d'îles, de marais et de plaines, au nord de la Nouvelle-Aquitaine.",
+          "carte-territoire": {
+            "prompt": "Touchez sur la carte le territoire historique du Poitou-Charentes.",
+            "hint": "C'est la partie nord de la région, ouverte sur l'océan Atlantique.",
+            "anecdote": "Poitou-Charentes était une région administrative jusqu'en 2015. Elle a fusionné avec l'Aquitaine et le Limousin le 1er janvier 2016."
+          },
+          "carte-voisin": {
+            "prompt": "Touchez le territoire voisin qui s'étend à l'est du Poitou-Charentes, sans accès à la mer.",
+            "hint": "C'est un pays de plateaux et de forêts, autour de Limoges.",
+            "anecdote": "Au sud, le Poitou-Charentes touche le troisième territoire de la région, l'Aquitaine, le long de la Gironde et de la Dordogne."
+          },
+          "capitale": {
+            "prompt": "Quelle ville était le chef-lieu de l'ancienne région Poitou-Charentes ?",
+            "hint": "Ancienne capitale des comtes de Poitou, elle est bâtie sur un promontoire entre le Clain et la Boivre.",
+            "anecdote": "Avec environ 90 000 habitants, c'est aussi une grande ville universitaire, fondée dès 1431."
+          },
+          "quatre": {
+            "prompt": "Combien de départements comptait la région Poitou-Charentes ?",
+            "hint": "Deux d'entre eux portent le nom du même fleuve.",
+            "anecdote": "Ce sont la Charente, la Charente-Maritime, les Deux-Sèvres et la Vienne.",
+            "answers": {
+              "quatre": "Quatre",
+              "trois": "Trois",
+              "cinq": "Cinq",
+              "six": "Six"
+            }
+          },
+          "fusion": {
+            "prompt": "Dans quelle grande région le Poitou-Charentes est-il entré en 2016 ?",
+            "hint": "Son chef-lieu est Bordeaux.",
+            "anecdote": "C'est la plus vaste région de la France métropolitaine, avec douze départements.",
+            "answers": {
+              "la-nouvelle-aquitaine": "La Nouvelle-Aquitaine",
+              "les-pays-de-la-loire": "Les Pays de la Loire",
+              "le-centre-val-de-loire": "Le Centre-Val de Loire",
+              "l-occitanie": "L'Occitanie"
+            }
+          },
+          "ocean": {
+            "prompt": "Quel océan borde les côtes du Poitou-Charentes ?",
+            "hint": "C'est le même que celui qui baigne la Bretagne et le Pays basque.",
+            "anecdote": "Le littoral de la Charente-Maritime, avec ses îles, s'étend sur plus de 450 kilomètres.",
+            "answers": {
+              "l-ocean-atlantique": "L'océan Atlantique",
+              "la-mer-du-nord": "La mer du Nord",
+              "la-manche": "La Manche",
+              "la-mer-mediterranee": "La mer Méditerranée"
+            }
+          },
+          "cognac-eau": {
+            "prompt": "Quelle eau-de-vie de vin, vendue dans le monde entier, porte le nom d'une ville de Charente ?",
+            "hint": "Elle vieillit plusieurs années en fûts de chêne.",
+            "anecdote": "La grande majorité des bouteilles de cognac sont exportées, surtout vers les États-Unis et l'Asie.",
+            "answers": {
+              "le-cognac": "Le cognac",
+              "l-armagnac": "L'armagnac",
+              "le-calvados": "Le calvados",
+              "la-mirabelle": "La mirabelle"
+            }
+          },
+          "province": {
+            "prompt": "Quelle ancienne province avait pour capitale Poitiers ?",
+            "hint": "Elle a donné son nom au marais et au baudet de la région.",
+            "anecdote": "Le Poitou couvrait à peu près la Vienne, les Deux-Sèvres et la Vendée actuelles.",
+            "answers": {
+              "le-poitou": "Le Poitou",
+              "l-angoumois": "L'Angoumois",
+              "la-saintonge": "La Saintonge",
+              "l-aunis": "L'Aunis"
+            }
+          },
+          "deux-sevres": {
+            "prompt": "Quel département du Poitou-Charentes doit son nom à deux rivières ?",
+            "hint": "L'une coule vers Niort et le Marais, l'autre vers Nantes.",
+            "anecdote": "La Sèvre niortaise se jette dans l'océan, la Sèvre nantaise rejoint la Loire à Nantes.",
+            "answers": {
+              "les-deux-sevres": "Les Deux-Sèvres",
+              "la-vienne": "La Vienne",
+              "la-charente": "La Charente",
+              "la-charente-maritime": "La Charente-Maritime"
+            }
+          },
+          "marais": {
+            "prompt": "Quelle grande zone humide, surnommée la Venise verte, voit-on ici ?",
+            "hint": "On y circule en barque plate, sur des canaux bordés de frênes.",
+            "anecdote": "C'est la deuxième zone humide de France par sa superficie, après la Camargue. Elle s'étend sur trois départements.",
+            "answers": {
+              "le-marais-poitevin": "Le Marais poitevin",
+              "la-briere": "La Brière",
+              "le-marais-breton": "Le Marais breton",
+              "les-dombes": "Les Dombes"
+            }
+          },
+          "charente-fleuve": {
+            "prompt": "Quel fleuve, qui a donné son nom à deux départements, coule ici ?",
+            "hint": "Il se jette dans l'océan face à l'île d'Oléron.",
+            "anecdote": "Henri IV l'aurait qualifié de plus beau ruisseau de son royaume. Il traverse Angoulême, Cognac, Saintes et Rochefort.",
+            "answers": {
+              "la-charente": "La Charente",
+              "la-vienne": "La Vienne",
+              "la-sevre-niortaise": "La Sèvre niortaise",
+              "la-dordogne": "La Dordogne"
+            }
+          },
+          "ile-de-re": {
+            "prompt": "Quelle île, reliée au continent depuis 1988, rejoint-on par ce pont ?",
+            "hint": "Elle se trouve juste en face de La Rochelle.",
+            "anecdote": "Le pont mesure près de 3 kilomètres. Ses habitants surnomment l'île Ré la Blanche.",
+            "answers": {
+              "l-ile-de-re": "L'île de Ré",
+              "l-ile-d-oleron": "L'île d'Oléron",
+              "l-ile-d-aix": "L'île d'Aix",
+              "belle-ile": "Belle-Île"
+            }
+          },
+          "oleron-taille": {
+            "prompt": "Quelle île de Charente-Maritime est la plus grande île de la côte atlantique française ?",
+            "hint": "Elle est reliée au continent par un pont depuis 1966.",
+            "anecdote": "Elle mesure environ 30 kilomètres de long. Seule la Corse est plus grande parmi les îles de la France métropolitaine.",
+            "answers": {
+              "l-ile-d-oleron": "L'île d'Oléron",
+              "l-ile-de-re": "L'île de Ré",
+              "l-ile-d-aix": "L'île d'Aix",
+              "l-ile-madame": "L'île Madame"
+            }
+          },
+          "dep-angouleme": {
+            "prompt": "Touchez le département dont la préfecture est Angoulême.",
+            "hint": "C'est le département le plus au sud-est du Poitou-Charentes, voisin du Limousin.",
+            "anecdote": "La Charente est traversée d'est en ouest par le fleuve du même nom."
+          },
+          "dep-la-rochelle": {
+            "prompt": "Touchez le département dont la préfecture est La Rochelle.",
+            "hint": "C'est le seul département du Poitou-Charentes ouvert sur l'océan.",
+            "anecdote": "Jusqu'en 1941, ce département s'appelait la Charente-Inférieure."
+          },
+          "dep-niort": {
+            "prompt": "Touchez le département dont la préfecture est Niort.",
+            "hint": "C'est le département du nord-ouest, entre la Vendée et la Vienne.",
+            "anecdote": "Les Deux-Sèvres doivent leur nom à deux rivières, la Sèvre niortaise et la Sèvre nantaise."
+          },
+          "dep-poitiers": {
+            "prompt": "Touchez le département dont la préfecture est Poitiers.",
+            "hint": "C'est le département le plus à l'est du Poitou-Charentes, au nord du Limousin.",
+            "anecdote": "La Vienne doit son nom à la rivière qui la traverse du sud au nord, avant de rejoindre la Loire."
+          },
+          "dep-cotier": {
+            "prompt": "Touchez le département du Poitou-Charentes qui borde l'océan Atlantique.",
+            "hint": "On y trouve les îles de Ré, d'Oléron et d'Aix.",
+            "anecdote": "Son littoral va de la baie de l'Aiguillon, au nord, à l'estuaire de la Gironde, au sud."
+          },
+          "dep-cognac": {
+            "prompt": "Touchez le département où se trouve la ville de Cognac.",
+            "hint": "C'est le département le plus au sud-est du Poitou-Charentes, voisin du Limousin.",
+            "anecdote": "Cognac, sur la Charente, est la deuxième ville du département après Angoulême."
+          },
+          "dep-rochefort": {
+            "prompt": "Touchez le département où se trouve Rochefort, ancien arsenal de la Marine.",
+            "hint": "C'est le seul département du Poitou-Charentes ouvert sur l'océan.",
+            "anecdote": "L'arsenal a été créé en 1666, à l'initiative de Colbert, sur un méandre de la Charente."
+          },
+          "dep-saintes": {
+            "prompt": "Touchez le département où se trouve Saintes, l'ancienne Mediolanum Santonum.",
+            "hint": "C'est le seul département du Poitou-Charentes ouvert sur l'océan.",
+            "anecdote": "Capitale du peuple gaulois des Santons, la ville a donné son nom à la province de Saintonge."
+          },
+          "dep-royan": {
+            "prompt": "Touchez le département où se trouve la station balnéaire de Royan.",
+            "hint": "C'est le seul département du Poitou-Charentes ouvert sur l'océan.",
+            "anecdote": "Royan se trouve à l'entrée de l'estuaire de la Gironde."
+          },
+          "dep-chatellerault": {
+            "prompt": "Touchez le département où se trouve Châtellerault.",
+            "hint": "C'est le département le plus à l'est du Poitou-Charentes, au nord du Limousin.",
+            "anecdote": "C'est la deuxième ville de la Vienne, au bord de la rivière du même nom."
+          },
+          "dep-futuroscope": {
+            "prompt": "Touchez le département où se trouve le parc du Futuroscope.",
+            "hint": "C'est le département le plus à l'est du Poitou-Charentes, au nord du Limousin.",
+            "anecdote": "Le parc a ouvert en 1987, au nord de Poitiers."
+          },
+          "dep-parthenay": {
+            "prompt": "Touchez le département où se trouve Parthenay, au cœur de la Gâtine.",
+            "hint": "C'est le département du nord-ouest, entre la Vendée et la Vienne.",
+            "anecdote": "Parthenay était une étape sur l'un des chemins de Saint-Jacques-de-Compostelle."
+          },
+          "dep-coulon": {
+            "prompt": "Touchez le département où se trouve Coulon, capitale de la Venise verte.",
+            "hint": "C'est le département du nord-ouest, entre la Vendée et la Vienne.",
+            "anecdote": "Le Marais poitevin s'étend sur trois départements : les Deux-Sèvres, la Charente-Maritime et la Vendée."
+          },
+          "dep-confolens": {
+            "prompt": "Touchez le département où se trouve Confolens, ville d'un grand festival de danses du monde.",
+            "hint": "C'est le département le plus au sud-est du Poitou-Charentes, voisin du Limousin.",
+            "anecdote": "Confolens se trouve dans la Charente limousine, la partie est du département."
+          },
+          "dep-montmorillon": {
+            "prompt": "Touchez le département où se trouve Montmorillon, la cité de l'écrit.",
+            "hint": "C'est le département le plus à l'est du Poitou-Charentes, au nord du Limousin.",
+            "anecdote": "Montmorillon est bâtie sur les bords de la Gartempe."
+          },
+          "vieux-port": {
+            "prompt": "Dans quelle ville se dressent ces tours médiévales, à l'entrée du Vieux-Port ?",
+            "hint": "C'est la préfecture de la Charente-Maritime.",
+            "anecdote": "La tour Saint-Nicolas et la tour de la Chaîne gardaient l'entrée du port. Une chaîne tendue entre elles fermait le passage la nuit.",
+            "answers": {
+              "saint-malo": "Saint-Malo"
+            }
+          },
+          "notre-dame-la-grande": {
+            "prompt": "Dans quelle ville se trouve cette église romane à la façade sculptée ?",
+            "hint": "C'est la préfecture de la Vienne.",
+            "anecdote": "La façade de Notre-Dame-la-Grande date du XIIe siècle. Des projections colorées la font revivre certains soirs d'été."
+          },
+          "cathedrale-angouleme": {
+            "prompt": "Dans quelle ville se dresse cette cathédrale romane, coiffée de coupoles ?",
+            "hint": "La ville est perchée sur un plateau au-dessus de la Charente.",
+            "anecdote": "La cathédrale Saint-Pierre a été construite au XIIe siècle. Sa façade compte plus de 70 personnages sculptés.",
+            "answers": {
+              "perigueux": "Périgueux"
+            }
+          },
+          "donjon-niort": {
+            "prompt": "Dans quelle ville se dresse ce double donjon, au bord de la Sèvre niortaise ?",
+            "hint": "C'est la préfecture des Deux-Sèvres.",
+            "anecdote": "Le donjon a été construit à la fin du XIIe siècle, sous Henri II Plantagenêt et Richard Cœur de Lion."
+          },
+          "corderie": {
+            "prompt": "Dans quelle ville se trouve ce long bâtiment, la Corderie royale ?",
+            "hint": "La ville abritait un grand arsenal de la Marine, au bord de la Charente.",
+            "anecdote": "Le bâtiment mesure environ 374 mètres de long. On y fabriquait les cordages des navires du roi.",
+            "answers": {
+              "brest": "Brest",
+              "toulon": "Toulon"
+            }
+          },
+          "arc-germanicus": {
+            "prompt": "Dans quelle ville se dresse cet arc romain du Ier siècle, l'arc de Germanicus ?",
+            "hint": "Elle était la capitale du peuple gaulois des Santons.",
+            "anecdote": "L'arc se trouvait à l'origine à l'entrée d'un pont sur la Charente. Il a été démonté et remonté sur la rive au XIXe siècle.",
+            "answers": {
+              "orange": "Orange"
+            }
+          },
+          "cognac-ville": {
+            "prompt": "Quelle ville, au bord de la Charente, est bordée de quais et de chais où vieillit une eau-de-vie célèbre ?",
+            "hint": "Le roi François Ier y est né en 1494.",
+            "anecdote": "Les grandes maisons de cognac y ont leurs chais, le long des quais."
+          },
+          "royan": {
+            "prompt": "Dans quelle station balnéaire s'étend ce front de mer, reconstruit après la guerre ?",
+            "hint": "La ville se trouve à l'entrée de l'estuaire de la Gironde.",
+            "anecdote": "Détruite par des bombardements en 1945, la ville a été reconstruite dans un style moderne, autour de sa grande plage, la Grande Conche.",
+            "answers": {
+              "arcachon": "Arcachon",
+              "les-sables-d-olonne": "Les Sables-d'Olonne",
+              "la-baule": "La Baule"
+            }
+          },
+          "hermione": {
+            "prompt": "Dans quelle ville a été reconstruite la frégate Hermione, celle de La Fayette ?",
+            "hint": "Le chantier se trouvait dans les formes de radoub de l'ancien arsenal.",
+            "anecdote": "La réplique a navigué jusqu'aux États-Unis en 2015, comme La Fayette en 1780.",
+            "answers": {
+              "bordeaux": "Bordeaux",
+              "nantes": "Nantes"
+            }
+          },
+          "bd-angouleme": {
+            "prompt": "Quelle ville accueille chaque hiver le Festival international de la bande dessinée ?",
+            "hint": "Ses murs sont décorés de grandes fresques de bande dessinée.",
+            "anecdote": "Le festival a été créé en 1974. Il remet notamment le Grand prix de la ville."
+          },
+          "francofolies": {
+            "prompt": "Dans quelle ville se déroule chaque été le festival des Francofolies ?",
+            "hint": "Les concerts se tiennent près du Vieux-Port.",
+            "anecdote": "Le festival, consacré à la chanson francophone, a été créé en 1985 par Jean-Louis Foulquier."
+          },
+          "chatellerault": {
+            "prompt": "Dans quelle ville de la Vienne se trouve ce pont de pierre encadré de deux tours ?",
+            "hint": "C'est la deuxième ville du département.",
+            "anecdote": "Le pont Henri-IV a été achevé au début du XVIIe siècle. Ses deux tours gardaient l'entrée de la ville."
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs du Poitou-Charentes",
+          "description": "Cognac et pineau, beurre et fromages de chèvre, huîtres et moules, broyé et tourteau : la table d'un pays d'élevage, de vignes et de marais.",
+          "alambic": {
+            "prompt": "Quelle eau-de-vie distille-t-on dans cet alambic de cuivre, en Charente ?",
+            "hint": "Elle porte le nom d'une ville au bord de la Charente.",
+            "anecdote": "L'alambic charentais distille le vin blanc en deux chauffes successives. L'eau-de-vie vieillit ensuite en fûts de chêne.",
+            "answers": {
+              "le-cognac": "Le cognac",
+              "l-armagnac": "L'armagnac",
+              "le-calvados": "Le calvados",
+              "le-marc-de-bourgogne": "Le marc de Bourgogne"
+            }
+          },
+          "pineau": {
+            "prompt": "Quel apéritif charentais mélange du jus de raisin et du cognac ?",
+            "hint": "Sa légende raconte qu'un vigneron aurait versé par erreur du moût dans un fût contenant de l'eau-de-vie.",
+            "anecdote": "Il vieillit au moins un an, dont une partie en fût de chêne, et au moins dix-huit mois pour le blanc. Il existe en blanc, en rosé et en rouge.",
+            "answers": {
+              "le-pineau-des-charentes": "Le pineau des Charentes",
+              "le-floc-de-gascogne": "Le floc de Gascogne",
+              "le-pommeau": "Le pommeau",
+              "le-macvin": "Le macvin"
+            }
+          },
+          "cognac-raisin": {
+            "prompt": "Quel cépage blanc fournit l'essentiel des vins distillés pour le cognac ?",
+            "hint": "En Italie, on le connaît sous le nom de trebbiano.",
+            "anecdote": "Ce cépage tardif donne un vin acide et peu alcoolisé, idéal pour la distillation.",
+            "answers": {
+              "l-ugni-blanc": "L'ugni blanc",
+              "le-chardonnay": "Le chardonnay",
+              "le-sauvignon": "Le sauvignon",
+              "le-chenin": "Le chenin"
+            }
+          },
+          "grande-champagne": {
+            "prompt": "Comment s'appelle le cru le plus réputé de la région délimitée du cognac ?",
+            "hint": "Son nom évoque une région viticole plus au nord, mais il désigne ici des terres calcaires.",
+            "anecdote": "La région du cognac compte six crus. Ce cru se situe au sud de la ville de Cognac.",
+            "answers": {
+              "la-grande-champagne": "La Grande Champagne",
+              "les-borderies": "Les Borderies",
+              "les-fins-bois": "Les Fins Bois",
+              "les-bois-ordinaires": "Les Bois ordinaires"
+            }
+          },
+          "vsop": {
+            "prompt": "Que signifie la mention VSOP sur une bouteille de cognac ?",
+            "hint": "Ces initiales anglaises rappellent l'importance du commerce avec l'Angleterre.",
+            "anecdote": "Le cognac VSOP a vieilli au moins quatre ans en fût. Le XO doit avoir vieilli au moins dix ans.",
+            "answers": {
+              "very-superior-old-pale": "Very Superior Old Pale",
+              "vin-sec-original-de-poitou": "Vin Sec Original de Poitou",
+              "very-special-old-port": "Very Special Old Port",
+              "vieux-spiritueux-d-origine-protegee": "Vieux Spiritueux d'Origine Protégée"
+            }
+          },
+          "vignes-cognac": {
+            "prompt": "À quelle production sont surtout destinées ces vignes de Charente ?",
+            "hint": "Le vin blanc obtenu y est peu alcoolisé et très acide.",
+            "anecdote": "Le vignoble couvre environ 80 000 hectares, surtout en Charente et en Charente-Maritime.",
+            "answers": {
+              "le-cognac": "Le cognac",
+              "le-champagne": "Le champagne",
+              "le-vin-de-table": "Le vin de table",
+              "le-jus-de-raisin": "Le jus de raisin"
+            }
+          },
+          "beurre": {
+            "prompt": "Quel produit laitier, protégé par une appellation, fait la réputation des Charentes et du Poitou ?",
+            "hint": "On le fabrique en barattant la crème.",
+            "anecdote": "Le beurre Charentes-Poitou bénéficie d'une appellation d'origine. Les laiteries coopératives s'y sont développées à la fin du XIXe siècle, après les ravages du phylloxéra.",
+            "answers": {
+              "le-beurre": "Le beurre",
+              "la-creme-fraiche": "La crème fraîche",
+              "le-lait-ribot": "Le lait ribot",
+              "le-fromage-blanc": "Le fromage blanc"
+            }
+          },
+          "chabichou": {
+            "prompt": "Quel fromage de chèvre en forme de petit cône tronqué voit-on ici ?",
+            "hint": "Son nom viendrait d'un mot arabe signifiant chèvre.",
+            "anecdote": "Le chabichou du Poitou bénéficie d'une appellation d'origine protégée. Le Poitou-Charentes était la première région de France pour le lait de chèvre.",
+            "answers": {
+              "le-chabichou-du-poitou": "Le chabichou du Poitou",
+              "le-crottin-de-chavignol": "Le crottin de Chavignol",
+              "le-picodon": "Le picodon",
+              "le-pelardon": "Le pélardon"
+            }
+          },
+          "chevre-poitevine": {
+            "prompt": "Quelle race de chèvre, à la robe brune et au ventre clair, est originaire de la région ?",
+            "hint": "Elle porte le nom de l'ancienne province de Poitiers.",
+            "anecdote": "Cette race, très menacée dans les années 1980, est aujourd'hui protégée par des éleveurs passionnés.",
+            "answers": {
+              "la-chevre-poitevine": "La chèvre poitevine",
+              "la-chevre-alpine": "La chèvre alpine",
+              "la-chevre-des-pyrenees": "La chèvre des Pyrénées",
+              "la-chevre-saanen": "La chèvre saanen"
+            }
+          },
+          "huitres": {
+            "prompt": "Quels coquillages, élevés en claires, font la réputation du bassin de Marennes-Oléron ?",
+            "hint": "On les déguste souvent crues, avec un filet de citron.",
+            "anecdote": "Le bassin de Marennes-Oléron est l'un des premiers centres ostréicoles d'Europe. L'affinage en claire donne à certaines une couleur verte.",
+            "answers": {
+              "les-huitres": "Les huîtres",
+              "les-moules": "Les moules",
+              "les-coques": "Les coques",
+              "les-palourdes": "Les palourdes"
+            }
+          },
+          "claires": {
+            "prompt": "Comment appelle-t-on ces anciens bassins de marais salant où l'on affine les huîtres ?",
+            "hint": "Leur nom évoque la transparence de l'eau.",
+            "anecdote": "Une huître fine de claire séjourne plusieurs semaines dans ces bassins peu profonds, avant d'être vendue.",
+            "answers": {
+              "des-claires": "Des claires",
+              "des-etiers": "Des étiers",
+              "des-parcs-a-bouchots": "Des parcs à bouchots",
+              "des-viviers": "Des viviers"
+            }
+          },
+          "bouchots": {
+            "prompt": "Quels coquillages élève-t-on sur ces pieux de bois plantés dans la mer, en baie de l'Aiguillon ?",
+            "hint": "Elles sont noires et allongées.",
+            "anecdote": "Selon la tradition, l'élevage sur pieux serait né à Esnandes au XIIIe siècle, inventé par un Irlandais naufragé, Patrick Walton.",
+            "answers": {
+              "les-moules": "Les moules",
+              "les-huitres": "Les huîtres",
+              "les-coquilles-saint-jacques": "Les coquilles Saint-Jacques",
+              "les-bigorneaux": "Les bigorneaux"
+            }
+          },
+          "sel-re": {
+            "prompt": "Que récolte-t-on dans ces bassins peu profonds de l'île de Ré ?",
+            "hint": "Le vent et le soleil font évaporer l'eau de mer.",
+            "anecdote": "Le saunier récolte le gros sel au fond des bassins et la fleur de sel à la surface.",
+            "answers": {
+              "le-sel": "Le sel",
+              "les-huitres": "Les huîtres",
+              "les-crevettes": "Les crevettes",
+              "les-algues": "Les algues"
+            }
+          },
+          "pomme-de-terre-re": {
+            "prompt": "Quel légume de l'île de Ré a été le premier de son espèce à obtenir une AOC, en 1998 ?",
+            "hint": "On la récolte en primeur, au printemps.",
+            "anecdote": "Elle bénéficie aujourd'hui d'une appellation d'origine protégée. On la cultive sur les terres sableuses de l'île.",
+            "answers": {
+              "la-pomme-de-terre": "La pomme de terre",
+              "la-carotte": "La carotte",
+              "l-asperge": "L'asperge",
+              "l-oignon": "L'oignon"
+            }
+          },
+          "melon": {
+            "prompt": "Quel fruit à chair orange, cultivé dans la région, porte le nom de charentais ?",
+            "hint": "On le déguste en été, parfois avec du jambon.",
+            "anecdote": "Le melon charentais est l'une des variétés les plus cultivées en France. Le Haut-Poitou et les Charentes en sont de grandes zones de culture.",
+            "answers": {
+              "le-melon": "Le melon",
+              "la-pasteque": "La pastèque",
+              "la-citrouille": "La citrouille",
+              "le-potimarron": "Le potimarron"
+            }
+          },
+          "mogettes": {
+            "prompt": "Comment appelle-t-on, en Poitou et en Vendée, ces haricots blancs ?",
+            "hint": "On les sert volontiers avec du jambon ou sur une tartine grillée.",
+            "anecdote": "La mogette est cultivée en Vendée et dans le Poitou. On la récolte sèche, à la fin de l'été.",
+            "answers": {
+              "des-mogettes": "Des mogettes",
+              "des-cocos-de-paimpol": "Des cocos de Paimpol",
+              "des-lingots-du-nord": "Des lingots du Nord",
+              "des-flageolets": "Des flageolets"
+            }
+          },
+          "baudet": {
+            "prompt": "Quel âne au long poil en cadenettes est originaire du Poitou ?",
+            "hint": "Croisé avec la jument mulassière, il donnait de robustes mulets.",
+            "anecdote": "Il ne restait qu'une quarantaine d'animaux de race pure en 1977. Un programme de sauvegarde, lancé notamment à Dampierre-sur-Boutonne, l'a sauvé.",
+            "answers": {
+              "le-baudet-du-poitou": "Le baudet du Poitou",
+              "l-ane-de-provence": "L'âne de Provence",
+              "l-ane-des-pyrenees": "L'âne des Pyrénées",
+              "l-ane-normand": "L'âne normand"
+            }
+          },
+          "dep-chabichou": {
+            "prompt": "Touchez le département où se trouve Melle, au cœur de la zone du chabichou et du lait de chèvre.",
+            "hint": "C'est le département de Niort.",
+            "anecdote": "Les Deux-Sèvres sont le premier département français pour la production de lait de chèvre."
+          },
+          "dep-marennes": {
+            "prompt": "Touchez le département où se trouve le bassin ostréicole de Marennes-Oléron.",
+            "hint": "Il fait face à l'île d'Oléron.",
+            "anecdote": "Les huîtres de Marennes-Oléron bénéficient d'une indication géographique protégée."
+          },
+          "dep-jarnac": {
+            "prompt": "Touchez le département où se trouve Jarnac, ville de grandes maisons de cognac.",
+            "hint": "C'est le département d'Angoulême.",
+            "anecdote": "Le président François Mitterrand est né à Jarnac en 1916 et y est enterré."
+          },
+          "eclade": {
+            "prompt": "Comment s'appelle ce plat charentais de moules, cuites sous un feu d'aiguilles de pin ?",
+            "hint": "Les moules sont dressées en rosace sur une planche.",
+            "anecdote": "Les moules sont disposées serrées, pointe en haut, pour que la cendre n'entre pas dans les coquilles.",
+            "answers": {
+              "l-eclade": "L'éclade",
+              "la-mouclade": "La mouclade",
+              "la-chaudree": "La chaudrée",
+              "la-cotriade": "La cotriade"
+            }
+          },
+          "mouclade": {
+            "prompt": "Quel plat charentais associe des moules à une sauce à la crème, souvent relevée de curry ?",
+            "hint": "Son nom ressemble à celui du plat de moules cuites sous les aiguilles de pin.",
+            "anecdote": "Le curry rappelle les épices débarquées autrefois dans les ports de La Rochelle et de Rochefort.",
+            "answers": {
+              "la-mouclade": "La mouclade",
+              "l-eclade": "L'éclade",
+              "la-bouillabaisse": "La bouillabaisse",
+              "la-chaudree": "La chaudrée"
+            }
+          },
+          "chaudree": {
+            "prompt": "Quelle soupe de poissons est la spécialité de Fouras et de la côte charentaise ?",
+            "hint": "Son nom vient du chaudron des pêcheurs.",
+            "anecdote": "Elle réunit de la seiche et de petits poissons comme la sole et la raie, cuits au vin blanc avec beurre et ail.",
+            "answers": {
+              "la-chaudree": "La chaudrée",
+              "la-bouillabaisse": "La bouillabaisse",
+              "la-cotriade": "La cotriade",
+              "la-garbure": "La garbure"
+            }
+          },
+          "cagouilles": {
+            "prompt": "Comment appelle-t-on, en Charente, cet escargot petit-gris que l'on cuisine en sauce ?",
+            "hint": "Ce mot a donné le surnom des Charentais.",
+            "anecdote": "On les cuisine souvent à la charentaise, avec du vin, de la chair à saucisse et de l'ail.",
+            "answers": {
+              "des-cagouilles": "Des cagouilles",
+              "des-bigorneaux": "Des bigorneaux",
+              "des-moules": "Des moules",
+              "des-grillons": "Des grillons"
+            }
+          },
+          "farci": {
+            "prompt": "Quel plat de la région est un chou farci de légumes verts et de lard, cuit dans un filet ?",
+            "hint": "On l'appelle aussi fars ou piffarot.",
+            "anecdote": "Il se sert froid ou chaud, coupé en tranches.",
+            "answers": {
+              "le-farci-poitevin": "Le farci poitevin",
+              "le-chou-farci-auvergnat": "Le chou farci auvergnat",
+              "la-potee": "La potée",
+              "le-kig-ha-farz": "Le kig ha farz"
+            }
+          },
+          "grillon": {
+            "prompt": "Quelle préparation charentaise de porc confit et effiloché se tartine comme des rillettes ?",
+            "hint": "Son nom évoque un insecte qui chante.",
+            "anecdote": "On la prépare avec des morceaux de porc longuement cuits dans leur graisse.",
+            "answers": {
+              "le-grillon-charentais": "Le grillon charentais",
+              "le-pate-de-campagne": "Le pâté de campagne",
+              "la-rillette-du-mans": "La rillette du Mans",
+              "le-fromage-de-tete": "Le fromage de tête"
+            }
+          },
+          "mothais": {
+            "prompt": "Sur quelle feuille affine-t-on le mothais, un fromage de chèvre des Deux-Sèvres ?",
+            "hint": "Cet arbre donne aussi des fruits bruns dans des bogues piquantes.",
+            "anecdote": "Le mothais sur feuille vient de La Mothe-Saint-Héray. La feuille garde au fromage son humidité pendant l'affinage.",
+            "answers": {
+              "la-feuille-de-chataignier": "La feuille de châtaignier",
+              "la-feuille-de-vigne": "La feuille de vigne",
+              "la-feuille-de-platane": "La feuille de platane",
+              "la-feuille-de-chou": "La feuille de chou"
+            }
+          },
+          "chevreau": {
+            "prompt": "Quelle viande, liée à l'élevage des chèvres, est traditionnellement servie à Pâques en Poitou ?",
+            "hint": "Il s'agit du petit de la chèvre.",
+            "anecdote": "On le cuisine souvent à l'ail vert et aux herbes, au printemps.",
+            "answers": {
+              "le-chevreau": "Le chevreau",
+              "l-agneau": "L'agneau",
+              "le-veau": "Le veau",
+              "le-lapin": "Le lapin"
+            }
+          },
+          "pousse-en-claire": {
+            "prompt": "Quel nom porte l'huître de Marennes-Oléron élevée plusieurs mois en claire à très faible densité, sous Label rouge ?",
+            "hint": "Son nom dit que l'huître grandit dans le bassin lui-même.",
+            "anecdote": "C'est la plus rare des huîtres du bassin. Les fines de claire et les spéciales de claire y séjournent moins longtemps.",
+            "answers": {
+              "la-pousse-en-claire": "La pousse en claire",
+              "la-belon": "La belon",
+              "la-perle-noire": "La perle noire",
+              "la-gillardeau": "La gillardeau"
+            }
+          },
+          "sardines-royan": {
+            "prompt": "Quel petit poisson, pêché autrefois en grande quantité à Royan, voit-on ici ?",
+            "hint": "On le grille souvent en été.",
+            "anecdote": "La sardine de Royan était réputée au XIXe siècle. Elle était l'un des emblèmes de la ville.",
+            "answers": {
+              "la-sardine": "La sardine",
+              "le-maquereau": "Le maquereau",
+              "l-anchois": "L'anchois",
+              "le-hareng": "Le hareng"
+            }
+          },
+          "cagouillards": {
+            "prompt": "Quel surnom donne-t-on aux Charentais, en souvenir de leur goût pour les escargots ?",
+            "hint": "Il dérive du nom local de l'escargot, la cagouille.",
+            "anecdote": "L'escargot est devenu un emblème charentais. Il avance lentement, mais sûrement, dit-on avec humour.",
+            "answers": {
+              "les-cagouillards": "Les cagouillards",
+              "les-ventres-jaunes": "Les ventres jaunes",
+              "les-cabecous": "Les cabecous",
+              "les-gavroches": "Les gavroches"
+            }
+          },
+          "bouilliture": {
+            "prompt": "Quel poisson du Marais poitevin cuisine-t-on en bouilliture, au vin rouge et aux échalotes ?",
+            "hint": "Ce poisson serpentiforme remonte les rivières après avoir traversé l'océan.",
+            "anecdote": "Les jeunes, appelés civelles ou pibales, arrivent de la mer des Sargasses.",
+            "answers": {
+              "l-anguille": "L'anguille",
+              "la-truite": "La truite",
+              "le-brochet": "Le brochet",
+              "la-carpe": "La carpe"
+            }
+          },
+          "broye": {
+            "prompt": "Quel grand biscuit sablé au beurre, qu'on casse d'un coup de poing, voit-on ici ?",
+            "hint": "On le partage en morceaux à la fin du repas.",
+            "anecdote": "La tradition veut qu'on le brise au centre d'un coup de poing, puis qu'on partage les morceaux.",
+            "answers": {
+              "le-broye-du-poitou": "Le broyé du Poitou",
+              "le-palet-breton": "Le palet breton",
+              "le-sable-de-sable": "Le sablé de Sablé",
+              "le-kouign-amann": "Le kouign-amann"
+            }
+          },
+          "tourteau": {
+            "prompt": "Quel gâteau au fromage de chèvre, à la croûte noire et bombée, voit-on ici ?",
+            "hint": "Sa croûte brûlée est volontaire.",
+            "anecdote": "Selon la tradition, sa croûte noire serait née d'un oubli au four. On le prépare avec du fromage frais de chèvre.",
+            "answers": {
+              "le-tourteau-fromager": "Le tourteau fromager",
+              "le-fiadone": "Le fiadone",
+              "le-gateau-basque": "Le gâteau basque",
+              "la-tarte-au-fromage-blanc": "La tarte au fromage blanc"
+            }
+          },
+          "angelique": {
+            "prompt": "Quelle plante, cultivée près de Niort, voit-on ici ? On confit ses tiges vertes.",
+            "hint": "Son nom rappelle les messagers célestes.",
+            "anecdote": "Elle pousse dans les terres humides du Marais poitevin. On la confit, on l'utilise en liqueur et en pâtisserie.",
+            "answers": {
+              "l-angelique": "L'angélique",
+              "la-rhubarbe": "La rhubarbe",
+              "la-menthe": "La menthe",
+              "le-celeri": "Le céleri"
+            }
+          },
+          "macarons": {
+            "prompt": "Quelle ville de la Vienne est réputée pour ces macarons aux amandes, cuits sur papier ?",
+            "hint": "C'est la cité de l'écrit, au bord de la Gartempe.",
+            "anecdote": "Une maison de la ville les fabrique depuis 1920 et y a ouvert un musée consacré au macaron.",
+            "answers": {
+              "saint-emilion": "Saint-Émilion",
+              "nancy": "Nancy",
+              "amiens": "Amiens"
+            }
+          },
+          "galette-charentaise": {
+            "prompt": "Quelle galette ronde et dorée, parfumée à l'angélique, est une spécialité de la région ?",
+            "hint": "On la sert volontiers avec un verre de pineau.",
+            "anecdote": "Cette galette pur beurre est souvent servie en fin de repas. L'angélique pousse dans le Marais poitevin.",
+            "answers": {
+              "la-galette-charentaise": "La galette charentaise",
+              "la-galette-des-rois": "La galette des rois",
+              "la-galette-bretonne": "La galette bretonne",
+              "la-fouace": "La fouace"
+            }
+          },
+          "duchesses": {
+            "prompt": "Quelle ville a donné son nom aux Duchesses et aux Marguerites, deux chocolats ?",
+            "hint": "Ces noms rendent hommage aux grandes dames de la ville.",
+            "anecdote": "Les Marguerites honorent Marguerite d'Angoulême, sœur de François Ier."
+          },
+          "cornuelle": {
+            "prompt": "Quel gâteau triangulaire, préparé pour les Rameaux, est une tradition de Villebois-Lavalette ?",
+            "hint": "Sa forme et son nom évoquent une corne.",
+            "anecdote": "On l'accrochait autrefois aux rameaux de buis. Le triangle rappellerait la Trinité.",
+            "answers": {
+              "la-cornuelle": "La cornuelle",
+              "la-fouace": "La fouace",
+              "le-craquelin": "Le craquelin",
+              "la-brioche-vendeenne": "La brioche vendéenne"
+            }
+          },
+          "troussepinette": {
+            "prompt": "Avec les jeunes pousses de quel arbuste prépare-t-on la troussepinette, un apéritif vendéen et poitevin ?",
+            "hint": "On l'appelle aussi l'épine noire. Ses petits fruits bleus sont très âpres.",
+            "anecdote": "On fait macérer les jeunes pousses dans du vin, avec un peu d'eau-de-vie et de sucre.",
+            "answers": {
+              "le-prunellier": "Le prunellier",
+              "le-cassis": "Le cassis",
+              "le-noisetier": "Le noisetier",
+              "le-sureau": "Le sureau"
+            }
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Tours de La Rochelle, églises romanes de Poitiers et de Saintonge, citadelles de Vauban et cités du Poitou : le patrimoine en images.",
+          "tour-lanterne": {
+            "prompt": "Quelle tour de La Rochelle, coiffée d'une flèche gothique, servait autrefois de phare ?",
+            "hint": "Sa haute flèche gothique, visible de loin, guidait les navires la nuit.",
+            "anecdote": "Construite au XVe siècle, elle a aussi servi de prison : ses murs gardent des centaines de graffitis gravés par des marins.",
+            "answers": {
+              "la-tour-de-la-lanterne": "La tour de la Lanterne",
+              "la-tour-saint-nicolas": "La tour Saint-Nicolas",
+              "la-tour-de-la-chaine": "La tour de la Chaîne",
+              "la-grosse-horloge": "La Grosse Horloge"
+            }
+          },
+          "grosse-horloge": {
+            "prompt": "Quelle ancienne porte fortifiée sépare le Vieux-Port de La Rochelle du centre de la ville ?",
+            "hint": "Elle porte un grand cadran et un campanile.",
+            "anecdote": "C'est une porte médiévale, rehaussée au XVIIIe siècle d'un étage et d'un dôme.",
+            "answers": {
+              "la-grosse-horloge": "La Grosse Horloge",
+              "la-porte-royale": "La porte Royale",
+              "la-tour-de-la-lanterne": "La tour de la Lanterne",
+              "la-porte-dauphine": "La porte Dauphine"
+            }
+          },
+          "hotel-ville-rochelle": {
+            "prompt": "Quel bâtiment de La Rochelle, à l'enceinte crénelée de style gothique, a été ravagé par un incendie en 2013 ?",
+            "hint": "C'est le siège de la mairie.",
+            "anecdote": "Sa cour intérieure Renaissance a été restaurée, et le bâtiment a rouvert fin 2019, début 2020.",
+            "answers": {
+              "l-hotel-de-ville": "L'hôtel de ville",
+              "la-cathedrale-saint-louis": "La cathédrale Saint-Louis",
+              "le-palais-de-justice": "Le palais de justice",
+              "la-bourse": "La Bourse"
+            }
+          },
+          "cathedrale-poitiers": {
+            "prompt": "Quelle cathédrale de Poitiers, à la façade massive et aux deux tours inégales, conserve un vitrail du XIIe siècle ?",
+            "hint": "Elle porte le nom du premier des apôtres.",
+            "anecdote": "Son vitrail de la Crucifixion, vers 1165, compte parmi les plus anciens vitraux conservés en France.",
+            "answers": {
+              "la-cathedrale-saint-pierre": "La cathédrale Saint-Pierre",
+              "la-cathedrale-saint-andre": "La cathédrale Saint-André",
+              "la-cathedrale-saint-louis": "La cathédrale Saint-Louis",
+              "la-cathedrale-saint-etienne": "La cathédrale Saint-Étienne"
+            }
+          },
+          "baptistere": {
+            "prompt": "Quel édifice de Poitiers, élevé vers le IVe siècle, compte parmi les plus anciens bâtiments chrétiens de France ?",
+            "hint": "On y baptisait les fidèles par immersion.",
+            "anecdote": "Il porte le nom de Jean le Baptiste. Son sol est aujourd'hui plus bas que celui des rues qui l'entourent.",
+            "answers": {
+              "le-baptistere-saint-jean": "Le baptistère Saint-Jean",
+              "l-eglise-sainte-radegonde": "L'église Sainte-Radegonde",
+              "le-temple-de-mercure": "Le temple de Mercure",
+              "la-chapelle-saint-hilaire": "La chapelle Saint-Hilaire"
+            }
+          },
+          "palais-poitiers": {
+            "prompt": "Quel palais de Poitiers, où résida Aliénor d'Aquitaine, abrite une immense salle gothique ?",
+            "hint": "Il a longtemps accueilli le tribunal de la ville.",
+            "anecdote": "Sa grande salle, appelée salle des pas perdus, a été embellie par Jean de Berry à la fin du XIVe siècle.",
+            "answers": {
+              "le-palais-des-comtes-de-poitou": "Le palais des comtes de Poitou",
+              "le-palais-de-l-ombriere": "Le palais de l'Ombrière",
+              "le-palais-des-papes": "Le palais des Papes",
+              "le-palais-rohan": "Le palais Rohan"
+            }
+          },
+          "saint-hilaire": {
+            "prompt": "Quelle église romane de Poitiers, étape du chemin de Saint-Jacques, porte le nom du premier évêque de la ville ?",
+            "hint": "Elle est inscrite au patrimoine mondial de l'UNESCO.",
+            "anecdote": "Sa nef, très large, est couverte d'une suite de coupoles.",
+            "answers": {
+              "saint-hilaire-le-grand": "Saint-Hilaire-le-Grand",
+              "notre-dame-la-grande": "Notre-Dame-la-Grande",
+              "sainte-radegonde": "Sainte-Radegonde",
+              "saint-porchaire": "Saint-Porchaire"
+            }
+          },
+          "hotel-ville-poitiers": {
+            "prompt": "Quel bâtiment de la fin du XIXe siècle, avec son campanile, domine la grande place de Poitiers ?",
+            "hint": "C'est le siège de la mairie.",
+            "anecdote": "Il a été construit entre 1869 et 1876, dans le style néo-Renaissance.",
+            "answers": {
+              "l-hotel-de-ville": "L'hôtel de ville",
+              "le-palais-des-comtes-de-poitou": "Le palais des comtes de Poitou",
+              "le-theatre-auditorium": "Le théâtre auditorium",
+              "la-gare": "La gare"
+            }
+          },
+          "futuroscope": {
+            "prompt": "Quel parc, près de Poitiers, est célèbre pour ses salles de cinéma aux architectures futuristes ?",
+            "hint": "Il a ouvert ses portes en 1987.",
+            "anecdote": "Le Kinémax, en forme de cristal de roche, est l'un de ses bâtiments les plus connus.",
+            "answers": {
+              "le-futuroscope": "Le Futuroscope",
+              "le-puy-du-fou": "Le Puy du Fou",
+              "vulcania": "Vulcania",
+              "le-parc-asterix": "Le parc Astérix"
+            }
+          },
+          "cite-bd": {
+            "prompt": "Quel musée d'Angoulême, installé dans d'anciens chais au bord de la Charente, est consacré au 9e art ?",
+            "hint": "Le 9e art désigne les albums et les planches dessinées.",
+            "anecdote": "Il conserve l'une des plus grandes collections publiques de planches originales en Europe.",
+            "answers": {
+              "le-musee-de-la-bande-dessinee": "Le musée de la bande dessinée",
+              "le-musee-du-papier": "Le musée du papier",
+              "le-musee-d-angouleme": "Le musée d'Angoulême",
+              "le-musee-du-cognac": "Le musée du cognac"
+            }
+          },
+          "hotel-ville-angouleme": {
+            "prompt": "Quel bâtiment d'Angoulême a été élevé au XIXe siècle à l'emplacement du château des comtes ?",
+            "hint": "Il accueille aujourd'hui la mairie.",
+            "anecdote": "Il conserve deux tours de l'ancien château. Marguerite de Navarre serait née dans l'une d'elles, en 1492.",
+            "answers": {
+              "l-hotel-de-ville": "L'hôtel de ville",
+              "la-cathedrale-saint-pierre": "La cathédrale Saint-Pierre",
+              "le-palais-de-justice": "Le palais de justice",
+              "le-musee-de-la-bande-dessinee": "Le musée de la bande dessinée"
+            }
+          },
+          "pilori-niort": {
+            "prompt": "Quel ancien hôtel de ville de Niort, aux allures de petit château, porte le nom d'un ancien poteau où l'on exposait les condamnés ?",
+            "hint": "On y attachait autrefois les condamnés, sur la place publique.",
+            "anecdote": "Le bâtiment actuel date du XVIe siècle. Il accueille des expositions.",
+            "answers": {
+              "le-pilori": "Le Pilori",
+              "le-donjon": "Le Donjon",
+              "les-halles": "Les Halles",
+              "le-moulin-du-roc": "Le Moulin du Roc"
+            }
+          },
+          "fregate": {
+            "prompt": "Quel navire a été reconstruit à l'identique à Rochefort, puis a traversé l'Atlantique en 2015 ?",
+            "hint": "La Fayette l'avait pris pour rejoindre les insurgés américains en 1780.",
+            "anecdote": "Le chantier, mené dans une ancienne forme de radoub de l'arsenal, a duré de 1997 à 2014.",
+            "answers": {
+              "l-hermione": "L'Hermione",
+              "la-boudeuse": "La Boudeuse",
+              "le-belem": "Le Belem",
+              "la-pourquoi-pas": "La Pourquoi-Pas"
+            }
+          },
+          "maison-loti": {
+            "prompt": "Quel écrivain voyageur, officier de marine, a décoré sa maison de Rochefort de salons orientaux ?",
+            "hint": "Il est l'auteur de Pêcheur d'Islande.",
+            "anecdote": "La maison, qui comprend une salle turque et une mosquée reconstituée, a rouvert au public en 2025 après une longue restauration.",
+            "answers": {
+              "pierre-loti": "Pierre Loti",
+              "jules-verne": "Jules Verne",
+              "victor-segalen": "Victor Segalen",
+              "paul-morand": "Paul Morand"
+            }
+          },
+          "amphitheatre-saintes": {
+            "prompt": "Quel monument romain de Saintes, creusé dans un vallon, pouvait accueillir environ 15 000 spectateurs ?",
+            "hint": "On y donnait des combats de gladiateurs.",
+            "anecdote": "Il a été construit au Ier siècle, quand la ville, appelée Mediolanum Santonum, était la capitale de l'Aquitaine romaine.",
+            "answers": {
+              "l-amphitheatre": "L'amphithéâtre",
+              "l-arc-de-germanicus": "L'arc de Germanicus",
+              "le-theatre-antique": "Le théâtre antique",
+              "les-thermes": "Les thermes"
+            }
+          },
+          "abbaye-dames": {
+            "prompt": "Quelle abbaye de Saintes, fondée en 1047, se reconnaît à son clocher en forme de pomme de pin ?",
+            "hint": "Elle accueillait autrefois des religieuses.",
+            "anecdote": "Elle est aujourd'hui une cité musicale, qui accueille concerts et festival.",
+            "answers": {
+              "l-abbaye-aux-dames": "L'abbaye aux Dames",
+              "l-abbaye-de-fontdouce": "L'abbaye de Fontdouce",
+              "l-abbaye-de-sablonceaux": "L'abbaye de Sablonceaux",
+              "l-abbaye-de-fontevraud": "L'abbaye de Fontevraud"
+            }
+          },
+          "chateau-cognac": {
+            "prompt": "Quel roi de France est né en 1494 dans ce château de Cognac, au bord de la Charente ?",
+            "hint": "Il est le roi de la bataille de Marignan.",
+            "anecdote": "Le château abrite aujourd'hui les chais d'une maison de cognac.",
+            "answers": {
+              "francois-ier": "François Ier",
+              "henri-iv": "Henri IV",
+              "louis-xii": "Louis XII",
+              "charles-viii": "Charles VIII"
+            }
+          },
+          "notre-dame-royan": {
+            "prompt": "Quelle église en béton, construite après la guerre, est devenue le symbole de la reconstruction de Royan ?",
+            "hint": "Elle porte le nom de la Vierge.",
+            "anecdote": "Conçue par l'architecte Guillaume Gillet, elle a été bâtie de 1955 à 1958.",
+            "answers": {
+              "l-eglise-notre-dame": "L'église Notre-Dame",
+              "l-eglise-saint-pierre": "L'église Saint-Pierre",
+              "la-basilique-sainte-therese": "La basilique Sainte-Thérèse",
+              "la-chapelle-saint-georges": "La chapelle Saint-Georges"
+            }
+          },
+          "aquarium": {
+            "prompt": "Dans quelle ville se trouve ce grand aquarium, au bord de l'océan Atlantique ?",
+            "hint": "La ville est célèbre pour les tours de son Vieux-Port.",
+            "anecdote": "Fondé en 1970 par René Coutant, il a été reconstruit par ses enfants après un incendie, puis installé face au Vieux-Port en 2001. C'est l'un des sites les plus visités de la région.",
+            "answers": {
+              "arcachon": "Arcachon"
+            }
+          },
+          "porte-saint-jacques": {
+            "prompt": "Quelle porte fortifiée de Parthenay, au bout d'un vieux pont, accueillait les pèlerins vers Compostelle ?",
+            "hint": "Elle porte le nom de l'apôtre que vénéraient ces pèlerins.",
+            "anecdote": "Elle date du XIIIe siècle et garde l'entrée du pont sur le Thouet.",
+            "answers": {
+              "la-porte-saint-jacques": "La porte Saint-Jacques",
+              "la-porte-de-l-horloge": "La porte de l'Horloge",
+              "la-porte-saint-michel": "La porte Saint-Michel",
+              "la-porte-royale": "La porte Royale"
+            }
+          },
+          "chateau-thouars": {
+            "prompt": "Quelle famille ducale a fait construire au XVIIe siècle ce grand château de Thouars, au-dessus du Thouet ?",
+            "hint": "Elle a compté un célèbre chef de guerre des guerres d'Italie, Louis II, mort à Pavie en 1525.",
+            "anecdote": "La façade du château s'étend sur plus de 100 mètres. Le bâtiment accueille aujourd'hui un collège.",
+            "answers": {
+              "la-famille-de-la-tremoille": "La famille de La Trémoille",
+              "la-famille-de-lusignan": "La famille de Lusignan",
+              "la-famille-de-rohan": "La famille de Rohan",
+              "la-famille-de-richelieu": "La famille de Richelieu"
+            }
+          },
+          "eglise-melle": {
+            "prompt": "Quelle église romane de Melle, sur le chemin de Compostelle, porte un cavalier sculpté au-dessus de son portail ?",
+            "hint": "Elle porte le nom d'un évêque de Poitiers.",
+            "anecdote": "Elle est inscrite au patrimoine mondial de l'UNESCO, au titre des chemins de Saint-Jacques.",
+            "answers": {
+              "l-eglise-saint-hilaire": "L'église Saint-Hilaire",
+              "l-eglise-saint-pierre": "L'église Saint-Pierre",
+              "l-eglise-saint-savinien": "L'église Saint-Savinien",
+              "l-eglise-notre-dame": "L'église Notre-Dame"
+            }
+          },
+          "tour-carree": {
+            "prompt": "Quel donjon roman, haut d'une trentaine de mètres, domine la ville de Loudun ?",
+            "hint": "Son nom décrit sa forme.",
+            "anecdote": "Il a été élevé au XIe siècle, au temps du comte d'Anjou Foulques Nerra.",
+            "answers": {
+              "la-tour-carree": "La tour carrée",
+              "la-tour-melusine": "La tour Mélusine",
+              "la-tour-de-la-lanterne": "La tour de la Lanterne",
+              "le-donjon-de-niort": "Le donjon de Niort"
+            }
+          },
+          "saint-savin": {
+            "prompt": "Quelle abbatiale de la Vienne, inscrite à l'UNESCO, conserve un immense ensemble de peintures murales romanes ?",
+            "hint": "Elle se dresse au bord de la Gartempe.",
+            "anecdote": "Sa voûte raconte l'Ancien Testament, de la Création à l'histoire de Moïse.",
+            "answers": {
+              "l-abbaye-de-saint-savin": "L'abbaye de Saint-Savin",
+              "l-abbaye-de-fontevraud": "L'abbaye de Fontevraud",
+              "l-abbaye-de-charroux": "L'abbaye de Charroux",
+              "l-abbaye-de-nouaille": "L'abbaye de Nouaillé"
+            }
+          },
+          "citadelle-re": {
+            "prompt": "Quel architecte militaire a conçu la citadelle et les remparts de Saint-Martin-de-Ré ?",
+            "hint": "Il servait le roi Louis XIV.",
+            "anecdote": "Les fortifications sont inscrites à l'UNESCO depuis 2008. La citadelle est toujours une prison.",
+            "answers": {
+              "vauban": "Vauban",
+              "le-corbusier": "Le Corbusier",
+              "mansart": "Mansart",
+              "haussmann": "Haussmann"
+            }
+          },
+          "clocher-ars": {
+            "prompt": "À quoi servait la flèche noir et blanc de ce clocher d'Ars-en-Ré ?",
+            "hint": "On la voit de très loin depuis la mer.",
+            "anecdote": "Ce repère, appelé un amer, guidait les bateaux vers les ports de l'île.",
+            "answers": {
+              "de-repere-pour-les-marins": "De repère pour les marins",
+              "de-poste-de-guet-contre-les-incendies": "De poste de guet contre les incendies",
+              "de-pigeonnier": "De pigeonnier",
+              "de-phare-electrique": "De phare électrique"
+            }
+          },
+          "aulnay": {
+            "prompt": "Quelle église romane de Saintonge, au portail couvert de sculptures, se dresse à Aulnay ?",
+            "hint": "Elle porte le nom du premier des apôtres.",
+            "anecdote": "Elle était une étape des pèlerins vers Compostelle. Elle est inscrite à l'UNESCO.",
+            "answers": {
+              "l-eglise-saint-pierre": "L'église Saint-Pierre",
+              "l-eglise-sainte-radegonde": "L'église Sainte-Radegonde",
+              "l-eglise-saint-eutrope": "L'église Saint-Eutrope",
+              "l-eglise-notre-dame": "L'église Notre-Dame"
+            }
+          },
+          "abbaye-angely": {
+            "prompt": "Quelle relique faisait la renommée de l'abbaye de Saint-Jean-d'Angély, aux tours inachevées ?",
+            "hint": "Ce saint a baptisé le Christ dans le Jourdain.",
+            "anecdote": "Les deux tours de l'abbatiale du XVIIIe siècle n'ont jamais été terminées.",
+            "answers": {
+              "la-tete-de-saint-jean-baptiste": "La tête de saint Jean-Baptiste",
+              "le-manteau-de-saint-martin": "Le manteau de saint Martin",
+              "le-coeur-de-saint-louis": "Le cœur de saint Louis",
+              "le-bras-de-saint-jacques": "Le bras de saint Jacques"
+            }
+          },
+          "donjon-pons": {
+            "prompt": "Quel donjon crénelé de Saintonge, élevé au XIIe siècle, accueille aujourd'hui une mairie ?",
+            "hint": "Cette ville se trouve sur la route de Saintes à Bordeaux.",
+            "anecdote": "Il a été élevé à la fin du XIIe siècle. Les pèlerins de Compostelle étaient accueillis à l'hôpital voisin.",
+            "answers": {
+              "le-donjon-de-pons": "Le donjon de Pons",
+              "la-tour-carree-de-loudun": "La tour carrée de Loudun",
+              "le-donjon-de-niort": "Le donjon de Niort",
+              "la-tour-de-broue": "La tour de Broue"
+            }
+          },
+          "fort-fouras": {
+            "prompt": "Quel fort de Fouras, avec son donjon médiéval, garde l'embouchure de la Charente ?",
+            "hint": "Il porte le nom de l'ingénieur de Louis XIV qui l'a remanié.",
+            "anecdote": "Le donjon date du XVe siècle. Le fort accueille aujourd'hui un musée.",
+            "answers": {
+              "le-fort-vauban": "Le fort Vauban",
+              "le-fort-boyard": "Le fort Boyard",
+              "le-fort-liedot": "Le fort Liédot",
+              "le-fort-enet": "Le fort Enet"
+            }
+          },
+          "eglise-esnandes": {
+            "prompt": "Pourquoi l'église d'Esnandes, au bord de la baie de l'Aiguillon, est-elle entourée de créneaux ?",
+            "hint": "Elle servait de refuge aux habitants.",
+            "anecdote": "Elle a été fortifiée pendant la guerre de Cent Ans. On peut encore faire le tour de son chemin de ronde.",
+            "answers": {
+              "c-est-une-eglise-fortifiee": "C'est une église fortifiée",
+              "c-est-un-ancien-chateau": "C'est un ancien château",
+              "c-est-une-ancienne-prison": "C'est une ancienne prison",
+              "c-est-un-ancien-phare": "C'est un ancien phare"
+            }
+          },
+          "citadelle-oleron": {
+            "prompt": "Sur quelle île se dresse cette citadelle du XVIIe siècle, tournée vers le continent ?",
+            "hint": "C'est la plus grande île de la côte atlantique française.",
+            "anecdote": "Elle croisait ses feux avec le fort Louvois pour protéger l'entrée de la Seudre et l'arsenal de Rochefort.",
+            "answers": {
+              "l-ile-d-oleron": "L'île d'Oléron",
+              "l-ile-de-re": "L'île de Ré",
+              "l-ile-d-aix": "L'île d'Aix",
+              "l-ile-d-yeu": "L'île d'Yeu"
+            }
+          },
+          "port-minimes": {
+            "prompt": "Quelle ville possède ce grand port de plaisance des Minimes, l'un des plus grands d'Europe ?",
+            "hint": "C'est aussi la ville des Francofolies.",
+            "anecdote": "Le port compte plusieurs milliers de places pour les voiliers et les bateaux à moteur.",
+            "answers": {
+              "les-sables-d-olonne": "Les Sables-d'Olonne",
+              "arcachon": "Arcachon"
+            }
+          },
+          "quais-niort": {
+            "prompt": "Quelle ville est traversée par la Sèvre niortaise, au pied de ses halles et de son donjon ?",
+            "hint": "C'est la préfecture des Deux-Sèvres.",
+            "anecdote": "La ville est le berceau de grandes mutuelles d'assurance, comme la MAIF et la MACIF."
+          },
+          "remparts-angouleme": {
+            "prompt": "Quelle ville perchée sur un promontoire, au-dessus de la Charente, offre cette promenade sur ses remparts ?",
+            "hint": "C'est la ville du festival de la bande dessinée.",
+            "anecdote": "La vieille ville occupe un plateau calcaire. On l'appelle parfois le balcon du Sud-Ouest."
+          },
+          "port-saint-martin": {
+            "prompt": "Quelle petite ville, capitale de l'île de Ré, entoure ce port de pêche et de plaisance ?",
+            "hint": "Ses remparts ont été dessinés par Vauban.",
+            "anecdote": "Le port est construit autour d'un îlot de maisons, au centre du bassin.",
+            "answers": {
+              "la-flotte": "La Flotte"
+            }
+          },
+          "clocher-marennes": {
+            "prompt": "Quelle ville, réputée pour ses huîtres, est dominée par ce haut clocher gothique de 85 mètres ?",
+            "hint": "Elle a donné son nom à un bassin ostréicole avec l'île d'Oléron.",
+            "anecdote": "Le clocher, visible de très loin, servait d'amer aux marins.",
+            "answers": {
+              "marennes": "Marennes",
+              "la-tremblade": "La Tremblade"
+            }
+          },
+          "dep-thouars": {
+            "prompt": "Touchez le département où se trouve Thouars.",
+            "hint": "C'est le département de Niort.",
+            "anecdote": "La ville occupe un éperon rocheux dans une boucle du Thouet."
+          },
+          "dep-loudun": {
+            "prompt": "Touchez le département où se trouve Loudun.",
+            "hint": "C'est le département de Poitiers.",
+            "anecdote": "La ville se trouve au nord du département, près de l'Anjou et de la Touraine."
+          },
+          "dep-pons": {
+            "prompt": "Touchez le département où se trouve Pons et son donjon.",
+            "hint": "C'est le département de La Rochelle.",
+            "anecdote": "La ville se trouve au sud de Saintes."
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Tonneliers, sauniers et ostréiculteurs, coiffes et légendes, et les grandes figures nées ou passées entre Poitou, Aunis, Saintonge et Angoumois.",
+          "tonnellerie": {
+            "prompt": "Quel artisan fabrique ces fûts de chêne où vieillit le cognac ?",
+            "hint": "Il cintre les douelles au feu, puis les serre avec des cercles de fer.",
+            "anecdote": "Les tonnelleries de Cognac et de Jarnac exportent leurs fûts dans le monde entier.",
+            "answers": {
+              "le-tonnelier": "Le tonnelier",
+              "le-charron": "Le charron",
+              "le-sabotier": "Le sabotier",
+              "le-menuisier": "Le menuisier"
+            }
+          },
+          "part-des-anges": {
+            "prompt": "Comment appelle-t-on l'eau-de-vie qui s'évapore chaque année des fûts de cognac ?",
+            "hint": "Elle monterait vers le ciel.",
+            "anecdote": "Cette évaporation nourrit un champignon microscopique qui noircit les murs des chais.",
+            "answers": {
+              "la-part-des-anges": "La part des anges",
+              "la-part-du-diable": "La part du diable",
+              "la-goutte-du-chai": "La goutte du chai",
+              "le-souffle-du-maitre": "Le souffle du maître"
+            }
+          },
+          "charentaise": {
+            "prompt": "Quelle pantoufle de feutre voit-on ici ?",
+            "hint": "Sa semelle est cousue à l'envers, puis retournée.",
+            "anecdote": "Selon la tradition, elle est née des chutes de feutre des papeteries de l'Angoumois. Une autre légende évoque les draps des uniformes de la Marine, à Rochefort.",
+            "answers": {
+              "la-charentaise": "La charentaise",
+              "l-espadrille": "L'espadrille",
+              "le-sabot": "Le sabot",
+              "la-babouche": "La babouche"
+            }
+          },
+          "moulin-papier": {
+            "prompt": "Quel produit fabriquait-on dans ce moulin de la vallée des Eaux-Claires, près d'Angoulême ?",
+            "hint": "L'Angoumois en exportait beaucoup vers la Hollande, aux XVIIe et XVIIIe siècles.",
+            "anecdote": "Le moulin du Verger, à Puymoyen, fabrique encore du papier à la main. Angoulême possède un musée du papier.",
+            "answers": {
+              "du-papier": "Du papier",
+              "de-la-farine": "De la farine",
+              "de-l-huile-de-noix": "De l'huile de noix",
+              "du-tissu": "Du tissu"
+            }
+          },
+          "carrelet": {
+            "prompt": "Comment s'appelle cette cabane de pêche sur pilotis, avec son grand filet carré ?",
+            "hint": "On abaisse le filet dans l'eau, puis on le remonte avec un treuil.",
+            "anecdote": "On en compte des centaines le long des côtes et de l'estuaire de la Gironde, en Charente-Maritime.",
+            "answers": {
+              "un-carrelet": "Un carrelet",
+              "un-bouchot": "Un bouchot",
+              "un-parc": "Un parc",
+              "une-ecluse-a-poissons": "Une écluse à poissons"
+            }
+          },
+          "trait-poitevin": {
+            "prompt": "Quel cheval de trait, élevé autrefois pour produire des mulets, est originaire du Poitou ?",
+            "hint": "Ses juments étaient croisées avec le baudet du Poitou.",
+            "anecdote": "Les juments mulassières, croisées avec le baudet, donnaient des mules très demandées dans toute l'Europe.",
+            "answers": {
+              "le-trait-poitevin-mulassier": "Le trait poitevin mulassier",
+              "le-percheron": "Le percheron",
+              "le-boulonnais": "Le boulonnais",
+              "le-comtois": "Le comtois"
+            }
+          },
+          "pigouille": {
+            "prompt": "Comment appelle-t-on la longue perche qui sert à pousser la barque dans le Marais poitevin ?",
+            "hint": "Elle est munie à son extrémité d'un sabot de fer, pour ne pas s'enfoncer dans la vase.",
+            "anecdote": "La barque du Marais se conduit debout, à la perche ou à la pelle, une rame courte.",
+            "answers": {
+              "la-pigouille": "La pigouille",
+              "la-gaffe": "La gaffe",
+              "la-godille": "La godille",
+              "la-rame": "La rame"
+            }
+          },
+          "chai": {
+            "prompt": "Comment appelle-t-on le bâtiment où vieillissent les fûts de cognac ?",
+            "hint": "Ses murs sont souvent noircis par un champignon.",
+            "anecdote": "La lumière y est faible et l'humidité réglée, car elle influence le vieillissement de l'eau-de-vie.",
+            "answers": {
+              "le-chai": "Le chai",
+              "le-cellier": "Le cellier",
+              "le-grenier": "Le grenier",
+              "le-pressoir": "Le pressoir"
+            }
+          },
+          "hennessy": {
+            "prompt": "Quelle grande maison de cognac a été fondée en 1765 par un officier irlandais ?",
+            "hint": "Elle porte le nom de son fondateur, Richard.",
+            "anecdote": "Elle est devenue la première maison de cognac par ses ventes. Son siège se trouve sur les quais de la Charente, à Cognac.",
+            "answers": {
+              "hennessy": "Hennessy",
+              "martell": "Martell",
+              "remy-martin": "Rémy Martin",
+              "courvoisier": "Courvoisier"
+            }
+          },
+          "saunier": {
+            "prompt": "Comment appelle-t-on l'artisan qui récolte le sel dans les marais de l'île de Ré ?",
+            "hint": "Son nom vient directement du sel.",
+            "anecdote": "Il travaille de juin à septembre, avec un long râteau de bois, le las.",
+            "answers": {
+              "le-saunier": "Le saunier",
+              "le-paludier-de-guerande": "Le paludier de Guérande",
+              "le-meunier": "Le meunier",
+              "le-batelier": "Le batelier"
+            }
+          },
+          "poterie-saintonge": {
+            "prompt": "Dans quelle région historique se trouve La Chapelle-des-Pots, village de potiers depuis le Moyen Âge ?",
+            "hint": "Elle a pour capitale Saintes.",
+            "anecdote": "Les céramiques de ce village étaient exportées jusqu'en Angleterre et en Amérique du Nord.",
+            "answers": {
+              "la-saintonge": "La Saintonge",
+              "l-angoumois": "L'Angoumois",
+              "l-aunis": "L'Aunis",
+              "le-poitou": "Le Poitou"
+            }
+          },
+          "manufacture-chatellerault": {
+            "prompt": "Que fabriquait la grande manufacture d'État fondée à Châtellerault en 1819 ?",
+            "hint": "Elle travaillait pour l'armée.",
+            "anecdote": "La manufacture a fermé en 1968. Ses bâtiments accueillent aujourd'hui un musée consacré aux armes, à l'automobile et au cycle.",
+            "answers": {
+              "des-armes": "Des armes",
+              "des-voitures": "Des voitures",
+              "du-tabac": "Du tabac",
+              "de-la-porcelaine": "De la porcelaine"
+            }
+          },
+          "quichenotte": {
+            "prompt": "Comment s'appelle cette coiffe saintongeaise à large visière, portée aux champs ?",
+            "hint": "Son nom viendrait de l'anglais kiss not.",
+            "anecdote": "Selon la légende, cette coiffe protégeait les femmes des baisers des soldats anglais. Elle les protégeait surtout du soleil.",
+            "answers": {
+              "la-quichenotte": "La quichenotte",
+              "la-bigoudene": "La bigoudène",
+              "la-caline": "La câline",
+              "le-hennin": "Le hennin"
+            }
+          },
+          "lanterne-morts": {
+            "prompt": "Quel monument médiéval, où l'on allumait un feu la nuit près des cimetières, voit-on ici à Fenioux ?",
+            "hint": "Une lumière brillait à son sommet.",
+            "anecdote": "La lanterne de Fenioux, haute d'une vingtaine de mètres, est l'une des mieux conservées de France.",
+            "answers": {
+              "une-lanterne-des-morts": "Une lanterne des morts",
+              "un-phare": "Un phare",
+              "un-pigeonnier": "Un pigeonnier",
+              "une-tour-de-guet": "Une tour de guet"
+            }
+          },
+          "melusine": {
+            "prompt": "Quelle fée, mi-femme mi-serpent, aurait bâti le château de Lusignan ?",
+            "hint": "Chaque samedi, elle se changeait en serpent.",
+            "anecdote": "Surprise par son époux, elle se serait envolée en poussant un cri. La famille de Lusignan en faisait son ancêtre.",
+            "answers": {
+              "melusine": "Mélusine",
+              "morgane": "Morgane",
+              "viviane": "Viviane",
+              "esclarmonde": "Esclarmonde"
+            }
+          },
+          "confolens": {
+            "prompt": "Quelle ville de Charente accueille chaque été un grand festival de danses et musiques du monde ?",
+            "hint": "Elle se trouve en Charente limousine, sur la Vienne.",
+            "anecdote": "Le festival a été créé en 1958. Des troupes de dizaines de pays y défilent."
+          },
+          "parlanjhe": {
+            "prompt": "Quelle langue régionale parle-t-on traditionnellement en Poitou et en Saintonge ?",
+            "hint": "Elle appartient aux langues d'oïl, comme le français.",
+            "anecdote": "On l'appelle aussi le parlanjhe. Le Charentais Goulebenéze a chanté et conté dans sa variante saintongeaise.",
+            "answers": {
+              "le-poitevin-saintongeais": "Le poitevin-saintongeais",
+              "l-occitan": "L'occitan",
+              "le-gallo": "Le gallo",
+              "le-basque": "Le basque"
+            }
+          },
+          "saint-jacques": {
+            "prompt": "Sur quel grand chemin de pèlerinage se trouvent Aulnay, Saintes et Saint-Jean-d'Angély ?",
+            "hint": "Les pèlerins marchaient vers l'Espagne.",
+            "anecdote": "Saint-Jean-d'Angély conservait une relique attribuée à saint Jean-Baptiste, qui attirait de nombreux pèlerins.",
+            "answers": {
+              "le-chemin-de-saint-jacques-de-compostelle": "Le chemin de Saint-Jacques-de-Compostelle",
+              "la-route-de-la-soie": "La route de la soie",
+              "le-chemin-de-stevenson": "Le chemin de Stevenson",
+              "la-via-francigena": "La via Francigena"
+            }
+          },
+          "grand-pavois": {
+            "prompt": "Quel grand salon nautique à flot se tient chaque automne à La Rochelle ?",
+            "hint": "Son nom désigne les pavillons hissés sur un navire en fête.",
+            "anecdote": "Le salon a été créé en 1973, au port des Minimes, l'un des plus grands ports de plaisance d'Europe.",
+            "answers": {
+              "le-grand-pavois": "Le Grand Pavois",
+              "la-route-du-rhum": "La Route du Rhum",
+              "le-vendee-globe": "Le Vendée Globe",
+              "le-nautic": "Le Nautic"
+            }
+          },
+          "nuits-romanes": {
+            "prompt": "Quel festival d'été, lancé par la région Poitou-Charentes, animait les églises et les abbayes du XIIe siècle ?",
+            "hint": "Son nom associe un moment de la journée et un style d'architecture.",
+            "anecdote": "De 2005 à 2015, concerts, spectacles et illuminations ont eu lieu chaque été dans des dizaines de villages.",
+            "answers": {
+              "les-nuits-romanes": "Les Nuits romanes",
+              "les-heures-gothiques": "Les Heures gothiques",
+              "les-soirees-baroques": "Les Soirées baroques",
+              "les-veillees-medievales": "Les Veillées médiévales"
+            }
+          },
+          "plate": {
+            "prompt": "Comment appelle-t-on cette barque qui circule sur les canaux du Marais poitevin ?",
+            "hint": "Son nom décrit simplement la forme de sa coque.",
+            "anecdote": "Elle servait à tout : transporter les vaches, le foin, la récolte et même les mariés.",
+            "answers": {
+              "la-plate": "La plate",
+              "la-gabare": "La gabare",
+              "la-pinasse": "La pinasse",
+              "la-yole": "La yole"
+            }
+          },
+          "dep-fenioux": {
+            "prompt": "Touchez le département où se trouve Fenioux, et sa lanterne des morts.",
+            "hint": "C'est le département de Saintes.",
+            "anecdote": "Fenioux possède aussi une église romane, au portail richement sculpté."
+          },
+          "dep-lusignan": {
+            "prompt": "Touchez le département où se trouve Lusignan, la ville de la fée Mélusine.",
+            "hint": "C'est le département de Poitiers.",
+            "anecdote": "Il ne reste que des vestiges du château, démantelé au XVIe siècle."
+          },
+          "dep-arcais": {
+            "prompt": "Touchez le département où se trouve Arçais, village de maraîchins au cœur de la Venise verte.",
+            "hint": "C'est le département de Niort.",
+            "anecdote": "À Arçais, les maraîchins transportaient tout en barque, même les vaches, sur les conches du marais."
+          },
+          "alienor": {
+            "prompt": "Quelle duchesse d'Aquitaine et comtesse de Poitou fut reine de France puis d'Angleterre ?",
+            "hint": "Elle épousa Louis VII, puis Henri Plantagenêt.",
+            "anecdote": "Elle a souvent résidé à Poitiers, dans le palais des comtes. Son gisant se trouve à l'abbaye de Fontevraud.",
+            "answers": {
+              "alienor-d-aquitaine": "Aliénor d'Aquitaine",
+              "blanche-de-castille": "Blanche de Castille",
+              "anne-de-bretagne": "Anne de Bretagne",
+              "catherine-de-medicis": "Catherine de Médicis"
+            }
+          },
+          "richelieu": {
+            "prompt": "Quel cardinal, principal ministre de Louis XIII, dirigea le siège de La Rochelle en 1627 et 1628 ?",
+            "hint": "Il fonda l'Académie française.",
+            "anecdote": "Il fit bâtir une digue pour empêcher la flotte anglaise de ravitailler la ville assiégée.",
+            "answers": {
+              "richelieu": "Richelieu",
+              "mazarin": "Mazarin",
+              "fleury": "Fleury",
+              "dubois": "Dubois"
+            }
+          },
+          "loti": {
+            "prompt": "Quel écrivain voyageur, officier de marine, est né à Rochefort ?",
+            "hint": "Son nom de plume vient d'une fleur tahitienne.",
+            "anecdote": "Né Julien Viaud en 1850, il a transformé sa maison natale en décor exotique, avec une salle turque et une mosquée.",
+            "answers": {
+              "pierre-loti": "Pierre Loti",
+              "jules-verne": "Jules Verne",
+              "victor-segalen": "Victor Segalen",
+              "henry-de-monfreid": "Henry de Monfreid"
+            }
+          },
+          "francois-ier": {
+            "prompt": "Quel roi de France, vainqueur à Marignan, est né à Cognac en 1494 ?",
+            "hint": "Il fit construire le château de Chambord.",
+            "anecdote": "Il accueillit Léonard de Vinci en France. Son emblème était la salamandre.",
+            "answers": {
+              "francois-ier": "François Ier",
+              "louis-xii": "Louis XII",
+              "henri-ii": "Henri II",
+              "charles-viii": "Charles VIII"
+            }
+          },
+          "marguerite": {
+            "prompt": "Quelle sœur de François Ier, née à Angoulême, écrivit le recueil de nouvelles L'Heptaméron ?",
+            "hint": "Elle devint reine de Navarre.",
+            "anecdote": "Elle protégea des écrivains et des humanistes. Elle est la grand-mère d'Henri IV.",
+            "answers": {
+              "marguerite-d-angouleme": "Marguerite d'Angoulême",
+              "louise-de-savoie": "Louise de Savoie",
+              "diane-de-poitiers": "Diane de Poitiers",
+              "anne-de-beaujeu": "Anne de Beaujeu"
+            }
+          },
+          "champlain": {
+            "prompt": "Quel explorateur, né à Brouage, fonda la ville de Québec en 1608 ?",
+            "hint": "On le surnomme le père de la Nouvelle-France.",
+            "anecdote": "Brouage était alors un grand port du sel, qui commerçait avec toute l'Europe du Nord.",
+            "answers": {
+              "samuel-de-champlain": "Samuel de Champlain",
+              "jacques-cartier": "Jacques Cartier",
+              "cavelier-de-la-salle": "Cavelier de La Salle",
+              "jean-ribault": "Jean Ribault"
+            }
+          },
+          "caillie": {
+            "prompt": "Quel explorateur, né à Mauzé-sur-le-Mignon, fut le premier Européen à revenir vivant de Tombouctou ?",
+            "hint": "Il voyagea déguisé, en 1828.",
+            "anecdote": "Son voyage lui valut le prix de la Société de géographie de Paris.",
+            "answers": {
+              "rene-caillie": "René Caillié",
+              "savorgnan-de-brazza": "Savorgnan de Brazza",
+              "henry-morton-stanley": "Henry Morton Stanley",
+              "mungo-park": "Mungo Park"
+            }
+          },
+          "monnet": {
+            "prompt": "Quel père fondateur de l'Europe, fils d'un négociant en cognac, est né à Cognac en 1888 ?",
+            "hint": "Il inspira la déclaration Schuman de 1950.",
+            "anecdote": "Ses cendres reposent au Panthéon depuis 1988.",
+            "answers": {
+              "jean-monnet": "Jean Monnet",
+              "robert-schuman": "Robert Schuman",
+              "jacques-delors": "Jacques Delors",
+              "paul-henri-spaak": "Paul-Henri Spaak"
+            }
+          },
+          "renaudot": {
+            "prompt": "Quel médecin né à Loudun fonda en 1631 La Gazette, l'un des premiers journaux français ?",
+            "hint": "Un prix littéraire porte son nom.",
+            "anecdote": "Il créa aussi un bureau d'adresses, ancêtre des petites annonces, et des consultations gratuites pour les pauvres.",
+            "answers": {
+              "theophraste-renaudot": "Théophraste Renaudot",
+              "pierre-larousse": "Pierre Larousse",
+              "emile-de-girardin": "Émile de Girardin",
+              "denis-diderot": "Denis Diderot"
+            }
+          },
+          "palissy": {
+            "prompt": "Quel potier et savant de la Renaissance travailla à Saintes, en cherchant le secret des émaux ?",
+            "hint": "Selon la légende, il brûla ses meubles pour alimenter son four.",
+            "anecdote": "Ses rustiques figulines, plats ornés de serpents, de poissons et de lézards en relief, sont célèbres.",
+            "answers": {
+              "bernard-palissy": "Bernard Palissy",
+              "ambroise-pare": "Ambroise Paré",
+              "michel-de-montaigne": "Michel de Montaigne",
+              "bernard-de-clairvaux": "Bernard de Clairvaux"
+            }
+          },
+          "montespan": {
+            "prompt": "Quelle favorite de Louis XIV, née au château de Lussac-les-Châteaux, eut sept enfants avec le roi ?",
+            "hint": "Elle était marquise.",
+            "anecdote": "Née Françoise de Rochechouart de Mortemart en 1640, elle fut compromise dans l'affaire des Poisons.",
+            "answers": {
+              "madame-de-montespan": "Madame de Montespan",
+              "madame-de-maintenon": "Madame de Maintenon",
+              "louise-de-la-valliere": "Louise de La Vallière",
+              "madame-de-pompadour": "Madame de Pompadour"
+            }
+          },
+          "foucault": {
+            "prompt": "Quel philosophe, auteur de Surveiller et punir, est né à Poitiers en 1926 ?",
+            "hint": "Il enseigna au Collège de France.",
+            "anecdote": "Fils d'un chirurgien de Poitiers, il a étudié les prisons, la folie et les savoirs.",
+            "answers": {
+              "michel-foucault": "Michel Foucault",
+              "jean-paul-sartre": "Jean-Paul Sartre",
+              "gilles-deleuze": "Gilles Deleuze",
+              "roland-barthes": "Roland Barthes"
+            }
+          },
+          "agrippa": {
+            "prompt": "Quel poète protestant, compagnon d'Henri IV, est né près de Pons en 1552 ?",
+            "hint": "Il écrivit Les Tragiques.",
+            "anecdote": "Il est le grand-père de Madame de Maintenon, née en prison à Niort en 1635.",
+            "answers": {
+              "agrippa-d-aubigne": "Agrippa d'Aubigné",
+              "clement-marot": "Clément Marot",
+              "pierre-de-ronsard": "Pierre de Ronsard",
+              "joachim-du-bellay": "Joachim du Bellay"
+            }
+          },
+          "guiton": {
+            "prompt": "Quel maire de La Rochelle, élu en 1628, dirigea la résistance de la ville assiégée par Richelieu ?",
+            "hint": "Sa statue se dresse près de l'hôtel de ville.",
+            "anecdote": "Selon la légende, il aurait planté son poignard dans la table du conseil, promettant de frapper quiconque parlerait de se rendre.",
+            "answers": {
+              "jean-guiton": "Jean Guiton",
+              "jean-calvin": "Jean Calvin",
+              "henri-de-rohan": "Henri de Rohan",
+              "gaspard-de-coligny": "Gaspard de Coligny"
+            }
+          },
+          "radegonde": {
+            "prompt": "Quelle reine des Francs fonda à Poitiers l'abbaye Sainte-Croix, au VIe siècle ?",
+            "hint": "Elle était l'épouse du roi Clotaire Ier.",
+            "anecdote": "Son tombeau se trouve dans la crypte de l'église qui porte son nom, à Poitiers.",
+            "answers": {
+              "sainte-radegonde": "Sainte Radegonde",
+              "sainte-genevieve": "Sainte Geneviève",
+              "sainte-clotilde": "Sainte Clotilde",
+              "sainte-bathilde": "Sainte Bathilde"
+            }
+          },
+          "hilaire": {
+            "prompt": "Quel évêque de Poitiers du IVe siècle est considéré comme le premier grand théologien de la Gaule ?",
+            "hint": "Une grande église romane de Poitiers porte son nom.",
+            "anecdote": "Il fut le maître de saint Martin, qui fonda près de Poitiers le monastère de Ligugé.",
+            "answers": {
+              "saint-hilaire": "Saint Hilaire",
+              "saint-martin": "Saint Martin",
+              "saint-remi": "Saint Rémi",
+              "saint-germain": "Saint Germain"
+            }
+          }
+        },
+        "grand-voyage": {
+          "name": "Le grand voyage",
+          "description": "Des phares de l'océan aux vallées du Poitou, des tumulus de Bougon au siège de La Rochelle : un dernier voyage pour les connaisseurs.",
+          "phare-baleines": {
+            "prompt": "Sur quelle île se dresse ce phare octogonal, à la pointe des Baleines ?",
+            "hint": "L'île est reliée à La Rochelle par un pont.",
+            "anecdote": "Le phare, haut d'environ 57 mètres, a été allumé en 1854. Il remplace une tour plus ancienne, toujours debout à côté.",
+            "answers": {
+              "l-ile-de-re": "L'île de Ré",
+              "l-ile-d-oleron": "L'île d'Oléron",
+              "l-ile-d-aix": "L'île d'Aix",
+              "l-ile-de-noirmoutier": "L'île de Noirmoutier"
+            }
+          },
+          "chassiron": {
+            "prompt": "Sur quelle île se dresse ce phare rayé de noir et de blanc, à la pointe de Chassiron ?",
+            "hint": "C'est la plus grande île de la côte atlantique française.",
+            "anecdote": "Le phare marque la pointe nord de l'île, face au pertuis d'Antioche.",
+            "answers": {
+              "l-ile-d-oleron": "L'île d'Oléron",
+              "l-ile-de-re": "L'île de Ré",
+              "l-ile-d-aix": "L'île d'Aix",
+              "belle-ile": "Belle-Île"
+            }
+          },
+          "coubre": {
+            "prompt": "Quel phare rouge et blanc veille sur la côte sauvage, au nord de l'estuaire de la Gironde ?",
+            "hint": "Il porte le même nom que la grande forêt de pins qui l'entoure.",
+            "anecdote": "Le phare actuel a été construit en 1905. La côte y recule de plusieurs mètres par an sous l'effet de l'océan.",
+            "answers": {
+              "le-phare-de-la-coubre": "Le phare de la Coubre",
+              "le-phare-de-cordouan": "Le phare de Cordouan",
+              "le-phare-du-cap-ferret": "Le phare du Cap Ferret",
+              "le-phare-des-baleines": "Le phare des Baleines"
+            }
+          },
+          "aiguillon": {
+            "prompt": "Quelle baie, aux vastes vasières, ferme le Marais poitevin au nord de La Rochelle ?",
+            "hint": "Son nom évoque une pointe acérée.",
+            "anecdote": "Cette réserve naturelle accueille chaque hiver des dizaines de milliers d'oiseaux migrateurs.",
+            "answers": {
+              "la-baie-de-l-aiguillon": "La baie de l'Aiguillon",
+              "la-baie-de-bourgneuf": "La baie de Bourgneuf",
+              "la-baie-d-arcachon": "La baie d'Arcachon",
+              "la-baie-de-somme": "La baie de Somme"
+            }
+          },
+          "fort-boyard": {
+            "prompt": "Entre quelles îles se dresse ce fort de pierre, rendu célèbre par un jeu télévisé ?",
+            "hint": "Il est posé sur un banc de sable, au milieu du pertuis d'Antioche.",
+            "anecdote": "Voulu par Napoléon et achevé en 1857, le fort était déjà inutile, la portée des canons ayant augmenté.",
+            "answers": {
+              "entre-l-ile-d-aix-et-l-ile-d-oleron": "Entre l'île d'Aix et l'île d'Oléron",
+              "entre-l-ile-de-re-et-l-ile-d-oleron": "Entre l'île de Ré et l'île d'Oléron",
+              "entre-l-ile-de-re-et-le-continent": "Entre l'île de Ré et le continent",
+              "entre-oleron-et-royan": "Entre Oléron et Royan"
+            }
+          },
+          "fort-louvois": {
+            "prompt": "Quel fort, accessible à pied à marée basse, garde l'entrée de la Seudre face à Oléron ?",
+            "hint": "Il porte le nom d'un ministre de Louis XIV.",
+            "anecdote": "Construit à la fin du XVIIe siècle, il croisait ses feux avec la citadelle du Château-d'Oléron.",
+            "answers": {
+              "le-fort-louvois": "Le fort Louvois",
+              "le-fort-boyard": "Le fort Boyard",
+              "le-fort-liedot": "Le fort Liédot",
+              "le-fort-de-la-rade": "Le fort de la Rade"
+            }
+          },
+          "ile-aix": {
+            "prompt": "Quelle petite île en forme de croissant, sans voitures, se trouve à l'embouchure de la Charente ?",
+            "hint": "On y accède en bateau depuis la pointe de la Fumée, à Fouras.",
+            "anecdote": "L'île mesure environ 3 kilomètres de long. Elle est fortifiée depuis le XVIIe siècle.",
+            "answers": {
+              "l-ile-d-aix": "L'île d'Aix",
+              "l-ile-de-batz": "L'île de Batz",
+              "l-ile-de-re": "L'île de Ré",
+              "l-ile-d-yeu": "L'île d'Yeu"
+            }
+          },
+          "gartempe": {
+            "prompt": "Quelle rivière arrose Montmorillon et Saint-Savin, dans la Vienne ?",
+            "hint": "Elle se jette dans la Creuse.",
+            "anecdote": "Les fresques de l'abbatiale de Saint-Savin lui ont valu le surnom de chapelle Sixtine de l'art roman.",
+            "answers": {
+              "la-gartempe": "La Gartempe",
+              "le-clain": "Le Clain",
+              "la-boutonne": "La Boutonne",
+              "la-seudre": "La Seudre"
+            }
+          },
+          "chauvigny": {
+            "prompt": "Quelle cité médiévale, aux cinq châteaux, domine ici la vallée de la Vienne ?",
+            "hint": "Elle se trouve à l'est de Poitiers.",
+            "anecdote": "La ville haute réunit cinq châteaux sur un même éperon rocheux, dont le château baronnial des évêques de Poitiers."
+          },
+          "angles": {
+            "prompt": "Quel village perché, au-dessus de l'Anglin, est classé parmi les plus beaux de France ?",
+            "hint": "Il se trouve dans l'est de la Vienne, près de la Brenne.",
+            "anecdote": "Le site est occupé depuis la Préhistoire : un abri voisin conserve une frise sculptée vieille d'environ 15 000 ans."
+          },
+          "aubeterre": {
+            "prompt": "Quel village charentais, accroché à une falaise au-dessus de la Dronne, abrite une église creusée dans la roche ?",
+            "hint": "Il se trouve dans le sud de la Charente, près du Périgord.",
+            "anecdote": "L'église monolithe Saint-Jean, taillée dans la falaise, atteint une vingtaine de mètres de hauteur.",
+            "answers": {
+              "saint-emilion": "Saint-Émilion"
+            }
+          },
+          "talmont": {
+            "prompt": "Au-dessus de quel estuaire se dresse cette église romane, au bord de la falaise de Talmont ?",
+            "hint": "C'est le plus grand estuaire d'Europe occidentale.",
+            "anecdote": "L'église Sainte-Radegonde a perdu une partie de sa nef, emportée avec la falaise par l'érosion.",
+            "answers": {
+              "l-estuaire-de-la-gironde": "L'estuaire de la Gironde",
+              "l-estuaire-de-la-loire": "L'estuaire de la Loire",
+              "l-estuaire-de-la-charente": "L'estuaire de la Charente",
+              "l-estuaire-de-la-seine": "L'estuaire de la Seine"
+            }
+          },
+          "mornac": {
+            "prompt": "Au bord de quel petit fleuve côtier se trouve le port de Mornac, célèbre pour ses huîtres ?",
+            "hint": "Elle se jette dans l'océan face à l'île d'Oléron.",
+            "anecdote": "Mornac-sur-Seudre est classé parmi les plus beaux villages de France.",
+            "answers": {
+              "la-seudre": "La Seudre",
+              "la-charente": "La Charente",
+              "la-sevre-niortaise": "La Sèvre niortaise",
+              "la-boutonne": "La Boutonne"
+            }
+          },
+          "gatine": {
+            "prompt": "Comment s'appelle le pays de bocage, aux haies et aux petits champs, autour de Parthenay ?",
+            "hint": "Il porte le point le plus élevé des Deux-Sèvres.",
+            "anecdote": "Ce bocage contraste avec les plaines céréalières ouvertes qui entourent Niort et Poitiers.",
+            "answers": {
+              "la-gatine": "La Gâtine",
+              "le-bocage-normand": "Le Bocage normand",
+              "les-mauges": "Les Mauges",
+              "la-brenne": "La Brenne"
+            }
+          },
+          "seuil": {
+            "prompt": "Comment appelle-t-on le passage de plaines qui relie le Bassin parisien au Bassin aquitain, autour de Poitiers ?",
+            "hint": "Il sépare le Massif armoricain du Massif central.",
+            "anecdote": "C'est par ce passage qu'ont toujours circulé les grandes routes et les armées, ce qui explique les batailles livrées près de Poitiers.",
+            "answers": {
+              "le-seuil-du-poitou": "Le seuil du Poitou",
+              "la-trouee-de-belfort": "La trouée de Belfort",
+              "le-seuil-de-naurouze": "Le seuil de Naurouze",
+              "le-col-de-la-loire": "Le col de la Loire"
+            }
+          },
+          "pertuis": {
+            "prompt": "Comment s'appelle le bras de mer entre l'île de Ré et l'île d'Oléron ?",
+            "hint": "Son nom rappelle une ancienne cité antique.",
+            "anecdote": "Les pertuis sont les détroits qui séparent les îles charentaises entre elles et du continent.",
+            "answers": {
+              "le-pertuis-d-antioche": "Le pertuis d'Antioche",
+              "le-pertuis-breton": "Le pertuis Breton",
+              "le-pertuis-de-maumusson": "Le pertuis de Maumusson",
+              "le-goulet-de-brest": "Le goulet de Brest"
+            }
+          },
+          "maumusson": {
+            "prompt": "Quel passage dangereux, aux courants violents, sépare l'île d'Oléron de la presqu'île d'Arvert ?",
+            "hint": "Son nom évoquerait un mauvais murmure, celui des vagues.",
+            "anecdote": "La navigation y est très périlleuse, à cause des bancs de sable mouvants et du ressac.",
+            "answers": {
+              "le-pertuis-de-maumusson": "Le pertuis de Maumusson",
+              "le-pertuis-d-antioche": "Le pertuis d'Antioche",
+              "le-raz-de-sein": "Le raz de Sein",
+              "le-pertuis-breton": "Le pertuis Breton"
+            }
+          },
+          "dep-aubeterre": {
+            "prompt": "Touchez le département où se trouve Aubeterre-sur-Dronne et son église monolithe.",
+            "hint": "C'est le département de Cognac.",
+            "anecdote": "Le village se trouve à la limite de la Dordogne."
+          },
+          "dep-angles": {
+            "prompt": "Touchez le département où se trouve Angles-sur-l'Anglin.",
+            "hint": "C'est le département de Châtellerault.",
+            "anecdote": "L'Anglin rejoint la Gartempe un peu en aval du village."
+          },
+          "dep-bougon": {
+            "prompt": "Touchez le département où se trouvent les tumulus de Bougon.",
+            "hint": "C'est le département de Parthenay.",
+            "anecdote": "Un musée des tumulus a été construit à côté de la nécropole."
+          },
+          "bougon": {
+            "prompt": "Quel ensemble funéraire du Néolithique, parmi les plus anciens d'Europe, voit-on ici dans les Deux-Sèvres ?",
+            "hint": "Ce sont de grands tertres de pierre qui recouvrent des chambres funéraires.",
+            "anecdote": "Les plus anciens monuments de la nécropole ont été édifiés vers 4700 avant notre ère, avant les pyramides d'Égypte.",
+            "answers": {
+              "les-tumulus-de-bougon": "Les tumulus de Bougon",
+              "les-alignements-de-carnac": "Les alignements de Carnac",
+              "le-cairn-de-barnenez": "Le cairn de Barnenez",
+              "le-dolmen-de-bagneux": "Le dolmen de Bagneux"
+            }
+          },
+          "poitiers-732": {
+            "prompt": "Quelle bataille de 732, livrée entre Tours et Poitiers, ce tableau représente-t-il ?",
+            "hint": "Charles Martel y arrêta une armée venue d'Al-Andalus.",
+            "anecdote": "Ce tableau de Charles de Steuben, peint en 1837, est conservé au château de Versailles.",
+            "answers": {
+              "la-bataille-de-poitiers": "La bataille de Poitiers",
+              "la-bataille-de-vouille": "La bataille de Vouillé",
+              "la-bataille-d-hastings": "La bataille d'Hastings",
+              "la-bataille-de-roncevaux": "La bataille de Roncevaux"
+            }
+          },
+          "poitiers-1356": {
+            "prompt": "Quel roi de France fut fait prisonnier par les Anglais à la bataille de Poitiers, en 1356 ?",
+            "hint": "Son fils lui aurait crié : Père, gardez-vous à droite !",
+            "anecdote": "Le roi, mené à Londres, ne fut libéré qu'après le traité de Brétigny, en 1360, contre une énorme rançon.",
+            "answers": {
+              "jean-le-bon": "Jean le Bon",
+              "philippe-vi": "Philippe VI",
+              "charles-v": "Charles V",
+              "louis-ix": "Louis IX"
+            }
+          },
+          "vouille": {
+            "prompt": "Quel roi des Francs battit les Wisigoths à Vouillé, près de Poitiers, en 507 ?",
+            "hint": "Il s'était fait baptiser à Reims.",
+            "anecdote": "Cette victoire ouvrit aux Francs la conquête de l'Aquitaine. Le roi wisigoth Alaric II y fut tué.",
+            "answers": {
+              "clovis": "Clovis",
+              "charlemagne": "Charlemagne",
+              "dagobert": "Dagobert",
+              "pepin-le-bref": "Pépin le Bref"
+            }
+          },
+          "siege-rochelle": {
+            "prompt": "Quel événement montre ce tableau, avec le cardinal de Richelieu sur une digue ?",
+            "hint": "La ville protestante finit par capituler en octobre 1628.",
+            "anecdote": "Ce tableau d'Henri Motte date de 1881. La population de la ville a fondu de plus des trois quarts pendant le siège.",
+            "answers": {
+              "le-siege-de-la-rochelle": "Le siège de La Rochelle",
+              "la-prise-de-la-bastille": "La prise de La Bastille",
+              "le-siege-d-orleans": "Le siège d'Orléans",
+              "la-bataille-de-lepante": "La bataille de Lépante"
+            }
+          },
+          "melle-mines": {
+            "prompt": "Quel métal extrayait-on dans ces galeries de Melle, au haut Moyen Âge, pour frapper monnaie ?",
+            "hint": "Il a donné son nom à une couleur gris clair et brillante.",
+            "anecdote": "Les mines de Melle alimentaient l'atelier monétaire carolingien de la ville. Ce sont les plus anciennes mines visitables de ce métal en Europe.",
+            "answers": {
+              "l-argent": "L'argent",
+              "l-or": "L'or",
+              "le-cuivre": "Le cuivre",
+              "le-fer": "Le fer"
+            }
+          },
+          "brouage": {
+            "prompt": "Quelle ancienne place forte, aujourd'hui loin de la mer, était au XVIe siècle le grand port européen du sel ?",
+            "hint": "Le cardinal de Richelieu en fit une base pendant le siège de La Rochelle.",
+            "anecdote": "La mer s'est retirée et le port s'est envasé. La cité, entourée de remparts, se dresse aujourd'hui au milieu des marais.",
+            "answers": {
+              "brouage": "Brouage",
+              "aigues-mortes": "Aigues-Mortes",
+              "guerande": "Guérande"
+            }
+          },
+          "maison-empereur": {
+            "prompt": "Sur quelle île Napoléon passa-t-il ses derniers jours en France, en juillet 1815 ?",
+            "hint": "Il y logea dans la maison du commandant de la place.",
+            "anecdote": "Il se rendit ensuite aux Anglais, qui l'exilèrent à Sainte-Hélène. Sa maison est aujourd'hui un musée.",
+            "answers": {
+              "l-ile-d-aix": "L'île d'Aix",
+              "l-ile-d-oleron": "L'île d'Oléron",
+              "l-ile-de-re": "L'île de Ré",
+              "l-ile-d-elbe": "L'île d'Elbe"
+            }
+          },
+          "base-sous-marine": {
+            "prompt": "Quel port de La Rochelle abrite cette énorme base de sous-marins en béton, construite pendant l'Occupation ?",
+            "hint": "C'est le port de commerce de la ville, en eau profonde.",
+            "anecdote": "La base a servi de décor aux films Le Bateau et Les Aventuriers de l'arche perdue.",
+            "answers": {
+              "la-pallice": "La Pallice",
+              "les-minimes": "Les Minimes",
+              "le-vieux-port": "Le Vieux-Port",
+              "chef-de-baie": "Chef-de-Baie"
+            }
+          },
+          "poche-royan": {
+            "prompt": "Pourquoi Royan a-t-elle été presque entièrement détruite en 1945 ?",
+            "hint": "Les Allemands y tenaient encore une poche de résistance après la libération du reste de la région.",
+            "anecdote": "La poche de Royan n'a été libérée qu'en avril 1945. La ville a ensuite été reconstruite dans un style moderne.",
+            "answers": {
+              "des-bombardements-contre-une-poche-allemande": "Des bombardements contre une poche allemande",
+              "un-raz-de-maree": "Un raz-de-marée",
+              "un-incendie-de-foret": "Un incendie de forêt",
+              "une-explosion-de-poudriere": "Une explosion de poudrière"
+            }
+          },
+          "acadiens": {
+            "prompt": "Quel peuple déporté par les Britanniques fut installé dans la Vienne, au XVIIIe siècle, sur la ligne acadienne ?",
+            "hint": "Ils venaient de la Nouvelle-Écosse actuelle, au Canada.",
+            "anecdote": "Une cinquantaine de fermes furent construites près d'Archigny vers 1773. Beaucoup de familles repartirent ensuite en Louisiane.",
+            "answers": {
+              "les-acadiens": "Les Acadiens",
+              "les-huguenots": "Les Huguenots",
+              "les-cajuns-de-floride": "Les Cajuns de Floride",
+              "les-bretons": "Les Bretons"
+            }
+          },
+          "rochelle-protestante": {
+            "prompt": "Quelle religion dominait La Rochelle avant le siège de 1627 et 1628 ?",
+            "hint": "Ses fidèles suivaient la Réforme.",
+            "anecdote": "La Rochelle était l'une des places de sûreté accordées aux protestants par l'édit de Nantes, en 1598.",
+            "answers": {
+              "le-protestantisme": "Le protestantisme",
+              "le-judaisme": "Le judaïsme",
+              "le-catholicisme": "Le catholicisme",
+              "l-islam": "L'islam"
+            }
+          },
+          "bagne-rochefort": {
+            "prompt": "Quel établissement pénitentiaire a fonctionné à l'arsenal de Rochefort jusqu'en 1852 ?",
+            "hint": "Les condamnés y travaillaient aux chantiers navals.",
+            "anecdote": "Les forçats y portaient la chaîne. Après sa fermeture, les condamnés furent envoyés en Guyane.",
+            "answers": {
+              "un-bagne": "Un bagne",
+              "une-leproserie": "Une léproserie",
+              "un-monastere": "Un monastère",
+              "un-asile": "Un asile"
+            }
+          },
+          "charroux": {
+            "prompt": "Quel mouvement, lancé par le concile réuni à l'abbaye de Charroux en 989, cherchait à protéger l'Église et les pauvres ?",
+            "hint": "Il voulait limiter les violences des seigneurs.",
+            "anecdote": "L'abbaye conservait des reliques attribuées au Christ, qui attiraient de nombreux pèlerins.",
+            "answers": {
+              "la-paix-de-dieu": "La paix de Dieu",
+              "la-premiere-croisade": "La première croisade",
+              "le-concordat": "Le concordat",
+              "l-edit-de-nantes": "L'édit de Nantes"
+            }
+          },
+          "transbordeur": {
+            "prompt": "Quel ouvrage de 1900 traverse encore la Charente près de Rochefort, avec sa nacelle suspendue ?",
+            "hint": "Une nacelle, accrochée à un chariot, glisse au-dessus de l'eau.",
+            "anecdote": "C'est le dernier pont de ce type en France. Les navires de l'arsenal pouvaient passer sous son tablier très haut.",
+            "answers": {
+              "le-pont-transbordeur-du-martrou": "Le pont transbordeur du Martrou",
+              "le-viaduc-de-millau": "Le viaduc de Millau",
+              "le-pont-de-normandie": "Le pont de Normandie",
+              "le-pont-de-l-ile-de-re": "Le pont de l'île de Ré"
+            }
+          },
+          "champlain-quebec": {
+            "prompt": "Quel grand fleuve remontaient les colons partis de l'Aunis et de la Saintonge vers la Nouvelle-France ?",
+            "hint": "Québec et Montréal se trouvent sur ses rives.",
+            "anecdote": "Au XVIIe siècle, de nombreux colons de la Nouvelle-France partirent des ports de La Rochelle et de Brouage.",
+            "answers": {
+              "le-saint-laurent": "Le Saint-Laurent",
+              "le-mississippi": "Le Mississippi",
+              "l-hudson": "L'Hudson",
+              "le-yukon": "Le Yukon"
+            }
+          },
+          "fromentin": {
+            "prompt": "Quel peintre et écrivain, né à La Rochelle, est l'auteur du roman Dominique ?",
+            "hint": "Il peignit aussi beaucoup l'Algérie.",
+            "anecdote": "Né en 1820, il est l'une des grandes figures de l'orientalisme. Le roman Dominique évoque les paysages de l'Aunis.",
+            "answers": {
+              "eugene-fromentin": "Eugène Fromentin",
+              "eugene-delacroix": "Eugène Delacroix",
+              "pierre-loti": "Pierre Loti",
+              "gustave-flaubert": "Gustave Flaubert"
+            }
+          },
+          "clouzot": {
+            "prompt": "Quel réalisateur du Salaire de la peur et des Diaboliques est né à Niort, en 1907 ?",
+            "hint": "Il est surnommé le maître du suspense à la française.",
+            "anecdote": "Le Salaire de la peur a remporté le Grand Prix du Festival de Cannes en 1953, ainsi que l'Ours d'or à Berlin.",
+            "answers": {
+              "henri-georges-clouzot": "Henri-Georges Clouzot",
+              "claude-chabrol": "Claude Chabrol",
+              "francois-truffaut": "François Truffaut",
+              "jean-renoir": "Jean Renoir"
+            }
+          },
+          "perochon": {
+            "prompt": "Quel instituteur des Deux-Sèvres a reçu le prix Goncourt en 1920 pour son roman Nêne ?",
+            "hint": "Il était né dans une ferme du bocage, à Courlay.",
+            "anecdote": "Ses romans décrivent la vie paysanne du Poitou au début du XXe siècle.",
+            "answers": {
+              "ernest-perochon": "Ernest Pérochon",
+              "louis-pergaud": "Louis Pergaud",
+              "marcel-proust": "Marcel Proust",
+              "henri-barbusse": "Henri Barbusse"
+            }
+          },
+          "raffarin": {
+            "prompt": "Quel ancien président de la région Poitou-Charentes est devenu Premier ministre en 2002 ?",
+            "hint": "Il est né à Poitiers.",
+            "anecdote": "Il a dirigé le gouvernement de 2002 à 2005, sous la présidence de Jacques Chirac.",
+            "answers": {
+              "jean-pierre-raffarin": "Jean-Pierre Raffarin",
+              "alain-juppe": "Alain Juppé",
+              "dominique-de-villepin": "Dominique de Villepin",
+              "lionel-jospin": "Lionel Jospin"
+            }
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "la-rochelle": {
+            "name": "La Rochelle",
+            "description": "Préfecture de la Charente-Maritime, la ville s'ouvre sur l'Atlantique par son Vieux-Port, gardé par les tours Saint-Nicolas et de la Chaîne. Ancienne place forte protestante, elle a été l'un des grands ports du commerce avec le Canada et les Antilles.",
+            "anecdote": "Une chaîne tendue la nuit entre les deux tours fermait autrefois l'entrée du port."
+          },
+          "huitres-marennes": {
+            "name": "Huîtres de Marennes-Oléron",
+            "description": "Entre la Seudre et l'île d'Oléron s'étend l'un des plus grands bassins ostréicoles d'Europe. Les huîtres y sont affinées dans des claires, d'anciens marais salants, qui leur donnent un goût particulier.",
+            "anecdote": "Une algue microscopique présente dans certaines claires peut donner aux huîtres une couleur verte."
+          },
+          "saint-martin-de-re": {
+            "name": "Fortifications de Saint-Martin-de-Ré",
+            "description": "Vauban a entouré la capitale de l'île de Ré d'une enceinte bastionnée et d'une citadelle, à la fin du XVIIe siècle. Elles sont inscrites au patrimoine mondial de l'UNESCO depuis 2008, avec les autres sites majeurs de Vauban.",
+            "anecdote": "De 1873 à 1938, les bagnards partaient de la citadelle pour la Nouvelle-Calédonie, puis pour la Guyane."
+          },
+          "charentaise": {
+            "name": "Charentaise",
+            "description": "Cette pantoufle est née en Charente, où l'on récupérait les chutes de feutre des papeteries pour fabriquer des chaussons. Sa semelle cousue retournée, sans colle, est sa marque de fabrique.",
+            "anecdote": "Ses premiers modèles, glissés dans des sabots, auraient servi aux domestiques pour cirer les parquets en marchant."
+          },
+          "marais-poitevin": {
+            "name": "Marais poitevin",
+            "description": "Deuxième zone humide de France, il s'étend sur trois départements, de Niort à la baie de l'Aiguillon. Sa partie boisée, la Venise verte, se parcourt en barque sur un réseau de canaux bordés de frênes têtards.",
+            "anecdote": "Les maraîchins se déplaçaient en barque, à l'aide d'une perche appelée la pigouille."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur du Poitou-Charentes",
+            "description": "Réunir les cinq cartes de la collection du Poitou-Charentes."
+          },
+          "master": {
+            "name": "Maître du Poitou-Charentes",
+            "description": "Réussir le Défi Maître du Poitou-Charentes, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
     }
   }
 }
