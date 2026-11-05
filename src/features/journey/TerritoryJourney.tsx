@@ -1,4 +1,5 @@
-import { Building2, Castle, Compass, type LucideIcon, TreePine } from "lucide-react";
+import { Building2, Castle, ChevronDown, Compass, type LucideIcon, TreePine } from "lucide-react";
+import type { ReactNode } from "react";
 import { previousSummary, summarizeLevel } from "@/engine/level-unlock";
 import { availableSpecialChallenges } from "@/engine/special-challenges";
 import type { Region, Territory, TerritoryPlace } from "@/engine/types";
@@ -11,6 +12,22 @@ import { getTranslator } from "@/i18n/translator";
 import { BackLink } from "@/ui/BackLink";
 
 const PLACE_ICONS: Record<TerritoryPlace["kind"], LucideIcon> = { city: Building2, monument: Castle, village: TreePine };
+
+/** Liste repliée par défaut, ouverte au clic : choix définitif pour tous les parcours, sur tous les écrans. */
+function FoldedList({ title, count, children }: { title: string; count: number; children: ReactNode }) {
+  return (
+    <details className="group rounded-2xl border border-gold/20 bg-surface/50">
+      <summary className="flex min-h-14 cursor-pointer list-none items-center justify-between gap-3 rounded-2xl px-4 focus-visible:outline-2 focus-visible:outline-gold [&::-webkit-details-marker]:hidden">
+        <h2 className="flex items-center gap-2 font-display text-xl font-semibold">
+          {title}
+          <span className="rounded-full border border-gold/30 bg-abyss/40 px-2 py-0.5 font-sans text-sm font-semibold text-gold">{count}</span>
+        </h2>
+        <ChevronDown aria-hidden className="size-5 shrink-0 text-gold transition-transform group-open:rotate-180" />
+      </summary>
+      <div className="px-4 pb-4">{children}</div>
+    </details>
+  );
+}
 
 /** Écran d'un parcours. Un territoire administratif est sa région : pas de mention de territoire culturel, retour à la carte. */
 export function TerritoryJourney({ region, territory }: { region: Region; territory: Territory }) {
@@ -33,8 +50,7 @@ export function TerritoryJourney({ region, territory }: { region: Region; territ
         </div>
       </section>
 
-      <section className="flex flex-col gap-2">
-        <h2 className="font-display text-xl font-semibold">{tContent("country.subdivisionsTitle")}</h2>
+      <FoldedList title={tContent("country.subdivisionsTitle")} count={subdivisions.length}>
         <ul className="flex flex-wrap gap-2">
           {subdivisions.map((subdivision) => (
             <li key={subdivision.id} className="flex items-center gap-2 rounded-full border border-gold/30 bg-abyss/30 px-3 py-1.5 text-sm">
@@ -43,11 +59,10 @@ export function TerritoryJourney({ region, territory }: { region: Region; territ
             </li>
           ))}
         </ul>
-      </section>
+      </FoldedList>
 
       {territory.places.length > 0 && (
-        <section className="flex flex-col gap-2">
-          <h2 className="font-display text-xl font-semibold">{t("journey.placesTitle")}</h2>
+        <FoldedList title={t("journey.placesTitle")} count={territory.places.length}>
           <ul className="flex flex-wrap gap-2">
             {territory.places.map((place) => {
               const Icon = PLACE_ICONS[place.kind];
@@ -59,7 +74,7 @@ export function TerritoryJourney({ region, territory }: { region: Region; territ
               );
             })}
           </ul>
-        </section>
+        </FoldedList>
       )}
 
       <section className="flex flex-col gap-3">
