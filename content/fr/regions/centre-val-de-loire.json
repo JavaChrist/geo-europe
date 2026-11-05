@@ -2,7 +2,32 @@
   "id": "FR-CVL",
   "slug": "centre-val-de-loire",
   "nameKey": "regions.centre-val-de-loire",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "18",
+      "nameKey": "departments.18"
+    },
+    {
+      "id": "28",
+      "nameKey": "departments.28"
+    },
+    {
+      "id": "36",
+      "nameKey": "departments.36"
+    },
+    {
+      "id": "37",
+      "nameKey": "departments.37"
+    },
+    {
+      "id": "41",
+      "nameKey": "departments.41"
+    },
+    {
+      "id": "45",
+      "nameKey": "departments.45"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],

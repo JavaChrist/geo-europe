@@ -4392,6 +4392,430 @@
       "photoPaysDeLaLoireSaintFlorent": {
         "title": "Saint-Florent-le-Vieil",
         "alt": "Vue plongeante sur un large fleuve partagé par des îles boisées, sous un ciel nuageux."
+      },
+      "photoCentreValDeLoireToursPlumereau": {
+        "title": "Maisons à pans de bois, place Plumereau, Tours",
+        "alt": "Rangée de hautes maisons médiévales à colombages, aux pignons pointus."
+      },
+      "photoCentreValDeLoireOrleansLoire": {
+        "title": "Pont George-V sur la Loire, Orléans",
+        "alt": "Pont de pierre à plusieurs arches au-dessus d'un large fleuve, sous un ciel gris."
+      },
+      "photoCentreValDeLoireBloisLoire": {
+        "title": "Blois et le pont Jacques-Gabriel",
+        "alt": "Ville étagée au bord d'un fleuve, reliée par un long pont de pierre en dos d'âne."
+      },
+      "photoCentreValDeLoireChartresVue": {
+        "title": "Vue sur la cathédrale de Chartres",
+        "alt": "Deux flèches de cathédrale aperçues à travers le feuillage, au-dessus des toits."
+      },
+      "photoCentreValDeLoireBourgesMarais": {
+        "title": "Marais de Bourges",
+        "alt": "Parcelles de jardins potagers séparées par des canaux, au milieu des arbres."
+      },
+      "photoCentreValDeLoireLoireSable": {
+        "title": "Bancs de sable de la Loire",
+        "alt": "Fleuve peu profond parsemé d'îlots boisés et de grèves de sable, devant un pont."
+      },
+      "photoCentreValDeLoireSologne": {
+        "title": "Étang de Sologne",
+        "alt": "Étang calme bordé de roseaux, avec des arbres et une maison au loin."
+      },
+      "photoCentreValDeLoireBeauce": {
+        "title": "Champ de blé en Beauce",
+        "alt": "Champ de blé mûr à perte de vue, traversé par un sentier."
+      },
+      "photoCentreValDeLoireBrenne": {
+        "title": "Étang de la Brenne",
+        "alt": "Étang aux rives couvertes d'herbes sèches, sous un ciel sombre."
+      },
+      "photoCentreValDeLoireLoiretSource": {
+        "title": "Parc floral de la Source, Orléans-la-Source",
+        "alt": "Bassin entouré de grands arbres, avec un jet d'eau en son centre."
+      },
+      "photoCentreValDeLoireSancerreVignes": {
+        "title": "Vignoble de Sancerre",
+        "alt": "Rangs de vigne au premier plan, devant des coteaux de vignes et de champs."
+      },
+      "photoCentreValDeLoireVouvrayVignes": {
+        "title": "Vignes de Vouvray, autochrome du début du XXe siècle",
+        "alt": "Vignes au pied d'un coteau de craie où s'accrochent quelques maisons, en couleurs anciennes."
+      },
+      "photoCentreValDeLoireChinonVignes": {
+        "title": "Vignes et chapelle, Chinon",
+        "alt": "Rangs de vigne sous un ciel bleu, avec une petite chapelle de pierre sur la colline."
+      },
+      "photoCentreValDeLoireMenetou": {
+        "title": "Vignoble de Menetou-Salon",
+        "alt": "Vignes au premier plan devant une vaste campagne de prés et de bois."
+      },
+      "photoCentreValDeLoireCrottin": {
+        "title": "Crottins de Chavignol",
+        "alt": "Deux petits fromages de chèvre ronds posés sur une ardoise."
+      },
+      "photoCentreValDeLoireSainteMaure": {
+        "title": "Sainte-maure-de-touraine coupé",
+        "alt": "Fromage de chèvre en bûche à croûte cendrée, coupé, traversé par une paille."
+      },
+      "photoCentreValDeLoireValencayFromage": {
+        "title": "Valençay coupé",
+        "alt": "Fromage de chèvre cendré en pyramide tronquée, entamé, sur une assiette."
+      },
+      "photoCentreValDeLoirePouligny": {
+        "title": "Pouligny-saint-pierre",
+        "alt": "Fromage de chèvre en haute pyramide, entier et coupé, sur une ardoise."
+      },
+      "photoCentreValDeLoireSellesFromage": {
+        "title": "Selles-sur-cher coupé",
+        "alt": "Tranche d'un fromage de chèvre rond à croûte cendrée, à la pâte blanche."
+      },
+      "photoCentreValDeLoireLentilles": {
+        "title": "Lentilles mijotées",
+        "alt": "Marmite de lentilles vertes cuites avec des rondelles de carotte et du thym."
+      },
+      "photoCentreValDeLoireGeline": {
+        "title": "Coq géline de Touraine",
+        "alt": "Coq au plumage noir brillant et à la crête rouge, dans un enclos grillagé."
+      },
+      "photoCentreValDeLoireTatin": {
+        "title": "Tarte renversée aux pommes",
+        "alt": "Part de tarte aux pommes caramélisées, posée sur une pâte feuilletée."
+      },
+      "photoCentreValDeLoireRillons": {
+        "title": "Rillons",
+        "alt": "Plat de gros morceaux de poitrine de porc rissolés et dorés."
+      },
+      "photoCentreValDeLoirePithiviers": {
+        "title": "Pithiviers feuilleté",
+        "alt": "Part d'un gâteau feuilleté doré, au dessus rayé, garni de crème d'amande."
+      },
+      "photoCentreValDeLoireCotignac": {
+        "title": "Coings en cuisson",
+        "alt": "Quartiers de coing qui cuisent dans une casserole d'eau ambrée."
+      },
+      "photoCentreValDeLoireNougatTours": {
+        "title": "Nougat de Tours",
+        "alt": "Part de gâteau à pâte sablée garnie de fruits confits."
+      },
+      "photoCentreValDeLoireMacaronsCormery": {
+        "title": "Macarons de Cormery",
+        "alt": "Trois petits biscuits dorés en forme de couronne, posés sur du papier."
+      },
+      "photoCentreValDeLoireVinaigre": {
+        "title": "Tonnelet à vinaigre en grès",
+        "alt": "Petit tonneau de grès gris à décor bleu, muni d'un robinet."
+      },
+      "photoCentreValDeLoireChambord": {
+        "title": "Château de Chambord",
+        "alt": "Immense château blanc hérissé de cheminées et de tourelles, au bord d'une rivière."
+      },
+      "photoCentreValDeLoireChenonceau": {
+        "title": "Château de Chenonceau",
+        "alt": "Château blanc dont la longue galerie à arches enjambe une rivière, reflétée dans l'eau."
+      },
+      "photoCentreValDeLoireAmboiseChateau": {
+        "title": "Château d'Amboise",
+        "alt": "Château dressé sur un rempart au-dessus des maisons, au bord d'un fleuve."
+      },
+      "photoCentreValDeLoireBloisEscalier": {
+        "title": "Escalier de l'aile François Ier, château de Blois",
+        "alt": "Escalier à vis ajouré, sculpté de balustrades, accroché à une façade Renaissance."
+      },
+      "photoCentreValDeLoireAzay": {
+        "title": "Château d'Azay-le-Rideau",
+        "alt": "Château blanc à tourelles pointues, au bord de l'eau."
+      },
+      "photoCentreValDeLoireVillandry": {
+        "title": "Jardins de Villandry",
+        "alt": "Jardin à la française aux buis taillés en motifs, devant des tonnelles."
+      },
+      "photoCentreValDeLoireCheverny": {
+        "title": "Château de Cheverny",
+        "alt": "Façade classique blanche et symétrique, coiffée de dômes, au bout d'une allée."
+      },
+      "photoCentreValDeLoireChaumont": {
+        "title": "Château de Chaumont-sur-Loire",
+        "alt": "Château à tours rondes coiffées d'ardoise, au bout d'une pelouse fleurie."
+      },
+      "photoCentreValDeLoireUsse": {
+        "title": "Château d'Ussé et sa chapelle",
+        "alt": "Château blanc à tourelles au fond d'un parc, à côté d'une chapelle gothique."
+      },
+      "photoCentreValDeLoireLoches": {
+        "title": "Donjon de Loches",
+        "alt": "Énorme tour carrée de pierre, aux murs renforcés de contreforts."
+      },
+      "photoCentreValDeLoireChinonForteresse": {
+        "title": "Forteresse royale de Chinon",
+        "alt": "Longs remparts de pierre blanche dominant les maisons d'une vieille ville."
+      },
+      "photoCentreValDeLoireLangeais": {
+        "title": "Château de Langeais",
+        "alt": "Château fort à hautes tours et chemin de ronde, devant un jardin."
+      },
+      "photoCentreValDeLoireValencayChateau": {
+        "title": "Château de Valençay",
+        "alt": "Château à grand pavillon et tour coiffée d'un dôme, devant un bassin."
+      },
+      "photoCentreValDeLoireSully": {
+        "title": "Château de Sully-sur-Loire",
+        "alt": "Château fort entouré d'eau, à grosses tours rondes coiffées de toits pointus."
+      },
+      "photoCentreValDeLoireGienChateau": {
+        "title": "Château de Gien",
+        "alt": "Château de brique rouge à motifs, dominant les toits d'une ville."
+      },
+      "photoCentreValDeLoireChateaudunChateau": {
+        "title": "Château de Châteaudun",
+        "alt": "Grosse tour ronde à toit conique, au-dessus des toits d'une ville."
+      },
+      "photoCentreValDeLoireMaintenon": {
+        "title": "Château de Maintenon",
+        "alt": "Tour de brique au bord d'un canal, avec un long aqueduc en ruine au fond du parc."
+      },
+      "photoCentreValDeLoireChartresCathedrale": {
+        "title": "Cathédrale de Chartres",
+        "alt": "Cathédrale aux deux flèches différentes, dominant les toits de la ville."
+      },
+      "photoCentreValDeLoireBelleVerriere": {
+        "title": "Vitrail de Notre-Dame de la Belle Verrière, Chartres",
+        "alt": "Vitrail médiéval au fond bleu intense, représentant une Vierge en majesté."
+      },
+      "photoCentreValDeLoireBourgesCathedrale": {
+        "title": "Cathédrale de Bourges",
+        "alt": "Grande cathédrale gothique illuminée la nuit, aux arcs-boutants en cascade."
+      },
+      "photoCentreValDeLoireOrleansCathedrale": {
+        "title": "Cathédrale Sainte-Croix, Orléans",
+        "alt": "Façade gothique aux deux hautes tours ajourées."
+      },
+      "photoCentreValDeLoireSaintGatien": {
+        "title": "Cathédrale Saint-Gatien, Tours",
+        "alt": "Façade gothique flamboyante aux deux tours couronnées de lanternons."
+      },
+      "photoCentreValDeLoireSaintMartin": {
+        "title": "Basilique Saint-Martin, Tours",
+        "alt": "Nef à colonnes de marbre menant à un chœur surmonté d'une coupole."
+      },
+      "photoCentreValDeLoireSaintBenoit": {
+        "title": "Tour-porche de Saint-Benoît-sur-Loire",
+        "alt": "Tour romane massive dont le rez-de-chaussée s'ouvre par des arcades."
+      },
+      "photoCentreValDeLoireGermigny": {
+        "title": "Mosaïque de Germigny-des-Prés",
+        "alt": "Visage d'ange auréolé d'or, en petites tesselles de mosaïque."
+      },
+      "photoCentreValDeLoireNoirlac": {
+        "title": "Abbaye de Noirlac",
+        "alt": "Bâtiments d'abbaye simples et clairs, au bout d'une grande pelouse."
+      },
+      "photoCentreValDeLoireTriniteVendome": {
+        "title": "Abbaye de la Trinité, Vendôme",
+        "alt": "Pignon gothique flamboyant encadré de deux clochetons ajourés."
+      },
+      "photoCentreValDeLoireJacquesCoeur": {
+        "title": "Palais Jacques-Cœur, Bourges",
+        "alt": "Palais gothique à tourelles et hautes lucarnes, devant une statue."
+      },
+      "photoCentreValDeLoireGroslot": {
+        "title": "Hôtel Groslot, Orléans",
+        "alt": "Façade de brique à fenêtres en vitrail, devant une statue de bronze."
+      },
+      "photoCentreValDeLoireChanteloup": {
+        "title": "Pagode de Chanteloup",
+        "alt": "Intérieur d'une tour ronde à colonnes, avec un escalier à rampe de fer."
+      },
+      "photoCentreValDeLoireMeillant": {
+        "title": "Château de Meillant, la chapelle",
+        "alt": "Petite chapelle gothique ornée, dans un parc boisé."
+      },
+      "photoCentreValDeLoireAinay": {
+        "title": "Château d'Ainay-le-Vieil",
+        "alt": "Allée de jardin menant à une enceinte de tours de brique."
+      },
+      "photoCentreValDeLoireTalcy": {
+        "title": "Château de Talcy",
+        "alt": "Donjon carré à toit pointu dominant une cour fermée de murs."
+      },
+      "photoCentreValDeLoireBeauregard": {
+        "title": "Château de Beauregard, galerie des portraits",
+        "alt": "Portrait ancien d'une femme en coiffe noire et collier de perles."
+      },
+      "photoCentreValDeLoireMontresor": {
+        "title": "Château de Montrésor",
+        "alt": "Ruines d'un château fort avec une tour ronde et une porte fortifiée."
+      },
+      "photoCentreValDeLoireBeaugency": {
+        "title": "Donjon de Beaugency",
+        "alt": "Haute tour carrée de pierre dominant une rue de vieilles maisons."
+      },
+      "photoCentreValDeLoireBussiere": {
+        "title": "Château de la Bussière, vue aérienne",
+        "alt": "Château entouré d'eau au bord d'un grand étang, avec un potager et des bois."
+      },
+      "photoCentreValDeLoireClosLuce": {
+        "title": "Château du Clos Lucé, Amboise",
+        "alt": "Manoir de brique rouge et de pierre blanche, avec une tourelle et une galerie."
+      },
+      "photoCentreValDeLoirePossonniere": {
+        "title": "Manoir de la Possonnière",
+        "alt": "Manoir Renaissance à tour d'escalier, sous un ciel d'orage."
+      },
+      "photoCentreValDeLoireDeviniere": {
+        "title": "La Devinière, Seuilly",
+        "alt": "Maison de campagne et vignes plongées dans le brouillard."
+      },
+      "photoCentreValDeLoireNohant": {
+        "title": "Maison de Nohant",
+        "alt": "Maison bourgeoise blanche au fond d'un parc ombragé, derrière un bassin."
+      },
+      "photoCentreValDeLoireSache": {
+        "title": "Château de Saché",
+        "alt": "Petit château de pierre aux murs couverts de lierre, devant une pelouse."
+      },
+      "photoCentreValDeLoireDescartesMaison": {
+        "title": "Maison natale, Descartes",
+        "alt": "Maison blanche à balcon et haute cheminée de brique, dans une rue de bourg."
+      },
+      "photoCentreValDeLoireTanteLeonie": {
+        "title": "Maison de tante Léonie, Illiers-Combray",
+        "alt": "Chambre ancienne avec un lit, une cheminée et une vitrine."
+      },
+      "photoCentreValDeLoireMeaulnes": {
+        "title": "École d'Épineuil-le-Fleuriel",
+        "alt": "Bâtiment d'école rural aux volets bleus, devant une cour de terre."
+      },
+      "photoCentreValDeLoireJeanneMartroi": {
+        "title": "Statue équestre, place du Martroi, Orléans",
+        "alt": "Statue de bronze d'une cavalière en armure, épée à la main, sur un haut socle."
+      },
+      "photoCentreValDeLoireFaienceGien": {
+        "title": "Assiette en faïence de Gien",
+        "alt": "Assiette blanche à décor bleu de rinceaux et d'armoiries."
+      },
+      "photoCentreValDeLoirePorcelaineFoecy": {
+        "title": "Ancienne fabrique de porcelaine, Vierzon",
+        "alt": "Bâtiment d'usine en ruine, au toit effondré."
+      },
+      "photoCentreValDeLoireVannerie": {
+        "title": "Panier en osier",
+        "alt": "Panier tressé en forme d'œuf, posé contre un mur."
+      },
+      "photoCentreValDeLoireVitrail": {
+        "title": "Vitrail de l'église Saint-Aignan, Chartres",
+        "alt": "Grande verrière colorée découpée en scènes religieuses."
+      },
+      "photoCentreValDeLoireGabare": {
+        "title": "Gabare sur la Loire",
+        "alt": "Bateau de bois à fond plat glissant sur un large fleuve bordé d'arbres."
+      },
+      "photoCentreValDeLoireTroo": {
+        "title": "Habitation troglodytique, Trôo",
+        "alt": "Maison en partie creusée dans une falaise, au milieu de la végétation."
+      },
+      "photoCentreValDeLoirePicassiette": {
+        "title": "Maison Picassiette, Chartres",
+        "alt": "Pignon de maison entièrement couvert d'éclats de vaisselle en mosaïque."
+      },
+      "photoCentreValDeLoireJardinsChaumont": {
+        "title": "Festival des jardins de Chaumont-sur-Loire",
+        "alt": "Jardin contemporain de haies taillées en cercle autour d'un if."
+      },
+      "photoCentreValDeLoireVielle": {
+        "title": "Vielle à roue",
+        "alt": "Instrument à cordes avec un clavier et une manivelle, dans une vitrine."
+      },
+      "photoCentreValDeLoireBriare": {
+        "title": "Pont-canal de Briare",
+        "alt": "Long pont métallique qui porte un canal au-dessus d'un fleuve, vu du ciel."
+      },
+      "photoCentreValDeLoireBecAllier": {
+        "title": "Bec d'Allier",
+        "alt": "Confluent de deux rivières, avec un village et des arbres sur la rive."
+      },
+      "photoCentreValDeLoireCandes": {
+        "title": "Candes-Saint-Martin",
+        "alt": "Village au bord d'un fleuve, derrière une large plage de sable."
+      },
+      "photoCentreValDeLoireEguzon": {
+        "title": "Lac et barrage d'Éguzon",
+        "alt": "Grand lac entouré de collines boisées, fermé par un barrage."
+      },
+      "photoCentreValDeLoireForetOrleans": {
+        "title": "Forêt d'Orléans",
+        "alt": "Immense forêt de pins traversée par une allée droite, vue d'en haut."
+      },
+      "photoCentreValDeLoireNancay": {
+        "title": "Radiotélescope de Nançay",
+        "alt": "Immense paroi métallique incurvée, dressée au milieu d'un champ."
+      },
+      "photoCentreValDeLoireBruere": {
+        "title": "Colonne de Bruère-Allichamps",
+        "alt": "Colonne de pierre surmontée d'un drapeau, au milieu d'une rue de village."
+      },
+      "photoCentreValDeLoireSancerre": {
+        "title": "Sancerre vu depuis Chavignol",
+        "alt": "Village perché sur une colline, au-dessus des vignes."
+      },
+      "photoCentreValDeLoireVendome": {
+        "title": "Vendôme et le Loir",
+        "alt": "Rivière canalisée entre des quais, devant un grand bâtiment classique."
+      },
+      "photoCentreValDeLoireApremont": {
+        "title": "Apremont-sur-Allier",
+        "alt": "Rue de village aux maisons de pierre blonde et aux toits d'ardoise."
+      },
+      "photoCentreValDeLoireGargilesse": {
+        "title": "Gargilesse-Dampierre",
+        "alt": "Village aux toits bruns dans un vallon boisé, dominé par un clocher."
+      },
+      "photoCentreValDeLoireSaintAignan": {
+        "title": "Château de Saint-Aignan",
+        "alt": "Château Renaissance et vieille tour, au-dessus d'une rivière."
+      },
+      "photoCentreValDeLoireNogentRotrou": {
+        "title": "Château Saint-Jean, Nogent-le-Rotrou",
+        "alt": "Donjon carré et porte fortifiée à deux tours coiffées d'ardoise."
+      },
+      "photoCentreValDeLoireChateauneuf": {
+        "title": "Château de Châteauneuf-sur-Loire",
+        "alt": "Pavillon classique blanc à dôme, au bout d'une allée."
+      },
+      "photoCentreValDeLoireLavardin": {
+        "title": "Ruines du château de Lavardin",
+        "alt": "Ruines d'un donjon perché sur un rocher boisé."
+      },
+      "photoCentreValDeLoireCulan": {
+        "title": "Château de Culan",
+        "alt": "Château fort à tours rondes, perché au-dessus d'une vallée boisée."
+      },
+      "photoCentreValDeLoireMehun": {
+        "title": "Ruines du château de Mehun-sur-Yèvre",
+        "alt": "Deux hautes tours rondes en ruine, sous un ciel bleu."
+      },
+      "photoCentreValDeLoireAubigny": {
+        "title": "Château d'Aubigny-sur-Nère",
+        "alt": "Cour de château à tourelles pointues et façade fleurie."
+      },
+      "photoCentreValDeLoireMeung": {
+        "title": "Château de Meung-sur-Loire",
+        "alt": "Château aux façades roses et tours d'ardoise, devant une pelouse."
+      },
+      "photoCentreValDeLoireMontrichard": {
+        "title": "Donjon de Montrichard",
+        "alt": "Donjon dominant un coteau boisé, au-dessus d'une prairie."
+      },
+      "photoCentreValDeLoireFontgombault": {
+        "title": "Abbaye de Fontgombault",
+        "alt": "Église abbatiale romane à pignon et bâtiments monastiques."
+      },
+      "photoCentreValDeLoirePontWilson": {
+        "title": "Pont Wilson, Tours",
+        "alt": "Long pont de pierre à arches, parcouru par un tramway."
+      },
+      "photoCentreValDeLoireChapelleDreux": {
+        "title": "Chapelle royale Saint-Louis, Dreux",
+        "alt": "Chapelle à dôme néogothique, au sommet d'un escalier de pierre."
       }
     }
   },
@@ -4423,23 +4847,29 @@
     "15": "Cantal",
     "16": "Charente",
     "17": "Charente-Maritime",
+    "18": "Cher",
     "19": "Corrèze",
     "21": "Côte-d'Or",
     "23": "Creuse",
     "24": "Dordogne",
     "25": "Doubs",
     "26": "Drôme",
+    "28": "Eure-et-Loir",
     "30": "Gard",
     "31": "Haute-Garonne",
     "32": "Gers",
     "33": "Gironde",
     "34": "Hérault",
+    "36": "Indre",
+    "37": "Indre-et-Loire",
     "38": "Isère",
     "39": "Jura",
     "40": "Landes",
+    "41": "Loir-et-Cher",
     "42": "Loire",
     "43": "Haute-Loire",
     "44": "Loire-Atlantique",
+    "45": "Loiret",
     "46": "Lot",
     "47": "Lot-et-Garonne",
     "48": "Lozère",
@@ -5088,7 +5518,60 @@
     "noirmoutier-en-l-ile": "Noirmoutier-en-l'Île",
     "l-ile-d-yeu": "L'Île-d'Yeu",
     "vouvant": "Vouvant",
-    "maillezais": "Maillezais"
+    "maillezais": "Maillezais",
+    "bourges": "Bourges",
+    "vierzon": "Vierzon",
+    "saint-amand-montrond": "Saint-Amand-Montrond",
+    "mehun-sur-yevre": "Mehun-sur-Yèvre",
+    "aubigny-sur-nere": "Aubigny-sur-Nère",
+    "sancerre": "Sancerre",
+    "quincy": "Quincy",
+    "apremont-sur-allier": "Apremont-sur-Allier",
+    "chartres": "Chartres",
+    "dreux": "Dreux",
+    "chateaudun": "Châteaudun",
+    "nogent-le-rotrou": "Nogent-le-Rotrou",
+    "bonneval": "Bonneval",
+    "maintenon": "Maintenon",
+    "illiers-combray": "Illiers-Combray",
+    "chateauroux": "Châteauroux",
+    "issoudun": "Issoudun",
+    "le-blanc": "Le Blanc",
+    "la-chatre": "La Châtre",
+    "argenton-sur-creuse": "Argenton-sur-Creuse",
+    "valencay": "Valençay",
+    "nohant-vic": "Nohant-Vic",
+    "gargilesse-dampierre": "Gargilesse-Dampierre",
+    "tours": "Tours",
+    "amboise": "Amboise",
+    "chinon": "Chinon",
+    "loches": "Loches",
+    "langeais": "Langeais",
+    "azay-le-rideau": "Azay-le-Rideau",
+    "bourgueil": "Bourgueil",
+    "vouvray": "Vouvray",
+    "sainte-maure-de-touraine": "Sainte-Maure-de-Touraine",
+    "chenonceaux": "Chenonceaux",
+    "villandry": "Villandry",
+    "candes-saint-martin": "Candes-Saint-Martin",
+    "blois": "Blois",
+    "vendome": "Vendôme",
+    "romorantin-lanthenay": "Romorantin-Lanthenay",
+    "selles-sur-cher": "Selles-sur-Cher",
+    "chambord": "Chambord",
+    "cheverny": "Cheverny",
+    "chaumont-sur-loire": "Chaumont-sur-Loire",
+    "lavardin": "Lavardin",
+    "orleans": "Orléans",
+    "montargis": "Montargis",
+    "gien": "Gien",
+    "pithiviers": "Pithiviers",
+    "briare": "Briare",
+    "sully-sur-loire": "Sully-sur-Loire",
+    "beaugency": "Beaugency",
+    "meung-sur-loire": "Meung-sur-Loire",
+    "saint-benoit-sur-loire": "Saint-Benoît-sur-Loire",
+    "germigny-des-pres": "Germigny-des-Prés"
   },
   "territories": {
     "champagne-ardenne": {
@@ -32873,6 +33356,1841 @@
           "master": {
             "name": "Maître des Pays de la Loire",
             "description": "Réussir le Défi Maître des Pays de la Loire, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
+    },
+    "centre-val-de-loire": {
+      "name": "Centre-Val de Loire",
+      "description": "Des châteaux de la Loire aux cathédrales de Chartres et de Bourges, une région de vins de Loire et de fromages de chèvre, de forêts et d'étangs de Sologne et de Brenne, et des plaines à blé de la Beauce, entre Cher, Eure-et-Loir, Indre, Indre-et-Loire, Loir-et-Cher et Loiret.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Centre-Val de Loire",
+          "description": "Six départements, leurs villes et les grands repères d'une région traversée par la Loire, entre Beauce, Sologne, Berry et Touraine.",
+          "capitale": {
+            "prompt": "Quelle ville est le chef-lieu de la région Centre-Val de Loire ?",
+            "hint": "Elle se trouve au sommet de la grande boucle que dessine la Loire.",
+            "anecdote": "Avec environ 117 000 habitants, elle est un peu moins peuplée que Tours, la plus grande ville de la région."
+          },
+          "six": {
+            "prompt": "Combien de départements compte la région Centre-Val de Loire ?",
+            "hint": "Trois d'entre eux associent deux cours d'eau dans leur nom.",
+            "anecdote": "Ce sont le Cher, l'Eure-et-Loir, l'Indre, l'Indre-et-Loire, le Loir-et-Cher et le Loiret.",
+            "answers": {
+              "six": "Six",
+              "cinq": "Cinq",
+              "quatre": "Quatre",
+              "huit": "Huit"
+            }
+          },
+          "ancien-nom": {
+            "prompt": "Quel nom la région portait-elle avant 2015 ?",
+            "hint": "Ce nom rappelait seulement sa position sur la carte de France.",
+            "anecdote": "La loi du 16 janvier 2015 lui a ajouté le Val de Loire, sans modifier ses limites.",
+            "answers": {
+              "centre": "Centre",
+              "orleanais": "Orléanais",
+              "berry": "Berry",
+              "touraine": "Touraine"
+            }
+          },
+          "voisins": {
+            "prompt": "Quelle région ne touche pas le Centre-Val de Loire ?",
+            "hint": "Elle borde l'Allemagne et la Suisse.",
+            "anecdote": "Le Centre-Val de Loire touche six régions : l'Île-de-France, la Normandie, les Pays de la Loire, la Nouvelle-Aquitaine, l'Auvergne-Rhône-Alpes et la Bourgogne-Franche-Comté.",
+            "answers": {
+              "le-grand-est": "Le Grand Est",
+              "l-ile-de-france": "L'Île-de-France",
+              "la-normandie": "La Normandie",
+              "la-bourgogne-franche-comte": "La Bourgogne-Franche-Comté"
+            }
+          },
+          "touraine": {
+            "prompt": "Quelle ancienne province avait pour capitale Tours ?",
+            "hint": "On la surnomme le jardin de la France.",
+            "anecdote": "L'Indre-et-Loire correspond à peu près à cette ancienne province, dont les habitants s'appellent les Tourangeaux.",
+            "answers": {
+              "la-touraine": "La Touraine",
+              "l-anjou": "L'Anjou",
+              "le-berry": "Le Berry",
+              "le-maine": "Le Maine"
+            }
+          },
+          "berry": {
+            "prompt": "Quelle ancienne province avait pour capitale Bourges ?",
+            "hint": "George Sand a décrit ses paysages et ses traditions.",
+            "anecdote": "Le Cher et l'Indre correspondent à peu près à cette ancienne province, dont les habitants sont les Berrichons.",
+            "answers": {
+              "le-berry": "Le Berry",
+              "le-nivernais": "Le Nivernais",
+              "le-bourbonnais": "Le Bourbonnais",
+              "la-touraine": "La Touraine"
+            }
+          },
+          "orleanais": {
+            "prompt": "Quelle ancienne province avait pour capitale Orléans ?",
+            "hint": "Son nom vient directement de celui de sa capitale.",
+            "anecdote": "Elle s'étendait sur le Loiret, le Loir-et-Cher et une partie de l'Eure-et-Loir.",
+            "answers": {
+              "l-orleanais": "L'Orléanais",
+              "le-gatinais": "Le Gâtinais",
+              "le-blesois": "Le Blésois",
+              "le-perche": "Le Perche"
+            }
+          },
+          "bourges-loire": {
+            "prompt": "Parmi ces préfectures, laquelle n'est pas au bord de la Loire ?",
+            "hint": "Elle est bâtie au confluent de l'Yèvre et de l'Auron.",
+            "anecdote": "Orléans, Blois et Tours sont au bord du fleuve, comme Gien, Beaugency et Amboise."
+          },
+          "cher": {
+            "prompt": "Quelle rivière traverse Vierzon et Montrichard, avant de rejoindre la Loire près de Tours ?",
+            "hint": "Elle passe sous les arches d'un célèbre château de Touraine.",
+            "anecdote": "Elle a donné son nom au département de Bourges et au Loir-et-Cher.",
+            "answers": {
+              "le-cher": "Le Cher",
+              "l-indre": "L'Indre",
+              "l-allier": "L'Allier",
+              "la-vienne": "La Vienne"
+            }
+          },
+          "indre": {
+            "prompt": "Quelle rivière traverse Châteauroux et Loches ?",
+            "hint": "Elle se jette dans la Loire en aval de Tours.",
+            "anecdote": "Elle a donné son nom à deux départements, celui de Châteauroux et celui de Tours.",
+            "answers": {
+              "l-indre": "L'Indre",
+              "le-cher": "Le Cher",
+              "la-creuse": "La Creuse",
+              "la-vienne": "La Vienne"
+            }
+          },
+          "eure": {
+            "prompt": "Quelle rivière traverse Chartres ?",
+            "hint": "Elle donne la première partie du nom d'un département de la région.",
+            "anecdote": "Elle rejoint la Seine en Normandie, un peu en amont de Rouen.",
+            "answers": {
+              "l-eure": "L'Eure",
+              "le-loir": "Le Loir",
+              "l-indre": "L'Indre",
+              "la-seine": "La Seine"
+            }
+          },
+          "perche": {
+            "prompt": "Quelle région naturelle de collines et de bocage, autour de Nogent-le-Rotrou, a donné son nom à une race de chevaux de trait ?",
+            "hint": "Ses chevaux, souvent gris pommelé, sont réputés dans le monde entier.",
+            "anecdote": "Elle s'étend sur l'Eure-et-Loir, l'Orne, la Sarthe et le Loir-et-Cher. Elle a un parc naturel régional depuis 1998.",
+            "answers": {
+              "le-perche": "Le Perche",
+              "le-boulonnais": "Le Boulonnais",
+              "l-auxois": "L'Auxois",
+              "le-poitou": "Le Poitou"
+            }
+          },
+          "dep-bourges": {
+            "prompt": "Touchez le département dont la préfecture est Bourges.",
+            "hint": "C'est le département du sud-est de la région, voisin de la Nièvre et de l'Allier.",
+            "anecdote": "Charles VII y a longtemps résidé pendant la guerre de Cent Ans, ce qui lui a valu le surnom moqueur de roi de Bourges."
+          },
+          "dep-vierzon": {
+            "prompt": "Touchez le département de Vierzon, au confluent du Cher et de l'Yèvre.",
+            "hint": "C'est le département du sud-est de la région, voisin de la Nièvre et de l'Allier.",
+            "anecdote": "Vierzon a longtemps été une ville industrielle, connue pour ses porcelaines et ses machines agricoles."
+          },
+          "dep-sancerre": {
+            "prompt": "Touchez le département de Sancerre, perchée sur sa colline au-dessus de la Loire.",
+            "hint": "C'est le département du sud-est de la région, voisin de la Nièvre et de l'Allier.",
+            "anecdote": "Ses coteaux donnent un vin blanc réputé, issu du sauvignon."
+          },
+          "dep-chartres": {
+            "prompt": "Touchez le département dont la préfecture est Chartres.",
+            "hint": "C'est le département le plus au nord de la région, voisin de la Normandie et de l'Île-de-France.",
+            "anecdote": "Sa cathédrale est inscrite au patrimoine mondial de l'UNESCO depuis 1979."
+          },
+          "dep-dreux": {
+            "prompt": "Touchez le département de Dreux et de sa chapelle royale.",
+            "hint": "C'est le département le plus au nord de la région, voisin de la Normandie et de l'Île-de-France.",
+            "anecdote": "La chapelle royale Saint-Louis abrite les tombeaux de la famille d'Orléans, celle du roi Louis-Philippe."
+          },
+          "dep-chateaudun": {
+            "prompt": "Touchez le département de Châteaudun, dont le château domine le Loir.",
+            "hint": "C'est le département le plus au nord de la région, voisin de la Normandie et de l'Île-de-France.",
+            "anecdote": "Le château a été agrandi au XVe siècle par Jean de Dunois, compagnon d'armes de Jeanne d'Arc."
+          },
+          "dep-chateauroux": {
+            "prompt": "Touchez le département dont la préfecture est Châteauroux.",
+            "hint": "C'est le département du sud de la région, au cœur du Berry, voisin de la Creuse et de la Vienne.",
+            "anecdote": "Une grande base aérienne américaine y a été installée de 1951 à 1967."
+          },
+          "dep-issoudun": {
+            "prompt": "Touchez le département d'Issoudun, où Balzac a situé l'un de ses romans.",
+            "hint": "C'est le département du sud de la région, au cœur du Berry, voisin de la Creuse et de la Vienne.",
+            "anecdote": "Une grande partie de La Rabouilleuse se déroule dans cette ville du Berry."
+          },
+          "dep-argenton": {
+            "prompt": "Touchez le département d'Argenton-sur-Creuse, surnommée la Venise du Berry.",
+            "hint": "C'est le département du sud de la région, au cœur du Berry, voisin de la Creuse et de la Vienne.",
+            "anecdote": "Ses vieilles maisons à galeries de bois se penchent au-dessus de la Creuse."
+          },
+          "dep-tours": {
+            "prompt": "Touchez le département dont la préfecture est Tours.",
+            "hint": "C'est le département le plus à l'ouest de la région, voisin des Pays de la Loire.",
+            "anecdote": "Tours est la ville la plus peuplée de la région, devant Orléans."
+          },
+          "dep-chinon": {
+            "prompt": "Touchez le département de Chinon, au bord de la Vienne.",
+            "hint": "C'est le département le plus à l'ouest de la région, voisin des Pays de la Loire.",
+            "anecdote": "Jeanne d'Arc y a rencontré le dauphin Charles au début de l'année 1429."
+          },
+          "dep-amboise": {
+            "prompt": "Touchez le département d'Amboise, où Léonard de Vinci a fini sa vie.",
+            "hint": "C'est le département le plus à l'ouest de la région, voisin des Pays de la Loire.",
+            "anecdote": "Il y est mort en 1519, au manoir du Clos Lucé, où l'avait invité François Ier."
+          },
+          "dep-blois": {
+            "prompt": "Touchez le département dont la préfecture est Blois.",
+            "hint": "C'est le département du centre de la région, traversé par la Loire entre Orléans et Tours.",
+            "anecdote": "Blois a été la résidence de Louis XII, de François Ier et des derniers rois Valois."
+          },
+          "dep-vendome": {
+            "prompt": "Touchez le département de Vendôme, au bord du Loir.",
+            "hint": "C'est le département du centre de la région, traversé par la Loire entre Orléans et Tours.",
+            "anecdote": "Grâce au TGV, la ville n'est qu'à environ 45 minutes de Paris."
+          },
+          "dep-romorantin": {
+            "prompt": "Touchez le département de Romorantin-Lanthenay, où François Ier rêvait de bâtir un palais.",
+            "hint": "C'est le département du centre de la région, traversé par la Loire entre Orléans et Tours.",
+            "anecdote": "Léonard de Vinci avait dessiné pour le roi les plans d'un palais et d'une ville nouvelle, jamais construits."
+          },
+          "dep-orleans": {
+            "prompt": "Touchez le département dont la préfecture est Orléans.",
+            "hint": "C'est le département du nord-est de la région, où la Loire dessine sa grande boucle vers l'ouest.",
+            "anecdote": "Chaque année, les fêtes johanniques célèbrent la levée du siège de la ville par Jeanne d'Arc, le 8 mai 1429."
+          },
+          "dep-montargis": {
+            "prompt": "Touchez le département de Montargis, surnommée la Venise du Gâtinais.",
+            "hint": "C'est le département du nord-est de la région, où la Loire dessine sa grande boucle vers l'ouest.",
+            "anecdote": "La praline y est une spécialité depuis le XVIIe siècle : le cuisinier du duc de Plessis-Praslin y aurait ouvert sa boutique."
+          },
+          "dep-gien": {
+            "prompt": "Touchez le département de Gien, la ville de la faïence.",
+            "hint": "C'est le département du nord-est de la région, où la Loire dessine sa grande boucle vers l'ouest.",
+            "anecdote": "Sa faïencerie a été fondée en 1821 par un Anglais, Thomas Hall."
+          },
+          "tours-plumereau": {
+            "prompt": "Dans quelle ville se trouve cette place Plumereau, bordée de maisons à pans de bois ?",
+            "hint": "C'est la ville la plus peuplée de la région, entre la Loire et le Cher.",
+            "anecdote": "Ce cœur du vieux quartier, autrefois appelé le carroi aux Chapeaux, est aujourd'hui celui des terrasses et des étudiants."
+          },
+          "orleans-loire": {
+            "prompt": "Quelle ville s'étend au bord de la Loire, au bout de ce pont du XVIIIe siècle ?",
+            "hint": "Jeanne d'Arc l'a délivrée des Anglais en 1429.",
+            "anecdote": "Le pont George-V, autrefois appelé pont Royal, a été achevé en 1760. Le tramway l'emprunte aujourd'hui.",
+            "answers": {
+              "nevers": "Nevers"
+            }
+          },
+          "blois-loire": {
+            "prompt": "Quelle ville, préfecture du Loir-et-Cher, s'étage sur la rive droite de la Loire ?",
+            "hint": "Son château royal domine la vieille ville.",
+            "anecdote": "Ses escaliers et ses ruelles relient le haut de la ville au fleuve, que franchit le pont Jacques-Gabriel, achevé au XVIIIe siècle.",
+            "answers": {
+              "saumur": "Saumur"
+            }
+          },
+          "chartres-vue": {
+            "prompt": "Dans quelle ville cette cathédrale aux deux flèches dépareillées domine-t-elle la vieille ville ?",
+            "hint": "C'est la préfecture de l'Eure-et-Loir.",
+            "anecdote": "Ses deux flèches, l'une romane et l'autre gothique, se voient de très loin dans la plaine.",
+            "answers": {
+              "evreux": "Évreux"
+            }
+          },
+          "bourges-marais": {
+            "prompt": "Quelle ville, préfecture du Cher, est bordée par ces marais cultivés en jardins ?",
+            "hint": "Sa cathédrale Saint-Étienne est inscrite au patrimoine mondial.",
+            "anecdote": "Les marais, traversés par l'Yèvre et la Voiselle, réunissent environ 1 500 parcelles de jardins, que l'on rejoint souvent en barque.",
+            "answers": {
+              "nevers": "Nevers"
+            }
+          },
+          "loire-sable": {
+            "prompt": "Quel fleuve, qui traverse la région d'est en ouest, laisse apparaître ces bancs de sable en été ?",
+            "hint": "On le surnomme le dernier grand fleuve sauvage de France.",
+            "anecdote": "Son débit varie beaucoup selon les saisons. En été, ses îles de sable accueillent les sternes, et ses rives les castors.",
+            "answers": {
+              "la-loire": "La Loire",
+              "la-seine": "La Seine",
+              "le-rhone": "Le Rhône",
+              "la-garonne": "La Garonne"
+            }
+          },
+          "sologne": {
+            "prompt": "Quelle région naturelle de forêts et d'étangs s'étend au sud d'Orléans, entre la Loire et le Cher ?",
+            "hint": "C'est une terre de chasse, où braconne Raboliot, le héros d'un roman de Maurice Genevoix.",
+            "anecdote": "Elle compte environ 3 000 étangs, dont beaucoup ont été creusés au Moyen Âge.",
+            "answers": {
+              "la-sologne": "La Sologne",
+              "la-brenne": "La Brenne",
+              "le-gatinais": "Le Gâtinais",
+              "la-puisaye": "La Puisaye"
+            }
+          },
+          "beauce": {
+            "prompt": "Quelle grande plaine, surnommée le grenier de la France, s'étend entre Chartres et Orléans ?",
+            "hint": "On y cultive surtout le blé, sur un sol très fertile.",
+            "anecdote": "Plate et presque sans arbres, elle forme l'un des plus grands espaces de grandes cultures d'Europe.",
+            "answers": {
+              "la-beauce": "La Beauce",
+              "la-brie": "La Brie",
+              "le-perche": "Le Perche",
+              "la-champagne": "La Champagne"
+            }
+          },
+          "brenne": {
+            "prompt": "Quelle région naturelle de l'Indre, surnommée le pays des mille étangs, est devenue un parc naturel régional ?",
+            "hint": "On y observe des cistudes, de petites tortues d'eau douce.",
+            "anecdote": "Créé en 1989, le parc naturel régional compte plusieurs milliers d'étangs, au milieu des landes et des prairies.",
+            "answers": {
+              "la-brenne": "La Brenne",
+              "la-sologne": "La Sologne",
+              "la-dombes": "La Dombes",
+              "la-puisaye": "La Puisaye"
+            }
+          },
+          "loiret-source": {
+            "prompt": "Quelle rivière naît dans ce parc d'Orléans, d'une résurgence des eaux de la Loire ?",
+            "hint": "Elle a donné son nom au département d'Orléans.",
+            "anecdote": "Longue d'une douzaine de kilomètres, elle est alimentée par des eaux de la Loire qui circulent sous terre, dans le calcaire.",
+            "answers": {
+              "le-loiret": "Le Loiret",
+              "le-loir": "Le Loir",
+              "le-cosson": "Le Cosson",
+              "la-conie": "La Conie"
+            }
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs du Centre-Val de Loire",
+          "description": "Sancerre et vins de Touraine, cinq fromages de chèvre, tarte Tatin, rillons et confiseries : la table d'une région de vignes, de forêts et d'étangs.",
+          "sancerre-cepage": {
+            "prompt": "Quel cépage blanc donne le sancerre blanc ?",
+            "hint": "Il donne aussi le pouilly-fumé, sur l'autre rive de la Loire.",
+            "anecdote": "Ce cépage aux arômes d'agrumes et de buis s'épanouit sur les sols calcaires et de silex de la colline de Sancerre.",
+            "answers": {
+              "le-sauvignon": "Le sauvignon",
+              "le-chardonnay": "Le chardonnay",
+              "le-riesling": "Le riesling",
+              "le-chenin": "Le chenin"
+            }
+          },
+          "pinot-berry": {
+            "prompt": "Quel cépage rouge donne le sancerre rouge et le menetou-salon rouge ?",
+            "hint": "C'est aussi le grand cépage rouge de la Bourgogne.",
+            "anecdote": "Dans le Berry, ce cépage donne des rouges légers et fruités, à servir un peu frais.",
+            "answers": {
+              "le-pinot-noir": "Le pinot noir",
+              "le-gamay": "Le gamay",
+              "le-malbec": "Le malbec",
+              "la-syrah": "La syrah"
+            }
+          },
+          "sancerre-vignes": {
+            "prompt": "Quelle appellation du Cher entoure un piton couronné par une petite ville perchée au-dessus de la Loire ?",
+            "hint": "Le crottin de Chavignol est produit dans la même commune.",
+            "anecdote": "Son vignoble couvre environ 3 000 hectares, sur une quinzaine de communes du Sancerrois."
+          },
+          "vouvray-vignes": {
+            "prompt": "Quelle appellation de Touraine, à l'est de Tours, produit des blancs secs, moelleux ou pétillants, souvent vieillis dans des caves creusées dans le tuffeau ?",
+            "hint": "Elle se trouve sur la rive droite de la Loire.",
+            "anecdote": "Ses meilleurs moelleux peuvent se garder plusieurs dizaines d'années."
+          },
+          "montlouis": {
+            "prompt": "Quelle appellation de vin blanc fait face au vignoble de Vouvray, sur la rive gauche de la Loire ?",
+            "hint": "Elle s'étend entre la Loire et le Cher.",
+            "anecdote": "Comme sa voisine, elle produit des blancs secs, moelleux et des vins à bulles fines.",
+            "answers": {
+              "montlouis-sur-loire": "Montlouis-sur-Loire",
+              "reuilly": "Reuilly",
+              "menetou-salon": "Menetou-Salon"
+            }
+          },
+          "chinon-vignes": {
+            "prompt": "Quelle appellation de Touraine, sur les bords de la Vienne, est surtout connue pour ses vins rouges ?",
+            "hint": "Rabelais, né tout près, en vantait les vins.",
+            "anecdote": "Ses rouges sont souvent servis frais. Une confrérie célèbre leur rend hommage dans les caves creusées sous la forteresse."
+          },
+          "bourgueil-abbaye": {
+            "prompt": "Quelle appellation de vin rouge de Touraine porte le nom d'une ville qui possède une abbaye bénédictine fondée en 990 ?",
+            "hint": "Ses vignes se trouvent sur la rive droite de la Loire, face au vignoble de Chinon.",
+            "anecdote": "Les moines de l'abbaye ont longtemps cultivé la vigne sur les coteaux voisins."
+          },
+          "quincy-aoc": {
+            "prompt": "Quelle appellation de vin blanc du Cher, sur les bords du Cher près de Vierzon, a été reconnue dès 1936, parmi les toutes premières de France ?",
+            "hint": "Son vignoble est planté sur des sables et des graviers anciens.",
+            "anecdote": "Elle ne produit que des vins blancs, à partir du sauvignon.",
+            "answers": {
+              "menetou-salon": "Menetou-Salon",
+              "reuilly": "Reuilly"
+            }
+          },
+          "menetou": {
+            "prompt": "Quelle appellation de vin du Cher s'étend sur des coteaux au nord de Bourges ?",
+            "hint": "Ses vins blancs viennent du sauvignon, ses vins rouges du pinot noir.",
+            "anecdote": "Elle a été reconnue en 1959. Son vignoble prolonge les terres calcaires du Sancerrois.",
+            "answers": {
+              "menetou-salon": "Menetou-Salon",
+              "reuilly": "Reuilly",
+              "montlouis-sur-loire": "Montlouis-sur-Loire"
+            }
+          },
+          "vin-gris": {
+            "prompt": "Quelle spécialité fait la renommée de l'appellation Châteaumeillant, dans le sud du Berry ?",
+            "hint": "C'est un vin rosé très pâle, tiré du gamay.",
+            "anecdote": "On l'obtient en pressant vite les raisins rouges, pour que le jus prenne peu de couleur.",
+            "answers": {
+              "le-vin-gris": "Le vin gris",
+              "le-vin-jaune": "Le vin jaune",
+              "le-vin-de-paille": "Le vin de paille",
+              "le-clairet": "Le clairet"
+            }
+          },
+          "romorantin": {
+            "prompt": "Quel cépage blanc rare, que François Ier aurait fait planter en Sologne, donne le cour-cheverny ?",
+            "hint": "Il porte le nom d'une ville de Sologne.",
+            "anecdote": "On ne le cultive presque nulle part ailleurs. Le cour-cheverny est la seule appellation qui lui soit réservée.",
+            "answers": {
+              "le-romorantin": "Le romorantin",
+              "le-sauvignon": "Le sauvignon",
+              "le-gewurztraminer": "Le gewurztraminer",
+              "le-viognier": "Le viognier"
+            }
+          },
+          "crottin": {
+            "prompt": "Ce petit fromage de chèvre rond porte le nom d'un hameau de Sancerre. Lequel ?",
+            "hint": "On le déguste souvent chaud, sur une salade.",
+            "anecdote": "Il est protégé par une appellation d'origine depuis 1976.",
+            "answers": {
+              "chavignol": "Chavignol",
+              "pouligny-saint-pierre": "Pouligny-Saint-Pierre"
+            }
+          },
+          "sainte-maure": {
+            "prompt": "Quel fromage de chèvre de Touraine a la forme d'une bûche traversée d'une paille de seigle ?",
+            "hint": "La paille sert à tenir le fromage, qui est fragile.",
+            "anecdote": "La paille est gravée de l'appellation et du numéro du producteur.",
+            "answers": {
+              "le-sainte-maure-de-touraine": "Le sainte-maure-de-touraine",
+              "le-selles-sur-cher": "Le selles-sur-cher",
+              "le-valencay": "Le valençay",
+              "le-crottin-de-chavignol": "Le crottin de Chavignol"
+            }
+          },
+          "valencay-fromage": {
+            "prompt": "Quel fromage de chèvre du Berry a la forme d'une pyramide à la pointe tranchée ?",
+            "hint": "Selon la légende, Talleyrand en aurait coupé la pointe pour ne pas fâcher Napoléon, de retour d'Égypte.",
+            "anecdote": "Sa croûte est couverte d'une fine couche de cendre de bois, sous une moisissure blanche.",
+            "answers": {
+              "le-valencay": "Le valençay",
+              "le-pouligny-saint-pierre": "Le pouligny-saint-pierre",
+              "le-sainte-maure-de-touraine": "Le sainte-maure-de-touraine",
+              "le-selles-sur-cher": "Le selles-sur-cher"
+            }
+          },
+          "pouligny": {
+            "prompt": "Quel fromage de chèvre de la Brenne, en forme de pyramide haute, est surnommé la tour Eiffel ?",
+            "hint": "Il a été le premier fromage de chèvre protégé par une appellation d'origine, en 1972.",
+            "anecdote": "Il est produit dans le parc naturel régional de la Brenne, dans l'Indre.",
+            "answers": {
+              "le-pouligny-saint-pierre": "Le pouligny-saint-pierre",
+              "le-valencay": "Le valençay",
+              "le-crottin-de-chavignol": "Le crottin de Chavignol",
+              "le-sainte-maure-de-touraine": "Le sainte-maure-de-touraine"
+            }
+          },
+          "selles-fromage": {
+            "prompt": "Quel fromage de chèvre de Sologne, en forme de petit disque, est couvert de cendre de bois salée ?",
+            "hint": "On conseille de manger aussi la croûte.",
+            "anecdote": "Il porte le nom d'une ville du Loir-et-Cher, au bord du Cher.",
+            "answers": {
+              "le-selles-sur-cher": "Le selles-sur-cher",
+              "le-crottin-de-chavignol": "Le crottin de Chavignol",
+              "le-valencay": "Le valençay",
+              "le-pouligny-saint-pierre": "Le pouligny-saint-pierre"
+            }
+          },
+          "chevre-nb": {
+            "prompt": "Combien de fromages de chèvre de la région sont protégés par une appellation d'origine ?",
+            "hint": "Pouligny, Sainte-Maure, Selles, Valençay et Chavignol.",
+            "anecdote": "Ce record fait de la région l'une des premières terres de fromages de chèvre en France.",
+            "answers": {
+              "cinq": "Cinq",
+              "trois": "Trois",
+              "sept": "Sept",
+              "neuf": "Neuf"
+            }
+          },
+          "lentilles": {
+            "prompt": "Quel légume sec du Berry, cultivé autour d'Issoudun, a reçu un label rouge ?",
+            "hint": "Elle est verte et cuit rapidement.",
+            "anecdote": "Elle a aussi obtenu une indication géographique protégée, en 1998.",
+            "answers": {
+              "la-lentille-verte": "La lentille verte",
+              "le-haricot-blanc": "Le haricot blanc",
+              "le-pois-chiche": "Le pois chiche",
+              "la-feve": "La fève"
+            }
+          },
+          "geline": {
+            "prompt": "Quelle volaille au plumage noir, surnommée la dame noire, est une race de Touraine ?",
+            "hint": "Elle a failli disparaître au milieu du XXe siècle.",
+            "anecdote": "Sa chair fine lui a valu un label rouge. Elle était servie à la table des châteaux de la Loire.",
+            "answers": {
+              "la-geline-de-touraine": "La géline de Touraine",
+              "la-poule-de-houdan": "La poule de Houdan",
+              "la-poule-de-marans": "La poule de Marans",
+              "la-poule-de-bresse": "La poule de Bresse"
+            }
+          },
+          "safran": {
+            "prompt": "Quelle épice a fait la richesse du Gâtinais, autour de Pithiviers, jusqu'au début du XXe siècle ?",
+            "hint": "On la tire du pistil d'une fleur mauve.",
+            "anecdote": "Il faut cueillir environ 150 000 fleurs pour obtenir un kilo de cette épice, la plus chère du monde.",
+            "answers": {
+              "le-safran": "Le safran",
+              "la-cannelle": "La cannelle",
+              "la-vanille": "La vanille",
+              "le-cumin": "Le cumin"
+            }
+          },
+          "poires-tapees": {
+            "prompt": "Quel village de Touraine, au bord de l'Indre, perpétue la tradition des poires séchées au four puis aplaties ?",
+            "hint": "Il se trouve à côté du château d'Ussé.",
+            "anecdote": "Ces poires tapées se conservaient longtemps. On les emportait sur les bateaux, et on les faisait gonfler dans le vin.",
+            "answers": {
+              "rivarennes": "Rivarennes"
+            }
+          },
+          "asperges": {
+            "prompt": "Quel légume de printemps profite des sols sableux de la Sologne ?",
+            "hint": "On le récolte blanc, avant qu'il ne sorte de terre.",
+            "anecdote": "La terre légère de la Sologne se réchauffe vite au printemps, ce qui favorise une récolte précoce.",
+            "answers": {
+              "l-asperge": "L'asperge",
+              "l-artichaut": "L'artichaut",
+              "le-chou-fleur": "Le chou-fleur",
+              "le-poireau": "Le poireau"
+            }
+          },
+          "carpe": {
+            "prompt": "Quel poisson est le plus élevé dans les étangs de la Brenne ?",
+            "hint": "Les étangs sont vidés à l'automne pour les grandes pêches.",
+            "anecdote": "Les étangs de la Brenne ont été creusés en grande partie par les moines, au Moyen Âge, pour élever du poisson.",
+            "answers": {
+              "la-carpe": "La carpe",
+              "le-saumon": "Le saumon",
+              "la-sole": "La sole",
+              "le-maquereau": "Le maquereau"
+            }
+          },
+          "tatin": {
+            "prompt": "Quel dessert aux pommes caramélisées, cuit à l'envers, serait né à Lamotte-Beuvron ?",
+            "hint": "Deux sœurs le servaient dans leur hôtel, face à la gare.",
+            "anecdote": "Selon la légende, l'une des sœurs aurait oublié la pâte et l'aurait ajoutée par-dessus les pommes.",
+            "answers": {
+              "la-tarte-tatin": "La tarte Tatin",
+              "la-tarte-normande": "La tarte normande",
+              "le-clafoutis": "Le clafoutis",
+              "la-tarte-bourdaloue": "La tarte bourdaloue"
+            }
+          },
+          "rillons": {
+            "prompt": "Quelle spécialité de Touraine est faite de gros morceaux de poitrine de porc confits dans leur graisse ?",
+            "hint": "On les mange chauds ou froids, souvent avec un verre de vin blanc.",
+            "anecdote": "Ils sont souvent caramélisés en fin de cuisson. On les sert en entrée ou à l'apéritif.",
+            "answers": {
+              "les-rillons": "Les rillons",
+              "les-rillettes": "Les rillettes",
+              "les-grattons": "Les grattons",
+              "les-fritons": "Les fritons"
+            }
+          },
+          "pate-chartres": {
+            "prompt": "Quel pâté en croûte, garni de gibier et de foie gras, a été créé dans la capitale de la Beauce ?",
+            "hint": "Il est réputé depuis le XVIIIe siècle.",
+            "anecdote": "On le préparait autrefois avec du pluvier, un oiseau de passage dans les plaines de la Beauce.",
+            "answers": {
+              "le-pate-de-chartres": "Le pâté de Chartres",
+              "le-pate-de-paques": "Le pâté de Pâques",
+              "le-pate-de-pezenas": "Le pâté de Pézenas",
+              "le-pate-lorrain": "Le pâté lorrain"
+            }
+          },
+          "barbouille": {
+            "prompt": "Quel plat berrichon de volaille est lié avec le sang de l'animal et de la crème ?",
+            "hint": "On le sert dans le Berry pour les repas de fête.",
+            "anecdote": "Le sang, mêlé à la crème et au vin, donne à la sauce sa couleur sombre.",
+            "answers": {
+              "le-poulet-en-barbouille": "Le poulet en barbouille",
+              "le-poulet-marengo": "Le poulet Marengo",
+              "le-poulet-basquaise": "Le poulet basquaise",
+              "la-poule-au-pot": "La poule au pot"
+            }
+          },
+          "citrouillat": {
+            "prompt": "Quel pâté en croûte du Berry et du Bourbonnais est garni de potiron ?",
+            "hint": "Il porte le nom d'une courge.",
+            "anecdote": "On le prépare à l'automne. Le potiron est parfois relevé de crème et de poivre.",
+            "answers": {
+              "le-citrouillat": "Le citrouillat",
+              "le-pate-de-paques": "Le pâté de Pâques",
+              "la-galette-aux-pommes-de-terre": "La galette aux pommes de terre",
+              "le-sanciau": "Le sanciau"
+            }
+          },
+          "alose": {
+            "prompt": "Quel poisson, qui remonte la Loire au printemps pour frayer, se cuisine traditionnellement à l'oseille ?",
+            "hint": "Il vit en mer, mais pond en eau douce.",
+            "anecdote": "L'acidité de l'oseille aiderait à dissoudre ses nombreuses arêtes.",
+            "answers": {
+              "l-alose": "L'alose",
+              "le-sandre": "Le sandre",
+              "le-brochet": "Le brochet",
+              "la-truite": "La truite"
+            }
+          },
+          "pithiviers": {
+            "prompt": "Quel gâteau feuilleté, fourré de crème d'amande et orné de rosaces, porte le nom d'une ville du Loiret ?",
+            "hint": "C'est une ville du Gâtinais, au nord-est d'Orléans.",
+            "anecdote": "Une autre version, fondante et glacée de sucre, existe aussi. On la décore de fruits confits.",
+            "answers": {
+              "le-pithiviers": "Le pithiviers",
+              "la-galette-des-rois": "La galette des rois",
+              "le-paris-brest": "Le paris-brest",
+              "le-saint-honore": "Le saint-honoré"
+            }
+          },
+          "praline": {
+            "prompt": "Quelle confiserie à l'amande grillée enrobée de sucre aurait été inventée à Montargis, au XVIIe siècle, par le cuisinier du duc de Plessis-Praslin ?",
+            "hint": "Elle porte le nom du duc.",
+            "anecdote": "La maison qui la fabrique à Montargis, place Mirabeau, existe depuis 1903.",
+            "answers": {
+              "la-praline": "La praline",
+              "le-calisson": "Le calisson",
+              "la-dragee": "La dragée",
+              "le-nougat": "Le nougat"
+            }
+          },
+          "forestine": {
+            "prompt": "Quelle confiserie de Bourges, inventée en 1879, enferme un praliné dans une coque de sucre satinée ?",
+            "hint": "Elle a été le premier bonbon fourré.",
+            "anecdote": "Elle a été créée par le confiseur Georges Forest, qui lui a donné son nom.",
+            "answers": {
+              "la-forestine": "La forestine",
+              "le-quernon-d-ardoise": "Le quernon d'ardoise",
+              "la-betise-de-cambrai": "La bêtise de Cambrai",
+              "le-berlingot": "Le berlingot"
+            }
+          },
+          "cotignac": {
+            "prompt": "Quelle pâte de coing d'Orléans est servie dans de petites boîtes rondes en bois d'épicéa ?",
+            "hint": "Jeanne d'Arc en aurait reçu à son arrivée dans la ville, en 1429.",
+            "anecdote": "Elle est translucide et de couleur ambrée. On la déguste en la puisant directement dans la boîte.",
+            "answers": {
+              "le-cotignac": "Le cotignac",
+              "le-raisine": "Le raisiné",
+              "le-quernon-d-ardoise": "Le quernon d'ardoise",
+              "le-sucre-de-pomme": "Le sucre de pomme"
+            }
+          },
+          "nougat-tours": {
+            "prompt": "Quel gâteau tourangeau associe une pâte sablée, des fruits confits et un dessus de macaron ?",
+            "hint": "Malgré son nom, ce n'est pas une confiserie.",
+            "anecdote": "Il est garni d'une marmelade d'abricot et de fruits confits, une spécialité de la ville.",
+            "answers": {
+              "le-nougat-de-tours": "Le nougat de Tours",
+              "le-pithiviers": "Le pithiviers",
+              "le-macaron-de-cormery": "Le macaron de Cormery",
+              "le-gateau-basque": "Le gâteau basque"
+            }
+          },
+          "macarons-cormery": {
+            "prompt": "Quel village de Touraine, au bord de l'Indre, est réputé pour ses macarons en forme d'anneau, au trou central ?",
+            "hint": "La recette viendrait des moines de son abbaye.",
+            "anecdote": "Selon la tradition, la recette des moines remonterait au VIIIe siècle.",
+            "answers": {
+              "cormery": "Cormery"
+            }
+          },
+          "pruneaux": {
+            "prompt": "Quel fruit séché, souvent fourré, est une spécialité de Tours ?",
+            "hint": "Il vient de la prune de Sainte-Catherine.",
+            "anecdote": "Ses fruits secs étaient autrefois expédiés par la Loire. La prune de Sainte-Catherine est aujourd'hui rare.",
+            "answers": {
+              "le-pruneau": "Le pruneau",
+              "la-figue": "La figue",
+              "l-abricot": "L'abricot",
+              "la-datte": "La datte"
+            }
+          },
+          "vinaigre": {
+            "prompt": "Quelle ville de la Loire a été la capitale française du vinaigre, grâce aux vins débarqués sur ses quais ?",
+            "hint": "Les vins qui tournaient pendant le transport sur le fleuve y étaient transformés.",
+            "anecdote": "La corporation des vinaigriers y a été fondée en 1394. Une maison y fabrique encore du vinaigre selon la méthode traditionnelle."
+          },
+          "dep-crottin": {
+            "prompt": "Touchez le département du crottin de Chavignol.",
+            "hint": "C'est le département de Bourges.",
+            "anecdote": "Le hameau se trouve sur les coteaux du Sancerrois, au bord de la Loire."
+          },
+          "dep-pouligny": {
+            "prompt": "Touchez le département du pouligny-saint-pierre.",
+            "hint": "C'est le département de Châteauroux.",
+            "anecdote": "Le fromage est produit dans la Brenne, au pays des mille étangs."
+          },
+          "dep-tatin": {
+            "prompt": "Touchez le département où serait née la tarte Tatin.",
+            "hint": "C'est le département de Blois.",
+            "anecdote": "Lamotte-Beuvron se trouve en Sologne, sur la route de Paris à Vierzon."
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Châteaux royaux et demeures Renaissance, cathédrales de Chartres et de Bourges, abbayes romanes et cités médiévales : le patrimoine en images.",
+          "chambord": {
+            "prompt": "Quel château de Sologne, commencé en 1519 pour François Ier, compte 426 pièces et un célèbre escalier à double révolution ?",
+            "hint": "C'est le plus grand des châteaux de la Loire.",
+            "anecdote": "Son escalier permet à deux personnes de monter et de descendre sans jamais se croiser. Léonard de Vinci en a peut-être inspiré le dessin.",
+            "answers": {
+              "chenonceau": "Chenonceau"
+            }
+          },
+          "chenonceau": {
+            "prompt": "Quel château enjambe le Cher sur une galerie de deux étages ?",
+            "hint": "On le surnomme le château des Dames.",
+            "anecdote": "Diane de Poitiers y a fait bâtir le pont, puis Catherine de Médicis la galerie qui le surmonte. Pendant la Première Guerre mondiale, la galerie a servi d'hôpital.",
+            "answers": {
+              "chenonceau": "Chenonceau",
+              "usse": "Ussé"
+            }
+          },
+          "amboise-chateau": {
+            "prompt": "Quel château royal, perché au-dessus de la Loire, abrite dans sa chapelle Saint-Hubert la tombe de Léonard de Vinci ?",
+            "hint": "Le roi Charles VIII y est né et y est mort.",
+            "anecdote": "Charles VIII y est mort en 1498, après s'être cogné la tête contre le linteau d'une porte basse."
+          },
+          "blois-escalier": {
+            "prompt": "Dans quel château royal se dresse cet escalier à vis ajouré, orné de salamandres ?",
+            "hint": "Le duc de Guise y a été assassiné sur ordre d'Henri III, en 1588.",
+            "anecdote": "L'aile qui porte cet escalier a été bâtie au début du règne de François Ier, dont la salamandre était l'emblème.",
+            "answers": {
+              "chenonceau": "Chenonceau"
+            }
+          },
+          "azay": {
+            "prompt": "Quel château Renaissance semble posé sur l'eau de l'Indre ?",
+            "hint": "Balzac l'a comparé à un diamant taillé à facettes, serti par la rivière.",
+            "anecdote": "Il a été bâti à partir de 1518 pour Gilles Berthelot, un financier du roi François Ier.",
+            "answers": {
+              "chenonceau": "Chenonceau",
+              "usse": "Ussé"
+            }
+          },
+          "villandry": {
+            "prompt": "Quel château de Touraine est célèbre pour ses jardins Renaissance et son grand potager décoratif ?",
+            "hint": "Ses jardins s'étagent sur trois niveaux, au bord du Cher.",
+            "anecdote": "Les jardins ont été recréés au début du XXe siècle par Joachim Carvallo, un médecin d'origine espagnole.",
+            "answers": {
+              "chenonceau": "Chenonceau"
+            }
+          },
+          "cheverny": {
+            "prompt": "Quel château, resté presque sans interruption à la même famille depuis plus de six siècles, a inspiré Hergé pour le château de Moulinsart ?",
+            "hint": "Sa meute compte une centaine de chiens de chasse.",
+            "anecdote": "Pour dessiner Moulinsart, Hergé a retiré les deux pavillons extérieurs de la façade.",
+            "answers": {
+              "beauregard": "Beauregard",
+              "talcy": "Talcy"
+            }
+          },
+          "chaumont": {
+            "prompt": "Quel château dominant la Loire accueille chaque année un festival international des jardins ?",
+            "hint": "Catherine de Médicis l'a imposé à Diane de Poitiers, en échange de Chenonceau.",
+            "anecdote": "Le festival a été créé en 1992. Chaque année, des paysagistes y aménagent des jardins éphémères autour d'un thème."
+          },
+          "usse": {
+            "prompt": "Quel château hérissé de tours et de toits pointus aurait inspiré à Charles Perrault La Belle au bois dormant ?",
+            "hint": "Il se dresse au bord de l'Indre, à la lisière de la forêt de Chinon.",
+            "anecdote": "Selon la tradition, Perrault y aurait séjourné. Une des tours présente aujourd'hui des scènes du conte.",
+            "answers": {
+              "usse": "Ussé",
+              "montresor": "Montrésor"
+            }
+          },
+          "loches": {
+            "prompt": "Quelle cité royale de Touraine est dominée par ce donjon du XIe siècle, l'un des mieux conservés de France ?",
+            "hint": "Agnès Sorel, favorite de Charles VII, y repose.",
+            "anecdote": "Le donjon a été bâti par Foulques Nerra, le redoutable comte d'Anjou.",
+            "answers": {
+              "montrichard": "Montrichard"
+            }
+          },
+          "chinon-forteresse": {
+            "prompt": "Quelle forteresse royale, au-dessus de la Vienne, a accueilli la rencontre entre Jeanne d'Arc et le dauphin Charles ?",
+            "hint": "Rabelais est né tout près, dans une maison des champs.",
+            "anecdote": "Elle a aussi été la résidence favorite d'Henri II Plantagenêt, qui y est mort en 1189."
+          },
+          "langeais": {
+            "prompt": "Quel château au bord de la Loire a vu, en 1491, le mariage de Charles VIII et d'Anne de Bretagne ?",
+            "hint": "Dans son parc se dressent les ruines d'un donjon de l'an mil, l'un des plus anciens de France.",
+            "anecdote": "Ce mariage a préparé l'union de la Bretagne au royaume de France."
+          },
+          "valencay-chateau": {
+            "prompt": "Quel château du Berry a été acheté en 1803 par Talleyrand, à la demande de Napoléon ?",
+            "hint": "Les princes d'Espagne y ont été retenus de 1808 à 1814.",
+            "anecdote": "Napoléon souhaitait que son ministre des Relations extérieures puisse y recevoir les diplomates étrangers.",
+            "answers": {
+              "meillant": "Meillant",
+              "chenonceau": "Chenonceau"
+            }
+          },
+          "sully": {
+            "prompt": "Quel château entouré de larges douves a appartenu à Maximilien de Béthune, le ministre d'Henri IV ?",
+            "hint": "Le ministre a pris le nom de ce duché.",
+            "anecdote": "Voltaire y a séjourné dans sa jeunesse. La charpente du donjon, du XIVe siècle, est l'une des plus belles de France."
+          },
+          "gien-chateau": {
+            "prompt": "Quel château de brique, au-dessus de la Loire, a été bâti pour Anne de Beaujeu, fille de Louis XI ?",
+            "hint": "Il abrite un musée consacré à la chasse.",
+            "anecdote": "Ses briques rouges et noires dessinent des motifs géométriques sur les façades."
+          },
+          "chateaudun-chateau": {
+            "prompt": "Quel château dominant le Loir réunit un donjon du XIIe siècle, une Sainte-Chapelle et deux ailes, l'une gothique, l'autre Renaissance ?",
+            "hint": "Il a été agrandi par le Bâtard d'Orléans, compagnon de Jeanne d'Arc.",
+            "anecdote": "Jean de Dunois a fait bâtir la Sainte-Chapelle et l'aile gothique. Ses descendants, les Longueville, ont ajouté l'aile Renaissance."
+          },
+          "maintenon": {
+            "prompt": "Quel château d'Eure-et-Loir, acheté en 1674 par la future épouse de Louis XIV, est longé par les arches d'un aqueduc inachevé ?",
+            "hint": "L'aqueduc devait apporter l'eau de l'Eure jusqu'aux jardins de Versailles.",
+            "anecdote": "Françoise d'Aubigné l'a acheté grâce aux largesses du roi, qui l'a ensuite faite marquise.",
+            "answers": {
+              "anet": "Anet"
+            }
+          },
+          "chartres-cathedrale": {
+            "prompt": "Quelle cathédrale gothique conserve un ensemble de vitraux du XIIIe siècle, célèbre pour sa couleur bleue ?",
+            "hint": "Le labyrinthe dessiné sur le sol de sa nef offre un parcours de plus de 260 mètres.",
+            "anecdote": "Elle a été reconstruite en grande partie en une trentaine d'années, après l'incendie de 1194.",
+            "answers": {
+              "notre-dame-de-chartres": "Notre-Dame de Chartres",
+              "saint-etienne-de-bourges": "Saint-Étienne de Bourges",
+              "sainte-croix-d-orleans": "Sainte-Croix d'Orléans",
+              "saint-gatien-de-tours": "Saint-Gatien de Tours"
+            }
+          },
+          "belle-verriere": {
+            "prompt": "Quel vitrail célèbre de la cathédrale de Chartres représente la Vierge à l'Enfant, sur un fond bleu ?",
+            "hint": "Son centre a survécu à l'incendie de 1194.",
+            "anecdote": "Les panneaux centraux datent du XIIe siècle. On les a remontés au XIIIe siècle, entourés d'anges plus récents.",
+            "answers": {
+              "notre-dame-de-la-belle-verriere": "Notre-Dame de la Belle Verrière",
+              "l-arbre-de-jesse": "L'Arbre de Jessé",
+              "le-vitrail-de-charlemagne": "Le vitrail de Charlemagne",
+              "la-rose-de-france": "La rose de France"
+            }
+          },
+          "bourges-cathedrale": {
+            "prompt": "Quelle cathédrale gothique, sans transept, est célèbre pour ses cinq portails et ses doubles bas-côtés ?",
+            "hint": "Elle est inscrite au patrimoine mondial de l'UNESCO depuis 1992.",
+            "anecdote": "Faute de transept, le regard file d'un seul trait de l'entrée jusqu'au chœur.",
+            "answers": {
+              "saint-etienne-de-bourges": "Saint-Étienne de Bourges",
+              "notre-dame-de-chartres": "Notre-Dame de Chartres",
+              "sainte-croix-d-orleans": "Sainte-Croix d'Orléans",
+              "saint-gatien-de-tours": "Saint-Gatien de Tours"
+            }
+          },
+          "orleans-cathedrale": {
+            "prompt": "Quelle cathédrale d'Orléans a été reconstruite après les guerres de Religion ?",
+            "hint": "Henri IV a posé la première pierre de sa reconstruction, en 1601.",
+            "anecdote": "Les protestants l'avaient en grande partie détruite en 1568. Sa reconstruction, dans le style gothique, n'a été achevée qu'au XIXe siècle.",
+            "answers": {
+              "sainte-croix": "Sainte-Croix",
+              "saint-gatien": "Saint-Gatien",
+              "saint-etienne": "Saint-Étienne",
+              "saint-louis": "Saint-Louis"
+            }
+          },
+          "saint-gatien": {
+            "prompt": "Quelle cathédrale de Tours a mis plus de trois siècles à être achevée ?",
+            "hint": "Sa façade flamboyante est encadrée de deux tours coiffées de lanternons Renaissance.",
+            "anecdote": "Les travaux ont duré du XIIe au XVIe siècle, ce qui explique le mélange des styles, du gothique à la Renaissance.",
+            "answers": {
+              "saint-gatien": "Saint-Gatien",
+              "sainte-croix": "Sainte-Croix",
+              "saint-etienne": "Saint-Étienne",
+              "saint-maurice": "Saint-Maurice"
+            }
+          },
+          "saint-martin": {
+            "prompt": "Quelle basilique de Tours a été bâtie au tournant du XXe siècle, au-dessus du tombeau d'un évêque très vénéré ?",
+            "hint": "Cet évêque aurait partagé son manteau avec un pauvre, à Amiens.",
+            "anecdote": "Elle a été dessinée par Victor Laloux, l'architecte de la gare d'Orsay. Elle remplace une immense basilique détruite après la Révolution.",
+            "answers": {
+              "la-basilique-saint-martin": "La basilique Saint-Martin",
+              "la-basilique-saint-denis": "La basilique Saint-Denis",
+              "la-basilique-sainte-therese": "La basilique Sainte-Thérèse",
+              "la-basilique-saint-sernin": "La basilique Saint-Sernin"
+            }
+          },
+          "saint-benoit": {
+            "prompt": "Quelle abbaye romane du Loiret, autrefois appelée Fleury, est célèbre pour sa tour-porche aux chapiteaux sculptés ?",
+            "hint": "Elle conserve les reliques du père des moines d'Occident.",
+            "anecdote": "Le poète Max Jacob y a vécu de longues années, avant d'être arrêté en 1944.",
+            "answers": {
+              "noirlac": "Noirlac",
+              "fontgombault": "Fontgombault",
+              "fontevraud": "Fontevraud"
+            }
+          },
+          "germigny": {
+            "prompt": "Quel petit oratoire carolingien du Loiret conserve une mosaïque du IXe siècle, la seule de ce type en France ?",
+            "hint": "Il a été bâti pour Théodulf, évêque d'Orléans et proche de Charlemagne.",
+            "anecdote": "La mosaïque de l'abside représente l'arche d'alliance. Elle a été redécouverte au XIXe siècle, sous un badigeon."
+          },
+          "noirlac": {
+            "prompt": "Quelle abbaye cistercienne du Cher est l'une des mieux conservées de France ?",
+            "hint": "Elle a été fondée au XIIe siècle par des moines venus de Clairvaux.",
+            "anecdote": "Son architecture très dépouillée suit les règles de saint Bernard. Elle accueille aujourd'hui des concerts et des artistes en résidence.",
+            "answers": {
+              "noirlac": "Noirlac",
+              "fontgombault": "Fontgombault",
+              "fontevraud": "Fontevraud",
+              "pontigny": "Pontigny"
+            }
+          },
+          "trinite-vendome": {
+            "prompt": "Quelle abbaye de Vendôme est célèbre pour son clocher roman isolé et sa façade flamboyante ?",
+            "hint": "Elle aurait conservé une Sainte Larme du Christ.",
+            "anecdote": "Son clocher du XIIe siècle, séparé de l'église, s'élève à environ 80 mètres.",
+            "answers": {
+              "l-abbaye-de-la-trinite": "L'abbaye de la Trinité",
+              "l-abbaye-de-noirlac": "L'abbaye de Noirlac",
+              "l-abbaye-de-fleury": "L'abbaye de Fleury",
+              "l-abbaye-de-marmoutier": "L'abbaye de Marmoutier"
+            }
+          },
+          "jacques-coeur": {
+            "prompt": "Quel palais gothique de Bourges a été bâti pour le grand argentier du roi Charles VII ?",
+            "hint": "Sa devise affirme qu'à cœur vaillant, rien n'est impossible.",
+            "anecdote": "Construit à partir de 1443, il n'a presque pas été habité par son propriétaire, arrêté en 1451.",
+            "answers": {
+              "le-palais-jacques-coeur": "Le palais Jacques-Cœur",
+              "l-hotel-lallemant": "L'hôtel Lallemant",
+              "l-hotel-cujas": "L'hôtel Cujas",
+              "l-hotel-groslot": "L'hôtel Groslot"
+            }
+          },
+          "groslot": {
+            "prompt": "Quel hôtel Renaissance de brique, à Orléans, a longtemps servi d'hôtel de ville ?",
+            "hint": "Le jeune roi François II y est mort en 1560.",
+            "anecdote": "Il a été construit vers 1550 pour Jacques Groslot, bailli d'Orléans. Les mariages y sont encore célébrés.",
+            "answers": {
+              "l-hotel-groslot": "L'hôtel Groslot",
+              "l-hotel-cabu": "L'hôtel Cabu",
+              "l-hotel-gouin": "L'hôtel Goüin",
+              "l-hotel-lallemant": "L'hôtel Lallemant"
+            }
+          },
+          "chanteloup": {
+            "prompt": "Quelle pagode chinoise du XVIIIe siècle se dresse dans la forêt, près d'Amboise ?",
+            "hint": "Le duc de Choiseul l'a fait bâtir pendant son exil, loin de la cour.",
+            "anecdote": "Haute de 44 mètres, elle est le dernier vestige d'un grand château détruit au XIXe siècle.",
+            "answers": {
+              "la-pagode-de-chanteloup": "La pagode de Chanteloup",
+              "la-pagode-de-vincennes": "La pagode de Vincennes",
+              "la-pagode-de-cassan": "La pagode de Cassan",
+              "la-pagode-de-paris": "La Pagode de Paris"
+            }
+          },
+          "meillant": {
+            "prompt": "Quel château du Cher, au riche décor gothique flamboyant, a été embelli par la famille d'Amboise ?",
+            "hint": "Sa tour du Lion est couverte de sculptures.",
+            "anecdote": "Charles II d'Amboise l'a transformé au début du XVIe siècle, à son retour des guerres d'Italie.",
+            "answers": {
+              "meillant": "Meillant",
+              "ainay-le-vieil": "Ainay-le-Vieil",
+              "culan": "Culan"
+            }
+          },
+          "ainay": {
+            "prompt": "Quel château du Cher, surnommé le petit Carcassonne, garde une enceinte octogonale ?",
+            "hint": "Il appartient à la même famille depuis 1467.",
+            "anecdote": "Derrière ses remparts médiévaux se cache un logis Renaissance.",
+            "answers": {
+              "ainay-le-vieil": "Ainay-le-Vieil",
+              "meillant": "Meillant",
+              "culan": "Culan"
+            }
+          },
+          "talcy": {
+            "prompt": "Dans quel château vivait Cassandre Salviati, à qui Ronsard a dédié ses Amours ?",
+            "hint": "Il se dresse dans la Beauce, au nord de Blois.",
+            "anecdote": "Ronsard l'a rencontrée à Blois, en 1545. Elle est la Mignonne du célèbre poème sur la rose.",
+            "answers": {
+              "talcy": "Talcy",
+              "beauregard": "Beauregard"
+            }
+          },
+          "beauregard": {
+            "prompt": "Quel château près de Blois abrite une galerie de 327 portraits ?",
+            "hint": "Son sol est couvert de carreaux de faïence de Delft.",
+            "anecdote": "Les portraits représentent des rois, des reines et des personnages célèbres, du XIVe au XVIIe siècle.",
+            "answers": {
+              "beauregard": "Beauregard",
+              "talcy": "Talcy"
+            }
+          },
+          "montresor": {
+            "prompt": "Quel village de Touraine, au bord de l'Indrois, est dominé par un château acheté par un comte polonais au XIXe siècle ?",
+            "hint": "Il fait partie des plus beaux villages de France.",
+            "anecdote": "Le comte Xavier Branicki l'a acquis en 1849. Ses descendants l'habitent toujours.",
+            "answers": {
+              "montresor": "Montrésor"
+            }
+          },
+          "beaugency": {
+            "prompt": "Quelle ville du Loiret est dominée par ce donjon roman, appelé tour de César ?",
+            "hint": "Un concile y a annulé, en 1152, le mariage d'Aliénor d'Aquitaine et du roi Louis VII.",
+            "anecdote": "Son vieux pont, long de plus de 400 mètres, est l'un des plus anciens de la Loire."
+          },
+          "bussiere": {
+            "prompt": "Quel château du Loiret est surnommé le château des pêcheurs ?",
+            "hint": "Il abrite une collection consacrée à la pêche en eau douce.",
+            "anecdote": "Il se reflète dans un grand étang, entouré d'un potager et d'un verger.",
+            "answers": {
+              "la-bussiere": "La Bussière",
+              "chamerolles": "Chamerolles"
+            }
+          },
+          "dep-chambord": {
+            "prompt": "Touchez le département du château de Chambord.",
+            "hint": "C'est le département de Blois, au centre de la région.",
+            "anecdote": "Le domaine, entouré d'un mur de 32 kilomètres, est le plus grand parc forestier clos d'Europe."
+          },
+          "dep-chenonceau": {
+            "prompt": "Touchez le département du château de Chenonceau.",
+            "hint": "C'est le département de Tours, à l'ouest de la région.",
+            "anecdote": "C'est le château privé le plus visité de France."
+          },
+          "dep-jacques-coeur": {
+            "prompt": "Touchez le département du palais Jacques-Cœur.",
+            "hint": "C'est le département de Bourges, au sud-est de la région.",
+            "anecdote": "Jacques Cœur, fils d'un marchand de fourrures de Bourges, était devenu l'un des hommes les plus riches du royaume."
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Faïence et porcelaine, vannerie et troglodytes, légendes du Berry, et les grandes figures de la région, de Léonard de Vinci à George Sand.",
+          "clos-luce": {
+            "prompt": "Quel génie de la Renaissance a passé ses trois dernières années dans ce manoir d'Amboise, invité par François Ier ?",
+            "hint": "Il était peintre, ingénieur et inventeur.",
+            "anecdote": "Il y est arrivé en 1516 et y est mort en 1519. Le parc présente des maquettes de ses machines.",
+            "answers": {
+              "leonard-de-vinci": "Léonard de Vinci",
+              "michel-ange": "Michel-Ange",
+              "raphael": "Raphaël",
+              "benvenuto-cellini": "Benvenuto Cellini"
+            }
+          },
+          "joconde": {
+            "prompt": "Quel tableau le maître italien venu finir sa vie au Clos Lucé avait-il emporté avec lui en France ?",
+            "hint": "C'est aujourd'hui le tableau le plus célèbre du Louvre.",
+            "anecdote": "François Ier l'a acheté, sans doute auprès de l'entourage du peintre. Le tableau est aujourd'hui exposé au Louvre.",
+            "answers": {
+              "la-joconde": "La Joconde",
+              "la-cene": "La Cène",
+              "la-naissance-de-venus": "La Naissance de Vénus",
+              "l-ecole-d-athenes": "L'École d'Athènes"
+            }
+          },
+          "possonniere": {
+            "prompt": "Quel poète est né en 1524 dans ce manoir du Vendômois, au bord du Loir ?",
+            "hint": "On l'a surnommé le prince des poètes.",
+            "anecdote": "Le manoir de la Possonnière, à Couture-sur-Loir, porte sur ses fenêtres des devises gravées dans la pierre.",
+            "answers": {
+              "pierre-de-ronsard": "Pierre de Ronsard",
+              "joachim-du-bellay": "Joachim du Bellay",
+              "clement-marot": "Clément Marot",
+              "francois-villon": "François Villon"
+            }
+          },
+          "ronsard-cosme": {
+            "prompt": "Dans quel prieuré proche de Tours le prince des poètes, qui en était le prieur, est-il mort en 1585 ?",
+            "hint": "Ses jardins de roses se visitent toujours, au bord de la Loire.",
+            "anecdote": "Sa tombe se trouve dans les ruines de l'église du prieuré, à La Riche.",
+            "answers": {
+              "saint-cosme": "Saint-Cosme",
+              "marmoutier": "Marmoutier",
+              "fontevraud": "Fontevraud"
+            }
+          },
+          "deviniere": {
+            "prompt": "Quel écrivain serait né vers 1494 dans cette maison des champs, près de Chinon ?",
+            "hint": "Il a raconté les aventures de deux géants, un père et son fils.",
+            "anecdote": "Le domaine de la Devinière et ses environs servent de décor à la guerre picrocholine, dans Gargantua.",
+            "answers": {
+              "francois-rabelais": "François Rabelais",
+              "michel-de-montaigne": "Michel de Montaigne",
+              "pierre-de-ronsard": "Pierre de Ronsard",
+              "clement-marot": "Clément Marot"
+            }
+          },
+          "theleme": {
+            "prompt": "Dans le roman Gargantua, quelle abbaye idéale a pour seule règle « Fais ce que voudras » ?",
+            "hint": "Son nom vient d'un mot grec qui signifie la volonté.",
+            "anecdote": "Dans cette abbaye imaginaire, hommes et femmes vivent ensemble librement, à l'inverse des couvents de l'époque.",
+            "answers": {
+              "theleme": "Thélème",
+              "cluny": "Cluny",
+              "citeaux": "Cîteaux",
+              "fontevraud": "Fontevraud"
+            }
+          },
+          "nohant": {
+            "prompt": "Quelle romancière a vécu dans cette maison du Berry, où elle recevait Chopin, Delacroix ou Flaubert ?",
+            "hint": "Elle signait d'un prénom d'homme.",
+            "anecdote": "Elle y a écrit la plupart de ses romans champêtres. Elle repose dans le petit cimetière voisin.",
+            "answers": {
+              "george-sand": "George Sand",
+              "colette": "Colette",
+              "madame-de-stael": "Madame de Staël",
+              "marguerite-duras": "Marguerite Duras"
+            }
+          },
+          "mare-diable": {
+            "prompt": "Quel roman champêtre, écrit à Nohant en 1846, raconte l'histoire d'un jeune veuf, laboureur dans le Berry ?",
+            "hint": "Son titre évoque une étendue d'eau maudite.",
+            "anecdote": "Ce court roman décrit les travaux des champs et les coutumes de mariage du Berry.",
+            "answers": {
+              "la-mare-au-diable": "La Mare au diable",
+              "le-lys-dans-la-vallee": "Le Lys dans la vallée",
+              "madame-bovary": "Madame Bovary",
+              "germinal": "Germinal"
+            }
+          },
+          "sache": {
+            "prompt": "Quel romancier, né à Tours, venait écrire dans ce château de la vallée de l'Indre, où il a rédigé une partie du Père Goriot ?",
+            "hint": "Il buvait des litres de café pour travailler la nuit.",
+            "anecdote": "Son ami Jean de Margonne l'y accueillait. Le château abrite aujourd'hui un musée qui lui est consacré.",
+            "answers": {
+              "honore-de-balzac": "Honoré de Balzac",
+              "stendhal": "Stendhal",
+              "gustave-flaubert": "Gustave Flaubert",
+              "emile-zola": "Émile Zola"
+            }
+          },
+          "descartes-maison": {
+            "prompt": "Quel philosophe est né en 1596 dans cette maison de Touraine, dans une ville qui porte aujourd'hui son nom ?",
+            "hint": "On lui doit la formule « Je pense, donc je suis ».",
+            "anecdote": "La ville s'appelait La Haye. Elle a pris le nom du philosophe en deux temps, en 1802 puis en 1967.",
+            "answers": {
+              "rene-descartes": "René Descartes",
+              "blaise-pascal": "Blaise Pascal",
+              "michel-de-montaigne": "Michel de Montaigne",
+              "voltaire": "Voltaire"
+            }
+          },
+          "tante-leonie": {
+            "prompt": "Quel écrivain a passé ses vacances d'enfance dans cette maison d'Eure-et-Loir, devenue la maison de tante Léonie dans son roman ?",
+            "hint": "On y trempe toujours la madeleine dans le thé.",
+            "anecdote": "La commune d'Illiers a ajouté à son nom celui de Combray, le village du roman, en 1971.",
+            "answers": {
+              "marcel-proust": "Marcel Proust",
+              "gustave-flaubert": "Gustave Flaubert",
+              "andre-gide": "André Gide",
+              "victor-hugo": "Victor Hugo"
+            }
+          },
+          "meaulnes": {
+            "prompt": "Quel roman a pour décor l'école de ce village du Cher, où son auteur a grandi ?",
+            "hint": "Son auteur est mort au tout début de la Première Guerre mondiale.",
+            "anecdote": "Alain-Fournier y a vécu enfant, ses parents y étaient instituteurs. Le roman est paru en 1913.",
+            "answers": {
+              "le-grand-meaulnes": "Le Grand Meaulnes",
+              "le-petit-prince": "Le Petit Prince",
+              "la-guerre-des-boutons": "La Guerre des boutons",
+              "le-petit-chose": "Le Petit Chose"
+            }
+          },
+          "jeanne-martroi": {
+            "prompt": "Quelle héroïne, qui a délivré Orléans assiégée par les Anglais, est représentée par cette statue équestre ?",
+            "hint": "Elle venait de Domrémy, en Lorraine.",
+            "anecdote": "Cette statue en bronze, œuvre de Denis Foyatier, a été inaugurée en 1855, place du Martroi.",
+            "answers": {
+              "jeanne-d-arc": "Jeanne d'Arc",
+              "jeanne-hachette": "Jeanne Hachette",
+              "anne-de-bretagne": "Anne de Bretagne",
+              "catherine-de-medicis": "Catherine de Médicis"
+            }
+          },
+          "johanniques": {
+            "prompt": "Quel jour Orléans célèbre-t-elle chaque année la levée du siège de 1429 ?",
+            "hint": "Ce jour-là, les Anglais ont quitté leurs positions autour de la ville.",
+            "anecdote": "Les fêtes johanniques sont célébrées à Orléans presque sans interruption depuis le XVe siècle.",
+            "answers": {
+              "le-8-mai": "Le 8 mai",
+              "le-14-juillet": "Le 14 juillet",
+              "le-11-novembre": "Le 11 novembre",
+              "le-15-aout": "Le 15 août"
+            }
+          },
+          "charles-orleans": {
+            "prompt": "Quel prince poète, fait prisonnier à Azincourt, a passé vingt-cinq ans en Angleterre avant de revenir vivre à Blois ?",
+            "hint": "Il était le neveu du roi Charles VI et le père du futur Louis XII.",
+            "anecdote": "À Blois, il organisait des concours de poésie. François Villon y a participé.",
+            "answers": {
+              "charles-d-orleans": "Charles d'Orléans",
+              "francois-villon": "François Villon",
+              "christine-de-pizan": "Christine de Pizan",
+              "guillaume-de-machaut": "Guillaume de Machaut"
+            }
+          },
+          "louis-xi": {
+            "prompt": "Quel roi est mort en 1483 au château du Plessis, près de Tours ?",
+            "hint": "On l'a surnommé l'universelle aragne, l'araignée, pour son art des intrigues.",
+            "anecdote": "Il a fait de la Touraine le cœur du royaume. Il ne reste qu'une partie de son château, à La Riche.",
+            "answers": {
+              "louis-xi": "Louis XI",
+              "charles-viii": "Charles VIII",
+              "louis-xii": "Louis XII",
+              "francois-ier": "François Ier"
+            }
+          },
+          "rochambeau": {
+            "prompt": "Quel maréchal, né à Vendôme en 1725, a commandé les troupes françaises pendant la guerre d'indépendance des États-Unis ?",
+            "hint": "Il a participé à la victoire de Yorktown, en 1781.",
+            "anecdote": "Sa statue se dresse à Vendôme, et une autre à Washington, près de la Maison-Blanche.",
+            "answers": {
+              "rochambeau": "Rochambeau",
+              "la-fayette": "La Fayette",
+              "kleber": "Kléber",
+              "murat": "Murat"
+            }
+          },
+          "papin": {
+            "prompt": "Quel savant, né près de Blois en 1647, a imaginé l'ancêtre de l'autocuiseur ?",
+            "hint": "Ses travaux sur la vapeur ont préparé les premières machines à vapeur.",
+            "anecdote": "Il a appelé son invention le digesteur. Une soupape empêchait la marmite d'exploser.",
+            "answers": {
+              "denis-papin": "Denis Papin",
+              "blaise-pascal": "Blaise Pascal",
+              "nicolas-cugnot": "Nicolas Cugnot",
+              "james-watt": "James Watt"
+            }
+          },
+          "robert-houdin": {
+            "prompt": "Quel illusionniste, né à Blois en 1805, est considéré comme le père de la magie moderne ?",
+            "hint": "Un célèbre magicien américain a pris son nom en hommage.",
+            "anecdote": "Horloger de formation, il construisait ses propres automates. Une maison de la magie lui rend hommage à Blois.",
+            "answers": {
+              "robert-houdin": "Robert-Houdin",
+              "harry-houdini": "Harry Houdini",
+              "georges-melies": "Georges Méliès",
+              "bartolomeo-bosco": "Bartolomeo Bosco"
+            }
+          },
+          "genevoix": {
+            "prompt": "Quel écrivain, installé au bord de la Loire, a reçu le prix Goncourt 1925 pour Raboliot, l'histoire d'un braconnier de Sologne ?",
+            "hint": "Il a aussi raconté sa guerre de 1914 dans Ceux de 14.",
+            "anecdote": "Il vivait dans une maison des Vernelles, à Saint-Denis-de-l'Hôtel. Il est entré au Panthéon en 2020.",
+            "answers": {
+              "maurice-genevoix": "Maurice Genevoix",
+              "jean-giono": "Jean Giono",
+              "colette": "Colette",
+              "romain-rolland": "Romain Rolland"
+            }
+          },
+          "peguy": {
+            "prompt": "Quel poète, né à Orléans en 1873, est mort au combat la veille de la bataille de la Marne ?",
+            "hint": "Il a fait à pied le pèlerinage de Paris à Chartres.",
+            "anecdote": "Il a été tué le 5 septembre 1914, à Villeroy. Ses poèmes sur la Beauce sont restés célèbres.",
+            "answers": {
+              "charles-peguy": "Charles Péguy",
+              "guillaume-apollinaire": "Guillaume Apollinaire",
+              "arthur-rimbaud": "Arthur Rimbaud",
+              "paul-verlaine": "Paul Verlaine"
+            }
+          },
+          "faience-gien": {
+            "prompt": "Quelle ville au bord de la Loire abrite cette faïencerie fondée en 1821 ?",
+            "hint": "Elle a été créée par un Anglais, Thomas Hall.",
+            "anecdote": "Son décor bleu le plus célèbre s'inspire de la Renaissance italienne. La faïencerie a son musée.",
+            "answers": {
+              "nevers": "Nevers"
+            }
+          },
+          "porcelaine-foecy": {
+            "prompt": "Quel savoir-faire a fait la renommée de Foëcy, de Mehun-sur-Yèvre et de Vierzon, au XIXe siècle ?",
+            "hint": "Le bois des forêts et le kaolin du Limousin nourrissaient les fours.",
+            "anecdote": "Le Berry a compté des dizaines de manufactures. Un musée lui est consacré à Mehun-sur-Yèvre.",
+            "answers": {
+              "la-porcelaine": "La porcelaine",
+              "la-faience": "La faïence",
+              "le-verre-souffle": "Le verre soufflé",
+              "l-email": "L'émail"
+            }
+          },
+          "briare-boutons": {
+            "prompt": "Quelle ville du Loiret a été la capitale mondiale du bouton en porcelaine, grâce à l'industriel Jean-Félix Bapterosses ?",
+            "hint": "Elle est aussi célèbre pour son pont-canal.",
+            "anecdote": "Ses manufactures ont aussi produit des perles et des mosaïques en émaux. Un musée leur est consacré.",
+            "answers": {
+              "limoges": "Limoges"
+            }
+          },
+          "vannerie": {
+            "prompt": "Quel savoir-faire est pratiqué en coopérative depuis 1849 à Villaines-les-Rochers, en Touraine ?",
+            "hint": "Les artisans travaillent l'osier, souvent dans des ateliers creusés dans la roche.",
+            "anecdote": "La coopérative a été fondée avec le soutien du curé du village. Elle est l'une des plus anciennes de France.",
+            "answers": {
+              "la-vannerie": "La vannerie",
+              "la-tonnellerie": "La tonnellerie",
+              "la-poterie": "La poterie",
+              "la-ferronnerie": "La ferronnerie"
+            }
+          },
+          "vitrail": {
+            "prompt": "Quel art est mis à l'honneur à Chartres par un centre international, installé dans un cellier médiéval ?",
+            "hint": "La cathédrale de la ville en offre un ensemble exceptionnel.",
+            "anecdote": "Le centre organise des expositions et des stages. Des ateliers de la ville restaurent les verrières anciennes.",
+            "answers": {
+              "le-vitrail": "Le vitrail",
+              "la-mosaique": "La mosaïque",
+              "la-tapisserie": "La tapisserie",
+              "l-enluminure": "L'enluminure"
+            }
+          },
+          "soie-tours": {
+            "prompt": "Quel tissu précieux a fait la richesse de Tours à partir du XVe siècle, grâce à des artisans venus d'Italie ?",
+            "hint": "On le tire du cocon d'une chenille.",
+            "anecdote": "La ville a compté des milliers de métiers à tisser. Quelques ateliers perpétuent ce savoir-faire.",
+            "answers": {
+              "la-soie": "La soie",
+              "la-dentelle": "La dentelle",
+              "le-lin": "Le lin",
+              "le-coton": "Le coton"
+            }
+          },
+          "gabare": {
+            "prompt": "Quel bateau traditionnel à fond plat, à voile carrée, transportait les marchandises sur la Loire ?",
+            "hint": "On le remontait au vent, et on le descendait au fil du courant.",
+            "anecdote": "Des associations construisent de nouveau ces bateaux de bois, pour faire découvrir le fleuve.",
+            "answers": {
+              "la-gabare": "La gabare",
+              "la-peniche": "La péniche",
+              "la-pinasse": "La pinasse",
+              "la-gondole": "La gondole"
+            }
+          },
+          "troo": {
+            "prompt": "Quel village du Vendômois, au bord du Loir, est creusé d'habitations troglodytiques étagées sur le coteau ?",
+            "hint": "Son nom ne compte que quatre lettres.",
+            "anecdote": "On y visite des caves, une grotte pétrifiante et un puits qui renvoie l'écho.",
+            "answers": {
+              "troo": "Trôo",
+              "montoire-sur-le-loir": "Montoire-sur-le-Loir",
+              "rochecorbon": "Rochecorbon"
+            }
+          },
+          "picassiette": {
+            "prompt": "Quel habitant de Chartres a couvert sa maison et son jardin de mosaïques faites de débris de vaisselle, entre 1938 et 1962 ?",
+            "hint": "Il était cantonnier, et ses voisins lui ont donné un surnom moqueur.",
+            "anecdote": "Sa maison est aujourd'hui un musée. Elle est un exemple célèbre d'art brut, ou d'art naïf.",
+            "answers": {
+              "raymond-isidore": "Raymond Isidore",
+              "ferdinand-cheval": "Ferdinand Cheval",
+              "robert-tatin": "Robert Tatin",
+              "chomo": "Chomo"
+            }
+          },
+          "jardins-chaumont": {
+            "prompt": "Quel événement, créé en 1992 au bord de la Loire, invite chaque année des paysagistes à créer des jardins éphémères ?",
+            "hint": "Il se tient dans le parc d'un château, entre Blois et Amboise.",
+            "anecdote": "Une trentaine de jardins y sont créés chaque saison, autour d'un thème différent.",
+            "answers": {
+              "le-festival-international-des-jardins": "Le Festival international des jardins",
+              "les-rendez-vous-aux-jardins": "Les Rendez-vous aux jardins",
+              "les-journees-des-plantes-de-chantilly": "Les Journées des plantes de Chantilly",
+              "la-fete-des-plantes-de-saint-jean-de-beauregard": "La Fête des plantes de Saint-Jean-de-Beauregard"
+            }
+          },
+          "vielle": {
+            "prompt": "Quel instrument à cordes, frottées par une roue tournée à la manivelle, accompagne la bourrée berrichonne ?",
+            "hint": "On joue la mélodie sur un petit clavier de touches en bois.",
+            "anecdote": "Dans les bals traditionnels du Berry, elle joue souvent en duo avec la cornemuse.",
+            "answers": {
+              "la-vielle-a-roue": "La vielle à roue",
+              "la-viole-de-gambe": "La viole de gambe",
+              "la-mandoline": "La mandoline",
+              "le-luth": "Le luth"
+            }
+          },
+          "sorciers-berry": {
+            "prompt": "Quelle province de la région est réputée pour ses légendes de sorciers, de meneurs de loups et de lavandières de nuit ?",
+            "hint": "Un musée de la sorcellerie s'y trouve, à Concressault.",
+            "anecdote": "George Sand a recueilli plusieurs de ces légendes dans ses Légendes rustiques.",
+            "answers": {
+              "le-berry": "Le Berry",
+              "la-beauce": "La Beauce",
+              "le-perche": "Le Perche",
+              "le-gatinais": "Le Gâtinais"
+            }
+          },
+          "trompe-chasse": {
+            "prompt": "Quel instrument de cuivre enroulé sonne pendant les chasses à courre, en Sologne ?",
+            "hint": "Ses fanfares annoncent les étapes de la chasse.",
+            "anecdote": "Il est enroulé sur lui-même pour être porté en bandoulière par le cavalier.",
+            "answers": {
+              "la-trompe-de-chasse": "La trompe de chasse",
+              "le-cor-anglais": "Le cor anglais",
+              "le-bugle": "Le bugle",
+              "le-saxhorn": "Le saxhorn"
+            }
+          },
+          "grand-noir": {
+            "prompt": "Quelle race d'âne, grande et à la robe sombre, est originaire du Berry ?",
+            "hint": "Il travaillait autrefois dans les vignes et tirait les charrettes.",
+            "anecdote": "La race, devenue rare, a été reconnue officiellement en 1994. Elle est aujourd'hui protégée.",
+            "answers": {
+              "le-grand-noir-du-berry": "Le grand noir du Berry",
+              "le-baudet-du-poitou": "Le baudet du Poitou",
+              "l-ane-de-provence": "L'âne de Provence",
+              "l-ane-des-pyrenees": "L'âne des Pyrénées"
+            }
+          },
+          "percheron": {
+            "prompt": "Quelle race de cheval de trait, souvent gris pommelé, porte le nom d'une région naturelle partagée entre l'Eure-et-Loir et l'Orne ?",
+            "hint": "Il a été exporté en grand nombre aux États-Unis, au XIXe siècle.",
+            "anecdote": "Il tirait autrefois les diligences et les omnibus parisiens.",
+            "answers": {
+              "le-percheron": "Le percheron",
+              "le-boulonnais": "Le boulonnais",
+              "l-ardennais": "L'ardennais",
+              "le-trait-breton": "Le trait breton"
+            }
+          },
+          "roses-orleans": {
+            "prompt": "Quelle culture a fait la renommée des pépiniéristes d'Orléans, du XIXe siècle au XXe siècle ?",
+            "hint": "Plusieurs variétés de cette fleur ont été créées dans la ville.",
+            "anecdote": "Les pépinières de la région ont exporté leurs plants dans le monde entier. Le parc floral de la Source en présente une grande collection.",
+            "answers": {
+              "les-rosiers": "Les rosiers",
+              "les-tulipes": "Les tulipes",
+              "les-orchidees": "Les orchidées",
+              "les-oliviers": "Les oliviers"
+            }
+          },
+          "dep-printemps": {
+            "prompt": "Touchez le département du festival du Printemps de Bourges.",
+            "hint": "C'est le département le plus au sud-est de la région.",
+            "anecdote": "Le festival, créé en 1977, fait découvrir chaque année de jeunes artistes de la chanson et des musiques actuelles."
+          },
+          "dep-rdv-histoire": {
+            "prompt": "Touchez le département où se tiennent les Rendez-vous de l'histoire.",
+            "hint": "C'est le département traversé par le Loir et par la Loire, au centre de la région.",
+            "anecdote": "Ce festival, créé en 1998, réunit chaque automne des historiens, des enseignants et le grand public."
+          },
+          "dep-sache": {
+            "prompt": "Touchez le département du château de Saché.",
+            "hint": "C'est le département traversé par l'Indre, le Cher, la Vienne et la Loire.",
+            "anecdote": "Le château se trouve dans la vallée de l'Indre, entre Azay-le-Rideau et Montbazon."
+          }
+        },
+        "grand-voyage": {
+          "name": "Le grand voyage",
+          "description": "Des coteaux du Sancerrois aux vallées du Loir et de la Creuse, des canaux du Loiret aux forteresses du Berry : un dernier tour de la région, de la Gaule à la Seconde Guerre mondiale.",
+          "briare": {
+            "prompt": "Quel ouvrage, long de 662 mètres et inauguré en 1896, fait passer un canal au-dessus de la Loire ?",
+            "hint": "Il relie le canal latéral à la Loire et le canal qui mène vers la Seine.",
+            "anecdote": "Il a longtemps été le plus long pont-canal du monde. Ses piles de pierre portent une auge en acier.",
+            "answers": {
+              "le-pont-canal-de-briare": "Le pont-canal de Briare",
+              "le-pont-canal-d-agen": "Le pont-canal d'Agen",
+              "le-pont-canal-du-guetin": "Le pont-canal du Guétin",
+              "le-pont-canal-de-digoin": "Le pont-canal de Digoin"
+            }
+          },
+          "bec-allier": {
+            "prompt": "Quel site naturel, à la limite du Cher et de la Nièvre, marque la rencontre de la Loire et d'un de ses grands affluents ?",
+            "hint": "Cet affluent descend du Massif central et traverse Vichy.",
+            "anecdote": "Ses bancs de sable et ses îles accueillent des sternes, des castors et de nombreux oiseaux migrateurs.",
+            "answers": {
+              "le-bec-d-allier": "Le Bec d'Allier",
+              "le-bec-d-ambes": "Le Bec d'Ambès",
+              "le-bec-hellouin": "Le Bec-Hellouin",
+              "le-bec-de-l-aigle": "Le Bec de l'Aigle"
+            }
+          },
+          "candes": {
+            "prompt": "Quel village de Touraine, au confluent de la Vienne et de la Loire, est le lieu où est mort, en 397, l'évêque de Tours le plus vénéré ?",
+            "hint": "Il fait partie des plus beaux villages de France.",
+            "anecdote": "Sa collégiale fortifiée a été bâtie sur le lieu de la mort de l'évêque. Des moines de Tours seraient venus enlever son corps par la Loire.",
+            "answers": {
+              "montresor": "Montrésor"
+            }
+          },
+          "eguzon": {
+            "prompt": "Quel barrage de l'Indre, mis en service en 1926 sur la Creuse, a formé un long lac entre les gorges ?",
+            "hint": "À sa construction, il était le plus puissant d'Europe.",
+            "anecdote": "Le lac de Chambon, qu'il retient, est devenu un lieu de baignade et de voile.",
+            "answers": {
+              "le-barrage-d-eguzon": "Le barrage d'Éguzon",
+              "le-barrage-de-vassiviere": "Le barrage de Vassivière",
+              "le-barrage-de-villerest": "Le barrage de Villerest",
+              "le-barrage-de-serre-poncon": "Le barrage de Serre-Ponçon"
+            }
+          },
+          "foret-orleans": {
+            "prompt": "Quelle forêt du Loiret est la plus grande forêt domaniale de France métropolitaine ?",
+            "hint": "Elle s'étend en arc de cercle au nord de la Loire, de la capitale régionale jusqu'à Gien.",
+            "anecdote": "Le balbuzard pêcheur, un rapace, y a de nouveau niché à partir de 1984.",
+            "answers": {
+              "la-foret-d-orleans": "La forêt d'Orléans",
+              "la-foret-de-fontainebleau": "La forêt de Fontainebleau",
+              "la-foret-de-compiegne": "La forêt de Compiègne",
+              "la-foret-de-troncais": "La forêt de Tronçais"
+            }
+          },
+          "nancay": {
+            "prompt": "Quel grand instrument scientifique, installé en Sologne à partir de 1953, capte les ondes radio venues de l'espace ?",
+            "hint": "Son grand miroir mesure environ 300 mètres de long.",
+            "anecdote": "Ce site de l'Observatoire de Paris étudie les pulsars, les galaxies et le Soleil.",
+            "answers": {
+              "le-radiotelescope-de-nancay": "Le radiotélescope de Nançay",
+              "l-observatoire-du-pic-du-midi": "L'observatoire du pic du Midi",
+              "l-observatoire-de-haute-provence": "L'observatoire de Haute-Provence",
+              "l-interferometre-du-plateau-de-bure": "L'interféromètre du plateau de Bure"
+            }
+          },
+          "bruere": {
+            "prompt": "Quel village du Cher revendique, avec une borne romaine, le titre de centre géographique de la France ?",
+            "hint": "La borne se dresse au bord de la route, près de l'abbaye de Noirlac.",
+            "anecdote": "Plusieurs communes du Cher se disputent ce titre, selon la méthode de calcul.",
+            "answers": {
+              "bruere-allichamps": "Bruère-Allichamps",
+              "saulzais-le-potier": "Saulzais-le-Potier",
+              "vesdun": "Vesdun"
+            }
+          },
+          "sancerre": {
+            "prompt": "Quelle petite ville perchée sur un piton domine la vallée de la Loire et un célèbre vignoble du Cher ?",
+            "hint": "La tour des Fiefs est le dernier vestige de son château.",
+            "anecdote": "Protestante, la ville a résisté à un long siège en 1573. Les habitants affamés y ont mangé du cuir et du parchemin."
+          },
+          "vendome": {
+            "prompt": "Quelle ville du Loir-et-Cher, traversée par plusieurs bras du Loir, a vu naître le maréchal de Rochambeau ?",
+            "hint": "Sa porte d'eau, la porte Saint-Georges, enjambe la rivière.",
+            "anecdote": "Une gare TGV la relie à Paris en moins d'une heure."
+          },
+          "apremont": {
+            "prompt": "Quel village du Cher, au bord de l'Allier, est célèbre pour son parc floral, créé dans les années 1970 par Gilles de Brissac ?",
+            "hint": "Il fait partie des plus beaux villages de France.",
+            "anecdote": "Ses maisons de pierre ocre ont été en partie restaurées dans le style médiéval, au XXe siècle."
+          },
+          "gargilesse": {
+            "prompt": "Quel village de l'Indre, dans la vallée de la Creuse, a séduit George Sand, qui y avait une petite maison ?",
+            "hint": "Il fait partie des plus beaux villages de France.",
+            "anecdote": "Sa crypte romane est couverte de fresques."
+          },
+          "saint-aignan": {
+            "prompt": "Quelle ville du Loir-et-Cher, au bord du Cher, est dominée par un château Renaissance et une collégiale romane ?",
+            "hint": "Le zoo de Beauval se trouve sur son territoire.",
+            "anecdote": "Ce zoo, ouvert en 1980, est devenu l'un des plus visités de France. Il accueille des pandas géants depuis 2012.",
+            "answers": {
+              "saint-aignan": "Saint-Aignan",
+              "montrichard": "Montrichard"
+            }
+          },
+          "nogent-rotrou": {
+            "prompt": "Quelle ville d'Eure-et-Loir, capitale du Perche, est dominée par le château Saint-Jean ?",
+            "hint": "Le ministre Sully, propriétaire du château, est enterré dans la ville.",
+            "anecdote": "Le château Saint-Jean abrite un musée consacré au Perche."
+          },
+          "chateauneuf": {
+            "prompt": "Quelle ville du Loiret conserve dans son château un musée consacré à la marine de Loire ?",
+            "hint": "Il ne reste qu'une partie du château, entourée d'un grand parc planté de rhododendrons.",
+            "anecdote": "Le musée raconte la vie des mariniers, qui transportaient vin, sel et bois sur le fleuve.",
+            "answers": {
+              "chateauneuf-sur-loire": "Châteauneuf-sur-Loire"
+            }
+          },
+          "lavardin": {
+            "prompt": "Quel village du Loir est dominé par les ruines d'une forteresse qui a résisté en 1188 à Henri II d'Angleterre et à Richard Cœur de Lion ?",
+            "hint": "Son église conserve un ensemble de peintures murales, du XIIe au XVIe siècle.",
+            "anecdote": "Henri IV a fait démanteler la forteresse en 1590, pendant les guerres de Religion.",
+            "answers": {
+              "troo": "Trôo",
+              "montresor": "Montrésor"
+            }
+          },
+          "culan": {
+            "prompt": "Quel château fort du sud du Berry, aux tours coiffées de galeries de bois, domine les gorges de l'Arnon ?",
+            "hint": "Jeanne d'Arc y aurait fait étape en 1430.",
+            "anecdote": "Ces galeries de bois en surplomb, appelées hourds, servaient à défendre le pied des murs.",
+            "answers": {
+              "culan": "Culan",
+              "ainay-le-vieil": "Ainay-le-Vieil",
+              "meillant": "Meillant"
+            }
+          },
+          "mehun": {
+            "prompt": "Quelle ville du Cher conserve les ruines du château du duc Jean de Berry, où le roi Charles VII est mort en 1461 ?",
+            "hint": "La ville est aussi connue pour sa porcelaine.",
+            "anecdote": "Le château a été l'un des plus somptueux de son temps. Il est représenté dans les Très Riches Heures du duc de Berry."
+          },
+          "aubigny": {
+            "prompt": "Quelle ville du Cher, surnommée la cité des Stuarts, célèbre chaque été son amitié avec l'Écosse ?",
+            "hint": "Charles VII l'a donnée en 1423 à un chef écossais qui l'aidait contre les Anglais.",
+            "anecdote": "La seigneurie est restée près de trois siècles aux Stuart. La ville a été reconstruite après un grand incendie en 1512."
+          },
+          "meung": {
+            "prompt": "Quelle ville du Loiret, au bord de la Loire, a vu le poète François Villon enfermé dans le cachot de son château, en 1461 ?",
+            "hint": "Le poète a été libéré au passage du roi Louis XI.",
+            "anecdote": "L'auteur du Roman de la Rose, Jean de Meun, y est né. Il a pris le nom de la ville, avec une autre orthographe."
+          },
+          "montrichard": {
+            "prompt": "Quelle ville du Loir-et-Cher est dominée par le donjon de Foulques Nerra, au-dessus de la vallée du Cher ?",
+            "hint": "Ses coteaux sont creusés de caves de tuffeau.",
+            "anecdote": "Le donjon a été bâti au début du XIe siècle par le comte d'Anjou, grand bâtisseur de forteresses.",
+            "answers": {
+              "montrichard": "Montrichard",
+              "saint-aignan": "Saint-Aignan"
+            }
+          },
+          "fontgombault": {
+            "prompt": "Quelle abbaye bénédictine de l'Indre, au bord de la Creuse, a été fondée à la fin du XIe siècle par l'ermite Gombaud ?",
+            "hint": "Ses moines chantent l'office en chant grégorien.",
+            "anecdote": "Elle a été restaurée au XIXe siècle. Des moines venus de Solesmes s'y sont installés en 1948.",
+            "answers": {
+              "fontgombault": "Fontgombault",
+              "noirlac": "Noirlac",
+              "solesmes": "Solesmes"
+            }
+          },
+          "pont-wilson": {
+            "prompt": "Quel pont de pierre de Tours, achevé à la fin du XVIIIe siècle, s'est en partie effondré en 1978 ?",
+            "hint": "Il porte le nom d'un président américain.",
+            "anecdote": "L'effondrement a eu lieu en avril 1978, sans faire de victime. Le pont a été reconstruit à l'identique.",
+            "answers": {
+              "le-pont-wilson": "Le pont Wilson",
+              "le-pont-jacques-gabriel": "Le pont Jacques-Gabriel",
+              "le-pont-george-v": "Le pont George-V",
+              "le-pont-de-beaugency": "Le pont de Beaugency"
+            }
+          },
+          "chapelle-dreux": {
+            "prompt": "Quelle ville d'Eure-et-Loir abrite la chapelle royale où reposent les membres de la famille d'Orléans ?",
+            "hint": "Le roi Louis-Philippe y est enterré.",
+            "anecdote": "La chapelle a été bâtie à partir de 1816 pour la duchesse d'Orléans, mère de Louis-Philippe. Elle est éclairée de vitraux de la manufacture de Sèvres."
+          },
+          "avaricum": {
+            "prompt": "Quelle ville gauloise, capitale des Bituriges, Jules César a-t-il assiégée et prise en 52 avant J.-C. ?",
+            "hint": "C'est aujourd'hui une grande ville du Cher.",
+            "anecdote": "Selon César, sur environ 40 000 habitants, presque aucun n'a survécu à la prise de la ville.",
+            "answers": {
+              "avaricum": "Avaricum",
+              "gergovie": "Gergovie",
+              "alesia": "Alésia",
+              "bibracte": "Bibracte"
+            }
+          },
+          "cenabum": {
+            "prompt": "Quel était le nom gaulois d'Orléans, où a éclaté le soulèvement de 52 avant J.-C. contre Rome ?",
+            "hint": "La ville était un port des Carnutes sur la Loire.",
+            "anecdote": "Des Carnutes y ont massacré des marchands romains. César a ensuite pris et incendié la ville.",
+            "answers": {
+              "cenabum": "Cenabum",
+              "lutece": "Lutèce",
+              "avaricum": "Avaricum",
+              "caesarodunum": "Caesarodunum"
+            }
+          },
+          "roi-bourges": {
+            "prompt": "Quel surnom moqueur ses adversaires donnaient-ils à Charles VII, avant le sacre de Reims ?",
+            "hint": "Il ne contrôlait plus que les terres au sud de la Loire.",
+            "anecdote": "Il tenait sa cour dans le Berry. Le sacre de 1429, à Reims, lui a rendu son prestige.",
+            "answers": {
+              "le-petit-roi-de-bourges": "Le petit roi de Bourges",
+              "le-roi-de-paris": "Le roi de Paris",
+              "le-roi-des-anglais": "Le roi des Anglais",
+              "le-roi-de-rouen": "Le roi de Rouen"
+            }
+          },
+          "conjuration": {
+            "prompt": "Quel complot protestant, déjoué en 1560, visait à soustraire le jeune roi François II à l'influence des Guise ?",
+            "hint": "Il porte le nom du château royal où séjournait la cour.",
+            "anecdote": "Les conjurés ont été exécutés, et leurs corps exposés sur les murs du château.",
+            "answers": {
+              "la-conjuration-d-amboise": "La conjuration d'Amboise",
+              "la-saint-barthelemy": "La Saint-Barthélemy",
+              "la-journee-des-barricades": "La journée des Barricades",
+              "la-fronde": "La Fronde"
+            }
+          },
+          "gambetta-tours": {
+            "prompt": "Quelle ville Gambetta a-t-il rejointe en octobre 1870, après avoir quitté Paris assiégé en ballon ?",
+            "hint": "Une délégation du gouvernement s'y était installée.",
+            "anecdote": "La délégation a ensuite quitté la ville pour Bordeaux, en décembre 1870.",
+            "answers": {
+              "lyon": "Lyon",
+              "lille": "Lille",
+              "marseille": "Marseille"
+            }
+          },
+          "louis-xii": {
+            "prompt": "Quel roi, né au château de Blois en 1462, a été surnommé le Père du peuple ?",
+            "hint": "Il était le fils du prince poète Charles d'Orléans.",
+            "anecdote": "Il a fait bâtir à Blois une aile de brique et de pierre, ornée de sa statue équestre.",
+            "answers": {
+              "louis-xii": "Louis XII",
+              "louis-xi": "Louis XI",
+              "francois-ier": "François Ier",
+              "henri-ii": "Henri II"
+            }
+          },
+          "jean-moulin": {
+            "prompt": "Quel préfet d'Eure-et-Loir, futur chef de la Résistance, a tenté de se suicider en juin 1940 pour ne pas signer un texte mensonger ?",
+            "hint": "Ce texte accusait à tort des tirailleurs sénégalais de massacres.",
+            "anecdote": "Arrêté par les Allemands à Chartres, il a été révoqué par Vichy en novembre 1940.",
+            "answers": {
+              "jean-moulin": "Jean Moulin",
+              "pierre-brossolette": "Pierre Brossolette",
+              "jean-zay": "Jean Zay",
+              "henri-frenay": "Henri Frenay"
+            }
+          },
+          "ligne-cher": {
+            "prompt": "Quelle rivière la ligne de démarcation suivait-elle en partie, entre 1940 et 1942, dans le sud de la Touraine et du Blésois ?",
+            "hint": "Le château de Chenonceau l'enjambe.",
+            "anecdote": "La galerie du château permettait de passer d'une zone à l'autre. Des résistants l'auraient utilisée pour faire passer des personnes.",
+            "answers": {
+              "le-cher": "Le Cher",
+              "l-indre": "L'Indre",
+              "la-vienne": "La Vienne",
+              "le-loir": "Le Loir"
+            }
+          },
+          "chambord-louvre": {
+            "prompt": "Quel château a servi de dépôt central aux œuvres du Louvre, dont La Joconde, au début de la Seconde Guerre mondiale ?",
+            "hint": "Son domaine est entouré d'un mur de plus de 30 kilomètres.",
+            "anecdote": "Les caisses y arrivaient de Paris avant d'être réparties dans d'autres châteaux, plus loin des combats.",
+            "answers": {
+              "chenonceau": "Chenonceau"
+            }
+          },
+          "loire-velo": {
+            "prompt": "Quel itinéraire cyclable suit le dernier grand fleuve sauvage de France sur environ 900 kilomètres, jusqu'à l'Atlantique ?",
+            "hint": "Dans la région, il longe la plupart des grands châteaux du fleuve.",
+            "anecdote": "Il part de Cuffy, dans le Cher, et arrive à Saint-Brevin-les-Pins, face à l'océan.",
+            "answers": {
+              "la-loire-a-velo": "La Loire à Vélo",
+              "la-velodyssee": "La Vélodyssée",
+              "la-viarhona": "La ViaRhôna",
+              "le-canal-des-deux-mers-a-velo": "Le canal des Deux Mers à vélo"
+            }
+          },
+          "cistude": {
+            "prompt": "Quelle tortue d'eau douce protégée trouve dans les étangs de la Brenne l'une des plus grandes populations de France ?",
+            "hint": "Sa carapace sombre est piquetée de points jaunes.",
+            "anecdote": "Le parc naturel régional de la Brenne en a fait son emblème.",
+            "answers": {
+              "la-cistude-d-europe": "La cistude d'Europe",
+              "la-tortue-d-hermann": "La tortue d'Hermann",
+              "la-tortue-luth": "La tortue luth",
+              "la-tortue-de-floride": "La tortue de Floride"
+            }
+          },
+          "indre-chateauroux": {
+            "prompt": "Quelle rivière traverse Châteauroux ?",
+            "hint": "Elle a donné son nom au département.",
+            "anecdote": "Elle se jette dans la Loire en aval de Tours, après avoir longé Azay-le-Rideau.",
+            "answers": {
+              "l-indre": "L'Indre",
+              "la-creuse": "La Creuse",
+              "le-cher": "Le Cher",
+              "la-vienne": "La Vienne"
+            }
+          },
+          "canal-berry": {
+            "prompt": "Quel canal, aujourd'hui en grande partie déclassé, reliait autrefois Montluçon à la Loire en traversant le Cher ?",
+            "hint": "Ses écluses étaient si étroites qu'il fallait des péniches spéciales, appelées berrichons.",
+            "anecdote": "Il a été déclassé en 1955. Ses chemins de halage sont devenus des sentiers de promenade.",
+            "answers": {
+              "le-canal-de-berry": "Le canal de Berry",
+              "le-canal-de-briare": "Le canal de Briare",
+              "le-canal-d-orleans": "Le canal d'Orléans",
+              "le-canal-lateral-a-la-loire": "Le canal latéral à la Loire"
+            }
+          },
+          "montargis-venise": {
+            "prompt": "Quelle ville du Loiret, traversée par de nombreux canaux et ponts, est surnommée la Venise du Gâtinais ?",
+            "hint": "Elle est aussi célèbre pour ses pralines.",
+            "anecdote": "La ville compte plus d'une centaine de ponts et passerelles sur le Loing et ses canaux."
+          },
+          "dep-camps": {
+            "prompt": "Touchez le département des camps d'internement de Pithiviers et de Beaune-la-Rolande.",
+            "hint": "C'est le département le plus au nord-est de la région.",
+            "anecdote": "En 1942, des milliers de Juifs, dont de nombreux enfants, y ont été internés avant d'être déportés vers Auschwitz."
+          },
+          "dep-le-blanc": {
+            "prompt": "Touchez le département de la ville du Blanc, au bord de la Creuse.",
+            "hint": "C'est le département de la Brenne.",
+            "anecdote": "La ville se trouve à la lisière sud du parc naturel régional de la Brenne."
+          },
+          "dep-bonneval": {
+            "prompt": "Touchez le département de Bonneval, petite ville entourée de fossés alimentés par le Loir.",
+            "hint": "C'est le département le plus au nord de la région.",
+            "anecdote": "On la surnomme la petite Venise de la Beauce."
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "orleans": {
+            "name": "Orléans",
+            "description": "Chef-lieu de la région, Orléans s'étire sur la rive droite de la Loire, au sommet de la grande courbe que dessine le fleuve. La ville a gardé ses quais, sa cathédrale Sainte-Croix et la place du Martroi, reconstruite après les bombardements de la Seconde Guerre mondiale.",
+            "anecdote": "Chaque année, depuis le XVe siècle, les fêtes johanniques célèbrent la levée du siège de la ville par Jeanne d'Arc, le 8 mai 1429."
+          },
+          "fromages-chevre": {
+            "name": "Fromages de chèvre",
+            "description": "La région compte cinq fromages de chèvre protégés par une appellation d'origine : le crottin de Chavignol, le sainte-maure-de-touraine, le selles-sur-cher, le valençay et le pouligny-saint-pierre. Chacun a sa forme : petit cylindre, bûche, disque ou pyramide.",
+            "anecdote": "Le sainte-maure-de-touraine est traversé d'une paille de seigle, qui le tient et porte gravé le numéro du producteur."
+          },
+          "chambord": {
+            "name": "Château de Chambord",
+            "description": "Commencé en 1519 pour François Ier, Chambord est le plus grand des châteaux de la Loire. Ses toits forment une forêt de cheminées, de lanternons et de tourelles. Il se dresse au cœur d'un domaine boisé de plus de 5 000 hectares, entouré d'un mur de 32 kilomètres.",
+            "anecdote": "Son escalier à double révolution permet à deux personnes de monter et de descendre en même temps sans jamais se croiser."
+          },
+          "chartres": {
+            "name": "Cathédrale de Chartres",
+            "description": "Reconstruite en une trentaine d'années après l'incendie de 1194, la cathédrale Notre-Dame de Chartres domine la plaine de la Beauce. Elle a conservé l'essentiel de ses vitraux du XIIIe siècle, célèbres pour leur bleu profond, et ses portails sculptés.",
+            "anecdote": "Le labyrinthe dessiné dans le dallage de la nef offre un chemin de plus de 260 mètres, que les pèlerins parcouraient en priant."
+          },
+          "chenonceau": {
+            "name": "Château de Chenonceau",
+            "description": "Posé sur le Cher, Chenonceau est surnommé le château des Dames : Diane de Poitiers y a fait bâtir le pont, Catherine de Médicis la galerie qui le surmonte. Pendant la Première Guerre mondiale, la galerie a servi d'hôpital militaire.",
+            "anecdote": "Entre 1940 et 1942, la ligne de démarcation suivait le Cher : l'entrée du château était en zone occupée, la galerie ouvrait sur la zone libre."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur du Centre-Val de Loire",
+            "description": "Réunir les cinq cartes de la collection du Centre-Val de Loire."
+          },
+          "master": {
+            "name": "Maître du Centre-Val de Loire",
+            "description": "Réussir le Défi Maître du Centre-Val de Loire, avec au moins huit bonnes réponses sur dix."
           }
         }
       }
