@@ -1268,6 +1268,378 @@
       "photoFrancheComteEurock": {
         "title": "Presqu'île de Malsaucy et les Eurockéennes",
         "alt": "Vue aérienne d'une presqu'île boisée, entre deux plans d'eau, avec de grandes tentes blanches."
+      },
+      "photoAuvergneCathedrale2": {
+        "title": "Cathédrale de Clermont-Ferrand",
+        "alt": "Grande cathédrale de pierre noire aux deux flèches jumelles, au-dessus des toits d'une ville."
+      },
+      "photoAuvergnePortChapiteau": {
+        "title": "Chapiteau de Notre-Dame-du-Port à Clermont-Ferrand",
+        "alt": "Chapiteau roman sculpté de personnages, en haut d'une colonne de pierre."
+      },
+      "photoAuvergneVercingetorix": {
+        "title": "Statue équestre de la place de Jaude à Clermont-Ferrand",
+        "alt": "Cavalier de bronze vert brandissant une épée, sous un ciel bleu."
+      },
+      "photoAuvergneAmboise": {
+        "title": "Fontaine d'Amboise à Clermont-Ferrand",
+        "alt": "Fontaine Renaissance de pierre sombre, à plusieurs étages sculptés."
+      },
+      "photoAuvergneMontferrand": {
+        "title": "Maison de l'Ange à Montferrand",
+        "alt": "Façade claire d'une maison ancienne, aux encadrements de pierre sombre, avec un porche."
+      },
+      "photoAuvergnePuyDome": {
+        "title": "Puy de Dôme",
+        "alt": "Volcan vert et isolé, avec une antenne au sommet."
+      },
+      "photoAuvergneMercure": {
+        "title": "Temple du sommet du puy de Dôme",
+        "alt": "Ruines d'un temple en pierre de lave, derrière une barrière blanche."
+      },
+      "photoAuvergneChaine": {
+        "title": "Chaîne des Puys",
+        "alt": "Ligne de volcans boisés au loin, avec un grand sapin au premier plan."
+      },
+      "photoAuvergnePariou": {
+        "title": "Puy Pariou",
+        "alt": "Cratère herbeux en forme d'entonnoir."
+      },
+      "photoAuvergneCome": {
+        "title": "Puy de Côme",
+        "alt": "Volcan boisé en forme de dôme, derrière des pentes herbeuses."
+      },
+      "photoAuvergneLemptegy": {
+        "title": "Volcan de Lemptégy",
+        "alt": "Ancienne carrière de scories rouges et noires, avec une paroi rocheuse."
+      },
+      "photoAuvergneSancy": {
+        "title": "Puy de Sancy",
+        "alt": "Crêtes herbeuses d'un haut massif, parcourues de pistes."
+      },
+      "photoAuvergnePavin": {
+        "title": "Lac Pavin",
+        "alt": "Lac bleu-vert vu entre des sapins, avec des sommets enneigés au loin."
+      },
+      "photoAuvergneChambon": {
+        "title": "Lac Chambon",
+        "alt": "Lac calme reflétant le ciel, avec des rochers au premier plan et des sommets enneigés au loin."
+      },
+      "photoAuvergneGuery": {
+        "title": "Lac de Guéry",
+        "alt": "Lac reflétant les nuages, avec une personne de dos debout dans l'eau et des collines."
+      },
+      "photoAuvergneTazenat": {
+        "title": "Gour de Tazenat",
+        "alt": "Lac rond entre des bois."
+      },
+      "photoAuvergneSanadoire": {
+        "title": "Roches Tuilière et Sanadoire",
+        "alt": "Deux pitons rocheux séparés par une vallée boisée."
+      },
+      "photoAuvergnePuyMary": {
+        "title": "Puy Mary",
+        "alt": "Pic herbeux de forme pyramidale, longé par une route."
+      },
+      "photoAuvergnePlomb": {
+        "title": "Plomb du Cantal",
+        "alt": "Sommet sombre parsemé de névés."
+      },
+      "photoAuvergneGarabit": {
+        "title": "Viaduc de Garabit",
+        "alt": "Viaduc métallique rouge en arc, au-dessus d'une retenue d'eau."
+      },
+      "photoAuvergneSaintNectaire": {
+        "title": "Église de Saint-Nectaire",
+        "alt": "Église romane sombre à clochers, avec de petites voitures à son pied."
+      },
+      "photoAuvergneIssoire": {
+        "title": "Abbatiale Saint-Austremoine d'Issoire",
+        "alt": "Chevet roman polychrome, surmonté d'une tour octogonale."
+      },
+      "photoAuvergneOrcival": {
+        "title": "Basilique d'Orcival",
+        "alt": "Basilique romane au fond d'un village."
+      },
+      "photoAuvergneBrioude": {
+        "title": "Basilique Saint-Julien de Brioude",
+        "alt": "Chevet roman polychrome à absidioles, surmonté d'une grande tour octogonale."
+      },
+      "photoAuvergneMurol": {
+        "title": "Cour du château de Murol",
+        "alt": "Cour d'un château de pierre aux piliers massifs, avec des fanions et une petite scène."
+      },
+      "photoAuvergneTournoel": {
+        "title": "Château de Tournoël",
+        "alt": "Château en ruine à donjon rond, sous un ciel bleu."
+      },
+      "photoAuvergneRiom": {
+        "title": "Sainte-Chapelle de Riom",
+        "alt": "Chevet gothique, dans un jardin."
+      },
+      "photoAuvergneRiomVitraux": {
+        "title": "Vitraux de la Sainte-Chapelle de Riom",
+        "alt": "Chœur percé de hauts vitraux colorés."
+      },
+      "photoAuvergneThiers": {
+        "title": "Atelier du musée de la Coutellerie à Thiers",
+        "alt": "Machines à courroies, dans un atelier creusé."
+      },
+      "photoAuvergneEmouleurs": {
+        "title": "Émouleurs de Thiers",
+        "alt": "Photographie ancienne d'ouvriers couchés sur des planches."
+      },
+      "photoAuvergneCouteau": {
+        "title": "Couteau pliant de Thiers",
+        "alt": "Couteau pliant fin au manche décoré, posé sur un tissu rouge."
+      },
+      "photoAuvergneAmbert": {
+        "title": "Mairie d'Ambert",
+        "alt": "Bâtiment rond à arcades, aux volets clairs et aux fleurs."
+      },
+      "photoAuvergneRichardBas": {
+        "title": "Moulin Richard-de-Bas",
+        "alt": "Hameau de maisons et de chalets dans un vallon vert, avec une table de pique-nique et un petit pont."
+      },
+      "photoAuvergneCelestins": {
+        "title": "La source des Célestins à Vichy, tableau d'Eugène Guibbert",
+        "alt": "Tableau montrant des bâtiments anciens, un kiosque à toit et des promeneurs en crinoline."
+      },
+      "photoAuvergnePastilles": {
+        "title": "Pastilles de Vichy",
+        "alt": "Boîte en métal doré remplie de pastilles blanches octogonales."
+      },
+      "photoAuvergneHallSources": {
+        "title": "Hall des Sources à Vichy",
+        "alt": "Grande halle à charpente métallique verte et à verrière, avec des lustres et du mobilier blanc."
+      },
+      "photoAuvergneOperaVichy": {
+        "title": "Opéra de Vichy",
+        "alt": "Palais Art nouveau à dômes."
+      },
+      "photoAuvergneMoulins": {
+        "title": "Cathédrale de Moulins",
+        "alt": "Façade gothique à deux flèches et à grande rosace, vue en contre-plongée."
+      },
+      "photoAuvergneJacquemart": {
+        "title": "Jacquemart de Moulins",
+        "alt": "Clocheton à cloche, avec des personnages de métal armés de marteaux."
+      },
+      "photoAuvergneTriptyque": {
+        "title": "Triptyque de la cathédrale de Moulins",
+        "alt": "Triptyque peint montrant la Vierge en gloire."
+      },
+      "photoAuvergneMontlucon": {
+        "title": "Château des ducs de Bourbon à Montluçon",
+        "alt": "Logis à galerie de bois et tour d'horloge."
+      },
+      "photoAuvergneSouvigny": {
+        "title": "Prieuré de Souvigny",
+        "alt": "Chevet gothique, derrière un feuillage doré."
+      },
+      "photoAuvergneCharroux": {
+        "title": "Maison à colombages de Charroux",
+        "alt": "Maison à colombages et étage en encorbellement, avec une fenêtre à meneau et un clocher derrière."
+      },
+      "photoAuvergneTroncais": {
+        "title": "Forêt de Tronçais",
+        "alt": "Allée de futaie aux couleurs d'automne."
+      },
+      "photoAuvergneLapalisse": {
+        "title": "Château de La Palice",
+        "alt": "Château à façade gothique, avec rosace et tourelles, sur un mur de soutènement."
+      },
+      "photoAuvergneBourbon": {
+        "title": "Forteresse de Bourbon-l'Archambault",
+        "alt": "Maison ancienne à tourelle ronde et toits de tuiles, près d'un mur de pierre."
+      },
+      "photoAuvergneParapluies": {
+        "title": "Rue d'Aurillac décorée",
+        "alt": "Parapluies colorés suspendus au-dessus d'une rue."
+      },
+      "photoAuvergneAurillac": {
+        "title": "Quartier Saint-Géraud à Aurillac",
+        "alt": "Vue d'une ville, dominée par une flèche d'église."
+      },
+      "photoAuvergneGerbert": {
+        "title": "Statue de Gerbert d'Aurillac",
+        "alt": "Statue de bronze d'un pape coiffé de la tiare, la main levée."
+      },
+      "photoAuvergneSaintFlour": {
+        "title": "Cathédrale de Saint-Flour",
+        "alt": "Façade à deux tours de pierre noire, sous la neige."
+      },
+      "photoAuvergneAnjony": {
+        "title": "Château d'Anjony",
+        "alt": "Donjon à quatre tours rondes, au-dessus des arbres."
+      },
+      "photoAuvergnePar": {
+        "title": "Source du Par à Chaudes-Aigues",
+        "alt": "Bassin de pierre où coule une eau chaude."
+      },
+      "photoAuvergneSalins": {
+        "title": "Cascade de Salins",
+        "alt": "Grande cascade tombant d'une falaise de basalte."
+      },
+      "photoAuvergneBonnevie": {
+        "title": "Rocher de Bonnevie à Murat",
+        "alt": "Colline rocheuse surmontée d'une petite statue blanche, au-dessus de maisons."
+      },
+      "photoAuvergneAiguilhe": {
+        "title": "Chapelle Saint-Michel d'Aiguilhe",
+        "alt": "Chapelle sur une aiguille de lave, avec un parc au premier plan."
+      },
+      "photoAuvergnePuy": {
+        "title": "Cathédrale du Puy-en-Velay",
+        "alt": "Cathédrale romane en haut d'une ville."
+      },
+      "photoAuvergneNdFrance": {
+        "title": "Statue Notre-Dame de France",
+        "alt": "Grande statue rouge de Vierge, sur un rocher."
+      },
+      "photoAuvergneViergeNoire": {
+        "title": "Autel de la cathédrale du Puy-en-Velay",
+        "alt": "Autel doré éclairé dans la pénombre, avec une statue sombre vêtue et des silhouettes de dos."
+      },
+      "photoAuvergneDentelle": {
+        "title": "Dentelle aux fuseaux du Puy",
+        "alt": "Coussin à fuseaux et à épingles."
+      },
+      "photoAuvergneLentilles": {
+        "title": "Lentilles vertes du Puy",
+        "alt": "Bol de bois rempli de petites graines vert sombre."
+      },
+      "photoAuvergneChaiseDieu": {
+        "title": "Abbaye de La Chaise-Dieu",
+        "alt": "Abbaye à tours au-dessus d'un village et de prés."
+      },
+      "photoAuvergneDanse": {
+        "title": "Fresque de l'abbaye de La Chaise-Dieu",
+        "alt": "Fresque de squelettes et de personnages, sur fond rouge."
+      },
+      "photoAuvergnePolignac": {
+        "title": "Forteresse de Polignac",
+        "alt": "Forteresse à donjon sur un plateau de lave, au-dessus d'un village."
+      },
+      "photoAuvergneBlesle": {
+        "title": "Blesle",
+        "alt": "Village à clochers, au creux de collines vertes."
+      },
+      "photoAuvergneMezenc": {
+        "title": "Mont Mézenc",
+        "alt": "Haut plateau, avec un sommet au fond."
+      },
+      "photoAuvergneGorgesAllier": {
+        "title": "Gorges de l'Allier",
+        "alt": "Vallée boisée, dans la brume."
+      },
+      "photoAuvergneChavaniac": {
+        "title": "Château de Chavaniac",
+        "alt": "Château à tour crénelée parmi les arbres."
+      },
+      "photoAuvergneLafayette": {
+        "title": "Portrait du marquis de La Fayette",
+        "alt": "Gravure en médaillon d'un homme de profil, en perruque blanche et en uniforme."
+      },
+      "photoAuvergneFromageNectaire": {
+        "title": "Saint-nectaire",
+        "alt": "Grande tomme à croûte grise, dont une part est retirée, sur une nappe à carreaux."
+      },
+      "photoAuvergneAffinage": {
+        "title": "Cave d'affinage du saint-nectaire",
+        "alt": "Tommes sur de la paille, dans une cave sombre."
+      },
+      "photoAuvergneCantal": {
+        "title": "Cantal",
+        "alt": "Fromage à pâte jaune et à croûte épaisse."
+      },
+      "photoAuvergneSalersFromage": {
+        "title": "Salers, fromage",
+        "alt": "Fromage à pâte jaune et à croûte brune."
+      },
+      "photoAuvergneBleu": {
+        "title": "Bleu d'Auvergne",
+        "alt": "Fromage à pâte persillée."
+      },
+      "photoAuvergneFourme": {
+        "title": "Fourme d'Ambert",
+        "alt": "Tranche ronde persillée, sur une ardoise."
+      },
+      "photoAuvergneTruffade": {
+        "title": "Truffade",
+        "alt": "Plat gratiné."
+      },
+      "photoAuvergneAligot": {
+        "title": "Aligot",
+        "alt": "Bol de purée filante, avec une saucisse."
+      },
+      "photoAuvergnePounti": {
+        "title": "Pounti auvergnat",
+        "alt": "Terrine aux pruneaux, sur une ardoise."
+      },
+      "photoAuvergneCornet": {
+        "title": "Cornet de Murat",
+        "alt": "Cornet de pâtisserie à la crème, tenu en main."
+      },
+      "photoAuvergneSaintPourcain": {
+        "title": "Vignoble de Saint-Pourçain",
+        "alt": "Rangs de vigne le long d'une route."
+      },
+      "photoAuvergneVacheSalers": {
+        "title": "Vache de race Salers",
+        "alt": "Vache à robe acajou frisée et à longues cornes, dans un pré."
+      },
+      "photoAuvergneBuron": {
+        "title": "Buron du Cantal",
+        "alt": "Abri de pierres sèches voûté, en ruine, sur une pelouse d'altitude."
+      },
+      "photoAuvergnePneu": {
+        "title": "Pneu géant à Clermont-Ferrand",
+        "alt": "Pneu géant sur un support bleu, avec un disque illustré au centre."
+      },
+      "photoAuvergneStade": {
+        "title": "Stade Marcel-Michelin",
+        "alt": "Stade de rugby avec un projecteur et des joueurs en jaune et bleu au loin."
+      },
+      "photoAuvergnePascal": {
+        "title": "Statue de Blaise Pascal à Clermont-Ferrand",
+        "alt": "Statue de bronze d'un homme assis, en manteau."
+      },
+      "photoAuvergnePascalPortrait": {
+        "title": "Portrait de Blaise Pascal",
+        "alt": "Portrait peint d'un homme à longs cheveux et à col blanc."
+      },
+      "photoAuvergneGergovie": {
+        "title": "Plateau de Gergovie",
+        "alt": "Plateau doré au couchant."
+      },
+      "photoAuvergneGergovieMonument": {
+        "title": "Monument de Gergovie",
+        "alt": "Monument de pierre sombre à colonnes."
+      },
+      "photoAuvergnePanoramique": {
+        "title": "Panoramique des Dômes",
+        "alt": "Train moderne au pied d'un volcan."
+      },
+      "photoAuvergnePompidou": {
+        "title": "Maison natale de Georges Pompidou à Montboudif",
+        "alt": "Maison grise d'un bourg, aux volets blancs."
+      },
+      "photoAuvergneVolvic": {
+        "title": "Mascaron en pierre de Volvic",
+        "alt": "Mascaron de lave grise à gros yeux, avec un tuyau dans la bouche."
+      },
+      "photoAuvergneNeris": {
+        "title": "Établissement thermal de Néris-les-Bains",
+        "alt": "Établissement thermal et fontaine."
+      },
+      "photoAuvergneBourboule": {
+        "title": "La Bourboule",
+        "alt": "Ville thermale à grands hôtels, avec un pont fleuri et une colline boisée."
+      },
+      "photoAuvergneMontDore": {
+        "title": "Le Mont-Dore",
+        "alt": "Ville au fond d'une vallée, avec un massif au loin."
       }
     }
   },
@@ -1295,13 +1667,18 @@
     "10": "Aube",
     "11": "Aude",
     "12": "Aveyron",
+    "15": "Cantal",
     "21": "Côte-d'Or",
     "25": "Doubs",
+    "26": "Drôme",
     "30": "Gard",
     "31": "Haute-Garonne",
     "32": "Gers",
     "34": "Hérault",
+    "38": "Isère",
     "39": "Jura",
+    "42": "Loire",
+    "43": "Haute-Loire",
     "46": "Lot",
     "48": "Lozère",
     "51": "Marne",
@@ -1310,19 +1687,26 @@
     "55": "Meuse",
     "57": "Moselle",
     "58": "Nièvre",
+    "63": "Puy-de-Dôme",
     "65": "Hautes-Pyrénées",
     "66": "Pyrénées-Orientales",
     "67": "Bas-Rhin",
     "68": "Haut-Rhin",
+    "69": "Rhône",
     "70": "Haute-Saône",
     "71": "Saône-et-Loire",
+    "73": "Savoie",
+    "74": "Haute-Savoie",
     "81": "Tarn",
     "82": "Tarn-et-Garonne",
     "88": "Vosges",
     "89": "Yonne",
     "90": "Territoire de Belfort",
     "08": "Ardennes",
-    "09": "Ariège"
+    "09": "Ariège",
+    "01": "Ain",
+    "03": "Allier",
+    "07": "Ardèche"
   },
   "places": {
     "strasbourg": "Strasbourg",
@@ -1563,7 +1947,46 @@
     "pesmes": "Pesmes",
     "belfort": "Belfort",
     "delle": "Delle",
-    "giromagny": "Giromagny"
+    "giromagny": "Giromagny",
+    "clermont-ferrand": "Clermont-Ferrand",
+    "thiers": "Thiers",
+    "issoire": "Issoire",
+    "riom": "Riom",
+    "ambert": "Ambert",
+    "billom": "Billom",
+    "royat": "Royat",
+    "volvic": "Volvic",
+    "le-mont-dore": "Le Mont-Dore",
+    "la-bourboule": "La Bourboule",
+    "chatel-guyon": "Châtel-Guyon",
+    "lezoux": "Lezoux",
+    "orcival": "Orcival",
+    "murol": "Murol",
+    "saint-nectaire": "Saint-Nectaire",
+    "besse": "Besse",
+    "moulins": "Moulins",
+    "vichy": "Vichy",
+    "montlucon": "Montluçon",
+    "cusset": "Cusset",
+    "gannat": "Gannat",
+    "neris-les-bains": "Néris-les-Bains",
+    "bourbon-l-archambault": "Bourbon-l'Archambault",
+    "souvigny": "Souvigny",
+    "charroux": "Charroux",
+    "aurillac": "Aurillac",
+    "saint-flour": "Saint-Flour",
+    "mauriac": "Mauriac",
+    "murat": "Murat",
+    "massiac": "Massiac",
+    "salers": "Salers",
+    "chaudes-aigues": "Chaudes-Aigues",
+    "allanche": "Allanche",
+    "le-puy-en-velay": "Le Puy-en-Velay",
+    "brioude": "Brioude",
+    "yssingeaux": "Yssingeaux",
+    "langeac": "Langeac",
+    "le-chambon-sur-lignon": "Le Chambon-sur-Lignon",
+    "blesle": "Blesle"
   },
   "territories": {
     "champagne-ardenne": {
@@ -15805,6 +16228,1908 @@
           }
         }
       }
+    },
+    "auvergne": {
+      "name": "Auvergne",
+      "description": "Au cœur du Massif central, une ancienne province de volcans et de lacs, d'églises romanes et de villes d'eaux, de fromages et de couteliers, aujourd'hui au sein de la région Auvergne-Rhône-Alpes.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Auvergne",
+          "description": "Quatre départements, leurs villes et les grands repères d'un pays de volcans, au cœur du Massif central.",
+          "carte-territoire": {
+            "prompt": "Touchez sur la carte le territoire historique de l'Auvergne.",
+            "hint": "C'est la partie ouest de la région, loin des Alpes.",
+            "anecdote": "L'Auvergne forme l'ouest de la région actuelle, sur le Massif central. Rhône-Alpes en occupe l'est, jusqu'à la frontière italienne."
+          },
+          "carte-voisin": {
+            "prompt": "Touchez sur la carte le territoire réuni à l'Auvergne en 2016.",
+            "hint": "Il s'étend vers l'est, jusqu'aux Alpes.",
+            "anecdote": "Rhône-Alpes compte huit départements, soit deux fois plus que l'Auvergne. Les deux anciennes régions ont fusionné le 1er janvier 2016."
+          },
+          "nombre-departements": {
+            "prompt": "Combien de départements compte l'Auvergne ?",
+            "hint": "Autant que de saisons dans l'année.",
+            "anecdote": "L'Allier, le Cantal, la Haute-Loire et le Puy-de-Dôme formaient l'ancienne région Auvergne.",
+            "answers": {
+              "quatre": "Quatre",
+              "trois": "Trois",
+              "six": "Six",
+              "huit": "Huit"
+            }
+          },
+          "region-actuelle": {
+            "prompt": "Dans quelle région administrative l'Auvergne se trouve-t-elle depuis 2016 ?",
+            "hint": "Son nom associe deux anciennes régions voisines.",
+            "anecdote": "Les deux anciennes régions ont été réunies le 1er janvier 2016. L'Auvergne reste un territoire historique au sein de cet ensemble.",
+            "answers": {
+              "auvergne-rhone-alpes": "Auvergne-Rhône-Alpes",
+              "occitanie": "Occitanie",
+              "nouvelle-aquitaine": "Nouvelle-Aquitaine",
+              "centre-val-de-loire": "Centre-Val de Loire"
+            }
+          },
+          "ville-peuplee": {
+            "prompt": "Quelle est la ville la plus peuplée d'Auvergne ?",
+            "hint": "Elle est la préfecture du Puy-de-Dôme.",
+            "anecdote": "Clermont-Ferrand compte près de 150 000 habitants. Elle était le chef-lieu de l'ancienne région Auvergne."
+          },
+          "chef-lieu": {
+            "prompt": "Quelle ville est le chef-lieu de la région Auvergne-Rhône-Alpes ?",
+            "hint": "Elle se trouve au confluent du Rhône et de la Saône.",
+            "anecdote": "Depuis la fusion de 2016, la préfecture de région et le conseil régional se trouvent à Lyon.",
+            "answers": {
+              "lyon": "Lyon",
+              "grenoble": "Grenoble",
+              "saint-etienne": "Saint-Étienne"
+            }
+          },
+          "massif": {
+            "prompt": "Dans quel grand massif montagneux l'Auvergne se situe-t-elle ?",
+            "hint": "Il occupe le centre et le sud de la France.",
+            "anecdote": "Ce massif ancien couvre environ un septième du territoire français. L'Auvergne en est l'une des parties les plus élevées.",
+            "answers": {
+              "le-massif-central": "Le Massif central",
+              "les-alpes": "Les Alpes",
+              "les-pyrenees": "Les Pyrénées",
+              "les-vosges": "Les Vosges"
+            }
+          },
+          "relief": {
+            "prompt": "Quel type de relief a fait la renommée des paysages d'Auvergne ?",
+            "hint": "Ils ont craché de la lave, autrefois.",
+            "anecdote": "Cônes, cratères, coulées de lave et lacs ronds marquent le territoire. Aucun n'est en éruption aujourd'hui, mais ils ne sont pas considérés comme éteints pour autant.",
+            "answers": {
+              "les-volcans": "Les volcans",
+              "les-glaciers": "Les glaciers",
+              "les-dunes": "Les dunes",
+              "les-falaises-de-craie": "Les falaises de craie"
+            }
+          },
+          "arvernes": {
+            "prompt": "Quel peuple gaulois a donné son nom à l'Auvergne ?",
+            "hint": "Vercingétorix en était le chef.",
+            "anecdote": "Ce puissant peuple occupait la région avant la conquête romaine. Le nom d'Auvergne en dérive directement.",
+            "answers": {
+              "les-arvernes": "Les Arvernes",
+              "les-eduens": "Les Éduens",
+              "les-sequanes": "Les Séquanes",
+              "les-carnutes": "Les Carnutes"
+            }
+          },
+          "carte-allier": {
+            "prompt": "Touchez sur la carte le département de l'Allier.",
+            "hint": "C'est le plus au nord des départements auvergnats.",
+            "anecdote": "L'Allier correspond en grande partie à l'ancienne province du Bourbonnais. Il a pour préfecture Moulins."
+          },
+          "carte-cantal": {
+            "prompt": "Touchez sur la carte le département du Cantal.",
+            "hint": "Il se trouve au sud-ouest de l'Auvergne.",
+            "anecdote": "Ce département s'organise autour d'un immense ancien volcan. Aurillac en est la préfecture."
+          },
+          "carte-haute-loire": {
+            "prompt": "Touchez sur la carte le département de la Haute-Loire.",
+            "hint": "Il se trouve au sud-est de l'Auvergne.",
+            "anecdote": "Le fleuve y parcourt ses premières gorges, après sa source toute proche, en Ardèche."
+          },
+          "carte-puy-de-dome": {
+            "prompt": "Touchez sur la carte le département du Puy-de-Dôme.",
+            "hint": "Il occupe le centre de l'Auvergne.",
+            "anecdote": "C'est le département le plus peuplé d'Auvergne, avec environ 665 000 habitants."
+          },
+          "carte-vichy": {
+            "prompt": "Touchez le département où se trouve Vichy.",
+            "hint": "Il borde le nord de l'Auvergne.",
+            "anecdote": "Vichy se situe sur l'Allier, la rivière qui a donné son nom au département."
+          },
+          "carte-aurillac": {
+            "prompt": "Touchez le département dont Aurillac est la préfecture.",
+            "hint": "Il touche l'Aveyron et la Corrèze.",
+            "anecdote": "Aurillac compte environ 26 000 habitants. C'est la plus grande ville du Cantal, et de loin."
+          },
+          "carte-le-puy": {
+            "prompt": "Touchez le département dont Le Puy-en-Velay est la préfecture.",
+            "hint": "Il touche l'Ardèche et la Loire.",
+            "anecdote": "La ville s'est bâtie autour de pitons volcaniques, au cœur de l'ancien pays du Velay."
+          },
+          "carte-clermont": {
+            "prompt": "Touchez le département où se trouve Clermont-Ferrand.",
+            "hint": "Il porte le nom d'un volcan.",
+            "anecdote": "Clermont-Ferrand s'étend au pied de la chaîne des Puys, dans la plaine de la Limagne."
+          },
+          "nom-volcan": {
+            "prompt": "Quel département auvergnat porte le nom d'un célèbre volcan ?",
+            "hint": "Sa préfecture est Clermont-Ferrand.",
+            "anecdote": "Le sommet qui lui donne son nom culmine à 1 465 mètres, à une dizaine de kilomètres du centre de Clermont-Ferrand.",
+            "answers": {
+              "le-puy-de-dome": "Le Puy-de-Dôme",
+              "le-cantal": "Le Cantal",
+              "l-allier": "L'Allier",
+              "la-haute-loire": "La Haute-Loire"
+            }
+          },
+          "riviere-moulins": {
+            "prompt": "Quelle rivière a donné son nom au département dont Moulins est la préfecture ?",
+            "hint": "Elle traverse aussi Vichy.",
+            "anecdote": "Cet affluent de la Loire traverse l'Auvergne du sud au nord. Il rejoint le fleuve près de Nevers.",
+            "answers": {
+              "l-allier": "L'Allier",
+              "la-dordogne": "La Dordogne",
+              "la-sioule": "La Sioule",
+              "la-creuse": "La Creuse"
+            }
+          },
+          "plus-au-nord": {
+            "prompt": "Quel est le département le plus au nord de l'Auvergne ?",
+            "hint": "On y trouve Montluçon et Vichy.",
+            "anecdote": "Plus bas et plus ouvert que le reste de l'Auvergne, ce département fait le lien avec le Berry et la Bourgogne.",
+            "answers": {
+              "l-allier": "L'Allier",
+              "le-cantal": "Le Cantal",
+              "le-puy-de-dome": "Le Puy-de-Dôme",
+              "la-haute-loire": "La Haute-Loire"
+            }
+          },
+          "fleuve-departement": {
+            "prompt": "Quel département auvergnat doit son nom au plus long fleuve de France ?",
+            "hint": "Sa préfecture est un haut lieu de pèlerinage.",
+            "anecdote": "Le mot « haute » signale que ce département se trouve vers le début du cours du fleuve, qui naît tout près, au mont Gerbier-de-Jonc.",
+            "answers": {
+              "la-haute-loire": "La Haute-Loire",
+              "l-allier": "L'Allier",
+              "le-cantal": "Le Cantal",
+              "le-puy-de-dome": "Le Puy-de-Dôme"
+            }
+          },
+          "numero-63": {
+            "prompt": "Quel numéro porte le département du Puy-de-Dôme ?",
+            "hint": "Il dépasse 60 sans atteindre 70.",
+            "anecdote": "Ce numéro suit l'ordre alphabétique des départements, à quelques exceptions près, comme tous les autres.",
+            "answers": {
+              "15": "15",
+              "43": "43",
+              "63": "63",
+              "03": "03"
+            }
+          },
+          "prefecture-cantal": {
+            "prompt": "Quelle ville est la préfecture du Cantal ?",
+            "hint": "Elle est connue pour ses parapluies.",
+            "anecdote": "Saint-Flour et Mauriac sont les deux sous-préfectures du Cantal."
+          },
+          "prefecture-allier": {
+            "prompt": "Quelle ville est la préfecture de l'Allier ?",
+            "hint": "Elle fut la capitale des ducs de Bourbon.",
+            "anecdote": "Ni Montluçon, plus peuplée, ni Vichy, plus connue, n'ont cette fonction. Elles sont sous-préfectures."
+          },
+          "cathedrale-noire": {
+            "prompt": "Quelle ville est dominée par cette cathédrale de pierre noire ?",
+            "hint": "C'est la capitale historique de l'Auvergne.",
+            "anecdote": "Ses deux flèches s'élèvent à plus de 95 mètres. Sa pierre de lave donne à la ville ancienne sa couleur sombre."
+          },
+          "puy-visuel": {
+            "prompt": "Quelle ville, célèbre étape de pèlerinage, s'étage sous cette cathédrale romane ?",
+            "hint": "Son nom contient celui de l'ancien pays du Velay.",
+            "anecdote": "Dressée sur le mont Anis, cette cathédrale est inscrite au patrimoine mondial, avec les chemins de Compostelle."
+          },
+          "vichy-opera": {
+            "prompt": "Dans quelle ville d'eaux de l'Allier se dresse cet opéra Art nouveau ?",
+            "hint": "Ses pastilles sont connues dans toute la France.",
+            "anecdote": "Inauguré en 1901, cet opéra témoigne des fastes de la Belle Époque, lorsque la société élégante y venait prendre les eaux."
+          },
+          "ville-couteaux": {
+            "prompt": "Quelle ville du Puy-de-Dôme est la capitale française de la coutellerie ?",
+            "hint": "Elle s'accroche aux pentes de la vallée de la Durolle.",
+            "anecdote": "Cette ville et ses environs fabriquent la majeure partie des couteaux français, depuis le Moyen Âge."
+          },
+          "ville-parapluies": {
+            "prompt": "Quelle ville du Cantal est dite capitale française du parapluie ?",
+            "hint": "Elle est la préfecture de ce département.",
+            "anecdote": "La fabrication s'y développe au XIXe siècle. La ville conserve aujourd'hui encore plusieurs fabricants."
+          },
+          "michelin": {
+            "prompt": "Quelle grande entreprise de pneumatiques est née à Clermont-Ferrand ?",
+            "hint": "Son bonhomme blanc est connu dans le monde entier.",
+            "anecdote": "Fondée par deux frères en 1889, elle a toujours son siège à Clermont-Ferrand, où ses usines ont façonné toute la ville.",
+            "answers": {
+              "michelin": "Michelin",
+              "goodyear": "Goodyear",
+              "continental": "Continental",
+              "bridgestone": "Bridgestone"
+            }
+          },
+          "compostelle": {
+            "prompt": "De quel grand pèlerinage Le Puy-en-Velay est-il un point de départ ?",
+            "hint": "Il mène en Espagne, jusqu'en Galice.",
+            "anecdote": "La via Podiensis part de la cathédrale et traverse l'Aubrac. Elle reste l'une des voies les plus fréquentées vers l'Espagne.",
+            "answers": {
+              "saint-jacques-de-compostelle": "Saint-Jacques-de-Compostelle",
+              "lourdes": "Lourdes",
+              "rome": "Rome",
+              "jerusalem": "Jérusalem"
+            }
+          },
+          "montlucon": {
+            "prompt": "Quelle est la ville la plus peuplée de l'Allier ?",
+            "hint": "Elle se trouve sur le Cher, à l'ouest du département.",
+            "anecdote": "Cette ancienne cité industrielle compte plus de 30 000 habitants, devant Vichy et Moulins."
+          },
+          "statue-jaude": {
+            "prompt": "Quel chef gaulois cette statue équestre de la place de Jaude représente-t-elle ?",
+            "hint": "Il a tenu tête à Jules César.",
+            "anecdote": "Cette statue est l'œuvre de Bartholdi, le sculpteur de la statue de la Liberté. Elle a été inaugurée à Clermont-Ferrand en 1903.",
+            "answers": {
+              "vercingetorix": "Vercingétorix",
+              "asterix": "Astérix",
+              "brennus": "Brennus",
+              "ambiorix": "Ambiorix"
+            }
+          },
+          "volcan-isole": {
+            "prompt": "Quel volcan, reconnaissable à sa silhouette, domine Clermont-Ferrand ?",
+            "hint": "Il a donné son nom au département.",
+            "anecdote": "Avec ses 1 465 mètres, il domine les autres volcans de la chaîne. Il est devenu l'un des symboles de l'Auvergne.",
+            "answers": {
+              "le-puy-de-dome": "Le puy de Dôme",
+              "le-puy-mary": "Le puy Mary",
+              "le-puy-de-sancy": "Le puy de Sancy",
+              "le-plomb-du-cantal": "Le plomb du Cantal"
+            }
+          },
+          "sommet": {
+            "prompt": "Quel sommet de 1 885 mètres est le point culminant du Massif central ?",
+            "hint": "Il domine la station du Mont-Dore.",
+            "anecdote": "Ce sommet est un ancien volcan, très érodé. Il ne devance le plomb du Cantal que de 30 mètres.",
+            "answers": {
+              "le-puy-de-sancy": "Le puy de Sancy",
+              "le-puy-de-dome": "Le puy de Dôme",
+              "le-mont-mezenc": "Le mont Mézenc",
+              "le-puy-mary": "Le puy Mary"
+            }
+          },
+          "source-dordogne": {
+            "prompt": "Quelle rivière prend sa source au pied du plus haut sommet d'Auvergne ?",
+            "hint": "Elle se jette dans la Garonne, formant l'estuaire de la Gironde.",
+            "anecdote": "Elle naît de la rencontre de deux torrents, la Dore et la Dogne, sur les pentes du massif du Sancy.",
+            "answers": {
+              "la-dordogne": "La Dordogne",
+              "la-loire": "La Loire",
+              "l-allier": "L'Allier",
+              "le-lot": "Le Lot"
+            }
+          },
+          "mot-puy": {
+            "prompt": "Comment nomme-t-on souvent un volcan ou une colline en Auvergne ?",
+            "hint": "Le mot vient du latin podium.",
+            "anecdote": "Le mot désigne une hauteur. On le retrouve dans le nom de nombreux sommets, et aussi dans celui de la ville du Velay.",
+            "answers": {
+              "un-puy": "Un puy",
+              "un-ballon": "Un ballon",
+              "une-dent": "Une dent",
+              "un-causse": "Un causse"
+            }
+          },
+          "limagne": {
+            "prompt": "Comment s'appelle la grande plaine fertile qui s'étend à l'est de Clermont-Ferrand ?",
+            "hint": "Son nom commence comme celui d'une ville du Limousin.",
+            "anecdote": "Elle s'est formée lors de l'effondrement d'un fossé, puis s'est couverte de terres noires, très riches, propices à la culture du blé.",
+            "answers": {
+              "la-limagne": "La Limagne",
+              "la-beauce": "La Beauce",
+              "la-brie": "La Brie",
+              "la-bresse": "La Bresse"
+            }
+          },
+          "chaine-unesco": {
+            "prompt": "Quel alignement d'environ 80 volcans est inscrit au patrimoine mondial depuis 2018 ?",
+            "hint": "Il s'étire sur une quarantaine de kilomètres, à l'ouest de Clermont-Ferrand.",
+            "anecdote": "Ces volcans, jeunes à l'échelle géologique, s'alignent le long d'une faille. L'ensemble a été le premier bien naturel de France hexagonale inscrit à ce titre.",
+            "answers": {
+              "la-chaine-des-puys": "La chaîne des Puys",
+              "le-massif-du-cantal": "Le massif du Cantal",
+              "le-massif-du-sancy": "Le massif du Sancy",
+              "les-monts-du-forez": "Les monts du Forez"
+            }
+          },
+          "auvergnats": {
+            "prompt": "Comment appelle-t-on les habitants de cette région historique ?",
+            "hint": "Georges Brassens leur a dédié une chanson.",
+            "anecdote": "La chanson de Brassens, parue en 1954, remercie celui qui lui a donné du bois et du feu quand il avait froid.",
+            "answers": {
+              "les-auvergnats": "Les Auvergnats",
+              "les-ardechois": "Les Ardéchois",
+              "les-limousins": "Les Limousins",
+              "les-aveyronnais": "Les Aveyronnais"
+            }
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs d'Auvergne",
+          "description": "Cinq fromages AOP, des plats de montagne, des eaux minérales et les douceurs d'un terroir volcanique.",
+          "cinq-aop": {
+            "prompt": "Combien de fromages AOP l'Auvergne met-elle traditionnellement en avant ?",
+            "hint": "Autant que les doigts d'une main.",
+            "anecdote": "Le saint-nectaire, le cantal, le salers, le bleu d'Auvergne et la fourme d'Ambert forment ce célèbre ensemble.",
+            "answers": {
+              "cinq": "Cinq",
+              "deux": "Deux",
+              "dix": "Dix",
+              "vingt": "Vingt"
+            }
+          },
+          "nectaire-visuel": {
+            "prompt": "Quel fromage à croûte grise et à pâte souple est né dans les monts Dore ?",
+            "hint": "Il porte le nom d'un village à l'église romane.",
+            "anecdote": "Ce fromage à pâte pressée non cuite se fabrique à deux reprises par jour, juste après la traite, à la ferme comme à la laiterie.",
+            "answers": {
+              "le-saint-nectaire": "Le saint-nectaire",
+              "le-cantal": "Le cantal",
+              "le-bleu-d-auvergne": "Le bleu d'Auvergne",
+              "la-fourme-d-ambert": "La fourme d'Ambert"
+            }
+          },
+          "seigle": {
+            "prompt": "De quelle céréale provient la paille sur laquelle on affine traditionnellement ces tommes ?",
+            "hint": "C'est une céréale de montagne, à tige longue.",
+            "anecdote": "Les fromages reposent à cœur de cave, sur leur lit de paille. Leur croûte se couvre alors de fleurs grises, blanches, jaunes ou rouges.",
+            "answers": {
+              "le-seigle": "Le seigle",
+              "le-mais": "Le maïs",
+              "le-riz": "Le riz",
+              "l-avoine": "L'avoine"
+            }
+          },
+          "senneterre": {
+            "prompt": "Quel maréchal de France aurait fait goûter le saint-nectaire à Louis XIV ?",
+            "hint": "Son nom ressemble à celui du fromage.",
+            "anecdote": "Henri de La Ferté-Senneterre, seigneur auvergnat, aurait présenté ce fromage à la table du roi au XVIIe siècle.",
+            "answers": {
+              "le-marechal-de-senneterre": "Le maréchal de Senneterre",
+              "le-marechal-de-vauban": "Le maréchal de Vauban",
+              "le-marechal-de-turenne": "Le maréchal de Turenne",
+              "le-marechal-de-villars": "Le maréchal de Villars"
+            }
+          },
+          "fourme-visuel": {
+            "prompt": "Quel bleu doux, en forme de haut cylindre, vient du Livradois-Forez ?",
+            "hint": "Son nom désigne aussi une ville à la mairie toute ronde.",
+            "anecdote": "Selon la tradition, ce fromage serait connu depuis le Moyen Âge. Il figure parmi les plus doux des bleus français.",
+            "answers": {
+              "la-fourme-d-ambert": "La fourme d'Ambert",
+              "le-bleu-d-auvergne": "Le bleu d'Auvergne",
+              "le-roquefort": "Le roquefort",
+              "le-saint-nectaire": "Le saint-nectaire"
+            }
+          },
+          "roussel": {
+            "prompt": "Quel fromage aurait été mis au point vers 1850 par Antoine Roussel, avec du pain moisi ?",
+            "hint": "Son nom contient celui de la province.",
+            "anecdote": "Ce paysan, selon la tradition, aurait ensemencé son caillé d'une moisissure récupérée sur du pain de seigle.",
+            "answers": {
+              "le-bleu-d-auvergne": "Le bleu d'Auvergne",
+              "le-salers": "Le salers",
+              "le-cantal": "Le cantal",
+              "le-saint-nectaire": "Le saint-nectaire"
+            }
+          },
+          "cantal-visuel": {
+            "prompt": "Quel fromage à pâte pressée, l'un des plus anciens de France, porte le nom d'un département ?",
+            "hint": "Sa préfecture est Aurillac.",
+            "anecdote": "Pline l'Ancien évoquait déjà, au Ier siècle, un fromage du Gévaudan et de la Lozère, souvent rapproché de celui-ci.",
+            "answers": {
+              "le-cantal": "Le cantal",
+              "le-saint-nectaire": "Le saint-nectaire",
+              "la-fourme-d-ambert": "La fourme d'Ambert",
+              "le-laguiole": "Le laguiole"
+            }
+          },
+          "cantal-vieux": {
+            "prompt": "Quelle mention porte un cantal affiné au moins huit mois ?",
+            "hint": "C'est la plus forte en goût des trois mentions.",
+            "anecdote": "On distingue le cantal jeune, l'entre-deux et ce dernier, au goût puissant et à la croûte bien marquée.",
+            "answers": {
+              "vieux": "Vieux",
+              "doux": "Doux",
+              "frais": "Frais",
+              "jeune": "Jeune"
+            }
+          },
+          "gerle": {
+            "prompt": "Dans quel récipient de bois le lait du salers est-il traditionnellement mis à cailler ?",
+            "hint": "Le mot commence comme « gerbe ».",
+            "anecdote": "Le bois de ce grand récipient apporte des ferments naturels. Son usage reste obligatoire pour ce fromage.",
+            "answers": {
+              "la-gerle": "La gerle",
+              "la-baratte": "La baratte",
+              "la-cuvelle": "La cuvelle",
+              "le-tonneau": "Le tonneau"
+            }
+          },
+          "salers-village": {
+            "prompt": "Ce fromage fermier de montagne porte le nom de quel village du Cantal ?",
+            "hint": "Ce village a également donné son nom à une race de vaches.",
+            "anecdote": "Il n'est produit qu'à la ferme, et à la belle saison, lorsque les vaches paissent à l'herbe. Le village est célèbre pour ses maisons de lave."
+          },
+          "carte-salers": {
+            "prompt": "Touchez le département où se trouve le village de Salers.",
+            "hint": "Il a pour préfecture Aurillac.",
+            "anecdote": "Le village, perché à plus de 900 mètres, garde un riche ensemble de maisons Renaissance en pierre de lave."
+          },
+          "truffade": {
+            "prompt": "Quel plat cantalien associe pommes de terre et tome fraîche ?",
+            "hint": "Son nom évoque la « truffe », l'ancien nom de la pomme de terre.",
+            "anecdote": "Les pommes de terre, cuites dans la graisse, sont mêlées à la tome jusqu'à ce qu'elle file. On la sert souvent avec du jambon cru.",
+            "answers": {
+              "la-truffade": "La truffade",
+              "la-tartiflette": "La tartiflette",
+              "la-raclette": "La raclette",
+              "la-fondue": "La fondue"
+            }
+          },
+          "aligot": {
+            "prompt": "Quelle purée filante, liée à la tome fraîche, vient des plateaux de l'Aubrac ?",
+            "hint": "Elle se partage entre l'Aveyron, le Cantal et la Lozère.",
+            "anecdote": "On la bat longuement, jusqu'à obtenir de longs rubans élastiques. Elle accompagne souvent la saucisse.",
+            "answers": {
+              "l-aligot": "L'aligot",
+              "la-truffade": "La truffade",
+              "le-gratin-dauphinois": "Le gratin dauphinois",
+              "la-potee": "La potée"
+            }
+          },
+          "pounti": {
+            "prompt": "Comment s'appelle cette terrine auvergnate aux herbes, au lard et aux pruneaux ?",
+            "hint": "Son nom se termine par la lettre i.",
+            "anecdote": "Ce plat de ferme, à la fois salé et sucré, mêle souvent blettes, oignons, lard et pruneaux, avec une pâte à base d'œufs.",
+            "answers": {
+              "le-pounti": "Le pounti",
+              "le-tripou": "Le tripou",
+              "le-fricandeau": "Le fricandeau",
+              "le-pate-de-foie": "Le pâté de foie"
+            }
+          },
+          "potee": {
+            "prompt": "Quel plat d'hiver auvergnat réunit chou, pommes de terre, lard et charcuterie ?",
+            "hint": "On le cuit longuement dans un grand récipient de terre ou de fonte.",
+            "anecdote": "Elle était préparée dans une marmite suspendue dans l'âtre. On la retrouve dans plusieurs régions, sous des formes différentes.",
+            "answers": {
+              "la-potee": "La potée",
+              "la-choucroute": "La choucroute",
+              "le-cassoulet": "Le cassoulet",
+              "la-garbure": "La garbure"
+            }
+          },
+          "lentilles-visuel": {
+            "prompt": "Ces petites lentilles vertes sont l'une des fiertés de quelle ville ?",
+            "hint": "Sa cathédrale est un haut lieu de pèlerinage.",
+            "anecdote": "Ces lentilles poussent sur les plateaux volcaniques du Velay, à plus de 600 mètres, dans un climat sec en été."
+          },
+          "lentilles-aoc": {
+            "prompt": "En quelle année la lentille verte du Puy a-t-elle obtenu son appellation d'origine contrôlée ?",
+            "hint": "C'est dans les années 1990.",
+            "anecdote": "Elle a été la première légumineuse française à obtenir cette reconnaissance, avant de devenir une AOP européenne.",
+            "answers": {
+              "1936": "1936",
+              "1966": "1966",
+              "1996": "1996",
+              "2016": "2016"
+            }
+          },
+          "carte-lentilles": {
+            "prompt": "Touchez le département des lentilles vertes du Puy.",
+            "hint": "Il a pour préfecture Le Puy-en-Velay.",
+            "anecdote": "L'aire de production de ces lentilles couvre près de 90 communes, toutes situées dans ce département."
+          },
+          "tripoux": {
+            "prompt": "Quels petits paquets de tripes farcies sont une spécialité de Saint-Flour et de l'Aveyron ?",
+            "hint": "Leur nom contient presque le mot « tripes ».",
+            "anecdote": "Ces paquets mijotent de longues heures dans une sauce au vin blanc, et se dégustent traditionnellement au petit matin.",
+            "answers": {
+              "les-tripoux": "Les tripoux",
+              "les-quenelles": "Les quenelles",
+              "les-andouillettes": "Les andouillettes",
+              "les-gratons": "Les gratons"
+            }
+          },
+          "pate-pommes": {
+            "prompt": "Quelle tourte, garnie de crème, est un classique du Bourbonnais ?",
+            "hint": "Elle repose sur le même tubercule que la truffade.",
+            "anecdote": "Les tranches de tubercules sont enfermées dans de la pâte feuilletée ou brisée, puis la crème est ajoutée en fin de cuisson.",
+            "answers": {
+              "le-pate-aux-pommes-de-terre": "Le pâté aux pommes de terre",
+              "la-quiche-lorraine": "La quiche lorraine",
+              "la-flamiche-aux-poireaux": "La flamiche aux poireaux",
+              "la-tourte-de-blettes": "La tourte de blettes"
+            }
+          },
+          "soupe-choux": {
+            "prompt": "Quel plat donne son titre au roman de René Fallet situé dans le Bourbonnais ?",
+            "hint": "Louis de Funès et Jean Carmet l'ont porté à l'écran en 1981.",
+            "anecdote": "Le roman, paru en 1980, met en scène deux vieux paysans et une visite extraterrestre attirée par le fumet du plat.",
+            "answers": {
+              "la-soupe-aux-choux": "La soupe aux choux",
+              "la-soupe-a-l-oignon": "La soupe à l'oignon",
+              "le-bouillon-de-poule": "Le bouillon de poule",
+              "la-potee-au-lard": "La potée au lard"
+            }
+          },
+          "saint-pourcain": {
+            "prompt": "Quel vignoble de l'Allier a obtenu son appellation d'origine contrôlée en 2009 ?",
+            "hint": "Il porte le nom d'une ville sur la Sioule.",
+            "anecdote": "Ce vignoble très ancien était déjà prisé à la table des rois de France, au Moyen Âge.",
+            "answers": {
+              "saint-pourcain": "Saint-Pourçain",
+              "chablis": "Chablis",
+              "sancerre": "Sancerre",
+              "chateaugay": "Châteaugay"
+            }
+          },
+          "carte-saint-pourcain": {
+            "prompt": "Touchez le département du vignoble de Saint-Pourçain.",
+            "hint": "C'est le plus au nord d'Auvergne.",
+            "anecdote": "Ce petit vignoble s'étend le long de la Sioule et compte une vingtaine de communes."
+          },
+          "gamay": {
+            "prompt": "Quel cépage rouge domine dans le vignoble des côtes d'Auvergne ?",
+            "hint": "C'est aussi le cépage du beaujolais.",
+            "anecdote": "Il s'épanouit sur les sols volcaniques et argilo-calcaires de la Limagne. Les vins des côtes d'Auvergne ont obtenu leur AOC en 2011.",
+            "answers": {
+              "le-gamay": "Le gamay",
+              "le-merlot": "Le merlot",
+              "la-syrah": "La syrah",
+              "le-cabernet-franc": "Le cabernet franc"
+            }
+          },
+          "verveine": {
+            "prompt": "Quelle liqueur verte ou jaune est née près du Puy-en-Velay au XIXe siècle ?",
+            "hint": "Elle porte le nom d'une plante à tisane.",
+            "anecdote": "Sa recette, élaborée en 1859 par Joseph Rumillet-Charretier, associe plus de 30 plantes. Victor Pagès reprend la distillerie en 1886.",
+            "answers": {
+              "la-verveine-du-velay": "La verveine du Velay",
+              "la-chartreuse": "La chartreuse",
+              "l-izarra": "L'izarra",
+              "le-genepi": "Le génépi"
+            }
+          },
+          "gentiane": {
+            "prompt": "La racine de quelle plante de montagne parfume les apéritifs Salers et Avèze ?",
+            "hint": "Elle fleurit en jaune sur les estives.",
+            "anecdote": "Sa racine, très amère, est arrachée à la main ou à la fourche, sur les hauts plateaux. Le Cantal en a fait une spécialité.",
+            "answers": {
+              "la-gentiane": "La gentiane",
+              "la-menthe": "La menthe",
+              "la-lavande": "La lavande",
+              "le-serpolet": "Le serpolet"
+            }
+          },
+          "eau-volcans": {
+            "prompt": "Quelle eau minérale célèbre est filtrée par les roches de la chaîne des Puys ?",
+            "hint": "Elle porte le nom d'une commune proche de Riom.",
+            "anecdote": "L'eau de pluie traverse lentement plusieurs couches de roche volcanique, qui la filtrent et lui apportent ses minéraux.",
+            "answers": {
+              "evian": "Evian",
+              "vittel": "Vittel",
+              "contrex": "Contrex"
+            }
+          },
+          "saint-yorre": {
+            "prompt": "Quelle eau pétillante très minéralisée est puisée près de Vichy ?",
+            "hint": "C'est le nom d'une commune de l'Allier sur la même rivière.",
+            "anecdote": "Cette eau, très riche en bicarbonates, est naturellement gazeuse et a un goût salé bien particulier.",
+            "answers": {
+              "saint-yorre": "Saint-Yorre",
+              "perrier": "Perrier",
+              "badoit": "Badoit",
+              "la-salvetat": "La Salvetat"
+            }
+          },
+          "pastilles": {
+            "prompt": "De quelle ville thermale ces petites pastilles blanches octogonales sont-elles originaires ?",
+            "hint": "Son nom désigne aussi un célèbre tissu à carreaux.",
+            "anecdote": "Elles sont fabriquées depuis le XIXe siècle, à partir de sels minéraux extraits des eaux des sources locales.",
+            "answers": {
+              "evian": "Évian"
+            }
+          },
+          "pastilles-sels": {
+            "prompt": "Qu'est-ce que les pastilles de Vichy contiennent de particulier ?",
+            "hint": "Ils proviennent des eaux thermales.",
+            "anecdote": "Elle naît en 1825, des travaux du chimiste Jean-Pierre-Joseph d'Arcet sur la digestion.",
+            "answers": {
+              "des-sels-mineraux": "Des sels minéraux",
+              "des-petales-de-fleurs": "Des pétales de fleurs",
+              "du-miel-de-lavande": "Du miel de lavande",
+              "du-lait-de-chevre": "Du lait de chèvre"
+            }
+          },
+          "cornet": {
+            "prompt": "De quelle ville du Cantal ce cornet garni de crème est-il une spécialité ?",
+            "hint": "Elle se trouve au pied du rocher de Bonnevie.",
+            "anecdote": "Sa pâte fine est roulée à chaud autour d'un cône, puis garnie de crème fouettée."
+          },
+          "pates-fruits": {
+            "prompt": "Quelle confiserie est une spécialité historique de Clermont-Ferrand ?",
+            "hint": "Les vergers de la Limagne en ont fourni la matière.",
+            "anecdote": "Les vergers de la plaine alimentaient ces fabriques. Les confiseurs clermontois en ont fait une renommée qui remonte au Moyen Âge.",
+            "answers": {
+              "les-pates-de-fruits": "Les pâtes de fruits",
+              "les-calissons": "Les calissons",
+              "les-betises": "Les bêtises",
+              "les-nougats": "Les nougats"
+            }
+          },
+          "piquenchagne": {
+            "prompt": "Comment s'appelle la tarte aux poires typique du Bourbonnais ?",
+            "hint": "Son nom se termine par -chagne.",
+            "anecdote": "Les poires, souvent placées debout, sont cuites dans une pâte briochée.",
+            "answers": {
+              "le-piquenchagne": "Le piquenchâgne",
+              "le-kouign-amann": "Le kouign-amann",
+              "le-far": "Le far",
+              "le-clafoutis": "Le clafoutis"
+            }
+          },
+          "vache-salers": {
+            "prompt": "Quelle race de vache à la robe acajou et aux cornes en lyre est née dans le Cantal ?",
+            "hint": "Elle porte le nom d'un village célèbre pour ses maisons de lave.",
+            "anecdote": "Rustique, excellente marcheuse, elle supporte les hivers du Cantal. Jadis, elle ne donnait son lait qu'en présence de son veau.",
+            "answers": {
+              "la-salers": "La salers",
+              "la-charolaise": "La charolaise",
+              "la-normande": "La normande",
+              "la-holstein": "La holstein"
+            }
+          },
+          "buron": {
+            "prompt": "Comment s'appelle cette cabane de pierre où les vachers vivaient l'été sur les estives ?",
+            "hint": "Son nom se termine comme celui de « maison » ou « maçon », par -on.",
+            "anecdote": "Le fromage y était fabriqué et affiné, de mai à octobre. Quelques-uns ont été conservés, et certains se visitent.",
+            "answers": {
+              "un-buron": "Un buron",
+              "un-chalet": "Un chalet",
+              "un-mas": "Un mas",
+              "une-borie": "Une borie"
+            }
+          },
+          "estive": {
+            "prompt": "Comment appelle-t-on les pâturages d'altitude où montent les troupeaux en été ?",
+            "hint": "Le mot fait penser à la saison chaude.",
+            "anecdote": "Les vaches y montent à la fin du printemps. Cette montée est encore célébrée, par exemple lors d'une grande fête à Allanche.",
+            "answers": {
+              "les-estives": "Les estives",
+              "les-bocages": "Les bocages",
+              "les-landes": "Les landes",
+              "les-marais": "Les marais"
+            }
+          },
+          "charolaise": {
+            "prompt": "Quelle race bovine à la robe blanche domine les prés de l'Allier ?",
+            "hint": "Elle doit son nom à une région voisine de Saône-et-Loire.",
+            "anecdote": "Ce département est l'un des tout premiers berceaux français de cette race à viande, élevée dans le bocage bourbonnais.",
+            "answers": {
+              "la-charolaise": "La charolaise",
+              "l-aubrac": "L'aubrac",
+              "la-limousine": "La limousine",
+              "la-ferrandaise": "La ferrandaise"
+            }
+          },
+          "fin-gras": {
+            "prompt": "Quel bœuf, engraissé au foin des hauts plateaux, porte le nom d'un massif du Velay ?",
+            "hint": "Ce massif sépare la Haute-Loire et l'Ardèche.",
+            "anecdote": "Cette viande persillée n'est produite qu'en hiver et au printemps. Elle a obtenu une AOP en 2013.",
+            "answers": {
+              "le-fin-gras-du-mezenc": "Le fin gras du Mézenc",
+              "le-boeuf-de-bazas": "Le bœuf de Bazas",
+              "le-boeuf-de-chalosse": "Le bœuf de Chalosse",
+              "le-taureau-de-camargue": "Le taureau de Camargue"
+            }
+          },
+          "lentille-blonde": {
+            "prompt": "Quelle légumineuse a été relancée sur la planèze de Saint-Flour ?",
+            "hint": "Elle n'est pas verte comme celle du Velay.",
+            "anecdote": "Elle a failli disparaître au XXe siècle. Des agriculteurs passionnés l'ont fait revivre à partir des années 1990.",
+            "answers": {
+              "la-lentille-blonde": "La lentille blonde",
+              "le-pois-chiche": "Le pois chiche",
+              "la-feve": "La fève",
+              "le-haricot-tarbais": "Le haricot tarbais"
+            }
+          },
+          "ail-billom": {
+            "prompt": "Quelle plante potagère a fait la réputation de Billom, à l'est de Clermont-Ferrand ?",
+            "hint": "Elle se tresse et éloigne les vampires, dans les contes.",
+            "anecdote": "La ville célèbre chaque été ce produit, cultivé dans la plaine, lors d'une fête qui lui est entièrement consacrée.",
+            "answers": {
+              "l-ail": "L'ail",
+              "l-oignon": "L'oignon",
+              "le-poireau": "Le poireau",
+              "l-echalote": "L'échalote"
+            }
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Églises romanes, cités de pierre noire, châteaux et villes d'eaux, de la Limagne au Velay.",
+          "port-chapiteau": {
+            "prompt": "Dans quelle basilique romane de Clermont-Ferrand peut-on admirer ce chapiteau sculpté ?",
+            "hint": "Son nom évoque un lieu où l'on amarre les bateaux.",
+            "anecdote": "Cette basilique du XIIe siècle est inscrite au patrimoine mondial depuis 1998, au titre des chemins de Compostelle.",
+            "answers": {
+              "notre-dame-du-port": "Notre-Dame-du-Port",
+              "saint-austremoine": "Saint-Austremoine",
+              "saint-julien": "Saint-Julien",
+              "saint-geraud": "Saint-Géraud"
+            }
+          },
+          "cinq-romanes": {
+            "prompt": "Combien d'églises forment le groupe des « majeures » romanes de Basse-Auvergne ?",
+            "hint": "Autant que les fromages AOP de la région.",
+            "anecdote": "Issoire, Orcival, Saint-Nectaire, Saint-Saturnin et Notre-Dame-du-Port à Clermont-Ferrand composent cet ensemble du XIIe siècle.",
+            "answers": {
+              "cinq": "Cinq",
+              "deux": "Deux",
+              "douze": "Douze",
+              "vingt": "Vingt"
+            }
+          },
+          "issoire": {
+            "prompt": "Dans quelle ville du Puy-de-Dôme se dresse ce chevet roman polychrome ?",
+            "hint": "Elle se trouve au sud de Clermont-Ferrand, sur la Couze.",
+            "anecdote": "L'abbatiale Saint-Austremoine porte le nom de l'évangélisateur de l'Auvergne. Son chevet est orné d'un zodiaque sculpté."
+          },
+          "orcival": {
+            "prompt": "Quel village des monts Dore abrite cette basilique romane, lieu de pèlerinage à la Vierge ?",
+            "hint": "Il se trouve à moins de 10 kilomètres du lac de Guéry.",
+            "anecdote": "Sa Vierge en majesté, conservée dans le chœur, attire chaque année un grand pèlerinage, le jeudi de l'Ascension."
+          },
+          "saint-nectaire-eglise": {
+            "prompt": "Dans quel village, qui a donné son nom à un fromage, se dresse cette église romane ?",
+            "hint": "Le fromage en question affine sur de la paille de seigle.",
+            "anecdote": "Bâtie vers 1150, l'église conserve de remarquables chapiteaux. Le village est aussi une station thermale."
+          },
+          "brioude": {
+            "prompt": "Dans quelle ville de Haute-Loire se trouve la basilique Saint-Julien, la plus vaste église romane d'Auvergne ?",
+            "hint": "Elle se trouve non loin de l'Allier.",
+            "anecdote": "Elle attirait déjà les pèlerins aux premiers siècles, sur la tombe d'un martyr romain. Ses sols de galets et ses peintures sont réputés."
+          },
+          "aiguilhe": {
+            "prompt": "Comment se nomme cette chapelle perchée sur une aiguille de lave, près du Puy-en-Velay ?",
+            "hint": "Elle est dédiée à un archange.",
+            "anecdote": "Bâtie vers 962, elle coiffe un piton de plus de 80 mètres, auquel on accède par 268 marches.",
+            "answers": {
+              "saint-michel-d-aiguilhe": "Saint-Michel d'Aiguilhe",
+              "notre-dame-du-port": "Notre-Dame-du-Port",
+              "saint-julien": "Saint-Julien",
+              "saint-geraud": "Saint-Géraud"
+            }
+          },
+          "nd-france": {
+            "prompt": "Cette statue monumentale du Puy-en-Velay a été fondue dans des canons pris dans quelle ville ?",
+            "hint": "C'est un port de Crimée, enjeu d'une guerre sous Napoléon III.",
+            "anecdote": "Inaugurée en 1860, elle a été réalisée avec le métal de plus de 200 canons, offerts par l'empereur.",
+            "answers": {
+              "sebastopol": "Sébastopol",
+              "solferino": "Solférino",
+              "waterloo": "Waterloo",
+              "austerlitz": "Austerlitz"
+            }
+          },
+          "polignac": {
+            "prompt": "Quelle forteresse du Velay, sur un plateau de lave, a donné son nom à une très ancienne famille ?",
+            "hint": "Son nom se termine en -ac.",
+            "anecdote": "Ses seigneurs, surnommés « rois des montagnes », tenaient la route du Puy. Leur famille a gardé ce nom jusqu'à nos jours.",
+            "answers": {
+              "polignac": "Polignac",
+              "tournoel": "Tournoël",
+              "anjony": "Anjony"
+            }
+          },
+          "murol": {
+            "prompt": "Quel château médiéval, à la cour souvent animée, domine le lac Chambon ?",
+            "hint": "Son nom ressemble au mot « mur ».",
+            "anecdote": "Élevée sur une butte de basalte, cette forteresse des XIIe et XIIIe siècles reçoit aujourd'hui des animations médiévales.",
+            "answers": {
+              "tournoel": "Tournoël",
+              "anjony": "Anjony",
+              "polignac": "Polignac"
+            }
+          },
+          "tournoel": {
+            "prompt": "Quel château à donjon rond domine Volvic et la plaine de la Limagne ?",
+            "hint": "Son nom contient le mot « Noël ».",
+            "anecdote": "Il a longtemps été disputé. L'armée de Philippe Auguste le prend aux comtes d'Auvergne en 1213.",
+            "answers": {
+              "tournoel": "Tournoël",
+              "polignac": "Polignac",
+              "anjony": "Anjony"
+            }
+          },
+          "anjony": {
+            "prompt": "Quel château du Cantal à quatre tours rondes domine le village de Tournemire ?",
+            "hint": "Son nom commence comme le prénom Anne, avec un j.",
+            "anecdote": "Élevé au XVe siècle, il conserve de remarquables fresques. Sa lignée a longtemps été en querelle avec ses voisins de Tournemire.",
+            "answers": {
+              "anjony": "Anjony",
+              "polignac": "Polignac",
+              "tournoel": "Tournoël"
+            }
+          },
+          "garabit": {
+            "prompt": "L'entreprise de quel ingénieur a construit ce viaduc ferroviaire sur la Truyère ?",
+            "hint": "Il a aussi donné son nom à une tour à Paris.",
+            "anecdote": "Achevé en 1884, ce pont de fer a été un temps le plus haut du monde. Il préfigure la célèbre tour de 1889.",
+            "answers": {
+              "gustave-eiffel": "Gustave Eiffel",
+              "ferdinand-de-lesseps": "Ferdinand de Lesseps",
+              "marc-seguin": "Marc Seguin",
+              "fulgence-bienvenue": "Fulgence Bienvenüe"
+            }
+          },
+          "sainte-chapelle": {
+            "prompt": "Quel prince, frère du roi Charles V, a fait bâtir à Riom cette Sainte-Chapelle ?",
+            "hint": "Il reste célèbre pour ses riches manuscrits enluminés.",
+            "anecdote": "La chapelle faisait partie de son palais d'Auvergne, à la fin du XIVe siècle. Ses vitraux datent du XVe siècle.",
+            "answers": {
+              "jean-de-berry": "Jean de Berry",
+              "philippe-le-bel": "Philippe le Bel",
+              "louis-xi": "Louis XI",
+              "charles-de-bourbon": "Charles de Bourbon"
+            }
+          },
+          "triptyque": {
+            "prompt": "Dans quelle cathédrale de l'Allier est conservé ce triptyque peint vers 1500 ?",
+            "hint": "Elle se trouve dans la préfecture du département.",
+            "anecdote": "Son auteur, longtemps connu sous le nom de maître de cette ville, est aujourd'hui identifié à Jean Hey."
+          },
+          "danse-macabre": {
+            "prompt": "Quel thème illustre cette fresque du XVe siècle à l'abbaye de La Chaise-Dieu ?",
+            "hint": "Les squelettes entraînent les vivants.",
+            "anecdote": "Elle rappelle que la mort frappe tout le monde, du pape au laboureur. Elle s'étire sur près de 26 mètres, le long du chœur.",
+            "answers": {
+              "la-danse-macabre": "La danse macabre",
+              "la-cene": "La Cène",
+              "le-jugement-de-paris": "Le Jugement de Pâris",
+              "la-tentation-de-saint-antoine": "La tentation de saint Antoine"
+            }
+          },
+          "clement-vi": {
+            "prompt": "Quel pape d'Avignon, ancien moine de La Chaise-Dieu, y a fait rebâtir l'abbatiale et y repose ?",
+            "hint": "C'est le sixième à porter ce prénom.",
+            "anecdote": "Pierre Roger, né en Limousin, entre à l'abbaye comme jeune moine. Son tombeau est toujours visible dans le chœur.",
+            "answers": {
+              "clement-vi": "Clément VI",
+              "urbain-ii": "Urbain II",
+              "sylvestre-ii": "Sylvestre II",
+              "benoit-xii": "Benoît XII"
+            }
+          },
+          "temple-mercure": {
+            "prompt": "À quel dieu romain ce grand temple, au sommet du puy de Dôme, était-il consacré ?",
+            "hint": "Il est le messager des dieux.",
+            "anecdote": "Construit au IIe siècle, il était l'un des plus grands sanctuaires de montagne de la Gaule romaine.",
+            "answers": {
+              "mercure": "Mercure",
+              "jupiter": "Jupiter",
+              "mars": "Mars",
+              "neptune": "Neptune"
+            }
+          },
+          "amboise": {
+            "prompt": "De quel évêque de Clermont cette fontaine Renaissance porte-t-elle le nom ?",
+            "hint": "Son nom est aussi celui d'un château de la Loire.",
+            "anecdote": "Offerte à la ville en 1515, cette fontaine est taillée dans la pierre de lave.",
+            "answers": {
+              "jacques-d-amboise": "Jacques d'Amboise",
+              "sidoine-apollinaire": "Sidoine Apollinaire",
+              "jean-baptiste-massillon": "Jean-Baptiste Massillon",
+              "gregoire-de-tours": "Grégoire de Tours"
+            }
+          },
+          "montferrand": {
+            "prompt": "Quelle ancienne cité aux hôtels Renaissance a été réunie à Clermont en 1630 ?",
+            "hint": "Elle forme la seconde moitié du nom de la ville actuelle.",
+            "anecdote": "Ces deux cités rivales ont été réunies par un édit de Louis XIII. La fusion a été confirmée par Louis XV en 1731.",
+            "answers": {
+              "montferrand": "Montferrand",
+              "chamalieres": "Chamalières"
+            }
+          },
+          "carte-thiers": {
+            "prompt": "Touchez le département où se trouve Thiers.",
+            "hint": "Il porte le nom d'un volcan.",
+            "anecdote": "Thiers occupe l'est du département, sur les pentes des monts du Livradois-Forez."
+          },
+          "carte-moulins": {
+            "prompt": "Touchez le département où se trouve Moulins.",
+            "hint": "Il est le plus au nord d'Auvergne.",
+            "anecdote": "La ville se trouve sur l'Allier, qui traverse tout le département."
+          },
+          "carte-saint-flour": {
+            "prompt": "Touchez le département où se trouve Saint-Flour.",
+            "hint": "Son nom désigne aussi un fromage.",
+            "anecdote": "La vieille ville est perchée sur une table de basalte, à près de 900 mètres d'altitude."
+          },
+          "carte-brioude": {
+            "prompt": "Touchez le département où se trouve Brioude.",
+            "hint": "Son nom rappelle un grand fleuve français.",
+            "anecdote": "Brioude se trouve à l'ouest du département, tout près de l'Allier. Elle en est une sous-préfecture."
+          },
+          "moulins-cite": {
+            "prompt": "Quelle ville de l'Allier, longtemps capitale des ducs de Bourbon, abrite cette cathédrale ?",
+            "hint": "Son nom évoque le fait de moudre le grain.",
+            "anecdote": "Sa cathédrale, commencée à la fin du XVe siècle, a été prolongée au XIXe siècle dans un style néogothique."
+          },
+          "jacquemart": {
+            "prompt": "Comment appelle-t-on ces personnages de métal qui frappent les heures sur une cloche ?",
+            "hint": "Leur nom commence comme le prénom Jacques.",
+            "anecdote": "Ceux de Moulins, juchés en haut d'un beffroi, forment une famille entière. Le plus ancien est mentionné dès le XVe siècle.",
+            "answers": {
+              "des-jacquemarts": "Des jacquemarts",
+              "des-gargouilles": "Des gargouilles",
+              "des-atlantes": "Des atlantes",
+              "des-cariatides": "Des cariatides"
+            }
+          },
+          "montlucon-riviere": {
+            "prompt": "Quelle rivière traverse Montluçon, au pied de ce château des ducs de Bourbon ?",
+            "hint": "C'est aussi le nom d'un département voisin.",
+            "anecdote": "La ville s'est fortement développée au XIXe siècle, grâce à un canal qui amenait le charbon de Commentry.",
+            "answers": {
+              "le-cher": "Le Cher",
+              "l-allier": "L'Allier",
+              "la-sioule": "La Sioule",
+              "la-besbre": "La Besbre"
+            }
+          },
+          "saint-flour": {
+            "prompt": "Quelle ville perchée du Cantal possède cette cathédrale de pierre noire ?",
+            "hint": "Son nom évoque le pétale, avec un « saint » devant.",
+            "anecdote": "Cet édifice gothique du XVe siècle est bâti en basalte. Il s'élève sur un rebord de plateau, à près de 900 mètres d'altitude."
+          },
+          "saint-geraud": {
+            "prompt": "Autour de l'abbaye de quel saint s'est développée la ville d'Aurillac ?",
+            "hint": "Ce comte du IXe siècle a fondé l'abbaye.",
+            "anecdote": "Son abbaye a accueilli le jeune moine Gerbert, qui deviendra pape à la fin du Xe siècle.",
+            "answers": {
+              "saint-geraud": "Saint Géraud",
+              "saint-julien": "Saint Julien",
+              "saint-austremoine": "Saint Austremoine",
+              "saint-robert": "Saint Robert"
+            }
+          },
+          "riom-ville": {
+            "prompt": "Quelle ville, ancienne capitale du duché d'Auvergne, abrite ce chevet gothique ?",
+            "hint": "Elle se trouve au nord de Clermont-Ferrand et abrite une cour d'appel.",
+            "anecdote": "Ses rues gardent de nombreux hôtels particuliers bâtis en pierre de Volvic, qui lui donnent sa couleur sombre."
+          },
+          "hall-sources": {
+            "prompt": "Quelle ville, inscrite en 2021 parmi les grandes villes d'eaux d'Europe, abrite ce hall ?",
+            "hint": "Elle est située dans l'Allier.",
+            "anecdote": "Cette inscription au patrimoine mondial rassemble onze stations thermales de sept pays européens. Cette ville est la seule en France."
+          },
+          "neris": {
+            "prompt": "Quelle station thermale de l'Allier était déjà fréquentée au temps des Romains ?",
+            "hint": "Elle se trouve près de Montluçon.",
+            "anecdote": "La cité antique portait le nom de Neriomagus. Ses thermes, ses arènes et ses vestiges rappellent cette ancienneté."
+          },
+          "charroux": {
+            "prompt": "Quel village de l'Allier classé parmi les plus beaux de France garde ces maisons à colombages ?",
+            "hint": "Son nom ressemble à celui d'une charrue.",
+            "anecdote": "Ancienne cité fortifiée, il conserve ses rues médiévales et sa maison dite du Prince de Condé.",
+            "answers": {
+              "montpeyroux": "Montpeyroux"
+            }
+          },
+          "blesle": {
+            "prompt": "Quel village de Haute-Loire s'est formé autour d'une abbaye de femmes fondée au IXe siècle ?",
+            "hint": "Son nom commence comme le mot « bleu ».",
+            "anecdote": "La mère de Guillaume le Pieux, fondateur de Cluny, serait à l'origine de cette abbaye de bénédictines.",
+            "answers": {
+              "usson": "Usson"
+            }
+          },
+          "murat": {
+            "prompt": "Quelle petite ville du Cantal s'adosse à ce rocher de Bonnevie ?",
+            "hint": "Elle est célèbre pour une pâtisserie en forme de cornet.",
+            "anecdote": "Le rocher de basalte, avec ses orgues, portait autrefois un château. Il est aujourd'hui coiffé d'une statue de la Vierge."
+          },
+          "ambert-mairie": {
+            "prompt": "Quelle ville du Livradois-Forez possède cette mairie entièrement ronde ?",
+            "hint": "Elle a donné son nom à une fourme.",
+            "anecdote": "Le romancier Jules Romains y situe une partie des aventures de son roman Les Copains."
+          },
+          "pascal": {
+            "prompt": "Quel savant et philosophe, auteur des Pensées, est né à Clermont en 1623 ?",
+            "hint": "Son nom désigne aussi une unité de pression.",
+            "anecdote": "Mathématicien et physicien précoce, il a aussi inventé à 19 ans une machine à calculer, pour aider son père.",
+            "answers": {
+              "blaise-pascal": "Blaise Pascal",
+              "rene-descartes": "René Descartes",
+              "pierre-de-fermat": "Pierre de Fermat",
+              "marin-mersenne": "Marin Mersenne"
+            }
+          },
+          "gerbert": {
+            "prompt": "Quel nom de pape a pris Gerbert d'Aurillac, élu en 999 ?",
+            "hint": "C'est le deuxième pape à porter ce nom.",
+            "anecdote": "Premier pape français, grand savant, il aurait été l'un des premiers en Occident à utiliser les chiffres venus du monde arabe.",
+            "answers": {
+              "sylvestre-ii": "Sylvestre II",
+              "urbain-ii": "Urbain II",
+              "clement-vi": "Clément VI",
+              "jean-xxii": "Jean XXII"
+            }
+          },
+          "pompidou": {
+            "prompt": "Quel président de la République est né dans cette maison de Montboudif, dans le Cantal ?",
+            "hint": "Un grand centre d'art à Paris porte son nom.",
+            "anecdote": "Né en 1911, ce fils d'instituteurs a été président de 1969 à sa mort, en 1974.",
+            "answers": {
+              "georges-pompidou": "Georges Pompidou",
+              "valery-giscard-d-estaing": "Valéry Giscard d'Estaing",
+              "francois-mitterrand": "François Mitterrand",
+              "jacques-chirac": "Jacques Chirac"
+            }
+          },
+          "giscard": {
+            "prompt": "Quel ancien président de la République a présidé le conseil régional d'Auvergne de 1986 à 2004 ?",
+            "hint": "Il a aussi été maire de Chamalières.",
+            "anecdote": "Il a été à l'origine de Vulcania, le parc consacré aux volcans ouvert en 2002, près de Clermont-Ferrand.",
+            "answers": {
+              "valery-giscard-d-estaing": "Valéry Giscard d'Estaing",
+              "georges-pompidou": "Georges Pompidou",
+              "francois-mitterrand": "François Mitterrand",
+              "jacques-chirac": "Jacques Chirac"
+            }
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Couteliers, dentellières, papetiers, bourrées et festivals : les gestes et les fêtes d'un pays de montagne.",
+          "machines-thiers": {
+            "prompt": "Que fabriquait-on dans les ateliers de Thiers, avec des machines comme celles-ci ?",
+            "hint": "Le musée de la ville est consacré à cet objet tranchant.",
+            "anecdote": "La rivière de la Durolle actionnait autrefois les meules et les martinets, le long de la vallée des Rouets.",
+            "answers": {
+              "des-couteaux": "Des couteaux",
+              "du-papier": "Du papier",
+              "des-parapluies": "Des parapluies",
+              "de-la-dentelle": "De la dentelle"
+            }
+          },
+          "emouleurs": {
+            "prompt": "Comment appelait-on ces ouvriers de Thiers, couchés à plat ventre sur une planche, pour aiguiser les lames ?",
+            "hint": "Leur nom contient le mot « meule ».",
+            "anecdote": "Ils gardaient souvent un chien couché sur leurs jambes, pour se tenir chaud dans ces ateliers humides.",
+            "answers": {
+              "les-emouleurs": "Les émouleurs",
+              "les-tonneliers": "Les tonneliers",
+              "les-sabotiers": "Les sabotiers",
+              "les-tanneurs": "Les tanneurs"
+            }
+          },
+          "couteau": {
+            "prompt": "Le musée de quelle ville conserve ce couteau pliant au manche décoré ?",
+            "hint": "Cette ville se trouve à l'est du Puy-de-Dôme.",
+            "anecdote": "Ce musée de la coutellerie retrace plusieurs siècles de savoir-faire, avec des démonstrations d'artisans.",
+            "answers": {
+              "laguiole": "Laguiole",
+              "nogent": "Nogent"
+            }
+          },
+          "richard-bas": {
+            "prompt": "Que produit depuis le Moyen Âge le moulin Richard-de-Bas, près d'Ambert ?",
+            "hint": "On y fait des feuilles, mais pas pour les arbres.",
+            "anecdote": "Les marteaux y battent des chiffons pour en faire une pâte. Ce moulin en activité se visite.",
+            "answers": {
+              "du-papier": "Du papier",
+              "de-la-farine": "De la farine",
+              "de-l-huile": "De l'huile",
+              "du-drap": "Du drap"
+            }
+          },
+          "carte-papier": {
+            "prompt": "Touchez le département du moulin Richard-de-Bas.",
+            "hint": "Il porte le nom d'un volcan.",
+            "anecdote": "Le moulin se trouve près d'Ambert. La région comptait autrefois plusieurs centaines de moulins à papier."
+          },
+          "dentelle": {
+            "prompt": "Quel ouvrage réalise-t-on au Puy-en-Velay avec des fuseaux et des épingles ?",
+            "hint": "On en fait de fins napperons.",
+            "anecdote": "Elle a fait vivre plus de 100 000 femmes au XIXe siècle. Un atelier-conservatoire la perpétue encore.",
+            "answers": {
+              "la-dentelle": "La dentelle",
+              "la-tapisserie": "La tapisserie",
+              "la-broderie": "La broderie",
+              "la-poterie": "La poterie"
+            }
+          },
+          "carte-dentelle": {
+            "prompt": "Touchez le département de la dentelle du Puy.",
+            "hint": "Il se trouve au sud-est de l'Auvergne.",
+            "anecdote": "Les dentellières travaillaient aussi à la campagne, dans leurs fermes, à la veillée ou sur le pas de leur porte."
+          },
+          "regis": {
+            "prompt": "Quel saint jésuite est le patron des dentellières du Velay ?",
+            "hint": "Il a prêché dans le Velay au XVIIe siècle.",
+            "anecdote": "Il aurait défendu les dentellières lorsqu'un arrêt voulut interdire leur ouvrage. Il est mort à Lalouvesc, en 1640.",
+            "answers": {
+              "saint-francois-regis": "Saint François Régis",
+              "saint-julien": "Saint Julien",
+              "saint-geraud": "Saint Géraud",
+              "saint-austremoine": "Saint Austremoine"
+            }
+          },
+          "piganiol": {
+            "prompt": "Quelle maison familiale fabrique des parapluies à Aurillac depuis 1884 ?",
+            "hint": "Son nom se termine par -ol.",
+            "anecdote": "Elle compte parmi les derniers fabricants français de parapluies, et elle reste dirigée par des membres de la famille.",
+            "answers": {
+              "piganiol": "Piganiol",
+              "lafuma": "Lafuma",
+              "moulinex": "Moulinex",
+              "aigle": "Aigle"
+            }
+          },
+          "annee-michelin": {
+            "prompt": "En quelle année a été fondée la société qui a fait de Clermont-Ferrand la capitale du pneu ?",
+            "hint": "C'est l'année de l'inauguration de la tour Eiffel.",
+            "anecdote": "La société naît d'une petite entreprise familiale en difficulté. Ses inventeurs déposent bientôt un brevet de pneu démontable pour vélo.",
+            "answers": {
+              "1789": "1789",
+              "1889": "1889",
+              "1929": "1929",
+              "1959": "1959"
+            }
+          },
+          "bibendum": {
+            "prompt": "Comment s'appelle le célèbre bonhomme blanc de Michelin, créé en 1898 ?",
+            "hint": "Son nom vient d'une formule latine signifiant « il faut boire ».",
+            "anecdote": "L'affiche d'origine, dessinée par O'Galop, le montrait levant un verre rempli de clous et d'éclats de verre.",
+            "answers": {
+              "bibendum": "Bibendum",
+              "bonhomme-carnaval": "Bonhomme Carnaval",
+              "monsieur-propre": "Monsieur Propre",
+              "mickey": "Mickey"
+            }
+          },
+          "pierre-volvic": {
+            "prompt": "De quelle commune provient cette lave grise, taillée pour la cathédrale de Clermont-Ferrand ?",
+            "hint": "Elle a aussi donné son nom à une eau minérale.",
+            "anecdote": "Cette pierre dure résiste au gel et aux acides. Émaillée, elle a aussi servi à fabriquer des plaques de rue et des tables d'orientation."
+          },
+          "dunlop": {
+            "prompt": "Quel fabricant de pneumatiques a implanté une grande usine à Montluçon, au début du XXe siècle ?",
+            "hint": "Son nom est celui d'un vétérinaire écossais.",
+            "anecdote": "Cette usine a longtemps compté parmi les grands employeurs de Montluçon.",
+            "answers": {
+              "dunlop": "Dunlop",
+              "pirelli": "Pirelli",
+              "kleber": "Kléber",
+              "hutchinson": "Hutchinson"
+            }
+          },
+          "toile-vichy": {
+            "prompt": "Quel motif caractérise la toile de Vichy, rendue célèbre par la robe de Brigitte Bardot en 1959 ?",
+            "hint": "On le retrouve aussi sur de nombreuses nappes.",
+            "anecdote": "Ce tissu de coton se fabrique avec des fils teints qui se croisent en alternance. Son nom vient de la ville de Vichy.",
+            "answers": {
+              "les-carreaux": "Les carreaux",
+              "les-rayures": "Les rayures",
+              "les-pois": "Les pois",
+              "les-fleurs": "Les fleurs"
+            }
+          },
+          "lezoux": {
+            "prompt": "Quelle commune du Puy-de-Dôme fut un grand centre de céramique gallo-romaine ?",
+            "hint": "Son nom se termine par -oux, et elle a un musée départemental de la céramique.",
+            "anecdote": "Du Ier au IVe siècle, ses ateliers ont exporté leurs vases sigillés rouges dans une grande partie de l'Empire romain.",
+            "answers": {
+              "mozac": "Mozac",
+              "vertaizon": "Vertaizon"
+            }
+          },
+          "aluminium": {
+            "prompt": "Quelle ville du Puy-de-Dôme est connue pour ses grandes usines d'aluminium, liées à l'aéronautique ?",
+            "hint": "C'est aussi la ville d'une abbatiale romane au chevet polychrome.",
+            "anecdote": "Cette industrie s'y est installée durant la Seconde Guerre mondiale. La ville abrite encore un important site, travaillant pour les avions de ligne."
+          },
+          "source-par": {
+            "prompt": "Quelle température atteint l'eau de la source du Par, à Chaudes-Aigues ?",
+            "hint": "Elle ne bout pas, mais elle en est proche.",
+            "anecdote": "C'est l'une des sources les plus chaudes d'Europe. Depuis le XIVe siècle, elle chauffe des maisons, dans l'un des plus anciens chauffages urbains au monde.",
+            "answers": {
+              "environ-82-c": "Environ 82 °C",
+              "environ-35-c": "Environ 35 °C",
+              "environ-55-c": "Environ 55 °C",
+              "environ-120-c": "Environ 120 °C"
+            }
+          },
+          "bourree": {
+            "prompt": "Quelle danse traditionnelle à deux ou trois temps est emblématique de l'Auvergne ?",
+            "hint": "Son nom ressemble à celui d'un fagot de brindilles.",
+            "anecdote": "Elle se dansait dans les fermes et les bals, accompagnée par la vielle ou la cabrette. Elle a gagné Paris avec les Auvergnats.",
+            "answers": {
+              "la-bourree": "La bourrée",
+              "la-farandole": "La farandole",
+              "la-gavotte": "La gavotte",
+              "la-sardane": "La sardane"
+            }
+          },
+          "cabrette": {
+            "prompt": "Quelle cornemuse jouaient les Auvergnats de Paris, dans leurs bals du XIXe siècle ?",
+            "hint": "Son nom évoque la petite chèvre.",
+            "anecdote": "Elle a inspiré la naissance du bal musette à Paris, avant d'être supplantée par l'accordéon.",
+            "answers": {
+              "la-cabrette": "La cabrette",
+              "le-biniou": "Le biniou",
+              "la-vielle-a-roue": "La vielle à roue",
+              "la-bombarde": "La bombarde"
+            }
+          },
+          "bougnats": {
+            "prompt": "Comment surnommait-on les Auvergnats montés à Paris pour vendre vins et charbon ?",
+            "hint": "Le mot se termine par -gnat.",
+            "anecdote": "Ils tenaient souvent un café-charbon, où l'on buvait un verre tout en achetant son combustible.",
+            "answers": {
+              "les-bougnats": "Les bougnats",
+              "les-gones": "Les gones",
+              "les-ch-tis": "Les ch'tis",
+              "les-poilus": "Les poilus"
+            }
+          },
+          "roi-oiseau": {
+            "prompt": "Quelle grande fête Renaissance anime Le Puy-en-Velay chaque mois de septembre ?",
+            "hint": "Le meilleur archer tirait sur un oiseau.",
+            "anecdote": "Elle rappelle un concours de tir à l'arc institué au XVIe siècle. Les habitants y défilent en costumes d'époque.",
+            "answers": {
+              "les-fetes-du-roi-de-l-oiseau": "Les fêtes du Roi de l'Oiseau",
+              "la-feria-des-vendanges": "La feria des Vendanges",
+              "la-giostra-du-sarrasin": "La Giostra du Sarrasin",
+              "le-carnaval-des-gilles": "Le carnaval des Gilles"
+            }
+          },
+          "jubile": {
+            "prompt": "À quelle occasion rare la cathédrale du Puy-en-Velay célèbre-t-elle un grand jubilé ?",
+            "hint": "Deux fêtes chrétiennes doivent tomber le même jour.",
+            "anecdote": "Sa tradition remonterait à l'an 992. Le dernier a eu lieu en 2016.",
+            "answers": {
+              "quand-l-annonciation-tombe-le-vendredi-saint": "Quand l'Annonciation tombe le Vendredi saint",
+              "quand-noel-tombe-un-dimanche": "Quand Noël tombe un dimanche",
+              "tous-les-vingt-cinq-ans": "Tous les vingt-cinq ans",
+              "a-chaque-election-d-un-pape": "À chaque élection d'un pape"
+            }
+          },
+          "vierge-noire": {
+            "prompt": "Quelle statue vénérée, brûlée en 1794 puis remplacée, attire les pèlerins dans cette cathédrale ?",
+            "hint": "Elle a la couleur du charbon.",
+            "anecdote": "L'original a été brûlé sur la place publique durant la Révolution. Une autre statue, plus récente, a pris sa place.",
+            "answers": {
+              "la-vierge-noire": "La Vierge noire",
+              "saint-michel": "Saint Michel",
+              "jeanne-d-arc": "Jeanne d'Arc",
+              "sainte-foy": "Sainte Foy"
+            }
+          },
+          "allanche": {
+            "prompt": "Quel bourg du Cantal fête chaque année, en mai, la montée des vaches à l'estive ?",
+            "hint": "Il se trouve sur le plateau du Cézallier.",
+            "anecdote": "Les troupeaux y défilent enrubannés, dans une fête qui rappelle l'importance de la transhumance en montagne."
+          },
+          "festival-aurillac": {
+            "prompt": "Quel art célèbre le grand festival d'Aurillac, chaque mois d'août depuis 1986 ?",
+            "hint": "Il se joue sur les places, sans scène.",
+            "anecdote": "Pendant quatre jours, compagnies officielles et troupes de passage investissent toute la ville. C'est l'un des plus grands rendez-vous européens de cet art.",
+            "answers": {
+              "le-theatre-de-rue": "Le théâtre de rue",
+              "le-cinema-muet": "Le cinéma muet",
+              "la-bande-dessinee": "La bande dessinée",
+              "le-jazz": "Le jazz"
+            }
+          },
+          "carte-festival": {
+            "prompt": "Touchez le département du festival d'Aurillac.",
+            "hint": "Il se trouve au sud-ouest de l'Auvergne.",
+            "anecdote": "Aurillac en est la préfecture. Pendant le festival, sa population est plus que doublée."
+          },
+          "court-metrage": {
+            "prompt": "Quel type de films Clermont-Ferrand met-elle à l'honneur dans son grand festival d'hiver ?",
+            "hint": "Ce sont des films de moins d'une heure.",
+            "anecdote": "Né à la fin des années 1970, ce festival est devenu le plus important au monde dans sa catégorie, avec des milliers de professionnels.",
+            "answers": {
+              "les-courts-metrages": "Les courts métrages",
+              "les-westerns": "Les westerns",
+              "les-dessins-animes-japonais": "Les dessins animés japonais",
+              "les-films-muets": "Les films muets"
+            }
+          },
+          "musique-chaise-dieu": {
+            "prompt": "Quel pianiste a fondé en 1966 le festival de musique de La Chaise-Dieu ?",
+            "hint": "Virtuose d'origine hongroise, il a aussi fait restaurer l'orgue de l'abbaye.",
+            "anecdote": "Il a découvert l'abbaye et son orgue en ruine grâce au docteur Mazoyer et à son épouse. Le festival a lieu chaque année à la fin de l'été.",
+            "answers": {
+              "georges-cziffra": "Georges Cziffra",
+              "olivier-messiaen": "Olivier Messiaen",
+              "pierre-boulez": "Pierre Boulez",
+              "yehudi-menuhin": "Yehudi Menuhin"
+            }
+          },
+          "bourboule": {
+            "prompt": "De quel élément, rare dans les eaux thermales, les sources de La Bourboule sont-elles riches ?",
+            "hint": "C'est le poison des romans policiers.",
+            "anecdote": "Soignant notamment les affections respiratoires, cette station s'est spécialisée dans les cures pour les enfants.",
+            "answers": {
+              "l-arsenic": "L'arsenic",
+              "l-or": "L'or",
+              "le-mercure": "Le mercure",
+              "le-plomb": "Le plomb"
+            }
+          },
+          "mont-dore": {
+            "prompt": "Quelle station, à la fois thermale et de sports d'hiver, se trouve au pied du Sancy ?",
+            "hint": "Son nom désigne aussi le massif qui l'entoure.",
+            "anecdote": "Ses thermes ont été bâtis sur d'anciennes installations gauloises et romaines. La haute vallée de la Dordogne y prend naissance."
+          },
+          "asm": {
+            "prompt": "Quel club de rugby, fondé en 1911 par Marcel Michelin, évolue dans ce stade en jaune et bleu ?",
+            "hint": "Ses supporters sont surnommés les « Jaunards ».",
+            "anecdote": "Après de nombreuses finales perdues, il a enfin remporté le championnat de France en 2010, puis à nouveau en 2017.",
+            "answers": {
+              "l-asm-clermont-auvergne": "L'ASM Clermont Auvergne",
+              "le-stade-toulousain": "Le Stade toulousain",
+              "le-stade-francais": "Le Stade français",
+              "l-usa-perpignan": "L'USA Perpignan"
+            }
+          },
+          "parapluies": {
+            "prompt": "Ces parapluies suspendus rappellent l'industrie de quelle ville du Cantal ?",
+            "hint": "C'est la préfecture du département.",
+            "anecdote": "Ils ornent en été certaines rues du centre, rappelant cette industrie arrivée au XIXe siècle et encore vivante aujourd'hui."
+          },
+          "freres-michelin": {
+            "prompt": "Quels frères ont donné son élan à l'entreprise Michelin ?",
+            "hint": "L'un d'eux a créé un célèbre guide rouge.",
+            "anecdote": "Le guide, créé en 1900 pour encourager la circulation automobile, était alors offert aux automobilistes.",
+            "answers": {
+              "andre-et-edouard": "André et Édouard",
+              "auguste-et-louis": "Auguste et Louis",
+              "joseph-et-etienne": "Joseph et Étienne",
+              "louis-et-marcel": "Louis et Marcel"
+            }
+          },
+          "napoleon-iii": {
+            "prompt": "Quel empereur a fait de Vichy une station à la mode, par ses séjours des années 1860 ?",
+            "hint": "Il est le neveu du premier empereur des Français.",
+            "anecdote": "Il y a fait tracer des parcs, construire des chalets et des établissements nouveaux, transformant la petite ville en quelques années.",
+            "answers": {
+              "napoleon-iii": "Napoléon III",
+              "napoleon-ier": "Napoléon Ier",
+              "louis-xviii": "Louis XVIII",
+              "louis-philippe": "Louis-Philippe"
+            }
+          },
+          "sevigne": {
+            "prompt": "Quelle célèbre épistolière a raconté dans ses lettres ses cures de 1676 et 1677 à Vichy ?",
+            "hint": "Elle écrivait surtout à sa fille, Madame de Grignan.",
+            "anecdote": "Ses lettres décrivent les douches et les eaux, avec humour. Elles ont largement contribué à faire connaître la ville.",
+            "answers": {
+              "madame-de-sevigne": "Madame de Sévigné",
+              "madame-de-pompadour": "Madame de Pompadour",
+              "madame-de-stael": "Madame de Staël",
+              "george-sand": "George Sand"
+            }
+          },
+          "jules-romains": {
+            "prompt": "Quel auteur de la pièce Knock est né à Saint-Julien-Chapteuil, en Haute-Loire ?",
+            "hint": "Il a aussi écrit Les Hommes de bonne volonté.",
+            "anecdote": "De son vrai nom Louis Farigoule, il a passé son enfance à Paris, mais il est resté attaché à son pays d'origine.",
+            "answers": {
+              "jules-romains": "Jules Romains",
+              "marcel-pagnol": "Marcel Pagnol",
+              "jean-giono": "Jean Giono",
+              "georges-courteline": "Georges Courteline"
+            }
+          },
+          "pourrat": {
+            "prompt": "Quel écrivain d'Ambert, auteur de Gaspard des montagnes, a recueilli les contes d'Auvergne ?",
+            "hint": "Il a obtenu le prix Goncourt en 1941 pour Vent de mars.",
+            "anecdote": "Il a rassemblé pendant toute sa vie un immense trésor de contes populaires, venus de son Livradois natal.",
+            "answers": {
+              "henri-pourrat": "Henri Pourrat",
+              "alexandre-vialatte": "Alexandre Vialatte",
+              "jean-anglade": "Jean Anglade",
+              "rene-fallet": "René Fallet"
+            }
+          },
+          "valles": {
+            "prompt": "Quel auteur de L'Enfant, fondateur du journal Le Cri du peuple, est né au Puy-en-Velay ?",
+            "hint": "Il a été élu à la Commune de Paris en 1871.",
+            "anecdote": "Né en 1832, il a raconté dans sa trilogie romanesque son enfance difficile et sa révolte.",
+            "answers": {
+              "jules-valles": "Jules Vallès",
+              "victor-hugo": "Victor Hugo",
+              "emile-zola": "Émile Zola",
+              "alphonse-daudet": "Alphonse Daudet"
+            }
+          },
+          "chabrier": {
+            "prompt": "Quel compositeur de la rhapsodie España est né à Ambert, en 1841 ?",
+            "hint": "Son prénom est Emmanuel.",
+            "anecdote": "Longtemps fonctionnaire au ministère de l'Intérieur, il a tardé à se consacrer à la musique. Il était un proche des peintres impressionnistes.",
+            "answers": {
+              "emmanuel-chabrier": "Emmanuel Chabrier",
+              "claude-debussy": "Claude Debussy",
+              "georges-bizet": "Georges Bizet",
+              "hector-berlioz": "Hector Berlioz"
+            }
+          },
+          "vielle": {
+            "prompt": "Quel instrument à cordes frottées, à manivelle, accompagne souvent la bourrée ?",
+            "hint": "Une main tourne pendant que l'autre joue sur un clavier.",
+            "anecdote": "Une roue enduite de colophane frotte les cordes. Cet instrument est resté très présent dans les bals du Massif central.",
+            "answers": {
+              "la-vielle-a-roue": "La vielle à roue",
+              "la-harpe": "La harpe",
+              "la-mandoline": "La mandoline",
+              "le-clavecin": "Le clavecin"
+            }
+          }
+        },
+        "grand-voyage": {
+          "name": "Grand voyage en Auvergne",
+          "description": "Volcans et lacs de cratère, Gergovie et les ducs de Bourbon, la mémoire de Vichy et celle de la Résistance.",
+          "lemptegy": {
+            "prompt": "Quel volcan, exploité comme carrière, se visite aujourd'hui de l'intérieur ?",
+            "hint": "Son nom contient un accent aigu et un y final.",
+            "anecdote": "L'extraction de ses scories, utilisées pour les routes, a ouvert le volcan sur une grande profondeur. Elle révèle sa structure interne.",
+            "answers": {
+              "lemptegy": "Lemptégy",
+              "le-puy-pariou": "Le puy Pariou",
+              "le-puy-de-sancy": "Le puy de Sancy",
+              "le-puy-de-dome": "Le puy de Dôme"
+            }
+          },
+          "pariou": {
+            "prompt": "Quel volcan de la chaîne des Puys est célèbre pour son cratère parfait en entonnoir ?",
+            "hint": "Son nom se termine par -ou.",
+            "anecdote": "Son cratère atteint environ 90 mètres de profondeur. Un sentier en fait le tour, à proximité du puy de Dôme.",
+            "answers": {
+              "le-puy-pariou": "Le puy Pariou",
+              "le-puy-de-come": "Le puy de Côme",
+              "le-puy-mary": "Le puy Mary",
+              "le-puy-de-sancy": "Le puy de Sancy"
+            }
+          },
+          "come": {
+            "prompt": "Quel volcan boisé, à deux cratères emboîtés, est l'un des grands cônes de la chaîne des Puys ?",
+            "hint": "Son nom évoque le saint patron des médecins.",
+            "anecdote": "Sa coulée de lave a atteint la Sioule, et l'a obligée à se creuser un nouveau lit.",
+            "answers": {
+              "le-puy-de-come": "Le puy de Côme",
+              "le-puy-pariou": "Le puy Pariou",
+              "le-puy-mary": "Le puy Mary",
+              "le-puy-de-sancy": "Le puy de Sancy"
+            }
+          },
+          "maar": {
+            "prompt": "Comment appelle-t-on ce type de lac rond, né d'une explosion volcanique ?",
+            "hint": "C'est un mot court, d'origine allemande.",
+            "anecdote": "Le contact entre le magma et l'eau souterraine provoque une violente explosion, qui creuse un cratère ensuite rempli d'eau.",
+            "answers": {
+              "un-maar": "Un maar",
+              "un-fjord": "Un fjord",
+              "un-atoll": "Un atoll",
+              "un-delta": "Un delta"
+            }
+          },
+          "pavin": {
+            "prompt": "Quel lac presque circulaire, profond de plus de 90 mètres, se trouve près de Besse ?",
+            "hint": "Son nom ressemble au mot « épouvante », selon une vieille étymologie.",
+            "anecdote": "Ses eaux profondes ne se mélangent jamais à celles de surface, un phénomène rare en France, étudié par les scientifiques.",
+            "answers": {
+              "le-lac-pavin": "Le lac Pavin",
+              "le-lac-chambon": "Le lac Chambon",
+              "le-lac-de-guery": "Le lac de Guéry",
+              "le-lac-serviere": "Le lac Servière"
+            }
+          },
+          "chambon": {
+            "prompt": "Quel lac est né d'un barrage de lave du volcan du Tartaret, au pied de Murol ?",
+            "hint": "Son nom désigne aussi une commune de Haute-Loire, sur le Lignon.",
+            "anecdote": "Ce lac de barrage volcanique est peu profond, et il attire de nombreux visiteurs l'été.",
+            "answers": {
+              "le-lac-chambon": "Le lac Chambon",
+              "le-lac-pavin": "Le lac Pavin",
+              "le-lac-de-guery": "Le lac de Guéry",
+              "le-gour-de-tazenat": "Le gour de Tazenat"
+            }
+          },
+          "guery": {
+            "prompt": "Quel lac, à près de 1 250 mètres d'altitude, est présenté comme le plus haut d'Auvergne ?",
+            "hint": "Il se trouve sur la route entre Le Mont-Dore et Orcival.",
+            "anecdote": "Il est né d'une coulée de lave qui a barré le cours d'un ruisseau. Il gèle en hiver, et il est apprécié pour la pêche sur glace.",
+            "answers": {
+              "le-lac-de-guery": "Le lac de Guéry",
+              "le-lac-pavin": "Le lac Pavin",
+              "le-lac-chambon": "Le lac Chambon",
+              "le-gour-de-tazenat": "Le gour de Tazenat"
+            }
+          },
+          "sanadoire": {
+            "prompt": "Quels pitons rocheux se font face, de part et d'autre de cette vallée des monts Dore ?",
+            "hint": "Le second porte un nom qui évoque la santé.",
+            "anecdote": "Anciens cœurs de volcans dégagés par l'érosion, ils montrent de belles colonnes de roche volcanique.",
+            "answers": {
+              "les-roches-tuiliere-et-sanadoire": "Les roches Tuilière et Sanadoire",
+              "les-dents-du-midi": "Les dents du Midi",
+              "les-aiguilles-d-arves": "Les aiguilles d'Arves",
+              "les-cheminees-de-fee": "Les cheminées de fée"
+            }
+          },
+          "puy-mary": {
+            "prompt": "Quel sommet du Cantal de 1 783 mètres, à la silhouette pyramidale, a reçu un label de Grand Site de France ?",
+            "hint": "Son nom ressemble à un prénom féminin.",
+            "anecdote": "Le pas de Peyrol, le col routier le plus haut du Massif central, passe tout près de ce sommet. Plusieurs vallées rayonnent autour de lui.",
+            "answers": {
+              "le-puy-mary": "Le puy Mary",
+              "le-plomb-du-cantal": "Le plomb du Cantal",
+              "le-puy-griou": "Le puy Griou",
+              "le-puy-chavaroche": "Le puy Chavaroche"
+            }
+          },
+          "plomb": {
+            "prompt": "Quel sommet de 1 855 mètres est le point culminant du Cantal ?",
+            "hint": "Son nom désigne aussi un métal lourd.",
+            "anecdote": "Une station de ski, Le Lioran, s'étend à ses pieds. Il domine tout le centre du massif.",
+            "answers": {
+              "le-plomb-du-cantal": "Le plomb du Cantal",
+              "le-puy-mary": "Le puy Mary",
+              "le-puy-griou": "Le puy Griou",
+              "le-puy-violent": "Le puy Violent"
+            }
+          },
+          "stratovolcan": {
+            "prompt": "Quel ancien massif est présenté comme le plus grand stratovolcan d'Europe ?",
+            "hint": "Il porte le nom d'un fromage.",
+            "anecdote": "Il s'étendait à l'origine sur environ 70 kilomètres de diamètre. L'érosion et les glaciers en ont ensuite sculpté les vallées.",
+            "answers": {
+              "le-cantal": "Le Cantal",
+              "le-sancy": "Le Sancy",
+              "le-cezallier": "Le Cézallier",
+              "le-mezenc": "Le Mézenc"
+            }
+          },
+          "mezenc": {
+            "prompt": "Quel sommet de 1 753 mètres marque la limite entre la Haute-Loire et l'Ardèche ?",
+            "hint": "Son nom se termine par -enc.",
+            "anecdote": "Les plateaux qui l'entourent sont connus pour leur longue neige et leur burle, un vent qui forme des congères, en hiver.",
+            "answers": {
+              "le-mont-mezenc": "Le mont Mézenc",
+              "le-mont-gerbier-de-jonc": "Le mont Gerbier-de-Jonc",
+              "le-puy-de-sancy": "Le puy de Sancy",
+              "le-mont-lozere": "Le mont Lozère"
+            }
+          },
+          "gorges-allier": {
+            "prompt": "Quelle rivière, née en Lozère, a creusé ces gorges de Haute-Loire ?",
+            "hint": "Elle a donné son nom à un département auvergnat.",
+            "anecdote": "Ses gorges sauvages abritent le saumon atlantique, qui vient y frayer après un très long voyage.",
+            "answers": {
+              "l-allier": "L'Allier",
+              "la-loire": "La Loire",
+              "la-dore": "La Dore",
+              "la-truyere": "La Truyère"
+            }
+          },
+          "salins": {
+            "prompt": "Près de quelle ville du Cantal se trouve cette cascade de Salins, haute d'une trentaine de mètres ?",
+            "hint": "Son nom se termine par -iac et elle est une sous-préfecture.",
+            "anecdote": "Elle s'élance d'une falaise de basalte, et l'on peut passer derrière le rideau d'eau."
+          },
+          "troncais": {
+            "prompt": "Quel ministre de Louis XIV a fait réorganiser la forêt de Tronçais, pour la marine royale ?",
+            "hint": "Il a aussi fondé l'Académie des sciences.",
+            "anecdote": "Cette chênaie de l'Allier a la réputation d'être l'une des plus belles d'Europe. Une futaie y porte encore son nom.",
+            "answers": {
+              "colbert": "Colbert",
+              "sully": "Sully",
+              "mazarin": "Mazarin",
+              "richelieu": "Richelieu"
+            }
+          },
+          "carte-troncais": {
+            "prompt": "Touchez le département de la forêt de Tronçais.",
+            "hint": "Il est le plus au nord d'Auvergne.",
+            "anecdote": "Cette forêt domaniale d'environ 10 000 hectares s'étend au nord-ouest du département, près de Cérilly."
+          },
+          "carte-pavin": {
+            "prompt": "Touchez le département du lac Pavin.",
+            "hint": "Il porte le nom d'un volcan.",
+            "anecdote": "Le lac se trouve près de Besse-et-Saint-Anastaise et du massif du Sancy."
+          },
+          "carte-garabit": {
+            "prompt": "Touchez le département du viaduc de Garabit.",
+            "hint": "Il se trouve au sud-ouest de l'Auvergne.",
+            "anecdote": "Le viaduc, près de Saint-Flour, enjambe la Truyère, à 122 mètres au-dessus du lit de la rivière."
+          },
+          "panoramique": {
+            "prompt": "Quel train à crémaillère monte au sommet du puy de Dôme depuis 2012 ?",
+            "hint": "Son nom évoque la vue, et une forme de sommet.",
+            "anecdote": "Il gravit les pentes du volcan depuis 2012. Une route, réservée à des véhicules autorisés, existe encore.",
+            "answers": {
+              "le-panoramique-des-domes": "Le Panoramique des Dômes",
+              "le-train-jaune": "Le Train jaune",
+              "le-tramway-du-mont-blanc": "Le Tramway du Mont-Blanc",
+              "le-train-des-pignes": "Le Train des Pignes"
+            }
+          },
+          "gergovie": {
+            "prompt": "Sur quel plateau Vercingétorix a-t-il repoussé les légions de Jules César ?",
+            "hint": "Il se situe au sud de Clermont-Ferrand.",
+            "anecdote": "Ce succès a fait de lui le chef de la résistance gauloise, avant sa défaite d'Alésia, quelques mois plus tard.",
+            "answers": {
+              "gergovie": "Gergovie",
+              "alesia": "Alésia",
+              "bibracte": "Bibracte",
+              "uxellodunum": "Uxellodunum"
+            }
+          },
+          "annee-gergovie": {
+            "prompt": "En quelle année a eu lieu la bataille commémorée par ce monument ?",
+            "hint": "La date figure dans La Guerre des Gaules.",
+            "anecdote": "Le monument, élevé en 1900 sur le plateau, marque le lieu de cette victoire gauloise, contre les troupes romaines.",
+            "answers": {
+              "52-av-j-c": "52 av. J.-C.",
+              "121-av-j-c": "121 av. J.-C.",
+              "58-av-j-c": "58 av. J.-C.",
+              "27-av-j-c": "27 av. J.-C."
+            }
+          },
+          "augustonemetum": {
+            "prompt": "Comment s'appelait Clermont-Ferrand à l'époque gallo-romaine ?",
+            "hint": "Son nom contient celui de l'empereur Auguste.",
+            "anecdote": "Capitale de la cité arverne, cette ville abritait un vaste sanctuaire. Le temple de Vasso-Galate y était fameux.",
+            "answers": {
+              "augustonemetum": "Augustonemetum",
+              "lugdunum": "Lugdunum",
+              "bibracte": "Bibracte",
+              "vesontio": "Vesontio"
+            }
+          },
+          "croisade": {
+            "prompt": "Dans quelle ville le pape Urbain II lance-t-il l'appel à la première croisade, en 1095 ?",
+            "hint": "C'est le chef-lieu du Puy-de-Dôme aujourd'hui.",
+            "anecdote": "L'appel a été lancé à la fin d'un concile, le 27 novembre, devant une grande foule rassemblée hors de la ville.",
+            "answers": {
+              "clermont": "Clermont",
+              "cluny": "Cluny",
+              "vezelay": "Vézelay"
+            }
+          },
+          "souvigny": {
+            "prompt": "Quelle dynastie a fait du prieuré de Souvigny sa nécropole ?",
+            "hint": "C'est aussi la famille d'Henri IV et de Louis XIV.",
+            "anecdote": "Plusieurs ducs y reposent, comme Charles Ier et Pierre II.",
+            "answers": {
+              "les-bourbons": "Les Bourbons",
+              "les-valois": "Les Valois",
+              "les-capetiens-directs": "Les Capétiens directs",
+              "les-plantagenets": "Les Plantagenêts"
+            }
+          },
+          "bourbon": {
+            "prompt": "Quelle cité de l'Allier a donné son nom à la dynastie des Bourbons ?",
+            "hint": "Son nom contient celui de la dynastie.",
+            "anecdote": "Sa forteresse, dont il reste de hautes tours, était le berceau de ses seigneurs. La ville est aussi une station thermale."
+          },
+          "lapalisse": {
+            "prompt": "À quelle bataille est mort, en 1525, le seigneur de ce château, à l'origine du mot « lapalissade » ?",
+            "hint": "Elle s'est déroulée en Italie, et François Ier y a été fait prisonnier.",
+            "anecdote": "Une chanson de ses soldats disait que, sans sa mort, il ferait encore envie. Une mauvaise lecture a donné la formule qu'on connaît.",
+            "answers": {
+              "pavie": "Pavie",
+              "marignan": "Marignan",
+              "azincourt": "Azincourt",
+              "crecy": "Crécy"
+            }
+          },
+          "lafayette": {
+            "prompt": "Quel marquis, héros de deux révolutions, est né en 1757 au château de Chavaniac ?",
+            "hint": "Une escadrille de la Grande Guerre a repris son nom.",
+            "anecdote": "Parti aider les insurgés d'Amérique à 19 ans, il a ensuite joué un grand rôle aux débuts de la Révolution française.",
+            "answers": {
+              "la-fayette": "La Fayette",
+              "rochambeau": "Rochambeau",
+              "mirabeau": "Mirabeau",
+              "talleyrand": "Talleyrand"
+            }
+          },
+          "chavaniac": {
+            "prompt": "Dans quelle guerre l'enfant de ce château de Haute-Loire s'est-il illustré, aux côtés de Washington ?",
+            "hint": "Elle a donné naissance à un nouveau pays, en 1783.",
+            "anecdote": "Le château abrite aujourd'hui un musée, consacré à sa vie et à ses liens avec les États-Unis.",
+            "answers": {
+              "la-guerre-d-independance-americaine": "La guerre d'indépendance américaine",
+              "la-guerre-de-secession": "La guerre de Sécession",
+              "la-guerre-de-trente-ans": "La guerre de Trente Ans",
+              "la-guerre-de-crimee": "La guerre de Crimée"
+            }
+          },
+          "experience-pascal": {
+            "prompt": "Que démontre, en 1648 au puy de Dôme, l'expérience inspirée par ce savant ?",
+            "hint": "Elle a été réalisée avec un tube de mercure.",
+            "anecdote": "Elle a été conduite par son beau-frère, Florin Périer. Le niveau du mercure baisse lorsqu'on monte au sommet.",
+            "answers": {
+              "la-pression-de-l-air-baisse-avec-l-altitude": "La pression de l'air baisse avec l'altitude",
+              "la-terre-tourne-sur-elle-meme": "La Terre tourne sur elle-même",
+              "la-foudre-est-de-l-electricite": "La foudre est de l'électricité",
+              "le-son-voyage-plus-vite-que-la-lumiere": "Le son voyage plus vite que la lumière"
+            }
+          },
+          "desaix": {
+            "prompt": "Quel général, né près de Riom, a été tué en 1800 à la bataille de Marengo ?",
+            "hint": "Sa statue se dresse place de Jaude, à Clermont-Ferrand.",
+            "anecdote": "Arrivé au bon moment, il a renversé le cours de la bataille pour Bonaparte, mais il y a laissé la vie.",
+            "answers": {
+              "desaix": "Desaix",
+              "kleber": "Kléber",
+              "marceau": "Marceau"
+            }
+          },
+          "vichy-regime": {
+            "prompt": "Quel régime dirigé par Philippe Pétain a siégé à Vichy, de 1940 à 1944 ?",
+            "hint": "Son nom remplace la République.",
+            "anecdote": "Le choix de cette ville s'explique notamment par ses nombreux hôtels, capables de loger ministères et administrations.",
+            "answers": {
+              "l-etat-francais": "L'État français",
+              "la-iiie-republique": "La IIIe République",
+              "le-second-empire": "Le Second Empire",
+              "la-monarchie-de-juillet": "La monarchie de Juillet"
+            }
+          },
+          "vote-1940": {
+            "prompt": "Où les parlementaires ont-ils voté les pleins pouvoirs à Pétain, le 10 juillet 1940 ?",
+            "hint": "C'est dans une salle de spectacle Art nouveau.",
+            "anecdote": "Une très large majorité a voté oui. Seuls 80 parlementaires ont refusé.",
+            "answers": {
+              "a-l-opera-de-vichy": "À l'opéra de Vichy",
+              "a-la-mairie-de-clermont-ferrand": "À la mairie de Clermont-Ferrand",
+              "au-chateau-de-montlucon": "Au château de Montluçon",
+              "au-palais-de-justice-de-riom": "Au palais de justice de Riom"
+            }
+          },
+          "proces-riom": {
+            "prompt": "Dans quelle ville s'est tenu en 1942 le procès de Léon Blum et Édouard Daladier ?",
+            "hint": "C'est le siège d'une cour d'appel, près de Clermont-Ferrand.",
+            "anecdote": "Les accusés se sont si bien défendus que le procès a été suspendu, sur l'injonction de Hitler, sans verdict."
+          },
+          "mont-mouchet": {
+            "prompt": "Quel sommet de la Margeride a été, en juin 1944, un grand lieu de rassemblement du maquis auvergnat ?",
+            "hint": "Il se trouve aux confins de la Haute-Loire, du Cantal et de la Lozère.",
+            "anecdote": "Des milliers de résistants s'y sont regroupés avant de subir l'attaque de troupes allemandes. Un monument en garde la mémoire.",
+            "answers": {
+              "le-mont-mouchet": "Le mont Mouchet",
+              "le-vercors": "Le Vercors",
+              "les-glieres": "Les Glières",
+              "le-mont-gargan": "Le mont Gargan"
+            }
+          },
+          "chambon-lignon": {
+            "prompt": "Quel village de Haute-Loire a été reconnu « Juste parmi les nations », pour avoir sauvé des Juifs ?",
+            "hint": "Il se trouve sur le plateau Vivarais-Lignon.",
+            "anecdote": "Autour de leurs pasteurs protestants, les habitants du plateau ont protégé de très nombreuses personnes, dont beaucoup d'enfants.",
+            "answers": {
+              "oradour-sur-glane": "Oradour-sur-Glane",
+              "izieu": "Izieu",
+              "vassieux-en-vercors": "Vassieux-en-Vercors"
+            }
+          },
+          "carte-chambon-lignon": {
+            "prompt": "Touchez le département du Chambon-sur-Lignon.",
+            "hint": "Il touche l'Ardèche et la Loire.",
+            "anecdote": "Ce plateau du Velay, à près de 1 000 mètres d'altitude, est resté très marqué par sa tradition protestante."
+          },
+          "montlucon-1943": {
+            "prompt": "Dans quelle ville de l'Allier, en janvier 1943, la foule a-t-elle bloqué un train d'ouvriers partant pour l'Allemagne ?",
+            "hint": "Elle se trouve sur le Cher.",
+            "anecdote": "De nombreuses femmes ont envahi les voies, et elles ont permis à une partie des requis de s'enfuir, malgré la présence des forces de l'ordre."
+          },
+          "duel-1964": {
+            "prompt": "Quels coureurs se sont livré un duel légendaire au puy de Dôme, dans le Tour de France de 1964 ?",
+            "hint": "L'un d'eux est surnommé « l'éternel second ».",
+            "anecdote": "Coude à coude dans la pente, ils ont marqué toute une génération. Le maillot jaune a sauvé sa place pour 14 secondes ce jour-là.",
+            "answers": {
+              "anquetil-et-poulidor": "Anquetil et Poulidor",
+              "coppi-et-bartali": "Coppi et Bartali",
+              "hinault-et-fignon": "Hinault et Fignon",
+              "indurain-et-bugno": "Indurain et Bugno"
+            }
+          },
+          "vulcania": {
+            "prompt": "Quel parc d'attractions consacré aux volcans a ouvert en 2002, près de Clermont-Ferrand ?",
+            "hint": "Son nom évoque Vulcain, dieu du feu.",
+            "anecdote": "Voulu par Valéry Giscard d'Estaing et dessiné par l'architecte Hans Hollein, il s'enfonce sous terre, à Saint-Ours-les-Roches.",
+            "answers": {
+              "vulcania": "Vulcania",
+              "le-futuroscope": "Le Futuroscope",
+              "le-puy-du-fou": "Le Puy du Fou",
+              "la-cite-de-l-espace": "La Cité de l'espace"
+            }
+          },
+          "connetable": {
+            "prompt": "Quel connétable de France, maître du Bourbonnais, est passé en 1523 au service de Charles Quint ?",
+            "hint": "Il est mort en 1527, au sac de Rome.",
+            "anecdote": "Après sa trahison, ses biens ont été confisqués par François Ier, et le Bourbonnais a rejoint le domaine royal.",
+            "answers": {
+              "charles-iii-de-bourbon": "Charles III de Bourbon",
+              "bertrand-du-guesclin": "Bertrand du Guesclin",
+              "anne-de-montmorency": "Anne de Montmorency",
+              "gaspard-de-coligny": "Gaspard de Coligny"
+            }
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "clermont-ferrand": {
+            "name": "Clermont-Ferrand",
+            "description": "Capitale historique de l'Auvergne, la ville est née de la réunion de Clermont et de Montferrand au XVIIe siècle. Sa cathédrale gothique, bâtie en pierre de Volvic, domine la plaine de la Limagne.",
+            "anecdote": "La lave sombre de ses monuments lui vaut le surnom de « ville noire »."
+          },
+          "saint-nectaire": {
+            "name": "Saint-nectaire",
+            "description": "Ce fromage à pâte pressée non cuite naît dans les monts Dore, puis s'affine sur de la paille de seigle. Son nom est protégé depuis 1955.",
+            "anecdote": "Il est fabriqué à la fois à la ferme et en laiterie."
+          },
+          "puy-en-velay": {
+            "name": "Cathédrale du Puy-en-Velay",
+            "description": "Cette cathédrale romane se dresse sur le mont Anis, au sommet d'une ville bâtie autour de pitons volcaniques. Elle est inscrite au patrimoine mondial depuis 1998, avec les chemins de Compostelle.",
+            "anecdote": "Son escalier monumental débouche directement sous la nef, si bien que les pèlerins semblaient jaillir du sol."
+          },
+          "coutellerie-thiers": {
+            "name": "Coutellerie de Thiers",
+            "description": "Depuis le Moyen Âge, les couteliers de Thiers profitent de la force de la Durolle pour faire tourner meules et martinets. La région fabrique aujourd'hui la majorité des couteaux français.",
+            "anecdote": "Couchés sur des planches au-dessus de leurs meules, les émouleurs travaillaient parfois avec un chien sur les jambes, pour se tenir chaud."
+          },
+          "chaine-des-puys": {
+            "name": "Chaîne des Puys",
+            "description": "Environ 80 volcans s'alignent sur une quarantaine de kilomètres, à l'ouest de Clermont-Ferrand. L'ensemble, avec la faille de Limagne, est inscrit au patrimoine mondial depuis 2018.",
+            "anecdote": "Les dernières éruptions datent d'il y a environ 8 000 ans, un souffle à l'échelle des temps géologiques."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur d'Auvergne",
+            "description": "Réunir les cinq cartes de la collection d'Auvergne."
+          },
+          "master": {
+            "name": "Maître d'Auvergne",
+            "description": "Réussir le Défi Maître d'Auvergne, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
+    },
+    "rhone-alpes": {
+      "name": "Rhône-Alpes"
     }
   }
 }

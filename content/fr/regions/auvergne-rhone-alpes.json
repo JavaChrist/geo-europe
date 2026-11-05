@@ -2,7 +2,56 @@
   "id": "FR-ARA",
   "slug": "auvergne-rhone-alpes",
   "nameKey": "regions.auvergne-rhone-alpes",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "01",
+      "nameKey": "departments.01"
+    },
+    {
+      "id": "03",
+      "nameKey": "departments.03"
+    },
+    {
+      "id": "07",
+      "nameKey": "departments.07"
+    },
+    {
+      "id": "15",
+      "nameKey": "departments.15"
+    },
+    {
+      "id": "26",
+      "nameKey": "departments.26"
+    },
+    {
+      "id": "38",
+      "nameKey": "departments.38"
+    },
+    {
+      "id": "42",
+      "nameKey": "departments.42"
+    },
+    {
+      "id": "43",
+      "nameKey": "departments.43"
+    },
+    {
+      "id": "63",
+      "nameKey": "departments.63"
+    },
+    {
+      "id": "69",
+      "nameKey": "departments.69"
+    },
+    {
+      "id": "73",
+      "nameKey": "departments.73"
+    },
+    {
+      "id": "74",
+      "nameKey": "departments.74"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],

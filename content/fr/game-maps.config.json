@@ -103,6 +103,42 @@
         "89": "bourgogne",
         "90": "franche-comte"
       }
+    },
+    {
+      "id": "auvergne-rhone-alpes-departements",
+      "simplify": "22%",
+      "zones": {
+        "15": "15",
+        "26": "26",
+        "38": "38",
+        "42": "42",
+        "43": "43",
+        "63": "63",
+        "69": "69",
+        "73": "73",
+        "74": "74",
+        "01": "01",
+        "03": "03",
+        "07": "07"
+      }
+    },
+    {
+      "id": "auvergne-rhone-alpes-territoires",
+      "simplify": "22%",
+      "zones": {
+        "15": "auvergne",
+        "26": "rhone-alpes",
+        "38": "rhone-alpes",
+        "42": "rhone-alpes",
+        "43": "auvergne",
+        "63": "auvergne",
+        "69": "rhone-alpes",
+        "73": "rhone-alpes",
+        "74": "rhone-alpes",
+        "01": "rhone-alpes",
+        "03": "auvergne",
+        "07": "rhone-alpes"
+      }
     }
   ]
 }
