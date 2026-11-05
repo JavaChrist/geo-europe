@@ -2,7 +2,28 @@
   "id": "FR-PDL",
   "slug": "pays-de-la-loire",
   "nameKey": "regions.pays-de-la-loire",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "44",
+      "nameKey": "departments.44"
+    },
+    {
+      "id": "49",
+      "nameKey": "departments.49"
+    },
+    {
+      "id": "53",
+      "nameKey": "departments.53"
+    },
+    {
+      "id": "72",
+      "nameKey": "departments.72"
+    },
+    {
+      "id": "85",
+      "nameKey": "departments.85"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],

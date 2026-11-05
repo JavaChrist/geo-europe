@@ -3960,6 +3960,438 @@
       "photoPoitouCharentesChamplain": {
         "title": "Monument à Samuel de Champlain, Québec",
         "alt": "Statue de bronze sur un haut monument de pierre, sur une terrasse."
+      },
+      "photoPaysDeLaLoireChateauDucs": {
+        "title": "Château des ducs de Bretagne, Nantes",
+        "alt": "Grande cour pavée bordée d'un logis blanc à haute tour pointue et de bâtiments de pierre."
+      },
+      "photoPaysDeLaLoireTitan": {
+        "title": "Grue Titan jaune, île de Nantes",
+        "alt": "Grande grue métallique jaune au bord d'un fleuve, sous un ciel bleu."
+      },
+      "photoPaysDeLaLoirePlaceNapoleon": {
+        "title": "Place Napoléon, La Roche-sur-Yon",
+        "alt": "Statue équestre sur un socle de pierre, devant une église à colonnes et deux clochers."
+      },
+      "photoPaysDeLaLoireLavalPont": {
+        "title": "Vieux-Pont et château, Laval",
+        "alt": "Pont de pierre menant à une vieille ville dominée par un donjon rond coiffé d'ardoise."
+      },
+      "photoPaysDeLaLoireLaBaule": {
+        "title": "Plage de La Baule",
+        "alt": "Longue plage de sable en arc de cercle, bordée d'immeubles blancs, avec un cerf-volant dans le ciel."
+      },
+      "photoPaysDeLaLoireBriere": {
+        "title": "Marais de Brière",
+        "alt": "Vaste étendue d'herbes hautes et de roseaux dorés, sous un ciel nuageux."
+      },
+      "photoPaysDeLaLoireAngersMaine": {
+        "title": "Angers au bord de la Maine",
+        "alt": "Ville aux toits sombres et aux clochers pointus, au-dessus d'une rivière et de remparts."
+      },
+      "photoPaysDeLaLoireLeMansCathedrale": {
+        "title": "Cathédrale Saint-Julien, Le Mans",
+        "alt": "Immense chevet gothique doré par le soleil, hérissé d'arcs-boutants, à côté d'une tour carrée."
+      },
+      "photoPaysDeLaLoireSartheRiviere": {
+        "title": "La Sarthe",
+        "alt": "Large rivière calme, avec un vieux moulin de pierre et une haute cheminée de brique sur la rive."
+      },
+      "photoPaysDeLaLoireSaintNazairePlage": {
+        "title": "Plage de Saint-Nazaire",
+        "alt": "Plage de sable clair bordée d'un muret et d'arbres, face à un large estuaire."
+      },
+      "photoPaysDeLaLoireSablesPenotte": {
+        "title": "Quartier de l'île Penotte, Les Sables-d'Olonne",
+        "alt": "Mosaïque murale de coquillages représentant un crabe et des fonds marins."
+      },
+      "photoPaysDeLaLoireMache": {
+        "title": "Mâche nantaise",
+        "alt": "Saladier rose rempli de petites feuilles rondes vert foncé."
+      },
+      "photoPaysDeLaLoireGateauNantais": {
+        "title": "Gâteau nantais",
+        "alt": "Plusieurs gâteaux ronds au glaçage blanc, sur un plateau."
+      },
+      "photoPaysDeLaLoireBerlingot": {
+        "title": "Berlingots nantais",
+        "alt": "Verre rempli de petits bonbons à quatre faces, rayés de couleurs vives."
+      },
+      "photoPaysDeLaLoireCureNantais": {
+        "title": "Curé nantais",
+        "alt": "Petit fromage rond à croûte pâle, marqué d'un motif en spirale."
+      },
+      "photoPaysDeLaLoireFouace": {
+        "title": "Fouace nantaise",
+        "alt": "Pain doré en forme d'étoile à six branches, sur une assiette verte."
+      },
+      "photoPaysDeLaLoireBrioche": {
+        "title": "Brioche vendéenne",
+        "alt": "Brioche tressée, bombée et dorée, posée dans son moule."
+      },
+      "photoPaysDeLaLoirePrefou": {
+        "title": "Préfou vendéen",
+        "alt": "Long pain à la croûte épaisse, marquée de grandes entailles farinées."
+      },
+      "photoPaysDeLaLoireRillettes": {
+        "title": "Rillettes du Mans",
+        "alt": "Pot de viande effilochée, recouverte d'une fine couche de graisse blanche."
+      },
+      "photoPaysDeLaLoireFleurDeSel": {
+        "title": "Fleur de sel de Guérande",
+        "alt": "Gros plan sur de fins cristaux de sel d'un blanc éclatant."
+      },
+      "photoPaysDeLaLoireDeuxSels": {
+        "title": "Sels de Guérande",
+        "alt": "Deux petits tas de sel, l'un plus blanc, l'autre plus gris, sur un fond noir."
+      },
+      "photoPaysDeLaLoireMaraisSalant": {
+        "title": "Marais salants de Guérande",
+        "alt": "Bassins d'eau peu profonds bordés de levées de terre, avec un tas de sel blanc au premier plan."
+      },
+      "photoPaysDeLaLoirePaludier": {
+        "title": "Paludier de Guérande",
+        "alt": "Homme au chapeau de paille poussant une brouette sur une étroite levée, entre des bassins d'eau."
+      },
+      "photoPaysDeLaLoireSavennieres": {
+        "title": "Vignoble de Savennières",
+        "alt": "Rangs de vigne verts sur une pente, sous un ciel clair."
+      },
+      "photoPaysDeLaLoireChampigny": {
+        "title": "Vignoble de Saumur-Champigny",
+        "alt": "Vignes vertes devant un village au clocher pointu de pierre."
+      },
+      "photoPaysDeLaLoireTurquant": {
+        "title": "Vignes du Saumurois, Turquant",
+        "alt": "Vignes taillées en hiver devant des bâtiments de pierre claire au toit d'ardoise."
+      },
+      "photoPaysDeLaLoireSelNoirmoutier": {
+        "title": "Sel de Noirmoutier",
+        "alt": "Panier d'osier rempli de sel blanc, posé sur le bord d'un bassin."
+      },
+      "photoPaysDeLaLoireMuscadetCru": {
+        "title": "Vignoble du Muscadet, Le Pallet",
+        "alt": "Route de campagne bordée de vignes, sous un ciel gris."
+      },
+      "photoPaysDeLaLoireSableBiscuit": {
+        "title": "Sablés de Sablé-sur-Sarthe",
+        "alt": "Petits biscuits dorés en forme de fleur, alignés sur un plat blanc."
+      },
+      "photoPaysDeLaLoireCathedraleNantes": {
+        "title": "Cathédrale Saint-Pierre-et-Saint-Paul, Nantes",
+        "alt": "Grande cathédrale gothique aux deux tours carrées, vue entre des bâtiments blancs à tourelles."
+      },
+      "photoPaysDeLaLoireElephant": {
+        "title": "Grand Éléphant, Machines de l'île, Nantes",
+        "alt": "Immense machine en bois et métal en forme d'animal, portant une terrasse chargée de passagers."
+      },
+      "photoPaysDeLaLoirePommeraye": {
+        "title": "Passage Pommeraye, Nantes",
+        "alt": "Galerie couverte d'une verrière, aux façades sculptées, décorée de guirlandes."
+      },
+      "photoPaysDeLaLoireTombeauFrancois": {
+        "title": "Tombeau de François II, cathédrale de Nantes",
+        "alt": "Gisants de marbre d'un couple couronné, veillés par des anges sculptés."
+      },
+      "photoPaysDeLaLoireFeydeau": {
+        "title": "Mascaron de l'île Feydeau, Nantes",
+        "alt": "Visage sculpté dans un cartouche de pierre, au-dessus d'une porte cintrée."
+      },
+      "photoPaysDeLaLoireMemorialAbolition": {
+        "title": "Mémorial de l'abolition de l'esclavage, Nantes",
+        "alt": "Esplanade au bord d'un fleuve, parsemée de petites plaques de verre incrustées dans le sol."
+      },
+      "photoPaysDeLaLoireChateauAngers": {
+        "title": "Château d'Angers",
+        "alt": "Hautes tours rondes de pierre sombre au-dessus de larges douves sèches et herbeuses."
+      },
+      "photoPaysDeLaLoireApocalypse": {
+        "title": "Tenture de l'Apocalypse, château d'Angers",
+        "alt": "Scène tissée sur fond rouge et bleu, avec une bête à plusieurs têtes et des personnages."
+      },
+      "photoPaysDeLaLoireChantMonde": {
+        "title": "Salle du Chant du monde, ancien hôpital Saint-Jean, Angers",
+        "alt": "Longue salle voûtée gothique à colonnes, dont les murs sont couverts de grandes tapisseries."
+      },
+      "photoPaysDeLaLoireSaintMaurice": {
+        "title": "Cathédrale Saint-Maurice, Angers",
+        "alt": "Chœur gothique au maître-autel surmonté d'un baldaquin doré à colonnes de marbre."
+      },
+      "photoPaysDeLaLoireMaisonAdam": {
+        "title": "Maison d'Adam, Angers",
+        "alt": "Haute maison à pans de bois sculptés et à pignon pointu, à l'angle d'une place."
+      },
+      "photoPaysDeLaLoireCitePlantagenet": {
+        "title": "Cité Plantagenêt, Le Mans",
+        "alt": "Vieilles maisons et murailles sur une butte, avec une cathédrale gothique au loin."
+      },
+      "photoPaysDeLaLoireSaintJulien": {
+        "title": "Cathédrale Saint-Julien, Le Mans",
+        "alt": "Nef romane de pierre ornée d'un porche à arcades, sur une place pavée."
+      },
+      "photoPaysDeLaLoireEnceinteRomaine": {
+        "title": "Enceinte gallo-romaine, Le Mans",
+        "alt": "Mur antique de pierres et de briques rouges, en partie couvert de lierre."
+      },
+      "photoPaysDeLaLoireEpau": {
+        "title": "Abbaye de l'Épau, Yvré-l'Évêque",
+        "alt": "Arcades gothiques en pierre ouvrant sur une salle, au bord d'une pelouse."
+      },
+      "photoPaysDeLaLoireFontevraud": {
+        "title": "Abbaye royale de Fontevraud",
+        "alt": "Église abbatiale et cuisine romane coiffée de cheminées en pierre, à côté de bâtiments monastiques."
+      },
+      "photoPaysDeLaLoireBrissac": {
+        "title": "Château de Brissac",
+        "alt": "Très haut château de pierre aux nombreuses fenêtres, encadré de tours, au-dessus d'un parc."
+      },
+      "photoPaysDeLaLoireMontsoreau": {
+        "title": "Château de Montsoreau",
+        "alt": "Château blanc à hautes lucarnes et tourelles, dressé au bord d'un large fleuve."
+      },
+      "photoPaysDeLaLoirePlessisBourre": {
+        "title": "Château du Plessis-Bourré, Écuillé",
+        "alt": "Château blanc aux toits d'ardoise et à tours rondes, derrière un pré et une botte de foin."
+      },
+      "photoPaysDeLaLoireMontreuilBellay": {
+        "title": "Château de Montreuil-Bellay",
+        "alt": "Grosses tours rondes de pierre claire au-dessus de buissons verts."
+      },
+      "photoPaysDeLaLoireSerrant": {
+        "title": "Château de Serrant, Saint-Georges-sur-Loire",
+        "alt": "Château à dôme et à tours, reflété avec des saules dans un plan d'eau."
+      },
+      "photoPaysDeLaLoireSainteSuzanne": {
+        "title": "Cité de Sainte-Suzanne",
+        "alt": "Hauts murs de pierre en ruine et porte fortifiée, sous un ciel bleu."
+      },
+      "photoPaysDeLaLoireEvron": {
+        "title": "Basilique Notre-Dame de l'Épine, Évron",
+        "alt": "Église à tour romane massive et à chœur gothique ajouré, devant une place."
+      },
+      "photoPaysDeLaLoireSolesmes": {
+        "title": "Abbaye Saint-Pierre de Solesmes",
+        "alt": "Portail de pierre classique à grande porte bleue, contre de hauts murs."
+      },
+      "photoPaysDeLaLoireGuerandeRemparts": {
+        "title": "Remparts de Guérande",
+        "alt": "Haute muraille médiévale de pierre grise, longée d'une pelouse ombragée."
+      },
+      "photoPaysDeLaLoireClisson": {
+        "title": "Château de Clisson",
+        "alt": "Ruines d'un grand château fort aux tours éventrées, sous un ciel nuageux."
+      },
+      "photoPaysDeLaLoireChateaubriant": {
+        "title": "Château de Châteaubriant",
+        "alt": "Donjon carré de pierre et logis à tourelles, au bord d'un parking."
+      },
+      "photoPaysDeLaLoirePornic": {
+        "title": "Port de Pornic",
+        "alt": "Port calme aux maisons blanches étagées, avec un château et un clocher au loin."
+      },
+      "photoPaysDeLaLoireFontenay": {
+        "title": "Hôtel de ville, Fontenay-le-Comte",
+        "alt": "Bâtiment de pierre claire derrière une grille, sous un ciel d'hiver."
+      },
+      "photoPaysDeLaLoireMaillezais": {
+        "title": "Abbaye de Maillezais",
+        "alt": "Grands murs gothiques en ruine au milieu d'un champ enneigé."
+      },
+      "photoPaysDeLaLoireLucon": {
+        "title": "Cathédrale Notre-Dame, Luçon",
+        "alt": "Haute flèche de pierre ajourée, vue en contre-plongée sous un ciel bleu."
+      },
+      "photoPaysDeLaLoireTiffauges": {
+        "title": "Château de Tiffauges",
+        "alt": "Ruines de remparts et d'un donjon couverts de végétation, avec des drapeaux bleus."
+      },
+      "photoPaysDeLaLoirePrytanee": {
+        "title": "Prytanée national militaire, La Flèche",
+        "alt": "Tour de pierre blanche à clocheton d'ardoise, sous un ciel bleu."
+      },
+      "photoPaysDeLaLoireLeLude": {
+        "title": "Château du Lude",
+        "alt": "Château de pierre blanche à hauts toits d'ardoise et à tour ronde, au-dessus de jardins."
+      },
+      "photoPaysDeLaLoireCroisic": {
+        "title": "Port du Croisic",
+        "alt": "Bateaux de plaisance amarrés le long d'un ponton, devant des maisons anciennes."
+      },
+      "photoPaysDeLaLoireBehuard": {
+        "title": "Église Notre-Dame, Béhuard",
+        "alt": "Vieux logis de pierre au toit d'ardoise, sur une petite place près d'une église."
+      },
+      "photoPaysDeLaLoireGoulaine": {
+        "title": "Château de Goulaine, Haute-Goulaine",
+        "alt": "Château de tuffeau à hauts toits d'ardoise et à tour carrée, derrière un mur."
+      },
+      "photoPaysDeLaLoireCadreNoir": {
+        "title": "Écuyer de l'École nationale d'équitation, Saumur",
+        "alt": "Cavalier en tenue sombre sur un cheval alezan, dans une carrière de sable devant des tribunes."
+      },
+      "photoPaysDeLaLoireRochemenier": {
+        "title": "Rochemenier, Louresse-Rochemenier",
+        "alt": "Paroi de falun creusée de cavités et de niches, avec un pigeonnier taillé dans la roche."
+      },
+      "photoPaysDeLaLoireTrelaze": {
+        "title": "Ardoisière de Trélazé",
+        "alt": "Visiteurs en gilet jaune dans un atelier où des blocs de pierre sombre avancent sur des rouleaux."
+      },
+      "photoPaysDeLaLoireMalicorne": {
+        "title": "Faïence de Malicorne",
+        "alt": "Corbeille ajourée blanche et fleurie, posée sur l'eau parmi des joncs."
+      },
+      "photoPaysDeLaLoireAlouettes": {
+        "title": "Mont des Alouettes, Les Herbiers",
+        "alt": "Moulin à vent de pierre aux grandes ailes blanches, près d'une chapelle gothique."
+      },
+      "photoPaysDeLaLoireKerhinet": {
+        "title": "Village de Kerhinet, Saint-Lyphard",
+        "alt": "Maison basse de pierre au toit épais, derrière une petite barrière de bois."
+      },
+      "photoPaysDeLaLoireVerne": {
+        "title": "Jules Verne",
+        "alt": "Portrait en noir et blanc d'un homme âgé à la barbe blanche, en costume sombre."
+      },
+      "photoPaysDeLaLoireDuBellay": {
+        "title": "Joachim du Bellay",
+        "alt": "Gravure ancienne d'un homme barbu coiffé d'une toque à plume."
+      },
+      "photoPaysDeLaLoireClemenceau": {
+        "title": "Georges Clemenceau",
+        "alt": "Portrait en noir et blanc d'un homme chauve à grosse moustache blanche."
+      },
+      "photoPaysDeLaLoireRousseau": {
+        "title": "Henri Rousseau, Moi-même, portrait-paysage",
+        "alt": "Peintre en noir tenant une palette, devant un fleuve, un pont et un navire pavoisé."
+      },
+      "photoPaysDeLaLoireJarry": {
+        "title": "Alfred Jarry",
+        "alt": "Portrait en noir et blanc d'un jeune homme aux longs cheveux noirs et à fine moustache."
+      },
+      "photoPaysDeLaLoireDavidAngers": {
+        "title": "Statue de David d'Angers",
+        "alt": "Statue en terre cuite d'un homme assis, aux cheveux en bataille, sur un socle rouge."
+      },
+      "photoPaysDeLaLoireBonchamps": {
+        "title": "Tombeau de Bonchamps, Saint-Florent-le-Vieil",
+        "alt": "Bas-relief de marbre blanc représentant une femme voilée en pleurs."
+      },
+      "photoPaysDeLaLoireMouchoir": {
+        "title": "Mouchoirs rouges de Cholet",
+        "alt": "Pièce de tissu rouge à fines rayures blanches, brodée d'un blason et d'un nom de ville."
+      },
+      "photoPaysDeLaLoireFolleJournee": {
+        "title": "Concert de la Folle Journée, Nantes",
+        "alt": "Orchestre sur une scène rouge, au milieu d'une grande salle remplie de public, vue d'en haut."
+      },
+      "photoPaysDeLaLoireChabotterie": {
+        "title": "Logis de la Chabotterie, Saint-Sulpice-le-Verdon",
+        "alt": "Logis de pierre à haut toit d'ardoise, devant un jardin de buis et de plantes, derrière une barrière de bois."
+      },
+      "photoPaysDeLaLoireHenriIi": {
+        "title": "Gisant d'Henri II Plantagenêt, abbaye de Fontevraud",
+        "alt": "Statue couchée et peinte d'un roi couronné, les mains posées sur sa poitrine."
+      },
+      "photoPaysDeLaLoireDescartes": {
+        "title": "René Descartes",
+        "alt": "Portrait peint d'un homme aux longs cheveux bruns et à fine moustache, en vêtements noirs à col blanc."
+      },
+      "photoPaysDeLaLoireSaumurChateau": {
+        "title": "Château de Saumur",
+        "alt": "Château blanc à hautes tours et à toits d'ardoise, dominant une ville au bord d'un fleuve."
+      },
+      "photoPaysDeLaLoireGois": {
+        "title": "Passage du Gois, Noirmoutier",
+        "alt": "Route étroite à travers une vaste étendue de sable humide, empruntée par un tracteur, avec une balise au loin."
+      },
+      "photoPaysDeLaLoireGoisImmerge": {
+        "title": "Passage du Gois à marée montante",
+        "alt": "Route qui disparaît sous la mer, avec des panneaux de signalisation à moitié dans l'eau."
+      },
+      "photoPaysDeLaLoireNoirmoutier": {
+        "title": "Plage des Dames, Noirmoutier-en-l'Île",
+        "alt": "Longue passerelle de bois avançant au-dessus d'une plage de sable, devant un bois de pins et des rochers."
+      },
+      "photoPaysDeLaLoireYeuVieuxChateau": {
+        "title": "Vieux Château, île d'Yeu",
+        "alt": "Château fort en ruine perché sur un rocher, relié à la côte par une passerelle."
+      },
+      "photoPaysDeLaLoireYeuPhare": {
+        "title": "Grand Phare, île d'Yeu",
+        "alt": "Haute tour blanche à section carrée, coiffée d'une lanterne, au-dessus de bâtiments bas."
+      },
+      "photoPaysDeLaLoirePortJoinville": {
+        "title": "Port-Joinville, île d'Yeu",
+        "alt": "Port aux bateaux de pêche colorés, avec un feu vert à l'entrée et des maisons blanches sur le quai."
+      },
+      "photoPaysDeLaLoirePontSaintNazaire": {
+        "title": "Pont de Saint-Nazaire",
+        "alt": "Très long pont à haubans traversant un large estuaire, avec des voiliers au premier plan."
+      },
+      "photoPaysDeLaLoireBaseSousMarine": {
+        "title": "Base sous-marine de Saint-Nazaire",
+        "alt": "Galerie de béton massif et usé, ouverte sur un bassin, avec des garde-corps métalliques."
+      },
+      "photoPaysDeLaLoireChantiers": {
+        "title": "Chantiers navals de Saint-Nazaire",
+        "alt": "Grands portiques rouges et blancs au-dessus d'un chantier, avec un paquebot en construction, vus depuis une plage."
+      },
+      "photoPaysDeLaLoireNormandie": {
+        "title": "Paquebot Normandie",
+        "alt": "Grand paquebot noir et blanc à trois cheminées rouges, filant sur la mer."
+      },
+      "photoPaysDeLaLoireCourse1969": {
+        "title": "Départ des premières 24 Heures du Mans, 1923",
+        "alt": "Photo ancienne en noir et blanc de vieilles voitures de course numérotées, entourées d'hommes en manteau."
+      },
+      "photoPaysDeLaLoireBollee": {
+        "title": "L'Obéissante d'Amédée Bollée",
+        "alt": "Ancien véhicule à vapeur ressemblant à une diligence métallique, sur de grandes roues."
+      },
+      "photoPaysDeLaLoireWright": {
+        "title": "Wilbur Wright au Mans, 1908",
+        "alt": "Photo ancienne de deux hommes en casquette marchant dans un grand champ."
+      },
+      "photoPaysDeLaLoireAlpesMancelles": {
+        "title": "Saint-Léonard-des-Bois, Alpes mancelles",
+        "alt": "Petit village au fond d'une vallée, au pied d'une haute colline boisée et escarpée."
+      },
+      "photoPaysDeLaLoireAvaloirs": {
+        "title": "Belvédère du mont des Avaloirs",
+        "alt": "Tour de béton surmontée d'une large coupole, au milieu d'arbres sans feuilles."
+      },
+      "photoPaysDeLaLoireBerce": {
+        "title": "Forêt de Bercé",
+        "alt": "Futaie de grands arbres droits aux feuillages roux d'automne."
+      },
+      "photoPaysDeLaLoireSaulges": {
+        "title": "Canyon de Saulges",
+        "alt": "Vallée verte bordée de falaises calcaires blanches, avec des chemins dans l'herbe."
+      },
+      "photoPaysDeLaLoireCampbeltown": {
+        "title": "Le HMS Campbeltown après le raid de Saint-Nazaire, 1942",
+        "alt": "Photo ancienne d'un navire de guerre échoué contre une écluse, au pied de grandes grues."
+      },
+      "photoPaysDeLaLoireMaraisBreton": {
+        "title": "Marais breton",
+        "alt": "Route droite et plate longeant un canal, entre de grandes prairies."
+      },
+      "photoPaysDeLaLoireGrandCharpentier": {
+        "title": "Phare du Grand-Charpentier",
+        "alt": "Phare isolé sur un rocher bas, au milieu d'une mer calme et grise."
+      },
+      "photoPaysDeLaLoireGrandLieu": {
+        "title": "Lac de Grand-Lieu",
+        "alt": "Deux barques posées sur une eau calme, bordée de roseaux et d'arbres."
+      },
+      "photoPaysDeLaLoireMemorialChariot": {
+        "title": "Monuments du Lancastria et de l'opération Chariot, Saint-Nazaire",
+        "alt": "Stèle de granit et menhir dressé dans un jardin planté de pins, sur un front de mer."
+      },
+      "photoPaysDeLaLoireSaintFlorent": {
+        "title": "Saint-Florent-le-Vieil",
+        "alt": "Vue plongeante sur un large fleuve partagé par des îles boisées, sous un ciel nuageux."
       }
     }
   },
@@ -4007,11 +4439,14 @@
     "40": "Landes",
     "42": "Loire",
     "43": "Haute-Loire",
+    "44": "Loire-Atlantique",
     "46": "Lot",
     "47": "Lot-et-Garonne",
     "48": "Lozère",
+    "49": "Maine-et-Loire",
     "51": "Marne",
     "52": "Haute-Marne",
+    "53": "Mayenne",
     "54": "Meurthe-et-Moselle",
     "55": "Meuse",
     "57": "Moselle",
@@ -4025,6 +4460,7 @@
     "69": "Rhône",
     "70": "Haute-Saône",
     "71": "Saône-et-Loire",
+    "72": "Sarthe",
     "73": "Savoie",
     "74": "Haute-Savoie",
     "79": "Deux-Sèvres",
@@ -4032,6 +4468,7 @@
     "82": "Tarn-et-Garonne",
     "83": "Var",
     "84": "Vaucluse",
+    "85": "Vendée",
     "86": "Vienne",
     "87": "Haute-Vienne",
     "88": "Vosges",
@@ -4606,7 +5043,52 @@
     "lusignan": "Lusignan",
     "saint-savin": "Saint-Savin",
     "angles-sur-l-anglin": "Angles-sur-l'Anglin",
-    "nouaille-maupertuis": "Nouaillé-Maupertuis"
+    "nouaille-maupertuis": "Nouaillé-Maupertuis",
+    "nantes": "Nantes",
+    "saint-nazaire": "Saint-Nazaire",
+    "guerande": "Guérande",
+    "la-baule-escoublac": "La Baule-Escoublac",
+    "pornic": "Pornic",
+    "clisson": "Clisson",
+    "chateaubriant": "Châteaubriant",
+    "vallet": "Vallet",
+    "le-croisic": "Le Croisic",
+    "batz-sur-mer": "Batz-sur-Mer",
+    "angers": "Angers",
+    "saumur": "Saumur",
+    "cholet": "Cholet",
+    "doue-en-anjou": "Doué-en-Anjou",
+    "chalonnes-sur-loire": "Chalonnes-sur-Loire",
+    "montsoreau": "Montsoreau",
+    "fontevraud-l-abbaye": "Fontevraud-l'Abbaye",
+    "behuard": "Béhuard",
+    "laval": "Laval",
+    "mayenne": "Mayenne",
+    "chateau-gontier-sur-mayenne": "Château-Gontier-sur-Mayenne",
+    "evron": "Évron",
+    "craon": "Craon",
+    "sainte-suzanne-et-chammes": "Sainte-Suzanne-et-Chammes",
+    "saulges": "Saulges",
+    "lassay-les-chateaux": "Lassay-les-Châteaux",
+    "le-mans": "Le Mans",
+    "la-fleche": "La Flèche",
+    "sable-sur-sarthe": "Sablé-sur-Sarthe",
+    "la-ferte-bernard": "La Ferté-Bernard",
+    "solesmes": "Solesmes",
+    "loue": "Loué",
+    "malicorne-sur-sarthe": "Malicorne-sur-Sarthe",
+    "saint-leonard-des-bois": "Saint-Léonard-des-Bois",
+    "asnieres-sur-vegre": "Asnières-sur-Vègre",
+    "la-roche-sur-yon": "La Roche-sur-Yon",
+    "les-sables-d-olonne": "Les Sables-d'Olonne",
+    "challans": "Challans",
+    "fontenay-le-comte": "Fontenay-le-Comte",
+    "lucon": "Luçon",
+    "saint-gilles-croix-de-vie": "Saint-Gilles-Croix-de-Vie",
+    "noirmoutier-en-l-ile": "Noirmoutier-en-l'Île",
+    "l-ile-d-yeu": "L'Île-d'Yeu",
+    "vouvant": "Vouvant",
+    "maillezais": "Maillezais"
   },
   "territories": {
     "champagne-ardenne": {
@@ -30363,6 +30845,2034 @@
           "master": {
             "name": "Maître du Poitou-Charentes",
             "description": "Réussir le Défi Maître du Poitou-Charentes, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
+    },
+    "pays-de-la-loire": {
+      "name": "Pays de la Loire",
+      "description": "Du château des ducs de Bretagne à Nantes à la cité Plantagenêt du Mans, une région traversée par la Loire, celle du muscadet, du sel de Guérande et des châteaux de tuffeau, des îles et des marais de la Vendée, entre Loire-Atlantique, Maine-et-Loire, Mayenne, Sarthe et Vendée.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Pays de la Loire",
+          "description": "Cinq départements, leurs villes et les grands repères d'une région traversée par la Loire, entre bocage, marais, vignes et océan.",
+          "capitale": {
+            "prompt": "Quelle ville est le chef-lieu de la région Pays de la Loire ?",
+            "hint": "C'est la plus grande ville de la région, au bord de l'estuaire.",
+            "anecdote": "Avec plus de 320 000 habitants, c'est la sixième commune de France par sa population."
+          },
+          "cinq": {
+            "prompt": "Combien de départements compte la région Pays de la Loire ?",
+            "hint": "Deux d'entre eux portent le nom d'une rivière qui coule vers Angers.",
+            "anecdote": "Ce sont la Loire-Atlantique, le Maine-et-Loire, la Mayenne, la Sarthe et la Vendée.",
+            "answers": {
+              "cinq": "Cinq",
+              "quatre": "Quatre",
+              "six": "Six",
+              "huit": "Huit"
+            }
+          },
+          "fleuve-nom": {
+            "prompt": "Quel fleuve a donné son nom à la région ?",
+            "hint": "C'est le plus long fleuve de France.",
+            "anecdote": "Il traverse la région d'est en ouest, par Saumur, Angers et Nantes, avant de rejoindre l'océan à Saint-Nazaire.",
+            "answers": {
+              "la-loire": "La Loire",
+              "la-seine": "La Seine",
+              "la-garonne": "La Garonne",
+              "la-vilaine": "La Vilaine"
+            }
+          },
+          "voisins": {
+            "prompt": "Quelle région ne touche pas les Pays de la Loire ?",
+            "hint": "Elle se trouve tout au sud de la France, au bord de la Méditerranée.",
+            "anecdote": "Les Pays de la Loire touchent la Bretagne, la Normandie, le Centre-Val de Loire et la Nouvelle-Aquitaine.",
+            "answers": {
+              "l-occitanie": "L'Occitanie",
+              "la-bretagne": "La Bretagne",
+              "la-normandie": "La Normandie",
+              "le-centre-val-de-loire": "Le Centre-Val de Loire"
+            }
+          },
+          "ocean": {
+            "prompt": "Quel océan borde les côtes des Pays de la Loire ?",
+            "hint": "C'est le même que celui qui baigne la Bretagne et le Pays basque.",
+            "anecdote": "Deux départements de la région ont une façade maritime : la Loire-Atlantique et la Vendée.",
+            "answers": {
+              "l-ocean-atlantique": "L'océan Atlantique",
+              "la-mer-du-nord": "La mer du Nord",
+              "la-manche": "La Manche",
+              "la-mer-mediterranee": "La mer Méditerranée"
+            }
+          },
+          "anjou": {
+            "prompt": "Quelle ancienne province avait pour capitale Angers ?",
+            "hint": "Ses comtes ont fondé la dynastie des Plantagenêts.",
+            "anecdote": "Le Maine-et-Loire correspond à peu près à cette ancienne province, dont les habitants s'appellent toujours les Angevins.",
+            "answers": {
+              "l-anjou": "L'Anjou",
+              "le-maine": "Le Maine",
+              "la-touraine": "La Touraine",
+              "le-poitou": "Le Poitou"
+            }
+          },
+          "maine-province": {
+            "prompt": "Quelle ancienne province avait pour capitale Le Mans ?",
+            "hint": "Elle a donné son nom à une rivière qui traverse Angers.",
+            "anecdote": "La Sarthe et la Mayenne couvrent l'essentiel de son territoire. Les habitants du Mans s'appellent les Manceaux.",
+            "answers": {
+              "le-maine": "Le Maine",
+              "l-anjou": "L'Anjou",
+              "le-perche": "Le Perche",
+              "la-touraine": "La Touraine"
+            }
+          },
+          "nantes-bretagne": {
+            "prompt": "De quel duché Nantes a-t-elle été l'une des capitales ?",
+            "hint": "Le château de ses ducs se dresse toujours au cœur de la ville.",
+            "anecdote": "Les ducs y résidaient au XVe siècle. Le duché a été uni au royaume de France en 1532.",
+            "answers": {
+              "du-duche-de-bretagne": "Du duché de Bretagne",
+              "du-duche-de-normandie": "Du duché de Normandie",
+              "du-duche-de-bourgogne": "Du duché de Bourgogne",
+              "du-duche-d-aquitaine": "Du duché d'Aquitaine"
+            }
+          },
+          "loire-inferieure": {
+            "prompt": "Quel nom portait la Loire-Atlantique jusqu'en 1957 ?",
+            "hint": "Ce nom rappelait seulement que le département se trouve en aval du fleuve.",
+            "anecdote": "Comme d'autres départements, elle a abandonné ce nom jugé peu flatteur. La Seine-Inférieure est ainsi devenue la Seine-Maritime en 1955.",
+            "answers": {
+              "la-loire-inferieure": "La Loire-Inférieure",
+              "la-basse-loire": "La Basse-Loire",
+              "la-loire-maritime": "La Loire-Maritime",
+              "la-loire-oceane": "La Loire-Océane"
+            }
+          },
+          "vendee-nom": {
+            "prompt": "D'où vient le nom du département de la Vendée ?",
+            "hint": "Comme beaucoup de départements créés en 1790, il doit son nom à l'eau qui le traverse.",
+            "anecdote": "Cette rivière arrose Fontenay-le-Comte, puis rejoint la Sèvre niortaise dans le Marais poitevin.",
+            "answers": {
+              "d-une-riviere": "D'une rivière",
+              "d-un-ancien-peuple-gaulois": "D'un ancien peuple gaulois",
+              "d-une-foret": "D'une forêt",
+              "d-une-ancienne-ville": "D'une ancienne ville"
+            }
+          },
+          "iles": {
+            "prompt": "Quelles sont les deux grandes îles de la Vendée ?",
+            "hint": "L'une est reliée au continent par un pont et par une route submersible, l'autre n'est accessible qu'en bateau.",
+            "anecdote": "La première est presque collée à la côte, au sud de l'estuaire de la Loire. La seconde se trouve à environ 17 kilomètres de la côte.",
+            "answers": {
+              "noirmoutier-et-yeu": "Noirmoutier et Yeu",
+              "re-et-oleron": "Ré et Oléron",
+              "belle-ile-et-groix": "Belle-Île et Groix",
+              "houat-et-hoedic": "Houat et Hoëdic"
+            }
+          },
+          "maine-riviere": {
+            "prompt": "Quelle courte rivière traverse Angers ?",
+            "hint": "Elle naît de la réunion de la Mayenne et de la Sarthe, que vient grossir le Loir.",
+            "anecdote": "Longue d'une douzaine de kilomètres seulement, elle se jette dans la Loire à Bouchemaine, juste en aval d'Angers.",
+            "answers": {
+              "la-maine": "La Maine",
+              "l-erdre": "L'Erdre",
+              "l-authion": "L'Authion",
+              "le-layon": "Le Layon"
+            }
+          },
+          "erdre": {
+            "prompt": "Quelle rivière, au nord de Nantes, est bordée de châteaux et de manoirs ?",
+            "hint": "François Ier l'aurait qualifiée de plus belle rivière de France.",
+            "anecdote": "Les riches Nantais y ont fait bâtir de belles demeures de plaisance, qu'on appelle des folies. Elle rejoint la Loire au cœur de Nantes.",
+            "answers": {
+              "l-erdre": "L'Erdre",
+              "l-indre": "L'Indre",
+              "le-cher": "Le Cher",
+              "la-vienne": "La Vienne"
+            }
+          },
+          "dep-nantes": {
+            "prompt": "Touchez le département dont la préfecture est Nantes.",
+            "hint": "C'est le département de l'estuaire, à l'ouest de la région, voisin de la Bretagne.",
+            "anecdote": "La Loire-Atlantique est le département le plus peuplé de la région, avec plus de 1,4 million d'habitants."
+          },
+          "dep-saint-nazaire": {
+            "prompt": "Touchez le département de Saint-Nazaire, le grand port de l'estuaire.",
+            "hint": "C'est le département de l'estuaire, à l'ouest de la région, voisin de la Bretagne.",
+            "anecdote": "Saint-Nazaire est célèbre pour ses chantiers navals, où sont construits certains des plus grands paquebots du monde."
+          },
+          "dep-guerande": {
+            "prompt": "Touchez le département de Guérande et de ses marais salants.",
+            "hint": "C'est le département de l'estuaire, à l'ouest de la région, voisin de la Bretagne.",
+            "anecdote": "La presqu'île guérandaise s'avance dans l'océan entre l'estuaire de la Loire et celui de la Vilaine."
+          },
+          "dep-angers": {
+            "prompt": "Touchez le département dont la préfecture est Angers.",
+            "hint": "C'est le département du sud-est de la région, traversé d'est en ouest par la Loire.",
+            "anecdote": "Le Maine-et-Loire doit son nom à la Maine, qui traverse Angers, et à la Loire."
+          },
+          "dep-saumur": {
+            "prompt": "Touchez le département de Saumur, la cité du cheval.",
+            "hint": "C'est le département du sud-est de la région, traversé d'est en ouest par la Loire.",
+            "anecdote": "Saumur accueille l'École nationale d'équitation et ses célèbres écuyers du Cadre noir."
+          },
+          "dep-cholet": {
+            "prompt": "Touchez le département de Cholet, la capitale des Mauges.",
+            "hint": "C'est le département du sud-est de la région, traversé d'est en ouest par la Loire.",
+            "anecdote": "Cholet est connue pour son industrie textile, ses chaussures et son mouchoir rouge."
+          },
+          "dep-laval": {
+            "prompt": "Touchez le département dont la préfecture est Laval.",
+            "hint": "C'est le département du nord-ouest de la région, voisin de la Bretagne et de la Normandie.",
+            "anecdote": "La Mayenne est le département le moins peuplé de la région, avec environ 310 000 habitants."
+          },
+          "dep-chateau-gontier": {
+            "prompt": "Touchez le département de Château-Gontier-sur-Mayenne.",
+            "hint": "C'est le département du nord-ouest de la région, voisin de la Bretagne et de la Normandie.",
+            "anecdote": "La ville domine la rivière qui a donné son nom au département. Elle accueille chaque semaine l'un des grands marchés aux bestiaux de France."
+          },
+          "dep-evron": {
+            "prompt": "Touchez le département d'Évron et de la cité médiévale de Sainte-Suzanne.",
+            "hint": "C'est le département du nord-ouest de la région, voisin de la Bretagne et de la Normandie.",
+            "anecdote": "Sainte-Suzanne, perchée sur un éperon rocheux, a résisté au XIe siècle aux troupes de Guillaume le Conquérant."
+          },
+          "dep-le-mans": {
+            "prompt": "Touchez le département dont la préfecture est Le Mans.",
+            "hint": "C'est le département du nord-est de la région, voisin de la Normandie et du Centre-Val de Loire.",
+            "anecdote": "Le Mans est mondialement connu pour sa course automobile d'endurance, les 24 Heures."
+          },
+          "dep-la-fleche": {
+            "prompt": "Touchez le département de La Flèche et de son grand parc zoologique.",
+            "hint": "C'est le département du nord-est de la région, voisin de la Normandie et du Centre-Val de Loire.",
+            "anecdote": "La Flèche abrite aussi le Prytanée national militaire, installé dans un ancien collège de jésuites."
+          },
+          "dep-sable": {
+            "prompt": "Touchez le département de Sablé-sur-Sarthe et de ses célèbres biscuits.",
+            "hint": "C'est le département du nord-est de la région, voisin de la Normandie et du Centre-Val de Loire.",
+            "anecdote": "Tout près de Sablé, les moines de l'abbaye de Solesmes sont réputés pour le chant grégorien."
+          },
+          "dep-la-roche": {
+            "prompt": "Touchez le département dont la préfecture est La Roche-sur-Yon.",
+            "hint": "C'est le département du sud-ouest de la région, au bord de l'océan, voisin de la Nouvelle-Aquitaine.",
+            "anecdote": "La Roche-sur-Yon a été choisie par Napoléon, en 1804, pour devenir le nouveau chef-lieu du département."
+          },
+          "dep-sables": {
+            "prompt": "Touchez le département des Sables-d'Olonne, port de départ d'une course à la voile autour du monde.",
+            "hint": "C'est le département du sud-ouest de la région, au bord de l'océan, voisin de la Nouvelle-Aquitaine.",
+            "anecdote": "Tous les quatre ans, les navigateurs partent seuls, sans escale et sans assistance, pour un tour du monde à la voile."
+          },
+          "dep-noirmoutier": {
+            "prompt": "Touchez le département de l'île de Noirmoutier.",
+            "hint": "C'est le département du sud-ouest de la région, au bord de l'océan, voisin de la Nouvelle-Aquitaine.",
+            "anecdote": "À marée basse, on peut rejoindre l'île par le passage du Gois, une route qui disparaît sous la mer deux fois par jour."
+          },
+          "bocage": {
+            "prompt": "Comment appelle-t-on le paysage de prés et de champs entourés de haies, très présent en Mayenne et en Vendée ?",
+            "hint": "Les haies y sont souvent plantées sur des talus, le long de chemins creux.",
+            "anecdote": "Ce paysage d'élevage abrite une faune riche. Les haies protègent les bêtes du vent et retiennent l'eau.",
+            "answers": {
+              "le-bocage": "Le bocage",
+              "la-garrigue": "La garrigue",
+              "le-maquis": "Le maquis",
+              "la-lande": "La lande"
+            }
+          },
+          "chateau-ducs": {
+            "prompt": "Dans quelle ville se dresse ce château des ducs de Bretagne ?",
+            "hint": "C'est la plus grande ville de la région, au bord de la Loire.",
+            "anecdote": "Anne de Bretagne y est née en 1477. Le château abrite aujourd'hui le musée d'histoire de la ville.",
+            "answers": {
+              "rennes": "Rennes",
+              "vannes": "Vannes"
+            }
+          },
+          "titan": {
+            "prompt": "Sur quelle île de la Loire se dresse cette grue jaune, vestige des anciens chantiers navals ?",
+            "hint": "C'est l'île des Machines et du Grand Éléphant, au cœur de la plus grande ville de la région.",
+            "anecdote": "Deux grues Titan, l'une grise et l'autre jaune, ont été conservées. Elles sont protégées comme monuments historiques.",
+            "answers": {
+              "l-ile-de-nantes": "L'île de Nantes",
+              "l-ile-de-noirmoutier": "L'île de Noirmoutier",
+              "l-ile-d-yeu": "L'île d'Yeu",
+              "l-ile-behuard": "L'île Béhuard"
+            }
+          },
+          "place-napoleon": {
+            "prompt": "Dans quelle ville se trouve cette place Napoléon, avec la statue équestre de l'empereur ?",
+            "hint": "C'est la préfecture de la Vendée.",
+            "anecdote": "Rénovée en 2014, la place accueille dans ses bassins des animaux mécaniques imaginés par les créateurs des Machines de l'île, à Nantes.",
+            "answers": {
+              "pontivy": "Pontivy"
+            }
+          },
+          "laval-pont": {
+            "prompt": "Quelle ville, préfecture de la Mayenne, est dominée par ce vieux château, au bout d'un pont de pierre ?",
+            "hint": "Le Douanier Rousseau et Alfred Jarry y sont nés.",
+            "anecdote": "Le vieux château, avec son donjon du XIe siècle, abrite un musée d'art naïf et d'arts singuliers.",
+            "answers": {
+              "vitre": "Vitré"
+            }
+          },
+          "la-baule": {
+            "prompt": "Quelle station balnéaire de Loire-Atlantique s'étend le long de cette grande plage en arc de cercle ?",
+            "hint": "Sa plage, longue de près de neuf kilomètres, passe pour l'une des plus belles d'Europe.",
+            "anecdote": "La station est née à la fin du XIXe siècle, avec l'arrivée du chemin de fer, sur des dunes plantées de pins.",
+            "answers": {
+              "la-baule": "La Baule",
+              "saint-brevin-les-pins": "Saint-Brevin-les-Pins"
+            }
+          },
+          "briere": {
+            "prompt": "Quel grand marais, au nord de Saint-Nazaire, est le deuxième de France par sa surface ?",
+            "hint": "On le parcourt en chaland, une barque à fond plat.",
+            "anecdote": "C'est un parc naturel régional depuis 1970. Ses villages comptent de nombreuses chaumières.",
+            "answers": {
+              "la-briere": "La Brière",
+              "le-marais-poitevin": "Le Marais poitevin",
+              "le-marais-breton": "Le marais breton",
+              "la-camargue": "La Camargue"
+            }
+          },
+          "angers-maine": {
+            "prompt": "Quelle ville, surnommée la ville noire pour ses toits et ses murs d'ardoise, s'étend au bord de la Maine ?",
+            "hint": "C'est la préfecture du Maine-et-Loire.",
+            "anecdote": "Ce surnom vient du schiste et de l'ardoise de ses bâtiments anciens. Elle est aussi réputée pour ses parcs et son horticulture.",
+            "answers": {
+              "tours": "Tours"
+            }
+          },
+          "le-mans-cathedrale": {
+            "prompt": "Dans quelle ville se dresse cette cathédrale Saint-Julien ?",
+            "hint": "On y court chaque année une célèbre course automobile d'endurance.",
+            "anecdote": "La cathédrale domine la vieille ville, encore entourée d'une grande partie de son enceinte romaine.",
+            "answers": {
+              "chartres": "Chartres",
+              "tours": "Tours"
+            }
+          },
+          "sarthe-riviere": {
+            "prompt": "Quelle rivière traverse Le Mans, puis rejoint la Mayenne au nord d'Angers ?",
+            "hint": "Elle a donné son nom au département du Mans.",
+            "anecdote": "En se réunissant à la Mayenne, elle forme la Maine, la courte rivière d'Angers.",
+            "answers": {
+              "la-sarthe": "La Sarthe",
+              "la-mayenne": "La Mayenne",
+              "le-loir": "Le Loir",
+              "l-huisne": "L'Huisne"
+            }
+          },
+          "saint-nazaire-plage": {
+            "prompt": "Quelle ville, reconstruite après la Seconde Guerre mondiale, borde cette plage à l'entrée de l'estuaire de la Loire ?",
+            "hint": "Ses chantiers navals construisent de grands paquebots.",
+            "anecdote": "Les bombardements de la guerre l'avaient presque entièrement détruite. Son littoral compte une vingtaine de plages.",
+            "answers": {
+              "la-baule": "La Baule",
+              "lorient": "Lorient",
+              "pornichet": "Pornichet"
+            }
+          },
+          "sables-penotte": {
+            "prompt": "Dans quelle ville de Vendée les ruelles du quartier de l'île Penotte sont-elles décorées de mosaïques de coquillages ?",
+            "hint": "C'est le port de départ d'une célèbre course à la voile autour du monde.",
+            "anecdote": "Les murs de ce petit quartier sont couverts de fresques composées de milliers de coquillages."
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs des Pays de la Loire",
+          "description": "Muscadet et vins d'Anjou, sel de Guérande et sardines, rillettes, gâteau nantais et petit-beurre : la table d'une région de vignes, de marais et de bocage.",
+          "muscadet-cepage": {
+            "prompt": "Quel cépage blanc donne le muscadet ?",
+            "hint": "Malgré son nom, il est venu d'une autre grande région viticole française.",
+            "anecdote": "Après le terrible hiver de 1709, les vignerons nantais l'auraient planté en masse, car il résistait mieux au froid.",
+            "answers": {
+              "le-melon-de-bourgogne": "Le melon de Bourgogne",
+              "le-chenin": "Le chenin",
+              "le-sauvignon": "Le sauvignon",
+              "le-chardonnay": "Le chardonnay"
+            }
+          },
+          "sur-lie": {
+            "prompt": "Que signifie la mention « sur lie » sur une bouteille de muscadet ?",
+            "hint": "Elle concerne le temps passé par le vin en cuve, avant la mise en bouteille.",
+            "anecdote": "Cet élevage sur les levures mortes, tout l'hiver, donne au vin sa fraîcheur et parfois un léger perlant.",
+            "answers": {
+              "le-vin-a-repose-sur-ses-depots-jusqu-a-la-mise-en-bouteille": "Le vin a reposé sur ses dépôts jusqu'à la mise en bouteille",
+              "le-vin-a-vieilli-en-fut-de-chene": "Le vin a vieilli en fût de chêne",
+              "le-raisin-a-ete-vendange-a-la-main": "Le raisin a été vendangé à la main",
+              "le-vin-vient-d-une-seule-parcelle": "Le vin vient d'une seule parcelle"
+            }
+          },
+          "gros-plant": {
+            "prompt": "Quel vin blanc sec du pays nantais porte le nom local de son cépage, la folle blanche ?",
+            "hint": "On le sert volontiers avec les huîtres et les fruits de mer de la côte.",
+            "anecdote": "Ailleurs, la folle blanche a longtemps servi à produire les eaux-de-vie de Cognac et d'Armagnac.",
+            "answers": {
+              "le-gros-plant": "Le gros-plant",
+              "le-jasnieres": "Le jasnières",
+              "le-savennieres": "Le savennières",
+              "le-quincy": "Le quincy"
+            }
+          },
+          "chenin": {
+            "prompt": "Quel cépage blanc donne les vins liquoreux des coteaux du Layon ?",
+            "hint": "C'est le grand cépage blanc de l'Anjou et de la Touraine.",
+            "anecdote": "Les raisins sont cueillis très mûrs, touchés par la pourriture noble, au fil de plusieurs passages dans les vignes.",
+            "answers": {
+              "le-chenin": "Le chenin",
+              "le-melon-de-bourgogne": "Le melon de Bourgogne",
+              "le-semillon": "Le sémillon",
+              "le-gewurztraminer": "Le gewurztraminer"
+            }
+          },
+          "cabernet-franc": {
+            "prompt": "Quel cépage rouge donne le saumur-champigny ?",
+            "hint": "Dans la vallée de la Loire, on l'appelle parfois le breton.",
+            "anecdote": "Ce vin rouge souple et fruité pousse sur les coteaux de tuffeau qui bordent la Loire, autour de Saumur.",
+            "answers": {
+              "le-cabernet-franc": "Le cabernet franc",
+              "le-pinot-noir": "Le pinot noir",
+              "le-gamay": "Le gamay",
+              "le-merlot": "Le merlot"
+            }
+          },
+          "cointreau": {
+            "prompt": "Quelle liqueur à l'orange, connue dans le monde entier, est née à Angers ?",
+            "hint": "Elle porte le nom de la famille de confiseurs qui l'a créée.",
+            "anecdote": "La maison a été fondée à Angers en 1849 par des confiseurs. Sa liqueur d'écorces d'oranges douces et amères est devenue célèbre dans le monde entier à la fin du XIXe siècle.",
+            "answers": {
+              "le-cointreau": "Le Cointreau",
+              "le-grand-marnier": "Le Grand Marnier",
+              "le-curacao": "Le curaçao",
+              "la-chartreuse": "La Chartreuse"
+            }
+          },
+          "guignolet": {
+            "prompt": "Quelle liqueur de cerises est une spécialité de l'Anjou ?",
+            "hint": "Son nom vient d'une variété de cerise, la guigne.",
+            "anecdote": "On la boit souvent mélangée à de l'eau-de-vie de cerise, sous le nom de guignolet-kirsch.",
+            "answers": {
+              "le-guignolet": "Le guignolet",
+              "le-kirsch": "Le kirsch",
+              "le-marasquin": "Le marasquin",
+              "la-mirabelle": "La mirabelle"
+            }
+          },
+          "sable": {
+            "prompt": "Quel biscuit au beurre porte le nom d'une ville de la Sarthe ?",
+            "hint": "Sa pâte friable, riche en beurre, s'effrite sous la dent.",
+            "anecdote": "La tradition rattache sa naissance à Sablé-sur-Sarthe, au XVIIe siècle, et la ville en produit toujours.",
+            "answers": {
+              "le-sable": "Le sablé",
+              "le-palet": "Le palet",
+              "le-boudoir": "Le boudoir",
+              "le-speculoos": "Le speculoos"
+            }
+          },
+          "petit-beurre": {
+            "prompt": "Quel biscuit rectangulaire aux bords dentelés est né à Nantes en 1886 ?",
+            "hint": "Il compte quatre oreilles, cinquante-deux dents et vingt-quatre trous.",
+            "anecdote": "Il a été créé par Louis Lefèvre-Utile, dont les initiales ont donné son nom à la biscuiterie nantaise.",
+            "answers": {
+              "le-petit-beurre": "Le petit-beurre",
+              "la-gaufrette": "La gaufrette",
+              "le-macaron": "Le macaron",
+              "la-madeleine": "La madeleine"
+            }
+          },
+          "muguet": {
+            "prompt": "Quelle fleur, offerte le 1er mai, est cultivée en grande quantité autour de Nantes ?",
+            "hint": "Ses petites clochettes blanches sentent très bon.",
+            "anecdote": "Les maraîchers et horticulteurs nantais produisent l'essentiel du brin porte-bonheur vendu en France.",
+            "answers": {
+              "le-muguet": "Le muguet",
+              "le-lilas": "Le lilas",
+              "la-jonquille": "La jonquille",
+              "le-bleuet": "Le bleuet"
+            }
+          },
+          "mogette": {
+            "prompt": "Quel haricot blanc, protégé par une indication géographique, est une spécialité de la Vendée ?",
+            "hint": "On le sert traditionnellement avec du jambon de Vendée, sur une tranche de pain grillé.",
+            "anecdote": "Son nom viendrait d'un vieux mot poitevin désignant la religieuse, en raison de sa forme.",
+            "answers": {
+              "la-mogette": "La mogette",
+              "le-coco-de-paimpol": "Le coco de Paimpol",
+              "le-lingot-du-nord": "Le lingot du Nord",
+              "le-flageolet": "Le flageolet"
+            }
+          },
+          "loue": {
+            "prompt": "Quel village de la Sarthe a donné son nom à des volailles fermières élevées en plein air ?",
+            "hint": "Ses éleveurs se sont regroupés dès la fin des années 1950.",
+            "anecdote": "Ses poulets, sous label rouge, sont élevés en plein air dans le bocage sarthois.",
+            "answers": {
+              "janze": "Janzé",
+              "bourg-en-bresse": "Bourg-en-Bresse"
+            }
+          },
+          "challans": {
+            "prompt": "Quelle ville du nord-ouest de la Vendée est réputée pour ses canards et ses volailles ?",
+            "hint": "Elle se trouve au cœur du marais breton vendéen.",
+            "anecdote": "Ses volailles fermières sont réputées depuis longtemps. Un grand marché s'y tient chaque semaine.",
+            "answers": {
+              "montaigu": "Montaigu"
+            }
+          },
+          "champignon": {
+            "prompt": "Quel champignon est cultivé en grande quantité dans les caves de tuffeau du Saumurois ?",
+            "hint": "Malgré son nom, on le cultive aujourd'hui surtout loin de la capitale.",
+            "anecdote": "Les anciennes carrières de pierre, fraîches et humides toute l'année, conviennent parfaitement à sa culture.",
+            "answers": {
+              "le-champignon-de-paris": "Le champignon de Paris",
+              "la-truffe": "La truffe",
+              "le-cepe": "Le cèpe",
+              "la-girolle": "La girolle"
+            }
+          },
+          "civelle": {
+            "prompt": "Quel petit poisson transparent, pêché dans l'estuaire de la Loire, est un alevin d'anguille ?",
+            "hint": "Dans le Sud-Ouest, on l'appelle la pibale.",
+            "anecdote": "Ces jeunes anguilles, nées dans la mer des Sargasses, remontent les estuaires en hiver. Leur pêche est très encadrée.",
+            "answers": {
+              "la-civelle": "La civelle",
+              "l-eperlan": "L'éperlan",
+              "la-sardine": "La sardine",
+              "l-alose": "L'alose"
+            }
+          },
+          "beurre-blanc": {
+            "prompt": "Quelle sauce, née dans le pays nantais, accompagne les poissons de Loire ?",
+            "hint": "Elle mêle du beurre, des échalotes et du vin blanc ou du vinaigre.",
+            "anecdote": "La tradition attribue sa naissance, à la fin du XIXe siècle, à Clémence Lefeuvre, une cuisinière installée au bord de la Loire, près de Nantes.",
+            "answers": {
+              "le-beurre-blanc": "Le beurre blanc",
+              "la-bearnaise": "La béarnaise",
+              "la-hollandaise": "La hollandaise",
+              "la-sauce-gribiche": "La sauce gribiche"
+            }
+          },
+          "dep-muscadet": {
+            "prompt": "Touchez le département du vignoble du muscadet.",
+            "hint": "C'est le département de l'estuaire, à l'ouest de la région.",
+            "anecdote": "Le vignoble s'étend surtout au sud-est de Nantes, autour de Vallet, sur les bords de la Sèvre nantaise."
+          },
+          "dep-jasnieres": {
+            "prompt": "Touchez le département des vins blancs de jasnières, sur les coteaux du Loir.",
+            "hint": "C'est le département du nord-est de la région, autour du Mans.",
+            "anecdote": "Ce petit vignoble de chenin s'étend au sud du département, près de Château-du-Loir."
+          },
+          "dep-port-salut": {
+            "prompt": "Touchez le département de l'abbaye d'Entrammes, berceau du fromage port-salut.",
+            "hint": "C'est le département du nord-ouest de la région, autour de Laval.",
+            "anecdote": "Les moines trappistes de l'abbaye du Port-du-Salut ont mis au point ce fromage au XIXe siècle, au sud de Laval."
+          },
+          "quernon": {
+            "prompt": "Quelle confiserie d'Angers, faite de nougatine enrobée de chocolat bleuté, imite une pierre des toits ?",
+            "hint": "Son nom désigne le bloc que fendaient les ouvriers des carrières de Trélazé.",
+            "anecdote": "Elle a été créée dans les années 1960 par un confiseur angevin, en hommage aux toits sombres de la ville.",
+            "answers": {
+              "le-quernon-d-ardoise": "Le quernon d'ardoise",
+              "le-cotignac": "Le cotignac",
+              "la-forestine": "La forestine",
+              "le-sucre-de-pomme": "Le sucre de pomme"
+            }
+          },
+          "rillauds": {
+            "prompt": "Quelle spécialité de l'Anjou est faite de morceaux de poitrine de porc, longuement confits dans la graisse ?",
+            "hint": "On la sert chaude ou froide, souvent avec une salade verte.",
+            "anecdote": "Proches des rillons de Touraine, ces gros morceaux dorés sont une tradition des charcutiers angevins.",
+            "answers": {
+              "les-rillauds": "Les rillauds",
+              "les-grattons": "Les grattons",
+              "le-confit-de-canard": "Le confit de canard",
+              "le-jambon-persille": "Le jambon persillé"
+            }
+          },
+          "sardine": {
+            "prompt": "Quel petit poisson bleu, pêché par les bateaux de Saint-Gilles-Croix-de-Vie, a obtenu un label rouge ?",
+            "hint": "Il est souvent mis en conserve, à l'huile d'olive.",
+            "anecdote": "Le port vendéen est l'un des grands ports de pêche de ce poisson en France, avec des conserveries encore actives.",
+            "answers": {
+              "la-sardine": "La sardine",
+              "le-maquereau": "Le maquereau",
+              "l-anchois": "L'anchois",
+              "le-hareng": "Le hareng"
+            }
+          },
+          "bonnotte": {
+            "prompt": "Quel légume primeur, récolté au printemps, fait la réputation de l'île de Noirmoutier ?",
+            "hint": "Sa variété la plus rare, la bonnotte, se ramasse à la main.",
+            "anecdote": "Le sable de l'île, le climat doux et les algues utilisées comme engrais lui donnent un goût réputé.",
+            "answers": {
+              "la-pomme-de-terre": "La pomme de terre",
+              "l-asperge": "L'asperge",
+              "le-haricot": "Le haricot",
+              "la-carotte": "La carotte"
+            }
+          },
+          "mache": {
+            "prompt": "Quelle petite salade d'hiver, aux feuilles rondes, est cultivée en grande quantité dans le pays nantais ?",
+            "hint": "Ses pousses poussent en rosettes, dans des terres sableuses.",
+            "anecdote": "La région nantaise en produit la plus grande partie de la récolte française. On l'appelle aussi doucette.",
+            "answers": {
+              "la-mache": "La mâche",
+              "la-roquette": "La roquette",
+              "le-cresson": "Le cresson",
+              "la-laitue": "La laitue"
+            }
+          },
+          "gateau-nantais": {
+            "prompt": "Quel gâteau aux amandes, parfumé au rhum et recouvert d'un glaçage, est une spécialité de Nantes ?",
+            "hint": "Le rhum rappelle les épices et le sucre qui arrivaient autrefois par le port.",
+            "anecdote": "Il aurait été créé au début du XIXe siècle par un pâtissier nantais. Il se garde plusieurs jours.",
+            "answers": {
+              "le-gateau-nantais": "Le gâteau nantais",
+              "le-far-breton": "Le far breton",
+              "le-kouign-amann": "Le kouign-amann",
+              "la-galette-des-rois": "La galette des rois"
+            }
+          },
+          "berlingot": {
+            "prompt": "Quel bonbon en forme de petite pyramide est une spécialité de Nantes ?",
+            "hint": "Il est parfumé aux fruits et rayé de blanc.",
+            "anecdote": "Sa forme à quatre faces vient de la façon de couper le sucre cuit, encore tiède, avec des ciseaux.",
+            "answers": {
+              "le-berlingot-nantais": "Le berlingot nantais",
+              "la-betise-de-cambrai": "La bêtise de Cambrai",
+              "le-calisson": "Le calisson",
+              "la-violette-de-toulouse": "La violette de Toulouse"
+            }
+          },
+          "cure-nantais": {
+            "prompt": "Quel fromage à pâte molle et croûte lavée, au nom religieux, est né près de Nantes ?",
+            "hint": "Sa croûte orangée est frottée à l'eau salée.",
+            "anecdote": "Il a été créé au XIXe siècle à Saint-Julien-de-Concelles, dans le pays nantais.",
+            "answers": {
+              "le-cure-nantais": "Le curé nantais",
+              "le-pont-l-eveque": "Le pont-l'évêque",
+              "le-munster": "Le munster",
+              "le-saint-paulin": "Le saint-paulin"
+            }
+          },
+          "fouace": {
+            "prompt": "Quel pain brioché en forme d'étoile à six branches accompagne le vin nouveau, dans le pays nantais ?",
+            "hint": "On le déguste au moment des vendanges.",
+            "anecdote": "On le partage en détachant ses branches à la main, avec du vin blanc nouveau ou du jus de raisin.",
+            "answers": {
+              "la-fouace-nantaise": "La fouace nantaise",
+              "la-fougasse": "La fougasse",
+              "le-pain-d-epices": "Le pain d'épices",
+              "la-pogne": "La pogne"
+            }
+          },
+          "brioche": {
+            "prompt": "Quelle brioche tressée, parfumée à la fleur d'oranger, est servie aux mariages en Vendée ?",
+            "hint": "On la porte parfois en procession, sur un très grand plateau.",
+            "anecdote": "Elle bénéficie d'une indication géographique protégée. Sa mie filante est très légère.",
+            "answers": {
+              "la-brioche-vendeenne": "La brioche vendéenne",
+              "le-kougelhopf": "Le kougelhopf",
+              "la-pogne-de-romans": "La pogne de Romans",
+              "le-pain-au-lait": "Le pain au lait"
+            }
+          },
+          "prefou": {
+            "prompt": "Quel pain à l'ail et au beurre, servi chaud à l'apéritif, est une spécialité de la Vendée ?",
+            "hint": "Son nom viendrait de la pâte cuite à l'entrée du four, avant les autres pains.",
+            "anecdote": "Il était autrefois préparé avec un morceau de pâte, pour vérifier que le four était chaud.",
+            "answers": {
+              "le-prefou": "Le préfou",
+              "la-fougasse": "La fougasse",
+              "la-fouace": "La fouace",
+              "le-pain-perdu": "Le pain perdu"
+            }
+          },
+          "rillettes": {
+            "prompt": "Quelle viande de porc, cuite longtemps dans sa graisse puis effilochée, est la grande spécialité du Mans ?",
+            "hint": "On la tartine sur du pain de campagne.",
+            "anecdote": "Elles se dégustent froides, en entrée ou à l'apéritif, souvent avec des cornichons.",
+            "answers": {
+              "les-rillettes": "Les rillettes",
+              "le-pate-de-campagne": "Le pâté de campagne",
+              "le-jambon-persille": "Le jambon persillé",
+              "la-terrine-de-canard": "La terrine de canard"
+            }
+          },
+          "fleur-de-sel": {
+            "prompt": "Comment s'appelle ce sel très fin, récolté à la surface des bassins de Guérande ?",
+            "hint": "Il se forme les jours chauds et venteux, en fine pellicule.",
+            "anecdote": "Le paludier le cueille délicatement avec une lousse. Il est plus rare et plus cher que le gros sel.",
+            "answers": {
+              "la-fleur-de-sel": "La fleur de sel",
+              "le-sel-gemme": "Le sel gemme",
+              "le-sel-de-table": "Le sel de table",
+              "le-sel-de-celeri": "Le sel de céleri"
+            }
+          },
+          "deux-sels": {
+            "prompt": "Comment appelle-t-on le sel gris, récolté au fond des bassins, à côté de la fleur de sel ?",
+            "hint": "C'est le sel le plus abondant du marais.",
+            "anecdote": "Il doit sa couleur grise à l'argile du fond des bassins. On l'utilise surtout pour la cuisson.",
+            "answers": {
+              "le-gros-sel": "Le gros sel",
+              "le-sel-gemme": "Le sel gemme",
+              "le-sel-fin": "Le sel fin",
+              "le-sel-noir": "Le sel noir"
+            }
+          },
+          "marais-salant": {
+            "prompt": "Dans quelle presqu'île de Loire-Atlantique se trouvent ces marais salants, très réputés ?",
+            "hint": "Elle s'étend entre La Baule et Le Croisic.",
+            "anecdote": "Le sel y est récolté à la main depuis le Moyen Âge, dans des bassins d'argile alimentés par la mer.",
+            "answers": {
+              "la-presqu-ile-de-guerande": "La presqu'île de Guérande",
+              "la-presqu-ile-de-quiberon": "La presqu'île de Quiberon",
+              "la-presqu-ile-de-crozon": "La presqu'île de Crozon",
+              "la-presqu-ile-de-rhuys": "La presqu'île de Rhuys"
+            }
+          },
+          "paludier": {
+            "prompt": "Comment appelle-t-on celui qui récolte le sel dans les marais de Guérande ?",
+            "hint": "Son nom vient d'un mot latin qui désigne le marais.",
+            "anecdote": "Il entretient les bassins l'hiver et récolte le sel de juin à septembre, selon le soleil et le vent.",
+            "answers": {
+              "le-paludier": "Le paludier",
+              "le-marinier": "Le marinier",
+              "le-mareyeur": "Le mareyeur",
+              "le-goemonier": "Le goémonier"
+            }
+          },
+          "sel-noirmoutier": {
+            "prompt": "Sur quelle île de Vendée récolte-t-on aussi du sel, à la main, dans des marais salants ?",
+            "hint": "On y accède par un pont ou par une route que la mer recouvre.",
+            "anecdote": "Les sauniers de l'île y entretiennent les marais, aux côtés d'une coopérative créée en 1942.",
+            "answers": {
+              "noirmoutier": "Noirmoutier",
+              "l-ile-d-yeu": "L'île d'Yeu",
+              "l-ile-de-re": "L'île de Ré",
+              "belle-ile-en-mer": "Belle-Île-en-Mer"
+            }
+          },
+          "savennieres": {
+            "prompt": "Quel vin blanc sec d'Anjou, issu du chenin, pousse sur ces coteaux au bord de la Loire ?",
+            "hint": "Son appellation porte le nom d'un village situé en aval d'Angers.",
+            "anecdote": "Parmi ses vignobles, la Coulée de Serrant est l'une des rares appellations de France à n'appartenir qu'à un seul domaine.",
+            "answers": {
+              "le-savennieres": "Le savennières",
+              "le-muscadet": "Le muscadet",
+              "le-vouvray": "Le vouvray",
+              "le-sancerre": "Le sancerre"
+            }
+          },
+          "champigny": {
+            "prompt": "Quel vin rouge de la région de Saumur pousse dans ces vignes ?",
+            "hint": "Son nom associe la ville de Saumur à un ancien village voisin.",
+            "anecdote": "Ses vignes s'étendent sur des coteaux de tuffeau, sur la rive gauche de la Loire.",
+            "answers": {
+              "le-saumur-champigny": "Le saumur-champigny",
+              "le-chinon": "Le chinon",
+              "le-bourgueil": "Le bourgueil",
+              "le-beaujolais": "Le beaujolais"
+            }
+          },
+          "turquant": {
+            "prompt": "Quel vin effervescent, élaboré selon la méthode traditionnelle, est produit autour de Saumur ?",
+            "hint": "Ses bulles mûrissent dans des caves creusées dans le tuffeau.",
+            "anecdote": "Les grandes maisons de Saint-Hilaire-Saint-Florent font vieillir leurs bouteilles dans des kilomètres de galeries.",
+            "answers": {
+              "le-saumur-brut": "Le saumur brut",
+              "le-champagne": "Le champagne",
+              "la-clairette-de-die": "La clairette de Die",
+              "la-blanquette-de-limoux": "La blanquette de Limoux"
+            }
+          },
+          "muscadet-cru": {
+            "prompt": "Quel vin blanc sec pousse dans ce vignoble, au sud-est de Nantes ?",
+            "hint": "On le boit volontiers avec les huîtres et les fruits de mer.",
+            "anecdote": "Certaines de ses communes ont obtenu la mention de cru communal, pour des vins de garde.",
+            "answers": {
+              "le-muscadet": "Le muscadet",
+              "le-chablis": "Le chablis",
+              "le-sancerre": "Le sancerre",
+              "le-jurancon": "Le jurançon"
+            }
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Château des ducs et passage Pommeraye, tenture de l'Apocalypse et Cité Plantagenêt, abbayes royales et cités fortifiées : le patrimoine en images.",
+          "cathedrale-nantes": {
+            "prompt": "Quelle cathédrale de Nantes a été achevée en 1891, plus de quatre siècles après la pose de sa première pierre ?",
+            "hint": "Elle porte le nom de deux apôtres.",
+            "anecdote": "Sa construction a commencé en 1434. Un incendie a ravagé sa toiture en 1972, puis un autre a détruit son grand orgue en 2020.",
+            "answers": {
+              "la-cathedrale-saint-pierre-et-saint-paul": "La cathédrale Saint-Pierre-et-Saint-Paul",
+              "la-cathedrale-saint-maurice": "La cathédrale Saint-Maurice",
+              "la-cathedrale-saint-julien": "La cathédrale Saint-Julien",
+              "la-cathedrale-saint-gatien": "La cathédrale Saint-Gatien"
+            }
+          },
+          "elephant": {
+            "prompt": "Quelle machine géante, haute de 12 mètres, promène ses passagers sur l'île de Nantes ?",
+            "hint": "Elle a été imaginée par François Delarozière et Pierre Orefice.",
+            "anecdote": "Elle fait partie des Machines de l'île, installées depuis 2007 dans les anciennes nefs des chantiers navals.",
+            "answers": {
+              "le-grand-elephant": "Le Grand Éléphant",
+              "l-arbre-aux-herons": "L'Arbre aux hérons",
+              "le-carrousel-des-mondes-marins": "Le Carrousel des mondes marins",
+              "la-grande-araignee": "La Grande Araignée"
+            }
+          },
+          "pommeraye": {
+            "prompt": "Quelle galerie marchande du XIXe siècle, à Nantes, relie deux rues de niveaux différents par un grand escalier ?",
+            "hint": "Elle a été inaugurée en 1843.",
+            "anecdote": "Ses trois niveaux de galeries, ses statues et sa verrière en font l'un des plus beaux passages couverts de France. Jacques Demy y a tourné des scènes de Lola.",
+            "answers": {
+              "le-passage-pommeraye": "Le passage Pommeraye",
+              "la-galerie-vivienne": "La galerie Vivienne",
+              "le-passage-choiseul": "Le passage Choiseul",
+              "le-passage-du-grand-cerf": "Le passage du Grand-Cerf"
+            }
+          },
+          "tombeau-francois": {
+            "prompt": "Quel duc de Bretagne repose avec son épouse dans ce tombeau de la cathédrale de Nantes ?",
+            "hint": "C'est le père d'Anne de Bretagne.",
+            "anecdote": "Ce chef-d'œuvre de la Renaissance a été sculpté par Michel Colombe au début du XVIe siècle, à la demande d'Anne de Bretagne.",
+            "answers": {
+              "francois-ii": "François II",
+              "jean-v": "Jean V",
+              "arthur-iii": "Arthur III",
+              "pierre-ii": "Pierre II"
+            }
+          },
+          "feydeau": {
+            "prompt": "Quel ancien îlot de Nantes, aux immeubles d'armateurs ornés de mascarons, a été rattaché à la ville quand on a comblé les bras de la Loire ?",
+            "hint": "Certaines façades penchent, car elles reposent sur des pieux plantés dans un sol meuble.",
+            "anecdote": "Les bras du fleuve qui l'entouraient ont été comblés dans les années 1930. Jules Verne y est né en 1828.",
+            "answers": {
+              "l-ile-feydeau": "L'île Feydeau",
+              "l-ile-beaulieu": "L'île Beaulieu",
+              "l-ile-de-versailles": "L'île de Versailles",
+              "l-ile-sainte-anne": "L'île Sainte-Anne"
+            }
+          },
+          "memorial-abolition": {
+            "prompt": "Quel monument, ouvert en 2012 sur le quai de la Fosse, rappelle le rôle de Nantes dans la traite atlantique ?",
+            "hint": "Il longe la Loire, en partie sous le quai.",
+            "anecdote": "Le long de sa promenade, près de 2 000 plaques de verre rappellent des expéditions de traite et des ports d'Afrique, d'Amérique et de l'océan Indien.",
+            "answers": {
+              "le-memorial-de-l-abolition-de-l-esclavage": "Le Mémorial de l'abolition de l'esclavage",
+              "le-lieu-unique": "Le Lieu unique",
+              "le-monument-aux-cinquante-otages": "Le monument aux Cinquante Otages",
+              "le-musee-d-arts-de-nantes": "Le musée d'Arts de Nantes"
+            }
+          },
+          "chateau-angers": {
+            "prompt": "Quelle forteresse aligne dix-sept tours rayées de schiste et de tuffeau ?",
+            "hint": "Elle a été bâtie au XIIIe siècle par Blanche de Castille, pour le jeune Saint Louis.",
+            "anecdote": "Ses tours ont été arasées à la fin du XVIe siècle. Elle abrite aujourd'hui la tenture de l'Apocalypse.",
+            "answers": {
+              "le-chateau-d-angers": "Le château d'Angers",
+              "le-chateau-de-saumur": "Le château de Saumur",
+              "le-chateau-des-ducs-de-bretagne": "Le château des ducs de Bretagne",
+              "le-chateau-de-brissac": "Le château de Brissac"
+            }
+          },
+          "apocalypse": {
+            "prompt": "Quelle tenture médiévale, la plus grande conservée au monde, est exposée au château d'Angers ?",
+            "hint": "Elle illustre le dernier livre de la Bible.",
+            "anecdote": "Tissée à la fin du XIVe siècle pour le duc Louis Ier d'Anjou, elle mesure encore une centaine de mètres de long.",
+            "answers": {
+              "la-tenture-de-l-apocalypse": "La tenture de l'Apocalypse",
+              "la-tapisserie-de-bayeux": "La tapisserie de Bayeux",
+              "la-dame-a-la-licorne": "La Dame à la licorne",
+              "le-chant-du-monde": "Le Chant du monde"
+            }
+          },
+          "chant-monde": {
+            "prompt": "Quelle tenture de Jean Lurçat est exposée dans l'ancien hôpital Saint-Jean d'Angers ?",
+            "hint": "L'artiste l'a conçue après avoir découvert la tenture de l'Apocalypse.",
+            "anecdote": "Ses dix pièces, tissées entre 1957 et 1966, évoquent les menaces de l'ère atomique, puis les joies de la vie.",
+            "answers": {
+              "le-chant-du-monde": "Le Chant du monde",
+              "la-tenture-de-l-apocalypse": "La tenture de l'Apocalypse",
+              "la-dame-a-la-licorne": "La Dame à la licorne",
+              "la-tapisserie-de-bayeux": "La tapisserie de Bayeux"
+            }
+          },
+          "saint-maurice": {
+            "prompt": "Quelle cathédrale d'Angers domine la Maine, au sommet d'une grande montée d'escaliers ?",
+            "hint": "Elle porte le nom d'un soldat romain martyr.",
+            "anecdote": "Ses voûtes très bombées, du XIIe siècle, sont parmi les premiers exemples du gothique angevin, dit aussi gothique Plantagenêt.",
+            "answers": {
+              "la-cathedrale-saint-maurice": "La cathédrale Saint-Maurice",
+              "la-cathedrale-saint-julien": "La cathédrale Saint-Julien",
+              "la-cathedrale-saint-pierre-et-saint-paul": "La cathédrale Saint-Pierre-et-Saint-Paul",
+              "la-cathedrale-saint-gatien": "La cathédrale Saint-Gatien"
+            }
+          },
+          "maison-adam": {
+            "prompt": "Quelle maison à pans de bois sculptés, de la fin du XVe siècle, est la plus célèbre du vieil Angers ?",
+            "hint": "Elle doit son nom à un pommier sculpté sur sa façade, autrefois entouré de deux personnages bibliques.",
+            "anecdote": "Ses poteaux portent des dizaines de figures sculptées, parfois malicieuses. Elle abrite aujourd'hui une boutique d'artisans d'art.",
+            "answers": {
+              "la-maison-d-adam": "La maison d'Adam",
+              "la-maison-du-pilori": "La maison du Pilori",
+              "la-maison-des-tetes": "La maison des Têtes",
+              "la-maison-de-la-reine-berengere": "La maison de la Reine Bérengère"
+            }
+          },
+          "cite-plantagenet": {
+            "prompt": "Comment s'appelle le vieux Mans, quartier médiéval et Renaissance perché au-dessus de la Sarthe ?",
+            "hint": "Elle porte le nom de la dynastie des comtes d'Anjou devenus rois d'Angleterre.",
+            "anecdote": "Ses ruelles pavées ont servi de décor à de nombreux films, dont Cyrano de Bergerac, en 1990.",
+            "answers": {
+              "la-cite-plantagenet": "La Cité Plantagenêt",
+              "la-doutre": "La Doutre",
+              "le-vieux-lyon": "Le Vieux Lyon",
+              "le-quartier-saint-leu": "Le quartier Saint-Leu"
+            }
+          },
+          "saint-julien": {
+            "prompt": "Quelle cathédrale du Mans réunit une nef romane et un immense chœur gothique, soutenu par des arcs-boutants en forme de Y ?",
+            "hint": "Elle porte le nom du premier évêque de la ville.",
+            "anecdote": "Contre l'angle de sa façade se dresse un menhir de grès, haut de plus de quatre mètres.",
+            "answers": {
+              "la-cathedrale-saint-julien": "La cathédrale Saint-Julien",
+              "la-cathedrale-saint-maurice": "La cathédrale Saint-Maurice",
+              "la-cathedrale-saint-pierre-et-saint-paul": "La cathédrale Saint-Pierre-et-Saint-Paul",
+              "la-cathedrale-notre-dame-de-chartres": "La cathédrale Notre-Dame de Chartres"
+            }
+          },
+          "enceinte-romaine": {
+            "prompt": "Quel ouvrage de la fin du IIIe siècle, au Mans, est l'un des mieux conservés de la Gaule romaine ?",
+            "hint": "Ses murs sont décorés de motifs géométriques en pierres et en briques de couleurs différentes.",
+            "anecdote": "Elle s'étend encore sur plus d'un kilomètre, avec une dizaine de tours, au-dessus de la Sarthe.",
+            "answers": {
+              "l-enceinte-gallo-romaine": "L'enceinte gallo-romaine",
+              "l-amphitheatre": "L'amphithéâtre",
+              "l-aqueduc": "L'aqueduc",
+              "le-theatre-antique": "Le théâtre antique"
+            }
+          },
+          "epau": {
+            "prompt": "Quelle abbaye cistercienne, aux portes du Mans, a été fondée en 1229 par la reine Bérengère ?",
+            "hint": "La reine était la veuve de Richard Cœur de Lion.",
+            "anecdote": "Le gisant de la fondatrice repose dans la salle capitulaire. L'abbaye accueille chaque printemps un festival de musique classique.",
+            "answers": {
+              "l-abbaye-de-l-epau": "L'abbaye de l'Épau",
+              "l-abbaye-de-fontevraud": "L'abbaye de Fontevraud",
+              "l-abbaye-de-solesmes": "L'abbaye de Solesmes",
+              "l-abbaye-de-maillezais": "L'abbaye de Maillezais"
+            }
+          },
+          "solesmes": {
+            "prompt": "Quelle abbaye bénédictine domine la Sarthe, tout près de Sablé ?",
+            "hint": "Ses moines sont réputés pour le chant grégorien.",
+            "anecdote": "Ils ont restauré ce chant au XIXe siècle, et leurs enregistrements ont fait le tour du monde. L'église abrite des groupes sculptés, appelés les saints de Solesmes.",
+            "answers": {
+              "l-abbaye-saint-pierre-de-solesmes": "L'abbaye Saint-Pierre de Solesmes",
+              "l-abbaye-de-l-epau": "L'abbaye de l'Épau",
+              "l-abbaye-de-fontevraud": "L'abbaye de Fontevraud",
+              "l-abbaye-de-saint-wandrille": "L'abbaye de Saint-Wandrille"
+            }
+          },
+          "prytanee": {
+            "prompt": "Quel lycée militaire occupe l'ancien collège des jésuites de La Flèche ?",
+            "hint": "Il a été fondé par Henri IV, dont le cœur repose dans la chapelle.",
+            "anecdote": "Ses élèves sont surnommés les brutions. Le collège a compté René Descartes parmi ses élèves.",
+            "answers": {
+              "le-prytanee-national-militaire": "Le Prytanée national militaire",
+              "l-ecole-speciale-militaire-de-saint-cyr": "L'École spéciale militaire de Saint-Cyr",
+              "l-ecole-navale": "L'École navale",
+              "le-lycee-henri-iv": "Le lycée Henri-IV"
+            }
+          },
+          "le-lude": {
+            "prompt": "Quel château de la Sarthe, au bord du Loir, mêle sur ses façades le Moyen Âge, la Renaissance et le classicisme ?",
+            "hint": "Il se trouve au sud du département, entre La Flèche et Château-du-Loir.",
+            "anecdote": "Ses jardins à la française s'étendent jusqu'à la rivière. Ils accueillent chaque année des journées consacrées aux plantes et aux jardins.",
+            "answers": {
+              "le-chateau-du-lude": "Le château du Lude",
+              "le-chateau-de-brissac": "Le château de Brissac",
+              "le-chateau-de-montsoreau": "Le château de Montsoreau",
+              "le-chateau-de-serrant": "Le château de Serrant"
+            }
+          },
+          "fontevraud": {
+            "prompt": "Quelle abbaye d'Anjou, fondée en 1101, est l'une des plus grandes cités monastiques d'Europe ?",
+            "hint": "Elle était dirigée par des abbesses, à la tête de religieuses et de religieux.",
+            "anecdote": "On y voit les gisants d'Henri II, d'Aliénor d'Aquitaine et de Richard Cœur de Lion. Elle a servi de prison de 1804 à 1963.",
+            "answers": {
+              "l-abbaye-de-fontevraud": "L'abbaye de Fontevraud",
+              "l-abbaye-de-cluny": "L'abbaye de Cluny",
+              "l-abbaye-de-l-epau": "L'abbaye de l'Épau",
+              "l-abbaye-de-solesmes": "L'abbaye de Solesmes"
+            }
+          },
+          "brissac": {
+            "prompt": "Quel château angevin appartient à la famille de Cossé depuis 1502 ?",
+            "hint": "Sa façade inachevée est encadrée de deux grosses tours médiévales.",
+            "anecdote": "Il abrite un petit théâtre à l'italienne, aménagé à la fin du XIXe siècle.",
+            "answers": {
+              "le-chateau-de-brissac": "Le château de Brissac",
+              "le-chateau-de-serrant": "Le château de Serrant",
+              "le-chateau-de-montsoreau": "Le château de Montsoreau",
+              "le-chateau-du-plessis-bourre": "Le château du Plessis-Bourré"
+            }
+          },
+          "montsoreau": {
+            "prompt": "Quel château se dresse au bord même de la Loire, tout près du confluent de la Vienne ?",
+            "hint": "Alexandre Dumas en a fait le décor d'un roman de cape et d'épée.",
+            "anecdote": "Construit au XVe siècle, il abrite aujourd'hui un musée d'art contemporain.",
+            "answers": {
+              "le-chateau-de-montsoreau": "Le château de Montsoreau",
+              "le-chateau-de-saumur": "Le château de Saumur",
+              "le-chateau-de-brissac": "Le château de Brissac",
+              "le-chateau-de-chinon": "Le château de Chinon"
+            }
+          },
+          "plessis-bourre": {
+            "prompt": "Quel château blanc, entouré de larges douves, a été bâti au XVe siècle pour un ministre de Louis XI ?",
+            "hint": "Il se trouve au nord d'Angers, à Écuillé.",
+            "anecdote": "Le plafond de sa salle des gardes est peint de scènes allégoriques et alchimiques. Il a servi de décor à de nombreux films.",
+            "answers": {
+              "le-chateau-du-plessis-bourre": "Le château du Plessis-Bourré",
+              "le-chateau-de-serrant": "Le château de Serrant",
+              "le-chateau-de-brissac": "Le château de Brissac",
+              "le-chateau-de-montreuil-bellay": "Le château de Montreuil-Bellay"
+            }
+          },
+          "serrant": {
+            "prompt": "Quel château Renaissance, aux tours coiffées de dômes, se dresse à Saint-Georges-sur-Loire ?",
+            "hint": "Il est entouré de douves, près des vignes de Savennières.",
+            "anecdote": "Sa bibliothèque compte environ 12 000 volumes.",
+            "answers": {
+              "le-chateau-de-serrant": "Le château de Serrant",
+              "le-chateau-de-brissac": "Le château de Brissac",
+              "le-chateau-du-plessis-bourre": "Le château du Plessis-Bourré",
+              "le-chateau-de-montsoreau": "Le château de Montsoreau"
+            }
+          },
+          "montreuil-bellay": {
+            "prompt": "Quelle cité du sud de l'Anjou, au bord du Thouet, est dominée par ce château aux nombreuses tours ?",
+            "hint": "Elle se trouve au sud de Saumur, près des limites de la Vienne et des Deux-Sèvres.",
+            "anecdote": "Le château conserve une cuisine médiévale voûtée, avec un grand foyer central.",
+            "answers": {
+              "montreuil-bellay": "Montreuil-Bellay",
+              "doue-la-fontaine": "Doué-la-Fontaine",
+              "thouars": "Thouars"
+            }
+          },
+          "behuard": {
+            "prompt": "Quelle petite île de la Loire, près d'Angers, abrite une église bâtie sur un rocher ?",
+            "hint": "Louis XI y venait en pèlerinage.",
+            "anecdote": "Le roi a fait agrandir l'église Notre-Dame au XVe siècle. L'île est parfois coupée du monde lors des crues.",
+            "answers": {
+              "montjean-sur-loire": "Montjean-sur-Loire",
+              "bouchemaine": "Bouchemaine"
+            }
+          },
+          "guerande-remparts": {
+            "prompt": "Quelle cité médiévale de Loire-Atlantique a conservé ses remparts intacts, sur près d'un kilomètre et demi ?",
+            "hint": "Elle domine des marais salants célèbres.",
+            "anecdote": "On entre dans la ville close par quatre portes, dont la porte Saint-Michel, ancienne résidence des gouverneurs."
+          },
+          "clisson": {
+            "prompt": "Quelle ville du vignoble nantais, rebâtie à l'italienne au XIXe siècle, est dominée par ce château en ruine ?",
+            "hint": "Elle se trouve au confluent de la Sèvre nantaise et de la Moine.",
+            "anecdote": "Après les destructions des guerres de Vendée, les frères Cacault et le sculpteur Lemot l'ont reconstruite en s'inspirant de l'Italie.",
+            "answers": {
+              "ancenis": "Ancenis"
+            }
+          },
+          "chateaubriant": {
+            "prompt": "Dans quelle ville du nord de la Loire-Atlantique se dressent ce château médiéval et son logis Renaissance ?",
+            "hint": "Son nom ressemble à celui d'un écrivain romantique, et à celui d'une épaisse pièce de bœuf.",
+            "anecdote": "Le 22 octobre 1941, vingt-sept otages y ont été fusillés par l'occupant, à la carrière de la Sablière. Guy Môquet était le plus jeune.",
+            "answers": {
+              "ancenis": "Ancenis",
+              "blain": "Blain",
+              "nort-sur-erdre": "Nort-sur-Erdre"
+            }
+          },
+          "pornic": {
+            "prompt": "Quel port de la côte de Jade est dominé par ce château médiéval ?",
+            "hint": "Il se trouve au sud de l'estuaire de la Loire, face à Noirmoutier.",
+            "anecdote": "Le sentier des douaniers longe la côte rocheuse au pied du château, entre criques et petites plages.",
+            "answers": {
+              "pornichet": "Pornichet"
+            }
+          },
+          "croisic": {
+            "prompt": "Quel port de la presqu'île guérandaise, aux maisons d'armateurs, a gardé une criée toujours active ?",
+            "hint": "Il fait face au traict, une lagune bordée de marais salants.",
+            "anecdote": "La ville accueille aussi un grand aquarium, l'Océarium.",
+            "answers": {
+              "la-turballe": "La Turballe",
+              "pornichet": "Pornichet"
+            }
+          },
+          "goulaine": {
+            "prompt": "Quel château du vignoble nantais, bordé de marais, abrite une serre de papillons tropicaux ?",
+            "hint": "Il appartient à la même famille depuis près de mille ans.",
+            "anecdote": "Il présente aussi une collection consacrée à l'histoire des biscuits nantais et de leurs affiches.",
+            "answers": {
+              "le-chateau-de-goulaine": "Le château de Goulaine",
+              "le-chateau-de-clisson": "Le château de Clisson",
+              "le-chateau-de-chateaubriant": "Le château de Châteaubriant",
+              "le-chateau-de-serrant": "Le château de Serrant"
+            }
+          },
+          "sainte-suzanne": {
+            "prompt": "Quelle cité de la Mayenne, perchée au-dessus de l'Erve, est classée parmi les plus beaux villages de France ?",
+            "hint": "Son donjon du XIe siècle a tenu tête au duc de Normandie.",
+            "anecdote": "Ses remparts entourent un logis du XVIIe siècle, qui abrite un centre d'interprétation de l'architecture et du patrimoine.",
+            "answers": {
+              "sainte-suzanne": "Sainte-Suzanne",
+              "saint-ceneri-le-gerei": "Saint-Céneri-le-Gérei"
+            }
+          },
+          "evron": {
+            "prompt": "Dans quelle ville de la Mayenne se dresse cette basilique Notre-Dame de l'Épine ?",
+            "hint": "C'est une petite ville à l'est de Laval.",
+            "anecdote": "Elle était l'église d'une abbaye bénédictine. Elle réunit une partie romane et un vaste chœur gothique."
+          },
+          "fontenay": {
+            "prompt": "Quelle ville du sud de la Vendée a été le chef-lieu du département jusqu'en 1804 ?",
+            "hint": "Rabelais y a vécu dans un couvent, au début du XVIe siècle.",
+            "anecdote": "Elle a été l'un des foyers de l'humanisme à la Renaissance, autour de juristes et de lettrés.",
+            "answers": {
+              "niort": "Niort"
+            }
+          },
+          "maillezais": {
+            "prompt": "Quelle abbaye en ruine, au cœur du Marais poitevin, est devenue le siège d'un évêché en 1317 ?",
+            "hint": "Rabelais y a séjourné auprès de l'évêque Geoffroy d'Estissac.",
+            "anecdote": "Fondée vers l'an mil, elle a perdu son évêché au XVIIe siècle, au profit de La Rochelle.",
+            "answers": {
+              "l-abbaye-de-maillezais": "L'abbaye de Maillezais",
+              "l-abbaye-de-fontevraud": "L'abbaye de Fontevraud",
+              "l-abbaye-de-nieul-sur-l-autise": "L'abbaye de Nieul-sur-l'Autise",
+              "l-abbaye-de-l-epau": "L'abbaye de l'Épau"
+            }
+          },
+          "lucon": {
+            "prompt": "Dans quelle ville de Vendée Richelieu a-t-il été évêque, avant de devenir ministre ?",
+            "hint": "Sa cathédrale domine la plaine, au bord du Marais poitevin.",
+            "anecdote": "Il y a été nommé en 1606. Il aurait jugé son diocèse le plus crotté de France."
+          },
+          "tiffauges": {
+            "prompt": "Quel château en ruine de Vendée a appartenu à Gilles de Rais, compagnon d'armes de Jeanne d'Arc ?",
+            "hint": "Il se dresse au confluent de la Sèvre nantaise et de la Crume, à l'est du département.",
+            "anecdote": "On y présente aujourd'hui des machines de guerre médiévales en fonctionnement.",
+            "answers": {
+              "le-chateau-de-tiffauges": "Le château de Tiffauges",
+              "le-chateau-de-clisson": "Le château de Clisson",
+              "le-chateau-de-pouzauges": "Le château de Pouzauges",
+              "le-chateau-d-apremont": "Le château d'Apremont"
+            }
+          },
+          "dep-fontevraud": {
+            "prompt": "Touchez le département de l'abbaye royale de Fontevraud.",
+            "hint": "C'est le département du sud-est de la région, traversé par la Loire.",
+            "anecdote": "L'abbaye se trouve tout au sud-est de l'Anjou, à la limite de la Touraine et du Poitou."
+          },
+          "dep-maillezais": {
+            "prompt": "Touchez le département de l'abbaye de Maillezais.",
+            "hint": "C'est le département du sud-ouest de la région, au bord de l'océan.",
+            "anecdote": "L'abbaye se dresse sur une ancienne île calcaire, au milieu des canaux du Marais poitevin."
+          },
+          "dep-epau": {
+            "prompt": "Touchez le département de l'abbaye de l'Épau.",
+            "hint": "C'est le département du nord-est de la région, voisin du Centre-Val de Loire.",
+            "anecdote": "L'abbaye se trouve à Yvré-l'Évêque, aux portes du Mans, au bord de l'Huisne."
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Paludiers, écuyers et ardoisiers, maisons troglodytes et boule de fort, mémoire de la Vendée et grandes figures nées entre Loire, Maine et océan.",
+          "tuffeau": {
+            "prompt": "Quelle pierre blanche et tendre a servi à bâtir les châteaux et les maisons du Saumurois ?",
+            "hint": "C'est un calcaire très clair, facile à tailler, qui blanchit avec le temps.",
+            "anecdote": "Son extraction a laissé des centaines de kilomètres de galeries, devenues caves à vin, champignonnières ou habitations.",
+            "answers": {
+              "le-tuffeau": "Le tuffeau",
+              "le-granit": "Le granit",
+              "le-gres": "Le grès",
+              "le-schiste": "Le schiste"
+            }
+          },
+          "oeillet": {
+            "prompt": "Comment appelle-t-on le bassin où le sel cristallise, dans les marais de Guérande ?",
+            "hint": "Ce mot désigne aussi une fleur.",
+            "anecdote": "Chacun mesure environ 70 mètres carrés. Le paludier y récolte le gros sel au fond, et la fleur de sel à la surface.",
+            "answers": {
+              "l-oeillet": "L'œillet",
+              "la-claire": "La claire",
+              "l-ecluse": "L'écluse",
+              "le-bief": "Le bief"
+            }
+          },
+          "boule-de-fort": {
+            "prompt": "Quel jeu de boules, pratiqué dans des salles fermées sur une piste incurvée, est une tradition de l'Anjou ?",
+            "hint": "Les boules ont un côté plus lourd, qui leur fait suivre une trajectoire courbe.",
+            "anecdote": "On joue en chaussons pour ne pas abîmer la piste. Les joueurs se retrouvent dans des sociétés, souvent très anciennes.",
+            "answers": {
+              "la-boule-de-fort": "La boule de fort",
+              "la-petanque": "La pétanque",
+              "le-palet": "Le palet",
+              "la-boule-lyonnaise": "La boule lyonnaise"
+            }
+          },
+          "mouchoir": {
+            "prompt": "Quel accessoire rouge est devenu le symbole de Cholet ?",
+            "hint": "Il était tissé dans les ateliers textiles de la ville.",
+            "anecdote": "Le chansonnier Théodore Botrel lui a consacré une chanson en 1900, inspirée d'un épisode des guerres de Vendée.",
+            "answers": {
+              "le-mouchoir": "Le mouchoir",
+              "le-bonnet": "Le bonnet",
+              "le-tablier": "Le tablier",
+              "l-eventail": "L'éventail"
+            }
+          },
+          "folle-journee": {
+            "prompt": "Quel festival de musique classique, créé en 1995, se tient chaque hiver à Nantes ?",
+            "hint": "Il propose en quelques jours des centaines de concerts courts, à petits prix.",
+            "anecdote": "Imaginé par René Martin, il se déroule à la Cité des congrès et a été exporté jusqu'au Japon.",
+            "answers": {
+              "la-folle-journee": "La Folle Journée",
+              "le-printemps-de-bourges": "Le Printemps de Bourges",
+              "les-vieilles-charrues": "Les Vieilles Charrues",
+              "jazz-in-marciac": "Jazz in Marciac"
+            }
+          },
+          "hellfest": {
+            "prompt": "Quelle ville de Loire-Atlantique accueille chaque été le Hellfest, un grand festival de musiques metal ?",
+            "hint": "Cette petite ville au bord de la Sèvre nantaise a des airs d'Italie.",
+            "anecdote": "Le festival y attire chaque année des dizaines de milliers de visiteurs venus du monde entier, au pied d'un château médiéval.",
+            "answers": {
+              "carhaix": "Carhaix",
+              "ancenis": "Ancenis"
+            }
+          },
+          "carnaval-cholet": {
+            "prompt": "Quelle ville du Maine-et-Loire organise l'un des grands carnavals de l'Ouest, avec un défilé de nuit ?",
+            "hint": "C'est la capitale des Mauges, connue pour son mouchoir rouge.",
+            "anecdote": "Les chars sont construits pendant des mois par des bénévoles des quartiers et des communes voisines.",
+            "answers": {
+              "segre": "Segré"
+            }
+          },
+          "soulevement": {
+            "prompt": "En quelle année commence le soulèvement de la Vendée militaire contre la Convention ?",
+            "hint": "C'est l'année de l'exécution de Louis XVI.",
+            "anecdote": "Déclenchée par la levée de 300 000 hommes, la guerre a fait de très nombreuses victimes dans les deux camps et parmi les civils, jusqu'en 1796.",
+            "answers": {
+              "1789": "1789",
+              "1793": "1793",
+              "1799": "1799",
+              "1815": "1815"
+            }
+          },
+          "cathelineau": {
+            "prompt": "Quel colporteur du Pin-en-Mauges a été le premier général en chef de l'armée vendéenne ?",
+            "hint": "On le surnommait le saint de l'Anjou.",
+            "anecdote": "Il a été mortellement blessé le 29 juin 1793, lors de l'attaque de Nantes.",
+            "answers": {
+              "jacques-cathelineau": "Jacques Cathelineau",
+              "francois-athanase-charette": "François Athanase Charette",
+              "henri-de-la-rochejaquelein": "Henri de La Rochejaquelein",
+              "jean-nicolas-stofflet": "Jean-Nicolas Stofflet"
+            }
+          },
+          "de-lattre": {
+            "prompt": "Quel maréchal de France est né, comme Clemenceau, à Mouilleron-en-Pareds ?",
+            "hint": "Il a signé pour la France la capitulation allemande, à Berlin, le 8 mai 1945.",
+            "anecdote": "Le village vendéen accueille un musée consacré à ces deux enfants du pays.",
+            "answers": {
+              "jean-de-lattre-de-tassigny": "Jean de Lattre de Tassigny",
+              "ferdinand-foch": "Ferdinand Foch",
+              "philippe-leclerc-de-hauteclocque": "Philippe Leclerc de Hauteclocque",
+              "hubert-lyautey": "Hubert Lyautey"
+            }
+          },
+          "jarry": {
+            "prompt": "Quel écrivain né à Laval a créé le personnage du Père Ubu ?",
+            "hint": "Sa pièce, jouée en 1896, a fait scandale dès son premier mot.",
+            "anecdote": "Il a écrit la première version de la pièce avec des camarades de lycée, à Rennes, pour se moquer d'un professeur.",
+            "answers": {
+              "alfred-jarry": "Alfred Jarry",
+              "guillaume-apollinaire": "Guillaume Apollinaire",
+              "raymond-roussel": "Raymond Roussel",
+              "paul-fort": "Paul Fort"
+            }
+          },
+          "ambroise-pare": {
+            "prompt": "Quel chirurgien de la Renaissance, né près de Laval, est considéré comme un père de la chirurgie moderne ?",
+            "hint": "Chirurgien de quatre rois, il soignait les blessés sur les champs de bataille.",
+            "anecdote": "Il a remplacé la cautérisation des plaies au fer rouge par la ligature des artères.",
+            "answers": {
+              "ambroise-pare": "Ambroise Paré",
+              "andre-vesale": "André Vésale",
+              "francois-rabelais": "François Rabelais",
+              "michel-de-nostredame": "Michel de Nostredame"
+            }
+          },
+          "david-angers": {
+            "prompt": "Quel sculpteur porte le nom de sa ville natale, en Anjou ?",
+            "hint": "Il a sculpté le fronton du Panthéon, à Paris.",
+            "anecdote": "Pierre-Jean David, né en 1788, a donné à sa ville de nombreux modèles de ses œuvres. Une galerie aménagée dans une ancienne église abbatiale les expose.",
+            "answers": {
+              "david-d-angers": "David d'Angers",
+              "auguste-rodin": "Auguste Rodin",
+              "francois-rude": "François Rude",
+              "jean-baptiste-carpeaux": "Jean-Baptiste Carpeaux"
+            }
+          },
+          "rene-anjou": {
+            "prompt": "Quel duc d'Anjou, poète et mécène du XVe siècle, était surnommé le bon roi ?",
+            "hint": "Il est né à Angers en 1409 et portait le titre de roi de Naples.",
+            "anecdote": "Il a fini sa vie en Provence, dont il était aussi le comte, et y a laissé un souvenir durable.",
+            "answers": {
+              "rene-d-anjou": "René d'Anjou",
+              "louis-xi": "Louis XI",
+              "charles-d-orleans": "Charles d'Orléans",
+              "philippe-le-bon": "Philippe le Bon"
+            }
+          },
+          "abelard": {
+            "prompt": "Quel philosophe du XIIe siècle, célèbre pour son amour pour Héloïse, est né au Pallet, près de Nantes ?",
+            "hint": "Il a enseigné la logique à Paris, sur la montagne Sainte-Geneviève.",
+            "anecdote": "Les lettres échangées par les deux amants ont traversé les siècles. Leurs restes reposent au cimetière du Père-Lachaise.",
+            "answers": {
+              "pierre-abelard": "Pierre Abélard",
+              "bernard-de-clairvaux": "Bernard de Clairvaux",
+              "thomas-d-aquin": "Thomas d'Aquin",
+              "pierre-lombard": "Pierre Lombard"
+            }
+          },
+          "descartes": {
+            "prompt": "Quel philosophe a étudié au collège des jésuites de La Flèche ?",
+            "hint": "Il est l'auteur du Discours de la méthode.",
+            "anecdote": "Fondé par Henri IV au début du XVIIe siècle, le collège est devenu le Prytanée national militaire.",
+            "answers": {
+              "rene-descartes": "René Descartes",
+              "blaise-pascal": "Blaise Pascal",
+              "michel-de-montaigne": "Michel de Montaigne",
+              "voltaire": "Voltaire"
+            }
+          },
+          "briand": {
+            "prompt": "Quel homme politique né à Nantes a reçu le prix Nobel de la paix en 1926 ?",
+            "hint": "Onze fois président du Conseil, il défendait le rapprochement avec l'Allemagne.",
+            "anecdote": "Il a partagé le prix avec l'Allemand Gustav Stresemann, après les accords de Locarno.",
+            "answers": {
+              "aristide-briand": "Aristide Briand",
+              "jean-jaures": "Jean Jaurès",
+              "leon-blum": "Léon Blum",
+              "georges-clemenceau": "Georges Clemenceau"
+            }
+          },
+          "gracq": {
+            "prompt": "Quel écrivain, né à Saint-Florent-le-Vieil, a refusé le prix Goncourt en 1951 ?",
+            "hint": "Son roman primé se déroule dans un pays imaginaire, au bord d'une mer lointaine.",
+            "anecdote": "Il a été récompensé pour Le Rivage des Syrtes. Il a fini sa vie dans sa maison natale, au bord de la Loire.",
+            "answers": {
+              "julien-gracq": "Julien Gracq",
+              "herve-bazin": "Hervé Bazin",
+              "rene-bazin": "René Bazin",
+              "jean-giono": "Jean Giono"
+            }
+          },
+          "vipere": {
+            "prompt": "Quel roman d'Hervé Bazin, né à Angers, raconte une enfance face à une mère surnommée Folcoche ?",
+            "hint": "Son titre évoque un reptile serré dans la main d'un enfant.",
+            "anecdote": "Paru en 1948, ce récit en partie autobiographique se déroule dans le Haut-Anjou.",
+            "answers": {
+              "vipere-au-poing": "Vipère au poing",
+              "le-grand-meaulnes": "Le Grand Meaulnes",
+              "la-gloire-de-mon-pere": "La Gloire de mon père",
+              "les-thibault": "Les Thibault"
+            }
+          },
+          "henri-ii": {
+            "prompt": "Quel roi d'Angleterre est né au Mans en 1133 ?",
+            "hint": "Il était le fils de Geoffroy Plantagenêt, comte d'Anjou.",
+            "anecdote": "Il a épousé Aliénor d'Aquitaine en 1152 et repose à l'abbaye de Fontevraud.",
+            "answers": {
+              "henri-ii": "Henri II",
+              "richard-coeur-de-lion": "Richard Cœur de Lion",
+              "jean-sans-terre": "Jean sans Terre",
+              "guillaume-le-conquerant": "Guillaume le Conquérant"
+            }
+          },
+          "dep-cadre-noir": {
+            "prompt": "Touchez le département de l'École nationale d'équitation et de ses écuyers en noir.",
+            "hint": "C'est le département du sud-est de la région, autour d'Angers.",
+            "anecdote": "L'équitation de tradition française, que l'École incarne, est inscrite au patrimoine immatériel de l'UNESCO depuis 2011."
+          },
+          "dep-malicorne": {
+            "prompt": "Touchez le département de Malicorne, village de faïenciers au bord de la Sarthe.",
+            "hint": "C'est le département du nord-est de la région, autour du Mans.",
+            "anecdote": "Les faïenciers de Malicorne travaillent l'argile locale depuis le XVIIIe siècle et sont réputés pour leurs pièces ajourées."
+          },
+          "dep-clemenceau": {
+            "prompt": "Touchez le département natal de Georges Clemenceau.",
+            "hint": "C'est le département du sud-ouest de la région, au bord de l'océan.",
+            "anecdote": "Il est né en 1841 à Mouilleron-en-Pareds et repose, près de son père, dans un bois de Mouchamps."
+          },
+          "bourrine": {
+            "prompt": "Comment appelle-t-on la petite maison basse, aux murs de terre et au toit de roseaux, du marais breton-vendéen ?",
+            "hint": "Elle était bâtie avec la terre argileuse du marais.",
+            "anecdote": "Ces maisons étaient blanchies à la chaux. Certaines ont été restaurées et se visitent, comme à Saint-Hilaire-de-Riez.",
+            "answers": {
+              "la-bourrine": "La bourrine",
+              "la-chaumiere": "La chaumière",
+              "la-longere": "La longère",
+              "la-borie": "La borie"
+            }
+          },
+          "perreyeurs": {
+            "prompt": "Comment appelait-on les ouvriers des ardoisières de l'Anjou ?",
+            "hint": "Leur nom vient d'un vieux mot qui désigne la pierre.",
+            "anecdote": "Ils extrayaient les blocs de schiste au fond des carrières, puis les fendeurs les découpaient en fines plaques.",
+            "answers": {
+              "les-perreyeurs": "Les perreyeurs",
+              "les-gueules-noires": "Les gueules noires",
+              "les-paludiers": "Les paludiers",
+              "les-tailleurs-de-tuffeau": "Les tailleurs de tuffeau"
+            }
+          },
+          "chaussure": {
+            "prompt": "Quelle industrie a fait, avec le textile, la renommée du Choletais au XXe siècle ?",
+            "hint": "Elle s'est développée à partir des ateliers de cuir des Mauges.",
+            "anecdote": "Le Choletais est devenu l'un des grands centres français de cette fabrication. Un musée lui est consacré à Saint-André-de-la-Marche.",
+            "answers": {
+              "la-chaussure": "La chaussure",
+              "l-horlogerie": "L'horlogerie",
+              "la-porcelaine": "La porcelaine",
+              "la-coutellerie": "La coutellerie"
+            }
+          },
+          "demy": {
+            "prompt": "Quel cinéaste, qui a grandi à Nantes, y a tourné son film Lola, sorti en 1961 ?",
+            "hint": "Il est aussi le réalisateur des Parapluies de Cherbourg.",
+            "anecdote": "Le passage Pommeraye apparaît dans le film. Son épouse, Agnès Varda, a raconté son enfance nantaise dans Jacquot de Nantes.",
+            "answers": {
+              "jacques-demy": "Jacques Demy",
+              "francois-truffaut": "François Truffaut",
+              "jacques-tati": "Jacques Tati",
+              "claude-chabrol": "Claude Chabrol"
+            }
+          },
+          "rouge-des-pres": {
+            "prompt": "Quelle race de vache, à la robe rouge et blanche, est originaire du Maine et de l'Anjou ?",
+            "hint": "Elle portait autrefois le nom de ces deux provinces.",
+            "anecdote": "Élevée pour sa viande, elle bénéficie d'une appellation d'origine protégée.",
+            "answers": {
+              "la-rouge-des-pres": "La rouge des prés",
+              "la-normande": "La normande",
+              "la-limousine": "La limousine",
+              "la-charolaise": "La charolaise"
+            }
+          },
+          "cadre-noir": {
+            "prompt": "Comment appelle-t-on le corps des écuyers de l'École nationale d'équitation, à Saumur ?",
+            "hint": "On les reconnaît à leur tenue sombre et à leur chapeau, le lampion.",
+            "anecdote": "Ses écuyers présentent des sauts d'école, comme la courbette ou la croupade, hérités de l'ancienne cavalerie.",
+            "answers": {
+              "le-cadre-noir": "Le Cadre noir",
+              "la-garde-republicaine": "La Garde républicaine",
+              "l-ecole-espagnole-de-vienne": "L'École espagnole de Vienne",
+              "les-ecuyers-du-roi": "Les Écuyers du roi"
+            }
+          },
+          "rochemenier": {
+            "prompt": "Quel type d'habitat, creusé dans la roche, peut-on visiter à Rochemenier, près de Doué-la-Fontaine ?",
+            "hint": "Les fermes y sont aménagées sous terre, autour de cours creusées dans le calcaire.",
+            "anecdote": "Ces habitations restaient fraîches l'été et tempérées l'hiver. Le Saumurois en compte un très grand nombre.",
+            "answers": {
+              "un-village-troglodytique": "Un village troglodytique",
+              "une-cite-lacustre": "Une cité lacustre",
+              "un-village-de-cabanes": "Un village de cabanes",
+              "une-cite-miniere": "Une cité minière"
+            }
+          },
+          "trelaze": {
+            "prompt": "Quelle roche extrayait-on dans ces carrières de Trélazé, près d'Angers ?",
+            "hint": "Fendue en plaques fines, elle couvre les toits de l'Anjou.",
+            "anecdote": "Son exploitation y a duré plusieurs siècles et s'est arrêtée en 2014. Un musée raconte le travail des ouvriers.",
+            "answers": {
+              "l-ardoise": "L'ardoise",
+              "le-tuffeau": "Le tuffeau",
+              "le-granit": "Le granit",
+              "le-marbre": "Le marbre"
+            }
+          },
+          "malicorne": {
+            "prompt": "Quelle céramique émaillée les artisans de Malicorne-sur-Sarthe ont-ils rendue célèbre ?",
+            "hint": "Ses pièces les plus réputées sont ajourées, comme de la dentelle.",
+            "anecdote": "Les ateliers travaillent l'argile de la vallée de la Sarthe. Un musée y présente leur histoire.",
+            "answers": {
+              "la-faience": "La faïence",
+              "la-porcelaine": "La porcelaine",
+              "le-gres": "Le grès",
+              "le-verre-souffle": "Le verre soufflé"
+            }
+          },
+          "alouettes": {
+            "prompt": "Sur quelle colline des Herbiers se dressent ces moulins à vent ?",
+            "hint": "Selon la tradition, leurs ailes servaient de signaux pendant les guerres de Vendée.",
+            "anecdote": "Sept moulins se dressaient autrefois sur la colline. L'un d'eux, restauré, tourne encore et produit de la farine.",
+            "answers": {
+              "le-mont-des-alouettes": "Le mont des Alouettes",
+              "le-mont-mercure": "Le mont Mercure",
+              "le-mont-des-avaloirs": "Le mont des Avaloirs",
+              "le-puy-crapaud": "Le puy Crapaud"
+            }
+          },
+          "kerhinet": {
+            "prompt": "Quel matériau couvre le toit de ces maisons du village de Kerhinet, en Brière ?",
+            "hint": "On le coupe dans les roselières du marais.",
+            "anecdote": "Restauré par le parc naturel régional, le village montre l'habitat traditionnel briéron.",
+            "answers": {
+              "le-chaume": "Le chaume",
+              "l-ardoise": "L'ardoise",
+              "la-tuile": "La tuile",
+              "la-lauze": "La lauze"
+            }
+          },
+          "verne": {
+            "prompt": "Quel écrivain, né à Nantes en 1828, a imaginé le Nautilus et le capitaine Nemo ?",
+            "hint": "Il est l'auteur du Tour du monde en quatre-vingts jours.",
+            "anecdote": "Un musée lui est consacré à Nantes, sur la butte Sainte-Anne, face à la Loire et à l'ancien port.",
+            "answers": {
+              "jules-verne": "Jules Verne",
+              "victor-hugo": "Victor Hugo",
+              "alexandre-dumas": "Alexandre Dumas",
+              "h-g-wells": "H. G. Wells"
+            }
+          },
+          "du-bellay": {
+            "prompt": "Quel poète de la Pléiade, né à Liré en Anjou, a écrit Heureux qui, comme Ulysse, a fait un beau voyage ?",
+            "hint": "Dans ce sonnet, il préfère son petit Liré au mont Palatin.",
+            "anecdote": "Il a écrit Les Regrets pendant un séjour à Rome. Un musée lui est consacré dans son village natal.",
+            "answers": {
+              "joachim-du-bellay": "Joachim du Bellay",
+              "pierre-de-ronsard": "Pierre de Ronsard",
+              "clement-marot": "Clément Marot",
+              "remi-belleau": "Rémi Belleau"
+            }
+          },
+          "clemenceau": {
+            "prompt": "Quel homme d'État, surnommé le Tigre, était président du Conseil à la fin de la Première Guerre mondiale ?",
+            "hint": "On l'appelait aussi le Père la Victoire.",
+            "anecdote": "Né en Vendée en 1841, il a aussi été journaliste. Il a publié le J'accuse de Zola dans son journal, L'Aurore.",
+            "answers": {
+              "georges-clemenceau": "Georges Clemenceau",
+              "raymond-poincare": "Raymond Poincaré",
+              "aristide-briand": "Aristide Briand",
+              "jean-jaures": "Jean Jaurès"
+            }
+          },
+          "rousseau": {
+            "prompt": "Quel peintre né à Laval en 1844, longtemps employé à l'octroi de Paris, s'est représenté dans ce tableau ?",
+            "hint": "On l'a surnommé le Douanier.",
+            "anecdote": "Autodidacte, il a peint des jungles qu'il n'avait jamais vues. Il est devenu une grande figure de l'art naïf.",
+            "answers": {
+              "henri-rousseau": "Henri Rousseau",
+              "paul-gauguin": "Paul Gauguin",
+              "georges-seurat": "Georges Seurat",
+              "henri-matisse": "Henri Matisse"
+            }
+          },
+          "chabotterie": {
+            "prompt": "Quel chef vendéen a été capturé en mars 1796 près de ce logis de la Chabotterie ?",
+            "hint": "Il menait la guerre dans le marais et le pays de Retz.",
+            "anecdote": "Il a été fusillé à Nantes quelques jours plus tard. Le logis abrite aujourd'hui un musée consacré aux guerres de Vendée.",
+            "answers": {
+              "francois-athanase-charette": "François Athanase Charette",
+              "jacques-cathelineau": "Jacques Cathelineau",
+              "henri-de-la-rochejaquelein": "Henri de La Rochejaquelein",
+              "charles-de-bonchamps": "Charles de Bonchamps"
+            }
+          },
+          "bonchamps": {
+            "prompt": "Quel général vendéen, qui a obtenu la grâce de milliers de prisonniers républicains en 1793, repose dans ce tombeau ?",
+            "hint": "Il a été mortellement blessé à la bataille de Cholet, en octobre 1793.",
+            "anecdote": "Le sculpteur David d'Angers, dont le père figurait parmi les prisonniers épargnés, a réalisé ce monument.",
+            "answers": {
+              "charles-de-bonchamps": "Charles de Bonchamps",
+              "jacques-cathelineau": "Jacques Cathelineau",
+              "francois-athanase-charette": "François Athanase Charette",
+              "jean-nicolas-stofflet": "Jean-Nicolas Stofflet"
+            }
+          }
+        },
+        "grand-voyage": {
+          "name": "Le grand voyage",
+          "description": "Des îles de la Vendée aux Alpes mancelles, des chantiers de Saint-Nazaire au circuit du Mans : un dernier voyage pour les connaisseurs.",
+          "gois-longueur": {
+            "prompt": "Quelle est la longueur du passage du Gois, la route submersible de Noirmoutier ?",
+            "hint": "Il faut une bonne heure pour la parcourir à pied.",
+            "anecdote": "Elle n'est praticable qu'autour de la marée basse, pendant quelques heures. Des balises refuges permettent de s'abriter en cas de besoin.",
+            "answers": {
+              "environ-4-kilometres": "Environ 4 kilomètres",
+              "environ-500-metres": "Environ 500 mètres",
+              "environ-10-kilometres": "Environ 10 kilomètres",
+              "environ-25-kilometres": "Environ 25 kilomètres"
+            }
+          },
+          "avaloirs": {
+            "prompt": "Quel est le point culminant des Pays de la Loire ?",
+            "hint": "Il se trouve au nord de la Mayenne, tout près de la Normandie.",
+            "anecdote": "Il atteint 416 mètres, dans la forêt de Multonne. Une tour d'observation permet de dominer le bocage.",
+            "answers": {
+              "le-mont-des-avaloirs": "Le mont des Avaloirs",
+              "le-mont-des-alouettes": "Le mont des Alouettes",
+              "le-mont-mercure": "Le mont Mercure",
+              "le-signal-d-ecouves": "Le signal d'Écouves"
+            }
+          },
+          "grand-lieu": {
+            "prompt": "Quel lac, au sud de Nantes, est en hiver le plus grand lac naturel de plaine de France ?",
+            "hint": "Sa surface varie beaucoup selon les saisons, et il est presque inaccessible au public.",
+            "anecdote": "C'est une réserve naturelle, l'une des plus riches de France pour les oiseaux d'eau, notamment les hérons et les spatules.",
+            "answers": {
+              "le-lac-de-grand-lieu": "Le lac de Grand-Lieu",
+              "le-lac-du-der": "Le lac du Der",
+              "le-lac-de-vassiviere": "Le lac de Vassivière",
+              "l-etang-de-berre": "L'étang de Berre"
+            }
+          },
+          "loir": {
+            "prompt": "Quelle rivière, au nom presque identique à celui d'un fleuve, traverse La Flèche ?",
+            "hint": "Elle rejoint la Sarthe à Briollay, au nord-est d'Angers.",
+            "anecdote": "Elle naît dans l'Eure-et-Loir, traverse Vendôme et le sud de la Sarthe, avant de se jeter dans la Sarthe.",
+            "answers": {
+              "le-loir": "Le Loir",
+              "l-huisne": "L'Huisne",
+              "la-vegre": "La Vègre",
+              "l-oudon": "L'Oudon"
+            }
+          },
+          "val-unesco": {
+            "prompt": "Quelle partie de la vallée de la Loire est inscrite au patrimoine mondial de l'UNESCO depuis 2000 ?",
+            "hint": "Elle commence dans le Loiret et s'arrête en Anjou, en aval d'Angers.",
+            "anecdote": "Ce paysage culturel de près de 280 kilomètres réunit châteaux, villes historiques, vignobles et levées.",
+            "answers": {
+              "de-sully-sur-loire-a-chalonnes-sur-loire": "De Sully-sur-Loire à Chalonnes-sur-Loire",
+              "de-nevers-a-orleans": "De Nevers à Orléans",
+              "d-angers-a-saint-nazaire": "D'Angers à Saint-Nazaire",
+              "de-tours-a-nantes": "De Tours à Nantes"
+            }
+          },
+          "edit": {
+            "prompt": "Quel roi a signé l'édit de Nantes, en 1598 ?",
+            "hint": "Il était le premier roi de la dynastie des Bourbons.",
+            "anecdote": "Ce texte accordait aux protestants la liberté de culte dans certains lieux. Louis XIV l'a révoqué en 1685.",
+            "answers": {
+              "henri-iv": "Henri IV",
+              "louis-xiii": "Louis XIII",
+              "francois-ier": "François Ier",
+              "henri-iii": "Henri III"
+            }
+          },
+          "normandie-paquebot": {
+            "prompt": "Quel paquebot de légende, lancé en 1932, a été construit à Saint-Nazaire ?",
+            "hint": "Il a remporté le Ruban bleu de la traversée la plus rapide de l'Atlantique.",
+            "anecdote": "Son successeur, le France, a lui aussi été construit à Saint-Nazaire et mis à l'eau en 1960.",
+            "answers": {
+              "le-normandie": "Le Normandie",
+              "le-titanic": "Le Titanic",
+              "le-queen-mary": "Le Queen Mary",
+              "le-lusitania": "Le Lusitania"
+            }
+          },
+          "premiere-24h": {
+            "prompt": "En quelle année ont été courues les premières 24 Heures du Mans ?",
+            "hint": "C'était au lendemain de la Première Guerre mondiale.",
+            "anecdote": "La course a été créée par l'Automobile Club de l'Ouest. Elle se dispute sur un circuit qui emprunte en partie des routes ouvertes le reste de l'année.",
+            "answers": {
+              "1906": "1906",
+              "1923": "1923",
+              "1949": "1949",
+              "1966": "1966"
+            }
+          },
+          "puy-du-fou": {
+            "prompt": "Quel grand parc de spectacles historiques se trouve aux Épesses, en Vendée ?",
+            "hint": "Tout a commencé en 1978 par un spectacle nocturne joué par des bénévoles.",
+            "anecdote": "Le grand parc a ouvert en 1989, à côté du spectacle de nuit, la Cinéscénie.",
+            "answers": {
+              "le-puy-du-fou": "Le Puy du Fou",
+              "le-futuroscope": "Le Futuroscope",
+              "vulcania": "Vulcania",
+              "le-parc-asterix": "Le parc Astérix"
+            }
+          },
+          "jeantot": {
+            "prompt": "Quel navigateur a créé le Vendée Globe en 1989 ?",
+            "hint": "Il avait déjà remporté deux fois une course autour du monde en solitaire, avec escales.",
+            "anecdote": "La première édition a été gagnée par Titouan Lamazou, en un peu plus de 109 jours.",
+            "answers": {
+              "philippe-jeantot": "Philippe Jeantot",
+              "titouan-lamazou": "Titouan Lamazou",
+              "michel-desjoyeaux": "Michel Desjoyeaux",
+              "loick-peyron": "Loïck Peyron"
+            }
+          },
+          "traite": {
+            "prompt": "Au XVIIIe siècle, quel rang Nantes occupait-elle parmi les ports français de la traite des esclaves ?",
+            "hint": "Plus de quatre expéditions françaises sur dix sont parties de ses quais.",
+            "anecdote": "Plus de 1 700 expéditions de traite sont parties de la ville. Le Mémorial de l'abolition de l'esclavage, ouvert en 2012 au bord de la Loire, rappelle cette histoire.",
+            "answers": {
+              "le-premier": "Le premier",
+              "le-deuxieme": "Le deuxième",
+              "le-cinquieme": "Le cinquième",
+              "le-dixieme": "Le dixième"
+            }
+          },
+          "campbeltown": {
+            "prompt": "Quel navire britannique, chargé d'explosifs, a éperonné la grande forme de radoub de Saint-Nazaire en mars 1942 ?",
+            "hint": "Ce vieux destroyer avait été cédé par les États-Unis au Royaume-Uni.",
+            "anecdote": "Lors de cette opération Chariot, la charge a explosé une dizaine d'heures plus tard, mettant la cale hors d'usage pour le reste de la guerre.",
+            "answers": {
+              "le-hms-campbeltown": "Le HMS Campbeltown",
+              "le-hms-hood": "Le HMS Hood",
+              "le-hms-victory": "Le HMS Victory",
+              "le-hms-warspite": "Le HMS Warspite"
+            }
+          },
+          "poche": {
+            "prompt": "Quand la poche de Saint-Nazaire a-t-elle été libérée ?",
+            "hint": "Les troupes allemandes y ont tenu plus longtemps que presque partout ailleurs en France.",
+            "anecdote": "La reddition a été signée trois jours après la capitulation allemande. La population a vécu des mois coupée du reste du pays.",
+            "answers": {
+              "le-11-mai-1945": "Le 11 mai 1945",
+              "le-25-aout-1944": "Le 25 août 1944",
+              "le-8-mai-1945": "Le 8 mai 1945",
+              "le-6-juin-1944": "Le 6 juin 1944"
+            }
+          },
+          "lancastria": {
+            "prompt": "Quel paquebot britannique a été coulé au large de Saint-Nazaire le 17 juin 1940, faisant des milliers de victimes ?",
+            "hint": "Il évacuait des soldats et des civils britanniques après la défaite de la France.",
+            "anecdote": "C'est l'une des pires catastrophes maritimes de l'histoire britannique. Des victimes reposent dans les cimetières de la côte.",
+            "answers": {
+              "le-lancastria": "Le Lancastria",
+              "le-lusitania": "Le Lusitania",
+              "le-titanic": "Le Titanic",
+              "le-queen-mary": "Le Queen Mary"
+            }
+          },
+          "tabarly": {
+            "prompt": "Quel navigateur, vainqueur de la course transatlantique en solitaire de 1964, est né à Nantes ?",
+            "hint": "Il a donné son nom à une série de bateaux, les Pen Duick.",
+            "anecdote": "Sa victoire a fait naître en France une passion pour la voile de course. Il a disparu en mer en 1998.",
+            "answers": {
+              "eric-tabarly": "Éric Tabarly",
+              "florence-arthaud": "Florence Arthaud",
+              "olivier-de-kersauson": "Olivier de Kersauson",
+              "alain-colas": "Alain Colas"
+            }
+          },
+          "dep-alpes-mancelles": {
+            "prompt": "Touchez le département de Saint-Léonard-des-Bois, au cœur des Alpes mancelles.",
+            "hint": "C'est le département du nord-est de la région, autour du Mans.",
+            "anecdote": "La Sarthe s'y fraie un passage entre des collines boisées et escarpées, tout près de la Normandie."
+          },
+          "dep-saulges": {
+            "prompt": "Touchez le département des grottes de Saulges, ornées par les hommes préhistoriques.",
+            "hint": "C'est le département du nord-ouest de la région, autour de Laval.",
+            "anecdote": "La grotte Mayenne-Sciences conserve des dessins de mammouths et de chevaux vieux de plus de 25 000 ans."
+          },
+          "dep-brissac": {
+            "prompt": "Touchez le département du château de Brissac, surnommé le géant du Val de Loire.",
+            "hint": "C'est le département du sud-est de la région, autour d'Angers.",
+            "anecdote": "Avec ses sept étages, il passe pour le plus haut château de France."
+          },
+          "maine-confluence": {
+            "prompt": "Quelles rivières se rejoignent au nord d'Angers pour former la Maine ?",
+            "hint": "L'une a donné son nom au département de Laval, l'autre à celui du Mans.",
+            "anecdote": "Le Loir se jette dans la Sarthe juste avant. Longue d'une dizaine de kilomètres, la Maine traverse Angers puis rejoint la Loire.",
+            "answers": {
+              "la-mayenne-et-la-sarthe": "La Mayenne et la Sarthe",
+              "le-loir-et-le-thouet": "Le Loir et le Thouet",
+              "l-erdre-et-la-sevre-nantaise": "L'Erdre et la Sèvre nantaise",
+              "l-oudon-et-le-layon": "L'Oudon et le Layon"
+            }
+          },
+          "port-atlantique": {
+            "prompt": "Quel grand port maritime est le premier de la façade atlantique française ?",
+            "hint": "Il s'étend le long de l'estuaire, de la grande ville jusqu'à l'océan.",
+            "anecdote": "Il réunit des terminaux pour le pétrole, le gaz, les conteneurs et les céréales, de part et d'autre de l'estuaire.",
+            "answers": {
+              "nantes-saint-nazaire": "Nantes-Saint-Nazaire",
+              "bordeaux": "Bordeaux",
+              "la-rochelle": "La Rochelle",
+              "brest": "Brest"
+            }
+          },
+          "gois": {
+            "prompt": "Comment s'appelle cette route qui relie l'île de Noirmoutier au continent, à marée basse ?",
+            "hint": "Elle traverse la baie de Bourgneuf et disparaît sous la mer à marée haute.",
+            "anecdote": "Une course à pied y est organisée certaines années, au moment où la mer remonte.",
+            "answers": {
+              "le-passage-du-gois": "Le passage du Gois",
+              "la-chaussee-de-sein": "La chaussée de Sein",
+              "le-pont-de-l-ile-de-re": "Le pont de l'île de Ré",
+              "la-digue-de-fromentine": "La digue de Fromentine"
+            }
+          },
+          "gois-immerge": {
+            "prompt": "Combien de fois par jour, environ, la mer recouvre-t-elle cette route de Noirmoutier ?",
+            "hint": "Le rythme suit celui des marées sur la côte atlantique.",
+            "anecdote": "Les horaires de passage sont affichés à chaque extrémité. Des balises refuges jalonnent la chaussée.",
+            "answers": {
+              "deux-fois": "Deux fois",
+              "une-fois": "Une fois",
+              "quatre-fois": "Quatre fois",
+              "une-fois-par-semaine": "Une fois par semaine"
+            }
+          },
+          "noirmoutier": {
+            "prompt": "Sur quelle île de Vendée, reliée au continent par un pont et par une route submersible, se trouve cette plage ?",
+            "hint": "L'île est réputée pour ses pommes de terre primeurs et son sel.",
+            "anecdote": "L'île vit de la pêche, de l'ostréiculture, du sel et du tourisme. Un pont la relie au continent depuis 1971.",
+            "answers": {
+              "noirmoutier": "Noirmoutier",
+              "l-ile-d-yeu": "L'île d'Yeu",
+              "l-ile-de-re": "L'île de Ré",
+              "belle-ile-en-mer": "Belle-Île-en-Mer"
+            }
+          },
+          "yeu-vieux-chateau": {
+            "prompt": "Sur quelle île se dresse ce vieux château, perché sur un rocher au-dessus de l'océan ?",
+            "hint": "On la rejoint en bateau depuis Fromentine ou Saint-Gilles-Croix-de-Vie.",
+            "anecdote": "Bâti au XIVe siècle, le château passe pour avoir inspiré l'auteur de Tintin, dans L'Île noire.",
+            "answers": {
+              "l-ile-d-yeu": "L'île d'Yeu",
+              "noirmoutier": "Noirmoutier",
+              "belle-ile-en-mer": "Belle-Île-en-Mer",
+              "l-ile-de-groix": "L'île de Groix"
+            }
+          },
+          "yeu-phare": {
+            "prompt": "Comment s'appelle ce phare, le plus haut de l'île d'Yeu ?",
+            "hint": "Son nom le distingue du petit phare de la pointe des Corbeaux.",
+            "anecdote": "Reconstruit après la Seconde Guerre mondiale, il domine l'île. Sa lumière porte à plus de cinquante kilomètres.",
+            "answers": {
+              "le-grand-phare": "Le Grand Phare",
+              "le-phare-des-baleines": "Le phare des Baleines",
+              "le-phare-de-cordouan": "Le phare de Cordouan",
+              "le-phare-du-creac-h": "Le phare du Créac'h"
+            }
+          },
+          "port-joinville": {
+            "prompt": "Quel est le principal port de l'île d'Yeu, où arrivent les bateaux du continent ?",
+            "hint": "Il porte le nom d'un prince, fils du roi Louis-Philippe.",
+            "anecdote": "Ce port de pêche a longtemps été l'un des premiers ports thoniers de France.",
+            "answers": {
+              "port-joinville": "Port-Joinville",
+              "port-tudy": "Port-Tudy",
+              "le-palais": "Le Palais",
+              "fromentine": "Fromentine"
+            }
+          },
+          "pont-saint-nazaire": {
+            "prompt": "Quel fleuve franchit ce long pont à haubans, inauguré en 1975 ?",
+            "hint": "Il relie Saint-Nazaire à Saint-Brevin-les-Pins, au-dessus de l'estuaire.",
+            "anecdote": "Long de plus de trois kilomètres, il est assez haut pour laisser passer les grands navires.",
+            "answers": {
+              "la-loire": "La Loire",
+              "la-seine": "La Seine",
+              "la-gironde": "La Gironde",
+              "la-vilaine": "La Vilaine"
+            }
+          },
+          "base-sous-marine": {
+            "prompt": "Quelle armée a construit cette base de sous-marins à Saint-Nazaire, pendant la Seconde Guerre mondiale ?",
+            "hint": "Elle occupait alors toute la côte atlantique.",
+            "anecdote": "Ses toits de béton ont résisté aux bombardements. La base accueille aujourd'hui des musées et des salles de spectacle.",
+            "answers": {
+              "l-armee-allemande": "L'armée allemande",
+              "l-armee-britannique": "L'armée britannique",
+              "l-armee-americaine": "L'armée américaine",
+              "l-armee-italienne": "L'armée italienne"
+            }
+          },
+          "chantiers": {
+            "prompt": "Quels chantiers navals construisent à Saint-Nazaire certains des plus grands paquebots du monde ?",
+            "hint": "Leur nom évoque l'océan qu'ils bordent.",
+            "anecdote": "Le Normandie et le France y ont été construits. Les grues du chantier dominent le paysage de la ville.",
+            "answers": {
+              "les-chantiers-de-l-atlantique": "Les Chantiers de l'Atlantique",
+              "les-chantiers-de-la-garonne": "Les chantiers de la Garonne",
+              "les-chantiers-de-normandie": "Les chantiers de Normandie",
+              "l-arsenal-de-brest": "L'arsenal de Brest"
+            }
+          },
+          "course-1969": {
+            "prompt": "Quelle course automobile d'endurance, photographiée ici à ses débuts, se dispute chaque année dans la Sarthe ?",
+            "hint": "Les équipages se relaient pendant un jour et une nuit.",
+            "anecdote": "Elle fait partie des courses les plus célèbres du monde. Elle se court traditionnellement en juin, sur un circuit tracé en partie sur des routes ouvertes le reste de l'année.",
+            "answers": {
+              "les-24-heures-du-mans": "Les 24 Heures du Mans",
+              "le-grand-prix-de-monaco": "Le Grand Prix de Monaco",
+              "le-bol-d-or": "Le Bol d'or",
+              "le-tour-de-france-automobile": "Le Tour de France automobile"
+            }
+          },
+          "bollee": {
+            "prompt": "Comment s'appelle ce véhicule à vapeur, construit au Mans en 1873 par Amédée Bollée ?",
+            "hint": "Son nom dit qu'il répondait bien à son conducteur.",
+            "anecdote": "Capable de transporter une douzaine de personnes, il a rejoint Paris par la route en 1875. Il est conservé au musée des Arts et Métiers.",
+            "answers": {
+              "l-obeissante": "L'Obéissante",
+              "la-mancelle": "La Mancelle",
+              "la-jamais-contente": "La Jamais Contente",
+              "le-fardier": "Le Fardier"
+            }
+          },
+          "wright": {
+            "prompt": "Quel aviateur américain a fait voler son avion près du Mans, en août 1908 ?",
+            "hint": "Il est l'un des deux frères pionniers de l'aviation.",
+            "anecdote": "Ses vols à l'hippodrome des Hunaudières, puis au camp d'Auvours, ont prouvé aux Européens que l'avion pouvait virer et se piloter.",
+            "answers": {
+              "wilbur-wright": "Wilbur Wright",
+              "louis-bleriot": "Louis Blériot",
+              "charles-lindbergh": "Charles Lindbergh",
+              "alberto-santos-dumont": "Alberto Santos-Dumont"
+            }
+          },
+          "alpes-mancelles": {
+            "prompt": "Quel nom donne-t-on à ces collines escarpées du nord de la Sarthe, que traverse la rivière Sarthe ?",
+            "hint": "Leur surnom les compare, avec humour, à une grande chaîne de montagnes.",
+            "anecdote": "Elles font partie du parc naturel régional Normandie-Maine. Saint-Léonard-des-Bois en est le cœur.",
+            "answers": {
+              "les-alpes-mancelles": "Les Alpes mancelles",
+              "la-suisse-normande": "La Suisse normande",
+              "les-coevrons": "Les Coëvrons",
+              "les-monts-d-arree": "Les monts d'Arrée"
+            }
+          },
+          "berce": {
+            "prompt": "Quelle forêt de la Sarthe, au sud du Mans, est célèbre pour ses très vieux chênes ?",
+            "hint": "On y trouve la futaie des Clos, plantée il y a plusieurs siècles.",
+            "anecdote": "Ses chênes de haute futaie, droits et réguliers, sont recherchés pour la menuiserie et la tonnellerie.",
+            "answers": {
+              "la-foret-de-berce": "La forêt de Bercé",
+              "la-foret-de-broceliande": "La forêt de Brocéliande",
+              "la-foret-de-troncais": "La forêt de Tronçais",
+              "la-foret-de-fontainebleau": "La forêt de Fontainebleau"
+            }
+          },
+          "saulges": {
+            "prompt": "Quelle rivière a creusé ce canyon de Saulges, en Mayenne ?",
+            "hint": "C'est un affluent de la Sarthe.",
+            "anecdote": "Ses falaises calcaires abritent une vingtaine de grottes, dont certaines ont été ornées par les hommes préhistoriques.",
+            "answers": {
+              "l-erve": "L'Erve",
+              "la-mayenne": "La Mayenne",
+              "l-oudon": "L'Oudon",
+              "la-vegre": "La Vègre"
+            }
+          },
+          "vendee-globe": {
+            "prompt": "Quelle course à la voile autour du monde, en solitaire et sans escale, part des Sables-d'Olonne ?",
+            "hint": "Elle a lieu tous les quatre ans.",
+            "anecdote": "Les départs attirent des centaines de milliers de spectateurs le long du chenal du port.",
+            "answers": {
+              "le-vendee-globe": "Le Vendée Globe",
+              "la-route-du-rhum": "La Route du Rhum",
+              "la-solitaire-du-figaro": "La Solitaire du Figaro",
+              "la-transat-jacques-vabre": "La Transat Jacques Vabre"
+            }
+          },
+          "marais-breton": {
+            "prompt": "Quel marais s'étend entre la baie de Bourgneuf et Saint-Gilles-Croix-de-Vie ?",
+            "hint": "Il est partagé entre la Loire-Atlantique et la Vendée.",
+            "anecdote": "Ce paysage de prairies et de fossés a été gagné sur la mer. Il compte de nombreuses bourrines.",
+            "answers": {
+              "le-marais-breton": "Le marais breton",
+              "le-marais-poitevin": "Le marais poitevin",
+              "la-briere": "La Brière",
+              "le-marais-de-guerande": "Le marais de Guérande"
+            }
+          },
+          "grand-charpentier": {
+            "prompt": "À l'entrée de quel estuaire se dresse ce phare du Grand-Charpentier ?",
+            "hint": "Il guide les navires vers Saint-Nazaire et Nantes.",
+            "anecdote": "Construit sur un rocher en mer, il a été mis en service à la fin du XIXe siècle.",
+            "answers": {
+              "l-estuaire-de-la-loire": "L'estuaire de la Loire",
+              "l-estuaire-de-la-gironde": "L'estuaire de la Gironde",
+              "l-estuaire-de-la-seine": "L'estuaire de la Seine",
+              "l-estuaire-de-la-vilaine": "L'estuaire de la Vilaine"
+            }
+          },
+          "memorial-chariot": {
+            "prompt": "Dans quelle ville ces monuments rappellent-ils le naufrage du Lancastria et le raid britannique de mars 1942 ?",
+            "hint": "Ils se trouvent sur le front de mer, face à l'estuaire.",
+            "anecdote": "Des cérémonies y réunissent chaque année des familles françaises et britanniques.",
+            "answers": {
+              "brest": "Brest",
+              "lorient": "Lorient"
+            }
+          },
+          "saint-florent": {
+            "prompt": "Quel village des Mauges, perché au-dessus de la Loire, a vu naître l'écrivain Julien Gracq ?",
+            "hint": "Son abbatiale domine le fleuve, face aux îles.",
+            "anecdote": "C'est là qu'en octobre 1793 des milliers de prisonniers républicains ont été épargnés, à la demande de Bonchamps mourant.",
+            "answers": {
+              "saint-florent-le-vieil": "Saint-Florent-le-Vieil",
+              "champtoceaux": "Champtoceaux",
+              "ancenis": "Ancenis",
+              "montjean-sur-loire": "Montjean-sur-Loire"
+            }
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "nantes": {
+            "name": "Nantes",
+            "description": "Chef-lieu de la région, Nantes s'étend au bord de la Loire, à une cinquantaine de kilomètres de l'océan. Ancienne capitale des ducs de Bretagne et grand port, elle s'est réinventée après la fermeture de ses chantiers navals, autour de la culture et de l'île de Nantes.",
+            "anecdote": "Anne de Bretagne, deux fois reine de France, est née en 1477 dans le château des ducs."
+          },
+          "sel-guerande": {
+            "name": "Sel de Guérande",
+            "description": "Sur la presqu'île guérandaise, les paludiers récoltent le sel à la main, dans des bassins d'argile alimentés par l'eau de mer. Le soleil et le vent font cristalliser le gros sel au fond des œillets, et la fleur de sel à la surface.",
+            "anecdote": "Le paludier récolte la fleur de sel avec une lousse, un râteau plat qui effleure la surface de l'eau."
+          },
+          "cite-plantagenet": {
+            "name": "Cité Plantagenêt, Le Mans",
+            "description": "Perchée au-dessus de la Sarthe, la vieille ville du Mans réunit maisons à pans de bois, hôtels Renaissance et ruelles pavées, autour de la cathédrale Saint-Julien. Elle est encore entourée d'une grande partie de son enceinte romaine de la fin du IIIe siècle.",
+            "anecdote": "Geoffroy Plantagenêt, comte d'Anjou, a épousé au Mans, en 1128, l'héritière du roi d'Angleterre."
+          },
+          "chateau-saumur": {
+            "name": "Château de Saumur",
+            "description": "Dressé au-dessus de la Loire, le château de Saumur garde la silhouette blanche des forteresses de contes des ducs d'Anjou. La ville est aussi celle du cheval : l'École nationale d'équitation y forme les écuyers du Cadre noir, reconnaissables à leur tenue noire.",
+            "anecdote": "Le château figure, avec ses tours fines et ses toits pointus, dans les Très Riches Heures du duc de Berry, au XVe siècle."
+          },
+          "passage-du-gois": {
+            "name": "Passage du Gois",
+            "description": "Cette chaussée longue d'environ quatre kilomètres relie l'île de Noirmoutier au continent, à travers la baie de Bourgneuf. Elle disparaît sous la mer à chaque marée haute, et n'est praticable que quelques heures autour de la marée basse.",
+            "anecdote": "Des balises refuges, plantées le long de la route, permettent aux promeneurs surpris par la marée de se mettre à l'abri."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur des Pays de la Loire",
+            "description": "Réunir les cinq cartes de la collection des Pays de la Loire."
+          },
+          "master": {
+            "name": "Maître des Pays de la Loire",
+            "description": "Réussir le Défi Maître des Pays de la Loire, avec au moins huit bonnes réponses sur dix."
           }
         }
       }

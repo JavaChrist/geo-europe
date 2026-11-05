@@ -187,6 +187,17 @@
         "86": "poitou-charentes",
         "87": "limousin"
       }
+    },
+    {
+      "id": "pays-de-la-loire-departements",
+      "simplify": "22%",
+      "zones": {
+        "44": "44",
+        "49": "49",
+        "53": "53",
+        "72": "72",
+        "85": "85"
+      }
     }
   ]
 }
