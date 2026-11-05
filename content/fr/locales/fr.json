@@ -3020,6 +3020,510 @@
       "photoAquitaineBernadotte": {
         "title": "Charles XIV Jean de Suède, d'après François Gérard",
         "alt": "Portrait en pied d'un maréchal en uniforme sombre à ceinture dorée."
+      },
+      "photoLimousinGareBenedictins": {
+        "title": "Gare de Limoges-Bénédictins",
+        "alt": "Grande gare à coupole verte et haut campanile, devant des jets d'eau."
+      },
+      "photoLimousinCathedraleLimoges": {
+        "title": "Cathédrale Saint-Étienne, Limoges",
+        "alt": "Cathédrale gothique de pierre grise à haut clocher, entourée d'arbres."
+      },
+      "photoLimousinPontSaintMartial": {
+        "title": "Pont Saint-Martial, Limoges",
+        "alt": "Vieux pont de pierre à arches en arc brisé, au pied d'immeubles anciens."
+      },
+      "photoLimousinBoucherie": {
+        "title": "Quartier de la Boucherie, Limoges",
+        "alt": "Ruelle pavée bordée de maisons à pans de bois et encorbellements."
+      },
+      "photoLimousinPetitsVentres": {
+        "title": "Frairie des petits ventres, Limoges",
+        "alt": "Foule rassemblée de nuit dans une rue de maisons à colombages, autour de stands."
+      },
+      "photoLimousinSaintAurelien": {
+        "title": "Chapelle Saint-Aurélien, Limoges",
+        "alt": "Intérieur de chapelle au retable doré, orné de statues et d'un drapeau vert et blanc."
+      },
+      "photoLimousinCourTemple": {
+        "title": "Cour du Temple, Limoges",
+        "alt": "Petite cour Renaissance entourée de galeries et d'un escalier de pierre."
+      },
+      "photoLimousinJardinsEveche": {
+        "title": "Jardins de l'Évêché, Limoges",
+        "alt": "Jardins en terrasses aux massifs fleuris, dominés par le chevet d'une cathédrale."
+      },
+      "photoLimousinFourCasseaux": {
+        "title": "Four des Casseaux, Limoges",
+        "alt": "Grand four en forme de bouteille, en briques, dans une halle."
+      },
+      "photoLimousinGazettes": {
+        "title": "Gazettes du four des Casseaux",
+        "alt": "Piles d'étuis cylindriques en terre réfractaire, empilés en colonnes."
+      },
+      "photoLimousinHotelVilleLimoges": {
+        "title": "Hôtel de ville de Limoges",
+        "alt": "Bâtiment à beffroi et toits d'ardoise, devant une place à fontaine."
+      },
+      "photoLimousinHallesLimoges": {
+        "title": "Halles centrales de Limoges",
+        "alt": "Halle à structure métallique et verrière, ornée d'une frise colorée."
+      },
+      "photoLimousinOstensions": {
+        "title": "Ostensions de Limoges, 2016",
+        "alt": "Évêque en habit liturgique élevant un reliquaire doré devant la foule."
+      },
+      "photoLimousinBriveSaintMartin": {
+        "title": "Collégiale Saint-Martin, Brive-la-Gaillarde",
+        "alt": "Église romane à clocher, au milieu d'une place piétonne."
+      },
+      "photoLimousinLabenche": {
+        "title": "Hôtel Labenche, Brive-la-Gaillarde",
+        "alt": "Façade Renaissance de pierre ocre, ornée de bustes sculptés en médaillon."
+      },
+      "photoLimousinFoireLivre": {
+        "title": "Entrée de la Foire du livre de Brive",
+        "alt": "Grandes lettres suspendues à l'entrée d'une halle, au-dessus des visiteurs."
+      },
+      "photoLimousinTulleCathedrale": {
+        "title": "Clocher de la cathédrale de Tulle",
+        "alt": "Haut clocher-porche de pierre surmonté d'une flèche fine."
+      },
+      "photoLimousinLoyac": {
+        "title": "Maison de Loyac, Tulle",
+        "alt": "Maison Renaissance de pierre à tourelle et fenêtres sculptées."
+      },
+      "photoLimousinTullePanorama": {
+        "title": "Tulle",
+        "alt": "Ville étirée au fond d'une vallée étroite et boisée, dominée par un clocher."
+      },
+      "photoLimousinUssel": {
+        "title": "Fontaine à Ussel",
+        "alt": "Place pavée avec fontaine de pierre, devant de vieilles façades."
+      },
+      "photoLimousinCollonges": {
+        "title": "Collonges-la-Rouge",
+        "alt": "Porte de village et maisons construites en grès d'un rouge profond."
+      },
+      "photoLimousinTurenne": {
+        "title": "Turenne",
+        "alt": "Village perché sur une butte, couronné de tours et de toits d'ardoise."
+      },
+      "photoLimousinCuremonte": {
+        "title": "Curemonte",
+        "alt": "Silhouette de village fortifié et de châteaux étirée sur une crête."
+      },
+      "photoLimousinSegur": {
+        "title": "Ségur-le-Château",
+        "alt": "Maisons anciennes à pans de bois et toits pentus au bord d'une rivière."
+      },
+      "photoLimousinUzerche": {
+        "title": "Uzerche",
+        "alt": "Ville à tours et toits pointus sur un éperon, dans une boucle de rivière."
+      },
+      "photoLimousinBeaulieu": {
+        "title": "Beaulieu-sur-Dordogne",
+        "alt": "Maisons de pierre au bord d'une large rivière calme."
+      },
+      "photoLimousinArgentat": {
+        "title": "Argentat-sur-Dordogne",
+        "alt": "Quais de pierre et maisons à balcons de bois sur une rivière."
+      },
+      "photoLimousinGimel": {
+        "title": "Gimel-les-Cascades",
+        "alt": "Petit village de toits d'ardoise niché dans une vallée verdoyante."
+      },
+      "photoLimousinMeymac": {
+        "title": "Abbatiale de Meymac",
+        "alt": "Église abbatiale de granit à clocher-porche massif."
+      },
+      "photoLimousinAubazine": {
+        "title": "Abbaye d'Aubazine",
+        "alt": "Nef romane dépouillée aux voûtes de pierre claire."
+      },
+      "photoLimousinPompadour": {
+        "title": "Château de Pompadour",
+        "alt": "Château à tours rondes et toits pointus, au-dessus d'une piste."
+      },
+      "photoLimousinHippodrome": {
+        "title": "Hippodrome de Pompadour",
+        "alt": "Champ de courses verdoyant bordé de barrières blanches, devant un château."
+      },
+      "photoLimousinVentadour": {
+        "title": "Château de Ventadour",
+        "alt": "Ruines de forteresse dressées sur un éperon boisé."
+      },
+      "photoLimousinSedieres": {
+        "title": "Château de Sédières",
+        "alt": "Château Renaissance à tours, reflété dans un étang."
+      },
+      "photoLimousinAigle": {
+        "title": "Barrage de l'Aigle",
+        "alt": "Haut barrage de béton fermant des gorges profondes et boisées."
+      },
+      "photoLimousinRochersNoirs": {
+        "title": "Viaduc des Rochers Noirs",
+        "alt": "Long pont suspendu à piles de pierre, au-dessus d'une vallée boisée."
+      },
+      "photoLimousinSucAuMay": {
+        "title": "Vue depuis le Suc au May",
+        "alt": "Vaste paysage de collines boisées et de landes, à perte de vue."
+      },
+      "photoLimousinMontBessou": {
+        "title": "Mont Bessou",
+        "alt": "Sommet arrondi couvert de landes et de bois, sous un ciel clair."
+      },
+      "photoLimousinGorgesDordogne": {
+        "title": "Gorges de la Dordogne",
+        "alt": "Rivière sinueuse au fond de gorges profondes couvertes de forêts."
+      },
+      "photoLimousinLongeroux": {
+        "title": "Tourbières du Longeroux",
+        "alt": "Étendue humide de landes et d'herbes au coucher du soleil."
+      },
+      "photoLimousinSautVirole": {
+        "title": "Saut de la Virole",
+        "alt": "Cascade dévalant des rochers granitiques dans un sous-bois."
+      },
+      "photoLimousinMurel": {
+        "title": "Cascades de Murel",
+        "alt": "Chute d'eau tombant d'une paroi rocheuse couverte de mousse."
+      },
+      "photoLimousinLacCausse": {
+        "title": "Lac du Causse",
+        "alt": "Plan d'eau bordé de collines, avec une plage et une tour de plongeon."
+      },
+      "photoLimousinVezere": {
+        "title": "La Vézère à Uzerche",
+        "alt": "Rivière vive coulant entre les rochers et les arbres."
+      },
+      "photoLimousinGueret": {
+        "title": "Hôtel Moneyroux, Guéret",
+        "alt": "Façade Renaissance de granit à arcades et fenêtres à meneaux."
+      },
+      "photoLimousinAubusson": {
+        "title": "Aubusson",
+        "alt": "Petite ville aux toits d'ardoise dominée par une tour d'horloge, au bord d'une rivière."
+      },
+      "photoLimousinTapisserie": {
+        "title": "Tapisserie du musée d'Aubusson",
+        "alt": "Grande tenture tissée représentant une scène galante dans un paysage."
+      },
+      "photoLimousinVerdure": {
+        "title": "Verdure aux biches et au lion",
+        "alt": "Tapisserie de feuillages abondants où se cachent des animaux."
+      },
+      "photoLimousinFelletin": {
+        "title": "Lanterne des morts de Felletin",
+        "alt": "Haute colonne de pierre creuse surmontée d'un lanternon, dans un cimetière."
+      },
+      "photoLimousinSouterraine": {
+        "title": "Porte Saint-Jean, La Souterraine",
+        "alt": "Porte fortifiée médiévale à deux tours, ouvrant sur une rue."
+      },
+      "photoLimousinZizim": {
+        "title": "Tour Zizim, Bourganeuf",
+        "alt": "Grosse tour ronde de pierre aux murs épais, coiffée d'un toit pointu."
+      },
+      "photoLimousinMoutierAhun": {
+        "title": "Pont médiéval de Moutier-d'Ahun",
+        "alt": "Vieux pont de pierre en dos d'âne sur une rivière."
+      },
+      "photoLimousinCrozant": {
+        "title": "Ruines de Crozant",
+        "alt": "Ruines de forteresse sur un éperon rocheux, au-dessus de gorges boisées."
+      },
+      "photoLimousinGuillaumin": {
+        "title": "Paysage de neige à Crozant, Armand Guillaumin",
+        "alt": "Tableau impressionniste d'une vallée enneigée aux tons bleus et roses."
+      },
+      "photoLimousinBoussac": {
+        "title": "Château de Boussac",
+        "alt": "Château massif aux toits pentus dressé au-dessus d'une vallée."
+      },
+      "photoLimousinLicorne": {
+        "title": "La Dame à la licorne, À mon seul désir",
+        "alt": "Tapisserie à fond rouge : une dame entre un lion et une licorne, devant une tente."
+      },
+      "photoLimousinSand": {
+        "title": "George Sand par Nadar, 1864",
+        "alt": "Portrait photographique d'une femme aux cheveux sombres coiffés en bandeaux."
+      },
+      "photoLimousinBenevent": {
+        "title": "Église de Bénévent-l'Abbaye",
+        "alt": "Église romane de granit à deux clochers, sur une place."
+      },
+      "photoLimousinMasgot": {
+        "title": "Village du Masgot",
+        "alt": "Jardin et maisons de granit ornées de sculptures, dans un hameau."
+      },
+      "photoLimousinBusseau": {
+        "title": "Viaduc de Busseau",
+        "alt": "Viaduc métallique en treillis porté par de hautes piles, au-dessus d'une vallée."
+      },
+      "photoLimousinJaumatres": {
+        "title": "Pierres Jaumâtres",
+        "alt": "Énormes blocs de granit arrondis empilés au sommet d'une colline."
+      },
+      "photoLimousinEtangLandes": {
+        "title": "Étang des Landes",
+        "alt": "Vaste étang aux berges de roseaux, sous un ciel nuageux."
+      },
+      "photoLimousinSaintJunien": {
+        "title": "Collégiale de Saint-Junien",
+        "alt": "Rosace de pierre sculptée dans une façade d'église romane."
+      },
+      "photoLimousinSiteCorot": {
+        "title": "La Glane au site Corot",
+        "alt": "Rivière tumultueuse coulant entre de gros rochers, sous les arbres."
+      },
+      "photoLimousinSaintYrieix": {
+        "title": "Saint-Yrieix-la-Perche",
+        "alt": "Collégiale et toits de tuiles d'une petite ville, vus d'en haut."
+      },
+      "photoLimousinMarcognac": {
+        "title": "Site de Marcognac",
+        "alt": "Hangar de bois ancien, au bord d'une carrière, visité par un groupe."
+      },
+      "photoLimousinBellac": {
+        "title": "Hôtel de ville de Bellac",
+        "alt": "Ancien château à tourelles abritant une mairie, devant une place."
+      },
+      "photoLimousinRochechouart": {
+        "title": "Château de Rochechouart",
+        "alt": "Château à tours rondes dressé sur un promontoire."
+      },
+      "photoLimousinBreche": {
+        "title": "Brèche d'impact de Rochechouart",
+        "alt": "Roche rouge faite de fragments anguleux soudés entre eux."
+      },
+      "photoLimousinOradour": {
+        "title": "Ruines d'Oradour-sur-Glane",
+        "alt": "Rue de maisons en ruine, sans toits, laissées en l'état."
+      },
+      "photoLimousinOradourVoiture": {
+        "title": "Voiture dans les ruines d'Oradour-sur-Glane",
+        "alt": "Carcasse de voiture ancienne rouillée, devant un mur en ruine."
+      },
+      "photoLimousinSaintLeonard": {
+        "title": "Collégiale de Saint-Léonard-de-Noblat",
+        "alt": "Chevet roman de granit à absidioles, surmonté d'un clocher."
+      },
+      "photoLimousinEymoutiers": {
+        "title": "Eymoutiers",
+        "alt": "Maisons anciennes serrées au bord d'une rivière."
+      },
+      "photoLimousinMortemart": {
+        "title": "Halle de Mortemart",
+        "alt": "Halle ancienne à charpente de bois, sur la place d'un village."
+      },
+      "photoLimousinSolignac": {
+        "title": "Abbatiale de Solignac",
+        "alt": "Façade d'église romane de granit à portail, sous un ciel clair."
+      },
+      "photoLimousinDorat": {
+        "title": "Collégiale du Dorat",
+        "alt": "Grande église romane à haut clocher, dominant un bourg."
+      },
+      "photoLimousinChalucet": {
+        "title": "Château de Châlucet",
+        "alt": "Donjon et murailles en ruine au sommet d'une colline boisée."
+      },
+      "photoLimousinChalus": {
+        "title": "Château de Châlus-Chabrol",
+        "alt": "Grosse tour ronde médiévale dressée au-dessus d'un bourg."
+      },
+      "photoLimousinCoussac": {
+        "title": "Château de Coussac-Bonneval",
+        "alt": "Château à tours d'angle coiffées de toits pointus, dans la verdure."
+      },
+      "photoLimousinAmbazac": {
+        "title": "Monts d'Ambazac",
+        "alt": "Prairie parsemée de balles de foin devant des collines boisées dans la brume."
+      },
+      "photoLimousinMontGargan": {
+        "title": "Mont Gargan",
+        "alt": "Colline boisée dominant des prés et des bosquets."
+      },
+      "photoLimousinDauges": {
+        "title": "Tourbière des Dauges",
+        "alt": "Cuvette de landes et de bruyères entourée de forêts."
+      },
+      "photoLimousinGuingouin": {
+        "title": "Hommage à Georges Guingouin, Paul Rebeyrolle, 1987",
+        "alt": "Grande toile sombre et expressive où une figure se débat dans un tourbillon."
+      },
+      "photoLimousinVassiviere": {
+        "title": "Lac de Vassivière",
+        "alt": "Grand lac entouré de collines boisées, vu depuis une prairie."
+      },
+      "photoLimousinVassiviereRossi": {
+        "title": "Phare de l'île de Vassivière",
+        "alt": "Tour conique en briques surmontée d'une lanterne vitrée, dans les arbres."
+      },
+      "photoLimousinMillevaches": {
+        "title": "Plateau de Millevaches",
+        "alt": "Prairie où paissent quelques vaches, devant des collines couvertes de forêts."
+      },
+      "photoLimousinBruyeres": {
+        "title": "Landes à bruyères",
+        "alt": "Coteau couvert de bruyères mauves et de fougères, dominé par un pin."
+      },
+      "photoLimousinVacheLimousine": {
+        "title": "Vache limousine",
+        "alt": "Vache à robe froment et cornes claires, dans un pré."
+      },
+      "photoLimousinBrebis": {
+        "title": "Brebis limousines",
+        "alt": "Troupeau de moutons blancs paissant dans une lande."
+      },
+      "photoLimousinCulNoir": {
+        "title": "Porc cul noir limousin",
+        "alt": "Truie rose à tête et croupe noires, couchée sur la paille."
+      },
+      "photoLimousinLoutre": {
+        "title": "Loutre d'Europe",
+        "alt": "Mammifère au pelage brun et luisant, couché sur un rocher."
+      },
+      "photoLimousinClafoutis": {
+        "title": "Clafoutis aux cerises",
+        "alt": "Part de gâteau doré garni de cerises, dans une assiette."
+      },
+      "photoLimousinFlognarde": {
+        "title": "Flognarde aux pommes",
+        "alt": "Gâteau doré et gonflé garni de morceaux de pommes, sur un plat vert."
+      },
+      "photoLimousinPatePdt": {
+        "title": "Pâté de pommes de terre",
+        "alt": "Part de tourte à pâte feuilletée garnie de tranches de pommes de terre."
+      },
+      "photoLimousinPommes": {
+        "title": "Pommes du Limousin",
+        "alt": "Pommes jaunes rangées dans des caisses sur un étal."
+      },
+      "photoLimousinPommiers": {
+        "title": "Verger de pommiers",
+        "alt": "Rangées de pommiers protégés par des filets, de part et d'autre d'une allée."
+      },
+      "photoLimousinPotee": {
+        "title": "Potée",
+        "alt": "Plat de terre garni de chou, de légumes et de tranches de viande."
+      },
+      "photoLimousinChataignes": {
+        "title": "Châtaignes",
+        "alt": "Quelques fruits bruns et luisants posés sur une planche de bois."
+      },
+      "photoLimousinFondu": {
+        "title": "Fondu creusois",
+        "alt": "Bol de fromage fondu servi avec des pommes de terre et de la salade."
+      },
+      "photoLimousinTarteFraises": {
+        "title": "Tarte géante de Beaulieu-sur-Dordogne",
+        "alt": "Immense tarte rouge de plusieurs mètres, entourée d'une foule."
+      },
+      "photoLimousinNoix": {
+        "title": "Noix",
+        "alt": "Tas de fruits secs à coque claire et rainurée."
+      },
+      "photoLimousinCepes": {
+        "title": "Cèpes",
+        "alt": "Deux champignons à chapeau brun et pied épais, dans les fougères."
+      },
+      "photoLimousinTruffe": {
+        "title": "Truffe noire",
+        "alt": "Champignon souterrain noir et rugueux, posé sur un papier."
+      },
+      "photoLimousinPorcelaine": {
+        "title": "Service en porcelaine de Limoges",
+        "alt": "Chocolatière et tasses blanches décorées de guirlandes roses."
+      },
+      "photoLimousinEmail": {
+        "title": "Coffret en émail de Limoges",
+        "alt": "Coffret décoré de personnages dorés sur fond bleu et vert."
+      },
+      "photoLimousinChasse": {
+        "title": "Châsse de Limoges, musée de Lille",
+        "alt": "Petit reliquaire en forme de maison, doré et serti de pierres colorées."
+      },
+      "photoLimousinMaugein": {
+        "title": "Accordéons diatoniques Maugein",
+        "alt": "Deux accordéons à clavier de boutons et caisse de bois clair."
+      },
+      "photoLimousinCabrette": {
+        "title": "Cabrette",
+        "alt": "Instrument à poche de cuir et chalumeau de bois, accroché à un mur vert."
+      },
+      "photoLimousinFeuillardier": {
+        "title": "Cabane de feuillardier",
+        "alt": "Abri en forme d'arceau fait de branches et de copeaux de bois."
+      },
+      "photoLimousinGabare": {
+        "title": "Gabare sur la Dordogne",
+        "alt": "Bateau de bois à fond plat et voile rouge, transportant des passagers."
+      },
+      "photoLimousinPanneauOccitan": {
+        "title": "Panneau d'entrée bilingue à Châlus",
+        "alt": "Panneau routier rouge portant le nom d'une commune, au bord d'une route."
+      },
+      "photoLimousinCarnyx": {
+        "title": "Carnyx de Tintignac",
+        "alt": "Pavillon de bronze en forme de tête d'animal à gueule ouverte."
+      },
+      "photoLimousinBouffia": {
+        "title": "Bouffia Bonneval, La Chapelle-aux-Saints",
+        "alt": "Petite grotte basse ouverte dans un talus calcaire."
+      },
+      "photoLimousinRenoir": {
+        "title": "Pierre-Auguste Renoir, par Dornac",
+        "alt": "Vieil homme barbu en casquette, assis dans un fauteuil d'atelier."
+      },
+      "photoLimousinGayLussac": {
+        "title": "Joseph Louis Gay-Lussac",
+        "alt": "Portrait gravé d'un homme en redingote et col haut."
+      },
+      "photoLimousinChirac": {
+        "title": "Jacques Chirac, 1997",
+        "alt": "Homme aux cheveux grisonnants coiffés en arrière, en costume sombre."
+      },
+      "photoLimousinQueuille": {
+        "title": "Henri Queuille, 1929",
+        "alt": "Portrait en noir et blanc d'un homme à moustache, en costume."
+      },
+      "photoLimousinTurgot": {
+        "title": "Turgot, par Joseph Ducreux",
+        "alt": "Portrait d'un homme en perruque poudrée et jabot de dentelle."
+      },
+      "photoLimousinClementVi": {
+        "title": "Clément VI, fresque du palais des Papes",
+        "alt": "Fresque d'un prélat portant une mitre blanche, auréolé d'or."
+      },
+      "photoLimousinLeroux": {
+        "title": "Pierre Leroux",
+        "alt": "Photographie ancienne d'un homme aux cheveux longs, assis, la main sur la joue."
+      },
+      "photoLimousinPoulidor": {
+        "title": "Raymond Poulidor, Tour de France 1966",
+        "alt": "Coureur cycliste en maillot d'équipe, photographié en noir et blanc."
+      },
+      "photoLimousinDubois": {
+        "title": "Le cardinal Dubois, par Hyacinthe Rigaud",
+        "alt": "Portrait d'un prélat en perruque grise et habit rouge."
+      },
+      "photoLimousinBoule": {
+        "title": "Marcellin Boule, 1929",
+        "alt": "Homme âgé à barbe blanche, en costume sombre, les bras croisés."
+      },
+      "photoLimousinTravassac": {
+        "title": "Pans de Travassac",
+        "alt": "Hautes lames de schiste verticales bordant une profonde fosse noyée."
+      },
+      "photoLimousinBranceilles": {
+        "title": "Vignes de Branceilles",
+        "alt": "Rangs de vigne sur un coteau, devant une maison et des arbres."
+      },
+      "photoLimousinHollande": {
+        "title": "François Hollande, 2024",
+        "alt": "Homme à lunettes en costume sombre, en conversation."
       }
     }
   },
@@ -3572,7 +4076,53 @@
     "mauleon-licharre": "Mauléon-Licharre",
     "salies-de-bearn": "Salies-de-Béarn",
     "lescar": "Lescar",
-    "sare": "Sare"
+    "sare": "Sare",
+    "brive-la-gaillarde": "Brive-la-Gaillarde",
+    "tulle": "Tulle",
+    "ussel": "Ussel",
+    "egletons": "Égletons",
+    "argentat-sur-dordogne": "Argentat-sur-Dordogne",
+    "uzerche": "Uzerche",
+    "beaulieu-sur-dordogne": "Beaulieu-sur-Dordogne",
+    "collonges-la-rouge": "Collonges-la-Rouge",
+    "turenne": "Turenne",
+    "curemonte": "Curemonte",
+    "gimel-les-cascades": "Gimel-les-Cascades",
+    "treignac": "Treignac",
+    "segur-le-chateau": "Ségur-le-Château",
+    "meymac": "Meymac",
+    "saint-robert": "Saint-Robert",
+    "aubazine": "Aubazine",
+    "arnac-pompadour": "Arnac-Pompadour",
+    "gueret": "Guéret",
+    "aubusson": "Aubusson",
+    "la-souterraine": "La Souterraine",
+    "bourganeuf": "Bourganeuf",
+    "felletin": "Felletin",
+    "boussac": "Boussac",
+    "crozant": "Crozant",
+    "evaux-les-bains": "Évaux-les-Bains",
+    "benevent-l-abbaye": "Bénévent-l'Abbaye",
+    "chambon-sur-voueize": "Chambon-sur-Voueize",
+    "moutier-d-ahun": "Moutier-d'Ahun",
+    "saint-vaury": "Saint-Vaury",
+    "dun-le-palestel": "Dun-le-Palestel",
+    "auzances": "Auzances",
+    "limoges": "Limoges",
+    "saint-junien": "Saint-Junien",
+    "saint-yrieix-la-perche": "Saint-Yrieix-la-Perche",
+    "bellac": "Bellac",
+    "rochechouart": "Rochechouart",
+    "oradour-sur-glane": "Oradour-sur-Glane",
+    "saint-leonard-de-noblat": "Saint-Léonard-de-Noblat",
+    "eymoutiers": "Eymoutiers",
+    "mortemart": "Mortemart",
+    "solignac": "Solignac",
+    "le-dorat": "Le Dorat",
+    "chalus": "Châlus",
+    "ambazac": "Ambazac",
+    "aixe-sur-vienne": "Aixe-sur-Vienne",
+    "magnac-laval": "Magnac-Laval"
   },
   "territories": {
     "champagne-ardenne": {
@@ -25487,7 +26037,1867 @@
       }
     },
     "limousin": {
-      "name": "Limousin"
+      "name": "Limousin",
+      "description": "Du plateau de Millevaches aux gorges de la Dordogne, un pays de sources, de forêts et de pâturages, celui de la porcelaine de Limoges et de la tapisserie d'Aubusson, entre Corrèze, Creuse et Haute-Vienne, aujourd'hui au sein de la région Nouvelle-Aquitaine.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Limousin",
+          "description": "Trois départements, leurs villes et les grands repères d'un pays de plateaux, de lacs et de forêts, à l'ouest du Massif central.",
+          "carte-territoire": {
+            "prompt": "Touchez sur la carte le territoire historique du Limousin.",
+            "hint": "C'est la partie est de la région, sans accès à la mer.",
+            "anecdote": "Le Limousin était une région administrative jusqu'en 2015. Il a fusionné avec l'Aquitaine et Poitou-Charentes le 1er janvier 2016."
+          },
+          "carte-voisin": {
+            "prompt": "Touchez le territoire voisin qui s'étend au sud-ouest du Limousin, de l'océan aux Pyrénées.",
+            "hint": "C'est la partie sud de la région, avec Bordeaux.",
+            "anecdote": "Le troisième territoire de la région, Poitou-Charentes, se trouve au nord-ouest du Limousin."
+          },
+          "capitale": {
+            "prompt": "Quelle ville est la capitale historique du Limousin ?",
+            "hint": "Elle est bâtie sur les rives de la Vienne.",
+            "anecdote": "C'est la plus grande ville du Limousin, avec environ 130 000 habitants."
+          },
+          "trois": {
+            "prompt": "Combien de départements compte le Limousin ?",
+            "hint": "C'est l'un des plus petits nombres parmi les anciennes régions.",
+            "anecdote": "Ce sont la Corrèze, la Creuse et la Haute-Vienne.",
+            "answers": {
+              "trois": "Trois",
+              "cinq": "Cinq",
+              "deux": "Deux",
+              "huit": "Huit"
+            }
+          },
+          "fusion": {
+            "prompt": "Dans quelle grande région le Limousin est-il entré en 2016 ?",
+            "hint": "Son nom ajoute un adjectif à celui d'un autre territoire fusionné.",
+            "anecdote": "C'est la plus vaste région de la France métropolitaine. Son chef-lieu est Bordeaux.",
+            "answers": {
+              "la-nouvelle-aquitaine": "La Nouvelle-Aquitaine",
+              "l-auvergne-rhone-alpes": "L'Auvergne-Rhône-Alpes",
+              "le-centre-val-de-loire": "Le Centre-Val de Loire",
+              "l-occitanie": "L'Occitanie"
+            }
+          },
+          "massif": {
+            "prompt": "À l'ouest de quel grand ensemble montagneux s'étend le Limousin ?",
+            "hint": "Il occupe le centre et le sud de la France.",
+            "anecdote": "Le Limousin en forme la bordure occidentale, faite de plateaux et de monts arrondis.",
+            "answers": {
+              "le-massif-central": "Le Massif central",
+              "le-massif-armoricain": "Le Massif armoricain",
+              "les-pyrenees": "Les Pyrénées",
+              "le-jura": "Le Jura"
+            }
+          },
+          "porcelaine": {
+            "prompt": "Quelle fabrication a rendu Limoges célèbre dans le monde entier ?",
+            "hint": "Elle utilise le kaolin, une argile blanche découverte près de Saint-Yrieix-la-Perche.",
+            "anecdote": "Les premières pièces ont été produites à Limoges dans les années 1770.",
+            "answers": {
+              "la-porcelaine": "La porcelaine",
+              "le-verre-souffle": "Le verre soufflé",
+              "la-faience-bleue": "La faïence bleue",
+              "la-coutellerie": "La coutellerie"
+            }
+          },
+          "millevaches": {
+            "prompt": "Quel haut plateau du Limousin, couvert de forêts et de landes, voit-on ici ?",
+            "hint": "Son nom ne viendrait pas des vaches, mais peut-être d'un mot ancien désignant les sources.",
+            "anecdote": "Partagé entre la Corrèze, la Creuse et la Haute-Vienne, il a donné son nom à un parc naturel régional créé en 2004.",
+            "answers": {
+              "le-plateau-de-millevaches": "Le plateau de Millevaches",
+              "le-plateau-de-langres": "Le plateau de Langres",
+              "le-causse-de-gramat": "Le causse de Gramat",
+              "le-plateau-d-aubrac": "Le plateau d'Aubrac"
+            }
+          },
+          "vassiviere": {
+            "prompt": "Quel grand lac du Limousin voit-on ici ?",
+            "hint": "Ce lac de barrage se trouve entre la Creuse et la Haute-Vienne.",
+            "anecdote": "Mis en eau en 1950, il couvre environ 1 000 hectares. Son île accueille un centre d'art contemporain.",
+            "answers": {
+              "le-lac-de-vassiviere": "Le lac de Vassivière",
+              "le-lac-de-pareloup": "Le lac de Pareloup",
+              "le-lac-d-annecy": "Le lac d'Annecy",
+              "le-lac-de-guerledan": "Le lac de Guerlédan"
+            }
+          },
+          "bessou": {
+            "prompt": "Quel sommet de la Corrèze est le point culminant du Limousin ?",
+            "hint": "Il s'élève à 977 mètres, près de Meymac, sur le plateau de Millevaches.",
+            "anecdote": "Une tour d'observation a été installée à son sommet. Par temps clair, on voit les monts d'Auvergne.",
+            "answers": {
+              "le-mont-bessou": "Le mont Bessou",
+              "le-suc-au-may": "Le suc au May",
+              "le-mont-gargan": "Le mont Gargan",
+              "le-puy-de-sancy": "Le puy de Sancy"
+            }
+          },
+          "vienne": {
+            "prompt": "Quelle rivière traverse Limoges ?",
+            "hint": "Elle a donné son nom au département de Limoges.",
+            "anecdote": "Née sur le plateau de Millevaches, elle rejoint la Loire près de Candes-Saint-Martin.",
+            "answers": {
+              "la-vienne": "La Vienne",
+              "la-creuse": "La Creuse",
+              "la-correze": "La Corrèze",
+              "la-dordogne": "La Dordogne"
+            }
+          },
+          "carte-tulle": {
+            "prompt": "Touchez le département de Tulle.",
+            "hint": "C'est le plus au sud des trois départements du Limousin.",
+            "anecdote": "Ce département tire son nom d'une rivière qui traverse Tulle et Brive-la-Gaillarde."
+          },
+          "carte-brive": {
+            "prompt": "Touchez le département de Brive-la-Gaillarde.",
+            "hint": "C'est le plus au sud des trois départements du Limousin.",
+            "anecdote": "C'est la plus grande ville de ce département, devant sa préfecture."
+          },
+          "carte-ussel": {
+            "prompt": "Touchez le département d'Ussel.",
+            "hint": "C'est le plus au sud des trois départements du Limousin.",
+            "anecdote": "Cette sous-préfecture se trouve en Haute-Corrèze, au bord du plateau de Millevaches."
+          },
+          "carte-collonges": {
+            "prompt": "Touchez le département de Collonges-la-Rouge.",
+            "hint": "C'est le plus au sud des trois départements du Limousin.",
+            "anecdote": "L'association des Plus Beaux Villages de France est née en 1982 à l'initiative de ce village."
+          },
+          "carte-uzerche": {
+            "prompt": "Touchez le département d'Uzerche.",
+            "hint": "C'est le plus au sud des trois départements du Limousin.",
+            "anecdote": "Cette petite ville perchée sur la Vézère est surnommée la perle du Limousin."
+          },
+          "carte-gueret": {
+            "prompt": "Touchez le département de Guéret.",
+            "hint": "C'est le plus à l'est des trois départements du Limousin.",
+            "anecdote": "Avec environ 13 000 habitants, c'est l'une des plus petites préfectures de France."
+          },
+          "carte-aubusson": {
+            "prompt": "Touchez le département d'Aubusson.",
+            "hint": "C'est le plus à l'est des trois départements du Limousin.",
+            "anecdote": "La tapisserie d'Aubusson est inscrite au patrimoine culturel immatériel de l'UNESCO depuis 2009."
+          },
+          "carte-souterraine": {
+            "prompt": "Touchez le département de La Souterraine.",
+            "hint": "C'est le plus à l'est des trois départements du Limousin.",
+            "anecdote": "Son nom rappelle la crypte qui s'étend sous son église."
+          },
+          "carte-bourganeuf": {
+            "prompt": "Touchez le département de Bourganeuf.",
+            "hint": "C'est le plus à l'est des trois départements du Limousin.",
+            "anecdote": "Elle a été l'une des premières villes de France éclairées à l'électricité, en 1886."
+          },
+          "carte-boussac": {
+            "prompt": "Touchez le département de Boussac.",
+            "hint": "C'est le plus à l'est des trois départements du Limousin.",
+            "anecdote": "Les tapisseries de la Dame à la licorne ont été conservées dans son château jusqu'en 1882."
+          },
+          "carte-limoges": {
+            "prompt": "Touchez le département de Limoges.",
+            "hint": "C'est le plus à l'ouest des trois départements du Limousin.",
+            "anecdote": "Ce département tire son nom de la rivière qui traverse Limoges."
+          },
+          "carte-saint-junien": {
+            "prompt": "Touchez le département de Saint-Junien.",
+            "hint": "C'est le plus à l'ouest des trois départements du Limousin.",
+            "anecdote": "Cette ville est réputée depuis le Moyen Âge pour ses gants de peau."
+          },
+          "carte-bellac": {
+            "prompt": "Touchez le département de Bellac.",
+            "hint": "C'est le plus à l'ouest des trois départements du Limousin.",
+            "anecdote": "Sa mairie occupe un ancien château dominant la vallée du Vincou."
+          },
+          "carte-rochechouart": {
+            "prompt": "Touchez le département de Rochechouart.",
+            "hint": "C'est le plus à l'ouest des trois départements du Limousin.",
+            "anecdote": "Une météorite y est tombée il y a plus de 200 millions d'années, en laissant un cratère aujourd'hui effacé."
+          },
+          "carte-saint-yrieix": {
+            "prompt": "Touchez le département de Saint-Yrieix-la-Perche.",
+            "hint": "C'est le plus à l'ouest des trois départements du Limousin.",
+            "anecdote": "Le kaolin, matière première de la porcelaine, y a été découvert vers 1768."
+          },
+          "dep-numero": {
+            "prompt": "Quel département porte le numéro 87 ?",
+            "hint": "C'est le département de Limoges.",
+            "anecdote": "La Corrèze porte le numéro 19 et la Creuse le numéro 23.",
+            "answers": {
+              "la-haute-vienne": "La Haute-Vienne",
+              "la-correze": "La Corrèze",
+              "la-creuse": "La Creuse",
+              "la-vienne": "La Vienne"
+            }
+          },
+          "ville-limoges": {
+            "prompt": "Dans quelle ville se trouve cette gare à coupole et campanile ?",
+            "hint": "C'est la plus grande ville du Limousin, sur la Vienne.",
+            "anecdote": "La gare des Bénédictins a été inaugurée en 1929. Son campanile mesure environ 60 mètres."
+          },
+          "ville-tulle": {
+            "prompt": "Quelle préfecture, étirée au fond d'une vallée étroite, voit-on ici ?",
+            "hint": "Elle s'allonge sur plusieurs kilomètres le long de la Corrèze.",
+            "anecdote": "Ses maisons s'étagent sur les pentes, reliées par de nombreux escaliers."
+          },
+          "ville-brive": {
+            "prompt": "Dans quelle ville se trouve cette collégiale Saint-Martin ?",
+            "hint": "C'est la plus grande ville de la Corrèze.",
+            "anecdote": "Son centre ancien forme un cercle autour de la collégiale, dans le tracé des anciens remparts."
+          },
+          "ville-gueret": {
+            "prompt": "Dans quelle préfecture se trouve cet hôtel Renaissance à arcades ?",
+            "hint": "Cette ville se trouve au pied de monts boisés, au centre de la Creuse.",
+            "anecdote": "L'hôtel des Moneyroux, de la fin du XVe siècle, abrite aujourd'hui des services du département."
+          },
+          "ville-aubusson": {
+            "prompt": "Quelle petite ville de la Creuse, dominée par une tour d'horloge, voit-on ici ?",
+            "hint": "Ses ateliers tissent des tentures murales depuis le XVIe siècle.",
+            "anecdote": "Elle est bâtie au bord de la Creuse, dont l'eau peu calcaire servait à laver les laines."
+          },
+          "ville-collonges": {
+            "prompt": "Quel village de la Corrèze, bâti en pierre rouge, voit-on ici ?",
+            "hint": "Il doit sa couleur au grès local et la porte dans son nom.",
+            "anecdote": "Ses castels et ses tourelles ont été construits par les notables de la vicomté de Turenne."
+          },
+          "ville-saint-junien": {
+            "prompt": "Dans quelle ville de la Haute-Vienne se trouve cette collégiale romane ?",
+            "hint": "Cette ville, sur la Vienne, est célèbre pour ses gants.",
+            "anecdote": "La collégiale abrite le tombeau sculpté de l'ermite qui a donné son nom à la ville."
+          },
+          "ville-uzerche": {
+            "prompt": "Quelle petite ville perchée dans une boucle de la Vézère voit-on ici ?",
+            "hint": "Elle est surnommée la perle du Limousin.",
+            "anecdote": "Ses maisons à tourelles rappellent son passé de place forte, qui ne fut jamais prise selon la tradition."
+          },
+          "ville-ussel": {
+            "prompt": "Quelle sous-préfecture de la Haute-Corrèze voit-on ici ?",
+            "hint": "Elle se trouve au bord du plateau de Millevaches, près de la Creuse et du Puy-de-Dôme.",
+            "anecdote": "Son centre conserve des hôtels particuliers de granit des XVe et XVIe siècles."
+          },
+          "gaillarde": {
+            "prompt": "Quel surnom accompagne le nom de Brive ?",
+            "hint": "Il rappellerait la vaillance de la ville, souvent assiégée.",
+            "anecdote": "Elle porte officiellement le nom de Brive-la-Gaillarde depuis 1919.",
+            "answers": {
+              "la-gaillarde": "La Gaillarde",
+              "la-rouge": "La Rouge",
+              "la-perche": "La Perche"
+            }
+          },
+          "prefecture-19": {
+            "prompt": "Quelle ville est la préfecture de la Corrèze ?",
+            "hint": "Ce n'est pas la plus grande ville du département.",
+            "anecdote": "Une étoffe légère, utilisée pour les voiles de mariée, porterait le nom de cette ville."
+          },
+          "prefecture-23": {
+            "prompt": "Quelle ville est la préfecture de la Creuse ?",
+            "hint": "Elle se trouve au centre du département, au pied de monts boisés.",
+            "anecdote": "Son parc animalier des Monts de Guéret abrite des loups."
+          },
+          "giraudoux": {
+            "prompt": "Quelle ville de la Haute-Vienne a vu naître l'écrivain Jean Giraudoux, en 1882 ?",
+            "hint": "Elle est perchée au-dessus de la vallée du Vincou, au nord du département.",
+            "anecdote": "L'auteur de La guerre de Troie n'aura pas lieu y a sa maison natale, aujourd'hui ouverte à la visite."
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs du Limousin",
+          "description": "Viande limousine, châtaignes, pommes, clafoutis et soupes de campagne : une cuisine de terroir, généreuse et paysanne.",
+          "pate-pdt": {
+            "prompt": "Comment s'appelle cette tourte garnie de pommes de terre et de crème ?",
+            "hint": "Elle est cuite dans une pâte feuilletée ou brisée, et dorée au four.",
+            "anecdote": "On la sert chaude, en plat ou en entrée, dans le Limousin et dans l'Allier voisin.",
+            "answers": {
+              "le-pate-de-pommes-de-terre": "Le pâté de pommes de terre",
+              "la-truffade": "La truffade",
+              "le-gratin-dauphinois": "Le gratin dauphinois",
+              "la-tourte-au-roquefort": "La tourte au roquefort"
+            }
+          },
+          "potee": {
+            "prompt": "Quel plat de chou, de légumes et de porc salé, mijoté longuement, voit-on ici ?",
+            "hint": "C'est un plat d'hiver cuit dans un grand pot, d'où son nom.",
+            "anecdote": "La version limousine associe souvent le chou, les pommes de terre, le lard et la saucisse.",
+            "answers": {
+              "la-potee": "La potée",
+              "la-garbure": "La garbure",
+              "la-choucroute": "La choucroute",
+              "le-cassoulet": "Le cassoulet"
+            }
+          },
+          "fondu": {
+            "prompt": "Comment s'appelle ce plat de fromage fondu de la Creuse ?",
+            "hint": "On y trempe des pommes de terre, comme dans une fondue.",
+            "anecdote": "Il est servi avec de la salade et de la charcuterie, souvent pendant les soirées d'hiver.",
+            "answers": {
+              "le-fondu-creusois": "Le fondu creusois",
+              "l-aligot": "L'aligot",
+              "la-raclette": "La raclette",
+              "la-fondue-savoyarde": "La fondue savoyarde"
+            }
+          },
+          "petits-ventres": {
+            "prompt": "Quelle fête du quartier de la Boucherie, à Limoges, célèbre les abats chaque automne ?",
+            "hint": "Tripes, boudin et girot y sont servis dans la rue, autour de grandes tablées.",
+            "anecdote": "Elle a lieu en octobre depuis 1973, dans les ruelles de l'ancien quartier des bouchers.",
+            "answers": {
+              "la-frairie-des-petits-ventres": "La frairie des petits ventres",
+              "la-foire-aux-tripes": "La foire aux tripes",
+              "les-ostensions": "Les Ostensions",
+              "la-fete-de-la-saint-jean": "La fête de la Saint-Jean"
+            }
+          },
+          "brejaude": {
+            "prompt": "Quelle soupe limousine au chou, aux légumes et au lard est un plat paysan traditionnel ?",
+            "hint": "On la versait sur des tranches de pain de seigle.",
+            "anecdote": "Son nom viendrait d'un mot occitan désignant le chou.",
+            "answers": {
+              "la-brejaude": "La bréjaude",
+              "la-garbure": "La garbure",
+              "le-tourin": "Le tourin",
+              "la-soupe-au-pistou": "La soupe au pistou"
+            }
+          },
+          "chabrot": {
+            "prompt": "Comment appelle-t-on le geste de verser du vin rouge dans le fond de son assiette de soupe, puis de le boire ?",
+            "hint": "L'expression vient du nom occitan de la chèvre.",
+            "anecdote": "Cette coutume se pratique dans le Limousin, le Périgord et le Quercy.",
+            "answers": {
+              "faire-chabrot": "Faire chabrot",
+              "faire-brindezingue": "Faire brindezingue",
+              "faire-trempette": "Faire trempette",
+              "faire-ripaille": "Faire ripaille"
+            }
+          },
+          "farcidure": {
+            "prompt": "Quelle boulette de farine de sarrasin ou de pommes de terre râpées est cuite dans la soupe, en Corrèze ?",
+            "hint": "On la mange ensuite avec les légumes, ou poêlée le lendemain.",
+            "anecdote": "Elle était autrefois l'accompagnement quotidien des familles paysannes du Limousin.",
+            "answers": {
+              "la-farcidure": "La farcidure",
+              "le-farcou": "Le farçou",
+              "la-quenelle": "La quenelle",
+              "le-pounti": "Le pounti"
+            }
+          },
+          "galetou": {
+            "prompt": "Comment s'appelle la galette de farine de sarrasin du Limousin ?",
+            "hint": "Elle ressemble à une crêpe épaisse et se mange salée ou sucrée.",
+            "anecdote": "Le sarrasin, ou blé noir, pousse bien sur les sols pauvres et acides du Limousin.",
+            "answers": {
+              "le-galetou": "Le galetou",
+              "la-bourriole": "La bourriole",
+              "la-socca": "La socca",
+              "la-fouace": "La fouace"
+            }
+          },
+          "boudin": {
+            "prompt": "Quel fruit du pays ajoute-t-on traditionnellement au boudin noir limousin ?",
+            "hint": "Ce fruit d'automne a longtemps nourri les campagnes du Limousin.",
+            "anecdote": "Ce boudin se mange poêlé, avec des pommes de terre ou une salade.",
+            "answers": {
+              "des-chataignes": "Des châtaignes",
+              "des-pommes": "Des pommes",
+              "des-noix": "Des noix",
+              "des-pruneaux": "Des pruneaux"
+            }
+          },
+          "limousine": {
+            "prompt": "Que désigne en cuisine une garniture à la limousine ?",
+            "hint": "Elle réunit un légume d'hiver et un fruit de la forêt.",
+            "anecdote": "Elle accompagne volontiers les viandes de porc et le gibier.",
+            "answers": {
+              "du-chou-rouge-et-des-chataignes": "Du chou rouge et des châtaignes",
+              "des-cepes-et-de-la-creme": "Des cèpes et de la crème",
+              "des-pommes-et-du-cidre": "Des pommes et du cidre",
+              "des-noix-et-du-miel": "Des noix et du miel"
+            }
+          },
+          "sanguette": {
+            "prompt": "Quelle galette poêlée est préparée avec le sang d'une volaille ou d'un lapin, avec de l'ail et du persil ?",
+            "hint": "On la cuisait le jour où l'on tuait la volaille.",
+            "anecdote": "Elle était servie en entrée ou au casse-croûte dans les fermes du Limousin et du Périgord.",
+            "answers": {
+              "la-sanguette": "La sanguette",
+              "le-tourtou": "Le tourtou",
+              "la-flognarde": "La flognarde",
+              "le-millassou": "Le millassou"
+            }
+          },
+          "mique": {
+            "prompt": "Quelle grosse boule de pâte levée est pochée dans le bouillon d'une potée, en Corrèze et en Périgord ?",
+            "hint": "On la coupe en tranches pour l'accompagner de viande et de légumes.",
+            "anecdote": "On la prépare avec de la farine, des œufs et du levain ou de la levure, parfois du lard.",
+            "answers": {
+              "la-mique": "La mique",
+              "le-pounti": "Le pounti",
+              "la-quenelle": "La quenelle",
+              "le-knodel": "Le knödel"
+            }
+          },
+          "clafoutis": {
+            "prompt": "Comment s'appelle ce gâteau du Limousin garni de cerises ?",
+            "hint": "Selon la tradition, les cerises gardent leurs noyaux.",
+            "anecdote": "Les noyaux donneraient au gâteau un léger goût d'amande.",
+            "answers": {
+              "le-clafoutis": "Le clafoutis",
+              "le-far-breton": "Le far breton",
+              "le-flan-patissier": "Le flan pâtissier",
+              "le-gateau-basque": "Le gâteau basque"
+            }
+          },
+          "flognarde": {
+            "prompt": "Quel dessert limousin proche du clafoutis, souvent préparé avec des pommes, voit-on ici ?",
+            "hint": "Son nom évoque sa texture moelleuse.",
+            "anecdote": "On la prépare aussi avec des poires ou des pruneaux. Elle gonfle au four puis retombe en refroidissant.",
+            "answers": {
+              "la-flognarde": "La flognarde",
+              "la-tarte-tatin": "La tarte Tatin",
+              "le-far-breton": "Le far breton",
+              "la-croustade": "La croustade"
+            }
+          },
+          "tarte-fraises": {
+            "prompt": "Dans quelle ville de la Corrèze la fête de la fraise prépare-t-elle chaque année une tarte géante ?",
+            "hint": "Cette ville est bâtie au bord de la Dordogne.",
+            "anecdote": "La tarte, de plusieurs mètres de diamètre, est partagée entre les visiteurs en mai."
+          },
+          "massepain": {
+            "prompt": "Quelle petite douceur aux amandes est la spécialité de Saint-Léonard-de-Noblat ?",
+            "hint": "C'est un biscuit moelleux à base d'amandes, de sucre et de blancs d'œufs.",
+            "anecdote": "Une maison de la ville en fabrique depuis la fin du XIXe siècle, selon une recette tenue secrète.",
+            "answers": {
+              "le-massepain": "Le massepain",
+              "le-calisson": "Le calisson",
+              "le-nougat": "Le nougat",
+              "le-macaron": "Le macaron"
+            }
+          },
+          "madeleine": {
+            "prompt": "Quel petit gâteau en forme de coquillage est fabriqué depuis 1918 par une célèbre maison de Saint-Yrieix-la-Perche ?",
+            "hint": "Marcel Proust l'a rendu célèbre en la trempant dans du thé.",
+            "anecdote": "La ville est aussi connue pour la découverte du kaolin, au XVIIIe siècle.",
+            "answers": {
+              "la-madeleine": "La madeleine",
+              "le-financier": "Le financier",
+              "le-canele": "Le canelé",
+              "la-navette": "La navette"
+            }
+          },
+          "creusois": {
+            "prompt": "Quel gâteau aux noisettes est devenu en 1969 la spécialité des pâtissiers de la Creuse ?",
+            "hint": "Sa recette serait inspirée d'un vieux texte trouvé dans un monastère.",
+            "anecdote": "Son nom viendrait du vieux texte, qui le disait cuit dans une tuile creuse.",
+            "answers": {
+              "le-creusois": "Le creusois",
+              "le-gateau-basque": "Le gâteau basque",
+              "le-pastis-landais": "Le pastis landais",
+              "le-broye-du-poitou": "Le broyé du Poitou"
+            }
+          },
+          "vache-limousine": {
+            "prompt": "Quelle race de vache, à la robe froment, voit-on ici ?",
+            "hint": "Elle porte le nom de la région qui l'a vue naître.",
+            "anecdote": "Élevée pour sa viande, elle s'est répandue dans plus de 70 pays.",
+            "answers": {
+              "la-limousine": "La limousine",
+              "la-charolaise": "La charolaise",
+              "la-salers": "La salers",
+              "l-aubrac": "L'aubrac"
+            }
+          },
+          "veau": {
+            "prompt": "Comment est élevé le veau du Limousin, réputé pour sa viande claire ?",
+            "hint": "Il ne quitte pas sa mère pendant plusieurs mois.",
+            "anecdote": "Il tète sa mère deux fois par jour, et sa viande bénéficie d'un label rouge.",
+            "answers": {
+              "sous-la-mere": "Sous la mère",
+              "en-plein-air-sur-les-estives": "En plein air sur les estives",
+              "en-batiment-nourri-au-grain": "En bâtiment, nourri au grain",
+              "au-biberon-de-lait-en-poudre": "Au biberon de lait en poudre"
+            }
+          },
+          "agneau": {
+            "prompt": "Sous quel nom est vendu l'agneau élevé dans ces landes et protégé par une indication géographique ?",
+            "hint": "Il porte le nom de sa région d'élevage.",
+            "anecdote": "Le Limousin est l'une des premières régions françaises pour l'élevage des moutons à viande.",
+            "answers": {
+              "l-agneau-du-limousin": "L'agneau du Limousin",
+              "l-agneau-de-pauillac": "L'agneau de Pauillac",
+              "l-agneau-de-sisteron": "L'agneau de Sisteron",
+              "l-agneau-du-quercy": "L'agneau du Quercy"
+            }
+          },
+          "cul-noir": {
+            "prompt": "Quelle race de porc, à la tête et à la croupe noires, voit-on ici ?",
+            "hint": "Ses taches sombres lui ont donné son nom.",
+            "anecdote": "Cette race rustique a failli disparaître dans les années 1970. Elle est aujourd'hui sauvegardée.",
+            "answers": {
+              "le-cul-noir-limousin": "Le cul noir limousin",
+              "le-porc-basque": "Le porc basque",
+              "le-large-white": "Le large white",
+              "le-porc-de-bayeux": "Le porc de Bayeux"
+            }
+          },
+          "pommes": {
+            "prompt": "Quelle variété de pomme bénéficie de l'appellation d'origine pomme du Limousin ?",
+            "hint": "C'est une pomme jaune, l'une des plus cultivées au monde.",
+            "anecdote": "Elle est cultivée à plus de 300 mètres d'altitude, ce qui lui donne du croquant et de l'acidité.",
+            "answers": {
+              "la-golden": "La golden",
+              "la-granny-smith": "La granny smith",
+              "la-reinette-grise": "La reinette grise",
+              "la-pink-lady": "La pink lady"
+            }
+          },
+          "pommiers": {
+            "prompt": "Quel fruit pousse dans ces vergers protégés par des filets contre la grêle ?",
+            "hint": "Le Limousin en a fait une appellation d'origine.",
+            "anecdote": "Les vergers se concentrent surtout en Corrèze et en Haute-Vienne.",
+            "answers": {
+              "la-pomme": "La pomme",
+              "la-cerise": "La cerise",
+              "la-poire": "La poire",
+              "la-prune": "La prune"
+            }
+          },
+          "chataignes": {
+            "prompt": "Quel fruit d'automne, longtemps essentiel dans les campagnes du Limousin, voit-on ici ?",
+            "hint": "Il tombe d'un grand arbre dans une bogue piquante.",
+            "anecdote": "On le mangeait bouilli, grillé ou en farine. Il est encore servi en garniture et en dessert.",
+            "answers": {
+              "la-chataigne": "La châtaigne",
+              "le-marron-d-inde": "Le marron d'Inde",
+              "la-noisette": "La noisette",
+              "le-gland": "Le gland"
+            }
+          },
+          "arbre-pain": {
+            "prompt": "Quel arbre était surnommé l'arbre à pain dans le Limousin ?",
+            "hint": "Ses fruits nourrissaient les familles pendant l'hiver.",
+            "anecdote": "Son bois servait aussi aux charpentes, aux piquets et à la fabrication des paniers.",
+            "answers": {
+              "le-chataignier": "Le châtaignier",
+              "le-chene": "Le chêne",
+              "le-noyer": "Le noyer",
+              "le-hetre": "Le hêtre"
+            }
+          },
+          "noix": {
+            "prompt": "Quel fruit à coque, cultivé en Corrèze, voit-on ici ?",
+            "hint": "On en tire une huile et une liqueur.",
+            "anecdote": "L'appellation noix du Périgord s'étend aussi sur une partie de la Corrèze.",
+            "answers": {
+              "la-noix": "La noix",
+              "la-noisette": "La noisette",
+              "l-amande": "L'amande",
+              "la-pistache": "La pistache"
+            }
+          },
+          "cepes": {
+            "prompt": "Quel champignon des forêts limousines voit-on ici ?",
+            "hint": "Il a un chapeau brun et un pied épais et clair.",
+            "anecdote": "On le cueille de la fin de l'été à l'automne, sous les chênes et les châtaigniers.",
+            "answers": {
+              "le-cepe": "Le cèpe",
+              "la-girolle": "La girolle",
+              "la-morille": "La morille",
+              "l-amanite-tue-mouches": "L'amanite tue-mouches"
+            }
+          },
+          "truffe": {
+            "prompt": "Quel champignon souterrain, récolté aussi dans le pays de Brive, voit-on ici ?",
+            "hint": "On le cherche en hiver, avec un chien ou un cochon.",
+            "anecdote": "Il pousse au pied des chênes truffiers, sur les sols calcaires du sud de la Corrèze.",
+            "answers": {
+              "la-truffe-noire": "La truffe noire",
+              "la-morille": "La morille",
+              "le-cepe": "Le cèpe",
+              "la-truffe-blanche-d-alba": "La truffe blanche d'Alba"
+            }
+          },
+          "halles": {
+            "prompt": "Quel matériau compose la frise colorée qui décore ces halles centrales de Limoges ?",
+            "hint": "C'est l'emblème de la ville.",
+            "anecdote": "La frise représente des produits vendus au marché : volailles, poissons, fruits et légumes.",
+            "answers": {
+              "la-porcelaine": "La porcelaine",
+              "la-mosaique-de-verre": "La mosaïque de verre",
+              "la-ceramique-emaillee-de-delft": "La céramique émaillée de Delft",
+              "la-fonte-peinte": "La fonte peinte"
+            }
+          },
+          "moutarde": {
+            "prompt": "Avec quel ingrédient est préparée la moutarde violette de Brive ?",
+            "hint": "Il lui donne sa couleur.",
+            "anecdote": "Cette recette ancienne a été relancée par la distillerie Denoix de Brive.",
+            "answers": {
+              "du-mout-de-raisin": "Du moût de raisin",
+              "du-jus-de-cassis": "Du jus de cassis",
+              "du-vin-blanc": "Du vin blanc",
+              "du-vinaigre-de-cidre": "Du vinaigre de cidre"
+            }
+          },
+          "herbe": {
+            "prompt": "Pourquoi le Limousin est-il surtout une terre d'élevage ?",
+            "hint": "Pensez au sol et à la pluie.",
+            "anecdote": "Ses sols granitiques et son climat humide favorisent les prairies plutôt que les grandes cultures.",
+            "answers": {
+              "ses-sols-acides-et-son-climat-humide-favorisent-l-herbe": "Ses sols acides et son climat humide favorisent l'herbe",
+              "son-climat-est-trop-sec-pour-les-cereales": "Son climat est trop sec pour les céréales",
+              "ses-terres-sont-reservees-a-la-foret-par-la-loi": "Ses terres sont réservées à la forêt par la loi",
+              "il-n-a-aucune-riviere-pour-l-irrigation": "Il n'a aucune rivière pour l'irrigation"
+            }
+          },
+          "carte-moutarde": {
+            "prompt": "Touchez le département de la moutarde violette de Brive.",
+            "hint": "C'est le plus au sud des trois départements du Limousin.",
+            "anecdote": "Elle accompagne volontiers le boudin et les viandes froides."
+          },
+          "carte-massepain": {
+            "prompt": "Touchez le département des massepains de Saint-Léonard-de-Noblat.",
+            "hint": "C'est le plus à l'ouest des trois départements du Limousin.",
+            "anecdote": "La ville se trouve sur la Vienne, à l'est de Limoges."
+          },
+          "vin-paille": {
+            "prompt": "Comment est obtenu le vin paille de la Corrèze ?",
+            "hint": "Son nom donne un indice sur la façon de conserver les raisins.",
+            "anecdote": "Les raisins sèchent plusieurs mois avant d'être pressés, ce qui donne un vin doux et concentré.",
+            "answers": {
+              "avec-des-raisins-seches-sur-des-claies": "Avec des raisins séchés sur des claies",
+              "avec-des-raisins-geles-sur-la-vigne": "Avec des raisins gelés sur la vigne",
+              "avec-du-vin-vieilli-dans-la-paille": "Avec du vin vieilli dans la paille",
+              "avec-du-jus-de-raisin-et-de-miel": "Avec du jus de raisin et de miel"
+            }
+          },
+          "carte-vin-paille": {
+            "prompt": "Touchez le département du vin paille.",
+            "hint": "C'est le plus au sud des trois départements du Limousin.",
+            "anecdote": "On le produit surtout autour de Beaulieu-sur-Dordogne et de Meyssac."
+          },
+          "denoix": {
+            "prompt": "Quelle liqueur est la spécialité de la distillerie Denoix, fondée à Brive en 1839 ?",
+            "hint": "Le nom de la maison donne un indice.",
+            "anecdote": "La distillerie, toujours en activité, fabrique aussi la moutarde violette.",
+            "answers": {
+              "la-liqueur-de-noix": "La liqueur de noix",
+              "la-liqueur-de-chataigne": "La liqueur de châtaigne",
+              "la-liqueur-de-cerise": "La liqueur de cerise",
+              "la-liqueur-de-violette": "La liqueur de violette"
+            }
+          },
+          "cidre": {
+            "prompt": "Quelle boisson est tirée des pommes du Limousin ?",
+            "hint": "Elle est pétillante et fermentée.",
+            "anecdote": "Plusieurs producteurs du Limousin en fabriquent, ainsi que du jus de pomme.",
+            "answers": {
+              "le-cidre": "Le cidre",
+              "le-poire": "Le poiré",
+              "le-kir": "Le kir",
+              "la-biere": "La bière"
+            }
+          },
+          "branceilles": {
+            "prompt": "Dans quel village de la Corrèze voit-on ces vignes, au cœur d'une appellation de vin ?",
+            "hint": "Il se trouve dans le sud du département, près de Meyssac.",
+            "anecdote": "Les vins de la Corrèze ont obtenu une appellation d'origine contrôlée en 2017.",
+            "answers": {
+              "branceilles": "Branceilles"
+            }
+          },
+          "evaux": {
+            "prompt": "Quelle station thermale de la Creuse est la seule du Limousin ?",
+            "hint": "Ses eaux chaudes étaient déjà exploitées par les Romains.",
+            "anecdote": "Ses eaux sortent de terre à plus de 50 degrés.",
+            "answers": {
+              "vichy": "Vichy",
+              "la-bourboule": "La Bourboule",
+              "dax": "Dax"
+            }
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Ruelles de Limoges, villages de grès rouge, abbayes romanes et forteresses en ruine : un patrimoine de granit et d'ardoise.",
+          "cathedrale-limoges": {
+            "prompt": "Comment s'appelle cette cathédrale gothique de Limoges ?",
+            "hint": "Elle porte le nom du premier martyr chrétien.",
+            "anecdote": "Commencée en 1273, elle n'a été achevée qu'à la fin du XIXe siècle.",
+            "answers": {
+              "la-cathedrale-saint-etienne": "La cathédrale Saint-Étienne",
+              "la-cathedrale-notre-dame": "La cathédrale Notre-Dame",
+              "la-collegiale-saint-martin": "La collégiale Saint-Martin",
+              "l-abbatiale-saint-pierre": "L'abbatiale Saint-Pierre"
+            }
+          },
+          "pont-saint-martial": {
+            "prompt": "Comment s'appelle ce vieux pont de Limoges, bâti sur la Vienne au XIIIe siècle ?",
+            "hint": "Il porte le nom de l'évangélisateur du Limousin.",
+            "anecdote": "Il aurait été construit à l'emplacement d'un pont de l'époque romaine.",
+            "answers": {
+              "le-pont-saint-martial": "Le pont Saint-Martial",
+              "le-pont-saint-etienne": "Le pont Saint-Étienne",
+              "le-pont-valentre": "Le pont Valentré",
+              "le-pont-neuf": "Le pont Neuf"
+            }
+          },
+          "boucherie": {
+            "prompt": "Comment s'appelle ce quartier de Limoges aux maisons à pans de bois ?",
+            "hint": "Une corporation y tenait boutique depuis le Moyen Âge.",
+            "anecdote": "Les familles de bouchers s'y transmettaient les étals de père en fils. Une maison-musée en présente l'histoire.",
+            "answers": {
+              "le-quartier-de-la-boucherie": "Le quartier de la Boucherie",
+              "le-quartier-des-tanneurs": "Le quartier des Tanneurs",
+              "le-quartier-des-arenes": "Le quartier des Arènes",
+              "le-quartier-du-temple": "Le quartier du Temple"
+            }
+          },
+          "saint-aurelien": {
+            "prompt": "À quelle corporation appartient cette chapelle Saint-Aurélien de Limoges ?",
+            "hint": "Elle se trouve dans la rue où cette corporation tenait ses étals.",
+            "anecdote": "Saint Aurélien, deuxième évêque de Limoges selon la tradition, est le patron de cette confrérie.",
+            "answers": {
+              "les-bouchers": "Les bouchers",
+              "les-porcelainiers": "Les porcelainiers",
+              "les-emailleurs": "Les émailleurs",
+              "les-tanneurs": "Les tanneurs"
+            }
+          },
+          "cour-temple": {
+            "prompt": "Comment s'appelle cette petite cour Renaissance de Limoges, entourée de galeries ?",
+            "hint": "Son nom rappelle un ordre de moines-soldats.",
+            "anecdote": "Elle est bordée de maisons des XVIe et XVIIe siècles, reliées par un escalier de pierre.",
+            "answers": {
+              "la-cour-du-temple": "La cour du Temple",
+              "la-place-de-la-motte": "La place de la Motte",
+              "la-cour-des-templiers": "La cour des Templiers",
+              "la-place-des-bancs": "La place des Bancs"
+            }
+          },
+          "jardins-eveche": {
+            "prompt": "Quels jardins en terrasses dominent la Vienne au pied de la cathédrale de Limoges ?",
+            "hint": "Ils entourent l'ancien palais d'un évêque.",
+            "anecdote": "Le palais abrite le musée des Beaux-Arts, riche d'une grande collection d'émaux.",
+            "answers": {
+              "les-jardins-de-l-eveche": "Les jardins de l'Évêché",
+              "le-jardin-d-orsay": "Le jardin d'Orsay",
+              "le-jardin-des-plantes": "Le jardin des Plantes",
+              "le-parc-victor-thuillat": "Le parc Victor-Thuillat"
+            }
+          },
+          "hotel-ville-limoges": {
+            "prompt": "Dans quelle ville se trouve cet hôtel de ville à beffroi, bâti à la fin du XIXe siècle ?",
+            "hint": "C'est la préfecture de la Haute-Vienne.",
+            "anecdote": "Une fontaine ornée de porcelaine, emblème de la ville, se dresse devant le bâtiment."
+          },
+          "labenche": {
+            "prompt": "Comment s'appelle cet hôtel Renaissance de Brive, orné de bustes sculptés ?",
+            "hint": "Il porte le nom d'une ancienne famille de notables de la ville.",
+            "anecdote": "Il abrite le musée d'art et d'histoire de Brive, connu pour ses tapisseries anglaises de Mortlake.",
+            "answers": {
+              "l-hotel-labenche": "L'hôtel Labenche",
+              "la-maison-de-loyac": "La maison de Loyac",
+              "l-hotel-des-moneyroux": "L'hôtel des Moneyroux",
+              "l-hotel-de-bourbon": "L'hôtel de Bourbon"
+            }
+          },
+          "tulle-cathedrale": {
+            "prompt": "Dans quelle ville se trouve cette cathédrale au haut clocher-porche ?",
+            "hint": "Elle se trouve au fond de la vallée de la Corrèze.",
+            "anecdote": "Son clocher de pierre surmonté d'une flèche s'élève à environ 73 mètres."
+          },
+          "loyac": {
+            "prompt": "Comment s'appelle cette maison Renaissance de Tulle, à tourelle et fenêtres sculptées ?",
+            "hint": "Elle porte le nom d'une famille de la ville.",
+            "anecdote": "Construite au début du XVIe siècle, elle se trouve dans le quartier de l'Enclos, près de la cathédrale.",
+            "answers": {
+              "la-maison-de-loyac": "La maison de Loyac",
+              "l-hotel-labenche": "L'hôtel Labenche",
+              "la-maison-des-consuls": "La maison des Consuls",
+              "la-maison-du-bailli": "La maison du Bailli"
+            }
+          },
+          "aubazine": {
+            "prompt": "Quelle créatrice de mode a passé une partie de son enfance dans cette abbaye corrézienne, devenue orphelinat ?",
+            "hint": "Ses tenues noires et blanches pourraient rappeler les religieuses qui l'ont élevée.",
+            "anecdote": "Cette abbaye cistercienne a été fondée au XIIe siècle par saint Étienne d'Obazine.",
+            "answers": {
+              "coco-chanel": "Coco Chanel",
+              "jeanne-lanvin": "Jeanne Lanvin",
+              "elsa-schiaparelli": "Elsa Schiaparelli",
+              "madeleine-vionnet": "Madeleine Vionnet"
+            }
+          },
+          "meymac": {
+            "prompt": "Dans quelle petite ville de Haute-Corrèze se trouve cette abbatiale de granit ?",
+            "hint": "Elle se trouve au pied du mont Bessou.",
+            "anecdote": "L'ancienne abbaye accueille un centre d'art contemporain."
+          },
+          "pompadour": {
+            "prompt": "Quel château corrézien, offert par Louis XV à sa favorite, abrite aujourd'hui un haras national ?",
+            "hint": "La marquise qui porte son nom n'y serait jamais venue.",
+            "anecdote": "Le haras royal a été créé en 1761. Le château se dresse au bord d'un champ de courses.",
+            "answers": {
+              "le-chateau-de-pompadour": "Le château de Pompadour",
+              "le-chateau-de-sedieres": "Le château de Sédières",
+              "le-chateau-de-ventadour": "Le château de Ventadour",
+              "le-chateau-de-turenne": "Le château de Turenne"
+            }
+          },
+          "ventadour": {
+            "prompt": "Quel château en ruine, en Haute-Corrèze, a vu naître un célèbre troubadour ?",
+            "hint": "Le poète du XIIe siècle porte le même nom que le château.",
+            "anecdote": "Bernard de Ventadour a chanté l'amour courtois en langue d'oc.",
+            "answers": {
+              "le-chateau-de-ventadour": "Le château de Ventadour",
+              "le-chateau-de-chalucet": "Le château de Châlucet",
+              "le-chateau-de-crozant": "Le château de Crozant",
+              "le-chateau-de-merle": "Le château de Merle"
+            }
+          },
+          "sedieres": {
+            "prompt": "Quel château Renaissance de Corrèze, reflété dans un étang, voit-on ici ?",
+            "hint": "Il accueille chaque été des concerts et des expositions.",
+            "anecdote": "Il appartient au département de la Corrèze, qui en a fait un lieu culturel.",
+            "answers": {
+              "le-chateau-de-sedieres": "Le château de Sédières",
+              "le-chateau-de-pompadour": "Le château de Pompadour",
+              "le-chateau-de-rochechouart": "Le château de Rochechouart",
+              "le-chateau-de-montbrun": "Le château de Montbrun"
+            }
+          },
+          "souterraine": {
+            "prompt": "Dans quelle ville creusoise se trouve cette porte fortifiée médiévale ?",
+            "hint": "Le nom de la ville évoque une crypte.",
+            "anecdote": "La porte Saint-Jean, du XIIIe siècle, faisait partie de l'enceinte de la ville."
+          },
+          "zizim": {
+            "prompt": "Quel prince ottoman a donné son nom à cette tour de Bourganeuf, où il fut retenu captif ?",
+            "hint": "Il était le frère du sultan Bajazet II.",
+            "anecdote": "Les chevaliers de Rhodes l'ont gardé en France de 1482 à 1488, avant de le livrer au pape en 1489.",
+            "answers": {
+              "zizim": "Zizim",
+              "soliman": "Soliman",
+              "saladin": "Saladin",
+              "mehmed": "Mehmed"
+            }
+          },
+          "moutier-ahun": {
+            "prompt": "Dans quel village creusois se trouve ce pont médiéval sur la Creuse ?",
+            "hint": "Ce village est connu pour les boiseries de son abbatiale.",
+            "anecdote": "Le pont relie le village à l'ancienne abbaye bénédictine."
+          },
+          "crozant": {
+            "prompt": "Quelle forteresse en ruine domine le confluent de la Creuse et de la Sédelle ?",
+            "hint": "Ce site a attiré de nombreux peintres impressionnistes.",
+            "anecdote": "Le château fut l'un des plus grands du centre de la France au Moyen Âge.",
+            "answers": {
+              "chalucet": "Châlucet",
+              "ventadour": "Ventadour"
+            }
+          },
+          "boussac": {
+            "prompt": "Dans quel château de la Creuse étaient conservées les tapisseries de la Dame à la licorne avant leur départ pour Paris ?",
+            "hint": "Il se dresse au-dessus de la Petite Creuse, au nord-est du département.",
+            "anecdote": "George Sand les y a admirées et décrites, avant leur achat par l'État en 1882.",
+            "answers": {
+              "le-chateau-de-boussac": "Le château de Boussac",
+              "le-chateau-de-crozant": "Le château de Crozant",
+              "le-chateau-de-sedieres": "Le château de Sédières",
+              "le-chateau-de-rochechouart": "Le château de Rochechouart"
+            }
+          },
+          "benevent": {
+            "prompt": "Dans quel bourg creusois, étape vers Saint-Jacques-de-Compostelle, se trouve cette abbatiale ?",
+            "hint": "Son nom évoque une ville d'Italie et un monastère.",
+            "anecdote": "Les reliques de saint Barthélemy, rapportées de Bénévent, en Italie, auraient donné son nom au bourg."
+          },
+          "saint-leonard": {
+            "prompt": "Dans quelle ville se trouve cette collégiale romane, étape sur les chemins de Compostelle ?",
+            "hint": "Cette ville est aussi connue pour ses massepains.",
+            "anecdote": "La collégiale est inscrite au patrimoine mondial depuis 1998, au titre des chemins de Saint-Jacques."
+          },
+          "solignac": {
+            "prompt": "Quelle abbaye de la Haute-Vienne a été fondée en 632 par saint Éloi ?",
+            "hint": "Elle se trouve au sud de Limoges, dans la vallée de la Briance.",
+            "anecdote": "Éloi, orfèvre et conseiller du roi Dagobert, était originaire de la région de Limoges.",
+            "answers": {
+              "l-abbaye-de-solignac": "L'abbaye de Solignac",
+              "l-abbaye-d-aubazine": "L'abbaye d'Aubazine",
+              "l-abbaye-de-meymac": "L'abbaye de Meymac",
+              "l-abbaye-de-moutier-d-ahun": "L'abbaye de Moutier-d'Ahun"
+            }
+          },
+          "dorat": {
+            "prompt": "Dans quelle ville se trouve cette collégiale romane de granit, au nord de la Haute-Vienne ?",
+            "hint": "Son nom évoque l'or.",
+            "anecdote": "Un ange doré couronne son clocher. La ville organise elle aussi des ostensions tous les sept ans."
+          },
+          "chalucet": {
+            "prompt": "Quel château en ruine, au sud de Limoges, voit-on ici ?",
+            "hint": "Ses deux enceintes dominent le confluent de la Briance et de la Ligoure.",
+            "anecdote": "Il fut occupé par des bandes anglaises pendant la guerre de Cent Ans.",
+            "answers": {
+              "le-chateau-de-chalucet": "Le château de Châlucet",
+              "le-chateau-de-ventadour": "Le château de Ventadour",
+              "le-chateau-de-crozant": "Le château de Crozant",
+              "le-chateau-de-chalus-chabrol": "Le château de Châlus-Chabrol"
+            }
+          },
+          "rochechouart": {
+            "prompt": "Quel château de la Haute-Vienne abrite un musée départemental d'art contemporain ?",
+            "hint": "La ville porte le nom d'une grande famille noble, et une météorite y est tombée.",
+            "anecdote": "Le musée y a ouvert en 1985.",
+            "answers": {
+              "le-chateau-de-rochechouart": "Le château de Rochechouart",
+              "le-chateau-de-montbrun": "Le château de Montbrun",
+              "le-chateau-de-coussac-bonneval": "Le château de Coussac-Bonneval",
+              "le-chateau-de-sedieres": "Le château de Sédières"
+            }
+          },
+          "turenne": {
+            "prompt": "Quel village perché de Corrèze, ancienne capitale d'une vicomté, voit-on ici ?",
+            "hint": "Ses vicomtes ont battu monnaie jusqu'au XVIIIe siècle.",
+            "anecdote": "La vicomté est restée presque indépendante jusqu'à sa vente au roi Louis XV, en 1738."
+          },
+          "curemonte": {
+            "prompt": "Quel village de Corrèze, étiré sur une crête avec ses châteaux, voit-on ici ?",
+            "hint": "La romancière Colette y a séjourné en 1940.",
+            "anecdote": "Le village compte trois châteaux et plusieurs maisons nobles."
+          },
+          "segur": {
+            "prompt": "Quel village de Corrèze, au bord de l'Auvézère, voit-on ici ?",
+            "hint": "Il est classé parmi les plus beaux villages de France.",
+            "anecdote": "Ses vicomtes y tenaient une cour d'appel, la cour des Appeaux, pour juger les affaires de leurs terres."
+          },
+          "beaulieu": {
+            "prompt": "Quelle petite ville de Corrèze, au bord de la Dordogne, voit-on ici ?",
+            "hint": "Elle est surnommée la Riviera limousine.",
+            "anecdote": "Son abbatiale Saint-Pierre possède un célèbre tympan roman."
+          },
+          "argentat": {
+            "prompt": "Quelle ville de Corrèze, aux quais de pierre sur la Dordogne, voit-on ici ?",
+            "hint": "Ses quais accueillaient autrefois les bateliers.",
+            "anecdote": "Les gabares y étaient chargées de bois et de merrain, descendus jusqu'à Libourne et Bordeaux."
+          },
+          "gimel": {
+            "prompt": "Quel village de Corrèze, célèbre pour ses chutes d'eau, voit-on ici ?",
+            "hint": "Ses chutes ont attiré les peintres et les voyageurs dès le XIXe siècle.",
+            "anecdote": "Ses trois cascades, sur la Montane, totalisent environ 143 mètres de dénivelé."
+          },
+          "saint-yrieix": {
+            "prompt": "Quelle ville de la Haute-Vienne, dominée par sa collégiale, voit-on ici ?",
+            "hint": "C'est la ville du kaolin et des madeleines.",
+            "anecdote": "Sa collégiale du Moustier est un grand édifice des XIIe et XIIIe siècles."
+          },
+          "eymoutiers": {
+            "prompt": "Quelle petite ville au bord de la Vienne, ville natale du peintre Paul Rebeyrolle, voit-on ici ?",
+            "hint": "Elle se trouve à l'est de la Haute-Vienne, au pied du plateau de Millevaches.",
+            "anecdote": "Un espace consacré à l'œuvre de Rebeyrolle y a ouvert en 1995."
+          },
+          "mortemart": {
+            "prompt": "Quel village de la Haute-Vienne, avec sa halle de bois, voit-on ici ?",
+            "hint": "Il est classé parmi les plus beaux villages de France.",
+            "anecdote": "Il a donné son nom à une grande famille, celle de Madame de Montespan."
+          },
+          "bellac": {
+            "prompt": "Dans quelle ville se trouve cet ancien château devenu mairie ?",
+            "hint": "L'écrivain Jean Giraudoux y est né.",
+            "anecdote": "Le bâtiment domine la vallée du Vincou, au nord de la Haute-Vienne."
+          },
+          "masgot": {
+            "prompt": "Quel hameau creusois est orné de sculptures de granit laissées par un tailleur de pierre ?",
+            "hint": "Il se trouve près de Fransèches, au centre de la Creuse.",
+            "anecdote": "François Michaud y a sculpté au XIXe siècle des personnages et des animaux dans les murs des maisons.",
+            "answers": {
+              "le-masgot": "Le Masgot"
+            }
+          },
+          "carte-treignac": {
+            "prompt": "Touchez le département de Treignac, petite ville perchée sur la Vézère.",
+            "hint": "C'est le plus au sud des trois départements du Limousin.",
+            "anecdote": "La ville se trouve au pied du massif des Monédières."
+          },
+          "carte-felletin": {
+            "prompt": "Touchez le département de Felletin, ville de la tapisserie et de la lanterne des morts.",
+            "hint": "C'est le plus à l'est des trois départements du Limousin.",
+            "anecdote": "Cette petite ville se trouve au sud d'Aubusson, sur la Creuse."
+          },
+          "carte-chalus": {
+            "prompt": "Touchez le département de Châlus, où Richard Cœur de Lion fut blessé à mort.",
+            "hint": "C'est le plus à l'ouest des trois départements du Limousin.",
+            "anecdote": "Le roi d'Angleterre y fut atteint par un carreau d'arbalète en 1199."
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Porcelaine, émaux, tapisseries et accordéons, fêtes des reliques et maçons migrants : les métiers et les visages du Limousin.",
+          "porcelaine-matiere": {
+            "prompt": "Quelle matière, produite à Limoges depuis le XVIIIe siècle, compose ce service à chocolat ?",
+            "hint": "Elle est blanche, fine et translucide.",
+            "anecdote": "Sa pâte, à base de kaolin, de feldspath et de quartz, est cuite à environ 1 400 degrés.",
+            "answers": {
+              "la-porcelaine": "La porcelaine",
+              "la-faience": "La faïence",
+              "le-gres": "Le grès",
+              "le-verre-opalin": "Le verre opalin"
+            }
+          },
+          "four-casseaux": {
+            "prompt": "Comment s'appelle ce grand four à porcelaine de Limoges, au bord de la Vienne ?",
+            "hint": "Il porte le nom du quartier où il se trouve.",
+            "anecdote": "Construit au tout début du XXe siècle, c'est le dernier grand four rond à flamme renversée de France. Il est classé monument historique depuis 1987.",
+            "answers": {
+              "le-four-des-casseaux": "Le four des Casseaux",
+              "le-four-des-benedictins": "Le four des Bénédictins",
+              "le-four-de-la-boucherie": "Le four de la Boucherie",
+              "le-four-saint-martial": "Le four Saint-Martial"
+            }
+          },
+          "gazettes": {
+            "prompt": "Comment s'appellent ces étuis en terre réfractaire qui protégeaient la porcelaine pendant la cuisson ?",
+            "hint": "Leur nom est aussi celui d'un ancien journal.",
+            "anecdote": "Empilés dans le four, ils protégeaient les pièces des flammes et des cendres.",
+            "answers": {
+              "les-gazettes": "Les gazettes",
+              "les-godets": "Les godets",
+              "les-jarres": "Les jarres",
+              "les-creusets": "Les creusets"
+            }
+          },
+          "email": {
+            "prompt": "Quelle technique décorative, spécialité de Limoges depuis le Moyen Âge, orne ce coffret ?",
+            "hint": "C'est une poudre de verre colorée, fondue sur du métal.",
+            "anecdote": "Les ateliers de Limoges en ont exporté dans toute l'Europe dès le XIIe siècle.",
+            "answers": {
+              "l-email": "L'émail",
+              "la-marqueterie": "La marqueterie",
+              "la-dorure-a-la-feuille": "La dorure à la feuille",
+              "la-mosaique": "La mosaïque"
+            }
+          },
+          "oeuvre": {
+            "prompt": "Comment appelait-on au Moyen Âge les émaux champlevés de Limoges, comme ceux de cette châsse ?",
+            "hint": "Le nom latin était opus lemovicense.",
+            "anecdote": "Châsses, croix et crosses étaient vendues jusqu'en Scandinavie et en Espagne.",
+            "answers": {
+              "l-oeuvre-de-limoges": "L'Œuvre de Limoges",
+              "le-bleu-de-limoges": "Le Bleu de Limoges",
+              "l-art-limousin": "L'Art limousin",
+              "la-maniere-de-limoges": "La Manière de Limoges"
+            }
+          },
+          "tapisserie": {
+            "prompt": "Comment s'appelle l'artisan qui tisse les tapisseries d'Aubusson ?",
+            "hint": "Son nom vient des fils qui guident la chaîne du métier.",
+            "anecdote": "À Aubusson, on tisse en basse lisse, sur un métier horizontal, d'après un modèle peint appelé carton.",
+            "answers": {
+              "le-lissier": "Le lissier",
+              "le-canut": "Le canut",
+              "le-cardeur": "Le cardeur",
+              "le-drapier": "Le drapier"
+            }
+          },
+          "verdure": {
+            "prompt": "Comment appelle-t-on ces tapisseries couvertes de feuillages, spécialité d'Aubusson et de Felletin ?",
+            "hint": "Leur nom évoque la couleur dominante.",
+            "anecdote": "Des animaux, des oiseaux et parfois des châteaux se cachent dans le feuillage.",
+            "answers": {
+              "les-verdures": "Les verdures",
+              "les-mille-fleurs": "Les mille-fleurs",
+              "les-grotesques": "Les grotesques",
+              "les-arabesques": "Les arabesques"
+            }
+          },
+          "maugein": {
+            "prompt": "Dans quelle ville de Corrèze sont fabriqués depuis 1919 ces accordéons Maugein ?",
+            "hint": "C'est la préfecture du département.",
+            "anecdote": "La manufacture, l'une des dernières de France, fabrique encore ses instruments à la main."
+          },
+          "kaolin": {
+            "prompt": "À quoi servait, selon la tradition, la terre blanche de Saint-Yrieix avant qu'on y reconnaisse du kaolin ?",
+            "hint": "Pensez à une tâche ménagère.",
+            "anecdote": "L'épouse d'un chirurgien de la ville l'aurait utilisée vers 1768, avant que son mari ne la fasse analyser.",
+            "answers": {
+              "a-laver-le-linge": "À laver le linge",
+              "a-blanchir-les-murs": "À blanchir les murs",
+              "a-soigner-les-plaies": "À soigner les plaies",
+              "a-nourrir-les-poules": "À nourrir les poules"
+            }
+          },
+          "carte-ganterie": {
+            "prompt": "Touchez le département de Saint-Junien, capitale du gant de peau.",
+            "hint": "C'est le plus à l'ouest des trois départements du Limousin.",
+            "anecdote": "La ganterie s'y est développée grâce aux peaux d'agneau et aux eaux de la Vienne et de la Glane."
+          },
+          "ostensions": {
+            "prompt": "Quelle fête religieuse, organisée tous les sept ans en Limousin, présente les reliques des saints ?",
+            "hint": "Son nom vient d'un mot latin qui signifie montrer.",
+            "anecdote": "Processions, costumes et reliquaires animent alors une vingtaine de villes du Limousin.",
+            "answers": {
+              "les-ostensions": "Les ostensions",
+              "les-pardons": "Les pardons",
+              "les-rogations": "Les rogations",
+              "la-procession-de-la-sanch": "La procession de la Sanch"
+            }
+          },
+          "os-unesco": {
+            "prompt": "Sur quelle liste de l'UNESCO les ostensions limousines sont-elles inscrites depuis 2013 ?",
+            "hint": "Elle protège les fêtes, les savoirs et les pratiques vivantes.",
+            "anecdote": "La tapisserie d'Aubusson figure sur la même liste depuis 2009.",
+            "answers": {
+              "le-patrimoine-culturel-immateriel": "Le patrimoine culturel immatériel",
+              "le-patrimoine-mondial": "Le patrimoine mondial",
+              "la-memoire-du-monde": "La Mémoire du monde",
+              "les-reserves-de-biosphere": "Les réserves de biosphère"
+            }
+          },
+          "saint-martial": {
+            "prompt": "Quel saint, premier évêque de Limoges, est honoré lors des ostensions de la ville ?",
+            "hint": "Un pont et une ancienne abbaye de Limoges portent son nom.",
+            "anecdote": "Selon la tradition, il serait venu évangéliser le Limousin au IIIe siècle.",
+            "answers": {
+              "saint-martial": "Saint Martial",
+              "saint-martin": "Saint Martin",
+              "saint-eloi": "Saint Éloi",
+              "saint-leonard": "Saint Léonard"
+            }
+          },
+          "cabrette": {
+            "prompt": "Quel instrument à vent à poche de cuir, joué en Auvergne et dans le sud de la Corrèze, voit-on ici ?",
+            "hint": "Son nom évoque une petite chèvre, dont la peau servait à faire la poche.",
+            "anecdote": "Le musicien gonfle la poche avec un soufflet serré sous le bras.",
+            "answers": {
+              "la-cabrette": "La cabrette",
+              "la-vielle-a-roue": "La vielle à roue",
+              "le-hautbois": "Le hautbois",
+              "la-cornemuse-ecossaise": "La cornemuse écossaise"
+            }
+          },
+          "bourree": {
+            "prompt": "Quelle danse traditionnelle, à deux ou à trois temps, se danse au son de la cabrette et de la vielle ?",
+            "hint": "On la danse en couple ou en ligne, en frappant le sol.",
+            "anecdote": "Elle est répandue dans tout le Massif central, du Limousin à l'Auvergne.",
+            "answers": {
+              "la-bourree": "La bourrée",
+              "la-farandole": "La farandole",
+              "le-fandango": "Le fandango",
+              "la-gavotte": "La gavotte"
+            }
+          },
+          "felletin": {
+            "prompt": "Comment appelle-t-on cette haute colonne creuse dressée dans le cimetière de Felletin ?",
+            "hint": "On y allumait un feu à la nuit tombée.",
+            "anecdote": "Le Limousin en conserve plusieurs. Leur fonction exacte reste discutée, peut-être guider les âmes des défunts.",
+            "answers": {
+              "une-lanterne-des-morts": "Une lanterne des morts",
+              "un-pilori": "Un pilori",
+              "une-croix-hosanniere": "Une croix hosannière",
+              "un-clocher-mur": "Un clocher-mur"
+            }
+          },
+          "foire-livre": {
+            "prompt": "Quel grand rendez-vous littéraire se tient chaque automne à Brive-la-Gaillarde ?",
+            "hint": "Il réunit des centaines d'auteurs sous une grande halle.",
+            "anecdote": "Organisée chaque année depuis les années 1970, c'est l'un des principaux salons du livre en France.",
+            "answers": {
+              "la-foire-du-livre": "La Foire du livre",
+              "le-festival-de-la-bande-dessinee": "Le Festival de la bande dessinée",
+              "le-salon-du-livre-de-paris": "Le Salon du livre de Paris",
+              "les-rendez-vous-de-l-histoire": "Les Rendez-vous de l'histoire"
+            }
+          },
+          "carte-foire-livre": {
+            "prompt": "Touchez le département de la Foire du livre de Brive.",
+            "hint": "C'est le plus au sud des trois départements du Limousin.",
+            "anecdote": "Elle se tient chaque année en novembre, à la halle Georges-Brassens."
+          },
+          "hippodrome": {
+            "prompt": "Quelle race de chevaux le haras de Pompadour a-t-il contribué à développer ?",
+            "hint": "Elle croise deux races de chevaux de course.",
+            "anecdote": "Pompadour, surnommée la cité du cheval, organise des courses et des concours d'équitation.",
+            "answers": {
+              "l-anglo-arabe": "L'anglo-arabe",
+              "le-percheron": "Le percheron",
+              "le-camargue": "Le camargue",
+              "le-frison": "Le frison"
+            }
+          },
+          "macons": {
+            "prompt": "Comment appelait-on les ouvriers qui partaient chaque printemps de la Creuse vers les chantiers de Paris et de Lyon ?",
+            "hint": "Ils revenaient au pays à l'automne, après la saison des travaux.",
+            "anecdote": "Ils ont participé aux grands travaux du baron Haussmann, au XIXe siècle.",
+            "answers": {
+              "les-macons-de-la-creuse": "Les maçons de la Creuse",
+              "les-ramoneurs-savoyards": "Les ramoneurs savoyards",
+              "les-bougnats": "Les bougnats",
+              "les-compagnons-du-devoir": "Les compagnons du devoir"
+            }
+          },
+          "carte-macons": {
+            "prompt": "Touchez le département d'où partaient les maçons migrants de Martin Nadaud.",
+            "hint": "C'est le plus à l'est des trois départements du Limousin.",
+            "anecdote": "Au XIXe siècle, des dizaines de milliers d'hommes quittaient chaque année leurs villages pour les chantiers des villes."
+          },
+          "occitan": {
+            "prompt": "Comment s'appelle le dialecte occitan parlé de Limoges à Tulle ?",
+            "hint": "Il porte le nom de la région.",
+            "anecdote": "Des panneaux bilingues donnent le nom occitan de nombreuses communes, comme Chasluç pour Châlus.",
+            "answers": {
+              "le-limousin": "Le limousin",
+              "le-gascon": "Le gascon",
+              "le-provencal": "Le provençal",
+              "le-languedocien": "Le languedocien"
+            }
+          },
+          "feuillardier": {
+            "prompt": "Que fabriquait le feuillardier dans les taillis de châtaigniers du Limousin ?",
+            "hint": "Il fendait de longues lames de bois souple.",
+            "anecdote": "Il vivait souvent dans une cabane de branches, au milieu de la coupe.",
+            "answers": {
+              "des-cercles-de-tonneaux": "Des cercles de tonneaux",
+              "des-sabots": "Des sabots",
+              "des-paniers": "Des paniers",
+              "des-tuiles-de-bois": "Des tuiles de bois"
+            }
+          },
+          "gabare": {
+            "prompt": "Comment s'appelle le bateau à fond plat qui descendait la Dordogne depuis Argentat ?",
+            "hint": "On en voit encore promener les touristes sur la rivière.",
+            "anecdote": "Ces bateaux étaient souvent démontés à l'arrivée et leur bois revendu.",
+            "answers": {
+              "la-gabare": "La gabare",
+              "la-pinasse": "La pinasse",
+              "la-felouque": "La felouque",
+              "le-sampan": "Le sampan"
+            }
+          },
+          "travassac": {
+            "prompt": "Quel matériau était extrait des pans de Travassac, près de Donzenac ?",
+            "hint": "Il servait à couvrir les toits du pays.",
+            "anecdote": "Les ardoisiers ont laissé de hautes lames de schiste verticales, aujourd'hui ouvertes à la visite.",
+            "answers": {
+              "l-ardoise": "L'ardoise",
+              "le-granit": "Le granit",
+              "le-kaolin": "Le kaolin",
+              "le-marbre": "Le marbre"
+            }
+          },
+          "tour-limousin": {
+            "prompt": "Quelle course cycliste par étapes parcourt chaque mois d'août les routes de la région ?",
+            "hint": "Elle porte le nom de la région.",
+            "anecdote": "Elle est disputée depuis 1968 et attire des équipes professionnelles.",
+            "answers": {
+              "le-tour-du-limousin": "Le Tour du Limousin",
+              "le-criterium-du-dauphine": "Le Critérium du Dauphiné",
+              "paris-nice": "Paris-Nice",
+              "les-quatre-jours-de-dunkerque": "Les Quatre Jours de Dunkerque"
+            }
+          },
+          "csp": {
+            "prompt": "Quel club de basket a remporté la Coupe d'Europe des clubs champions en 1993 ?",
+            "hint": "Il joue dans la salle de Beaublanc.",
+            "anecdote": "C'est le premier club français sacré champion d'Europe dans un sport collectif.",
+            "answers": {
+              "le-csp-limoges": "Le CSP Limoges",
+              "l-asvel": "L'ASVEL",
+              "l-elan-bearnais-pau-orthez": "L'Élan béarnais Pau-Orthez",
+              "le-mans-sarthe-basket": "Le Mans Sarthe Basket"
+            }
+          },
+          "renoir": {
+            "prompt": "Quel peintre impressionniste, né à Limoges en 1841, voit-on ici ?",
+            "hint": "Il a peint le Bal du moulin de la Galette.",
+            "anecdote": "Il a commencé sa carrière à Paris comme apprenti peintre sur porcelaine.",
+            "answers": {
+              "auguste-renoir": "Auguste Renoir",
+              "claude-monet": "Claude Monet",
+              "edouard-manet": "Édouard Manet",
+              "edgar-degas": "Edgar Degas"
+            }
+          },
+          "gay-lussac": {
+            "prompt": "Quel chimiste et physicien, né à Saint-Léonard-de-Noblat, voit-on ici ?",
+            "hint": "Une loi sur les gaz porte son nom.",
+            "anecdote": "En 1804, il est monté en ballon à plus de 7 000 mètres pour étudier l'atmosphère.",
+            "answers": {
+              "joseph-louis-gay-lussac": "Joseph Louis Gay-Lussac",
+              "antoine-lavoisier": "Antoine Lavoisier",
+              "andre-marie-ampere": "André-Marie Ampère",
+              "louis-pasteur": "Louis Pasteur"
+            }
+          },
+          "chirac": {
+            "prompt": "Quel président de la République fut longtemps député de la Corrèze ?",
+            "hint": "Il a présidé la République de 1995 à 2007.",
+            "anecdote": "Un musée consacré aux cadeaux reçus pendant sa présidence a ouvert à Sarran, en Corrèze.",
+            "answers": {
+              "jacques-chirac": "Jacques Chirac",
+              "francois-mitterrand": "François Mitterrand",
+              "georges-pompidou": "Georges Pompidou",
+              "valery-giscard-d-estaing": "Valéry Giscard d'Estaing"
+            }
+          },
+          "hollande": {
+            "prompt": "Quel président de la République fut maire de Tulle de 2001 à 2008 ?",
+            "hint": "Il a présidé la République de 2012 à 2017.",
+            "anecdote": "Il a aussi présidé le conseil général de la Corrèze, de 2008 à 2012.",
+            "answers": {
+              "francois-hollande": "François Hollande",
+              "nicolas-sarkozy": "Nicolas Sarkozy",
+              "francois-mitterrand": "François Mitterrand",
+              "valery-giscard-d-estaing": "Valéry Giscard d'Estaing"
+            }
+          },
+          "queuille": {
+            "prompt": "Quel homme politique né à Neuvic, en Corrèze, fut plusieurs fois président du Conseil sous la IVe République ?",
+            "hint": "Médecin de campagne, il fut aussi de nombreuses fois ministre de l'Agriculture.",
+            "anecdote": "On lui prête la formule selon laquelle il n'est aucun problème qu'une absence de solution ne finisse par résoudre.",
+            "answers": {
+              "henri-queuille": "Henri Queuille",
+              "pierre-mendes-france": "Pierre Mendès France",
+              "robert-schuman": "Robert Schuman",
+              "georges-bidault": "Georges Bidault"
+            }
+          },
+          "turgot": {
+            "prompt": "Quel économiste fut intendant de Limoges de 1761 à 1774, avant de devenir ministre de Louis XVI ?",
+            "hint": "Il a fait construire des routes et encouragé la culture de la pomme de terre en Limousin.",
+            "anecdote": "Devenu contrôleur général des finances, il a tenté de libérer le commerce des grains.",
+            "answers": {
+              "turgot": "Turgot",
+              "necker": "Necker",
+              "colbert": "Colbert",
+              "calonne": "Calonne"
+            }
+          },
+          "clement-vi": {
+            "prompt": "Quel pape d'Avignon, né en Corrèze, voit-on sur cette fresque ?",
+            "hint": "Il a régné de 1342 à 1352.",
+            "anecdote": "Né Pierre Roger, près de Rosiers-d'Égletons, il a fait agrandir le palais des Papes.",
+            "answers": {
+              "clement-vi": "Clément VI",
+              "jean-xxii": "Jean XXII",
+              "benoit-xii": "Benoît XII",
+              "urbain-v": "Urbain V"
+            }
+          },
+          "gregoire-xi": {
+            "prompt": "Quel pape limousin, neveu de Clément VI, a ramené la papauté d'Avignon à Rome en 1377 ?",
+            "hint": "Il est né lui aussi près de Rosiers-d'Égletons.",
+            "anecdote": "Il fut le dernier pape français. Sainte Catherine de Sienne l'avait pressé de rentrer à Rome.",
+            "answers": {
+              "gregoire-xi": "Grégoire XI",
+              "jean-xxii": "Jean XXII",
+              "benoit-xii": "Benoît XII",
+              "clement-v": "Clément V"
+            }
+          },
+          "leroux": {
+            "prompt": "Quel philosophe, à qui l'on attribue la diffusion du mot socialisme, installa une imprimerie à Boussac ?",
+            "hint": "Il était l'ami de George Sand.",
+            "anecdote": "Il y installa en 1843 une imprimerie, autour de laquelle vécut une communauté d'ouvriers imprimeurs.",
+            "answers": {
+              "pierre-leroux": "Pierre Leroux",
+              "pierre-joseph-proudhon": "Pierre-Joseph Proudhon",
+              "charles-fourier": "Charles Fourier",
+              "saint-simon": "Saint-Simon"
+            }
+          },
+          "poulidor": {
+            "prompt": "Quel coureur cycliste né dans la Creuse, surnommé l'éternel second, voit-on ici ?",
+            "hint": "Il a terminé trois fois deuxième du Tour de France, sans jamais porter le maillot jaune.",
+            "anecdote": "Né en 1936 à Masbaraud-Mérignat, il a longtemps vécu à Saint-Léonard-de-Noblat.",
+            "answers": {
+              "raymond-poulidor": "Raymond Poulidor",
+              "jacques-anquetil": "Jacques Anquetil",
+              "louison-bobet": "Louison Bobet",
+              "bernard-hinault": "Bernard Hinault"
+            }
+          },
+          "dubois": {
+            "prompt": "Quel cardinal, né à Brive en 1656, fut le principal ministre du Régent ?",
+            "hint": "Fils d'apothicaire, il fut le précepteur de Philippe d'Orléans.",
+            "anecdote": "Il négocia la Triple-Alliance de 1717 avec l'Angleterre et les Provinces-Unies.",
+            "answers": {
+              "le-cardinal-dubois": "Le cardinal Dubois",
+              "le-cardinal-de-fleury": "Le cardinal de Fleury",
+              "le-cardinal-mazarin": "Le cardinal Mazarin",
+              "le-cardinal-de-richelieu": "Le cardinal de Richelieu"
+            }
+          },
+          "nadaud": {
+            "prompt": "Quel maçon creusois devenu député a laissé la formule : quand le bâtiment va, tout va ?",
+            "hint": "Il est parti travailler à Paris à 14 ans, comme ses voisins de la Creuse.",
+            "anecdote": "Ses Mémoires de Léonard, ancien garçon maçon racontent la vie des maçons migrants.",
+            "answers": {
+              "martin-nadaud": "Martin Nadaud",
+              "pierre-leroux": "Pierre Leroux",
+              "jean-jaures": "Jean Jaurès",
+              "jules-ferry": "Jules Ferry"
+            }
+          },
+          "vergniaud": {
+            "prompt": "Quel grand orateur des Girondins, sous la Révolution, était né à Limoges ?",
+            "hint": "Il présida la Convention en 1793.",
+            "anecdote": "Arrêté avec les Girondins, il fut guillotiné en octobre 1793.",
+            "answers": {
+              "pierre-vergniaud": "Pierre Vergniaud",
+              "danton": "Danton",
+              "robespierre": "Robespierre",
+              "brissot": "Brissot"
+            }
+          }
+        },
+        "grand-voyage": {
+          "name": "Le grand voyage",
+          "description": "Sommets de la Montagne limousine, gorges, tourbières et lieux de mémoire : le grand tour du Limousin.",
+          "mont-bessou": {
+            "prompt": "Quel sommet de près de 1 000 mètres, voisin de Meymac, est le point culminant du Limousin ?",
+            "hint": "Une tour d'observation permet d'y gagner encore quelques mètres.",
+            "anecdote": "Il se trouve sur le plateau de Millevaches, en Corrèze.",
+            "answers": {
+              "le-mont-bessou": "Le mont Bessou",
+              "le-suc-au-may": "Le Suc au May",
+              "le-puy-de-sancy": "Le puy de Sancy",
+              "le-mont-gargan": "Le mont Gargan"
+            }
+          },
+          "suc-au-may": {
+            "prompt": "Dans quel massif corrézien se dresse le Suc au May, d'où l'on voit ce paysage ?",
+            "hint": "Ses landes de bruyères fleurissent à la fin de l'été.",
+            "anecdote": "Par temps clair, sa table d'orientation montre les monts d'Auvergne.",
+            "answers": {
+              "les-monedieres": "Les Monédières",
+              "les-monts-d-ambazac": "Les monts d'Ambazac",
+              "les-monts-de-blond": "Les monts de Blond",
+              "les-monts-du-cantal": "Les monts du Cantal"
+            }
+          },
+          "gorges-dordogne": {
+            "prompt": "Quels ouvrages ont transformé la Dordogne dans ces gorges, au XXe siècle ?",
+            "hint": "Ils retiennent l'eau pour produire de l'électricité.",
+            "anecdote": "Bort-les-Orgues, Marèges, l'Aigle et le Chastang se succèdent sur la rivière.",
+            "answers": {
+              "des-barrages-hydroelectriques": "Des barrages hydroélectriques",
+              "des-ecluses-de-navigation": "Des écluses de navigation",
+              "des-ponts-suspendus": "Des ponts suspendus",
+              "des-moulins-a-papier": "Des moulins à papier"
+            }
+          },
+          "aigle": {
+            "prompt": "Quel surnom a reçu le barrage de l'Aigle, construit pendant l'Occupation ?",
+            "hint": "Des maquisards se cachaient parmi les ouvriers du chantier.",
+            "anecdote": "Les travaux, menés de 1941 à 1945, ont été volontairement ralentis pour que l'ouvrage ne serve pas l'occupant.",
+            "answers": {
+              "le-barrage-de-la-resistance": "Le barrage de la Résistance",
+              "le-barrage-de-la-liberte": "Le barrage de la Liberté",
+              "le-barrage-du-maquis": "Le barrage du Maquis",
+              "le-barrage-de-la-victoire": "Le barrage de la Victoire"
+            }
+          },
+          "rochers-noirs": {
+            "prompt": "Quelle ligne de chemin de fer franchissait la Luzège sur ce viaduc suspendu ?",
+            "hint": "Elle reliait Tulle à Ussel à travers la Corrèze.",
+            "anecdote": "Ce viaduc des Rochers Noirs, inauguré en 1913, est l'un des rares ponts suspendus ferroviaires de France.",
+            "answers": {
+              "le-transcorrezien": "Le Transcorrézien",
+              "le-paris-orleans": "Le Paris-Orléans",
+              "le-train-jaune": "Le train jaune",
+              "le-limoges-benedictins": "Le Limoges-Bénédictins"
+            }
+          },
+          "longeroux": {
+            "prompt": "Quelle rivière prend sa source dans la tourbière du Longeroux, sur le plateau de Millevaches ?",
+            "hint": "Elle traverse ensuite Treignac et Uzerche.",
+            "anecdote": "Les tourbières du plateau retiennent l'eau comme des éponges et alimentent de nombreuses rivières.",
+            "answers": {
+              "la-vezere": "La Vézère",
+              "la-vienne": "La Vienne",
+              "la-creuse": "La Creuse",
+              "la-correze": "La Corrèze"
+            }
+          },
+          "saut-virole": {
+            "prompt": "De quelle roche sont faits les blocs du saut de la Virole ?",
+            "hint": "C'est la roche la plus répandue en Limousin.",
+            "anecdote": "Sur le plateau, les rivières se fraient un chemin entre de gros blocs arrondis par l'érosion.",
+            "answers": {
+              "le-granit": "Le granit",
+              "le-calcaire": "Le calcaire",
+              "le-basalte": "Le basalte",
+              "le-gres-rouge": "Le grès rouge"
+            }
+          },
+          "murel": {
+            "prompt": "Dans quel département tombent les cascades de Murel ?",
+            "hint": "Elles se trouvent près d'Argentat-sur-Dordogne.",
+            "anecdote": "Le sentier qui les longe passe entre des parois couvertes de mousse et de fougères.",
+            "answers": {
+              "la-correze": "La Corrèze",
+              "la-creuse": "La Creuse",
+              "la-haute-vienne": "La Haute-Vienne",
+              "la-dordogne": "La Dordogne"
+            }
+          },
+          "lac-causse": {
+            "prompt": "Près de quelle ville se trouve le lac du Causse ?",
+            "hint": "C'est la plus grande ville de Corrèze.",
+            "anecdote": "Ce plan d'eau aménagé accueille baignade, voile et aviron."
+          },
+          "vezere": {
+            "prompt": "Dans quelle rivière se jette la Vézère, qui coule ici à Uzerche ?",
+            "hint": "Elle la rejoint à Limeuil, en Périgord.",
+            "anecdote": "En aval, la vallée de la Vézère abrite la grotte de Lascaux.",
+            "answers": {
+              "la-dordogne": "La Dordogne",
+              "la-vienne": "La Vienne",
+              "la-garonne": "La Garonne",
+              "le-lot": "Le Lot"
+            }
+          },
+          "busseau": {
+            "prompt": "Quelle rivière franchit le viaduc métallique de Busseau ?",
+            "hint": "Elle a donné son nom au département.",
+            "anecdote": "Mis en service dans les années 1860, il porte la ligne de Montluçon à Saint-Sulpice-Laurière, vers Limoges.",
+            "answers": {
+              "la-creuse": "La Creuse",
+              "la-vienne": "La Vienne",
+              "la-gartempe": "La Gartempe",
+              "la-tardes": "La Tardes"
+            }
+          },
+          "jaumatres": {
+            "prompt": "Près de quelle ville creusoise se dressent les Pierres Jaumâtres ?",
+            "hint": "Un château de cette ville a abrité la Dame à la licorne.",
+            "anecdote": "George Sand a décrit ces blocs de granit dans son roman Jeanne."
+          },
+          "carte-jaumatres": {
+            "prompt": "Touchez le département des Pierres Jaumâtres.",
+            "hint": "C'est le plus à l'est des trois départements du Limousin.",
+            "anecdote": "Ces chaos de granit couronnent le mont Barlot, à Toulx-Sainte-Croix."
+          },
+          "etang-landes": {
+            "prompt": "Pourquoi l'étang des Landes, en Creuse, est-il protégé ?",
+            "hint": "On y vient avec des jumelles.",
+            "anecdote": "Classé réserve naturelle nationale, il accueille des centaines d'espèces, dont des oiseaux migrateurs.",
+            "answers": {
+              "pour-ses-oiseaux": "Pour ses oiseaux",
+              "pour-ses-saumons": "Pour ses saumons",
+              "pour-ses-castors": "Pour ses castors",
+              "pour-ses-ruines-romaines": "Pour ses ruines romaines"
+            }
+          },
+          "ambazac": {
+            "prompt": "Quel minerai a été extrait autour des monts d'Ambazac au XXe siècle ?",
+            "hint": "Il servait de combustible aux centrales nucléaires.",
+            "anecdote": "Bessines-sur-Gartempe était le centre de ces exploitations. La dernière mine du Limousin a fermé en 2001.",
+            "answers": {
+              "l-uranium": "L'uranium",
+              "le-charbon": "Le charbon",
+              "le-fer": "Le fer",
+              "l-or": "L'or"
+            }
+          },
+          "dauges": {
+            "prompt": "Quelle petite plante carnivore pousse dans la tourbière des Dauges ?",
+            "hint": "Ses feuilles collantes piègent les insectes.",
+            "anecdote": "La tourbière, dans les monts d'Ambazac, est une réserve naturelle nationale.",
+            "answers": {
+              "le-drosera": "Le droséra",
+              "la-dionee": "La dionée",
+              "la-sarracenie": "La sarracénie",
+              "le-nepenthes": "Le népenthès"
+            }
+          },
+          "vassiviere-rossi": {
+            "prompt": "Quel architecte italien a dessiné ce phare de l'île de Vassivière ?",
+            "hint": "Il a aussi conçu le centre d'art qui l'entoure.",
+            "anecdote": "Le Centre international d'art et du paysage a ouvert en 1991 sur l'île.",
+            "answers": {
+              "aldo-rossi": "Aldo Rossi",
+              "renzo-piano": "Renzo Piano",
+              "gio-ponti": "Gio Ponti",
+              "carlo-scarpa": "Carlo Scarpa"
+            }
+          },
+          "bruyeres": {
+            "prompt": "Comment appelle-t-on ces terres pauvres, couvertes de bruyères et de genêts, de la Montagne limousine ?",
+            "hint": "Elles étaient autrefois pâturées par les moutons.",
+            "anecdote": "Abandonnées, elles se boisent peu à peu. Des troupeaux les entretiennent aujourd'hui.",
+            "answers": {
+              "les-landes": "Les landes",
+              "les-garrigues": "Les garrigues",
+              "les-causses": "Les causses",
+              "les-marais": "Les marais"
+            }
+          },
+          "loutre": {
+            "prompt": "Quel mammifère des rivières, revenu en nombre en Limousin, voit-on ici ?",
+            "hint": "Il pêche les poissons en plongeant.",
+            "anecdote": "Les eaux claires de la Montagne limousine lui ont servi de refuge quand il disparaissait ailleurs.",
+            "answers": {
+              "la-loutre-d-europe": "La loutre d'Europe",
+              "le-castor": "Le castor",
+              "le-vison": "Le vison",
+              "le-ragondin": "Le ragondin"
+            }
+          },
+          "site-corot": {
+            "prompt": "Quel peintre de paysages venait peindre ces bords de la Glane, près de Saint-Junien ?",
+            "hint": "Il a peint de nombreux paysages de forêts et d'étangs, dont Souvenir de Mortefontaine.",
+            "anecdote": "Le site porte aujourd'hui son nom. La Glane y coule entre des blocs de granit, sous les chênes.",
+            "answers": {
+              "camille-corot": "Camille Corot",
+              "gustave-courbet": "Gustave Courbet",
+              "jean-francois-millet": "Jean-François Millet",
+              "theodore-rousseau": "Théodore Rousseau"
+            }
+          },
+          "oradour": {
+            "prompt": "Quel village, détruit le 10 juin 1944, a été conservé en ruines ?",
+            "hint": "Il se trouve au bord de la Glane, en Haute-Vienne.",
+            "anecdote": "Un nouveau bourg a été reconstruit à côté des ruines.",
+            "answers": {
+              "maille": "Maillé",
+              "ascq": "Ascq"
+            }
+          },
+          "oradour-victimes": {
+            "prompt": "Combien d'habitants et de passants ont été tués à Oradour-sur-Glane, le 10 juin 1944 ?",
+            "hint": "Ce sont plus de 600 personnes.",
+            "anecdote": "Les hommes ont été fusillés dans des granges, les femmes et les enfants brûlés dans l'église.",
+            "answers": {
+              "99": "99",
+              "212": "212",
+              "643": "643",
+              "1-200": "1 200"
+            }
+          },
+          "oradour-voiture": {
+            "prompt": "Qui a décidé de conserver telles quelles les ruines d'Oradour-sur-Glane ?",
+            "hint": "La décision est prise dès la fin de 1944, puis confirmée par une loi en 1946.",
+            "anecdote": "Les ruines, classées, sont entretenues pour témoigner du massacre.",
+            "answers": {
+              "l-etat": "L'État",
+              "le-pape": "Le pape",
+              "les-nations-unies": "Les Nations unies",
+              "la-region": "La région"
+            }
+          },
+          "centre-memoire": {
+            "prompt": "Quel lieu, ouvert en 1999 à l'entrée des ruines d'Oradour, explique le massacre ?",
+            "hint": "On le traverse avant d'entrer dans le village martyr.",
+            "anecdote": "Il présente le contexte de la guerre et le déroulement de la journée du 10 juin 1944.",
+            "answers": {
+              "le-centre-de-la-memoire": "Le Centre de la mémoire",
+              "le-memorial-de-caen": "Le Mémorial de Caen",
+              "le-musee-de-l-armee": "Le musée de l'Armée",
+              "l-historial-de-la-grande-guerre": "L'Historial de la Grande Guerre"
+            }
+          },
+          "carte-oradour": {
+            "prompt": "Touchez le département d'Oradour-sur-Glane.",
+            "hint": "C'est le plus à l'ouest des trois départements du Limousin.",
+            "anecdote": "Le village se trouve à une vingtaine de kilomètres de Limoges."
+          },
+          "pendus-tulle": {
+            "prompt": "Dans quelle ville 99 hommes ont-ils été pendus par les SS le 9 juin 1944 ?",
+            "hint": "C'est la préfecture de la Corrèze.",
+            "anecdote": "La veille du massacre d'Oradour, la même division Das Reich a aussi déporté 149 hommes de la ville."
+          },
+          "guingouin": {
+            "prompt": "À quel chef de maquis, surnommé le préfet du maquis, cette toile rend-elle hommage ?",
+            "hint": "Instituteur, il a pris le maquis dès 1941.",
+            "anecdote": "Le peintre Paul Rebeyrolle, né à Eymoutiers, a réalisé cette œuvre en 1987.",
+            "answers": {
+              "georges-guingouin": "Georges Guingouin",
+              "jean-moulin": "Jean Moulin",
+              "henri-romans-petit": "Henri Romans-Petit",
+              "pierre-brossolette": "Pierre Brossolette"
+            }
+          },
+          "mont-gargan": {
+            "prompt": "Quel maquis a affronté les troupes allemandes sur le mont Gargan, en juillet 1944 ?",
+            "hint": "Son chef était instituteur en Haute-Vienne.",
+            "anecdote": "Les combats ont duré plusieurs jours sur les pentes du mont, en lisière des forêts.",
+            "answers": {
+              "le-maquis-de-georges-guingouin": "Le maquis de Georges Guingouin",
+              "le-maquis-du-vercors": "Le maquis du Vercors",
+              "le-maquis-des-glieres": "Le maquis des Glières",
+              "le-maquis-du-mont-mouchet": "Le maquis du Mont-Mouchet"
+            }
+          },
+          "liberation-limoges": {
+            "prompt": "Comment Limoges a-t-elle été libérée, le 21 août 1944 ?",
+            "hint": "Aucun combat n'a eu lieu dans la ville.",
+            "anecdote": "Le consul de Suisse a servi d'intermédiaire avec les résistants.",
+            "answers": {
+              "par-la-reddition-negociee-de-la-garnison-allemande": "Par la reddition négociée de la garnison allemande",
+              "par-un-debarquement-allie": "Par un débarquement allié",
+              "par-un-assaut-de-chars-americains": "Par un assaut de chars américains",
+              "par-l-armee-d-italie": "Par l'armée d'Italie"
+            }
+          },
+          "enfants-creuse": {
+            "prompt": "D'où venaient les enfants de la Creuse, déplacés en métropole entre 1962 et 1984 ?",
+            "hint": "C'est une île de l'océan Indien.",
+            "anecdote": "Plus de 2 000 enfants ont été envoyés dans des départements ruraux. L'Assemblée nationale a reconnu cette faute en 2014.",
+            "answers": {
+              "de-la-reunion": "De La Réunion",
+              "de-la-martinique": "De la Martinique",
+              "de-corse": "De Corse",
+              "de-nouvelle-caledonie": "De Nouvelle-Calédonie"
+            }
+          },
+          "chalus": {
+            "prompt": "Quel roi a été mortellement blessé au siège de Châlus-Chabrol, en 1199 ?",
+            "hint": "Il était aussi duc d'Aquitaine par sa mère, Aliénor.",
+            "anecdote": "Touché par un carreau d'arbalète, il est mort quelques jours plus tard.",
+            "answers": {
+              "richard-coeur-de-lion": "Richard Cœur de Lion",
+              "philippe-auguste": "Philippe Auguste",
+              "henri-ii-plantagenet": "Henri II Plantagenêt",
+              "jean-sans-terre": "Jean sans Terre"
+            }
+          },
+          "breche": {
+            "prompt": "Quel événement a formé cette roche de Rochechouart, il y a environ 200 millions d'années ?",
+            "hint": "Il est venu du ciel.",
+            "anecdote": "Le cratère a disparu sous l'érosion, mais les roches broyées et fondues sont restées.",
+            "answers": {
+              "la-chute-d-une-meteorite": "La chute d'une météorite",
+              "une-eruption-volcanique": "Une éruption volcanique",
+              "un-tremblement-de-terre": "Un tremblement de terre",
+              "une-glaciation": "Une glaciation"
+            }
+          },
+          "carnyx": {
+            "prompt": "Quel instrument de guerre gaulois a été découvert à Tintignac, en 2004 ?",
+            "hint": "Son pavillon a la forme d'une tête d'animal.",
+            "anecdote": "Ces trompettes, tenues à la verticale, sonnaient au-dessus des guerriers.",
+            "answers": {
+              "le-carnyx": "Le carnyx",
+              "le-cor-de-chasse": "Le cor de chasse",
+              "l-olifant": "L'olifant",
+              "le-cromorne": "Le cromorne"
+            }
+          },
+          "carte-tintignac": {
+            "prompt": "Touchez le département du sanctuaire gaulois de Tintignac.",
+            "hint": "C'est le plus au sud des trois départements du Limousin.",
+            "anecdote": "Le site se trouve à Naves, près de Tulle."
+          },
+          "bouffia": {
+            "prompt": "Qu'a-t-on découvert en 1908 dans cette petite grotte de La Chapelle-aux-Saints ?",
+            "hint": "C'est l'un des premiers fossiles humains étudiés en détail.",
+            "anecdote": "Il a été trouvé par trois abbés, les frères Bouyssonie et Louis Bardon.",
+            "answers": {
+              "le-squelette-d-un-neandertalien": "Le squelette d'un Néandertalien",
+              "des-peintures-de-mammouths": "Des peintures de mammouths",
+              "un-tresor-gaulois": "Un trésor gaulois",
+              "un-sarcophage-merovingien": "Un sarcophage mérovingien"
+            }
+          },
+          "coussac": {
+            "prompt": "Quel aventurier, né en 1675 à Coussac-Bonneval, a fini sa vie au service du sultan ottoman ?",
+            "hint": "Il porte le nom de sa famille et un titre turc.",
+            "anecdote": "Officier de Louis XIV puis du Saint-Empire, il s'est converti à l'islam et a modernisé l'artillerie ottomane.",
+            "answers": {
+              "bonneval-pacha": "Bonneval Pacha",
+              "soliman-pacha": "Soliman Pacha",
+              "barberousse": "Barberousse",
+              "le-chevalier-d-eon": "Le chevalier d'Éon"
+            }
+          },
+          "licorne": {
+            "prompt": "Dans quel château creusois cette tenture a-t-elle été redécouverte au XIXe siècle ?",
+            "hint": "Il domine la Petite Creuse.",
+            "anecdote": "Signalées par Prosper Mérimée en 1841, ces six tapisseries ont été acquises par le musée de Cluny en 1882.",
+            "answers": {
+              "le-chateau-de-boussac": "Le château de Boussac",
+              "le-chateau-de-crozant": "Le château de Crozant",
+              "le-chateau-de-montbrun": "Le château de Montbrun",
+              "le-chateau-de-rochechouart": "Le château de Rochechouart"
+            }
+          },
+          "sand": {
+            "prompt": "Quelle romancière, amie de Pierre Leroux, a souvent séjourné à Boussac et dans la Creuse ?",
+            "hint": "Elle vivait à Nohant, dans l'Indre voisine.",
+            "anecdote": "Elle a fait connaître la Dame à la licorne dans ses romans et ses articles.",
+            "answers": {
+              "george-sand": "George Sand",
+              "colette": "Colette",
+              "marguerite-duras": "Marguerite Duras",
+              "madame-de-stael": "Madame de Staël"
+            }
+          },
+          "guillaumin": {
+            "prompt": "Quel peintre impressionniste a peint ce paysage de neige à Crozant ?",
+            "hint": "Ami de Cézanne et de Pissarro, il a gagné une grosse somme à la loterie.",
+            "anecdote": "Il a peint la vallée de la Creuse pendant plus de trente ans. On parle de l'école de Crozant.",
+            "answers": {
+              "armand-guillaumin": "Armand Guillaumin",
+              "claude-monet": "Claude Monet",
+              "alfred-sisley": "Alfred Sisley",
+              "camille-pissarro": "Camille Pissarro"
+            }
+          },
+          "boule": {
+            "prompt": "Quel paléontologue a étudié le squelette de La Chapelle-aux-Saints ?",
+            "hint": "Il dirigeait l'Institut de paléontologie humaine.",
+            "anecdote": "Sa description de l'homme de Néandertal, voûté et brutal, a longtemps été reprise avant d'être corrigée.",
+            "answers": {
+              "marcellin-boule": "Marcellin Boule",
+              "henri-breuil": "Henri Breuil",
+              "jacques-boucher-de-perthes": "Jacques Boucher de Perthes",
+              "louis-leakey": "Louis Leakey"
+            }
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "limoges": {
+            "name": "Limoges",
+            "description": "Capitale du Limousin, au bord de la Vienne, la ville est connue dans le monde entier pour sa porcelaine et ses émaux. Sa gare des Bénédictins, inaugurée en 1929, est l'une des plus belles de France.",
+            "anecdote": "Le campanile de la gare culmine à environ 60 mètres. Sa coupole est couverte de cuivre."
+          },
+          "vache-limousine": {
+            "name": "Vache limousine",
+            "description": "Cette race à la robe froment, élevée en plein air sur les prairies du Limousin, est réputée pour la qualité de sa viande. Elle s'est répandue dans des dizaines de pays.",
+            "anecdote": "Autrefois, elle servait surtout d'animal de trait, attelée aux charrues et aux charrettes."
+          },
+          "collonges": {
+            "name": "Collonges-la-Rouge",
+            "description": "Ce village de Corrèze est bâti en grès rouge, avec ses tourelles, ses manoirs et ses toits de lauzes. Il est à l'origine de l'association des Plus Beaux Villages de France, fondée en 1982.",
+            "anecdote": "La couleur de la pierre vient de l'oxyde de fer qu'elle contient."
+          },
+          "porcelaine": {
+            "name": "Porcelaine de Limoges",
+            "description": "La découverte de kaolin à Saint-Yrieix-la-Perche, vers 1768, a permis de fabriquer à Limoges une porcelaine dure, blanche et translucide. Les manufactures de la ville l'exportent dans le monde entier.",
+            "anecdote": "Auguste Renoir, né à Limoges, a commencé à peindre comme décorateur sur porcelaine."
+          },
+          "vassiviere": {
+            "name": "Lac de Vassivière",
+            "description": "Ce lac de barrage, mis en eau au début des années 1950, s'étend entre la Haute-Vienne et la Creuse, sur la Montagne limousine. Une île en son centre accueille un centre d'art et un bois de sculptures.",
+            "anecdote": "Avec environ 1 000 hectares, c'est l'un des plus grands plans d'eau du Limousin."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur du Limousin",
+            "description": "Réunir les cinq cartes de la collection du Limousin."
+          },
+          "master": {
+            "name": "Maître du Limousin",
+            "description": "Réussir le Défi Maître du Limousin, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
     },
     "poitou-charentes": {
       "name": "Poitou-Charentes"
