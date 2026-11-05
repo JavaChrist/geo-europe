@@ -300,6 +300,194 @@
       "photoLorraineCathedraleMetzVue": {
         "title": "Cathédrale Saint-Étienne, Metz",
         "alt": "Immense cathédrale gothique de pierre jaune, percée de très hautes verrières."
+      },
+      "photoChampagneArdenneCathedraleReims": {
+        "title": "Cathédrale Notre-Dame de Reims",
+        "alt": "Intérieur d'une grande cathédrale gothique, avec une nef très haute et une rosace colorée."
+      },
+      "photoChampagneArdenneCoteaux": {
+        "title": "Vignes vues depuis Hautvillers",
+        "alt": "Rangs de vigne sur un coteau dominant une large vallée et une rivière."
+      },
+      "photoChampagneArdenneTroyesMaisons": {
+        "title": "Maisons à pans de bois, rue Émile-Zola, à Troyes",
+        "alt": "Rue bordée de maisons anciennes à pans de bois colorés."
+      },
+      "photoChampagneArdennePlaceDucale": {
+        "title": "Place Ducale de Charleville-Mézières",
+        "alt": "Grande place entourée d'arcades, de façades de brique et de pierre et de hauts toits d'ardoise."
+      },
+      "photoChampagneArdenneLacDer": {
+        "title": "Lac du Der-Chantecoq",
+        "alt": "Vaste plan d'eau calme, sous un grand ciel."
+      },
+      "photoChampagneArdenneViaducChaumont": {
+        "title": "Viaduc de Chaumont",
+        "alt": "Grand viaduc de pierre à plusieurs étages d'arches, au-dessus d'une vallée."
+      },
+      "photoChampagneArdenneSaintRemi": {
+        "title": "Basilique Saint-Remi de Reims",
+        "alt": "Grande église de pierre claire, avec deux tours en façade."
+      },
+      "photoChampagneArdenneTroyesRuelle": {
+        "title": "Ruelle des Chats, à Troyes",
+        "alt": "Ruelle très étroite, entre des maisons anciennes à pans de bois qui se touchent presque."
+      },
+      "photoChampagneArdenneCharlevilleRimbaud": {
+        "title": "La Meuse et le musée Rimbaud, à Charleville-Mézières",
+        "alt": "Ancien moulin à hauts toits, au bord d'un fleuve."
+      },
+      "photoChampagneArdenneLacOrient": {
+        "title": "Lac d'Orient",
+        "alt": "Grand lac bordé de forêts."
+      },
+      "photoChampagneArdenneMeuseArdennaise": {
+        "title": "Boucle de la Meuse à Monthermé",
+        "alt": "Fleuve qui dessine une large courbe entre des collines couvertes de forêts."
+      },
+      "photoChampagneArdenneAndouillette": {
+        "title": "Andouillettes de Troyes",
+        "alt": "Charcuteries allongées, en partie coupées en tranches, sur une planche de bois."
+      },
+      "photoChampagneArdenneChaource": {
+        "title": "Chaource",
+        "alt": "Fromage cylindrique à croûte blanche et fleurie."
+      },
+      "photoChampagneArdenneFromageLangres": {
+        "title": "Langres",
+        "alt": "Petit fromage cylindrique à croûte orangée, légèrement creusé sur le dessus."
+      },
+      "photoChampagneArdenneBiscuitRose": {
+        "title": "Biscuit rose de Reims",
+        "alt": "Biscuits allongés et légers, de couleur rose."
+      },
+      "photoChampagneArdenneVignobleHautvillers": {
+        "title": "Vignes d'Hautvillers",
+        "alt": "Rangées régulières de plantes sur un coteau."
+      },
+      "photoChampagneArdenneAngeSourire": {
+        "title": "Ange au sourire, cathédrale de Reims",
+        "alt": "Statues de pierre d'un portail de cathédrale gothique, dont un ange aux ailes déployées."
+      },
+      "photoChampagneArdennePalaisTau": {
+        "title": "Palais du Tau, à Reims",
+        "alt": "Vaste palais de pierre claire, à hauts toits d'ardoise, précédé d'un jardin."
+      },
+      "photoChampagneArdennePorteMars": {
+        "title": "Porte de Mars, à Reims",
+        "alt": "Grand arc antique de pierre à trois passages, avec des colonnes."
+      },
+      "photoChampagneArdenneAvenueEpernay": {
+        "title": "Avenue de Champagne, à Épernay",
+        "alt": "Large avenue bordée de façades élégantes."
+      },
+      "photoChampagneArdenneCathedraleTroyes": {
+        "title": "Cathédrale Saint-Pierre-et-Saint-Paul de Troyes",
+        "alt": "Façade gothique très ornée, avec une seule tour."
+      },
+      "photoChampagneArdenneSedanChateau": {
+        "title": "Château de Sedan",
+        "alt": "Immense forteresse de pierre jaune, avec de hautes murailles et de grosses tours rondes."
+      },
+      "photoChampagneArdenneRocroi": {
+        "title": "Fortifications de Rocroi",
+        "alt": "Long rempart de pierre couronné d'herbe, précédé d'un large fossé, avec un clocher au loin."
+      },
+      "photoChampagneArdenneCharlemont": {
+        "title": "Givet, la Meuse et le fort de Charlemont",
+        "alt": "Ville au bord d'un fleuve, avec un pont, dominée par une haute colline fortifiée."
+      },
+      "photoChampagneArdenneNotreDameEsperance": {
+        "title": "Basilique Notre-Dame-d'Espérance de Mézières",
+        "alt": "Façade d'église en pierre jaune, aux grandes baies gothiques et à la haute tour centrale."
+      },
+      "photoChampagneArdenneNotreDameVaux": {
+        "title": "Collégiale Notre-Dame-en-Vaux, à Châlons-en-Champagne",
+        "alt": "Grande église médiévale à plusieurs flèches."
+      },
+      "photoChampagneArdenneEgliseOutines": {
+        "title": "Église Saint-Nicolas d'Outines",
+        "alt": "Intérieur d'une petite église rurale, où les poteaux et la charpente sont bien visibles."
+      },
+      "photoChampagneArdenneLangresRemparts": {
+        "title": "Remparts de Langres",
+        "alt": "Longue muraille de pierre, surmontée d'arbres, au-dessus d'une pelouse."
+      },
+      "photoChampagneArdenneSaintMammes": {
+        "title": "Cathédrale Saint-Mammès de Langres",
+        "alt": "Cathédrale à deux tours et à grands toits, dominant les maisons d'une ville."
+      },
+      "photoChampagneArdenneGrandJardin": {
+        "title": "Château du Grand Jardin, à Joinville",
+        "alt": "Petit château Renaissance aux façades sculptées, au milieu d'un jardin."
+      },
+      "photoChampagneArdennePhareVerzenay": {
+        "title": "Phare de Verzenay",
+        "alt": "Tour blanche à lanterne, dressée au sommet d'un coteau couvert de vignes."
+      },
+      "photoChampagneArdenneMoulinVerzenay": {
+        "title": "Moulin de Verzenay",
+        "alt": "Bâtiment sur une butte, au milieu des vignes."
+      },
+      "photoChampagneArdenneAbbayeHautvillers": {
+        "title": "Abbaye Saint-Pierre d'Hautvillers",
+        "alt": "Bâtiments et église d'une ancienne abbaye."
+      },
+      "photoChampagneArdenneCavesRuinart": {
+        "title": "Caves Ruinart, affiche de Louis Tauzin",
+        "alt": "Affiche ancienne montrant de longues galeries souterraines creusées dans une roche claire."
+      },
+      "photoChampagneArdenneRimbaudCarjat": {
+        "title": "Arthur Rimbaud, portrait par Étienne Carjat",
+        "alt": "Portrait photographique ancien, en noir et blanc, d'un jeune homme à la cravate lâche."
+      },
+      "photoChampagneArdenneClaudelMusee": {
+        "title": "La Valse, de Camille Claudel, à Nogent-sur-Seine",
+        "alt": "Sculpture d'un couple qui danse, enlacé, dans une salle de musée."
+      },
+      "photoChampagneArdenneDiderotStatue": {
+        "title": "Statue de Diderot, à Langres",
+        "alt": "Statue de bronze d'un homme debout, sur un socle."
+      },
+      "photoChampagneArdenneRenoirEssoyes": {
+        "title": "Paysage à Essoyes, Renoir, 1903",
+        "alt": "Paysage peint aux touches légères, dans une campagne ensoleillée."
+      },
+      "photoChampagneArdenneGruesDer": {
+        "title": "Grues cendrées, adulte et jeune",
+        "alt": "Deux grands oiseaux gris aux longues pattes."
+      },
+      "photoChampagneArdenneBoucleMontherme": {
+        "title": "Boucle de la Meuse à Monthermé",
+        "alt": "Bourg blotti dans la courbe d'un fleuve, entre des collines boisées."
+      },
+      "photoChampagneArdenneClairvaux": {
+        "title": "Abbaye de Clairvaux",
+        "alt": "Longs bâtiments de pierre d'une ancienne abbaye."
+      },
+      "photoChampagneArdenneJeanneStatue": {
+        "title": "Statue de Jeanne d'Arc, à Reims",
+        "alt": "Statue équestre de bronze : un personnage en armure lève une épée, entouré de plantes."
+      },
+      "photoChampagneArdenneValmyMoulin": {
+        "title": "Moulin de Valmy",
+        "alt": "Moulin à vent, vu en contre-plongée."
+      },
+      "photoChampagneArdennePompelle": {
+        "title": "Fort de la Pompelle",
+        "alt": "Vestiges d'un fort, avec des murs de pierre et des talus herbeux."
+      },
+      "photoChampagneArdenneNavarin": {
+        "title": "Monument de Navarin",
+        "alt": "Monument de pierre pyramidal sur une plaine, orné de soldats sculptés."
+      },
+      "photoChampagneArdenneColombeyCimetiere": {
+        "title": "Cimetière de Colombey-les-Deux-Églises",
+        "alt": "Petit cimetière de village au pied d'une église de pierre."
+      },
+      "photoChampagneArdenneBourbonne": {
+        "title": "Bourbonne-les-Bains, vue générale",
+        "alt": "Vue d'une petite ville aux toits de tuile, avec un clocher, dans la campagne."
       }
     }
   },
@@ -363,11 +551,2062 @@
     "saint-mihiel": "Saint-Mihiel",
     "domremy-la-pucelle": "Domrémy-la-Pucelle",
     "rodemack": "Rodemack",
-    "grand": "Grand"
+    "grand": "Grand",
+    "reims": "Reims",
+    "chalons-en-champagne": "Châlons-en-Champagne",
+    "epernay": "Épernay",
+    "vitry-le-francois": "Vitry-le-François",
+    "sainte-menehould": "Sainte-Menehould",
+    "sezanne": "Sézanne",
+    "hautvillers": "Hautvillers",
+    "verzenay": "Verzenay",
+    "valmy": "Valmy",
+    "troyes": "Troyes",
+    "nogent-sur-seine": "Nogent-sur-Seine",
+    "bar-sur-aube": "Bar-sur-Aube",
+    "brienne-le-chateau": "Brienne-le-Château",
+    "bar-sur-seine": "Bar-sur-Seine",
+    "arcis-sur-aube": "Arcis-sur-Aube",
+    "romilly-sur-seine": "Romilly-sur-Seine",
+    "chaource": "Chaource",
+    "essoyes": "Essoyes",
+    "ervy-le-chatel": "Ervy-le-Châtel",
+    "charleville-mezieres": "Charleville-Mézières",
+    "sedan": "Sedan",
+    "rethel": "Rethel",
+    "givet": "Givet",
+    "rocroi": "Rocroi",
+    "revin": "Revin",
+    "fumay": "Fumay",
+    "montherme": "Monthermé",
+    "vouziers": "Vouziers",
+    "chaumont": "Chaumont",
+    "langres": "Langres",
+    "saint-dizier": "Saint-Dizier",
+    "joinville": "Joinville",
+    "bourbonne-les-bains": "Bourbonne-les-Bains",
+    "wassy": "Wassy",
+    "nogent": "Nogent",
+    "colombey-les-deux-eglises": "Colombey-les-Deux-Églises"
   },
   "territories": {
     "champagne-ardenne": {
-      "name": "Champagne-Ardenne"
+      "name": "Champagne-Ardenne",
+      "description": "Des coteaux de la Marne aux forêts des Ardennes, un territoire de cathédrales, de maisons à pans de bois et de grands lacs.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Champagne-Ardenne",
+          "description": "Quatre départements, leurs villes et les grands repères d'un territoire entre vignes, forêts et grands lacs.",
+          "carte-territoire": {
+            "prompt": "Touchez sur la carte le territoire de Champagne-Ardenne.",
+            "hint": "C'est la partie ouest du Grand Est.",
+            "anecdote": "La Champagne-Ardenne occupe l'ouest du Grand Est. Elle s'étend de la frontière belge jusqu'au plateau de Langres."
+          },
+          "nombre-departements": {
+            "prompt": "Combien de départements compte la Champagne-Ardenne ?",
+            "hint": "C'est le double de deux.",
+            "anecdote": "Les Ardennes, l'Aube, la Marne et la Haute-Marne forment la Champagne-Ardenne.",
+            "answers": {
+              "quatre": "Quatre",
+              "deux": "Deux",
+              "trois": "Trois",
+              "six": "Six"
+            }
+          },
+          "region-actuelle": {
+            "prompt": "Dans quelle région administrative la Champagne-Ardenne se trouve-t-elle depuis 2016 ?",
+            "hint": "Son nom indique une direction.",
+            "anecdote": "Le 1er janvier 2016, la Champagne-Ardenne, l'Alsace et la Lorraine ont été réunies dans la région Grand Est.",
+            "answers": {
+              "le-grand-est": "Le Grand Est",
+              "les-hauts-de-france": "Les Hauts-de-France",
+              "la-bourgogne-franche-comte": "La Bourgogne-Franche-Comté",
+              "l-ile-de-france": "L'Île-de-France"
+            }
+          },
+          "pays-frontalier": {
+            "prompt": "Avec quel pays la Champagne-Ardenne partage-t-elle une frontière ?",
+            "hint": "Bruxelles en est la capitale.",
+            "anecdote": "Le département des Ardennes borde la Belgique, sur une frontière qui traverse de grandes forêts.",
+            "answers": {
+              "la-belgique": "La Belgique",
+              "l-allemagne": "L'Allemagne",
+              "la-suisse": "La Suisse",
+              "l-italie": "L'Italie"
+            }
+          },
+          "ancienne-capitale": {
+            "prompt": "Quelle ville était le chef-lieu de l'ancienne région Champagne-Ardenne ?",
+            "hint": "C'est aussi la préfecture de la Marne, qui n'est pas Reims.",
+            "anecdote": "Châlons-en-Champagne accueillait le conseil régional de Champagne-Ardenne, alors que Reims est bien plus peuplée."
+          },
+          "numero-ardennes": {
+            "prompt": "Quel est le numéro du département des Ardennes ?",
+            "hint": "C'est le plus petit numéro du territoire.",
+            "anecdote": "Les Ardennes portent le numéro 08. L'ordre alphabétique place ce département parmi les premiers.",
+            "answers": {
+              "10": "10",
+              "51": "51",
+              "52": "52",
+              "08": "08"
+            }
+          },
+          "numero-aube": {
+            "prompt": "Quel numéro porte le département de l'Aube ?",
+            "hint": "C'est un nombre rond.",
+            "anecdote": "L'Aube porte le numéro 10. Ce département doit son nom à la rivière qui le traverse.",
+            "answers": {
+              "10": "10",
+              "52": "52",
+              "54": "54",
+              "08": "08"
+            }
+          },
+          "numero-marne": {
+            "prompt": "Quel numéro porte le département de la Marne ?",
+            "hint": "Il précède immédiatement celui de la Haute-Marne.",
+            "anecdote": "La Marne porte le numéro 51, juste avant la Haute-Marne, numérotée 52.",
+            "answers": {
+              "10": "10",
+              "51": "51",
+              "52": "52",
+              "55": "55"
+            }
+          },
+          "numero-haute-marne": {
+            "prompt": "Quel numéro porte le département de la Haute-Marne ?",
+            "hint": "Il suit immédiatement celui de la Marne.",
+            "anecdote": "La Haute-Marne porte le numéro 52. Elle se trouve en amont de la Marne, d'où son nom.",
+            "answers": {
+              "51": "51",
+              "52": "52",
+              "54": "54",
+              "08": "08"
+            }
+          },
+          "carte-ardennes": {
+            "prompt": "Touchez sur la carte le département des Ardennes.",
+            "hint": "C'est le plus au nord du territoire, le long de la Belgique.",
+            "anecdote": "Les Ardennes s'avancent vers le nord, avec la pointe de Givet entourée par la Belgique."
+          },
+          "carte-aube": {
+            "prompt": "Touchez sur la carte le département de l'Aube.",
+            "hint": "Il se trouve au sud de la Marne et à l'ouest de la Haute-Marne.",
+            "anecdote": "L'Aube se situe au sud-ouest du Grand Est, autour de Troyes."
+          },
+          "carte-marne": {
+            "prompt": "Touchez sur la carte le département de la Marne.",
+            "hint": "Il se trouve entre les Ardennes au nord et l'Aube au sud.",
+            "anecdote": "La Marne occupe le centre de la Champagne-Ardenne, avec Reims, Épernay et Châlons-en-Champagne."
+          },
+          "carte-haute-marne": {
+            "prompt": "Touchez sur la carte le département de la Haute-Marne.",
+            "hint": "C'est le plus au sud-est du territoire.",
+            "anecdote": "La Haute-Marne s'étend jusqu'au plateau de Langres, à l'est de l'Aube."
+          },
+          "prefecture-ardennes": {
+            "prompt": "Quelle est la préfecture des Ardennes ?",
+            "hint": "Son nom réunit deux anciennes villes, reliées par un trait d'union.",
+            "anecdote": "Charleville et Mézières ont fusionné en 1966 avec d'autres communes pour former Charleville-Mézières."
+          },
+          "prefecture-aube": {
+            "prompt": "Quelle est la préfecture de l'Aube ?",
+            "hint": "C'est une ville aux maisons à pans de bois, sur la Seine.",
+            "anecdote": "Troyes, ancienne capitale de la Champagne, a conservé un centre ancien aux nombreuses maisons à pans de bois."
+          },
+          "prefecture-marne": {
+            "prompt": "Quelle est la préfecture de la Marne ?",
+            "hint": "Attention : ce n'est pas sa ville la plus peuplée.",
+            "anecdote": "Châlons-en-Champagne est la préfecture de la Marne, bien que Reims soit plus peuplée."
+          },
+          "prefecture-haute-marne": {
+            "prompt": "Quelle est la préfecture de la Haute-Marne ?",
+            "hint": "Elle est connue pour son grand viaduc ferroviaire.",
+            "anecdote": "Chaumont est la préfecture de la Haute-Marne. Son viaduc, inauguré en 1857, domine la vallée de la Suize."
+          },
+          "ville-plus-peuplee": {
+            "prompt": "Quelle est la ville la plus peuplée de Champagne-Ardenne ?",
+            "hint": "C'est la ville des sacres des rois de France.",
+            "anecdote": "Reims, dans la Marne, compte environ 180 000 habitants, ce qui en fait la plus grande ville du territoire."
+          },
+          "plus-peuplee-haute-marne": {
+            "prompt": "Quelle est la commune la plus peuplée de la Haute-Marne ?",
+            "hint": "Ce n'est pas la préfecture. Elle se trouve au nord du département, sur la Marne.",
+            "anecdote": "Saint-Dizier dépasse Chaumont par sa population. C'est une ville industrielle, connue aussi pour sa base aérienne."
+          },
+          "ville-chateau-fort": {
+            "prompt": "Quelle ville des Ardennes possède l'un des plus grands châteaux forts d'Europe ?",
+            "hint": "Elle se trouve sur la Meuse, à l'est de Charleville-Mézières.",
+            "anecdote": "Sedan abrite un immense château fort, dont la construction a commencé au XVe siècle."
+          },
+          "photo-chaumont": {
+            "prompt": "Dans quelle préfecture de Haute-Marne se trouve ce grand viaduc de pierre ?",
+            "hint": "Son viaduc enjambe la vallée de la Suize.",
+            "anecdote": "Le viaduc de Chaumont, long de 600 mètres, a été construit en quinze mois, sur la ligne de Paris à Mulhouse."
+          },
+          "photo-reims": {
+            "prompt": "Dans quelle grande ville de la Marne se dresse cette basilique, dédiée à saint Remi ?",
+            "hint": "C'est la plus grande ville du territoire.",
+            "anecdote": "La basilique Saint-Remi conserve le tombeau de saint Remi, l'évêque qui a baptisé Clovis."
+          },
+          "photo-troyes": {
+            "prompt": "Dans quelle ville de l'Aube se trouve cette ruelle aux maisons à pans de bois ?",
+            "hint": "C'est la préfecture du département.",
+            "anecdote": "La ruelle des Chats, à Troyes, est si étroite que les chats pouvaient, dit-on, passer d'un toit à l'autre."
+          },
+          "photo-charleville": {
+            "prompt": "Dans quelle préfecture des Ardennes se trouve ce vieux moulin sur la Meuse ?",
+            "hint": "Le poète Arthur Rimbaud y est né.",
+            "anecdote": "Le Vieux Moulin de Charleville-Mézières abrite le musée Arthur-Rimbaud, consacré au poète né dans la ville."
+          },
+          "riviere-troyes": {
+            "prompt": "Quel fleuve traverse Troyes ?",
+            "hint": "C'est aussi le fleuve de Paris.",
+            "anecdote": "La Seine passe à Troyes bien avant d'atteindre Paris.",
+            "answers": {
+              "la-seine": "La Seine",
+              "la-loire": "La Loire",
+              "le-rhone": "Le Rhône",
+              "la-garonne": "La Garonne"
+            }
+          },
+          "fleuve-charleville": {
+            "prompt": "Quel fleuve traverse Charleville-Mézières ?",
+            "hint": "Il coule ensuite vers la Belgique.",
+            "anecdote": "La Meuse dessine de larges boucles à Charleville-Mézières, puis creuse sa vallée dans le massif ardennais.",
+            "answers": {
+              "la-meuse": "La Meuse",
+              "la-moselle": "La Moselle",
+              "la-saone": "La Saône",
+              "le-rhin": "Le Rhin"
+            }
+          },
+          "riviere-marne": {
+            "prompt": "Quelle rivière a donné son nom à deux départements du territoire ?",
+            "hint": "Elle traverse Chaumont, Saint-Dizier, Châlons-en-Champagne et Épernay.",
+            "anecdote": "La Marne prend sa source sur le plateau de Langres et se jette dans la Seine, près de Paris.",
+            "answers": {
+              "la-marne": "La Marne",
+              "l-aube": "L'Aube",
+              "l-aisne": "L'Aisne",
+              "la-meuse": "La Meuse"
+            }
+          },
+          "grand-lac": {
+            "prompt": "Quel grand lac artificiel se trouve entre la Marne et la Haute-Marne ?",
+            "hint": "Son nom très court compte trois lettres.",
+            "anecdote": "Le lac du Der-Chantecoq a été inauguré en 1974 pour réguler le cours de la Marne et protéger Paris des crues.",
+            "answers": {
+              "le-lac-du-der": "Le lac du Der",
+              "le-lac-d-annecy": "Le lac d'Annecy",
+              "le-lac-de-serre-poncon": "Le lac de Serre-Ponçon",
+              "le-lac-leman": "Le lac Léman"
+            }
+          },
+          "lac-orient": {
+            "prompt": "Quel lac de l'Aube, à l'est de Troyes, porte le nom d'une direction ?",
+            "hint": "C'est la direction du soleil levant.",
+            "anecdote": "Le lac d'Orient se trouve dans le parc naturel régional de la Forêt d'Orient. Il sert de réservoir pour réguler la Seine.",
+            "answers": {
+              "le-lac-d-orient": "Le lac d'Orient",
+              "le-lac-du-nord": "Le lac du Nord",
+              "le-lac-du-couchant": "Le lac du Couchant",
+              "le-lac-du-midi": "Le lac du Midi"
+            }
+          },
+          "massif-foret": {
+            "prompt": "Quel paysage domine le massif des Ardennes ?",
+            "hint": "On y rencontre des sangliers et des chevreuils.",
+            "anecdote": "Les Ardennes sont couvertes de vastes forêts, entaillées par la vallée de la Meuse.",
+            "answers": {
+              "la-foret": "La forêt",
+              "le-desert": "Le désert",
+              "la-lagune": "La lagune",
+              "la-garrigue": "La garrigue"
+            }
+          },
+          "photo-lac-orient": {
+            "prompt": "Quel lac de l'Aube, entouré de forêts, voit-on sur cette photo ?",
+            "hint": "Son nom est celui du point cardinal où le soleil se lève.",
+            "anecdote": "Le lac d'Orient, inauguré en 1966, est bordé de plages et accueille baigneurs et oiseaux migrateurs.",
+            "answers": {
+              "le-lac-d-orient": "Le lac d'Orient",
+              "le-lac-de-pierre-percee": "Le lac de Pierre-Percée",
+              "le-lac-de-gerardmer": "Le lac de Gérardmer",
+              "le-lac-de-madine": "Le lac de Madine"
+            }
+          },
+          "photo-meuse": {
+            "prompt": "Quel fleuve serpente ainsi entre les collines boisées du nord des Ardennes ?",
+            "hint": "Il donne aussi son nom à un département lorrain.",
+            "anecdote": "La Meuse coule dans une vallée encaissée, à travers le massif ardennais, jusqu'à la frontière belge.",
+            "answers": {
+              "la-meuse": "La Meuse",
+              "la-seine": "La Seine",
+              "la-dordogne": "La Dordogne",
+              "l-isere": "L'Isère"
+            }
+          },
+          "symbole-ardennes": {
+            "prompt": "Quel animal de la forêt est le symbole du département des Ardennes ?",
+            "hint": "Il a des défenses et se déplace en compagnie.",
+            "anecdote": "Le sanglier est l'emblème des Ardennes. Une immense statue, appelée Woinic, lui rend hommage près de l'autoroute.",
+            "answers": {
+              "le-sanglier": "Le sanglier",
+              "le-lynx": "Le lynx",
+              "l-ours": "L'ours",
+              "le-chamois": "Le chamois"
+            }
+          },
+          "sacre-rois": {
+            "prompt": "Quelle cathédrale du territoire a accueilli le sacre de nombreux rois de France ?",
+            "hint": "C'est dans la plus grande ville de la Marne.",
+            "anecdote": "De nombreux rois de France ont été sacrés à Reims, entre le XIe et le XIXe siècle.",
+            "answers": {
+              "la-cathedrale-de-reims": "La cathédrale de Reims",
+              "la-cathedrale-de-troyes": "La cathédrale de Troyes",
+              "la-cathedrale-de-langres": "La cathédrale de Langres",
+              "la-cathedrale-de-chalons": "La cathédrale de Châlons"
+            }
+          },
+          "stade-reims": {
+            "prompt": "Quel club de football du territoire, très titré dans les années 1950, joue au stade Auguste-Delaune ?",
+            "hint": "Il porte le nom de la plus grande ville de la Marne.",
+            "anecdote": "Le Stade de Reims a remporté six titres de champion de France et joué deux finales de Coupe d'Europe face au Real Madrid.",
+            "answers": {
+              "le-stade-de-reims": "Le Stade de Reims",
+              "le-rc-lens": "Le RC Lens",
+              "l-as-nancy-lorraine": "L'AS Nancy-Lorraine",
+              "le-fc-metz": "Le FC Metz"
+            }
+          },
+          "parc-regional": {
+            "prompt": "Quel parc naturel régional se trouve entre Reims et Épernay ?",
+            "hint": "Son nom désigne un relief tout proche de Reims.",
+            "anecdote": "Le parc naturel régional de la Montagne de Reims réunit vignes et grandes forêts, dont les faux de Verzy, ces hêtres tortillards.",
+            "answers": {
+              "la-montagne-de-reims": "La Montagne de Reims",
+              "le-vercors": "Le Vercors",
+              "la-brenne": "La Brenne",
+              "le-morvan": "Le Morvan"
+            }
+          },
+          "parc-national": {
+            "prompt": "Quel parc national, créé en 2019, s'étend sur la Haute-Marne et la Côte-d'Or ?",
+            "hint": "Son nom désigne le milieu naturel qu'il protège.",
+            "anecdote": "Le parc national de forêts est le plus récent de France métropolitaine. Il protège de grandes forêts feuillues de plaine.",
+            "answers": {
+              "le-parc-national-de-forets": "Le parc national de forêts",
+              "le-parc-national-des-cevennes": "Le parc national des Cévennes",
+              "le-parc-national-de-la-vanoise": "Le parc national de la Vanoise",
+              "le-parc-national-des-ecrins": "Le parc national des Écrins"
+            }
+          },
+          "cathedrale-dediee": {
+            "prompt": "À qui la cathédrale de Reims est-elle dédiée ?",
+            "hint": "On retrouve ce nom à Paris, sur l'île de la Cité.",
+            "anecdote": "La cathédrale Notre-Dame de Reims a été commencée en 1211. Elle est inscrite au patrimoine mondial depuis 1991.",
+            "answers": {
+              "notre-dame": "Notre-Dame",
+              "saint-pierre": "Saint-Pierre",
+              "saint-etienne": "Saint-Étienne",
+              "saint-louis": "Saint-Louis"
+            }
+          },
+          "riviere-reims": {
+            "prompt": "Quelle rivière traverse la ville de Reims ?",
+            "hint": "C'est un petit affluent de l'Aisne.",
+            "anecdote": "La Vesle traverse Reims avant de rejoindre l'Aisne.",
+            "answers": {
+              "la-vesle": "La Vesle",
+              "la-moselle": "La Moselle",
+              "la-loire": "La Loire",
+              "la-garonne": "La Garonne"
+            }
+          },
+          "departement-epernay": {
+            "prompt": "Dans quel département se trouve Épernay ?",
+            "hint": "Il porte le nom de la rivière qui traverse la ville.",
+            "anecdote": "Épernay se trouve dans la Marne, au pied des coteaux de Champagne.",
+            "answers": {
+              "la-marne": "La Marne",
+              "l-aube": "L'Aube",
+              "les-ardennes": "Les Ardennes",
+              "la-haute-marne": "La Haute-Marne"
+            }
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs de Champagne-Ardenne",
+          "description": "Biscuit rose, andouillette, chaource et boudin blanc : la table du territoire, ses produits et le savoir-faire du champagne.",
+          "andouillette-ville": {
+            "prompt": "Quelle ville de l'Aube a donné son nom à une andouillette réputée ?",
+            "hint": "C'est la préfecture de l'Aube.",
+            "anecdote": "L'andouillette de Troyes est préparée avec des morceaux de porc coupés en lanières. C'est l'une des grandes spécialités de la ville."
+          },
+          "andouillette-viande": {
+            "prompt": "Avec quelle viande prépare-t-on l'andouillette de Troyes ?",
+            "hint": "C'est aussi la viande du jambon.",
+            "anecdote": "L'andouillette de Troyes est une charcuterie de porc, préparée à partir de chaudins.",
+            "answers": {
+              "le-porc": "Le porc",
+              "le-boeuf": "Le bœuf",
+              "l-agneau": "L'agneau",
+              "le-canard": "Le canard"
+            }
+          },
+          "photo-andouillette": {
+            "prompt": "Quelle charcuterie, spécialité de Troyes, voit-on sur cette photo ?",
+            "hint": "Elle est préparée avec des morceaux de porc coupés en lanières.",
+            "anecdote": "L'andouillette de Troyes se déguste souvent grillée. Sa composition en fait une charcuterie à part.",
+            "answers": {
+              "l-andouillette": "L'andouillette",
+              "le-boudin-noir": "Le boudin noir",
+              "la-saucisse-de-morteau": "La saucisse de Morteau",
+              "le-cervelas": "Le cervelas"
+            }
+          },
+          "aaaaa": {
+            "prompt": "Quelle association décerne un diplôme aux meilleures andouillettes, avec un sigle de cinq lettres identiques ?",
+            "hint": "Les cinq mots de son nom commencent par la même lettre.",
+            "anecdote": "L'Association amicale des amateurs d'andouillette authentique, ou AAAAA, décerne son diplôme aux charcutiers qu'elle apprécie.",
+            "answers": {
+              "l-aaaaa": "L'AAAAA",
+              "l-ooooo": "L'OOOOO",
+              "l-eeeee": "L'EEEEE",
+              "l-uuuuu": "L'UUUUU"
+            }
+          },
+          "boudin-rethel": {
+            "prompt": "Quelle ville des Ardennes est connue pour son boudin blanc ?",
+            "hint": "Elle se trouve sur l'Aisne, au sud du département.",
+            "anecdote": "Le boudin blanc de Rethel est préparé à partir de viande de porc, de lait et d'œufs. Il fait la fierté de cette ville ardennaise."
+          },
+          "boudin-couleur": {
+            "prompt": "Quel ingrédient, en plus de la viande, donne au boudin blanc de Rethel sa douceur ?",
+            "hint": "C'est une boisson blanche, souvent servie au petit déjeuner.",
+            "anecdote": "Contrairement au boudin noir, le boudin blanc ne contient pas de sang. Il doit sa couleur claire et sa douceur à sa préparation à base de lait.",
+            "answers": {
+              "le-lait": "Le lait",
+              "le-sang": "Le sang",
+              "le-vin": "Le vin",
+              "le-miel": "Le miel"
+            }
+          },
+          "jambon-ardennes": {
+            "prompt": "Quelle charcuterie sèche est associée au département des Ardennes ?",
+            "hint": "Elle est préparée à partir de la cuisse du porc.",
+            "anecdote": "Le jambon sec des Ardennes est salé puis séché lentement. C'est l'une des spécialités les plus connues du département.",
+            "answers": {
+              "le-jambon-sec": "Le jambon sec",
+              "le-saucisson-d-arles": "Le saucisson d'Arles",
+              "la-rosette": "La rosette",
+              "le-chorizo": "Le chorizo"
+            }
+          },
+          "pied-menehould": {
+            "prompt": "Quelle ville de la Marne est célèbre pour son pied de cochon ?",
+            "hint": "Son nom est celui d'une sainte.",
+            "anecdote": "Le pied de cochon à la Sainte-Menehould est cuit très longuement, puis pané et grillé. Selon la tradition, on peut en manger jusqu'aux os.",
+            "answers": {
+              "fismes": "Fismes"
+            }
+          },
+          "cacasse": {
+            "prompt": "Quel plat ardennais de pommes de terre et d'oignons, à l'origine sans viande, porte un nom très amusant ?",
+            "hint": "Le mot qui suit « cacasse » est un peu moqueur.",
+            "anecdote": "La cacasse à cul nu est un ancien plat du pauvre des Ardennes. Le « cul nu » rappellerait l'absence de viande.",
+            "answers": {
+              "la-cacasse-a-cul-nu": "La cacasse à cul nu",
+              "la-flamiche": "La flamiche",
+              "la-potee-au-chou": "La potée au chou",
+              "le-hochepot": "Le hochepot"
+            }
+          },
+          "potee-champenoise": {
+            "prompt": "Quel plat mijoté réunit, en Champagne, du chou, du lard, de la saucisse et des légumes ?",
+            "hint": "Il cuit longuement dans un grand pot.",
+            "anecdote": "La potée champenoise est un plat de fête des campagnes. Elle était traditionnellement servie lors des vendanges.",
+            "answers": {
+              "la-potee": "La potée",
+              "la-bouillabaisse": "La bouillabaisse",
+              "le-cassoulet": "Le cassoulet",
+              "la-tartiflette": "La tartiflette"
+            }
+          },
+          "choucroute-brienne": {
+            "prompt": "Quelle ville de l'Aube organise chaque année une grande fête de la choucroute ?",
+            "hint": "Elle a abrité l'école militaire du jeune Napoléon Bonaparte.",
+            "anecdote": "Brienne-le-Château fête la choucroute chaque année depuis 1959. L'Aube est l'un des grands départements producteurs de chou à choucroute."
+          },
+          "lentillon": {
+            "prompt": "Quelle petite légumineuse rosée est une production de la Champagne ?",
+            "hint": "Son nom est un diminutif de la lentille.",
+            "anecdote": "Le lentillon rosé de Champagne est une petite lentille cultivée dans la Marne et l'Aube. Longtemps oubliée, elle a retrouvé sa place.",
+            "answers": {
+              "le-lentillon": "Le lentillon",
+              "le-haricot-tarbais": "Le haricot tarbais",
+              "le-pois-chiche": "Le pois chiche",
+              "la-feve": "La fève"
+            }
+          },
+          "moutarde-reims": {
+            "prompt": "Quel condiment fait partie des spécialités anciennes de Reims ?",
+            "hint": "Il pique le nez.",
+            "anecdote": "Reims est connue pour sa moutarde, préparée avec du vinaigre de la région.",
+            "answers": {
+              "la-moutarde": "La moutarde",
+              "le-ketchup": "Le ketchup",
+              "le-wasabi": "Le wasabi",
+              "le-nuoc-mam": "Le nuoc-mâm"
+            }
+          },
+          "chaource-village": {
+            "prompt": "Quel fromage porte le nom d'un village de l'Aube ?",
+            "hint": "Ce village se trouve au sud de Troyes.",
+            "anecdote": "Le chaource est un fromage à pâte molle et à croûte fleurie, protégé par une appellation d'origine.",
+            "answers": {
+              "le-chaource": "Le chaource",
+              "le-munster": "Le munster",
+              "le-comte": "Le comté",
+              "le-roquefort": "Le roquefort"
+            }
+          },
+          "chaource-lait": {
+            "prompt": "Avec quel lait fabrique-t-on le chaource ?",
+            "hint": "C'est le lait le plus courant en France.",
+            "anecdote": "Le chaource est un fromage au lait de vache. Sa pâte blanche et crémeuse se trouve sous une fine croûte blanche.",
+            "answers": {
+              "le-lait-de-vache": "Le lait de vache",
+              "le-lait-de-brebis": "Le lait de brebis",
+              "le-lait-de-chevre": "Le lait de chèvre",
+              "le-lait-de-bufflonne": "Le lait de bufflonne"
+            }
+          },
+          "photo-chaource": {
+            "prompt": "Quel fromage de l'Aube, à la croûte blanche et fleurie, voit-on ici ?",
+            "hint": "Il porte le nom d'un village situé au sud de Troyes.",
+            "anecdote": "C'est le chaource. Ce fromage cylindrique à croûte fleurie a obtenu son appellation d'origine en 1970.",
+            "answers": {
+              "le-chaource": "Le chaource",
+              "le-camembert": "Le camembert",
+              "le-reblochon": "Le reblochon",
+              "le-saint-nectaire": "Le saint-nectaire"
+            }
+          },
+          "langres-fromage": {
+            "prompt": "Quelle ville de la Haute-Marne a donné son nom à un fromage à la croûte orangée ?",
+            "hint": "Elle est connue pour ses remparts et la naissance de Diderot.",
+            "anecdote": "Le langres est un fromage au lait de vache, protégé par une appellation d'origine. Sa croûte prend une couleur orangée."
+          },
+          "langres-fontaine": {
+            "prompt": "Quel creux caractéristique se forme sur le dessus du fromage de Langres ?",
+            "hint": "Son nom évoque un point d'eau sur une place de village.",
+            "anecdote": "Le langres n'est pas retourné pendant son affinage. Son dessus se creuse alors, formant ce qu'on appelle la « fontaine ».",
+            "answers": {
+              "la-fontaine": "La fontaine",
+              "le-puits": "Le puits",
+              "la-mare": "La mare",
+              "le-cratere": "Le cratère"
+            }
+          },
+          "photo-fromage-langres": {
+            "prompt": "Quel fromage de la Haute-Marne, à la croûte orangée et au dessus creusé, voit-on ici ?",
+            "hint": "Il porte le nom d'une ville fortifiée du département.",
+            "anecdote": "C'est le langres. Sa forme de petit cylindre creusé sur le dessus le rend facile à reconnaître.",
+            "answers": {
+              "le-langres": "Le langres",
+              "le-maroilles": "Le maroilles",
+              "le-mont-d-or": "Le mont-d'or",
+              "le-cantal": "Le cantal"
+            }
+          },
+          "rocroi-fromage": {
+            "prompt": "Quel petit fromage cendré porte le nom d'une ville fortifiée des Ardennes ?",
+            "hint": "Cette ville a des remparts en forme d'étoile.",
+            "anecdote": "Le rocroi est un fromage de vache affiné sous la cendre, parfois appelé cendré des Ardennes.",
+            "answers": {
+              "le-rocroi": "Le rocroi",
+              "le-sedan": "Le sedan",
+              "le-givet": "Le givet",
+              "le-rethel": "Le rethel"
+            }
+          },
+          "biscuit-rose-ville": {
+            "prompt": "De quelle ville le célèbre biscuit rose est-il la spécialité ?",
+            "hint": "C'est la ville des sacres des rois de France.",
+            "anecdote": "Le biscuit rose de Reims est né vers la fin du XVIIe siècle. Il doit sa texture à une double cuisson."
+          },
+          "photo-biscuit-rose": {
+            "prompt": "Quel biscuit, spécialité de Reims, voit-on sur cette photo ?",
+            "hint": "Son nom donne simplement sa couleur.",
+            "anecdote": "C'est le biscuit rose de Reims. Sa couleur vient d'un colorant ajouté à la pâte.",
+            "answers": {
+              "le-biscuit-rose": "Le biscuit rose",
+              "la-bergamote": "La bergamote",
+              "le-macaron": "Le macaron",
+              "la-madeleine": "La madeleine"
+            }
+          },
+          "biscuit-cuisson": {
+            "prompt": "Combien de cuissons le biscuit rose de Reims reçoit-il ?",
+            "hint": "Le mot « biscuit » lui-même le dit.",
+            "anecdote": "« Biscuit » signifie « cuit deux fois ». Cette double cuisson rend le biscuit rose à la fois sec et léger.",
+            "answers": {
+              "deux": "Deux",
+              "une": "Une",
+              "trois": "Trois",
+              "quatre": "Quatre"
+            }
+          },
+          "fossier": {
+            "prompt": "Quelle maison de Reims, fondée au XVIIIe siècle, fabrique des biscuits roses ?",
+            "hint": "Elle porte le nom de la famille qui l'a reprise au XIXe siècle.",
+            "anecdote": "La maison fondée à Reims en 1756, reprise au XIXe siècle par la famille Fossier, est l'un des noms les plus connus du biscuit rose.",
+            "answers": {
+              "fossier": "Fossier",
+              "lefevre-utile": "Lefèvre-Utile",
+              "michel-et-augustin": "Michel et Augustin",
+              "bonne-maman": "Bonne Maman"
+            }
+          },
+          "gateau-mollet": {
+            "prompt": "Quelle brioche traditionnelle des Ardennes est servie lors des grandes fêtes de famille ?",
+            "hint": "Son nom évoque quelque chose de doux et de moelleux.",
+            "anecdote": "Le gâteau mollet est une brioche ardennaise cuite dans un moule cannelé. Il est souvent servi lors des baptêmes et des mariages.",
+            "answers": {
+              "le-gateau-mollet": "Le gâteau mollet",
+              "le-kouglof": "Le kouglof",
+              "le-kouign-amann": "Le kouign-amann",
+              "le-far": "Le far"
+            }
+          },
+          "tarte-sucre": {
+            "prompt": "Quelle tarte briochée est une tradition des Ardennes et du nord de la France ?",
+            "hint": "Sa garniture, très simple, sort du sucrier.",
+            "anecdote": "La galette ou tarte au sucre est une pâte briochée garnie de sucre et de crème. On la trouve dans les Ardennes et dans le nord de la France.",
+            "answers": {
+              "la-tarte-au-sucre": "La tarte au sucre",
+              "la-tarte-tatin": "La tarte Tatin",
+              "la-tarte-aux-pralines": "La tarte aux pralines",
+              "la-tarte-au-citron": "La tarte au citron"
+            }
+          },
+          "vignoble-marne": {
+            "prompt": "Dans quel département se trouve la plus grande partie du vignoble de Champagne ?",
+            "hint": "C'est le département de Reims et d'Épernay.",
+            "anecdote": "La Marne concentre environ les deux tiers du vignoble de Champagne, devant l'Aube.",
+            "answers": {
+              "la-marne": "La Marne",
+              "les-ardennes": "Les Ardennes",
+              "la-haute-marne": "La Haute-Marne",
+              "l-aube": "L'Aube"
+            }
+          },
+          "ardennes-sans-vigne": {
+            "prompt": "Quel département de Champagne-Ardenne n'appartient pas à l'aire d'appellation Champagne ?",
+            "hint": "C'est le plus au nord des quatre.",
+            "anecdote": "L'appellation Champagne s'étend sur la Marne, l'Aube, la Haute-Marne, l'Aisne et la Seine-et-Marne, mais pas sur les Ardennes.",
+            "answers": {
+              "les-ardennes": "Les Ardennes",
+              "l-aube": "L'Aube",
+              "la-haute-marne": "La Haute-Marne",
+              "la-marne": "La Marne"
+            }
+          },
+          "dom-perignon": {
+            "prompt": "Quel moine de l'abbaye d'Hautvillers est resté associé à l'histoire du champagne ?",
+            "hint": "Son nom est aussi celui d'une grande cuvée.",
+            "anecdote": "Dom Pérignon a été cellérier de l'abbaye d'Hautvillers. La légende lui attribue l'invention du champagne, mais il a surtout perfectionné l'assemblage des raisins.",
+            "answers": {
+              "dom-perignon": "Dom Pérignon",
+              "saint-bernard": "Saint Bernard",
+              "frere-jacques": "Frère Jacques",
+              "rabelais": "Rabelais"
+            }
+          },
+          "photo-hautvillers": {
+            "prompt": "Quel paysage typique des coteaux de la Marne voit-on sur cette photo ?",
+            "hint": "On y récolte le raisin à la fin de l'été.",
+            "anecdote": "Ce sont les vignes de Champagne. Elles couvrent les coteaux de craie de la Marne, autour d'Hautvillers, de Reims et d'Épernay.",
+            "answers": {
+              "un-vignoble": "Un vignoble",
+              "une-oliveraie": "Une oliveraie",
+              "une-riziere": "Une rizière",
+              "une-lavanderaie": "Une lavanderaie"
+            }
+          },
+          "cepage-blanc": {
+            "prompt": "Quel raisin blanc est l'un des trois grands cépages de la Champagne ?",
+            "hint": "Il domine la Côte des Blancs.",
+            "anecdote": "Le chardonnay, le pinot noir et le meunier sont les trois principaux cépages de Champagne.",
+            "answers": {
+              "le-chardonnay": "Le chardonnay",
+              "le-riesling": "Le riesling",
+              "le-sauvignon": "Le sauvignon",
+              "le-muscat": "Le muscat"
+            }
+          },
+          "bulles": {
+            "prompt": "Où se forment les bulles dans la méthode champenoise ?",
+            "hint": "Le récipient reste bouché et couché dans la cave.",
+            "anecdote": "Une seconde fermentation a lieu dans la bouteille fermée. Le gaz produit reste prisonnier et donne les bulles.",
+            "answers": {
+              "dans-la-bouteille": "Dans la bouteille",
+              "dans-le-pressoir": "Dans le pressoir",
+              "dans-le-tonneau": "Dans le tonneau",
+              "dans-le-verre": "Dans le verre"
+            }
+          },
+          "remuage": {
+            "prompt": "Comment s'appelle le geste consistant à faire tourner peu à peu les bouteilles sur leur support ?",
+            "hint": "Le mot vient du verbe « remuer ».",
+            "anecdote": "Le remuage amène le dépôt vers le goulot. On peut ensuite l'éliminer, afin que le liquide reste limpide.",
+            "answers": {
+              "le-remuage": "Le remuage",
+              "le-brassage": "Le brassage",
+              "le-tournage": "Le tournage",
+              "le-pressage": "Le pressage"
+            }
+          },
+          "muselet": {
+            "prompt": "Comment s'appelle la petite armature de fil de fer qui retient le bouchon de champagne ?",
+            "hint": "Son nom ressemble à celui de ce que l'on met au museau d'un chien.",
+            "anecdote": "Le muselet empêche le bouchon de sauter sous la pression. Sa petite plaque de métal, la capsule, est recherchée par des collectionneurs.",
+            "answers": {
+              "le-muselet": "Le muselet",
+              "le-goulot": "Le goulot",
+              "le-cerclage": "Le cerclage",
+              "le-pontil": "Le pontil"
+            }
+          },
+          "avenue-champagne": {
+            "prompt": "Dans quelle ville se trouve la célèbre avenue de Champagne ?",
+            "hint": "Elle se trouve sur la Marne, au sud de Reims.",
+            "anecdote": "L'avenue de Champagne, à Épernay, est bordée de grandes maisons. Ses caves s'étendent sous la chaussée, dans la craie."
+          },
+          "veuve-clicquot": {
+            "prompt": "À quelle dirigeante d'une maison de Reims attribue-t-on l'invention de la table de remuage, au début du XIXe siècle ?",
+            "hint": "Elle a repris la maison de son mari après sa mort, en 1805.",
+            "anecdote": "Veuve à 27 ans, Barbe-Nicole Ponsardin a repris l'entreprise de son mari. On lui attribue la table de remuage, mise au point vers 1816.",
+            "answers": {
+              "la-veuve-clicquot": "La Veuve Clicquot",
+              "madame-de-pompadour": "Madame de Pompadour",
+              "jeanne-d-arc": "Jeanne d'Arc",
+              "marie-curie": "Marie Curie"
+            }
+          },
+          "rose-riceys": {
+            "prompt": "Quelle commune de l'Aube a donné son nom à un vin rosé réputé ?",
+            "hint": "Cette commune réunit trois anciens villages, étagés le long de la Laigne.",
+            "anecdote": "Les Riceys, dans le sud de l'Aube, disposent d'une appellation pour leur rosé, l'un des plus réputés de France.",
+            "answers": {
+              "les-riceys": "Les Riceys"
+            }
+          },
+          "cidre-othe": {
+            "prompt": "Quelle boisson est la spécialité du pays d'Othe, dans l'Aube ?",
+            "hint": "Elle est préparée à partir de pommes.",
+            "anecdote": "Le pays d'Othe, à l'ouest de Troyes, est couvert de vergers. Il produit du cidre et du jus de pomme.",
+            "answers": {
+              "le-cidre": "Le cidre",
+              "le-the": "Le thé",
+              "la-biere": "La bière",
+              "le-cafe": "Le café"
+            }
+          },
+          "carte-chaource": {
+            "prompt": "Touchez sur la carte le département où se trouve le village de Chaource.",
+            "hint": "Sa préfecture est Troyes.",
+            "anecdote": "Chaource se trouve dans l'Aube, au sud de Troyes."
+          },
+          "carte-sainte-menehould": {
+            "prompt": "Touchez sur la carte le département où se trouve Sainte-Menehould.",
+            "hint": "Ce département est aussi celui de Reims.",
+            "anecdote": "Sainte-Menehould se trouve dans la Marne, en bordure de l'Argonne, près de la limite avec la Meuse."
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "La cathédrale des sacres, les pans de bois de Troyes, la place Ducale et les grandes forteresses du territoire.",
+          "reims-unesco": {
+            "prompt": "En quelle année la cathédrale de Reims a-t-elle été inscrite au patrimoine mondial de l'Unesco ?",
+            "hint": "C'est au début des années 1990.",
+            "anecdote": "En 1991, l'Unesco a inscrit ensemble la cathédrale Notre-Dame, l'ancienne abbaye Saint-Remi et le palais du Tau.",
+            "answers": {
+              "1975": "1975",
+              "1991": "1991",
+              "2005": "2005",
+              "2015": "2015"
+            }
+          },
+          "bapteme-clovis": {
+            "prompt": "Quel roi franc a été baptisé à Reims par l'évêque Remi ?",
+            "hint": "Il est souvent présenté comme le premier roi franc chrétien.",
+            "anecdote": "Ce baptême, à la fin du Ve siècle ou au début du VIe, explique en partie le choix de Reims pour le sacre des rois de France.",
+            "answers": {
+              "clovis": "Clovis",
+              "charlemagne": "Charlemagne",
+              "pepin-le-bref": "Pépin le Bref",
+              "dagobert": "Dagobert"
+            }
+          },
+          "photo-ange": {
+            "prompt": "Quel surnom porte le célèbre ange de ce portail de la cathédrale de Reims ?",
+            "hint": "Observez bien l'expression de son visage.",
+            "anecdote": "L'ange au sourire orne le portail nord de la façade. Brisé par l'incendie de 1914, il a été restauré après la guerre.",
+            "answers": {
+              "l-ange-au-sourire": "L'ange au sourire",
+              "l-ange-pleureur": "L'ange pleureur",
+              "l-ange-endormi": "L'ange endormi",
+              "l-ange-gardien": "L'ange gardien"
+            }
+          },
+          "photo-tau": {
+            "prompt": "Quel palais voisin de la cathédrale de Reims accueillait les rois de France le jour de leur sacre ?",
+            "hint": "Son nom est celui d'une lettre grecque.",
+            "anecdote": "Le palais du Tau, ancienne résidence des archevêques, doit son nom à la forme en T de son plan. Il abrite aujourd'hui un musée.",
+            "answers": {
+              "le-palais-du-tau": "Le palais du Tau",
+              "le-palais-de-l-isle": "Le palais de l'Isle",
+              "le-palais-rohan": "Le palais Rohan",
+              "le-palais-ducal": "Le palais Ducal"
+            }
+          },
+          "photo-porte-mars": {
+            "prompt": "Quel monument antique de Reims voit-on ici ?",
+            "hint": "Son nom est celui du dieu romain de la guerre.",
+            "anecdote": "La porte de Mars est un arc romain construit vers le IIIe siècle, à l'époque où la ville s'appelait Durocortorum.",
+            "answers": {
+              "la-porte-de-mars": "La porte de Mars",
+              "la-porte-noire": "La porte Noire",
+              "l-arc-de-trajan": "L'arc de Trajan",
+              "la-porte-d-arroux": "La porte d'Arroux"
+            }
+          },
+          "durocortorum": {
+            "prompt": "Comment s'appelait Reims à l'époque romaine ?",
+            "hint": "Les autres noms désignent Paris, Metz et Strasbourg.",
+            "anecdote": "Durocortorum était la capitale de la province de Gaule belgique. Le nom de Reims vient du peuple gaulois des Rèmes.",
+            "answers": {
+              "durocortorum": "Durocortorum",
+              "lutece": "Lutèce",
+              "divodurum": "Divodurum",
+              "argentoratum": "Argentoratum"
+            }
+          },
+          "reddition-reims": {
+            "prompt": "Quel événement historique s'est déroulé à Reims le 7 mai 1945 ?",
+            "hint": "Il concerne la fin de la guerre en Europe.",
+            "anecdote": "La capitulation allemande a été signée dans une salle d'école de Reims, au quartier général du général Eisenhower. Le musée de la Reddition s'y trouve.",
+            "answers": {
+              "la-capitulation-allemande": "La capitulation allemande",
+              "le-sacre-de-charles-x": "Le sacre de Charles X",
+              "le-traite-de-versailles": "Le traité de Versailles",
+              "la-liberation-de-paris": "La libération de Paris"
+            }
+          },
+          "reims-art-deco": {
+            "prompt": "Quel style marque de nombreux bâtiments de Reims, reconstruits après la Première Guerre mondiale ?",
+            "hint": "Son nom abrégé fait référence aux arts décoratifs.",
+            "anecdote": "Très détruite entre 1914 et 1918, Reims a été largement reconstruite dans les années 1920. La bibliothèque Carnegie en est un bel exemple.",
+            "answers": {
+              "l-art-deco": "L'Art déco",
+              "le-baroque": "Le baroque",
+              "le-gothique": "Le gothique",
+              "l-art-roman": "L'art roman"
+            }
+          },
+          "cathedrale-1914": {
+            "prompt": "En quelle année la cathédrale de Reims a-t-elle été incendiée par les bombardements ?",
+            "hint": "C'est le début de la Première Guerre mondiale.",
+            "anecdote": "Le 19 septembre 1914, le feu a pris dans les échafaudages et a détruit la charpente. La cathédrale n'a été rendue au culte qu'en 1938.",
+            "answers": {
+              "1789": "1789",
+              "1870": "1870",
+              "1914": "1914",
+              "1940": "1940"
+            }
+          },
+          "photo-avenue": {
+            "prompt": "Dans quelle ville de la Marne se trouve cette avenue, bordée de grandes maisons de champagne ?",
+            "hint": "Elle se trouve au sud de Reims, au bord de la Marne.",
+            "anecdote": "L'avenue de Champagne, à Épernay, est inscrite au patrimoine mondial. Des kilomètres de caves s'étendent sous ses façades.",
+            "answers": {
+              "vertus": "Vertus",
+              "ay-champagne": "Aÿ-Champagne"
+            }
+          },
+          "bouchon-troyes": {
+            "prompt": "À quel objet le plan du centre historique de Troyes est-il souvent comparé ?",
+            "hint": "Il a un rapport avec une bouteille célèbre de la région.",
+            "anecdote": "Vu du ciel, le cœur de Troyes évoque un bouchon de champagne, avec sa partie large et sa tête plus étroite.",
+            "answers": {
+              "un-bouchon-de-champagne": "Un bouchon de champagne",
+              "une-grappe-de-raisin": "Une grappe de raisin",
+              "une-cle": "Une clé",
+              "un-coeur": "Un cœur"
+            }
+          },
+          "photo-cathedrale-troyes": {
+            "prompt": "Quelle cathédrale, à une seule tour, se trouve dans la préfecture de l'Aube ?",
+            "hint": "Elle est dédiée à deux apôtres.",
+            "anecdote": "La cathédrale Saint-Pierre-et-Saint-Paul de Troyes devait recevoir deux tours, mais la seconde n'a jamais été construite.",
+            "answers": {
+              "saint-pierre-et-saint-paul": "Saint-Pierre-et-Saint-Paul",
+              "saint-etienne": "Saint-Étienne",
+              "notre-dame": "Notre-Dame",
+              "saint-mammes": "Saint-Mammès"
+            }
+          },
+          "foires-champagne": {
+            "prompt": "Quelles rencontres marchandes ont fait la richesse de Troyes au Moyen Âge ?",
+            "hint": "Des marchands y venaient de toute l'Europe.",
+            "anecdote": "Les foires de Champagne se tenaient à Troyes, Provins, Lagny et Bar-sur-Aube. Elles ont culminé aux XIIe et XIIIe siècles.",
+            "answers": {
+              "les-foires-de-champagne": "Les foires de Champagne",
+              "les-marches-de-noel": "Les marchés de Noël",
+              "les-comices-agricoles": "Les comices agricoles",
+              "les-bourses-de-lyon": "Les bourses de Lyon"
+            }
+          },
+          "once-troy": {
+            "prompt": "Quelle matière précieuse est encore pesée avec l'once « troy », unité dont le nom rappellerait les foires de Troyes ?",
+            "hint": "On en fait des lingots et des bijoux.",
+            "anecdote": "L'once troy, d'environ 31 grammes, reste utilisée pour coter les métaux précieux. Son nom est généralement rattaché à la ville de Troyes.",
+            "answers": {
+              "l-or": "L'or",
+              "le-ble": "Le blé",
+              "le-sel": "Le sel",
+              "la-laine": "La laine"
+            }
+          },
+          "chretien-troyes": {
+            "prompt": "Quel écrivain du XIIe siècle a composé des romans de chevalerie à la cour de Marie de Champagne ?",
+            "hint": "On lui doit « Perceval » et « Lancelot ».",
+            "anecdote": "Chrétien de Troyes a écrit plusieurs romans sur les chevaliers de la Table ronde, à la cour de Marie de Champagne.",
+            "answers": {
+              "chretien-de-troyes": "Chrétien de Troyes",
+              "rabelais": "Rabelais",
+              "moliere": "Molière",
+              "victor-hugo": "Victor Hugo"
+            }
+          },
+          "saint-urbain": {
+            "prompt": "Quel pape, né à Troyes, a fait bâtir une église gothique à l'emplacement de sa maison natale ?",
+            "hint": "Fils d'un cordonnier troyen, il s'appelait Jacques Pantaléon.",
+            "anecdote": "Jacques Pantaléon, fils d'un cordonnier troyen, est devenu le pape Urbain IV en 1261. Il a lancé la construction de cette église gothique.",
+            "answers": {
+              "urbain-iv": "Urbain IV",
+              "jean-paul-ii": "Jean-Paul II",
+              "gregoire-vii": "Grégoire VII",
+              "clement-v": "Clément V"
+            }
+          },
+          "traite-troyes": {
+            "prompt": "En quelle année le traité de Troyes a-t-il fait du roi d'Angleterre l'héritier du trône de France ?",
+            "hint": "C'est pendant la guerre de Cent Ans, au début du XVe siècle.",
+            "anecdote": "Signé en 1420, le traité de Troyes a écarté le futur Charles VII au profit d'Henri V d'Angleterre.",
+            "answers": {
+              "1214": "1214",
+              "1420": "1420",
+              "1515": "1515",
+              "1789": "1789"
+            }
+          },
+          "cite-vitrail": {
+            "prompt": "Quel art du verre coloré est à l'honneur dans l'Aube, avec une « Cité » qui lui est consacrée à Troyes ?",
+            "hint": "On l'admire dans les fenêtres des églises.",
+            "anecdote": "L'Aube conserve l'un des plus riches ensembles de vitraux de France. La Cité du Vitrail les présente à l'Hôtel-Dieu de Troyes.",
+            "answers": {
+              "le-vitrail": "Le vitrail",
+              "la-tapisserie": "La tapisserie",
+              "la-mosaique": "La mosaïque",
+              "la-fresque": "La fresque"
+            }
+          },
+          "carte-troyes": {
+            "prompt": "Touchez sur la carte le département où se trouve Troyes.",
+            "hint": "Il porte le nom d'une rivière, qui s'écrit comme le lever du jour.",
+            "anecdote": "Troyes est la préfecture de l'Aube, sur la Seine."
+          },
+          "place-ducale-fondateur": {
+            "prompt": "Quel prince a fondé la ville de Charleville, au début du XVIIe siècle ?",
+            "hint": "La ville porte son prénom.",
+            "anecdote": "Charles de Gonzague, duc de Nevers et de Rethel, a fondé Charleville en 1606 et lui a donné son nom.",
+            "answers": {
+              "charles-de-gonzague": "Charles de Gonzague",
+              "charles-quint": "Charles Quint",
+              "charles-vii": "Charles VII",
+              "charles-de-gaulle": "Charles de Gaulle"
+            }
+          },
+          "place-ducale-ressemble": {
+            "prompt": "À quelle célèbre place parisienne la place Ducale de Charleville-Mézières est-elle souvent comparée ?",
+            "hint": "Elle a été construite à la même époque, sous Henri IV et Louis XIII.",
+            "anecdote": "Avec ses arcades, ses briques et ses toits d'ardoise, la place Ducale ressemble à la place des Vosges, à Paris.",
+            "answers": {
+              "la-place-des-vosges": "La place des Vosges",
+              "la-place-vendome": "La place Vendôme",
+              "la-place-de-la-concorde": "La place de la Concorde",
+              "la-place-de-la-bastille": "La place de la Bastille"
+            }
+          },
+          "photo-sedan": {
+            "prompt": "Quel immense château fort des Ardennes voit-on ici ?",
+            "hint": "Il domine une ville de la Meuse, à l'est de Charleville-Mézières.",
+            "anecdote": "Le château de Sedan couvre plus de 30 000 mètres carrés sur plusieurs niveaux. Il compte parmi les plus grands châteaux forts d'Europe.",
+            "answers": {
+              "le-chateau-de-sedan": "Le château de Sedan",
+              "le-chateau-de-vincennes": "Le château de Vincennes",
+              "le-chateau-de-carcassonne": "Le château de Carcassonne",
+              "le-chateau-de-vitre": "Le château de Vitré"
+            }
+          },
+          "turenne-sedan": {
+            "prompt": "Quel grand maréchal de Louis XIV est né au château de Sedan, en 1611 ?",
+            "hint": "On le désigne souvent par son titre de vicomte.",
+            "anecdote": "Henri de La Tour d'Auvergne, vicomte de Turenne, est considéré comme l'un des plus grands chefs militaires de son temps.",
+            "answers": {
+              "turenne": "Turenne",
+              "vauban": "Vauban",
+              "bayard": "Bayard",
+              "massena": "Masséna"
+            }
+          },
+          "sedan-1870": {
+            "prompt": "Quel empereur a capitulé à Sedan en septembre 1870 ?",
+            "hint": "C'est le neveu du plus célèbre des empereurs français.",
+            "anecdote": "La défaite de Sedan, le 2 septembre 1870, a entraîné la chute du Second Empire et la proclamation de la République à Paris.",
+            "answers": {
+              "napoleon-iii": "Napoléon III",
+              "napoleon-ier": "Napoléon Ier",
+              "charles-quint": "Charles Quint",
+              "louis-philippe": "Louis-Philippe"
+            }
+          },
+          "photo-rocroi": {
+            "prompt": "Quelle ville des Ardennes a conservé ces fortifications, qui lui donnent une forme d'étoile ?",
+            "hint": "Elle a donné son nom à une célèbre bataille de 1643.",
+            "anecdote": "Rocroi, sur le plateau ardennais, a été fortifiée au XVIe siècle et améliorée par Vauban. Ses remparts dessinent une étoile à cinq branches.",
+            "answers": {
+              "neuf-brisach": "Neuf-Brisach",
+              "longwy": "Longwy",
+              "bouillon": "Bouillon"
+            }
+          },
+          "bataille-rocroi": {
+            "prompt": "Quel jeune chef, futur « Grand Condé », a remporté la bataille de Rocroi en 1643 ?",
+            "hint": "Il a alors 21 ans et ne porte pas encore le titre de prince de Condé.",
+            "anecdote": "À 21 ans, le duc d'Enghien a battu les troupes espagnoles à Rocroi, quelques jours après la mort de Louis XIII.",
+            "answers": {
+              "le-duc-d-enghien": "Le duc d'Enghien",
+              "le-duc-de-guise": "Le duc de Guise",
+              "le-marechal-ney": "Le maréchal Ney",
+              "le-general-kleber": "Le général Kléber"
+            }
+          },
+          "photo-charlemont": {
+            "prompt": "Dans quelle ville de la pointe nord des Ardennes se trouve le fort de Charlemont ?",
+            "hint": "C'est la dernière ville française sur la Meuse, avant la Belgique.",
+            "anecdote": "Le fort de Charlemont, dont le nom rappelle Charles Quint, domine Givet et la vallée de la Meuse.",
+            "answers": {
+              "nouzonville": "Nouzonville"
+            }
+          },
+          "photo-esperance": {
+            "prompt": "Quel siège de 1521, défendu par le chevalier Bayard, a interrompu le chantier de cette basilique ?",
+            "hint": "La ville assiégée est aujourd'hui rattachée à Charleville.",
+            "anecdote": "Bayard a résisté aux troupes de Charles Quint à Mézières. Le chantier de la basilique Notre-Dame-de-l'Espérance, commencé en 1499, a été interrompu pendant ce siège.",
+            "answers": {
+              "le-siege-de-mezieres": "Le siège de Mézières",
+              "le-siege-d-orleans": "Le siège d'Orléans",
+              "le-siege-de-la-rochelle": "Le siège de La Rochelle",
+              "le-siege-de-metz": "Le siège de Metz"
+            }
+          },
+          "carte-sedan": {
+            "prompt": "Touchez sur la carte le département où se trouve le château de Sedan.",
+            "hint": "C'est le plus proche de la Belgique dans ce territoire.",
+            "anecdote": "Sedan se trouve dans les Ardennes, sur la Meuse, à quelques kilomètres de la frontière belge."
+          },
+          "photo-vaux": {
+            "prompt": "Dans quelle préfecture de la Marne se dresse la collégiale Notre-Dame-en-Vaux ?",
+            "hint": "Reims la dépasse largement en population.",
+            "anecdote": "Notre-Dame-en-Vaux, à Châlons-en-Champagne, est inscrite au patrimoine mondial au titre des chemins de Saint-Jacques-de-Compostelle.",
+            "answers": {
+              "vertus": "Vertus"
+            }
+          },
+          "vitry-francois": {
+            "prompt": "Quel roi de France a fait reconstruire Vitry, détruite en 1544, et lui a laissé son nom ?",
+            "hint": "Il a régné à l'époque de la Renaissance.",
+            "anecdote": "Après la destruction de Vitry-en-Perthois par Charles Quint, François Ier a fait bâtir une nouvelle ville au plan en damier : Vitry-le-François.",
+            "answers": {
+              "francois-ier": "François Ier",
+              "henri-iv": "Henri IV",
+              "louis-xiv": "Louis XIV",
+              "philippe-auguste": "Philippe Auguste"
+            }
+          },
+          "photo-outines": {
+            "prompt": "En quel matériau sont construits les murs de cette église de la région du Der ?",
+            "hint": "La région manquait de pierre, mais avait de grandes forêts.",
+            "anecdote": "L'église Saint-Nicolas d'Outines illustre l'architecture à pans de bois du Der, où le bois et le torchis remplaçaient la pierre.",
+            "answers": {
+              "en-pans-de-bois": "En pans de bois",
+              "en-granit": "En granit",
+              "en-marbre": "En marbre",
+              "en-ardoise": "En ardoise"
+            }
+          },
+          "photo-langres": {
+            "prompt": "Quelle ville de la Haute-Marne est entourée par ces longs remparts ?",
+            "hint": "C'est la ville natale de Denis Diderot.",
+            "anecdote": "Les remparts de Langres s'étendent sur environ 3,5 kilomètres et offrent une vue étendue sur le plateau et ses lacs."
+          },
+          "photo-mammes": {
+            "prompt": "À quel saint la cathédrale de Langres est-elle dédiée ?",
+            "hint": "Ce martyr venait de Cappadoce, en Asie Mineure.",
+            "anecdote": "La cathédrale Saint-Mammès a été construite au XIIe siècle. Elle mêle la tradition romane de Bourgogne et le début du gothique.",
+            "answers": {
+              "saint-mammes": "Saint Mammès",
+              "saint-nicolas": "Saint Nicolas",
+              "saint-remi": "Saint Remi",
+              "saint-martin": "Saint Martin"
+            }
+          },
+          "photo-grand-jardin": {
+            "prompt": "Dans quelle ville de la Haute-Marne se trouve le château du Grand Jardin ?",
+            "hint": "Elle se trouve sur la Marne, et un célèbre chroniqueur de saint Louis porte son nom.",
+            "anecdote": "Le Grand Jardin, à Joinville, a été bâti au XVIe siècle pour Claude de Lorraine, premier duc de Guise. C'est un bel exemple de la Renaissance.",
+            "answers": {
+              "bologne": "Bologne"
+            }
+          },
+          "chaumont-graphisme": {
+            "prompt": "Quel art est mis à l'honneur à Chaumont, avec le centre national du Signe et une biennale ?",
+            "hint": "Il rassemble affiches, typographies et mises en page.",
+            "anecdote": "Chaumont, qui collectionne les affiches depuis plus d'un siècle, s'est imposée comme un grand rendez-vous du design graphique.",
+            "answers": {
+              "le-design-graphique": "Le design graphique",
+              "la-danse-classique": "La danse classique",
+              "le-cinema-muet": "Le cinéma muet",
+              "la-ceramique": "La céramique"
+            }
+          },
+          "brienne-napoleon": {
+            "prompt": "Quel futur empereur a étudié à l'école militaire de Brienne-le-Château, dans l'Aube ?",
+            "hint": "Il y est entré à neuf ans, à son arrivée de Corse.",
+            "anecdote": "Napoléon Bonaparte a étudié à Brienne de 1779 à 1784. Un musée, installé dans l'ancienne école, évoque cette période.",
+            "answers": {
+              "napoleon-bonaparte": "Napoléon Bonaparte",
+              "charles-quint": "Charles Quint",
+              "louis-napoleon": "Louis-Napoléon",
+              "pierre-le-grand": "Pierre le Grand"
+            }
+          },
+          "carte-langres": {
+            "prompt": "Touchez sur la carte le département où se trouve la ville fortifiée de Langres.",
+            "hint": "Sa préfecture est Chaumont.",
+            "anecdote": "Langres se trouve au sud de la Haute-Marne, sur le plateau qui porte son nom."
+          },
+          "chalons-ancien-nom": {
+            "prompt": "Quel nom portait Châlons-en-Champagne jusqu'à la fin du XXe siècle ?",
+            "hint": "Il rappelait la rivière qui traverse la ville.",
+            "anecdote": "La ville s'est longtemps appelée Châlons-sur-Marne. Son nouveau nom a été définitivement adopté à la fin de 1997.",
+            "answers": {
+              "chalons-sur-marne": "Châlons-sur-Marne",
+              "chalons-sur-saone": "Châlons-sur-Saône",
+              "chalons-le-comte": "Châlons-le-Comte",
+              "chalons-la-ville": "Châlons-la-Ville"
+            }
+          },
+          "apothicairerie-troyes": {
+            "prompt": "Quel lieu ancien, garni de 319 boîtes peintes, se visite à l'Hôtel-Dieu-le-Comte de Troyes ?",
+            "hint": "On y préparait les remèdes de l'hôpital.",
+            "anecdote": "L'apothicairerie du XVIIIe siècle a conservé ses boîtes peintes, ses faïences et ses flacons de verre.",
+            "answers": {
+              "une-apothicairerie": "Une apothicairerie",
+              "une-bibliotheque": "Une bibliothèque",
+              "une-salle-d-armes": "Une salle d'armes",
+              "une-imprimerie": "Une imprimerie"
+            }
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Coteaux et caves inscrits à l'Unesco, bonneterie, marionnettes, coutellerie et grandes figures du territoire.",
+          "unesco-coteaux": {
+            "prompt": "En quelle année les coteaux, maisons et caves de Champagne ont-ils été inscrits au patrimoine mondial ?",
+            "hint": "C'est au milieu des années 2010.",
+            "anecdote": "L'inscription de 2015 distingue trois ensembles : les coteaux historiques, la colline Saint-Nicaise à Reims et l'avenue de Champagne à Épernay.",
+            "answers": {
+              "1991": "1991",
+              "2001": "2001",
+              "2015": "2015",
+              "2023": "2023"
+            }
+          },
+          "saint-nicaise": {
+            "prompt": "Quelle colline de Reims, percée de crayères, fait partie du bien inscrit à l'Unesco en 2015 ?",
+            "hint": "Elle porte le nom d'un évêque de Reims.",
+            "anecdote": "Les crayères de la colline Saint-Nicaise, anciennes carrières de craie, servent de caves à de grandes maisons de champagne.",
+            "answers": {
+              "la-colline-saint-nicaise": "La colline Saint-Nicaise",
+              "la-butte-montmartre": "La butte Montmartre",
+              "la-colline-de-fourviere": "La colline de Fourvière",
+              "le-mont-sainte-odile": "Le mont Sainte-Odile"
+            }
+          },
+          "crayeres": {
+            "prompt": "Dans quelle roche sont creusées les caves de la Champagne ?",
+            "hint": "C'est une roche blanche, tendre et poreuse.",
+            "anecdote": "La craie garde une température fraîche et stable toute l'année, un atout pour conserver les bouteilles.",
+            "answers": {
+              "la-craie": "La craie",
+              "le-granit": "Le granit",
+              "le-basalte": "Le basalte",
+              "le-gres-rose": "Le grès rose"
+            }
+          },
+          "photo-verzenay": {
+            "prompt": "Quel édifice étonnant se dresse au milieu des vignes de Verzenay, loin de toute côte ?",
+            "hint": "On en voit plutôt d'habitude au bord de la mer.",
+            "anecdote": "Le phare de Verzenay a été construit en 1909 pour la publicité du champagne Joseph Goulet. Il abrite aujourd'hui un musée de la vigne.",
+            "answers": {
+              "un-phare": "Un phare",
+              "un-moulin": "Un moulin",
+              "un-chateau-d-eau": "Un château d'eau",
+              "un-clocher": "Un clocher"
+            }
+          },
+          "photo-moulin-verzenay": {
+            "prompt": "Quel bâtiment domine ici les vignes de la Montagne de Reims, à Verzenay ?",
+            "hint": "Il a des ailes, mais il ne vole pas.",
+            "anecdote": "Le moulin de Verzenay, édifié en 1818, a servi d'observatoire pendant la Première Guerre mondiale.",
+            "answers": {
+              "un-moulin-a-vent": "Un moulin à vent",
+              "une-grange": "Une grange",
+              "un-pigeonnier": "Un pigeonnier",
+              "une-chapelle": "Une chapelle"
+            }
+          },
+          "photo-abbaye-hautvillers": {
+            "prompt": "Quel moine célèbre a travaillé dans cette abbaye d'Hautvillers, où il repose ?",
+            "hint": "Il en était le cellérier, chargé de la vigne et des caves.",
+            "anecdote": "Dom Pierre Pérignon, mort en 1715, a passé près de cinquante ans à l'abbaye Saint-Pierre d'Hautvillers, où se trouve sa pierre tombale.",
+            "answers": {
+              "dom-perignon": "Dom Pérignon",
+              "dom-bosco": "Dom Bosco",
+              "saint-benoit": "Saint Benoît",
+              "bernard-de-clairvaux": "Bernard de Clairvaux"
+            }
+          },
+          "photo-caves": {
+            "prompt": "À quoi ont d'abord servi ces galeries de Reims, montrées sur cette affiche ancienne ?",
+            "hint": "On en extrayait la roche blanche du sous-sol.",
+            "anecdote": "Ces galeries sont d'anciennes carrières de craie, reconverties en caves. Certaines ont aussi servi d'abris pendant la Grande Guerre.",
+            "answers": {
+              "des-carrieres-de-craie": "Des carrières de craie",
+              "des-mines-d-or": "Des mines d'or",
+              "des-egouts": "Des égouts",
+              "des-tunnels-de-metro": "Des tunnels de métro"
+            }
+          },
+          "vendange-main": {
+            "prompt": "Comment le raisin doit-il être récolté dans le vignoble de Champagne ?",
+            "hint": "Les machines ne sont pas autorisées.",
+            "anecdote": "Le règlement de l'appellation impose la vendange à la main. Les grappes arrivent ainsi entières au pressoir.",
+            "answers": {
+              "a-la-main": "À la main",
+              "a-la-machine": "À la machine",
+              "au-rateau": "Au râteau",
+              "a-la-faux": "À la faux"
+            }
+          },
+          "grande-saison": {
+            "prompt": "À quel moment de l'année ont généralement lieu les vendanges en Champagne ?",
+            "hint": "C'est la fin de l'été, parfois le début de l'automne.",
+            "anecdote": "La date varie selon les années et le mûrissement du raisin. Les vendanges commencent en général fin août ou en septembre.",
+            "answers": {
+              "fin-aout-et-septembre": "Fin août et septembre",
+              "en-mars": "En mars",
+              "en-juin": "En juin",
+              "en-decembre": "En décembre"
+            }
+          },
+          "bonneterie": {
+            "prompt": "Quelle industrie du textile a fait de Troyes une grande capitale européenne ?",
+            "hint": "Elle fabrique des bonnets, des chaussettes et d'autres tricots.",
+            "anecdote": "La bonneterie s'est développée à Troyes à partir du XVIIIe siècle. Petit Bateau y est née, et des polos Lacoste y sont fabriqués.",
+            "answers": {
+              "la-bonneterie": "La bonneterie",
+              "la-soierie": "La soierie",
+              "la-dentelle": "La dentelle",
+              "le-cuir": "Le cuir"
+            }
+          },
+          "petit-bateau": {
+            "prompt": "Quelle marque de sous-vêtements pour enfants est née d'une bonneterie fondée à Troyes en 1893 ?",
+            "hint": "Son nom évoque une comptine et une petite embarcation.",
+            "anecdote": "Petit Bateau est née de la bonneterie troyenne de Pierre Valton, ouverte en 1893. La marque, déposée en 1920, tirerait son nom de la chanson « Maman, les p'tits bateaux ».",
+            "answers": {
+              "petit-bateau": "Petit Bateau",
+              "cyrillus": "Cyrillus",
+              "bonpoint": "Bonpoint",
+              "jacadi": "Jacadi"
+            }
+          },
+          "magasins-usine": {
+            "prompt": "Quel type de commerce, né du textile, attire de nombreux visiteurs près de Troyes ?",
+            "hint": "On y vend directement aux clients, à prix réduits.",
+            "anecdote": "Les magasins d'usine de Troyes sont nés de la vente directe des fabricants. Ils se trouvent à Pont-Sainte-Marie et Saint-Julien-les-Villas.",
+            "answers": {
+              "les-magasins-d-usine": "Les magasins d'usine",
+              "les-marches-flottants": "Les marchés flottants",
+              "les-bouquinistes": "Les bouquinistes",
+              "les-halles-couvertes": "Les halles couvertes"
+            }
+          },
+          "outil": {
+            "prompt": "Quel musée de Troyes, installé dans l'hôtel de Mauroy, présente des milliers d'outils anciens ?",
+            "hint": "Son nom évoque la main et la pensée des artisans.",
+            "anecdote": "Ce musée présente des milliers d'outils anciens, réunis par le père Paul Feller. Les Compagnons du Devoir ont repris sa collection.",
+            "answers": {
+              "la-maison-de-l-outil-et-de-la-pensee-ouvriere": "La Maison de l'Outil et de la Pensée ouvrière",
+              "la-cite-du-vitrail": "La Cité du Vitrail",
+              "le-musee-saint-loup": "Le musée Saint-Loup",
+              "le-musee-d-art-moderne": "Le musée d'Art moderne"
+            }
+          },
+          "coutellerie": {
+            "prompt": "Quelle fabrication est la spécialité de Nogent, en Haute-Marne ?",
+            "hint": "On en trouve dans la cuisine, sur la table et dans la poche.",
+            "anecdote": "La coutellerie de Nogent remonte au moins au XVIIIe siècle. La ville a gardé des ateliers et un musée qui lui est consacré.",
+            "answers": {
+              "la-coutellerie": "La coutellerie",
+              "la-faience": "La faïence",
+              "l-horlogerie": "L'horlogerie",
+              "la-verrerie": "La verrerie"
+            }
+          },
+          "vannerie": {
+            "prompt": "Quel savoir-faire est enseigné à Fayl-Billot, en Haute-Marne, dans une école nationale ?",
+            "hint": "On y tresse des paniers en osier.",
+            "anecdote": "Fayl-Billot accueille l'École nationale d'osiériculture et de vannerie, créée en 1905.",
+            "answers": {
+              "la-vannerie": "La vannerie",
+              "la-poterie": "La poterie",
+              "la-tonnellerie": "La tonnellerie",
+              "la-forge": "La forge"
+            }
+          },
+          "fonderie-haute-marne": {
+            "prompt": "Quel matériau travaillent les grandes fonderies historiques de Haute-Marne, comme Dommartin-le-Franc ?",
+            "hint": "On en fait des statues et des fontaines.",
+            "anecdote": "La fonte d'art a fait la réputation de la Haute-Marne, entre 1830 et 1930 environ. Ses fonderies ont coulé des statues et du mobilier urbain.",
+            "answers": {
+              "la-fonte": "La fonte",
+              "le-verre": "Le verre",
+              "l-argile": "L'argile",
+              "le-lin": "Le lin"
+            }
+          },
+          "ardoise-fumay": {
+            "prompt": "Quelle roche a longtemps été exploitée à Fumay, dans la vallée de la Meuse ?",
+            "hint": "Elle couvre les toits de la région.",
+            "anecdote": "Les ardoises de Fumay ont couvert de nombreux toits pendant des siècles. Un musée de l'Ardoise rappelle ce travail de mine.",
+            "answers": {
+              "l-ardoise": "L'ardoise",
+              "le-marbre-de-carrare": "Le marbre de Carrare",
+              "le-gypse": "Le gypse",
+              "l-argile": "L'argile"
+            }
+          },
+          "marionnettes": {
+            "prompt": "De quel art Charleville-Mézières est-elle considérée comme la capitale mondiale ?",
+            "hint": "Ses personnages sont animés par des fils ou par la main.",
+            "anecdote": "Le Festival mondial des théâtres de marionnettes y est organisé depuis 1961, et la ville accueille aussi une grande école nationale.",
+            "answers": {
+              "la-marionnette": "La marionnette",
+              "le-mime": "Le mime",
+              "le-cirque": "Le cirque",
+              "la-bande-dessinee": "La bande dessinée"
+            }
+          },
+          "festival-marionnettes": {
+            "prompt": "Quel marionnettiste de Charleville a créé le Festival mondial des théâtres de marionnettes, en 1961 ?",
+            "hint": "Sa troupe s'appelait les Petits Comédiens de Chiffon.",
+            "anecdote": "Jacques Félix a lancé ce festival en 1961. Il est devenu un grand rendez-vous international.",
+            "answers": {
+              "jacques-felix": "Jacques Félix",
+              "jacques-brel": "Jacques Brel",
+              "jacques-tati": "Jacques Tati",
+              "jacques-prevert": "Jacques Prévert"
+            }
+          },
+          "cirque-chalons": {
+            "prompt": "Quel art vivant est enseigné à Châlons-en-Champagne dans un centre national, installé dans un bâtiment circulaire de 1899 ?",
+            "hint": "On y apprend les acrobaties et le trapèze.",
+            "anecdote": "Le Centre national des arts du cirque occupe à Châlons un bâtiment historique, le cirque municipal, ouvert en 1899.",
+            "answers": {
+              "le-cirque": "Le cirque",
+              "l-opera": "L'opéra",
+              "la-danse": "La danse",
+              "la-magie": "La magie"
+            }
+          },
+          "sanglier-woinic": {
+            "prompt": "Quel surnom porte l'immense sanglier en acier, érigé près de l'autoroute des Ardennes ?",
+            "hint": "Il a été réalisé à Bogny-sur-Meuse, puis installé sur une aire de l'A34.",
+            "anecdote": "Woinic, œuvre du sculpteur Éric Sléziak, est un sanglier d'acier d'environ 50 tonnes, sur la commune de Saulces-Monclin.",
+            "answers": {
+              "woinic": "Woinic",
+              "obelix": "Obélix",
+              "sangliou": "Sangliou",
+              "gros-pif": "Gros-Pif"
+            }
+          },
+          "quatre-fils": {
+            "prompt": "Quel cheval légendaire emmène les quatre fils Aymon dans les récits ardennais ?",
+            "hint": "Il porte le même nom que le chevalier défenseur de Mézières.",
+            "anecdote": "Selon la légende, le cheval Bayard portait sur son dos les quatre frères poursuivis par Charlemagne. Une statue les évoque à Bogny-sur-Meuse.",
+            "answers": {
+              "bayard": "Bayard",
+              "rossinante": "Rossinante",
+              "pegase": "Pégase",
+              "bucephale": "Bucéphale"
+            }
+          },
+          "roche-sept-heures": {
+            "prompt": "Quel point de vue des Ardennes offre un panorama sur la boucle de la Meuse, à Monthermé ?",
+            "hint": "Son nom évoque une heure de la journée.",
+            "anecdote": "La Roche à Sept Heures domine la boucle de la Meuse. Le soleil y arriverait à sept heures, d'où son nom selon une explication courante.",
+            "answers": {
+              "la-roche-a-sept-heures": "La Roche à Sept Heures",
+              "les-dames-de-meuse": "Les Dames de Meuse",
+              "le-mont-malgre-tout": "Le Mont Malgré Tout",
+              "le-roc-la-tour": "Le Roc la Tour"
+            }
+          },
+          "rimbaud-naissance": {
+            "prompt": "Quel poète, auteur du « Bateau ivre », est né à Charleville en 1854 ?",
+            "hint": "Il a abandonné la poésie à l'âge de vingt ans environ.",
+            "anecdote": "Arthur Rimbaud a écrit ses grands poèmes très jeune. Il repose au cimetière de Charleville.",
+            "answers": {
+              "arthur-rimbaud": "Arthur Rimbaud",
+              "paul-verlaine": "Paul Verlaine",
+              "charles-baudelaire": "Charles Baudelaire",
+              "guillaume-apollinaire": "Guillaume Apollinaire"
+            }
+          },
+          "photo-rimbaud": {
+            "prompt": "Quel poète de Charleville est représenté sur ce célèbre portrait d'Étienne Carjat ?",
+            "hint": "Il est l'auteur du « Bateau ivre ».",
+            "anecdote": "Ce portrait de Rimbaud, pris à la fin de 1871, est l'image la plus connue du poète, alors âgé de 17 ans.",
+            "answers": {
+              "arthur-rimbaud": "Arthur Rimbaud",
+              "victor-hugo": "Victor Hugo",
+              "stephane-mallarme": "Stéphane Mallarmé",
+              "alfred-de-musset": "Alfred de Musset"
+            }
+          },
+          "claudel-sculptrice": {
+            "prompt": "Quelle sculptrice, née en 1864 à Fère-en-Tardenois, a grandi à Nogent-sur-Seine, où un musée lui est consacré ?",
+            "hint": "Elle a été l'élève et la collaboratrice de Rodin.",
+            "anecdote": "Camille Claudel a passé une partie de son enfance à Nogent-sur-Seine. Le musée qui porte son nom y a ouvert en 2017.",
+            "answers": {
+              "camille-claudel": "Camille Claudel",
+              "niki-de-saint-phalle": "Niki de Saint Phalle",
+              "louise-bourgeois": "Louise Bourgeois",
+              "marie-curie": "Marie Curie"
+            }
+          },
+          "photo-claudel": {
+            "prompt": "Quelle sculptrice a créé cette œuvre, La Valse ?",
+            "hint": "Son frère, Paul, était un écrivain célèbre.",
+            "anecdote": "La Valse est l'une des œuvres les plus connues de Camille Claudel. Le musée de Nogent-sur-Seine réunit une grande partie de ses créations.",
+            "answers": {
+              "camille-claudel": "Camille Claudel",
+              "berthe-morisot": "Berthe Morisot",
+              "elisabeth-vigee-le-brun": "Élisabeth Vigée Le Brun",
+              "rosa-bonheur": "Rosa Bonheur"
+            }
+          },
+          "diderot-encyclopedie": {
+            "prompt": "Quel grand ouvrage du XVIIIe siècle Denis Diderot, natif de Langres, a-t-il dirigé ?",
+            "hint": "Il rassemblait les connaissances de son temps.",
+            "anecdote": "Avec d'Alembert, Diderot a dirigé l'Encyclopédie, publiée à partir de 1751. Sa ville natale lui consacre la Maison des Lumières.",
+            "answers": {
+              "l-encyclopedie": "L'Encyclopédie",
+              "le-larousse": "Le Larousse",
+              "le-code-civil": "Le Code civil",
+              "la-comedie-humaine": "La Comédie humaine"
+            }
+          },
+          "photo-diderot": {
+            "prompt": "Quel philosophe de la ville de Langres est représenté par cette statue de Bartholdi ?",
+            "hint": "Il a dirigé l'Encyclopédie.",
+            "anecdote": "Cette statue de Denis Diderot, inaugurée en 1884, est l'œuvre d'Auguste Bartholdi, auteur de la statue de la Liberté.",
+            "answers": {
+              "diderot": "Diderot",
+              "voltaire": "Voltaire",
+              "rousseau": "Rousseau",
+              "montesquieu": "Montesquieu"
+            }
+          },
+          "renoir-essoyes": {
+            "prompt": "Quel grand peintre impressionniste a passé ses étés à Essoyes, village de son épouse, dans l'Aube ?",
+            "hint": "Son prénom est Pierre-Auguste.",
+            "anecdote": "Renoir a acheté une maison à Essoyes, où naquit sa femme, Aline Charigot. Il y repose, et son atelier se visite.",
+            "answers": {
+              "renoir": "Renoir",
+              "monet": "Monet",
+              "cezanne": "Cézanne",
+              "degas": "Degas"
+            }
+          },
+          "photo-renoir": {
+            "prompt": "Quel village de l'Aube ce paysage de Renoir, peint en 1903, représente-t-il ?",
+            "hint": "Son épouse, Aline Charigot, y est née.",
+            "anecdote": "Renoir a peint de nombreuses scènes à Essoyes, sa résidence d'été, au bord de l'Ource.",
+            "answers": {
+              "les-riceys": "Les Riceys",
+              "vendeuvre-sur-barse": "Vendeuvre-sur-Barse"
+            }
+          },
+          "dom-ruinart": {
+            "prompt": "Quelle maison, fondée à Reims en 1729, est considérée comme la première maison de champagne ?",
+            "hint": "Son fondateur, Nicolas, était le neveu d'un moine, Dom Thierry.",
+            "anecdote": "Ruinart a été fondée le 1er septembre 1729 par Nicolas Ruinart, à la suite de l'intuition de son oncle. La maison Gosset, née en 1584, est plus ancienne, mais elle produisait alors des vins tranquilles.",
+            "answers": {
+              "ruinart": "Ruinart",
+              "pommery": "Pommery",
+              "krug": "Krug",
+              "taittinger": "Taittinger"
+            }
+          },
+          "pommery": {
+            "prompt": "Quelle dirigeante d'une maison de Reims a contribué, au XIXe siècle, à lancer le champagne brut ?",
+            "hint": "Elle a donné son nom à une grande maison et à son domaine.",
+            "anecdote": "Veuve vers 1858, Louise Pommery a transformé l'entreprise et a fait creuser des galeries dans d'anciennes crayères. Sa cuvée brute, Pommery Nature, est lancée en 1874.",
+            "answers": {
+              "louise-pommery": "Louise Pommery",
+              "lily-bollinger": "Lily Bollinger",
+              "coco-chanel": "Coco Chanel",
+              "george-sand": "George Sand"
+            }
+          },
+          "carte-nogent": {
+            "prompt": "Touchez sur la carte le département de Nogent, capitale de la coutellerie.",
+            "hint": "Sa préfecture est Chaumont.",
+            "anecdote": "La ville de Nogent se trouve en Haute-Marne, à ne pas confondre avec Nogent-sur-Seine, dans l'Aube."
+          },
+          "carte-marionnettes": {
+            "prompt": "Touchez sur la carte le département de la capitale mondiale de la marionnette.",
+            "hint": "C'est le département du Festival mondial, à la frontière belge.",
+            "anecdote": "Charleville-Mézières, préfecture des Ardennes, vit au rythme de ses marionnettes."
+          },
+          "carte-renoir": {
+            "prompt": "Touchez sur la carte le département d'Essoyes, le village de Renoir.",
+            "hint": "C'est le département de Troyes.",
+            "anecdote": "Essoyes se trouve dans le sud de l'Aube, sur la Côte des Bar, entre vignes et forêts."
+          },
+          "carte-epernay": {
+            "prompt": "Touchez sur la carte le département où se trouve l'avenue de Champagne.",
+            "hint": "C'est aussi le département de la colline Saint-Nicaise.",
+            "anecdote": "L'avenue de Champagne et la colline Saint-Nicaise se trouvent toutes deux dans la Marne."
+          },
+          "colbert-reims": {
+            "prompt": "Quel ministre de Louis XIV, contrôleur général des Finances, est né à Reims en 1619 ?",
+            "hint": "Il a aussi dirigé la Marine du royaume.",
+            "anecdote": "Jean-Baptiste Colbert est né à Reims le 29 août 1619. Il a été contrôleur général des Finances de 1665 à 1683.",
+            "answers": {
+              "colbert": "Colbert",
+              "mazarin": "Mazarin",
+              "richelieu": "Richelieu",
+              "louvois": "Louvois"
+            }
+          },
+          "fetes-johanniques": {
+            "prompt": "Quel événement les Fêtes johanniques de Reims rappellent-elles chaque année, en juin ?",
+            "hint": "Il s'est déroulé en 1429, à la cathédrale.",
+            "anecdote": "Ces fêtes commémorent le sacre de Charles VII, le 17 juillet 1429. Un grand cortège en costumes reconstitue la scène, avec Jeanne d'Arc.",
+            "answers": {
+              "le-sacre-de-charles-vii": "Le sacre de Charles VII",
+              "le-bapteme-de-clovis": "Le baptême de Clovis",
+              "la-bataille-de-valmy": "La bataille de Valmy",
+              "la-capitulation-de-1945": "La capitulation de 1945"
+            }
+          },
+          "cabaret-vert": {
+            "prompt": "Quel festival de musique, né en 2005, se tient à Charleville-Mézières à la fin de l'été ?",
+            "hint": "Son nom vient d'un poème de Rimbaud.",
+            "anecdote": "Le Cabaret Vert emprunte son nom au poème « Au Cabaret-Vert, cinq heures du soir », d'Arthur Rimbaud.",
+            "answers": {
+              "le-cabaret-vert": "Le Cabaret Vert",
+              "les-eurockeennes": "Les Eurockéennes",
+              "les-vieilles-charrues": "Les Vieilles Charrues",
+              "le-printemps-de-bourges": "Le Printemps de Bourges"
+            }
+          }
+        },
+        "grand-voyage": {
+          "name": "Le grand voyage",
+          "description": "Lac du Der, Meuse ardennaise, Clairvaux, Colombey, sacres des rois et batailles de la Marne : le territoire dans toute son ampleur.",
+          "der-superficie": {
+            "prompt": "Quelle est la superficie approximative du lac du Der ?",
+            "hint": "C'est le plus grand lac artificiel de France métropolitaine.",
+            "anecdote": "Le lac du Der-Chantecoq couvre environ 48 kilomètres carrés, soit 4 800 hectares, à la limite de la Marne et de la Haute-Marne.",
+            "answers": {
+              "48-kilometres-carres": "48 kilomètres carrés",
+              "5-kilometres-carres": "5 kilomètres carrés",
+              "120-kilometres-carres": "120 kilomètres carrés",
+              "580-kilometres-carres": "580 kilomètres carrés"
+            }
+          },
+          "der-villages": {
+            "prompt": "Quel sort ont connu trois villages lors de la création du lac du Der, au début des années 1970 ?",
+            "hint": "L'église de l'un d'eux subsiste, sur une presqu'île.",
+            "anecdote": "Chantecoq, Champaubert-aux-Bois et Nuisement-aux-Bois ont été sacrifiés pour créer le réservoir. L'église de Champaubert est restée.",
+            "answers": {
+              "ils-ont-disparu-sous-le-lac": "Ils ont disparu sous le lac",
+              "ils-ont-ete-deplaces-sur-des-radeaux": "Ils ont été déplacés sur des radeaux",
+              "ils-sont-devenus-un-musee": "Ils sont devenus un musée",
+              "ils-ont-ete-rases-par-la-guerre": "Ils ont été rasés par la guerre"
+            }
+          },
+          "photo-grues": {
+            "prompt": "Quels grands oiseaux migrateurs font du lac du Der une halte célèbre en automne ?",
+            "hint": "Leur nom ressemble à celui des engins de chantier.",
+            "anecdote": "Des dizaines de milliers de grues cendrées font étape au lac du Der, entre le nord de l'Europe et l'Espagne.",
+            "answers": {
+              "les-grues-cendrees": "Les grues cendrées",
+              "les-flamants-roses": "Les flamants roses",
+              "les-cigognes-noires": "Les cigognes noires",
+              "les-pelicans": "Les pélicans"
+            }
+          },
+          "der-objectif": {
+            "prompt": "Quelle est la fonction principale du lac du Der, créé en 1974 ?",
+            "hint": "Il fait partie des grands lacs de Seine.",
+            "anecdote": "Il retient les eaux de la Marne en hiver pour éviter les crues à Paris, puis les rend en été pour soutenir le débit.",
+            "answers": {
+              "reguler-les-crues-de-la-marne": "Réguler les crues de la Marne",
+              "produire-du-sel": "Produire du sel",
+              "alimenter-le-canal-de-suez": "Alimenter le canal de Suez",
+              "elever-des-saumons": "Élever des saumons"
+            }
+          },
+          "faux-verzy": {
+            "prompt": "Quels arbres tortueux, aux branches en parapluie, font la curiosité de la forêt de Verzy ?",
+            "hint": "Leur nom ressemble à l'outil du moissonneur.",
+            "anecdote": "Les faux de Verzy sont des hêtres tortillards. Ils forment l'une des plus grandes populations de ce type au monde.",
+            "answers": {
+              "les-faux": "Les faux",
+              "les-oliviers": "Les oliviers",
+              "les-sequoias": "Les séquoias",
+              "les-baobabs": "Les baobabs"
+            }
+          },
+          "source-marne": {
+            "prompt": "Sur quel plateau la Marne prend-elle sa source ?",
+            "hint": "C'est aussi le plateau d'une ville fortifiée de Haute-Marne.",
+            "anecdote": "La Marne naît à Balesmes-sur-Marne, au sud de Langres. Avec environ 514 kilomètres, elle est souvent présentée comme la plus longue rivière de France.",
+            "answers": {
+              "le-plateau-de-langres": "Le plateau de Langres",
+              "le-plateau-de-millevaches": "Le plateau de Millevaches",
+              "le-plateau-de-valensole": "Le plateau de Valensole",
+              "le-larzac": "Le Larzac"
+            }
+          },
+          "semoy": {
+            "prompt": "Quelle rivière rejoint la Meuse à Monthermé, après avoir traversé la Belgique ?",
+            "hint": "Elle prend sa source en Belgique, près d'Arlon.",
+            "anecdote": "La Semois, ou Semoy en France, serpente dans les forêts belges et ardennaises avant de se jeter dans la Meuse.",
+            "answers": {
+              "la-semoy": "La Semoy",
+              "la-sambre": "La Sambre",
+              "l-oise": "L'Oise",
+              "la-chiers": "La Chiers"
+            }
+          },
+          "pointe-givet": {
+            "prompt": "Comment appelle-t-on l'étroite avancée du territoire français dans la Belgique, au nord des Ardennes ?",
+            "hint": "Elle porte le nom de la dernière ville française sur la Meuse.",
+            "anecdote": "La pointe de Givet s'enfonce profondément dans la Belgique, le long de la Meuse. Elle couvre environ 250 kilomètres carrés.",
+            "answers": {
+              "la-pointe-de-givet": "La pointe de Givet",
+              "le-doigt-de-sedan": "Le doigt de Sedan",
+              "le-bec-de-rethel": "Le bec de Rethel",
+              "le-cap-de-revin": "Le cap de Revin"
+            }
+          },
+          "photo-montherme": {
+            "prompt": "Quelle commune des Ardennes se niche au cœur de cette boucle de la Meuse ?",
+            "hint": "Elle se trouve au confluent de la Meuse et de la Semoy.",
+            "anecdote": "Monthermé se trouve au confluent de la Meuse et de la Semoy, un paysage de crêtes prisé des randonneurs.",
+            "answers": {
+              "mouzon": "Mouzon",
+              "attigny": "Attigny"
+            }
+          },
+          "ardennes-meuse-belgique": {
+            "prompt": "Quelle mer la Meuse finit-elle par rejoindre, après la Belgique et les Pays-Bas ?",
+            "hint": "C'est la mer qui baigne Rotterdam.",
+            "anecdote": "Partie de la Haute-Marne, la Meuse parcourt plus de 900 kilomètres avant de rejoindre la mer du Nord.",
+            "answers": {
+              "la-mer-du-nord": "La mer du Nord",
+              "la-mediterranee": "La Méditerranée",
+              "la-mer-baltique": "La mer Baltique",
+              "l-atlantique": "L'Atlantique"
+            }
+          },
+          "clairvaux-fondateur": {
+            "prompt": "Quel moine a fondé l'abbaye de Clairvaux, dans l'Aube, en 1115 ?",
+            "hint": "Il est appelé saint et porte le nom de l'abbaye.",
+            "anecdote": "Bernard de Clairvaux, moine cistercien, a fait de cette abbaye l'une des plus influentes d'Europe.",
+            "answers": {
+              "bernard": "Bernard",
+              "thomas-d-aquin": "Thomas d'Aquin",
+              "benoit-de-nursie": "Benoît de Nursie",
+              "dominique": "Dominique"
+            }
+          },
+          "photo-clairvaux": {
+            "prompt": "Quelle fonction l'ancienne abbaye de Clairvaux a-t-elle reçue à partir de 1808 ?",
+            "hint": "Elle a fermé définitivement en 2023.",
+            "anecdote": "Napoléon a fait de Clairvaux une prison. La maison centrale a fermé en 2023, et une partie de l'abbaye se visite.",
+            "answers": {
+              "une-prison": "Une prison",
+              "un-hopital": "Un hôpital",
+              "un-casino": "Un casino",
+              "une-usine": "Une usine"
+            }
+          },
+          "ordre-cistercien": {
+            "prompt": "À quel ordre religieux appartenait l'abbaye de Clairvaux ?",
+            "hint": "Son nom vient de l'abbaye de Cîteaux.",
+            "anecdote": "Clairvaux était l'une des quatre premières filles de Cîteaux. Elle a essaimé dans toute l'Europe.",
+            "answers": {
+              "les-cisterciens": "Les Cisterciens",
+              "les-jesuites": "Les Jésuites",
+              "les-dominicains": "Les Dominicains",
+              "les-franciscains": "Les Franciscains"
+            }
+          },
+          "dernier-sacre": {
+            "prompt": "Quel roi de France a reçu, en 1825, le dernier sacre célébré à Reims ?",
+            "hint": "C'est un frère de Louis XVI et de Louis XVIII.",
+            "anecdote": "Charles X a repris la tradition du sacre à Reims, le 29 mai 1825. Ce fut le dernier sacre d'un roi de France.",
+            "answers": {
+              "charles-x": "Charles X",
+              "louis-xviii": "Louis XVIII",
+              "louis-philippe": "Louis-Philippe",
+              "napoleon-iii": "Napoléon III"
+            }
+          },
+          "jeanne-reims": {
+            "prompt": "Quel roi Jeanne d'Arc a-t-elle fait sacrer à Reims, en 1429 ?",
+            "hint": "On l'appelait alors « le gentil Dauphin ».",
+            "anecdote": "Après la levée du siège d'Orléans, Jeanne d'Arc a conduit le dauphin à Reims, où il a été sacré le 17 juillet 1429.",
+            "answers": {
+              "charles-vii": "Charles VII",
+              "louis-xi": "Louis XI",
+              "francois-ier": "François Ier",
+              "philippe-le-bel": "Philippe le Bel"
+            }
+          },
+          "photo-sacre": {
+            "prompt": "Quelle héroïne de la guerre de Cent Ans est représentée par cette statue équestre à Reims ?",
+            "hint": "Elle a mené le dauphin jusqu'à la cathédrale toute proche.",
+            "anecdote": "La statue de Jeanne d'Arc, œuvre de Paul Dubois, se dresse sur le parvis de la cathédrale de Reims.",
+            "answers": {
+              "jeanne-d-arc": "Jeanne d'Arc",
+              "jeanne-hachette": "Jeanne Hachette",
+              "alienor-d-aquitaine": "Aliénor d'Aquitaine",
+              "olympe-de-gouges": "Olympe de Gouges"
+            }
+          },
+          "ampoule": {
+            "prompt": "Comment s'appelait le flacon d'huile utilisé pour le sacre des rois de France à Reims ?",
+            "hint": "Selon la légende, une colombe l'aurait apporté à saint Remi.",
+            "anecdote": "La sainte Ampoule était conservée à l'abbaye Saint-Remi. Elle a été brisée en 1793, pendant la Révolution.",
+            "answers": {
+              "la-sainte-ampoule": "La sainte Ampoule",
+              "le-saint-graal": "Le saint Graal",
+              "la-sainte-fiole": "La sainte Fiole",
+              "la-couronne-de-charlemagne": "La couronne de Charlemagne"
+            }
+          },
+          "varennes-menehould": {
+            "prompt": "Quel roi a été reconnu à Sainte-Menehould, en juin 1791, lors de sa fuite vers l'est ?",
+            "hint": "Il a été arrêté peu après à Varennes.",
+            "anecdote": "Le maître de poste Jean-Baptiste Drouet a reconnu Louis XVI à Sainte-Menehould, puis a devancé le convoi jusqu'à Varennes.",
+            "answers": {
+              "louis-xvi": "Louis XVI",
+              "louis-xiv": "Louis XIV",
+              "charles-x": "Charles X",
+              "henri-iv": "Henri IV"
+            }
+          },
+          "photo-valmy": {
+            "prompt": "Dans quelle commune de la Marne se dresse ce moulin, qui rappelle une bataille de 1792 ?",
+            "hint": "Son nom a été donné à de nombreuses rues françaises.",
+            "anecdote": "Le 20 septembre 1792, à Valmy, l'armée révolutionnaire a arrêté les Prussiens. La République a été proclamée le lendemain.",
+            "answers": {
+              "austerlitz": "Austerlitz",
+              "waterloo": "Waterloo",
+              "marignan": "Marignan"
+            }
+          },
+          "campagne-1814": {
+            "prompt": "Lors de quelle campagne Napoléon a-t-il combattu à Brienne, à Montmirail et à Arcis-sur-Aube ?",
+            "hint": "C'est quelques semaines avant son abdication.",
+            "anecdote": "En 1814, Napoléon a défendu la route de Paris face aux coalisés, notamment dans la Marne et l'Aube, avant d'abdiquer en avril.",
+            "answers": {
+              "la-campagne-de-france": "La campagne de France",
+              "la-campagne-d-egypte": "La campagne d'Égypte",
+              "la-campagne-de-russie": "La campagne de Russie",
+              "la-campagne-d-italie": "La campagne d'Italie"
+            }
+          },
+          "bazeilles": {
+            "prompt": "Quels soldats français se sont illustrés à Bazeilles, en 1870, dans la « maison de la dernière cartouche » ?",
+            "hint": "Leur nom évoque la mer et les colonies.",
+            "anecdote": "Les soldats de l'infanterie de marine ont résisté à Bazeilles, près de Sedan. Cette défense est encore commémorée par les troupes de marine.",
+            "answers": {
+              "les-marsouins": "Les marsouins",
+              "les-chasseurs-alpins": "Les chasseurs alpins",
+              "les-zouaves": "Les zouaves",
+              "les-hussards": "Les hussards"
+            }
+          },
+          "louise-michel": {
+            "prompt": "Dans quel département de Champagne-Ardenne est née Louise Michel, figure de la Commune de Paris ?",
+            "hint": "Elle est née à Vroncourt-la-Côte, au sud-est du territoire.",
+            "anecdote": "Louise Michel est née en 1830 à Vroncourt-la-Côte, en Haute-Marne. Institutrice, elle a ensuite été déportée en Nouvelle-Calédonie.",
+            "answers": {
+              "la-haute-marne": "La Haute-Marne",
+              "les-ardennes": "Les Ardennes",
+              "l-aube": "L'Aube",
+              "la-marne": "La Marne"
+            }
+          },
+          "marne-1914": {
+            "prompt": "Quels véhicules parisiens sont restés célèbres pour avoir transporté des soldats vers la première bataille de la Marne ?",
+            "hint": "On les hèle dans la rue.",
+            "anecdote": "En septembre 1914, les taxis de la Marne ont acheminé plusieurs milliers d'hommes vers le front, un épisode resté symbolique.",
+            "answers": {
+              "les-taxis": "Les taxis",
+              "les-trams": "Les trams",
+              "les-ambulances": "Les ambulances",
+              "les-autobus-londoniens": "Les autobus londoniens"
+            }
+          },
+          "joffre": {
+            "prompt": "Quel général a commandé les armées françaises lors de la première bataille de la Marne ?",
+            "hint": "Son surnom est « Papa ».",
+            "anecdote": "Joseph Joffre a organisé la contre-offensive de septembre 1914, qui a arrêté l'avancée allemande vers Paris.",
+            "answers": {
+              "joffre": "Joffre",
+              "petain": "Pétain",
+              "foch": "Foch",
+              "de-gaulle": "de Gaulle"
+            }
+          },
+          "photo-pompelle": {
+            "prompt": "Quel fort, près de Reims, a joué un rôle important pendant la Grande Guerre ?",
+            "hint": "Il a été construit après 1870 pour défendre Reims.",
+            "anecdote": "Le fort de la Pompelle a été construit après 1870, pour défendre Reims. Il n'a pas été pris durablement pendant la Grande Guerre et abrite aujourd'hui un musée.",
+            "answers": {
+              "le-fort-de-la-pompelle": "Le fort de la Pompelle",
+              "le-fort-de-douaumont": "Le fort de Douaumont",
+              "le-fort-de-vaux": "Le fort de Vaux",
+              "le-fort-boyard": "Le fort Boyard"
+            }
+          },
+          "photo-navarin": {
+            "prompt": "Quel monument de la Marne rend hommage aux combattants de Champagne de la Grande Guerre ?",
+            "hint": "Son nom évoque aussi une bataille navale de 1827 et un plat d'agneau.",
+            "anecdote": "Le monument de Navarin, à Sainte-Marie-à-Py et Souain-Perthes-lès-Hurlus, abrite un ossuaire. Il a été inauguré en 1924.",
+            "answers": {
+              "le-monument-de-navarin": "Le monument de Navarin",
+              "l-ossuaire-de-douaumont": "L'ossuaire de Douaumont",
+              "l-arc-de-triomphe": "L'Arc de Triomphe",
+              "la-necropole-de-notre-dame-de-lorette": "La nécropole de Notre-Dame-de-Lorette"
+            }
+          },
+          "villages-detruits-marne": {
+            "prompt": "Quel sort ont connu Hurlus, Ripont, Tahure et d'autres villages de la Marne après la Grande Guerre ?",
+            "hint": "Ils sont aujourd'hui inclus dans un camp militaire.",
+            "anecdote": "Ces villages de Champagne, détruits sur le front, n'ont jamais été reconstruits. Leur territoire fait aujourd'hui partie du camp de Suippes.",
+            "answers": {
+              "ils-n-ont-jamais-ete-reconstruits": "Ils n'ont jamais été reconstruits",
+              "ils-sont-devenus-des-stations-thermales": "Ils sont devenus des stations thermales",
+              "ils-ont-ete-rattaches-a-la-belgique": "Ils ont été rattachés à la Belgique",
+              "ils-ont-ete-batis-en-beton-arme": "Ils ont été bâtis en béton armé"
+            }
+          },
+          "foujita": {
+            "prompt": "Quel peintre franco-japonais a décoré une chapelle à Reims, à la fin de sa vie ?",
+            "hint": "Son prénom d'origine est Tsuguharu, et il a pris celui de Léonard.",
+            "anecdote": "Baptisé à Reims en 1959, Léonard Foujita a conçu la chapelle Notre-Dame-de-la-Paix, où il repose.",
+            "answers": {
+              "foujita": "Foujita",
+              "hokusai": "Hokusai",
+              "hiroshige": "Hiroshige",
+              "chagall": "Chagall"
+            }
+          },
+          "colombey-general": {
+            "prompt": "Quel homme d'État a vécu à La Boisserie, à Colombey-les-Deux-Églises ?",
+            "hint": "Il a présidé la Ve République.",
+            "anecdote": "Charles de Gaulle a acheté La Boisserie en 1934. Il y est mort le 9 novembre 1970 et repose au cimetière du village.",
+            "answers": {
+              "charles-de-gaulle": "Charles de Gaulle",
+              "georges-clemenceau": "Georges Clemenceau",
+              "georges-pompidou": "Georges Pompidou",
+              "jean-jaures": "Jean Jaurès"
+            }
+          },
+          "photo-colombey": {
+            "prompt": "Dans quel village de Haute-Marne se trouve ce cimetière où repose de Gaulle ?",
+            "hint": "Le Mémorial et sa grande croix de Lorraine s'y dressent.",
+            "anecdote": "Charles de Gaulle a demandé une tombe très simple, au cimetière de Colombey, aux côtés de sa fille Anne.",
+            "answers": {
+              "vaucouleurs": "Vaucouleurs",
+              "domremy-la-pucelle": "Domrémy-la-Pucelle",
+              "doulevant-le-chateau": "Doulevant-le-Château"
+            }
+          },
+          "rachi": {
+            "prompt": "Quel grand commentateur de la Bible et du Talmud a vécu à Troyes, au XIe siècle ?",
+            "hint": "Son nom est formé des initiales de Rabbi Shlomo ben Itzhak.",
+            "anecdote": "Rachi, né à Troyes vers 1040, y a fondé une école. Ses commentaires sont encore étudiés aujourd'hui.",
+            "answers": {
+              "rachi": "Rachi",
+              "rabelais": "Rabelais",
+              "racine": "Racine",
+              "ronsard": "Ronsard"
+            }
+          },
+          "jean-joinville": {
+            "prompt": "De quel roi Jean de Joinville, sire champenois, a-t-il écrit la vie ?",
+            "hint": "C'est un roi du XIIIe siècle, parti en croisade.",
+            "anecdote": "Jean de Joinville, compagnon de croisade, a raconté la vie de son roi dans un livre devenu un grand témoignage du Moyen Âge.",
+            "answers": {
+              "saint-louis": "Saint Louis",
+              "philippe-le-bel": "Philippe le Bel",
+              "francois-ier": "François Ier",
+              "charlemagne": "Charlemagne"
+            }
+          },
+          "thibaut-chansons": {
+            "prompt": "Quel comte de Champagne, roi de Navarre, est resté célèbre comme poète du XIIIe siècle ?",
+            "hint": "On l'appelle aussi « le Chansonnier ».",
+            "anecdote": "Thibaut IV de Champagne est l'un des plus célèbres trouvères. Une légende, jugée peu probable, lui attribue l'arrivée de la rose de Damas à Provins.",
+            "answers": {
+              "thibaut-iv": "Thibaut IV",
+              "roland": "Roland",
+              "godefroy-de-bouillon": "Godefroy de Bouillon",
+              "geoffroy-de-villehardouin": "Geoffroy de Villehardouin"
+            }
+          },
+          "bourbonne-thermes": {
+            "prompt": "Quelle station thermale de Haute-Marne, connue depuis les Romains, voit-on ici ?",
+            "hint": "Son nom rappelle Borvo, dieu gaulois des eaux chaudes.",
+            "anecdote": "Les eaux chaudes de Bourbonne-les-Bains sont utilisées depuis l'Antiquité. La station accueille aujourd'hui des curistes, notamment pour les rhumatismes et les voies respiratoires.",
+            "answers": {
+              "vittel": "Vittel",
+              "contrexeville": "Contrexéville",
+              "plombieres-les-bains": "Plombières-les-Bains"
+            }
+          },
+          "reims-tgv": {
+            "prompt": "À quelle ligne ferroviaire doit-on la mise à moins d'une heure de Paris de Reims, depuis 2007 ?",
+            "hint": "C'est une ligne à grande vitesse vers l'est.",
+            "anecdote": "La LGV Est européenne a été mise en service en juin 2007. Elle a placé Reims à environ 45 minutes de Paris.",
+            "answers": {
+              "la-lgv-est": "La LGV Est",
+              "la-lgv-atlantique": "La LGV Atlantique",
+              "la-lgv-nord": "La LGV Nord",
+              "la-lgv-sud-est": "La LGV Sud-Est"
+            }
+          },
+          "circuit-gueux": {
+            "prompt": "Quel circuit automobile, près de Reims, a accueilli le Grand Prix de France de Formule 1 ?",
+            "hint": "Son nom associe Reims à un village voisin.",
+            "anecdote": "Le circuit de Reims-Gueux a accueilli le Grand Prix de France jusqu'en 1966. Ses anciennes tribunes et ses stands sont encore visibles.",
+            "answers": {
+              "reims-gueux": "Reims-Gueux",
+              "le-castellet": "Le Castellet",
+              "magny-cours": "Magny-Cours",
+              "montlhery": "Montlhéry"
+            }
+          },
+          "carte-colombey": {
+            "prompt": "Touchez sur la carte le département de Colombey-les-Deux-Églises.",
+            "hint": "C'est le département de Chaumont.",
+            "anecdote": "Colombey-les-Deux-Églises se trouve en Haute-Marne, à une trentaine de kilomètres de Chaumont."
+          },
+          "carte-clairvaux": {
+            "prompt": "Touchez sur la carte le département où se trouve l'abbaye de Clairvaux.",
+            "hint": "C'est le département de Troyes.",
+            "anecdote": "L'abbaye de Clairvaux se trouve à Ville-sous-la-Ferté, dans l'Aube, près de Bar-sur-Aube."
+          },
+          "carte-valmy": {
+            "prompt": "Touchez sur la carte le département où a eu lieu la bataille de Valmy.",
+            "hint": "C'est le département de Sainte-Menehould.",
+            "anecdote": "Valmy se trouve dans la Marne, à l'ouest de Sainte-Menehould."
+          },
+          "carte-bazeilles": {
+            "prompt": "Touchez sur la carte le département de Bazeilles et de la dernière cartouche.",
+            "hint": "C'est le département de Sedan.",
+            "anecdote": "Bazeilles se trouve dans les Ardennes, à la sortie de Sedan."
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "troyes-pans-de-bois": {
+            "name": "Troyes à pans de bois",
+            "description": "Le centre ancien de Troyes aligne des maisons à pans de bois aux couleurs vives, autour de ruelles étroites. Son plan rappelle la forme d'un bouchon de champagne.",
+            "anecdote": "Après le grand incendie de 1524, une grande partie du centre a été rebâtie, et de nombreuses maisons de cette époque sont encore debout."
+          },
+          "coteaux-champagne": {
+            "name": "Coteaux de Champagne",
+            "description": "Les vignes couvrent les pentes de craie qui dominent la Marne, autour d'Hautvillers, d'Aÿ et de Mareuil-sur-Aÿ. Depuis 2015, ces coteaux sont inscrits au patrimoine mondial avec les maisons et les caves.",
+            "anecdote": "La craie du sous-sol retient l'eau et la rend peu à peu à la vigne, tout en gardant les caves fraîches."
+          },
+          "cathedrale-reims": {
+            "name": "Cathédrale de Reims",
+            "description": "Commencée en 1211, la cathédrale Notre-Dame a vu le sacre de nombreux rois de France. Elle est inscrite au patrimoine mondial depuis 1991, avec le palais du Tau et l'ancienne abbaye Saint-Remi.",
+            "anecdote": "Son décor compte plus de 2 300 statues, dont le célèbre ange au sourire."
+          },
+          "place-ducale": {
+            "name": "Place Ducale de Charleville-Mézières",
+            "description": "Voulue par Charles de Gonzague, fondateur de Charleville en 1606, cette grande place réunit arcades, briques, pierre jaune et hauts toits d'ardoise. Elle est le cœur de la capitale de la marionnette.",
+            "anecdote": "Son architecte, Clément Métezeau, était le frère de Louis Métezeau, à qui l'on attribue souvent la place des Vosges."
+          },
+          "lac-der": {
+            "name": "Lac du Der",
+            "description": "Mis en eau en 1974 pour protéger Paris des crues, le lac du Der-Chantecoq couvre environ 48 kilomètres carrés entre la Marne et la Haute-Marne. C'est aujourd'hui un grand refuge pour les oiseaux.",
+            "anecdote": "Chaque automne, des dizaines de milliers de grues cendrées y font étape."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur de Champagne-Ardenne",
+            "description": "Réunir les cinq cartes de la collection de Champagne-Ardenne."
+          },
+          "master": {
+            "name": "Maître de Champagne-Ardenne",
+            "description": "Réussir le Défi Maître de Champagne-Ardenne, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
     },
     "lorraine": {
       "name": "Lorraine",
