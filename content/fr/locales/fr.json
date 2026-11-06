@@ -5240,6 +5240,410 @@
       "photoBretagneAmoco": {
         "title": "Ancre de l'Amoco Cadiz, Ploudalmézeau",
         "alt": "Immense ancre de navire posée sur un socle, au bord de la mer."
+      },
+      "photoNormandieDrapeau": {
+        "title": "Drapeau de la Normandie",
+        "alt": "Drapeau rouge orné de deux fauves dorés superposés, flottant en haut d'un mât."
+      },
+      "photoNormandieBocage": {
+        "title": "Bocage normand à Montpinchon",
+        "alt": "Prairie verte où paissent des vaches pie, bordée de haies et de grands arbres."
+      },
+      "photoNormandieMontSaintMichel": {
+        "title": "Le Mont-Saint-Michel",
+        "alt": "Rocher couronné d'une abbaye à haute flèche, entouré de remparts, au milieu d'une grève de sable."
+      },
+      "photoNormandieEtretat": {
+        "title": "Falaise d'Aval et Aiguille, Étretat",
+        "alt": "Haute falaise blanche percée d'une arche, avec une pointe rocheuse isolée dans la mer, au-dessus d'une plage de galets."
+      },
+      "photoNormandiePontNormandie": {
+        "title": "Pont de Normandie",
+        "alt": "Long pont à haubans tendu entre deux hauts pylônes, au loin au-dessus d'un fleuve."
+      },
+      "photoNormandieCaenAbbaye": {
+        "title": "Abbaye aux Hommes, Caen",
+        "alt": "Deux hautes tours romanes à flèches de pierre, vues en contre-plongée sous un ciel nuageux."
+      },
+      "photoNormandieRouenCathedrale": {
+        "title": "Cathédrale Notre-Dame de Rouen",
+        "alt": "Façade gothique très ouvragée, encadrée de deux tours, dominée par une flèche sombre et ajourée."
+      },
+      "photoNormandieLeHavre": {
+        "title": "Église Saint-Joseph, Le Havre",
+        "alt": "Intérieur d'une tour de béton octogonale, vue de dessous, percée de milliers de petits vitraux colorés."
+      },
+      "photoNormandieHonfleur": {
+        "title": "Vieux Bassin de Honfleur",
+        "alt": "Bassin de port rempli de voiliers, bordé de hautes maisons étroites qui se reflètent dans l'eau."
+      },
+      "photoNormandieCherbourg": {
+        "title": "Port de plaisance de Cherbourg",
+        "alt": "Port de plaisance immense, rempli de centaines de voiliers aux mâts serrés, sous un ciel gris."
+      },
+      "photoNormandieCamembert": {
+        "title": "Camembert de Normandie",
+        "alt": "Petit fromage rond à croûte blanche fleurie, posé sur une ardoise."
+      },
+      "photoNormandieLivarot": {
+        "title": "Livarot",
+        "alt": "Gros plan sur un fromage cylindrique à croûte orangée, cerclé de plusieurs bandes."
+      },
+      "photoNormandiePontLeveque": {
+        "title": "Pont-l'évêque",
+        "alt": "Part triangulaire d'un fromage à pâte jaune et à croûte claire, sur une ardoise."
+      },
+      "photoNormandieNeufchatel": {
+        "title": "Neufchâtel",
+        "alt": "Fromage à croûte blanche coupé, montrant une pâte blanche et légèrement granuleuse."
+      },
+      "photoNormandieVacheNormande": {
+        "title": "Vache de race normande",
+        "alt": "Vache à robe tachetée blanche et brune, aux yeux cerclés de taches sombres, debout dans un pré."
+      },
+      "photoNormandieVergers": {
+        "title": "Verger en fleurs, autochrome",
+        "alt": "Verger d'arbres fruitiers couverts de fleurs blanches, sur un ancien cliché en couleurs."
+      },
+      "photoNormandieCidre": {
+        "title": "Bulles de cidre",
+        "alt": "Gros plan sur un liquide doré traversé de fines bulles."
+      },
+      "photoNormandieAlambic": {
+        "title": "Alambic à Cambremer",
+        "alt": "Ancienne distillerie au sol de brique, avec une chaudière de cuivre sombre et des cruches de grès."
+      },
+      "photoNormandieTripes": {
+        "title": "Tripes à la mode de Caen",
+        "alt": "Plat de verre rempli de morceaux de viande mijotés dans un bouillon, avec des pommes de terre à côté."
+      },
+      "photoNormandieAndouilleVire": {
+        "title": "Andouille de Vire",
+        "alt": "Charcuterie noire coupée en tranches aux cercles concentriques, avec du pain et un petit verre d'apéritif."
+      },
+      "photoNormandiePresSales": {
+        "title": "Moutons des prés salés",
+        "alt": "Mouton qui broute dans un herbage ras, au bord des chenaux d'une baie, avec un troupeau au loin."
+      },
+      "photoNormandieMoules": {
+        "title": "Moules marinières",
+        "alt": "Assiette de moules noires au persil, servie avec des frites."
+      },
+      "photoNormandieHuitres": {
+        "title": "Parcs à huîtres de Saint-Vaast-la-Hougue",
+        "alt": "Longues rangées de tables d'élevage découvertes à marée basse, avec une jetée et un phare au fond."
+      },
+      "photoNormandieTeurgoule": {
+        "title": "Teurgoule",
+        "alt": "Terrine bleue contenant un dessert crémeux à la croûte dorée, dans laquelle plonge une cuillère."
+      },
+      "photoNormandieJumieges": {
+        "title": "Abbaye de Jumièges",
+        "alt": "Ruines d'une grande abbaye blanche, avec deux hautes tours et des murs sans toit, au milieu d'une pelouse."
+      },
+      "photoNormandieSaintWandrille": {
+        "title": "Abbaye de Saint-Wandrille",
+        "alt": "Bâtiment monastique de pierre claire aux hauts toits d'ardoise, devant une colline boisée."
+      },
+      "photoNormandieBecHellouin": {
+        "title": "Tour Saint-Nicolas, abbaye du Bec-Hellouin",
+        "alt": "Tour carrée de pierre claire se dressant parmi des arbres et des bâtiments conventuels."
+      },
+      "photoNormandieHambye": {
+        "title": "Abbaye de Hambye",
+        "alt": "Église abbatiale en ruine aux grandes arcades gothiques, sans toit, au-dessus d'un jardin."
+      },
+      "photoNormandieAbbayeDames": {
+        "title": "Abbaye aux Dames, Caen",
+        "alt": "Long bâtiment classique de pierre claire derrière une vaste esplanade, avec un clocher pointu."
+      },
+      "photoNormandieFecampAbbatiale": {
+        "title": "Abbatiale de la Trinité, Fécamp",
+        "alt": "Façade classique d'une grande église, dominée par une tour-lanterne, au bout d'une rue."
+      },
+      "photoNormandieMortain": {
+        "title": "Abbaye Blanche, Mortain",
+        "alt": "Nef d'église sobre et lumineuse, aux arcs brisés, avec des stalles de bois et un sol de pierre."
+      },
+      "photoNormandieBayeuxCathedrale": {
+        "title": "Cathédrale Notre-Dame de Bayeux",
+        "alt": "Flèches d'une cathédrale apparaissant au loin au-dessus des arbres, au bout d'un chemin de campagne."
+      },
+      "photoNormandieCoutances": {
+        "title": "Cathédrale Notre-Dame de Coutances",
+        "alt": "Façade gothique encadrée de deux tours très élancées, coiffées de flèches de pierre."
+      },
+      "photoNormandieEvreux": {
+        "title": "Cathédrale Notre-Dame d'Évreux",
+        "alt": "Haute tour gothique flamboyante surmontée d'une flèche fine, vue depuis un jardin."
+      },
+      "photoNormandieSees": {
+        "title": "Cathédrale Notre-Dame de Sées",
+        "alt": "Cathédrale gothique aux deux flèches élancées, dominant les toits d'une petite ville."
+      },
+      "photoNormandieLisieux": {
+        "title": "Basilique Sainte-Thérèse, Lisieux",
+        "alt": "Grande basilique blanche coiffée d'un dôme, précédée d'un parvis et de jardins."
+      },
+      "photoNormandieGrosHorloge": {
+        "title": "Gros-Horloge, Rouen",
+        "alt": "Détail d'un cadran doré et bleu, orné de chiffres romains, de rayons et d'un char sculpté."
+      },
+      "photoNormandieAitreSaintMaclou": {
+        "title": "Aître Saint-Maclou, Rouen",
+        "alt": "Long bâtiment à pans de bois sombres, à deux étages percés de nombreuses fenêtres."
+      },
+      "photoNormandieChateauGaillard": {
+        "title": "Château-Gaillard, Les Andelys",
+        "alt": "Ruine d'un donjon circulaire aux murs festonnés, sur une butte qui domine une vallée."
+      },
+      "photoNormandieFalaiseChateau": {
+        "title": "Château de Falaise",
+        "alt": "Grand donjon carré et tour ronde, perchés sur un éperon rocheux couvert d'herbe."
+      },
+      "photoNormandieCaenChateau": {
+        "title": "Remparts du château de Caen",
+        "alt": "Haute muraille de pierre claire au-dessus d'une route, avec des drapeaux sur une tour."
+      },
+      "photoNormandieCarrouges": {
+        "title": "Château de Carrouges",
+        "alt": "Château de brique rouge et de granit aux hauts toits d'ardoise, avec un pont à balustres."
+      },
+      "photoNormandieChateauO": {
+        "title": "Château d'Ô",
+        "alt": "Château aux tourelles pointues et à la façade de brique et de pierre, se reflétant dans des douves."
+      },
+      "photoNormandieBalleroy": {
+        "title": "Château de Balleroy",
+        "alt": "Château de brique et de pierre aux toits d'ardoise, avec deux pavillons et un if taillé en cône."
+      },
+      "photoNormandieHarcourt": {
+        "title": "Château d'Harcourt",
+        "alt": "Châtelet d'entrée à deux grosses tours rondes coiffées de toits pointus, près d'un fossé."
+      },
+      "photoNormandiePirou": {
+        "title": "Château fort de Pirou",
+        "alt": "Allée de gravier menant à une porte fortifiée, entre deux murs crénelés bas."
+      },
+      "photoNormandieCrevecoeur": {
+        "title": "Château de Crèvecœur-en-Auge",
+        "alt": "Passerelle de bois au-dessus de douves, menant à une ruine de pierre sur une motte."
+      },
+      "photoNormandieFontaineHenry": {
+        "title": "Château de Fontaine-Henry",
+        "alt": "Château Renaissance aux toits très pointus, à côté d'une chapelle gothique, encadré de branches."
+      },
+      "photoNormandieEuChateau": {
+        "title": "Château d'Eu",
+        "alt": "Long château de brique rouge aux toits d'ardoise, précédé d'une fontaine et de pelouses."
+      },
+      "photoNormandieDomfront": {
+        "title": "Ruines du château de Domfront",
+        "alt": "Pan de donjon en ruine dominant des vestiges de murs, au sommet d'un éperon."
+      },
+      "photoNormandieDieppe": {
+        "title": "Château de Dieppe",
+        "alt": "Château de silex et de grès aux tours coiffées de toits pointus, sur une colline herbeuse."
+      },
+      "photoNormandieGranville": {
+        "title": "Haute-Ville de Granville",
+        "alt": "Haute muraille de granit le long d'une route, avec un clocher d'église au sommet."
+      },
+      "photoNormandieBarfleur": {
+        "title": "Port de Barfleur",
+        "alt": "Vue aérienne d'un petit port de granit, avec des rochers, une plage et des champs autour."
+      },
+      "photoNormandieSaintVaast": {
+        "title": "Tour Vauban de Tatihou",
+        "alt": "Haute tour ronde de pierre et long bâtiment au toit orangé, derrière un fossé en eau."
+      },
+      "photoNormandieBeuvron": {
+        "title": "Place de Beuvron-en-Auge",
+        "alt": "Place de village bordée de maisons à pans de bois, avec une halle au toit de tuiles."
+      },
+      "photoNormandieLyons": {
+        "title": "Halles de Lyons-la-Forêt",
+        "alt": "Halle ouverte à charpente de bois, sous un grand toit de tuiles, entourée de fleurs."
+      },
+      "photoNormandieSaintCeneri": {
+        "title": "Saint-Céneri-le-Gérei",
+        "alt": "Maisons de pierre aux toits de tuiles brunes, avec une tourelle ronde coiffée d'un toit conique."
+      },
+      "photoNormandiePontAudemer": {
+        "title": "Maisons à pans de bois, Pont-Audemer",
+        "alt": "Hautes maisons à colombages et à pignons, le long d'une rue étroite."
+      },
+      "photoNormandieVernon": {
+        "title": "Vieux Moulin de Vernon",
+        "alt": "Maison à pans de bois perchée sur les piles d'un ancien pont, au-dessus d'un fleuve."
+      },
+      "photoNormandieVolcan": {
+        "title": "Le Volcan, Le Havre",
+        "alt": "Paroi blanche et courbe d'un bâtiment conique, se détachant sur le ciel."
+      },
+      "photoNormandieGiverny": {
+        "title": "Jardin d'eau de Giverny",
+        "alt": "Barque verte sur un bassin, sous des bambous et des saules."
+      },
+      "photoNormandieDentelle": {
+        "title": "Éventail en point d'Alençon",
+        "alt": "Éventail de dentelle fine aux motifs floraux, exposé dans une vitrine."
+      },
+      "photoNormandieCuivre": {
+        "title": "Dinanderie à Villedieu-les-Poêles",
+        "alt": "Feuille de métal martelé aux reflets dorés, posée sur une souche dans un atelier."
+      },
+      "photoNormandieCloches": {
+        "title": "Fonderie de cloches, Villedieu-les-Poêles",
+        "alt": "Objet de bronze en forme de cloche, enserré dans un gabarit de bois, dans un atelier de brique."
+      },
+      "photoNormandieLin": {
+        "title": "Champ de lin en rouissage",
+        "alt": "Champ où de longues rangées de tiges coupées sèchent au sol, jusqu'à l'horizon."
+      },
+      "photoNormandieFaience": {
+        "title": "Faïence de Rouen, vers 1720",
+        "alt": "Aiguière blanche décorée de motifs bleus très fins, à anse en volute."
+      },
+      "photoNormandieNoron": {
+        "title": "Boutique de poteries, Noron-la-Poterie",
+        "alt": "Grande boutique à poutres apparentes, remplie de poteries et d'objets décoratifs colorés."
+      },
+      "photoNormandiePercheron": {
+        "title": "Cheval percheron",
+        "alt": "Grand cheval de trait à la robe gris pommelé, présenté sur une piste de sable."
+      },
+      "photoNormandieHarasPin": {
+        "title": "Château du Haras du Pin",
+        "alt": "Château classique de pierre aux hauts toits, au bout d'une large allée et de lices blanches."
+      },
+      "photoNormandieColombages": {
+        "title": "Maison à pans de bois, Bayeux",
+        "alt": "Haute maison d'angle aux étages en encorbellement, à la structure de bois apparente."
+      },
+      "photoNormandieChaumiere": {
+        "title": "Chaumière du Marais-Vernier",
+        "alt": "Maison à pans de bois au toit de chaume, au fond d'un jardin bordé de haies."
+      },
+      "photoNormandieColombier": {
+        "title": "Colombier de Mortemer",
+        "alt": "Tour ronde de pierre à toit conique, surmontée d'un lanternon, parmi des arbres."
+      },
+      "photoNormandiePressoir": {
+        "title": "Pressoir à cidre",
+        "alt": "Ancienne cuve de bois cerclée de métal, surmontée d'une grosse vis, dans un cellier."
+      },
+      "photoNormandieRollon": {
+        "title": "Statue de Rollon, Rouen",
+        "alt": "Statue de pierre blanche d'un guerrier coiffé d'un casque, devant des arbres."
+      },
+      "photoNormandieGuillaumeStatue": {
+        "title": "Statue de Guillaume le Conquérant, Falaise",
+        "alt": "Statue équestre de bronze d'un cavalier levant un étendard, sur une place devant une église."
+      },
+      "photoNormandieCorneille": {
+        "title": "Statue de Pierre Corneille, Rouen",
+        "alt": "Statue de bronze vert-de-gris d'un homme aux longs cheveux bouclés, tenant une plume."
+      },
+      "photoNormandieFlaubert": {
+        "title": "Pavillon Flaubert, Croisset",
+        "alt": "Petit pavillon de pierre aux volets bleus, au bord d'un jardin aux massifs fleuris."
+      },
+      "photoNormandieSatie": {
+        "title": "Maison natale d'Erik Satie, Honfleur",
+        "alt": "Maison couverte de lierre, au balcon de bois, à côté d'une maison à pans de bois."
+      },
+      "photoNormandieArmada": {
+        "title": "Armada de Rouen",
+        "alt": "Grands voiliers à plusieurs mâts amarrés le long des quais d'un fleuve, avec une foule de visiteurs."
+      },
+      "photoNormandieDeauville": {
+        "title": "Parasols de la plage de Deauville",
+        "alt": "Rangée de parasols colorés, fermés, plantés sur une vaste plage de sable."
+      },
+      "photoNormandieJobourg": {
+        "title": "Nez de Jobourg",
+        "alt": "Promontoire rocheux couvert de lande, plongeant dans une mer d'un bleu turquoise."
+      },
+      "photoNormandieCapHague": {
+        "title": "Phare de Goury",
+        "alt": "Phare de granit sur un rocher en mer, en silhouette devant un ciel rose au coucher du soleil."
+      },
+      "photoNormandieGatteville": {
+        "title": "Phare de Gatteville",
+        "alt": "Très haut phare de granit, à côté d'un ancien phare plus bas, au bord d'une pointe rocheuse."
+      },
+      "photoNormandieDuneHatainville": {
+        "title": "Dunes d'Hatainville",
+        "alt": "Longue plage de sable bordée de hautes dunes couvertes d'herbes sèches."
+      },
+      "photoNormandieChausey": {
+        "title": "Grande Île de Chausey",
+        "alt": "Petite île rocheuse portant quelques maisons et un phare, devant une mer bleue."
+      },
+      "photoNormandieBaieMont": {
+        "title": "Baie du Mont-Saint-Michel",
+        "alt": "Vaste étendue de sable humide sillonnée de chenaux à marée basse, avec un îlot au loin."
+      },
+      "photoNormandieVarengeville": {
+        "title": "Église de Varengeville-sur-Mer",
+        "alt": "Petite église de pierre et son cimetière au sommet d'une falaise, face à la mer."
+      },
+      "photoNormandieEstuaire": {
+        "title": "Réserve naturelle de l'estuaire de la Seine",
+        "alt": "Plan d'eau bordé de roseaux et de prairies humides, sous un ciel bleu."
+      },
+      "photoNormandieTancarville": {
+        "title": "Pont de Tancarville",
+        "alt": "Pont suspendu rouge franchissant un large fleuve, vu depuis la rive."
+      },
+      "photoNormandieCiteMer": {
+        "title": "Ancienne gare maritime de Cherbourg",
+        "alt": "Grand bâtiment de béton au fronton décoré d'une photographie ancienne d'un paquebot à quai."
+      },
+      "photoNormandieClecy": {
+        "title": "Vallée de l'Orne, autochrome",
+        "alt": "Rivière calme entre des arbres, au pied de collines boisées, sur un ancien cliché en couleurs."
+      },
+      "photoNormandieOetre": {
+        "title": "Roche d'Oëtre",
+        "alt": "Vue plongeante sur une vallée encaissée et couverte de forêts, depuis un rocher."
+      },
+      "photoNormandieMarais": {
+        "title": "Marais du Cotentin et du Bessin",
+        "alt": "Canal couvert de lentilles d'eau, entre des berges herbeuses et des haies."
+      },
+      "photoNormandieBagnoles": {
+        "title": "Lac de Bagnoles-de-l'Orne",
+        "alt": "Lac entouré de forêt, avec de grands bâtiments au bord de l'eau."
+      },
+      "photoNormandieOmaha": {
+        "title": "Monument Les Braves, Omaha Beach",
+        "alt": "Sculpture d'acier faite de hautes lames dressées sur une large plage de sable."
+      },
+      "photoNormandiePointeDuHoc": {
+        "title": "Pointe du Hoc",
+        "alt": "Terrain herbeux creusé de grands cratères et de restes de béton, au bord d'une falaise."
+      },
+      "photoNormandieColleville": {
+        "title": "Cimetière américain de Colleville-sur-Mer",
+        "alt": "Alignements de croix blanches sur une pelouse, à perte de vue."
+      },
+      "photoNormandieArromanches": {
+        "title": "Arromanches-les-Bains et le port artificiel",
+        "alt": "Petite ville en bord de plage, avec des blocs de béton alignés dans la mer."
+      },
+      "photoNormandieJuno": {
+        "title": "Plage de Courseulles-sur-Mer",
+        "alt": "Longue plage de sable bordée de dunes, sous un ciel bleu."
+      },
+      "photoNormandiePegasus": {
+        "title": "Pegasus Bridge",
+        "alt": "Pont métallique basculant exposé sur une pelouse, devant une rangée de drapeaux."
+      },
+      "photoNormandieSainteMere": {
+        "title": "Église de Sainte-Mère-Église",
+        "alt": "Église de pierre au clocher carré, auquel pend un parachute blanc."
       }
     }
   },
@@ -5268,6 +5672,7 @@
     "11": "Aude",
     "12": "Aveyron",
     "13": "Bouches-du-Rhône",
+    "14": "Calvados",
     "15": "Cantal",
     "16": "Charente",
     "17": "Charente-Maritime",
@@ -5279,6 +5684,7 @@
     "24": "Dordogne",
     "25": "Doubs",
     "26": "Drôme",
+    "27": "Eure",
     "28": "Eure-et-Loir",
     "29": "Finistère",
     "30": "Gard",
@@ -5301,6 +5707,7 @@
     "47": "Lot-et-Garonne",
     "48": "Lozère",
     "49": "Maine-et-Loire",
+    "50": "Manche",
     "51": "Marne",
     "52": "Haute-Marne",
     "53": "Mayenne",
@@ -5309,6 +5716,7 @@
     "56": "Morbihan",
     "57": "Moselle",
     "58": "Nièvre",
+    "61": "Orne",
     "63": "Puy-de-Dôme",
     "64": "Pyrénées-Atlantiques",
     "65": "Hautes-Pyrénées",
@@ -5321,6 +5729,7 @@
     "72": "Sarthe",
     "73": "Savoie",
     "74": "Haute-Savoie",
+    "76": "Seine-Maritime",
     "79": "Deux-Sèvres",
     "81": "Tarn",
     "82": "Tarn-et-Garonne",
@@ -6059,7 +6468,76 @@
     "guemene-sur-scorff": "Guémené-sur-Scorff",
     "rochefort-en-terre": "Rochefort-en-Terre",
     "locmariaquer": "Locmariaquer",
-    "groix": "Groix"
+    "groix": "Groix",
+    "caen": "Caen",
+    "bayeux": "Bayeux",
+    "lisieux": "Lisieux",
+    "honfleur": "Honfleur",
+    "deauville": "Deauville",
+    "trouville-sur-mer": "Trouville-sur-Mer",
+    "falaise": "Falaise",
+    "vire-normandie": "Vire Normandie",
+    "cabourg": "Cabourg",
+    "pont-l-eveque": "Pont-l'Évêque",
+    "ouistreham": "Ouistreham",
+    "arromanches-les-bains": "Arromanches-les-Bains",
+    "courseulles-sur-mer": "Courseulles-sur-Mer",
+    "beuvron-en-auge": "Beuvron-en-Auge",
+    "clecy": "Clécy",
+    "evreux": "Évreux",
+    "vernon": "Vernon",
+    "les-andelys": "Les Andelys",
+    "louviers": "Louviers",
+    "bernay": "Bernay",
+    "pont-audemer": "Pont-Audemer",
+    "conches-en-ouche": "Conches-en-Ouche",
+    "giverny": "Giverny",
+    "lyons-la-foret": "Lyons-la-Forêt",
+    "le-bec-hellouin": "Le Bec-Hellouin",
+    "harcourt": "Harcourt",
+    "saint-lo": "Saint-Lô",
+    "cherbourg-en-cotentin": "Cherbourg-en-Cotentin",
+    "granville": "Granville",
+    "coutances": "Coutances",
+    "avranches": "Avranches",
+    "valognes": "Valognes",
+    "saint-vaast-la-hougue": "Saint-Vaast-la-Hougue",
+    "sainte-mere-eglise": "Sainte-Mère-Église",
+    "villedieu-les-poeles-rouffigny": "Villedieu-les-Poêles-Rouffigny",
+    "lessay": "Lessay",
+    "barfleur": "Barfleur",
+    "le-mont-saint-michel": "Le Mont-Saint-Michel",
+    "hambye": "Hambye",
+    "pirou": "Pirou",
+    "alencon": "Alençon",
+    "argentan": "Argentan",
+    "flers": "Flers",
+    "l-aigle": "L'Aigle",
+    "mortagne-au-perche": "Mortagne-au-Perche",
+    "sees": "Sées",
+    "belleme": "Bellême",
+    "domfront-en-poiraie": "Domfront en Poiraie",
+    "bagnoles-de-l-orne-normandie": "Bagnoles de l'Orne Normandie",
+    "vimoutiers": "Vimoutiers",
+    "carrouges": "Carrouges",
+    "saint-ceneri-le-gerei": "Saint-Céneri-le-Gérei",
+    "camembert": "Camembert",
+    "le-pin-au-haras": "Le Pin-au-Haras",
+    "rouen": "Rouen",
+    "le-havre": "Le Havre",
+    "dieppe": "Dieppe",
+    "fecamp": "Fécamp",
+    "etretat": "Étretat",
+    "yvetot": "Yvetot",
+    "elbeuf": "Elbeuf",
+    "eu": "Eu",
+    "le-treport": "Le Tréport",
+    "neufchatel-en-bray": "Neufchâtel-en-Bray",
+    "saint-valery-en-caux": "Saint-Valery-en-Caux",
+    "lillebonne": "Lillebonne",
+    "jumieges": "Jumièges",
+    "varengeville-sur-mer": "Varengeville-sur-Mer",
+    "veules-les-roses": "Veules-les-Roses"
   },
   "territories": {
     "champagne-ardenne": {
@@ -37624,6 +38102,1951 @@
           "master": {
             "name": "Maître de Bretagne",
             "description": "Réussir le Défi Maître de Bretagne, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
+    },
+    "normandie": {
+      "name": "Normandie",
+      "description": "Des falaises d'Étretat au Mont-Saint-Michel, des plages du Débarquement aux abbayes de la vallée de la Seine, une région de pommiers et de bocage, de fromages et de cidre, de ports et de peintres, entre Calvados, Eure, Manche, Orne et Seine-Maritime.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Normandie",
+          "description": "Cinq départements, leurs villes et les grands repères d'une région tournée vers la Manche, des falaises de craie du pays de Caux à la presqu'île du Cotentin.",
+          "capitale": {
+            "prompt": "Quelle ville est le chef-lieu de la région Normandie ?",
+            "hint": "Elle est traversée par la Seine, entre Paris et la mer.",
+            "anecdote": "La préfecture de région est à Rouen, mais le conseil régional siège à Caen. Les deux villes se partagent les institutions depuis la fusion de 2016."
+          },
+          "cinq": {
+            "prompt": "Combien de départements compte la région Normandie ?",
+            "hint": "Trois d'entre eux portent le nom d'un cours d'eau.",
+            "anecdote": "Ce sont le Calvados, l'Eure, la Manche, l'Orne et la Seine-Maritime.",
+            "answers": {
+              "cinq": "Cinq",
+              "quatre": "Quatre",
+              "six": "Six",
+              "trois": "Trois"
+            }
+          },
+          "fusion": {
+            "prompt": "En quelle année la Basse-Normandie et la Haute-Normandie ont-elles été réunies en une seule région ?",
+            "hint": "La même réforme a réduit le nombre de régions métropolitaines de 22 à 13.",
+            "anecdote": "Les deux régions avaient été séparées lors de la création des régions administratives. Leur réunion a pris effet le 1er janvier.",
+            "answers": {
+              "en-2016": "En 2016",
+              "en-2006": "En 2006",
+              "en-1982": "En 1982",
+              "en-2020": "En 2020"
+            }
+          },
+          "voisins": {
+            "prompt": "Quelle région n'a pas de frontière commune avec la Normandie ?",
+            "hint": "Elle se trouve tout à l'est du pays, le long de l'Allemagne.",
+            "anecdote": "La Normandie touche cinq régions : la Bretagne, les Pays de la Loire, le Centre-Val de Loire, l'Île-de-France et les Hauts-de-France.",
+            "answers": {
+              "le-grand-est": "Le Grand Est",
+              "la-bretagne": "La Bretagne",
+              "les-hauts-de-france": "Les Hauts-de-France",
+              "le-centre-val-de-loire": "Le Centre-Val de Loire"
+            }
+          },
+          "habitants": {
+            "prompt": "Combien d'habitants compte à peu près la région Normandie ?",
+            "hint": "C'est un peu moins que la Bretagne.",
+            "anecdote": "Sa population se concentre surtout dans la vallée de la Seine et autour de Caen.",
+            "answers": {
+              "environ-3-3-millions": "Environ 3,3 millions",
+              "environ-1-5-million": "Environ 1,5 million",
+              "environ-5-millions": "Environ 5 millions",
+              "environ-6-5-millions": "Environ 6,5 millions"
+            }
+          },
+          "saint-clair": {
+            "prompt": "En quelle année le traité de Saint-Clair-sur-Epte a-t-il confié la région de Rouen au chef viking Rollon ?",
+            "hint": "C'est au tout début du Xe siècle.",
+            "anecdote": "Ce traité est vu comme l'acte de naissance du duché. Les Normands, les hommes du Nord, ont donné leur nom à la région.",
+            "answers": {
+              "en-911": "En 911",
+              "en-843": "En 843",
+              "en-987": "En 987",
+              "en-1066": "En 1066"
+            }
+          },
+          "debarquement": {
+            "prompt": "À quelle date a eu lieu le débarquement allié sur les côtes de la région ?",
+            "hint": "Les Alliés l'appelaient le Jour J.",
+            "anecdote": "Plus de 150 000 soldats ont débarqué ce jour-là sur cinq plages, entre l'est du Cotentin et l'embouchure de l'Orne.",
+            "answers": {
+              "le-6-juin-1944": "Le 6 juin 1944",
+              "le-15-aout-1944": "Le 15 août 1944",
+              "le-25-aout-1944": "Le 25 août 1944",
+              "le-8-mai-1945": "Le 8 mai 1945"
+            }
+          },
+          "drapeau": {
+            "prompt": "Que représentent les deux figures dorées de ce drapeau ?",
+            "hint": "En héraldique, on les décrit passants, la tête tournée vers celui qui regarde.",
+            "anecdote": "Ce drapeau reprend les armes des ducs de Normandie, deux léopards d'or sur fond rouge. Les armoiries royales d'Angleterre en comptent trois.",
+            "answers": {
+              "des-leopards": "Des léopards",
+              "des-dragons": "Des dragons",
+              "des-aigles": "Des aigles",
+              "des-chevaux": "Des chevaux"
+            }
+          },
+          "seine": {
+            "prompt": "Quel fleuve traverse Rouen avant de rejoindre la Manche entre Le Havre et Honfleur ?",
+            "hint": "Il prend sa source sur le plateau de Langres, en Bourgogne.",
+            "anecdote": "Paris, Rouen et Le Havre sont reliés par ce fleuve, l'un des grands axes de transport du pays.",
+            "answers": {
+              "la-seine": "La Seine",
+              "la-loire": "La Loire",
+              "la-somme": "La Somme",
+              "l-orne": "L'Orne"
+            }
+          },
+          "cotentin": {
+            "prompt": "Comment s'appelle la presqu'île qui s'avance dans la Manche, à l'ouest de la région ?",
+            "hint": "Sa pointe nord-ouest s'appelle le cap de la Hague.",
+            "anecdote": "Cherbourg-en-Cotentin se trouve à sa pointe nord. Ses côtes font face aux îles Anglo-Normandes.",
+            "answers": {
+              "le-cotentin": "Le Cotentin",
+              "le-pays-de-caux": "Le pays de Caux",
+              "le-pays-d-auge": "Le pays d'Auge",
+              "le-vexin": "Le Vexin"
+            }
+          },
+          "anglo-normandes": {
+            "prompt": "Quelles îles proches de la côte ouest dépendent de la Couronne britannique, sans faire partie du Royaume-Uni ?",
+            "hint": "Les deux plus grandes s'appellent Jersey et Guernesey.",
+            "anecdote": "Elles sont les derniers restes de l'ancien duché de Normandie restés liés à la Couronne d'Angleterre.",
+            "answers": {
+              "les-iles-anglo-normandes": "Les îles Anglo-Normandes",
+              "les-iles-chausey": "Les îles Chausey",
+              "les-iles-scilly": "Les îles Scilly",
+              "les-iles-saint-marcouf": "Les îles Saint-Marcouf"
+            }
+          },
+          "caux": {
+            "prompt": "Comment s'appelle le plateau de craie qui s'étend entre Rouen, Le Havre et Dieppe ?",
+            "hint": "Ses falaises tombent à pic dans la mer.",
+            "anecdote": "Ses fermes sont entourées de talus plantés de hauts arbres, que l'on appelle des clos-masures.",
+            "answers": {
+              "le-pays-de-caux": "Le pays de Caux",
+              "le-pays-d-auge": "Le pays d'Auge",
+              "le-pays-de-bray": "Le pays de Bray",
+              "le-bessin": "Le Bessin"
+            }
+          },
+          "auge": {
+            "prompt": "Quel pays aux collines verdoyantes, autour de Lisieux, est réputé pour ses vergers et ses maisons à colombages ?",
+            "hint": "Il s'étend surtout dans l'est du Calvados.",
+            "anecdote": "Une route du cidre balisée y relie les villages et les fermes des producteurs.",
+            "answers": {
+              "le-pays-d-auge": "Le pays d'Auge",
+              "le-pays-de-caux": "Le pays de Caux",
+              "le-pays-de-bray": "Le pays de Bray",
+              "le-vexin-normand": "Le Vexin normand"
+            }
+          },
+          "albatre": {
+            "prompt": "Comment appelle-t-on la côte de hautes falaises blanches qui s'étend de l'estuaire de la Seine au Tréport ?",
+            "hint": "Son nom évoque une pierre blanche et translucide.",
+            "anecdote": "Ses falaises de craie reculent un peu chaque année, rongées par la mer et les pluies.",
+            "answers": {
+              "la-cote-d-albatre": "La côte d'Albâtre",
+              "la-cote-fleurie": "La Côte Fleurie",
+              "la-cote-de-nacre": "La côte de Nacre",
+              "la-cote-d-opale": "La côte d'Opale"
+            }
+          },
+          "fleurie": {
+            "prompt": "Quelle côte du Calvados réunit Deauville, Trouville-sur-Mer, Houlgate et Cabourg ?",
+            "hint": "Son nom évoque les jardins de ses villas.",
+            "anecdote": "Cabourg a inspiré à Marcel Proust la station imaginaire de Balbec, dans À la recherche du temps perdu.",
+            "answers": {
+              "la-cote-fleurie": "La Côte Fleurie",
+              "la-cote-de-nacre": "La côte de Nacre",
+              "la-cote-d-albatre": "La côte d'Albâtre",
+              "la-cote-des-havres": "La côte des Havres"
+            }
+          },
+          "herbages": {
+            "prompt": "Comment appelle-t-on en Normandie ces prairies grasses et closes, où paissent les vaches ?",
+            "hint": "Le climat doux et humide les garde verts presque toute l'année.",
+            "anecdote": "Les éleveurs qui y engraissent leurs bêtes sont appelés des herbagers. Les haies et les pommiers abritent le bétail.",
+            "answers": {
+              "les-herbages": "Les herbages",
+              "les-alpages": "Les alpages",
+              "les-estives": "Les estives",
+              "les-landes": "Les landes"
+            }
+          },
+          "mont-saint-michel": {
+            "prompt": "Quel îlot rocheux, couronné par une abbaye, se dresse dans la baie qui sépare la région de la Bretagne ?",
+            "hint": "Le Couesnon, qui se jette dans la baie, marque la limite entre les deux régions.",
+            "anecdote": "Il est inscrit au patrimoine mondial de l'UNESCO depuis 1979, avec sa baie. Un pont-passerelle, ouvert en 2014, a remplacé l'ancienne digue.",
+            "answers": {
+              "le-rocher-de-tombelaine": "Le rocher de Tombelaine",
+              "le-mont-dol": "Le mont Dol",
+              "l-ile-de-tatihou": "L'île de Tatihou"
+            }
+          },
+          "etretat": {
+            "prompt": "Quelle station de la côte d'Albâtre est célèbre pour cette arche de craie et son aiguille ?",
+            "hint": "Maurice Leblanc y a situé L'Aiguille creuse, une aventure d'Arsène Lupin.",
+            "anecdote": "L'aiguille s'élève à une cinquantaine de mètres. Monet, Courbet et Boudin ont peint ces falaises."
+          },
+          "pont-normandie": {
+            "prompt": "Comment s'appelle ce pont à haubans qui franchit l'estuaire de la Seine, entre Le Havre et Honfleur ?",
+            "hint": "Sa travée centrale mesure 856 mètres.",
+            "anecdote": "Inauguré en 1995, il a été pendant quelques années le plus long pont à haubans du monde.",
+            "answers": {
+              "le-pont-de-normandie": "Le pont de Normandie",
+              "le-pont-de-tancarville": "Le pont de Tancarville",
+              "le-pont-de-brotonne": "Le pont de Brotonne",
+              "le-pont-flaubert": "Le pont Flaubert"
+            }
+          },
+          "caen-abbaye": {
+            "prompt": "Dans quelle ville se trouve cette abbaye aux Hommes, fondée par Guillaume le Conquérant, qui y est inhumé ?",
+            "hint": "C'est la ville la plus peuplée du Calvados.",
+            "anecdote": "Son épouse Mathilde a fondé l'abbaye aux Dames, à l'autre bout de la ville. Les bâtiments de l'abbaye aux Hommes abritent aujourd'hui l'hôtel de ville."
+          },
+          "rouen-cathedrale": {
+            "prompt": "Dans quelle ville se dresse cette cathédrale, dont la façade a été peinte plus de trente fois par Claude Monet ?",
+            "hint": "C'est la préfecture de la Seine-Maritime.",
+            "anecdote": "Sa flèche de fonte, achevée en 1876, culmine à 151 mètres : c'est la plus haute de France."
+          },
+          "le-havre": {
+            "prompt": "Quelle ville, reconstruite par Auguste Perret après la guerre, est dominée par le clocher de cette église Saint-Joseph ?",
+            "hint": "Elle se trouve à l'embouchure de la Seine, sur la rive nord.",
+            "anecdote": "Son centre reconstruit est inscrit au patrimoine mondial de l'UNESCO depuis 2005. Le clocher de l'église s'élève à 107 mètres."
+          },
+          "honfleur": {
+            "prompt": "Dans quel port de l'estuaire de la Seine se trouve ce Vieux Bassin, bordé de hautes maisons étroites ?",
+            "hint": "Le peintre Eugène Boudin y est né en 1824.",
+            "anecdote": "Son église Sainte-Catherine, bâtie en bois après la guerre de Cent Ans, est la plus grande église en bois de France."
+          },
+          "cherbourg": {
+            "prompt": "Quel port, tout au nord de la presqu'île de la Manche, est protégé par l'une des plus grandes rades artificielles du monde ?",
+            "hint": "Des ferries en partent vers l'Irlande et l'Angleterre.",
+            "anecdote": "Sa digue centrale, longue de près de 4 kilomètres, a été achevée en 1853, après plus de soixante ans de travaux."
+          },
+          "dep-caen": {
+            "prompt": "Touchez le département dont la préfecture est Caen.",
+            "hint": "C'est le département du centre de la région, tourné vers la Manche, entre le Cotentin et l'estuaire de la Seine.",
+            "anecdote": "La ville a été détruite en grande partie pendant la bataille de Normandie, à l'été 1944."
+          },
+          "dep-bayeux": {
+            "prompt": "Touchez le département de Bayeux, l'une des premières villes libérées en 1944.",
+            "hint": "C'est le département du centre de la région, tourné vers la Manche, entre le Cotentin et l'estuaire de la Seine.",
+            "anecdote": "La ville a été libérée dès le 7 juin 1944, presque sans dommages."
+          },
+          "dep-deauville": {
+            "prompt": "Touchez le département de Deauville, station balnéaire réputée pour ses planches.",
+            "hint": "C'est le département du centre de la région, tourné vers la Manche, entre le Cotentin et l'estuaire de la Seine.",
+            "anecdote": "Un festival du cinéma américain s'y tient chaque année, depuis 1975."
+          },
+          "dep-evreux": {
+            "prompt": "Touchez le département dont la préfecture est Évreux.",
+            "hint": "C'est le département du sud-est de la région, voisin de l'Île-de-France.",
+            "anecdote": "La ville est traversée par l'Iton, un affluent de l'Eure."
+          },
+          "dep-giverny": {
+            "prompt": "Touchez le département de Giverny, où vivait le peintre Claude Monet.",
+            "hint": "C'est le département du sud-est de la région, voisin de l'Île-de-France.",
+            "anecdote": "Le village se trouve tout près de Vernon, au bord de la Seine."
+          },
+          "dep-andelys": {
+            "prompt": "Touchez le département des Andelys, au pied du Château-Gaillard.",
+            "hint": "C'est le département du sud-est de la région, voisin de l'Île-de-France.",
+            "anecdote": "La forteresse a été bâtie à la fin du XIIe siècle par Richard Cœur de Lion, roi d'Angleterre et duc de Normandie."
+          },
+          "dep-saint-lo": {
+            "prompt": "Touchez le département dont la préfecture est Saint-Lô.",
+            "hint": "C'est le département de l'ouest de la région, qui forme la presqu'île du Cotentin.",
+            "anecdote": "Presque entièrement détruite en 1944, la ville a été surnommée la capitale des ruines."
+          },
+          "dep-cherbourg": {
+            "prompt": "Touchez le département de Cherbourg-en-Cotentin, grand port militaire et de voyageurs.",
+            "hint": "C'est le département de l'ouest de la région, qui forme la presqu'île du Cotentin.",
+            "anecdote": "La commune est née en 2016 de la fusion de Cherbourg-Octeville et de quatre communes voisines."
+          },
+          "dep-granville": {
+            "prompt": "Touchez le département de Granville, dont la haute ville domine la mer.",
+            "hint": "C'est le département de l'ouest de la région, qui forme la presqu'île du Cotentin.",
+            "anecdote": "Le couturier Christian Dior y a passé son enfance, dans une villa devenue musée."
+          },
+          "dep-alencon": {
+            "prompt": "Touchez le département dont la préfecture est Alençon.",
+            "hint": "C'est le département du sud de la région, au cœur du bocage et du Perche, sans façade maritime.",
+            "anecdote": "La ville est traversée par la Sarthe, qui coule ensuite vers les Pays de la Loire."
+          },
+          "dep-camembert": {
+            "prompt": "Touchez le département du village de Camembert, qui a donné son nom à un célèbre fromage.",
+            "hint": "C'est le département du sud de la région, au cœur du bocage et du Perche, sans façade maritime.",
+            "anecdote": "Le village compte moins de 200 habitants, près de Vimoutiers."
+          },
+          "dep-mortagne": {
+            "prompt": "Touchez le département de Mortagne-au-Perche, réputée pour son boudin noir.",
+            "hint": "C'est le département du sud de la région, au cœur du bocage et du Perche, sans façade maritime.",
+            "anecdote": "Une grande foire au boudin s'y tient chaque année, au mois de mars."
+          },
+          "dep-rouen": {
+            "prompt": "Touchez le département dont la préfecture est Rouen.",
+            "hint": "C'est le département du nord-est de la région, au nord de la Seine, le long de hautes falaises de craie.",
+            "anecdote": "La ville compte plus de cent églises et édifices religieux, d'où son surnom de ville aux cent clochers."
+          },
+          "dep-le-havre": {
+            "prompt": "Touchez le département du Havre, grand port à l'embouchure de la Seine.",
+            "hint": "C'est le département du nord-est de la région, au nord de la Seine, le long de hautes falaises de craie.",
+            "anecdote": "Le port a été fondé en 1517 sur ordre du roi François Ier."
+          },
+          "dep-fecamp": {
+            "prompt": "Touchez le département de Fécamp, ancien grand port de pêche à la morue.",
+            "hint": "C'est le département du nord-est de la région, au nord de la Seine, le long de hautes falaises de craie.",
+            "anecdote": "Ses marins partaient pêcher la morue au large de Terre-Neuve."
+          },
+          "dep-dieppe": {
+            "prompt": "Touchez le département de Dieppe, la plus proche plage de Paris.",
+            "hint": "C'est le département du nord-est de la région, au nord de la Seine, le long de hautes falaises de craie.",
+            "anecdote": "Son port relie la France à Newhaven, en Angleterre, par ferry."
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs de Normandie",
+          "description": "Fromages de prairie, cidre, poiré et calvados, crème et beurre, coquillages de la Manche et douceurs aux pommes : la table d'une région de vergers et d'herbages.",
+          "camembert": {
+            "prompt": "Quel fromage à pâte molle et à croûte fleurie porte le nom d'un village de l'Orne ?",
+            "hint": "Sa croûte blanche et duveteuse se forme pendant l'affinage.",
+            "anecdote": "Il a reçu une appellation d'origine en 1983 : il doit être fait au lait cru et moulé à la louche.",
+            "answers": {
+              "le-camembert": "Le camembert",
+              "le-brie-de-meaux": "Le brie de Meaux",
+              "le-coulommiers": "Le coulommiers",
+              "le-chaource": "Le chaource"
+            }
+          },
+          "marie-harel": {
+            "prompt": "Selon la tradition, quelle fermière aurait mis au point le camembert, vers 1791 ?",
+            "hint": "Elle vivait dans le village même, à la fin du XVIIIe siècle.",
+            "anecdote": "Une statue lui rend hommage à Vimoutiers. Elle a été offerte par des fromagers de l'Ohio, aux États-Unis.",
+            "answers": {
+              "marie-harel": "Marie Harel",
+              "charlotte-corday": "Charlotte Corday",
+              "marie-curie": "Marie Curie",
+              "anne-de-bretagne": "Anne de Bretagne"
+            }
+          },
+          "boite-bois": {
+            "prompt": "Pourquoi le camembert est-il vendu dans une boîte ronde en bois ?",
+            "hint": "Cette boîte est apparue en 1890, à l'époque du chemin de fer.",
+            "anecdote": "On attribue cette invention à l'ingénieur Eugène Ridel. Le fromage a ainsi pu voyager jusqu'à Paris et bien au-delà.",
+            "answers": {
+              "pour-l-expedier-loin-sans-l-abimer": "Pour l'expédier loin sans l'abîmer",
+              "pour-lui-donner-un-gout-boise": "Pour lui donner un goût boisé",
+              "pour-le-fumer-pendant-l-affinage": "Pour le fumer pendant l'affinage",
+              "pour-respecter-une-loi-royale": "Pour respecter une loi royale"
+            }
+          },
+          "livarot": {
+            "prompt": "Quel fromage du pays d'Auge, à croûte orangée, est cerclé de bandes de laîche ou de papier ?",
+            "hint": "On le surnomme le colonel, à cause des cinq bandes qui l'entourent.",
+            "anecdote": "Ces bandes l'empêchaient autrefois de s'affaisser. Il a une appellation d'origine depuis 1975.",
+            "answers": {
+              "le-livarot": "Le livarot",
+              "le-pont-l-eveque": "Le pont-l'évêque",
+              "le-maroilles": "Le maroilles",
+              "le-munster": "Le munster"
+            }
+          },
+          "pont-leveque": {
+            "prompt": "Quel fromage carré à croûte lavée, l'un des plus anciens de la région, porte le nom d'une ville du pays d'Auge ?",
+            "hint": "On le rattache à l'angelot, un fromage cité dès le Moyen Âge.",
+            "anecdote": "Il a reçu une appellation d'origine en 1972. Sa pâte est souple et onctueuse.",
+            "answers": {
+              "le-pont-l-eveque": "Le pont-l'évêque",
+              "le-livarot": "Le livarot",
+              "le-maroilles": "Le maroilles",
+              "le-langres": "Le langres"
+            }
+          },
+          "neufchatel": {
+            "prompt": "Quel fromage du pays de Bray est souvent moulé en forme de cœur ?",
+            "hint": "Selon la légende, des jeunes filles l'offraient ainsi aux soldats anglais pendant la guerre de Cent Ans.",
+            "anecdote": "C'est l'un des plus anciens fromages de Normandie. Il a reçu une appellation d'origine en 1969.",
+            "answers": {
+              "le-neufchatel": "Le neufchâtel",
+              "le-coulommiers": "Le coulommiers",
+              "le-chaource": "Le chaource",
+              "le-saint-marcellin": "Le saint-marcellin"
+            }
+          },
+          "brillat-savarin": {
+            "prompt": "Quel fromage triple crème, mis au point dans les années 1930 et fabriqué notamment en Seine-Maritime, porte le nom d'un célèbre gastronome ?",
+            "hint": "Ce gastronome a écrit la Physiologie du goût.",
+            "anecdote": "Il bénéficie d'une indication géographique protégée.",
+            "answers": {
+              "le-brillat-savarin": "Le brillat-savarin",
+              "le-delice-de-bourgogne": "Le délice de Bourgogne",
+              "le-chaource": "Le chaource",
+              "le-boursault": "Le boursault"
+            }
+          },
+          "vache-normande": {
+            "prompt": "Quelle race de vache, à la robe tachetée de brun et aux yeux souvent cerclés de taches sombres, est née dans la région ?",
+            "hint": "Ces taches autour des yeux sont appelées des lunettes.",
+            "anecdote": "Son lait est riche en matières grasses et en protéines. Les appellations des fromages de la région imposent une part de lait de vaches de cette race.",
+            "answers": {
+              "la-normande": "La normande",
+              "la-prim-holstein": "La prim'holstein",
+              "la-montbeliarde": "La montbéliarde",
+              "la-salers": "La salers"
+            }
+          },
+          "isigny": {
+            "prompt": "Quelle ville du Bessin a donné son nom à un beurre et à une crème à l'appellation d'origine ?",
+            "hint": "Elle se trouve au fond de la baie des Veys.",
+            "anecdote": "Le beurre et la crème qui portent son nom ont reçu une appellation d'origine en 1986.",
+            "answers": {
+              "isigny-sur-mer": "Isigny-sur-Mer",
+              "carentan": "Carentan"
+            }
+          },
+          "creme-sauce": {
+            "prompt": "Quel ingrédient laitier donne leur caractère aux sauces dites à la normande ?",
+            "hint": "On l'ajoute souvent avec du beurre et un trait de cidre.",
+            "anecdote": "Escalopes, volailles ou poissons : la cuisine à la normande les nappe volontiers de cette sauce onctueuse, souvent avec des champignons.",
+            "answers": {
+              "la-creme": "La crème",
+              "le-fromage": "Le fromage",
+              "le-lait-ribot": "Le lait ribot",
+              "le-yaourt": "Le yaourt"
+            }
+          },
+          "vergers": {
+            "prompt": "Quels arbres fruitiers, en fleur au printemps, couvrent les vergers de la région ?",
+            "hint": "Leurs fruits servent à faire une boisson pétillante.",
+            "anecdote": "Dans les vergers traditionnels, les arbres à haute tige laissent paître les vaches dessous.",
+            "answers": {
+              "des-pommiers": "Des pommiers",
+              "des-cerisiers": "Des cerisiers",
+              "des-pechers": "Des pêchers",
+              "des-amandiers": "Des amandiers"
+            }
+          },
+          "cidre": {
+            "prompt": "Quelle boisson du pays d'Auge, faite de pommes fermentées, bénéficie d'une appellation d'origine depuis 1996 ?",
+            "hint": "Elle est pétillante et peu alcoolisée.",
+            "anecdote": "Les pommes sont broyées, puis pressées. Le jus fermente ensuite lentement, souvent plusieurs mois.",
+            "answers": {
+              "le-cidre": "Le cidre",
+              "le-poire": "Le poiré",
+              "le-pommeau": "Le pommeau",
+              "le-calvados": "Le calvados"
+            }
+          },
+          "cidre-brut": {
+            "prompt": "Comment appelle-t-on un cidre peu sucré, qui a fermenté longtemps ?",
+            "hint": "Plus la fermentation dure, plus le sucre se change en alcool.",
+            "anecdote": "Le cidre doux, moins fermenté, est plus sucré et moins alcoolisé.",
+            "answers": {
+              "un-cidre-brut": "Un cidre brut",
+              "un-cidre-doux": "Un cidre doux",
+              "un-cidre-rose": "Un cidre rosé",
+              "un-cidre-nouveau": "Un cidre nouveau"
+            }
+          },
+          "alambic": {
+            "prompt": "Quelle eau-de-vie, distillée dans des alambics comme celui-ci, est faite à partir de cidre ?",
+            "hint": "Elle porte le nom d'un département.",
+            "anecdote": "Elle doit vieillir au moins deux ans en fût de chêne. Celle du pays d'Auge est distillée deux fois.",
+            "answers": {
+              "le-calvados": "Le calvados",
+              "le-cognac": "Le cognac",
+              "l-armagnac": "L'armagnac",
+              "le-lambig": "Le lambig"
+            }
+          },
+          "trois-appellations": {
+            "prompt": "Combien d'appellations d'origine compte le calvados ?",
+            "hint": "L'une d'elles porte le nom d'un pays de poiriers.",
+            "anecdote": "Ce sont le calvados, le calvados pays d'Auge et le calvados domfrontais, qui contient au moins 30 % de poiré.",
+            "answers": {
+              "trois": "Trois",
+              "une": "Une",
+              "deux": "Deux",
+              "cinq": "Cinq"
+            }
+          },
+          "trou-normand": {
+            "prompt": "Comment appelle-t-on le petit verre de calvados que l'on boit au milieu d'un long repas ?",
+            "hint": "Il est censé faire de la place dans l'estomac.",
+            "anecdote": "Aujourd'hui, on le sert souvent sous la forme d'un sorbet à la pomme arrosé d'eau-de-vie.",
+            "answers": {
+              "le-trou-normand": "Le trou normand",
+              "le-coup-de-l-etrier": "Le coup de l'étrier",
+              "le-pousse-cafe": "Le pousse-café",
+              "le-digestif": "Le digestif"
+            }
+          },
+          "hors-d-age": {
+            "prompt": "Quelle mention peut porter un calvados qui a vieilli au moins six ans en fût de chêne ?",
+            "hint": "Elle laisse entendre qu'on ne compte plus ses années.",
+            "anecdote": "Le calvados doit passer au moins deux ans en fût. Plus il y reste, plus il prend une couleur ambrée.",
+            "answers": {
+              "hors-d-age": "Hors d'âge",
+              "primeur": "Primeur",
+              "nouveau": "Nouveau",
+              "brut": "Brut"
+            }
+          },
+          "poiriers": {
+            "prompt": "Quelle boisson pétillante est faite avec les fruits des grands arbres haute tige du Domfrontais ?",
+            "hint": "Ces arbres peuvent vivre plus de trois cents ans.",
+            "anecdote": "Celui de Domfront a reçu une appellation d'origine en 2002.",
+            "answers": {
+              "le-poire": "Le poiré",
+              "le-pommeau": "Le pommeau",
+              "le-cidre": "Le cidre",
+              "le-calvados": "Le calvados"
+            }
+          },
+          "tripes": {
+            "prompt": "Quelle spécialité du Calvados fait longuement mijoter des abats de bœuf avec du cidre ou du calvados ?",
+            "hint": "On la cuisait traditionnellement dans une tripière en terre.",
+            "anecdote": "Une confrérie, la Tripière d'or, organise chaque année un concours de la meilleure recette.",
+            "answers": {
+              "les-tripes-a-la-mode-de-caen": "Les tripes à la mode de Caen",
+              "le-tablier-de-sapeur": "Le tablier de sapeur",
+              "les-tripoux": "Les tripoux",
+              "la-potee": "La potée"
+            }
+          },
+          "andouille-vire": {
+            "prompt": "Quelle charcuterie fumée, à la coupe marbrée de gris et de noir, est la grande spécialité d'une ville du bocage du Calvados ?",
+            "hint": "Elle est faite de tripes et d'estomac de porc, enroulés dans un boyau puis fumés au bois de hêtre.",
+            "anecdote": "Sa tranche dessine des motifs irréguliers, alors que celle de sa cousine bretonne forme des cercles réguliers.",
+            "answers": {
+              "l-andouille-de-vire": "L'andouille de Vire",
+              "l-andouille-de-guemene": "L'andouille de Guémené",
+              "l-andouillette-de-troyes": "L'andouillette de Troyes",
+              "le-jesus-de-morteau": "Le jésus de Morteau"
+            }
+          },
+          "canard-rouennais": {
+            "prompt": "Quelle spécialité de Rouen est servie avec une sauce liée au sang, préparée à l'aide d'une presse ?",
+            "hint": "L'animal est étouffé, et non saigné, pour garder son sang.",
+            "anecdote": "Une presse en argent sert à extraire le jus de la carcasse, qui lie ensuite la sauce.",
+            "answers": {
+              "le-canard-a-la-rouennaise": "Le canard à la rouennaise",
+              "le-canard-a-l-orange": "Le canard à l'orange",
+              "le-magret-grille": "Le magret grillé",
+              "le-coq-au-vin": "Le coq au vin"
+            }
+          },
+          "poulet-auge": {
+            "prompt": "Comment s'appelle la recette de volaille flambée au calvados, puis nappée de crème ?",
+            "hint": "Elle porte le nom d'un pays normand réputé pour ses herbages et ses pommiers.",
+            "anecdote": "On l'accompagne souvent de pommes poêlées au beurre.",
+            "answers": {
+              "le-poulet-vallee-d-auge": "Le poulet vallée d'Auge",
+              "le-poulet-basquaise": "Le poulet basquaise",
+              "le-coq-au-vin": "Le coq au vin",
+              "la-poule-au-pot": "La poule au pot"
+            }
+          },
+          "omelette": {
+            "prompt": "Quelle spécialité, battue en mousse et cuite au feu de bois, a rendu célèbre une auberge du Mont-Saint-Michel ?",
+            "hint": "Ses œufs sont battus longuement dans une bassine de cuivre.",
+            "anecdote": "La recette a été lancée à la fin du XIXe siècle par Annette Poulard, pour nourrir les pèlerins à leur arrivée.",
+            "answers": {
+              "l-omelette": "L'omelette",
+              "le-souffle": "Le soufflé",
+              "la-crepe": "La crêpe",
+              "la-galette": "La galette"
+            }
+          },
+          "pain-brie": {
+            "prompt": "Quel pain à la mie très serrée, longtemps battu au bâton, est une spécialité normande ?",
+            "hint": "Son nom vient d'un vieux verbe normand qui veut dire broyer.",
+            "anecdote": "Il se conservait longtemps, et les marins l'emportaient en mer.",
+            "answers": {
+              "le-pain-brie": "Le pain brié",
+              "la-fouace": "La fouace",
+              "le-pain-de-campagne": "Le pain de campagne",
+              "la-faluche": "La faluche"
+            }
+          },
+          "graisse": {
+            "prompt": "Comment appelle-t-on la préparation de graisses de bœuf et de porc, cuites avec des légumes, que l'on ajoute à la soupe ?",
+            "hint": "On en met une cuillère dans le bouillon, pour lui donner du goût.",
+            "anecdote": "Elle se conserve en pot, au frais, tout l'hiver.",
+            "answers": {
+              "la-graisse-normande": "La graisse normande",
+              "le-saindoux": "Le saindoux",
+              "la-graisse-de-canard": "La graisse de canard",
+              "le-beurre-noisette": "Le beurre noisette"
+            }
+          },
+          "pres-sales": {
+            "prompt": "Comment appelle-t-on la viande de ces moutons, qui paissent sur les herbus de la baie du Mont-Saint-Michel ?",
+            "hint": "L'herbe de ces prés est recouverte par la mer lors des grandes marées.",
+            "anecdote": "Les prés-salés du Mont-Saint-Michel ont obtenu une appellation d'origine en 2009.",
+            "answers": {
+              "l-agneau-de-pre-sale": "L'agneau de pré-salé",
+              "l-agneau-de-sisteron": "L'agneau de Sisteron",
+              "l-agneau-du-quercy": "L'agneau du Quercy",
+              "l-agneau-de-lait-des-pyrenees": "L'agneau de lait des Pyrénées"
+            }
+          },
+          "moules": {
+            "prompt": "Quels coquillages sauvages, pêchés au large du Cotentin, portent le nom d'un petit port du Val de Saire ?",
+            "hint": "Ils sont pêchés en pleine mer, et non élevés sur des pieux.",
+            "anecdote": "On les cuisine volontiers à la normande, avec de la crème.",
+            "answers": {
+              "les-moules-de-barfleur": "Les moules de Barfleur",
+              "les-moules-de-bouchot": "Les moules de bouchot",
+              "les-huitres-d-isigny": "Les huîtres d'Isigny",
+              "les-coques-de-la-baie-de-somme": "Les coques de la baie de Somme"
+            }
+          },
+          "huitres": {
+            "prompt": "Quel port du Val de Saire, face à l'île de Tatihou, est réputé pour ses huîtres ?",
+            "hint": "Ses parcs s'étendent sur l'estran, à l'est du Cotentin.",
+            "anecdote": "On dit que ses huîtres ont un léger goût de noisette.",
+            "answers": {
+              "isigny-sur-mer": "Isigny-sur-Mer"
+            }
+          },
+          "bulot": {
+            "prompt": "Quel coquillage en spirale, pêché au large de Granville, a obtenu une indication géographique protégée ?",
+            "hint": "On le sert souvent avec de la mayonnaise.",
+            "anecdote": "Granville est l'un des premiers ports coquilliers de France.",
+            "answers": {
+              "le-bulot": "Le bulot",
+              "le-bigorneau": "Le bigorneau",
+              "la-coque": "La coque",
+              "la-praire": "La praire"
+            }
+          },
+          "crevette": {
+            "prompt": "Quel petit crustacé, pêché dans l'estuaire de la Seine, se vend tout cuit sur les quais de Honfleur ?",
+            "hint": "Il devient brun clair à la cuisson, sans virer au rouge.",
+            "anecdote": "On le décortique à la main, et on le mange volontiers à l'apéritif.",
+            "answers": {
+              "la-crevette-grise": "La crevette grise",
+              "la-langoustine": "La langoustine",
+              "le-bouquet": "Le bouquet",
+              "l-etrille": "L'étrille"
+            }
+          },
+          "hareng": {
+            "prompt": "Quel poisson, pêché en automne, est fêté chaque année à Dieppe et à Fécamp ?",
+            "hint": "On le sert souvent fumé, ou saur.",
+            "anecdote": "La foire de Dieppe, qui lui est consacrée avec la coquille Saint-Jacques, se tient en novembre.",
+            "answers": {
+              "le-hareng": "Le hareng",
+              "la-sardine": "La sardine",
+              "le-maquereau": "Le maquereau",
+              "la-morue": "La morue"
+            }
+          },
+          "sole": {
+            "prompt": "Quel poisson plat est le plus souvent servi à la normande, nappé de crème, de moules et de crevettes ?",
+            "hint": "On le sert aussi meunière, simplement doré au beurre.",
+            "anecdote": "Il est pêché dans la Manche, où il vit posé sur les fonds de sable.",
+            "answers": {
+              "la-sole": "La sole",
+              "la-plie": "La plie",
+              "le-turbot": "Le turbot",
+              "la-limande": "La limande"
+            }
+          },
+          "marmite": {
+            "prompt": "Quel plat de la côte d'Albâtre réunit poissons, coquillages et crevettes dans un bouillon crémé ?",
+            "hint": "Son nom évoque à la fois un récipient et un port de la Seine-Maritime.",
+            "anecdote": "On y met souvent de la sole, de la lotte, des moules et des coquilles Saint-Jacques.",
+            "answers": {
+              "la-marmite-dieppoise": "La marmite dieppoise",
+              "la-bouillabaisse": "La bouillabaisse",
+              "la-cotriade": "La cotriade",
+              "la-chaudree": "La chaudrée"
+            }
+          },
+          "teurgoule": {
+            "prompt": "Comment s'appelle ce riz au lait parfumé à la cannelle, cuit plusieurs heures au four dans une terrine ?",
+            "hint": "Son nom viendrait du fait qu'on se tord la bouche à la goûter trop chaude.",
+            "anecdote": "Elle cuit à four doux pendant cinq à six heures.",
+            "answers": {
+              "la-teurgoule": "La teurgoule",
+              "le-riz-a-l-imperatrice": "Le riz à l'impératrice",
+              "le-far-breton": "Le far breton",
+              "le-clafoutis": "Le clafoutis"
+            }
+          },
+          "tarte-normande": {
+            "prompt": "Quelle tarte aux pommes se distingue par son appareil d'œufs, de sucre et de crème, versé sur les fruits ?",
+            "hint": "On l'arrose parfois d'un peu de calvados.",
+            "anecdote": "Elle se déguste tiède. Les pommes sont souvent coupées en fines lamelles.",
+            "answers": {
+              "la-tarte-normande": "La tarte normande",
+              "la-tarte-tatin": "La tarte Tatin",
+              "la-tarte-bourdaloue": "La tarte Bourdaloue",
+              "le-clafoutis": "Le clafoutis"
+            }
+          },
+          "douillon": {
+            "prompt": "Comment appelle-t-on la poire entière cuite dans une pâte, spécialité de la région ?",
+            "hint": "Sa version à la pomme s'appelle le bourdelot.",
+            "anecdote": "Le fruit est souvent creusé et garni de beurre et de sucre avant la cuisson.",
+            "answers": {
+              "le-douillon": "Le douillon",
+              "la-tarte-tatin": "La tarte Tatin",
+              "le-chausson-aux-pommes": "Le chausson aux pommes",
+              "la-poire-belle-helene": "La poire Belle-Hélène"
+            }
+          },
+          "sucre-pomme": {
+            "prompt": "Quelle confiserie de Rouen se présente sous la forme de bâtonnets enveloppés d'un papier blanc et doré ?",
+            "hint": "On la fabriquait autrefois avec un peu de jus du fruit qui lui donne son nom.",
+            "anecdote": "Le papier porte souvent l'image du Gros-Horloge, symbole de la ville.",
+            "answers": {
+              "le-sucre-de-pomme": "Le sucre de pomme",
+              "le-sucre-d-orge": "Le sucre d'orge",
+              "les-berlingots": "Les berlingots",
+              "les-betises-de-cambrai": "Les bêtises de Cambrai"
+            }
+          },
+          "dep-gournay": {
+            "prompt": "Touchez le département de Gournay-en-Bray, où serait né le petit-suisse.",
+            "hint": "C'est le département de Rouen, au nord-est de la région.",
+            "anecdote": "Ce fromage frais aurait été mis au point vers 1850 dans une ferme voisine, sur l'idée d'un employé venu de Suisse."
+          },
+          "dep-cambremer": {
+            "prompt": "Touchez le département de Cambremer, au cœur de la route du cidre.",
+            "hint": "C'est le département de Caen, au centre de la région.",
+            "anecdote": "La route du cidre du pays d'Auge forme une boucle d'une quarantaine de kilomètres."
+          },
+          "dep-creances": {
+            "prompt": "Touchez le département de Créances, réputée pour ses carottes cultivées dans le sable.",
+            "hint": "C'est le département de Saint-Lô, à l'ouest de la région.",
+            "anecdote": "Les champs, sur la côte ouest du Cotentin, étaient autrefois amendés avec des algues."
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Abbayes de la vallée de la Seine, châteaux des ducs, cathédrales gothiques, villages à pans de bois et ports fortifiés : le patrimoine normand en images.",
+          "jumieges": {
+            "prompt": "Quelle abbaye en ruine, dans une boucle de la Seine, est souvent surnommée la plus belle ruine de France ?",
+            "hint": "Ses deux tours de façade, hautes d'environ 46 mètres, dominent encore la nef sans toit.",
+            "anecdote": "Fondée au VIIe siècle, son église a été consacrée en 1067 en présence de Guillaume le Conquérant. Après la Révolution, elle a servi de carrière de pierres.",
+            "answers": {
+              "l-abbaye-de-jumieges": "L'abbaye de Jumièges",
+              "l-abbaye-de-saint-wandrille": "L'abbaye de Saint-Wandrille",
+              "l-abbaye-de-hambye": "L'abbaye de Hambye",
+              "l-abbaye-du-bec-hellouin": "L'abbaye du Bec-Hellouin"
+            }
+          },
+          "saint-wandrille": {
+            "prompt": "Quelle abbaye de la vallée de la Seine, fondée en 649, abrite toujours une communauté de moines bénédictins ?",
+            "hint": "Son nom d'origine était Fontenelle.",
+            "anecdote": "Les moines y vivent de leur travail. Les ruines de l'ancienne église gothique côtoient les bâtiments où ils prient encore.",
+            "answers": {
+              "l-abbaye-de-saint-wandrille": "L'abbaye de Saint-Wandrille",
+              "l-abbaye-de-jumieges": "L'abbaye de Jumièges",
+              "l-abbaye-de-mortemer": "L'abbaye de Mortemer",
+              "l-abbaye-de-fontevraud": "L'abbaye de Fontevraud"
+            }
+          },
+          "bec-hellouin": {
+            "prompt": "Quelle abbaye de l'Eure, fondée en 1034 par le chevalier Herluin, a formé deux archevêques de Canterbury ?",
+            "hint": "Lanfranc et Anselme y ont enseigné avant de traverser la Manche.",
+            "anecdote": "Il reste de l'église médiévale la tour Saint-Nicolas, du XVe siècle. Une communauté bénédictine y vit de nouveau depuis 1948.",
+            "answers": {
+              "l-abbaye-du-bec-hellouin": "L'abbaye du Bec-Hellouin",
+              "l-abbaye-de-jumieges": "L'abbaye de Jumièges",
+              "l-abbaye-de-saint-wandrille": "L'abbaye de Saint-Wandrille",
+              "l-abbaye-de-cluny": "L'abbaye de Cluny"
+            }
+          },
+          "hambye": {
+            "prompt": "Quelle abbaye de la Manche, fondée vers 1145, a gardé son église gothique à ciel ouvert, au fond d'une vallée boisée ?",
+            "hint": "Elle se trouve dans le bocage, au sud de Coutances.",
+            "anecdote": "Vendue comme bien national, elle a servi de carrière au XIXe siècle. Ses bâtiments monastiques ont été restaurés et se visitent.",
+            "answers": {
+              "l-abbaye-de-hambye": "L'abbaye de Hambye",
+              "l-abbaye-de-jumieges": "L'abbaye de Jumièges",
+              "l-abbaye-de-beauport": "L'abbaye de Beauport",
+              "l-abbaye-de-la-lucerne": "L'abbaye de la Lucerne"
+            }
+          },
+          "abbaye-dames": {
+            "prompt": "Quelle abbaye de Caen a été fondée par la reine Mathilde, qui y est inhumée ?",
+            "hint": "Son époux a fondé, de l'autre côté de la ville, une abbaye pour les moines.",
+            "anecdote": "Son église romane est dédiée à la Sainte-Trinité. Les bâtiments abritent aujourd'hui le siège du conseil régional.",
+            "answers": {
+              "l-abbaye-aux-dames": "L'abbaye aux Dames",
+              "l-abbaye-aux-hommes": "L'abbaye aux Hommes",
+              "l-abbaye-d-ardenne": "L'abbaye d'Ardenne",
+              "l-abbaye-de-fontenay": "L'abbaye de Fontenay"
+            }
+          },
+          "fecamp-abbatiale": {
+            "prompt": "Quelle ville de la côte d'Albâtre possède une abbatiale de la Trinité longue d'environ 127 mètres ?",
+            "hint": "Les premiers ducs de Normandie en avaient fait l'un de leurs grands lieux de culte.",
+            "anecdote": "Elle conserve un reliquaire du Précieux Sang, qui a attiré des pèlerins pendant des siècles."
+          },
+          "mortain": {
+            "prompt": "Quelle ville du sud de la Manche possède une ancienne abbaye de moniales, dite l'Abbaye Blanche, et une grande cascade ?",
+            "hint": "Elle est perchée au-dessus des gorges de la Cance.",
+            "anecdote": "En août 1944, la ville a été au cœur d'une contre-offensive allemande, repoussée par les Alliés.",
+            "answers": {
+              "mortain": "Mortain",
+              "villedieu-les-poeles": "Villedieu-les-Poêles",
+              "domfront": "Domfront"
+            }
+          },
+          "bayeux-cathedrale": {
+            "prompt": "Quelle ville a vu sa cathédrale Notre-Dame consacrée en 1077, en présence de Guillaume le Conquérant ?",
+            "hint": "Son évêque Odon était le demi-frère du duc.",
+            "anecdote": "Odon aurait commandé une longue broderie pour l'orner, qui raconte la conquête de l'Angleterre."
+          },
+          "coutances": {
+            "prompt": "Quelle ville du Cotentin est dominée par une cathédrale gothique aux flèches élancées, posée sur une colline ?",
+            "hint": "Sa grande tour-lanterne, au-dessus de la croisée, éclaire l'intérieur.",
+            "anecdote": "Elle a été bâtie au XIIIe siècle, sur les restes d'une église romane. Elle a été épargnée par les bombardements de 1944."
+          },
+          "evreux": {
+            "prompt": "Quelle préfecture possède une cathédrale Notre-Dame réputée pour ses vitraux des XIVe et XVe siècles ?",
+            "hint": "C'est la préfecture de l'Eure.",
+            "anecdote": "Son portail nord est un bel exemple de style gothique flamboyant."
+          },
+          "sees": {
+            "prompt": "Quelle petite ville de l'Orne, siège d'un évêché, possède une cathédrale gothique aux deux hautes flèches ?",
+            "hint": "Elle se trouve au nord d'Alençon, près des sources de l'Orne.",
+            "anecdote": "Sa cathédrale Notre-Dame date pour l'essentiel du XIIIe siècle. Ses vitraux et sa rose sont célèbres."
+          },
+          "lisieux": {
+            "prompt": "Quelle ville du pays d'Auge possède une basilique consacrée en 1954, l'une des plus grandes églises bâties en France au XXe siècle ?",
+            "hint": "Elle est dédiée à une carmélite morte en 1897, canonisée en 1925.",
+            "anecdote": "Sainte Thérèse y a vécu au carmel. La ville est le deuxième lieu de pèlerinage de France, après Lourdes."
+          },
+          "gros-horloge": {
+            "prompt": "Quelle horloge astronomique de Rouen, dont le mécanisme date de 1389, enjambe une rue sur une arche Renaissance ?",
+            "hint": "Son cadran doré ne porte qu'une seule aiguille, celle des heures.",
+            "anecdote": "C'est l'un des plus anciens mécanismes d'horlogerie de France. Le beffroi voisin se visite.",
+            "answers": {
+              "le-gros-horloge": "Le Gros-Horloge",
+              "l-horloge-de-beauvais": "L'horloge de Beauvais",
+              "le-jacquemart-de-dijon": "Le Jacquemart de Dijon",
+              "l-horloge-de-strasbourg": "L'horloge de Strasbourg"
+            }
+          },
+          "aitre-saint-maclou": {
+            "prompt": "Quel ancien charnier de Rouen, entouré de galeries à pans de bois, est orné d'une danse macabre sculptée ?",
+            "hint": "Il a été créé pour inhumer les victimes de la peste noire de 1348.",
+            "anecdote": "Il a longtemps abrité l'école des beaux-arts. Un chat séché, retrouvé dans un mur, y est exposé.",
+            "answers": {
+              "l-aitre-saint-maclou": "L'aître Saint-Maclou",
+              "le-cimetiere-monumental": "Le cimetière monumental",
+              "le-cloitre-saint-ouen": "Le cloître Saint-Ouen",
+              "le-charnier-des-innocents": "Le charnier des Innocents"
+            }
+          },
+          "chateau-gaillard": {
+            "prompt": "Quel château fort, dressé sur une falaise au-dessus de la Seine, a été bâti en deux ans environ par Richard Cœur de Lion ?",
+            "hint": "Il veille sur les Andelys et barrait la route de Rouen.",
+            "anecdote": "Construit de 1196 à 1198, il a été pris en 1204 par Philippe Auguste, après un siège de plusieurs mois.",
+            "answers": {
+              "chateau-gaillard": "Château-Gaillard",
+              "le-chateau-de-falaise": "Le château de Falaise",
+              "le-chateau-d-arques": "Le château d'Arques",
+              "le-chateau-de-gisors": "Le château de Gisors"
+            }
+          },
+          "falaise-chateau": {
+            "prompt": "Quelle ville du Calvados a vu naître Guillaume le Conquérant, vers 1027, dans son château perché sur un rocher ?",
+            "hint": "Son nom désigne aussi un escarpement rocheux.",
+            "anecdote": "Son grand donjon carré a été restauré dans les années 1990, avec des ajouts contemporains qui ont fait débat."
+          },
+          "caen-chateau": {
+            "prompt": "Quel ensemble fortifié, fondé vers 1060 par Guillaume, est l'une des plus vastes enceintes médiévales d'Europe ?",
+            "hint": "Il abrite aujourd'hui le musée des Beaux-Arts et le musée de Normandie.",
+            "anecdote": "Ses remparts, longs de près d'un kilomètre, entourent une surface de plus de cinq hectares.",
+            "answers": {
+              "le-chateau-de-caen": "Le château de Caen",
+              "chateau-gaillard": "Château-Gaillard",
+              "le-chateau-de-falaise": "Le château de Falaise",
+              "la-cite-de-carcassonne": "La cité de Carcassonne"
+            }
+          },
+          "carrouges": {
+            "prompt": "Quel château de l'Orne, en brique rose et granit, est entouré de douves et abrite le siège d'un parc naturel régional ?",
+            "hint": "La famille Le Veneur l'a habité pendant plus de cinq siècles.",
+            "anecdote": "Il est le siège du parc naturel régional Normandie-Maine. L'État l'a acquis en 1936.",
+            "answers": {
+              "le-chateau-de-carrouges": "Le château de Carrouges",
+              "le-chateau-d-o": "Le château d'Ô",
+              "le-chateau-de-balleroy": "Le château de Balleroy",
+              "le-chateau-de-vaux-le-vicomte": "Le château de Vaux-le-Vicomte"
+            }
+          },
+          "chateau-o": {
+            "prompt": "Quel château de l'Orne, au nom d'une seule lettre, se reflète dans les eaux de ses douves ?",
+            "hint": "Il se trouve à Mortrée, près d'Argentan.",
+            "anecdote": "Ses tourelles et ses toits pointus mêlent le gothique et la Renaissance. Un surintendant des finances d'Henri III y est né.",
+            "answers": {
+              "le-chateau-d-o": "Le château d'Ô",
+              "le-chateau-de-carrouges": "Le château de Carrouges",
+              "le-chateau-de-chenonceau": "Le château de Chenonceau",
+              "le-chateau-de-balleroy": "Le château de Balleroy"
+            }
+          },
+          "balleroy": {
+            "prompt": "Quel château du Bessin, au bout d'une grand-rue rectiligne, est l'une des premières œuvres de François Mansart ?",
+            "hint": "Un milliardaire américain passionné de montgolfières l'a acheté en 1970.",
+            "anecdote": "Il a été bâti dans les années 1630. Malcolm Forbes y a ouvert un musée des ballons.",
+            "answers": {
+              "le-chateau-de-balleroy": "Le château de Balleroy",
+              "le-chateau-de-maisons": "Le château de Maisons",
+              "le-chateau-de-carrouges": "Le château de Carrouges",
+              "le-chateau-de-cheverny": "Le château de Cheverny"
+            }
+          },
+          "harcourt": {
+            "prompt": "Quel château fort de l'Eure est entouré d'un des plus anciens arboretums de France, créé en 1833 ?",
+            "hint": "Il porte le nom d'une grande famille normande.",
+            "anecdote": "Il appartient à l'Académie d'agriculture de France. L'arboretum compte des arbres venus du monde entier.",
+            "answers": {
+              "le-chateau-d-harcourt": "Le château d'Harcourt",
+              "chateau-gaillard": "Château-Gaillard",
+              "le-chateau-de-carrouges": "Le château de Carrouges",
+              "le-chateau-de-pirou": "Le château de Pirou"
+            }
+          },
+          "pirou": {
+            "prompt": "Quel château fort de la Manche, l'un des plus anciens de Normandie, est protégé par plusieurs enceintes et des douves en eau ?",
+            "hint": "Il se trouve près de la côte ouest du Cotentin.",
+            "anecdote": "Selon une légende, ses défenseurs se seraient enfuis transformés en oies.",
+            "answers": {
+              "le-chateau-de-pirou": "Le château de Pirou",
+              "le-chateau-de-carrouges": "Le château de Carrouges",
+              "le-chateau-de-falaise": "Le château de Falaise",
+              "le-chateau-de-bricquebec": "Le château de Bricquebec"
+            }
+          },
+          "crevecoeur": {
+            "prompt": "Quel château du pays d'Auge rassemble, sur sa motte et dans sa basse-cour, des bâtiments médiévaux à pans de bois ?",
+            "hint": "Son nom évoque un chagrin d'amour.",
+            "anecdote": "Ses fossés en eau entourent une ferme, un colombier et une chapelle. Un musée y est consacré aux pionniers de la prospection pétrolière.",
+            "answers": {
+              "le-chateau-de-crevecoeur": "Le château de Crèvecœur",
+              "le-chateau-de-saint-germain-de-livet": "Le château de Saint-Germain-de-Livet",
+              "le-chateau-d-o": "Le château d'Ô",
+              "le-chateau-de-pirou": "Le château de Pirou"
+            }
+          },
+          "fontaine-henry": {
+            "prompt": "Quel château de la plaine de Caen, de style Renaissance, est coiffé d'un toit d'ardoise parmi les plus hauts de France ?",
+            "hint": "Ce grand toit pentu est plus haut que la façade qu'il recouvre.",
+            "anecdote": "Sa façade de pierre de Caen est finement sculptée. Le château est habité par la même famille depuis le Moyen Âge.",
+            "answers": {
+              "le-chateau-de-fontaine-henry": "Le château de Fontaine-Henry",
+              "le-chateau-de-balleroy": "Le château de Balleroy",
+              "le-chateau-de-chambord": "Le château de Chambord",
+              "le-chateau-d-o": "Le château d'Ô"
+            }
+          },
+          "eu-chateau": {
+            "prompt": "Quel château de Seine-Maritime, résidence du roi Louis-Philippe, a reçu la reine Victoria en 1843 ?",
+            "hint": "Il se trouve près du Tréport, à la limite de la Picardie.",
+            "anecdote": "Cette visite est souvent vue comme le début de l'Entente cordiale entre la France et le Royaume-Uni.",
+            "answers": {
+              "le-chateau-d-eu": "Le château d'Eu",
+              "le-chateau-de-compiegne": "Le château de Compiègne",
+              "le-chateau-d-amboise": "Le château d'Amboise",
+              "le-chateau-de-balleroy": "Le château de Balleroy"
+            }
+          },
+          "domfront": {
+            "prompt": "Quelle ville de l'Orne, perchée sur un éperon rocheux au-dessus de la Varenne, garde les ruines d'un château des ducs ?",
+            "hint": "Elle a donné son nom à un pays de poiriers.",
+            "anecdote": "Au pied du rocher, l'église romane Notre-Dame-sur-l'Eau borde la rivière.",
+            "answers": {
+              "domfront": "Domfront",
+              "mortain": "Mortain"
+            }
+          },
+          "dieppe": {
+            "prompt": "Quel port de la côte d'Albâtre est dominé par un château du XVe siècle, devenu musée ?",
+            "hint": "Ce musée possède une grande collection d'ivoires sculptés.",
+            "anecdote": "C'est la station balnéaire la plus proche de Paris. Ses marins sont partis très tôt vers l'Afrique et les Amériques."
+          },
+          "granville": {
+            "prompt": "Quelle ville de la Manche, avec sa haute ville fortifiée sur un promontoire, est surnommée le Monaco du Nord ?",
+            "hint": "Elle fait face aux îles Chausey.",
+            "anecdote": "Elle a été fortifiée au XVe siècle par les Anglais. Son port arme encore pour la pêche aux coquillages.",
+            "answers": {
+              "saint-malo": "Saint-Malo"
+            }
+          },
+          "barfleur": {
+            "prompt": "Quel petit port du Val de Saire, l'un des plus beaux villages de France, a vu sombrer la Blanche-Nef en 1120 ?",
+            "hint": "L'héritier du roi d'Angleterre se trouvait à bord.",
+            "anecdote": "Ses maisons de granit gris entourent le port. Son église est posée face à la mer."
+          },
+          "saint-vaast": {
+            "prompt": "Quel ensemble fortifié, inscrit à l'UNESCO en 2008, protège la rade du Val de Saire ?",
+            "hint": "Ces ouvrages ont été bâtis après la bataille navale de 1692.",
+            "anecdote": "Elles font partie des douze sites majeurs de Vauban reconnus par l'UNESCO.",
+            "answers": {
+              "les-tours-vauban-de-la-hougue-et-de-tatihou": "Les tours Vauban de la Hougue et de Tatihou",
+              "le-fort-la-latte": "Le fort la Latte",
+              "la-citadelle-de-belle-ile": "La citadelle de Belle-Île",
+              "le-fort-boyard": "Le fort Boyard"
+            }
+          },
+          "beuvron": {
+            "prompt": "Quel village du Calvados, classé parmi les plus beaux de France, aligne ses maisons à pans de bois autour de sa place ?",
+            "hint": "Il se trouve entre Caen et Lisieux, au cœur des vergers.",
+            "anecdote": "Ses anciennes halles se trouvent au centre de la place. Le manoir du village date du XVIe siècle.",
+            "answers": {
+              "cambremer": "Cambremer"
+            }
+          },
+          "lyons": {
+            "prompt": "Quel village de l'Eure, classé parmi les plus beaux de France, abrite sous ses halles du XVIIIe siècle des marchés et des tournages ?",
+            "hint": "Il est entouré de l'une des plus belles hêtraies d'Europe.",
+            "anecdote": "Claude Chabrol y a tourné Madame Bovary en 1991."
+          },
+          "saint-ceneri": {
+            "prompt": "Quel village de l'Orne, dans une boucle de la Sarthe, a séduit de nombreux peintres paysagistes du XIXe siècle ?",
+            "hint": "Il se trouve dans les Alpes mancelles.",
+            "anecdote": "Sa petite église romane domine la rivière. Le village est classé parmi les plus beaux de France.",
+            "answers": {
+              "barbizon": "Barbizon"
+            }
+          },
+          "pont-audemer": {
+            "prompt": "Quelle ville de l'Eure, traversée par les bras de la Risle, est surnommée la Venise normande ?",
+            "hint": "Ses maisons à pans de bois bordent l'eau des canaux.",
+            "anecdote": "Elle a longtemps vécu de la tannerie, qui avait besoin de l'eau de la rivière."
+          },
+          "vernon": {
+            "prompt": "Quelle ville de l'Eure garde un vieux moulin à pans de bois, posé sur les piles d'un ancien pont de la Seine ?",
+            "hint": "Elle se trouve tout près de Giverny.",
+            "anecdote": "Claude Monet a peint plusieurs fois son église, vue depuis la Seine."
+          },
+          "volcan": {
+            "prompt": "Comment s'appelle cet espace culturel du Havre, conçu par l'architecte brésilien Oscar Niemeyer ?",
+            "hint": "Sa forme blanche et évasée rappelle une montagne.",
+            "anecdote": "Il a été inauguré en 1982. Il abrite une scène nationale et une bibliothèque.",
+            "answers": {
+              "le-volcan": "Le Volcan",
+              "le-lieu-unique": "Le Lieu unique",
+              "la-philharmonie": "La Philharmonie",
+              "le-quai": "Le Quai"
+            }
+          },
+          "giverny": {
+            "prompt": "Quel jardin de l'Eure, avec son pont japonais et son bassin de nymphéas, a été créé par un peintre impressionniste ?",
+            "hint": "Le peintre y a vécu de 1883 jusqu'à sa mort, en 1926.",
+            "anecdote": "Il y a peint plus de 250 toiles de nymphéas. La maison et les jardins se visitent.",
+            "answers": {
+              "le-jardin-de-claude-monet": "Le jardin de Claude Monet",
+              "le-jardin-de-caillebotte": "Le jardin de Caillebotte",
+              "le-jardin-des-plantes": "Le jardin des Plantes",
+              "le-jardin-de-villandry": "Le jardin de Villandry"
+            }
+          },
+          "dep-valognes": {
+            "prompt": "Touchez le département de Valognes, surnommée le Versailles normand.",
+            "hint": "C'est le département de Saint-Lô, à l'ouest de la région.",
+            "anecdote": "Ses hôtels particuliers du XVIIIe siècle lui ont valu ce surnom. Beaucoup ont été détruits en 1944."
+          },
+          "dep-conches": {
+            "prompt": "Touchez le département de Conches-en-Ouche, réputée pour les vitraux Renaissance de son église Sainte-Foy.",
+            "hint": "C'est le département d'Évreux, au sud-est de la région.",
+            "anecdote": "Ces vitraux du XVIe siècle comptent parmi les plus beaux de Normandie."
+          },
+          "dep-belleme": {
+            "prompt": "Touchez le département de Bellême, au cœur du Perche.",
+            "hint": "C'est le département d'Alençon, au sud de la région.",
+            "anecdote": "Sa forêt domaniale de chênes est l'une des plus belles de l'Ouest."
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Dentelle, cuivre et cloches, chevaux de trait et haras, maisons à pans de bois, écrivains, peintres et musiciens : les gestes et les grandes figures de la Normandie.",
+          "dentelle": {
+            "prompt": "Quelle dentelle à l'aiguille, inscrite au patrimoine culturel immatériel de l'UNESCO en 2010, porte le nom d'une préfecture ?",
+            "hint": "Elle est surnommée la reine des dentelles.",
+            "anecdote": "Un seul centimètre carré peut demander plusieurs heures de travail. Elle est apparue au XVIIe siècle, sous Colbert.",
+            "answers": {
+              "le-point-d-alencon": "Le point d'Alençon",
+              "la-dentelle-de-bayeux": "La dentelle de Bayeux",
+              "la-dentelle-du-puy": "La dentelle du Puy",
+              "la-dentelle-de-calais": "La dentelle de Calais"
+            }
+          },
+          "cuivre": {
+            "prompt": "Quel métal est martelé depuis le Moyen Âge à Villedieu-les-Poêles, dont les habitants sont surnommés les Sourdins ?",
+            "hint": "Ce surnom vient du bruit des marteaux, qui rendait sourd.",
+            "anecdote": "Les ateliers y fabriquaient des chaudrons, des bassines et des poêles. Plusieurs dinandiers y travaillent encore.",
+            "answers": {
+              "le-cuivre": "Le cuivre",
+              "l-etain": "L'étain",
+              "le-fer": "Le fer",
+              "l-argent": "L'argent"
+            }
+          },
+          "cloches": {
+            "prompt": "Quels objets sont encore coulés dans une fonderie artisanale de Villedieu-les-Poêles, l'une des dernières de France ?",
+            "hint": "On les coule dans un moule d'argile, puis on les accorde.",
+            "anecdote": "La fonderie Cornille-Havard en a coulé pour Notre-Dame de Paris, après l'incendie de 2019.",
+            "answers": {
+              "des-cloches": "Des cloches",
+              "des-chaudrons": "Des chaudrons",
+              "des-canons": "Des canons",
+              "des-statues": "Des statues"
+            }
+          },
+          "lin": {
+            "prompt": "Quelle plante, aux fleurs bleues éphémères, place la Normandie au premier rang mondial pour la production de sa fibre ?",
+            "hint": "Ses champs fleurissent quelques jours seulement, en juin.",
+            "anecdote": "Ses tiges sont laissées au sol pour rouir, puis teillées pour en séparer la fibre, qui sert à tisser.",
+            "answers": {
+              "le-lin": "Le lin",
+              "le-chanvre": "Le chanvre",
+              "le-coton": "Le coton",
+              "la-lavande": "La lavande"
+            }
+          },
+          "faience": {
+            "prompt": "Quelle ville a donné son nom à une faïence des XVIIe et XVIIIe siècles, réputée pour ses motifs bleus en lambrequins ?",
+            "hint": "C'est la grande ville de la vallée de la Seine.",
+            "anecdote": "Ces décors, comme une dentelle peinte, ont été imités dans toute l'Europe.",
+            "answers": {
+              "nevers": "Nevers",
+              "quimper": "Quimper",
+              "moustiers": "Moustiers"
+            }
+          },
+          "noron": {
+            "prompt": "Quel village du Bessin perpétue la fabrication de pièces en grès, cuites à très haute température ?",
+            "hint": "Ses ateliers produisaient autrefois des pots à beurre et des pichets à cidre.",
+            "anecdote": "Son argile, riche en silice, donne des pièces brun sombre qui ne laissent pas passer l'eau.",
+            "answers": {
+              "noron-la-poterie": "Noron-la-Poterie",
+              "vallauris": "Vallauris",
+              "la-borne": "La Borne",
+              "saint-jean-de-fos": "Saint-Jean-de-Fos"
+            }
+          },
+          "percheron": {
+            "prompt": "Quelle race de cheval de trait, à la robe souvent grise ou noire, est née dans une région naturelle à cheval sur l'Orne ?",
+            "hint": "Elle porte le nom de cette région de collines et de forêts.",
+            "anecdote": "Au XIXe siècle, il en a été exporté des milliers vers les États-Unis, pour les travaux des champs.",
+            "answers": {
+              "le-percheron": "Le percheron",
+              "le-boulonnais": "Le boulonnais",
+              "le-comtois": "Le comtois",
+              "le-trait-breton": "Le trait breton"
+            }
+          },
+          "haras-pin": {
+            "prompt": "Quel haras de l'Orne, fondé sous Louis XIV, est surnommé le Versailles du cheval ?",
+            "hint": "Ses bâtiments de brique et de pierre ont été bâtis à partir de 1715.",
+            "anecdote": "C'est le plus ancien des haras nationaux. Le nom de la commune évoque un arbre.",
+            "answers": {
+              "le-haras-national-du-pin": "Le haras national du Pin",
+              "le-haras-de-saint-lo": "Le haras de Saint-Lô",
+              "le-haras-d-hennebont": "Le haras d'Hennebont",
+              "le-haras-de-lamballe": "Le haras de Lamballe"
+            }
+          },
+          "trotteur": {
+            "prompt": "Quelle race de cheval, née en Normandie au XIXe siècle, court sur les hippodromes attelée à un sulky ?",
+            "hint": "Elle descend de croisements entre juments locales et pur-sang anglais.",
+            "anecdote": "Le Grand Prix d'Amérique, à Vincennes, est sa plus grande course.",
+            "answers": {
+              "le-trotteur-francais": "Le trotteur français",
+              "le-pur-sang-arabe": "Le pur-sang arabe",
+              "le-selle-francais": "Le selle français",
+              "l-anglo-arabe": "L'anglo-arabe"
+            }
+          },
+          "colombages": {
+            "prompt": "Comment appelle-t-on cette ossature de bois apparente, remplie de torchis ou de brique, des maisons du pays d'Auge ?",
+            "hint": "On parle aussi de maisons à pans de bois.",
+            "anecdote": "Les poutres sont assemblées sans clou, par des chevilles en bois. Le remplissage mêle souvent argile et paille.",
+            "answers": {
+              "le-colombage": "Le colombage",
+              "le-bardage": "Le bardage",
+              "le-pise": "Le pisé",
+              "la-meuliere": "La meulière"
+            }
+          },
+          "chaumiere": {
+            "prompt": "Quelle plante était plantée au faîte des toits de chaume du Marais-Vernier, pour retenir la terre de leur crête ?",
+            "hint": "Ses fleurs violettes s'ouvrent en mai, sur les toits.",
+            "anecdote": "Ses racines tiennent la terre qui rend le sommet du toit étanche.",
+            "answers": {
+              "l-iris": "L'iris",
+              "la-joubarbe": "La joubarbe",
+              "la-lavande": "La lavande",
+              "le-lierre": "Le lierre"
+            }
+          },
+          "colombier": {
+            "prompt": "Quels oiseaux étaient élevés dans ces grandes tours de manoir, dont la possession était un privilège seigneurial ?",
+            "hint": "Leurs fientes servaient d'engrais pour les champs.",
+            "anecdote": "Le nombre de nids était souvent fixé selon la surface des terres du seigneur. Ce privilège a été aboli en 1789.",
+            "answers": {
+              "des-pigeons": "Des pigeons",
+              "des-poules": "Des poules",
+              "des-faucons": "Des faucons",
+              "des-cygnes": "Des cygnes"
+            }
+          },
+          "pressoir": {
+            "prompt": "À quoi servait cette grande machine en bois, que l'on trouvait dans les fermes du pays d'Auge ?",
+            "hint": "On y écrasait des fruits broyés.",
+            "anecdote": "Le marc était empilé en couches avec de la paille, puis pressé pour en tirer le jus.",
+            "answers": {
+              "a-presser-les-pommes": "À presser les pommes",
+              "a-battre-le-ble": "À battre le blé",
+              "a-moudre-le-sarrasin": "À moudre le sarrasin",
+              "a-tasser-le-foin": "À tasser le foin"
+            }
+          },
+          "clos-masure": {
+            "prompt": "Comment appelle-t-on la ferme du pays de Caux, entourée d'un talus planté de grands arbres contre le vent ?",
+            "hint": "Ce talus planté s'appelle un fossé, ou un alignement.",
+            "anecdote": "Les bâtiments sont dispersés dans une cour plantée de pommiers. Il en reste plusieurs milliers dans la région.",
+            "answers": {
+              "le-clos-masure": "Le clos-masure",
+              "le-mas": "Le mas",
+              "la-longere": "La longère",
+              "le-corps-de-ferme": "Le corps de ferme"
+            }
+          },
+          "blouse": {
+            "prompt": "Quel vêtement de toile bleue portaient autrefois les éleveurs et marchands de bestiaux sur les foires ?",
+            "hint": "On la passait par-dessus les autres vêtements.",
+            "anecdote": "Elle était brodée au col et aux épaules. On la portait les jours de marché et de foire.",
+            "answers": {
+              "la-blouse": "La blouse",
+              "le-cire": "Le ciré",
+              "la-vareuse": "La vareuse",
+              "le-gilet-brode": "Le gilet brodé"
+            }
+          },
+          "rollon": {
+            "prompt": "Quel chef viking, premier maître de la Normandie, a été baptisé à Rouen ?",
+            "hint": "Il a reçu ses terres du roi Charles le Simple.",
+            "anecdote": "Il est inhumé dans la cathédrale de Rouen. Une statue à son effigie se trouve dans les jardins de l'abbatiale Saint-Ouen.",
+            "answers": {
+              "rollon": "Rollon",
+              "guillaume-longue-epee": "Guillaume Longue-Épée",
+              "richard-ier": "Richard Ier",
+              "harald-a-la-dent-bleue": "Harald à la Dent bleue"
+            }
+          },
+          "guillaume-statue": {
+            "prompt": "Quel duc de Normandie, représenté par cette statue équestre, est devenu roi d'Angleterre en 1066 ?",
+            "hint": "Il a remporté la bataille de Hastings.",
+            "anecdote": "Né à Falaise, il est inhumé à Caen, dans l'abbaye aux Hommes qu'il avait fondée.",
+            "answers": {
+              "guillaume-le-conquerant": "Guillaume le Conquérant",
+              "rollon": "Rollon",
+              "richard-coeur-de-lion": "Richard Cœur de Lion",
+              "henri-ier-beauclerc": "Henri Ier Beauclerc"
+            }
+          },
+          "corneille": {
+            "prompt": "Quel dramaturge, né à Rouen en 1606, est l'auteur du Cid ?",
+            "hint": "Sa pièce a provoqué une vive querelle en 1637.",
+            "anecdote": "Sa maison natale, rue de la Pie, et sa maison des champs, à Petit-Couronne, sont devenues des musées.",
+            "answers": {
+              "pierre-corneille": "Pierre Corneille",
+              "jean-racine": "Jean Racine",
+              "moliere": "Molière",
+              "jean-de-la-fontaine": "Jean de La Fontaine"
+            }
+          },
+          "flaubert": {
+            "prompt": "Quel écrivain a écrit Madame Bovary dans sa propriété de Croisset, au bord de la Seine ?",
+            "hint": "Ce pavillon est le seul vestige de sa maison.",
+            "anecdote": "Né à Rouen en 1821, il travaillait chaque phrase à voix haute, dans ce qu'il appelait son gueuloir.",
+            "answers": {
+              "gustave-flaubert": "Gustave Flaubert",
+              "guy-de-maupassant": "Guy de Maupassant",
+              "emile-zola": "Émile Zola",
+              "honore-de-balzac": "Honoré de Balzac"
+            }
+          },
+          "maupassant": {
+            "prompt": "Quel écrivain, élève de Flaubert, a grandi à Étretat et situé beaucoup de ses nouvelles dans le pays de Caux ?",
+            "hint": "Sa nouvelle Boule de suif l'a rendu célèbre en 1880.",
+            "anecdote": "Né en 1850 au château de Miromesnil, il a aussi écrit Une vie et Bel-Ami.",
+            "answers": {
+              "guy-de-maupassant": "Guy de Maupassant",
+              "gustave-flaubert": "Gustave Flaubert",
+              "marcel-proust": "Marcel Proust",
+              "alphonse-daudet": "Alphonse Daudet"
+            }
+          },
+          "satie": {
+            "prompt": "Quel compositeur, né à Honfleur en 1866, est l'auteur des Gymnopédies ?",
+            "hint": "Sa maison natale est devenue un musée original, avec des installations sonores.",
+            "anecdote": "Il est l'auteur de pièces pour piano aux titres étranges, comme les Embryons desséchés.",
+            "answers": {
+              "erik-satie": "Erik Satie",
+              "claude-debussy": "Claude Debussy",
+              "maurice-ravel": "Maurice Ravel",
+              "gabriel-faure": "Gabriel Fauré"
+            }
+          },
+          "monet-impression": {
+            "prompt": "Quel tableau de Claude Monet, peint au Havre en 1872, a donné son nom au mouvement impressionniste ?",
+            "hint": "Il montre le port dans la brume, au lever du jour.",
+            "anecdote": "Un critique s'en est moqué en 1874 en parlant des impressionnistes. Le nom est resté.",
+            "answers": {
+              "impression-soleil-levant": "Impression, soleil levant",
+              "les-nympheas": "Les Nymphéas",
+              "la-cathedrale-de-rouen": "La Cathédrale de Rouen",
+              "le-dejeuner-sur-l-herbe": "Le Déjeuner sur l'herbe"
+            }
+          },
+          "boudin": {
+            "prompt": "Quel peintre, né à Honfleur, a appris au jeune Claude Monet à peindre en plein air ?",
+            "hint": "Corot l'a surnommé le roi des ciels.",
+            "anecdote": "Il a peint des centaines de scènes de plage à Trouville et à Deauville. Le musée de sa ville natale porte son nom.",
+            "answers": {
+              "eugene-boudin": "Eugène Boudin",
+              "camille-corot": "Camille Corot",
+              "gustave-courbet": "Gustave Courbet",
+              "johan-barthold-jongkind": "Johan Barthold Jongkind"
+            }
+          },
+          "millet": {
+            "prompt": "Quel peintre de L'Angélus et des Glaneuses est né en 1814 dans un hameau du cap de la Hague ?",
+            "hint": "Il s'est ensuite installé à Barbizon, près de la forêt de Fontainebleau.",
+            "anecdote": "Sa maison natale, à Gréville-Hague, se visite.",
+            "answers": {
+              "jean-francois-millet": "Jean-François Millet",
+              "gustave-courbet": "Gustave Courbet",
+              "camille-corot": "Camille Corot",
+              "theodore-rousseau": "Théodore Rousseau"
+            }
+          },
+          "dufy": {
+            "prompt": "Quel peintre, né au Havre en 1877, a réalisé l'immense décor de La Fée Électricité ?",
+            "hint": "Ses couleurs vives débordent souvent du dessin.",
+            "anecdote": "Cette œuvre de plus de 600 mètres carrés a été peinte pour l'Exposition internationale de 1937.",
+            "answers": {
+              "raoul-dufy": "Raoul Dufy",
+              "fernand-leger": "Fernand Léger",
+              "henri-matisse": "Henri Matisse",
+              "othon-friesz": "Othon Friesz"
+            }
+          },
+          "perret": {
+            "prompt": "Quel architecte a dirigé la reconstruction du centre du Havre, inscrit à l'UNESCO en 2005 ?",
+            "hint": "Il était surnommé le poète du béton armé.",
+            "anecdote": "Ses équipes ont reconstruit une ville entière après 1945, sur une trame régulière.",
+            "answers": {
+              "auguste-perret": "Auguste Perret",
+              "le-corbusier": "Le Corbusier",
+              "jean-prouve": "Jean Prouvé",
+              "oscar-niemeyer": "Oscar Niemeyer"
+            }
+          },
+          "tocqueville": {
+            "prompt": "Quel penseur, auteur De la démocratie en Amérique, a donné son nom à un château et à un village du Cotentin ?",
+            "hint": "Il a été député de la Manche.",
+            "anecdote": "Il a voyagé aux États-Unis en 1831, pour étudier le système pénitentiaire.",
+            "answers": {
+              "alexis-de-tocqueville": "Alexis de Tocqueville",
+              "montesquieu": "Montesquieu",
+              "benjamin-constant": "Benjamin Constant",
+              "jules-michelet": "Jules Michelet"
+            }
+          },
+          "barbey": {
+            "prompt": "Quel écrivain, né à Saint-Sauveur-le-Vicomte en 1808, a situé ses romans dans le Cotentin et s'est fait connaître comme dandy ?",
+            "hint": "Il est l'auteur des Diaboliques.",
+            "anecdote": "Un musée lui est consacré dans sa ville natale, dans la maison de sa famille.",
+            "answers": {
+              "jules-barbey-d-aurevilly": "Jules Barbey d'Aurevilly",
+              "gustave-flaubert": "Gustave Flaubert",
+              "charles-baudelaire": "Charles Baudelaire",
+              "jules-verne": "Jules Verne"
+            }
+          },
+          "marcel-duchamp": {
+            "prompt": "Quel artiste, né près de Rouen en 1887, a exposé un urinoir sous le titre Fontaine ?",
+            "hint": "On le présente souvent comme l'inventeur du ready-made.",
+            "anecdote": "Il est né à Blainville-Crevon, dans une famille où ses frères et sa sœur étaient aussi artistes.",
+            "answers": {
+              "marcel-duchamp": "Marcel Duchamp",
+              "francis-picabia": "Francis Picabia",
+              "man-ray": "Man Ray",
+              "jean-arp": "Jean Arp"
+            }
+          },
+          "armada": {
+            "prompt": "Quel grand rassemblement de voiliers anime les quais de Rouen, tous les quatre à six ans ?",
+            "hint": "Les navires remontent la Seine depuis la mer.",
+            "anecdote": "Le premier rassemblement a eu lieu en 1989. Il dure une dizaine de jours et se termine par une grande parade.",
+            "answers": {
+              "l-armada": "L'Armada",
+              "les-tonnerres-de-brest": "Les Tonnerres de Brest",
+              "la-route-du-rhum": "La Route du Rhum",
+              "les-fetes-maritimes-de-douarnenez": "Les Fêtes maritimes de Douarnenez"
+            }
+          },
+          "deauville": {
+            "prompt": "Quelle station balnéaire de la Côte Fleurie, créée sous le Second Empire, est célèbre pour ses planches et ses villas ?",
+            "hint": "Le duc de Morny a lancé sa construction en 1860.",
+            "anecdote": "Elle accueille chaque année des ventes de chevaux de course et un festival de cinéma.",
+            "answers": {
+              "houlgate": "Houlgate"
+            }
+          },
+          "proust": {
+            "prompt": "Quel écrivain s'est inspiré de Cabourg pour décrire Balbec, dans À la recherche du temps perdu ?",
+            "hint": "Il séjournait au Grand Hôtel de la station.",
+            "anecdote": "Il y a passé plusieurs étés, de 1907 à 1914.",
+            "answers": {
+              "marcel-proust": "Marcel Proust",
+              "gustave-flaubert": "Gustave Flaubert",
+              "andre-gide": "André Gide",
+              "colette": "Colette"
+            }
+          },
+          "foire-lessay": {
+            "prompt": "Quelle fête populaire de Lessay, dans la Manche, est l'une des plus anciennes foires de France ?",
+            "hint": "Elle se tient chaque année en septembre, depuis le Moyen Âge.",
+            "anecdote": "On y vend des chevaux et du bétail. On y mange des gigots cuits à la broche, en plein air.",
+            "answers": {
+              "la-foire-de-la-sainte-croix": "La foire de la Sainte-Croix",
+              "la-foire-de-beaucaire": "La foire de Beaucaire",
+              "la-foire-du-trone": "La foire du Trône",
+              "la-foire-de-caen": "La foire de Caen"
+            }
+          },
+          "saint-michel-fete": {
+            "prompt": "Quel archange est le patron du mont le plus célèbre de la région ?",
+            "hint": "Il est souvent représenté terrassant un dragon.",
+            "anecdote": "Une statue dorée de l'archange, posée en 1897, domine la flèche de l'abbatiale.",
+            "answers": {
+              "saint-michel": "Saint Michel",
+              "saint-gabriel": "Saint Gabriel",
+              "saint-raphael": "Saint Raphaël",
+              "saint-georges": "Saint Georges"
+            }
+          },
+          "clameur": {
+            "prompt": "Quel ancien appel à la justice, venu du droit normand, peut encore être lancé dans les îles Anglo-Normandes ?",
+            "hint": "On le lance à genoux, devant témoins, en appelant le duc à l'aide.",
+            "anecdote": "Il oblige à suspendre aussitôt l'acte contesté, en attendant que la justice tranche.",
+            "answers": {
+              "la-clameur-de-haro": "La clameur de haro",
+              "le-cri-de-montjoie": "Le cri de Montjoie",
+              "le-droit-d-asile": "Le droit d'asile",
+              "le-ban-et-l-arriere-ban": "Le ban et l'arrière-ban"
+            }
+          },
+          "fete-marins": {
+            "prompt": "Quelle fête de Honfleur, le week-end de la Pentecôte, voit bénir la mer et les bateaux pavoisés ?",
+            "hint": "Les participants montent ensuite en procession jusqu'à une chapelle sur la colline.",
+            "anecdote": "Cette chapelle, Notre-Dame-de-Grâce, domine l'estuaire. Ses murs sont couverts d'ex-voto de marins.",
+            "answers": {
+              "la-fete-des-marins": "La fête des Marins",
+              "le-pardon-des-terre-neuvas": "Le pardon des Terre-Neuvas",
+              "la-fete-de-la-saint-jean": "La fête de la Saint-Jean",
+              "le-carnaval-de-granville": "Le carnaval de Granville"
+            }
+          },
+          "prevert": {
+            "prompt": "Quel poète, auteur de Paroles, a passé ses dernières années dans un village du cap de la Hague ?",
+            "hint": "Il a aussi écrit les dialogues du film Les Enfants du paradis.",
+            "anecdote": "Il est mort en 1977 à Omonville-la-Petite, où sa maison se visite.",
+            "answers": {
+              "jacques-prevert": "Jacques Prévert",
+              "paul-eluard": "Paul Éluard",
+              "louis-aragon": "Louis Aragon",
+              "boris-vian": "Boris Vian"
+            }
+          },
+          "dep-villedieu": {
+            "prompt": "Touchez le département de Villedieu-les-Poêles, la cité du cuivre.",
+            "hint": "C'est le département de Saint-Lô, à l'ouest de la région.",
+            "anecdote": "Les chevaliers de l'ordre de Saint-Jean de Jérusalem y ont fondé une commanderie au XIIe siècle."
+          },
+          "dep-laigle": {
+            "prompt": "Touchez le département de L'Aigle, ville connue depuis le XVIIe siècle pour la fabrication des épingles et des aiguilles.",
+            "hint": "C'est le département du Perche et du haras du Pin, au sud de la région.",
+            "anecdote": "La vallée de la Risle a compté de nombreuses fabriques d'épingles. Une manufacture d'aiguilles y fonctionne encore."
+          },
+          "dep-croisset": {
+            "prompt": "Touchez le département de Croisset, où vivait Gustave Flaubert.",
+            "hint": "C'est le département de Rouen, au nord-est de la région.",
+            "anecdote": "Ce hameau, au bord de la Seine, fait partie de la commune de Canteleu."
+          }
+        },
+        "grand-voyage": {
+          "name": "Le grand voyage",
+          "description": "Des caps de la Hague aux marais du Bessin, de la Suisse normande au Perche, des Vikings aux plages du 6 juin 1944 : un dernier tour de Normandie, entre paysages et mémoire.",
+          "jobourg": {
+            "prompt": "Quel cap de la Hague, aux falaises parmi les plus hautes d'Europe, domine la mer de plus de 100 mètres ?",
+            "hint": "Il se trouve à l'extrême nord-ouest du Cotentin, face à l'île d'Aurigny.",
+            "anecdote": "Le site est protégé par le Conservatoire du littoral. Les oiseaux marins nichent dans ses falaises.",
+            "answers": {
+              "le-nez-de-jobourg": "Le nez de Jobourg",
+              "le-cap-frehel": "Le cap Fréhel",
+              "la-pointe-du-raz": "La pointe du Raz",
+              "le-cap-gris-nez": "Le cap Gris-Nez"
+            }
+          },
+          "cap-hague": {
+            "prompt": "Quel phare, posé sur un rocher à la pointe de la Hague, veille sur l'un des passages les plus dangereux de la Manche ?",
+            "hint": "Il a été allumé en 1837, au large d'un petit port de pêcheurs.",
+            "anecdote": "Sa tour de granit mesure environ 50 mètres. Le port voisin abrite une station de sauvetage en mer.",
+            "answers": {
+              "le-phare-de-goury": "Le phare de Goury",
+              "le-phare-de-gatteville": "Le phare de Gatteville",
+              "le-phare-d-ar-men": "Le phare d'Ar-Men",
+              "le-phare-de-cordouan": "Le phare de Cordouan"
+            }
+          },
+          "gatteville": {
+            "prompt": "Quel phare du Val de Saire, haut d'environ 75 mètres, est l'un des plus hauts phares d'Europe ?",
+            "hint": "Il se dresse à la pointe de Barfleur.",
+            "anecdote": "Il a été mis en service en 1835. On grimpe 365 marches pour atteindre sa galerie.",
+            "answers": {
+              "le-phare-de-gatteville": "Le phare de Gatteville",
+              "le-phare-de-l-ile-vierge": "Le phare de l'île Vierge",
+              "le-phare-de-goury": "Le phare de Goury",
+              "le-phare-de-chassiron": "Le phare de Chassiron"
+            }
+          },
+          "dune-hatainville": {
+            "prompt": "Quel massif de dunes de la côte ouest du Cotentin est l'un des plus vastes et des plus hauts de Normandie ?",
+            "hint": "Il se trouve près de Barneville-Carteret.",
+            "anecdote": "Ses dunes atteignent plusieurs dizaines de mètres. Le Conservatoire du littoral protège ce paysage fragile.",
+            "answers": {
+              "les-dunes-d-hatainville": "Les dunes d'Hatainville",
+              "la-dune-du-pilat": "La dune du Pilat",
+              "les-dunes-de-biville": "Les dunes de Biville",
+              "les-dunes-de-la-slack": "Les dunes de la Slack"
+            }
+          },
+          "chausey": {
+            "prompt": "Quel archipel, rattaché à la commune de Granville, compte quelques dizaines d'îles à marée haute et plusieurs centaines à marée basse ?",
+            "hint": "Une seule de ses îles est habitée toute l'année.",
+            "anecdote": "Le granit de ses îles a servi à bâtir une partie du Mont-Saint-Michel. Ses parages comptent parmi les plus grandes marées d'Europe.",
+            "answers": {
+              "les-iles-chausey": "Les îles Chausey",
+              "les-iles-saint-marcouf": "Les îles Saint-Marcouf",
+              "les-iles-des-glenan": "Les îles des Glénan",
+              "l-archipel-de-molene": "L'archipel de Molène"
+            }
+          },
+          "baie-mont": {
+            "prompt": "Dans quelle baie la mer peut-elle se retirer à plus de dix kilomètres, avec un marnage de près de quinze mètres ?",
+            "hint": "On dit que la marée y monte à la vitesse d'un cheval au galop.",
+            "anecdote": "Cette baie est inscrite au patrimoine mondial de l'UNESCO depuis 1979, avec le rocher qui lui donne son nom.",
+            "answers": {
+              "la-baie-du-mont-saint-michel": "La baie du Mont-Saint-Michel",
+              "la-baie-de-somme": "La baie de Somme",
+              "la-baie-des-veys": "La baie des Veys",
+              "la-baie-d-arcachon": "La baie d'Arcachon"
+            }
+          },
+          "varengeville": {
+            "prompt": "Quel village de la côte d'Albâtre possède une église et un petit cimetière marin, au bord de la falaise, où repose le peintre Georges Braque ?",
+            "hint": "Ce village est aussi réputé pour le parc du Bois des Moutiers.",
+            "anecdote": "Braque a réalisé l'un des vitraux de l'église. Le recul de la falaise menace le cimetière.",
+            "answers": {
+              "sainte-marguerite-sur-mer": "Sainte-Marguerite-sur-Mer"
+            }
+          },
+          "estuaire": {
+            "prompt": "Dans quel estuaire une réserve naturelle protège-t-elle roselières et vasières, entre Le Havre et Honfleur ?",
+            "hint": "Le pont de Normandie l'enjambe.",
+            "anecdote": "C'est une halte majeure pour les oiseaux migrateurs, au débouché d'un grand fleuve.",
+            "answers": {
+              "l-estuaire-de-la-seine": "L'estuaire de la Seine",
+              "l-estuaire-de-la-loire": "L'estuaire de la Loire",
+              "l-estuaire-de-la-gironde": "L'estuaire de la Gironde",
+              "l-estuaire-de-l-orne": "L'estuaire de l'Orne"
+            }
+          },
+          "tancarville": {
+            "prompt": "Quel pont suspendu, ouvert en 1959, a été le premier à franchir la basse Seine en aval de Rouen ?",
+            "hint": "Ses deux pylônes de béton mesurent environ 125 mètres.",
+            "anecdote": "À son ouverture, sa travée centrale, longue de 608 mètres, était la plus longue d'Europe.",
+            "answers": {
+              "le-pont-de-tancarville": "Le pont de Tancarville",
+              "le-pont-de-brotonne": "Le pont de Brotonne",
+              "le-pont-de-normandie": "Le pont de Normandie",
+              "le-pont-de-saint-nazaire": "Le pont de Saint-Nazaire"
+            }
+          },
+          "cite-mer": {
+            "prompt": "Quel lieu de Cherbourg, installé dans l'ancienne gare maritime transatlantique, fait découvrir les profondeurs de la mer ?",
+            "hint": "On peut y visiter un sous-marin nucléaire désarmé.",
+            "anecdote": "Le Titanic a fait escale à Cherbourg en 1912. La gare Art déco, inaugurée en 1933, accueillait les paquebots.",
+            "answers": {
+              "la-cite-de-la-mer": "La Cité de la Mer",
+              "nausicaa": "Nausicaá",
+              "oceanopolis": "Océanopolis",
+              "le-musee-maritime-de-la-rochelle": "Le Musée maritime de La Rochelle"
+            }
+          },
+          "clecy": {
+            "prompt": "Comment appelle-t-on ce pays de gorges et de rochers, creusé par l'Orne entre le Calvados et l'Orne ?",
+            "hint": "On y pratique l'escalade et le canoë.",
+            "anecdote": "Son nom, apparu au XIXe siècle, compare ses paysages à ceux d'un pays de montagne.",
+            "answers": {
+              "la-suisse-normande": "La Suisse normande",
+              "le-perche": "Le Perche",
+              "le-pays-d-auge": "Le pays d'Auge",
+              "le-pays-de-bray": "Le pays de Bray"
+            }
+          },
+          "oetre": {
+            "prompt": "Quel belvédère rocheux, haut d'environ 118 mètres au-dessus de la Rouvre, dessine un profil humain ?",
+            "hint": "Il se trouve dans l'Orne, au cœur de la Suisse normande.",
+            "anecdote": "Il a été formé il y a des millions d'années par le soulèvement du Massif armoricain et le creusement de la rivière.",
+            "answers": {
+              "la-roche-d-oetre": "La roche d'Oëtre",
+              "le-rocher-des-parcs": "Le rocher des Parcs",
+              "le-pain-de-sucre": "Le pain de Sucre",
+              "la-roche-saint-gilles": "La roche Saint-Gilles"
+            }
+          },
+          "perche": {
+            "prompt": "Quel pays de collines boisées, de manoirs et de chevaux de trait est protégé par un parc naturel régional créé en 1998 ?",
+            "hint": "Il s'étend entre l'Orne et l'Eure-et-Loir.",
+            "anecdote": "Ses manoirs des XVe et XVIe siècles mêlent la maison noble et la ferme fortifiée.",
+            "answers": {
+              "le-perche": "Le Perche",
+              "le-pays-d-ouche": "Le pays d'Ouche",
+              "le-vexin": "Le Vexin",
+              "le-bocage-virois": "Le Bocage virois"
+            }
+          },
+          "marais": {
+            "prompt": "Quelles zones humides, protégées par un parc naturel régional, se couvrent d'eau chaque hiver autour de Carentan ?",
+            "hint": "On dit alors que les marais blanchissent.",
+            "anecdote": "Ces prairies inondables accueillent des milliers d'oiseaux d'eau. Le parc a été créé en 1991.",
+            "answers": {
+              "les-marais-du-cotentin-et-du-bessin": "Les marais du Cotentin et du Bessin",
+              "le-marais-poitevin": "Le marais Poitevin",
+              "la-briere": "La Brière",
+              "le-marais-vernier": "Le Marais-Vernier"
+            }
+          },
+          "bagnoles": {
+            "prompt": "Quelle station thermale du sud de la Normandie, au bord d'un lac, a gardé de nombreuses villas de la Belle Époque ?",
+            "hint": "Elle est née autour d'une source, en lisière de la forêt des Andaines.",
+            "anecdote": "Selon la légende, un vieux cheval aurait retrouvé sa vigueur en se baignant dans sa source.",
+            "answers": {
+              "bagnoles-de-l-orne": "Bagnoles-de-l'Orne",
+              "forges-les-eaux": "Forges-les-Eaux",
+              "vichy": "Vichy",
+              "evian-les-bains": "Évian-les-Bains"
+            }
+          },
+          "omaha": {
+            "prompt": "Sur quelle plage du Calvados, la plus meurtrière du 6 juin 1944 pour les troupes américaines, se dresse cette sculpture d'acier ?",
+            "hint": "Elle s'étend devant Saint-Laurent-sur-Mer et Vierville-sur-Mer.",
+            "anecdote": "L'œuvre, intitulée Les Braves, a été installée en 2004 pour le 60e anniversaire du Débarquement.",
+            "answers": {
+              "omaha-beach": "Omaha Beach",
+              "utah-beach": "Utah Beach",
+              "gold-beach": "Gold Beach",
+              "sword-beach": "Sword Beach"
+            }
+          },
+          "pointe-du-hoc": {
+            "prompt": "Quel promontoire, criblé de cratères de bombes, a été pris d'assaut par des Rangers américains escaladant ses falaises le 6 juin 1944 ?",
+            "hint": "Il se trouve entre Omaha Beach et Utah Beach.",
+            "anecdote": "Les soldats ont grimpé des falaises d'une trentaine de mètres avec des cordes et des échelles.",
+            "answers": {
+              "la-pointe-du-hoc": "La pointe du Hoc",
+              "la-pointe-de-la-percee": "La pointe de la Percée",
+              "le-cap-manvieux": "Le cap Manvieux",
+              "la-batterie-de-longues-sur-mer": "La batterie de Longues-sur-Mer"
+            }
+          },
+          "colleville": {
+            "prompt": "Quel cimetière militaire, qui domine Omaha Beach, rassemble plus de 9 000 tombes de soldats américains ?",
+            "hint": "Ses croix et ses étoiles de marbre blanc s'alignent sur la pelouse.",
+            "anecdote": "Le terrain a été concédé à perpétuité aux États-Unis par la France.",
+            "answers": {
+              "le-cimetiere-de-colleville-sur-mer": "Le cimetière de Colleville-sur-Mer",
+              "le-cimetiere-de-bayeux": "Le cimetière de Bayeux",
+              "le-cimetiere-de-beny-sur-mer": "Le cimetière de Bény-sur-Mer",
+              "le-cimetiere-de-la-cambe": "Le cimetière de La Cambe"
+            }
+          },
+          "arromanches": {
+            "prompt": "Quelle commune du Calvados garde, au large de sa plage, les vestiges d'un port artificiel construit en juin 1944 ?",
+            "hint": "Ses caissons de béton ont été remorqués depuis l'Angleterre.",
+            "anecdote": "Ce port provisoire a permis de débarquer des milliers de tonnes de matériel avant la prise de grands ports.",
+            "answers": {
+              "port-en-bessin": "Port-en-Bessin"
+            }
+          },
+          "juno": {
+            "prompt": "Sur quelle plage, devant Courseulles-sur-Mer, les soldats canadiens ont-ils débarqué le 6 juin 1944 ?",
+            "hint": "Un centre consacré à leur histoire a ouvert près de la plage en 2003.",
+            "anecdote": "Près de 14 000 Canadiens y ont pris pied ce jour-là.",
+            "answers": {
+              "juno-beach": "Juno Beach",
+              "gold-beach": "Gold Beach",
+              "sword-beach": "Sword Beach",
+              "omaha-beach": "Omaha Beach"
+            }
+          },
+          "pegasus": {
+            "prompt": "Quel pont de Bénouville, sur le canal de Caen à la mer, a été pris par des troupes britanniques arrivées en planeur dans la nuit du 5 au 6 juin 1944 ?",
+            "hint": "Il porte le nom de l'emblème des troupes aéroportées britanniques.",
+            "anecdote": "Le pont d'origine, remplacé en 1994, est exposé dans le musée voisin.",
+            "answers": {
+              "pegasus-bridge": "Pegasus Bridge",
+              "le-pont-de-ranville": "Le pont de Ranville",
+              "le-pont-de-tancarville": "Le pont de Tancarville",
+              "le-pont-de-brotonne": "Le pont de Brotonne"
+            }
+          },
+          "sainte-mere": {
+            "prompt": "Dans quelle commune de la Manche, libérée par des parachutistes américains le 6 juin 1944, un mannequin rappelle-t-il un soldat resté accroché au clocher ?",
+            "hint": "Elle se trouve en arrière d'Utah Beach.",
+            "anecdote": "Le parachutiste John Steele y est resté suspendu plusieurs heures. Le film Le Jour le plus long a rendu la scène célèbre.",
+            "answers": {
+              "carentan": "Carentan",
+              "sainte-marie-du-mont": "Sainte-Marie-du-Mont"
+            }
+          },
+          "memorial": {
+            "prompt": "Quel musée pour la paix, ouvert en 1988 dans une ville normande très détruite en 1944, retrace l'histoire de la Seconde Guerre mondiale et de la guerre froide ?",
+            "hint": "Il est bâti au-dessus d'un ancien poste de commandement allemand.",
+            "anecdote": "Caen a été détruite en grande partie durant l'été 1944. Le musée a été voulu comme un lieu de réflexion sur la paix.",
+            "answers": {
+              "le-memorial-de-caen": "Le Mémorial de Caen",
+              "le-musee-overlord": "Le musée Overlord",
+              "le-memorial-de-verdun": "Le Mémorial de Verdun",
+              "le-musee-de-l-armee": "Le musée de l'Armée"
+            }
+          },
+          "homme-du-nord": {
+            "prompt": "Que signifie à l'origine le mot normand, qui a donné son nom à la région ?",
+            "hint": "Il désignait les Vikings venus de Scandinavie.",
+            "anecdote": "Ces navigateurs remontaient la Seine pour piller les abbayes, avant de s'installer sur ses rives.",
+            "answers": {
+              "homme-du-nord": "Homme du Nord",
+              "homme-de-la-mer": "Homme de la mer",
+              "homme-libre": "Homme libre",
+              "homme-des-forets": "Homme des forêts"
+            }
+          },
+          "harold": {
+            "prompt": "Quel roi d'Angleterre a été vaincu et tué à la bataille d'Hastings, en 1066 ?",
+            "hint": "Il avait été couronné quelques mois plus tôt, en janvier 1066.",
+            "anecdote": "Il avait battu une armée norvégienne à Stamford Bridge, trois semaines plus tôt.",
+            "answers": {
+              "harold-godwinson": "Harold Godwinson",
+              "edouard-le-confesseur": "Édouard le Confesseur",
+              "henri-ier": "Henri Ier",
+              "richard-coeur-de-lion": "Richard Cœur de Lion"
+            }
+          },
+          "sicile": {
+            "prompt": "Quelle île de la Méditerranée des chevaliers normands, de la famille de Hauteville, ont-ils conquise au XIe siècle ?",
+            "hint": "Ils y ont fondé un royaume en 1130, avec Palerme pour capitale.",
+            "anecdote": "La famille de Hauteville était originaire du Cotentin.",
+            "answers": {
+              "la-sicile": "La Sicile",
+              "la-sardaigne": "La Sardaigne",
+              "chypre": "Chypre",
+              "malte": "Malte"
+            }
+          },
+          "henri-v": {
+            "prompt": "Quel roi d'Angleterre a assiégé Rouen et l'a prise en 1419, pendant la guerre de Cent Ans ?",
+            "hint": "Il avait remporté la bataille d'Azincourt en 1415.",
+            "anecdote": "Le siège a duré près de six mois. Les habitants ont souffert d'une terrible famine.",
+            "answers": {
+              "henri-v": "Henri V",
+              "edouard-iii": "Édouard III",
+              "richard-ii": "Richard II",
+              "henri-viii": "Henri VIII"
+            }
+          },
+          "formigny": {
+            "prompt": "Quelle bataille de 1450, près de Bayeux, a mis fin à l'occupation anglaise de la Normandie ?",
+            "hint": "Elle s'est déroulée sous le règne de Charles VII.",
+            "anecdote": "Les canons français y ont joué un rôle décisif. Cherbourg, dernière place anglaise, a été reprise quelques mois plus tard.",
+            "answers": {
+              "la-bataille-de-formigny": "La bataille de Formigny",
+              "la-bataille-de-castillon": "La bataille de Castillon",
+              "la-bataille-d-azincourt": "La bataille d'Azincourt",
+              "la-bataille-de-crecy": "La bataille de Crécy"
+            }
+          },
+          "champlain": {
+            "prompt": "De quel port Samuel de Champlain est-il parti en 1608 pour fonder Québec ?",
+            "hint": "C'est un port de l'estuaire, face au Havre.",
+            "anecdote": "Plusieurs expéditions vers la Nouvelle-France sont parties de ses quais.",
+            "answers": {
+              "la-rochelle": "La Rochelle",
+              "saint-malo": "Saint-Malo"
+            }
+          },
+          "la-salle": {
+            "prompt": "Quel explorateur né à Rouen a descendu le Mississippi jusqu'à son embouchure et nommé la Louisiane, en 1682 ?",
+            "hint": "Il a donné à ce territoire le nom du roi Louis XIV.",
+            "anecdote": "Né en 1643, il a été tué en 1687 lors d'une nouvelle expédition, au Texas.",
+            "answers": {
+              "cavelier-de-la-salle": "Cavelier de La Salle",
+              "jacques-cartier": "Jacques Cartier",
+              "samuel-de-champlain": "Samuel de Champlain",
+              "jacques-marquette": "Jacques Marquette"
+            }
+          },
+          "mur-atlantique": {
+            "prompt": "Comment s'appelait la ligne de fortifications bâtie par l'armée allemande sur les côtes, de la Norvège à l'Espagne ?",
+            "hint": "Ses bunkers et ses batteries sont encore visibles sur les falaises normandes.",
+            "anecdote": "La batterie de Longues-sur-Mer garde ses canons dans leurs casemates.",
+            "answers": {
+              "le-mur-de-l-atlantique": "Le mur de l'Atlantique",
+              "la-ligne-maginot": "La ligne Maginot",
+              "la-ligne-siegfried": "La ligne Siegfried",
+              "la-ligne-gothique": "La ligne Gothique"
+            }
+          },
+          "overlord": {
+            "prompt": "Quel était le nom de code de la grande opération alliée de débarquement et de bataille de Normandie, en 1944 ?",
+            "hint": "Sa phase navale et d'assaut s'appelait Neptune.",
+            "anecdote": "Plus de 150 000 soldats alliés ont pris pied en Normandie le 6 juin 1944.",
+            "answers": {
+              "overlord": "Overlord",
+              "dragoon": "Dragoon",
+              "market-garden": "Market Garden",
+              "torch": "Torch"
+            }
+          },
+          "sword": {
+            "prompt": "Sur quelle plage, la plus à l'est, ont débarqué les 177 Français du commando Kieffer ?",
+            "hint": "Elle s'étend devant Ouistreham et Colleville-Montgomery.",
+            "anecdote": "Ces fusiliers marins étaient les seuls soldats français à débarquer sur les plages le 6 juin 1944.",
+            "answers": {
+              "sword-beach": "Sword Beach",
+              "gold-beach": "Gold Beach",
+              "juno-beach": "Juno Beach",
+              "utah-beach": "Utah Beach"
+            }
+          },
+          "saint-lo": {
+            "prompt": "Quelle préfecture, presque entièrement détruite en 1944, a été appelée la capitale des ruines ?",
+            "hint": "C'est la préfecture de la Manche.",
+            "anecdote": "L'écrivain Samuel Beckett, qui y travaillait pour la Croix-Rouge irlandaise, lui a consacré un texte portant ce titre."
+          },
+          "poche-falaise": {
+            "prompt": "Comment appelle-t-on l'encerclement des armées allemandes, refermé en août 1944 près de Chambois, qui a conclu la bataille de Normandie ?",
+            "hint": "Il porte le nom d'une ville du Calvados.",
+            "anecdote": "Les troupes polonaises ont tenu la colline de Montormel, au cœur des combats.",
+            "answers": {
+              "la-poche-de-falaise": "La poche de Falaise",
+              "la-poche-de-lorient": "La poche de Lorient",
+              "la-poche-de-dunkerque": "La poche de Dunkerque",
+              "la-poche-de-colmar": "La poche de Colmar"
+            }
+          },
+          "raz-blanchard": {
+            "prompt": "Quel courant, entre le cap de la Hague et l'île d'Aurigny, est l'un des plus puissants d'Europe ?",
+            "hint": "Il peut dépasser une dizaine de nœuds lors des grandes marées.",
+            "anecdote": "Sa force intéresse les projets d'hydroliennes, qui produiraient de l'électricité avec la marée.",
+            "answers": {
+              "le-raz-blanchard": "Le raz Blanchard",
+              "le-raz-de-sein": "Le raz de Sein",
+              "le-passage-du-fromveur": "Le passage du Fromveur",
+              "le-pas-de-calais": "Le Pas de Calais"
+            }
+          },
+          "bray": {
+            "prompt": "Quel pays de Seine-Maritime forme une boutonnière, une longue dépression ouverte dans le plateau de craie ?",
+            "hint": "C'est un pays d'herbages et de fromages frais.",
+            "anecdote": "L'érosion a dégagé une voûte de terrains, laissant une vallée bordée de coteaux.",
+            "answers": {
+              "le-pays-de-bray": "Le pays de Bray",
+              "le-pays-de-caux": "Le pays de Caux",
+              "le-vexin-normand": "Le Vexin normand",
+              "le-pays-d-ouche": "Le pays d'Ouche"
+            }
+          },
+          "dep-dives": {
+            "prompt": "Touchez le département de Dives-sur-Mer, d'où la flotte de Guillaume s'est préparée à partir en 1066.",
+            "hint": "C'est le département de Caen, au centre de la région.",
+            "anecdote": "La flotte a ensuite rejoint Saint-Valery-sur-Somme, d'où elle a traversé la Manche."
+          },
+          "dep-utah": {
+            "prompt": "Touchez le département d'Utah Beach, la plage la plus à l'ouest du 6 juin 1944.",
+            "hint": "C'est le département de Saint-Lô, à l'ouest de la région.",
+            "anecdote": "Elle s'étend devant Sainte-Marie-du-Mont, au pied du Cotentin."
+          },
+          "dep-ecouves": {
+            "prompt": "Touchez le département de la forêt d'Écouves, où se trouve le point culminant de la Normandie.",
+            "hint": "C'est le département d'Alençon, au sud de la région.",
+            "anecdote": "Le signal d'Écouves s'élève à 413 mètres."
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "rouen": {
+            "name": "Rouen",
+            "description": "Capitale de la Normandie, Rouen s'étend sur les deux rives de la Seine. Sa vieille ville garde des centaines de maisons à pans de bois, le Gros-Horloge et de nombreuses églises gothiques, au point qu'on la surnomme la ville aux cent clochers. Claude Monet a peint plus de trente fois la façade de sa cathédrale.",
+            "anecdote": "Achevée en 1876, la flèche en fonte de la cathédrale culmine à 151 mètres : c'est la plus haute de France."
+          },
+          "camembert": {
+            "name": "Camembert",
+            "description": "Né dans le pays d'Auge à la fin du XVIIIe siècle, le camembert est un fromage à pâte molle et à croûte fleurie, fait de lait de vache. Le camembert de Normandie, moulé à la louche avec du lait cru, bénéficie d'une appellation d'origine. Il se déguste bien fait, quand sa pâte devient souple jusqu'au cœur.",
+            "anecdote": "Sa boîte ronde en bois, apparue vers 1890, lui a permis de voyager loin de la Normandie sans s'abîmer."
+          },
+          "jumieges": {
+            "name": "Abbaye de Jumièges",
+            "description": "Fondée au VIIe siècle dans une boucle de la Seine, l'abbaye de Jumièges a été l'un des plus grands monastères bénédictins de Normandie. Son église abbatiale, consacrée en 1067, a été vendue à la Révolution puis exploitée comme carrière de pierres. Ses deux tours de façade, hautes d'environ 46 mètres, se dressent toujours au milieu des ruines.",
+            "anecdote": "On la surnomme souvent la plus belle ruine de France."
+          },
+          "dentelle-alencon": {
+            "name": "Dentelle d'Alençon",
+            "description": "Le point d'Alençon est une dentelle faite entièrement à l'aiguille, point après point, sur un dessin piqué dans du parchemin. Il s'est développé au XVIIe siècle, quand une manufacture royale a été créée à Alençon. Ce savoir-faire est inscrit au patrimoine culturel immatériel de l'UNESCO depuis 2010.",
+            "anecdote": "Une seule pièce passe entre les mains de plusieurs dentellières, chacune spécialiste d'une étape, et peut demander des centaines d'heures de travail."
+          },
+          "mont-saint-michel": {
+            "name": "Mont-Saint-Michel",
+            "description": "Au fond d'une baie aux marées immenses, ce rocher porte une abbaye bénédictine fondée au début du VIIIe siècle, entourée d'un village et de remparts. La Merveille, ensemble gothique du XIIIe siècle, s'accroche à son flanc nord. Le Mont et sa baie sont inscrits au patrimoine mondial de l'UNESCO depuis 1979.",
+            "anecdote": "Depuis 2014, une passerelle sur pilotis remplace l'ancienne digue-route, et le Mont peut redevenir une île lors des grandes marées."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur de Normandie",
+            "description": "Réunir les cinq cartes de la collection de Normandie."
+          },
+          "master": {
+            "name": "Maître de Normandie",
+            "description": "Réussir le Défi Maître de Normandie, avec au moins huit bonnes réponses sur dix."
           }
         }
       }

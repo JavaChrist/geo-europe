@@ -2,7 +2,28 @@
   "id": "FR-NOR",
   "slug": "normandie",
   "nameKey": "regions.normandie",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "14",
+      "nameKey": "departments.14"
+    },
+    {
+      "id": "27",
+      "nameKey": "departments.27"
+    },
+    {
+      "id": "50",
+      "nameKey": "departments.50"
+    },
+    {
+      "id": "61",
+      "nameKey": "departments.61"
+    },
+    {
+      "id": "76",
+      "nameKey": "departments.76"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],
