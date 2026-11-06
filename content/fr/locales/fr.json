@@ -5644,6 +5644,410 @@
       "photoNormandieSainteMere": {
         "title": "Église de Sainte-Mère-Église",
         "alt": "Église de pierre au clocher carré, auquel pend un parachute blanc."
+      },
+      "photoIleDeFranceTourEiffel": {
+        "title": "Tour Eiffel, Paris",
+        "alt": "Haute tour de fer en treillis, élancée vers le ciel, au bout d'une grande pelouse."
+      },
+      "photoIleDeFranceArcTriomphe": {
+        "title": "Arc de triomphe de l'Étoile, Paris",
+        "alt": "Grand arc de pierre orné de sculptures, éclairé à la tombée de la nuit."
+      },
+      "photoIleDeFranceSacreCoeur": {
+        "title": "Basilique du Sacré-Cœur, Paris",
+        "alt": "Façade de pierre très blanche, avec une statue dans une niche, sous un dôme."
+      },
+      "photoIleDeFranceNotreDame": {
+        "title": "Cathédrale Notre-Dame de Paris",
+        "alt": "Façade gothique à deux tours carrées, avec une grande rosace au centre."
+      },
+      "photoIleDeFranceVersailles": {
+        "title": "Cour de marbre, château de Versailles",
+        "alt": "Cour pavée de marbre noir et blanc, entourée de façades de brique et de pierre aux toits dorés."
+      },
+      "photoIleDeFrancePantheon": {
+        "title": "Panthéon, Paris",
+        "alt": "Monument à colonnes et fronton sculpté, surmonté d'un dôme et d'un drapeau."
+      },
+      "photoIleDeFranceInvalides": {
+        "title": "Dôme des Invalides, Paris",
+        "alt": "Église à dôme doré, au bout d'une esplanade bordée d'arbres."
+      },
+      "photoIleDeFrancePontNeuf": {
+        "title": "Pont-Neuf, Paris",
+        "alt": "Vieux pont de pierre à arches, enjambant le fleuve, avec des lampadaires."
+      },
+      "photoIleDeFranceObelisque": {
+        "title": "Obélisque de la place de la Concorde, Paris",
+        "alt": "Haute aiguille de pierre au milieu d'une grande place bordée de palais."
+      },
+      "photoIleDeFranceLouvre": {
+        "title": "Cour Carrée du Louvre, Paris",
+        "alt": "Grande cour entourée de façades classiques, avec un bassin rond au centre."
+      },
+      "photoIleDeFranceHotelDeVille": {
+        "title": "Hôtel de Ville de Paris",
+        "alt": "Façade néo-Renaissance richement sculptée, avec un campanile central et une horloge."
+      },
+      "photoIleDeFranceIleCite": {
+        "title": "Île de la Cité vue du ciel, Paris",
+        "alt": "Vue aérienne d'une grande ville traversée par un fleuve, avec une île en son milieu."
+      },
+      "photoIleDeFranceBrieMeaux": {
+        "title": "Brie de Meaux",
+        "alt": "Part de fromage à pâte molle et croûte blanche fleurie, à la pâte jaune pâle."
+      },
+      "photoIleDeFranceCoulommiers": {
+        "title": "Coulommiers au lait cru",
+        "alt": "Petit fromage rond à croûte blanche, entamé, posé sur une planche de bois."
+      },
+      "photoIleDeFranceCresson": {
+        "title": "Cressonnière en Essonne",
+        "alt": "Bassins peu profonds couverts d'un tapis de plantes vertes."
+      },
+      "photoIleDeFranceCerise": {
+        "title": "Cerises de Montmorency",
+        "alt": "Deux cerises rouges et brillantes, suspendues à leur arbre."
+      },
+      "photoIleDeFranceRose": {
+        "title": "Rose de Provins, Gros Provins panaché",
+        "alt": "Fleur ancienne aux pétales blancs striés de pourpre, très doubles."
+      },
+      "photoIleDeFranceVigne": {
+        "title": "Vigne de Montmartre, Paris",
+        "alt": "Petite vigne en rangs sur une pente, au pied d'immeubles."
+      },
+      "photoIleDeFranceSoupeOignon": {
+        "title": "Soupe à l'oignon gratinée",
+        "alt": "Bol de soupe couverte de croûtons, servi sur une nappe à carreaux rouges."
+      },
+      "photoIleDeFranceCroque": {
+        "title": "Croque-monsieur",
+        "alt": "Assiette avec un sandwich de pain de mie grillé et gratiné, une salade et une sauce."
+      },
+      "photoIleDeFranceParisBrest": {
+        "title": "Paris-brest",
+        "alt": "Gâteau en couronne de pâte à choux garnie de crème, parsemée d'amandes effilées."
+      },
+      "photoIleDeFranceMacaron": {
+        "title": "Macarons",
+        "alt": "Pile de trois petits biscuits ronds et colorés, garnis de crème."
+      },
+      "photoIleDeFranceSaintHonore": {
+        "title": "Saint-honoré",
+        "alt": "Gâteau garni de petits choux caramélisés et de crème fouettée en volutes."
+      },
+      "photoIleDeFranceBaguette": {
+        "title": "Baguettes de pain",
+        "alt": "Pains longs et dorés, croisés sur une planche."
+      },
+      "photoIleDeFranceCroissant": {
+        "title": "Croissant",
+        "alt": "Viennoiserie dorée et feuilletée, recourbée en arc."
+      },
+      "photoIleDeFranceFlan": {
+        "title": "Flan pâtissier",
+        "alt": "Part triangulaire de flan à la surface brunie, sur une assiette de carton."
+      },
+      "photoIleDeFranceGalerieGlaces": {
+        "title": "Galerie des Glaces, château de Versailles",
+        "alt": "Longue galerie aux murs couverts de miroirs, éclairée de lustres de cristal et de statues dorées."
+      },
+      "photoIleDeFranceGrandTrianon": {
+        "title": "Buffet d'eau du Grand Trianon, Versailles",
+        "alt": "Fontaine de marbre rose ornée de sculptures dorées, dans un jardin."
+      },
+      "photoIleDeFranceHameauReine": {
+        "title": "Tour de Marlborough, hameau de la Reine, Versailles",
+        "alt": "Petite tour ronde au bord d'un étang, au milieu d'arbres, avec une maison basse."
+      },
+      "photoIleDeFranceChateauFontainebleau": {
+        "title": "Château de Fontainebleau vers 1890",
+        "alt": "Photographie ancienne colorisée d'un grand château, au bout d'une large allée."
+      },
+      "photoIleDeFranceVauxLeVicomte": {
+        "title": "Château de Vaux-le-Vicomte",
+        "alt": "Château classique à dôme central, précédé de jardins fleuris."
+      },
+      "photoIleDeFranceMaisons": {
+        "title": "Château de Maisons, Maisons-Laffitte",
+        "alt": "Château classique aux hauts toits d'ardoise, devant un jardin à la française."
+      },
+      "photoIleDeFranceEcouen": {
+        "title": "Château d'Écouen",
+        "alt": "Château Renaissance aux toits d'ardoise et lucarnes ouvragées, devant une pelouse."
+      },
+      "photoIleDeFranceChampsSurMarne": {
+        "title": "Château de Champs-sur-Marne",
+        "alt": "Château classique de pierre claire, au bout d'une allée et de parterres."
+      },
+      "photoIleDeFranceMalmaison": {
+        "title": "Château de Malmaison",
+        "alt": "Façade d'une demeure de pierre aux volets clairs, sous un ciel bleu."
+      },
+      "photoIleDeFranceSceaux": {
+        "title": "Château de Sceaux",
+        "alt": "Château de brique et de pierre aux toits pointus, avec des orangers en caisse."
+      },
+      "photoIleDeFranceSaintCloud": {
+        "title": "Grande Cascade, parc de Saint-Cloud",
+        "alt": "Grande fontaine en gradins ornée de statues, au-dessus d'un bassin."
+      },
+      "photoIleDeFranceBreteuil": {
+        "title": "Château de Breteuil",
+        "alt": "Château de brique et de pierre au bout d'une allée de gravier, entre deux buis taillés."
+      },
+      "photoIleDeFranceCourances": {
+        "title": "Château de Courances",
+        "alt": "Château de brique aux toits d'ardoise, au bord d'un canal bordé de balustrades."
+      },
+      "photoIleDeFranceDourdan": {
+        "title": "Château de Dourdan",
+        "alt": "Vieux rempart de pierre couvert de lierre, avec une tour ronde."
+      },
+      "photoIleDeFranceBlandy": {
+        "title": "Château de Blandy-les-Tours",
+        "alt": "Forteresse médiévale aux murs épais, flanquée de tours rondes à toits pointus."
+      },
+      "photoIleDeFranceLaRocheGuyon": {
+        "title": "Château de La Roche-Guyon",
+        "alt": "Château au pied d'une falaise de craie, dominé par un donjon en ruine."
+      },
+      "photoIleDeFranceTourCesar": {
+        "title": "Tour César, Provins",
+        "alt": "Donjon médiéval à toit pointu sur une butte, avec un dôme d'église au loin."
+      },
+      "photoIleDeFranceRempartsProvins": {
+        "title": "Remparts de Provins",
+        "alt": "Longue muraille médiévale de pierre, rythmée de tours, le long d'un chemin."
+      },
+      "photoIleDeFranceMoret": {
+        "title": "Moret-sur-Loing",
+        "alt": "Pont de pierre sur une rivière, menant à une porte fortifiée et à de vieilles maisons."
+      },
+      "photoIleDeFranceBasiliqueSaintDenis": {
+        "title": "Basilique de Saint-Denis",
+        "alt": "Façade gothique de pierre claire, avec une seule tour, sous un ciel bleu."
+      },
+      "photoIleDeFranceSainteChapelle": {
+        "title": "Sainte-Chapelle, Paris",
+        "alt": "Voûte vue d'en bas, entre de très hautes verrières colorées."
+      },
+      "photoIleDeFranceSaintGermainDesPres": {
+        "title": "Église Saint-Germain-des-Prés, Paris",
+        "alt": "Chœur d'église aux colonnes peintes en rouge et aux murs couverts de décors colorés."
+      },
+      "photoIleDeFranceCathedraleMeaux": {
+        "title": "Cathédrale Saint-Étienne de Meaux",
+        "alt": "Haute façade gothique, vue en contre-plongée depuis une rue."
+      },
+      "photoIleDeFranceRoyaumont": {
+        "title": "Abbaye de Royaumont",
+        "alt": "Long bâtiment classique au bout d'un plan d'eau, entre des arbres."
+      },
+      "photoIleDeFrancePortRoyal": {
+        "title": "Granges de Port-Royal-des-Champs",
+        "alt": "Bâtiment ancien aux murs blancs et au toit de tuiles, derrière un grand arbre."
+      },
+      "photoIleDeFranceEgliseAuvers": {
+        "title": "Église Notre-Dame d'Auvers-sur-Oise",
+        "alt": "Église de pierre au clocher carré, vue de côté, sous un ciel bleu."
+      },
+      "photoIleDeFranceAubergeGanne": {
+        "title": "Auberge Ganne, Barbizon",
+        "alt": "Maison basse de pierre aux volets clairs, couverte de vigne vierge, dans une rue de village."
+      },
+      "photoIleDeFranceHalleMilly": {
+        "title": "Halle de Milly-la-Forêt",
+        "alt": "Grande halle de bois à charpente apparente, sous un haut toit de tuiles."
+      },
+      "photoIleDeFranceEnghien": {
+        "title": "Lac d'Enghien-les-Bains",
+        "alt": "Bord d'un lac avec un ponton et un petit kiosque blanc, sous de grands arbres."
+      },
+      "photoIleDeFranceConciergerie": {
+        "title": "Conciergerie, Paris",
+        "alt": "Long palais médiéval à tours pointues, au bord du fleuve."
+      },
+      "photoIleDeFranceOrsay": {
+        "title": "Musée d'Orsay depuis le pont Royal, Paris",
+        "alt": "Long bâtiment de pierre à grandes horloges, au bord du fleuve."
+      },
+      "photoIleDeFranceLuxembourg": {
+        "title": "Palais du Luxembourg, Paris",
+        "alt": "Palais classique à dôme central, devant une pelouse rayée."
+      },
+      "photoIleDeFranceCluny": {
+        "title": "Hôtel de Cluny, Paris",
+        "alt": "Demeure gothique de pierre, vue à travers les arbres d'un jardin."
+      },
+      "photoIleDeFranceTourSaintJacques": {
+        "title": "Tour Saint-Jacques, Paris",
+        "alt": "Haute tour gothique richement sculptée, isolée entre des arbres."
+      },
+      "photoIleDeFranceOperaGarnier": {
+        "title": "Opéra Garnier, Paris",
+        "alt": "Façade très ornée de colonnes, de médaillons et de sculptures dorées."
+      },
+      "photoIleDeFrancePontAlexandre": {
+        "title": "Pont Alexandre-III, Paris",
+        "alt": "Pont métallique décoré de lampadaires et de statues dorées, à la tombée du jour, avec un dôme doré au loin."
+      },
+      "photoIleDeFranceGrandPalais": {
+        "title": "Grand Palais, Paris",
+        "alt": "Verrière bombée d'un vaste monument, derrière une rangée de lampadaires ouvragés."
+      },
+      "photoIleDeFranceSevres": {
+        "title": "Vase de Neptune, porcelaine de Sèvres",
+        "alt": "Très grand vase de porcelaine blanche à anses, dans une salle de musée."
+      },
+      "photoIleDeFranceGobelins": {
+        "title": "Tapisserie des Gobelins, XVIIe siècle",
+        "alt": "Tapisserie ancienne montrant un paysage et un château, entre deux colonnes tissées."
+      },
+      "photoIleDeFranceMonnaie": {
+        "title": "Porte de l'hôtel de la Monnaie, Paris",
+        "alt": "Heurtoir en forme de tête de lion, sur une porte sculptée."
+      },
+      "photoIleDeFranceZinc": {
+        "title": "Toits en zinc de Paris",
+        "alt": "Toits gris en métal, avec des lucarnes, des fenêtres de toit et des cheminées."
+      },
+      "photoIleDeFranceMerinos": {
+        "title": "Bélier mérinos de Rambouillet",
+        "alt": "Bélier à la laine épaisse et aux cornes enroulées, dans une bergerie."
+      },
+      "photoIleDeFranceLaiterieReine": {
+        "title": "Laiterie de la Reine, Rambouillet",
+        "alt": "Médaillon de marbre sculpté montrant une jeune femme, sur un mur de pierre."
+      },
+      "photoIleDeFranceBouquinistes": {
+        "title": "Bouquinistes des quais de Seine, Paris",
+        "alt": "Boîtes vertes ouvertes, garnies de livres, de gravures et de vieux journaux."
+      },
+      "photoIleDeFranceWallace": {
+        "title": "Fontaine Wallace, Paris",
+        "alt": "Petite fontaine de fonte verte portée par des cariatides, sur une place."
+      },
+      "photoIleDeFranceGuimard": {
+        "title": "Entrée de métro Guimard, Paris",
+        "alt": "Entrée de métro aux rambardes de fonte verte en forme de tiges et de fleurs."
+      },
+      "photoIleDeFranceHaussmann": {
+        "title": "Immeuble haussmannien, Paris",
+        "alt": "Façade de pierre de taille à balcons de fer forgé et fenêtres hautes."
+      },
+      "photoIleDeFrancePassages": {
+        "title": "Galerie Vivienne, Paris",
+        "alt": "Passage couvert sous une verrière, au sol de mosaïque, bordé de boutiques."
+      },
+      "photoIleDeFranceCanalSaintMartin": {
+        "title": "Canal Saint-Martin, Paris",
+        "alt": "Écluse d'un canal bordé d'arbres, franchie par une passerelle de fer."
+      },
+      "photoIleDeFranceBaltard": {
+        "title": "Pavillon Baltard, Nogent-sur-Marne",
+        "alt": "Pavillon de fonte et de verre, derrière une grille."
+      },
+      "photoIleDeFranceAccordeon": {
+        "title": "Accordéon diatonique du XIXe siècle",
+        "alt": "Ancien instrument à soufflet et à boutons, au décor peint de fleurs."
+      },
+      "photoIleDeFranceDebussy": {
+        "title": "Maison natale de Claude Debussy, Saint-Germain-en-Laye",
+        "alt": "Cour intérieure d'une maison ancienne, avec un escalier et une galerie à balustres."
+      },
+      "photoIleDeFranceMonteCristo": {
+        "title": "Château de Monte-Cristo, Le Port-Marly",
+        "alt": "Petit château néo-Renaissance aux coupoles, très sculpté, dans un parc."
+      },
+      "photoIleDeFranceMoulinGalette": {
+        "title": "Moulin Blute-Fin, Montmartre, Paris",
+        "alt": "Moulin à vent de bois au bout d'une rue, derrière des arbres."
+      },
+      "photoIleDeFranceEscalade": {
+        "title": "Blocs de grès en forêt de Fontainebleau",
+        "alt": "Gros rochers arrondis au milieu d'une forêt de pins."
+      },
+      "photoIleDeFranceFranchard": {
+        "title": "Gorges de Franchard, forêt de Fontainebleau",
+        "alt": "Rocher de grès aux formes ondulées, entre les pins."
+      },
+      "photoIleDeFranceSable": {
+        "title": "Lac de sable du Cul du Chien, forêt des Trois Pignons",
+        "alt": "Étendue blanche et fine parsemée de rochers, bordée de bouleaux."
+      },
+      "photoIleDeFranceEtangsHollande": {
+        "title": "Étangs de Hollande",
+        "alt": "Vue aérienne d'étangs allongés au milieu des forêts et des champs."
+      },
+      "photoIleDeFranceCerf": {
+        "title": "Cerf élaphe",
+        "alt": "Grand animal aux bois ramifiés, dans une clairière brumeuse."
+      },
+      "photoIleDeFranceVexin": {
+        "title": "Paysage du Vexin français",
+        "alt": "Chemin herbeux entre deux champs de blé, sous un ciel bleu."
+      },
+      "photoIleDeFranceChevreuse": {
+        "title": "Ancienne ferme dans la vallée de Chevreuse",
+        "alt": "Vieille tour ronde de pierre couverte de lierre, accolée à une ferme."
+      },
+      "photoIleDeFranceCrecy": {
+        "title": "Lavoir sur le Grand Morin, Crécy-la-Chapelle",
+        "alt": "Lavoir couvert au bord d'une rivière, avec du linge suspendu."
+      },
+      "photoIleDeFranceConflans": {
+        "title": "Seine à Conflans-Sainte-Honorine",
+        "alt": "Fleuve bordé de péniches amarrées, enjambé par un pont métallique."
+      },
+      "photoIleDeFranceIleJatte": {
+        "title": "Île de la Jatte en hiver",
+        "alt": "Île longue et boisée au milieu du fleuve, sous un ciel gris, avec des tours au loin."
+      },
+      "photoIleDeFranceButtesChaumont": {
+        "title": "Temple de la Sibylle, parc des Buttes-Chaumont, Paris",
+        "alt": "Petit temple rond à colonnes, entre les arbres d'un parc, avec un immeuble au loin."
+      },
+      "photoIleDeFranceJardinPlantes": {
+        "title": "Grande galerie de l'Évolution, Jardin des Plantes, Paris",
+        "alt": "Grand bâtiment de pierre au bout d'une allée de jardin."
+      },
+      "photoIleDeFranceDesertRetz": {
+        "title": "Colonne détruite, désert de Retz",
+        "alt": "Grande tour cylindrique blanche aux fenêtres carrées, entre les arbres."
+      },
+      "photoIleDeFranceObservatoire": {
+        "title": "Observatoire de Paris",
+        "alt": "Salle ornée de grands portraits anciens et d'un lustre, sous un plafond peint."
+      },
+      "photoIleDeFranceAqueduc": {
+        "title": "Aqueduc Médicis, Arcueil",
+        "alt": "Grand aqueduc de pierre à arches, au-dessus d'une rue."
+      },
+      "photoIleDeFranceEnceinte": {
+        "title": "Enceinte de Philippe Auguste, jardin des Rosiers, Paris",
+        "alt": "Vieux mur de pierre crénelé, entre des arbres et des immeubles."
+      },
+      "photoIleDeFranceJeanSansPeur": {
+        "title": "Tour Jean-sans-Peur, Paris",
+        "alt": "Tour médiévale de pierre au toit pointu, entre des immeubles."
+      },
+      "photoIleDeFranceJeuDePaume": {
+        "title": "Salle du Jeu de paume, Versailles",
+        "alt": "Grande salle haute éclairée par des fenêtres, avec un immense tableau au fond et une statue."
+      },
+      "photoIleDeFranceColonneJuillet": {
+        "title": "Colonne de Juillet, place de la Bastille, Paris",
+        "alt": "Haute colonne de bronze vert surmontée d'une statue dorée."
+      },
+      "photoIleDeFranceMurFederes": {
+        "title": "Mur des Fédérés, cimetière du Père-Lachaise, Paris",
+        "alt": "Vieux mur de pierre portant une plaque, avec des gerbes de fleurs à son pied."
+      },
+      "photoIleDeFranceMontValerien": {
+        "title": "Forteresse du Mont-Valérien, Suresnes",
+        "alt": "Haut mur de brique d'un fort, au bord d'un chemin enneigé, sous des arbres."
       }
     }
   },
@@ -5729,7 +6133,10 @@
     "72": "Sarthe",
     "73": "Savoie",
     "74": "Haute-Savoie",
+    "75": "Paris",
     "76": "Seine-Maritime",
+    "77": "Seine-et-Marne",
+    "78": "Yvelines",
     "79": "Deux-Sèvres",
     "81": "Tarn",
     "82": "Tarn-et-Garonne",
@@ -5741,6 +6148,11 @@
     "88": "Vosges",
     "89": "Yonne",
     "90": "Territoire de Belfort",
+    "91": "Essonne",
+    "92": "Hauts-de-Seine",
+    "93": "Seine-Saint-Denis",
+    "94": "Val-de-Marne",
+    "95": "Val-d'Oise",
     "08": "Ardennes",
     "09": "Ariège",
     "01": "Ain",
@@ -6537,7 +6949,73 @@
     "lillebonne": "Lillebonne",
     "jumieges": "Jumièges",
     "varengeville-sur-mer": "Varengeville-sur-Mer",
-    "veules-les-roses": "Veules-les-Roses"
+    "veules-les-roses": "Veules-les-Roses",
+    "paris": "Paris",
+    "melun": "Melun",
+    "meaux": "Meaux",
+    "fontainebleau": "Fontainebleau",
+    "provins": "Provins",
+    "nemours": "Nemours",
+    "coulommiers": "Coulommiers",
+    "montereau-fault-yonne": "Montereau-Fault-Yonne",
+    "brie-comte-robert": "Brie-Comte-Robert",
+    "champs-sur-marne": "Champs-sur-Marne",
+    "moret-loing-et-orvanne": "Moret-Loing-et-Orvanne",
+    "barbizon": "Barbizon",
+    "maincy": "Maincy",
+    "larchant": "Larchant",
+    "crecy-la-chapelle": "Crécy-la-Chapelle",
+    "versailles": "Versailles",
+    "saint-germain-en-laye": "Saint-Germain-en-Laye",
+    "rambouillet": "Rambouillet",
+    "poissy": "Poissy",
+    "mantes-la-jolie": "Mantes-la-Jolie",
+    "maisons-laffitte": "Maisons-Laffitte",
+    "marly-le-roi": "Marly-le-Roi",
+    "montfort-l-amaury": "Montfort-l'Amaury",
+    "houdan": "Houdan",
+    "conflans-sainte-honorine": "Conflans-Sainte-Honorine",
+    "chevreuse": "Chevreuse",
+    "magny-les-hameaux": "Magny-les-Hameaux",
+    "evry-courcouronnes": "Évry-Courcouronnes",
+    "etampes": "Étampes",
+    "dourdan": "Dourdan",
+    "corbeil-essonnes": "Corbeil-Essonnes",
+    "palaiseau": "Palaiseau",
+    "montlhery": "Montlhéry",
+    "yerres": "Yerres",
+    "milly-la-foret": "Milly-la-Forêt",
+    "courances": "Courances",
+    "nanterre": "Nanterre",
+    "boulogne-billancourt": "Boulogne-Billancourt",
+    "sevres": "Sèvres",
+    "saint-cloud": "Saint-Cloud",
+    "rueil-malmaison": "Rueil-Malmaison",
+    "sceaux": "Sceaux",
+    "meudon": "Meudon",
+    "chatenay-malabry": "Châtenay-Malabry",
+    "bobigny": "Bobigny",
+    "saint-denis": "Saint-Denis",
+    "montreuil": "Montreuil",
+    "saint-ouen-sur-seine": "Saint-Ouen-sur-Seine",
+    "le-bourget": "Le Bourget",
+    "drancy": "Drancy",
+    "creteil": "Créteil",
+    "vincennes": "Vincennes",
+    "nogent-sur-marne": "Nogent-sur-Marne",
+    "joinville-le-pont": "Joinville-le-Pont",
+    "rungis": "Rungis",
+    "charenton-le-pont": "Charenton-le-Pont",
+    "cergy": "Cergy",
+    "pontoise": "Pontoise",
+    "auvers-sur-oise": "Auvers-sur-Oise",
+    "enghien-les-bains": "Enghien-les-Bains",
+    "ecouen": "Écouen",
+    "argenteuil": "Argenteuil",
+    "montmorency": "Montmorency",
+    "l-isle-adam": "L'Isle-Adam",
+    "asnieres-sur-oise": "Asnières-sur-Oise",
+    "la-roche-guyon": "La Roche-Guyon"
   },
   "territories": {
     "champagne-ardenne": {
@@ -40047,6 +40525,2093 @@
           "master": {
             "name": "Maître de Normandie",
             "description": "Réussir le Défi Maître de Normandie, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
+    },
+    "ile-de-france": {
+      "name": "Île-de-France",
+      "description": "De Paris et ses monuments aux châteaux de Versailles et de Fontainebleau, des forêts royales aux rives de la Seine et de la Marne, des villages de peintres aux cités médiévales, une région de bries et de jardins, de savoir-faire et d'histoire, au cœur du Bassin parisien.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Île-de-France",
+          "description": "Huit départements, leurs préfectures et les grands repères d'une région née autour de Paris, entre la Seine, la Marne et l'Oise.",
+          "huit": {
+            "prompt": "Combien de départements compte la région Île-de-France ?",
+            "hint": "Paris en est un à lui seul.",
+            "anecdote": "Ce sont Paris, la Seine-et-Marne, les Yvelines, l'Essonne, les Hauts-de-Seine, la Seine-Saint-Denis, le Val-de-Marne et le Val-d'Oise.",
+            "answers": {
+              "huit": "Huit",
+              "cinq": "Cinq",
+              "six": "Six",
+              "dix": "Dix"
+            }
+          },
+          "annee-1968": {
+            "prompt": "En quelle année les anciens départements de la Seine et de la Seine-et-Oise ont-ils laissé place à sept nouveaux départements ?",
+            "hint": "La loi qui a décidé ce découpage date de 1964.",
+            "anecdote": "Seule la Seine-et-Marne a gardé ses limites. Paris, les Yvelines, l'Essonne, les Hauts-de-Seine, la Seine-Saint-Denis, le Val-de-Marne et le Val-d'Oise sont nés le 1er janvier de cette année-là.",
+            "answers": {
+              "en-1968": "En 1968",
+              "en-1946": "En 1946",
+              "en-1982": "En 1982",
+              "en-2016": "En 2016"
+            }
+          },
+          "petite-couronne": {
+            "prompt": "Comment appelle-t-on l'ensemble des trois départements qui entourent directement Paris ?",
+            "hint": "Les quatre départements plus éloignés forment l'autre ensemble.",
+            "anecdote": "Les Hauts-de-Seine, la Seine-Saint-Denis et le Val-de-Marne la composent. La Seine-et-Marne, les Yvelines, l'Essonne et le Val-d'Oise forment la grande couronne.",
+            "answers": {
+              "la-petite-couronne": "La petite couronne",
+              "la-grande-couronne": "La grande couronne",
+              "le-hurepoix": "Le Hurepoix",
+              "le-vexin": "Le Vexin"
+            }
+          },
+          "habitants": {
+            "prompt": "Combien d'habitants compte à peu près l'Île-de-France ?",
+            "hint": "Près d'un Français sur cinq y vit.",
+            "anecdote": "C'est la région la plus peuplée de France, alors qu'elle ne couvre qu'environ 2 % du territoire national.",
+            "answers": {
+              "environ-12-millions": "Environ 12 millions",
+              "environ-6-millions": "Environ 6 millions",
+              "environ-20-millions": "Environ 20 millions",
+              "environ-3-millions": "Environ 3 millions"
+            }
+          },
+          "voisins": {
+            "prompt": "Quelle région n'a pas de frontière commune avec l'Île-de-France ?",
+            "hint": "Elle se trouve à l'ouest, au bord de l'océan Atlantique.",
+            "anecdote": "L'Île-de-France touche cinq régions : les Hauts-de-France, le Grand Est, la Bourgogne-Franche-Comté, le Centre-Val de Loire et la Normandie.",
+            "answers": {
+              "les-pays-de-la-loire": "Les Pays de la Loire",
+              "la-normandie": "La Normandie",
+              "le-grand-est": "Le Grand Est",
+              "le-centre-val-de-loire": "Le Centre-Val de Loire"
+            }
+          },
+          "lutece": {
+            "prompt": "Quel nom portait Paris à l'époque romaine ?",
+            "hint": "La ville est alors surtout installée sur une île de la Seine et sur la rive gauche.",
+            "anecdote": "Le peuple gaulois des Parisii, établi au bord de la Seine, a ensuite donné son nom à la ville.",
+            "answers": {
+              "lutece": "Lutèce",
+              "lugdunum": "Lugdunum",
+              "burdigala": "Burdigala",
+              "cenabum": "Cenabum"
+            }
+          },
+          "arrondissements": {
+            "prompt": "Combien d'arrondissements compte Paris ?",
+            "hint": "Ils sont numérotés en spirale, depuis le centre de la ville.",
+            "anecdote": "Ils tournent dans le sens des aiguilles d'une montre. Depuis 2020, les quatre premiers forment un seul secteur, appelé Paris Centre.",
+            "answers": {
+              "vingt": "Vingt",
+              "douze": "Douze",
+              "seize": "Seize",
+              "vingt-quatre": "Vingt-quatre"
+            }
+          },
+          "armoiries": {
+            "prompt": "Quel objet figure sur les armoiries de Paris, sous une bande de fleurs de lys ?",
+            "hint": "Il rappelle la puissante corporation des marchands de l'eau, qui faisaient commerce sur la Seine.",
+            "anecdote": "Sa devise latine, Fluctuat nec mergitur, signifie : il est battu par les flots, mais ne sombre pas.",
+            "answers": {
+              "un-navire": "Un navire",
+              "une-tour": "Une tour",
+              "un-lion": "Un lion",
+              "une-cle": "Une clé"
+            }
+          },
+          "point-zero": {
+            "prompt": "Où se trouve le point zéro, d'où l'on mesure les distances par la route depuis Paris ?",
+            "hint": "Une plaque de bronze en forme d'étoile est scellée dans le sol, devant une grande cathédrale.",
+            "anecdote": "Les bornes kilométriques des routes nationales qui partent de Paris comptent les distances à partir de ce point.",
+            "answers": {
+              "sur-le-parvis-de-notre-dame": "Sur le parvis de Notre-Dame",
+              "sur-la-place-de-la-concorde": "Sur la place de la Concorde",
+              "sur-la-place-de-l-etoile": "Sur la place de l'Étoile",
+              "dans-le-jardin-du-luxembourg": "Dans le jardin du Luxembourg"
+            }
+          },
+          "metro": {
+            "prompt": "En quelle année la première ligne du métro de Paris a-t-elle été ouverte ?",
+            "hint": "Elle a été mise en service pendant une Exposition universelle.",
+            "anecdote": "La ligne 1 reliait alors la porte de Vincennes à la porte Maillot. Le réseau compte aujourd'hui plus de 300 stations.",
+            "answers": {
+              "en-1900": "En 1900",
+              "en-1889": "En 1889",
+              "en-1925": "En 1925",
+              "en-1863": "En 1863"
+            }
+          },
+          "rer": {
+            "prompt": "Comment s'appelle le réseau de trains rapides qui traverse Paris sous terre pour relier les deux côtés de la banlieue ?",
+            "hint": "Son nom est formé de trois lettres, et ses lignes vont de A à E.",
+            "anecdote": "La ligne A, ouverte en partie dès 1969, est l'une des lignes de train les plus fréquentées d'Europe.",
+            "answers": {
+              "le-rer": "Le RER",
+              "le-ter": "Le TER",
+              "le-tgv": "Le TGV",
+              "l-intercites": "L'Intercités"
+            }
+          },
+          "riviere-essonne": {
+            "prompt": "Quelle rivière du Gâtinais, qui a donné son nom à un département francilien, se jette dans la Seine en aval de Melun ?",
+            "hint": "Elle passe à La Ferté-Alais, au milieu de marais et de cressonnières.",
+            "anecdote": "Elle rejoint la Seine à Corbeil-Essonnes. Le département qui porte son nom a été créé en 1968.",
+            "answers": {
+              "l-essonne": "L'Essonne",
+              "l-yerres": "L'Yerres",
+              "l-orge": "L'Orge",
+              "le-loing": "Le Loing"
+            }
+          },
+          "oise": {
+            "prompt": "Quelle rivière se jette dans la Seine à Conflans-Sainte-Honorine ?",
+            "hint": "Elle arrive du nord, depuis la Belgique, et traverse Pontoise.",
+            "anecdote": "Conflans-Sainte-Honorine, au confluent, est surnommée la capitale de la batellerie : de nombreuses péniches y sont amarrées.",
+            "answers": {
+              "l-oise": "L'Oise",
+              "la-marne": "La Marne",
+              "l-essonne": "L'Essonne",
+              "l-epte": "L'Epte"
+            }
+          },
+          "bassin": {
+            "prompt": "Au centre de quel grand ensemble géologique la région se trouve-t-elle ?",
+            "hint": "Il est formé de couches de roches sédimentaires empilées comme des assiettes.",
+            "anecdote": "Ces couches de calcaire, d'argile, de gypse et de sable ont fourni la pierre de nombreux monuments de Paris.",
+            "answers": {
+              "le-bassin-parisien": "Le Bassin parisien",
+              "le-massif-central": "Le Massif central",
+              "le-massif-armoricain": "Le Massif armoricain",
+              "le-bassin-aquitain": "Le Bassin aquitain"
+            }
+          },
+          "tour-eiffel": {
+            "prompt": "Quel monument, construit pour l'Exposition universelle de 1889, voit-on ici ?",
+            "hint": "Il est fait de fer puddlé, assemblé par environ 2,5 millions de rivets.",
+            "anecdote": "Avec ses 300 mètres d'origine, il a été la plus haute construction du monde jusqu'en 1930. On le repeint environ tous les sept ans.",
+            "answers": {
+              "la-tour-eiffel": "La tour Eiffel",
+              "la-tour-montparnasse": "La tour Montparnasse",
+              "la-tour-saint-jacques": "La tour Saint-Jacques",
+              "la-tour-jean-sans-peur": "La tour Jean-sans-Peur"
+            }
+          },
+          "arc-triomphe": {
+            "prompt": "Quel monument, voulu par Napoléon Ier pour célébrer ses armées, voit-on ici ?",
+            "hint": "Il se dresse au milieu d'une place d'où partent douze avenues.",
+            "anecdote": "Inauguré en 1836, il abrite depuis 1921 la tombe du Soldat inconnu, dont la flamme est ravivée chaque soir.",
+            "answers": {
+              "l-arc-de-triomphe-de-l-etoile": "L'Arc de triomphe de l'Étoile",
+              "l-arc-du-carrousel": "L'arc du Carrousel",
+              "la-porte-saint-denis": "La porte Saint-Denis",
+              "la-porte-saint-martin": "La porte Saint-Martin"
+            }
+          },
+          "sacre-coeur": {
+            "prompt": "Quelle basilique blanche, au sommet d'une butte du nord de Paris, voit-on ici ?",
+            "hint": "Sa pierre, extraite en Seine-et-Marne, blanchit à la pluie.",
+            "anecdote": "Construite de 1875 à 1914 sur la butte Montmartre, elle domine Paris de plus de 200 mètres d'altitude.",
+            "answers": {
+              "la-basilique-du-sacre-coeur": "La basilique du Sacré-Cœur",
+              "la-basilique-saint-denis": "La basilique Saint-Denis",
+              "l-eglise-de-la-madeleine": "L'église de la Madeleine",
+              "l-eglise-saint-sulpice": "L'église Saint-Sulpice"
+            }
+          },
+          "notre-dame": {
+            "prompt": "Quelle cathédrale gothique, sur l'île de la Cité, voit-on ici ?",
+            "hint": "Elle a rouvert ses portes en décembre 2024, cinq ans après un grand incendie.",
+            "anecdote": "Sa construction a commencé en 1163. Le feu du 15 avril 2019 a détruit sa charpente et sa flèche, rebâties à l'identique.",
+            "answers": {
+              "notre-dame-de-paris": "Notre-Dame de Paris",
+              "la-sainte-chapelle": "La Sainte-Chapelle",
+              "saint-germain-des-pres": "Saint-Germain-des-Prés",
+              "saint-eustache": "Saint-Eustache"
+            }
+          },
+          "versailles": {
+            "prompt": "Quel château, transformé par Louis XIV, a accueilli la cour de France de 1682 à 1789 ?",
+            "hint": "La ville qui l'entoure est la préfecture des Yvelines.",
+            "anecdote": "Louis XIII y avait un simple pavillon de chasse. Son fils en a fait un immense palais entouré de jardins.",
+            "answers": {
+              "le-chateau-de-versailles": "Le château de Versailles",
+              "le-chateau-de-fontainebleau": "Le château de Fontainebleau",
+              "le-chateau-de-rambouillet": "Le château de Rambouillet",
+              "le-chateau-de-saint-germain-en-laye": "Le château de Saint-Germain-en-Laye"
+            }
+          },
+          "pantheon": {
+            "prompt": "Quel monument du Quartier latin, où reposent de grands personnages, voit-on ici ?",
+            "hint": "Il devait être à l'origine une église dédiée à sainte Geneviève.",
+            "anecdote": "Sur son fronton, on peut lire : Aux grands hommes la patrie reconnaissante. Victor Hugo, Marie Curie et Simone Veil y reposent.",
+            "answers": {
+              "le-pantheon": "Le Panthéon",
+              "les-invalides": "Les Invalides",
+              "la-madeleine": "La Madeleine",
+              "la-sorbonne": "La Sorbonne"
+            }
+          },
+          "invalides": {
+            "prompt": "Sous quel dôme doré repose l'empereur Napoléon Ier ?",
+            "hint": "L'ensemble a été fondé par Louis XIV pour accueillir les soldats blessés.",
+            "anecdote": "Le dôme est l'œuvre de Jules Hardouin-Mansart. Les cendres de Napoléon y ont été rapportées de Sainte-Hélène en 1840.",
+            "answers": {
+              "le-dome-des-invalides": "Le dôme des Invalides",
+              "le-dome-du-pantheon": "Le dôme du Panthéon",
+              "le-dome-de-l-institut-de-france": "Le dôme de l'Institut de France",
+              "le-dome-du-val-de-grace": "Le dôme du Val-de-Grâce"
+            }
+          },
+          "pont-neuf": {
+            "prompt": "Quel est ce pont, le plus ancien de Paris encore debout ?",
+            "hint": "Son nom ne dit pas son âge : il a été achevé en 1607.",
+            "anecdote": "Il a été le premier pont de Paris sans maisons bâties dessus, et il était doté de trottoirs, une nouveauté à l'époque.",
+            "answers": {
+              "le-pont-neuf": "Le Pont-Neuf",
+              "le-pont-alexandre-iii": "Le pont Alexandre-III",
+              "le-pont-des-arts": "Le pont des Arts",
+              "le-pont-de-la-concorde": "Le pont de la Concorde"
+            }
+          },
+          "obelisque": {
+            "prompt": "Quel monument égyptien, vieux de plus de 3 000 ans, se dresse au centre de la place de la Concorde ?",
+            "hint": "Il vient d'un temple de la vallée du Nil et a été offert à la France au XIXe siècle.",
+            "anecdote": "Il a été érigé en 1836. Son sommet est couvert d'un pyramidion doré, ajouté en 1998.",
+            "answers": {
+              "l-obelisque-de-louxor": "L'obélisque de Louxor",
+              "la-colonne-vendome": "La colonne Vendôme",
+              "la-colonne-de-juillet": "La colonne de Juillet",
+              "la-pyramide-du-louvre": "La pyramide du Louvre"
+            }
+          },
+          "louvre": {
+            "prompt": "Quel ancien palais des rois de France, devenu musée en 1793, voit-on ici ?",
+            "hint": "Il est né d'un château fort bâti vers 1200 par Philippe Auguste.",
+            "anecdote": "C'est le musée le plus visité au monde. Il expose notamment la Joconde et la Vénus de Milo.",
+            "answers": {
+              "le-louvre": "Le Louvre",
+              "le-palais-du-luxembourg": "Le palais du Luxembourg",
+              "le-palais-royal": "Le Palais-Royal",
+              "le-palais-de-l-elysee": "Le palais de l'Élysée"
+            }
+          },
+          "hotel-de-ville": {
+            "prompt": "Quel bâtiment, siège de la mairie de Paris, voit-on ici ?",
+            "hint": "Il a été incendié en 1871, pendant la Commune, puis reconstruit dans le style de la Renaissance.",
+            "anecdote": "La place qui s'étend devant lui s'appelait autrefois la place de Grève, d'où vient l'expression faire grève.",
+            "answers": {
+              "l-hotel-de-ville-de-paris": "L'Hôtel de Ville de Paris",
+              "le-palais-du-luxembourg": "Le palais du Luxembourg",
+              "le-palais-de-justice": "Le palais de justice",
+              "le-palais-bourbon": "Le palais Bourbon"
+            }
+          },
+          "ile-cite": {
+            "prompt": "Comment s'appelle cette île de la Seine, berceau de Paris ?",
+            "hint": "Une cathédrale gothique et un palais de justice s'y élèvent.",
+            "anecdote": "Elle est reliée à sa voisine, l'île Saint-Louis, par un pont. La Conciergerie, ancienne prison, s'y trouve aussi.",
+            "answers": {
+              "l-ile-de-la-cite": "L'île de la Cité",
+              "l-ile-saint-louis": "L'île Saint-Louis",
+              "l-ile-aux-cygnes": "L'île aux Cygnes",
+              "l-ile-seguin": "L'île Seguin"
+            }
+          },
+          "pref-melun": {
+            "prompt": "Touchez le département dont la préfecture est Melun.",
+            "hint": "C'est le grand département de l'est de la région, traversé par la Seine et par la Marne.",
+            "anecdote": "Melun est bâtie sur les deux rives de la Seine et sur une île du fleuve."
+          },
+          "pref-versailles": {
+            "prompt": "Touchez le département dont la préfecture est Versailles.",
+            "hint": "C'est le département de l'ouest de la région, qui s'étend jusqu'aux limites de la Normandie.",
+            "anecdote": "Versailles a été la capitale du royaume tant que la cour y a vécu, de 1682 à 1789."
+          },
+          "pref-evry": {
+            "prompt": "Touchez le département dont la préfecture est Évry-Courcouronnes.",
+            "hint": "C'est le département du sud de la région, entre les Yvelines et la Seine-et-Marne.",
+            "anecdote": "Ville nouvelle créée à partir des années 1960, elle possède une cathédrale de brique achevée en 1995."
+          },
+          "pref-cergy": {
+            "prompt": "Touchez le département dont la préfecture est Cergy.",
+            "hint": "C'est le département qui borde le nord de la région, au-delà de la Seine.",
+            "anecdote": "Cergy est l'une des villes nouvelles de la région, bâtie dans une boucle de l'Oise."
+          },
+          "pref-bobigny": {
+            "prompt": "Touchez le département dont la préfecture est Bobigny.",
+            "hint": "C'est un petit département collé au nord-est de Paris.",
+            "anecdote": "Ce département compte plus de 1,6 million d'habitants, sur une surface pourtant très petite."
+          },
+          "pref-creteil": {
+            "prompt": "Touchez le département dont la préfecture est Créteil.",
+            "hint": "C'est un petit département collé au sud-est de Paris.",
+            "anecdote": "Créteil est bâtie autour d'un grand lac et s'étend au bord de la Marne."
+          },
+          "moitie": {
+            "prompt": "Touchez le département qui couvre à lui seul près de la moitié de la superficie de la région.",
+            "hint": "C'est le grand département de l'est de la région, traversé par la Seine et par la Marne.",
+            "anecdote": "La Seine-et-Marne est le plus vaste département de la région. Ses champs et ses forêts occupent la majeure partie de son territoire."
+          },
+          "dep-meaux": {
+            "prompt": "Touchez le département de Meaux, la ville dont l'évêque Bossuet était surnommé l'Aigle.",
+            "hint": "C'est le grand département de l'est de la région, traversé par la Seine et par la Marne.",
+            "anecdote": "Bossuet, grand prédicateur du XVIIe siècle, a été évêque de Meaux pendant plus de vingt ans."
+          },
+          "dep-rambouillet": {
+            "prompt": "Touchez le département de Rambouillet, dont le château est une ancienne résidence des présidents de la République.",
+            "hint": "C'est le département de l'ouest de la région, qui s'étend jusqu'aux limites de la Normandie.",
+            "anecdote": "Le domaine abrite aussi la Bergerie nationale, où l'on élève des moutons mérinos depuis 1786."
+          },
+          "dep-saint-germain": {
+            "prompt": "Touchez le département de Saint-Germain-en-Laye, ville natale de Louis XIV.",
+            "hint": "C'est le département de l'ouest de la région, qui s'étend jusqu'aux limites de la Normandie.",
+            "anecdote": "Le roi y est né en 1638. Son château abrite aujourd'hui le musée d'Archéologie nationale."
+          },
+          "dep-etampes": {
+            "prompt": "Touchez le département d'Étampes, ville dominée par la tour de Guinette, un donjon du XIIe siècle.",
+            "hint": "C'est le département du sud de la région, entre les Yvelines et la Seine-et-Marne.",
+            "anecdote": "Étampes était une étape importante sur la route entre Paris et Orléans."
+          },
+          "dep-pontoise": {
+            "prompt": "Touchez le département de Pontoise, ancienne capitale du Vexin français.",
+            "hint": "C'est le département qui borde le nord de la région, au-delà de la Seine.",
+            "anecdote": "Le peintre Camille Pissarro y a vécu de longues années et a peint ses rues et ses coteaux."
+          },
+          "dep-saint-denis": {
+            "prompt": "Touchez le département de Saint-Denis, où se trouve le Stade de France.",
+            "hint": "C'est un petit département collé au nord-est de Paris.",
+            "anecdote": "Sa basilique abrite les tombeaux de la plupart des rois de France."
+          },
+          "dep-vincennes": {
+            "prompt": "Touchez le département de Vincennes, ville dont le château possède le plus haut donjon médiéval d'Europe.",
+            "hint": "C'est un petit département collé au sud-est de Paris.",
+            "anecdote": "Ce donjon du XIVe siècle mesure environ 52 mètres de haut."
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs d'Île-de-France",
+          "description": "Bries de la Seine-et-Marne, cresson et menthe de l'Essonne, fruits des murs de Montreuil et de Thomery, plats des Halles et pâtisseries de Paris : la table d'une région de grandes plaines et de maraîchers.",
+          "brie-meaux": {
+            "prompt": "Quel grand fromage à croûte fleurie, qui porte le nom d'une ville de Seine-et-Marne, voit-on ici ?",
+            "hint": "On le moule en larges galettes d'environ 36 centimètres de diamètre.",
+            "anecdote": "Il a une appellation d'origine depuis 1980. Il faut environ 25 litres de lait pour en fabriquer un seul.",
+            "answers": {
+              "le-brie-de-meaux": "Le brie de Meaux",
+              "le-camembert": "Le camembert",
+              "le-coulommiers": "Le coulommiers",
+              "le-chaource": "Le chaource"
+            }
+          },
+          "brie-melun": {
+            "prompt": "Quel brie, plus petit et plus salé, porte le nom de la préfecture de Seine-et-Marne ?",
+            "hint": "Son caillé se forme lentement, en près de 18 heures.",
+            "anecdote": "Sa saveur est plus marquée que celle de son voisin de Meaux. Il a lui aussi une appellation d'origine depuis 1980.",
+            "answers": {
+              "le-brie-de-melun": "Le brie de Melun",
+              "le-brie-de-meaux": "Le brie de Meaux",
+              "le-brie-de-nangis": "Le brie de Nangis",
+              "le-brie-de-montereau": "Le brie de Montereau"
+            }
+          },
+          "grand-marnier": {
+            "prompt": "Quelle liqueur à l'orange amère et au cognac a été mise au point en 1880 à Neauphle-le-Château, dans les Yvelines ?",
+            "hint": "Elle sert souvent à flamber les crêpes Suzette.",
+            "anecdote": "Elle a été créée par Louis-Alexandre Marnier-Lapostolle, qui a mêlé du cognac à une essence d'oranges amères.",
+            "answers": {
+              "le-grand-marnier": "Le Grand Marnier",
+              "le-cointreau": "Le Cointreau",
+              "le-curacao": "Le curaçao",
+              "la-chartreuse": "La chartreuse"
+            }
+          },
+          "coulommiers": {
+            "prompt": "Quel fromage de la Brie, plus petit et plus épais que le brie, voit-on ici ?",
+            "hint": "Il porte le nom d'une ville au bord du Grand Morin.",
+            "anecdote": "Contrairement aux bries de Meaux et de Melun, il n'a pas d'appellation d'origine protégée.",
+            "answers": {
+              "le-coulommiers": "Le coulommiers",
+              "le-brie-de-meaux": "Le brie de Meaux",
+              "le-neufchatel": "Le neufchâtel",
+              "le-saint-marcellin": "Le saint-marcellin"
+            }
+          },
+          "fontainebleau": {
+            "prompt": "Quel dessert frais, fait de fromage blanc et de crème fouettée, porte le nom d'une ville de Seine-et-Marne ?",
+            "hint": "On le sert souvent avec des fruits rouges ou un coulis.",
+            "anecdote": "On le prépare dans de petits moules garnis d'une mousseline, qui laisse égoutter le petit-lait.",
+            "answers": {
+              "le-fontainebleau": "Le fontainebleau",
+              "la-faisselle": "La faisselle",
+              "la-creme-chantilly": "La crème Chantilly",
+              "le-petit-suisse": "Le petit-suisse"
+            }
+          },
+          "explorateur": {
+            "prompt": "Quel fromage triple crème de Seine-et-Marne porte une fusée sur son étiquette ?",
+            "hint": "Son nom rend hommage aux débuts de la conquête spatiale.",
+            "anecdote": "Il a été créé à la fin des années 1950, au moment où les premiers satellites étaient lancés.",
+            "answers": {
+              "l-explorateur": "L'explorateur",
+              "le-brillat-savarin": "Le brillat-savarin",
+              "le-chaource": "Le chaource",
+              "le-fougerus": "Le fougerus"
+            }
+          },
+          "fougerus": {
+            "prompt": "Quelle feuille décore la croûte du fougerus, un fromage de la Brie ?",
+            "hint": "C'est une plante des sous-bois, qui ne fait pas de fleurs.",
+            "anecdote": "Ce cousin du coulommiers a longtemps été fabriqué dans les fermes, pour la table de la famille.",
+            "answers": {
+              "une-feuille-de-fougere": "Une feuille de fougère",
+              "une-feuille-de-chataignier": "Une feuille de châtaignier",
+              "une-feuille-de-vigne": "Une feuille de vigne",
+              "une-feuille-de-platane": "Une feuille de platane"
+            }
+          },
+          "cresson": {
+            "prompt": "Quelle plante aquatique pousse dans ces bassins d'eau de source de l'Essonne ?",
+            "hint": "Sa saveur est légèrement piquante.",
+            "anecdote": "Elle se récolte à la main, les pieds dans l'eau, et se mange en soupe ou en salade.",
+            "answers": {
+              "le-cresson": "Le cresson",
+              "la-mache": "La mâche",
+              "l-epinard": "L'épinard",
+              "le-pourpier": "Le pourpier"
+            }
+          },
+          "dep-mereville": {
+            "prompt": "Touchez le département de Méréville, surnommée la capitale du cresson.",
+            "hint": "C'est le département du sud de la région, entre les Yvelines et la Seine-et-Marne.",
+            "anecdote": "Les cressonnières de la vallée de la Juine y sont alimentées par des sources à la température constante."
+          },
+          "menthe": {
+            "prompt": "Quelle plante aromatique a fait la réputation de Milly-la-Forêt ?",
+            "hint": "On en tire une huile essentielle très fraîche.",
+            "anecdote": "La ville cultive des plantes médicinales depuis le Moyen Âge. Elle accueille le Conservatoire national des plantes à parfum, médicinales et aromatiques.",
+            "answers": {
+              "la-menthe-poivree": "La menthe poivrée",
+              "la-lavande": "La lavande",
+              "le-safran": "Le safran",
+              "la-verveine": "La verveine"
+            }
+          },
+          "cerise": {
+            "prompt": "Quelle variété de cerise acidulée porte le nom d'une ville du Val-d'Oise ?",
+            "hint": "Elle convient surtout aux confitures, aux tartes et aux fruits à l'eau-de-vie.",
+            "anecdote": "Ses vergers ont presque disparu sous les maisons, mais la variété est toujours cultivée ailleurs en France.",
+            "answers": {
+              "la-montmorency": "La montmorency",
+              "la-burlat": "La burlat",
+              "le-bigarreau-napoleon": "Le bigarreau Napoléon",
+              "la-guigne": "La guigne"
+            }
+          },
+          "dep-argenteuil": {
+            "prompt": "Touchez le département d'Argenteuil, dont les asperges étaient réputées au XIXe siècle.",
+            "hint": "C'est le département qui borde le nord de la région, au-delà de la Seine.",
+            "anecdote": "Ses asperges, très appréciées des Parisiens, étaient cultivées sur les coteaux qui dominent la Seine."
+          },
+          "chasselas": {
+            "prompt": "Comment les producteurs de Thomery conservaient-ils leurs grappes de chasselas jusqu'au printemps ?",
+            "hint": "Ils les rangeaient dans des pièces sombres et fraîches, appelées chambres à raisins.",
+            "anecdote": "Les vignes de ce village près de Fontainebleau étaient palissées contre de longs murs, orientés pour profiter du soleil.",
+            "answers": {
+              "la-tige-plongee-dans-une-fiole-d-eau": "La tige plongée dans une fiole d'eau",
+              "enfouies-dans-du-sable-sec": "Enfouies dans du sable sec",
+              "suspendues-au-dessus-d-un-feu": "Suspendues au-dessus d'un feu",
+              "plongees-dans-de-l-eau-de-vie": "Plongées dans de l'eau-de-vie"
+            }
+          },
+          "murs-peches": {
+            "prompt": "Quel fruit les maraîchers de Montreuil cultivaient-ils contre de hauts murs blanchis à la chaux ?",
+            "hint": "Les murs gardaient la chaleur du soleil et protégeaient les arbres du gel.",
+            "anecdote": "Au XIXe siècle, ces murs à fruits couvraient une grande partie de la commune. Il en reste quelques parcelles, protégées.",
+            "answers": {
+              "la-peche": "La pêche",
+              "l-abricot": "L'abricot",
+              "la-poire": "La poire",
+              "la-figue": "La figue"
+            }
+          },
+          "chevrier": {
+            "prompt": "Quel haricot vert pâle, sélectionné vers 1880 en Essonne, est fêté chaque année à Arpajon ?",
+            "hint": "Il porte le nom de l'agriculteur qui l'a obtenu, à Brétigny-sur-Orge.",
+            "anecdote": "Arpajon, qui se dit capitale du haricot, organise chaque année une grande foire en son honneur.",
+            "answers": {
+              "le-chevrier": "Le chevrier",
+              "le-haricot-tarbais": "Le haricot tarbais",
+              "le-coco-de-paimpol": "Le coco de Paimpol",
+              "la-mogette": "La mogette"
+            }
+          },
+          "clamart": {
+            "prompt": "Quel légume une garniture dite à la Clamart contient-elle ?",
+            "hint": "Cette ville, au sud-ouest de Paris, en cultivait beaucoup autrefois.",
+            "anecdote": "Les maraîchers de Clamart étaient réputés pour leurs primeurs, vendus aux Halles de Paris.",
+            "answers": {
+              "les-petits-pois": "Les petits pois",
+              "les-feves": "Les fèves",
+              "les-asperges": "Les asperges",
+              "les-haricots-verts": "Les haricots verts"
+            }
+          },
+          "betterave": {
+            "prompt": "Quelle plante, cultivée dans les grandes plaines de la Brie, sert à produire du sucre ?",
+            "hint": "On l'arrache à l'automne, avant de l'envoyer à l'usine.",
+            "anecdote": "La Seine-et-Marne compte encore des sucreries, au milieu de vastes champs de blé.",
+            "answers": {
+              "la-betterave-sucriere": "La betterave sucrière",
+              "la-canne-a-sucre": "La canne à sucre",
+              "le-sorgho": "Le sorgho",
+              "le-mais": "Le maïs"
+            }
+          },
+          "rose": {
+            "prompt": "Quelle fleur, rapportée selon la légende des croisades, a fait la renommée d'une cité médiévale de Seine-et-Marne ?",
+            "hint": "Cette rose ancienne porte le nom de la ville où on la cultive depuis le Moyen Âge.",
+            "anecdote": "Thibaud IV, comte de Champagne et seigneur de la ville, l'aurait rapportée de Terre sainte au XIIIe siècle. On en fait de la confiture, du miel et des bonbons.",
+            "answers": {
+              "la-rose-de-provins": "La rose de Provins",
+              "la-rose-centifolia": "La rose centifolia",
+              "la-rose-de-noel": "La rose de Noël",
+              "la-rose-tremiere": "La rose trémière"
+            }
+          },
+          "dep-houdan": {
+            "prompt": "Touchez le département de Houdan, qui a donné son nom à une race de poule à cinq doigts.",
+            "hint": "C'est le département de l'ouest de la région, qui s'étend jusqu'aux limites de la Normandie.",
+            "anecdote": "Cette poule, coiffée d'une huppe et d'une barbe, était très appréciée pour sa chair sur les marchés de Paris."
+          },
+          "vigne": {
+            "prompt": "Quelle fête célèbre chaque mois d'octobre la récolte de cette petite vigne de Montmartre ?",
+            "hint": "Ses bouteilles sont vendues aux enchères au profit d'œuvres sociales.",
+            "anecdote": "La vigne a été replantée en 1933. Au Moyen Âge, les coteaux autour de Paris étaient couverts de vignes.",
+            "answers": {
+              "la-fete-des-vendanges": "La fête des vendanges",
+              "la-fete-de-la-musique": "La fête de la musique",
+              "la-fete-des-lumieres": "La fête des Lumières",
+              "la-saint-vincent": "La Saint-Vincent"
+            }
+          },
+          "noyau": {
+            "prompt": "Quelle liqueur des Yvelines, née à la fin du XVIIe siècle, est parfumée avec l'amande des abricots ?",
+            "hint": "Elle est fabriquée dans une ville des bords de Seine, connue aussi pour sa collégiale et la villa Savoye.",
+            "anecdote": "Elle existe en version blanche et en version ambrée, et sert aussi à parfumer des desserts.",
+            "answers": {
+              "le-noyau-de-poissy": "Le noyau de Poissy",
+              "le-ratafia": "Le ratafia",
+              "la-chartreuse": "La chartreuse",
+              "le-guignolet": "Le guignolet"
+            }
+          },
+          "bercy": {
+            "prompt": "Quel quartier de l'est de Paris abritait autrefois l'un des plus grands marchés aux vins du monde ?",
+            "hint": "Les tonneaux y arrivaient par bateau, sur la Seine.",
+            "anecdote": "Ses anciens chais en pierre sont devenus un quartier de boutiques et de restaurants.",
+            "answers": {
+              "bercy": "Bercy",
+              "belleville": "Belleville",
+              "montparnasse": "Montparnasse",
+              "la-villette": "La Villette"
+            }
+          },
+          "bearnaise": {
+            "prompt": "Quelle sauce serait née en 1836 au pavillon Henri-IV de Saint-Germain-en-Laye ?",
+            "hint": "Son nom rend hommage au roi Henri IV, né à Pau.",
+            "anecdote": "Elle est faite de jaunes d'œufs, de beurre, d'échalote, de vinaigre et d'estragon.",
+            "answers": {
+              "la-sauce-bearnaise": "La sauce béarnaise",
+              "la-sauce-hollandaise": "La sauce hollandaise",
+              "la-sauce-bordelaise": "La sauce bordelaise",
+              "la-sauce-mornay": "La sauce Mornay"
+            }
+          },
+          "soufflees": {
+            "prompt": "Quelle préparation de pommes de terre serait née par hasard en 1837, lors de l'inauguration de la ligne de train de Paris à Saint-Germain-en-Laye ?",
+            "hint": "Plongées deux fois dans la friture, les tranches gonflent comme de petits ballons.",
+            "anecdote": "Selon la légende, le train a eu du retard et le cuisinier a dû replonger dans l'huile des tranches déjà cuites.",
+            "answers": {
+              "les-pommes-soufflees": "Les pommes soufflées",
+              "les-pommes-dauphine": "Les pommes dauphine",
+              "les-pommes-anna": "Les pommes Anna",
+              "le-gratin-dauphinois": "Le gratin dauphinois"
+            }
+          },
+          "pommes-pont-neuf": {
+            "prompt": "Comment appelle-t-on les grosses frites parisiennes, coupées en bâtonnets épais ?",
+            "hint": "Des marchands de friture les vendaient en plein air, au bord de la Seine.",
+            "anecdote": "Elles tirent leur nom du plus ancien pont de Paris, où s'installaient les marchands. On les sert avec une viande grillée.",
+            "answers": {
+              "les-pommes-pont-neuf": "Les pommes Pont-Neuf",
+              "les-pommes-allumettes": "Les pommes allumettes",
+              "les-pommes-paille": "Les pommes paille",
+              "les-pommes-gaufrettes": "Les pommes gaufrettes"
+            }
+          },
+          "soupe-oignon": {
+            "prompt": "Quelle soupe gratinée, servie autrefois la nuit aux travailleurs des Halles de Paris, voit-on ici ?",
+            "hint": "On la couvre de pain et de fromage râpé avant de la passer au four.",
+            "anecdote": "Les noctambules venaient aussi la déguster au petit matin, aux côtés des forts des Halles.",
+            "answers": {
+              "la-soupe-a-l-oignon": "La soupe à l'oignon",
+              "la-soupe-au-pistou": "La soupe au pistou",
+              "la-garbure": "La garbure",
+              "la-soupe-de-poisson": "La soupe de poisson"
+            }
+          },
+          "croque": {
+            "prompt": "Quel sandwich chaud au jambon et au fromage, apparu dans les cafés de Paris vers 1910, voit-on ici ?",
+            "hint": "On le dore à la poêle ou au four, parfois nappé de béchamel.",
+            "anecdote": "Avec un œuf au plat posé dessus, il change de nom et devient une dame.",
+            "answers": {
+              "le-croque-monsieur": "Le croque-monsieur",
+              "le-jambon-beurre": "Le jambon-beurre",
+              "le-welsh": "Le welsh",
+              "le-panini": "Le panini"
+            }
+          },
+          "jambon": {
+            "prompt": "Comment appelle-t-on le jambon blanc, cuit au bouillon et sans fumage ?",
+            "hint": "On le glisse dans le jambon-beurre, l'un des sandwichs les plus vendus de France.",
+            "anecdote": "Au XIXe siècle, de nombreux charcutiers de la capitale le préparaient eux-mêmes.",
+            "answers": {
+              "le-jambon-de-paris": "Le jambon de Paris",
+              "le-jambon-de-bayonne": "Le jambon de Bayonne",
+              "le-jambon-des-ardennes": "Le jambon des Ardennes",
+              "le-jambon-de-savoie": "Le jambon de Savoie"
+            }
+          },
+          "parmentier": {
+            "prompt": "Quel savant, qui a fait connaître la pomme de terre en France, a donné son nom à un hachis gratiné ?",
+            "hint": "En 1786, il fit planter des champs de tubercules dans la plaine des Sablons, près de Neuilly.",
+            "anecdote": "Selon la légende, il faisait garder ces champs le jour pour donner aux curieux l'envie de venir en voler la nuit.",
+            "answers": {
+              "antoine-parmentier": "Antoine Parmentier",
+              "louis-pasteur": "Louis Pasteur",
+              "nicolas-appert": "Nicolas Appert",
+              "antoine-lavoisier": "Antoine Lavoisier"
+            }
+          },
+          "rungis": {
+            "prompt": "Quel marché du Val-de-Marne est le plus grand marché de produits frais du monde ?",
+            "hint": "Il a remplacé les Halles de Paris en 1969.",
+            "anecdote": "Il s'étend sur plus de 230 hectares, près de l'aéroport d'Orly, et ne reçoit que des professionnels.",
+            "answers": {
+              "le-marche-de-rungis": "Le marché de Rungis",
+              "le-marche-des-capucins": "Le marché des Capucins",
+              "le-marche-des-lices": "Le marché des Lices",
+              "le-marche-de-la-croix-rousse": "Le marché de la Croix-Rousse"
+            }
+          },
+          "ventre": {
+            "prompt": "Quel surnom, rendu célèbre par un roman d'Émile Zola, désignait les anciennes Halles de Paris ?",
+            "hint": "Le roman se déroule entre les pavillons de fer et de verre construits par Victor Baltard.",
+            "anecdote": "Ces pavillons, bâtis à partir de 1852, ont presque tous été démolis dans les années 1970. L'un d'eux a été remonté à Nogent-sur-Marne.",
+            "answers": {
+              "le-ventre-de-paris": "Le ventre de Paris",
+              "le-coeur-de-paris": "Le cœur de Paris",
+              "la-cuisine-de-paris": "La cuisine de Paris",
+              "le-grenier-de-paris": "Le grenier de Paris"
+            }
+          },
+          "paris-brest": {
+            "prompt": "Quelle pâtisserie en forme de roue, garnie de crème pralinée, voit-on ici ?",
+            "hint": "Elle rend hommage à une course cycliste créée en 1891.",
+            "anecdote": "Elle aurait été inventée en 1910 par un pâtissier de Maisons-Laffitte, une ville que traversait la course.",
+            "answers": {
+              "le-paris-brest": "Le paris-brest",
+              "le-saint-honore": "Le saint-honoré",
+              "le-kouign-amann": "Le kouign-amann",
+              "le-pithiviers": "Le pithiviers"
+            }
+          },
+          "macaron": {
+            "prompt": "Comment appelle-t-on ce macaron fait de deux coques lisses réunies par une garniture ?",
+            "hint": "Le bord frisé, à la base de chaque coque, s'appelle le pied.",
+            "anecdote": "L'idée d'assembler deux coques avec une ganache ou une confiture s'est répandue à Paris au début du XXe siècle.",
+            "answers": {
+              "le-macaron-parisien": "Le macaron parisien",
+              "le-macaron-de-nancy": "Le macaron de Nancy",
+              "le-macaron-d-amiens": "Le macaron d'Amiens",
+              "le-macaron-de-saint-emilion": "Le macaron de Saint-Émilion"
+            }
+          },
+          "saint-honore": {
+            "prompt": "Quel gâteau de choux caramélisés et de crème, qui porte le nom du patron des boulangers, voit-on ici ?",
+            "hint": "Il aurait été créé vers 1850 dans une pâtisserie d'une rue parisienne qui porte le même nom.",
+            "anecdote": "Sa crème légère, la crème Chiboust, porte le nom du pâtissier à qui on l'attribue.",
+            "answers": {
+              "le-saint-honore": "Le saint-honoré",
+              "le-croquembouche": "Le croquembouche",
+              "le-paris-brest": "Le paris-brest",
+              "la-religieuse": "La religieuse"
+            }
+          },
+          "baguette": {
+            "prompt": "Quel pain long et croustillant, dont le savoir-faire est inscrit à l'Unesco depuis 2022, voit-on ici ?",
+            "hint": "Un concours récompense chaque année la meilleure de Paris.",
+            "anecdote": "Le boulanger qui remporte le concours parisien fournit le palais de l'Élysée pendant un an.",
+            "answers": {
+              "la-baguette": "La baguette",
+              "la-ficelle": "La ficelle",
+              "le-batard": "Le bâtard",
+              "la-fougasse": "La fougasse"
+            }
+          },
+          "croissant": {
+            "prompt": "Quelle viennoiserie au beurre, inspirée d'un petit pain de Vienne, voit-on ici ?",
+            "hint": "Son nom décrit sa forme.",
+            "anecdote": "Une boulangerie viennoise, ouverte à Paris en 1838, a contribué à la faire connaître. La pâte feuilletée levée s'est imposée plus tard.",
+            "answers": {
+              "le-croissant": "Le croissant",
+              "le-pain-au-chocolat": "Le pain au chocolat",
+              "la-brioche": "La brioche",
+              "le-chausson-aux-pommes": "Le chausson aux pommes"
+            }
+          },
+          "flan": {
+            "prompt": "Comment appelle-t-on ce flan à la crème cuit dans une pâte, typique des boulangeries de la capitale ?",
+            "hint": "Sa surface dorée caramélise au four.",
+            "anecdote": "On le coupe en parts, comme une tarte, et on le mange le plus souvent froid.",
+            "answers": {
+              "le-flan-parisien": "Le flan parisien",
+              "le-far-breton": "Le far breton",
+              "le-clafoutis": "Le clafoutis",
+              "le-gateau-basque": "Le gâteau basque"
+            }
+          },
+          "niflette": {
+            "prompt": "Quelle petite pâtisserie à la crème se déguste à Provins autour de la Toussaint ?",
+            "hint": "Son nom viendrait du latin ne flete, qui veut dire ne pleure pas.",
+            "anecdote": "Selon la tradition, on l'offrait aux orphelins à la Toussaint pour les consoler.",
+            "answers": {
+              "la-niflette": "La niflette",
+              "le-puits-d-amour": "Le puits d'amour",
+              "la-chouquette": "La chouquette",
+              "le-financier": "Le financier"
+            }
+          },
+          "sucre-orge": {
+            "prompt": "Quelle confiserie les religieuses de Moret-sur-Loing fabriquaient-elles depuis le XVIIe siècle ?",
+            "hint": "C'est un bâtonnet de bonbon translucide et doré, souvent torsadé.",
+            "anecdote": "On la prépare avec du sucre cuit et une décoction de céréale. La recette des bénédictines date de 1638. Elle a été transmise après le départ des sœurs, et la fabrication continue.",
+            "answers": {
+              "le-sucre-d-orge": "Le sucre d'orge",
+              "le-nougat": "Le nougat",
+              "le-berlingot": "Le berlingot",
+              "la-praline": "La praline"
+            }
+          },
+          "galette": {
+            "prompt": "Quelle galette des rois feuilletée est la plus répandue dans la moitié nord de la France ?",
+            "hint": "Sa garniture est faite à base d'amandes en poudre.",
+            "anecdote": "On y cache une fève. Celui qui la trouve devient le roi ou la reine du jour.",
+            "answers": {
+              "la-galette-a-la-frangipane": "La galette à la frangipane",
+              "la-brioche-des-rois": "La brioche des rois",
+              "la-galette-au-sucre": "La galette au sucre",
+              "la-galette-de-sarrasin": "La galette de sarrasin"
+            }
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Domaines royaux, châteaux de la Renaissance et du Grand Siècle, abbayes, cités médiévales, palais et ponts de Paris : le patrimoine de l'Île-de-France en images.",
+          "galerie-glaces": {
+            "prompt": "Quelle salle du château de Versailles, longue de 73 mètres, fait face à dix-sept fenêtres avec autant d'arcades de miroirs ?",
+            "hint": "Le traité qui a mis fin à la Première Guerre mondiale y a été signé en 1919.",
+            "anecdote": "Elle a été aménagée par Jules Hardouin-Mansart à partir de 1678. Les peintures de sa voûte, par Charles Le Brun, racontent les victoires de Louis XIV.",
+            "answers": {
+              "la-galerie-des-glaces": "La galerie des Glaces",
+              "la-galerie-des-batailles": "La galerie des Batailles",
+              "la-galerie-d-apollon": "La galerie d'Apollon",
+              "la-galerie-francois-ier": "La galerie François Ier"
+            }
+          },
+          "grand-trianon": {
+            "prompt": "Quel petit palais de marbre rose, bâti en 1687 dans le parc de Versailles, permettait à Louis XIV de s'éloigner de la cour ?",
+            "hint": "Ses colonnades ouvertes relient deux ailes, sur un seul niveau.",
+            "anecdote": "Napoléon Ier l'a fait remeubler pour y séjourner. Le général de Gaulle l'a fait restaurer pour y recevoir des chefs d'État.",
+            "answers": {
+              "le-grand-trianon": "Le Grand Trianon",
+              "le-petit-trianon": "Le Petit Trianon",
+              "le-pavillon-de-bagatelle": "Le pavillon de Bagatelle",
+              "le-chateau-de-marly": "Le château de Marly"
+            }
+          },
+          "hameau-reine": {
+            "prompt": "Quel petit village de chaumières, avec sa ferme et son moulin, a été construit dans le parc de Versailles pour Marie-Antoinette ?",
+            "hint": "Ses maisons sont groupées autour d'un petit lac artificiel.",
+            "anecdote": "Il a été bâti entre 1783 et 1787 par l'architecte Richard Mique. Sa ferme, bien réelle, fournissait du lait et des œufs.",
+            "answers": {
+              "le-hameau-de-la-reine": "Le Hameau de la Reine",
+              "le-hameau-de-chantilly": "Le hameau de Chantilly",
+              "la-laiterie-de-la-reine": "La laiterie de la Reine",
+              "le-desert-de-retz": "Le Désert de Retz"
+            }
+          },
+          "chateau-fontainebleau": {
+            "prompt": "Quel château, habité par les souverains pendant sept siècles, est célèbre pour son escalier en fer à cheval ?",
+            "hint": "Il se trouve au cœur d'une grande forêt de Seine-et-Marne.",
+            "anecdote": "C'est dans la cour, au pied de cet escalier, que Napoléon a fait ses adieux à sa garde, le 20 avril 1814.",
+            "answers": {
+              "le-chateau-de-fontainebleau": "Le château de Fontainebleau",
+              "le-chateau-de-chambord": "Le château de Chambord",
+              "le-chateau-de-saint-germain-en-laye": "Le château de Saint-Germain-en-Laye",
+              "le-chateau-de-vincennes": "Le château de Vincennes"
+            }
+          },
+          "vaux-le-vicomte": {
+            "prompt": "Quel château de Seine-et-Marne, bâti pour le surintendant des finances Nicolas Fouquet, a inspiré Versailles ?",
+            "hint": "L'architecte Le Vau, le peintre Le Brun et le jardinier Le Nôtre y ont travaillé ensemble.",
+            "anecdote": "En août 1661, Fouquet y a donné une fête somptueuse en l'honneur de Louis XIV. Moins de trois semaines plus tard, il était arrêté.",
+            "answers": {
+              "le-chateau-de-vaux-le-vicomte": "Le château de Vaux-le-Vicomte",
+              "le-chateau-de-maisons": "Le château de Maisons",
+              "le-chateau-de-courances": "Le château de Courances",
+              "le-chateau-de-champs-sur-marne": "Le château de Champs-sur-Marne"
+            }
+          },
+          "maisons": {
+            "prompt": "Quel château classique, bâti par François Mansart vers 1640 au bord de la Seine, a donné son nom à une ville des Yvelines ?",
+            "hint": "Cette ville est connue pour son hippodrome et ses écuries de chevaux de course.",
+            "anecdote": "Il est considéré comme un chef-d'œuvre de l'architecture classique. Le banquier Jacques Laffitte, qui l'a acheté en 1818, a loti une partie de son parc.",
+            "answers": {
+              "le-chateau-de-maisons": "Le château de Maisons",
+              "le-chateau-de-vaux-le-vicomte": "Le château de Vaux-le-Vicomte",
+              "le-chateau-de-sceaux": "Le château de Sceaux",
+              "le-chateau-de-breteuil": "Le château de Breteuil"
+            }
+          },
+          "ecouen": {
+            "prompt": "Quel château du Val-d'Oise, bâti pour le connétable Anne de Montmorency, abrite le musée national de la Renaissance ?",
+            "hint": "Il domine la plaine de France, au nord de Paris.",
+            "anecdote": "On peut y voir la tenture de David et Bethsabée, une suite de tapisseries du XVIe siècle longue d'environ 75 mètres.",
+            "answers": {
+              "le-chateau-d-ecouen": "Le château d'Écouen",
+              "le-chateau-de-chantilly": "Le château de Chantilly",
+              "le-chateau-de-fontainebleau": "Le château de Fontainebleau",
+              "le-chateau-d-anet": "Le château d'Anet"
+            }
+          },
+          "champs-sur-marne": {
+            "prompt": "Quel château du XVIIIe siècle, en Seine-et-Marne, a longtemps accueilli les chefs d'État étrangers en visite officielle ?",
+            "hint": "La marquise de Pompadour l'a loué en 1757.",
+            "anecdote": "Il domine la vallée d'une rivière, à l'est de Paris. Ses jardins à la française ont été recréés au début du XXe siècle.",
+            "answers": {
+              "le-chateau-de-champs-sur-marne": "Le château de Champs-sur-Marne",
+              "le-chateau-de-rambouillet": "Le château de Rambouillet",
+              "le-chateau-de-vincennes": "Le château de Vincennes",
+              "le-chateau-de-malmaison": "Le château de Malmaison"
+            }
+          },
+          "malmaison": {
+            "prompt": "Quel château de Rueil, acheté en 1799 par Joséphine de Beauharnais, a été la demeure préférée de Bonaparte sous le Consulat ?",
+            "hint": "Il se trouve dans les Hauts-de-Seine, à l'ouest de Paris.",
+            "anecdote": "Joséphine y est morte en 1814. Le château est devenu un musée national consacré au couple impérial.",
+            "answers": {
+              "le-chateau-de-malmaison": "Le château de Malmaison",
+              "le-chateau-de-bois-preau": "Le château de Bois-Préau",
+              "le-chateau-de-saint-cloud": "Le château de Saint-Cloud",
+              "le-chateau-de-compiegne": "Le château de Compiègne"
+            }
+          },
+          "sceaux": {
+            "prompt": "Quel château des Hauts-de-Seine se dresse au milieu d'un grand parc dessiné par Le Nôtre pour Colbert ?",
+            "hint": "Il se trouve au sud de Paris, près d'Antony.",
+            "anecdote": "Le château de Colbert a été détruit après la Révolution. Celui que l'on voit aujourd'hui, de brique et de pierre, date du milieu du XIXe siècle.",
+            "answers": {
+              "le-chateau-de-sceaux": "Le château de Sceaux",
+              "le-chateau-de-meudon": "Le château de Meudon",
+              "le-chateau-de-saint-cloud": "Le château de Saint-Cloud",
+              "le-chateau-de-breteuil": "Le château de Breteuil"
+            }
+          },
+          "saint-cloud": {
+            "prompt": "Quel parc des Hauts-de-Seine, ancien domaine d'un château disparu, possède une grande cascade du XVIIe siècle ?",
+            "hint": "Il domine la Seine, face au bois de Boulogne.",
+            "anecdote": "C'est dans ce château que Bonaparte a pris le pouvoir, en novembre 1799. Incendié pendant la guerre de 1870, il n'a jamais été reconstruit.",
+            "answers": {
+              "le-domaine-de-saint-cloud": "Le domaine de Saint-Cloud",
+              "le-parc-de-sceaux": "Le parc de Sceaux",
+              "le-domaine-de-marly": "Le domaine de Marly",
+              "le-parc-de-bagatelle": "Le parc de Bagatelle"
+            }
+          },
+          "breteuil": {
+            "prompt": "Quel château de la vallée de Chevreuse met en scène, dans ses dépendances, des personnages des contes de Charles Perrault ?",
+            "hint": "Il appartient à la même famille depuis le XVIIe siècle.",
+            "anecdote": "Des personnages de cire y représentent la Belle au bois dormant, le Chat botté ou Barbe-Bleue.",
+            "answers": {
+              "le-chateau-de-breteuil": "Le château de Breteuil",
+              "le-chateau-de-dampierre": "Le château de Dampierre",
+              "le-chateau-de-rambouillet": "Le château de Rambouillet",
+              "le-chateau-d-usse": "Le château d'Ussé"
+            }
+          },
+          "courances": {
+            "prompt": "Quel château de l'Essonne est célèbre pour ses jardins d'eau, avec leurs canaux et leurs bassins alimentés par des sources ?",
+            "hint": "Il se trouve près de Milly-la-Forêt, en bordure de la forêt de Fontainebleau.",
+            "anecdote": "Ses jardins, dessinés au XVIIe siècle, ont été restaurés au début du XXe siècle. La même famille le possède depuis la fin du XIXe siècle.",
+            "answers": {
+              "le-chateau-de-courances": "Le château de Courances",
+              "le-chateau-de-vaux-le-vicomte": "Le château de Vaux-le-Vicomte",
+              "le-chateau-de-chantilly": "Le château de Chantilly",
+              "le-chateau-de-sceaux": "Le château de Sceaux"
+            }
+          },
+          "dourdan": {
+            "prompt": "Quel château fort de l'Essonne, bâti par Philippe Auguste vers 1220, a gardé ses fossés et son donjon ?",
+            "hint": "Il se trouve dans le sud-ouest du département, au cœur d'une petite ville du Hurepoix.",
+            "anecdote": "Son plan carré, renforcé de tours rondes, est typique des forteresses de Philippe Auguste.",
+            "answers": {
+              "le-chateau-de-dourdan": "Le château de Dourdan",
+              "le-chateau-de-vincennes": "Le château de Vincennes",
+              "le-chateau-de-blandy-les-tours": "Le château de Blandy-les-Tours",
+              "le-chateau-de-montlhery": "Le château de Montlhéry"
+            }
+          },
+          "blandy": {
+            "prompt": "Quel château fort de Seine-et-Marne, au milieu d'un village de la Brie, a gardé son enceinte et son donjon du XIVe siècle ?",
+            "hint": "Il se trouve non loin du château de Vaux-le-Vicomte.",
+            "anecdote": "Délaissé au XVIIIe siècle, il a servi de ferme avant d'être restauré par le département.",
+            "answers": {
+              "le-chateau-de-blandy-les-tours": "Le château de Blandy-les-Tours",
+              "le-chateau-de-dourdan": "Le château de Dourdan",
+              "le-chateau-de-vincennes": "Le château de Vincennes",
+              "le-chateau-de-pierrefonds": "Le château de Pierrefonds"
+            }
+          },
+          "la-roche-guyon": {
+            "prompt": "Quel château du Val-d'Oise, adossé à une falaise de craie au bord de la Seine, est dominé par un donjon médiéval ?",
+            "hint": "Il se trouve dans le Vexin, tout près de la Normandie.",
+            "anecdote": "En 1944, le maréchal Rommel y a installé son quartier général. Des souterrains creusés dans la craie relient le château au donjon.",
+            "answers": {
+              "le-chateau-de-la-roche-guyon": "Le château de La Roche-Guyon",
+              "le-chateau-gaillard": "Le Château-Gaillard",
+              "le-chateau-de-dourdan": "Le château de Dourdan",
+              "le-chateau-de-gisors": "Le château de Gisors"
+            }
+          },
+          "tour-cesar": {
+            "prompt": "Quel donjon du XIIe siècle, de plan carré flanqué de tourelles, domine une cité médiévale de Seine-et-Marne ?",
+            "hint": "Son toit pointu a été posé au XVIe siècle.",
+            "anecdote": "Il servait aussi de prison. Il domine la ville haute de Provins, où il veille sur l'église Saint-Quiriace.",
+            "answers": {
+              "la-tour-cesar": "La tour César",
+              "la-tour-de-guinette": "La tour de Guinette",
+              "la-tour-jean-sans-peur": "La tour Jean-sans-Peur",
+              "la-tour-de-montlhery": "La tour de Montlhéry"
+            }
+          },
+          "remparts-provins": {
+            "prompt": "Quelle ville médiévale de Seine-et-Marne a gardé plus d'un kilomètre de remparts, avec la porte de Jouy et la porte Saint-Jean ?",
+            "hint": "Elle accueillait au Moyen Âge de grandes foires de Champagne.",
+            "anecdote": "Elle est inscrite au patrimoine mondial de l'UNESCO depuis 2001. Ses remparts servent de décor, chaque été, à des spectacles de chevalerie.",
+            "answers": {
+              "moret-sur-loing": "Moret-sur-Loing"
+            }
+          },
+          "moret": {
+            "prompt": "Quelle petite ville, avec ses portes fortifiées et son vieux pont sur une rivière, a souvent été peinte par Alfred Sisley ?",
+            "hint": "Elle se trouve au sud-est de la forêt de Fontainebleau.",
+            "anecdote": "Sisley y a vécu ses dernières années et y est mort en 1899. Depuis 2015, elle fait partie de la commune de Moret-Loing-et-Orvanne.",
+            "answers": {
+              "moret-sur-loing": "Moret-sur-Loing"
+            }
+          },
+          "basilique-saint-denis": {
+            "prompt": "Quelle église, considérée comme le premier grand édifice gothique, a été reconstruite au XIIe siècle par l'abbé Suger ?",
+            "hint": "Elle se trouve juste au nord de Paris, non loin du Stade de France.",
+            "anecdote": "Son chœur, consacré en 1144, est baigné de lumière grâce à de grands vitraux. Cette nouvelle façon de bâtir a été imitée dans toute l'Europe.",
+            "answers": {
+              "la-basilique-de-saint-denis": "La basilique de Saint-Denis",
+              "la-cathedrale-de-chartres": "La cathédrale de Chartres",
+              "la-cathedrale-notre-dame-de-paris": "La cathédrale Notre-Dame de Paris",
+              "la-sainte-chapelle": "La Sainte-Chapelle"
+            }
+          },
+          "sainte-chapelle": {
+            "prompt": "Quelle chapelle aux immenses vitraux, sur l'île de la Cité, a été bâtie par Saint Louis pour abriter la couronne d'épines ?",
+            "hint": "Elle a été consacrée en 1248.",
+            "anecdote": "Ses quinze verrières et sa rose racontent plus de mille scènes de la Bible, sur plus de 600 mètres carrés de vitraux.",
+            "answers": {
+              "la-sainte-chapelle": "La Sainte-Chapelle",
+              "la-chapelle-royale-de-versailles": "La chapelle royale de Versailles",
+              "la-basilique-de-saint-denis": "La basilique de Saint-Denis",
+              "la-chapelle-de-la-sorbonne": "La chapelle de la Sorbonne"
+            }
+          },
+          "saint-germain-des-pres": {
+            "prompt": "Quelle église de la rive gauche, l'une des plus anciennes de Paris, a gardé un clocher roman bâti vers l'an 1000 ?",
+            "hint": "Elle a donné son nom à un quartier célèbre pour ses cafés littéraires.",
+            "anecdote": "Elle appartenait à une puissante abbaye fondée au VIe siècle par le roi Childebert Ier, qui y a été enterré.",
+            "answers": {
+              "l-eglise-saint-germain-des-pres": "L'église Saint-Germain-des-Prés",
+              "l-eglise-saint-sulpice": "L'église Saint-Sulpice",
+              "l-eglise-saint-eustache": "L'église Saint-Eustache",
+              "l-eglise-de-la-madeleine": "L'église de la Madeleine"
+            }
+          },
+          "cathedrale-meaux": {
+            "prompt": "Quelle cathédrale gothique de Seine-et-Marne, dédiée à saint Étienne, se dresse au bord de la Marne ?",
+            "hint": "Sa construction s'est étalée du XIIe au XVIe siècle.",
+            "anecdote": "Le grand prédicateur Bossuet, évêque de la ville de 1681 à 1704, est enterré dans son chœur.",
+            "answers": {
+              "la-cathedrale-de-meaux": "La cathédrale de Meaux",
+              "la-cathedrale-de-pontoise": "La cathédrale de Pontoise",
+              "la-cathedrale-de-senlis": "La cathédrale de Senlis",
+              "la-cathedrale-de-beauvais": "La cathédrale de Beauvais"
+            }
+          },
+          "royaumont": {
+            "prompt": "Quelle abbaye cistercienne du Val-d'Oise a été fondée en 1228 par Saint Louis et sa mère, Blanche de Castille ?",
+            "hint": "Elle se trouve près d'Asnières-sur-Oise.",
+            "anecdote": "Son église a été démolie après la Révolution. Les bâtiments conservés accueillent aujourd'hui des concerts et des artistes en résidence.",
+            "answers": {
+              "l-abbaye-de-royaumont": "L'abbaye de Royaumont",
+              "l-abbaye-de-port-royal-des-champs": "L'abbaye de Port-Royal des Champs",
+              "l-abbaye-de-maubuisson": "L'abbaye de Maubuisson",
+              "l-abbaye-de-fontenay": "L'abbaye de Fontenay"
+            }
+          },
+          "port-royal": {
+            "prompt": "Quelle abbaye de la vallée de Chevreuse, foyer du jansénisme au XVIIe siècle, a été rasée sur ordre de Louis XIV ?",
+            "hint": "Blaise Pascal et Jean Racine en ont été proches.",
+            "anecdote": "Il en reste des ruines et un musée, installé dans les anciennes Granges, où Racine a été élève des Petites Écoles.",
+            "answers": {
+              "l-abbaye-de-port-royal-des-champs": "L'abbaye de Port-Royal des Champs",
+              "l-abbaye-de-royaumont": "L'abbaye de Royaumont",
+              "l-abbaye-de-maubuisson": "L'abbaye de Maubuisson",
+              "l-abbaye-des-vaux-de-cernay": "L'abbaye des Vaux-de-Cernay"
+            }
+          },
+          "eglise-auvers": {
+            "prompt": "Quelle église du Val-d'Oise a été peinte par Vincent van Gogh en 1890, quelques semaines avant sa mort ?",
+            "hint": "Le peintre est enterré dans le cimetière du village, à côté de son frère Théo.",
+            "anecdote": "Le tableau montre l'église sous un ciel d'un bleu profond, presque nocturne.",
+            "answers": {
+              "l-eglise-d-auvers-sur-oise": "L'église d'Auvers-sur-Oise",
+              "l-eglise-de-moret-sur-loing": "L'église de Moret-sur-Loing",
+              "l-eglise-de-giverny": "L'église de Giverny",
+              "la-cathedrale-de-pontoise": "La cathédrale de Pontoise"
+            }
+          },
+          "auberge-ganne": {
+            "prompt": "Dans quelle auberge de Barbizon logeaient les peintres de paysage du XIXe siècle, qui décoraient ses murs et ses meubles ?",
+            "hint": "Elle porte le nom de l'aubergiste qui la tenait, et accueillait les artistes pour un prix modeste.",
+            "anecdote": "Elle est devenue le musée départemental des Peintres de Barbizon. Les peintres y payaient parfois leur pension avec des tableaux.",
+            "answers": {
+              "l-auberge-ganne": "L'auberge Ganne",
+              "la-maison-fournaise": "La maison Fournaise",
+              "l-auberge-ravoux": "L'auberge Ravoux",
+              "le-lapin-agile": "Le Lapin Agile"
+            }
+          },
+          "halle-milly": {
+            "prompt": "Quelle ville de l'Essonne possède une grande halle en bois, bâtie en 1479 ?",
+            "hint": "Jean Cocteau y a vécu et repose dans une petite chapelle qu'il a décorée.",
+            "anecdote": "Sa charpente de chêne et de châtaignier abrite un marché depuis plus de cinq siècles.",
+            "answers": {
+              "mereville": "Méréville"
+            }
+          },
+          "enghien": {
+            "prompt": "Quelle ville du Val-d'Oise, au bord d'un lac, est la seule station thermale d'Île-de-France ?",
+            "hint": "Son casino est le seul de la région.",
+            "anecdote": "Ses eaux sulfurées ont été découvertes au XVIIIe siècle. Les Parisiens venaient s'y soigner et canoter sur le lac."
+          },
+          "conciergerie": {
+            "prompt": "Quel palais médiéval de l'île de la Cité, devenu prison sous la Révolution, a vu passer Marie-Antoinette ?",
+            "hint": "Ses tours rondes se reflètent dans la Seine, le long du quai de l'Horloge.",
+            "anecdote": "Il faisait partie du palais de la Cité, résidence des rois jusqu'au XIVe siècle. Sa salle des Gens d'armes est l'une des plus vastes salles gothiques d'Europe.",
+            "answers": {
+              "la-conciergerie": "La Conciergerie",
+              "la-bastille": "La Bastille",
+              "le-chatelet": "Le Châtelet",
+              "la-tour-du-temple": "La tour du Temple"
+            }
+          },
+          "orsay": {
+            "prompt": "Quel musée parisien, célèbre pour ses tableaux impressionnistes, est installé dans une ancienne gare bâtie pour l'Exposition universelle de 1900 ?",
+            "hint": "Ses deux grandes horloges donnent sur la Seine, face au jardin des Tuileries.",
+            "anecdote": "La gare a cessé d'accueillir les grandes lignes en 1939. Le musée a ouvert ses portes en 1986.",
+            "answers": {
+              "le-musee-d-orsay": "Le musée d'Orsay",
+              "le-musee-de-l-orangerie": "Le musée de l'Orangerie",
+              "le-musee-marmottan": "Le musée Marmottan",
+              "le-petit-palais": "Le Petit Palais"
+            }
+          },
+          "luxembourg": {
+            "prompt": "Quel palais parisien, bâti pour Marie de Médicis au XVIIe siècle, abrite aujourd'hui le Sénat ?",
+            "hint": "Son jardin, avec son grand bassin, est l'un des plus fréquentés de Paris.",
+            "anecdote": "La reine, née à Florence, voulait un palais qui lui rappelle le palais Pitti de son enfance.",
+            "answers": {
+              "le-palais-du-luxembourg": "Le palais du Luxembourg",
+              "le-palais-bourbon": "Le palais Bourbon",
+              "le-palais-de-l-elysee": "Le palais de l'Élysée",
+              "le-palais-royal": "Le Palais-Royal"
+            }
+          },
+          "cluny": {
+            "prompt": "Quel hôtel médiéval du Quartier latin, bâti à côté de thermes romains, abrite le musée national du Moyen Âge ?",
+            "hint": "On y voit la célèbre tenture de La Dame à la licorne.",
+            "anecdote": "Les thermes, du début du IIIe siècle, comptent parmi les vestiges les plus importants de Lutèce.",
+            "answers": {
+              "l-hotel-de-cluny": "L'hôtel de Cluny",
+              "l-hotel-de-sens": "L'hôtel de Sens",
+              "l-hotel-de-sully": "L'hôtel de Sully",
+              "l-hotel-carnavalet": "L'hôtel Carnavalet"
+            }
+          },
+          "tour-saint-jacques": {
+            "prompt": "Quelle tour gothique, seul vestige d'une église détruite après la Révolution, était un point de départ des pèlerins vers l'Espagne ?",
+            "hint": "Elle se dresse près du Châtelet, au milieu d'un petit square.",
+            "anecdote": "Blaise Pascal y aurait mesuré la pression de l'air. Une statue du savant se trouve à sa base.",
+            "answers": {
+              "la-tour-saint-jacques": "La tour Saint-Jacques",
+              "la-tour-jean-sans-peur": "La tour Jean-sans-Peur",
+              "la-tour-clovis": "La tour Clovis",
+              "la-tour-cesar": "La tour César"
+            }
+          },
+          "opera-garnier": {
+            "prompt": "Quel opéra parisien, inauguré en 1875, porte le nom de son architecte ?",
+            "hint": "Cet architecte avait 35 ans et était peu connu quand il a remporté le concours.",
+            "anecdote": "Un réservoir d'eau sous la scène a inspiré le lac souterrain du roman Le Fantôme de l'Opéra.",
+            "answers": {
+              "le-palais-garnier": "Le palais Garnier",
+              "l-opera-bastille": "L'Opéra Bastille",
+              "le-theatre-du-chatelet": "Le théâtre du Châtelet",
+              "l-opera-comique": "L'Opéra-Comique"
+            }
+          },
+          "pont-alexandre": {
+            "prompt": "Quel pont de Paris, orné de statues dorées, a été inauguré pour l'Exposition universelle de 1900 ?",
+            "hint": "Il relie l'esplanade des Invalides aux Champs-Élysées.",
+            "anecdote": "Sa première pierre a été posée en 1896 par le tsar Nicolas II, fils de celui dont il porte le nom. Son arche unique franchit la Seine d'un seul bond.",
+            "answers": {
+              "le-pont-alexandre-iii": "Le pont Alexandre-III",
+              "le-pont-des-arts": "Le pont des Arts",
+              "le-pont-mirabeau": "Le pont Mirabeau",
+              "le-pont-de-bir-hakeim": "Le pont de Bir-Hakeim"
+            }
+          },
+          "grand-palais": {
+            "prompt": "Quel monument parisien, construit pour l'Exposition universelle de 1900, est coiffé d'une immense verrière ?",
+            "hint": "Il se trouve au bas des Champs-Élysées, non loin de la Seine.",
+            "anecdote": "Sa nef, longue d'environ 240 mètres, est couverte de la plus grande verrière d'Europe. Il a rouvert en 2024 après une longue restauration.",
+            "answers": {
+              "le-grand-palais": "Le Grand Palais",
+              "le-petit-palais": "Le Petit Palais",
+              "le-palais-de-tokyo": "Le palais de Tokyo",
+              "le-palais-de-chaillot": "Le palais de Chaillot"
+            }
+          },
+          "dep-larchant": {
+            "prompt": "Touchez le département de Larchant, village dominé par les ruines de l'église Saint-Mathurin.",
+            "hint": "C'est le grand département de l'est de la région, traversé par la Seine et par la Marne.",
+            "anecdote": "Ce lieu de pèlerinage médiéval se trouve au milieu des rochers de la forêt de Fontainebleau."
+          },
+          "dep-montreuil": {
+            "prompt": "Touchez le département de Montreuil, où Georges Méliès a construit l'un des premiers studios de cinéma.",
+            "hint": "C'est un petit département collé au nord-est de Paris.",
+            "anecdote": "Ce studio vitré, bâti en 1897, a vu naître Le Voyage dans la Lune, en 1902."
+          },
+          "dep-isle-adam": {
+            "prompt": "Touchez le département de L'Isle-Adam, dont la plage au bord de l'Oise attire les baigneurs depuis 1910.",
+            "hint": "C'est le département qui borde le nord de la région, au-delà de la Seine.",
+            "anecdote": "Cette plage de sable fin, aménagée sur une rive de la rivière, est l'une des plus grandes plages fluviales de France."
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Porcelaine et tapisseries royales, bouquinistes et passages couverts, guinguettes et fêtes foraines, peintres, chanteurs et compositeurs : les gestes et les grandes figures de l'Île-de-France.",
+          "sevres": {
+            "prompt": "Quelle manufacture royale, installée en 1756 près du parc de Saint-Cloud, est célèbre pour sa porcelaine et son bleu profond ?",
+            "hint": "Elle a commencé ses travaux dans le château de Vincennes, à l'est de Paris.",
+            "anecdote": "Elle fabrique toujours ses pièces à la main, du façonnage à la peinture. Le roi Louis XV en était le principal client.",
+            "answers": {
+              "la-manufacture-de-sevres": "La manufacture de Sèvres",
+              "la-manufacture-des-gobelins": "La manufacture des Gobelins",
+              "la-faiencerie-de-gien": "La faïencerie de Gien",
+              "la-manufacture-de-chantilly": "La manufacture de Chantilly"
+            }
+          },
+          "gobelins": {
+            "prompt": "Quelle manufacture parisienne, qui porte le nom d'une famille de teinturiers, tisse des tapisseries depuis le XVIIe siècle ?",
+            "hint": "Colbert l'a organisée en 1662 pour meubler les demeures du roi.",
+            "anecdote": "Les lissiers y travaillent toujours à la main, d'après des modèles de peintres. Une seule tapisserie peut demander plusieurs années de travail.",
+            "answers": {
+              "la-manufacture-des-gobelins": "La manufacture des Gobelins",
+              "la-manufacture-de-beauvais": "La manufacture de Beauvais",
+              "la-manufacture-d-aubusson": "La manufacture d'Aubusson",
+              "la-manufacture-de-la-savonnerie": "La manufacture de la Savonnerie"
+            }
+          },
+          "monnaie": {
+            "prompt": "Quelle institution, installée quai de Conti dans un palais du XVIIIe siècle, frappe des pièces depuis l'an 864 ?",
+            "hint": "C'est la plus ancienne institution française encore en activité.",
+            "anecdote": "Les euros français sont frappés à Pessac, en Gironde. L'atelier du quai de Conti fabrique des médailles, des décorations et des pièces de collection.",
+            "answers": {
+              "la-monnaie-de-paris": "La Monnaie de Paris",
+              "la-banque-de-france": "La Banque de France",
+              "l-imprimerie-nationale": "L'Imprimerie nationale",
+              "la-cour-des-comptes": "La Cour des comptes"
+            }
+          },
+          "zinc": {
+            "prompt": "Quel métal recouvre la plupart des toits de Paris ?",
+            "hint": "Ce métal gris prend une teinte bleutée en vieillissant.",
+            "anecdote": "Les savoir-faire des couvreurs zingueurs parisiens sont inscrits depuis 2017 à l'inventaire du patrimoine culturel immatériel en France.",
+            "answers": {
+              "le-zinc": "Le zinc",
+              "le-cuivre": "Le cuivre",
+              "le-plomb": "Le plomb",
+              "l-etain": "L'étain"
+            }
+          },
+          "merinos": {
+            "prompt": "D'où venaient les moutons mérinos achetés par Louis XVI en 1786 pour la Bergerie nationale de Rambouillet ?",
+            "hint": "Leur laine très fine était alors un trésor jalousement gardé par ce royaume voisin.",
+            "anecdote": "Le troupeau de Rambouillet, l'un des plus anciens troupeaux de mérinos du monde, descend directement des bêtes arrivées à cette époque.",
+            "answers": {
+              "d-espagne": "D'Espagne",
+              "d-angleterre": "D'Angleterre",
+              "d-australie": "D'Australie",
+              "d-ecosse": "D'Écosse"
+            }
+          },
+          "laiterie-reine": {
+            "prompt": "Quel petit temple de grès, bâti en 1785 dans le parc de Rambouillet pour Marie-Antoinette, servait à déguster des laitages ?",
+            "hint": "Louis XVI l'a fait construire pour son épouse, qui trouvait le domaine bien triste.",
+            "anecdote": "On y servait les laitages dans un service de porcelaine de Sèvres créé tout exprès. Sa grotte artificielle rafraîchissait la salle.",
+            "answers": {
+              "la-laiterie-de-la-reine": "La laiterie de la Reine",
+              "le-hameau-de-la-reine": "Le Hameau de la Reine",
+              "la-chaumiere-aux-coquillages": "La chaumière aux coquillages",
+              "le-pavillon-de-musique": "Le pavillon de musique"
+            }
+          },
+          "bouquinistes": {
+            "prompt": "Comment appelle-t-on ces libraires qui vendent des livres anciens dans des boîtes vertes, le long des quais de la Seine ?",
+            "hint": "Leurs boîtes, fixées aux parapets, s'étendent sur environ trois kilomètres.",
+            "anecdote": "Ils sont environ 230 et tiennent près de 900 boîtes. Leur métier existe depuis le XVIe siècle.",
+            "answers": {
+              "les-bouquinistes": "Les bouquinistes",
+              "les-colporteurs": "Les colporteurs",
+              "les-camelots": "Les camelots",
+              "les-brocanteurs": "Les brocanteurs"
+            }
+          },
+          "wallace": {
+            "prompt": "Comment appelle-t-on ces fontaines vertes en fonte, offertes à Paris par un philanthrope anglais à partir de 1872 ?",
+            "hint": "Quatre cariatides soutiennent leur petit dôme.",
+            "anecdote": "Ce philanthrope voulait offrir de l'eau potable gratuite aux Parisiens après le siège de 1870. Plus d'une centaine fonctionnent encore.",
+            "answers": {
+              "les-fontaines-wallace": "Les fontaines Wallace",
+              "les-fontaines-medicis": "Les fontaines Médicis",
+              "les-colonnes-morris": "Les colonnes Morris",
+              "les-fontaines-saint-michel": "Les fontaines Saint-Michel"
+            }
+          },
+          "guimard": {
+            "prompt": "Quel architecte de l'Art nouveau a dessiné ces entrées de métro en fonte verte, à partir de 1900 ?",
+            "hint": "Ses entourages évoquent des tiges de plantes, terminées par des lampes en forme de bourgeons.",
+            "anecdote": "Il en reste un peu plus de quatre-vingts. L'une d'elles a été offerte à la ville de Montréal.",
+            "answers": {
+              "hector-guimard": "Hector Guimard",
+              "gustave-eiffel": "Gustave Eiffel",
+              "victor-baltard": "Victor Baltard",
+              "charles-garnier": "Charles Garnier"
+            }
+          },
+          "haussmann": {
+            "prompt": "Quel préfet de la Seine a transformé Paris sous Napoléon III, en perçant de grands boulevards bordés d'immeubles en pierre ?",
+            "hint": "Il a dirigé ces travaux de 1853 à 1870.",
+            "anecdote": "Les immeubles bâtis à son époque ont souvent un balcon filant au deuxième et au cinquième étage.",
+            "answers": {
+              "le-baron-haussmann": "Le baron Haussmann",
+              "jean-charles-alphand": "Jean-Charles Alphand",
+              "eugene-belgrand": "Eugène Belgrand",
+              "victor-baltard": "Victor Baltard"
+            }
+          },
+          "passages": {
+            "prompt": "Comment appelle-t-on ces galeries marchandes à verrière, construites à Paris dans la première moitié du XIXe siècle ?",
+            "hint": "Elles permettaient de flâner devant les boutiques à l'abri de la pluie et de la boue.",
+            "anecdote": "On en comptait plus de cent cinquante. Il en reste une vingtaine, comme la galerie Vivienne ou le passage des Panoramas.",
+            "answers": {
+              "les-passages-couverts": "Les passages couverts",
+              "les-halles": "Les halles",
+              "les-arcades": "Les arcades",
+              "les-traboules": "Les traboules"
+            }
+          },
+          "canal-saint-martin": {
+            "prompt": "Quel canal parisien, avec ses écluses et ses passerelles en fer, relie le bassin de la Villette à la Seine ?",
+            "hint": "Une partie de son cours passe sous le boulevard Richard-Lenoir.",
+            "anecdote": "Napoléon Ier l'a fait creuser pour amener de l'eau à Paris. Il a été inauguré en 1825.",
+            "answers": {
+              "le-canal-saint-martin": "Le canal Saint-Martin",
+              "le-canal-de-l-ourcq": "Le canal de l'Ourcq",
+              "le-canal-saint-denis": "Le canal Saint-Denis",
+              "le-canal-du-loing": "Le canal du Loing"
+            }
+          },
+          "baltard": {
+            "prompt": "Quel pavillon métallique, seul rescapé des anciennes Halles de Paris, a été remonté au bord de la Marne ?",
+            "hint": "Il accueille aujourd'hui des concerts, des salons et des émissions de télévision.",
+            "anecdote": "Les Halles ont été démolies au début des années 1970. Ce pavillon a été inscrit aux monuments historiques en 1982.",
+            "answers": {
+              "le-pavillon-baltard": "Le pavillon Baltard",
+              "le-carreau-du-temple": "Le Carreau du Temple",
+              "la-halle-freyssinet": "La halle Freyssinet",
+              "le-marche-saint-quentin": "Le marché Saint-Quentin"
+            }
+          },
+          "accordeon": {
+            "prompt": "Quel instrument accompagnait la valse musette dans les bals populaires parisiens ?",
+            "hint": "Il a peu à peu remplacé la cabrette, la petite cornemuse des Auvergnats de Paris.",
+            "anecdote": "Les bals musette, nés au XIXe siècle autour de la Bastille, réunissaient musiciens auvergnats et musiciens venus d'Italie.",
+            "answers": {
+              "l-accordeon": "L'accordéon",
+              "la-vielle-a-roue": "La vielle à roue",
+              "la-cornemuse": "La cornemuse",
+              "le-violon": "Le violon"
+            }
+          },
+          "guinguettes": {
+            "prompt": "Comment appelle-t-on ces établissements populaires du bord de la Marne, où l'on venait danser et manger de la friture le dimanche ?",
+            "hint": "On y dansait au son de l'accordéon, sous les tonnelles.",
+            "anecdote": "Elles se sont multipliées au XIXe siècle, quand le chemin de fer a conduit les Parisiens au bord de l'eau. Certaines ouvrent encore aux beaux jours.",
+            "answers": {
+              "les-guinguettes": "Les guinguettes",
+              "les-bistrots": "Les bistrots",
+              "les-cabarets": "Les cabarets",
+              "les-brasseries": "Les brasseries"
+            }
+          },
+          "puces": {
+            "prompt": "Quel grand marché, aux portes nord de Paris, est souvent présenté comme le plus grand marché d'antiquités du monde ?",
+            "hint": "Il réunit une dizaine de marchés couverts et plus d'un millier de marchands.",
+            "anecdote": "Les chiffonniers chassés de Paris s'y sont installés à la fin du XIXe siècle, au-delà des fortifications.",
+            "answers": {
+              "le-marche-aux-puces-de-saint-ouen": "Le marché aux puces de Saint-Ouen",
+              "le-marche-de-rungis": "Le marché de Rungis",
+              "le-marche-aux-puces-de-vanves": "Le marché aux puces de Vanves",
+              "le-marche-d-aligre": "Le marché d'Aligre"
+            }
+          },
+          "foire-trone": {
+            "prompt": "Quelle grande fête foraine, installée chaque printemps sur la pelouse de Reuilly, remonte au Moyen Âge ?",
+            "hint": "Elle se tient au bord du bois de Vincennes.",
+            "anecdote": "Elle serait née vers 957, quand des moines vendaient du pain d'épices près de leur abbaye. On l'a longtemps appelée la foire au pain d'épice.",
+            "answers": {
+              "la-foire-du-trone": "La foire du Trône",
+              "la-fete-des-loges": "La fête des Loges",
+              "la-foire-de-paris": "La foire de Paris",
+              "la-fete-a-neu-neu": "La fête à Neu-Neu"
+            }
+          },
+          "fete-loges": {
+            "prompt": "Quelle fête foraine, l'une des plus anciennes de la région, s'installe chaque été en lisière de la forêt de Saint-Germain-en-Laye ?",
+            "hint": "Elle est née d'un pèlerinage vers une chapelle de la forêt.",
+            "anecdote": "Elle remonte au XVIIe siècle et dure plusieurs semaines, de la fin juin à la mi-août.",
+            "answers": {
+              "la-fete-des-loges": "La fête des Loges",
+              "la-foire-du-trone": "La foire du Trône",
+              "la-fete-a-neu-neu": "La fête à Neu-Neu",
+              "la-foire-de-paris": "La foire de Paris"
+            }
+          },
+          "bal-pompiers": {
+            "prompt": "Quel bal populaire réunit les Parisiens dans les casernes, le soir du 13 ou du 14 juillet ?",
+            "hint": "Ce sont des militaires qui ouvrent ce soir-là les portes de leurs casernes.",
+            "anecdote": "Cette tradition est née dans les années 1930. L'entrée est souvent libre, avec une participation au profit des œuvres sociales.",
+            "answers": {
+              "le-bal-des-pompiers": "Le bal des pompiers",
+              "le-bal-musette": "Le bal musette",
+              "le-bal-des-debutantes": "Le bal des débutantes",
+              "le-bal-de-l-opera": "Le bal de l'Opéra"
+            }
+          },
+          "tour-de-france": {
+            "prompt": "Sur quelle avenue parisienne le Tour de France arrive-t-il traditionnellement depuis 1975 ?",
+            "hint": "Les coureurs y font plusieurs tours, entre la Concorde et l'Arc de triomphe.",
+            "anecdote": "En 2024, à cause des Jeux olympiques, l'arrivée a eu lieu exceptionnellement à Nice.",
+            "answers": {
+              "les-champs-elysees": "Les Champs-Élysées",
+              "l-avenue-de-la-grande-armee": "L'avenue de la Grande-Armée",
+              "le-boulevard-saint-germain": "Le boulevard Saint-Germain",
+              "l-avenue-foch": "L'avenue Foch"
+            }
+          },
+          "roland-garros": {
+            "prompt": "Quel tournoi de tennis se joue chaque printemps sur la terre battue de la porte d'Auteuil ?",
+            "hint": "Il porte le nom d'un aviateur, le premier à traverser la Méditerranée en avion.",
+            "anecdote": "Le stade a été construit en 1928. Sa terre battue est faite de brique pilée étalée sur une couche de calcaire.",
+            "answers": {
+              "roland-garros": "Roland-Garros",
+              "wimbledon": "Wimbledon",
+              "l-us-open": "L'US Open",
+              "l-open-d-australie": "L'Open d'Australie"
+            }
+          },
+          "paris-plages": {
+            "prompt": "Quelle opération transforme chaque été, depuis 2002, une partie des quais de la Seine en bord de mer ?",
+            "hint": "On y installe du sable, des transats et des parasols.",
+            "anecdote": "Depuis l'été 2025, des sites de baignade ont même été ouverts dans la Seine.",
+            "answers": {
+              "paris-plages": "Paris Plages",
+              "nuit-blanche": "Nuit blanche",
+              "rock-en-seine": "Rock en Seine",
+              "la-fete-de-la-musique": "La fête de la Musique"
+            }
+          },
+          "debussy": {
+            "prompt": "Quel compositeur, auteur de Clair de lune et de La Mer, est né en 1862 dans cette maison de Saint-Germain-en-Laye ?",
+            "hint": "Il est l'une des grandes figures de la musique impressionniste.",
+            "anecdote": "Sa maison natale, au cœur de la ville, est devenue un lieu consacré à sa vie et à son œuvre.",
+            "answers": {
+              "claude-debussy": "Claude Debussy",
+              "maurice-ravel": "Maurice Ravel",
+              "erik-satie": "Erik Satie",
+              "gabriel-faure": "Gabriel Fauré"
+            }
+          },
+          "monte-cristo": {
+            "prompt": "Quel écrivain s'est fait bâtir ce château de Monte-Cristo, au Port-Marly, grâce au succès de ses romans ?",
+            "hint": "Il est l'auteur des Trois Mousquetaires.",
+            "anecdote": "Il y a donné des fêtes si coûteuses qu'il a dû le vendre dès 1848, un an après l'avoir inauguré.",
+            "answers": {
+              "alexandre-dumas": "Alexandre Dumas",
+              "victor-hugo": "Victor Hugo",
+              "honore-de-balzac": "Honoré de Balzac",
+              "eugene-sue": "Eugène Sue"
+            }
+          },
+          "moulin-galette": {
+            "prompt": "Quel moulin de Montmartre, devenu une guinguette, a été peint par Renoir lors d'un bal, en 1876 ?",
+            "hint": "Il est l'un des deux derniers moulins de la butte.",
+            "anecdote": "On y servait une galette de pain bis avec un verre de vin. Le tableau de Renoir est conservé au musée d'Orsay.",
+            "answers": {
+              "le-moulin-de-la-galette": "Le Moulin de la Galette",
+              "le-moulin-rouge": "Le Moulin-Rouge",
+              "le-moulin-de-sannois": "Le moulin de Sannois",
+              "le-moulin-de-charenton": "Le moulin de Charenton"
+            }
+          },
+          "fournaise": {
+            "prompt": "Dans quel restaurant de l'île de Chatou Renoir a-t-il peint Le Déjeuner des canotiers ?",
+            "hint": "Il porte le nom de la famille qui le tenait et qui louait aussi des barques.",
+            "anecdote": "Le tableau a été peint en 1880 et 1881. Le restaurant, restauré, accueille de nouveau des visiteurs.",
+            "answers": {
+              "la-maison-fournaise": "La maison Fournaise",
+              "la-grenouillere": "La Grenouillère",
+              "le-moulin-de-la-galette": "Le Moulin de la Galette",
+              "le-chat-noir": "Le Chat noir"
+            }
+          },
+          "daubigny": {
+            "prompt": "Quel peintre de paysage naviguait sur l'Oise à bord d'un bateau-atelier qu'il avait baptisé le Botin ?",
+            "hint": "Il s'est installé à Auvers-sur-Oise, où sa maison-atelier se visite.",
+            "anecdote": "Il a été l'un des premiers à peindre en plein air, sur l'eau, ce qui a inspiré les impressionnistes.",
+            "answers": {
+              "charles-francois-daubigny": "Charles-François Daubigny",
+              "camille-pissarro": "Camille Pissarro",
+              "alfred-sisley": "Alfred Sisley",
+              "camille-corot": "Camille Corot"
+            }
+          },
+          "lapin-agile": {
+            "prompt": "Quel cabaret de Montmartre, fréquenté par Picasso et Apollinaire, doit son nom à une enseigne peinte par André Gill ?",
+            "hint": "Ce nom est un jeu de mots sur le nom du peintre de l'enseigne.",
+            "anecdote": "L'enseigne montrait un lapin qui sautait hors d'une casserole. On parlait alors du lapin à Gill.",
+            "answers": {
+              "le-lapin-agile": "Le Lapin Agile",
+              "le-chat-noir": "Le Chat noir",
+              "le-moulin-rouge": "Le Moulin-Rouge",
+              "le-moulin-de-la-galette": "Le Moulin de la Galette"
+            }
+          },
+          "bateau-lavoir": {
+            "prompt": "Dans quel atelier de Montmartre Pablo Picasso a-t-il peint Les Demoiselles d'Avignon, en 1907 ?",
+            "hint": "Ce bâtiment de bois, accroché à la pente de la butte, a aussi abrité Max Jacob et Juan Gris.",
+            "anecdote": "Max Jacob lui aurait trouvé son nom, car il rappelait les bateaux des lavandières. Incendié en 1970, il a été reconstruit. Il abrite toujours des ateliers d'artistes.",
+            "answers": {
+              "le-bateau-lavoir": "Le Bateau-Lavoir",
+              "la-ruche": "La Ruche",
+              "la-cite-fleurie": "La Cité fleurie",
+              "la-villa-des-arts": "La villa des Arts"
+            }
+          },
+          "worth": {
+            "prompt": "Quel couturier anglais, installé rue de la Paix en 1858, est considéré comme le père de la haute couture parisienne ?",
+            "hint": "Il a été le premier à présenter ses modèles sur des mannequins vivants.",
+            "anecdote": "Il habillait l'impératrice Eugénie. Il signait ses robes d'une étiquette cousue, comme un artiste signe un tableau.",
+            "answers": {
+              "charles-frederick-worth": "Charles Frederick Worth",
+              "paul-poiret": "Paul Poiret",
+              "jacques-doucet": "Jacques Doucet",
+              "jean-patou": "Jean Patou"
+            }
+          },
+          "piaf": {
+            "prompt": "Quelle chanteuse, née à Paris en 1915 et élevée en partie à Belleville, a été surnommée la Môme ?",
+            "hint": "Elle a chanté La Vie en rose et L'Hymne à l'amour.",
+            "anecdote": "Elle repose au cimetière du Père-Lachaise, où sa tombe est l'une des plus visitées.",
+            "answers": {
+              "edith-piaf": "Édith Piaf",
+              "frehel": "Fréhel",
+              "damia": "Damia",
+              "mistinguett": "Mistinguett"
+            }
+          },
+          "bruant": {
+            "prompt": "Quel chansonnier à la cape noire et à l'écharpe rouge, immortalisé par une affiche de Toulouse-Lautrec, chantait les rues de Paris ?",
+            "hint": "Il a débuté au cabaret du Chat noir avant d'ouvrir le sien, le Mirliton.",
+            "anecdote": "Il chantait en argot les quartiers populaires, de Belleville à Montmartre.",
+            "answers": {
+              "aristide-bruant": "Aristide Bruant",
+              "maurice-chevalier": "Maurice Chevalier",
+              "yvette-guilbert": "Yvette Guilbert",
+              "georges-brassens": "Georges Brassens"
+            }
+          },
+          "gainsbourg": {
+            "prompt": "Quel chanteur a raconté la vie d'un employé du métro dans Le Poinçonneur des Lilas, en 1958 ?",
+            "hint": "Il est né à Paris en 1928 et a longtemps vécu rue de Verneuil.",
+            "anecdote": "Le poinçonneur passait ses journées à trouer les tickets des voyageurs, à la station Porte des Lilas.",
+            "answers": {
+              "serge-gainsbourg": "Serge Gainsbourg",
+              "boris-vian": "Boris Vian",
+              "jacques-brel": "Jacques Brel",
+              "yves-montand": "Yves Montand"
+            }
+          },
+          "catacombes": {
+            "prompt": "Quel ossuaire souterrain, aménagé dans d'anciennes carrières, rassemble les restes de plusieurs millions de Parisiens ?",
+            "hint": "On y accède place Denfert-Rochereau.",
+            "anecdote": "À la fin du XVIIIe siècle, les cimetières trop pleins de Paris ont été vidés et les ossements transportés sous terre.",
+            "answers": {
+              "les-catacombes-de-paris": "Les catacombes de Paris",
+              "la-crypte-archeologique-de-notre-dame": "La crypte archéologique de Notre-Dame",
+              "les-egouts-de-paris": "Les égouts de Paris",
+              "le-caveau-du-pantheon": "Le caveau du Panthéon"
+            }
+          },
+          "lutetien": {
+            "prompt": "Comment s'appelle la pierre calcaire blonde, extraite sous Paris, qui a servi à bâtir Notre-Dame et les immeubles haussmanniens ?",
+            "hint": "Elle s'est formée au fond d'une mer chaude, il y a environ 45 millions d'années.",
+            "anecdote": "Son nom vient de Lutetia, le nom antique de Paris. Les carrières de la rive gauche en ont fourni pendant des siècles.",
+            "answers": {
+              "le-calcaire-lutetien": "Le calcaire lutétien",
+              "le-tuffeau": "Le tuffeau",
+              "la-pierre-de-caen": "La pierre de Caen",
+              "le-gres-de-fontainebleau": "Le grès de Fontainebleau"
+            }
+          },
+          "platre": {
+            "prompt": "Quel matériau, tiré du gypse des buttes de l'est parisien, était si réputé qu'il porte le nom de la capitale ?",
+            "hint": "Après le grand incendie de Londres, en 1666, le roi a ordonné d'en enduire les maisons de bois de Paris.",
+            "anecdote": "Montmartre, Belleville et Romainville ont longtemps été percées de carrières de gypse. On le cuisait dans des fours pour obtenir une poudre blanche.",
+            "answers": {
+              "le-platre": "Le plâtre",
+              "la-chaux": "La chaux",
+              "le-ciment": "Le ciment",
+              "le-mortier": "Le mortier"
+            }
+          },
+          "sorbonne": {
+            "prompt": "Quel collège, fondé en 1257 par le chapelain de Saint Louis, a donné son nom à l'université de Paris ?",
+            "hint": "Il se trouve au cœur du Quartier latin.",
+            "anecdote": "Son fondateur, Robert de Sorbon, voulait loger des étudiants pauvres en théologie. Sa chapelle a été bâtie pour Richelieu.",
+            "answers": {
+              "la-sorbonne": "La Sorbonne",
+              "le-college-de-france": "Le Collège de France",
+              "l-ecole-normale-superieure": "L'École normale supérieure",
+              "le-college-de-navarre": "Le collège de Navarre"
+            }
+          },
+          "dep-montlhery": {
+            "prompt": "Touchez le département de Montlhéry, dont l'autodrome a accueilli plusieurs Grands Prix automobiles dans l'entre-deux-guerres.",
+            "hint": "C'est le département du sud de la région, entre les Yvelines et la Seine-et-Marne.",
+            "anecdote": "Son anneau de vitesse, aux virages très relevés, a été inauguré en 1924."
+          },
+          "dep-nogent": {
+            "prompt": "Touchez le département de Nogent-sur-Marne, ville de guinguettes chantée dans Ah ! le petit vin blanc.",
+            "hint": "C'est un petit département collé au sud-est de Paris.",
+            "anecdote": "Cette chanson de 1943 évoque les promenades et les bals du dimanche au bord de la Marne."
+          },
+          "dep-bourget": {
+            "prompt": "Touchez le département du Bourget, où Charles Lindbergh s'est posé en 1927 après la première traversée de l'Atlantique en solitaire.",
+            "hint": "C'est un petit département collé au nord-est de Paris.",
+            "anecdote": "Son aéroport accueille aujourd'hui le musée de l'Air et de l'Espace et un grand salon aéronautique."
+          }
+        },
+        "grand-voyage": {
+          "name": "Le grand voyage",
+          "description": "Des rochers de Fontainebleau aux étangs de Rambouillet, du Vexin aux bords de Seine, des rois francs à la Libération de Paris : un dernier tour d'Île-de-France, entre paysages et histoire.",
+          "escalade": {
+            "prompt": "Quel sport pratique-t-on sur ces rochers de grès de la forêt de Fontainebleau, sans corde, sur des blocs de quelques mètres ?",
+            "hint": "Les grimpeurs posent un matelas épais au pied du rocher.",
+            "anecdote": "Les circuits y sont balisés par des flèches de couleur, selon leur difficulté. On grimpe sur ces blocs depuis la fin du XIXe siècle.",
+            "answers": {
+              "l-escalade-de-blocs": "L'escalade de blocs",
+              "la-via-ferrata": "La via ferrata",
+              "l-alpinisme": "L'alpinisme",
+              "le-canyonisme": "Le canyonisme"
+            }
+          },
+          "franchard": {
+            "prompt": "Quelles gorges de la forêt de Fontainebleau, parsemées de chaos de grès, abritaient au Moyen Âge un ermitage ?",
+            "hint": "Elles se trouvent dans l'ouest de la forêt.",
+            "anecdote": "L'ermitage, devenu un prieuré, a disparu au XVIIIe siècle. Le site est devenu un but de promenade très couru dès le XIXe siècle.",
+            "answers": {
+              "les-gorges-de-franchard": "Les gorges de Franchard",
+              "les-gorges-d-apremont": "Les gorges d'Apremont",
+              "les-gorges-du-tarn": "Les gorges du Tarn",
+              "les-gorges-de-l-ardeche": "Les gorges de l'Ardèche"
+            }
+          },
+          "sable": {
+            "prompt": "Quel matériau très pur, extrait près de Fontainebleau, sert à fabriquer du verre et du cristal ?",
+            "hint": "Il est presque entièrement fait de grains de quartz, d'une grande blancheur.",
+            "anecdote": "Il s'est déposé il y a environ 30 millions d'années, au bord d'une mer. En se cimentant, il a formé les rochers de grès de la forêt.",
+            "answers": {
+              "le-sable": "Le sable",
+              "le-kaolin": "Le kaolin",
+              "le-gypse": "Le gypse",
+              "l-argile": "L'argile"
+            }
+          },
+          "etangs-hollande": {
+            "prompt": "Quel chapelet d'étangs de la forêt de Rambouillet a été aménagé sous Louis XIV pour alimenter les fontaines de Versailles ?",
+            "hint": "Leur nom vient d'un ancien hameau, et non d'un pays voisin.",
+            "anecdote": "Un réseau de rigoles et d'aqueducs menait leur eau jusqu'au parc du château. On s'y baigne aujourd'hui l'été.",
+            "answers": {
+              "les-etangs-de-hollande": "Les étangs de Hollande",
+              "les-etangs-de-commelles": "Les étangs de Commelles",
+              "les-etangs-de-la-brenne": "Les étangs de la Brenne",
+              "les-etangs-de-la-dombes": "Les étangs de la Dombes"
+            }
+          },
+          "cerf": {
+            "prompt": "Quel grand animal sauvage fait entendre son brame chaque automne dans les forêts de Rambouillet et de Fontainebleau ?",
+            "hint": "Le mâle porte des bois qui tombent et repoussent chaque année.",
+            "anecdote": "La période du brame, en septembre et en octobre, attire de nombreux promeneurs à la tombée de la nuit.",
+            "answers": {
+              "le-cerf": "Le cerf",
+              "le-sanglier": "Le sanglier",
+              "le-chevreuil": "Le chevreuil",
+              "le-daim": "Le daim"
+            }
+          },
+          "vexin": {
+            "prompt": "Quel parc naturel régional, au nord-ouest de la région, protège un plateau agricole parsemé de villages de pierre ?",
+            "hint": "Il s'étend entre l'Oise, l'Epte et la Seine.",
+            "anecdote": "Créé en 1995, il est à cheval sur le Val-d'Oise et les Yvelines.",
+            "answers": {
+              "le-vexin-francais": "Le Vexin français",
+              "le-gatinais-francais": "Le Gâtinais français",
+              "la-haute-vallee-de-chevreuse": "La Haute Vallée de Chevreuse",
+              "le-perche": "Le Perche"
+            }
+          },
+          "chevreuse": {
+            "prompt": "Quel parc naturel régional, le plus ancien d'Île-de-France, protège une vallée boisée au sud-ouest de Paris ?",
+            "hint": "Le château de la Madeleine domine le bourg qui lui donne son nom.",
+            "anecdote": "Créé en 1985, il a été agrandi en 2011. Les Vaux-de-Cernay, avec leurs cascades et leur abbaye, en sont l'un des joyaux.",
+            "answers": {
+              "la-haute-vallee-de-chevreuse": "La Haute Vallée de Chevreuse",
+              "le-vexin-francais": "Le Vexin français",
+              "le-gatinais-francais": "Le Gâtinais français",
+              "la-vallee-de-l-essonne": "La vallée de l'Essonne"
+            }
+          },
+          "crecy": {
+            "prompt": "Quelle petite ville de Seine-et-Marne, traversée par des bras du Grand Morin, est surnommée la Venise briarde ?",
+            "hint": "Ses lavoirs et ses petits ponts ont attiré des peintres comme Corot.",
+            "anecdote": "Ses canaux étaient autrefois les douves d'une forteresse. Une collégiale gothique se dresse à la sortie du bourg.",
+            "answers": {
+              "moret-sur-loing": "Moret-sur-Loing"
+            }
+          },
+          "conflans": {
+            "prompt": "Quelle ville des Yvelines, au confluent de la Seine et de l'Oise, est surnommée la capitale de la batellerie ?",
+            "hint": "Chaque année, un pardon de la batellerie y réunit les mariniers.",
+            "anecdote": "Des centaines de péniches stationnent le long de ses quais. Un musée y raconte la vie des mariniers.",
+            "answers": {
+              "saint-mammes": "Saint-Mammès"
+            }
+          },
+          "ile-jatte": {
+            "prompt": "Quelle île de la Seine, dans les Hauts-de-Seine, a inspiré à Georges Seurat son plus célèbre tableau pointilliste ?",
+            "hint": "Elle s'étire au pied de Neuilly et de Levallois, non loin de La Défense.",
+            "anecdote": "Le tableau, peint entre 1884 et 1886, montre des promeneurs endimanchés au bord de l'eau. Il est conservé à Chicago.",
+            "answers": {
+              "l-ile-de-la-jatte": "L'île de la Jatte",
+              "l-ile-saint-louis": "L'île Saint-Louis",
+              "l-ile-seguin": "L'île Seguin",
+              "l-ile-des-impressionnistes": "L'île des Impressionnistes"
+            }
+          },
+          "buttes-chaumont": {
+            "prompt": "Quel parc parisien, aménagé sous Napoléon III dans d'anciennes carrières, est dominé par un petit temple perché sur une falaise ?",
+            "hint": "Il se trouve dans le nord-est de Paris, près de Belleville.",
+            "anecdote": "Ce temple, dit de la Sibylle, s'inspire d'un temple antique de Tivoli, en Italie. Le parc a été inauguré en 1867.",
+            "answers": {
+              "le-parc-des-buttes-chaumont": "Le parc des Buttes-Chaumont",
+              "le-parc-montsouris": "Le parc Montsouris",
+              "le-parc-monceau": "Le parc Monceau",
+              "le-jardin-des-plantes": "Le jardin des Plantes"
+            }
+          },
+          "jardin-plantes": {
+            "prompt": "Quel jardin parisien, créé en 1635 comme jardin royal des plantes médicinales, abrite la Grande Galerie de l'Évolution ?",
+            "hint": "Le naturaliste Buffon l'a dirigé pendant près de cinquante ans.",
+            "anecdote": "Sa ménagerie, ouverte en 1794, est l'un des plus anciens zoos du monde.",
+            "answers": {
+              "le-jardin-des-plantes": "Le Jardin des plantes",
+              "le-jardin-du-luxembourg": "Le jardin du Luxembourg",
+              "le-jardin-des-tuileries": "Le jardin des Tuileries",
+              "le-parc-floral": "Le Parc floral"
+            }
+          },
+          "desert-retz": {
+            "prompt": "Quel jardin du XVIIIe siècle, dans les Yvelines, est célèbre pour sa maison bâtie en forme de colonne antique brisée ?",
+            "hint": "Il se trouve en bordure de la forêt de Marly, à Chambourcy.",
+            "anecdote": "Son créateur, François de Monville, y recevait la haute société. La colonne abritait plusieurs étages habitables.",
+            "answers": {
+              "le-desert-de-retz": "Le Désert de Retz",
+              "le-parc-de-mereville": "Le parc de Méréville",
+              "le-parc-monceau": "Le parc Monceau",
+              "le-hameau-de-la-reine": "Le Hameau de la Reine"
+            }
+          },
+          "observatoire": {
+            "prompt": "Quel observatoire, fondé sous Louis XIV en 1667, est traversé par le méridien qui a servi à définir le mètre ?",
+            "hint": "Il se trouve au sud du jardin du Luxembourg.",
+            "anecdote": "Les mesures du méridien, de Dunkerque à Barcelone, ont permis de fixer la longueur du mètre en 1799.",
+            "answers": {
+              "l-observatoire-de-paris": "L'observatoire de Paris",
+              "l-observatoire-de-meudon": "L'observatoire de Meudon",
+              "l-observatoire-du-pic-du-midi": "L'observatoire du Pic du Midi",
+              "l-observatoire-de-haute-provence": "L'observatoire de Haute-Provence"
+            }
+          },
+          "aqueduc": {
+            "prompt": "Quel aqueduc, dont les arches enjambent la vallée de la Bièvre, a été bâti au XVIIe siècle pour alimenter les fontaines du palais du Luxembourg ?",
+            "hint": "Il se trouve au sud de Paris, dans le Val-de-Marne.",
+            "anecdote": "Il a été surmonté au XIXe siècle d'un second aqueduc, plus haut, dont les arches dominent aujourd'hui la vallée.",
+            "answers": {
+              "l-aqueduc-medicis": "L'aqueduc Médicis",
+              "l-aqueduc-de-buc": "L'aqueduc de Buc",
+              "l-aqueduc-de-maintenon": "L'aqueduc de Maintenon",
+              "le-pont-du-gard": "Le pont du Gard"
+            }
+          },
+          "enceinte": {
+            "prompt": "Quel roi a fait entourer Paris d'une enceinte de pierre, vers 1190, avant de partir en croisade ?",
+            "hint": "Des restes de ce mur, avec ses tours rondes, sont encore visibles dans le Marais.",
+            "anecdote": "Le Louvre a été bâti à la même époque comme une forteresse, pour défendre l'enceinte à l'ouest.",
+            "answers": {
+              "philippe-auguste": "Philippe Auguste",
+              "saint-louis": "Saint Louis",
+              "charles-v": "Charles V",
+              "louis-vi-le-gros": "Louis VI le Gros"
+            }
+          },
+          "jean-sans-peur": {
+            "prompt": "Quelle tour gothique du quartier des Halles, dernier vestige de l'hôtel des ducs de Bourgogne, a été bâtie vers 1410 ?",
+            "hint": "Son commanditaire l'a fait construire après avoir fait assassiner le duc d'Orléans, en 1407.",
+            "anecdote": "Elle abrite un escalier dont la voûte est sculptée d'un chêne de pierre.",
+            "answers": {
+              "la-tour-jean-sans-peur": "La tour Jean-sans-Peur",
+              "la-tour-saint-jacques": "La tour Saint-Jacques",
+              "la-tour-clovis": "La tour Clovis",
+              "la-tour-de-nesle": "La tour de Nesle"
+            }
+          },
+          "jeu-de-paume": {
+            "prompt": "Dans quelle salle de Versailles les députés du tiers état ont-ils juré, le 20 juin 1789, de donner une Constitution à la France ?",
+            "hint": "Elle servait à un sport de balle, ancêtre du tennis.",
+            "anecdote": "Le peintre Jacques-Louis David a représenté ce serment dans un grand dessin. La salle se visite toujours.",
+            "answers": {
+              "la-salle-du-jeu-de-paume": "La salle du Jeu de paume",
+              "la-salle-des-menus-plaisirs": "La salle des Menus-Plaisirs",
+              "la-galerie-des-glaces": "La galerie des Glaces",
+              "la-salle-du-manege": "La salle du Manège"
+            }
+          },
+          "colonne-juillet": {
+            "prompt": "Quel monument, au centre de la place de la Bastille, rend hommage aux Parisiens morts pendant les Trois Glorieuses de 1830 ?",
+            "hint": "Il est surmonté du Génie de la Liberté, une statue dorée.",
+            "anecdote": "La forteresse de la Bastille, prise le 14 juillet 1789, a été démolie dans les mois suivants. Son tracé est marqué au sol par des pavés.",
+            "answers": {
+              "la-colonne-de-juillet": "La colonne de Juillet",
+              "la-colonne-vendome": "La colonne Vendôme",
+              "la-colonne-medicis": "La colonne Médicis",
+              "l-obelisque-de-la-concorde": "L'obélisque de la Concorde"
+            }
+          },
+          "mur-federes": {
+            "prompt": "Devant quel mur du cimetière du Père-Lachaise 147 combattants de la Commune ont-ils été fusillés, en mai 1871 ?",
+            "hint": "Ces combattants s'étaient réfugiés parmi les tombes, pendant la Semaine sanglante.",
+            "anecdote": "Chaque année, des milliers de personnes viennent s'y recueillir. La Commune de Paris a duré du 18 mars au 28 mai 1871.",
+            "answers": {
+              "le-mur-des-federes": "Le mur des Fédérés",
+              "le-mur-pour-la-paix": "Le mur pour la Paix",
+              "le-mur-des-reformateurs": "Le mur des Réformateurs",
+              "le-mur-des-noms": "Le mur des Noms"
+            }
+          },
+          "mont-valerien": {
+            "prompt": "Quel fort des Hauts-de-Seine, où plus de mille résistants et otages ont été fusillés pendant l'Occupation, est devenu un haut lieu de mémoire ?",
+            "hint": "Il domine l'ouest de Paris, à Suresnes.",
+            "anecdote": "Le Mémorial de la France combattante y a été inauguré par le général de Gaulle, le 18 juin 1960.",
+            "answers": {
+              "le-mont-valerien": "Le Mont-Valérien",
+              "le-fort-de-romainville": "Le fort de Romainville",
+              "le-fort-de-vincennes": "Le fort de Vincennes",
+              "le-camp-de-drancy": "Le camp de Drancy"
+            }
+          },
+          "genevieve": {
+            "prompt": "Quelle sainte, patronne de Paris, aurait convaincu les Parisiens de ne pas fuir devant Attila, en 451 ?",
+            "hint": "Une colline du Quartier latin porte son nom.",
+            "anecdote": "L'église bâtie sur son tombeau a été remplacée au XVIIIe siècle par un édifice devenu le Panthéon.",
+            "answers": {
+              "sainte-genevieve": "Sainte Geneviève",
+              "sainte-clotilde": "Sainte Clotilde",
+              "sainte-radegonde": "Sainte Radegonde",
+              "sainte-odile": "Sainte Odile"
+            }
+          },
+          "dagobert": {
+            "prompt": "Quel roi mérovingien a été le premier roi enterré dans l'abbaye de Saint-Denis, en 639 ?",
+            "hint": "Une chanson moqueuse le montre avec son conseiller, saint Éloi.",
+            "anecdote": "Il a beaucoup enrichi l'abbaye. Son tombeau, sculpté au XIIIe siècle, se trouve toujours dans la basilique.",
+            "answers": {
+              "dagobert-ier": "Dagobert Ier",
+              "clovis": "Clovis",
+              "childeric-ier": "Childéric Ier",
+              "pepin-le-bref": "Pépin le Bref"
+            }
+          },
+          "hugues-capet": {
+            "prompt": "Quel comte de Paris, élu roi des Francs en 987, a fondé une dynastie qui a régné plus de huit siècles ?",
+            "hint": "Avant lui, la couronne appartenait aux descendants de Charlemagne.",
+            "anecdote": "Son surnom viendrait de la cape qu'il portait comme abbé laïc. Sa dynastie porte son nom : les Capétiens.",
+            "answers": {
+              "hugues-capet": "Hugues Capet",
+              "robert-le-pieux": "Robert le Pieux",
+              "eudes": "Eudes",
+              "louis-v": "Louis V"
+            }
+          },
+          "charles-v": {
+            "prompt": "Quel roi a fait achever le château de Vincennes, vers 1370, et en a fait l'une de ses résidences favorites ?",
+            "hint": "On le surnomme le Sage. Il était le fils de Jean le Bon.",
+            "anecdote": "Il a aussi fait bâtir une nouvelle enceinte autour de Paris, et la Bastille pour la défendre. Il est mort en 1380.",
+            "answers": {
+              "charles-v": "Charles V",
+              "philippe-le-bel": "Philippe le Bel",
+              "louis-xi": "Louis XI",
+              "francois-ier": "François Ier"
+            }
+          },
+          "saint-barthelemy": {
+            "prompt": "Quel massacre de protestants a commencé à Paris dans la nuit du 23 au 24 août 1572 ?",
+            "hint": "Il a eu lieu quelques jours après le mariage d'Henri de Navarre et de Marguerite de Valois.",
+            "anecdote": "Les violences se sont étendues à de nombreuses villes de province pendant plusieurs semaines.",
+            "answers": {
+              "la-saint-barthelemy": "La Saint-Barthélemy",
+              "la-michelade": "La Michelade",
+              "les-vepres-siciliennes": "Les Vêpres siciliennes",
+              "la-journee-des-barricades": "La journée des Barricades"
+            }
+          },
+          "henri-iii": {
+            "prompt": "Quel roi a été poignardé à Saint-Cloud, en 1589, par le moine Jacques Clément ?",
+            "hint": "Il était le dernier roi de la dynastie des Valois.",
+            "anecdote": "Avant de mourir, il a reconnu pour héritier son cousin Henri de Navarre, qui est devenu Henri IV.",
+            "answers": {
+              "henri-iii": "Henri III",
+              "henri-iv": "Henri IV",
+              "charles-ix": "Charles IX",
+              "francois-ii": "François II"
+            }
+          },
+          "fronde": {
+            "prompt": "Quelle révolte, entre 1648 et 1653, a obligé le jeune Louis XIV à fuir Paris ?",
+            "hint": "Son nom vient d'un jeu d'enfants, qui se lançaient des pierres à l'aide d'une lanière.",
+            "anecdote": "En janvier 1649, la cour s'est réfugiée en pleine nuit au château de Saint-Germain-en-Laye. Le roi en a gardé une grande méfiance envers Paris.",
+            "answers": {
+              "la-fronde": "La Fronde",
+              "la-ligue": "La Ligue",
+              "la-revolte-des-camisards": "La révolte des Camisards",
+              "la-journee-des-dupes": "La journée des Dupes"
+            }
+          },
+          "marche-versailles": {
+            "prompt": "Qui a marché de Paris à Versailles, les 5 et 6 octobre 1789, pour ramener le roi dans la capitale ?",
+            "hint": "Elles réclamaient du pain.",
+            "anecdote": "Le roi, la reine et le dauphin ont été ramenés aux Tuileries. La foule les appelait le boulanger, la boulangère et le petit mitron.",
+            "answers": {
+              "des-femmes-de-paris": "Des femmes de Paris",
+              "des-soldats-suisses": "Des soldats suisses",
+              "des-paysans-de-la-beauce": "Des paysans de la Beauce",
+              "des-etudiants": "Des étudiants"
+            }
+          },
+          "tuileries": {
+            "prompt": "Quel palais, résidence des souverains au XIXe siècle, a été incendié en mai 1871, pendant la Commune, et jamais reconstruit ?",
+            "hint": "Son jardin, dessiné par Le Nôtre, s'étend toujours entre le Louvre et la Concorde.",
+            "anecdote": "Ses ruines ont été rasées en 1883. Quelques fragments ont été dispersés, jusqu'en Corse.",
+            "answers": {
+              "le-palais-des-tuileries": "Le palais des Tuileries",
+              "le-palais-du-louvre": "Le palais du Louvre",
+              "le-chateau-de-meudon": "Le château de Meudon",
+              "le-palais-royal": "Le Palais-Royal"
+            }
+          },
+          "crue-1910": {
+            "prompt": "En quelle année a eu lieu la grande crue de la Seine, qui a inondé Paris pendant plusieurs semaines ?",
+            "hint": "La statue du zouave du pont de l'Alma avait de l'eau jusqu'aux épaules.",
+            "anecdote": "La Seine est montée à plus de 8,6 mètres au pont d'Austerlitz. Des Parisiens circulaient en barque dans les rues.",
+            "answers": {
+              "en-1910": "En 1910",
+              "en-1870": "En 1870",
+              "en-1945": "En 1945",
+              "en-1982": "En 1982"
+            }
+          },
+          "jo-1924": {
+            "prompt": "En plus de 1900 et de 2024, en quelle année Paris a-t-il accueilli les Jeux olympiques d'été ?",
+            "hint": "Ce sont les Jeux du film Les Chariots de feu.",
+            "anecdote": "Ils se sont tenus en grande partie au stade de Colombes. Johnny Weissmuller, futur Tarzan au cinéma, y a remporté trois médailles d'or en natation.",
+            "answers": {
+              "en-1924": "En 1924",
+              "en-1936": "En 1936",
+              "en-1948": "En 1948",
+              "en-1968": "En 1968"
+            }
+          },
+          "drancy": {
+            "prompt": "Dans quelle ville de Seine-Saint-Denis se trouvait le camp d'où sont partis la plupart des convois de Juifs déportés de France ?",
+            "hint": "Le camp était installé dans une grande cité d'habitations inachevée, en forme de U.",
+            "anecdote": "Environ 63 000 personnes y sont passées entre 1941 et 1944. Un mémorial fait face à la cité de la Muette.",
+            "answers": {
+              "pithiviers": "Pithiviers",
+              "compiegne": "Compiègne",
+              "beaune-la-rolande": "Beaune-la-Rolande"
+            }
+          },
+          "nueve": {
+            "prompt": "Comment s'appelait la compagnie de la 2e division blindée, composée surtout de républicains espagnols, entrée la première dans Paris le 24 août 1944 ?",
+            "hint": "Son nom signifie neuf en espagnol.",
+            "anecdote": "Ses half-tracks portaient des noms de batailles de la guerre d'Espagne. Le lendemain, la garnison allemande de Paris capitulait.",
+            "answers": {
+              "la-nueve": "La Nueve",
+              "la-legion-etrangere": "La Légion étrangère",
+              "les-corps-francs": "Les Corps francs",
+              "la-brigade-alsace-lorraine": "La brigade Alsace-Lorraine"
+            }
+          },
+          "saclay": {
+            "prompt": "Quel plateau de l'Essonne, au sud-ouest de Paris, rassemble de grandes écoles et des laboratoires de recherche ?",
+            "hint": "L'École polytechnique s'y est installée en 1976.",
+            "anecdote": "Ses étangs, creusés sous Louis XIV, alimentaient eux aussi les fontaines de Versailles.",
+            "answers": {
+              "le-plateau-de-saclay": "Le plateau de Saclay",
+              "le-plateau-de-langres": "Le plateau de Langres",
+              "le-plateau-de-millevaches": "Le plateau de Millevaches",
+              "le-plateau-du-vexin": "Le plateau du Vexin"
+            }
+          },
+          "bievre": {
+            "prompt": "Quelle rivière, autrefois bordée de tanneries et de teintureries, coule aujourd'hui presque entièrement sous les rues de Paris ?",
+            "hint": "Elle se jetait dans la Seine près de la gare d'Austerlitz.",
+            "anecdote": "Elle a été couverte à la fin du XIXe siècle pour des raisons d'hygiène. Des projets visent à la rouvrir par endroits.",
+            "answers": {
+              "la-bievre": "La Bièvre",
+              "l-yvette": "L'Yvette",
+              "l-orge": "L'Orge",
+              "le-croult": "Le Croult"
+            }
+          },
+          "grande-foret": {
+            "prompt": "Quelle est la plus grande forêt d'Île-de-France ?",
+            "hint": "Elle s'étend autour d'une ville de Seine-et-Marne célèbre pour son château.",
+            "anecdote": "Elle couvre environ 25 000 hectares avec les bois voisins. Ses chênes, ses pins et ses rochers attirent des millions de visiteurs chaque année.",
+            "answers": {
+              "la-foret-de-fontainebleau": "La forêt de Fontainebleau",
+              "la-foret-de-rambouillet": "La forêt de Rambouillet",
+              "la-foret-de-saint-germain-en-laye": "La forêt de Saint-Germain-en-Laye",
+              "la-foret-de-senart": "La forêt de Sénart"
+            }
+          },
+          "dep-nemours": {
+            "prompt": "Touchez le département de Nemours, dont le château médiéval domine le Loing.",
+            "hint": "C'est le grand département de l'est de la région, traversé par la Seine et par la Marne.",
+            "anecdote": "Ce château du XIIe siècle abrite aujourd'hui un musée."
+          },
+          "dep-montfort": {
+            "prompt": "Touchez le département de Montfort-l'Amaury, où le compositeur Maurice Ravel a passé les seize dernières années de sa vie.",
+            "hint": "C'est le département de l'ouest de la région, qui s'étend jusqu'aux limites de la Normandie.",
+            "anecdote": "Sa maison, le Belvédère, a gardé le décor et les objets qu'il avait choisis."
+          },
+          "dep-montmorency": {
+            "prompt": "Touchez le département de Montmorency, où Jean-Jacques Rousseau a écrit La Nouvelle Héloïse.",
+            "hint": "C'est le département qui borde le nord de la région, au-delà de la Seine.",
+            "anecdote": "Sa maison, le Mont-Louis, est devenue un musée qui lui est consacré."
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "paris": {
+            "name": "Paris",
+            "description": "Capitale de la France, Paris est née sur l'île de la Cité, au milieu de la Seine, où vivait déjà le peuple gaulois des Parisii. La ville s'est agrandie d'enceinte en enceinte, jusqu'à compter vingt arrondissements depuis 1860. Ses quais de Seine sont inscrits au patrimoine mondial de l'UNESCO depuis 1991.",
+            "anecdote": "Le point zéro des routes de France est gravé dans le sol, sur le parvis de Notre-Dame."
+          },
+          "brie-de-meaux": {
+            "name": "Brie de Meaux",
+            "description": "Le brie de Meaux est un grand fromage plat, à pâte molle et à croûte fleurie, fait de lait cru de vache. Il est affiné plusieurs semaines en cave, jusqu'à ce que sa pâte devienne souple et crémeuse. Il bénéficie d'une appellation d'origine depuis 1980.",
+            "anecdote": "Lors du congrès de Vienne, en 1815, il aurait été désigné roi des fromages par les diplomates européens."
+          },
+          "fontainebleau": {
+            "name": "Château de Fontainebleau",
+            "description": "Habité par les souverains pendant près de huit siècles, de Louis VII à Napoléon III, le château de Fontainebleau s'est agrandi au fil des règnes. François Ier y a fait venir des artistes italiens, qui ont créé un style de décor appelé l'école de Fontainebleau. Il est inscrit au patrimoine mondial de l'UNESCO depuis 1981.",
+            "anecdote": "Napoléon Ier l'appelait la vraie demeure des rois, la maison des siècles."
+          },
+          "sevres": {
+            "name": "Porcelaine de Sèvres",
+            "description": "La manufacture de porcelaine, fondée à Vincennes, s'est installée à Sèvres en 1756, sous la protection de Louis XV et de Madame de Pompadour. Ses artisans tournent, moulent, peignent et dorent chaque pièce à la main, selon des gestes transmis depuis le XVIIIe siècle. Elle produit toujours des vases et des services pour l'État.",
+            "anecdote": "Le bleu profond de ses porcelaines, mis au point au XVIIIe siècle, est appelé le bleu de Sèvres."
+          },
+          "versailles": {
+            "name": "Château de Versailles",
+            "description": "Ancien pavillon de chasse de Louis XIII, Versailles a été transformé par Louis XIV en un immense palais, où il a installé la cour en 1682. Le château, ses jardins dessinés par André Le Nôtre et les Trianons forment l'un des plus grands domaines royaux d'Europe. Il est inscrit au patrimoine mondial de l'UNESCO depuis 1979.",
+            "anecdote": "La galerie des Glaces compte 357 miroirs, fabriqués par une manufacture française pour rivaliser avec Venise."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur d'Île-de-France",
+            "description": "Réunir les cinq cartes de la collection d'Île-de-France."
+          },
+          "master": {
+            "name": "Maître d'Île-de-France",
+            "description": "Réussir le Défi Maître d'Île-de-France, avec au moins huit bonnes réponses sur dix."
           }
         }
       }

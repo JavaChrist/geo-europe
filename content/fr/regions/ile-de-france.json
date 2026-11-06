@@ -2,7 +2,40 @@
   "id": "FR-IDF",
   "slug": "ile-de-france",
   "nameKey": "regions.ile-de-france",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "75",
+      "nameKey": "departments.75"
+    },
+    {
+      "id": "77",
+      "nameKey": "departments.77"
+    },
+    {
+      "id": "78",
+      "nameKey": "departments.78"
+    },
+    {
+      "id": "91",
+      "nameKey": "departments.91"
+    },
+    {
+      "id": "92",
+      "nameKey": "departments.92"
+    },
+    {
+      "id": "93",
+      "nameKey": "departments.93"
+    },
+    {
+      "id": "94",
+      "nameKey": "departments.94"
+    },
+    {
+      "id": "95",
+      "nameKey": "departments.95"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],
