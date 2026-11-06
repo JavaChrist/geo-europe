@@ -4816,6 +4816,430 @@
       "photoCentreValDeLoireChapelleDreux": {
         "title": "Chapelle royale Saint-Louis, Dreux",
         "alt": "Chapelle à dôme néogothique, au sommet d'un escalier de pierre."
+      },
+      "photoBretagneDrapeau": {
+        "title": "Drapeau Gwenn ha du",
+        "alt": "Drapeau à bandes horizontales noires et blanches, avec un canton orné de petits motifs noirs, flottant au vent."
+      },
+      "photoBretagneSaintMalo": {
+        "title": "Remparts de Saint-Malo intra-muros",
+        "alt": "Chemin de ronde sur de hauts remparts de granit, dominant des immeubles de pierre aux toits d'ardoise."
+      },
+      "photoBretagneRennesPans": {
+        "title": "Place du Champ-Jacquet, Rennes",
+        "alt": "Rangée de hautes maisons à pans de bois colorées, aux étages en encorbellement."
+      },
+      "photoBretagneQuimperCathedrale": {
+        "title": "Flèches de la cathédrale Saint-Corentin, Quimper",
+        "alt": "Deux flèches gothiques ajourées dressées dans le ciel, derrière une statue de bronze."
+      },
+      "photoBretagneVannesRemparts": {
+        "title": "Lavoirs et remparts de Vannes",
+        "alt": "Remparts de pierre dominant des jardins à la française, avec des toits anciens et une cathédrale en arrière-plan."
+      },
+      "photoBretagnePloumanach": {
+        "title": "Côte de granit rose à Ploumanac'h",
+        "alt": "Rochers aux teintes rosées au bord de la mer, près d'un petit phare de pierre rose."
+      },
+      "photoBretagneGolfeMorbihan": {
+        "title": "Golfe du Morbihan depuis l'île aux Moines",
+        "alt": "Étendue d'eau calme parsemée de voiliers, bordée de côtes boisées et de petites îles."
+      },
+      "photoBretagneBrestRecouvrance": {
+        "title": "Pont de Recouvrance, Brest",
+        "alt": "Pont levant métallique entre deux hauts pylônes, au-dessus d'une rivière bordée de quais."
+      },
+      "photoBretagneDinan": {
+        "title": "Port de Dinan-Lanvallay sur la Rance",
+        "alt": "Quai de port fluvial au pied d'une vieille ville, dominé par un haut viaduc de pierre à arches."
+      },
+      "photoBretagneMontsArree": {
+        "title": "Monts d'Arrée vus depuis Brasparts",
+        "alt": "Collines couvertes de landes rases, sous un vaste ciel, avec une campagne vallonnée à perte de vue."
+      },
+      "photoBretagneGalette": {
+        "title": "Galette de sarrasin complète",
+        "alt": "Fine préparation brune, repliée en carré autour d'un œuf, de jambon et de fromage."
+      },
+      "photoBretagneCrepes": {
+        "title": "Crêpe au caramel au beurre salé",
+        "alt": "Fine préparation dorée pliée en éventail, nappée de sauce brune et saupoudrée de sucre."
+      },
+      "photoBretagneSarrasinChamp": {
+        "title": "Fleurs de sarrasin",
+        "alt": "Petites fleurs blanches et rosées en grappes, au-dessus de feuilles vertes en forme de cœur."
+      },
+      "photoBretagneKouignAmann": {
+        "title": "Kouign-amann en boulangerie",
+        "alt": "Gâteaux ronds feuilletés et dorés, à la surface brillante et caramélisée, sur une vitrine."
+      },
+      "photoBretagneFarBreton": {
+        "title": "Far breton",
+        "alt": "Gâteau rond et épais à la surface brunie, garni de pruneaux, dans une vitrine."
+      },
+      "photoBretagneCaramel": {
+        "title": "Sauce caramel",
+        "alt": "Bocal rempli d'une sauce brune et onctueuse, à côté d'une pâte à tarte sur une planche."
+      },
+      "photoBretagnePalets": {
+        "title": "Palets bretons",
+        "alt": "Biscuits ronds, épais et dorés, rangés dans une boîte en métal."
+      },
+      "photoBretagneCidreBolee": {
+        "title": "Bolée de cidre",
+        "alt": "Bol rouge à anse rempli d'une boisson dorée."
+      },
+      "photoBretagneHuitresCancale": {
+        "title": "Parcs à huîtres de Cancale",
+        "alt": "Alignements de parcs d'élevage découverts par la marée basse, dans une vaste baie."
+      },
+      "photoBretagneSaintJacques": {
+        "title": "Coquille Saint-Jacques",
+        "alt": "Deux grands coquillages aux valves côtelées en éventail."
+      },
+      "photoBretagneCotriade": {
+        "title": "Cotriade",
+        "alt": "Bol de poissons, de moules, de crevettes et de pommes de terre dans un bouillon."
+      },
+      "photoBretagneArtichaut": {
+        "title": "Artichaut gros camus de Bretagne",
+        "alt": "Gravure ancienne de deux légumes ronds, aux larges écailles serrées."
+      },
+      "photoBretagneChouFleur": {
+        "title": "Champ de choux-fleurs",
+        "alt": "Champ de larges plants verts en rangées, dont certains laissent voir une tête blanche."
+      },
+      "photoBretagneCocoPaimpol": {
+        "title": "Haricots coco de Paimpol",
+        "alt": "Gousses pâles marbrées de violet, ouvertes sur des graines blanches."
+      },
+      "photoBretagneOignonRoscoff": {
+        "title": "Oignons rosés de Roscoff",
+        "alt": "Tas d'oignons ronds à la peau rosée, aux tiges séchées."
+      },
+      "photoBretagneFraisePlougastel": {
+        "title": "Fraises de Plougastel",
+        "alt": "Panier de bois rempli de fraises rouges et brillantes."
+      },
+      "photoBretagneKigHaFarz": {
+        "title": "Kig ha farz",
+        "alt": "Plats de viandes, de saucisse, de carottes et de pommes de terre, avec une préparation à base de farine émiettée."
+      },
+      "photoBretagneAndouilleGuemene": {
+        "title": "Andouille de Guémené tranchée",
+        "alt": "Tranches de charcuterie fumée laissant voir des cercles concentriques."
+      },
+      "photoBretagneCarnac": {
+        "title": "Alignements du Ménec, Carnac",
+        "alt": "Longues files de pierres dressées alignées dans une lande."
+      },
+      "photoBretagneBarnenez": {
+        "title": "Cairn de Barnenez",
+        "alt": "Grand monument de pierres sèches en gradins, sur une colline dominant une baie."
+      },
+      "photoBretagneGavrinis": {
+        "title": "Cairn de Gavrinis",
+        "alt": "Tertre de pierres sèches arrondi, au milieu de la végétation d'une île."
+      },
+      "photoBretagneGrandMenhir": {
+        "title": "Grand menhir brisé de Locmariaquer",
+        "alt": "Gigantesque pierre couchée sur le sol, brisée en plusieurs morceaux."
+      },
+      "photoBretagneTumulusStMichel": {
+        "title": "Tumulus Saint-Michel, Carnac",
+        "alt": "Grande butte allongée couverte d'herbe, gravie par un chemin de terre."
+      },
+      "photoBretagneFortLaLatte": {
+        "title": "Fort La Latte",
+        "alt": "Château fort sur un éperon rocheux au-dessus de la mer, avec un donjon et un pont-levis."
+      },
+      "photoBretagneFougeres": {
+        "title": "Château de Fougères",
+        "alt": "Entrée de forteresse médiévale encadrée de grosses tours, au-dessus de douves."
+      },
+      "photoBretagneVitre": {
+        "title": "Château de Vitré",
+        "alt": "Place bordée de maisons à pans de bois, avec les tours pointues d'un château derrière."
+      },
+      "photoBretagneJosselin": {
+        "title": "Château de Josselin",
+        "alt": "Château aux tours rondes coiffées de toits pointus, dressé au bord d'une rivière."
+      },
+      "photoBretagneCombourg": {
+        "title": "Château de Combourg",
+        "alt": "Château massif aux grosses tours coiffées de toits coniques, au milieu des arbres."
+      },
+      "photoBretagneSuscinio": {
+        "title": "Château de Suscinio",
+        "alt": "Château fort aux épaisses murailles et aux tours rondes coiffées de toits pointus."
+      },
+      "photoBretagneKerjean": {
+        "title": "Château de Kerjean",
+        "alt": "Grand château Renaissance aux murs clairs, précédé d'une vaste cour."
+      },
+      "photoBretagnePontivy": {
+        "title": "Château des Rohan, Pontivy",
+        "alt": "Long logis de pierre aux lucarnes à pignons, prolongé par une tour au toit pointu, dans une lumière dorée."
+      },
+      "photoBretagneTaureau": {
+        "title": "Château du Taureau, baie de Morlaix",
+        "alt": "Fort de pierre bâti sur un rocher au milieu de la mer."
+      },
+      "photoBretagneLocronan": {
+        "title": "Place de l'Église, Locronan",
+        "alt": "Place pavée bordée de maisons de granit gris et d'une église gothique."
+      },
+      "photoBretagneRochefort": {
+        "title": "Rue de Rochefort-en-Terre",
+        "alt": "Rue étroite bordée de maisons de pierre et de vieux murs couverts de végétation."
+      },
+      "photoBretagneMoncontour": {
+        "title": "Place de la Carrière, Moncontour",
+        "alt": "Grande place entourée de maisons de pierre aux toits d'ardoise."
+      },
+      "photoBretagnePontAven": {
+        "title": "Rochers de l'Aven, Pont-Aven",
+        "alt": "Rivière semée de gros rochers, bordée de maisons de pierre et d'arbres."
+      },
+      "photoBretagneConcarneau": {
+        "title": "Ville close de Concarneau",
+        "alt": "Remparts de granit entourant une île au milieu d'un port."
+      },
+      "photoBretagneLorientBase": {
+        "title": "Base sous-marine de Lorient",
+        "alt": "Immense bâtiment de béton, à l'entrée ouverte sur l'eau."
+      },
+      "photoBretagneMorlaixViaduc": {
+        "title": "Viaduc de Morlaix",
+        "alt": "Haut viaduc de pierre à deux étages d'arches, dominant une ville et un jardin fleuri."
+      },
+      "photoBretagneParlement": {
+        "title": "Palais du Parlement de Bretagne, Rennes",
+        "alt": "Grand palais classique de pierre claire, à la haute toiture d'ardoise, devant une place."
+      },
+      "photoBretagneThabor": {
+        "title": "Parc du Thabor, Rennes",
+        "alt": "Jardin à la française aux parterres fleuris et aux allées soignées."
+      },
+      "photoBretagneMalouiniere": {
+        "title": "Malouinière de la Ville-Bague",
+        "alt": "Belle demeure de granit aux toits d'ardoise et aux hautes cheminées, entourée de jardins."
+      },
+      "photoBretagneDol": {
+        "title": "Cathédrale Saint-Samson de Dol-de-Bretagne",
+        "alt": "Façade de cathédrale gothique en granit, encadrée de deux tours inégales."
+      },
+      "photoBretagneKreisker": {
+        "title": "Chapelle Notre-Dame du Kreisker, Saint-Pol-de-Léon",
+        "alt": "Clocher de granit élancé, à la flèche ajourée, au-dessus d'une chapelle."
+      },
+      "photoBretagneTreguier": {
+        "title": "Cathédrale Saint-Tugdual, Tréguier",
+        "alt": "Cathédrale de granit avec une haute flèche percée de trous."
+      },
+      "photoBretagneSaintThegonnec": {
+        "title": "Enclos paroissial de Saint-Thégonnec",
+        "alt": "Calvaire de pierre couvert de personnages sculptés, devant un ossuaire."
+      },
+      "photoBretagneGuimiliau": {
+        "title": "Calvaire de Guimiliau",
+        "alt": "Personnages de granit sculptés, serrés les uns contre les autres sur un calvaire."
+      },
+      "photoBretagneKermaria": {
+        "title": "Chapelle de Kermaria an Iskuit",
+        "alt": "Chapelle de pierre avec un porche et un clocher, au milieu de la verdure."
+      },
+      "photoBretagneBeauport": {
+        "title": "Abbaye de Beauport, Paimpol",
+        "alt": "Ruines d'une abbaye gothique aux grandes arcades ouvertes vers le ciel."
+      },
+      "photoBretagneChartreuseAuray": {
+        "title": "Chapelle de la chartreuse d'Auray",
+        "alt": "Façade classique de pierre claire, avec une porte surmontée d'un fronton."
+      },
+      "photoBretagneCombatTrente": {
+        "title": "Colonne des Trente",
+        "alt": "Obélisque de pierre claire au bord d'une route, entouré de pins."
+      },
+      "photoBretagneFortNational": {
+        "title": "Fort National, Saint-Malo",
+        "alt": "Fort aux murailles de granit bâti sur un îlot rocheux, à marée haute."
+      },
+      "photoBretagnePortLouis": {
+        "title": "Citadelle de Port-Louis",
+        "alt": "Entrée de citadelle avec un pont de pierre à arches au-dessus d'un fossé."
+      },
+      "photoBretagneBelleIleCitadelle": {
+        "title": "Citadelle Vauban, Le Palais",
+        "alt": "Hauts remparts de pierre armés d'un canon, dominant un port."
+      },
+      "photoBretagneVaubanCamaret": {
+        "title": "Tour Vauban, Camaret-sur-Mer",
+        "alt": "Tour de défense de couleur orangée, entourée de fortifications basses."
+      },
+      "photoBretagneDuguesclin": {
+        "title": "Statue équestre de Bertrand du Guesclin, Dinan",
+        "alt": "Statue de bronze d'un chevalier en armure, l'épée levée, sur un cheval cabré."
+      },
+      "photoBretagneLimoelou": {
+        "title": "Manoir de Limoëlou, Saint-Malo",
+        "alt": "Petit manoir de granit aux toits d'ardoise, entouré d'un jardin."
+      },
+      "photoBretagneSurcouf": {
+        "title": "Monument à Robert Surcouf, Saint-Malo",
+        "alt": "Statue d'un marin pointant le doigt vers le large, sur un piédestal de granit."
+      },
+      "photoBretagneGrandBe": {
+        "title": "Tombeau sur l'île du Grand Bé",
+        "alt": "Simple croix de granit sur une dalle, face à la mer, sur une petite île."
+      },
+      "photoBretagneLaennec": {
+        "title": "Statue de Laennec, Quimper",
+        "alt": "Statue de bronze d'un homme assis, en habit, sur un piédestal."
+      },
+      "photoBretagneChristJaune": {
+        "title": "Christ jaune de Trémalo, Pont-Aven",
+        "alt": "Crucifix de bois peint, au corps de couleur jaune, dans une chapelle."
+      },
+      "photoBretagneBiniou": {
+        "title": "Biniou kozh",
+        "alt": "Petite cornemuse en bois tourné, avec une poche et des tuyaux."
+      },
+      "photoBretagneSaintYves": {
+        "title": "Tombeau de saint Yves, Tréguier",
+        "alt": "Tombeau sous un dais gothique de pierre blanche finement sculpté, dans une église."
+      },
+      "photoBretagneAnkou": {
+        "title": "Ankou de Ploumilliau",
+        "alt": "Statue de bois représentant un squelette tenant une faux."
+      },
+      "photoBretagneMenhirChristianise": {
+        "title": "Menhir christianisé de Saint-Uzec",
+        "alt": "Haute pierre dressée, gravée de scènes religieuses et surmontée d'une croix."
+      },
+      "photoBretagneValleeSaints": {
+        "title": "Vallée des Saints, Carnoët",
+        "alt": "Grandes statues de granit sculptées, dressées sur une colline herbeuse."
+      },
+      "photoBretagneTombeauMerlin": {
+        "title": "Tombeau de Merlin, Paimpont",
+        "alt": "Grosses pierres couvertes de mousse et de petites offrandes, dans un sous-bois."
+      },
+      "photoBretagneBarenton": {
+        "title": "Fontaine de Barenton, Paimpont",
+        "alt": "Petite fontaine entourée de pierres, au milieu de feuilles mortes, en forêt."
+      },
+      "photoBretagneArbreOr": {
+        "title": "Arbre d'Or, Val sans Retour",
+        "alt": "Arbre mort entièrement doré, aux branches dressées, devant une forêt."
+      },
+      "photoBretagneFaienceQuimper": {
+        "title": "Assiette en faïence de Quimper",
+        "alt": "Assiette de faïence peinte d'une scène de port, entourée d'une bordure bleue."
+      },
+      "photoBretagneCoiffeBigoudene": {
+        "title": "Coiffe bigoudène de cérémonie",
+        "alt": "Haute coiffe de dentelle blanche, dressée et arrondie au sommet."
+      },
+      "photoBretagneLitClos": {
+        "title": "Lit clos des Monts d'Arrée",
+        "alt": "Façade de meuble en bois sombre, sculptée de rosaces et ornée de fuseaux tournés."
+      },
+      "photoBretagneFourGoemon": {
+        "title": "Four à goémon de Pors Poulhan",
+        "alt": "Longue tranchée bordée de pierres, creusée dans l'herbe au-dessus d'un petit port."
+      },
+      "photoBretagnePointeDuRaz": {
+        "title": "Pointe du Raz, vue aérienne",
+        "alt": "Vue aérienne d'une longue pointe rocheuse s'avançant dans l'océan, prolongée par des récifs."
+      },
+      "photoBretagneTrepasses": {
+        "title": "Baie des Trépassés",
+        "alt": "Plage de sable en arc de cercle, bordée de collines, où déferlent des vagues."
+      },
+      "photoBretagneSaintMathieu": {
+        "title": "Pointe Saint-Mathieu",
+        "alt": "Phare blanc au sommet rouge, à côté des ruines d'une abbaye, au bord d'une falaise."
+      },
+      "photoBretagnePenHir": {
+        "title": "Pointe de Pen-Hir et Tas de Pois",
+        "alt": "Haute falaise prolongée par une file de gros rochers isolés dans la mer."
+      },
+      "photoBretagneFrehel": {
+        "title": "Phare du cap Fréhel",
+        "alt": "Phare de pierre et tour plus ancienne au sommet de falaises couvertes de landes."
+      },
+      "photoBretagneSillon": {
+        "title": "Sillon de Talbert",
+        "alt": "Longue et étroite bande de galets et de sable s'avançant dans la mer, avec des voiles de kitesurf."
+      },
+      "photoBretagneAberWrach": {
+        "title": "L'Aber-Wrac'h",
+        "alt": "Estuaire aux eaux claires, bordé de collines verdoyantes, avec des bateaux au mouillage."
+      },
+      "photoBretagneQuiberon": {
+        "title": "Arche de Port-Blanc, Saint-Pierre-Quiberon",
+        "alt": "Arche rocheuse au bout d'une plage, sur une côte découpée."
+      },
+      "photoBretagneEckmuhl": {
+        "title": "Phare d'Eckmühl, Penmarch",
+        "alt": "Haut phare de granit près d'un petit port, à côté d'une tour plus ancienne."
+      },
+      "photoBretagneIleVierge": {
+        "title": "Phare de l'île Vierge",
+        "alt": "Très haut phare de pierre grise sur une petite île plate, à côté d'un phare plus ancien."
+      },
+      "photoBretagneOuessantCreach": {
+        "title": "Phare du Créac'h, Ouessant",
+        "alt": "Phare rayé de noir et de blanc, au milieu d'une lande rase."
+      },
+      "photoBretagneSein": {
+        "title": "Rochers de l'île de Sein",
+        "alt": "Rochers de granit aux formes arrondies, posés sur un plateau rocheux au bord de la mer."
+      },
+      "photoBretagnePortCoton": {
+        "title": "Aiguilles de Port-Coton",
+        "alt": "Pointes rocheuses dressées dans une mer agitée, au pied de falaises."
+      },
+      "photoBretagneGlenan": {
+        "title": "Archipel des Glénan",
+        "alt": "Petite île de sable blanc au ras d'une eau turquoise, entourée de bateaux."
+      },
+      "photoBretagneGroix": {
+        "title": "Côte de l'île de Groix",
+        "alt": "Plage de sable clair, longue et étroite, vue depuis une falaise couverte de végétation."
+      },
+      "photoBretagneBrehat": {
+        "title": "Paysage de l'île de Bréhat",
+        "alt": "Jardin d'agapanthes bleues sous des pins, devant une petite baie."
+      },
+      "photoBretagneHuelgoat": {
+        "title": "Chaos rocheux de Huelgoat",
+        "alt": "Gros blocs de granit couverts de mousse, au bord d'un ruisseau en forêt."
+      },
+      "photoBretagneRocTrevezel": {
+        "title": "Roc'h Trévezel",
+        "alt": "Crête rocheuse dentelée émergeant des landes, sous un ciel blanc."
+      },
+      "photoBretagneMenezHom": {
+        "title": "Ménez-Hom vu depuis Trégarvan",
+        "alt": "Montagne isolée au profil arrondi, dominant des champs et des bosquets."
+      },
+      "photoBretagneGuerledan": {
+        "title": "Lac de Guerlédan",
+        "alt": "Lac allongé entre des collines boisées."
+      },
+      "photoBretagneCanal": {
+        "title": "Écluse de Cosquérou, Glomel",
+        "alt": "Bief d'un canal aux eaux calmes, entre des berges boisées, vu depuis le quai d'une écluse."
+      },
+      "photoBretagneRanceUsine": {
+        "title": "Usine marémotrice de la Rance",
+        "alt": "Route sur un long barrage, entre un estuaire et des écluses."
+      },
+      "photoBretagneAmoco": {
+        "title": "Ancre de l'Amoco Cadiz, Ploudalmézeau",
+        "alt": "Immense ancre de navire posée sur un socle, au bord de la mer."
       }
     }
   },
@@ -4850,16 +5274,19 @@
     "18": "Cher",
     "19": "Corrèze",
     "21": "Côte-d'Or",
+    "22": "Côtes-d'Armor",
     "23": "Creuse",
     "24": "Dordogne",
     "25": "Doubs",
     "26": "Drôme",
     "28": "Eure-et-Loir",
+    "29": "Finistère",
     "30": "Gard",
     "31": "Haute-Garonne",
     "32": "Gers",
     "33": "Gironde",
     "34": "Hérault",
+    "35": "Ille-et-Vilaine",
     "36": "Indre",
     "37": "Indre-et-Loire",
     "38": "Isère",
@@ -4879,6 +5306,7 @@
     "53": "Mayenne",
     "54": "Meurthe-et-Moselle",
     "55": "Meuse",
+    "56": "Morbihan",
     "57": "Moselle",
     "58": "Nièvre",
     "63": "Puy-de-Dôme",
@@ -5571,7 +5999,67 @@
     "beaugency": "Beaugency",
     "meung-sur-loire": "Meung-sur-Loire",
     "saint-benoit-sur-loire": "Saint-Benoît-sur-Loire",
-    "germigny-des-pres": "Germigny-des-Prés"
+    "germigny-des-pres": "Germigny-des-Prés",
+    "saint-brieuc": "Saint-Brieuc",
+    "dinan": "Dinan",
+    "lannion": "Lannion",
+    "guingamp": "Guingamp",
+    "lamballe-armor": "Lamballe-Armor",
+    "paimpol": "Paimpol",
+    "perros-guirec": "Perros-Guirec",
+    "treguier": "Tréguier",
+    "loudeac": "Loudéac",
+    "erquy": "Erquy",
+    "moncontour": "Moncontour",
+    "ile-de-brehat": "Île-de-Bréhat",
+    "pleubian": "Pleubian",
+    "quimper": "Quimper",
+    "brest": "Brest",
+    "morlaix": "Morlaix",
+    "concarneau": "Concarneau",
+    "douarnenez": "Douarnenez",
+    "quimperle": "Quimperlé",
+    "landerneau": "Landerneau",
+    "carhaix-plouguer": "Carhaix-Plouguer",
+    "roscoff": "Roscoff",
+    "saint-pol-de-leon": "Saint-Pol-de-Léon",
+    "plougastel-daoulas": "Plougastel-Daoulas",
+    "penmarch": "Penmarch",
+    "crozon": "Crozon",
+    "camaret-sur-mer": "Camaret-sur-Mer",
+    "pont-aven": "Pont-Aven",
+    "locronan": "Locronan",
+    "huelgoat": "Huelgoat",
+    "ouessant": "Ouessant",
+    "ile-de-sein": "Île-de-Sein",
+    "ile-de-batz": "Île-de-Batz",
+    "guimiliau": "Guimiliau",
+    "rennes": "Rennes",
+    "saint-malo": "Saint-Malo",
+    "fougeres": "Fougères",
+    "vitre": "Vitré",
+    "redon": "Redon",
+    "dinard": "Dinard",
+    "cancale": "Cancale",
+    "dol-de-bretagne": "Dol-de-Bretagne",
+    "combourg": "Combourg",
+    "paimpont": "Paimpont",
+    "vannes": "Vannes",
+    "lorient": "Lorient",
+    "pontivy": "Pontivy",
+    "auray": "Auray",
+    "ploermel": "Ploërmel",
+    "hennebont": "Hennebont",
+    "carnac": "Carnac",
+    "quiberon": "Quiberon",
+    "josselin": "Josselin",
+    "port-louis": "Port-Louis",
+    "malestroit": "Malestroit",
+    "le-palais": "Le Palais",
+    "guemene-sur-scorff": "Guémené-sur-Scorff",
+    "rochefort-en-terre": "Rochefort-en-Terre",
+    "locmariaquer": "Locmariaquer",
+    "groix": "Groix"
   },
   "territories": {
     "champagne-ardenne": {
@@ -35191,6 +35679,1951 @@
           "master": {
             "name": "Maître du Centre-Val de Loire",
             "description": "Réussir le Défi Maître du Centre-Val de Loire, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
+    },
+    "bretagne": {
+      "name": "Bretagne",
+      "description": "Des falaises de la pointe du Raz aux remparts de Saint-Malo, des mégalithes de Carnac aux enclos paroissiaux du Léon, une région de phares et d'îles, de galettes et de crêpes, de légendes et de musique, entre Côtes-d'Armor, Finistère, Ille-et-Vilaine et Morbihan.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Bretagne",
+          "description": "Quatre départements, leurs villes et les grands repères d'une péninsule entre Manche et Atlantique, de la côte de granit rose au golfe du Morbihan.",
+          "capitale": {
+            "prompt": "Quelle ville est le chef-lieu de la région Bretagne ?",
+            "hint": "Elle se trouve au confluent de l'Ille et de la Vilaine.",
+            "anecdote": "Avec environ 225 000 habitants, c'est la ville la plus peuplée de la région, devant Brest."
+          },
+          "quatre": {
+            "prompt": "Combien de départements compte la région Bretagne ?",
+            "hint": "L'un d'eux porte le nom d'une petite mer intérieure.",
+            "anecdote": "Ce sont les Côtes-d'Armor, le Finistère, l'Ille-et-Vilaine et le Morbihan. La Loire-Atlantique fait partie des Pays de la Loire.",
+            "answers": {
+              "quatre": "Quatre",
+              "cinq": "Cinq",
+              "trois": "Trois",
+              "six": "Six"
+            }
+          },
+          "voisins": {
+            "prompt": "Avec quelles régions la Bretagne a-t-elle une frontière terrestre ?",
+            "hint": "Ce sont ses deux seules voisines, toutes deux à l'est.",
+            "anecdote": "Partout ailleurs, la péninsule bretonne est bordée par la mer : la Manche au nord, l'Atlantique au sud et à l'ouest.",
+            "answers": {
+              "la-normandie-et-les-pays-de-la-loire": "La Normandie et les Pays de la Loire",
+              "la-normandie-et-le-centre-val-de-loire": "La Normandie et le Centre-Val de Loire",
+              "les-pays-de-la-loire-et-la-nouvelle-aquitaine": "Les Pays de la Loire et la Nouvelle-Aquitaine",
+              "la-normandie-et-l-ile-de-france": "La Normandie et l'Île-de-France"
+            }
+          },
+          "breizh": {
+            "prompt": "Comment dit-on Bretagne en breton ?",
+            "hint": "Ce mot de six lettres s'affiche souvent à l'arrière des voitures, sous la forme d'un autocollant BZH.",
+            "anecdote": "Les autres mots désignent la Cornouaille, Vannes et Nantes.",
+            "answers": {
+              "breizh": "Breizh",
+              "kernev": "Kernev",
+              "gwened": "Gwened",
+              "naoned": "Naoned"
+            }
+          },
+          "hermine": {
+            "prompt": "Quel animal, emblème des ducs de Bretagne, est représenté de façon stylisée sur le drapeau breton ?",
+            "hint": "C'est un petit mammifère dont le pelage devient blanc en hiver, sauf le bout de la queue.",
+            "anecdote": "Les ducs de la maison de Dreux l'ont adopté au XIIIe siècle. Il figure aussi sur les armoiries de nombreuses villes bretonnes.",
+            "answers": {
+              "l-hermine": "L'hermine",
+              "le-lion": "Le lion",
+              "le-leopard": "Le léopard",
+              "l-aigle": "L'aigle"
+            }
+          },
+          "littoral": {
+            "prompt": "Quelle part du littoral de la France métropolitaine la Bretagne représente-t-elle environ ?",
+            "hint": "Avec ses îles, ses caps et ses abers, sa côte dépasse 2 700 kilomètres.",
+            "anecdote": "Ses côtes, très découpées, sont bordées par la Manche, la mer d'Iroise et l'océan Atlantique.",
+            "answers": {
+              "un-tiers": "Un tiers",
+              "un-dixieme": "Un dixième",
+              "la-moitie": "La moitié",
+              "les-trois-quarts": "Les trois quarts"
+            }
+          },
+          "manche": {
+            "prompt": "Quelle mer borde la côte nord de la Bretagne ?",
+            "hint": "Elle sépare la France de l'Angleterre.",
+            "anecdote": "Saint-Malo, Saint-Brieuc, Perros-Guirec et Roscoff sont tournés vers elle.",
+            "answers": {
+              "la-manche": "La Manche",
+              "la-mer-du-nord": "La mer du Nord",
+              "la-mer-d-irlande": "La mer d'Irlande",
+              "la-mer-celtique": "La mer Celtique"
+            }
+          },
+          "vilaine": {
+            "prompt": "Quel fleuve traverse Rennes et Redon, avant de rejoindre l'Atlantique ?",
+            "hint": "Il a donné la moitié de son nom au département de Rennes.",
+            "anecdote": "Il se jette dans l'océan en aval du barrage d'Arzal, dans le Morbihan.",
+            "answers": {
+              "la-vilaine": "La Vilaine",
+              "la-rance": "La Rance",
+              "le-blavet": "Le Blavet",
+              "l-oust": "L'Oust"
+            }
+          },
+          "basse-bretagne": {
+            "prompt": "Comment appelle-t-on la moitié ouest de la Bretagne, où l'on parlait traditionnellement breton ?",
+            "hint": "Ce nom ne parle pas d'altitude, mais de la distance à Paris.",
+            "anecdote": "La moitié est, autour de Rennes et de Saint-Malo, est la Haute-Bretagne, où l'on parlait le gallo.",
+            "answers": {
+              "la-basse-bretagne": "La Basse-Bretagne",
+              "la-haute-bretagne": "La Haute-Bretagne",
+              "l-argoat": "L'Argoat",
+              "le-penthievre": "Le Penthièvre"
+            }
+          },
+          "armor-argoat": {
+            "prompt": "Comment les Bretons appellent-ils le pays de la mer, par opposition à l'Argoat, le pays des bois ?",
+            "hint": "Ce mot apparaît dans le nom d'un des quatre départements.",
+            "anecdote": "En breton, mor signifie la mer, et coat le bois.",
+            "answers": {
+              "l-armor": "L'Armor",
+              "le-leon": "Le Léon",
+              "le-tregor": "Le Trégor",
+              "le-goelo": "Le Goëlo"
+            }
+          },
+          "finistere-nom": {
+            "prompt": "D'où vient le nom du Finistère ?",
+            "hint": "Il parle de géographie, et non d'histoire.",
+            "anecdote": "Il vient du latin finis terrae. Son nom breton, Penn-ar-Bed, signifie la tête du monde.",
+            "answers": {
+              "du-latin-pour-la-fin-de-la-terre": "Du latin, pour la fin de la terre",
+              "d-un-saint-venu-d-irlande": "D'un saint venu d'Irlande",
+              "d-un-ancien-peuple-gaulois": "D'un ancien peuple gaulois",
+              "d-une-riviere-de-quimper": "D'une rivière de Quimper"
+            }
+          },
+          "morbihan-nom": {
+            "prompt": "Que signifie le nom du Morbihan, en breton ?",
+            "hint": "Il désigne le golfe parsemé d'îles qui s'ouvre près de Vannes.",
+            "anecdote": "Mor signifie la mer, et bihan, petit. C'est le seul département français dont le nom vient du breton.",
+            "answers": {
+              "la-petite-mer": "La petite mer",
+              "la-grande-baie": "La grande baie",
+              "la-mer-blanche": "La mer blanche",
+              "le-pays-des-iles": "Le pays des îles"
+            }
+          },
+          "rance": {
+            "prompt": "Quel fleuve côtier sépare Saint-Malo de Dinard, avant de se jeter dans la Manche ?",
+            "hint": "Il passe aussi au pied des remparts de Dinan.",
+            "anecdote": "Son estuaire, large et sinueux, est remonté par la marée jusqu'aux environs de Dinan.",
+            "answers": {
+              "la-rance": "La Rance",
+              "le-couesnon": "Le Couesnon",
+              "l-arguenon": "L'Arguenon",
+              "la-vilaine": "La Vilaine"
+            }
+          },
+          "couesnon": {
+            "prompt": "Quel fleuve côtier marque en partie la limite entre la Bretagne et la Normandie, au fond de la baie du Mont-Saint-Michel ?",
+            "hint": "Un dicton affirme que sa folie a mis le Mont en Normandie.",
+            "anecdote": "Il se jette dans la baie au pied du Mont-Saint-Michel, qui se trouve dans la Manche, en Normandie.",
+            "answers": {
+              "le-couesnon": "Le Couesnon",
+              "la-selune": "La Sélune",
+              "la-rance": "La Rance",
+              "la-vire": "La Vire"
+            }
+          },
+          "dep-saint-brieuc": {
+            "prompt": "Touchez le département dont la préfecture est Saint-Brieuc.",
+            "hint": "C'est le département du nord de la région, tourné vers la Manche, entre la baie de Saint-Brieuc et la côte de granit rose.",
+            "anecdote": "La ville domine une vaste baie où la mer se retire à plusieurs kilomètres à marée basse."
+          },
+          "dep-lannion": {
+            "prompt": "Touchez le département de Lannion, au bord du Léguer.",
+            "hint": "C'est le département du nord de la région, tourné vers la Manche, entre la baie de Saint-Brieuc et la côte de granit rose.",
+            "anecdote": "La ville est un centre des télécommunications depuis l'installation d'un centre de recherche du CNET, au début des années 1960."
+          },
+          "dep-perros": {
+            "prompt": "Touchez le département de Perros-Guirec et de sa côte de granit rose.",
+            "hint": "C'est le département du nord de la région, tourné vers la Manche, entre la baie de Saint-Brieuc et la côte de granit rose.",
+            "anecdote": "Les rochers de Ploumanac'h, sculptés par l'érosion, portent des surnoms comme la Tête de mort ou le Champignon."
+          },
+          "dep-guingamp": {
+            "prompt": "Touchez le département de Guingamp, dont le club de football a gagné la Coupe de France en 2009.",
+            "hint": "C'est le département du nord de la région, tourné vers la Manche, entre la baie de Saint-Brieuc et la côte de granit rose.",
+            "anecdote": "Le club a battu le Stade rennais en finale, alors qu'il jouait en deuxième division."
+          },
+          "dep-quimper": {
+            "prompt": "Touchez le département dont la préfecture est Quimper.",
+            "hint": "C'est le département le plus à l'ouest de la région, et de toute la France métropolitaine.",
+            "anecdote": "En breton, kemper désigne un confluent : celui de l'Odet et du Steir."
+          },
+          "dep-brest": {
+            "prompt": "Touchez le département de Brest, grand port militaire au fond de sa rade.",
+            "hint": "C'est le département le plus à l'ouest de la région, et de toute la France métropolitaine.",
+            "anecdote": "La ville a presque entièrement été détruite pendant la Seconde Guerre mondiale, puis reconstruite."
+          },
+          "dep-roscoff": {
+            "prompt": "Touchez le département de Roscoff, d'où partent les ferries vers l'Angleterre et l'Irlande.",
+            "hint": "C'est le département le plus à l'ouest de la région, et de toute la France métropolitaine.",
+            "anecdote": "La ville abrite aussi une grande station de biologie marine, fondée en 1872."
+          },
+          "dep-concarneau": {
+            "prompt": "Touchez le département de Concarneau, port de pêche et ville close.",
+            "hint": "C'est le département le plus à l'ouest de la région, et de toute la France métropolitaine.",
+            "anecdote": "Sa vieille ville fortifiée occupe un îlot au milieu du port."
+          },
+          "dep-rennes": {
+            "prompt": "Touchez le département dont la préfecture est Rennes.",
+            "hint": "C'est le département de l'est de la région, voisin de la Normandie et de la Mayenne.",
+            "anecdote": "Rennes est la ville la plus peuplée de Bretagne, avec environ 225 000 habitants."
+          },
+          "dep-saint-malo": {
+            "prompt": "Touchez le département de Saint-Malo, la cité corsaire.",
+            "hint": "C'est le département de l'est de la région, voisin de la Normandie et de la Mayenne.",
+            "anecdote": "Ses remparts ont presque entièrement résisté aux combats de 1944, contrairement à la ville qu'ils entourent."
+          },
+          "dep-fougeres": {
+            "prompt": "Touchez le département de Fougères et de son grand château fort.",
+            "hint": "C'est le département de l'est de la région, voisin de la Normandie et de la Mayenne.",
+            "anecdote": "Victor Hugo y a situé une partie de son roman Quatre-vingt-treize."
+          },
+          "dep-cancale": {
+            "prompt": "Touchez le département de Cancale, la cité des huîtres.",
+            "hint": "C'est le département de l'est de la région, voisin de la Normandie et de la Mayenne.",
+            "anecdote": "Ses parcs à huîtres s'étendent sur l'estran de la baie du Mont-Saint-Michel."
+          },
+          "dep-vannes": {
+            "prompt": "Touchez le département dont la préfecture est Vannes.",
+            "hint": "C'est le département du sud de la région, tourné vers l'océan Atlantique.",
+            "anecdote": "La ville est bâtie au fond du golfe du Morbihan."
+          },
+          "dep-lorient": {
+            "prompt": "Touchez le département de Lorient, la ville aux cinq ports.",
+            "hint": "C'est le département du sud de la région, tourné vers l'océan Atlantique.",
+            "anecdote": "Son nom rappelle la Compagnie des Indes orientales, qui y a installé ses chantiers en 1666."
+          },
+          "dep-carnac": {
+            "prompt": "Touchez le département de Carnac et de ses alignements de menhirs.",
+            "hint": "C'est le département du sud de la région, tourné vers l'océan Atlantique.",
+            "anecdote": "Les mégalithes de Carnac et des rives du Morbihan sont inscrits au patrimoine mondial de l'UNESCO depuis 2025."
+          },
+          "dep-pontivy": {
+            "prompt": "Touchez le département de Pontivy, au bord du Blavet.",
+            "hint": "C'est le département du sud de la région, tourné vers l'océan Atlantique.",
+            "anecdote": "Sous l'Empire, la ville a reçu un nouveau quartier aux rues droites et s'est appelée Napoléonville."
+          },
+          "drapeau": {
+            "prompt": "Comment s'appelle ce drapeau, rayé de noir et de blanc, avec un canton semé d'hermines ?",
+            "hint": "Son nom breton signifie simplement blanc et noir.",
+            "anecdote": "Il a été dessiné en 1923 par Morvan Marchal. Ses neuf bandes représenteraient les anciens évêchés de Bretagne.",
+            "answers": {
+              "le-gwenn-ha-du": "Le Gwenn-ha-du",
+              "le-kroaz-du": "Le Kroaz Du",
+              "la-croix-de-saint-piran": "La croix de Saint-Piran",
+              "l-ikurrina": "L'Ikurriña"
+            }
+          },
+          "saint-malo": {
+            "prompt": "Quelle cité corsaire, entourée de remparts, s'avance dans la mer à l'embouchure de la Rance ?",
+            "hint": "Jacques Cartier en est parti en 1534 pour son premier voyage vers le Canada.",
+            "anecdote": "À marée haute, la vieille ville, appelée intra-muros, est presque entourée par la mer. Les marées y comptent parmi les plus fortes d'Europe.",
+            "answers": {
+              "granville": "Granville"
+            }
+          },
+          "rennes-pans": {
+            "prompt": "Dans quelle ville se trouvent ces maisons à pans de bois, épargnées par le grand incendie de 1720 ?",
+            "hint": "C'est la préfecture de l'Ille-et-Vilaine.",
+            "anecdote": "L'incendie a duré près d'une semaine et détruit des centaines de maisons. Le centre a ensuite été rebâti en pierre."
+          },
+          "quimper-cathedrale": {
+            "prompt": "Dans quelle ville se dresse cette cathédrale Saint-Corentin, au bord de l'Odet ?",
+            "hint": "C'est la préfecture du Finistère.",
+            "anecdote": "Ses deux flèches n'ont été ajoutées qu'en 1856. Le chœur et la nef ne sont pas tout à fait dans le même axe."
+          },
+          "vannes-remparts": {
+            "prompt": "Dans quelle ville se trouvent ces remparts et ces anciens lavoirs, au bord d'un jardin à la française ?",
+            "hint": "C'est la préfecture du Morbihan.",
+            "anecdote": "En 1532, les états de Bretagne y ont demandé l'union perpétuelle du duché au royaume de France."
+          },
+          "ploumanach": {
+            "prompt": "Sur quelle côte se trouvent ces rochers de Ploumanac'h, aux formes étranges, sculptées par l'érosion ?",
+            "hint": "Elle s'étend autour de Perros-Guirec et de Trégastel.",
+            "anecdote": "Le granite y doit sa teinte au feldspath rose qu'il contient. L'érosion a sculpté les blocs pendant des millions d'années.",
+            "answers": {
+              "la-cote-de-granit-rose": "La côte de granit rose",
+              "la-cote-d-emeraude": "La côte d'Émeraude",
+              "la-cote-des-legendes": "La côte des Légendes",
+              "la-cote-sauvage": "La côte sauvage"
+            }
+          },
+          "golfe-morbihan": {
+            "prompt": "Quel golfe, parsemé de dizaines d'îles, s'ouvre sur l'océan entre Locmariaquer et la presqu'île de Rhuys ?",
+            "hint": "Son nom breton signifie la petite mer.",
+            "anecdote": "Selon la tradition, il compterait autant d'îles que de jours dans l'année. On en dénombre en réalité une quarantaine.",
+            "answers": {
+              "le-golfe-du-morbihan": "Le golfe du Morbihan",
+              "la-baie-de-saint-brieuc": "La baie de Saint-Brieuc",
+              "la-rade-de-brest": "La rade de Brest",
+              "la-baie-de-douarnenez": "La baie de Douarnenez"
+            }
+          },
+          "brest-recouvrance": {
+            "prompt": "Dans quelle ville ce pont levant franchit-il la Penfeld, entre le château et le quartier de Recouvrance ?",
+            "hint": "C'est le grand port militaire de la pointe de Bretagne.",
+            "anecdote": "Inauguré en 1954, le pont de Recouvrance a longtemps été le plus grand pont levant d'Europe. Son tablier se soulève pour laisser passer les navires.",
+            "answers": {
+              "saint-nazaire": "Saint-Nazaire",
+              "cherbourg": "Cherbourg"
+            }
+          },
+          "dinan": {
+            "prompt": "Quelle ville médiévale, entourée de remparts, domine le port et la vallée de la Rance ?",
+            "hint": "Le cœur de Bertrand du Guesclin repose dans l'une de ses églises.",
+            "anecdote": "La rue du Jerzual, pavée et très raide, relie le port à la vieille ville. Elle était autrefois celle des artisans."
+          },
+          "monts-arree": {
+            "prompt": "Quelles collines de landes et de crêtes rocheuses forment le toit de la Bretagne, au centre du Finistère ?",
+            "hint": "Elles se trouvent au cœur du parc naturel régional d'Armorique.",
+            "anecdote": "Leur point culminant, le Roc'h Ruz, atteint 385 mètres. Les légendes placent dans leurs marais l'une des portes de l'enfer.",
+            "answers": {
+              "les-monts-d-arree": "Les monts d'Arrée",
+              "les-montagnes-noires": "Les Montagnes Noires",
+              "le-menez-hom": "Le Ménez-Hom",
+              "les-landes-de-lanvaux": "Les landes de Lanvaux"
+            }
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs de Bretagne",
+          "description": "Galettes et crêpes, cidre et beurre salé, huîtres, coquilles Saint-Jacques et légumes du Léon : la table d'une région de mer et de bocage.",
+          "galette": {
+            "prompt": "Quelle spécialité, faite avec de la farine de sarrasin, est servie ici garnie de jambon, d'œuf et de fromage ?",
+            "hint": "On l'appelle aussi crêpe de blé noir, surtout dans l'ouest de la Bretagne.",
+            "anecdote": "Garnie de jambon, d'œuf et de fromage, on l'appelle une complète. La farine de blé noir de Bretagne a une indication géographique protégée depuis 2010.",
+            "answers": {
+              "la-galette": "La galette",
+              "la-crepe-de-froment": "La crêpe de froment",
+              "la-crepe-dentelle": "La crêpe dentelle",
+              "le-far": "Le far"
+            }
+          },
+          "crepes": {
+            "prompt": "Comment appelle-t-on ces fines galettes de farine de blé, souvent servies avec du sucre ou du beurre ?",
+            "hint": "Elles sont dorées et sucrées, à la différence de leurs cousines au sarrasin.",
+            "anecdote": "On les cuit traditionnellement sur une grande plaque de fonte, avec une raclette en bois pour étaler la pâte.",
+            "answers": {
+              "des-crepes-de-froment": "Des crêpes de froment",
+              "des-galettes-de-ble-noir": "Des galettes de blé noir",
+              "des-gaufres": "Des gaufres",
+              "des-pannequets": "Des pannequets"
+            }
+          },
+          "billig": {
+            "prompt": "Comment appelle-t-on en breton la plaque de fonte sur laquelle on cuit les crêpes ?",
+            "hint": "Ce mot de six lettres est aussi utilisé par les crêpiers dans toute la France.",
+            "anecdote": "La pâte y est étalée avec un rozell, une petite raclette en bois, puis retournée avec une spatule, la spanell.",
+            "answers": {
+              "le-billig": "Le billig",
+              "le-rozell": "Le rozell",
+              "la-spanell": "La spanell",
+              "le-krampouezh": "Le krampouezh"
+            }
+          },
+          "sarrasin-famille": {
+            "prompt": "Le sarrasin n'est pas une céréale. De quelle plante potagère est-il un proche parent ?",
+            "hint": "Ses feuilles ont un goût acide, et on la cuisine souvent en soupe.",
+            "anecdote": "Il appartient à la famille des polygonacées, comme la rhubarbe. On l'appelle blé noir à cause de la couleur sombre de ses graines.",
+            "answers": {
+              "l-oseille": "L'oseille",
+              "le-mais": "Le maïs",
+              "l-epinard": "L'épinard",
+              "le-poireau": "Le poireau"
+            }
+          },
+          "sarrasin-champ": {
+            "prompt": "Quelle plante, dont la farine sert à faire les galettes, fleurit ainsi en blanc et en rose ?",
+            "hint": "On l'appelle aussi le blé noir.",
+            "anecdote": "Elle pousse sur des terres pauvres, en à peine trois mois. Sa culture a beaucoup reculé au XXe siècle, avant de reprendre en Bretagne.",
+            "answers": {
+              "le-sarrasin": "Le sarrasin",
+              "le-seigle": "Le seigle",
+              "le-lin": "Le lin",
+              "le-millet": "Le millet"
+            }
+          },
+          "galette-saucisse": {
+            "prompt": "Quelle spécialité de Haute-Bretagne, très appréciée des supporters du Stade rennais, se vend dans les stades et sur les marchés ?",
+            "hint": "Une charcuterie grillée y est enroulée dans une crêpe de sarrasin.",
+            "anecdote": "Les supporters du club lui ont même consacré une chanson. On la vend aussi beaucoup sur les marchés d'Ille-et-Vilaine.",
+            "answers": {
+              "la-galette-saucisse": "La galette-saucisse",
+              "le-kig-ha-farz": "Le kig ha farz",
+              "la-crepe-complete": "La crêpe complète",
+              "l-andouille-au-ble-noir": "L'andouille au blé noir"
+            }
+          },
+          "krampouezh": {
+            "prompt": "Comment dit-on crêpes en breton ?",
+            "hint": "Ce mot apparaît dans le nom de nombreuses crêperies.",
+            "anecdote": "Beaucoup de crêperies portent le nom de Ti krampouezh, qui signifie la maison des crêpes.",
+            "answers": {
+              "krampouezh": "Krampouezh",
+              "kouign": "Kouign",
+              "farz": "Farz",
+              "billig": "Billig"
+            }
+          },
+          "kouign-amann": {
+            "prompt": "Quel gâteau de Douarnenez, très riche en beurre et en sucre, a un nom breton qui signifie gâteau au beurre ?",
+            "hint": "Le sucre caramélise pendant la cuisson et forme une croûte brillante.",
+            "anecdote": "Il aurait été inventé vers 1860 par un boulanger de Douarnenez. La pâte, comme une pâte feuilletée, est pliée plusieurs fois avec le beurre.",
+            "answers": {
+              "le-kouign-amann": "Le kouign-amann",
+              "le-far-breton": "Le far breton",
+              "le-gateau-breton": "Le gâteau breton",
+              "le-craquelin": "Le craquelin"
+            }
+          },
+          "far-breton": {
+            "prompt": "Quel flan épais, cuit au four, est souvent garni de pruneaux ?",
+            "hint": "Son nom vient d'un mot breton qui désignait une bouillie de farine.",
+            "anecdote": "Autrefois salé et servi en accompagnement, il est devenu un dessert. Les pruneaux sont venus plus tard, et les raisins secs aussi.",
+            "answers": {
+              "le-far-breton": "Le far breton",
+              "le-clafoutis": "Le clafoutis",
+              "le-flan-patissier": "Le flan pâtissier",
+              "la-flognarde": "La flognarde"
+            }
+          },
+          "caramel": {
+            "prompt": "Quelle douceur, mise au point en 1977 par un chocolatier de Quiberon, est devenue l'une des saveurs les plus connues de Bretagne ?",
+            "hint": "Elle se tartine ou nappe les crêpes.",
+            "anecdote": "Le chocolatier Henri Le Roux en a fait une spécialité. Elle s'est ensuite répandue dans toute la France.",
+            "answers": {
+              "le-caramel-au-beurre-sale": "Le caramel au beurre salé",
+              "le-nougat": "Le nougat",
+              "la-creme-de-marrons": "La crème de marrons",
+              "le-dulce-de-leche": "Le dulce de leche"
+            }
+          },
+          "palets": {
+            "prompt": "Comment appelle-t-on ces biscuits épais et dorés, très riches en beurre ?",
+            "hint": "Leur nom évoque un disque de jeu que l'on lance sur une planche.",
+            "anecdote": "Leurs cousines, les galettes, sont plus fines et plus croustillantes. Celles de Pont-Aven sont réputées depuis le début du XXe siècle.",
+            "answers": {
+              "des-palets-bretons": "Des palets bretons",
+              "des-sables-de-nancay": "Des sablés de Nançay",
+              "des-macarons": "Des macarons",
+              "des-croquants": "Des croquants"
+            }
+          },
+          "beurre-sale": {
+            "prompt": "Pourquoi les Bretons ont-ils pris l'habitude de saler leur beurre ?",
+            "hint": "Cela tenait à un impôt de l'Ancien Régime.",
+            "anecdote": "La Bretagne était un pays franc, exempté de la gabelle, l'impôt sur le sel. Le sel y était donc bon marché et servait à conserver le beurre.",
+            "answers": {
+              "la-province-etait-exemptee-de-l-impot-sur-le-sel": "La province était exemptée de l'impôt sur le sel",
+              "le-lait-breton-etait-trop-sale": "Le lait breton était trop salé",
+              "le-roi-l-avait-impose-aux-marins": "Le roi l'avait imposé aux marins",
+              "le-sel-venait-gratuitement-d-espagne": "Le sel venait gratuitement d'Espagne"
+            }
+          },
+          "gateau-breton": {
+            "prompt": "Quel gâteau dense et doré, sans levure ou presque, se reconnaît aux croisillons dessinés sur le dessus ?",
+            "hint": "Il est fait de farine, de sucre, de jaunes d'œufs et de beaucoup de beurre salé.",
+            "anecdote": "Il est parfois fourré de pruneaux ou de confiture. Il se conserve plusieurs jours.",
+            "answers": {
+              "le-gateau-breton": "Le gâteau breton",
+              "le-gateau-basque": "Le gâteau basque",
+              "la-galette-des-rois": "La galette des rois",
+              "le-quatre-quarts": "Le quatre-quarts"
+            }
+          },
+          "cidre-bolee": {
+            "prompt": "Quelle boisson sert-on traditionnellement dans ces bols de faïence, appelés bolées, avec les crêpes ?",
+            "hint": "Elle est faite à partir de pommes fermentées.",
+            "anecdote": "Le cidre de Cornouaille a reçu une appellation d'origine en 1996.",
+            "answers": {
+              "le-cidre": "Le cidre",
+              "le-chouchen": "Le chouchen",
+              "le-lait-ribot": "Le lait ribot",
+              "le-poire": "Le poiré"
+            }
+          },
+          "chouchen": {
+            "prompt": "Quelle boisson bretonne est faite à partir de miel fermenté dans de l'eau ?",
+            "hint": "C'est une sorte d'hydromel.",
+            "anecdote": "On la buvait déjà au Moyen Âge. Elle se sert fraîche, à l'apéritif.",
+            "answers": {
+              "le-chouchen": "Le chouchen",
+              "le-lambig": "Le lambig",
+              "le-pommeau": "Le pommeau",
+              "le-cidre": "Le cidre"
+            }
+          },
+          "lambig": {
+            "prompt": "Comment appelle-t-on l'eau-de-vie obtenue en distillant du cidre, en Bretagne ?",
+            "hint": "En Normandie, une boisson voisine s'appelle le calvados.",
+            "anecdote": "Elle vieillit en fût de chêne, souvent pendant plusieurs années, et se sert en digestif.",
+            "answers": {
+              "le-lambig": "Le lambig",
+              "le-chouchen": "Le chouchen",
+              "le-kirsch": "Le kirsch",
+              "le-marc": "Le marc"
+            }
+          },
+          "lait-ribot": {
+            "prompt": "Quelle boisson légèrement acide accompagnait traditionnellement les galettes et les crêpes ?",
+            "hint": "C'est le liquide qui reste quand on a baratté la crème pour faire le beurre.",
+            "anecdote": "On l'appelle aussi babeurre. Il était autrefois la boisson de tous les jours dans les fermes bretonnes.",
+            "answers": {
+              "le-lait-ribot": "Le lait ribot",
+              "le-petit-lait": "Le petit-lait",
+              "le-lait-concentre": "Le lait concentré",
+              "le-lait-d-amande": "Le lait d'amande"
+            }
+          },
+          "huitres-cancale": {
+            "prompt": "Quels coquillages élève-t-on dans ces parcs, découverts à marée basse au pied de Cancale ?",
+            "hint": "On les ouvre avec un couteau spécial.",
+            "anecdote": "On y élève à la fois des creuses et des plates. Sur le port, on peut les déguster face à la mer.",
+            "answers": {
+              "des-huitres": "Des huîtres",
+              "des-moules": "Des moules",
+              "des-coques": "Des coques",
+              "des-palourdes": "Des palourdes"
+            }
+          },
+          "belon": {
+            "prompt": "Quel nom porte l'huître plate élevée dans l'estuaire d'une petite rivière du sud du Finistère ?",
+            "hint": "Elle porte le nom de cette rivière.",
+            "anecdote": "La rivière de Bélon se jette dans l'océan près de Riec-sur-Bélon et Moëlan-sur-Mer.",
+            "answers": {
+              "la-belon": "La belon",
+              "la-fine-de-claire": "La fine de claire",
+              "la-speciale": "La spéciale",
+              "la-creuse": "La creuse"
+            }
+          },
+          "saint-jacques": {
+            "prompt": "Quel coquillage fait la réputation de la baie de Saint-Brieuc et du port d'Erquy ?",
+            "hint": "Sa coquille, en éventail, est le symbole des pèlerins de Compostelle.",
+            "anecdote": "Pour protéger la ressource, sa pêche n'est ouverte que quelques heures par semaine, d'octobre à avril.",
+            "answers": {
+              "la-coquille-saint-jacques": "La coquille Saint-Jacques",
+              "l-huitre-plate": "L'huître plate",
+              "l-ormeau": "L'ormeau",
+              "la-praire": "La praire"
+            }
+          },
+          "langoustine": {
+            "prompt": "Quel crustacé, souvent vendu vivant, fait la réputation des ports du pays bigouden, comme Le Guilvinec ?",
+            "hint": "Il ressemble à un petit homard aux pinces fines.",
+            "anecdote": "On l'appelle aussi la demoiselle. Les bateaux rentrent chaque fin d'après-midi pour la criée.",
+            "answers": {
+              "la-langoustine": "La langoustine",
+              "l-araignee-de-mer": "L'araignée de mer",
+              "le-tourteau": "Le tourteau",
+              "la-crevette-grise": "La crevette grise"
+            }
+          },
+          "homard": {
+            "prompt": "Quel crustacé à la carapace bleu foncé, qui devient rouge à la cuisson, est pêché au casier sur les côtes rocheuses de Bretagne ?",
+            "hint": "Il possède deux grosses pinces, différentes l'une de l'autre.",
+            "anecdote": "Le homard européen vit dans les fonds rocheux. On le pêche surtout du printemps à l'automne.",
+            "answers": {
+              "le-homard": "Le homard",
+              "la-langouste": "La langouste",
+              "le-tourteau": "Le tourteau",
+              "l-araignee-de-mer": "L'araignée de mer"
+            }
+          },
+          "sardine": {
+            "prompt": "Quel petit poisson a fait la fortune des conserveries de Douarnenez et de Concarneau au XIXe siècle ?",
+            "hint": "On le met en boîte, à l'huile.",
+            "anecdote": "En 1924, les ouvrières des conserveries de Douarnenez, les Penn sardin, ont mené une grève restée célèbre.",
+            "answers": {
+              "la-sardine": "La sardine",
+              "le-hareng": "Le hareng",
+              "l-anchois": "L'anchois",
+              "le-maquereau": "Le maquereau"
+            }
+          },
+          "cotriade": {
+            "prompt": "Quelle soupe de poissons et de pommes de terre préparaient les pêcheurs bretons à bord ou au retour de la pêche ?",
+            "hint": "Son nom viendrait d'un mot breton qui désigne le contenu d'une marmite.",
+            "anecdote": "On y met les poissons invendus du jour. Le bouillon se sert d'abord sur du pain, puis le poisson et les pommes de terre.",
+            "answers": {
+              "la-cotriade": "La cotriade",
+              "la-bouillabaisse": "La bouillabaisse",
+              "la-chaudree": "La chaudrée",
+              "la-bourride": "La bourride"
+            }
+          },
+          "artichaut": {
+            "prompt": "Quel légume, dont on mange le cœur et la base des feuilles, est cultivé en grande quantité dans le Léon ?",
+            "hint": "La variété la plus connue en Bretagne est ronde et s'appelle le camus.",
+            "anecdote": "La Bretagne en est de loin la première région productrice en France.",
+            "answers": {
+              "l-artichaut": "L'artichaut",
+              "le-chou-fleur": "Le chou-fleur",
+              "le-poireau": "Le poireau",
+              "le-cardon": "Le cardon"
+            }
+          },
+          "chou-fleur": {
+            "prompt": "Quel légume d'hiver, à la grosse pomme blanche et serrée, couvre les champs autour de Saint-Pol-de-Léon ?",
+            "hint": "Il est blanc, mais on en trouve aussi de couleur violette ou verte.",
+            "anecdote": "Grâce au climat doux du littoral, on peut le récolter presque toute l'année. La Bretagne produit la plus grande partie de ceux de France.",
+            "answers": {
+              "le-chou-fleur": "Le chou-fleur",
+              "le-brocoli": "Le brocoli",
+              "le-chou-de-bruxelles": "Le chou de Bruxelles",
+              "le-navet": "Le navet"
+            }
+          },
+          "coco-paimpol": {
+            "prompt": "Quel haricot demi-sec, récolté à la main dans le Trégor et le Goëlo, a été le premier légume frais à obtenir une appellation d'origine ?",
+            "hint": "Il porte le nom d'un port des Côtes-d'Armor.",
+            "anecdote": "Son appellation d'origine date de 1998. Il aurait été rapporté d'Argentine par un marin, dans les années 1920.",
+            "answers": {
+              "le-coco-de-paimpol": "Le coco de Paimpol",
+              "le-lingot-du-nord": "Le lingot du Nord",
+              "la-mogette": "La mogette",
+              "le-haricot-tarbais": "Le haricot tarbais"
+            }
+          },
+          "oignon-roscoff": {
+            "prompt": "Quel oignon rosé, aujourd'hui protégé par une appellation d'origine, était vendu en Angleterre par les Johnnies ?",
+            "hint": "Il porte le nom d'un port du Léon.",
+            "anecdote": "À partir de 1828, ces marchands traversaient la Manche et allaient le vendre de porte en porte, à vélo, avec des tresses d'oignons sur les épaules.",
+            "answers": {
+              "l-oignon-de-roscoff": "L'oignon de Roscoff",
+              "l-oignon-doux-des-cevennes": "L'oignon doux des Cévennes",
+              "l-oignon-rouge-de-simiane": "L'oignon rouge de Simiane",
+              "l-echalote-de-jersey": "L'échalote de Jersey"
+            }
+          },
+          "fraise-plougastel": {
+            "prompt": "Quel fruit fait la réputation de Plougastel-Daoulas, au bord de la rade de Brest ?",
+            "hint": "Un officier de marine en a rapporté un plant du Chili, en 1714.",
+            "anecdote": "Amédée-François Frézier, dont le nom rappelle bien celui du fruit, l'a introduite en France. Un musée lui est consacré à Plougastel.",
+            "answers": {
+              "la-fraise": "La fraise",
+              "la-framboise": "La framboise",
+              "la-cerise": "La cerise",
+              "la-groseille": "La groseille"
+            }
+          },
+          "porc": {
+            "prompt": "Quelle part environ des porcs élevés en France le sont en Bretagne ?",
+            "hint": "C'est de loin la première région pour cet élevage.",
+            "anecdote": "La Bretagne est aussi une grande région de volailles et de vaches laitières.",
+            "answers": {
+              "plus-de-la-moitie": "Plus de la moitié",
+              "un-dixieme": "Un dixième",
+              "un-quart": "Un quart",
+              "un-tiers": "Un tiers"
+            }
+          },
+          "kig-ha-farz": {
+            "prompt": "Quel pot-au-feu du Léon est servi avec un far de sarrasin cuit dans un sac de toile, au milieu du bouillon ?",
+            "hint": "Son nom breton signifie viande et far.",
+            "anecdote": "Le far, une fois cuit, est émietté et parfois arrosé de beurre fondu, puis servi avec les viandes et les légumes.",
+            "answers": {
+              "le-kig-ha-farz": "Le kig ha farz",
+              "la-potee-bretonne": "La potée bretonne",
+              "la-cotriade": "La cotriade",
+              "le-pot-au-feu-a-la-normande": "Le pot-au-feu à la normande"
+            }
+          },
+          "andouille-guemene": {
+            "prompt": "Quelle charcuterie fumée du Morbihan révèle, une fois tranchée, des cercles concentriques ?",
+            "hint": "Elle porte le nom d'une petite ville au bord du Scorff.",
+            "anecdote": "Elle est faite de boyaux de porc enfilés les uns dans les autres, puis longuement fumée au bois de hêtre.",
+            "answers": {
+              "l-andouille-de-guemene": "L'andouille de Guémené",
+              "l-andouille-de-vire": "L'andouille de Vire",
+              "l-andouillette-de-troyes": "L'andouillette de Troyes",
+              "la-saucisse-de-molene": "La saucisse de Molène"
+            }
+          },
+          "marais-dol": {
+            "prompt": "Quelle terre du nord de l'Ille-et-Vilaine, gagnée sur la mer, produit des légumes face à la baie du Mont-Saint-Michel ?",
+            "hint": "Elle s'étend autour de Dol-de-Bretagne.",
+            "anecdote": "Elle a été protégée de la mer par des digues, dès le Moyen Âge. Ses sols fertiles sont propices au maraîchage.",
+            "answers": {
+              "le-marais-de-dol": "Le marais de Dol",
+              "la-briere": "La Brière",
+              "le-marais-breton": "Le marais breton",
+              "le-cotentin": "Le Cotentin"
+            }
+          },
+          "algues": {
+            "prompt": "Que récoltent les goémoniers, sur l'estran et en mer, au large du Léon ?",
+            "hint": "On s'en sert dans l'alimentation, la cosmétique et autrefois comme engrais.",
+            "anecdote": "Le nord du Finistère est la première zone de récolte en France. Certaines se mangent en salade ou en tartare.",
+            "answers": {
+              "des-algues": "Des algues",
+              "des-coquillages": "Des coquillages",
+              "du-sable": "Du sable",
+              "du-sel": "Du sel"
+            }
+          },
+          "crepe-dentelle": {
+            "prompt": "Quel biscuit très fin et croustillant, roulé sur lui-même, est une spécialité de Quimper ?",
+            "hint": "Il est si fin qu'il se brise au moindre contact.",
+            "anecdote": "Selon la tradition, il serait né à la fin du XIXe siècle d'une crêpe oubliée trop longtemps sur la plaque.",
+            "answers": {
+              "la-crepe-dentelle": "La crêpe dentelle",
+              "le-palet-breton": "Le palet breton",
+              "le-craquelin": "Le craquelin",
+              "la-tuile-aux-amandes": "La tuile aux amandes"
+            }
+          },
+          "craquelin": {
+            "prompt": "Quel biscuit sec et léger, ébouillanté puis cuit au four, est une spécialité de Saint-Malo ?",
+            "hint": "Il craque sous la dent, d'où son nom.",
+            "anecdote": "Il se mangeait autrefois beurré, avec le cidre.",
+            "answers": {
+              "le-craquelin": "Le craquelin",
+              "le-kouign-amann": "Le kouign-amann",
+              "le-palet-breton": "Le palet breton",
+              "le-far": "Le far"
+            }
+          },
+          "pommeau": {
+            "prompt": "Quelle boisson d'apéritif associe jus de pomme et eau-de-vie de cidre, puis vieillit en fût ?",
+            "hint": "Son nom vient du fruit dont il est fait.",
+            "anecdote": "Le pommeau de Bretagne a reçu une appellation d'origine en 1997.",
+            "answers": {
+              "le-pommeau": "Le pommeau",
+              "le-chouchen": "Le chouchen",
+              "le-poire": "Le poiré",
+              "le-lambig": "Le lambig"
+            }
+          },
+          "dep-guemene": {
+            "prompt": "Touchez le département de Guémené-sur-Scorff, la ville de l'andouille.",
+            "hint": "C'est le département du sud de la région, tourné vers l'océan Atlantique.",
+            "anecdote": "Une confrérie y défend chaque année la recette traditionnelle."
+          },
+          "dep-paimpol": {
+            "prompt": "Touchez le département de Paimpol, le port du coco.",
+            "hint": "C'est le département du nord de la région, tourné vers la Manche.",
+            "anecdote": "Paimpol a aussi été le port des pêcheurs d'Islande, racontés par Pierre Loti."
+          },
+          "dep-douarnenez": {
+            "prompt": "Touchez le département de Douarnenez, où serait né le kouign-amann.",
+            "hint": "C'est le département le plus à l'ouest de la région, et de toute la France métropolitaine.",
+            "anecdote": "Douarnenez a été l'un des premiers ports sardiniers de France."
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Mégalithes de Carnac, châteaux forts des marches, enclos paroissiaux et citadelles du littoral : le patrimoine breton en images.",
+          "carnac": {
+            "prompt": "Quel site du Morbihan aligne près de 3 000 menhirs en longues rangées, sur plusieurs kilomètres ?",
+            "hint": "Ses trois grands ensembles s'appellent le Ménec, Kermario et Kerlescan.",
+            "anecdote": "Ces pierres ont été dressées au Néolithique, il y a plus de 6 000 ans. Leur fonction exacte reste discutée.",
+            "answers": {
+              "les-alignements-de-carnac": "Les alignements de Carnac",
+              "les-alignements-de-kerzerho": "Les alignements de Kerzerho",
+              "les-alignements-du-moulin": "Les alignements du Moulin",
+              "le-cromlech-d-er-lannic": "Le cromlech d'Er Lannic"
+            }
+          },
+          "barnenez": {
+            "prompt": "Quel cairn de la baie de Morlaix, bâti vers 4 500 avant notre ère, a été surnommé le Parthénon mégalithique ?",
+            "hint": "Il abrite onze chambres funéraires, chacune reliée à l'extérieur par un couloir.",
+            "anecdote": "André Malraux lui a donné ce surnom. Dans les années 1950, une carrière qui y prélevait des pierres a failli le détruire.",
+            "answers": {
+              "le-cairn-de-barnenez": "Le cairn de Barnenez",
+              "le-cairn-de-gavrinis": "Le cairn de Gavrinis",
+              "le-tumulus-saint-michel": "Le tumulus Saint-Michel",
+              "le-cairn-du-petit-mont": "Le cairn du Petit Mont"
+            }
+          },
+          "gavrinis": {
+            "prompt": "Quel cairn, sur une petite île du golfe du Morbihan, renferme des dalles couvertes de gravures en spirales et en vagues ?",
+            "hint": "On n'y accède qu'en bateau, depuis Larmor-Baden.",
+            "anecdote": "L'une de ses dalles provient d'une stèle plus ancienne, dont un autre morceau couvre la Table des Marchand, à Locmariaquer.",
+            "answers": {
+              "le-cairn-de-gavrinis": "Le cairn de Gavrinis",
+              "le-cairn-de-barnenez": "Le cairn de Barnenez",
+              "le-tumulus-de-kercado": "Le tumulus de Kercado",
+              "le-cairn-du-petit-mont": "Le cairn du Petit Mont"
+            }
+          },
+          "grand-menhir": {
+            "prompt": "Quel monolithe de Locmariaquer, aujourd'hui couché en quatre morceaux, était le plus haut menhir connu, avec environ 20 mètres ?",
+            "hint": "Il pèse près de 300 tonnes.",
+            "anecdote": "Les archéologues pensent qu'il s'est effondré peu après avoir été dressé, ou qu'il a été abattu volontairement.",
+            "answers": {
+              "le-grand-menhir-d-er-grah": "Le grand menhir d'Er Grah",
+              "le-menhir-de-champ-dolent": "Le menhir de Champ-Dolent",
+              "le-menhir-de-kerloas": "Le menhir de Kerloas",
+              "le-geant-du-manio": "Le géant du Manio"
+            }
+          },
+          "tumulus-st-michel": {
+            "prompt": "Quel immense tertre funéraire de Carnac, long d'environ 125 mètres, porte une chapelle à son sommet ?",
+            "hint": "Il date du Néolithique et renfermait des haches polies en jade.",
+            "anecdote": "Les haches de jade qu'on y a trouvées venaient des Alpes, à plus de mille kilomètres.",
+            "answers": {
+              "le-tumulus-saint-michel": "Le tumulus Saint-Michel",
+              "le-cairn-de-barnenez": "Le cairn de Barnenez",
+              "le-tumulus-de-kercado": "Le tumulus de Kercado",
+              "le-cairn-du-petit-mont": "Le cairn du Petit Mont"
+            }
+          },
+          "fort-la-latte": {
+            "prompt": "Quel château fort, sur un éperon rocheux voisin du cap Fréhel, a servi de décor au film Les Vikings, en 1958 ?",
+            "hint": "Il garde l'entrée de la baie de la Frênaye.",
+            "anecdote": "Il a été bâti au XIVe siècle par la famille Goyon. Un four à boulets rouges y a été ajouté plus tard pour incendier les navires ennemis.",
+            "answers": {
+              "fort-la-latte": "Fort-la-Latte",
+              "le-chateau-du-taureau": "Le château du Taureau",
+              "le-chateau-de-suscinio": "Le château de Suscinio",
+              "le-chateau-de-combourg": "Le château de Combourg"
+            }
+          },
+          "fougeres": {
+            "prompt": "Quelle ville possède cette forteresse aux treize tours, bâtie en contrebas des maisons, au fond d'une vallée ?",
+            "hint": "Elle protégeait la frontière du duché face au Maine et à la Normandie.",
+            "anecdote": "C'est l'un des plus grands châteaux forts d'Europe. Ses remparts entourent environ deux hectares.",
+            "answers": {
+              "chateaugiron": "Châteaugiron"
+            }
+          },
+          "vitre": {
+            "prompt": "Quelle ville d'Ille-et-Vilaine est dominée par ce château en forme de proue, aux tours coiffées de toits pointus ?",
+            "hint": "Elle se trouve sur la Vilaine, à l'est de Rennes, près de la limite du Maine.",
+            "anecdote": "Son château abrite aujourd'hui l'hôtel de ville. La cité s'est enrichie grâce au commerce des toiles de chanvre."
+          },
+          "josselin": {
+            "prompt": "Quel château du Morbihan dresse ces trois grosses tours au-dessus de l'Oust ?",
+            "hint": "La famille de Rohan le possède depuis le début du XVe siècle.",
+            "anecdote": "Côté rivière, il ressemble à une forteresse. Côté cour, il présente une façade de granit sculptée comme une dentelle.",
+            "answers": {
+              "suscinio": "Suscinio"
+            }
+          },
+          "combourg": {
+            "prompt": "Dans quel château, près de Dol, l'auteur des Mémoires d'outre-tombe a-t-il passé une partie de sa jeunesse ?",
+            "hint": "Il raconte que sa chambre, dans la tour du Chat, était hantée.",
+            "anecdote": "La forteresse appartient toujours à des descendants de la famille de l'écrivain.",
+            "answers": {
+              "kerjean": "Kerjean"
+            }
+          },
+          "suscinio": {
+            "prompt": "Quel château de la presqu'île de Rhuys était la résidence favorite des ducs de Bretagne, près de leurs forêts de chasse ?",
+            "hint": "Il se dresse près de l'océan, entouré de douves et de marais.",
+            "anecdote": "Le connétable Arthur de Richemont, futur duc, y est né en 1393. On y a retrouvé un grand pavement de carreaux décorés.",
+            "answers": {
+              "suscinio": "Suscinio",
+              "kerjean": "Kerjean"
+            }
+          },
+          "kerjean": {
+            "prompt": "Quel château Renaissance du Léon, entouré d'un large fossé, a été surnommé le Versailles breton ?",
+            "hint": "Il a été bâti au XVIe siècle pour la famille Barbier.",
+            "anecdote": "Il appartient aujourd'hui au département du Finistère, qui y organise expositions et spectacles.",
+            "answers": {
+              "kerjean": "Kerjean",
+              "kerouzere": "Kerouzéré",
+              "trevarez": "Trévarez",
+              "la-roche-jagu": "La Roche-Jagu"
+            }
+          },
+          "pontivy": {
+            "prompt": "Dans quelle ville du centre de la Bretagne se dresse ce château aux grosses tours, bâti à la fin du XVe siècle par Jean II de Rohan ?",
+            "hint": "La ville est traversée par le Blavet, à mi-chemin entre Vannes et Saint-Brieuc.",
+            "anecdote": "Les Rohan étaient l'une des plus puissantes familles du duché. Leur devise disait : Roi ne puis, prince ne daigne, Rohan suis."
+          },
+          "taureau": {
+            "prompt": "Quel fort de granit, sur un îlot de la baie de Morlaix, a aussi servi de prison d'État au XVIIIe siècle ?",
+            "hint": "Il a été bâti au XVIe siècle par les habitants de la ville, après un raid anglais.",
+            "anecdote": "Morlaix avait été pillée par une flotte anglaise en 1522. Le fort devait empêcher toute nouvelle attaque par la baie.",
+            "answers": {
+              "le-chateau-du-taureau": "Le château du Taureau",
+              "fort-la-latte": "Fort-la-Latte",
+              "le-fort-cigogne": "Le fort Cigogne",
+              "le-fort-de-la-conchee": "Le fort de la Conchée"
+            }
+          },
+          "locronan": {
+            "prompt": "Quel village du Finistère, à la place pavée bordée de maisons de granit, s'est enrichi grâce aux toiles à voiles ?",
+            "hint": "Il fait partie des plus beaux villages de France.",
+            "anecdote": "Ses toiles de chanvre équipaient les voiliers de la marine royale. Le village sert souvent de décor au cinéma.",
+            "answers": {
+              "saint-suliac": "Saint-Suliac"
+            }
+          },
+          "rochefort": {
+            "prompt": "Quel village du Morbihan, perché sur un éperon rocheux, a été élu village préféré des Français en 2016 ?",
+            "hint": "Ses façades sont fleuries de géraniums, un usage lancé par un peintre américain.",
+            "anecdote": "Le peintre Alfred Klots a racheté le château en 1907 et encouragé les habitants à fleurir leurs maisons.",
+            "answers": {
+              "la-roche-bernard": "La Roche-Bernard"
+            }
+          },
+          "moncontour": {
+            "prompt": "Quelle petite cité des Côtes-d'Armor, perchée entre deux vallées, a gardé une partie de ses remparts médiévaux ?",
+            "hint": "Elle se trouve entre Lamballe et Loudéac.",
+            "anecdote": "Son église Saint-Mathurin conserve de beaux vitraux du XVIe siècle.",
+            "answers": {
+              "quintin": "Quintin",
+              "jugon-les-lacs": "Jugon-les-Lacs",
+              "chatelaudren": "Châtelaudren"
+            }
+          },
+          "pont-aven": {
+            "prompt": "Quelle petite ville du Finistère, traversée par une rivière semée de rochers, était autrefois célèbre pour ses nombreux moulins ?",
+            "hint": "Un dicton dit qu'elle comptait quatorze moulins et quinze maisons.",
+            "anecdote": "À la fin du XIXe siècle, des peintres de toute l'Europe y ont séjourné, autour de Paul Gauguin."
+          },
+          "concarneau": {
+            "prompt": "Quel port de pêche du Finistère abrite cette ville close, ceinturée de remparts de granit ?",
+            "hint": "C'est l'un des premiers ports thoniers de France.",
+            "anecdote": "La fête des Filets bleus y est célébrée chaque été depuis 1905. Elle soutenait à l'origine les familles de pêcheurs de sardines."
+          },
+          "lorient-base": {
+            "prompt": "Quelle ville possède cette immense base de sous-marins, construite par l'occupant allemand entre 1941 et 1943 ?",
+            "hint": "La ville elle-même a été presque entièrement détruite par les bombardements de 1943.",
+            "anecdote": "La Marine nationale l'a utilisée jusqu'en 1997. Elle accueille aujourd'hui un musée et des voiliers de course au large.",
+            "answers": {
+              "saint-nazaire": "Saint-Nazaire"
+            }
+          },
+          "morlaix-viaduc": {
+            "prompt": "Au-dessus de quelle ville du Finistère passe ce viaduc ferroviaire de granit, haut de 58 mètres, bâti dans les années 1860 ?",
+            "hint": "La ville se trouve au fond d'une baie, entre le Léon et le Trégor.",
+            "anecdote": "Il porte la ligne de Paris à Brest. Il mesure environ 292 mètres de long, sur deux étages d'arches."
+          },
+          "parlement": {
+            "prompt": "Quel palais de Rennes, où siégeait la cour souveraine de la province, a été ravagé par un incendie en février 1994 ?",
+            "hint": "Il accueille aujourd'hui la cour d'appel.",
+            "anecdote": "Une fusée de détresse, tirée pendant une manifestation de marins pêcheurs, avait mis le feu à la charpente. Le palais a ensuite été entièrement restauré.",
+            "answers": {
+              "le-parlement-de-bretagne": "Le parlement de Bretagne",
+              "l-hotel-de-ville-de-rennes": "L'hôtel de ville de Rennes",
+              "le-palais-saint-georges": "Le palais Saint-Georges",
+              "le-chateau-des-ducs-de-bretagne": "Le château des ducs de Bretagne"
+            }
+          },
+          "thabor": {
+            "prompt": "Quel jardin public de Rennes occupe l'ancien domaine d'une abbaye bénédictine, sur une colline au cœur de la ville ?",
+            "hint": "Son nom vient d'une montagne de Galilée.",
+            "anecdote": "Il réunit un jardin à la française, un jardin à l'anglaise, une roseraie et un jardin botanique.",
+            "answers": {
+              "le-thabor": "Le Thabor",
+              "le-parc-de-brequigny": "Le parc de Bréquigny",
+              "le-parc-des-gayeulles": "Le parc des Gayeulles",
+              "le-parc-oberthur": "Le parc Oberthür"
+            }
+          },
+          "malouiniere": {
+            "prompt": "Comment appelle-t-on ces demeures de campagne bâties aux XVIIe et XVIIIe siècles par les riches armateurs de la cité corsaire ?",
+            "hint": "On en compte des dizaines dans les campagnes entre la Rance et la baie de Cancale.",
+            "anecdote": "Leurs toits pentus et leurs hautes cheminées rappellent les maisons de la ville close. Certaines ont gardé des jardins à la française.",
+            "answers": {
+              "les-malouinieres": "Les malouinières",
+              "les-longeres": "Les longères",
+              "les-penty": "Les penty",
+              "les-chaumieres": "Les chaumières"
+            }
+          },
+          "dol": {
+            "prompt": "Dans quelle ville se dresse cette cathédrale de granit, siège d'un évêché fondé selon la tradition par saint Samson ?",
+            "hint": "La ville est proche de la baie du Mont-Saint-Michel.",
+            "anecdote": "La cathédrale date pour l'essentiel du XIIIe siècle. L'évêché a disparu à la Révolution."
+          },
+          "kreisker": {
+            "prompt": "Dans quelle ville du nord du Finistère se dresse cette chapelle du Kreisker, dont le clocher culmine à environ 78 mètres ?",
+            "hint": "Cette ancienne cité épiscopale est entourée de champs de légumes, près de Roscoff.",
+            "anecdote": "Son clocher est le plus haut de Bretagne. Sa silhouette a été imitée par de nombreuses églises du Léon."
+          },
+          "treguier": {
+            "prompt": "Quelle petite ville du Trégor, ancien évêché, possède cette cathédrale Saint-Tugdual et son cloître ?",
+            "hint": "Elle se trouve au confluent du Jaudy et du Guindy.",
+            "anecdote": "La cathédrale porte trois tours : une romane, une gothique et une flèche ajourée du XVIIIe siècle."
+          },
+          "saint-thegonnec": {
+            "prompt": "Comment appelle-t-on cet ensemble formé d'une église, d'un calvaire, d'un ossuaire et d'une porte monumentale, à l'intérieur d'un même mur ?",
+            "hint": "Les bourgs du Léon en ont bâti de nombreux aux XVIe et XVIIe siècles, en rivalisant de richesse.",
+            "anecdote": "Ces ensembles ont été financés par la prospérité du commerce des toiles de lin.",
+            "answers": {
+              "un-enclos-paroissial": "Un enclos paroissial",
+              "un-cloitre": "Un cloître",
+              "une-chartreuse": "Une chartreuse",
+              "un-prieure": "Un prieuré"
+            }
+          },
+          "guimiliau": {
+            "prompt": "Quel calvaire du Finistère, l'un des plus riches de Bretagne, rassemble plus de deux cents personnages sculptés ?",
+            "hint": "Il se trouve dans un enclos paroissial du Léon, entre Morlaix et Landivisiau.",
+            "anecdote": "On y voit des scènes de la vie du Christ, et même l'histoire de Katell Gollet, une jeune fille damnée pour avoir caché ses péchés.",
+            "answers": {
+              "pleyben": "Pleyben",
+              "saint-thegonnec": "Saint-Thégonnec"
+            }
+          },
+          "kermaria": {
+            "prompt": "Quelle chapelle des Côtes-d'Armor abrite une danse macabre peinte au XVe siècle, où la mort entraîne des personnages de tous rangs ?",
+            "hint": "Elle se trouve à Plouha, non loin de la côte du Goëlo.",
+            "anecdote": "On y voit un pape, un roi ou un laboureur, chacun entraîné par un squelette, pour rappeler que la mort frappe tout le monde.",
+            "answers": {
+              "kermaria-an-iskuit": "Kermaria an Iskuit",
+              "notre-dame-de-la-joie": "Notre-Dame de la Joie",
+              "saint-gonery": "Saint-Gonéry",
+              "notre-dame-de-quelven": "Notre-Dame de Quelven"
+            }
+          },
+          "beauport": {
+            "prompt": "Quelle abbaye en partie ruinée, fondée en 1202 au bord de la mer près de Paimpol, est aujourd'hui protégée par le Conservatoire du littoral ?",
+            "hint": "Ses moines étaient des chanoines de l'ordre de Prémontré.",
+            "anecdote": "Ses jardins et ses vergers descendent jusqu'à l'estran.",
+            "answers": {
+              "l-abbaye-de-beauport": "L'abbaye de Beauport",
+              "l-abbaye-de-landevennec": "L'abbaye de Landévennec",
+              "l-abbaye-de-bon-repos": "L'abbaye de Bon-Repos",
+              "l-abbaye-de-boquen": "L'abbaye de Boquen"
+            }
+          },
+          "chartreuse-auray": {
+            "prompt": "Près de quelle ville du Morbihan cette chartreuse abrite-t-elle un mausolée dédié aux émigrés fusillés après l'expédition de Quiberon, en 1795 ?",
+            "hint": "La ville a donné son nom à une bataille de 1364, qui a mis fin à la guerre de Succession de Bretagne.",
+            "anecdote": "La chartreuse a été fondée sur le champ de cette bataille par le vainqueur, le duc Jean IV."
+          },
+          "combat-trente": {
+            "prompt": "Quel épisode de la guerre de Succession de Bretagne rappelle cette colonne, dressée entre Josselin et Ploërmel ?",
+            "hint": "En 1351, deux groupes de chevaliers s'y sont affrontés en nombre égal.",
+            "anecdote": "Les Bretons de Jean de Beaumanoir l'ont emporté. Le combat est resté célèbre pour la phrase : Bois ton sang, Beaumanoir.",
+            "answers": {
+              "le-combat-des-trente": "Le combat des Trente",
+              "la-bataille-d-auray": "La bataille d'Auray",
+              "la-bataille-de-saint-aubin-du-cormier": "La bataille de Saint-Aubin-du-Cormier",
+              "la-bataille-de-ballon": "La bataille de Ballon"
+            }
+          },
+          "fort-national": {
+            "prompt": "Quel fort, bâti en 1689 sur un îlot face à la cité corsaire, n'est accessible à pied qu'à marée basse ?",
+            "hint": "Il s'appelait d'abord fort Royal et a changé de nom à la Révolution.",
+            "anecdote": "Il a été construit d'après les plans de Vauban, pour protéger le port des attaques anglaises.",
+            "answers": {
+              "le-fort-national": "Le Fort national",
+              "le-fort-du-petit-be": "Le fort du Petit Bé",
+              "le-fort-de-la-conchee": "Le fort de la Conchée",
+              "le-fort-harbour": "Le fort Harbour"
+            }
+          },
+          "port-louis": {
+            "prompt": "Quelle citadelle, à l'entrée de la rade de Lorient, abrite aujourd'hui le musée de la Compagnie des Indes ?",
+            "hint": "Elle porte le nom d'un roi, donné à la ville en 1618.",
+            "anecdote": "Les Espagnols ont commencé à la bâtir en 1590, pendant les guerres de la Ligue. Les Français l'ont ensuite achevée.",
+            "answers": {
+              "belle-ile-en-mer": "Belle-Île-en-Mer"
+            }
+          },
+          "belle-ile-citadelle": {
+            "prompt": "Sur quelle île du Morbihan se dresse cette citadelle, qui domine le port du Palais ?",
+            "hint": "C'est la plus grande des îles bretonnes.",
+            "anecdote": "Vauban a renforcé la citadelle à la fin du XVIIe siècle. Sarah Bernhardt possédait une maison sur l'île, près de la pointe des Poulains.",
+            "answers": {
+              "belle-ile-en-mer": "Belle-Île-en-Mer",
+              "houat": "Houat"
+            }
+          },
+          "vauban-camaret": {
+            "prompt": "Quel ingénieur du roi a dessiné cette tour de Camaret-sur-Mer, inscrite en 2008 au patrimoine mondial de l'UNESCO ?",
+            "hint": "Il a fortifié plus d'une centaine de places du royaume, sous Louis XIV.",
+            "anecdote": "En 1694, la tour et ses batteries ont aidé à repousser un débarquement anglais et hollandais.",
+            "answers": {
+              "vauban": "Vauban",
+              "simeon-garangeau": "Siméon Garangeau",
+              "jean-errard": "Jean Errard",
+              "louis-de-cormontaigne": "Louis de Cormontaigne"
+            }
+          },
+          "dep-josselin": {
+            "prompt": "Touchez le département du château de Josselin.",
+            "hint": "C'est le département de Vannes, au sud de la région.",
+            "anecdote": "Le château domine l'Oust, que suit le canal de Nantes à Brest."
+          },
+          "dep-kerjean": {
+            "prompt": "Touchez le département du château de Kerjean.",
+            "hint": "C'est le département le plus à l'ouest de la région.",
+            "anecdote": "Le château se trouve à Saint-Vougay, dans le pays du Léon."
+          },
+          "dep-fort-la-latte": {
+            "prompt": "Touchez le département de Fort-la-Latte.",
+            "hint": "C'est le département de Saint-Brieuc, au nord de la région.",
+            "anecdote": "Le fort se dresse sur la Côte d'Émeraude, à quelques kilomètres du cap Fréhel."
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Faïence de Quimper, coiffes et musique, pardons et fest-noz, légendes de Brocéliande, et les grandes figures de la région, de Du Guesclin à Laennec.",
+          "duguesclin": {
+            "prompt": "Quel chevalier breton, connétable de France sous Charles V, est représenté par cette statue équestre à Dinan ?",
+            "hint": "Il est né vers 1320 au château de la Motte-Broons.",
+            "anecdote": "À sa mort, en 1380, son corps a été partagé entre plusieurs sépultures, selon un usage de l'époque.",
+            "answers": {
+              "bertrand-du-guesclin": "Bertrand du Guesclin",
+              "olivier-de-clisson": "Olivier de Clisson",
+              "arthur-de-richemont": "Arthur de Richemont",
+              "jean-de-beaumanoir": "Jean de Beaumanoir"
+            }
+          },
+          "nominoe": {
+            "prompt": "Quel chef breton a battu les troupes de Charles le Chauve à Ballon, en 845 ?",
+            "hint": "On le surnomme parfois le père de la patrie bretonne.",
+            "anecdote": "Cette victoire a permis à la Bretagne de s'affranchir de la tutelle des rois francs.",
+            "answers": {
+              "nominoe": "Nominoë",
+              "erispoe": "Erispoë",
+              "alain-barbetorte": "Alain Barbetorte",
+              "salomon": "Salomon"
+            }
+          },
+          "anne-reine": {
+            "prompt": "Quelle duchesse a été deux fois reine de France, en épousant Charles VIII puis Louis XII ?",
+            "hint": "Elle avait pour emblème la cordelière, un cordon noué.",
+            "anecdote": "Après sa mort, en 1514, sa fille Claude a épousé le futur François Ier, ce qui a préparé l'union du duché au royaume.",
+            "answers": {
+              "anne-de-bretagne": "Anne de Bretagne",
+              "claude-de-france": "Claude de France",
+              "anne-de-beaujeu": "Anne de Beaujeu",
+              "isabeau-de-baviere": "Isabeau de Bavière"
+            }
+          },
+          "limoelou": {
+            "prompt": "Quel navigateur malouin, explorateur du Saint-Laurent, possédait ce manoir de Limoëlou ?",
+            "hint": "Il a donné au Canada son nom, d'après un mot iroquoien qui désignait un village.",
+            "anecdote": "Le manoir abrite aujourd'hui un musée consacré à sa vie et à ses voyages.",
+            "answers": {
+              "jacques-cartier": "Jacques Cartier",
+              "samuel-de-champlain": "Samuel de Champlain",
+              "jean-cabot": "Jean Cabot",
+              "jean-francois-de-la-perouse": "Jean-François de La Pérouse"
+            }
+          },
+          "surcouf": {
+            "prompt": "Quel corsaire malouin, dont la statue pointe le doigt vers le large, s'est illustré dans l'océan Indien à la fin du XVIIIe siècle ?",
+            "hint": "Il a capturé en 1800 le navire anglais Kent, bien plus grand que le sien.",
+            "anecdote": "Devenu armateur, il a fini sa vie à Saint-Malo, à la tête d'une grande fortune.",
+            "answers": {
+              "robert-surcouf": "Robert Surcouf",
+              "rene-duguay-trouin": "René Duguay-Trouin",
+              "jean-bart": "Jean Bart",
+              "jacques-cassard": "Jacques Cassard"
+            }
+          },
+          "duguay-trouin": {
+            "prompt": "Quel corsaire malouin s'est emparé de Rio de Janeiro en 1711 ?",
+            "hint": "Il est devenu lieutenant général des armées navales de Louis XV.",
+            "anecdote": "La ville a dû payer une forte rançon pour être libérée.",
+            "answers": {
+              "rene-duguay-trouin": "René Duguay-Trouin",
+              "robert-surcouf": "Robert Surcouf",
+              "jean-bart": "Jean Bart",
+              "jacques-cassard": "Jacques Cassard"
+            }
+          },
+          "grand-be": {
+            "prompt": "Quel écrivain repose dans ce tombeau sobre, sur un îlot face à la cité corsaire ?",
+            "hint": "Il avait passé une partie de sa jeunesse au château de Combourg.",
+            "anecdote": "Il avait choisi lui-même cet emplacement. On ne peut y accéder à pied qu'à marée basse.",
+            "answers": {
+              "chateaubriand": "Chateaubriand",
+              "lamennais": "Lamennais",
+              "ernest-renan": "Ernest Renan",
+              "victor-hugo": "Victor Hugo"
+            }
+          },
+          "renan": {
+            "prompt": "Quel écrivain et historien, auteur d'une Vie de Jésus, est né à Tréguier en 1823 ?",
+            "hint": "Sa maison natale se visite près de la cathédrale.",
+            "anecdote": "Son livre, publié en 1863, a fait scandale, car il présentait Jésus comme un homme.",
+            "answers": {
+              "ernest-renan": "Ernest Renan",
+              "anatole-le-braz": "Anatole Le Braz",
+              "hippolyte-taine": "Hippolyte Taine",
+              "lamennais": "Lamennais"
+            }
+          },
+          "laennec": {
+            "prompt": "Quel médecin, né à Quimper en 1781 et représenté par cette statue, a inventé le stéthoscope ?",
+            "hint": "Il a d'abord écouté le cœur d'une patiente à travers une feuille de papier roulée.",
+            "anecdote": "Il a présenté son invention en 1816. Il est mort en 1826 de la tuberculose, une maladie qu'il avait beaucoup étudiée.",
+            "answers": {
+              "rene-laennec": "René Laennec",
+              "louis-pasteur": "Louis Pasteur",
+              "claude-bernard": "Claude Bernard",
+              "xavier-bichat": "Xavier Bichat"
+            }
+          },
+          "christ-jaune": {
+            "prompt": "Quel peintre s'est inspiré de ce christ en bois, conservé dans une chapelle près de Pont-Aven, pour peindre Le Christ jaune en 1889 ?",
+            "hint": "Il a séjourné plusieurs fois en Bretagne avant de partir pour Tahiti.",
+            "anecdote": "La chapelle de Trémalo conserve toujours la statue. Le tableau, lui, est exposé aux États-Unis, à Buffalo.",
+            "answers": {
+              "paul-gauguin": "Paul Gauguin",
+              "emile-bernard": "Émile Bernard",
+              "paul-serusier": "Paul Sérusier",
+              "vincent-van-gogh": "Vincent van Gogh"
+            }
+          },
+          "botrel": {
+            "prompt": "Quel chansonnier, auteur de La Paimpolaise en 1895, a fondé la fête des Fleurs d'ajonc à Pont-Aven ?",
+            "hint": "On l'a surnommé le barde de la Bretagne.",
+            "anecdote": "Il est né à Dinan en 1868 et mort à Pont-Aven en 1925.",
+            "answers": {
+              "theodore-botrel": "Théodore Botrel",
+              "glenmor": "Glenmor",
+              "anatole-le-braz": "Anatole Le Braz",
+              "auguste-brizeux": "Auguste Brizeux"
+            }
+          },
+          "stivell": {
+            "prompt": "Quel musicien a fait connaître la harpe celtique dans le monde entier au début des années 1970 ?",
+            "hint": "Son concert à l'Olympia, en 1972, est resté célèbre.",
+            "anecdote": "Son père, Georges Cochevelou, avait reconstruit pour lui une harpe celtique quand il était enfant.",
+            "answers": {
+              "alan-stivell": "Alan Stivell",
+              "dan-ar-braz": "Dan Ar Braz",
+              "gilles-servat": "Gilles Servat",
+              "denez-prigent": "Denez Prigent"
+            }
+          },
+          "biniou": {
+            "prompt": "Comment s'appelle cette petite cornemuse bretonne au son aigu, qui joue souvent en couple avec une bombarde ?",
+            "hint": "Les deux musiciens sont appelés des sonneurs.",
+            "anecdote": "Le couple de sonneurs accompagne les danses depuis des siècles, dans les noces comme dans les fêtes.",
+            "answers": {
+              "le-biniou-kozh": "Le biniou kozh",
+              "la-veuze": "La veuze",
+              "la-cabrette": "La cabrette",
+              "la-gaita": "La gaïta"
+            }
+          },
+          "bagad": {
+            "prompt": "Comment appelle-t-on en Bretagne un ensemble qui réunit cornemuses, bombardes et percussions ?",
+            "hint": "Ces formations s'affrontent chaque année dans un championnat national, à Lorient.",
+            "anecdote": "Les premiers sont apparus après la Seconde Guerre mondiale, sur le modèle des pipe bands écossais.",
+            "answers": {
+              "un-bagad": "Un bagad",
+              "un-cercle-celtique": "Un cercle celtique",
+              "un-fest-deiz": "Un fest-deiz",
+              "une-harmonie": "Une harmonie"
+            }
+          },
+          "fest-noz": {
+            "prompt": "Quelle fête, où l'on danse en chaîne au son des chants et des instruments, est inscrite au patrimoine culturel immatériel de l'UNESCO depuis 2012 ?",
+            "hint": "Elle a lieu le soir, et son nom vient de la langue bretonne.",
+            "anecdote": "On y chante souvent en kan ha diskan : un chanteur lance une phrase, un autre la reprend.",
+            "answers": {
+              "le-fest-noz": "Le fest-noz",
+              "le-pardon": "Le pardon",
+              "la-tromenie": "La troménie",
+              "le-bal-musette": "Le bal musette"
+            }
+          },
+          "interceltique": {
+            "prompt": "Quelle ville accueille chaque mois d'août le Festival interceltique, qui réunit des musiciens de tous les pays celtes ?",
+            "hint": "Ce festival, créé en 1971, s'y tient dans une ville portuaire du Morbihan.",
+            "anecdote": "Chaque édition met à l'honneur une nation celte, comme l'Écosse, l'Irlande, la Galice ou les Asturies.",
+            "answers": {
+              "carhaix": "Carhaix"
+            }
+          },
+          "cornouaille": {
+            "prompt": "Quel festival de Quimper, créé en 1923, célèbre chaque été les danses, les musiques et les costumes de Bretagne ?",
+            "hint": "Il se déroule fin juillet, au bord de l'Odet.",
+            "anecdote": "C'est l'un des plus anciens festivals de France consacrés aux traditions populaires.",
+            "answers": {
+              "le-festival-de-cornouaille": "Le festival de Cornouaille",
+              "les-vieilles-charrues": "Les Vieilles Charrues",
+              "les-fetes-d-arvor": "Les fêtes d'Arvor",
+              "le-festival-du-bout-du-monde": "Le festival du Bout du Monde"
+            }
+          },
+          "gwerz": {
+            "prompt": "Comment appelle-t-on ces complaintes chantées en breton, qui racontent souvent un drame ou un fait divers ?",
+            "hint": "La Villemarqué en a recueilli plusieurs dans le Barzaz Breiz, publié en 1839.",
+            "anecdote": "Le Barzaz Breiz a fait connaître dans toute l'Europe le chant populaire breton.",
+            "answers": {
+              "une-gwerz": "Une gwerz",
+              "une-sone": "Une sône",
+              "un-cantique": "Un cantique",
+              "une-berceuse": "Une berceuse"
+            }
+          },
+          "pardon": {
+            "prompt": "Comment appelle-t-on en Bretagne ces fêtes religieuses en l'honneur d'un saint, avec procession et bannières ?",
+            "hint": "Le plus fréquenté se tient à Sainte-Anne-d'Auray, fin juillet.",
+            "anecdote": "Le mot rappelle l'indulgence, c'est-à-dire la remise des péchés, accordée aux pèlerins.",
+            "answers": {
+              "un-pardon": "Un pardon",
+              "un-fest-noz": "Un fest-noz",
+              "une-ducasse": "Une ducasse",
+              "une-ferrade": "Une ferrade"
+            }
+          },
+          "tro-breiz": {
+            "prompt": "Quel pèlerinage fait le tour des sept villes des saints fondateurs de la Bretagne ?",
+            "hint": "Ces villes sont Saint-Pol-de-Léon, Tréguier, Saint-Brieuc, Saint-Malo, Dol, Vannes et Quimper.",
+            "anecdote": "Une tradition disait que celui qui ne l'avait pas fait de son vivant devrait le faire après sa mort, en avançant de la longueur de son cercueil tous les sept ans.",
+            "answers": {
+              "le-tro-breiz": "Le Tro Breiz",
+              "le-chemin-de-compostelle": "Le chemin de Compostelle",
+              "la-grande-tromenie": "La grande troménie",
+              "le-pardon-de-sainte-anne": "Le pardon de Sainte-Anne"
+            }
+          },
+          "tromenie": {
+            "prompt": "Comment s'appelle la procession de Locronan qui, tous les six ans, fait le tour d'un ancien domaine sacré ?",
+            "hint": "Son parcours, long d'environ 12 kilomètres, suivrait les pas de saint Ronan.",
+            "anecdote": "Les autres années, une petite procession, plus courte, a lieu chaque mois de juillet.",
+            "answers": {
+              "la-grande-tromenie": "La grande troménie",
+              "le-tro-breiz": "Le Tro Breiz",
+              "le-pardon-de-la-mer": "Le pardon de la mer",
+              "la-procession-des-rameaux": "La procession des Rameaux"
+            }
+          },
+          "saint-yves": {
+            "prompt": "Quel saint breton, prêtre et juge mort en 1303, repose dans ce tombeau de la cathédrale de Tréguier ?",
+            "hint": "Il est le patron des avocats et des gens de justice.",
+            "anecdote": "On l'appelle l'avocat des pauvres, car il défendait gratuitement les plus démunis. Son pardon a lieu chaque année en mai.",
+            "answers": {
+              "saint-yves": "Saint Yves",
+              "saint-tugdual": "Saint Tugdual",
+              "saint-corentin": "Saint Corentin",
+              "saint-ronan": "Saint Ronan"
+            }
+          },
+          "ankou": {
+            "prompt": "Comment appelle-t-on, dans les légendes bretonnes, ce personnage qui représente la mort et vient chercher les âmes avec sa charrette ?",
+            "hint": "Il est souvent sculpté avec une faux, sur les ossuaires et dans les églises.",
+            "anecdote": "Selon la tradition, le dernier mort de l'année dans une paroisse devient celui qui viendra chercher les défunts l'année suivante.",
+            "answers": {
+              "l-ankou": "L'Ankou",
+              "le-korrigan": "Le korrigan",
+              "la-groac-h": "La groac'h",
+              "le-bugul-noz": "Le bugul-noz"
+            }
+          },
+          "menhir-christianise": {
+            "prompt": "Pourquoi ce menhir de Saint-Uzec, près de Pleumeur-Bodou, porte-t-il une croix et des scènes de la Passion ?",
+            "hint": "Les sculptures ont été ajoutées des milliers d'années après qu'il a été dressé.",
+            "anecdote": "Ce menhir de près de 8 mètres a été transformé au XVIIe siècle. D'autres mégalithes bretons ont reçu une croix à la même époque.",
+            "answers": {
+              "pour-christianiser-une-pierre-paienne": "Pour christianiser une pierre païenne",
+              "pour-marquer-une-frontiere": "Pour marquer une frontière",
+              "pour-signaler-une-tombe": "Pour signaler une tombe",
+              "pour-guider-les-marins": "Pour guider les marins"
+            }
+          },
+          "vallee-saints": {
+            "prompt": "Quel site des Côtes-d'Armor rassemble depuis 2008 des statues de granit géantes, à l'effigie des figures religieuses de la région ?",
+            "hint": "Il se trouve à Carnoët, autour d'une ancienne motte féodale.",
+            "anecdote": "Le projet prévoit, à terme, un millier de statues. Chacune mesure plusieurs mètres de haut.",
+            "answers": {
+              "la-vallee-des-saints": "La Vallée des Saints",
+              "le-val-sans-retour": "Le Val sans Retour",
+              "la-roche-aux-fees": "La Roche-aux-Fées",
+              "le-jardin-de-broceliande": "Le jardin de Brocéliande"
+            }
+          },
+          "tombeau-merlin": {
+            "prompt": "Selon la légende, quel enchanteur repose sous ces pierres de la forêt de Paimpont ?",
+            "hint": "La fée Viviane l'aurait retenu pour toujours dans une prison d'air.",
+            "anecdote": "Il ne reste que deux dalles de schiste d'une ancienne allée couverte, en partie détruite au XIXe siècle.",
+            "answers": {
+              "merlin": "Merlin",
+              "arthur": "Arthur",
+              "lancelot": "Lancelot",
+              "perceval": "Perceval"
+            }
+          },
+          "barenton": {
+            "prompt": "Quelle fontaine de la forêt de Paimpont pouvait, selon la légende, déclencher un orage si l'on versait son eau sur une pierre voisine ?",
+            "hint": "Cette forêt est souvent identifiée à Brocéliande, celle des romans de la Table ronde.",
+            "anecdote": "Au XIXe siècle encore, des processions venaient y demander la pluie en période de sécheresse.",
+            "answers": {
+              "la-fontaine-de-barenton": "La fontaine de Barenton",
+              "la-fontaine-de-jouvence": "La fontaine de Jouvence",
+              "le-miroir-aux-fees": "Le Miroir aux fées",
+              "l-etang-de-comper": "L'étang de Comper"
+            }
+          },
+          "arbre-or": {
+            "prompt": "Quelle œuvre de François Davin, installée en 1991 au Val sans Retour, symbolise la renaissance de la forêt après l'incendie de 1990 ?",
+            "hint": "Elle est entourée de troncs calcinés.",
+            "anecdote": "Selon la légende, le Val sans Retour est le lieu où la fée Morgane retenait les chevaliers infidèles.",
+            "answers": {
+              "l-arbre-d-or": "L'Arbre d'or",
+              "le-chene-a-guillotin": "Le chêne à Guillotin",
+              "le-hetre-de-ponthus": "Le hêtre de Ponthus",
+              "la-vallee-des-saints": "La Vallée des Saints"
+            }
+          },
+          "faience-quimper": {
+            "prompt": "Dans quelle ville produit-on depuis la fin du XVIIe siècle cette faïence décorée de petits personnages en costume breton ?",
+            "hint": "C'est la préfecture du Finistère.",
+            "anecdote": "Les faïenceries se sont installées dans le quartier de Locmaria, au bord de l'Odet, où l'on trouvait argile et bois.",
+            "answers": {
+              "nevers": "Nevers",
+              "desvres": "Desvres",
+              "malicorne": "Malicorne"
+            }
+          },
+          "coiffe-bigoudene": {
+            "prompt": "Dans quel pays du sud du Finistère les femmes portaient-elles cette haute coiffe de dentelle, qui pouvait dépasser 30 centimètres ?",
+            "hint": "Ce pays s'étend autour de Pont-l'Abbé et de Penmarch.",
+            "anecdote": "La coiffe était d'abord petite. Elle n'a cessé de grandir au XXe siècle, surtout entre les deux guerres.",
+            "answers": {
+              "le-pays-bigouden": "Le pays bigouden",
+              "le-pays-de-leon": "Le pays de Léon",
+              "le-pays-vannetais": "Le pays vannetais",
+              "le-pays-de-l-aven": "Le pays de l'Aven"
+            }
+          },
+          "lit-clos": {
+            "prompt": "Comment s'appelle ce meuble traditionnel breton, fermé par des panneaux de bois coulissants, où l'on dormait à l'abri du froid ?",
+            "hint": "Il offrait un peu d'intimité dans les maisons qui n'avaient qu'une seule pièce.",
+            "anecdote": "On plaçait souvent devant lui un banc-coffre, qui servait de marche pour monter se coucher.",
+            "answers": {
+              "le-lit-clos": "Le lit clos",
+              "le-vaisselier": "Le vaisselier",
+              "la-maie": "La maie",
+              "l-armoire-de-mariage": "L'armoire de mariage"
+            }
+          },
+          "four-goemon": {
+            "prompt": "À quoi servaient ces longues fosses de pierre, alignées en haut des plages du Finistère ?",
+            "hint": "On y travaillait en été, au milieu d'épaisses fumées.",
+            "anecdote": "Les pains de soude obtenus étaient vendus à l'industrie chimique, qui en extrayait l'iode.",
+            "answers": {
+              "a-bruler-les-algues": "À brûler les algues",
+              "a-secher-le-poisson": "À sécher le poisson",
+              "a-cuire-le-pain": "À cuire le pain",
+              "a-produire-du-sel": "À produire du sel"
+            }
+          },
+          "gouren": {
+            "prompt": "Comment s'appelle la lutte traditionnelle bretonne, où les adversaires portent une chemise de toile et cherchent à se faire tomber sur le dos ?",
+            "hint": "Les lutteurs prêtent serment avant le combat et se saluent.",
+            "anecdote": "Une chute sur les deux épaules, qui donne la victoire, s'appelle un lamm.",
+            "answers": {
+              "le-gouren": "Le gouren",
+              "le-glima": "Le glíma",
+              "le-backhold": "Le backhold",
+              "le-schwingen": "Le schwingen"
+            }
+          },
+          "diwan": {
+            "prompt": "Comment s'appellent les écoles associatives qui enseignent en immersion en langue bretonne, depuis 1977 ?",
+            "hint": "Leur nom signifie germe en breton.",
+            "anecdote": "La première école a ouvert à Lampaul-Ploudalmézeau, dans le Finistère.",
+            "answers": {
+              "diwan": "Diwan",
+              "dihun": "Dihun",
+              "skol-vreizh": "Skol Vreizh",
+              "ti-ar-vro": "Ti ar Vro"
+            }
+          },
+          "ardoise": {
+            "prompt": "Quel matériau, extrait autrefois dans de nombreuses carrières de la région, couvre la plupart des toits bretons ?",
+            "hint": "Il s'agit d'une roche gris-bleu, que l'on fend en fines plaques.",
+            "anecdote": "Avant le XIXe siècle, beaucoup de maisons rurales étaient encore couvertes de chaume.",
+            "answers": {
+              "l-ardoise": "L'ardoise",
+              "la-tuile": "La tuile",
+              "le-chaume": "Le chaume",
+              "le-zinc": "Le zinc"
+            }
+          },
+          "guilvinec": {
+            "prompt": "Quel port du pays bigouden est l'un des premiers ports de pêche fraîche de France, avec une criée animée chaque fin d'après-midi ?",
+            "hint": "Ses chalutiers rentrent en fin de journée, à quelques kilomètres de Penmarch.",
+            "anecdote": "Langoustines, lottes et soles y sont vendues aux enchères dès le retour des bateaux.",
+            "answers": {
+              "le-guilvinec": "Le Guilvinec"
+            }
+          },
+          "brest-arsenal": {
+            "prompt": "Quel port du Finistère est le grand port militaire de la façade atlantique, avec un arsenal fondé au XVIIe siècle ?",
+            "hint": "Sa rade est l'une des plus vastes d'Europe.",
+            "anecdote": "Richelieu en a fait un port de guerre, et Colbert y a fait développer l'arsenal.",
+            "answers": {
+              "cherbourg": "Cherbourg",
+              "rochefort": "Rochefort"
+            }
+          },
+          "dep-vallee-saints": {
+            "prompt": "Touchez le département de la Vallée des Saints.",
+            "hint": "C'est le département de Saint-Brieuc, au nord de la région.",
+            "anecdote": "Le site se trouve à Carnoët, aux confins du Finistère, dans le centre de la Bretagne."
+          },
+          "dep-paimpont": {
+            "prompt": "Touchez le département de la forêt de Paimpont, souvent identifiée à Brocéliande.",
+            "hint": "C'est le département de Rennes, à l'est de la région.",
+            "anecdote": "La forêt s'étend à environ 40 kilomètres à l'ouest de Rennes."
+          },
+          "dep-sainte-anne": {
+            "prompt": "Touchez le département de Sainte-Anne-d'Auray, le plus grand lieu de pèlerinage de Bretagne.",
+            "hint": "C'est le département de Vannes, au sud de la région.",
+            "anecdote": "Le pape Jean-Paul II y est venu en 1996."
+          }
+        },
+        "grand-voyage": {
+          "name": "Le grand voyage",
+          "description": "Des phares de la mer d'Iroise aux îles du Morbihan, des abers aux monts d'Arrée et au canal de Nantes à Brest : un dernier tour de Bretagne, des légendes à la Seconde Guerre mondiale.",
+          "pointe-du-raz": {
+            "prompt": "Quel cap du Finistère, labellisé Grand Site de France en 2004, s'avance vers l'île de Sein, au-dessus de courants parmi les plus violents d'Europe ?",
+            "hint": "Le phare de la Vieille se dresse sur un rocher, à ses pieds.",
+            "anecdote": "Dans les années 1990, on a démoli les commerces et les parkings installés sur la pointe, pour rendre au site son aspect naturel.",
+            "answers": {
+              "la-pointe-du-raz": "La pointe du Raz",
+              "la-pointe-du-van": "La pointe du Van",
+              "la-pointe-de-penmarch": "La pointe de Penmarch",
+              "la-pointe-saint-mathieu": "La pointe Saint-Mathieu"
+            }
+          },
+          "trepasses": {
+            "prompt": "Quelle baie, entre la pointe du Raz et la pointe du Van, porte un nom que la tradition relie aux noyés rejetés par la mer ?",
+            "hint": "Certaines versions de la légende y placent la ville engloutie d'Ys.",
+            "anecdote": "Une autre explication relie son nom à un mot breton désignant un ruisseau, mal compris en français.",
+            "answers": {
+              "la-baie-des-trepasses": "La baie des Trépassés",
+              "la-baie-d-audierne": "La baie d'Audierne",
+              "la-baie-de-douarnenez": "La baie de Douarnenez",
+              "l-anse-de-dinan": "L'anse de Dinan"
+            }
+          },
+          "saint-mathieu": {
+            "prompt": "Quelle pointe du Finistère réunit les ruines d'une abbaye, un phare et un sémaphore, à l'entrée du goulet de Brest ?",
+            "hint": "Un cénotaphe y rend hommage aux marins morts pour la France.",
+            "anecdote": "Le phare, allumé en 1835, se dresse au milieu des ruines de l'abbaye.",
+            "answers": {
+              "la-pointe-saint-mathieu": "La pointe Saint-Mathieu",
+              "la-pointe-du-raz": "La pointe du Raz",
+              "la-pointe-de-pen-hir": "La pointe de Pen-Hir",
+              "la-pointe-de-corsen": "La pointe de Corsen"
+            }
+          },
+          "pen-hir": {
+            "prompt": "Comment s'appellent ces îlots alignés au large de la pointe de Pen-Hir, sur la presqu'île de Crozon ?",
+            "hint": "Ils forment une rangée de rochers qui rapetissent vers le large.",
+            "anecdote": "Un monument en forme de croix de Lorraine, dédié aux Bretons de la France libre, domine la pointe.",
+            "answers": {
+              "les-tas-de-pois": "Les Tas de Pois",
+              "les-aiguilles-de-port-coton": "Les aiguilles de Port-Coton",
+              "les-pierres-noires": "Les Pierres Noires",
+              "les-sept-iles": "Les Sept-Îles"
+            }
+          },
+          "frehel": {
+            "prompt": "Quel cap des Côtes-d'Armor dresse ses falaises de grès rose à plus de 70 mètres au-dessus de la mer ?",
+            "hint": "Un phare inauguré en 1950 en marque la pointe, sur la Côte d'Émeraude.",
+            "anecdote": "Les falaises abritent des colonies d'oiseaux marins, comme les fulmars, les guillemots et les cormorans.",
+            "answers": {
+              "le-cap-frehel": "Le cap Fréhel",
+              "le-cap-d-erquy": "Le cap d'Erquy",
+              "la-pointe-du-grouin": "La pointe du Grouin",
+              "le-cap-de-la-chevre": "Le cap de la Chèvre"
+            }
+          },
+          "sillon": {
+            "prompt": "Quelle longue flèche de galets, à Pleubian, s'avance sur environ 3 kilomètres dans la mer ?",
+            "hint": "Elle se trouve entre les embouchures du Trieux et du Jaudy.",
+            "anecdote": "Elle se déplace peu à peu vers l'intérieur des terres, sous l'effet des tempêtes.",
+            "answers": {
+              "le-sillon-de-talbert": "Le Sillon de Talbert",
+              "le-sillon-de-saint-malo": "Le Sillon de Saint-Malo",
+              "la-dune-de-keremma": "La dune de Keremma",
+              "la-pointe-du-grouin": "La pointe du Grouin"
+            }
+          },
+          "aber-wrach": {
+            "prompt": "Comment appelle-t-on ces estuaires profonds du nord du Finistère, où la mer remonte loin dans les terres ?",
+            "hint": "Les plus connus sont ceux de Wrac'h, de Benoît et d'Ildut.",
+            "anecdote": "Le mot vient du breton et désigne l'embouchure d'un cours d'eau. On le retrouve dans des noms gallois, comme Aberystwyth.",
+            "answers": {
+              "des-abers": "Des abers",
+              "des-fjords": "Des fjords",
+              "des-calanques": "Des calanques",
+              "des-lagunes": "Des lagunes"
+            }
+          },
+          "quiberon": {
+            "prompt": "Quelle presqu'île du Morbihan, reliée au continent par un étroit isthme de sable, présente cette côte sauvage battue par l'océan ?",
+            "hint": "Ses conserveries de sardines faisaient autrefois vivre la ville.",
+            "anecdote": "La baignade est interdite sur presque toute la côte sauvage, à cause des courants et des rouleaux.",
+            "answers": {
+              "rhuys": "Rhuys",
+              "gavres": "Gâvres"
+            }
+          },
+          "eckmuhl": {
+            "prompt": "Quel phare de Penmarch, haut de 65 mètres, a été financé par la fille d'un maréchal de Napoléon ?",
+            "hint": "Il porte le nom d'une victoire de ce maréchal, en 1809.",
+            "anecdote": "La marquise de Blocqueville, fille de Davout, a légué la somme nécessaire à sa construction. Il a été allumé en 1897.",
+            "answers": {
+              "le-phare-d-eckmuhl": "Le phare d'Eckmühl",
+              "le-phare-de-l-ile-vierge": "Le phare de l'île Vierge",
+              "le-phare-du-creac-h": "Le phare du Créac'h",
+              "le-phare-de-la-vieille": "Le phare de la Vieille"
+            }
+          },
+          "ile-vierge": {
+            "prompt": "Quel phare du nord du Finistère, haut de 82,5 mètres, est le plus haut phare en pierre de taille d'Europe ?",
+            "hint": "Il se dresse sur un îlot au large de Plouguerneau, dans le pays des Abers.",
+            "anecdote": "Il a été allumé en 1902. Ses murs intérieurs sont tapissés de plaques d'opaline.",
+            "answers": {
+              "le-phare-de-l-ile-vierge": "Le phare de l'île Vierge",
+              "le-phare-d-eckmuhl": "Le phare d'Eckmühl",
+              "le-phare-du-creac-h": "Le phare du Créac'h",
+              "le-phare-de-kereon": "Le phare de Kéréon"
+            }
+          },
+          "ouessant-creach": {
+            "prompt": "Sur quelle île se dresse le phare du Créac'h, l'un des plus puissants d'Europe, qui marque l'entrée de la Manche ?",
+            "hint": "C'est l'île habitée la plus à l'ouest de la France métropolitaine.",
+            "anecdote": "Le phare abrite un musée des phares et balises. Un dicton de marins dit : Qui voit Ouessant voit son sang.",
+            "answers": {
+              "sein": "Sein",
+              "molene": "Molène",
+              "batz": "Batz"
+            }
+          },
+          "sein": {
+            "prompt": "Quelle île plate du Finistère, à peine plus haute que la mer, a vu presque tous ses hommes rejoindre la France libre en juin 1940 ?",
+            "hint": "Elle se trouve au large de la pointe du Raz.",
+            "anecdote": "Le général de Gaulle a dit que l'île était le quart de la France, tant ses marins étaient nombreux parmi les premiers volontaires.",
+            "answers": {
+              "l-ile-de-sein": "L'île de Sein",
+              "molene": "Molène",
+              "l-ile-de-batz": "L'île de Batz"
+            }
+          },
+          "port-coton": {
+            "prompt": "Comment s'appellent ces rochers pointus de la côte sauvage, que Claude Monet a peints à de nombreuses reprises en 1886 ?",
+            "hint": "Ils se trouvent sur la plus grande des îles bretonnes.",
+            "anecdote": "Monet a passé plus de deux mois sur l'île, malgré les tempêtes d'automne.",
+            "answers": {
+              "les-aiguilles-de-port-coton": "Les aiguilles de Port-Coton",
+              "les-tas-de-pois": "Les Tas de Pois",
+              "les-rochers-de-ploumanac-h": "Les rochers de Ploumanac'h",
+              "les-pierres-noires": "Les Pierres Noires"
+            }
+          },
+          "glenan": {
+            "prompt": "Quel archipel du Finistère sud, aux eaux turquoise, abrite une célèbre école de voile fondée en 1947 ?",
+            "hint": "Ses îles se trouvent au large de Concarneau et de Fouesnant.",
+            "anecdote": "Un petit narcisse sauvage y pousse, que l'on ne trouve nulle part ailleurs au monde.",
+            "answers": {
+              "l-archipel-des-glenan": "L'archipel des Glénan",
+              "l-archipel-de-molene": "L'archipel de Molène",
+              "les-sept-iles": "Les Sept-Îles",
+              "l-archipel-de-brehat": "L'archipel de Bréhat"
+            }
+          },
+          "groix": {
+            "prompt": "Quelle île, au large de Lorient, est célèbre pour ses roches et ses minéraux rares, comme le grenat ?",
+            "hint": "Ses pêcheurs comptaient autrefois parmi les premiers thoniers de France.",
+            "anecdote": "Sa plage des Grands Sables est l'une des rares plages convexes d'Europe : elle avance et recule au gré des courants.",
+            "answers": {
+              "belle-ile-en-mer": "Belle-Île-en-Mer",
+              "houat": "Houat",
+              "hoedic": "Hoëdic"
+            }
+          },
+          "brehat": {
+            "prompt": "Quelle île sans voitures, au large de Paimpol, est célèbre pour ses rochers roses et ses jardins fleuris ?",
+            "hint": "On y accède en quelques minutes de bateau depuis la pointe de l'Arcouest.",
+            "anecdote": "Grâce à un climat très doux, on y cultive des plantes méditerranéennes, comme les agapanthes et les mimosas.",
+            "answers": {
+              "l-ile-de-brehat": "L'île de Bréhat",
+              "l-ile-de-batz": "L'île de Batz",
+              "l-ile-aux-moines": "L'île aux Moines",
+              "l-ile-d-arz": "L'île d'Arz"
+            }
+          },
+          "huelgoat": {
+            "prompt": "Dans quelle forêt du Finistère s'empilent ces énormes blocs de granit, dont la Roche tremblante ?",
+            "hint": "Cette forêt s'étend au pied des monts d'Arrée.",
+            "anecdote": "La Roche tremblante, qui pèse plus de cent tonnes, peut osciller quand on la pousse au bon endroit.",
+            "answers": {
+              "quenecan": "Quénécan",
+              "lanouee": "Lanouée"
+            }
+          },
+          "roc-trevezel": {
+            "prompt": "Quelle crête rocheuse des monts d'Arrée, haute d'environ 384 mètres, ressemble à une petite montagne ?",
+            "hint": "De son sommet, on voit par temps clair jusqu'à la baie de Morlaix.",
+            "anecdote": "La crête est formée de quartzite, une roche très dure qui a mieux résisté à l'érosion que les schistes voisins.",
+            "answers": {
+              "le-roc-h-trevezel": "Le Roc'h Trévezel",
+              "le-menez-hom": "Le Ménez-Hom",
+              "le-mont-saint-michel-de-brasparts": "Le mont Saint-Michel de Brasparts",
+              "le-menez-bre": "Le Ménez Bré"
+            }
+          },
+          "menez-hom": {
+            "prompt": "Quel sommet isolé, haut de 330 mètres, domine la baie de Douarnenez et la presqu'île de Crozon ?",
+            "hint": "C'est l'extrémité ouest des Montagnes Noires.",
+            "anecdote": "Par beau temps, la vue s'étend de la pointe du Raz jusqu'aux monts d'Arrée.",
+            "answers": {
+              "le-menez-hom": "Le Ménez-Hom",
+              "le-menez-bre": "Le Ménez Bré",
+              "le-roc-h-trevezel": "Le Roc'h Trévezel",
+              "le-mont-saint-michel-de-brasparts": "Le mont Saint-Michel de Brasparts"
+            }
+          },
+          "guerledan": {
+            "prompt": "Quel lac, formé en 1930 par un barrage sur le Blavet, a été vidé en 2015, révélant d'anciennes écluses ?",
+            "hint": "C'est le plus grand lac de Bretagne.",
+            "anecdote": "La vidange a attiré des centaines de milliers de visiteurs, venus marcher dans la vallée engloutie.",
+            "answers": {
+              "le-lac-de-guerledan": "Le lac de Guerlédan",
+              "le-lac-du-drennec": "Le lac du Drennec",
+              "le-lac-au-duc": "Le lac au Duc",
+              "l-etang-de-paimpont": "L'étang de Paimpont"
+            }
+          },
+          "canal": {
+            "prompt": "Quel canal d'environ 360 kilomètres, voulu par Napoléon pour contourner le blocus anglais, traverse la Bretagne d'est en ouest ?",
+            "hint": "Il compte plus de 230 écluses.",
+            "anecdote": "La construction du barrage de Guerlédan l'a coupé en deux en 1930.",
+            "answers": {
+              "le-canal-de-nantes-a-brest": "Le canal de Nantes à Brest",
+              "le-canal-d-ille-et-rance": "Le canal d'Ille-et-Rance",
+              "le-canal-du-midi": "Le canal du Midi",
+              "le-canal-du-berry": "Le canal du Berry"
+            }
+          },
+          "rance-usine": {
+            "prompt": "Sur quel fleuve côtier se dresse cette usine, inaugurée en 1966, la première au monde à produire de l'électricité grâce aux marées ?",
+            "hint": "Une route passe sur l'ouvrage, entre Saint-Malo et Dinard.",
+            "anecdote": "Avec 240 mégawatts, elle est restée la plus puissante usine de ce type jusqu'en 2011.",
+            "answers": {
+              "la-rance": "La Rance",
+              "la-vilaine": "La Vilaine",
+              "le-trieux": "Le Trieux",
+              "l-aulne": "L'Aulne"
+            }
+          },
+          "amoco": {
+            "prompt": "De quel pétrolier vient cette ancre exposée à Portsall, en souvenir de la marée noire de mars 1978 ?",
+            "hint": "Le navire s'était échoué sur les roches de Portsall, après une avarie de gouvernail.",
+            "anecdote": "Plus de 200 000 tonnes de pétrole ont souillé environ 360 kilomètres de côtes.",
+            "answers": {
+              "l-amoco-cadiz": "L'Amoco Cadiz",
+              "l-erika": "L'Erika",
+              "le-torrey-canyon": "Le Torrey Canyon",
+              "le-tanio": "Le Tanio"
+            }
+          },
+          "ys": {
+            "prompt": "Selon la légende, quelle ville, gouvernée par le roi Gradlon, aurait été engloutie par la mer à cause de sa fille Dahut ?",
+            "hint": "Une digue et des portes la protégeaient des flots, mais Dahut en aurait volé la clé.",
+            "anecdote": "Selon la légende, Paris devrait son nom à cette ville : Par-Is signifierait pareille à elle.",
+            "answers": {
+              "ys": "Ys",
+              "lyonesse": "Lyonesse",
+              "avalon": "Avalon",
+              "l-atlantide": "L'Atlantide"
+            }
+          },
+          "ar-men": {
+            "prompt": "Quel phare, bâti entre 1867 et 1881 sur une roche au large de l'île de Sein, était surnommé l'enfer des enfers par les gardiens ?",
+            "hint": "Pendant les travaux, on ne pouvait accoster sur la roche que quelques heures par an.",
+            "anecdote": "Il est automatisé depuis 1990.",
+            "answers": {
+              "ar-men": "Ar-Men",
+              "la-jument": "La Jument",
+              "kereon": "Kéréon",
+              "tevennec": "Tévennec"
+            }
+          },
+          "corsen": {
+            "prompt": "Quel est le point le plus à l'ouest de la France continentale ?",
+            "hint": "Il se trouve sur la commune de Plouarzel, au nord-ouest de Brest.",
+            "anecdote": "Contrairement à une idée répandue, ce n'est pas la pointe du Raz.",
+            "answers": {
+              "la-pointe-de-corsen": "La pointe de Corsen",
+              "la-pointe-du-raz": "La pointe du Raz",
+              "la-pointe-saint-mathieu": "La pointe Saint-Mathieu",
+              "la-pointe-de-pen-hir": "La pointe de Pen-Hir"
+            }
+          },
+          "iroise": {
+            "prompt": "Quel parc naturel marin, créé en 2007, protège la mer entre Ouessant, Sein et la presqu'île de Crozon ?",
+            "hint": "C'est le premier parc naturel marin créé en France.",
+            "anecdote": "On y observe des phoques gris et des grands dauphins.",
+            "answers": {
+              "le-parc-naturel-marin-d-iroise": "Le parc naturel marin d'Iroise",
+              "le-parc-national-des-calanques": "Le parc national des Calanques",
+              "le-parc-naturel-marin-du-golfe-du-lion": "Le parc naturel marin du golfe du Lion",
+              "le-parc-national-de-port-cros": "Le parc national de Port-Cros"
+            }
+          },
+          "sept-iles": {
+            "prompt": "Quel archipel, au large de Perros-Guirec, abrite la seule colonie de fous de Bassan de France ?",
+            "hint": "L'île Rouzic, où nichent ces oiseaux, est interdite au débarquement.",
+            "anecdote": "La réserve a été créée en 1912 pour protéger les macareux. C'est l'une des plus anciennes de France.",
+            "answers": {
+              "les-sept-iles": "Les Sept-Îles",
+              "les-glenan": "Les Glénan",
+              "l-archipel-de-molene": "L'archipel de Molène",
+              "l-archipel-de-brehat": "L'archipel de Bréhat"
+            }
+          },
+          "batz": {
+            "prompt": "Quelle île, à quelques minutes de bateau de Roscoff, possède un jardin exotique créé par Georges Delaselle ?",
+            "hint": "Ses champs de légumes profitent d'un climat très doux.",
+            "anecdote": "Le jardin, créé en 1897, rassemble des plantes venues de l'hémisphère sud.",
+            "answers": {
+              "l-ile-de-batz": "L'île de Batz",
+              "l-ile-de-brehat": "L'île de Bréhat",
+              "molene": "Molène"
+            }
+          },
+          "mouton-ouessant": {
+            "prompt": "Quelle race de mouton, l'une des plus petites du monde, porte le nom de l'île habitée la plus à l'ouest de la Bretagne ?",
+            "hint": "Sa laine est le plus souvent noire.",
+            "anecdote": "Les femmes de l'île l'élevaient en liberté pendant que les hommes naviguaient au loin.",
+            "answers": {
+              "le-mouton-d-ouessant": "Le mouton d'Ouessant",
+              "le-mouton-des-landes-de-bretagne": "Le mouton des Landes de Bretagne",
+              "le-mouton-de-belle-ile": "Le mouton de Belle-Île",
+              "le-mouton-solognot": "Le mouton solognot"
+            }
+          },
+          "route-du-rhum": {
+            "prompt": "De quelle ville part la Route du Rhum, course transatlantique en solitaire créée en 1978 ?",
+            "hint": "La course arrive à Pointe-à-Pitre, en Guadeloupe.",
+            "anecdote": "Lors de la première édition, Mike Birch l'a emporté avec 98 secondes d'avance."
+          },
+          "bonnets-rouges": {
+            "prompt": "Quelle révolte de 1675, en Basse-Bretagne, s'opposait à de nouvelles taxes, notamment sur le papier timbré et le tabac ?",
+            "hint": "Ses participants portaient un couvre-chef d'une couleur vive.",
+            "anecdote": "Elle a été durement réprimée par le duc de Chaulnes, gouverneur de la province.",
+            "answers": {
+              "la-revolte-des-bonnets-rouges": "La révolte des Bonnets rouges",
+              "la-fronde": "La Fronde",
+              "la-revolte-des-va-nu-pieds": "La révolte des Va-nu-pieds",
+              "la-grande-jacquerie": "La Grande Jacquerie"
+            }
+          },
+          "chouannerie": {
+            "prompt": "Comment appelle-t-on l'insurrection royaliste qui a soulevé une partie des campagnes bretonnes contre la République, à partir de 1793 ?",
+            "hint": "Son nom viendrait du cri de la chouette, utilisé comme signal.",
+            "anecdote": "Georges Cadoudal, né près d'Auray, en a été l'un des principaux chefs.",
+            "answers": {
+              "la-chouannerie": "La chouannerie",
+              "la-fronde": "La Fronde",
+              "la-ligue": "La Ligue",
+              "la-camisardie": "La Camisardie"
+            }
+          },
+          "saint-marcel": {
+            "prompt": "Quel maquis du Morbihan a affronté les troupes allemandes le 18 juin 1944, avec l'appui de parachutistes de la France libre ?",
+            "hint": "Les parachutistes y avaient été largués dans les jours qui ont suivi le Débarquement.",
+            "anecdote": "Un musée de la Résistance en Bretagne se trouve aujourd'hui sur le site, près de Malestroit.",
+            "answers": {
+              "saint-marcel": "Saint-Marcel",
+              "le-vercors": "Le Vercors",
+              "les-glieres": "Les Glières",
+              "le-mont-mouchet": "Le Mont Mouchet"
+            }
+          },
+          "brest-1944": {
+            "prompt": "Quelle ville bretonne a été presque entièrement détruite lors du siège d'août et de septembre 1944 ?",
+            "hint": "C'était une grande base de sous-marins allemands, à la pointe de la Bretagne.",
+            "anecdote": "Elle a été reconstruite après la guerre, avec de larges rues rectilignes."
+          },
+          "poche-lorient": {
+            "prompt": "Quelle poche allemande de Bretagne n'a capitulé que le 10 mai 1945, après la fin officielle de la guerre en Europe ?",
+            "hint": "Elle était encerclée depuis août 1944.",
+            "anecdote": "La reddition a été signée à Caudan, près de la ville."
+          },
+          "gr34": {
+            "prompt": "Comment s'appelle l'ancien sentier des douaniers qui longe presque toute la côte bretonne ?",
+            "hint": "Il mesure environ 2 000 kilomètres.",
+            "anecdote": "Il a été élu sentier de grande randonnée préféré des Français en 2017.",
+            "answers": {
+              "le-gr-34": "Le GR 34",
+              "le-gr-10": "Le GR 10",
+              "le-gr-20": "Le GR 20",
+              "le-gr-65": "Le GR 65"
+            }
+          },
+          "dep-carhaix": {
+            "prompt": "Touchez le département de Carhaix, où se tient chaque été le festival des Vieilles Charrues.",
+            "hint": "C'est le département le plus à l'ouest de la région.",
+            "anecdote": "Carhaix, l'ancienne Vorgium gallo-romaine, se trouve au centre de la Bretagne, près de la limite des Côtes-d'Armor."
+          },
+          "dep-redon": {
+            "prompt": "Touchez le département de Redon, où le canal de Nantes à Brest croise la Vilaine.",
+            "hint": "C'est le département de Rennes, à l'est de la région.",
+            "anecdote": "La ville est à la rencontre de trois départements et de deux régions."
+          },
+          "dep-houat": {
+            "prompt": "Touchez le département des îles de Houat et Hoëdic.",
+            "hint": "C'est le département de Vannes, au sud de la région.",
+            "anecdote": "Ces deux petites îles se trouvent entre la presqu'île de Quiberon et Belle-Île."
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "saint-malo": {
+            "name": "Saint-Malo",
+            "description": "Ancienne cité de corsaires, Saint-Malo est enfermée dans ses remparts, au bord de la Manche. Son quartier intra-muros, presque entièrement détruit en 1944, a été reconstruit à l'identique dans les années qui ont suivi. À marée basse, on rejoint à pied les îlots du Grand Bé et du Petit Bé.",
+            "anecdote": "Les marées y comptent parmi les plus fortes d'Europe : la mer peut monter de plus de 13 mètres lors des grandes marées."
+          },
+          "galettes-crepes": {
+            "name": "Galettes et crêpes",
+            "description": "La galette, faite de farine de sarrasin, se mange salée, souvent garnie de jambon, d'œuf et de fromage. La crêpe, à base de farine de froment, se déguste sucrée. Toutes deux cuisent sur une plaque en fonte appelée billig, et s'accompagnent volontiers d'une bolée de cidre.",
+            "anecdote": "La pâte est étalée en une couche très fine à l'aide d'un petit râteau en bois, le rozell."
+          },
+          "carnac": {
+            "name": "Alignements de Carnac",
+            "description": "Près de 3 000 menhirs, dressés il y a plus de 6 000 ans, s'alignent en longues files sur environ 4 kilomètres. Les alignements du Ménec, de Kermario et de Kerlescan forment l'un des plus grands ensembles mégalithiques du monde, inscrit au patrimoine mondial de l'UNESCO en 2025.",
+            "anecdote": "Selon une légende locale, les menhirs seraient des soldats romains changés en pierre par saint Cornély, qu'ils poursuivaient."
+          },
+          "parlement": {
+            "name": "Parlement de Bretagne",
+            "description": "Achevé au XVIIe siècle, le palais du Parlement de Bretagne, à Rennes, accueillait la cour souveraine de la province. Il abrite aujourd'hui la cour d'appel. Ses salles sont ornées de plafonds peints et de boiseries dorées.",
+            "anecdote": "Ravagé par un incendie en février 1994, le palais a été restauré pendant dix ans, puis il a rouvert en 2004."
+          },
+          "pointe-du-raz": {
+            "name": "Pointe du Raz",
+            "description": "À l'extrémité du Cap Sizun, la pointe du Raz s'avance dans l'océan, face à l'île de Sein. À ses pieds, le raz de Sein est un passage redouté des marins, à cause de ses courants violents. Le site est labellisé Grand Site de France depuis 2004.",
+            "anecdote": "Un dicton de marins dit : Nul n'a passé le Raz sans mal ou sans frayeur."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur de Bretagne",
+            "description": "Réunir les cinq cartes de la collection de Bretagne."
+          },
+          "master": {
+            "name": "Maître de Bretagne",
+            "description": "Réussir le Défi Maître de Bretagne, avec au moins huit bonnes réponses sur dix."
           }
         }
       }

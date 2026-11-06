@@ -2,7 +2,24 @@
   "id": "FR-BRE",
   "slug": "bretagne",
   "nameKey": "regions.bretagne",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "22",
+      "nameKey": "departments.22"
+    },
+    {
+      "id": "29",
+      "nameKey": "departments.29"
+    },
+    {
+      "id": "35",
+      "nameKey": "departments.35"
+    },
+    {
+      "id": "56",
+      "nameKey": "departments.56"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],
