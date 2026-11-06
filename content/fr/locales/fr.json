@@ -6300,6 +6300,258 @@
       "photoNordPasDeCalaisTroueeArenberg": {
         "title": "Pavés de la trouée d'Arenberg",
         "alt": "Gros pavés irréguliers et usés, bordés d'herbe."
+      },
+      "photoPicardieCathedraleAmiens": {
+        "title": "Galerie des rois, cathédrale Notre-Dame d'Amiens",
+        "alt": "Rangée de statues de rois couronnés sous des arcades gothiques de pierre sculptée."
+      },
+      "photoPicardieCathedraleBeauvais": {
+        "title": "Cathédrale Saint-Pierre de Beauvais",
+        "alt": "Cathédrale gothique très haute, à la façade richement sculptée, au bord d'une place."
+      },
+      "photoPicardieChateauChantilly": {
+        "title": "Château de Chantilly",
+        "alt": "Château de pierre blonde à coupoles et à toits d'ardoise, au bord de l'eau."
+      },
+      "photoPicardiePierrefonds": {
+        "title": "Château de Pierrefonds",
+        "alt": "Château fort aux grosses tours rondes crénelées, sous un ciel nuageux."
+      },
+      "photoPicardieChateauCompiegne": {
+        "title": "Château de Compiègne",
+        "alt": "Long palais classique de pierre claire, avec un fronton sculpté et une colonnade."
+      },
+      "photoPicardieHdvSaintQuentin": {
+        "title": "Hôtel de ville de Saint-Quentin",
+        "alt": "Façade gothique flamboyante à arcades, surmontée de pignons et d'un campanile."
+      },
+      "photoPicardieCollegialeAbbeville": {
+        "title": "Collégiale Saint-Vulfran, Abbeville",
+        "alt": "Nef gothique très haute aux piliers élancés, avec une chaire sculptée."
+      },
+      "photoPicardieGerberoy": {
+        "title": "Gerberoy",
+        "alt": "Rue de maisons anciennes à colombages, bordée de verdure."
+      },
+      "photoPicardieBaieSomme": {
+        "title": "Baie de Somme depuis Saint-Valery-sur-Somme",
+        "alt": "Vaste baie de sable à marée basse, vue depuis un coteau boisé."
+      },
+      "photoPicardieHortillonnages": {
+        "title": "Hortillonnages, Amiens",
+        "alt": "Plan d'eau bordé d'arbres et de jardins, avec une petite passerelle."
+      },
+      "photoPicardieLeCrotoy": {
+        "title": "Le Crotoy",
+        "alt": "Digue fleurie de coquelicots au bord d'une baie à marée basse."
+      },
+      "photoPicardieMersLesBains": {
+        "title": "Villas de Mers-les-Bains",
+        "alt": "Rangée de villas balnéaires à colombages et à balcons colorés."
+      },
+      "photoPicardieGaletsCayeux": {
+        "title": "Plage de Cayeux-sur-Mer",
+        "alt": "Chemin de planches le long d'une plage de pierres rondes, bordé de cabines."
+      },
+      "photoPicardieFalaisesAult": {
+        "title": "Falaises d'Ault",
+        "alt": "Hautes falaises de craie blanche au-dessus de la mer."
+      },
+      "photoPicardiePhareHourdel": {
+        "title": "Phare du Hourdel",
+        "alt": "Phare blanc derrière des arbres, au bord d'une baie."
+      },
+      "photoPicardieFicelle": {
+        "title": "Ficelle picarde",
+        "alt": "Crêpes roulées couvertes de fromage râpé, dans une barquette."
+      },
+      "photoPicardieMacaron": {
+        "title": "Macarons d'Amiens",
+        "alt": "Quatre petits gâteaux ronds et dorés posés sur une assiette."
+      },
+      "photoPicardieSalicorne": {
+        "title": "Salicorne, baie de Somme",
+        "alt": "Petites plantes charnues et vertes aux tiges articulées."
+      },
+      "photoPicardieMoutons": {
+        "title": "Moutons sur les prés salés, Le Crotoy",
+        "alt": "Troupeau broutant dans une prairie basse au bord de la mer."
+      },
+      "photoPicardieHaricots": {
+        "title": "Haricots blancs",
+        "alt": "Grosses graines sèches et blanches posées sur une planche."
+      },
+      "photoPicardieRollot": {
+        "title": "Rollot",
+        "alt": "Petit fromage entamé, à croûte orangée et à pâte blanche."
+      },
+      "photoPicardieGateauBattu": {
+        "title": "Gâteau battu",
+        "alt": "Haute brioche dorée entamée, à la mie jaune."
+      },
+      "photoPicardieFlamiche": {
+        "title": "Flamiche aux poireaux",
+        "alt": "Tourte dorée entamée, garnie de poireaux."
+      },
+      "photoPicardieVignesChampagne": {
+        "title": "Vignoble près de Trélou-sur-Marne",
+        "alt": "Coteau couvert de rangs de vignes sous un ciel d'orage."
+      },
+      "photoPicardieBarqueCornet": {
+        "title": "Barque des hortillonnages, Amiens",
+        "alt": "Barque noire à fond plat et à la proue relevée, sur un canal sous les arbres."
+      },
+      "photoPicardieLaon": {
+        "title": "Ville haute de Laon",
+        "alt": "Ville perchée au sommet d'une butte boisée."
+      },
+      "photoPicardieSenlis": {
+        "title": "Cathédrale de Senlis",
+        "alt": "Haute flèche gothique de pierre au-dessus des toits et des arbres."
+      },
+      "photoPicardieSaintValery": {
+        "title": "Porte Guillaume, Saint-Valery-sur-Somme",
+        "alt": "Porte fortifiée encadrée de deux grosses tours rondes crénelées."
+      },
+      "photoPicardieSaintLeuAmiens": {
+        "title": "Quartier Saint-Leu, Amiens",
+        "alt": "Maisons à colombages autour d'une petite place pavée."
+      },
+      "photoPicardieBeffroiAmiens": {
+        "title": "Beffroi d'Amiens",
+        "alt": "Tour carrée de pierre surmontée d'un dôme d'ardoise et d'un campanile."
+      },
+      "photoPicardieMaisonJulesVerne": {
+        "title": "Maison de Jules Verne, Amiens",
+        "alt": "Maison de brique à tourelle d'angle, coiffée d'une structure en forme de globe."
+      },
+      "photoPicardieHdvCompiegne": {
+        "title": "Hôtel de ville de Compiègne",
+        "alt": "Façade gothique flamboyante à tourelles, avec un beffroi et une statue équestre."
+      },
+      "photoPicardieNoyon": {
+        "title": "Cathédrale Notre-Dame de Noyon",
+        "alt": "Tours de pierre d'une église gothique, vues depuis un cloître."
+      },
+      "photoPicardieSoissonsCathedrale": {
+        "title": "Cathédrale Saint-Gervais-et-Saint-Protais de Soissons",
+        "alt": "Nef gothique claire, aux grandes arcades et aux hautes fenêtres."
+      },
+      "photoPicardieSaintJeanDesVignes": {
+        "title": "Abbaye Saint-Jean-des-Vignes, Soissons",
+        "alt": "Haute façade gothique à deux flèches ajourées, derrière une pelouse."
+      },
+      "photoPicardieSaintQuentinBasilique": {
+        "title": "Basilique de Saint-Quentin",
+        "alt": "Voûtes gothiques très hautes, vues d'en bas."
+      },
+      "photoPicardieSaintRiquier": {
+        "title": "Abbatiale de Saint-Riquier",
+        "alt": "Façade gothique flamboyante très sculptée, sous une haute tour."
+      },
+      "photoPicardieMorienval": {
+        "title": "Abbatiale de Morienval",
+        "alt": "Église romane à trois clochers, au-dessus des arbres."
+      },
+      "photoPicardieChaalis": {
+        "title": "Abbaye de Chaalis",
+        "alt": "Ruines d'une grande église gothique près d'une chapelle blanche, sur une pelouse."
+      },
+      "photoPicardieValloires": {
+        "title": "Abbaye de Valloires",
+        "alt": "Grands bâtiments classiques de pierre blanche derrière des jardins."
+      },
+      "photoPicardieChapelleRue": {
+        "title": "Chapelle du Saint-Esprit, Rue",
+        "alt": "Chapelle gothique flamboyante couverte de sculptures."
+      },
+      "photoPicardieCoucy": {
+        "title": "Château de Coucy",
+        "alt": "Remparts aux tours rondes ruinées au-dessus d'une vallée boisée."
+      },
+      "photoPicardieFereEnTardenois": {
+        "title": "Château de Fère-en-Tardenois",
+        "alt": "Ruines de pierre aux hautes piles, près d'un jardin."
+      },
+      "photoPicardieVillersCotterets": {
+        "title": "Château de Villers-Cotterêts",
+        "alt": "Façade Renaissance de pierre blanche à hauts toits d'ardoise, sur une cour pavée."
+      },
+      "photoPicardieRambures": {
+        "title": "Château de Rambures",
+        "alt": "Château fort de brique aux grosses tours rondes coiffées de toits pointus."
+      },
+      "photoPicardieBlerancourt": {
+        "title": "Château de Blérancourt",
+        "alt": "Pavillons classiques de pierre au bout d'une allée de jardin."
+      },
+      "photoPicardieGrandesEcuries": {
+        "title": "Grandes Écuries, Chantilly",
+        "alt": "Immense bâtiment classique de pierre au bord d'une vaste pelouse."
+      },
+      "photoPicardieNaours": {
+        "title": "Muches de Naours",
+        "alt": "Galerie souterraine creusée dans la roche, éclairée par une lampe."
+      },
+      "photoPicardieHutte": {
+        "title": "Hutte de chasse, Le Hâble d'Ault",
+        "alt": "Abri bas à demi enterré au bord d'une mare où nagent des oiseaux."
+      },
+      "photoPicardieHenson": {
+        "title": "Cheval henson, baie d'Authie",
+        "alt": "Cheval à robe beige et à crinière sombre, dans un pré."
+      },
+      "photoPicardieTrainVapeur": {
+        "title": "Chemin de fer de la baie de Somme",
+        "alt": "Locomotive à vapeur tirant des voitures anciennes à un passage à niveau."
+      },
+      "photoPicardieFamilistere": {
+        "title": "Familistère de Guise",
+        "alt": "Grande cour intérieure couverte d'une verrière, entourée de galeries à balcons."
+      },
+      "photoPicardieTapisserie": {
+        "title": "Le Cheval fondu, tapisserie de Beauvais",
+        "alt": "Tapisserie ancienne montrant des enfants qui jouent sous les arbres."
+      },
+      "photoPicardieNacre": {
+        "title": "Musée de la Nacre, Méru",
+        "alt": "Couverts aux manches blancs et irisés, dans un écrin rouge."
+      },
+      "photoPicardieQuentinDeLaTour": {
+        "title": "Autoportrait au jabot, Maurice-Quentin de La Tour",
+        "alt": "Portrait au pastel d'un homme souriant, en perruque poudrée."
+      },
+      "photoPicardieThiepval": {
+        "title": "Mémorial de Thiepval",
+        "alt": "Immense arche de brique et de pierre au-dessus d'une pelouse."
+      },
+      "photoPicardieBeaumontHamel": {
+        "title": "Mémorial de Beaumont-Hamel",
+        "alt": "Statue de bronze d'un grand cervidé au sommet d'un rocher."
+      },
+      "photoPicardieVillersBretonneux": {
+        "title": "Mémorial de Villers-Bretonneux",
+        "alt": "Tour de pierre blanche et grande croix au-dessus d'une pelouse."
+      },
+      "photoPicardieLochnagar": {
+        "title": "Cratère de Lochnagar, La Boisselle",
+        "alt": "Immense cratère herbeux creusé dans un champ."
+      },
+      "photoPicardieClairiere": {
+        "title": "Clairière de l'Armistice, Compiègne",
+        "alt": "Dalle entourée de rails et de bornes enchaînées, dans une clairière."
+      },
+      "photoPicardieCheminDesDames": {
+        "title": "Monument des Basques, Hurtebise",
+        "alt": "Groupe de soldats de bronze sur un socle de pierre, au bord d'un champ."
+      },
+      "photoPicardieCroixBoheme": {
+        "title": "Croix de Bohême, Estrées-lès-Crécy",
+        "alt": "Ancienne croix de pierre usée, sur un haut socle."
+      },
+      "photoPicardieSamara": {
+        "title": "Samara, maison gauloise reconstituée",
+        "alt": "Maison basse au grand toit de chaume, sur une pelouse."
       }
     }
   },
@@ -7314,7 +7566,62 @@
     "azincourt": "Azincourt",
     "vimy": "Vimy",
     "helfaut": "Helfaut",
-    "eperlecques": "Éperlecques"
+    "eperlecques": "Éperlecques",
+    "laon": "Laon",
+    "saint-quentin": "Saint-Quentin",
+    "soissons": "Soissons",
+    "chateau-thierry": "Château-Thierry",
+    "villers-cotterets": "Villers-Cotterêts",
+    "guise": "Guise",
+    "vervins": "Vervins",
+    "coucy-le-chateau-auffrique": "Coucy-le-Château-Auffrique",
+    "fere-en-tardenois": "Fère-en-Tardenois",
+    "blerancourt": "Blérancourt",
+    "la-ferte-milon": "La Ferté-Milon",
+    "ribemont": "Ribemont",
+    "liesse-notre-dame": "Liesse-Notre-Dame",
+    "craonne": "Craonne",
+    "saint-gobain": "Saint-Gobain",
+    "aubenton": "Aubenton",
+    "beauvais": "Beauvais",
+    "compiegne": "Compiègne",
+    "chantilly": "Chantilly",
+    "senlis": "Senlis",
+    "noyon": "Noyon",
+    "pierrefonds": "Pierrefonds",
+    "gerberoy": "Gerberoy",
+    "ermenonville": "Ermenonville",
+    "crepy-en-valois": "Crépy-en-Valois",
+    "morienval": "Morienval",
+    "clermont-oise": "Clermont",
+    "meru": "Méru",
+    "saint-leu-d-esserent": "Saint-Leu-d'Esserent",
+    "pont-sainte-maxence": "Pont-Sainte-Maxence",
+    "savignies": "Savignies",
+    "rethondes": "Rethondes",
+    "amiens": "Amiens",
+    "abbeville": "Abbeville",
+    "peronne": "Péronne",
+    "albert": "Albert",
+    "montdidier": "Montdidier",
+    "doullens": "Doullens",
+    "ham": "Ham",
+    "rue": "Rue",
+    "le-crotoy": "Le Crotoy",
+    "saint-valery-sur-somme": "Saint-Valery-sur-Somme",
+    "cayeux-sur-mer": "Cayeux-sur-Mer",
+    "ault": "Ault",
+    "mers-les-bains": "Mers-les-Bains",
+    "saint-riquier": "Saint-Riquier",
+    "rambures": "Rambures",
+    "naours": "Naours",
+    "rollot": "Rollot",
+    "friville-escarbotin": "Friville-Escarbotin",
+    "crecy-en-ponthieu": "Crécy-en-Ponthieu",
+    "thiepval": "Thiepval",
+    "villers-bretonneux": "Villers-Bretonneux",
+    "picquigny": "Picquigny",
+    "noyelles-sur-mer": "Noyelles-sur-Mer"
   },
   "territories": {
     "champagne-ardenne": {
@@ -44898,6 +45205,2050 @@
           "master": {
             "name": "Maître du Nord-Pas-de-Calais",
             "description": "Réussir le Défi Maître du Nord-Pas-de-Calais, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
+    },
+    "picardie": {
+      "name": "Picardie",
+      "description": "Des cathédrales d'Amiens et de Beauvais aux châteaux de Chantilly et de Pierrefonds, de la baie de Somme aux hortillonnages, de Laon sur sa butte aux champs de mémoire de la Somme et du Chemin des Dames, une terre de plaines et de forêts royales, de ficelles picardes et de macarons, au cœur de l'histoire de France.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Picardie",
+          "description": "Trois départements, leurs grandes villes et les repères d'une terre de plaines et de forêts, entre la baie de Somme, les cathédrales gothiques et les châteaux des rois.",
+          "trois-departements": {
+            "prompt": "Quels départements formaient l'ancienne région Picardie ?",
+            "hint": "Tous les trois portent le nom d'une rivière qui les traverse.",
+            "anecdote": "Ces trois départements ont été créés en 1790. Ils forment aujourd'hui, avec le Nord et le Pas-de-Calais, la région Hauts-de-France.",
+            "answers": {
+              "l-aisne-l-oise-et-la-somme": "L'Aisne, l'Oise et la Somme",
+              "l-aisne-l-oise-et-le-nord": "L'Aisne, l'Oise et le Nord",
+              "la-somme-le-nord-et-le-pas-de-calais": "La Somme, le Nord et le Pas-de-Calais",
+              "l-oise-la-marne-et-l-aisne": "L'Oise, la Marne et l'Aisne"
+            }
+          },
+          "fusion-2016": {
+            "prompt": "Avec quelle ancienne région la Picardie a-t-elle été réunie le 1er janvier 2016 ?",
+            "hint": "Sa plus grande ville, Lille, est devenue le chef-lieu de la nouvelle région.",
+            "anecdote": "Les deux anciennes régions comptent ensemble cinq départements et environ six millions d'habitants.",
+            "answers": {
+              "le-nord-pas-de-calais": "Le Nord-Pas-de-Calais",
+              "la-champagne-ardenne": "La Champagne-Ardenne",
+              "la-haute-normandie": "La Haute-Normandie",
+              "l-ile-de-france": "L'Île-de-France"
+            }
+          },
+          "nom-region": {
+            "prompt": "Quel nom porte la région née en 2016 de la réunion de la Picardie et de sa voisine du nord ?",
+            "hint": "Ce nom évoque une place tout en haut de la carte du pays.",
+            "anecdote": "Ce nom a été choisi en 2016, après une consultation des habitants et un vote des élus régionaux.",
+            "answers": {
+              "les-hauts-de-france": "Les Hauts-de-France",
+              "le-grand-est": "Le Grand Est",
+              "le-nord-picardie": "Le Nord-Picardie",
+              "les-pays-du-nord": "Les Pays du Nord"
+            }
+          },
+          "chef-lieu-picardie": {
+            "prompt": "Quelle ville était le chef-lieu de l'ancienne région Picardie ?",
+            "hint": "Elle est traversée par la Somme et possède une immense cathédrale gothique.",
+            "anecdote": "C'est la préfecture de la Somme et la plus grande ville de l'ancienne Picardie, avec environ 130 000 habitants."
+          },
+          "prefecture-oise": {
+            "prompt": "Quelle ville est la préfecture de l'Oise ?",
+            "hint": "Son aéroport accueille de nombreuses compagnies aériennes à bas prix.",
+            "anecdote": "Elle est célèbre pour sa cathédrale Saint-Pierre et pour sa manufacture de tapisseries, fondée sous Louis XIV.",
+            "answers": {
+              "creil": "Creil"
+            }
+          },
+          "prefecture-aisne": {
+            "prompt": "Quelle ville, perchée sur une butte, est la préfecture de l'Aisne ?",
+            "hint": "Sa cathédrale domine la plaine, à une centaine de mètres au-dessus des champs.",
+            "anecdote": "Sa ville haute est reliée à la gare par une rue en pente et de longs escaliers. Elle a été une capitale des derniers rois carolingiens."
+          },
+          "langue-picard": {
+            "prompt": "Comment s'appelle la langue régionale parlée en Picardie et dans le Nord ?",
+            "hint": "Dans le Nord et le Pas-de-Calais, on l'appelle souvent le ch'ti.",
+            "anecdote": "C'est une langue romane, proche du français. Elle a ses écrivains, ses chansons et ses spectacles de marionnettes.",
+            "answers": {
+              "le-picard": "Le picard",
+              "le-wallon": "Le wallon",
+              "le-flamand": "Le flamand",
+              "le-normand": "Le normand"
+            }
+          },
+          "autoroute": {
+            "prompt": "Quelle autoroute relie Paris à Lille en traversant l'Oise et la Somme ?",
+            "hint": "C'est la toute première autoroute du pays par son numéro.",
+            "anecdote": "Ouverte par étapes dans les années 1950 à 1960, l'autoroute du Nord est l'une des plus fréquentées de France.",
+            "answers": {
+              "l-a1": "L'A1",
+              "l-a16": "L'A16",
+              "l-a26": "L'A26",
+              "l-a29": "L'A29"
+            }
+          },
+          "fleuve-somme": {
+            "prompt": "Quel fleuve côtier traverse Amiens et Abbeville avant de se jeter dans la Manche ?",
+            "hint": "Il a donné son nom à l'un des trois départements et à une grande baie.",
+            "anecdote": "Long d'environ 250 kilomètres, il prend sa source dans l'Aisne, près de Saint-Quentin. Sa vallée est jalonnée d'étangs.",
+            "answers": {
+              "la-somme": "La Somme",
+              "l-authie": "L'Authie",
+              "la-bresle": "La Bresle",
+              "la-canche": "La Canche"
+            }
+          },
+          "foret-retz": {
+            "prompt": "Quelle grande forêt du sud de l'Aisne entoure la ville de Villers-Cotterêts ?",
+            "hint": "Elle porte le même nom qu'un célèbre cardinal du XVIIe siècle, auteur de Mémoires.",
+            "anecdote": "Avec environ 13 000 hectares, c'est l'une des plus grandes forêts domaniales de France. Les rois y chassaient depuis le Moyen Âge.",
+            "answers": {
+              "la-foret-de-retz": "La forêt de Retz",
+              "la-foret-de-compiegne": "La forêt de Compiègne",
+              "la-foret-de-chantilly": "La forêt de Chantilly",
+              "la-foret-de-saint-gobain": "La forêt de Saint-Gobain"
+            }
+          },
+          "riviere-aisne": {
+            "prompt": "Quelle rivière traverse Soissons, puis rejoint sa voisine près de Compiègne ?",
+            "hint": "Elle a donné son nom au département de l'est de la région.",
+            "anecdote": "Elle prend sa source dans l'Argonne, en Lorraine. Sa vallée a été un champ de bataille pendant la Première Guerre mondiale.",
+            "answers": {
+              "l-aisne": "L'Aisne",
+              "la-marne": "La Marne",
+              "la-vesle": "La Vesle",
+              "l-ailette": "L'Ailette"
+            }
+          },
+          "thierache": {
+            "prompt": "Quelle petite région de bocage, au nord de l'Aisne, est célèbre pour ses églises fortifiées ?",
+            "hint": "Elle prolonge l'Avesnois voisin, au pied des Ardennes.",
+            "anecdote": "Ses villageois se réfugiaient dans les églises, munies de tours, de donjons et de meurtrières, pendant les guerres des XVIe et XVIIe siècles.",
+            "answers": {
+              "la-thierache": "La Thiérache",
+              "le-vermandois": "Le Vermandois",
+              "le-soissonnais": "Le Soissonnais",
+              "le-valois": "Le Valois"
+            }
+          },
+          "marquenterre": {
+            "prompt": "Quel parc ornithologique, au nord de la baie de Somme, accueille des milliers d'oiseaux migrateurs ?",
+            "hint": "Son nom évoque une terre gagnée sur la mer.",
+            "anecdote": "Ses dunes, ses pinèdes et ses marais forment une halte pour plus de 300 espèces d'oiseaux, comme les cigognes et les spatules.",
+            "answers": {
+              "le-parc-du-marquenterre": "Le parc du Marquenterre",
+              "le-parc-ornithologique-du-teich": "Le parc ornithologique du Teich",
+              "le-parc-des-oiseaux-de-villars-les-dombes": "Le parc des oiseaux de Villars-les-Dombes",
+              "le-parc-ornithologique-du-pont-de-gau": "Le parc ornithologique du Pont de Gau"
+            }
+          },
+          "cathedrale-amiens": {
+            "prompt": "Quelle cathédrale, la plus vaste de France, voit-on ici ?",
+            "hint": "Elle se dresse au bord de la Somme, dans le chef-lieu de l'ancienne région.",
+            "anecdote": "Bâtie en grande partie entre 1220 et 1288, elle pourrait contenir deux fois Notre-Dame de Paris. Elle est inscrite au patrimoine mondial de l'UNESCO.",
+            "answers": {
+              "la-cathedrale-d-amiens": "La cathédrale d'Amiens",
+              "la-cathedrale-de-beauvais": "La cathédrale de Beauvais",
+              "la-cathedrale-de-reims": "La cathédrale de Reims",
+              "la-cathedrale-de-chartres": "La cathédrale de Chartres"
+            }
+          },
+          "cathedrale-beauvais": {
+            "prompt": "Quelle cathédrale, dont le chœur gothique est le plus haut du monde, voit-on ici ?",
+            "hint": "Elle se dresse dans la préfecture de l'Oise.",
+            "anecdote": "Sa voûte culmine à environ 48 mètres. Faute d'argent, et après plusieurs effondrements, sa nef n'a jamais été construite.",
+            "answers": {
+              "la-cathedrale-de-beauvais": "La cathédrale de Beauvais",
+              "la-cathedrale-d-amiens": "La cathédrale d'Amiens",
+              "la-cathedrale-de-laon": "La cathédrale de Laon",
+              "la-cathedrale-de-noyon": "La cathédrale de Noyon"
+            }
+          },
+          "chateau-chantilly": {
+            "prompt": "Quel château, entouré d'eau, abrite le musée Condé ?",
+            "hint": "Sa ville a donné son nom à une crème fouettée sucrée.",
+            "anecdote": "Son dernier propriétaire, le duc d'Aumale, fils du roi Louis-Philippe, l'a donné à l'Institut de France en 1886, avec ses collections.",
+            "answers": {
+              "le-chateau-de-chantilly": "Le château de Chantilly",
+              "le-chateau-de-compiegne": "Le château de Compiègne",
+              "le-chateau-d-ecouen": "Le château d'Écouen",
+              "le-chateau-de-vaux-le-vicomte": "Le château de Vaux-le-Vicomte"
+            }
+          },
+          "pierrefonds": {
+            "prompt": "Quel château fort, reconstruit au XIXe siècle pour Napoléon III, voit-on ici ?",
+            "hint": "Il se dresse à la lisière de la grande forêt qui entoure Compiègne.",
+            "anecdote": "Ce château du XIVe siècle était en ruine quand Viollet-le-Duc l'a rebâti, à partir de 1857, en imaginant un château idéal du Moyen Âge.",
+            "answers": {
+              "le-chateau-de-pierrefonds": "Le château de Pierrefonds",
+              "le-chateau-de-coucy": "Le château de Coucy",
+              "le-chateau-de-vincennes": "Le château de Vincennes",
+              "le-chateau-du-haut-koenigsbourg": "Le château du Haut-Kœnigsbourg"
+            }
+          },
+          "chateau-compiegne": {
+            "prompt": "Quel château, résidence de Louis XV puis de Napoléon III, voit-on ici ?",
+            "hint": "Il se trouve au bord de l'Oise, à l'orée d'une grande forêt de chasse.",
+            "anecdote": "Reconstruit à partir de 1751 par l'architecte Ange-Jacques Gabriel, il accueillait chaque automne les fêtes et les chasses de la cour impériale.",
+            "answers": {
+              "le-chateau-de-compiegne": "Le château de Compiègne",
+              "le-chateau-de-fontainebleau": "Le château de Fontainebleau",
+              "le-chateau-de-versailles": "Le château de Versailles",
+              "le-chateau-de-saint-germain-en-laye": "Le château de Saint-Germain-en-Laye"
+            }
+          },
+          "hdv-saint-quentin": {
+            "prompt": "Dans quelle ville de l'Aisne se trouve cet hôtel de ville de style gothique flamboyant ?",
+            "hint": "Cette ville porte le nom d'un martyr chrétien et se dresse au bord de la Somme naissante.",
+            "anecdote": "Sa façade du XVIe siècle est ornée de sculptures pleines d'humour. Son beffroi abrite un carillon."
+          },
+          "collegiale-abbeville": {
+            "prompt": "Dans quelle ville de la Somme se dresse cette collégiale Saint-Vulfran ?",
+            "hint": "C'est la capitale du Ponthieu, en aval d'Amiens.",
+            "anecdote": "Sa façade gothique flamboyante a été commencée en 1488. Elle a été gravement endommagée par les bombardements de 1940, puis restaurée."
+          },
+          "gerberoy": {
+            "prompt": "Quel petit village fleuri de l'Oise, célèbre pour ses roses, voit-on ici ?",
+            "hint": "Il se trouve dans le pays de Bray, près de la frontière normande.",
+            "anecdote": "Le peintre Henri Le Sidaner y a créé ses jardins au début du XXe siècle. Une fête de la rose y a lieu chaque année en juin.",
+            "answers": {
+              "saint-jean-aux-bois": "Saint-Jean-aux-Bois"
+            }
+          },
+          "baie-somme": {
+            "prompt": "Quelle grande baie, où la mer se retire très loin à marée basse, voit-on ici ?",
+            "hint": "Elle s'ouvre entre Le Crotoy et Saint-Valery.",
+            "anecdote": "C'est le plus grand estuaire du nord de la France. On peut y suivre des guides pour traverser à pied ses étendues de sable et de vase.",
+            "answers": {
+              "la-baie-de-somme": "La baie de Somme",
+              "la-baie-d-authie": "La baie d'Authie",
+              "la-baie-de-canche": "La baie de Canche",
+              "la-baie-du-mont-saint-michel": "La baie du Mont-Saint-Michel"
+            }
+          },
+          "hortillonnages": {
+            "prompt": "Comment s'appellent ces jardins entourés de canaux, au cœur d'Amiens ?",
+            "hint": "On les visite à bord de barques à fond plat.",
+            "anecdote": "Ces anciens marais, aménagés depuis le Moyen Âge, couvrent environ 300 hectares. Les maraîchers y livraient leurs légumes en barque.",
+            "answers": {
+              "les-hortillonnages": "Les hortillonnages",
+              "les-marais-salants": "Les marais salants",
+              "les-wateringues": "Les wateringues",
+              "les-polders": "Les polders"
+            }
+          },
+          "le-crotoy": {
+            "prompt": "Quelle station balnéaire de la baie de Somme voit-on ici ?",
+            "hint": "Sa plage est l'une des rares du nord de la France à être tournée vers le sud.",
+            "anecdote": "Jules Verne y a habité de 1865 à 1870 et y a écrit une partie de Vingt Mille Lieues sous les mers.",
+            "answers": {
+              "fort-mahon-plage": "Fort-Mahon-Plage",
+              "quend-plage": "Quend-Plage"
+            }
+          },
+          "mers-les-bains": {
+            "prompt": "Quelle station balnéaire de la Somme est célèbre pour ses villas Belle Époque aux façades colorées ?",
+            "hint": "Elle fait face au Tréport, de l'autre côté de la Bresle.",
+            "anecdote": "Des centaines de villas, avec leurs balcons et leurs bow-windows, y ont été bâties entre la fin du XIXe siècle et les années 1930."
+          },
+          "galets-cayeux": {
+            "prompt": "De quoi est faite la plage de Cayeux-sur-Mer, au sud de la baie de Somme ?",
+            "hint": "Ces cailloux arrondis par les vagues viennent des falaises voisines.",
+            "anecdote": "Ces galets de silex étaient autrefois ramassés et vendus pour l'industrie de la céramique et des peintures.",
+            "answers": {
+              "de-galets": "De galets",
+              "de-sable-fin": "De sable fin",
+              "de-sable-noir": "De sable noir",
+              "de-coquillages-broyes": "De coquillages broyés"
+            }
+          },
+          "falaises-ault": {
+            "prompt": "Que fait chaque année le bord de ces falaises d'Ault, au sud de la côte picarde ?",
+            "hint": "La mer et la pluie les attaquent sans relâche, et des pans entiers s'effondrent sur la plage.",
+            "anecdote": "Ces falaises de craie blanche, comme celles de la côte d'Albâtre en Normandie, perdent jusqu'à plusieurs dizaines de centimètres par an. Des maisons du bord ont dû être évacuées.",
+            "answers": {
+              "il-recule": "Il recule",
+              "il-avance": "Il avance",
+              "il-s-eleve": "Il s'élève",
+              "il-reste-immobile": "Il reste immobile"
+            }
+          },
+          "phare-hourdel": {
+            "prompt": "Quelle pointe, à l'entrée sud de la baie de Somme, voit-on ici avec son phare ?",
+            "hint": "Elle ferme la baie face au Crotoy, au bout de la côte de galets de Cayeux.",
+            "anecdote": "Il est bâti au bout d'une longue flèche de galets. Des phoques se reposent souvent sur les bancs de sable voisins.",
+            "answers": {
+              "la-pointe-du-hourdel": "La pointe du Hourdel",
+              "le-cap-gris-nez": "Le cap Gris-Nez",
+              "la-pointe-de-la-hague": "La pointe de la Hague",
+              "la-pointe-du-grouin": "La pointe du Grouin"
+            }
+          },
+          "amiens-dep": {
+            "prompt": "Dans quel département se trouve Amiens ?",
+            "hint": "C'est le département de l'ouest, qui borde la Manche entre le Pas-de-Calais et la Seine-Maritime.",
+            "anecdote": "Amiens en est la préfecture. Jules Verne y a vécu plus de trente ans et a été conseiller municipal de la ville."
+          },
+          "albert-dep": {
+            "prompt": "Dans quel département se trouve Albert, dont la basilique est couronnée d'une Vierge dorée ?",
+            "hint": "C'est le département de l'ouest, qui borde la Manche entre le Pas-de-Calais et la Seine-Maritime.",
+            "anecdote": "Pendant la Première Guerre mondiale, la statue, touchée par un obus, est restée penchée au-dessus du vide pendant près de trois ans."
+          },
+          "peronne-dep": {
+            "prompt": "Dans quel département se trouve Péronne, ville de l'Historial de la Grande Guerre ?",
+            "hint": "C'est le département de l'ouest, qui borde la Manche entre le Pas-de-Calais et la Seine-Maritime.",
+            "anecdote": "Ce musée, ouvert en 1992 dans le château de Péronne, compare les sociétés française, britannique et allemande pendant la guerre."
+          },
+          "rue-dep": {
+            "prompt": "Dans quel département se trouve Rue, petite ville du Marquenterre à la chapelle du Saint-Esprit flamboyante ?",
+            "hint": "C'est le département de l'ouest, qui borde la Manche entre le Pas-de-Calais et la Seine-Maritime.",
+            "anecdote": "Rue était un port de mer au Moyen Âge. La mer s'est retirée, et la ville se trouve aujourd'hui à plusieurs kilomètres du rivage."
+          },
+          "senlis-dep": {
+            "prompt": "Dans quel département se trouve Senlis, ville royale aux rues pavées ?",
+            "hint": "C'est le département le plus au sud de la région, juste au nord de l'Île-de-France.",
+            "anecdote": "Sa cathédrale Notre-Dame, commencée en 1153, est l'une des toutes premières cathédrales gothiques."
+          },
+          "noyon-dep": {
+            "prompt": "Dans quel département se trouve Noyon, où Charlemagne a été sacré roi des Francs ?",
+            "hint": "C'est le département le plus au sud de la région, juste au nord de l'Île-de-France.",
+            "anecdote": "Le réformateur Jean Calvin est né à Noyon en 1509. Sa maison natale est devenue un musée."
+          },
+          "ermenonville-dep": {
+            "prompt": "Dans quel département se trouve Ermenonville, village d'un célèbre parc paysager du XVIIIe siècle ?",
+            "hint": "C'est le département le plus au sud de la région, juste au nord de l'Île-de-France.",
+            "anecdote": "Le philosophe Jean-Jacques Rousseau y est mort en 1778. Il a d'abord été enterré sur l'île des Peupliers, au milieu de l'étang du parc."
+          },
+          "crepy-dep": {
+            "prompt": "Dans quel département se trouve Crépy-en-Valois, ancienne capitale du duché de Valois ?",
+            "hint": "C'est le département le plus au sud de la région, juste au nord de l'Île-de-France.",
+            "anecdote": "Le Valois a donné son nom à la dynastie royale qui a régné sur la France de 1328 à 1589."
+          },
+          "soissons-dep": {
+            "prompt": "Dans quel département se trouve Soissons, ville du célèbre vase de Clovis ?",
+            "hint": "C'est le département de l'est de l'ancienne Picardie, qui touche la Belgique au nord et la Champagne au sud-est.",
+            "anecdote": "Soissons a été l'une des capitales des rois francs mérovingiens. Ses haricots blancs sont réputés."
+          },
+          "chateau-thierry-dep": {
+            "prompt": "Dans quel département se trouve Château-Thierry, au bord de la Marne ?",
+            "hint": "C'est le département de l'est de l'ancienne Picardie, qui touche la Belgique au nord et la Champagne au sud-est.",
+            "anecdote": "Le fabuliste Jean de La Fontaine y est né en 1621. Sa maison natale abrite un musée."
+          },
+          "villers-cotterets-dep": {
+            "prompt": "Dans quel département se trouve Villers-Cotterêts, ville natale d'Alexandre Dumas ?",
+            "hint": "C'est le département de l'est de l'ancienne Picardie, qui touche la Belgique au nord et la Champagne au sud-est.",
+            "anecdote": "En 1539, François Ier y a signé une ordonnance qui imposait le français dans les actes officiels."
+          },
+          "guise-dep": {
+            "prompt": "Dans quel département se trouve Guise, ville d'un célèbre familistère ouvrier ?",
+            "hint": "C'est le département de l'est de l'ancienne Picardie, qui touche la Belgique au nord et la Champagne au sud-est.",
+            "anecdote": "L'industriel Jean-Baptiste Godin y a fait bâtir, à partir de 1859, un palais social pour les ouvriers de sa fonderie de poêles."
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs de Picardie",
+          "description": "Ficelle et flamiche, macarons d'Amiens et crème Chantilly, haricots de Soissons et légumes des hortillonnages, agneaux des prés salés, coques et salicornes de la baie de Somme : la table d'une terre de plaines, de jardins et de littoral.",
+          "ficelle": {
+            "prompt": "Quelle spécialité d'Amiens, nappée de crème et gratinée au four, voit-on ici ?",
+            "hint": "Son nom évoque une corde fine, et la région dont elle est la fierté.",
+            "anecdote": "On la sert chaude, en entrée, dans les brasseries de toute la région.",
+            "answers": {
+              "la-ficelle-picarde": "La ficelle picarde",
+              "la-galette-complete": "La galette complète",
+              "le-croque-monsieur": "Le croque-monsieur",
+              "la-crepe-suzette": "La crêpe Suzette"
+            }
+          },
+          "ficelle-crepe": {
+            "prompt": "Quelle pâte fine entoure la garniture de la ficelle picarde ?",
+            "hint": "On la cuit d'abord à la poêle, très fine, avant de la rouler.",
+            "anecdote": "Une fois roulée autour de sa garniture, elle est nappée de crème, parsemée de fromage râpé et passée au four.",
+            "answers": {
+              "une-crepe": "Une crêpe",
+              "une-pate-feuilletee": "Une pâte feuilletée",
+              "une-pate-brisee": "Une pâte brisée",
+              "une-pate-a-pizza": "Une pâte à pizza"
+            }
+          },
+          "ficelle-garniture": {
+            "prompt": "Quels ingrédients garnissent la ficelle picarde traditionnelle ?",
+            "hint": "On les lie dans une sauce à la crème avant de rouler la pâte.",
+            "anecdote": "Certains cuisiniers y ajoutent des échalotes ou un peu de vin blanc, mais la base reste la même.",
+            "answers": {
+              "du-jambon-et-des-champignons": "Du jambon et des champignons",
+              "du-saumon-et-des-epinards": "Du saumon et des épinards",
+              "des-lardons-et-des-pommes-de-terre": "Des lardons et des pommes de terre",
+              "du-thon-et-des-oignons": "Du thon et des oignons"
+            }
+          },
+          "ficelle-annees": {
+            "prompt": "À quelle époque la ficelle picarde est-elle née, à Amiens ?",
+            "hint": "Elle est bien plus récente que la cathédrale et les hortillonnages.",
+            "anecdote": "Cette recette, créée par un chef amiénois, s'est vite répandue dans toute la région, jusqu'à devenir son plat emblématique.",
+            "answers": {
+              "dans-les-annees-1950": "Dans les années 1950",
+              "au-moyen-age": "Au Moyen Âge",
+              "sous-louis-xiv": "Sous Louis XIV",
+              "au-debut-des-annees-2000": "Au début des années 2000"
+            }
+          },
+          "flamiche": {
+            "prompt": "Quelle tourte picarde, garnie de légumes fondants et de crème, voit-on ici ?",
+            "hint": "Dans le Nord, on la prépare aussi au maroilles.",
+            "anecdote": "Son nom viendrait d'un mot flamand désignant un gâteau. On la sert chaude, en entrée ou en plat avec une salade.",
+            "answers": {
+              "la-flamiche": "La flamiche",
+              "la-quiche": "La quiche",
+              "la-pissaladiere": "La pissaladière",
+              "la-tarte-flambee": "La tarte flambée"
+            }
+          },
+          "flamiche-poireau": {
+            "prompt": "Quel légume garnit la flamiche picarde traditionnelle ?",
+            "hint": "Ce légume au long fût blanc est cuit doucement au beurre.",
+            "anecdote": "On le surnomme parfois l'asperge du pauvre. Les maraîchers des hortillonnages d'Amiens en cultivaient beaucoup.",
+            "answers": {
+              "le-poireau": "Le poireau",
+              "l-endive": "L'endive",
+              "le-chou": "Le chou",
+              "l-oignon": "L'oignon"
+            }
+          },
+          "caqhuse": {
+            "prompt": "Quel plat picard est un morceau de porc cuit au four avec des oignons, du vinaigre et de la crème ?",
+            "hint": "On le sert chaud ou froid, souvent avec des pommes de terre.",
+            "anecdote": "C'est un plat de fête des campagnes picardes. Sa longue cuisson au four rend la viande très tendre.",
+            "answers": {
+              "la-caqhuse": "La caqhuse",
+              "la-carbonade": "La carbonade",
+              "la-potee": "La potée",
+              "le-potjevleesch": "Le potjevleesch"
+            }
+          },
+          "bisteu": {
+            "prompt": "Comment s'appelle la tourte picarde garnie de pommes de terre, d'oignons et de lard ?",
+            "hint": "C'est un plat paysan, cuit autrefois dans le four à pain.",
+            "anecdote": "Sa pâte, souvent une pâte à pain, enferme une garniture simple et nourrissante, qu'on arrose parfois de crème.",
+            "answers": {
+              "le-bisteu": "Le bisteu",
+              "la-truffade": "La truffade",
+              "le-gratin-dauphinois": "Le gratin dauphinois",
+              "la-tartiflette": "La tartiflette"
+            }
+          },
+          "canard": {
+            "prompt": "Quelle volaille entière est désossée et enfermée dans une croûte pour le célèbre pâté d'Amiens ?",
+            "hint": "C'est un oiseau palmipède, élevé aussi pour son foie gras.",
+            "anecdote": "Ce pâté en croûte est une spécialité d'Amiens depuis le XVIIe siècle. Il est farci de viande hachée et parfumé d'épices.",
+            "answers": {
+              "le-canard": "Le canard",
+              "l-oie": "L'oie",
+              "le-poulet": "Le poulet",
+              "la-pintade": "La pintade"
+            }
+          },
+          "salicorne": {
+            "prompt": "Quelle plante des prés salés de la baie de Somme, au goût iodé, voit-on ici ?",
+            "hint": "On la surnomme parfois le haricot de mer.",
+            "anecdote": "On la cueille à la main en été, sur les vases que la mer recouvre. Elle se mange crue, cuite ou au vinaigre.",
+            "answers": {
+              "la-salicorne": "La salicorne",
+              "la-criste-marine": "La criste-marine",
+              "le-cresson": "Le cresson",
+              "l-oseille": "L'oseille"
+            }
+          },
+          "moutons": {
+            "prompt": "Quels animaux élève-t-on sur ces prés salés de la baie de Somme ?",
+            "hint": "Leur viande, très réputée, est appelée agneau de prés salés.",
+            "anecdote": "Ils broutent des herbes que les grandes marées recouvrent d'eau de mer, ce qui donne à leur viande un goût particulier.",
+            "answers": {
+              "des-moutons": "Des moutons",
+              "des-chevres": "Des chèvres",
+              "des-vaches": "Des vaches",
+              "des-chevaux": "Des chevaux"
+            }
+          },
+          "pres-sales-aop": {
+            "prompt": "Sous quelle appellation d'origine protégée sont vendus les agneaux élevés au bord de la grande baie picarde ?",
+            "hint": "Leur nom rappelle les herbages que la mer recouvre aux grandes marées.",
+            "anecdote": "Cette appellation a été reconnue en 2006. Les agneaux doivent passer une grande partie de leur vie sur les herbages du littoral.",
+            "answers": {
+              "pres-sales-de-la-baie-de-somme": "Prés-salés de la baie de Somme",
+              "pres-sales-du-mont-saint-michel": "Prés-salés du Mont-Saint-Michel",
+              "agneau-du-quercy": "Agneau du Quercy",
+              "agneau-de-sisteron": "Agneau de Sisteron"
+            }
+          },
+          "coques": {
+            "prompt": "Quel petit coquillage les pêcheurs à pied récoltent-ils dans le sable de la baie de Somme ?",
+            "hint": "On le cherche à marée basse, avec un râteau et un tamis.",
+            "anecdote": "La baie de Somme est l'un des premiers gisements de France. Sa pêche est très encadrée, pour préserver la ressource.",
+            "answers": {
+              "la-coque": "La coque",
+              "la-moule": "La moule",
+              "l-huitre": "L'huître",
+              "la-coquille-saint-jacques": "La coquille Saint-Jacques"
+            }
+          },
+          "sauterelle": {
+            "prompt": "Comment appelle-t-on la crevette grise en baie de Somme ?",
+            "hint": "Elle porte le nom d'un insecte qui bondit dans les prés.",
+            "anecdote": "Pêchée près des côtes, elle est cuite aussitôt dans l'eau salée et se mange décortiquée, avec du pain et du beurre.",
+            "answers": {
+              "la-sauterelle": "La sauterelle",
+              "le-bouquet": "Le bouquet",
+              "la-chevrette": "La chevrette",
+              "la-salicoque": "La salicoque"
+            }
+          },
+          "haricots": {
+            "prompt": "Quels gros légumes secs, très blancs, font la réputation du Soissonnais ?",
+            "hint": "On les cuisine en cassoulet, avec un gigot ou en salade.",
+            "anecdote": "Selon une légende, un habitant de Soissons en aurait jeté sur les assiégeants pendant une bataille, pour leur faire croire que la ville ne manquait de rien.",
+            "answers": {
+              "des-haricots": "Des haricots",
+              "des-lentilles": "Des lentilles",
+              "des-pois-chiches": "Des pois chiches",
+              "des-feves": "Des fèves"
+            }
+          },
+          "hortillons": {
+            "prompt": "Comment appelle-t-on les maraîchers qui cultivent les jardins entourés d'eau d'Amiens ?",
+            "hint": "Leur nom vient du latin hortus, qui veut dire jardin.",
+            "anecdote": "Ils étaient environ un millier au début du XXe siècle. Il n'en reste que quelques-uns, à côté de nombreux jardiniers amateurs.",
+            "answers": {
+              "les-hortillons": "Les hortillons",
+              "les-maraichins": "Les maraîchins",
+              "les-mareyeurs": "Les mareyeurs",
+              "les-bateliers": "Les bateliers"
+            }
+          },
+          "barque-cornet": {
+            "prompt": "Comment s'appelle ce bateau à fond plat, à la proue relevée, des maraîchers d'Amiens ?",
+            "hint": "Sa proue se redresse en forme de pointe, pour accoster facilement sur les berges.",
+            "anecdote": "Longue et étroite, elle se manœuvre à la perche ou à la pagaie. Elle servait à transporter les légumes jusqu'au marché.",
+            "answers": {
+              "la-barque-a-cornet": "La barque à cornet",
+              "la-gabare": "La gabare",
+              "la-plate": "La plate",
+              "le-bachot": "Le bachot"
+            }
+          },
+          "marche-sur-l-eau": {
+            "prompt": "Comment s'appelle le marché d'Amiens où les maraîchers vendaient autrefois leurs légumes depuis leurs barques ?",
+            "hint": "Il se tient au bord de la Somme, au pied de la cathédrale.",
+            "anecdote": "Il a lieu aujourd'hui chaque samedi matin, sur la place Parmentier. Une fois par an, les maraîchers rejouent la vente en costume, depuis leurs barques.",
+            "answers": {
+              "le-marche-sur-l-eau": "Le marché sur l'eau",
+              "le-marche-flottant": "Le marché flottant",
+              "le-marche-aux-herbes": "Le marché aux herbes",
+              "le-marche-des-barques": "Le marché des barques"
+            }
+          },
+          "artichaut": {
+            "prompt": "Quelle variété d'artichaut, autrefois cultivée au pied de la butte de la préfecture de l'Aisne, porte le nom de cette ville ?",
+            "hint": "Sa couleur et sa grosse taille figurent dans son nom.",
+            "anecdote": "Les jardins maraîchers entouraient autrefois la ville haute. Cette variété ancienne est encore vendue par les grainetiers.",
+            "answers": {
+              "le-gros-vert-de-laon": "Le gros vert de Laon",
+              "le-camus-de-bretagne": "Le camus de Bretagne",
+              "le-violet-de-provence": "Le violet de Provence",
+              "le-blanc-d-hyeres": "Le blanc d'Hyères"
+            }
+          },
+          "betterave": {
+            "prompt": "Quelles usines tournent jour et nuit à l'automne, dans les plaines de l'Aisne et de la Somme, pour traiter la récolte de betteraves ?",
+            "hint": "On y extrait de ces racines un produit blanc et doux.",
+            "anecdote": "Les Hauts-de-France produisent une grande partie du sucre français. Les camions de betteraves s'y succèdent pendant des semaines.",
+            "answers": {
+              "les-sucreries": "Les sucreries",
+              "les-distilleries": "Les distilleries",
+              "les-brasseries": "Les brasseries",
+              "les-huileries": "Les huileries"
+            }
+          },
+          "betterave-napoleon": {
+            "prompt": "Pourquoi la culture de la betterave à sucre s'est-elle développée en France sous Napoléon Ier ?",
+            "hint": "À cette époque, la guerre avec l'Angleterre bloquait les échanges par la mer.",
+            "anecdote": "En 1812, Benjamin Delessert a mis au point la fabrication industrielle du sucre de betterave. Les plaines du nord sont devenues le pays du sucre.",
+            "answers": {
+              "le-sucre-de-canne-n-arrivait-plus-des-colonies": "Le sucre de canne n'arrivait plus des colonies",
+              "le-miel-etait-devenu-trop-cher": "Le miel était devenu trop cher",
+              "le-ble-ne-poussait-plus-dans-le-nord": "Le blé ne poussait plus dans le nord",
+              "le-roi-d-espagne-l-avait-offerte": "Le roi d'Espagne l'avait offerte"
+            }
+          },
+          "ble": {
+            "prompt": "Quelle céréale, cultivée dans les vastes plaines de la Somme et de l'Aisne, sert surtout à faire le pain ?",
+            "hint": "Ses épis dorés sont moissonnés en plein été.",
+            "anecdote": "Les sols limoneux de Picardie sont parmi les plus fertiles d'Europe. Ils donnent de très hauts rendements.",
+            "answers": {
+              "le-ble": "Le blé",
+              "le-riz": "Le riz",
+              "le-seigle": "Le seigle",
+              "le-sarrasin": "Le sarrasin"
+            }
+          },
+          "santerre": {
+            "prompt": "Quel plateau très fertile, à l'est d'Amiens, est couvert de champs de blé, de betteraves et de pommes de terre ?",
+            "hint": "Son nom évoquerait une terre saine, sans eau stagnante.",
+            "anecdote": "Ce plateau de limons s'étend autour de Roye et de Montdidier. Il a été dévasté pendant la Première Guerre mondiale.",
+            "answers": {
+              "le-santerre": "Le Santerre",
+              "le-vexin": "Le Vexin",
+              "la-beauce": "La Beauce",
+              "la-brie": "La Brie"
+            }
+          },
+          "parmentier": {
+            "prompt": "Dans quelle ville de la Somme Antoine Parmentier, qui a popularisé la pomme de terre, est-il né en 1737 ?",
+            "hint": "C'est une petite ville perchée au-dessus d'une vallée, au sud du plateau du Santerre.",
+            "anecdote": "Pharmacien militaire, il avait découvert ce tubercule comme prisonnier en Prusse. Sa statue se dresse dans sa ville natale."
+          },
+          "champignon": {
+            "prompt": "Que cultive-t-on dans les anciennes carrières de pierre de l'Oise et de l'Aisne ?",
+            "hint": "Ils poussent dans le noir, au frais et à l'humidité.",
+            "anecdote": "Les galeries d'où l'on tirait la pierre des cathédrales et des maisons offrent une température stable toute l'année.",
+            "answers": {
+              "des-champignons": "Des champignons",
+              "des-endives": "Des endives",
+              "des-asperges": "Des asperges",
+              "des-truffes": "Des truffes"
+            }
+          },
+          "fruits-rouges": {
+            "prompt": "Quels produits sont célébrés chaque été par un grand marché à Noyon ?",
+            "hint": "Cerises, groseilles, framboises et fraises remplissent les étals.",
+            "anecdote": "Ce marché, créé dans les années 1980, attire des dizaines de milliers de visiteurs chaque début juillet, autour de la cathédrale.",
+            "answers": {
+              "les-fruits-rouges": "Les fruits rouges",
+              "les-pommes": "Les pommes",
+              "les-agrumes": "Les agrumes",
+              "les-prunes": "Les prunes"
+            }
+          },
+          "rollot": {
+            "prompt": "Quel petit fromage picard de lait de vache, à croûte lavée orangée, voit-on ici ?",
+            "hint": "Il est parfois moulé en forme de cœur.",
+            "anecdote": "Il porte le nom d'un village de la Somme. Sa pâte souple a un goût prononcé, proche de celui du maroilles.",
+            "answers": {
+              "le-rollot": "Le rollot",
+              "le-maroilles": "Le maroilles",
+              "le-livarot": "Le livarot",
+              "le-munster": "Le munster"
+            }
+          },
+          "macaron": {
+            "prompt": "Quelle douceur ronde et moelleuse, spécialité de la capitale picarde, voit-on ici ?",
+            "hint": "Il ne ressemble pas du tout à son cousin parisien, coloré et garni de crème.",
+            "anecdote": "Les pâtissiers d'Amiens le fabriquent depuis au moins le XVIe siècle. On le vend souvent en boîte, à côté des tuiles en chocolat.",
+            "answers": {
+              "le-macaron-d-amiens": "Le macaron d'Amiens",
+              "la-betise-de-cambrai": "La bêtise de Cambrai",
+              "le-calisson-d-aix": "Le calisson d'Aix",
+              "le-nougat-de-montelimar": "Le nougat de Montélimar"
+            }
+          },
+          "macaron-ingredients": {
+            "prompt": "Quels ingrédients principaux composent le macaron d'Amiens ?",
+            "hint": "C'est une pâte de fruits secs, adoucie par un produit des abeilles.",
+            "anecdote": "On y ajoute du blanc d'œuf et parfois des fruits confits. Sa croûte est dorée et son cœur reste moelleux.",
+            "answers": {
+              "de-la-pate-d-amandes-et-du-miel": "De la pâte d'amandes et du miel",
+              "de-la-farine-de-chataigne-et-du-beurre": "De la farine de châtaigne et du beurre",
+              "du-chocolat-et-de-la-noix-de-coco": "Du chocolat et de la noix de coco",
+              "de-la-creme-et-du-caramel": "De la crème et du caramel"
+            }
+          },
+          "chantilly-creme": {
+            "prompt": "Quelle crème fouettée et sucrée porte le nom d'une ville picarde ?",
+            "hint": "Le château de cette ville abrite le musée Condé.",
+            "anecdote": "On la prépare en fouettant une crème bien froide avec du sucre, jusqu'à ce qu'elle devienne légère et ferme.",
+            "answers": {
+              "la-creme-chantilly": "La crème Chantilly",
+              "la-creme-patissiere": "La crème pâtissière",
+              "la-creme-anglaise": "La crème anglaise",
+              "la-creme-brulee": "La crème brûlée"
+            }
+          },
+          "vatel": {
+            "prompt": "Selon la légende, quel maître d'hôtel du prince de Condé aurait inventé cette crème fouettée, à Chantilly ?",
+            "hint": "Il se serait donné la mort en 1671, car la marée n'arrivait pas à temps pour un dîner du roi.",
+            "anecdote": "En réalité, la crème fouettée était déjà connue avant lui. Mais son nom reste attaché au château et à ses fêtes.",
+            "answers": {
+              "francois-vatel": "François Vatel",
+              "antonin-careme": "Antonin Carême",
+              "auguste-escoffier": "Auguste Escoffier",
+              "francois-pierre-de-la-varenne": "François Pierre de La Varenne"
+            }
+          },
+          "gateau-battu": {
+            "prompt": "Quelle haute brioche de Picardie maritime, très riche en jaunes d'œufs, voit-on ici ?",
+            "hint": "Sa pâte est travaillée longuement à la main, ce qui lui a donné son nom.",
+            "anecdote": "Elle cuit dans un moule haut et cannelé, qui lui donne sa forme de champignon. Sa mie est jaune et très légère.",
+            "answers": {
+              "le-gateau-battu": "Le gâteau battu",
+              "la-brioche-vendeenne": "La brioche vendéenne",
+              "le-kouglof": "Le kouglof",
+              "le-pain-brie": "Le pain brié"
+            }
+          },
+          "rabotte": {
+            "prompt": "Comment appelle-t-on en Picardie une pomme entière cuite dans une pâte ?",
+            "hint": "Son cousin normand porte le nom de bourdelot.",
+            "anecdote": "La pomme est évidée, garnie de sucre et de beurre, puis enfermée dans une pâte et dorée au four.",
+            "answers": {
+              "la-rabotte": "La rabotte",
+              "le-chausson-aux-pommes": "Le chausson aux pommes",
+              "la-croustade": "La croustade",
+              "la-tarte-tatin": "La tarte Tatin"
+            }
+          },
+          "galopin": {
+            "prompt": "Quelle crêpe épaisse picarde est préparée avec du pain rassis trempé dans du lait ?",
+            "hint": "Son nom désigne aussi un enfant espiègle.",
+            "anecdote": "C'est une recette des familles modestes, qui ne voulaient pas gaspiller le pain. On la sert sucrée, parfois avec de la cassonade.",
+            "answers": {
+              "le-galopin": "Le galopin",
+              "le-far": "Le far",
+              "la-gaufre": "La gaufre",
+              "le-clafoutis": "Le clafoutis"
+            }
+          },
+          "champagne": {
+            "prompt": "Quel vin est produit avec le raisin de ces vignes, sur les coteaux de la Marne, près de Château-Thierry ?",
+            "hint": "Ce vignoble prolonge celui des environs d'Épernay.",
+            "anecdote": "Une partie du sud de l'Aisne fait partie de l'appellation. Ses vignerons sont regroupés le long d'une route touristique.",
+            "answers": {
+              "le-champagne": "Le champagne",
+              "le-cremant-d-alsace": "Le crémant d'Alsace",
+              "la-clairette-de-die": "La clairette de Die",
+              "le-vouvray": "Le vouvray"
+            }
+          },
+          "meunier": {
+            "prompt": "Quel cépage noir domine dans le vignoble de champagne de l'Aisne ?",
+            "hint": "Ses feuilles semblent saupoudrées de farine, ce qui lui a donné son nom.",
+            "anecdote": "Il résiste bien aux gelées de printemps, fréquentes dans la vallée de la Marne. Il donne des vins fruités.",
+            "answers": {
+              "le-meunier": "Le meunier",
+              "le-chardonnay": "Le chardonnay",
+              "le-gamay": "Le gamay",
+              "le-cabernet-franc": "Le cabernet franc"
+            }
+          },
+          "rollot-dep": {
+            "prompt": "Dans quel département se trouve le village de Rollot, qui a donné son nom à un fromage ?",
+            "hint": "C'est le département de l'ouest, qui borde la Manche entre le Pas-de-Calais et la Seine-Maritime.",
+            "anecdote": "Ce village se trouve près de Montdidier. Son fromage se fabrique aujourd'hui dans quelques fermes et laiteries de la région."
+          },
+          "chantilly-dep": {
+            "prompt": "Dans quel département se trouve Chantilly, la ville qui a donné son nom à une crème fouettée ?",
+            "hint": "C'est le département le plus au sud de la région, juste au nord de l'Île-de-France.",
+            "anecdote": "Chantilly est aussi la capitale française du cheval de course, avec son hippodrome et ses centres d'entraînement."
+          },
+          "vervins-dep": {
+            "prompt": "Dans quel département se trouve Vervins, capitale de la Thiérache, pays de prairies et de vergers ?",
+            "hint": "C'est le département de l'est de l'ancienne Picardie, qui touche la Belgique au nord et la Champagne au sud-est.",
+            "anecdote": "La Thiérache produit du lait, du cidre et des fromages, comme le maroilles, dont l'aire d'appellation déborde sur ce territoire."
+          },
+          "saint-leu-dep": {
+            "prompt": "Dans quel département se trouve Saint-Leu-d'Esserent, dont les anciennes carrières abritent des champignonnières ?",
+            "hint": "C'est le département le plus au sud de la région, juste au nord de l'Île-de-France.",
+            "anecdote": "Sa pierre calcaire a servi à bâtir de nombreux édifices. Le village possède une grande église abbatiale gothique au-dessus de l'Oise."
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine de Picardie",
+          "description": "Laon sur sa butte, Soissons, Noyon et Senlis, les abbayes de Saint-Riquier et de Chaalis, le château de Coucy, les Grandes Écuries de Chantilly et les vieux quartiers d'Amiens : un patrimoine gothique et royal, au cœur de l'histoire de France.",
+          "laon": {
+            "prompt": "Quelle ville de l'Aisne, perchée sur une longue butte au-dessus de la plaine, voit-on ici ?",
+            "hint": "Sa ville haute est entourée de remparts et dominée par cinq tours de cathédrale.",
+            "anecdote": "Elle fut une capitale des derniers rois carolingiens. Sa ville haute compte plus de quatre-vingts monuments historiques."
+          },
+          "laon-montagne": {
+            "prompt": "Comment surnomme-t-on la butte qui porte la ville haute de Laon ?",
+            "hint": "Ce surnom évoque la couronne de remparts et de tours qui la coiffe.",
+            "anecdote": "La butte s'élève d'une centaine de mètres au-dessus de la plaine. Par temps clair, on aperçoit sa cathédrale à des dizaines de kilomètres.",
+            "answers": {
+              "la-montagne-couronnee": "La montagne couronnée",
+              "le-mont-des-rois": "Le mont des rois",
+              "la-colline-inspiree": "La colline inspirée",
+              "la-butte-aux-cailles": "La butte aux cailles"
+            }
+          },
+          "laon-boeufs": {
+            "prompt": "Quels animaux sont sculptés en haut des tours de la cathédrale de Laon ?",
+            "hint": "Selon la légende, ils auraient aidé à monter les pierres jusqu'en haut de la butte.",
+            "anecdote": "On en compte seize, penchés au-dessus du vide. Ils rendent hommage aux bêtes de trait qui ont transporté les matériaux du chantier.",
+            "answers": {
+              "des-boeufs": "Des bœufs",
+              "des-chevaux": "Des chevaux",
+              "des-lions": "Des lions",
+              "des-aigles": "Des aigles"
+            }
+          },
+          "laon-poma": {
+            "prompt": "Comment s'appelait le petit métro automatique qui reliait la gare à la ville haute de Laon, de 1989 à 2016 ?",
+            "hint": "Son nom reprend celui de son constructeur grenoblois et l'année qu'il visait.",
+            "anecdote": "Ses cabines, tirées par un câble, gravissaient la butte en quelques minutes. Il a été arrêté car sa rénovation coûtait trop cher.",
+            "answers": {
+              "le-poma-2000": "Le Poma 2000",
+              "le-val": "Le VAL",
+              "l-aramis": "L'Aramis",
+              "le-minimetro": "Le Minimetro"
+            }
+          },
+          "laon-templiers": {
+            "prompt": "Quelle chapelle octogonale du XIIe siècle se dresse dans un jardin de la ville haute de Laon ?",
+            "hint": "Elle appartenait à un ordre de moines-soldats, dissous en 1312.",
+            "anecdote": "Sa forme rappelle celle de l'église du Saint-Sépulcre de Jérusalem. Elle se trouve dans le jardin du musée de la ville.",
+            "answers": {
+              "la-chapelle-des-templiers": "La chapelle des Templiers",
+              "la-sainte-chapelle": "La Sainte-Chapelle",
+              "la-chapelle-des-hospitaliers": "La chapelle des Hospitaliers",
+              "la-chapelle-royale": "La chapelle royale"
+            }
+          },
+          "senlis": {
+            "prompt": "Quelle ville de l'Oise, aux ruelles pavées serrées autour de sa cathédrale, voit-on ici ?",
+            "hint": "C'est une ancienne cité royale, au bord de la forêt d'Halatte.",
+            "anecdote": "Ses remparts gallo-romains comptent parmi les mieux conservés de France. Sa cathédrale est l'une des premières de l'art gothique.",
+            "answers": {
+              "clermont": "Clermont"
+            }
+          },
+          "saint-valery": {
+            "prompt": "Quelle cité médiévale, au bord de la baie de Somme, voit-on ici ?",
+            "hint": "Elle fait face au Crotoy, de l'autre côté de la baie.",
+            "anecdote": "Sa ville haute garde ses remparts et la porte de Guillaume. Un petit train à vapeur la relie au Crotoy et à Cayeux.",
+            "answers": {
+              "le-treport": "Le Tréport",
+              "etaples": "Étaples",
+              "montreuil-sur-mer": "Montreuil-sur-Mer"
+            }
+          },
+          "saint-leu-amiens": {
+            "prompt": "Quel quartier d'Amiens, aux maisons colorées le long des canaux, voit-on ici ?",
+            "hint": "C'était autrefois le quartier des teinturiers, des tanneurs et des meuniers.",
+            "anecdote": "Ses canaux sont des bras de la Somme. Rénové à partir des années 1980, il est aujourd'hui animé de restaurants et de terrasses.",
+            "answers": {
+              "le-quartier-saint-leu": "Le quartier Saint-Leu",
+              "le-quartier-saint-maurice": "Le quartier Saint-Maurice",
+              "le-quartier-henriville": "Le quartier Henriville",
+              "le-quartier-saint-pierre": "Le quartier Saint-Pierre"
+            }
+          },
+          "amiens-venise": {
+            "prompt": "Quel surnom donne-t-on parfois à Amiens, à cause de ses nombreux canaux ?",
+            "hint": "C'est le nom d'une grande ville italienne bâtie sur une lagune.",
+            "anecdote": "Les bras de la Somme et les canaux des hortillonnages traversent la ville et ses environs.",
+            "answers": {
+              "la-petite-venise-du-nord": "La petite Venise du Nord",
+              "la-rome-du-nord": "La Rome du Nord",
+              "la-petite-florence": "La petite Florence",
+              "la-naples-du-nord": "La Naples du Nord"
+            }
+          },
+          "beffroi-amiens": {
+            "prompt": "Quel monument d'Amiens, à la base médiévale et au sommet du XVIIIe siècle, voit-on ici ?",
+            "hint": "Il servait de prison et de tour de guet, et symbolisait les libertés de la commune.",
+            "anecdote": "Il est inscrit au patrimoine mondial de l'Unesco avec les autres beffrois de Belgique et de France. Sa cloche a été refondue après la Seconde Guerre mondiale.",
+            "answers": {
+              "le-beffroi-d-amiens": "Le beffroi d'Amiens",
+              "le-beffroi-de-calais": "Le beffroi de Calais",
+              "le-beffroi-de-douai": "Le beffroi de Douai",
+              "le-beffroi-d-arras": "Le beffroi d'Arras"
+            }
+          },
+          "maison-jules-verne": {
+            "prompt": "Quelle maison d'Amiens, surmontée d'une tour, voit-on ici ?",
+            "hint": "Un célèbre écrivain voyageur y a vécu près de vingt ans et y a écrit une trentaine de romans.",
+            "anecdote": "On y visite son bureau, sa bibliothèque et des milliers d'objets liés à son œuvre. Il a aussi été conseiller municipal d'Amiens.",
+            "answers": {
+              "la-maison-de-jules-verne": "La maison de Jules Verne",
+              "la-maison-de-victor-hugo": "La maison de Victor Hugo",
+              "la-maison-de-balzac": "La maison de Balzac",
+              "la-maison-d-alexandre-dumas": "La maison d'Alexandre Dumas"
+            }
+          },
+          "amiens-perret": {
+            "prompt": "Quelle est la particularité de la tour Perret, près de la gare d'Amiens ?",
+            "hint": "Elle a été construite dans les années 1950, avec 104 mètres de haut.",
+            "anecdote": "Elle a été longtemps l'un des plus hauts immeubles d'Europe de l'Ouest. Une horloge lumineuse orne son sommet.",
+            "answers": {
+              "c-est-l-un-des-premiers-gratte-ciel-d-europe": "C'est l'un des premiers gratte-ciel d'Europe",
+              "c-est-un-ancien-phare": "C'est un ancien phare",
+              "c-est-un-ancien-chateau-d-eau": "C'est un ancien château d'eau",
+              "c-est-une-ancienne-tour-de-guet": "C'est une ancienne tour de guet"
+            }
+          },
+          "hdv-compiegne": {
+            "prompt": "Quel monument de Compiègne, à la façade gothique ornée de statues, voit-on ici ?",
+            "hint": "Son beffroi abrite trois automates en bois qui frappent les heures.",
+            "anecdote": "Il a été construit au début du XVIe siècle. Une statue équestre de Louis XII orne sa façade.",
+            "answers": {
+              "l-hotel-de-ville-de-compiegne": "L'hôtel de ville de Compiègne",
+              "l-hotel-de-ville-de-saint-quentin": "L'hôtel de ville de Saint-Quentin",
+              "l-hotel-de-ville-d-arras": "L'hôtel de ville d'Arras",
+              "l-hotel-de-ville-de-noyon": "L'hôtel de ville de Noyon"
+            }
+          },
+          "picantins": {
+            "prompt": "Comment s'appellent les trois automates qui sonnent les heures au beffroi de l'hôtel de ville de Compiègne ?",
+            "hint": "Ils représentent des soldats suisses ou des gardes, en costume du XVIe siècle.",
+            "anecdote": "Ils s'appellent Langlois, Flandre et Lansquenet. Ils frappent les cloches avec un maillet depuis le XVIe siècle.",
+            "answers": {
+              "les-picantins": "Les Picantins",
+              "les-gayants": "Les Gayants",
+              "les-jacquemarts-de-dijon": "Les Jacquemarts de Dijon",
+              "les-geants-du-nord": "Les Géants du Nord"
+            }
+          },
+          "noyon": {
+            "prompt": "Quelle cathédrale de l'Oise, l'une des premières de l'art gothique, voit-on ici ?",
+            "hint": "Elle se dresse dans une petite ville où deux rois ont été sacrés.",
+            "anecdote": "Commencée vers 1150, elle mélange encore des arcs en plein cintre et des arcs brisés. Elle garde un cloître et une bibliothèque à pans de bois.",
+            "answers": {
+              "la-cathedrale-de-noyon": "La cathédrale de Noyon",
+              "la-cathedrale-de-senlis": "La cathédrale de Senlis",
+              "la-cathedrale-de-soissons": "La cathédrale de Soissons",
+              "la-cathedrale-de-laon": "La cathédrale de Laon"
+            }
+          },
+          "soissons-cathedrale": {
+            "prompt": "Quelle cathédrale de l'Aisne, à la façade surmontée d'une seule tour, voit-on ici ?",
+            "hint": "Son bras sud du transept, arrondi, est l'un des chefs-d'œuvre du premier art gothique.",
+            "anecdote": "Elle a été très endommagée pendant la Première Guerre mondiale, puis restaurée. Elle abrite un tableau de Rubens.",
+            "answers": {
+              "la-cathedrale-de-soissons": "La cathédrale de Soissons",
+              "la-cathedrale-de-noyon": "La cathédrale de Noyon",
+              "la-cathedrale-de-senlis": "La cathédrale de Senlis",
+              "la-cathedrale-d-amiens": "La cathédrale d'Amiens"
+            }
+          },
+          "saint-jean-des-vignes": {
+            "prompt": "Quels vestiges d'une grande abbaye de Soissons, aux deux flèches ajourées, voit-on ici ?",
+            "hint": "Seule sa façade est restée debout, avec ses deux hautes tours.",
+            "anecdote": "L'abbaye a été démantelée après la Révolution et ses pierres réutilisées. Sa façade a été conservée grâce à un évêque.",
+            "answers": {
+              "l-abbaye-saint-jean-des-vignes": "L'abbaye Saint-Jean-des-Vignes",
+              "l-abbaye-de-saint-riquier": "L'abbaye de Saint-Riquier",
+              "l-abbaye-de-valloires": "L'abbaye de Valloires",
+              "l-abbaye-de-chaalis": "L'abbaye de Chaalis"
+            }
+          },
+          "saint-quentin-basilique": {
+            "prompt": "Quelle grande église gothique de l'Aisne, dédiée à un martyr romain, voit-on ici ?",
+            "hint": "Un grand labyrinthe est dessiné sur le sol de sa nef.",
+            "anecdote": "Elle a été gravement endommagée en 1917 et restaurée pendant des décennies. Elle porte le titre de basilique.",
+            "answers": {
+              "la-basilique-de-saint-quentin": "La basilique de Saint-Quentin",
+              "la-cathedrale-de-soissons": "La cathédrale de Soissons",
+              "la-cathedrale-de-laon": "La cathédrale de Laon",
+              "la-basilique-de-liesse": "La basilique de Liesse"
+            }
+          },
+          "labyrinthe": {
+            "prompt": "Quel motif est dessiné sur le sol de la nef de la cathédrale d'Amiens ?",
+            "hint": "Les fidèles le parcouraient parfois à genoux, comme un pèlerinage.",
+            "anecdote": "Il est formé de dalles noires et blanches. On en trouve un semblable dans la basilique de Saint-Quentin.",
+            "answers": {
+              "un-labyrinthe": "Un labyrinthe",
+              "une-rose-des-vents": "Une rose des vents",
+              "un-cadran-solaire": "Un cadran solaire",
+              "une-carte-du-monde": "Une carte du monde"
+            }
+          },
+          "beauvais-choeur": {
+            "prompt": "Quel record détient le chœur de la cathédrale de Beauvais ?",
+            "hint": "Ses voûtes culminent à plus de 48 mètres.",
+            "anecdote": "Ses voûtes se sont effondrées en 1284, puis ont été reconstruites. Sa nef n'a jamais été achevée.",
+            "answers": {
+              "c-est-le-plus-haut-choeur-gothique-du-monde": "C'est le plus haut chœur gothique du monde",
+              "c-est-le-plus-ancien-choeur-gothique": "C'est le plus ancien chœur gothique",
+              "c-est-le-plus-long-choeur-de-france": "C'est le plus long chœur de France",
+              "c-est-le-seul-choeur-en-bois": "C'est le seul chœur en bois"
+            }
+          },
+          "beauvais-horloge": {
+            "prompt": "Qui a construit l'horloge astronomique de la cathédrale de Beauvais, au XIXe siècle ?",
+            "hint": "Cet horloger était originaire de la ville.",
+            "anecdote": "Elle compte 90 000 pièces et 52 cadrans. Toutes les heures, un petit spectacle d'automates évoque le Jugement dernier.",
+            "answers": {
+              "auguste-lucien-verite": "Auguste-Lucien Vérité",
+              "jean-baptiste-schwilgue": "Jean-Baptiste Schwilgué",
+              "jean-fusoris": "Jean Fusoris",
+              "antide-janvier": "Antide Janvier"
+            }
+          },
+          "saint-riquier": {
+            "prompt": "Quelle abbatiale de la Somme, à la façade gothique flamboyante, voit-on ici ?",
+            "hint": "Elle porte le nom d'un moine qui a fondé un monastère dans ce village au VIIe siècle.",
+            "anecdote": "Ce monastère fut l'un des plus puissants de l'époque de Charlemagne. L'abbatiale actuelle date surtout du XVe et du XVIe siècle.",
+            "answers": {
+              "l-abbatiale-de-saint-riquier": "L'abbatiale de Saint-Riquier",
+              "l-abbatiale-de-corbie": "L'abbatiale de Corbie",
+              "la-collegiale-d-abbeville": "La collégiale d'Abbeville",
+              "la-basilique-de-saint-quentin": "La basilique de Saint-Quentin"
+            }
+          },
+          "morienval": {
+            "prompt": "Quelle église romane de l'Oise, à trois clochers, voit-on ici ?",
+            "hint": "Elle abrite l'une des plus anciennes voûtes sur croisée d'ogives de France.",
+            "anecdote": "Elle appartenait à une abbaye de femmes, fondée selon la tradition par un roi franc. Elle se trouve en lisière de la forêt de Compiègne.",
+            "answers": {
+              "l-abbatiale-de-morienval": "L'abbatiale de Morienval",
+              "l-abbatiale-de-saint-leu-d-esserent": "L'abbatiale de Saint-Leu-d'Esserent",
+              "la-cathedrale-de-noyon": "La cathédrale de Noyon",
+              "l-abbaye-de-chaalis": "L'abbaye de Chaalis"
+            }
+          },
+          "chaalis": {
+            "prompt": "Quels vestiges d'une abbaye cistercienne de l'Oise voit-on ici ?",
+            "hint": "Ses ruines gothiques se dressent dans un domaine qui abrite aussi un musée de collectionneurs.",
+            "anecdote": "Le domaine appartient à l'Institut de France. On y visite aussi une roseraie et une chapelle ornée de fresques de la Renaissance.",
+            "answers": {
+              "l-abbaye-de-chaalis": "L'abbaye de Chaalis",
+              "l-abbaye-d-ourscamp": "L'abbaye d'Ourscamp",
+              "l-abbaye-de-longpont": "L'abbaye de Longpont",
+              "l-abbaye-de-valloires": "L'abbaye de Valloires"
+            }
+          },
+          "chaalis-legs": {
+            "prompt": "Quelle collectionneuse a légué l'abbaye de Chaalis à l'Institut de France, en 1912 ?",
+            "hint": "Elle avait fondé avec son mari un musée parisien, boulevard Haussmann.",
+            "anecdote": "Ancienne portraitiste, elle a rempli l'abbaye d'œuvres d'art de la Renaissance et du XVIIIe siècle.",
+            "answers": {
+              "nelie-jacquemart": "Nélie Jacquemart",
+              "marie-laure-de-noailles": "Marie-Laure de Noailles",
+              "peggy-guggenheim": "Peggy Guggenheim",
+              "gertrude-stein": "Gertrude Stein"
+            }
+          },
+          "valloires": {
+            "prompt": "Quelle abbaye de la Somme, reconstruite au XVIIIe siècle et entourée de jardins, voit-on ici ?",
+            "hint": "Ses jardins abritent une grande collection de roses anciennes.",
+            "anecdote": "Elle se trouve dans la vallée de l'Authie, à la limite du Pas-de-Calais. Son église garde de belles boiseries et des grilles en fer forgé.",
+            "answers": {
+              "l-abbaye-de-valloires": "L'abbaye de Valloires",
+              "l-abbaye-de-saint-riquier": "L'abbaye de Saint-Riquier",
+              "l-abbaye-de-chaalis": "L'abbaye de Chaalis",
+              "l-abbaye-saint-jean-des-vignes": "L'abbaye Saint-Jean-des-Vignes"
+            }
+          },
+          "chapelle-rue": {
+            "prompt": "Quel édifice gothique flamboyant de la Somme, très richement sculpté, voit-on ici ?",
+            "hint": "Il a été bâti pour accueillir un crucifix miraculeux arrivé par la mer.",
+            "anecdote": "Il se trouve dans une petite ville qui était autrefois un port, avant que la baie ne s'ensable. Ses voûtes sont ornées de clés pendantes.",
+            "answers": {
+              "la-chapelle-du-saint-esprit-de-rue": "La chapelle du Saint-Esprit de Rue",
+              "la-sainte-chapelle-de-paris": "La Sainte-Chapelle de Paris",
+              "la-chapelle-des-templiers-de-laon": "La chapelle des Templiers de Laon",
+              "la-chapelle-royale-de-dreux": "La chapelle royale de Dreux"
+            }
+          },
+          "coucy": {
+            "prompt": "Quelles ruines d'une puissante forteresse de l'Aisne voit-on ici ?",
+            "hint": "Ses seigneurs se disaient plus fiers que les rois, les princes, les ducs et les comtes.",
+            "anecdote": "Elle domine la vallée de l'Ailette. Ses remparts entourent encore une petite ville médiévale.",
+            "answers": {
+              "le-chateau-de-coucy": "Le château de Coucy",
+              "le-chateau-de-pierrefonds": "Le château de Pierrefonds",
+              "le-chateau-de-ham": "Le château de Ham",
+              "le-chateau-de-fere-en-tardenois": "Le château de Fère-en-Tardenois"
+            }
+          },
+          "coucy-donjon": {
+            "prompt": "Quelle partie du château de Coucy, la plus haute d'Europe en son genre, a été dynamitée par l'armée allemande en 1917 ?",
+            "hint": "Cette grosse tour centrale mesurait plus de cinquante mètres de haut.",
+            "anecdote": "Ses ruines ont été laissées en l'état, comme un témoignage des destructions de la guerre.",
+            "answers": {
+              "son-donjon": "Son donjon",
+              "sa-chapelle": "Sa chapelle",
+              "son-pont-levis": "Son pont-levis",
+              "sa-porte-d-entree": "Sa porte d'entrée"
+            }
+          },
+          "fere-en-tardenois": {
+            "prompt": "Quel château en ruine de l'Aisne, relié à son entrée par un long pont-galerie, voit-on ici ?",
+            "hint": "Ce pont à plusieurs arches enjambe un profond fossé.",
+            "anecdote": "La forteresse a été bâtie au XIIIe siècle sur une butte. Le pont-galerie a été ajouté à la Renaissance.",
+            "answers": {
+              "le-chateau-de-fere-en-tardenois": "Le château de Fère-en-Tardenois",
+              "le-chateau-de-coucy": "Le château de Coucy",
+              "le-chateau-de-chenonceau": "Le château de Chenonceau",
+              "le-chateau-de-ham": "Le château de Ham"
+            }
+          },
+          "villers-cotterets": {
+            "prompt": "Quel château Renaissance de l'Aisne, restauré pour devenir la Cité internationale de la langue française, voit-on ici ?",
+            "hint": "Il se trouve dans la ville natale d'un célèbre romancier, auteur des Trois Mousquetaires.",
+            "anecdote": "Il a été rouvert au public en 2023, après de longs travaux. On y visite un parcours sur l'histoire et la diversité du français.",
+            "answers": {
+              "le-chateau-de-villers-cotterets": "Le château de Villers-Cotterêts",
+              "le-chateau-de-compiegne": "Le château de Compiègne",
+              "le-chateau-de-chantilly": "Le château de Chantilly",
+              "le-chateau-de-blerancourt": "Le château de Blérancourt"
+            }
+          },
+          "rambures": {
+            "prompt": "Quel château fort de la Somme, bâti tout en brique au XVe siècle, voit-on ici ?",
+            "hint": "Ses grosses tours rondes n'ont presque aucun angle, pour mieux résister aux boulets.",
+            "anecdote": "Il est l'un des rares châteaux de la guerre de Cent Ans restés presque intacts. Il est entouré d'un parc et d'une roseraie.",
+            "answers": {
+              "le-chateau-de-rambures": "Le château de Rambures",
+              "le-chateau-de-ham": "Le château de Ham",
+              "le-chateau-de-coucy": "Le château de Coucy",
+              "le-chateau-de-pierrefonds": "Le château de Pierrefonds"
+            }
+          },
+          "blerancourt": {
+            "prompt": "Quel château de l'Aisne, qui abrite le musée franco-américain, voit-on ici ?",
+            "hint": "Une Américaine y avait installé une œuvre d'aide aux civils pendant la Première Guerre mondiale.",
+            "anecdote": "Anne Morgan y a soigné et aidé les habitants de la région dévastée. Elle a ensuite fondé ce musée de l'amitié entre les deux pays.",
+            "answers": {
+              "le-chateau-de-blerancourt": "Le château de Blérancourt",
+              "le-chateau-de-villers-cotterets": "Le château de Villers-Cotterêts",
+              "le-chateau-de-compiegne": "Le château de Compiègne",
+              "le-chateau-de-rambures": "Le château de Rambures"
+            }
+          },
+          "grandes-ecuries": {
+            "prompt": "Quel immense bâtiment du XVIIIe siècle, construit pour loger les chevaux d'un prince, voit-on ici ?",
+            "hint": "Elles sont si somptueuses qu'on les prend parfois pour le château lui-même.",
+            "anecdote": "Elles pouvaient accueillir 240 chevaux et plus de 400 chiens de chasse. Elles abritent aujourd'hui un musée du cheval.",
+            "answers": {
+              "les-grandes-ecuries-de-chantilly": "Les Grandes Écuries de Chantilly",
+              "les-grandes-ecuries-de-versailles": "Les Grandes Écuries de Versailles",
+              "le-haras-du-pin": "Le haras du Pin",
+              "le-haras-national-d-hennebont": "Le haras national d'Hennebont"
+            }
+          },
+          "musee-conde": {
+            "prompt": "Quel musée occupe le château de Chantilly ?",
+            "hint": "Il porte le nom d'une famille de princes, branche cadette des Bourbons.",
+            "anecdote": "Le duc d'Aumale y a réuni l'une des plus belles collections de peintures anciennes de France, après celle du Louvre.",
+            "answers": {
+              "le-musee-conde": "Le musée Condé",
+              "le-musee-carnavalet": "Le musée Carnavalet",
+              "le-musee-jacquemart-andre": "Le musée Jacquemart-André",
+              "le-musee-de-picardie": "Le musée de Picardie"
+            }
+          },
+          "naours": {
+            "prompt": "Quel lieu insolite de la Somme, creusé dans la craie, voit-on ici ?",
+            "hint": "Ses habitants s'y cachaient avec leurs bêtes en période de guerre ou d'invasion.",
+            "anecdote": "Ce réseau de galeries compte environ 300 chambres et plusieurs chapelles. Des soldats de la Première Guerre mondiale y ont laissé des milliers de graffitis.",
+            "answers": {
+              "la-cite-souterraine-de-naours": "La cité souterraine de Naours",
+              "la-caverne-du-dragon": "La caverne du Dragon",
+              "la-carriere-wellington": "La carrière Wellington",
+              "les-grottes-de-lascaux": "Les grottes de Lascaux"
+            }
+          },
+          "liesse-dep": {
+            "prompt": "Dans quel département se trouve Liesse-Notre-Dame, l'un des plus anciens lieux de pèlerinage à la Vierge en France ?",
+            "hint": "C'est le département de l'est de l'ancienne Picardie, qui touche la Belgique au nord et la Champagne au sud-est.",
+            "anecdote": "Sa basilique abrite une statue de Vierge noire. De nombreux rois de France sont venus y prier, au retour de leur sacre à Reims."
+          },
+          "clermont-dep": {
+            "prompt": "Dans quel département se trouve Clermont, petite ville perchée sur une colline, avec son donjon médiéval ?",
+            "hint": "C'est le département le plus au sud de la région, juste au nord de l'Île-de-France.",
+            "anecdote": "Il ne faut pas la confondre avec Clermont-Ferrand. Son hôtel de ville gothique est l'un des plus anciens de France."
+          },
+          "doullens-dep": {
+            "prompt": "Dans quel département se trouve Doullens, où le commandement unique des armées alliées a été décidé en mars 1918 ?",
+            "hint": "C'est le département de l'ouest, qui borde la Manche entre le Pas-de-Calais et la Seine-Maritime.",
+            "anecdote": "La salle où s'est tenue cette réunion, dans l'hôtel de ville, se visite encore. Elle est ornée d'un grand vitrail commémoratif."
+          },
+          "pont-sainte-maxence-dep": {
+            "prompt": "Dans quel département se trouve Pont-Sainte-Maxence, avec son abbaye royale du Moncel, au bord de l'Oise ?",
+            "hint": "C'est le département le plus au sud de la région, juste au nord de l'Île-de-France.",
+            "anecdote": "Cette abbaye de femmes a été fondée au XIVe siècle par Philippe le Bel. Ses bâtiments gothiques sont parmi les mieux conservés de la région."
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire de Picardie",
+          "description": "Marionnettes d'Amiens, huttes de chasse et chevaux henson de la baie de Somme, familistère de Guise, tapisserie de Beauvais, nacre de Méru, jeux de balle picards et grands écrivains : les gestes, les fêtes et les talents de la Picardie.",
+          "cabotans": {
+            "prompt": "Quel personnage, valet malicieux en habit rouge, est le héros des marionnettes traditionnelles d'Amiens ?",
+            "hint": "Son nom évoque une fleur, et il parle avec l'accent du quartier Saint-Leu.",
+            "anecdote": "Ce héros populaire se moque des puissants et défend les petites gens. Il est devenu un symbole de la ville.",
+            "answers": {
+              "lafleur": "Lafleur",
+              "guignol": "Guignol",
+              "polichinelle": "Polichinelle",
+              "arlequin": "Arlequin"
+            }
+          },
+          "cabotans-nom": {
+            "prompt": "Comment appelle-t-on, en picard, les marionnettes traditionnelles d'Amiens ?",
+            "hint": "Un théâtre de la ville porte leur nom, précédé de l'article picard.",
+            "anecdote": "Ces marionnettes à tringle, en bois sculpté, jouent des spectacles en picard et en français, pour les enfants comme pour les adultes.",
+            "answers": {
+              "les-cabotans": "Les cabotans",
+              "les-guignols": "Les guignols",
+              "les-tchantches": "Les tchantchès",
+              "les-marottes": "Les marottes"
+            }
+          },
+          "hutte": {
+            "prompt": "Quel abri à demi enterré, au bord d'une mare de la baie de Somme, voit-on ici ?",
+            "hint": "On y guette la nuit les oiseaux, derrière une étroite ouverture.",
+            "anecdote": "On en compte plusieurs centaines sur le littoral picard. Des oiseaux appelants, posés sur la mare, attirent leurs congénères.",
+            "answers": {
+              "une-hutte-de-chasse": "Une hutte de chasse",
+              "une-cabane-de-pecheur": "Une cabane de pêcheur",
+              "un-blockhaus": "Un blockhaus",
+              "une-bergerie": "Une bergerie"
+            }
+          },
+          "hutte-gibier": {
+            "prompt": "Quel gibier chasse-t-on surtout depuis les huttes de la baie de Somme ?",
+            "hint": "Canards, oies et sarcelles se posent sur les mares la nuit.",
+            "anecdote": "Cette chasse est une tradition très ancienne du littoral picard. Elle est strictement encadrée par des périodes et des quotas.",
+            "answers": {
+              "le-gibier-d-eau": "Le gibier d'eau",
+              "le-sanglier": "Le sanglier",
+              "le-chevreuil": "Le chevreuil",
+              "le-lievre": "Le lièvre"
+            }
+          },
+          "jeanne-hachette": {
+            "prompt": "Quelle héroïne de Beauvais, qui aurait repoussé un assaillant sur les remparts en 1472, est fêtée chaque année en juin ?",
+            "hint": "Elle aurait saisi l'étendard ennemi des mains d'un soldat bourguignon.",
+            "anecdote": "Le duc de Bourgogne assiégeait la ville. Une statue de l'héroïne se dresse sur la place de l'hôtel de ville de Beauvais.",
+            "answers": {
+              "jeanne-hachette": "Jeanne Hachette",
+              "jeanne-de-flandre": "Jeanne de Flandre",
+              "jeanne-de-penthievre": "Jeanne de Penthièvre",
+              "jeanne-de-belleville": "Jeanne de Belleville"
+            }
+          },
+          "rederies": {
+            "prompt": "Comment appelle-t-on, en Picardie, les grands vide-greniers de printemps et d'automne ?",
+            "hint": "Celle d'Amiens, en octobre, est l'une des plus grandes de France.",
+            "anecdote": "Des milliers d'exposants envahissent alors les rues.",
+            "answers": {
+              "les-rederies": "Les réderies",
+              "les-braderies": "Les braderies",
+              "les-ducasses": "Les ducasses",
+              "les-kermesses": "Les kermesses"
+            }
+          },
+          "ballon-poing": {
+            "prompt": "Quel sport traditionnel picard se joue en frappant un ballon avec le poing ?",
+            "hint": "Deux équipes de six joueurs s'affrontent sur une longue piste en herbe.",
+            "anecdote": "Il se pratique surtout dans la Somme et l'Oise, l'été, sur les places et les terrains de village.",
+            "answers": {
+              "le-ballon-au-poing": "Le ballon au poing",
+              "la-pelote-basque": "La pelote basque",
+              "le-jeu-de-crosse": "Le jeu de crosse",
+              "la-balle-pelote": "La balle pelote"
+            }
+          },
+          "longue-paume": {
+            "prompt": "Quel jeu de balle en plein air, ancêtre du tennis, a encore ses principaux clubs dans la Somme ?",
+            "hint": "On frappe la balle avec une raquette, sur un terrain de plus de soixante-dix mètres.",
+            "anecdote": "Il était le jeu favori des rois de France. Ses règles s'appuient sur un décompte des points proche de celui du tennis.",
+            "answers": {
+              "la-longue-paume": "La longue paume",
+              "le-jeu-de-mail": "Le jeu de mail",
+              "le-croquet": "Le croquet",
+              "la-soule": "La soule"
+            }
+          },
+          "prix-jockey-club": {
+            "prompt": "Quelle grande course de chevaux de trois ans se court chaque mois de juin à Chantilly ?",
+            "hint": "Elle porte le nom d'un célèbre cercle parisien d'amateurs de courses.",
+            "anecdote": "Créée en 1836, elle est l'une des plus anciennes courses de France. L'hippodrome borde les Grandes Écuries.",
+            "answers": {
+              "le-prix-du-jockey-club": "Le prix du Jockey Club",
+              "le-prix-de-l-arc-de-triomphe": "Le prix de l'Arc de Triomphe",
+              "le-prix-d-amerique": "Le prix d'Amérique",
+              "le-grand-steeple-chase-de-paris": "Le Grand Steeple-Chase de Paris"
+            }
+          },
+          "prix-diane": {
+            "prompt": "Quelle course de Chantilly, réservée aux pouliches, porte le nom d'une déesse romaine de la chasse ?",
+            "hint": "Les spectatrices y portent souvent de grands chapeaux élégants.",
+            "anecdote": "Créée en 1843, elle se court chaque mois de juin. Elle est devenue un rendez-vous mondain autant que sportif.",
+            "answers": {
+              "le-prix-de-diane": "Le prix de Diane",
+              "le-prix-de-venus": "Le prix de Vénus",
+              "le-prix-de-minerve": "Le prix de Minerve",
+              "le-prix-de-junon": "Le prix de Junon"
+            }
+          },
+          "festival-oiseau": {
+            "prompt": "Quel festival, né à Abbeville en 1991, célèbre chaque printemps la faune de la baie de Somme ?",
+            "hint": "Il propose des sorties d'observation guidées, à l'heure où les migrateurs remontent vers le nord.",
+            "anecdote": "Des naturalistes, des photographes et des artistes animaliers y présentent leurs travaux. Des sorties ont lieu dans le parc du Marquenterre et les marais.",
+            "answers": {
+              "le-festival-de-l-oiseau-et-de-la-nature": "Le festival de l'Oiseau et de la Nature",
+              "les-rencontres-internationales-de-cerf-volant": "Les Rencontres internationales de cerf-volant",
+              "le-festival-international-du-film-d-amiens": "Le festival international du film d'Amiens",
+              "les-fetes-jeanne-hachette": "Les fêtes Jeanne Hachette"
+            }
+          },
+          "henson": {
+            "prompt": "Quelle race de chevaux, née en baie de Somme pour la randonnée, voit-on ici ?",
+            "hint": "Elle a été créée dans les années 1970, en croisant des juments locales avec des chevaux de fjord.",
+            "anecdote": "Rustiques et calmes, ces chevaux vivent souvent en liberté dans les prés salés. On les monte pour se promener dans la baie.",
+            "answers": {
+              "le-henson": "Le henson",
+              "le-boulonnais": "Le boulonnais",
+              "le-camargue": "Le camargue",
+              "le-trait-du-nord": "Le trait du Nord"
+            }
+          },
+          "henson-robe": {
+            "prompt": "Quelle est la couleur de robe typique du cheval henson ?",
+            "hint": "Elle est d'un brun clair, avec une crinière et une queue sombres et une raie le long du dos.",
+            "anecdote": "Cette robe, héritée des chevaux de fjord, est la seule admise pour la race.",
+            "answers": {
+              "isabelle": "Isabelle",
+              "pie": "Pie",
+              "alezan": "Alezan",
+              "gris-pommele": "Gris pommelé"
+            }
+          },
+          "train-vapeur": {
+            "prompt": "Quel moyen de transport d'autrefois circule encore autour de la baie de Somme ?",
+            "hint": "Il fume, il siffle, et ses voitures sont en bois.",
+            "anecdote": "Il relie Le Crotoy, Saint-Valery-sur-Somme, Noyelles et Cayeux, sur une voie étroite ouverte en 1887.",
+            "answers": {
+              "un-train-a-vapeur": "Un train à vapeur",
+              "un-tramway-a-cheval": "Un tramway à cheval",
+              "une-diligence": "Une diligence",
+              "un-funiculaire": "Un funiculaire"
+            }
+          },
+          "familistere": {
+            "prompt": "Quel ensemble de logements ouvriers de l'Aisne, construit par un industriel au XIXe siècle, voit-on ici ?",
+            "hint": "Ses immeubles s'organisent autour de grandes cours couvertes d'une verrière.",
+            "anecdote": "Les familles y avaient accès à une école, une piscine, un théâtre et des magasins. Le lieu se visite aujourd'hui comme un musée.",
+            "answers": {
+              "le-familistere-de-guise": "Le familistère de Guise",
+              "la-saline-royale-d-arc-et-senans": "La saline royale d'Arc-et-Senans",
+              "la-cite-fruges-de-pessac": "La cité Frugès de Pessac",
+              "la-cite-ouvriere-de-mulhouse": "La cité ouvrière de Mulhouse"
+            }
+          },
+          "godin": {
+            "prompt": "Quel industriel a fait construire le familistère de Guise pour ses ouvriers ?",
+            "hint": "Il s'inspirait des idées de Charles Fourier sur le phalanstère.",
+            "anecdote": "Il a peu à peu confié la propriété de son entreprise à ses ouvriers, sous forme d'une association coopérative.",
+            "answers": {
+              "jean-baptiste-andre-godin": "Jean-Baptiste André Godin",
+              "eugene-schneider": "Eugène Schneider",
+              "ernest-solvay": "Ernest Solvay",
+              "emile-menier": "Émile Menier"
+            }
+          },
+          "godin-poeles": {
+            "prompt": "Que fabriquaient les usines de Guise du fondateur du familistère ?",
+            "hint": "Ce sont des appareils de chauffage très solides, qui pèsent lourd.",
+            "anecdote": "Ils étaient en fonte, un métal qu'il préférait à la tôle pour sa solidité. La marque existe toujours.",
+            "answers": {
+              "des-poeles-en-fonte": "Des poêles en fonte",
+              "des-bicyclettes": "Des bicyclettes",
+              "des-machines-a-coudre": "Des machines à coudre",
+              "des-locomotives": "Des locomotives"
+            }
+          },
+          "velours": {
+            "prompt": "Quel tissu, à la surface douce et pelucheuse, a fait la richesse des tisserands d'Amiens ?",
+            "hint": "On l'utilisait pour l'ameublement, les sièges de train et les vêtements.",
+            "anecdote": "La production textile d'Amiens a été très importante du XVIIe au XIXe siècle. Les tissus étaient teints au bord des canaux du quartier Saint-Leu.",
+            "answers": {
+              "le-velours": "Le velours",
+              "la-soie": "La soie",
+              "la-dentelle": "La dentelle",
+              "le-lin": "Le lin"
+            }
+          },
+          "tapisserie": {
+            "prompt": "Dans quelle manufacture picarde, fondée en 1664, ce genre de tapisserie a-t-il été tissé ?",
+            "hint": "Elle porte le nom de la préfecture de l'Oise.",
+            "anecdote": "Fondée sous Louis XIV, elle a d'abord travaillé pour les particuliers, puis pour le roi. Ses ateliers ont été détruits en 1940, puis rouverts en 1989.",
+            "answers": {
+              "la-manufacture-de-beauvais": "La manufacture de Beauvais",
+              "la-manufacture-des-gobelins": "La manufacture des Gobelins",
+              "la-manufacture-d-aubusson": "La manufacture d'Aubusson",
+              "la-manufacture-de-la-savonnerie": "La manufacture de la Savonnerie"
+            }
+          },
+          "basse-lisse": {
+            "prompt": "Sur quel type de métier tissent les lissiers de la manufacture de Beauvais ?",
+            "hint": "La chaîne y est tendue à l'horizontale, et le tisserand actionne des pédales.",
+            "anecdote": "Aux Gobelins, à Paris, on tisse au contraire la chaîne tendue à la verticale. Le travail reste très lent : quelques mètres carrés par an.",
+            "answers": {
+              "le-metier-de-basse-lisse": "Le métier de basse lisse",
+              "le-metier-de-haute-lisse": "Le métier de haute lisse",
+              "le-metier-jacquard": "Le métier Jacquard",
+              "le-metier-a-bras": "Le métier à bras"
+            }
+          },
+          "nacre": {
+            "prompt": "Quelle matière brillante, tirée des coquillages, travaillait-on dans la région de Méru, dans l'Oise ?",
+            "hint": "Elle tapisse l'intérieur de certaines coquilles et reflète toutes les couleurs.",
+            "anecdote": "Les artisans du pays de Thelle en faisaient aussi des éventails, des dominos et des manches de couteau. Un musée raconte cette industrie.",
+            "answers": {
+              "la-nacre": "La nacre",
+              "l-ivoire": "L'ivoire",
+              "l-ecaille": "L'écaille",
+              "l-ambre": "L'ambre"
+            }
+          },
+          "nacre-boutons": {
+            "prompt": "Quels petits objets fabriquait-on surtout dans la nacre, autour de Méru ?",
+            "hint": "Ils servaient à fermer les chemises et les robes.",
+            "anecdote": "Méru était appelée la capitale de la nacre. Au début du XXe siècle, des milliers d'ouvriers y travaillaient, souvent à domicile.",
+            "answers": {
+              "des-boutons": "Des boutons",
+              "des-peignes": "Des peignes",
+              "des-bagues": "Des bagues",
+              "des-perles": "Des perles"
+            }
+          },
+          "gres": {
+            "prompt": "Quel village de l'Oise est un haut lieu de la poterie de grès depuis le Moyen Âge ?",
+            "hint": "Il se trouve près de Beauvais, au bord du pays de Bray.",
+            "anecdote": "Ses potiers utilisaient une argile locale, cuite à très haute température, qui devient presque imperméable. Ils produisaient des pots, des cruches et des carreaux décorés.",
+            "answers": {
+              "saint-amand-en-puisaye": "Saint-Amand-en-Puisaye",
+              "vallauris": "Vallauris",
+              "desvres": "Desvres"
+            }
+          },
+          "vimeu": {
+            "prompt": "Quelle industrie fait la réputation du Vimeu, à l'ouest de la Somme ?",
+            "hint": "Ses ateliers travaillent le métal, pour les portes et les salles de bains.",
+            "anecdote": "Cette activité est née au XVIIe siècle, chez les paysans qui travaillaient le métal l'hiver. Elle compte encore de nombreuses entreprises.",
+            "answers": {
+              "la-serrurerie-et-la-robinetterie": "La serrurerie et la robinetterie",
+              "la-verrerie-et-la-cristallerie": "La verrerie et la cristallerie",
+              "la-faience-et-la-porcelaine": "La faïence et la porcelaine",
+              "la-coutellerie-et-l-orfevrerie": "La coutellerie et l'orfèvrerie"
+            }
+          },
+          "saint-gobain": {
+            "prompt": "Que produisait la manufacture royale installée à Saint-Gobain, dans l'Aisne, à partir de 1692 ?",
+            "hint": "Elle coulait du verre sur des tables de métal, puis le polissait.",
+            "anecdote": "Fondée sous Louis XIV pour concurrencer Venise, elle est à l'origine d'un groupe industriel mondial qui porte toujours son nom.",
+            "answers": {
+              "des-glaces-et-des-miroirs": "Des glaces et des miroirs",
+              "des-porcelaines": "Des porcelaines",
+              "des-tapisseries": "Des tapisseries",
+              "des-armes": "Des armes"
+            }
+          },
+          "saint-maximin": {
+            "prompt": "Quelle pierre calcaire de l'Oise a servi à bâtir de nombreux monuments parisiens ?",
+            "hint": "Elle porte le nom d'une commune proche de Creil, où l'on l'extrait encore.",
+            "anecdote": "Cette pierre blonde et fine a été utilisée pour le Louvre et de nombreux immeubles haussmanniens.",
+            "answers": {
+              "la-pierre-de-saint-maximin": "La pierre de Saint-Maximin",
+              "la-pierre-de-caen": "La pierre de Caen",
+              "la-pierre-de-comblanchien": "La pierre de Comblanchien",
+              "la-pierre-de-tuffeau": "La pierre de Tuffeau"
+            }
+          },
+          "la-fontaine": {
+            "prompt": "Quel écrivain, auteur du Corbeau et le Renard, est né à Château-Thierry en 1621 ?",
+            "hint": "Il s'est inspiré du poète grec Ésope pour écrire ses fables.",
+            "anecdote": "Sa maison natale abrite aujourd'hui un musée qui lui est consacré.",
+            "answers": {
+              "jean-de-la-fontaine": "Jean de La Fontaine",
+              "charles-perrault": "Charles Perrault",
+              "moliere": "Molière",
+              "nicolas-boileau": "Nicolas Boileau"
+            }
+          },
+          "la-fontaine-charge": {
+            "prompt": "Quelle charge le fabuliste de Château-Thierry a-t-il héritée de son père ?",
+            "hint": "Elle lui donnait la surveillance des bois et des rivières de la région.",
+            "anecdote": "Il l'a exercée sans grand zèle pendant une vingtaine d'années, avant de s'installer à Paris.",
+            "answers": {
+              "maitre-des-eaux-et-forets": "Maître des eaux et forêts",
+              "bailli": "Bailli",
+              "receveur-des-impots": "Receveur des impôts",
+              "capitaine-de-la-milice": "Capitaine de la milice"
+            }
+          },
+          "racine": {
+            "prompt": "Quel auteur de tragédies, comme Phèdre et Andromaque, est né à La Ferté-Milon, dans l'Aisne, en 1639 ?",
+            "hint": "Il a été élevé par les religieux jansénistes de Port-Royal.",
+            "anecdote": "Il est devenu historiographe du roi Louis XIV. Un musée lui est consacré dans sa ville natale.",
+            "answers": {
+              "jean-racine": "Jean Racine",
+              "pierre-corneille": "Pierre Corneille",
+              "moliere": "Molière",
+              "paul-scarron": "Paul Scarron"
+            }
+          },
+          "condorcet": {
+            "prompt": "Quel philosophe des Lumières, né à Ribemont, dans l'Aisne, a défendu l'instruction publique pour tous ?",
+            "hint": "Il était aussi mathématicien, et il est mort en prison sous la Terreur.",
+            "anecdote": "Il a défendu le droit de vote des femmes et l'abolition de l'esclavage. Il est entré symboliquement au Panthéon en 1989.",
+            "answers": {
+              "nicolas-de-condorcet": "Nicolas de Condorcet",
+              "denis-diderot": "Denis Diderot",
+              "jean-le-rond-d-alembert": "Jean le Rond d'Alembert",
+              "voltaire": "Voltaire"
+            }
+          },
+          "desmoulins": {
+            "prompt": "Quel révolutionnaire, né à Guise, a appelé les Parisiens aux armes le 12 juillet 1789 ?",
+            "hint": "Journaliste, il a fondé le journal Le Vieux Cordelier.",
+            "anecdote": "Ami de Danton, il a été guillotiné avec lui en 1794. Une statue lui rend hommage sur la place de sa ville natale.",
+            "answers": {
+              "camille-desmoulins": "Camille Desmoulins",
+              "jean-paul-marat": "Jean-Paul Marat",
+              "georges-danton": "Georges Danton",
+              "maximilien-de-robespierre": "Maximilien de Robespierre"
+            }
+          },
+          "babeuf": {
+            "prompt": "Quel révolutionnaire, né à Saint-Quentin, a organisé la conjuration des Égaux pour partager les terres ?",
+            "hint": "Il avait choisi un prénom de frères romains réformateurs.",
+            "anecdote": "Il a été arrêté et exécuté en 1797. Ses idées ont inspiré plus tard les premiers penseurs socialistes.",
+            "answers": {
+              "gracchus-babeuf": "Gracchus Babeuf",
+              "jacques-rene-hebert": "Jacques-René Hébert",
+              "jacques-roux": "Jacques Roux",
+              "saint-just": "Saint-Just"
+            }
+          },
+          "laclos": {
+            "prompt": "Quel écrivain né à Amiens a publié en 1782 le roman Les Liaisons dangereuses ?",
+            "hint": "Il était officier d'artillerie et inventeur d'un nouveau boulet.",
+            "anecdote": "Ce roman par lettres a fait scandale à sa parution. Il a été adapté au cinéma à plusieurs reprises.",
+            "answers": {
+              "pierre-choderlos-de-laclos": "Pierre Choderlos de Laclos",
+              "marivaux": "Marivaux",
+              "beaumarchais": "Beaumarchais",
+              "restif-de-la-bretonne": "Restif de La Bretonne"
+            }
+          },
+          "branly": {
+            "prompt": "Quel physicien, né à Amiens en 1844, a inventé le cohéreur, qui a permis les débuts de la radio ?",
+            "hint": "Un musée parisien des arts premiers est installé sur un quai qui porte son nom.",
+            "anecdote": "Son appareil détectait les ondes électromagnétiques. Il a servi à Guglielmo Marconi pour ses premières transmissions sans fil.",
+            "answers": {
+              "edouard-branly": "Édouard Branly",
+              "andre-marie-ampere": "André-Marie Ampère",
+              "gustave-eiffel": "Gustave Eiffel",
+              "louis-lumiere": "Louis Lumière"
+            }
+          },
+          "claudel": {
+            "prompt": "Quel poète et dramaturge, auteur du Soulier de satin, est né à Villeneuve-sur-Fère, dans l'Aisne ?",
+            "hint": "Sa sœur aînée était une célèbre sculptrice.",
+            "anecdote": "Il a aussi mené une carrière de diplomate, comme ambassadeur au Japon, aux États-Unis et en Belgique.",
+            "answers": {
+              "paul-claudel": "Paul Claudel",
+              "paul-valery": "Paul Valéry",
+              "jean-giraudoux": "Jean Giraudoux",
+              "saint-john-perse": "Saint-John Perse"
+            }
+          },
+          "mermoz": {
+            "prompt": "Quel aviateur de l'Aéropostale, surnommé l'Archange, est né à Aubenton, dans l'Aisne ?",
+            "hint": "Il a été le premier à traverser l'Atlantique Sud en hydravion pour le courrier, en 1930.",
+            "anecdote": "Il a disparu en mer en 1936, à bord de l'hydravion Croix-du-Sud.",
+            "answers": {
+              "jean-mermoz": "Jean Mermoz",
+              "antoine-de-saint-exupery": "Antoine de Saint-Exupéry",
+              "henri-guillaumet": "Henri Guillaumet",
+              "roland-garros": "Roland Garros"
+            }
+          },
+          "quentin-de-la-tour": {
+            "prompt": "Quel portraitiste du XVIIIe siècle, maître du pastel, s'est représenté ici ?",
+            "hint": "Il est né dans l'Aisne, où un musée de sa ville natale réunit une grande partie de son œuvre.",
+            "anecdote": "Il a fait le portrait de Louis XV, de la marquise de Pompadour et des grands esprits des Lumières.",
+            "answers": {
+              "maurice-quentin-de-la-tour": "Maurice Quentin de La Tour",
+              "jean-baptiste-greuze": "Jean-Baptiste Greuze",
+              "jean-etienne-liotard": "Jean-Étienne Liotard",
+              "jean-baptiste-perronneau": "Jean-Baptiste Perronneau"
+            }
+          },
+          "meru-dep": {
+            "prompt": "Dans quel département se trouve Méru, qui fut la capitale de la nacre ?",
+            "hint": "C'est le département le plus au sud de la région, juste au nord de l'Île-de-France.",
+            "anecdote": "Le musée de la nacre et de la tabletterie y montre des machines encore en état de marche."
+          },
+          "ribemont-dep": {
+            "prompt": "Dans quel département se trouve Ribemont, la ville natale du philosophe Condorcet ?",
+            "hint": "C'est le département de l'est de l'ancienne Picardie, qui touche la Belgique au nord et la Champagne au sud-est.",
+            "anecdote": "Cette petite ville domine la vallée de l'Oise, entre Saint-Quentin et Guise."
+          },
+          "friville-dep": {
+            "prompt": "Dans quel département se trouve Friville-Escarbotin, capitale de la serrurerie du Vimeu ?",
+            "hint": "C'est le département de l'ouest, qui borde la Manche entre le Pas-de-Calais et la Seine-Maritime.",
+            "anecdote": "Un musée des industries du Vimeu y raconte l'histoire des serruriers et des robinetiers."
+          }
+        },
+        "grand-voyage": {
+          "name": "Grand voyage en Picardie",
+          "description": "Peuples gaulois et premiers rois francs, sacres et élections royales, guerre de Cent Ans et ordonnance de 1539, paix d'Amiens, puis la Somme, le Chemin des Dames et la clairière de l'Armistice : deux mille ans d'histoire de France vécus en Picardie.",
+          "samarobriva": {
+            "prompt": "Quel était le nom gaulois et romain d'Amiens ?",
+            "hint": "Ce nom signifie le pont sur la Somme.",
+            "anecdote": "La ville était la capitale du peuple des Ambiens, qui a fini par lui donner son nom actuel. César y a passé un hiver.",
+            "answers": {
+              "samarobriva": "Samarobriva",
+              "durocortorum": "Durocortorum",
+              "lutece": "Lutèce",
+              "augustomagus": "Augustomagus"
+            }
+          },
+          "bellovaques": {
+            "prompt": "Quel peuple gaulois, réputé le plus puissant de la Gaule belgique, a donné son nom à Beauvais ?",
+            "hint": "César les décrit comme capables de lever cent mille guerriers.",
+            "anecdote": "Leur capitale romaine s'appelait Caesaromagus. Le nom du peuple a fini par remplacer celui de la ville.",
+            "answers": {
+              "les-bellovaques": "Les Bellovaques",
+              "les-ambiens": "Les Ambiens",
+              "les-suessions": "Les Suessions",
+              "les-remes": "Les Rèmes"
+            }
+          },
+          "suessions": {
+            "prompt": "Quel peuple gaulois a donné son nom à Soissons ?",
+            "hint": "Leur roi Diviciacos aurait régné jusqu'en Bretagne, de l'autre côté de la Manche.",
+            "anecdote": "Leur capitale romaine s'appelait Augusta Suessionum. La ville est devenue plus tard l'une des capitales des rois francs.",
+            "answers": {
+              "les-suessions": "Les Suessions",
+              "les-bellovaques": "Les Bellovaques",
+              "les-viromanduens": "Les Viromanduens",
+              "les-silvanectes": "Les Silvanectes"
+            }
+          },
+          "vase": {
+            "prompt": "Quel objet, pris dans une église après la victoire franque de 486, est au cœur d'une célèbre anecdote d'histoire de France ?",
+            "hint": "Un guerrier l'a brisé d'un coup de hache, refusant de le céder au roi.",
+            "anecdote": "Un an plus tard, le roi a fendu la tête de ce guerrier en lui rappelant l'affront. L'histoire est racontée par Grégoire de Tours.",
+            "answers": {
+              "le-vase-de-soissons": "Le vase de Soissons",
+              "la-couronne-de-fer": "La couronne de fer",
+              "le-calice-d-ardagh": "Le calice d'Ardagh",
+              "la-sainte-ampoule": "La Sainte Ampoule"
+            }
+          },
+          "charlemagne": {
+            "prompt": "Quel futur empereur a été sacré roi des Francs à Noyon, en 768 ?",
+            "hint": "Il a été couronné empereur à Rome en l'an 800.",
+            "anecdote": "À la mort de son père Pépin le Bref, le royaume a été partagé entre lui et son frère Carloman, sacré le même jour à Soissons.",
+            "answers": {
+              "charlemagne": "Charlemagne",
+              "louis-le-pieux": "Louis le Pieux",
+              "charles-martel": "Charles Martel",
+              "charles-le-chauve": "Charles le Chauve"
+            }
+          },
+          "carolingiens": {
+            "prompt": "Quelle dynastie royale a fait de Laon sa capitale au Xe siècle ?",
+            "hint": "Ce sont les derniers descendants du grand empereur couronné en l'an 800.",
+            "anecdote": "Retranchés sur leur butte, ces rois ne contrôlaient plus qu'un petit territoire. Leur dernier représentant est mort en 987.",
+            "answers": {
+              "les-carolingiens": "Les Carolingiens",
+              "les-merovingiens": "Les Mérovingiens",
+              "les-capetiens": "Les Capétiens",
+              "les-valois": "Les Valois"
+            }
+          },
+          "capetiens": {
+            "prompt": "Quelle dynastie a commencé en 987 avec l'élection d'un roi par les grands du royaume, réunis à Senlis ?",
+            "hint": "Elle a régné sur la France, avec ses branches, jusqu'en 1848.",
+            "anecdote": "Le nouveau roi était duc des Francs et comte de Paris. Il a fait sacrer son fils de son vivant, pour assurer la succession.",
+            "answers": {
+              "les-capetiens": "Les Capétiens",
+              "les-carolingiens": "Les Carolingiens",
+              "les-merovingiens": "Les Mérovingiens",
+              "les-plantagenets": "Les Plantagenêts"
+            }
+          },
+          "crecy-roi": {
+            "prompt": "Quel roi de France a été battu par les Anglais à Crécy, en 1346 ?",
+            "hint": "C'était le premier roi de la dynastie des Valois.",
+            "anecdote": "Les archers anglais ont décimé la chevalerie française. Le roi blessé a dû fuir pendant la nuit vers le château de La Broye.",
+            "answers": {
+              "philippe-vi": "Philippe VI",
+              "jean-ii-le-bon": "Jean II le Bon",
+              "charles-v": "Charles V",
+              "philippe-le-bel": "Philippe le Bel"
+            }
+          },
+          "compiegne-1430": {
+            "prompt": "Dans quelle ville de l'Oise la Pucelle d'Orléans a-t-elle été capturée par les Bourguignons, en 1430 ?",
+            "hint": "Elle tentait une sortie pour défendre la ville assiégée, au-delà du pont sur l'Oise.",
+            "anecdote": "Livrée aux Anglais, elle a été jugée à Rouen et brûlée l'année suivante. Une statue rappelle sa capture dans la ville."
+          },
+          "picquigny": {
+            "prompt": "Quel traité de 1475, signé sur un pont de la Somme entre Louis XI et Édouard IV, a mis fin à la guerre de Cent Ans ?",
+            "hint": "Les deux rois se sont parlé à travers une grille de bois, par crainte d'une trahison.",
+            "anecdote": "Le roi d'Angleterre a renoncé à ses prétentions contre une forte somme d'argent et une pension annuelle.",
+            "answers": {
+              "le-traite-de-picquigny": "Le traité de Picquigny",
+              "le-traite-de-troyes": "Le traité de Troyes",
+              "le-traite-d-arras": "Le traité d'Arras",
+              "le-traite-de-bretigny": "Le traité de Brétigny"
+            }
+          },
+          "ordonnance": {
+            "prompt": "Quel texte royal de 1539 a imposé le français, à la place du latin, dans les actes de justice ?",
+            "hint": "Il a été signé dans un château de l'Aisne, au cœur d'une forêt de chasse.",
+            "anecdote": "Il imposait aussi aux curés de tenir des registres des baptêmes. C'est l'un des plus anciens textes encore en vigueur en France.",
+            "answers": {
+              "l-ordonnance-de-villers-cotterets": "L'ordonnance de Villers-Cotterêts",
+              "l-edit-de-nantes": "L'édit de Nantes",
+              "la-pragmatique-sanction-de-bourges": "La Pragmatique Sanction de Bourges",
+              "l-ordonnance-de-moulins": "L'ordonnance de Moulins"
+            }
+          },
+          "escurial": {
+            "prompt": "Quel monument le roi d'Espagne Philippe II a-t-il fait bâtir pour célébrer sa victoire de 1557 contre les Français, en Picardie ?",
+            "hint": "C'est un immense palais-monastère, près de Madrid.",
+            "anecdote": "La bataille a eu lieu le jour de la Saint-Laurent. Le plan du bâtiment rappellerait le gril du martyre de ce saint.",
+            "answers": {
+              "l-escurial": "L'Escurial",
+              "l-alhambra": "L'Alhambra",
+              "le-palais-royal-de-madrid": "Le palais royal de Madrid",
+              "l-alcazar-de-tolede": "L'Alcazar de Tolède"
+            }
+          },
+          "paix-amiens": {
+            "prompt": "Avec quel pays la France de Bonaparte a-t-elle signé la paix d'Amiens, en 1802 ?",
+            "hint": "C'était son grand rival maritime, de l'autre côté de la Manche.",
+            "anecdote": "Cette paix n'a duré qu'une année. Elle a été signée dans l'hôtel de ville d'Amiens.",
+            "answers": {
+              "le-royaume-uni": "Le Royaume-Uni",
+              "l-autriche": "L'Autriche",
+              "la-russie": "La Russie",
+              "la-prusse": "La Prusse"
+            }
+          },
+          "ham": {
+            "prompt": "Sous quel déguisement Louis-Napoléon Bonaparte s'est-il évadé du fort de Ham, dans la Somme, en 1846 ?",
+            "hint": "Il a franchi la porte en portant une planche sur l'épaule.",
+            "anecdote": "Il y était emprisonné depuis six ans, après une tentative de coup d'État. Ses adversaires l'ont surnommé ensuite Badinguet, du nom supposé de cet homme.",
+            "answers": {
+              "en-ouvrier-macon": "En ouvrier maçon",
+              "en-moine": "En moine",
+              "en-femme": "En femme",
+              "en-soldat": "En soldat"
+            }
+          },
+          "somme-date": {
+            "prompt": "Quel jour a commencé la grande offensive franco-britannique de la Somme ?",
+            "hint": "C'était au début de l'été, après une semaine de bombardements.",
+            "anecdote": "L'offensive a duré près de cinq mois et fait plus d'un million de victimes, tués, blessés et disparus, dans les deux camps.",
+            "answers": {
+              "le-1er-juillet-1916": "Le 1er juillet 1916",
+              "le-21-fevrier-1916": "Le 21 février 1916",
+              "le-16-avril-1917": "Le 16 avril 1917",
+              "le-8-aout-1918": "Le 8 août 1918"
+            }
+          },
+          "somme-britanniques": {
+            "prompt": "Quelle armée a subi, le premier jour de la bataille de la Somme, les plus lourdes pertes de son histoire en une seule journée ?",
+            "hint": "Elle comptait de nombreux volontaires, engagés en bataillons de copains.",
+            "anecdote": "Elle a eu près de 20 000 tués et 40 000 blessés ce jour-là. Cette journée reste un traumatisme national outre-Manche.",
+            "answers": {
+              "l-armee-britannique": "L'armée britannique",
+              "l-armee-francaise": "L'armée française",
+              "l-armee-allemande": "L'armée allemande",
+              "l-armee-americaine": "L'armée américaine"
+            }
+          },
+          "char": {
+            "prompt": "Près de quel village de la Somme les premiers chars d'assaut de l'histoire sont-ils entrés en action, le 15 septembre 1916 ?",
+            "hint": "Ce village a donné la moitié de son nom à la bataille, associé à celui de son voisin Courcelette.",
+            "anecdote": "Pour garder le secret, les Britanniques avaient fait passer ces engins pour des réservoirs d'eau, d'où leur nom anglais de tanks.",
+            "answers": {
+              "flers": "Flers",
+              "pozieres": "Pozières",
+              "guillemont": "Guillemont"
+            }
+          },
+          "thiepval-disparus": {
+            "prompt": "Combien de noms de soldats disparus sont gravés sur le mémorial de Thiepval ?",
+            "hint": "Ce sont des soldats britanniques et sud-africains qui n'ont pas de tombe connue.",
+            "anecdote": "Ils sont morts dans la Somme entre 1915 et 1918. Le monument, haut de 45 mètres, a été inauguré en 1932.",
+            "answers": {
+              "plus-de-72-000": "Plus de 72 000",
+              "environ-8-000": "Environ 8 000",
+              "environ-25-000": "Environ 25 000",
+              "plus-de-300-000": "Plus de 300 000"
+            }
+          },
+          "amiens-1918": {
+            "prompt": "Comment le général allemand Ludendorff a-t-il appelé le 8 août 1918, premier jour de l'offensive alliée devant Amiens ?",
+            "hint": "Il a parlé d'une couleur, comme pour un deuil.",
+            "anecdote": "Les chars et l'infanterie alliés ont percé le front sur une dizaine de kilomètres. Ce fut le début des cent jours qui ont mené à l'armistice.",
+            "answers": {
+              "le-jour-noir-de-l-armee-allemande": "Le jour noir de l'armée allemande",
+              "le-jour-de-gloire": "Le jour de gloire",
+              "le-jour-le-plus-long": "Le jour le plus long",
+              "la-journee-des-dupes": "La journée des dupes"
+            }
+          },
+          "pariser-kanone": {
+            "prompt": "Quel canon géant allemand a tiré sur Paris en 1918, depuis les bois de l'Aisne, à plus de cent kilomètres ?",
+            "hint": "On le confond souvent avec un obusier surnommé d'un prénom féminin.",
+            "anecdote": "Installé près de Crépy-en-Laonnois, il envoyait ses obus jusque dans la stratosphère. Ses tirs ont fait plus de deux cent cinquante morts à Paris.",
+            "answers": {
+              "le-pariser-kanone": "Le Pariser Kanone",
+              "la-grosse-bertha": "La Grosse Bertha",
+              "le-canon-de-75": "Le canon de 75",
+              "le-dora": "Le Dora"
+            }
+          },
+          "nivelle": {
+            "prompt": "Quel général a lancé l'offensive meurtrière du Chemin des Dames, en avril 1917 ?",
+            "hint": "Il avait promis une percée en quarante-huit heures.",
+            "anecdote": "L'échec de l'offensive a provoqué des mutineries dans l'armée française. Il a été remplacé par Philippe Pétain en mai 1917.",
+            "answers": {
+              "robert-nivelle": "Robert Nivelle",
+              "joseph-joffre": "Joseph Joffre",
+              "ferdinand-foch": "Ferdinand Foch",
+              "charles-mangin": "Charles Mangin"
+            }
+          },
+          "craonne": {
+            "prompt": "Quelle chanson de soldats révoltés, interdite pendant longtemps, évoque un village du Chemin des Dames ?",
+            "hint": "Ses couplets disent la lassitude des soldats envoyés au sacrifice.",
+            "anecdote": "Ses auteurs sont restés anonymes. Le village qu'elle cite a été entièrement détruit et reconstruit un peu plus loin.",
+            "answers": {
+              "la-chanson-de-craonne": "La Chanson de Craonne",
+              "la-madelon": "La Madelon",
+              "le-chant-du-depart": "Le Chant du départ",
+              "verdun-on-ne-passe-pas": "Verdun, on ne passe pas"
+            }
+          },
+          "dames-nom": {
+            "prompt": "D'où vient le nom du Chemin des Dames ?",
+            "hint": "Au XVIIIe siècle, la route a été aménagée pour des princesses de la famille royale.",
+            "anecdote": "Elles se rendaient au château de la Bove, chez une amie, la comtesse de Narbonne. La route suit la crête entre l'Aisne et l'Ailette.",
+            "answers": {
+              "des-filles-de-louis-xv-qui-l-empruntaient": "Des filles de Louis XV, qui l'empruntaient",
+              "d-un-couvent-de-religieuses-voisin": "D'un couvent de religieuses voisin",
+              "des-femmes-qui-ravitaillaient-les-soldats": "Des femmes qui ravitaillaient les soldats",
+              "d-une-legende-de-fees": "D'une légende de fées"
+            }
+          },
+          "armistice-date": {
+            "prompt": "À quelle date l'armistice de la Première Guerre mondiale a-t-il été signé, dans un wagon, en forêt de Compiègne ?",
+            "hint": "Il a été signé à l'aube, et le cessez-le-feu est entré en vigueur à onze heures.",
+            "anecdote": "Les cloches ont sonné dans toute la France. Ce jour est devenu une fête nationale.",
+            "answers": {
+              "le-11-novembre-1918": "Le 11 novembre 1918",
+              "le-8-mai-1918": "Le 8 mai 1918",
+              "le-28-juin-1919": "Le 28 juin 1919",
+              "le-14-juillet-1918": "Le 14 juillet 1918"
+            }
+          },
+          "wagon-1940": {
+            "prompt": "Quel dirigeant a exigé que l'armistice de juin 1940 soit signé dans le même wagon et au même endroit qu'en 1918 ?",
+            "hint": "Il voulait effacer ce qu'il considérait comme une humiliation de son pays.",
+            "anecdote": "Le wagon a ensuite été emporté en Allemagne, où il a été détruit en 1945. Une réplique est exposée dans la clairière.",
+            "answers": {
+              "adolf-hitler": "Adolf Hitler",
+              "benito-mussolini": "Benito Mussolini",
+              "hermann-goring": "Hermann Göring",
+              "joseph-staline": "Joseph Staline"
+            }
+          },
+          "royallieu": {
+            "prompt": "Quel camp de Compiègne a été pendant la Seconde Guerre mondiale un lieu de départ vers les camps de concentration ?",
+            "hint": "Ce sont d'anciennes casernes, devenues un mémorial de l'internement et de la déportation.",
+            "anecdote": "Plus de 40 000 personnes y ont été internées. Le premier convoi de déportation de France vers Auschwitz est parti de là, en mars 1942.",
+            "answers": {
+              "le-camp-de-royallieu": "Le camp de Royallieu",
+              "le-camp-de-drancy": "Le camp de Drancy",
+              "le-camp-des-milles": "Le camp des Milles",
+              "le-camp-de-gurs": "Le camp de Gurs"
+            }
+          },
+          "terre-neuve": {
+            "prompt": "Quels soldats sont honorés par le mémorial de Beaumont-Hamel, dans la Somme ?",
+            "hint": "Ils venaient d'une île de l'Atlantique Nord, alors colonie britannique.",
+            "anecdote": "Leur régiment a perdu la plupart de ses hommes en une demi-heure, le 1er juillet 1916. Ce jour est encore une journée de deuil sur leur île.",
+            "answers": {
+              "les-terre-neuviens": "Les Terre-Neuviens",
+              "les-ecossais": "Les Écossais",
+              "les-irlandais": "Les Irlandais",
+              "les-gallois": "Les Gallois"
+            }
+          },
+          "chinois": {
+            "prompt": "Qui repose dans le cimetière de Noyelles-sur-Mer, le plus grand de France pour ces combattants venus de loin ?",
+            "hint": "Ils avaient été recrutés pour décharger les navires, creuser les tranchées et réparer les routes.",
+            "anecdote": "Ils étaient environ 140 000 en France. Leurs tombes portent des inscriptions en deux langues, l'anglais et le chinois.",
+            "answers": {
+              "des-travailleurs-chinois": "Des travailleurs chinois",
+              "des-tirailleurs-senegalais": "Des tirailleurs sénégalais",
+              "des-soldats-indiens": "Des soldats indiens",
+              "des-volontaires-americains": "Des volontaires américains"
+            }
+          },
+          "anzac": {
+            "prompt": "Quelle ville de la Somme, reprise le 25 avril 1918 par les Australiens, porte au-dessus de son école l'inscription N'oublions jamais l'Australie ?",
+            "hint": "Chaque 25 avril, une cérémonie à l'aube y réunit des milliers de visiteurs venus de l'autre bout du monde.",
+            "anecdote": "L'école a été reconstruite avec les dons d'écoliers de Victoria. Ce jour-là, appelé jour de l'Anzac, est une grande fête du souvenir dans leur pays.",
+            "answers": {
+              "pozieres": "Pozières"
+            }
+          },
+          "thiepval": {
+            "prompt": "Quel immense mémorial de brique et de pierre, sur la Somme, voit-on ici ?",
+            "hint": "Il porte, sur ses piliers, les noms de soldats britanniques sans sépulture.",
+            "anecdote": "Il a été conçu par l'architecte Edwin Lutyens. Une cérémonie s'y tient chaque 1er juillet, en souvenir de la bataille.",
+            "answers": {
+              "le-memorial-de-thiepval": "Le mémorial de Thiepval",
+              "le-memorial-de-vimy": "Le mémorial de Vimy",
+              "la-porte-de-menin": "La porte de Menin",
+              "l-ossuaire-de-douaumont": "L'ossuaire de Douaumont"
+            }
+          },
+          "beaumont-hamel": {
+            "prompt": "Quel animal en bronze, symbole d'un régiment venu du Nouveau Monde, se dresse sur ce mémorial de la Somme ?",
+            "hint": "C'est un grand cervidé de l'Arctique, aux larges bois.",
+            "anecdote": "Le site garde des tranchées et des trous d'obus, presque intacts depuis 1916.",
+            "answers": {
+              "un-caribou": "Un caribou",
+              "un-elan": "Un élan",
+              "un-ours": "Un ours",
+              "un-cerf": "Un cerf"
+            }
+          },
+          "villers-bretonneux": {
+            "prompt": "Quel mémorial, avec sa haute tour au milieu des tombes, voit-on ici, près d'Amiens ?",
+            "hint": "Il honore les soldats d'un pays de l'hémisphère Sud, tombés en France.",
+            "anecdote": "Un centre d'interprétation moderne, enterré derrière le monument, raconte l'engagement de ces soldats sur le front de l'Ouest.",
+            "answers": {
+              "le-memorial-national-australien": "Le mémorial national australien",
+              "le-memorial-de-thiepval": "Le mémorial de Thiepval",
+              "le-memorial-terre-neuvien": "Le mémorial terre-neuvien",
+              "le-memorial-canadien-de-vimy": "Le mémorial canadien de Vimy"
+            }
+          },
+          "lochnagar": {
+            "prompt": "Qu'est-ce que cet immense trou, près de La Boisselle, dans la Somme ?",
+            "hint": "Il a été formé par l'explosion d'une énorme charge, placée sous les lignes allemandes.",
+            "anecdote": "Il mesure une centaine de mètres de diamètre. L'explosion du 1er juillet 1916 aurait été entendue jusqu'à Londres.",
+            "answers": {
+              "un-cratere-de-mine": "Un cratère de mine",
+              "un-cratere-de-meteorite": "Un cratère de météorite",
+              "une-ancienne-carriere": "Une ancienne carrière",
+              "un-etang-asseche": "Un étang asséché"
+            }
+          },
+          "clairiere": {
+            "prompt": "Quel lieu de mémoire de la forêt de Compiègne voit-on ici ?",
+            "hint": "Deux voies ferrées y menaient autrefois deux trains face à face.",
+            "anecdote": "Un musée y abrite un wagon semblable à celui où ont été signés deux armistices, en 1918 et en 1940.",
+            "answers": {
+              "la-clairiere-de-l-armistice": "La clairière de l'Armistice",
+              "le-camp-de-royallieu": "Le camp de Royallieu",
+              "le-memorial-de-thiepval": "Le mémorial de Thiepval",
+              "la-caverne-du-dragon": "La caverne du Dragon"
+            }
+          },
+          "chemin-des-dames": {
+            "prompt": "Sur quelle longue crête de l'Aisne, théâtre de combats acharnés en 1917, se trouve ce monument ?",
+            "hint": "Elle suit une ancienne route aménagée au XVIIIe siècle pour des princesses.",
+            "anecdote": "Elle domine la vallée de l'Aisne au sud et celle de l'Ailette au nord. Des dizaines de monuments et de cimetières la jalonnent.",
+            "answers": {
+              "le-chemin-des-dames": "Le Chemin des Dames",
+              "la-crete-de-vimy": "La crête de Vimy",
+              "le-mort-homme": "Le Mort-Homme",
+              "la-butte-de-vauquois": "La butte de Vauquois"
+            }
+          },
+          "croix-boheme": {
+            "prompt": "Quel roi, mort en combattant aux côtés des Français, est honoré par cette croix ancienne près de Crécy ?",
+            "hint": "Il régnait sur un royaume d'Europe centrale dont Prague était la capitale.",
+            "anecdote": "Il était le père de l'empereur Charles IV. Sa devise et ses plumes auraient été reprises par le prince de Galles.",
+            "answers": {
+              "jean-l-aveugle-roi-de-boheme": "Jean l'Aveugle, roi de Bohême",
+              "jacques-ier-d-ecosse": "Jacques Ier d'Écosse",
+              "charles-le-mauvais": "Charles le Mauvais",
+              "robert-bruce": "Robert Bruce"
+            }
+          },
+          "samara": {
+            "prompt": "Quel parc de la Somme, consacré à la préhistoire et à l'archéologie, voit-on ici ?",
+            "hint": "Il porte le nom antique du fleuve qui traverse la région.",
+            "anecdote": "On y découvre des reconstitutions de maisons préhistoriques et gauloises, des jardins et un site d'oppidum, près d'Amiens.",
+            "answers": {
+              "samara": "Samara",
+              "archeodrome-de-bourgogne": "Archéodrome de Bourgogne",
+              "bibracte": "Bibracte",
+              "le-parc-de-la-prehistoire-de-tarascon": "Le parc de la Préhistoire de Tarascon"
+            }
+          },
+          "crecy-dep": {
+            "prompt": "Dans quel département se trouve Crécy-en-Ponthieu, où les Anglais ont battu les Français en 1346 ?",
+            "hint": "C'est le département de l'ouest, qui borde la Manche entre le Pas-de-Calais et la Seine-Maritime.",
+            "anecdote": "Une tour d'observation se dresse à l'endroit d'où le roi d'Angleterre aurait observé la bataille."
+          },
+          "craonne-dep": {
+            "prompt": "Dans quel département se trouve Craonne, village du Chemin des Dames détruit en 1917 ?",
+            "hint": "C'est le département de l'est de l'ancienne Picardie, qui touche la Belgique au nord et la Champagne au sud-est.",
+            "anecdote": "Les ruines de l'ancien village sont aujourd'hui couvertes d'un arboretum. Le nouveau village a été reconstruit au pied du plateau."
+          },
+          "rethondes-dep": {
+            "prompt": "Dans quel département se trouve Rethondes, près de la clairière de l'Armistice ?",
+            "hint": "C'est le département le plus au sud de la région, juste au nord de l'Île-de-France.",
+            "anecdote": "La clairière se trouve en réalité sur la commune de Compiègne, mais on l'associe depuis toujours au village voisin."
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "amiens": {
+            "name": "Amiens",
+            "description": "Capitale historique de la Picardie, Amiens s'est développée au bord de la Somme, à l'emplacement de la cité gauloise et romaine de Samarobriva. Sa cathédrale Notre-Dame, commencée en 1220, est la plus vaste de France par son volume intérieur. Ses canaux, ses hortillonnages et le quartier Saint-Leu lui donnent un visage de ville d'eau.",
+            "anecdote": "Jules Verne y a vécu près de vingt ans. Sa maison à tourelle se visite aujourd'hui comme un musée."
+          },
+          "ficelle-picarde": {
+            "name": "Ficelle picarde",
+            "description": "La ficelle picarde est une crêpe roulée autour d'une garniture de jambon et de champignons liée à la crème, puis nappée de crème, parsemée de fromage râpé et gratinée au four. Créée à Amiens dans les années 1950, elle est devenue le plat emblématique de la région, servi chaud en entrée.",
+            "anecdote": "Les chefs picards en ont imaginé de nombreuses variantes, aux poireaux, aux fruits de mer ou même en version sucrée."
+          },
+          "baie-de-somme": {
+            "name": "Baie de Somme",
+            "description": "À l'embouchure de la Somme, la baie s'étend sur environ 70 kilomètres carrés de sable, de vases et de prés salés, entre Le Crotoy et Saint-Valery-sur-Somme. La mer s'y retire très loin à marée basse. Elle accueille des oiseaux migrateurs par centaines de milliers et la plus grande colonie de phoques veaux-marins de France.",
+            "anecdote": "Elle fait partie du club des plus belles baies du monde, aux côtés de la baie d'Along ou de celle de San Francisco."
+          },
+          "huttes-de-chasse": {
+            "name": "Huttes de chasse",
+            "description": "Sur le littoral picard, des centaines de huttes à demi enterrées bordent des mares aménagées. Les chasseurs y guettent la nuit le gibier d'eau, attiré par des canards appelants posés sur l'eau. Cette chasse très ancienne fait partie de la culture de la baie de Somme et reste strictement encadrée.",
+            "anecdote": "Certaines huttes sont équipées comme de petites maisons, avec des couchettes, car les chasseurs peuvent y passer plusieurs nuits d'affilée."
+          },
+          "familistere-guise": {
+            "name": "Familistère de Guise",
+            "description": "À partir de 1859, l'industriel Jean-Baptiste André Godin, fabricant de poêles en fonte, a construit à Guise un palais social pour ses ouvriers. Les logements, éclairés par de grandes cours vitrées, étaient complétés par des écoles, une piscine, un théâtre et des magasins coopératifs. L'entreprise a été confiée aux ouvriers eux-mêmes en 1880.",
+            "anecdote": "L'association coopérative fondée par Godin a fonctionné jusqu'en 1968. Le familistère se visite aujourd'hui comme un musée."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur de Picardie",
+            "description": "Réunir les cinq cartes de la collection de la Picardie."
+          },
+          "master": {
+            "name": "Maître de Picardie",
+            "description": "Réussir le Défi Maître de la Picardie, avec au moins huit bonnes réponses sur dix."
           }
         }
       }
