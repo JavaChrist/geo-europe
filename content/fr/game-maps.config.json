@@ -245,6 +245,28 @@
         "94": "94",
         "95": "95"
       }
+    },
+    {
+      "id": "hauts-de-france-departements",
+      "simplify": "22%",
+      "zones": {
+        "59": "59",
+        "60": "60",
+        "62": "62",
+        "80": "80",
+        "02": "02"
+      }
+    },
+    {
+      "id": "hauts-de-france-territoires",
+      "simplify": "22%",
+      "zones": {
+        "59": "nord-pas-de-calais",
+        "60": "picardie",
+        "62": "nord-pas-de-calais",
+        "80": "picardie",
+        "02": "picardie"
+      }
     }
   ]
 }

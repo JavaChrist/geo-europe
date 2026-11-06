@@ -2,7 +2,28 @@
   "id": "FR-HDF",
   "slug": "hauts-de-france",
   "nameKey": "regions.hauts-de-france",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "02",
+      "nameKey": "departments.02"
+    },
+    {
+      "id": "59",
+      "nameKey": "departments.59"
+    },
+    {
+      "id": "60",
+      "nameKey": "departments.60"
+    },
+    {
+      "id": "62",
+      "nameKey": "departments.62"
+    },
+    {
+      "id": "80",
+      "nameKey": "departments.80"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],

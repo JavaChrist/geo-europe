@@ -19,6 +19,7 @@ import mapCentreValDeLoireDepartements from "./maps/centre-val-de-loire-departem
 import mapBretagneDepartements from "./maps/bretagne-departements.json";
 import mapNormandieDepartements from "./maps/normandie-departements.json";
 import mapIleDeFranceDepartements from "./maps/ile-de-france-departements.json";
+import mapHautsDeFranceDepartements from "./maps/hauts-de-france-departements.json";
 import alsace from "./territories/alsace.json";
 import aquitaine from "./territories/aquitaine.json";
 import limousin from "./territories/limousin.json";
@@ -28,6 +29,7 @@ import centreValDeLoire from "./territories/centre-val-de-loire.json";
 import bretagne from "./territories/bretagne.json";
 import normandie from "./territories/normandie.json";
 import ileDeFrance from "./territories/ile-de-france.json";
+import nordPasDeCalais from "./territories/nord-pas-de-calais.json";
 import auvergne from "./territories/auvergne.json";
 import bourgogne from "./territories/bourgogne.json";
 import francheComte from "./territories/franche-comte.json";
@@ -60,8 +62,8 @@ const content: CountryContent = {
   country,
   regions: [region0, region1, region2, region3, region4, region5, region6, region7, region8, region9, region10, region11, region12, region13, region14, region15, region16, region17] as Region[],
   map: map as CountryMap,
-  territories: [alsace, lorraine, champagneArdenne, languedocRoussillon, midiPyrenees, bourgogne, francheComte, auvergne, rhoneAlpes, provenceAlpesCoteDAzur, aquitaine, limousin, poitouCharentes, paysDeLaLoire, centreValDeLoire, bretagne, normandie, ileDeFrance] as Territory[],
-  gameMaps: [mapGrandEstDepartements, mapGrandEstTerritoires, mapOccitanieDepartements, mapOccitanieTerritoires, mapBourgogneFrancheComteDepartements, mapBourgogneFrancheComteTerritoires, mapAuvergneRhoneAlpesDepartements, mapAuvergneRhoneAlpesTerritoires, mapProvenceAlpesCoteDAzurDepartements, mapNouvelleAquitaineDepartements, mapNouvelleAquitaineTerritoires, mapPaysDeLaLoireDepartements, mapCentreValDeLoireDepartements, mapBretagneDepartements, mapNormandieDepartements, mapIleDeFranceDepartements] as GameMap[],
+  territories: [alsace, lorraine, champagneArdenne, languedocRoussillon, midiPyrenees, bourgogne, francheComte, auvergne, rhoneAlpes, provenceAlpesCoteDAzur, aquitaine, limousin, poitouCharentes, paysDeLaLoire, centreValDeLoire, bretagne, normandie, ileDeFrance, nordPasDeCalais] as Territory[],
+  gameMaps: [mapGrandEstDepartements, mapGrandEstTerritoires, mapOccitanieDepartements, mapOccitanieTerritoires, mapBourgogneFrancheComteDepartements, mapBourgogneFrancheComteTerritoires, mapAuvergneRhoneAlpesDepartements, mapAuvergneRhoneAlpesTerritoires, mapProvenceAlpesCoteDAzurDepartements, mapNouvelleAquitaineDepartements, mapNouvelleAquitaineTerritoires, mapPaysDeLaLoireDepartements, mapCentreValDeLoireDepartements, mapBretagneDepartements, mapNormandieDepartements, mapIleDeFranceDepartements, mapHautsDeFranceDepartements] as GameMap[],
   credits: credits as MediaCredit[],
   messages: { fr },
 };

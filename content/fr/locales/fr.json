@@ -6048,6 +6048,258 @@
       "photoIleDeFranceMontValerien": {
         "title": "Forteresse du Mont-Valérien, Suresnes",
         "alt": "Haut mur de brique d'un fort, au bord d'un chemin enneigé, sous des arbres."
+      },
+      "photoNordPasDeCalaisCapBlancNez": {
+        "title": "Cap Blanc-Nez, Escalles",
+        "alt": "Haute falaise blanche au-dessus d'une plage de sable."
+      },
+      "photoNordPasDeCalaisTerrilsLoos": {
+        "title": "Terrils jumeaux de Loos-en-Gohelle",
+        "alt": "Deux grandes collines noires et coniques, derrière un champ labouré."
+      },
+      "photoNordPasDeCalaisCapGrisNez": {
+        "title": "Cap Gris-Nez, Audinghen",
+        "alt": "Falaise herbeuse au-dessus d'une côte de rochers, avec un phare au loin."
+      },
+      "photoNordPasDeCalaisVieilleBourse": {
+        "title": "Vieille Bourse, Lille",
+        "alt": "Façade très ornée de brique rouge et de pierre sculptée, avec de hauts toits d'ardoise."
+      },
+      "photoNordPasDeCalaisGrandPlaceLille": {
+        "title": "Place du Général-de-Gaulle, Lille",
+        "alt": "Grande place pavée entourée de façades colorées, avec une colonne surmontée d'une statue."
+      },
+      "photoNordPasDeCalaisBeffroiLille": {
+        "title": "Beffroi de l'hôtel de ville, Lille",
+        "alt": "Très haute tour de brique et de pierre claire, élancée vers le ciel bleu."
+      },
+      "photoNordPasDeCalaisPalaisBeauxArts": {
+        "title": "Palais des Beaux-Arts, Lille",
+        "alt": "Grand palais de pierre à colonnes et à coupoles, devant une place."
+      },
+      "photoNordPasDeCalaisBourgeoisCalais": {
+        "title": "Les Bourgeois de Calais, Auguste Rodin",
+        "alt": "Groupe de sculptures de bronze devant un hôtel de ville de brique à haute tour."
+      },
+      "photoNordPasDeCalaisHdvCalais": {
+        "title": "Hôtel de ville de Calais",
+        "alt": "Hôtel de ville de brique et de pierre, dominé par une haute tour à horloge, derrière un jardin."
+      },
+      "photoNordPasDeCalaisBeffroiArras": {
+        "title": "Beffroi d'Arras",
+        "alt": "Haute tour de pierre ouvragée, avec une horloge et un sommet en couronne."
+      },
+      "photoNordPasDeCalaisPhareDunkerque": {
+        "title": "Phare du Risban, Dunkerque",
+        "alt": "Haut phare blanc à lanterne noire, au bord d'un bassin de port, devant des usines."
+      },
+      "photoNordPasDeCalaisBasiliqueBoulogne": {
+        "title": "Basilique Notre-Dame, Boulogne-sur-Mer",
+        "alt": "Église de pierre surmontée d'un très haut dôme, au-dessus des toits."
+      },
+      "photoNordPasDeCalaisCathedraleSaintOmer": {
+        "title": "Cathédrale Notre-Dame, Saint-Omer",
+        "alt": "Grande église gothique de pierre grise, avec un portail profond et de hautes toitures."
+      },
+      "photoNordPasDeCalaisCitadelleLille": {
+        "title": "Citadelle de Lille",
+        "alt": "Haut mur de rempart couvert de végétation, au bord d'un fossé rempli d'eau."
+      },
+      "photoNordPasDeCalaisVillaCavrois": {
+        "title": "Villa Cavrois, Croix, Robert Mallet-Stevens",
+        "alt": "Longue demeure moderne de brique jaune, avec une tour, devant une grande pelouse."
+      },
+      "photoNordPasDeCalaisMaroilles": {
+        "title": "Maroilles",
+        "alt": "Fromage carré à croûte orangée et striée, entamé sur une ardoise."
+      },
+      "photoNordPasDeCalaisBouletteAvesnes": {
+        "title": "Boulette d'Avesnes",
+        "alt": "Fromage en forme de cône à croûte rouge orangé, coupé pour montrer une pâte blanche aux herbes."
+      },
+      "photoNordPasDeCalaisMimolette": {
+        "title": "Mimolette extra-vieille",
+        "alt": "Gros morceau de fromage à pâte orange vif, sous une croûte grise et rugueuse."
+      },
+      "photoNordPasDeCalaisAilArleux": {
+        "title": "Ail fumé d'Arleux",
+        "alt": "Bottes de têtes d'ail tressées et empilées sous un hangar, d'autres suspendues au plafond."
+      },
+      "photoNordPasDeCalaisCarbonade": {
+        "title": "Carbonade flamande",
+        "alt": "Morceaux de viande dans une sauce brune épaisse, servis avec des frites et de la salade."
+      },
+      "photoNordPasDeCalaisWelsh": {
+        "title": "Welsh",
+        "alt": "Plat gratiné au fromage fondu orangé, surmonté d'un œuf au plat."
+      },
+      "photoNordPasDeCalaisPotjevleesch": {
+        "title": "Potjevleesch",
+        "alt": "Viandes froides prises dans une gelée, servies avec des frites et de la salade."
+      },
+      "photoNordPasDeCalaisMoulesFrites": {
+        "title": "Moules-frites",
+        "alt": "Bol de moules marinières posé sur une assiette de frites."
+      },
+      "photoNordPasDeCalaisGaufreFourree": {
+        "title": "Gaufres fourrées lilloises",
+        "alt": "Gaufres fines et ovales, quadrillées et dorées."
+      },
+      "photoNordPasDeCalaisHoublon": {
+        "title": "Cônes de houblon",
+        "alt": "Petits cônes vert pâle suspendus à une tige grimpante, entre des feuilles dentelées."
+      },
+      "photoNordPasDeCalaisBeffroiBergues": {
+        "title": "Beffroi de Bergues",
+        "alt": "Tour de brique à bulbe et à horloge, au bout d'une rue de maisons de brique."
+      },
+      "photoNordPasDeCalaisMontreuil": {
+        "title": "Tour de la Poterne, Montreuil-sur-Mer",
+        "alt": "Tour ronde de brique au bout d'un mur d'enceinte, au sommet d'un talus herbeux."
+      },
+      "photoNordPasDeCalaisRempartsBoulogne": {
+        "title": "Remparts de Boulogne-sur-Mer",
+        "alt": "Tour ronde de pierre et vieux mur d'enceinte, avec un dôme d'église au loin."
+      },
+      "photoNordPasDeCalaisPiscineRoubaix": {
+        "title": "La Piscine, musée d'art et d'industrie, Roubaix",
+        "alt": "Long bassin bordé de statues, sous une grande verrière en forme de soleil."
+      },
+      "photoNordPasDeCalaisBeffroiDouai": {
+        "title": "Beffroi de Douai",
+        "alt": "Haute tour gothique de pierre grise, hérissée de tourelles, au-dessus d'un hôtel de ville pavoisé."
+      },
+      "photoNordPasDeCalaisHospiceComtesse": {
+        "title": "Hospice Comtesse, Lille",
+        "alt": "Grand portail de pierre sombre à bossages, avec une porte de bois, entre des murs de brique."
+      },
+      "photoNordPasDeCalaisOperaLille": {
+        "title": "Opéra de Lille, Louis-Marie Cordonnier",
+        "alt": "Haut d'une façade de pierre surmontée d'un groupe sculpté et de vases."
+      },
+      "photoNordPasDeCalaisTourGuet": {
+        "title": "Tour du Guet, Calais",
+        "alt": "Vieille tour de pierre à base évasée, sur une place, devant des immeubles de brique."
+      },
+      "photoNordPasDeCalaisChateauBoulogne": {
+        "title": "Château comtal, Boulogne-sur-Mer",
+        "alt": "Château fort de pierre à tours rondes, précédé d'un portail classique et d'une cour pavée."
+      },
+      "photoNordPasDeCalaisArenberg": {
+        "title": "Fosse d'Arenberg, Wallers",
+        "alt": "Trois chevalements métalliques au-dessus de bâtiments de brique, derrière une prairie."
+      },
+      "photoNordPasDeCalaisLewarde": {
+        "title": "Centre historique minier de Lewarde",
+        "alt": "Chevalement au-dessus d'un bâtiment de verre, entre d'anciens bâtiments de brique."
+      },
+      "photoNordPasDeCalaisSaintBertin": {
+        "title": "Ruines de l'abbaye Saint-Bertin, Saint-Omer",
+        "alt": "Ruines d'une haute arcade gothique de pierre."
+      },
+      "photoNordPasDeCalaisCitadelleArras": {
+        "title": "Porte Royale, citadelle d'Arras",
+        "alt": "Porte monumentale de pierre claire au fronton sculpté, au pied de remparts envahis d'arbres."
+      },
+      "photoNordPasDeCalaisAbbayeVaucelles": {
+        "title": "Abbaye de Vaucelles, Les Rues-des-Vignes",
+        "alt": "Long bâtiment de brique et de pierre, à côté d'une salle gothique, au bord d'une pelouse."
+      },
+      "photoNordPasDeCalaisMaraisAudomarois": {
+        "title": "Marais audomarois",
+        "alt": "Eau couverte de nénuphars, devant un champ de bottes de paille."
+      },
+      "photoNordPasDeCalaisMontCassel": {
+        "title": "Moulin de Cassel",
+        "alt": "Moulin à vent de bois au sommet d'une colline boisée, au-dessus des toits."
+      },
+      "photoNordPasDeCalaisDunePerroquet": {
+        "title": "Dune du Perroquet, Bray-Dunes",
+        "alt": "Touffes d'herbes hautes sur une dune de sable fin, sous un ciel gris."
+      },
+      "photoNordPasDeCalaisPhoque": {
+        "title": "Phoques en baie d'Authie",
+        "alt": "Gros mammifère marin gris allongé sur le sable mouillé, à côté d'une mouette."
+      },
+      "photoNordPasDeCalaisBocageAvesnois": {
+        "title": "Bocage de l'Avesnois",
+        "alt": "Prairies vertes séparées par des haies et des bosquets, sur des collines douces."
+      },
+      "photoNordPasDeCalaisValJoly": {
+        "title": "Lac du Val Joly, Eppe-Sauvage",
+        "alt": "Grand lac entouré de forêts, avec une prairie au premier plan."
+      },
+      "photoNordPasDeCalaisForetMormal": {
+        "title": "Forêt de Mormal",
+        "alt": "Sous-bois de grands arbres feuillus."
+      },
+      "photoNordPasDeCalaisGeants": {
+        "title": "Lydéric et Phinaert, géants de Lille",
+        "alt": "Deux hautes figures sculptées dans la pierre, au pied d'une tour."
+      },
+      "photoNordPasDeCalaisGayant": {
+        "title": "Monsieur et Madame Gayant, Douai",
+        "alt": "Deux immenses personnages costumés, un guerrier en armure et une dame en robe, devant un édifice de pierre."
+      },
+      "photoNordPasDeCalaisEstaminet": {
+        "title": "Estaminet de 1925, Quéant",
+        "alt": "Maison de brique à pignon à redents, au bord d'une petite place."
+      },
+      "photoNordPasDeCalaisPigeon": {
+        "title": "Monument au pigeon voyageur, Lille",
+        "alt": "Monument de pierre où une femme sculptée porte des oiseaux sur sa tête."
+      },
+      "photoNordPasDeCalaisCarillon": {
+        "title": "Carillon du beffroi de Dunkerque",
+        "alt": "Dizaines de cloches de bronze de toutes tailles, suspendues sous une charpente métallique."
+      },
+      "photoNordPasDeCalaisDentelle": {
+        "title": "Métiers à dentelle, Cité de la Dentelle et de la Mode, Calais",
+        "alt": "Grande machine de fonte, avec des cartons perforés qui défilent, dans un atelier de brique."
+      },
+      "photoNordPasDeCalaisDesvres": {
+        "title": "Salière de faïence, Jules Fourmaintraux",
+        "alt": "Grand vase de faïence aux anses ouvragées, peint de motifs colorés."
+      },
+      "photoNordPasDeCalaisLampeMineur": {
+        "title": "Lampe de mineur",
+        "alt": "Lampe de métal à flamme protégée par un grillage, à côté de sa réplique miniature."
+      },
+      "photoNordPasDeCalaisLin": {
+        "title": "Champ de lin, Hondeghem",
+        "alt": "Grand champ où des tiges fines ont été arrachées et couchées en longues rangées."
+      },
+      "photoNordPasDeCalaisCorons": {
+        "title": "Cité minière de la fosse De Sessevalle, Somain",
+        "alt": "Longue rangée de maisons de brique identiques, le long d'une rue."
+      },
+      "photoNordPasDeCalaisVimy": {
+        "title": "Mémorial de Vimy, vue aérienne",
+        "alt": "Monument blanc à deux hauts pylônes, au milieu d'une vaste pelouse bosselée."
+      },
+      "photoNordPasDeCalaisLorette": {
+        "title": "Basilique de Notre-Dame-de-Lorette, Ablain-Saint-Nazaire",
+        "alt": "Église de pierre claire à coupole et à tour, devant un cimetière de croix blanches."
+      },
+      "photoNordPasDeCalaisWellington": {
+        "title": "Carrière Wellington, Arras",
+        "alt": "Galerie souterraine creusée dans la pierre claire, éclairée par une lampe, avec une inscription peinte."
+      },
+      "photoNordPasDeCalaisLeQuesnoy": {
+        "title": "Remparts du Quesnoy",
+        "alt": "Haut mur de rempart de brique, au bord d'un fossé herbeux."
+      },
+      "photoNordPasDeCalaisCoupole": {
+        "title": "La Coupole, Helfaut",
+        "alt": "Immense dôme de béton à demi enterré, au milieu de la végétation."
+      },
+      "photoNordPasDeCalaisEperlecques": {
+        "title": "Blockhaus d'Éperlecques",
+        "alt": "Énorme bloc de béton gris aux murs tachés, au bord d'un chemin."
+      },
+      "photoNordPasDeCalaisTroueeArenberg": {
+        "title": "Pavés de la trouée d'Arenberg",
+        "alt": "Gros pavés irréguliers et usés, bordés d'herbe."
       }
     }
   },
@@ -6120,7 +6372,10 @@
     "56": "Morbihan",
     "57": "Moselle",
     "58": "Nièvre",
+    "59": "Nord",
+    "60": "Oise",
     "61": "Orne",
+    "62": "Pas-de-Calais",
     "63": "Puy-de-Dôme",
     "64": "Pyrénées-Atlantiques",
     "65": "Hautes-Pyrénées",
@@ -6138,6 +6393,7 @@
     "77": "Seine-et-Marne",
     "78": "Yvelines",
     "79": "Deux-Sèvres",
+    "80": "Somme",
     "81": "Tarn",
     "82": "Tarn-et-Garonne",
     "83": "Var",
@@ -6160,7 +6416,8 @@
     "07": "Ardèche",
     "04": "Alpes-de-Haute-Provence",
     "05": "Hautes-Alpes",
-    "06": "Alpes-Maritimes"
+    "06": "Alpes-Maritimes",
+    "02": "Aisne"
   },
   "places": {
     "strasbourg": "Strasbourg",
@@ -7015,7 +7272,49 @@
     "montmorency": "Montmorency",
     "l-isle-adam": "L'Isle-Adam",
     "asnieres-sur-oise": "Asnières-sur-Oise",
-    "la-roche-guyon": "La Roche-Guyon"
+    "la-roche-guyon": "La Roche-Guyon",
+    "lille": "Lille",
+    "roubaix": "Roubaix",
+    "tourcoing": "Tourcoing",
+    "villeneuve-d-ascq": "Villeneuve-d'Ascq",
+    "croix": "Croix",
+    "dunkerque": "Dunkerque",
+    "gravelines": "Gravelines",
+    "bergues": "Bergues",
+    "bray-dunes": "Bray-Dunes",
+    "cassel": "Cassel",
+    "bailleul": "Bailleul",
+    "douai": "Douai",
+    "lewarde": "Lewarde",
+    "valenciennes": "Valenciennes",
+    "wallers": "Wallers",
+    "cambrai": "Cambrai",
+    "le-cateau-cambresis": "Le Cateau-Cambrésis",
+    "maubeuge": "Maubeuge",
+    "le-quesnoy": "Le Quesnoy",
+    "avesnes-sur-helpe": "Avesnes-sur-Helpe",
+    "maroilles": "Maroilles",
+    "arleux": "Arleux",
+    "bouvines": "Bouvines",
+    "arras": "Arras",
+    "lens": "Lens",
+    "lievin": "Liévin",
+    "loos-en-gohelle": "Loos-en-Gohelle",
+    "bethune": "Béthune",
+    "calais": "Calais",
+    "coquelles": "Coquelles",
+    "boulogne-sur-mer": "Boulogne-sur-Mer",
+    "wissant": "Wissant",
+    "le-touquet-paris-plage": "Le Touquet-Paris-Plage",
+    "berck": "Berck",
+    "montreuil-sur-mer": "Montreuil-sur-Mer",
+    "saint-omer": "Saint-Omer",
+    "aire-sur-la-lys": "Aire-sur-la-Lys",
+    "desvres": "Desvres",
+    "azincourt": "Azincourt",
+    "vimy": "Vimy",
+    "helfaut": "Helfaut",
+    "eperlecques": "Éperlecques"
   },
   "territories": {
     "champagne-ardenne": {
@@ -42612,6 +42911,1993 @@
           "master": {
             "name": "Maître d'Île-de-France",
             "description": "Réussir le Défi Maître d'Île-de-France, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
+    },
+    "nord-pas-de-calais": {
+      "name": "Nord-Pas-de-Calais",
+      "description": "Des falaises de la Côte d'Opale aux terrils du bassin minier, des beffrois des Flandres aux places de Lille et d'Arras, des estaminets aux carnavals et aux géants, une terre de maroilles et de frites, de mines et de filatures, marquée par les grandes batailles de l'histoire.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue dans le Nord-Pas-de-Calais",
+          "description": "Deux départements, leurs grandes villes et les repères d'une terre du nord, entre la Côte d'Opale, les Flandres et l'ancien bassin minier.",
+          "deux-departements": {
+            "prompt": "Quels départements forment le Nord-Pas-de-Calais ?",
+            "hint": "L'un porte le nom d'un point cardinal, l'autre celui d'un détroit.",
+            "anecdote": "Ces deux départements ont été créés en 1790. Ils forment aujourd'hui, avec ceux de l'ancienne Picardie, la région Hauts-de-France.",
+            "answers": {
+              "le-nord-et-le-pas-de-calais": "Le Nord et le Pas-de-Calais",
+              "le-nord-et-la-somme": "Le Nord et la Somme",
+              "le-pas-de-calais-et-la-somme": "Le Pas-de-Calais et la Somme",
+              "le-nord-et-l-aisne": "Le Nord et l'Aisne"
+            }
+          },
+          "fusion-2016": {
+            "prompt": "Avec quelle ancienne région le Nord-Pas-de-Calais a-t-il été réuni le 1er janvier 2016 pour former les Hauts-de-France ?",
+            "hint": "Ses trois départements sont l'Aisne, l'Oise et la Somme.",
+            "anecdote": "La nouvelle région a pris le nom de Hauts-de-France à l'automne 2016, après une consultation de ses habitants.",
+            "answers": {
+              "la-picardie": "La Picardie",
+              "la-champagne-ardenne": "La Champagne-Ardenne",
+              "la-haute-normandie": "La Haute-Normandie",
+              "l-ile-de-france": "L'Île-de-France"
+            }
+          },
+          "chef-lieu": {
+            "prompt": "Quelle ville est le chef-lieu de la région Hauts-de-France ?",
+            "hint": "C'est la plus grande ville du Nord, tout près de la Belgique.",
+            "anecdote": "Sa métropole compte plus d'un million d'habitants. C'est aussi la préfecture du département du Nord.",
+            "answers": {
+              "amiens": "Amiens",
+              "beauvais": "Beauvais"
+            }
+          },
+          "detroit": {
+            "prompt": "Comment s'appelle le détroit qui sépare la côte du Pas-de-Calais de l'Angleterre ?",
+            "hint": "Il a donné son nom à l'un des deux départements.",
+            "anecdote": "C'est l'un des passages maritimes les plus fréquentés du monde : des centaines de navires le franchissent chaque jour.",
+            "answers": {
+              "le-pas-de-calais": "Le pas de Calais",
+              "le-detroit-de-gibraltar": "Le détroit de Gibraltar",
+              "le-bosphore": "Le Bosphore",
+              "le-detroit-de-messine": "Le détroit de Messine"
+            }
+          },
+          "distance-angleterre": {
+            "prompt": "À quelle distance se trouvent à peu près les côtes anglaises, au plus étroit du détroit ?",
+            "hint": "Par temps clair, on voit les falaises blanches de Douvres depuis la côte française.",
+            "anecdote": "Le point le plus proche de l'Angleterre est le cap Gris-Nez. Des nageurs traversent chaque été cette étendue d'eau froide.",
+            "answers": {
+              "environ-33-kilometres": "Environ 33 kilomètres",
+              "environ-8-kilometres": "Environ 8 kilomètres",
+              "environ-90-kilometres": "Environ 90 kilomètres",
+              "environ-150-kilometres": "Environ 150 kilomètres"
+            }
+          },
+          "commune-nord": {
+            "prompt": "Quelle commune, au bord de la mer du Nord, est la plus au nord de toute la France ?",
+            "hint": "Elle touche la frontière belge, à l'est de Dunkerque.",
+            "anecdote": "Ses plages sont bordées de dunes, dont la dune du Perroquet, qui se prolonge en Belgique."
+          },
+          "parc-opale": {
+            "prompt": "Quel parc naturel régional réunit le Boulonnais, le pays de Saint-Omer et les deux caps de la côte ?",
+            "hint": "Son nom associe les falaises du littoral et les zones humides de l'arrière-pays.",
+            "anecdote": "Créé en 2000, il couvre environ 150 communes du Pas-de-Calais, des dunes du littoral jusqu'aux collines de l'Artois.",
+            "answers": {
+              "le-parc-des-caps-et-marais-d-opale": "Le parc des Caps et Marais d'Opale",
+              "le-parc-scarpe-escaut": "Le parc Scarpe-Escaut",
+              "le-parc-de-l-avesnois": "Le parc de l'Avesnois",
+              "le-parc-des-marais-du-cotentin-et-du-bessin": "Le parc des Marais du Cotentin et du Bessin"
+            }
+          },
+          "habitants": {
+            "prompt": "Combien d'habitants compte à peu près le Nord-Pas-de-Calais ?",
+            "hint": "Le Nord en compte environ 2,6 millions à lui seul.",
+            "anecdote": "C'est l'une des parties les plus densément peuplées de France, surtout autour de Lille et dans l'ancien bassin minier.",
+            "answers": {
+              "environ-4-millions": "Environ 4 millions",
+              "environ-1-million": "Environ 1 million",
+              "environ-8-millions": "Environ 8 millions",
+              "environ-12-millions": "Environ 12 millions"
+            }
+          },
+          "plus-peuple": {
+            "prompt": "Quel est le département le plus peuplé de France ?",
+            "hint": "Il compte plus d'habitants que Paris.",
+            "anecdote": "Il réunit la métropole lilloise, le Dunkerquois, le Valenciennois, le Douaisis, le Cambrésis et l'Avesnois.",
+            "answers": {
+              "le-nord": "Le Nord",
+              "les-bouches-du-rhone": "Les Bouches-du-Rhône",
+              "le-rhone": "Le Rhône",
+              "la-gironde": "La Gironde"
+            }
+          },
+          "chti": {
+            "prompt": "Quel surnom donne-t-on familièrement aux gens du Nord et à leur parler ?",
+            "hint": "Il imite la façon de prononcer les mots c'est toi dans le parler local.",
+            "anecdote": "Ce parler est une forme du picard. Le film Bienvenue chez les Ch'tis, sorti en 2008, l'a fait connaître dans toute la France.",
+            "answers": {
+              "ch-ti": "Ch'ti",
+              "gone": "Gone",
+              "minot": "Minot",
+              "pitchoun": "Pitchoun"
+            }
+          },
+          "flamand": {
+            "prompt": "Quelle langue régionale, proche du néerlandais, est encore parlée autour de Dunkerque, de Bergues et de Cassel ?",
+            "hint": "Elle a donné leur nom à de nombreux villages en -hem, -kerque ou -ghem.",
+            "anecdote": "Cette partie du Nord s'appelle la Flandre française, ou Westhoek. Le nom de Dunkerque signifie l'église des dunes.",
+            "answers": {
+              "le-flamand": "Le flamand",
+              "le-picard": "Le picard",
+              "l-alsacien": "L'alsacien",
+              "le-wallon": "Le wallon"
+            }
+          },
+          "cote-opale": {
+            "prompt": "Comment s'appelle la côte du Pas-de-Calais, que l'on voit ici, de la frontière belge à la baie d'Authie ?",
+            "hint": "Son nom évoque une pierre aux reflets laiteux, comme la couleur de la mer et du ciel.",
+            "anecdote": "Le peintre Édouard Lévêque lui a donné ce nom en 1911. Elle alterne grandes plages, dunes et falaises.",
+            "answers": {
+              "la-cote-d-opale": "La Côte d'Opale",
+              "la-cote-d-albatre": "La Côte d'Albâtre",
+              "la-cote-d-emeraude": "La Côte d'Émeraude",
+              "la-cote-de-granit-rose": "La Côte de Granit rose"
+            }
+          },
+          "terrils": {
+            "prompt": "Comment appelle-t-on ces collines faites de roches extraites des mines de charbon ?",
+            "hint": "On les a formées en entassant les pierres qui n'étaient pas du charbon.",
+            "anecdote": "Ceux de Loos-en-Gohelle, qui culminent à environ 186 mètres d'altitude, comptent parmi les plus hauts d'Europe. Beaucoup sont aujourd'hui couverts de végétation.",
+            "answers": {
+              "des-terrils": "Des terrils",
+              "des-dunes": "Des dunes",
+              "des-moraines": "Des moraines",
+              "des-tumulus": "Des tumulus"
+            }
+          },
+          "escaut": {
+            "prompt": "Quel fleuve traverse Cambrai et Valenciennes avant d'entrer en Belgique ?",
+            "hint": "Il passe ensuite par Tournai, Gand et Anvers.",
+            "anecdote": "Il prend sa source dans l'Aisne, au nord de Saint-Quentin, et se jette dans la mer du Nord aux Pays-Bas.",
+            "answers": {
+              "l-escaut": "L'Escaut",
+              "la-somme": "La Somme",
+              "la-meuse": "La Meuse",
+              "la-moselle": "La Moselle"
+            }
+          },
+          "deule": {
+            "prompt": "Quelle rivière canalisée traverse Lille ?",
+            "hint": "Elle prend sa source en Artois, à l'ouest de Lens, puis coule vers le nord.",
+            "anecdote": "Elle relie le bassin minier à la Lys. Le nom de Lille vient de l'île formée par ses bras au Moyen Âge.",
+            "answers": {
+              "la-deule": "La Deûle",
+              "la-lys": "La Lys",
+              "la-marne": "La Marne",
+              "l-aa": "L'Aa"
+            }
+          },
+          "cap-gris-nez": {
+            "prompt": "Quel cap, le plus proche de l'Angleterre, voit-on ici ?",
+            "hint": "Son nom évoque la couleur de ses roches, de grès et d'argile.",
+            "anecdote": "Un phare et un centre de surveillance du trafic maritime s'y trouvent. Son voisin aux falaises de craie porte le nom d'une autre couleur.",
+            "answers": {
+              "le-cap-gris-nez": "Le cap Gris-Nez",
+              "le-cap-blanc-nez": "Le cap Blanc-Nez",
+              "le-cap-de-la-hague": "Le cap de la Hague",
+              "le-cap-frehel": "Le cap Fréhel"
+            }
+          },
+          "vieille-bourse": {
+            "prompt": "Quel édifice de Lille, fait de vingt-quatre maisons autour d'une cour, voit-on ici ?",
+            "hint": "Les marchands s'y réunissaient pour leurs affaires au XVIIe siècle.",
+            "anecdote": "Construite de 1652 à 1653 dans le style flamand, sa cour accueille des bouquinistes et des joueurs d'échecs.",
+            "answers": {
+              "la-vieille-bourse": "La Vieille Bourse",
+              "l-hospice-comtesse": "L'hospice Comtesse",
+              "le-palais-rihour": "Le palais Rihour",
+              "le-palais-des-beaux-arts": "Le palais des Beaux-Arts"
+            }
+          },
+          "grand-place-lille": {
+            "prompt": "Quelle place de Lille, avec sa colonne surmontée d'une statue, voit-on ici ?",
+            "hint": "La statue, surnommée la Déesse, rappelle la résistance de la ville au siège autrichien de 1792.",
+            "anecdote": "Elle s'appelle officiellement place du Général-de-Gaulle, en hommage au Lillois le plus célèbre.",
+            "answers": {
+              "la-grand-place": "La Grand'Place",
+              "la-place-stanislas": "La place Stanislas",
+              "la-place-des-heros": "La place des Héros",
+              "la-place-ducale": "La place Ducale"
+            }
+          },
+          "beffroi-lille": {
+            "prompt": "Quelle tour de l'hôtel de ville de Lille, haute de 104 mètres, voit-on ici ?",
+            "hint": "Ce type de tour symbolisait la liberté des villes du Nord face aux seigneurs.",
+            "anecdote": "Achevé en 1932, c'est le plus haut de la région. Il est inscrit au patrimoine mondial de l'UNESCO depuis 2005.",
+            "answers": {
+              "un-beffroi": "Un beffroi",
+              "un-donjon": "Un donjon",
+              "un-minaret": "Un minaret",
+              "un-campanile-d-eglise": "Un campanile d'église"
+            }
+          },
+          "palais-beaux-arts": {
+            "prompt": "Quel grand musée de Lille, ouvert en 1892, voit-on ici ?",
+            "hint": "Il expose des tableaux de Rubens, de Goya et de Delacroix.",
+            "anecdote": "C'est l'un des plus grands musées de France. Il conserve aussi des plans-reliefs de villes fortifiées du Nord.",
+            "answers": {
+              "le-palais-des-beaux-arts": "Le palais des Beaux-Arts",
+              "le-louvre-lens": "Le Louvre-Lens",
+              "le-musee-d-orsay": "Le musée d'Orsay",
+              "le-musee-matisse": "Le musée Matisse"
+            }
+          },
+          "bourgeois-calais": {
+            "prompt": "Quel groupe de bronze d'Auguste Rodin, inauguré en 1895 devant l'hôtel de ville de Calais, voit-on ici ?",
+            "hint": "Il représente six hommes prêts à se sacrifier pour sauver leur ville assiégée.",
+            "anecdote": "La scène se passe en 1347, pendant la guerre de Cent Ans, quand le roi d'Angleterre Édouard III assiège la ville.",
+            "answers": {
+              "les-bourgeois-de-calais": "Les Bourgeois de Calais",
+              "le-penseur": "Le Penseur",
+              "la-porte-de-l-enfer": "La Porte de l'Enfer",
+              "les-trois-ombres": "Les Trois Ombres"
+            }
+          },
+          "hdv-calais": {
+            "prompt": "Dans quelle ville se dresse cet hôtel de ville au beffroi de 75 mètres, bâti dans le style flamand de 1911 à 1925 ?",
+            "hint": "Un groupe de six statues de bronze, œuvre de Rodin, se tient devant lui.",
+            "anecdote": "Son beffroi est inscrit au patrimoine mondial de l'UNESCO. Son port est le premier port de France pour les voyageurs qui traversent la Manche."
+          },
+          "beffroi-arras": {
+            "prompt": "Dans quelle ville, préfecture du Pas-de-Calais, se dresse ce beffroi au-dessus de la place des Héros ?",
+            "hint": "Ses deux grandes places sont bordées de maisons à pignons de style baroque flamand.",
+            "anecdote": "Détruit en 1914, pendant la Première Guerre mondiale, il a été reconstruit à l'identique. Il est inscrit au patrimoine mondial de l'UNESCO."
+          },
+          "phare-dunkerque": {
+            "prompt": "Dans quel grand port se dresse ce phare de 63 mètres, allumé en 1843 ?",
+            "hint": "Ce port, le troisième de France, est le plus au nord du pays.",
+            "anecdote": "C'est l'un des plus hauts phares de France. On peut monter ses 276 marches pour voir la mer du Nord.",
+            "answers": {
+              "le-havre": "Le Havre"
+            }
+          },
+          "basilique-boulogne": {
+            "prompt": "Dans quelle ville se dresse cette basilique, dont le dôme domine la ville haute et ses remparts ?",
+            "hint": "Elle est le premier port de pêche de France.",
+            "anecdote": "Le dôme de Notre-Dame, haut de 101 mètres, a été bâti au XIXe siècle. La crypte, sous l'église, est l'une des plus grandes de France."
+          },
+          "cathedrale-saint-omer": {
+            "prompt": "Dans quelle ville se dresse cette cathédrale gothique, au bord du marais audomarois ?",
+            "hint": "Ses habitants s'appellent les Audomarois.",
+            "anecdote": "La cathédrale Notre-Dame abrite le Grand Dieu de Thérouanne, une sculpture rapportée de la ville voisine détruite par Charles Quint en 1553."
+          },
+          "citadelle-lille": {
+            "prompt": "Quel surnom porte la citadelle de Lille, en forme d'étoile, que l'on voit ici ?",
+            "hint": "Vauban, qui l'a dessinée, la jugeait si parfaite qu'il lui aurait donné ce titre.",
+            "anecdote": "Bâtie après la prise de Lille par Louis XIV en 1667, elle a la forme d'une étoile à cinq branches. L'armée l'occupe toujours.",
+            "answers": {
+              "la-reine-des-citadelles": "La reine des citadelles",
+              "la-belle-inutile": "La belle inutile",
+              "la-ceinture-de-fer": "La ceinture de fer",
+              "le-pre-carre": "Le pré carré"
+            }
+          },
+          "villa-cavrois": {
+            "prompt": "Quelle grande demeure moderne, construite à Croix en 1932 pour un industriel du textile, voit-on ici ?",
+            "hint": "Elle porte le nom de la famille qui l'a commandée à l'architecte Robert Mallet-Stevens.",
+            "anecdote": "Laissée à l'abandon, puis pillée, elle a été restaurée par l'État et ouverte au public en 2015.",
+            "answers": {
+              "la-villa-cavrois": "La villa Cavrois",
+              "la-villa-savoye": "La villa Savoye",
+              "la-villa-noailles": "La villa Noailles",
+              "la-villa-majorelle": "La villa Majorelle"
+            }
+          },
+          "pref-lille": {
+            "prompt": "Touchez le département dont la préfecture est Lille.",
+            "hint": "C'est le long département qui s'étire au nord-est de la région, de la mer du Nord jusqu'à l'Avesnois, le long de la frontière belge.",
+            "anecdote": "Lille est aussi le chef-lieu de la région. Sa métropole réunit Roubaix, Tourcoing et Villeneuve-d'Ascq."
+          },
+          "pref-arras": {
+            "prompt": "Touchez le département dont la préfecture est Arras.",
+            "hint": "C'est le département qui borde la Manche, au sud-ouest de son voisin, entre la mer et le bassin minier.",
+            "anecdote": "Arras est connue pour ses deux grandes places et ses boves, des carrières creusées sous la ville."
+          },
+          "dep-dunkerque": {
+            "prompt": "Touchez le département où se trouve Dunkerque.",
+            "hint": "C'est le long département qui s'étire au nord-est de la région, de la mer du Nord jusqu'à l'Avesnois, le long de la frontière belge.",
+            "anecdote": "Son port est le troisième de France. Son carnaval, en hiver, est l'un des plus célèbres du pays."
+          },
+          "dep-calais": {
+            "prompt": "Touchez le département où se trouve Calais.",
+            "hint": "C'est le département qui borde la Manche, au sud-ouest de son voisin, entre la mer et le bassin minier.",
+            "anecdote": "Le tunnel sous la Manche part de Coquelles, à côté de Calais, pour rejoindre Folkestone en Angleterre."
+          },
+          "dep-boulogne": {
+            "prompt": "Touchez le département où se trouve Boulogne-sur-Mer.",
+            "hint": "C'est le département qui borde la Manche, au sud-ouest de son voisin, entre la mer et le bassin minier.",
+            "anecdote": "Premier port de pêche de France, la ville abrite aussi Nausicaá, un grand aquarium consacré à la mer."
+          },
+          "dep-valenciennes": {
+            "prompt": "Touchez le département où se trouve Valenciennes.",
+            "hint": "C'est le long département qui s'étire au nord-est de la région, de la mer du Nord jusqu'à l'Avesnois, le long de la frontière belge.",
+            "anecdote": "Le peintre Antoine Watteau et le sculpteur Jean-Baptiste Carpeaux sont nés dans cette ville au bord de l'Escaut."
+          },
+          "dep-lens": {
+            "prompt": "Touchez le département où se trouve Lens.",
+            "hint": "C'est le département qui borde la Manche, au sud-ouest de son voisin, entre la mer et le bassin minier.",
+            "anecdote": "Ancienne ville minière, Lens accueille depuis 2012 une antenne du musée du Louvre, bâtie sur un ancien carreau de mine."
+          },
+          "dep-cambrai": {
+            "prompt": "Touchez le département où se trouve Cambrai.",
+            "hint": "C'est le long département qui s'étire au nord-est de la région, de la mer du Nord jusqu'à l'Avesnois, le long de la frontière belge.",
+            "anecdote": "La ville a donné son nom à des bonbons à la menthe, les bêtises de Cambrai."
+          },
+          "dep-saint-omer": {
+            "prompt": "Touchez le département où se trouve Saint-Omer.",
+            "hint": "C'est le département qui borde la Manche, au sud-ouest de son voisin, entre la mer et le bassin minier.",
+            "anecdote": "La ville est entourée d'un grand marais cultivé, parcouru de canaux, où l'on circule en barque."
+          },
+          "dep-roubaix": {
+            "prompt": "Touchez le département où se trouve Roubaix.",
+            "hint": "C'est le long département qui s'étire au nord-est de la région, de la mer du Nord jusqu'à l'Avesnois, le long de la frontière belge.",
+            "anecdote": "Ville du textile, Roubaix accueille l'arrivée de la course cycliste Paris-Roubaix, sur la piste de son vélodrome."
+          },
+          "dep-maubeuge": {
+            "prompt": "Touchez le département où se trouve Maubeuge.",
+            "hint": "C'est le long département qui s'étire au nord-est de la région, de la mer du Nord jusqu'à l'Avesnois, le long de la frontière belge.",
+            "anecdote": "Ville fortifiée par Vauban, Maubeuge se trouve sur la Sambre, près de la frontière belge."
+          },
+          "dep-touquet": {
+            "prompt": "Touchez le département où se trouve Le Touquet-Paris-Plage.",
+            "hint": "C'est le département qui borde la Manche, au sud-ouest de son voisin, entre la mer et le bassin minier.",
+            "anecdote": "Cette station balnéaire est née à la fin du XIXe siècle dans les dunes et les pins, au bord de la baie de Canche."
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs du Nord-Pas-de-Calais",
+          "description": "Maroilles de l'Avesnois, chicons et betteraves des plaines, harengs de Boulogne, carbonade, welsh et frites, gaufres, bêtises et bières de Flandre : la table généreuse d'une terre de fermes, de ports et d'estaminets.",
+          "maroilles": {
+            "prompt": "Quel fromage carré à croûte orangée, né dans une abbaye de l'Avesnois, voit-on ici ?",
+            "hint": "Il porte le nom d'un village du Nord, au bord de l'Helpe Mineure.",
+            "anecdote": "Selon la tradition, des moines l'ont créé vers l'an 960. Sa croûte est lavée régulièrement pendant l'affinage, ce qui lui donne son odeur puissante.",
+            "answers": {
+              "le-maroilles": "Le maroilles",
+              "le-munster": "Le munster",
+              "le-livarot": "Le livarot",
+              "le-pont-l-eveque": "Le pont-l'évêque"
+            }
+          },
+          "carte-maroilles": {
+            "prompt": "Touchez le département où se trouve le village de Maroilles, qui a donné son nom au fromage.",
+            "hint": "C'est le département de l'Avesnois, une région de bocage et de prairies, près de la frontière belge.",
+            "anecdote": "Il bénéficie d'une appellation d'origine protégée. Il est fabriqué dans le sud de ce département et dans le nord de l'Aisne."
+          },
+          "boulette-avesnes": {
+            "prompt": "Quel fromage en forme de cône, roulé dans le paprika, voit-on ici ?",
+            "hint": "Il est fait de pâte de maroilles écrasée avec des herbes et des épices, puis moulée à la main.",
+            "anecdote": "On y mêle du persil, de l'estragon et du poivre. Son goût fort lui vaut d'être surnommé le fromage des estaminets.",
+            "answers": {
+              "la-boulette-d-avesnes": "La boulette d'Avesnes",
+              "le-vieux-lille": "Le vieux-Lille",
+              "la-mimolette": "La mimolette",
+              "le-mont-des-cats": "Le mont-des-cats"
+            }
+          },
+          "mimolette": {
+            "prompt": "Quel fromage rond à pâte orange, très apprécié à Lille quand il est vieux et cassant, voit-on ici ?",
+            "hint": "Sa couleur vient du rocou, une graine d'Amérique du Sud.",
+            "anecdote": "Pendant son long affinage, des petits acariens, les cirons, creusent sa croûte grise et lui donnent son goût de noisette.",
+            "answers": {
+              "la-mimolette": "La mimolette",
+              "le-cheddar": "Le cheddar",
+              "la-boulette-d-avesnes": "La boulette d'Avesnes",
+              "le-gouda": "Le gouda"
+            }
+          },
+          "vieux-lille": {
+            "prompt": "Quel fromage, fait de maroilles affiné longuement dans la saumure, est aussi surnommé le vieux puant ?",
+            "hint": "Son nom évoque le quartier ancien de la plus grande ville de la région.",
+            "anecdote": "Il a été créé pour les ouvriers et les mineurs, qui l'emportaient dans leur casse-croûte. Son odeur est encore plus forte que celle du maroilles.",
+            "answers": {
+              "le-vieux-lille": "Le vieux-Lille",
+              "la-boulette-d-avesnes": "La boulette d'Avesnes",
+              "le-mont-des-cats": "Le mont-des-cats",
+              "la-mimolette": "La mimolette"
+            }
+          },
+          "mont-des-cats": {
+            "prompt": "Quel fromage porte le nom d'un mont de Flandre où des moines trappistes le fabriquent depuis la fin du XIXe siècle ?",
+            "hint": "Ce mont de 164 mètres se trouve près de la frontière belge, à Godewaersvelde.",
+            "anecdote": "C'est un fromage à pâte pressée et à croûte lavée orangée. L'abbaye qui lui a donné son nom domine les monts de Flandre.",
+            "answers": {
+              "le-mont-des-cats": "Le mont-des-cats",
+              "le-vieux-lille": "Le vieux-Lille",
+              "la-tomme-de-savoie": "La tomme de Savoie",
+              "le-saint-paulin": "Le saint-paulin"
+            }
+          },
+          "chicon": {
+            "prompt": "Comment appelle-t-on l'endive dans le Nord ?",
+            "hint": "On la fait pousser dans l'obscurité, pour qu'elle reste blanche.",
+            "anecdote": "Les Hauts-de-France produisent l'essentiel des endives françaises. On la mange crue en salade ou cuite au four, roulée dans du jambon.",
+            "answers": {
+              "le-chicon": "Le chicon",
+              "le-poireau": "Le poireau",
+              "la-blette": "La blette",
+              "la-scarole": "La scarole"
+            }
+          },
+          "andouillette": {
+            "prompt": "Quelle charcuterie fait la réputation de Cambrai, en plus de ses célèbres bonbons ?",
+            "hint": "Elle a la forme d'une petite saucisse et se mange grillée.",
+            "anecdote": "Elle est préparée à partir de veau, et non de porc comme la plupart des autres. On la sert souvent avec des frites.",
+            "answers": {
+              "l-andouillette-de-cambrai": "L'andouillette de Cambrai",
+              "le-boudin-blanc-de-rethel": "Le boudin blanc de Rethel",
+              "la-rosette-de-lyon": "La rosette de Lyon",
+              "le-jambon-de-bayonne": "Le jambon de Bayonne"
+            }
+          },
+          "vergeoise": {
+            "prompt": "Quel sucre de betterave, blond ou brun, moelleux et légèrement parfumé, est indispensable à la cuisine du Nord ?",
+            "hint": "Il est fait à partir de sirop de sucre de betterave, cuit puis cristallisé.",
+            "anecdote": "On le saupoudre sur les crêpes et les gaufres, et il donne son goût à la tarte au sucre et aux spéculoos.",
+            "answers": {
+              "la-vergeoise": "La vergeoise",
+              "la-cassonade-de-canne": "La cassonade de canne",
+              "le-sucre-glace": "Le sucre glace",
+              "le-sucre-candi": "Le sucre candi"
+            }
+          },
+          "ail-arleux": {
+            "prompt": "Quel produit, tressé en bottes puis séché au feu de tourbe et de bois, est la spécialité d'Arleux ?",
+            "hint": "Une grande fête lui est consacrée chaque année, au début du mois de septembre.",
+            "anecdote": "Le fumage permettait de le conserver tout l'hiver. Il bénéficie d'une indication géographique protégée.",
+            "answers": {
+              "l-ail-fume": "L'ail fumé",
+              "l-echalote": "L'échalote",
+              "l-oignon-rouge": "L'oignon rouge",
+              "le-poireau": "Le poireau"
+            }
+          },
+          "carte-arleux": {
+            "prompt": "Touchez le département où se trouve Arleux, la ville de l'ail fumé.",
+            "hint": "Arleux se trouve entre Douai et Cambrai, dans une région d'étangs.",
+            "anecdote": "Arleux se trouve au bord de la Sensée, une rivière bordée d'étangs."
+          },
+          "hareng-saur": {
+            "prompt": "Quel poisson salé puis fumé a longtemps été la grande spécialité des ports de Boulogne et de Dunkerque ?",
+            "hint": "Ce poisson argenté de la mer du Nord voyage en immenses bancs.",
+            "anecdote": "On le fume à froid, pendu au-dessus d'un feu de sciure de bois, dans des ateliers appelés saurisseries.",
+            "answers": {
+              "le-hareng-saur": "Le hareng saur",
+              "le-maquereau": "Le maquereau",
+              "la-sardine": "La sardine",
+              "le-haddock": "Le haddock"
+            }
+          },
+          "carte-boulogne": {
+            "prompt": "Touchez le département de Boulogne-sur-Mer, premier port de pêche de France.",
+            "hint": "Ce port se trouve sur la Côte d'Opale, au sud des caps.",
+            "anecdote": "Chaque année, des milliers de tonnes de poissons y sont débarquées et transformées. La ville fête le hareng en novembre."
+          },
+          "bacove": {
+            "prompt": "Quel nom porte la barque à fond plat des maraîchers du marais audomarois, autour de Saint-Omer ?",
+            "hint": "Sa version plus petite s'appelle l'escute.",
+            "anecdote": "Certaines parcelles du marais ne sont accessibles que par l'eau. Les maraîchers y cultivent encore le chou-fleur et l'endive.",
+            "answers": {
+              "le-bacove": "Le bacôve",
+              "la-gabare": "La gabare",
+              "la-toue": "La toue",
+              "le-sampan": "Le sampan"
+            }
+          },
+          "lingot": {
+            "prompt": "Comment s'appelle le haricot blanc cultivé en Flandre et séché sur des perches, protégé par une indication géographique ?",
+            "hint": "Son nom évoque la forme d'une barre de métal précieux.",
+            "anecdote": "Ses gousses sèchent dans les champs, accrochées à des perches. Il accompagne souvent l'agneau ou les saucisses.",
+            "answers": {
+              "le-lingot-du-nord": "Le lingot du Nord",
+              "le-coco-de-paimpol": "Le coco de Paimpol",
+              "le-flageolet": "Le flageolet",
+              "le-haricot-tarbais": "Le haricot tarbais"
+            }
+          },
+          "carbonade": {
+            "prompt": "Quel plat de bœuf mijoté dans la bière, avec du pain d'épices et de la cassonade, voit-on ici ?",
+            "hint": "Le pain d'épices tartiné de moutarde fond dans la sauce et l'épaissit.",
+            "anecdote": "On la sert souvent avec des frites. Son goût est à la fois doux et amer, grâce à la bière brune.",
+            "answers": {
+              "la-carbonade-flamande": "La carbonade flamande",
+              "le-boeuf-bourguignon": "Le bœuf bourguignon",
+              "le-pot-au-feu": "Le pot-au-feu",
+              "le-boeuf-mode": "Le bœuf mode"
+            }
+          },
+          "welsh": {
+            "prompt": "Quel plat de fromage fondu dans la bière, versé sur une tranche de pain et de jambon, voit-on ici ?",
+            "hint": "Il est venu d'outre-Manche, comme son nom l'indique.",
+            "anecdote": "On le cuit au four dans un plat individuel, souvent avec un œuf sur le dessus, et on le sert avec des frites.",
+            "answers": {
+              "le-welsh": "Le welsh",
+              "la-fondue": "La fondue",
+              "la-raclette": "La raclette",
+              "le-croque-monsieur": "Le croque-monsieur"
+            }
+          },
+          "cheddar": {
+            "prompt": "Quel fromage anglais fond traditionnellement dans le welsh ?",
+            "hint": "Il porte le nom d'un village du Somerset, dans le sud-ouest de l'Angleterre.",
+            "anecdote": "Dans certains estaminets, on le remplace en partie par du maroilles, pour un goût plus fort.",
+            "answers": {
+              "le-cheddar": "Le cheddar",
+              "le-stilton": "Le stilton",
+              "le-roquefort": "Le roquefort",
+              "l-emmental": "L'emmental"
+            }
+          },
+          "flamiche": {
+            "prompt": "Quelle tarte du Nord est garnie d'un fromage fort à croûte orangée ?",
+            "hint": "Son nom vient d'un mot flamand qui désigne un gâteau.",
+            "anecdote": "On la sert chaude, avec une salade. Sa garniture, très parfumée, est faite d'un fromage de l'Avesnois.",
+            "answers": {
+              "la-flamiche-au-maroilles": "La flamiche au maroilles",
+              "la-tarte-flambee": "La tarte flambée",
+              "la-quiche-lorraine": "La quiche lorraine",
+              "la-pissaladiere": "La pissaladière"
+            }
+          },
+          "potjevleesch": {
+            "prompt": "Quelle terrine flamande de plusieurs viandes blanches prises en gelée voit-on ici ?",
+            "hint": "Son nom flamand signifie petit pot de viande.",
+            "anecdote": "Elle réunit souvent du poulet, du lapin, du porc et du veau. On la mange froide, avec des frites chaudes.",
+            "answers": {
+              "le-potjevleesch": "Le potjevleesch",
+              "le-pate-en-croute": "Le pâté en croûte",
+              "les-rillettes": "Les rillettes",
+              "le-fromage-de-tete": "Le fromage de tête"
+            }
+          },
+          "hochepot": {
+            "prompt": "Quel pot-au-feu flamand mêle plusieurs viandes, dont la queue de bœuf, à des choux et des légumes ?",
+            "hint": "Son nom évoque un pot que l'on secoue pendant la cuisson.",
+            "anecdote": "Cette soupe épaisse se prépare en hiver dans les fermes de Flandre. Elle cuit plusieurs heures à feu doux.",
+            "answers": {
+              "le-hochepot": "Le hochepot",
+              "la-potee-auvergnate": "La potée auvergnate",
+              "la-garbure": "La garbure",
+              "le-baeckeoffe": "Le baeckeoffe"
+            }
+          },
+          "moules-frites": {
+            "prompt": "Quel plat, servi en montagnes pendant la Braderie de Lille, voit-on ici ?",
+            "hint": "Les restaurants empilent les coquilles vides devant leur vitrine.",
+            "anecdote": "Pendant le week-end de la Braderie, au début de septembre, plusieurs centaines de tonnes de ce coquillage sont mangées.",
+            "answers": {
+              "les-moules-frites": "Les moules-frites",
+              "les-huitres": "Les huîtres",
+              "le-plateau-de-fruits-de-mer": "Le plateau de fruits de mer",
+              "les-bulots-mayonnaise": "Les bulots mayonnaise"
+            }
+          },
+          "friterie": {
+            "prompt": "Comment appelle-t-on la baraque où l'on achète des frites dans les rues du Nord ?",
+            "hint": "On l'appelle aussi baraque à frites.",
+            "anecdote": "On y commande ses frites en cornet de papier, avec une sauce, et parfois une fricadelle, une saucisse de viande hachée.",
+            "answers": {
+              "une-friterie": "Une friterie",
+              "une-creperie": "Une crêperie",
+              "une-brasserie": "Une brasserie",
+              "une-rotisserie": "Une rôtisserie"
+            }
+          },
+          "blanc-de-boeuf": {
+            "prompt": "Dans quelle graisse les friteries du Nord cuisent-elles traditionnellement leurs frites ?",
+            "hint": "C'est une graisse animale, solide quand elle refroidit.",
+            "anecdote": "Elle donne aux frites leur goût particulier. Les frites sont cuites deux fois, d'abord à feu doux, puis à feu vif.",
+            "answers": {
+              "le-blanc-de-boeuf": "Le blanc de bœuf",
+              "l-huile-d-olive": "L'huile d'olive",
+              "la-graisse-de-canard": "La graisse de canard",
+              "le-beurre": "Le beurre"
+            }
+          },
+          "lapin-pruneaux": {
+            "prompt": "Avec quels fruits secs mijote-t-on le lapin à la flamande, dans une sauce à la bière ?",
+            "hint": "Ces fruits sont des prunes séchées.",
+            "anecdote": "On ajoute souvent des raisins secs et un peu de vergeoise. Ce plat sucré-salé est servi les jours de fête.",
+            "answers": {
+              "des-pruneaux": "Des pruneaux",
+              "des-figues": "Des figues",
+              "des-abricots-secs": "Des abricots secs",
+              "des-dattes": "Des dattes"
+            }
+          },
+          "chicon-jambon": {
+            "prompt": "Comment prépare-t-on le plus souvent les chicons gratinés ?",
+            "hint": "On les nappe ensuite de béchamel et de fromage râpé.",
+            "anecdote": "Ce gratin est un plat familial d'hiver. Les chicons sont d'abord cuits à la poêle ou à l'eau, pour perdre leur amertume.",
+            "answers": {
+              "roules-dans-du-jambon": "Roulés dans du jambon",
+              "farcis-au-riz": "Farcis au riz",
+              "frits-en-beignets": "Frits en beignets",
+              "confits-au-sucre": "Confits au sucre"
+            }
+          },
+          "merveilleux": {
+            "prompt": "Quelle pâtisserie de meringue et de crème fouettée est roulée dans des copeaux de chocolat ?",
+            "hint": "Son nom évoque une chose étonnante.",
+            "anecdote": "Elle est née en Flandre, de part et d'autre de la frontière. Sa meringue reste croquante sous la crème.",
+            "answers": {
+              "le-merveilleux": "Le merveilleux",
+              "la-pavlova": "La pavlova",
+              "l-ile-flottante": "L'île flottante",
+              "le-paris-brest": "Le paris-brest"
+            }
+          },
+          "gaufre-fourree": {
+            "prompt": "Quelle gaufre fine et ovale, garnie d'une crème à la vanille, est une grande spécialité de Lille ?",
+            "hint": "Sa garniture mêle de la vergeoise, du beurre et de la vanille de Madagascar.",
+            "anecdote": "Une maison lilloise la fabrique depuis le XIXe siècle. Le général de Gaulle, natif de Lille, en était, dit-on, très friand.",
+            "answers": {
+              "la-gaufre-fourree": "La gaufre fourrée",
+              "la-gaufre-de-liege": "La gaufre de Liège",
+              "la-gaufre-de-bruxelles": "La gaufre de Bruxelles",
+              "la-galette-bretonne": "La galette bretonne"
+            }
+          },
+          "betises": {
+            "prompt": "Quels bonbons à la menthe, rayés de sucre caramélisé, sont une spécialité du Nord ?",
+            "hint": "Ils doivent leur nom à une erreur de fabrication, selon la légende.",
+            "anecdote": "Un apprenti confiseur se serait trompé dans sa recette. Ses parents l'auraient grondé pour sa bêtise, mais les clients ont adoré.",
+            "answers": {
+              "les-betises-de-cambrai": "Les bêtises de Cambrai",
+              "les-berlingots": "Les berlingots",
+              "les-bergamotes-de-nancy": "Les bergamotes de Nancy",
+              "les-coquelicots-de-nemours": "Les coquelicots de Nemours"
+            }
+          },
+          "carte-betises": {
+            "prompt": "Touchez le département où se trouve Cambrai, la ville des bêtises.",
+            "hint": "Cette ville se trouve au sud du département, sur l'Escaut.",
+            "anecdote": "Deux confiseries de Cambrai se disputent depuis le XIXe siècle l'invention de ces bonbons."
+          },
+          "goyere": {
+            "prompt": "Quelle tarte au maroilles est la spécialité de Valenciennes ?",
+            "hint": "On la prépare avec du fromage blanc, des œufs et une pâte levée.",
+            "anecdote": "Elle est servie chaude, en entrée ou avec une salade verte.",
+            "answers": {
+              "la-goyere": "La goyère",
+              "la-quiche": "La quiche",
+              "la-tarte-flambee": "La tarte flambée",
+              "la-pissaladiere": "La pissaladière"
+            }
+          },
+          "cramique": {
+            "prompt": "Comment s'appelle la brioche aux raisins secs que l'on mange au petit-déjeuner en Flandre ?",
+            "hint": "Sa version garnie de gros grains de sucre s'appelle le craquelin.",
+            "anecdote": "On la cuit dans un moule rectangulaire et on la mange en tranches beurrées, parfois saupoudrées de vergeoise.",
+            "answers": {
+              "le-cramique": "Le cramique",
+              "le-kouglof": "Le kouglof",
+              "le-pain-d-epices": "Le pain d'épices",
+              "la-fouace": "La fouace"
+            }
+          },
+          "speculoos": {
+            "prompt": "Quel biscuit croquant à la cassonade et à la cannelle, moulé en figurines, est une spécialité de Flandre ?",
+            "hint": "On le trempe souvent dans le café.",
+            "anecdote": "On le mange surtout en décembre, pour la Saint-Nicolas, quand on le moule en forme de personnages.",
+            "answers": {
+              "le-speculoos": "Le spéculoos",
+              "le-sable": "Le sablé",
+              "le-macaron": "Le macaron",
+              "la-tuile": "La tuile"
+            }
+          },
+          "babeluttes": {
+            "prompt": "Quels caramels durs au beurre et à la vergeoise sont une spécialité de Lille et de la Flandre ?",
+            "hint": "Leur nom viendrait d'un mot flamand qui désigne un bavard.",
+            "anecdote": "On les enveloppe dans un papier torsadé. Ils collent aux dents et durent longtemps en bouche.",
+            "answers": {
+              "les-babeluttes": "Les babeluttes",
+              "les-calissons": "Les calissons",
+              "les-nougats": "Les nougats",
+              "les-negus": "Les négus"
+            }
+          },
+          "coquille-noel": {
+            "prompt": "Quelle brioche allongée, aux deux bouts arrondis, est offerte aux enfants du Nord à Noël ?",
+            "hint": "Sa forme rappelle l'Enfant Jésus emmailloté.",
+            "anecdote": "On la décore parfois d'un petit sujet en sucre et on la garnit de raisins secs ou de grains de sucre.",
+            "answers": {
+              "la-coquille": "La coquille",
+              "la-galette-des-rois": "La galette des rois",
+              "le-kouglof": "Le kouglof",
+              "le-pain-d-epices": "Le pain d'épices"
+            }
+          },
+          "biere-garde": {
+            "prompt": "Quel style de bière, brassé autrefois dans les fermes du Nord, était conservé en cave plusieurs semaines avant d'être bu ?",
+            "hint": "Son nom évoque le temps que l'on attendait avant de la servir.",
+            "anecdote": "Ambrée ou blonde, elle était brassée en hiver et bue au printemps et en été, pendant les travaux des champs.",
+            "answers": {
+              "la-biere-de-garde": "La bière de garde",
+              "la-biere-blanche": "La bière blanche",
+              "le-stout": "Le stout",
+              "la-biere-de-noel": "La bière de Noël"
+            }
+          },
+          "houblon": {
+            "prompt": "Quelle plante grimpante, cultivée en Flandre autour de Bailleul et de Steenvoorde, voit-on ici ?",
+            "hint": "Ses fleurs femelles, en forme de petits cônes, donnent son amertume à la bière.",
+            "anecdote": "Elle grimpe le long de fils tendus entre de grands poteaux, jusqu'à six mètres de haut. On la récolte à la fin de l'été.",
+            "answers": {
+              "le-houblon": "Le houblon",
+              "l-orge": "L'orge",
+              "la-vigne": "La vigne",
+              "le-lierre": "Le lierre"
+            }
+          },
+          "genievre": {
+            "prompt": "Quelle eau-de-vie de grains, parfumée aux baies de genévrier, est distillée à Houlle et à Wambrechies ?",
+            "hint": "Elle a la même origine que le gin anglais.",
+            "anecdote": "Elle se boit pure, dans un petit verre, ou mêlée au café. On la distille à partir de seigle, d'orge et d'avoine.",
+            "answers": {
+              "le-genievre": "Le genièvre",
+              "la-mirabelle": "La mirabelle",
+              "le-calvados": "Le calvados",
+              "le-kirsch": "Le kirsch"
+            }
+          },
+          "chicoree": {
+            "prompt": "Quelle boisson chaude, faite de racines torréfiées, est une tradition du petit-déjeuner dans le Nord ?",
+            "hint": "On la mêle souvent au café au lait.",
+            "anecdote": "La plante est cultivée dans les plaines du Nord. Ses racines sont séchées, grillées puis moulues.",
+            "answers": {
+              "la-chicoree": "La chicorée",
+              "le-the": "Le thé",
+              "le-chocolat": "Le chocolat",
+              "la-tisane-de-tilleul": "La tisane de tilleul"
+            }
+          },
+          "bistouille": {
+            "prompt": "Comment appelle-t-on, dans le Nord, un café arrosé d'eau-de-vie ?",
+            "hint": "On le boit dans les estaminets ou au retour du travail, par temps froid.",
+            "anecdote": "Le genièvre est souvent l'eau-de-vie choisie. Les mineurs en buvaient pour se réchauffer.",
+            "answers": {
+              "la-bistouille": "La bistouille",
+              "le-diabolo": "Le diabolo",
+              "le-panache": "Le panaché",
+              "le-kir": "Le kir"
+            }
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine",
+          "description": "Beffrois inscrits à l'UNESCO, places flamandes de Lille et d'Arras, remparts de Boulogne et de Montreuil, caps et dunes de la Côte d'Opale, marais, bocages et terrils : les visages d'une terre de villes et de paysages.",
+          "capitale-flandres": {
+            "prompt": "Quelle ville est surnommée la capitale des Flandres ?",
+            "hint": "Elle a été rattachée au royaume de France par Louis XIV en 1668.",
+            "anecdote": "Ancienne résidence des ducs de Bourgogne, elle a été désignée capitale européenne de la culture en 2004."
+          },
+          "athenes-du-nord": {
+            "prompt": "Quelle ville du Nord, patrie de Watteau et de Carpeaux, est surnommée l'Athènes du Nord ?",
+            "hint": "Elle se trouve sur l'Escaut, près de la frontière belge.",
+            "anecdote": "Son surnom rappelle ses nombreux artistes et son école des beaux-arts. Son musée expose de grandes œuvres de ses enfants célèbres."
+          },
+          "bergues": {
+            "prompt": "Dans quelle petite ville fortifiée de Flandre, rendue célèbre par le film Bienvenue chez les Ch'tis, se dresse ce beffroi ?",
+            "hint": "Le facteur du film y sonne le carillon du haut de la tour.",
+            "anecdote": "Ce beffroi, détruit en 1944, a été reconstruit après la guerre. La ville est entourée de remparts et de canaux, à quelques kilomètres de Dunkerque.",
+            "answers": {
+              "hondschoote": "Hondschoote"
+            }
+          },
+          "carte-bergues": {
+            "prompt": "Touchez le département où se trouve Bergues, la ville du film Bienvenue chez les Ch'tis.",
+            "hint": "Bergues se trouve en Flandre maritime, à quelques kilomètres de la mer du Nord.",
+            "anecdote": "Le film de Dany Boon, sorti en 2008, a attiré plus de vingt millions de spectateurs en salle."
+          },
+          "montreuil": {
+            "prompt": "Quelle ville fortifiée du Pas-de-Calais, où Victor Hugo a situé une partie des Misérables, voit-on ici ?",
+            "hint": "Malgré son nom, elle ne touche plus la mer depuis longtemps.",
+            "anecdote": "Dans le roman, Jean Valjean y devient maire sous le nom de monsieur Madeleine. Chaque été, un spectacle y raconte cette histoire."
+          },
+          "carte-montreuil": {
+            "prompt": "Touchez le département où se trouve Montreuil-sur-Mer.",
+            "hint": "La ville domine la vallée de la Canche, à une quinzaine de kilomètres de la Côte d'Opale.",
+            "anecdote": "Ses remparts, longs de trois kilomètres, entourent encore toute la ville haute."
+          },
+          "remparts-boulogne": {
+            "prompt": "Dans quelle ville se trouvent ces remparts du XIIIe siècle, qui entourent la ville haute ?",
+            "hint": "Elle abrite Nausicaá, un grand centre consacré à la mer.",
+            "anecdote": "On peut faire le tour de la ville haute en marchant sur les remparts. Ils protègent le beffroi, le château et la basilique."
+          },
+          "touquet": {
+            "prompt": "Quelle station balnéaire de la Côte d'Opale a été créée à la fin du XIXe siècle dans une forêt de pins plantée sur les dunes ?",
+            "hint": "Elle a été fondée par un notaire, puis développée par un homme d'affaires anglais.",
+            "anecdote": "Les Anglais l'ont beaucoup fréquentée entre les deux guerres. Ses villas sont dispersées dans la forêt, près de la baie de Canche.",
+            "answers": {
+              "malo-les-bains": "Malo-les-Bains"
+            }
+          },
+          "berck": {
+            "prompt": "Quelle station de la Côte d'Opale est connue pour ses hôpitaux marins et ses rencontres internationales de cerfs-volants ?",
+            "hint": "Elle se trouve au sud de la côte, près de la baie d'Authie, où vivent des phoques.",
+            "anecdote": "Au XIXe siècle, on y soignait les enfants malades grâce au bon air de la mer. Le festival de cerfs-volants a lieu chaque année en avril.",
+            "answers": {
+              "wimereux": "Wimereux"
+            }
+          },
+          "roubaix-cheminees": {
+            "prompt": "Quelle ville du textile était surnommée la ville aux mille cheminées ?",
+            "hint": "Elle est voisine de Tourcoing, au nord-est de Lille.",
+            "anecdote": "À la fin du XIXe siècle, ses filatures de laine en faisaient l'une des grandes villes industrielles d'Europe."
+          },
+          "piscine": {
+            "prompt": "Dans quelle ville une ancienne piscine Art déco, bâtie en 1932, a-t-elle été transformée en musée d'art et d'industrie ?",
+            "hint": "Le musée a ouvert en 2001. Cette ville est la voisine de Tourcoing.",
+            "anecdote": "Les tableaux et les sculptures sont exposés autour du grand bassin, sous un vitrail en forme de soleil levant."
+          },
+          "lens": {
+            "prompt": "Dans quelle ancienne ville minière le musée du Louvre a-t-il ouvert une antenne en 2012 ?",
+            "hint": "Elle est connue pour son club de football aux couleurs sang et or.",
+            "anecdote": "Le musée a été bâti sur le carreau d'une ancienne fosse de mine. Sa grande galerie présente cinq mille ans d'histoire de l'art."
+          },
+          "dunkerque-leughenaer": {
+            "prompt": "Dans quelle ville la tour du Leughenaer, dont le nom flamand signifie le menteur, est-elle la plus ancienne construction ?",
+            "hint": "Ce port de la mer du Nord est le plus au nord de la France.",
+            "anecdote": "Cette tour de brique du XVe siècle faisait partie des remparts. Son surnom viendrait d'un guetteur qui aurait trompé les marins."
+          },
+          "beffrois-unesco": {
+            "prompt": "Depuis quelle année des beffrois du Nord-Pas-de-Calais sont-ils inscrits au patrimoine mondial de l'UNESCO ?",
+            "hint": "Ils ont rejoint une liste ouverte en 1999 pour les beffrois de Belgique.",
+            "anecdote": "L'inscription réunit aujourd'hui plusieurs dizaines de beffrois de Belgique et de France, de Dunkerque à Amiens.",
+            "answers": {
+              "depuis-2005": "Depuis 2005",
+              "depuis-1979": "Depuis 1979",
+              "depuis-1991": "Depuis 1991",
+              "depuis-2012": "Depuis 2012"
+            }
+          },
+          "douai-beffroi": {
+            "prompt": "Dans quelle ville se dresse ce beffroi gothique, que Victor Hugo a dessiné lors d'un voyage ?",
+            "hint": "Cette ville est celle du géant Gayant.",
+            "anecdote": "Son carillon, l'un des plus grands d'Europe, compte plus de soixante cloches. On y donne des concerts chaque semaine."
+          },
+          "hospice-comtesse": {
+            "prompt": "Quel ancien hôpital de Lille, fondé en 1237 par Jeanne de Flandre, voit-on ici ?",
+            "hint": "Son nom rappelle le titre de sa fondatrice.",
+            "anecdote": "Les malades y étaient soignés par des religieuses. C'est aujourd'hui un musée, dans le quartier du Vieux-Lille.",
+            "answers": {
+              "l-hospice-comtesse": "L'hospice Comtesse",
+              "la-vieille-bourse": "La Vieille Bourse",
+              "le-palais-rihour": "Le palais Rihour",
+              "la-maison-coilliot": "La maison Coilliot"
+            }
+          },
+          "opera-lille": {
+            "prompt": "Quel édifice de Lille, achevé en 1923 par l'architecte Louis-Marie Cordonnier, voit-on ici ?",
+            "hint": "On y joue des œuvres lyriques et des ballets.",
+            "anecdote": "Commencé avant la Première Guerre mondiale, il a été utilisé par l'armée allemande pendant l'occupation de la ville, avant son inauguration.",
+            "answers": {
+              "l-opera": "L'opéra",
+              "la-gare": "La gare",
+              "le-palais-de-justice": "Le palais de justice",
+              "la-chambre-de-commerce": "La chambre de commerce"
+            }
+          },
+          "tour-guet": {
+            "prompt": "Quelle tour de Calais, l'une des plus anciennes constructions de la ville, servait à surveiller la mer et les incendies ?",
+            "hint": "Elle se dresse sur la place d'Armes.",
+            "anecdote": "Elle date du XIIIe siècle. Elle a servi de phare jusqu'en 1848 et a résisté aux bombardements de la Seconde Guerre mondiale.",
+            "answers": {
+              "la-tour-du-guet": "La tour du Guet",
+              "la-tour-du-leughenaer": "La tour du Leughenaer",
+              "la-tour-de-constance": "La tour de Constance",
+              "la-tour-tanguy": "La tour Tanguy"
+            }
+          },
+          "chateau-boulogne": {
+            "prompt": "Quel château du XIIIe siècle, entouré de fossés, se trouve dans la ville haute de Boulogne-sur-Mer ?",
+            "hint": "Il a été bâti pour les comtes de la ville.",
+            "anecdote": "C'est aujourd'hui un musée. Il abrite notamment des vases grecs et des masques venus d'Alaska.",
+            "answers": {
+              "le-chateau-comtal": "Le château comtal",
+              "le-chateau-de-guines": "Le château de Guînes",
+              "le-chateau-d-hardelot": "Le château d'Hardelot",
+              "la-citadelle": "La citadelle"
+            }
+          },
+          "arenberg": {
+            "prompt": "Quel site minier de Wallers, fermé en 1989, a servi de décor au film Germinal de Claude Berri ?",
+            "hint": "On y voit encore trois chevalements, au-dessus des anciens puits.",
+            "anecdote": "Le film, sorti en 1993, a été tourné sur place avec des habitants comme figurants. Le site est aujourd'hui un pôle consacré à l'image.",
+            "answers": {
+              "la-fosse-d-arenberg": "La fosse d'Arenberg",
+              "la-fosse-delloye": "La fosse Delloye",
+              "la-fosse-9-de-lens": "La fosse 9 de Lens",
+              "le-puits-couriot": "Le puits Couriot"
+            }
+          },
+          "lewarde": {
+            "prompt": "Quel lieu, installé dans une ancienne fosse de mine de Lewarde, raconte la vie des mineurs du Nord ?",
+            "hint": "Il a ouvert en 1984, après la fermeture de la fosse Delloye.",
+            "anecdote": "Des anciens mineurs y guident les visiteurs dans des galeries reconstituées. C'est le plus grand musée de la mine en France.",
+            "answers": {
+              "le-centre-historique-minier": "Le Centre historique minier",
+              "le-louvre-lens": "Le Louvre-Lens",
+              "la-piscine": "La Piscine",
+              "le-lam": "Le LaM"
+            }
+          },
+          "saint-bertin": {
+            "prompt": "Dans quelle ville se dressent les ruines de cette abbaye Saint-Bertin, l'une des plus puissantes du Moyen Âge en Flandre ?",
+            "hint": "C'est la ville de la cathédrale qui abrite le Grand Dieu de Thérouanne.",
+            "anecdote": "L'abbaye a été vendue après la Révolution et démolie peu à peu. Seule une partie de sa tour gothique reste debout."
+          },
+          "citadelle-arras": {
+            "prompt": "Quel surnom porte la citadelle d'Arras, bâtie par Vauban et inscrite au patrimoine mondial de l'UNESCO ?",
+            "hint": "On la jugeait trop loin de la frontière pour servir à quelque chose.",
+            "anecdote": "Elle a été inscrite en 2008, avec onze autres sites fortifiés par Vauban. Elle n'a jamais été attaquée.",
+            "answers": {
+              "la-belle-inutile": "La belle inutile",
+              "la-reine-des-citadelles": "La reine des citadelles",
+              "la-pucelle": "La pucelle",
+              "l-imprenable": "L'imprenable"
+            }
+          },
+          "vaucelles": {
+            "prompt": "Quelle abbaye cistercienne du Cambrésis, fondée par saint Bernard en 1132, possède une immense salle capitulaire voûtée ?",
+            "hint": "Elle se trouve au bord de l'Escaut, au sud de Cambrai.",
+            "anecdote": "Elle fut l'une des plus grandes abbayes cisterciennes d'Europe. On visite aujourd'hui ses bâtiments et ses jardins.",
+            "answers": {
+              "l-abbaye-de-vaucelles": "L'abbaye de Vaucelles",
+              "l-abbaye-de-fontenay": "L'abbaye de Fontenay",
+              "l-abbaye-de-citeaux": "L'abbaye de Cîteaux",
+              "l-abbaye-de-saint-riquier": "L'abbaye de Saint-Riquier"
+            }
+          },
+          "boves": {
+            "prompt": "Comment appelle-t-on les galeries de craie creusées sous les places d'Arras ?",
+            "hint": "On y extrayait la pierre pour bâtir la ville, puis on s'en servait comme caves.",
+            "anecdote": "Pendant la Première Guerre mondiale, elles ont abrité des habitants et des soldats. On les visite depuis l'hôtel de ville.",
+            "answers": {
+              "les-boves": "Les boves",
+              "les-catacombes": "Les catacombes",
+              "les-marnieres": "Les marnières",
+              "les-souterrains-refuges": "Les souterrains-refuges"
+            }
+          },
+          "deux-caps": {
+            "prompt": "Quel label a reçu en 2011 le site des Deux-Caps, entre le cap Blanc-Nez et le cap Gris-Nez ?",
+            "hint": "Ce label distingue des paysages célèbres et protégés, comme le Puy de Dôme ou la Pointe du Raz.",
+            "anecdote": "Le site protège des falaises, des dunes et des marais, et accueille plus de deux millions de visiteurs chaque année.",
+            "answers": {
+              "grand-site-de-france": "Grand Site de France",
+              "parc-national": "Parc national",
+              "ville-d-art-et-d-histoire": "Ville d'art et d'histoire",
+              "plus-beaux-villages-de-france": "Plus beaux villages de France"
+            }
+          },
+          "blanc-nez": {
+            "prompt": "De quelle roche sont faites les falaises du cap Blanc-Nez, que l'on voit ici ?",
+            "hint": "C'est la même roche que celle des falaises de Douvres, en face.",
+            "anecdote": "Ces falaises s'élèvent à plus de 130 mètres. Au sommet, un obélisque rend hommage à la patrouille de Douvres de la Première Guerre mondiale.",
+            "answers": {
+              "de-craie": "De craie",
+              "de-granit": "De granit",
+              "de-gres-rose": "De grès rose",
+              "de-basalte": "De basalte"
+            }
+          },
+          "marais": {
+            "prompt": "Quel marais, parcouru de 700 kilomètres de canaux, s'étend entre Saint-Omer et la mer du Nord ?",
+            "hint": "Ses habitants circulent encore en barque pour rejoindre leurs maisons et leurs champs.",
+            "anecdote": "Il est reconnu réserve de biosphère par l'UNESCO depuis 2013. C'est le dernier marais cultivé de France.",
+            "answers": {
+              "le-marais-audomarois": "Le marais audomarois",
+              "le-marais-poitevin": "Le marais poitevin",
+              "le-marais-vernier": "Le marais Vernier",
+              "la-briere": "La Brière"
+            }
+          },
+          "mont-cassel": {
+            "prompt": "Quelle petite ville perchée sur un mont de Flandre, haut de 176 mètres, voit-on ici avec son moulin ?",
+            "hint": "Le maréchal Foch y a installé son quartier général en 1914 et 1915.",
+            "anecdote": "Une chanson anglaise raconte l'histoire du duc d'York, qui aurait fait monter et descendre ses soldats sur cette colline.",
+            "answers": {
+              "hazebrouck": "Hazebrouck"
+            }
+          },
+          "carte-cassel": {
+            "prompt": "Touchez le département où se trouve le mont Cassel.",
+            "hint": "C'est l'un des monts de Flandre, une rangée de collines au milieu de la plaine, près de la Belgique.",
+            "anecdote": "Par temps clair, on voit de son sommet la mer du Nord et les clochers de cinq pays, selon une vieille tradition locale."
+          },
+          "terrils-jumeaux": {
+            "prompt": "Dans quelle ville du bassin minier se dressent ces terrils jumeaux, parmi les plus hauts d'Europe ?",
+            "hint": "Elle se trouve tout près de Lens.",
+            "anecdote": "Ils culminent à environ 186 mètres d'altitude. Un sentier permet de monter au sommet de l'un d'eux, d'où l'on voit tout le bassin minier."
+          },
+          "dune": {
+            "prompt": "Quelle dune voit-on ici, à cheval sur la frontière franco-belge, à Bray-Dunes ?",
+            "hint": "Elle porte le nom d'un oiseau coloré.",
+            "anecdote": "Ces dunes fossiles comptent parmi les plus anciennes de la côte. Elles abritent des plantes et des petits animaux rares.",
+            "answers": {
+              "la-dune-du-perroquet": "La dune du Perroquet",
+              "la-dune-du-pilat": "La dune du Pilat",
+              "la-dune-marchand": "La dune Marchand",
+              "la-dune-dewulf": "La dune Dewulf"
+            }
+          },
+          "phoques": {
+            "prompt": "Quels animaux voit-on souvent se reposer sur les bancs de sable des baies de Canche et d'Authie ?",
+            "hint": "On les observe à marée basse, allongés au soleil.",
+            "anecdote": "On peut les observer à distance, aux jumelles, pour ne pas les déranger. Les jeunes naissent en été sur les bancs de sable.",
+            "answers": {
+              "des-phoques": "Des phoques",
+              "des-dauphins": "Des dauphins",
+              "des-loutres": "Des loutres",
+              "des-castors": "Des castors"
+            }
+          },
+          "avesnois": {
+            "prompt": "Quelle région de prairies et de haies du sud-est du Nord, surnommée la petite Suisse du Nord, voit-on ici ?",
+            "hint": "C'est le pays du maroilles.",
+            "anecdote": "Ce paysage de bocage forme un parc naturel régional depuis 1998. Les vaches y paissent entre les haies, près des forêts.",
+            "answers": {
+              "l-avesnois": "L'Avesnois",
+              "le-boulonnais": "Le Boulonnais",
+              "le-cambresis": "Le Cambrésis",
+              "le-pevele": "Le Pévèle"
+            }
+          },
+          "val-joly": {
+            "prompt": "Quel lac, créé par un barrage sur l'Helpe Majeure, est le plus grand plan d'eau du nord de la France ?",
+            "hint": "Il se trouve dans l'Avesnois, près de la Belgique.",
+            "anecdote": "Il couvre environ 180 hectares. On y pratique la voile et la baignade, au milieu des forêts.",
+            "answers": {
+              "le-lac-du-val-joly": "Le lac du Val Joly",
+              "le-lac-du-der": "Le lac du Der",
+              "le-lac-d-annecy": "Le lac d'Annecy",
+              "le-lac-de-guerledan": "Le lac de Guerlédan"
+            }
+          },
+          "mormal": {
+            "prompt": "Quelle forêt, la plus grande du Nord, s'étend près du Quesnoy et de Maubeuge ?",
+            "hint": "Ses chênes et ses hêtres couvrent plus de 9 000 hectares.",
+            "anecdote": "Elle était déjà une grande forêt royale au Moyen Âge. Elle a été très exploitée pendant la Première Guerre mondiale.",
+            "answers": {
+              "la-foret-de-mormal": "La forêt de Mormal",
+              "la-foret-de-saint-amand": "La forêt de Saint-Amand",
+              "la-foret-de-compiegne": "La forêt de Compiègne",
+              "la-foret-de-crecy": "La forêt de Crécy"
+            }
+          },
+          "wateringues": {
+            "prompt": "Comment s'appelle le réseau de canaux et de pompes qui empêche l'inondation des terres basses entre Dunkerque, Calais et Saint-Omer ?",
+            "hint": "Son nom vient d'un mot flamand lié à l'eau.",
+            "anecdote": "Ces terres gagnées sur la mer se trouvent sous le niveau des hautes marées. Les canaux évacuent l'eau vers la mer à marée basse.",
+            "answers": {
+              "les-wateringues": "Les wateringues",
+              "les-polders": "Les polders",
+              "les-etiers": "Les étiers",
+              "les-bocages": "Les bocages"
+            }
+          },
+          "aa": {
+            "prompt": "Quel fleuve côtier au nom très court traverse Saint-Omer et se jette dans la mer du Nord à Gravelines ?",
+            "hint": "Son nom ne compte que deux lettres.",
+            "anecdote": "Il alimente le marais audomarois et a été canalisé pour la navigation. Son nom viendrait d'un mot germanique qui désigne l'eau.",
+            "answers": {
+              "l-aa": "L'Aa",
+              "l-yser": "L'Yser",
+              "la-lys": "La Lys",
+              "la-canche": "La Canche"
+            }
+          },
+          "canche": {
+            "prompt": "Quel fleuve côtier passe au pied de Montreuil-sur-Mer et se jette dans la Manche au Touquet ?",
+            "hint": "Il forme une baie entre Étaples et Le Touquet.",
+            "anecdote": "Sa baie, couverte de prés salés, accueille de nombreux oiseaux migrateurs. Son voisin du sud est l'Authie.",
+            "answers": {
+              "la-canche": "La Canche",
+              "la-liane": "La Liane",
+              "la-somme": "La Somme",
+              "la-bresle": "La Bresle"
+            }
+          },
+          "carte-gravelines": {
+            "prompt": "Touchez le département où se trouve Gravelines, ville fortifiée au bord de l'Aa.",
+            "hint": "Gravelines se trouve sur la côte, entre Calais et Dunkerque.",
+            "anecdote": "Elle abrite une grande centrale nucléaire au bord de la mer et des fortifications en étoile de l'époque de Vauban."
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire",
+          "description": "Géants de Douai et de Dunkerque, carnavals et braderies, estaminets et jeux de bourle, pigeons voyageurs et carillons, dentelle de Calais, faïence de Desvres, mines et filatures, et les grandes figures nées entre Lille, Arras et la Côte d'Opale.",
+          "geants": {
+            "prompt": "Comment appelle-t-on ces immenses personnages d'osier, portés par des hommes cachés sous leur robe, qui défilent dans les fêtes du Nord ?",
+            "hint": "Ils sont plusieurs centaines dans la région, et chacun a son nom et son histoire.",
+            "anecdote": "Avec ceux de Belgique, ils sont inscrits depuis 2005 au patrimoine culturel immatériel de l'humanité par l'UNESCO.",
+            "answers": {
+              "des-geants": "Des géants",
+              "des-santons": "Des santons",
+              "des-marionnettes-a-fils": "Des marionnettes à fils",
+              "des-automates": "Des automates"
+            }
+          },
+          "gayant": {
+            "prompt": "Quel géant de Douai, qui défile chaque année en juillet avec sa femme et ses trois enfants, voit-on ici ?",
+            "hint": "Son nom en picard signifie le géant.",
+            "anecdote": "Il sort depuis 1530. Sa femme s'appelle Marie Cagenon, et leurs enfants Jacquot, Fillon et Binbin.",
+            "answers": {
+              "gayant": "Gayant",
+              "reuze-papa": "Reuze Papa",
+              "lyderic": "Lydéric",
+              "batisse": "Batisse"
+            }
+          },
+          "reuze": {
+            "prompt": "Comment s'appelle le géant de Dunkerque, dont on chante la cantate à la fin du carnaval ?",
+            "hint": "Son nom signifie le géant en flamand.",
+            "anecdote": "Il est accompagné de sa femme et de ses enfants. La cantate qui lui est dédiée est chantée à genoux par la foule.",
+            "answers": {
+              "reuze-papa": "Reuze Papa",
+              "gayant": "Gayant",
+              "martin": "Martin",
+              "jean-le-bucheron": "Jean le Bûcheron"
+            }
+          },
+          "carnaval-harengs": {
+            "prompt": "Que lance-t-on, depuis le balcon de l'hôtel de ville, à la foule du carnaval de Dunkerque ?",
+            "hint": "C'est un poisson fumé, emballé dans du plastique.",
+            "anecdote": "La tradition rappelle le repas offert aux pêcheurs avant leur départ pour l'Islande. Des milliers de carnavaleux tendent les bras pour les attraper.",
+            "answers": {
+              "des-harengs": "Des harengs",
+              "des-bonbons": "Des bonbons",
+              "des-confettis": "Des confettis",
+              "des-oranges": "Des oranges"
+            }
+          },
+          "bande": {
+            "prompt": "Comment appelle-t-on le défilé des carnavaleux dunkerquois, qui avancent serrés derrière la musique ?",
+            "hint": "Ce mot désigne aussi un groupe de personnes.",
+            "anecdote": "Les carnavaleux, souvent déguisés en femmes et coiffés de perruques, suivent le tambour-major. Le moment où ils se poussent s'appelle le chahut.",
+            "answers": {
+              "la-bande": "La bande",
+              "le-cortege": "Le cortège",
+              "la-cavalcade": "La cavalcade",
+              "la-parade": "La parade"
+            }
+          },
+          "braderie": {
+            "prompt": "Quelle grande fête de Lille, le premier week-end de septembre, est le plus grand marché aux puces d'Europe ?",
+            "hint": "Autrefois, les domestiques avaient le droit de vendre ce jour-là les vieux objets de leurs maîtres.",
+            "anecdote": "Ses origines remontent au Moyen Âge. Plus de deux millions de visiteurs se pressent dans ses rues pendant deux jours.",
+            "answers": {
+              "la-braderie": "La Braderie",
+              "la-ducasse": "La Ducasse",
+              "la-foire-du-trone": "La Foire du Trône",
+              "le-carnaval": "Le Carnaval"
+            }
+          },
+          "ducasse": {
+            "prompt": "Comment appelle-t-on, dans le Nord, la fête foraine d'un village ou d'un quartier ?",
+            "hint": "Ce mot vient de la fête de la dédicace de l'église.",
+            "anecdote": "Elle réunit des manèges, des jeux et des repas en plein air. Elle a lieu chaque année à la même date.",
+            "answers": {
+              "la-ducasse": "La ducasse",
+              "la-kermesse-bretonne": "La kermesse bretonne",
+              "le-pardon": "Le pardon",
+              "la-ferias": "La férias"
+            }
+          },
+          "estaminet": {
+            "prompt": "Comment appelle-t-on ce café traditionnel du Nord, où l'on joue à des jeux anciens autour d'une bière ?",
+            "hint": "On y mange aussi des plats régionaux, comme le potjevleesch ou le welsh.",
+            "anecdote": "Ses murs sont souvent couverts d'objets anciens. On y joue au billard, aux fléchettes ou à la grenouille.",
+            "answers": {
+              "un-estaminet": "Un estaminet",
+              "un-bouchon": "Un bouchon",
+              "une-guinguette": "Une guinguette",
+              "un-bistrot-parisien": "Un bistrot parisien"
+            }
+          },
+          "bourle": {
+            "prompt": "Quel jeu traditionnel consiste à faire rouler une lourde roue de bois sur une piste creuse, pour l'approcher d'un piquet ?",
+            "hint": "Ce jeu flamand se pratique dans des salles couvertes, souvent à côté d'un estaminet.",
+            "anecdote": "La roue, aplatie sur un côté, suit une courbe sur la piste. Les joueurs s'affrontent par équipes.",
+            "answers": {
+              "la-bourle": "La bourle",
+              "la-petanque": "La pétanque",
+              "le-jeu-de-quilles": "Le jeu de quilles",
+              "le-palet": "Le palet"
+            }
+          },
+          "pigeons": {
+            "prompt": "Quel loisir, très populaire chez les mineurs du Nord, consiste à faire concourir des oiseaux sur de longues distances ?",
+            "hint": "Les oiseaux retrouvent leur pigeonnier à des centaines de kilomètres.",
+            "anecdote": "Le Nord compte de nombreux colombophiles. Ces oiseaux ont aussi porté des messages pendant les deux guerres mondiales.",
+            "answers": {
+              "la-colombophilie": "La colombophilie",
+              "la-fauconnerie": "La fauconnerie",
+              "l-ornithologie": "L'ornithologie",
+              "la-voliere-de-chant": "La volière de chant"
+            }
+          },
+          "beursault": {
+            "prompt": "Quel tir à l'arc traditionnel se pratique entre deux buttes face à face, dans les jardins des compagnies d'archers du Nord ?",
+            "hint": "Les archers tirent en marchant d'une butte à l'autre, à 50 mètres.",
+            "anecdote": "Les compagnies d'archers sont souvent placées sous la protection de saint Sébastien. Leur tradition remonte au Moyen Âge.",
+            "answers": {
+              "le-beursault": "Le beursault",
+              "le-tir-a-l-oiseau": "Le tir à l'oiseau",
+              "le-tir-en-campagne": "Le tir en campagne",
+              "le-tir-nature": "Le tir nature"
+            }
+          },
+          "sainte-barbe": {
+            "prompt": "Quelle sainte, patronne des mineurs, est fêtée chaque 4 décembre dans le bassin minier ?",
+            "hint": "Elle est aussi la patronne des pompiers et des artificiers.",
+            "anecdote": "Les mineurs plaçaient une statuette d'elle dans les galeries pour se protéger des coups de grisou.",
+            "answers": {
+              "sainte-barbe": "Sainte Barbe",
+              "sainte-catherine": "Sainte Catherine",
+              "sainte-genevieve": "Sainte Geneviève",
+              "sainte-rita": "Sainte Rita"
+            }
+          },
+          "quinquin": {
+            "prompt": "Quelle berceuse en patois lillois, écrite par Alexandre Desrousseaux en 1853, est devenue l'hymne du Nord ?",
+            "hint": "Elle commence par les mots dors min p'tit.",
+            "anecdote": "Une mère dentellière y promet à son enfant des cadeaux pour qu'il s'endorme. Une statue de Desrousseaux se trouve à Lille.",
+            "answers": {
+              "le-p-tit-quinquin": "Le P'tit Quinquin",
+              "les-corons": "Les Corons",
+              "le-plat-pays": "Le Plat pays",
+              "ch-tiot-biloute": "Ch'tiot biloute"
+            }
+          },
+          "corons": {
+            "prompt": "Comment appelle-t-on ces longues rangées de maisons ouvrières en brique, bâties par les compagnies minières ?",
+            "hint": "Une chanson de Pierre Bachelet, sortie en 1982, porte ce nom.",
+            "anecdote": "Les maisons y étaient toutes semblables, avec un petit jardin à l'arrière. Les compagnies logeaient ainsi les familles de mineurs près des puits.",
+            "answers": {
+              "des-corons": "Des corons",
+              "des-longeres": "Des longères",
+              "des-chaumieres": "Des chaumières",
+              "des-beguinages": "Des béguinages"
+            }
+          },
+          "carillon": {
+            "prompt": "Comment s'appelle le musicien qui joue des cloches d'un beffroi à l'aide d'un clavier frappé avec les poings ?",
+            "hint": "Ce clavier s'appelle aussi un clavier à bâtons.",
+            "anecdote": "Le Nord compte de nombreux beffrois équipés de cloches. Douai possède une école réputée pour former ces musiciens.",
+            "answers": {
+              "le-carillonneur": "Le carillonneur",
+              "le-sonneur-de-cor": "Le sonneur de cor",
+              "l-organiste": "L'organiste",
+              "le-sonneur-de-trompe": "Le sonneur de trompe"
+            }
+          },
+          "dentelle": {
+            "prompt": "Sur quels métiers, venus d'Angleterre, la dentelle de Calais est-elle fabriquée, comme celui que l'on voit ici ?",
+            "hint": "Ils portent le nom d'un mécanicien anglais du début du XIXe siècle.",
+            "anecdote": "Introduits en contrebande au début du XIXe siècle, ces métiers sont si grands qu'ils pèsent plusieurs tonnes. La ville a ouvert en 2009 une Cité consacrée à la dentelle et à la mode.",
+            "answers": {
+              "les-metiers-leavers": "Les métiers Leavers",
+              "les-rouets": "Les rouets",
+              "les-carreaux-a-fuseaux": "Les carreaux à fuseaux",
+              "les-metiers-a-tricoter": "Les métiers à tricoter"
+            }
+          },
+          "desvres": {
+            "prompt": "Quelle petite ville du Boulonnais est réputée pour sa faïence peinte à la main ?",
+            "hint": "Elle se trouve à moins de vingt kilomètres au sud-est de Boulogne-sur-Mer.",
+            "anecdote": "La ville produit des carreaux, des assiettes et des vases depuis le XVIIIe siècle. Un musée lui est consacré.",
+            "answers": {
+              "samer": "Samer",
+              "marquise": "Marquise",
+              "wimereux": "Wimereux"
+            }
+          },
+          "lampe": {
+            "prompt": "Quel objet, que voit-on ici, permettait aux mineurs de s'éclairer et de repérer le grisou au fond des puits ?",
+            "hint": "La flamme changeait de couleur quand le gaz était présent.",
+            "anecdote": "Cet objet était à flamme protégée par un grillage. Il a été remplacé plus tard par des lampes électriques fixées au casque.",
+            "answers": {
+              "une-lampe-de-surete": "Une lampe de sûreté",
+              "une-lanterne-de-voiture": "Une lanterne de voiture",
+              "une-bougie": "Une bougie",
+              "une-lampe-a-huile-romaine": "Une lampe à huile romaine"
+            }
+          },
+          "charbon": {
+            "prompt": "Quelle roche noire a été extraite pendant près de trois siècles dans le bassin minier du Nord-Pas-de-Calais ?",
+            "hint": "On la brûlait pour chauffer les maisons et faire tourner les usines.",
+            "anecdote": "Le dernier puits de la région a fermé en 1990, à Oignies. Des centaines de milliers de mineurs y ont travaillé.",
+            "answers": {
+              "la-houille": "La houille",
+              "le-minerai-de-fer": "Le minerai de fer",
+              "le-sel-gemme": "Le sel gemme",
+              "l-ardoise": "L'ardoise"
+            }
+          },
+          "gueules-noires": {
+            "prompt": "Quel surnom donnait-on aux mineurs, à cause de la poussière de charbon sur leur visage ?",
+            "hint": "Ce surnom évoque la couleur de leur peau à la sortie du puits.",
+            "anecdote": "Ils descendaient chaque jour à des centaines de mètres sous terre. Beaucoup étaient venus de Pologne, d'Italie ou du Maroc.",
+            "answers": {
+              "les-gueules-noires": "Les gueules noires",
+              "les-cols-bleus": "Les cols bleus",
+              "les-casques-jaunes": "Les casques jaunes",
+              "les-sabots-de-bois": "Les sabots de bois"
+            }
+          },
+          "lin": {
+            "prompt": "Dans quelle rivière de Flandre, surnommée la rivière d'or, faisait-on autrefois rouir le lin que l'on voit ici ?",
+            "hint": "Elle passe à Armentières, puis file vers Gand.",
+            "anecdote": "Le rouissage dans ses eaux donnait une fibre très recherchée. La France est aujourd'hui le premier producteur mondial de lin.",
+            "answers": {
+              "la-lys": "La Lys",
+              "l-escaut": "L'Escaut",
+              "la-deule": "La Deûle",
+              "la-scarpe": "La Scarpe"
+            }
+          },
+          "filature": {
+            "prompt": "Quelle matière les grandes filatures de Roubaix et de Tourcoing travaillaient-elles surtout au XIXe siècle ?",
+            "hint": "Elle venait de moutons d'Australie et d'Argentine.",
+            "anecdote": "Les deux villes étaient alors l'un des premiers centres mondiaux de cette industrie. Leurs usines de brique sont devenues des logements et des musées.",
+            "answers": {
+              "la-laine": "La laine",
+              "la-soie": "La soie",
+              "le-coton": "Le coton",
+              "le-jute": "Le jute"
+            }
+          },
+          "fumage": {
+            "prompt": "Comment appelle-t-on les ateliers où l'on fume les harengs, à Boulogne-sur-Mer ?",
+            "hint": "Ce mot vient de l'adjectif qui désigne un hareng salé et fumé.",
+            "anecdote": "Les poissons y sont pendus sur des baguettes, au-dessus de feux de sciure de chêne ou de hêtre.",
+            "answers": {
+              "des-saurisseries": "Des saurisseries",
+              "des-conserveries": "Des conserveries",
+              "des-salines": "Des salines",
+              "des-fumeries-d-opium": "Des fumeries d'opium"
+            }
+          },
+          "moulins": {
+            "prompt": "Quel type de moulin à vent, dont toute la cabine de bois tourne pour faire face au vent, est typique de la Flandre ?",
+            "hint": "Le meunier oriente toute la cabine en poussant une longue queue de bois.",
+            "anecdote": "On en comptait des milliers en Flandre au XIXe siècle. Quelques-uns tournent encore, comme celui de Cassel.",
+            "answers": {
+              "le-moulin-sur-pivot": "Le moulin sur pivot",
+              "le-moulin-tour": "Le moulin tour",
+              "le-moulin-cavier": "Le moulin cavier",
+              "le-moulin-hollandais": "Le moulin hollandais"
+            }
+          },
+          "pipes": {
+            "prompt": "Quel objet d'argile blanche était fabriqué par millions à Saint-Omer au XIXe siècle, avant d'être exporté dans le monde entier ?",
+            "hint": "On le remplissait de tabac.",
+            "anecdote": "Leurs fourneaux étaient souvent moulés en forme de têtes de personnages célèbres. Un musée de Saint-Omer en conserve une grande collection.",
+            "answers": {
+              "des-pipes": "Des pipes",
+              "des-tuiles": "Des tuiles",
+              "des-briques": "Des briques",
+              "des-bouteilles": "Des bouteilles"
+            }
+          },
+          "carte-desvres": {
+            "prompt": "Touchez le département où se trouve Desvres, la ville de la faïence.",
+            "hint": "Desvres se trouve dans le Boulonnais, à l'est de Boulogne-sur-Mer.",
+            "anecdote": "La ville a compté jusqu'à une dizaine de faïenceries. Elle organise chaque année des fêtes autour de la céramique."
+          },
+          "de-gaulle": {
+            "prompt": "Dans quelle rue de Lille se trouve la maison natale de Charles de Gaulle ?",
+            "hint": "Son nom évoque une jeune fille de sang royal.",
+            "anecdote": "Il y est né le 22 novembre 1890, dans la maison de ses grands-parents. Elle est aujourd'hui un musée.",
+            "answers": {
+              "la-rue-princesse": "La rue Princesse",
+              "la-rue-esquermoise": "La rue Esquermoise",
+              "la-rue-de-bethune": "La rue de Béthune",
+              "la-rue-de-la-monnaie": "La rue de la Monnaie"
+            }
+          },
+          "robespierre": {
+            "prompt": "Quel révolutionnaire, surnommé l'Incorruptible, est né à Arras en 1758 ?",
+            "hint": "Il a dirigé le Comité de salut public pendant la Terreur.",
+            "anecdote": "Avocat à Arras avant la Révolution, il a été élu député aux états généraux de 1789. Il a été guillotiné en 1794.",
+            "answers": {
+              "maximilien-de-robespierre": "Maximilien de Robespierre",
+              "georges-danton": "Georges Danton",
+              "camille-desmoulins": "Camille Desmoulins",
+              "jean-paul-marat": "Jean-Paul Marat"
+            }
+          },
+          "matisse": {
+            "prompt": "Quel peintre, maître des couleurs vives, est né au Cateau-Cambrésis en 1869 ?",
+            "hint": "Il est connu pour ses papiers découpés et pour La Danse.",
+            "anecdote": "Il a offert à sa ville natale des œuvres pour un musée, ouvert de son vivant en 1952.",
+            "answers": {
+              "henri-matisse": "Henri Matisse",
+              "claude-monet": "Claude Monet",
+              "paul-cezanne": "Paul Cézanne",
+              "pablo-picasso": "Pablo Picasso"
+            }
+          },
+          "bleriot": {
+            "prompt": "Quel aviateur, né à Cambrai, a traversé le premier la Manche en avion, le 25 juillet 1909 ?",
+            "hint": "Il a décollé près de Calais et s'est posé à Douvres, en 37 minutes.",
+            "anecdote": "Son avion, le numéro XI, a été construit dans ses ateliers. Un monument marque son point de départ, à Sangatte.",
+            "answers": {
+              "louis-bleriot": "Louis Blériot",
+              "roland-garros": "Roland Garros",
+              "clement-ader": "Clément Ader",
+              "henri-farman": "Henri Farman"
+            }
+          },
+          "jean-bart": {
+            "prompt": "Quel corsaire de Louis XIV, né à Dunkerque en 1650, a sa statue au centre de sa ville natale ?",
+            "hint": "Il a été anobli par le roi pour avoir capturé de nombreux navires anglais et hollandais.",
+            "anecdote": "Il a sauvé la France de la famine en 1694, en reprenant un convoi de blé aux Hollandais.",
+            "answers": {
+              "jean-bart": "Jean Bart",
+              "robert-surcouf": "Robert Surcouf",
+              "rene-duguay-trouin": "René Duguay-Trouin",
+              "jacques-cassard": "Jacques Cassard"
+            }
+          },
+          "watteau": {
+            "prompt": "Quel peintre de Valenciennes, mort en 1721, est célèbre pour ses scènes de fêtes galantes ?",
+            "hint": "L'un de ses tableaux montre un pèlerinage à l'île de Cythère.",
+            "anecdote": "Il a fait l'essentiel de sa carrière à Paris. Une statue lui rend hommage dans sa ville natale.",
+            "answers": {
+              "antoine-watteau": "Antoine Watteau",
+              "jean-honore-fragonard": "Jean-Honoré Fragonard",
+              "francois-boucher": "François Boucher",
+              "nicolas-lancret": "Nicolas Lancret"
+            }
+          },
+          "carpeaux": {
+            "prompt": "Quel sculpteur de Valenciennes a créé le groupe de La Danse, sur la façade de l'opéra Garnier ?",
+            "hint": "Il a aussi sculpté la fontaine de l'Observatoire, à Paris.",
+            "anecdote": "Né en 1827, il était le fils d'un maçon. Son œuvre a fait scandale à son inauguration, en 1869.",
+            "answers": {
+              "jean-baptiste-carpeaux": "Jean-Baptiste Carpeaux",
+              "auguste-rodin": "Auguste Rodin",
+              "francois-rude": "François Rude",
+              "antoine-bourdelle": "Antoine Bourdelle"
+            }
+          },
+          "internationale": {
+            "prompt": "Quel ouvrier musicien a composé à Lille, en 1888, la musique de L'Internationale ?",
+            "hint": "Il était d'origine belge, né à Gand.",
+            "anecdote": "Les paroles avaient été écrites par Eugène Pottier en 1871, après la Commune de Paris. Le chant a été joué pour la première fois à Lille.",
+            "answers": {
+              "pierre-de-geyter": "Pierre De Geyter",
+              "eugene-pottier": "Eugène Pottier",
+              "jean-baptiste-clement": "Jean-Baptiste Clément",
+              "rouget-de-lisle": "Rouget de Lisle"
+            }
+          },
+          "bcg": {
+            "prompt": "Quel vaccin contre la tuberculose a été mis au point à l'Institut Pasteur de Lille par Albert Calmette et Camille Guérin ?",
+            "hint": "Son nom est formé des initiales de bacille, de Calmette et de Guérin.",
+            "anecdote": "Il a été utilisé pour la première fois chez un enfant en 1921. Il est encore employé dans le monde entier.",
+            "answers": {
+              "le-bcg": "Le BCG",
+              "le-vaccin-contre-la-rage": "Le vaccin contre la rage",
+              "le-vaccin-contre-la-variole": "Le vaccin contre la variole",
+              "le-vaccin-contre-la-polio": "Le vaccin contre la polio"
+            }
+          },
+          "pasteur": {
+            "prompt": "Quelle fonction Louis Pasteur a-t-il occupée à Lille à partir de 1854 ?",
+            "hint": "Il avait alors à peine plus de trente ans.",
+            "anecdote": "À la demande d'un industriel de la betterave, il y a étudié la fermentation. L'institut lillois qui porte son nom a été fondé en 1894.",
+            "answers": {
+              "doyen-de-la-faculte-des-sciences": "Doyen de la faculté des sciences",
+              "maire-de-lille": "Maire de Lille",
+              "prefet-du-nord": "Préfet du Nord",
+              "directeur-de-l-hopital": "Directeur de l'hôpital"
+            }
+          },
+          "desbordes-valmore": {
+            "prompt": "Quelle poétesse romantique est née à Douai en 1786 ?",
+            "hint": "Paul Verlaine l'admirait beaucoup.",
+            "anecdote": "Elle a aussi été comédienne et chanteuse. Une statue lui rend hommage dans sa ville natale.",
+            "answers": {
+              "marceline-desbordes-valmore": "Marceline Desbordes-Valmore",
+              "george-sand": "George Sand",
+              "louise-labe": "Louise Labé",
+              "anna-de-noailles": "Anna de Noailles"
+            }
+          },
+          "kopa": {
+            "prompt": "Quel footballeur, fils de mineur né à Nœux-les-Mines, a remporté le Ballon d'or en 1958 ?",
+            "hint": "Il est descendu dans la mine dès l'adolescence, avant de briller au Stade de Reims.",
+            "anecdote": "Il a été le premier joueur français à recevoir ce trophée. Il jouait alors au Real Madrid.",
+            "answers": {
+              "raymond-kopa": "Raymond Kopa",
+              "just-fontaine": "Just Fontaine",
+              "michel-platini": "Michel Platini",
+              "jean-pierre-papin": "Jean-Pierre Papin"
+            }
+          },
+          "carte-robespierre": {
+            "prompt": "Touchez le département où se trouve Arras, ville natale de Robespierre.",
+            "hint": "Arras en est la préfecture.",
+            "anecdote": "La maison où il a vécu à Arras, avec sa sœur Charlotte, abrite aujourd'hui un musée."
+          },
+          "carte-matisse": {
+            "prompt": "Touchez le département où se trouve Le Cateau-Cambrésis, ville natale d'Henri Matisse.",
+            "hint": "La ville se trouve dans le Cambrésis, à l'est de Cambrai.",
+            "anecdote": "Le musée Matisse est installé dans l'ancien palais des archevêques de Cambrai."
+          }
+        },
+        "grand-voyage": {
+          "name": "Le grand voyage",
+          "description": "De Bouvines à Azincourt, des Bourgeois de Calais au Camp du Drap d'Or, des comtes de Flandre aux ducs de Bourgogne, de la catastrophe de Courrières aux champs de bataille de l'Artois, de Dunkerque 1940 au tunnel sous la Manche : mille ans d'histoire au nord de la France.",
+          "bouvines": {
+            "prompt": "Quel empereur germanique Philippe Auguste a-t-il vaincu à Bouvines, près de Lille, en 1214 ?",
+            "hint": "Il était l'allié du roi d'Angleterre Jean sans Terre, son oncle.",
+            "anecdote": "Le comte de Flandre Ferrand, fait prisonnier, a été conduit à Paris enchaîné. Cette victoire a renforcé le pouvoir royal.",
+            "answers": {
+              "otton-iv": "Otton IV",
+              "frederic-barberousse": "Frédéric Barberousse",
+              "frederic-ii": "Frédéric II",
+              "henri-vi": "Henri VI"
+            }
+          },
+          "carte-bouvines": {
+            "prompt": "Touchez le département où se trouve Bouvines, lieu de la victoire de 1214.",
+            "hint": "Bouvines se trouve au sud-est de Lille, près de la frontière belge.",
+            "anecdote": "Un vitrail de l'église du village raconte la bataille en vingt et un tableaux."
+          },
+          "jeanne-flandre": {
+            "prompt": "Quelle comtesse de Flandre, qui a gouverné au XIIIe siècle, a fondé l'hospice Comtesse de Lille ?",
+            "hint": "Son mari, Ferrand, a été fait prisonnier à Bouvines.",
+            "anecdote": "Elle a gouverné le comté pendant la captivité de son mari, puis seule. Elle a fondé de nombreux hôpitaux et couvents.",
+            "answers": {
+              "jeanne-de-constantinople": "Jeanne de Constantinople",
+              "marguerite-de-flandre": "Marguerite de Flandre",
+              "alienor-d-aquitaine": "Aliénor d'Aquitaine",
+              "mathilde-de-toscane": "Mathilde de Toscane"
+            }
+          },
+          "tapisserie-arras": {
+            "prompt": "Quel art a rendu Arras célèbre dans toute l'Europe au Moyen Âge, au point que les Italiens appellent ses œuvres arazzi ?",
+            "hint": "Les ateliers tissaient de grandes scènes de chasse ou de bataille.",
+            "anecdote": "Ces grandes œuvres de laine et de soie décoraient les châteaux. Les ducs de Bourgogne en étaient de grands commanditaires.",
+            "answers": {
+              "la-tapisserie": "La tapisserie",
+              "l-enluminure": "L'enluminure",
+              "l-orfevrerie": "L'orfèvrerie",
+              "le-vitrail": "Le vitrail"
+            }
+          },
+          "siege-calais": {
+            "prompt": "Quel roi d'Angleterre a assiégé Calais pendant près d'un an, en 1346 et 1347 ?",
+            "hint": "Il venait de remporter la bataille de Crécy.",
+            "anecdote": "Six bourgeois se sont livrés à lui, la corde au cou. La reine Philippa de Hainaut a obtenu qu'il les épargne.",
+            "answers": {
+              "edouard-iii": "Édouard III",
+              "henri-v": "Henri V",
+              "richard-coeur-de-lion": "Richard Cœur de Lion",
+              "henri-viii": "Henri VIII"
+            }
+          },
+          "eustache": {
+            "prompt": "Comment s'appelait le plus riche des Bourgeois de Calais, le premier à se proposer pour se livrer au roi d'Angleterre ?",
+            "hint": "Le chroniqueur Froissart raconte son geste.",
+            "anecdote": "Il est au centre du groupe sculpté par Rodin. Le récit de Froissart a fait de lui un héros de l'histoire de France.",
+            "answers": {
+              "eustache-de-saint-pierre": "Eustache de Saint-Pierre",
+              "jean-de-fiennes": "Jean de Fiennes",
+              "etienne-marcel": "Étienne Marcel",
+              "jacques-coeur": "Jacques Cœur"
+            }
+          },
+          "calais-anglaise": {
+            "prompt": "Jusqu'en quelle année Calais est-elle restée anglaise, après sa prise en 1347 ?",
+            "hint": "La ville a été reprise par le duc de Guise, sous le règne d'Henri II.",
+            "anecdote": "Pendant plus de deux siècles, la ville a été la porte de l'Angleterre sur le continent. La reine Marie Tudor aurait dit que le nom de Calais serait gravé dans son cœur.",
+            "answers": {
+              "jusqu-en-1558": "Jusqu'en 1558",
+              "jusqu-en-1453": "Jusqu'en 1453",
+              "jusqu-en-1415": "Jusqu'en 1415",
+              "jusqu-en-1659": "Jusqu'en 1659"
+            }
+          },
+          "azincourt": {
+            "prompt": "Quelle arme, maniée par des milliers de soldats anglais et gallois, a donné la victoire à Henri V à Azincourt, en 1415 ?",
+            "hint": "Taillée dans le bois d'if, elle mesurait presque la taille d'un homme.",
+            "anecdote": "Les chevaliers français, alourdis par leurs armures, se sont enlisés dans la boue d'un champ labouré.",
+            "answers": {
+              "l-arc-long": "L'arc long",
+              "l-arbalete": "L'arbalète",
+              "le-canon": "Le canon",
+              "la-pique": "La pique"
+            }
+          },
+          "carte-azincourt": {
+            "prompt": "Touchez le département où se trouve Azincourt.",
+            "hint": "Ce village se trouve entre Saint-Omer et Hesdin.",
+            "anecdote": "Un centre d'interprétation, dans le village, raconte la bataille et la vie des archers."
+          },
+          "faisan": {
+            "prompt": "Quel grand banquet le duc de Bourgogne Philippe le Bon a-t-il donné à Lille en 1454 ?",
+            "hint": "Les chevaliers y ont prononcé leurs vœux sur un oiseau.",
+            "anecdote": "Ils ont juré de partir en croisade contre les Ottomans, qui venaient de prendre Constantinople. La croisade n'a jamais eu lieu.",
+            "answers": {
+              "le-banquet-du-faisan": "Le banquet du Faisan",
+              "le-banquet-des-cendres": "Le banquet des Cendres",
+              "le-festin-de-balthazar": "Le festin de Balthazar",
+              "le-banquet-de-la-toison": "Le banquet de la Toison"
+            }
+          },
+          "drap-or": {
+            "prompt": "Quelle rencontre fastueuse a réuni François Ier et Henri VIII entre Guînes et Ardres, en 1520 ?",
+            "hint": "Les deux rois y ont dressé des tentes couvertes d'étoffes précieuses.",
+            "anecdote": "Elle a duré près de trois semaines, avec des tournois et des banquets. Mais elle n'a pas permis de conclure une alliance.",
+            "answers": {
+              "le-camp-du-drap-d-or": "Le Camp du Drap d'Or",
+              "la-paix-des-dames": "La paix des Dames",
+              "l-entrevue-de-bayonne": "L'entrevue de Bayonne",
+              "le-traite-de-cambrai": "Le traité de Cambrai"
+            }
+          },
+          "therouanne": {
+            "prompt": "Quelle ville épiscopale du Pas-de-Calais Charles Quint a-t-il fait raser en 1553 ?",
+            "hint": "Ses champs ont été labourés et semés de sel, selon la légende.",
+            "anecdote": "Seuls des vestiges de sa cathédrale subsistent. Son évêché a été partagé entre Saint-Omer, Boulogne et Ypres.",
+            "answers": {
+              "therouanne": "Thérouanne",
+              "hesdin": "Hesdin"
+            }
+          },
+          "lille-1667": {
+            "prompt": "Quel traité, signé en 1668, a fait de Lille une ville française, un an après sa prise par Louis XIV ?",
+            "hint": "Il porte le nom d'une ville d'Allemagne, ancienne résidence de Charlemagne.",
+            "anecdote": "Le roi a confié à Vauban la construction de la citadelle. Lille est devenue la capitale de la province de Flandre.",
+            "answers": {
+              "le-traite-d-aix-la-chapelle": "Le traité d'Aix-la-Chapelle",
+              "le-traite-de-nimegue": "Le traité de Nimègue",
+              "le-traite-des-pyrenees": "Le traité des Pyrénées",
+              "le-traite-d-utrecht": "Le traité d'Utrecht"
+            }
+          },
+          "dunkerque-1662": {
+            "prompt": "À quel souverain Louis XIV a-t-il racheté Dunkerque en 1662 ?",
+            "hint": "Ce souverain avait retrouvé son trône deux ans plus tôt.",
+            "anecdote": "Dunkerque avait été donnée aux Anglais après la bataille des Dunes de 1658. Le roi l'a achetée cinq millions de livres.",
+            "answers": {
+              "charles-ii-d-angleterre": "Charles II d'Angleterre",
+              "philippe-iv-d-espagne": "Philippe IV d'Espagne",
+              "guillaume-d-orange": "Guillaume d'Orange",
+              "jacques-ii-d-angleterre": "Jacques II d'Angleterre"
+            }
+          },
+          "siege-1792": {
+            "prompt": "Quelle armée a bombardé Lille en 1792, sans parvenir à prendre la ville ?",
+            "hint": "C'était au début des guerres de la Révolution.",
+            "anecdote": "La colonne de la Déesse, sur la Grand'Place, rappelle cette résistance. Un barbier aurait rasé ses clients avec un éclat d'obus.",
+            "answers": {
+              "l-armee-autrichienne": "L'armée autrichienne",
+              "l-armee-prussienne": "L'armée prussienne",
+              "l-armee-anglaise": "L'armée anglaise",
+              "l-armee-espagnole": "L'armée espagnole"
+            }
+          },
+          "camp-boulogne": {
+            "prompt": "Quel monument de 53 mètres, près de Boulogne-sur-Mer, rappelle le camp où Napoléon préparait l'invasion de l'Angleterre, de 1803 à 1805 ?",
+            "hint": "Son nom est celui des troupes rassemblées sur la côte.",
+            "anecdote": "Une statue de l'empereur la surmonte. Napoléon a remis des Légions d'honneur à ses soldats près de Boulogne, en août 1804.",
+            "answers": {
+              "la-colonne-de-la-grande-armee": "La colonne de la Grande Armée",
+              "la-colonne-vendome": "La colonne Vendôme",
+              "la-colonne-de-juillet": "La colonne de Juillet",
+              "l-arc-de-triomphe-du-carrousel": "L'arc de triomphe du Carrousel"
+            }
+          },
+          "courrieres": {
+            "prompt": "Quelle catastrophe minière, survenue le 10 mars 1906, est la plus meurtrière de l'histoire de l'Europe ?",
+            "hint": "Un coup de poussière a ravagé plus de cent kilomètres de galeries.",
+            "anecdote": "Elle a fait 1 099 morts. Des rescapés sont remontés vingt jours après l'explosion.",
+            "answers": {
+              "la-catastrophe-de-courrieres": "La catastrophe de Courrières",
+              "la-catastrophe-de-lievin": "La catastrophe de Liévin",
+              "le-coup-de-grisou-de-saint-etienne": "Le coup de grisou de Saint-Étienne",
+              "la-catastrophe-de-marcinelle": "La catastrophe de Marcinelle"
+            }
+          },
+          "germinal": {
+            "prompt": "Quel roman d'Émile Zola, publié en 1885, raconte la grève des mineurs d'une cité du Nord ?",
+            "hint": "Son titre est le nom d'un mois de printemps du calendrier républicain.",
+            "anecdote": "Zola est descendu dans des puits près de Valenciennes pour se documenter. Le héros, Étienne Lantier, mène une grande grève à Montsou, une cité imaginaire.",
+            "answers": {
+              "germinal": "Germinal",
+              "l-assommoir": "L'Assommoir",
+              "la-bete-humaine": "La Bête humaine",
+              "au-bonheur-des-dames": "Au Bonheur des Dames"
+            }
+          },
+          "bassin-minier": {
+            "prompt": "En quelle année le bassin minier du Nord-Pas-de-Calais a-t-il été inscrit au patrimoine mondial de l'UNESCO ?",
+            "hint": "L'inscription réunit terrils, chevalements, cités ouvrières et écoles.",
+            "anecdote": "Elle couvre plus de cent sites, sur 120 kilomètres d'ouest en est, de la région de Béthune jusqu'à celle de Valenciennes.",
+            "answers": {
+              "en-2012": "En 2012",
+              "en-1999": "En 1999",
+              "en-2005": "En 2005",
+              "en-2021": "En 2021"
+            }
+          },
+          "vimy": {
+            "prompt": "Quel pays a construit ce mémorial à Vimy, en hommage à ses soldats tombés en avril 1917 ?",
+            "hint": "Ses soldats venaient d'outre-Atlantique, et la feuille d'érable est leur emblème.",
+            "anecdote": "Le terrain a été offert par la France. Le mémorial, en pierre blanche, a été inauguré en 1936.",
+            "answers": {
+              "le-canada": "Le Canada",
+              "l-australie": "L'Australie",
+              "la-nouvelle-zelande": "La Nouvelle-Zélande",
+              "les-etats-unis": "Les États-Unis"
+            }
+          },
+          "lorette": {
+            "prompt": "Quelle colline de l'Artois abrite la plus grande nécropole militaire française, où reposent environ 40 000 soldats ?",
+            "hint": "Une basilique et une tour-lanterne se dressent au sommet.",
+            "anecdote": "Depuis 2014, un anneau de la mémoire porte les noms de près de 580 000 soldats de toutes nationalités morts dans la région.",
+            "answers": {
+              "notre-dame-de-lorette": "Notre-Dame-de-Lorette",
+              "le-chemin-des-dames": "Le Chemin des Dames",
+              "le-mort-homme": "Le Mort-Homme",
+              "le-mont-kemmel": "Le mont Kemmel"
+            }
+          },
+          "wellington": {
+            "prompt": "Quels soldats ont aménagé les carrières souterraines d'Arras pendant la Grande Guerre, en leur donnant les noms de leurs villes ?",
+            "hint": "Ces mineurs venaient de l'autre bout du monde.",
+            "anecdote": "Ces tunnels ont permis à 24 000 soldats britanniques de surprendre l'ennemi le 9 avril 1917.",
+            "answers": {
+              "des-neo-zelandais": "Des Néo-Zélandais",
+              "des-canadiens": "Des Canadiens",
+              "des-ecossais": "Des Écossais",
+              "des-australiens": "Des Australiens"
+            }
+          },
+          "le-quesnoy": {
+            "prompt": "Quels soldats ont libéré la ville fortifiée du Quesnoy en novembre 1918, en escaladant ses remparts avec une échelle ?",
+            "hint": "Leur pays se trouve aux antipodes, en Océanie.",
+            "anecdote": "La ville a été libérée sans bombardement. Un musée de leur pays y a ouvert en 2023.",
+            "answers": {
+              "des-neo-zelandais": "Des Néo-Zélandais",
+              "des-americains": "Des Américains",
+              "des-portugais": "Des Portugais",
+              "des-indiens": "Des Indiens"
+            }
+          },
+          "fromelles": {
+            "prompt": "Quels soldats ont subi, à Fromelles, en juillet 1916, la journée la plus meurtrière de l'histoire de leur armée ?",
+            "hint": "Leur pays a pour emblème le kangourou.",
+            "anecdote": "En une nuit, plus de 5 500 d'entre eux ont été tués, blessés ou capturés. Un cimetière a été ouvert en 2010 pour des corps retrouvés dans une fosse.",
+            "answers": {
+              "des-australiens": "Des Australiens",
+              "des-canadiens": "Des Canadiens",
+              "des-neo-zelandais": "Des Néo-Zélandais",
+              "des-sud-africains": "Des Sud-Africains"
+            }
+          },
+          "cambrai-chars": {
+            "prompt": "Quelle arme a été employée en masse pour la première fois par les Britanniques lors de la bataille de Cambrai, en novembre 1917 ?",
+            "hint": "Plus de quatre cents de ces engins blindés ont franchi les tranchées.",
+            "anecdote": "L'un d'eux, retrouvé enterré en 1998 à Flesquières, est exposé dans un musée près du lieu de la bataille.",
+            "answers": {
+              "le-char-d-assaut": "Le char d'assaut",
+              "l-avion-de-bombardement": "L'avion de bombardement",
+              "le-gaz-moutarde": "Le gaz moutarde",
+              "le-lance-flammes": "Le lance-flammes"
+            }
+          },
+          "treve-noel": {
+            "prompt": "Que s'est-il passé à Noël 1914 près de Frelinghien et d'Armentières, entre soldats britanniques et allemands ?",
+            "hint": "Ils sont sortis des tranchées sans armes.",
+            "anecdote": "Les soldats ont échangé des cadeaux et, selon les témoignages, joué au football. Un monument rappelle cette trêve.",
+            "answers": {
+              "une-treve-spontanee": "Une trêve spontanée",
+              "une-attaque-au-gaz": "Une attaque au gaz",
+              "une-mutinerie": "Une mutinerie",
+              "un-echange-de-prisonniers": "Un échange de prisonniers"
+            }
+          },
+          "dynamo": {
+            "prompt": "Comment s'appelait l'opération qui a évacué plus de 330 000 soldats alliés des plages de Dunkerque, en 1940 ?",
+            "hint": "Son nom est celui d'une machine qui produit de l'électricité.",
+            "anecdote": "Du 26 mai au 4 juin, des navires de guerre et des centaines de petits bateaux civils ont traversé la mer du Nord.",
+            "answers": {
+              "operation-dynamo": "Opération Dynamo",
+              "operation-overlord": "Opération Overlord",
+              "operation-torch": "Opération Torch",
+              "operation-market-garden": "Opération Market Garden"
+            }
+          },
+          "coupole": {
+            "prompt": "Quelle arme secrète les nazis voulaient-ils lancer sur Londres depuis l'immense bunker de La Coupole, à Helfaut ?",
+            "hint": "C'était une fusée, la première de l'histoire à atteindre l'espace.",
+            "anecdote": "Le bunker n'a jamais servi, grâce aux bombardements alliés. Il abrite aujourd'hui un centre d'histoire et un planétarium.",
+            "answers": {
+              "le-v2": "Le V2",
+              "le-v1": "Le V1",
+              "la-bombe-atomique": "La bombe atomique",
+              "le-canon-de-paris": "Le canon de Paris"
+            }
+          },
+          "eperlecques": {
+            "prompt": "Dans quelle forêt du Pas-de-Calais se dresse ce blockhaus géant, bâti par des prisonniers pour lancer des fusées ?",
+            "hint": "La forêt porte le nom d'un village voisin de Saint-Omer.",
+            "anecdote": "Les bombardements alliés de 1943 ont empêché sa mise en service. Ses murs de béton mesurent plusieurs mètres d'épaisseur.",
+            "answers": {
+              "la-foret-d-eperlecques": "La forêt d'Éperlecques",
+              "la-foret-de-mormal": "La forêt de Mormal",
+              "la-foret-de-clairmarais": "La forêt de Clairmarais",
+              "la-foret-de-guines": "La forêt de Guînes"
+            }
+          },
+          "carte-coupole": {
+            "prompt": "Touchez le département où se trouve La Coupole, le bunker d'Helfaut.",
+            "hint": "Helfaut se trouve près de Saint-Omer.",
+            "anecdote": "La coupole de béton, de 71 mètres de diamètre, pèse 55 000 tonnes."
+          },
+          "fusilles-arras": {
+            "prompt": "Dans quelle ville du Pas-de-Calais 218 résistants ont-ils été fusillés par les nazis, de 1941 à 1944, dans les fossés de la citadelle ?",
+            "hint": "Cette ville est la préfecture du département.",
+            "anecdote": "Le lieu est appelé le mur des Fusillés. Une plaque y porte le nom de chaque victime, de toutes origines."
+          },
+          "atrebates": {
+            "prompt": "Quel peuple gaulois a donné son nom à la ville d'Arras ?",
+            "hint": "Les Romains appelaient leur ville Nemetacum.",
+            "anecdote": "Le nom de l'Artois vient lui aussi de ce peuple, dont le territoire correspondait à peu près à cette province.",
+            "answers": {
+              "les-atrebates": "Les Atrébates",
+              "les-morins": "Les Morins",
+              "les-menapiens": "Les Ménapiens",
+              "les-ambiens": "Les Ambiens"
+            }
+          },
+          "tunnel": {
+            "prompt": "En quelle année le tunnel sous la Manche, qui relie Coquelles à Folkestone, a-t-il été inauguré ?",
+            "hint": "Il a été inauguré par la reine Élisabeth II et le président François Mitterrand.",
+            "anecdote": "Long de 50 kilomètres, il compte trois galeries, dont une de service. C'est le plus long tunnel sous la mer du monde.",
+            "answers": {
+              "en-1994": "En 1994",
+              "en-1981": "En 1981",
+              "en-2001": "En 2001",
+              "en-1975": "En 1975"
+            }
+          },
+          "arenberg-paves": {
+            "prompt": "Quelle course cycliste, surnommée l'enfer du Nord, emprunte chaque printemps ces chemins pavés de la forêt de Raismes ?",
+            "hint": "Son arrivée se juge sur la piste du vélodrome d'une ville du textile.",
+            "anecdote": "Créée en 1896, elle traverse une trentaine de secteurs pavés. Celui de la trouée d'Arenberg est l'un des plus redoutés.",
+            "answers": {
+              "paris-roubaix": "Paris-Roubaix",
+              "le-tour-des-flandres": "Le Tour des Flandres",
+              "liege-bastogne-liege": "Liège-Bastogne-Liège",
+              "milan-san-remo": "Milan-San Remo"
+            }
+          },
+          "lille-2004": {
+            "prompt": "Quel titre Lille a-t-elle porté en 2004, avec la ville italienne de Gênes ?",
+            "hint": "Ce titre est attribué chaque année, à une ou plusieurs villes du continent.",
+            "anecdote": "La ville a organisé une année de fêtes et d'expositions. Ses maisons folies, des lieux culturels de quartier, sont nées à cette occasion.",
+            "answers": {
+              "capitale-europeenne-de-la-culture": "Capitale européenne de la culture",
+              "capitale-verte-de-l-europe": "Capitale verte de l'Europe",
+              "capitale-mondiale-du-design": "Capitale mondiale du design",
+              "ville-olympique": "Ville olympique"
+            }
+          },
+          "lumiere": {
+            "prompt": "Quel musée a été bâti à Lens sur le carreau de l'ancienne fosse 9, pour être inauguré en décembre 2012 ?",
+            "hint": "C'est une antenne d'un célèbre musée parisien.",
+            "anecdote": "Ses bâtiments de verre et d'aluminium sont posés au milieu d'un parc. La Galerie du temps y présente des œuvres de toutes les époques.",
+            "answers": {
+              "le-louvre-lens": "Le Louvre-Lens",
+              "le-centre-pompidou-metz": "Le Centre Pompidou-Metz",
+              "le-lam": "Le LaM",
+              "le-mucem": "Le MuCEM"
+            }
+          },
+          "vauban-gravelines": {
+            "prompt": "Quel ensemble de places fortes, au nord de la France, comptait près de trente villes fortifiées alignées sur deux lignes face aux Pays-Bas espagnols ?",
+            "hint": "Vauban l'a proposé à Louis XIV en 1678.",
+            "anecdote": "Gravelines, Bergues, Lille, Le Quesnoy et Maubeuge en faisaient partie. Ces deux lignes devaient protéger le royaume des invasions.",
+            "answers": {
+              "le-pre-carre": "Le Pré carré",
+              "la-ligne-maginot": "La ligne Maginot",
+              "le-mur-de-l-atlantique": "Le mur de l'Atlantique",
+              "la-ligne-siegfried": "La ligne Siegfried"
+            }
+          },
+          "rijsel": {
+            "prompt": "Quel est le nom flamand de la ville de Lille ?",
+            "hint": "Comme le nom français, il rappelle que la ville est née sur une île.",
+            "anecdote": "Le flamand reste parlé par quelques milliers de personnes en Flandre maritime, autour de Dunkerque et de Bergues.",
+            "answers": {
+              "rijsel": "Rijsel",
+              "atrecht": "Atrecht",
+              "kamerijk": "Kamerijk",
+              "duinkerke": "Duinkerke"
+            }
+          },
+          "artois": {
+            "prompt": "Quelle ancienne province avait pour capitale Arras, avant son rattachement à la France en 1659 ?",
+            "hint": "Les premiers de ces puits y ont été creusés au XIIe siècle, à Lillers.",
+            "anecdote": "Elle a donné son nom aux puits artésiens, où l'eau jaillit d'elle-même, poussée par la pression des nappes souterraines.",
+            "answers": {
+              "l-artois": "L'Artois",
+              "la-flandre": "La Flandre",
+              "le-boulonnais": "Le Boulonnais",
+              "le-hainaut": "Le Hainaut"
+            }
+          },
+          "hainaut": {
+            "prompt": "De quelle ancienne province, partagée avec la Belgique, Valenciennes faisait-elle partie avant de devenir française en 1678 ?",
+            "hint": "Sa partie belge a pour chef-lieu Mons.",
+            "anecdote": "Valenciennes, Maubeuge et Le Quesnoy y ont été rattachées par le traité de Nimègue.",
+            "answers": {
+              "le-hainaut": "Le Hainaut",
+              "le-brabant": "Le Brabant",
+              "l-artois": "L'Artois",
+              "le-cambresis": "Le Cambrésis"
+            }
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "lille": {
+            "name": "Lille",
+            "description": "Ancienne grande ville du comté de Flandre, Lille est devenue française en 1668, après sa prise par Louis XIV. Ses maisons de brique et de pierre, aux façades sculptées, entourent la Grand'Place et la Vieille Bourse. Ville du textile au XIXe siècle, elle est aujourd'hui le cœur d'une métropole de plus d'un million d'habitants.",
+            "anecdote": "Chaque premier week-end de septembre, sa braderie, l'une des plus grandes d'Europe, attire des centaines de milliers de visiteurs."
+          },
+          "maroilles": {
+            "name": "Maroilles",
+            "description": "Le maroilles est un fromage de lait de vache à pâte molle et à croûte lavée, d'une couleur orangée. Il est né dans l'Avesnois, autour de l'abbaye du village de Maroilles. Pendant son affinage, sa croûte est brossée et lavée à l'eau salée. Il bénéficie d'une appellation d'origine depuis 1955.",
+            "anecdote": "Malgré son odeur puissante, sa pâte est douce. Il se cuisine en tarte, appelée la flamiche au maroilles."
+          },
+          "beffrois": {
+            "name": "Beffrois",
+            "description": "Tours civiles bâties par les villes, les beffrois abritaient les cloches, les archives et le guet. Ils symbolisaient les libertés obtenues par les bourgeois face aux seigneurs. Dix-sept beffrois du Nord et du Pas-de-Calais sont inscrits au patrimoine mondial de l'UNESCO, avec ceux de Belgique et de Picardie.",
+            "anecdote": "Celui de l'hôtel de ville de Lille, haut de 104 mètres, est le plus haut beffroi civil d'Europe."
+          },
+          "bassin-minier": {
+            "name": "Bassin minier",
+            "description": "Pendant près de trois siècles, le charbon a été extrait du sous-sol du Nord et du Pas-de-Calais. Les mines ont laissé des terrils, des chevalements, des cités de corons et des écoles. La dernière fosse, à Oignies, a fermé en 1990. Le bassin minier est inscrit au patrimoine mondial de l'UNESCO depuis 2012.",
+            "anecdote": "Les terrils jumeaux de Loos-en-Gohelle culminent à environ 186 mètres d'altitude et comptent parmi les plus hauts d'Europe."
+          },
+          "bourgeois-calais": {
+            "name": "Bourgeois de Calais",
+            "description": "En 1347, après près d'un an de siège, six bourgeois de Calais se sont livrés au roi d'Angleterre Édouard III pour sauver leur ville. Ils se sont présentés en chemise, la corde au cou. La reine Philippa de Hainaut a obtenu qu'ils soient épargnés. Auguste Rodin a sculpté leur groupe, inauguré à Calais en 1895.",
+            "anecdote": "Rodin voulait que la statue soit posée au ras du sol, au milieu des passants. Ce vœu n'a été exaucé qu'en 1924, devant l'hôtel de ville."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur du Nord-Pas-de-Calais",
+            "description": "Réunir les cinq cartes de la collection du Nord-Pas-de-Calais."
+          },
+          "master": {
+            "name": "Maître du Nord-Pas-de-Calais",
+            "description": "Réussir le Défi Maître du Nord-Pas-de-Calais, avec au moins huit bonnes réponses sur dix."
           }
         }
       }
