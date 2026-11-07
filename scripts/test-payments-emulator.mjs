@@ -5,6 +5,7 @@ import assert from "node:assert/strict";
 import { spawn, spawnSync } from "node:child_process";
 import { mkdtempSync, readFileSync, rmSync } from "node:fs";
 import { createServer } from "node:https";
+import { createServer as createTcpServer } from "node:net";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { initializeApp as initAdmin } from "firebase-admin/app";
@@ -18,6 +19,7 @@ const PROJECT = "demo-geofr";
 const APP_ID = "geofr";
 const PORT = 3112;
 const MOLLIE_PORT = 4555;
+const SMTP_PORT = 2526;
 const BASE = `http://127.0.0.1:${PORT}`;
 const CRON_SECRET = "test-cron-secret-0123456789";
 const AUTH_HOST = process.env.FIREBASE_AUTH_EMULATOR_HOST;
@@ -106,6 +108,61 @@ async function newUser(name, { verified = true } = {}) {
   return { uid: localId, email, password, token: idToken };
 }
 
+// --- Faux SMTP : reçoit les courriels envoyés par nodemailer et les garde en mémoire ---------------------------
+const CRLF = "\r\n";
+const mails = [];
+const smtp = createTcpServer((socket) => {
+  socket.setEncoding("utf8");
+  let buffer = "";
+  let data = null;
+  let to = [];
+  const reply = (line) => socket.write(`${line}${CRLF}`);
+  reply("220 faux-smtp");
+  socket.on("data", (chunk) => {
+    buffer += chunk;
+    for (let end = buffer.indexOf(CRLF); end >= 0; end = buffer.indexOf(CRLF)) {
+      const line = buffer.slice(0, end);
+      buffer = buffer.slice(end + 2);
+      if (data !== null) {
+        if (line === ".") {
+          mails.push({ to, raw: data });
+          data = null;
+          to = [];
+          reply("250 OK");
+        } else data += `${line.startsWith("..") ? line.slice(1) : line}\n`;
+        continue;
+      }
+      const command = line.slice(0, 4).toUpperCase();
+      if (command === "EHLO") socket.write(["250-faux-smtp", "250-AUTH PLAIN", "250 8BITMIME", ""].join(CRLF));
+      else if (command === "AUTH") reply("235 OK");
+      else if (command === "RCPT") {
+        to.push(line.match(/<(.+)>/)?.[1]);
+        reply("250 OK");
+      } else if (command === "DATA") {
+        data = "";
+        reply("354 suite");
+      } else if (command === "QUIT") {
+        reply("221 fin");
+        socket.end();
+      } else reply("250 OK");
+    }
+  });
+});
+/** Courriel lisible : quoted-printable décodé en UTF-8. */
+function readable(raw) {
+  const text = raw.replace(/=\n/g, "");
+  const bytes = [];
+  for (let i = 0; i < text.length; i += 1) {
+    const hex = text.slice(i + 1, i + 3);
+    if (text[i] === "=" && /^[0-9A-F]{2}$/.test(hex)) {
+      bytes.push(parseInt(hex, 16));
+      i += 2;
+    } else bytes.push(...Buffer.from(text[i], "utf8"));
+  }
+  return Buffer.from(bytes).toString("utf8");
+}
+const mailsTo = (email) => mails.filter((mail) => mail.to.includes(email)).map((mail) => readable(mail.raw));
+
 async function api(path, token, body) {
   const response = await fetch(`${BASE}${path}`, {
     method: "POST",
@@ -128,6 +185,7 @@ async function test(name, run) {
 
 // --- Serveur Next (build web) ------------------------------------------------------------------------------------
 await new Promise((resolve) => mollie.listen(MOLLIE_PORT, "127.0.0.1", resolve));
+await new Promise((resolve) => smtp.listen(SMTP_PORT, "127.0.0.1", resolve));
 // Lancé directement par Node, sans shell : l'arrêt en fin de test vise bien le serveur.
 const next = spawn(process.execPath, ["node_modules/next/dist/bin/next", "start", "-p", String(PORT)], {
   env: {
@@ -140,6 +198,11 @@ const next = spawn(process.execPath, ["node_modules/next/dist/bin/next", "start"
     APP_BASE_URL: `http://localhost:${PORT}`,
     PAYMENTS_WEBHOOK_BASE_URL: `http://localhost:${PORT}`,
     CRON_SECRET,
+    SMTP_HOST: "127.0.0.1",
+    SMTP_PORT: String(SMTP_PORT),
+    SMTP_USER: "test",
+    SMTP_PASSWORD: "test",
+    MAIL_FROM: "GéoFR <no-reply@example.test>",
   },
   stdio: ["ignore", "pipe", "pipe"],
 });
@@ -241,6 +304,19 @@ try {
     assert.equal(rights.app, APP_ID);
   });
 
+  await test("paiement confirmé : une confirmation d'achat, sur le modèle du Mail-Kit", async () => {
+    const received = mailsTo(alice.email);
+    assert.equal(received.length, 1);
+    const [mail] = received;
+    assert.match(mail, /Merci pour votre achat/);
+    assert.match(mail, new RegExp(aliceOrder));
+    assert.match(mail, /9,99/);
+    assert.match(mail, /conditions-de-vente/);
+    assert.match(mail, /conditions-generales-de-vente-/, "conditions de vente jointes");
+    assert.doesNotMatch(mail, /{{/, "aucune variable laissée vide");
+    assert.ok((await orderOf(aliceOrder)).confirmation.sentAt, "envoi noté dans la commande");
+  });
+
   await test("notification rejouée : idempotente", async () => {
     const before = await orderOf(aliceOrder);
     const id = paymentOfOrder(aliceOrder).id;
@@ -249,6 +325,7 @@ try {
     const after = await orderOf(aliceOrder);
     assert.equal(after.history.length, before.history.length);
     assert.equal(after.updatedAt.toMillis(), before.updatedAt.toMillis());
+    assert.equal(mailsTo(alice.email).length, 1, "aucune seconde confirmation");
   });
 
   await test("second achat bloqué, aucune perte de droits", async () => {
@@ -286,6 +363,7 @@ try {
       assert.ok(!rights || rights.familyAccess === false);
       Object.assign(payment, original);
     }
+    assert.equal(mailsTo(bruno.email).length, 0, "aucune confirmation pour un paiement refusé");
     const mismatches = (await orderOf(brunoOrder)).history.filter((entry) => entry.event === "mismatch").map((entry) => entry.mismatch);
     assert.deepEqual(mismatches, ["amount", "currency", "mode"]);
   });
@@ -303,6 +381,7 @@ try {
     const rights = await entitlementsOf(bruno.uid);
     assert.equal(rights.familyAccess, true);
     assert.equal(rights.fullGameAccess, true);
+    assert.equal(mailsTo(bruno.email).length, 1);
   });
 
   await test("remboursement partiel puis total", async () => {
@@ -340,6 +419,7 @@ try {
       const rights = await entitlementsOf(chloe.uid);
       assert.ok(!rights || rights.fullGameAccess === false);
     }
+    assert.equal(mailsTo(chloe.email).length, 0, "aucune confirmation sans paiement");
   });
 
   await test("rattrapage des notifications perdues", async () => {
@@ -353,6 +433,32 @@ try {
     const rights = await entitlementsOf(david.uid);
     assert.equal(rights.familyAccess, true);
     assert.equal(rights.adsRemoved, true);
+    assert.equal(mailsTo(david.email).length, 1, "confirmation envoyée par le rattrapage");
+  });
+
+  await test("vérification d'adresse : courriel du Mail-Kit avec le lien Firebase", async () => {
+    assert.equal((await api("/api/account/verification", null)).status, 401);
+    const result = await api("/api/account/verification", nonVerifie.token);
+    assert.equal(result.status, 200, JSON.stringify(result.body));
+    assert.equal(result.body.sent, true);
+    const [mail] = mailsTo(nonVerifie.email);
+    assert.match(mail, /mode=verifyEmail/);
+    assert.match(mail, /oobCode=/);
+    assert.doesNotMatch(mail, /{{/);
+    assert.equal((await api("/api/account/verification", nonVerifie.token)).status, 429, "un envoi par minute");
+    assert.equal((await api("/api/account/verification", alice.token)).body.sent, false, "adresse déjà vérifiée : rien n'est envoyé");
+  });
+
+  await test("mot de passe oublié : même réponse pour une adresse inconnue, limite d'envoi", async () => {
+    const before = mails.length;
+    assert.equal((await api("/api/account/password-reset", null, { email: "inconnu@example.test" })).status, 200);
+    assert.equal(mails.length, before, "aucun courriel pour une adresse inconnue");
+    assert.equal((await api("/api/account/password-reset", null, { email: chloe.email })).status, 200);
+    const [mail] = mailsTo(chloe.email);
+    assert.match(mail, /mode=resetPassword/);
+    assert.doesNotMatch(mail, /{{/);
+    assert.equal((await api("/api/account/password-reset", null, { email: chloe.email })).status, 429);
+    assert.equal((await api("/api/account/password-reset", null, { email: "pas-une-adresse" })).status, 400);
   });
 
   await test("règles Firestore : lecture de ses seuls droits et commandes, aucune écriture", async () => {
@@ -373,6 +479,7 @@ try {
     await denied(addDoc(collection(db, "orders"), { uid: david.uid, app: APP_ID, editionId: "family_no_ads", status: "paid" }));
     await denied(getDoc(doc(db, `orders/${aliceOrder}`)));
     await denied(getDoc(doc(db, "autre/x")));
+    await denied(getDoc(doc(db, "mailThrottle/x")));
     await signOut(auth);
   });
 
@@ -385,5 +492,6 @@ try {
   if (process.platform === "win32" && next.pid) spawnSync("taskkill", ["/pid", String(next.pid), "/T", "/F"], { stdio: "ignore" });
   else next.kill();
   mollie.close();
+  smtp.close();
   process.exit(process.exitCode ?? 0);
 }

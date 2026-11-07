@@ -125,6 +125,7 @@ Elles se règlent dans Vercel, et en local dans `.env.local`, qui n'est jamais v
 | `APP_BASE_URL` | Serveur | Adresse du site, pour l'URL de retour |
 | `PAYMENTS_WEBHOOK_BASE_URL` | Serveur | Adresse publique joignable par Mollie, pour l'URL de notification |
 | `CRON_SECRET` | Serveur | Au moins 16 caractères, protège le rattrapage. Secret |
+| `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `MAIL_FROM`, `MAIL_REPLY_TO` | Serveur | Envoi des courriels, voir [courriels.md](courriels.md). `SMTP_PASSWORD` est secret |
 
 `NEXT_PUBLIC_PAYMENTS` est fixé par `next.config.ts` : `off` dans l'export statique.
 
@@ -139,7 +140,7 @@ Elles se règlent dans Vercel, et en local dans `.env.local`, qui n'est jamais v
 - les contrôles d'un paiement ;
 - les transitions de statut.
 
-`npm run test:payments` lance les émulateurs Auth et Firestore, un faux Mollie local en HTTPS et le serveur Next. Il faut d'abord lancer `npm run build`, puis Java pour l'émulateur Firestore. Il couvre 22 scénarios :
+`npm run test:payments` lance les émulateurs Auth et Firestore, un faux Mollie local en HTTPS, un faux serveur SMTP et le serveur Next. Il faut d'abord lancer `npm run build`, puis Java pour l'émulateur Firestore. Il couvre 25 scénarios :
 
 - refus sans compte, avec une adresse non confirmée ou sans consentement ;
 - prix lu par le serveur ;
@@ -153,6 +154,7 @@ Elles se règlent dans Vercel, et en local dans `.env.local`, qui n'est jamais v
 - rétrofacturation ;
 - annulé, échoué ou expiré ;
 - rattrapage ;
+- confirmation d'achat envoyée une seule fois, vérification d'adresse et mot de passe oublié ([courriels.md](courriels.md)) ;
 - règles Firestore.
 
 Sous Windows, si l'émulateur Firestore échoue avec « Unable to establish loopback connection », donner à Java un dossier temporaire court sans accent :
@@ -179,7 +181,7 @@ Pour ajouter Google Play Billing :
 Rien de ceci n'est fait. Chaque point demande la validation de Christian.
 
 - [ ] Tests de bout en bout en mode test Mollie sur le site déployé, remboursement compris.
-- [ ] **Confirmation sur support durable.** Elle est obligatoire et pas encore construite : un e-mail de confirmation après paiement, avec l'édition, le prix, les CGV acceptées et l'accord d'exécution immédiate. Les preuves sont déjà conservées dans `orders/{id}.consent`.
+- [ ] **Confirmation sur support durable.** Construite : courriel du Mail-Kit après paiement, avec l'édition, le prix, la date, le numéro de commande, l'accès immédiat et les CGV jointes ([courriels.md](courriels.md)). Reste à régler l'envoi SMTP dans Vercel, à la recevoir lors d'un achat de test, et à faire valider son texte par Christian.
 - [ ] **Fonction de rétractation en ligne**, obligatoire depuis le 19 juin 2026. Elle n'est pas encore construite, et les CGV portent encore « À COMPLÉTER » pour son lien.
 - [ ] **Facturation**, et vendeur selon le canal (points « À COMPLÉTER » des CGV).
 - [ ] **Legal Kit.** `apps/geofr.json` déclare encore `accounts: false`, et ne cite ni Firebase Authentication ni Mollie parmi les traitements et prestataires. La configuration est à mettre à jour dans le kit, puis les documents sont à régénérer et à copier. Christian relit et remplit `review` lui-même.

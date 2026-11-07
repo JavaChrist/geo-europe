@@ -77,28 +77,25 @@ export async function signInWithEmail(email: string, password: string): Promise<
   }
 }
 
-/** Crée le compte et envoie le lien de vérification : l'achat reste bloqué tant que l'adresse n'est pas confirmée. */
+/**
+ * Crée le compte et envoie le lien de vérification : l'achat reste bloqué tant que l'adresse n'est pas confirmée.
+ * Le courriel part du serveur, avec le modèle de JavaChrist-Mail-Kit.
+ */
 export async function signUpWithEmail(email: string, password: string): Promise<Account> {
   const { auth } = await client();
-  const { createUserWithEmailAndPassword, sendEmailVerification } = await import("firebase/auth");
+  const { createUserWithEmailAndPassword } = await import("firebase/auth");
+  let user: User;
   try {
-    const { user } = await createUserWithEmailAndPassword(auth, email, password);
-    await sendEmailVerification(user);
-    return toAccount(user);
+    ({ user } = await createUserWithEmailAndPassword(auth, email, password));
   } catch (cause) {
     throw accountError(cause);
   }
+  await resendVerification();
+  return toAccount(user);
 }
 
 export async function resendVerification(): Promise<void> {
-  const { auth } = await client();
-  const { sendEmailVerification } = await import("firebase/auth");
-  if (!auth.currentUser) throw new AppError("unknown");
-  try {
-    await sendEmailVerification(auth.currentUser);
-  } catch (cause) {
-    throw accountError(cause);
-  }
+  await callApi<{ sent: boolean }>("/api/account/verification", {}, ACCOUNT_API_ERRORS);
 }
 
 /** Relit le compte, par exemple après un clic sur le lien de vérification reçu par courriel. */
@@ -114,16 +111,22 @@ export async function reloadAccount(): Promise<Account | null> {
   }
 }
 
-/** Même réponse que l'adresse existe ou non, pour ne rien révéler des comptes. */
+/** Même réponse du serveur que l'adresse existe ou non, pour ne rien révéler des comptes. */
 export async function sendPasswordReset(email: string): Promise<void> {
-  const { auth } = await client();
-  const { sendPasswordResetEmail } = await import("firebase/auth");
+  let response: Response;
   try {
-    await sendPasswordResetEmail(auth, email);
+    response = await fetch("/api/account/password-reset", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email }),
+      cache: "no-store",
+    });
   } catch (cause) {
-    const error = accountError(cause);
-    if (error.code === "network" || error.code === "tooManyAttempts") throw error;
+    throw new AppError("network", { cause });
   }
+  if (response.ok) return;
+  const data = (await response.json().catch(() => ({}))) as { error?: string };
+  throw new AppError(ACCOUNT_API_ERRORS[data.error ?? ""] ?? "unknown");
 }
 
 export async function signOutAccount(): Promise<void> {
@@ -197,9 +200,13 @@ const API_ERRORS: Record<string, AppErrorCode> = {
   otherInProgress: "paymentInProgress",
   notFound: "orderNotFound",
   unavailable: "paymentsUnavailable",
+  tooManyAttempts: "tooManyAttempts",
 };
 
-async function callApi<T>(path: string, body: unknown): Promise<T> {
+/** Routes de compte : un service indisponible concerne le compte, pas les paiements. */
+const ACCOUNT_API_ERRORS: Record<string, AppErrorCode> = { ...API_ERRORS, unavailable: "accountUnavailable", invalidRequest: "signInFailed" };
+
+async function callApi<T>(path: string, body: unknown, errors: Record<string, AppErrorCode> = API_ERRORS): Promise<T> {
   const { auth } = await client();
   if (!auth.currentUser) throw new AppError("sessionExpired");
   const token = await auth.currentUser.getIdToken();
@@ -215,7 +222,7 @@ async function callApi<T>(path: string, body: unknown): Promise<T> {
     throw new AppError("network", { cause });
   }
   const data = (await response.json().catch(() => ({}))) as { error?: string } & T;
-  if (!response.ok) throw new AppError(API_ERRORS[data.error ?? ""] ?? "paymentFailed");
+  if (!response.ok) throw new AppError(errors[data.error ?? ""] ?? (errors === API_ERRORS ? "paymentFailed" : "unknown"));
   return data;
 }
 

@@ -51,7 +51,8 @@ La boutique web, en mode test Mollie, s'appuie sur les CGV du kit. Elle demande 
 
 Avant toute vente réelle, il reste à faire, avec la validation de Christian :
 
-- la confirmation sur support durable, un e-mail après paiement, pas encore construite ;
+- la confirmation sur support durable : construite avec JavaChrist-Mail-Kit ([courriels.md](courriels.md)), son texte reste à valider ;
+- dans les documents du kit, citer l'envoi des courriels par IONOS parmi les prestataires ;
 - la fonction de rétractation en ligne, obligatoire depuis le 19 juin 2026, pas encore construite. Son lien est encore « À COMPLÉTER » dans les CGV ;
 - la facturation et le vendeur selon le canal ;
 - dans le kit, `apps/geofr.json` : les comptes (`accounts`), Firebase Authentication et Mollie dans les traitements et prestataires, puis régénérer et copier les documents.

@@ -17,4 +17,5 @@ export const country: CountryConfig = {
   },
   themeColor: "#0a1f44",
   backgroundColor: "#061530",
+  timeZone: "Europe/Paris",
 };

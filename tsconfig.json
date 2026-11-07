@@ -18,7 +18,8 @@
     "plugins": [{ "name": "next" }],
     "paths": {
       "@/*": ["./src/*"],
-      "@country": ["./content/fr/index.ts"]
+      "@country": ["./content/fr/index.ts"],
+      "@country-mail": ["./content/fr/mail/templates.json"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", ".next/dev/types/**/*.ts"],

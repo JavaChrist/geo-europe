@@ -1,0 +1,72 @@
+# Courriels
+
+GéoFR envoie trois courriels, tous depuis le serveur, avec les modèles de JavaChrist-Mail-Kit :
+
+| Modèle du kit | Quand | Route ou déclencheur |
+| --- | --- | --- |
+| `confirmation` | Inscription par e-mail, puis « Renvoyer le lien » | `POST /api/account/verification`, compte connecté |
+| `reset-password` | « Mot de passe oublié » | `POST /api/account/password-reset` |
+| `purchase-confirmation` | Paiement confirmé | Notification Mollie, synchronisation ou rattrapage quotidien |
+
+Firebase n'envoie plus lui-même ces courriels. Firebase Admin crée le lien d'action (`generateEmailVerificationLink`, `generatePasswordResetLink`), qui ramène sur `/connexion` après le clic. La page qui applique le lien reste celle de Firebase Authentication.
+
+## Modèles
+
+Les modèles viennent seulement du kit. Ils sont copiés dans `content/<pays>/mail/templates.json` par :
+
+```bash
+node scripts/sync-mail.mjs fr geofr
+```
+
+Le script lance le générateur du kit (`apps/<appId>.json`), vérifie que chaque modèle contient les variables utilisées par GéoFR, et note le commit du kit. **Ne jamais modifier `templates.json` à la main** : changer le kit, puis relancer le script.
+
+Les variables du kit (`{{ .Nom }}`) sont remplies par `src/engine/mail.ts`. Chaque valeur est échappée. Une variable sans valeur est une erreur : aucun courriel ne part avec un `{{` visible. Une version texte est produite à partir du HTML.
+
+## Confirmation d'achat
+
+C'est la confirmation sur support durable. Elle contient l'édition, le prix payé TTC, la date, le numéro de commande, le rappel de l'accès immédiat et de la perte du droit de rétractation, et le lien vers les CGV. Les CGV acceptées sont jointes en texte quand leur version est encore celle de la commande.
+
+Elle part une seule fois par commande payée (`src/services/mail/purchase-mail.ts`) :
+
+- l'envoi est d'abord réservé dans la commande (`confirmation.claimedAt`), puis noté `confirmation.sentAt` ;
+- deux notifications simultanées n'envoient donc pas deux courriels ;
+- un envoi échoué libère la réservation et s'inscrit dans l'historique (`confirmationFailed`). Le rattrapage quotidien réessaie ;
+- un échec d'envoi ne bloque jamais l'ouverture des droits.
+
+## Limites d'envoi
+
+Pour la vérification et le mot de passe oublié : un courriel par minute et cinq par heure, par adresse. Au-delà, la route répond 429 (`tooManyAttempts`). Le compteur est dans `mailThrottle/{empreinte}`, sans adresse en clair, et n'est ni lisible ni modifiable depuis le navigateur.
+
+« Mot de passe oublié » répond de la même façon qu'un compte existe ou non.
+
+## Configuration
+
+Envoi par SMTP (IONOS), avec nodemailer. Les réglages sont des variables d'environnement serveur, jamais écrites dans le dépôt :
+
+| Variable | Rôle |
+| --- | --- |
+| `SMTP_HOST` | Serveur d'envoi, par exemple `smtp.ionos.fr` |
+| `SMTP_PORT` | `465` par défaut (TLS direct). Un autre port impose STARTTLS |
+| `SMTP_USER` | Identifiant de la boîte d'envoi |
+| `SMTP_PASSWORD` | Mot de passe de la boîte d'envoi. Secret |
+| `MAIL_FROM` | Expéditeur, par exemple `GéoFR <adresse>` |
+| `MAIL_REPLY_TO` | Facultatif. Par défaut, `legal.supportEmail` du pays |
+
+Sans ces variables, rien n'est envoyé et les routes répondent « indisponible » (503). Il n'y a pas de repli silencieux sur les courriels de Firebase. Elles doivent donc être réglées dans Vercel **avant** le déploiement, sinon l'inscription par e-mail ne peut plus envoyer son lien.
+
+L'export statique (Android) n'a ni connexion ni ces routes.
+
+## Tests
+
+`npm run test:payments` lance un faux serveur SMTP local. Il vérifie :
+
+- une seule confirmation d'achat par commande, même avec des notifications rejouées ;
+- aucune confirmation pour un paiement refusé, annulé, échoué ou expiré ;
+- la confirmation envoyée par le rattrapage ;
+- le lien de vérification, la limite d'envoi, rien pour une adresse déjà vérifiée ;
+- le mot de passe oublié : même réponse pour une adresse inconnue, sans courriel ;
+- aucune variable laissée vide.
+
+## Nouveau pays
+
+Créer `apps/<appId>.json` dans le Mail-Kit, lancer `node scripts/sync-mail.mjs <pays> <appId>`, renseigner `timeZone` dans `content/<pays>/country.ts`.

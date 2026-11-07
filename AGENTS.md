@@ -22,6 +22,7 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - `src/features/`: screens and features
 - `src/services/`: external services and `AppError`. The only place allowed to import Firebase.
 - Payments and access rights: see `docs/paiements.md`. Every lock reads `useEntitlements()`.
+- `content/<country>/mail/templates.json`: email templates copied from JavaChrist-Mail-Kit by `scripts/sync-mail.mjs`. Never edit them by hand. Emails are sent only by the server (`src/services/mail/`). See `docs/courriels.md`.
 
 ## Rules (lint and scripts enforce most of them)
 - No emoji anywhere in the app. Lucide React for icons, SVG for regions, photos for media.

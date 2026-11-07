@@ -31,10 +31,14 @@ const nextConfig: NextConfig = {
     // Aucun paiement Mollie dans l'application Android : ni connexion ni boutique active dans l'export.
     NEXT_PUBLIC_PAYMENTS: staticExport ? "off" : "on",
   },
+  // Conditions de vente jointes à la confirmation d'achat : lues à l'exécution par les routes de paiement.
+  outputFileTracingIncludes: { "/api/payments/*": [`./content/${country}/legal/conditions-vente.md`] },
   pageExtensions: staticExport ? ["tsx", "ts"] : ["tsx", "ts", "server.ts"],
   turbopack: {
     resolveAlias: {
       "@country": `./content/${country}/index.ts`,
+      // Modèles de courriels du Mail-Kit, lus uniquement par le serveur.
+      "@country-mail": `./content/${country}/mail/templates.json`,
     },
   },
   ...(staticExport && { output: "export" as const, images: { unoptimized: true } }),

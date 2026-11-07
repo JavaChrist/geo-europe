@@ -72,6 +72,8 @@ export interface CountryConfig {
   icons: { favicon: string; faviconSvg: string; apple: string; icon192: string; icon512: string };
   themeColor: string;
   backgroundColor: string;
+  /** Fuseau des dates envoyées au joueur, par exemple dans la confirmation d'achat. */
+  timeZone: string;
 }
 
 export interface MapRegion {

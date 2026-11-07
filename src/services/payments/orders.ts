@@ -6,6 +6,7 @@ import { assessPayment, type PaymentMismatch, type PaymentProvider } from "@/eng
 import type { EditionId } from "@/engine/types";
 import { getTranslator, type TranslationKey } from "@/i18n/translator";
 import { adminAuth, adminDb } from "@/services/firebase/admin";
+import { sendPurchaseConfirmation } from "@/services/mail/purchase-mail";
 import { mollieProvider } from "./mollie";
 
 /**
@@ -26,7 +27,7 @@ export const entitlementsRef = (db: Firestore, uid: string): DocumentReference =
 export class PaymentRequestError extends Error {
   constructor(
     readonly status: number,
-    readonly code: "unauthenticated" | "unverifiedAccount" | "invalidRequest" | "consentMissing" | "notFound" | PurchaseRefusal | "alreadyOwned",
+    readonly code: "unauthenticated" | "unverifiedAccount" | "invalidRequest" | "consentMissing" | "notFound" | "tooManyAttempts" | PurchaseRefusal | "alreadyOwned",
   ) {
     super(code);
     this.name = "PaymentRequestError";
@@ -225,6 +226,16 @@ export type ApplyOutcome = PublicOrder & { changed: boolean; mismatch?: PaymentM
  * Idempotent : appelé dix fois avec le même état, il n'écrit qu'une fois. `null` si le paiement ne correspond à aucune commande.
  */
 export async function applyPaymentById(providerPaymentId: string): Promise<ApplyOutcome | null> {
+  const outcome = await applyPayment(providerPaymentId);
+  // Paiement confirmé : confirmation d'achat, une seule fois par commande. Un échec d'envoi ne remet pas
+  // en cause le paiement enregistré : il est journalisé, et le rattrapage quotidien réessaie.
+  if (outcome?.status === "paid") {
+    await sendPurchaseConfirmation(outcome.id).catch((error: unknown) => console.error(`[confirmation] commande ${outcome.id}`, error));
+  }
+  return outcome;
+}
+
+async function applyPayment(providerPaymentId: string): Promise<ApplyOutcome | null> {
   if (!/^tr_[A-Za-z0-9]+$/.test(providerPaymentId)) return null;
   const payment = await provider.fetchPayment(providerPaymentId);
   if (!payment?.orderId) return null;
