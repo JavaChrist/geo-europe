@@ -2,11 +2,11 @@
 
 # Conditions d’utilisation — GéoFR
 
-Version 0.1.0 — 2026-11-07
+Version 0.2.0 — 2026-11-07
 
 ## Service et éditeur
 
-GéoFR est proposé par Christian Grohens. Jeu de découverte géographique de la France : carte et régions, parcours de questions, défis et Mode Famille de 2 à 4 joueurs sur un même appareil.
+GéoFR est proposé par Christian Grohens. Jeu de découverte géographique de la France : carte et régions, parcours de questions, défis et Mode Famille de 2 à 4 joueurs sur un même appareil. Aujourd’hui, tout le jeu est accessible gratuitement. Sont prévues une édition Découverte gratuite limitée à deux régions et des éditions complètes en achat unique, sans abonnement.
 Site : https://appsgeo.com. Support : support@appsgeo.com. Les offres payantes, lorsqu’elles existent, relèvent également des CGV.
 
 ## Accès et public

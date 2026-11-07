@@ -68,7 +68,6 @@ export interface CountryConfig {
   locales: string[];
   defaultLocale: string;
   regionCount: number;
-  premium: { priceCents: number; currency: string };
   legal: LegalConfig;
   icons: { favicon: string; faviconSvg: string; apple: string; icon192: string; icon512: string };
   themeColor: string;
@@ -257,8 +256,37 @@ export interface FamilyContent {
 
 export type ContentMessages = Record<string, unknown>;
 
+/**
+ * Éditions commerciales d'un pays : seule source des tarifs (voir `docs/editions.md`).
+ * Les identifiants sont communs à la collection, les prix sont propres au pays.
+ */
+export type EditionId = "discovery" | "solo_ads" | "solo_no_ads" | "family_ads" | "family_no_ads";
+
+export interface Edition {
+  id: EditionId;
+  mode: "discovery" | "solo" | "family";
+  /** Avec publicités. `null` : pas encore décidé. */
+  ads: boolean | null;
+  /** Prix TTC en centimes. 0 pour l'édition gratuite. */
+  priceCents: number;
+  /** Achat unique, jamais d'abonnement. */
+  purchase: "free" | "one_time";
+  /** Nombre de régions incluses, ou toutes. */
+  regions: number | "all";
+  /** `planned` tant que l'édition n'est pas réellement en vente. */
+  status: "planned" | "active";
+}
+
+export interface EditionsConfig {
+  currency: string;
+  /** Canaux de vente prévus, repris dans le catalogue du Legal Kit. */
+  channel: string;
+  editions: Edition[];
+}
+
 export interface CountryContent {
   country: CountryConfig;
+  editions: EditionsConfig;
   regions: Region[];
   map: CountryMap;
   territories: Territory[];

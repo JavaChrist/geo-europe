@@ -7,7 +7,6 @@ export const country: CountryConfig = {
   locales: ["fr"],
   defaultLocale: "fr",
   regionCount: 18,
-  premium: { priceCents: 499, currency: "EUR" },
   legal: { kitAppId: "geofr", supportEmail: "support@appsgeo.com" },
   icons: {
     favicon: "/favicon.ico",

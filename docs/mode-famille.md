@@ -88,12 +88,14 @@ Après un rechargement, la carte « Partie en cours » propose de reprendre exac
 
 ## Éditions prévues
 
-Rien de ceci n'est actif. Aucun paiement, aucun compte, aucun Premium.
+Rien de ceci n'est actif. Aucun paiement, aucun compte, aucune édition payante.
+
+Achats uniques, sans abonnement, prix TTC. La grille complète de la collection, avec les éditions Solo et la Découverte gratuite, est dans [editions.md](editions.md). Les prix ne vivent que dans `content/<pays>/editions.ts`.
 
 | Édition | Prix prévu | État |
-| --- | --- | --- |
-| Famille avec publicité | 14,99 € | Prévu |
-| Famille sans publicité | 19,99 € | Prévu |
+| --- | ---: | --- |
+| Famille complète avec publicités (`family_ads`) | 14,99 € | Prévu |
+| Famille complète sans publicités (`family_no_ads`) | 19,99 € | Prévu |
 
 Aujourd'hui, `familyAccess()` répond toujours `{ allowed: true }`. Le jour où ces éditions existeront, seule cette frontière changera, et l'accès sera vérifié par le serveur, jamais à partir d'un résultat du navigateur.
 

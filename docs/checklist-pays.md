@@ -37,7 +37,8 @@ Chaque ligne demande la validation de Christian.
 - [ ] Projet Vercel du pays avec `GEO_COUNTRY=<pays>`
 - [ ] Projet Firebase du pays
 - [ ] Application Android Capacitor avec `androidPackage`
-- [ ] Éditions Famille avec publicité (14,99 €) et sans publicité (19,99 €), accès vérifié par le serveur
-- [ ] Premium, paiements et comptes
+- [ ] Vente des éditions de `content/<pays>/editions.ts` (voir [editions.md](editions.md)), accès vérifié par le serveur
+- [ ] Choix des deux régions de la Découverte gratuite
+- [ ] Paiements et comptes
 - [ ] Documents juridiques relus par Christian, version `reviewed` générée par le kit et copiée
 - [ ] Retrait de `/api/health` avant la première mise en production

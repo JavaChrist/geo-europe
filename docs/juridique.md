@@ -11,7 +11,7 @@ Les cinq documents juridiques de chaque pays viennent de **JavaChrist-Legal-Kit*
 | Élément | Où | Rôle |
 | --- | --- | --- |
 | Configuration de l'application | Kit, `apps/<id>.json` | Nom, URL, fonctions réellement actives, traitements, prestataires, clauses |
-| Catalogue des éditions | Kit, `catalogs/<id>.json` | Éditions payantes et prix en centimes. `status: "planned"` tant que rien n'est en vente |
+| Catalogue des éditions | Kit, `catalogs/<id>.json` | Éditions payantes et prix en centimes, produits par `scripts/export-catalog.mjs` à partir de `content/<pays>/editions.ts` |
 | Documents copiés | `content/<pays>/legal/*.md` | Les cinq documents publics, versionnés dans ce dépôt |
 | Trace de la copie | `content/<pays>/legal/legal.json` | Version, mode `draft` ou `reviewed`, empreinte, commit du kit, points restants |
 | Lien au pays | `content/<pays>/country.ts`, `legal` | `kitAppId` (identifiant dans le kit) et `supportEmail` |
@@ -51,13 +51,13 @@ Exemple avec l'Espagne, identifiant `geoes`. Les commandes du kit se lancent dan
 
 ### 1. Configuration dans le kit
 
-Copier `apps/geofr.json` vers `apps/geoes.json` et `catalogs/geofr.json` vers `catalogs/geoes.json`, puis adapter :
+Copier `apps/geofr.json` vers `apps/geoes.json`, puis adapter :
 
 - `name`, `url`, `supportEmail`, `version`, `effectiveDate` ;
 - `features` : seulement ce qui fonctionne vraiment dans le jeu, pas ce qui est prévu ;
 - `processing`, `providers`, `hosting` : ce que le code fait réellement ;
 - `clauses` : laisser `À COMPLÉTER` ce qui n'est pas connu ;
-- le catalogue : les prix de `premium` dans `content/es/country.ts` et des éditions Famille, en centimes.
+- `catalog` : `catalogs/geoes.json`, écrit depuis ce dépôt par `node scripts/export-catalog.mjs es`, jamais à la main (voir [editions.md](editions.md)).
 
 Ne pas remplir `review`. Ne pas modifier `config/company.json` ni `templates/` sans nécessité démontrée et l'accord de Christian.
 
@@ -107,7 +107,7 @@ La version validée n'a plus de bandeau. `--publish` ne publie aucune page et ne
 
 ### 5. Nouvelle édition
 
-Pour toute modification (prix, offre, prestataire, donnée collectée, publicité), incrémenter `version` dans le kit, régénérer, relire, publier, copier.
+Pour un prix ou une édition, lancer d'abord `node scripts/export-catalog.mjs <pays>`. Pour toute modification (prix, offre, prestataire, donnée collectée, publicité), incrémenter `version` dans le kit, régénérer, relire, publier, copier.
 
 Une version validée n'est jamais remplacée automatiquement. Si `legal.json` indique `reviewed`, la copie d'une autre version s'arrête, liste les documents qui changeraient et donne la commande `git diff --no-index` pour comparer.
 
@@ -115,7 +115,7 @@ Une version validée n'est jamais remplacée automatiquement. Si `legal.json` in
 
 - Un seul système juridique : le kit. Aucun texte juridique dans `src/i18n/locales/` ni dans `content/<pays>/locales/`.
 - Aucune coordonnée inventée. Une information inconnue reste `À COMPLÉTER` dans le kit.
-- Aucun prix inventé. Le catalogue reprend `premium` de `content/<pays>/country.ts` et les éditions Famille prévues de [mode-famille.md](mode-famille.md). Le kit précise qu'une copie de prix ne se synchronise pas seule : toute modification se fait aux deux endroits, puis on régénère.
+- Aucun prix inventé, aucune copie à la main. Le catalogue du kit est produit par `scripts/export-catalog.mjs` à partir de `content/<pays>/editions.ts`, et `npm run check` signale tout écart quand le kit est cloné à côté.
 - Une offre reste `planned` tant qu'elle n'est pas réellement en vente. Le document affiche alors « Non commercialisée ».
 - L'agent ne remplit jamais `review`.
 - `rapport.json` et `snapshot.json` ne sont jamais copiés dans le jeu.
@@ -133,7 +133,7 @@ Une version validée n'est jamais remplacée automatiquement. Si `legal.json` in
 
 ## État de GéoFR
 
-Version documentaire 0.1.0, en **brouillon**. Le kit signale 11 points à compléter. Les documents sont intégrés localement et ne sont pas en production.
+Version documentaire 0.2.0, en **brouillon**, empreinte `4461cb6e…b409181`. Le kit signale 11 points à compléter. Les documents sont intégrés localement et ne sont pas en production.
 
 ### Points à compléter dans le kit
 
@@ -149,11 +149,10 @@ Version documentaire 0.1.0, en **brouillon**. Le kit signale 11 points à compl�
 
 ### Manques relevés pour GéoFR
 
-- **Quatrième édition** : trois éditions sont connues (Premium 4,99 €, Famille avec publicité 14,99 €, Famille sans publicité 19,99 €). La quatrième n'est pas définie, elle n'est pas dans le catalogue.
-- **Type d'achat des éditions Famille** : achat unique ou abonnement, à confirmer.
+- **Découverte gratuite** : les deux régions ne sont pas choisies, et son régime publicitaire n'est pas décidé.
 - **Fonction de rétractation en ligne** : obligatoire pour les ventes en ligne à partir du 19 juin 2026. Elle n'existe pas encore dans le jeu.
 - **Vendeur selon le canal** : sur Google Play, les conditions et la facturation du store s'ajoutent. À traiter quand l'application Android existera.
-- **Publicité et mineurs** : l'édition Famille avec publicité demandera `ads: true` dans le kit, un consentement, et une publicité limitée au contexte pour un public mineur. Le module publicitaire du kit devra être relu avant toute mise en service.
+- **Publicité et mineurs** : les éditions Solo et Famille avec publicités demanderont `ads: true` dans le kit, un consentement, et une publicité limitée au contexte pour un public mineur. Le module publicitaire du kit devra être relu avant toute mise en service.
 - **Export des données** : le jeu permet de voir et d'effacer les données de l'appareil, pas d'en télécharger une copie.
 - **Hors connexion sur le web** : pas de service worker, voir plus haut.
 - **Autres pays** : les modèles du kit couvrent la France, le français et la vente aux particuliers. Un pays hors de France demande une adaptation des modèles, à valider par Christian avant toute génération.

@@ -2,7 +2,7 @@
 
 # Vos droits sur les données — GéoFR
 
-Version 0.1.0 — 2026-11-07
+Version 0.2.0 — 2026-11-07
 
 ## Nous contacter
 

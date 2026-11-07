@@ -2,21 +2,22 @@
 
 # Conditions générales de vente — GéoFR
 
-Version 0.1.0 — 2026-11-07
+Version 0.2.0 — 2026-11-07
 
 ## Vendeur et périmètre
 
 Christian Grohens, Entrepreneur individuel (EI), exerçant sous le nom commercial JavaChrist, 5 rue Maurice Fonvieille, 31120 Portet-sur-Garonne, France, immatriculation SIREN : 338 593 312 ; SIRET : 338 593 312 00030, contact support@javachrist.fr, téléphone 09 52 62 31 71. TVA : TVA non applicable, article 293 B du Code général des impôts.
-Ces conditions concernent les offres de GéoFR proposées aux consommateurs. Jeu de découverte géographique de la France : carte et régions, parcours de questions, défis et Mode Famille de 2 à 4 joueurs sur un même appareil.
+Ces conditions concernent les offres de GéoFR proposées aux consommateurs. Jeu de découverte géographique de la France : carte et régions, parcours de questions, défis et Mode Famille de 2 à 4 joueurs sur un même appareil. Aujourd’hui, tout le jeu est accessible gratuitement. Sont prévues une édition Découverte gratuite limitée à deux régions et des éditions complètes en achat unique, sans abonnement.
 L’identité du vendeur et les règles propres à chaque canal doivent être précisées avant commande.
 
 ## Offres et tarifs
 
 | Offre | Contenu | Type / canal | Prix |
 | --- | --- | --- | --- |
-| GéoFR Premium | Édition solo sans publicité. Contenu exact à confirmer avant commercialisation. | one_time / web (Mollie) et Google Play | Non commercialisée |
-| GéoFR Famille avec publicité | Mode Famille de 2 à 4 joueurs sur un même appareil, avec publicité. Contenu et nature de l'achat à confirmer avant commercialisation. | à confirmer / web (Mollie) et Google Play | Non commercialisée |
-| GéoFR Famille sans publicité | Mode Famille de 2 à 4 joueurs sur un même appareil, sans publicité. Contenu et nature de l'achat à confirmer avant commercialisation. | à confirmer / web (Mollie) et Google Play | Non commercialisée |
+| GéoFR — Solo complet avec publicités | Toutes les régions de GéoFR en solo, avec publicités. Achat unique. | one_time / web (Mollie) et Google Play | Non commercialisée |
+| GéoFR — Solo complet sans publicités | Toutes les régions de GéoFR en solo, sans publicités. Achat unique. | one_time / web (Mollie) et Google Play | Non commercialisée |
+| GéoFR — Famille complète avec publicités | Toutes les régions de GéoFR en Mode Famille, de 2 à 4 joueurs sur un même appareil, avec publicités. Achat unique. | one_time / web (Mollie) et Google Play | Non commercialisée |
+| GéoFR — Famille complète sans publicités | Toutes les régions de GéoFR en Mode Famille, de 2 à 4 joueurs sur un même appareil, sans publicités. Achat unique. | one_time / web (Mollie) et Google Play | Non commercialisée |
 
 Les prix applicables sont présentés avant la validation de la commande, avec leurs taxes, périodicité et frais éventuels. Pour les stores, le prix localisé est fourni par le store ; ce document ne doit pas substituer un prix web au prix Play ou App Store. Toute modification de prix respecte les contrats en cours et les obligations d’information applicables.
 

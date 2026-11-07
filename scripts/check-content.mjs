@@ -3,6 +3,8 @@ import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { basename, join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { ALBUM_THEMES } from "../src/engine/album.ts";
+import { editionsErrors } from "../src/engine/editions.ts";
+import { catalogJson, kitCatalogFor } from "./kit-catalog.mjs";
 import { LEGAL_DOCUMENTS } from "../src/engine/legal-markdown.ts";
 import { maxScoreOf } from "../src/engine/level-run.ts";
 import { SPECIAL_CHALLENGES, isSpecialChallengeAvailable } from "../src/engine/special-challenges.ts";
@@ -21,6 +23,19 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
   const dir = join(root, code);
   const fail = (where, message) => errors.push(`${code}/${where} : ${message}`);
   const { country } = await import(pathToFileURL(resolve(dir, "country.ts")).href);
+
+  // Éditions : seule source des tarifs. Le catalogue du kit, s'il est présent à côté du dépôt, doit en être la copie exacte.
+  if (!existsSync(join(dir, "editions.ts"))) {
+    fail("editions.ts", "grille des éditions absente");
+  } else {
+    const { editions } = await import(pathToFileURL(resolve(dir, "editions.ts")).href);
+    for (const message of editionsErrors(editions)) fail("editions.ts", message);
+    const { appId, catalog } = await kitCatalogFor(code);
+    const kitCatalogPath = join("..", "JavaChrist-Legal-Kit", "catalogs", `${appId}.json`);
+    if (existsSync(kitCatalogPath) && readFileSync(kitCatalogPath, "utf8").replace(/\r\n/g, "\n") !== catalogJson(catalog)) {
+      fail("editions.ts", `catalogue du kit différent : lancer node scripts/export-catalog.mjs ${code}`);
+    }
+  }
 
   // Documents juridiques : copiés depuis JavaChrist-Legal-Kit par scripts/sync-legal.mjs, jamais écrits à la main.
   const legalDir = join(dir, "legal");

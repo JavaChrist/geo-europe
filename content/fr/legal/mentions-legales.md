@@ -2,7 +2,7 @@
 
 # Mentions légales — GéoFR
 
-Version 0.1.0 — 2026-11-07
+Version 0.2.0 — 2026-11-07
 
 ## Éditeur et contact
 
@@ -15,7 +15,7 @@ Directeur de publication : Christian Grohens.
 ## Application et hébergement
 
 GéoFR : https://appsgeo.com.
-Jeu de découverte géographique de la France : carte et régions, parcours de questions, défis et Mode Famille de 2 à 4 joueurs sur un même appareil.
+Jeu de découverte géographique de la France : carte et régions, parcours de questions, défis et Mode Famille de 2 à 4 joueurs sur un même appareil. Aujourd’hui, tout le jeu est accessible gratuitement. Sont prévues une édition Découverte gratuite limitée à deux régions et des éditions complètes en achat unique, sans abonnement.
 Hébergeur : Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis, téléphone À COMPLÉTER : téléphone officiel de Vercel Inc..
 Régions techniques utilisées : À COMPLÉTER : régions Vercel réellement utilisées par le projet GéoFR.
 Support de l’application : support@appsgeo.com.

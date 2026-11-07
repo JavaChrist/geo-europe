@@ -1,5 +1,6 @@
 import type { CountryContent, CountryMap, GameMap, MediaCredit, Region, Territory } from "../../src/engine/types.ts";
 import { country } from "./country.ts";
+import { editions } from "./editions.ts";
 import { family } from "./family.ts";
 import map from "./map.json";
 import credits from "./media/credits.json";
@@ -69,6 +70,7 @@ import region17 from "./regions/mayotte.json";
 
 const content: CountryContent = {
   country,
+  editions,
   regions: [region0, region1, region2, region3, region4, region5, region6, region7, region8, region9, region10, region11, region12, region13, region14, region15, region16, region17] as Region[],
   map: map as CountryMap,
   territories: [alsace, lorraine, champagneArdenne, languedocRoussillon, midiPyrenees, bourgogne, francheComte, auvergne, rhoneAlpes, provenceAlpesCoteDAzur, aquitaine, limousin, poitouCharentes, paysDeLaLoire, centreValDeLoire, bretagne, normandie, ileDeFrance, nordPasDeCalais, picardie, corse, guadeloupe, martinique, guyane, laReunion, mayotte] as Territory[],

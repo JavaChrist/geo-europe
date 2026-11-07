@@ -15,6 +15,7 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 ## Where things live
 - `src/engine/`: types and game logic, with no React, Next, Firebase or UI import
 - `content/<country>/`: country config, regions, media credits, content translations
+- `content/<country>/editions.ts`: the five editions and their prices, the only place a price may be written. See `docs/editions.md`.
 - `content/<country>/legal/`: the five legal documents copied from JavaChrist-Legal-Kit by `scripts/sync-legal.mjs`. Never edit them by hand. See `docs/juridique.md`.
 - `src/i18n/locales/`: interface text shared by every country
 - `src/ui/`: shared components, including the modal system
@@ -25,10 +26,11 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - No emoji anywhere in the app. Lucide React for icons, SVG for regions, photos for media.
 - No `alert`, `confirm` or `prompt`. Use `useModal()`.
 - No hardcoded text in components. Use `t()` for interface keys and `tContent()` for content keys.
+- Prices live only in `content/<country>/editions.ts`, as one-time purchases or free, never a subscription. The Legal Kit catalog is produced by `scripts/export-catalog.mjs`, never typed by hand. Every edition stays `planned` until Christian validates a sale.
 - Legal texts come only from JavaChrist-Legal-Kit. No legal text in the locales, no second legal system, never fill the kit's `review` fields.
 - Show `modal.error(error)` for failures, never a technical message.
 - Server-only routes are named `route.server.ts`, so the static export leaves them out.
-- Never unlock Premium from a browser result. Never expose a Firebase Admin key in the browser.
+- Never unlock a paid edition from a browser result. Never expose a Firebase Admin key in the browser.
 - Never put country-specific code in `src/`. Add content or config under `content/<country>/`.
 
 ## Not to do without Christian's validation

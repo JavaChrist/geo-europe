@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import content from "@country";
+import { findEdition } from "@/engine/editions";
 import { useTranslation } from "@/i18n/I18nProvider";
 import type { TranslationKey } from "@/i18n/translator";
 import { AppError } from "@/services/app-error";
@@ -11,7 +12,8 @@ export function ModalDemo() {
   const { t, formatPrice } = useTranslation();
   const modal = useModal();
   const [result, setResult] = useState<TranslationKey>("demo.resultNone");
-  const { country, regions } = content;
+  const { country, regions, editions } = content;
+  const edition = findEdition(editions, "solo_no_ads");
 
   const info = { titleKey: "demo.info.title", bodyKey: "demo.info.body", values: { count: regions.length } } as const;
 
@@ -40,7 +42,11 @@ export function ModalDemo() {
           .purchase({
             titleKey: "demo.purchase.title",
             bodyKey: "demo.purchase.body",
-            values: { app: country.appName, price: formatPrice(country.premium.priceCents, country.premium.currency) },
+            values: {
+              app: country.appName,
+              edition: t(`editions.${edition.id}.name`),
+              price: formatPrice(edition.priceCents, editions.currency),
+            },
           })
           .then(report),
     },

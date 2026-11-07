@@ -532,6 +532,28 @@
     "title": "Page introuvable",
     "body": "Cette page n'existe pas ou a été déplacée."
   },
+  "editions": {
+    "discovery": {
+      "name": "Découverte gratuite",
+      "description": "Deux régions de {appName}, gratuitement."
+    },
+    "solo_ads": {
+      "name": "Solo complet avec publicités",
+      "description": "Toutes les régions de {appName} en solo, avec publicités. Achat unique."
+    },
+    "solo_no_ads": {
+      "name": "Solo complet sans publicités",
+      "description": "Toutes les régions de {appName} en solo, sans publicités. Achat unique."
+    },
+    "family_ads": {
+      "name": "Famille complète avec publicités",
+      "description": "Toutes les régions de {appName} en Mode Famille, de 2 à 4 joueurs sur un même appareil, avec publicités. Achat unique."
+    },
+    "family_no_ads": {
+      "name": "Famille complète sans publicités",
+      "description": "Toutes les régions de {appName} en Mode Famille, de 2 à 4 joueurs sur un même appareil, sans publicités. Achat unique."
+    }
+  },
   "demo": {
     "title": "Modales",
     "intro": "Écran de contrôle du système de modales. Aucune action n'est réellement effectuée.",
@@ -567,8 +589,8 @@
       "body": "Toute sa progression sera définitivement effacée de cet appareil."
     },
     "purchase": {
-      "title": "Passer à {app} Premium",
-      "body": "Achat unique de {price}, sans publicité. Démonstration : aucun paiement n'est lancé."
+      "title": "Passer à {edition}",
+      "body": "{app} : achat unique de {price}, sans abonnement. Démonstration : aucun paiement n'est lancé."
     },
     "reward": {
       "title": "Nouvelle récompense",
