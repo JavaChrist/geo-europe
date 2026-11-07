@@ -8,6 +8,7 @@
 
 - [ ] `content/<pays>/country.ts` rempli, `code` identique au nom du dossier
 - [ ] Documents juridiques générés par le kit et copiés dans `content/<pays>/legal/` avec `scripts/sync-legal.mjs`, `legal.kitAppId` et `legal.supportEmail` renseignés (voir [juridique.md](juridique.md))
+- [ ] Modèles de courriel générés par le Mail-Kit et copiés dans `content/<pays>/mail/` avec `scripts/sync-mail.mjs`, `timeZone` renseigné (voir [courriels.md](courriels.md))
 - [ ] `content/<pays>/map.config.json` et `map.json` généré par `node scripts/build-map.mjs <pays>`
 - [ ] `content/<pays>/game-maps.config.json` et `maps/*.json` générés par `node scripts/build-game-maps.mjs <pays>`
 - [ ] `content/<pays>/regions/*.json`, autant que `regionCount`

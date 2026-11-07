@@ -7,13 +7,7 @@ import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
-
-/** Modèles utilisés par l'application, et les variables que chacun doit contenir. */
-const USED = {
-  confirmation: ["ConfirmationURL"],
-  "reset-password": ["ConfirmationURL"],
-  "purchase-confirmation": ["ProductName", "Amount", "PurchaseDate", "OrderId", "TermsURL", "SiteURL"],
-};
+import { MAIL_VARIABLES as USED } from "../src/engine/mail.ts";
 
 const args = process.argv.slice(2);
 const kitFlag = args.indexOf("--kit");

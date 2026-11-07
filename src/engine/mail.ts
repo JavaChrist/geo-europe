@@ -4,6 +4,13 @@
  */
 export type MailKind = "confirmation" | "reset-password" | "purchase-confirmation";
 
+/** Modèles utilisés par l'application, et les variables que chacun doit contenir. Lu par la copie et par `npm run check`. */
+export const MAIL_VARIABLES: Record<MailKind, readonly string[]> = {
+  confirmation: ["ConfirmationURL"],
+  "reset-password": ["ConfirmationURL"],
+  "purchase-confirmation": ["ProductName", "Amount", "PurchaseDate", "OrderId", "TermsURL", "SiteURL"],
+};
+
 export interface MailTemplate {
   subject: string;
   html: string;

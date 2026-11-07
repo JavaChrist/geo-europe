@@ -6,6 +6,7 @@ import { ALBUM_THEMES } from "../src/engine/album.ts";
 import { editionsErrors } from "../src/engine/editions.ts";
 import { catalogJson, kitCatalogFor } from "./kit-catalog.mjs";
 import { LEGAL_DOCUMENTS } from "../src/engine/legal-markdown.ts";
+import { MAIL_VARIABLES } from "../src/engine/mail.ts";
 import { maxScoreOf } from "../src/engine/level-run.ts";
 import { SPECIAL_CHALLENGES, isSpecialChallengeAvailable } from "../src/engine/special-challenges.ts";
 
@@ -67,6 +68,30 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
       if (name === "mentions-legales" && !text.includes(country.legal?.supportEmail)) {
         fail("legal/mentions-legales.md", "legal.supportEmail absent : le kit et country.ts divergent");
       }
+    }
+  }
+
+  // Courriels : modèles copiés depuis JavaChrist-Mail-Kit par scripts/sync-mail.mjs, jamais écrits à la main.
+  try {
+    new Intl.DateTimeFormat("en", { timeZone: country.timeZone });
+  } catch {
+    fail("country.ts", `timeZone invalide : ${country.timeZone}`);
+  }
+  const mailPath = join(dir, "mail", "templates.json");
+  if (!existsSync(mailPath)) {
+    fail("mail", `modèles absents : lancer node scripts/sync-mail.mjs ${code} <appId>`);
+  } else {
+    const mail = readJson(mailPath);
+    if (mail.appId !== country.legal?.kitAppId) fail("mail/templates.json", `appId ${mail.appId} différent de legal.kitAppId`);
+    for (const [kind, variables] of Object.entries(MAIL_VARIABLES)) {
+      const template = mail.templates?.[kind];
+      if (!template?.subject || !template?.html) {
+        fail("mail/templates.json", `modèle ${kind} absent`);
+        continue;
+      }
+      const missing = variables.filter((name) => !template.html.includes(`{{ .${name} }}`));
+      if (missing.length) fail("mail/templates.json", `${kind} : variables absentes (${missing.join(", ")})`);
+      if (/<script/i.test(template.html)) fail("mail/templates.json", `${kind} : script interdit`);
     }
   }
 

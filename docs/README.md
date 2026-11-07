@@ -12,6 +12,8 @@ GéoFR est le premier jeu de la collection Géo Europe. Le même code sert à to
 | [checklist-pays.md](checklist-pays.md) | Liste à cocher pour un pays, ce qui existe et ce qui est prévu |
 | [editions.md](editions.md) | Les cinq éditions, leurs tarifs, où ils vivent et comment les changer |
 | [juridique.md](juridique.md) | Documents juridiques : intégration de JavaChrist-Legal-Kit, procédure par pays, manques connus |
+| [paiements.md](paiements.md) | Achat web Mollie en mode test, commandes, droits d'accès, variables, tests |
+| [courriels.md](courriels.md) | Courriels de compte et confirmation d'achat : modèles de JavaChrist-Mail-Kit, envoi SMTP, limites, tests |
 
 ## Fichiers de relecture
 
@@ -35,7 +37,7 @@ npm run build
 npm run build:export
 ```
 
-`npm run check` enchaîne le lint, les types, l'absence d'emoji, le contenu de chaque pays, le moteur, le Mode Famille et les documents juridiques.
+`npm run check` enchaîne le lint, les types, l'absence d'emoji, le contenu de chaque pays (dont les modèles de courriel), le moteur, le Mode Famille, les documents juridiques et les droits d'accès.
 
 ## Légende
 
