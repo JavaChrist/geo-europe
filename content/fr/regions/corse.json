@@ -2,7 +2,16 @@
   "id": "FR-20R",
   "slug": "corse",
   "nameKey": "regions.corse",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "2A",
+      "nameKey": "departments.2A"
+    },
+    {
+      "id": "2B",
+      "nameKey": "departments.2B"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],

@@ -267,6 +267,14 @@
         "80": "picardie",
         "02": "picardie"
       }
+    },
+    {
+      "id": "corse-departements",
+      "simplify": "22%",
+      "zones": {
+        "2A": "2A",
+        "2B": "2B"
+      }
     }
   ]
 }

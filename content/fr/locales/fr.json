@@ -6552,6 +6552,258 @@
       "photoPicardieSamara": {
         "title": "Samara, maison gauloise reconstituée",
         "alt": "Maison basse au grand toit de chaume, sur une pelouse."
+      },
+      "photoCorseBonifacio": {
+        "title": "Ville haute de Bonifacio",
+        "alt": "Haute falaise de calcaire blanc couronnée de remparts, au-dessus d'une mer turquoise."
+      },
+      "photoCorsePiana": {
+        "title": "Calanques de Piana",
+        "alt": "Rochers de granite rouge déchiquetés, au-dessus d'un golfe bleu."
+      },
+      "photoCorseScandola": {
+        "title": "Réserve naturelle de Scandola",
+        "alt": "Falaises de roche sombre et rougeâtre plongeant dans une mer limpide."
+      },
+      "photoCorseLavezzi": {
+        "title": "Cala di Chiesa, îles Lavezzi",
+        "alt": "Petite crique d'eau turquoise entourée de gros rochers de granite arrondis."
+      },
+      "photoCorseBavella": {
+        "title": "Aiguilles de Bavella",
+        "alt": "Hautes aiguilles de roche dentelées, au-dessus d'une forêt de pins."
+      },
+      "photoCorseCinto": {
+        "title": "Monte Cinto au-dessus de Calacuccia",
+        "alt": "Haute montagne aux sommets enneigés, au-dessus d'un village et d'un lac."
+      },
+      "photoCorseSaleccia": {
+        "title": "Plage de Saleccia",
+        "alt": "Longue plage de sable blanc bordée d'eau turquoise et de collines couvertes de maquis."
+      },
+      "photoCorseMelo": {
+        "title": "Lac de Melo",
+        "alt": "Petit lac de montagne au milieu des rochers et des pelouses d'altitude."
+      },
+      "photoCorsePalombaggia": {
+        "title": "Plage de Palombaggia",
+        "alt": "Plage de sable clair bordée de pins parasols, au bord d'une mer turquoise."
+      },
+      "photoCorseRestonica": {
+        "title": "Gorges de la Restonica",
+        "alt": "Torrent aux eaux claires coulant entre des rochers, au fond d'une vallée boisée."
+      },
+      "photoCorseMaquis": {
+        "title": "Maquis de Balagne",
+        "alt": "Collines couvertes d'arbustes denses et fleuris, sous un ciel bleu."
+      },
+      "photoCorseCenturi": {
+        "title": "Port de Centuri",
+        "alt": "Village côtier et petit port face à un îlot, vus d'en haut."
+      },
+      "photoCorseSanguinaires": {
+        "title": "Îles Sanguinaires, Ajaccio",
+        "alt": "Chapelet d'îlots rocheux à l'horizon, sur une mer sombre."
+      },
+      "photoCorsePortoTour": {
+        "title": "Tour de Porto",
+        "alt": "Tour de pierre carrée perchée sur un rocher, au-dessus d'une marine."
+      },
+      "photoCorseCalvi": {
+        "title": "Port et citadelle de Calvi",
+        "alt": "Citadelle aux remparts massifs dominant un port de plaisance."
+      },
+      "photoCorseCorte": {
+        "title": "Citadelle de Corte",
+        "alt": "Forteresse perchée sur un piton rocheux au-dessus d'une ville de montagne."
+      },
+      "photoCorseMaisonBonaparte": {
+        "title": "Maison Bonaparte, Ajaccio",
+        "alt": "Façade ocre de maison ancienne aux volets verts, vue d'en bas."
+      },
+      "photoCorseBastiaPort": {
+        "title": "Vieux port de Bastia",
+        "alt": "Port de plaisance bordé de hautes maisons anciennes."
+      },
+      "photoCorseFigatellu": {
+        "title": "Figatellu grillé",
+        "alt": "Rondelles de saucisse sombre posées sur des tranches de pain, dans une assiette."
+      },
+      "photoCorseNustrale": {
+        "title": "Porcs en montagne, col de Vergio",
+        "alt": "Cochons sombres cherchant leur nourriture en liberté, en montagne."
+      },
+      "photoCorseLangouste": {
+        "title": "Langouste rouge",
+        "alt": "Crustacé rouge orangé aux longues antennes, sur un fond rocheux."
+      },
+      "photoCorseBrocciu": {
+        "title": "Brocciu frais",
+        "alt": "Fromage blanc frais et granuleux dans un panier à égoutter strié."
+      },
+      "photoCorseChataignes": {
+        "title": "Châtaignier en Corse",
+        "alt": "Grand arbre au tronc épais et noueux, dans une forêt de montagne."
+      },
+      "photoCorsePatrimonio": {
+        "title": "Vignoble près de Saint-Florent",
+        "alt": "Rangs de vignes sur un coteau, avec les montagnes au loin."
+      },
+      "photoCorseOliviers": {
+        "title": "Oliviers près de Murato",
+        "alt": "Vieux arbres au feuillage argenté sur une colline."
+      },
+      "photoCorseCanistrelli": {
+        "title": "Canistrelli",
+        "alt": "Petits biscuits secs et dorés, de forme carrée ou losangée."
+      },
+      "photoCorseFiadone": {
+        "title": "Fiadone",
+        "alt": "Part de gâteau doré et moelleux, garnie de copeaux de chocolat."
+      },
+      "photoCorseSartene": {
+        "title": "Vieille ville de Sartène",
+        "alt": "Ville de pierre étagée sur une colline, dominée par un clocher."
+      },
+      "photoCorsePortoVecchio": {
+        "title": "Vieille ville de Porto-Vecchio",
+        "alt": "Vieille ville perchée derrière des remparts, au-dessus de la verdure."
+      },
+      "photoCorseIleRousse": {
+        "title": "Phare de la Pietra, L'Île-Rousse",
+        "alt": "Phare blanc à lanterne verte, au-dessus d'une maison de gardien."
+      },
+      "photoCorseSaintFlorent": {
+        "title": "Citadelle de Saint-Florent",
+        "alt": "Fort rond de pierre flanqué de tours, avec des palmiers, en noir et blanc."
+      },
+      "photoCorsePigna": {
+        "title": "Ruelles de Pigna",
+        "alt": "Ruelle pavée entre des maisons de pierre restaurées."
+      },
+      "photoCorseSantAntonino": {
+        "title": "Sant'Antonino",
+        "alt": "Toits de tuiles de maisons de pierre, au-dessus d'une vallée verdoyante."
+      },
+      "photoCorseSpeloncato": {
+        "title": "Speloncato",
+        "alt": "Village de maisons de pierre aux toits rouges accroché à une colline."
+      },
+      "photoCorseCalenzana": {
+        "title": "Église Saint-Blaise, Calenzana",
+        "alt": "Grande église baroque à campanile, au cœur d'un village."
+      },
+      "photoCorseCargese": {
+        "title": "Église grecque de Cargèse",
+        "alt": "Église claire à haut clocher, entourée d'arbres."
+      },
+      "photoCorseNonza": {
+        "title": "Plage de Nonza",
+        "alt": "Mer turquoise venant se briser sur une plage de galets sombres, vue d'en haut."
+      },
+      "photoCorseErbalunga": {
+        "title": "Tour d'Erbalunga",
+        "alt": "Tour ronde en ruine sur des rochers, au bord de la mer."
+      },
+      "photoCorsePalaisFesch": {
+        "title": "Palais Fesch, Ajaccio",
+        "alt": "Grand bâtiment classique ocre ouvrant sur une cour plantée de palmiers, avec une statue."
+      },
+      "photoCorseCathedraleAjaccio": {
+        "title": "Cathédrale d'Ajaccio",
+        "alt": "Façade d'église ocre de style Renaissance, au fronton triangulaire."
+      },
+      "photoCorseSaintJeanBastia": {
+        "title": "Église Saint-Jean-Baptiste, Bastia",
+        "alt": "Haute façade baroque encadrée de deux clochers."
+      },
+      "photoCorseGouverneurs": {
+        "title": "Citadelle de Bastia",
+        "alt": "Remparts et haut bâtiment de pierre dominant la ville."
+      },
+      "photoCorseEscalierAragon": {
+        "title": "Falaises de Bonifacio",
+        "alt": "Long escalier taillé en diagonale dans une falaise de calcaire blanc."
+      },
+      "photoCorseNebbio": {
+        "title": "Cathédrale du Nebbio, Saint-Florent",
+        "alt": "Église romane de pierre claire isolée dans la campagne."
+      },
+      "photoCorseMurato": {
+        "title": "Église San Michele de Murato",
+        "alt": "Petite église romane aux pierres blanches et vertes alternées, sous un clocher-porche."
+      },
+      "photoCorseCanonica": {
+        "title": "La Canonica, Lucciana",
+        "alt": "Église romane de pierre claire, à la façade ornée d'arcatures, sur une pelouse."
+      },
+      "photoCorseLaPorta": {
+        "title": "Village de La Porta, Castagniccia",
+        "alt": "Village de maisons de pierre à flanc de montagne boisée, dominé par un haut clocher baroque à étages."
+      },
+      "photoCorsePontGenois": {
+        "title": "Pont de Zaglia, Évisa",
+        "alt": "Pont de pierre en dos d'âne à une arche, au-dessus d'un torrent dans la forêt."
+      },
+      "photoCorseBergerie": {
+        "title": "Bergerie de Solibellu, Venaco",
+        "alt": "Petits abris de pierre sèche en ruine au pied de rochers, en montagne."
+      },
+      "photoCorseCochon": {
+        "title": "Cochons à Calacuccia",
+        "alt": "Trois animaux à groin, un rose et deux noirs, au milieu des rochers et des broussailles."
+      },
+      "photoCorseMouflon": {
+        "title": "Mouflon",
+        "alt": "Animal sauvage aux grandes cornes recourbées, sur un fond de rochers."
+      },
+      "photoCorseSittelle": {
+        "title": "Petit passereau dans un pin",
+        "alt": "Petit oiseau gris à calotte noire, accroché à un tronc de pin."
+      },
+      "photoCorseVizzavona": {
+        "title": "Forêt de Vizzavona",
+        "alt": "Sentier sous de grands hêtres aux feuillages d'automne dorés."
+      },
+      "photoCorseNino": {
+        "title": "Lac de Nino",
+        "alt": "Lac de montagne entouré de pelouses humides, où paissent des chevaux."
+      },
+      "photoCorseSpelunca": {
+        "title": "Gorges de la Spelunca",
+        "alt": "Gorge profonde aux parois de roche rouge, couverte de végétation."
+      },
+      "photoCorseFilitosa": {
+        "title": "Statues-menhirs de Filitosa",
+        "alt": "Haute pierre dressée sculptée d'une épée, devant un grand bloc couché, sous un arbre."
+      },
+      "photoCorsePalaggiu": {
+        "title": "Alignements de Palaggiu",
+        "alt": "Rangée de pierres dressées le long d'un chemin, au milieu du maquis."
+      },
+      "photoCorseCucuruzzu": {
+        "title": "Castellu de Cucuruzzu",
+        "alt": "Murs de gros blocs de granite percés de passages couverts."
+      },
+      "photoCorseAleria": {
+        "title": "Site antique d'Aléria",
+        "alt": "Vestiges de murs et de fondations antiques sur un plateau herbeux."
+      },
+      "photoCorseMorosaglia": {
+        "title": "Maison natale de Pascal Paoli, Morosaglia",
+        "alt": "Maison de pierre de village à volets, au bord d'une petite route."
+      },
+      "photoCorsePonteNovu": {
+        "title": "Pont de Ponte-Novu",
+        "alt": "Vieux pont de pierre à grandes arches au-dessus d'un vallon."
+      },
+      "photoCorseMonumentNapoleon": {
+        "title": "Monument de la place d'Austerlitz, Ajaccio",
+        "alt": "Statue de bronze au sommet d'une pyramide de marches de pierre, entre les arbres."
+      },
+      "photoCorseCasabianca": {
+        "title": "Kiosque du sous-marin Casabianca, Bastia",
+        "alt": "Kiosque de sous-marin sombre avec un canon sur sa plateforme, exposé en plein air."
       }
     }
   },
@@ -6669,7 +6921,9 @@
     "04": "Alpes-de-Haute-Provence",
     "05": "Hautes-Alpes",
     "06": "Alpes-Maritimes",
-    "02": "Aisne"
+    "02": "Aisne",
+    "2A": "Corse-du-Sud",
+    "2B": "Haute-Corse"
   },
   "places": {
     "strasbourg": "Strasbourg",
@@ -7621,7 +7875,60 @@
     "thiepval": "Thiepval",
     "villers-bretonneux": "Villers-Bretonneux",
     "picquigny": "Picquigny",
-    "noyelles-sur-mer": "Noyelles-sur-Mer"
+    "noyelles-sur-mer": "Noyelles-sur-Mer",
+    "ajaccio": "Ajaccio",
+    "bonifacio": "Bonifacio",
+    "porto-vecchio": "Porto-Vecchio",
+    "sartene": "Sartène",
+    "propriano": "Propriano",
+    "zonza": "Zonza",
+    "levie": "Levie",
+    "piana": "Piana",
+    "cargese": "Cargèse",
+    "bocognano": "Bocognano",
+    "bastelica": "Bastelica",
+    "sainte-lucie-de-tallano": "Sainte-Lucie-de-Tallano",
+    "figari": "Figari",
+    "vico": "Vico",
+    "quenza": "Quenza",
+    "conca": "Conca",
+    "sari-solenzara": "Sari-Solenzara",
+    "fozzano": "Fozzano",
+    "belvedere-campomoro": "Belvédère-Campomoro",
+    "osani": "Osani",
+    "sollacaro": "Sollacaro",
+    "bastia": "Bastia",
+    "corte": "Corte",
+    "calvi": "Calvi",
+    "l-ile-rousse": "L'Île-Rousse",
+    "ghisonaccia": "Ghisonaccia",
+    "biguglia": "Biguglia",
+    "borgo": "Borgo",
+    "saint-florent": "Saint-Florent",
+    "patrimonio": "Patrimonio",
+    "calenzana": "Calenzana",
+    "pigna": "Pigna",
+    "sant-antonino": "Sant'Antonino",
+    "morosaglia": "Morosaglia",
+    "la-porta": "La Porta",
+    "cervione": "Cervione",
+    "aleria": "Aléria",
+    "venaco": "Venaco",
+    "casamaccioli": "Casamaccioli",
+    "calacuccia": "Calacuccia",
+    "nonza": "Nonza",
+    "centuri": "Centuri",
+    "brando": "Brando",
+    "murato": "Murato",
+    "luri": "Luri",
+    "rogliano": "Rogliano",
+    "canari": "Canari",
+    "speloncato": "Speloncato",
+    "algajola": "Algajola",
+    "lama": "Lama",
+    "moltifao": "Moltifao",
+    "piedicroce": "Piedicroce",
+    "galeria": "Galeria"
   },
   "territories": {
     "champagne-ardenne": {
@@ -47249,6 +47556,2053 @@
           "master": {
             "name": "Maître de Picardie",
             "description": "Réussir le Défi Maître de la Picardie, avec au moins huit bonnes réponses sur dix."
+          }
+        }
+      }
+    },
+    "corse": {
+      "name": "Corse",
+      "description": "Des falaises de Bonifacio aux calanques de Piana, des citadelles génoises aux villages perchés de Balagne, du brocciu au figatellu, des chants polyphoniques aux statues-menhirs de Filitosa : une montagne dans la mer, au cœur de la Méditerranée, marquée par Pise, Gênes, Pascal Paoli et Napoléon.",
+      "levels": {
+        "bienvenue": {
+          "name": "Bienvenue en Corse",
+          "description": "Deux départements, leurs villes et les grands repères d'une montagne dans la mer, entre golfes, citadelles génoises, plages de sable blanc et sommets enneigés.",
+          "deux-departements": {
+            "prompt": "Quels sont les deux départements de l'île ?",
+            "hint": "Ils ont été créés en 1976, en coupant l'île en deux.",
+            "anecdote": "Depuis 2018, une collectivité unique, la Collectivité de Corse, exerce les compétences de la région et des deux départements.",
+            "answers": {
+              "la-corse-du-sud-et-la-haute-corse": "La Corse-du-Sud et la Haute-Corse",
+              "le-golo-et-le-liamone": "Le Golo et le Liamone",
+              "la-haute-corse-et-le-var": "La Haute-Corse et le Var",
+              "la-corse-du-sud-et-les-alpes-maritimes": "La Corse-du-Sud et les Alpes-Maritimes"
+            }
+          },
+          "capitale": {
+            "prompt": "Quelle ville est le siège de la Collectivité de Corse ?",
+            "hint": "C'est la plus grande ville de l'île, au fond d'un large golfe de la côte ouest.",
+            "anecdote": "Elle compte plus de 70 000 habitants. L'Assemblée de Corse y siège depuis sa création, en 1982."
+          },
+          "prefecture-2b": {
+            "prompt": "Quelle ville est la préfecture de la Haute-Corse ?",
+            "hint": "Son vieux port, au pied d'une citadelle, regarde vers l'Italie.",
+            "anecdote": "C'est la deuxième ville de l'île, avec près de 50 000 habitants. Elle a été le siège des gouverneurs génois."
+          },
+          "langue": {
+            "prompt": "Comment s'appelle la langue régionale de l'île ?",
+            "hint": "Elle est proche des parlers de Toscane.",
+            "anecdote": "C'est une langue romane, cousine de l'italien. Elle est enseignée à l'école et s'affiche sur les panneaux, à côté du français.",
+            "answers": {
+              "le-corse": "Le corse",
+              "le-sarde": "Le sarde",
+              "le-ligure": "Le ligure",
+              "l-occitan": "L'occitan"
+            }
+          },
+          "surnom-ile": {
+            "prompt": "Quel surnom donne-t-on souvent à la Corse ?",
+            "hint": "Ce surnom vante la splendeur de ses paysages.",
+            "anecdote": "Les Grecs de l'Antiquité l'appelaient déjà Kallistè, « la très belle ».",
+            "answers": {
+              "l-ile-de-beaute": "L'île de Beauté",
+              "l-ile-aux-fleurs": "L'île aux fleurs",
+              "l-ile-rouge": "L'île Rouge",
+              "l-ile-d-emeraude": "L'île d'Émeraude"
+            }
+          },
+          "sardaigne": {
+            "prompt": "Quelle grande île italienne se trouve juste au sud de la Corse ?",
+            "hint": "Le bras de mer qui les sépare ne mesure qu'une douzaine de kilomètres.",
+            "anecdote": "Des ferries relient les deux îles en moins d'une heure. Sa capitale est Cagliari.",
+            "answers": {
+              "la-sardaigne": "La Sardaigne",
+              "la-sicile": "La Sicile",
+              "l-ile-d-elbe": "L'île d'Elbe",
+              "capri": "Capri"
+            }
+          },
+          "rattachement": {
+            "prompt": "En quelle année la Corse est-elle devenue française ?",
+            "hint": "C'est l'année d'un traité signé à Versailles, par lequel la république de Gênes cédait l'île au roi Louis XV.",
+            "anecdote": "L'armée française a battu les troupes de Pascal Paoli à Ponte-Novu, au printemps de l'année suivante.",
+            "answers": {
+              "1768": "1768",
+              "1789": "1789",
+              "1815": "1815",
+              "1860": "1860"
+            }
+          },
+          "drapeau": {
+            "prompt": "Quel emblème figure sur le drapeau corse ?",
+            "hint": "Il représente le profil d'un homme portant un bandeau blanc sur le front.",
+            "anecdote": "Selon la tradition, Pascal Paoli a fait relever ce bandeau, qui couvrait d'abord les yeux, pour symboliser l'éveil de l'île.",
+            "answers": {
+              "une-tete-de-maure": "Une tête de Maure",
+              "une-hermine": "Une hermine",
+              "un-lion-d-or": "Un lion d'or",
+              "une-croix-blanche": "Une croix blanche"
+            }
+          },
+          "aeroports": {
+            "prompt": "Combien d'aéroports la Corse compte-t-elle ?",
+            "hint": "Il y en a dans les deux préfectures, dans le nord-ouest et dans l'extrême sud de l'île.",
+            "anecdote": "Avec les ports, ils relient l'île au continent et à l'Europe. Le trafic explose en été.",
+            "answers": {
+              "quatre": "Quatre",
+              "deux": "Deux",
+              "un": "Un",
+              "six": "Six"
+            }
+          },
+          "habitants": {
+            "prompt": "Combien d'habitants compte environ la Corse ?",
+            "hint": "C'est à peu près la population de la seule ville de Nice.",
+            "anecdote": "C'est l'une des régions les moins peuplées de France, avec une quarantaine d'habitants au kilomètre carré.",
+            "answers": {
+              "350-000": "350 000",
+              "1-million": "1 million",
+              "150-000": "150 000",
+              "2-millions": "2 millions"
+            }
+          },
+          "rang-ile": {
+            "prompt": "Quel rang la Corse occupe-t-elle parmi les îles de la Méditerranée, par sa superficie ?",
+            "hint": "Les deux plus grandes sont italiennes, et une troisième se trouve tout à l'est de la mer.",
+            "anecdote": "Elle mesure environ 180 kilomètres de long et 80 kilomètres de large.",
+            "answers": {
+              "la-quatrieme": "La quatrième",
+              "la-premiere": "La première",
+              "la-deuxieme": "La deuxième",
+              "la-septieme": "La septième"
+            }
+          },
+          "universite": {
+            "prompt": "Dans quelle ville se trouve l'université de Corse ?",
+            "hint": "Cette ville du centre de l'île a été la capitale de la Corse indépendante.",
+            "anecdote": "Fondée par Pascal Paoli en 1765, elle a fermé après la conquête française. Elle a rouvert en 1981."
+          },
+          "bonifacio": {
+            "prompt": "Quelle ville, perchée sur des falaises blanches au sud de l'île, voit-on ici ?",
+            "hint": "Ses maisons se dressent au bord du vide, au-dessus d'un port bien abrité.",
+            "anecdote": "Ses falaises de calcaire, hautes de plus de 60 mètres, sont creusées à leur pied par la mer."
+          },
+          "piana": {
+            "prompt": "Quelles roches rouges sculptées par l'érosion, au-dessus d'un golfe de la côte ouest, voit-on ici ?",
+            "hint": "On les traverse par une route en corniche, entre deux villages.",
+            "anecdote": "Ces rochers de granite rose, aux formes étranges, sont inscrits au patrimoine mondial de l'Unesco avec le golfe voisin.",
+            "answers": {
+              "les-calanques-de-piana": "Les calanques de Piana",
+              "les-aiguilles-de-bavella": "Les aiguilles de Bavella",
+              "les-falaises-de-bonifacio": "Les falaises de Bonifacio",
+              "les-orgues-de-scandola": "Les orgues de Scandola"
+            }
+          },
+          "scandola": {
+            "prompt": "Quelle réserve naturelle, accessible seulement par la mer, voit-on ici ?",
+            "hint": "Elle protège une presqu'île de roches volcaniques rouges, sur la côte ouest.",
+            "anecdote": "Créée en 1975, c'est l'une des plus anciennes réserves naturelles de France. Ses falaises abritent des balbuzards pêcheurs.",
+            "answers": {
+              "la-reserve-de-scandola": "La réserve de Scandola",
+              "les-iles-lavezzi": "Les îles Lavezzi",
+              "le-desert-des-agriates": "Le désert des Agriates",
+              "les-iles-sanguinaires": "Les îles Sanguinaires"
+            }
+          },
+          "lavezzi": {
+            "prompt": "Quel archipel de rochers de granite, au large de la pointe sud de l'île, voit-on ici ?",
+            "hint": "Ses criques aux eaux turquoise ne sont accessibles qu'en bateau.",
+            "anecdote": "En 1855, la frégate La Sémillante y a fait naufrage. Plusieurs centaines d'hommes y ont péri.",
+            "answers": {
+              "les-iles-lavezzi": "Les îles Lavezzi",
+              "les-iles-sanguinaires": "Les îles Sanguinaires",
+              "les-iles-cerbicale": "Les îles Cerbicale",
+              "l-archipel-de-la-maddalena": "L'archipel de La Maddalena"
+            }
+          },
+          "bavella": {
+            "prompt": "Quelles grandes dents de granite, dans les montagnes de l'Alta Rocca, voit-on ici ?",
+            "hint": "Un col routier passe à leur pied, sur la route qui descend vers la côte est.",
+            "anecdote": "Ces sommets de granite rose sont traversés par le GR20. Les pins de leurs pentes sont parfois tordus par le vent.",
+            "answers": {
+              "les-aiguilles-de-bavella": "Les aiguilles de Bavella",
+              "les-calanques-de-piana": "Les calanques de Piana",
+              "le-monte-cinto": "Le Monte Cinto",
+              "les-gorges-de-la-restonica": "Les gorges de la Restonica"
+            }
+          },
+          "cinto": {
+            "prompt": "Quel sommet, le plus haut de l'île, voit-on ici ?",
+            "hint": "Il dépasse 2 700 mètres, dans le nord-ouest de l'île.",
+            "anecdote": "Il culmine à 2 706 mètres. La neige peut couvrir ses pentes jusqu'au début de l'été.",
+            "answers": {
+              "le-monte-cinto": "Le Monte Cinto",
+              "le-monte-rotondo": "Le Monte Rotondo",
+              "le-monte-d-oro": "Le Monte d'Oro",
+              "le-monte-renoso": "Le Monte Renoso"
+            }
+          },
+          "saleccia": {
+            "prompt": "Quelle plage de sable blanc, au bout d'une longue piste de terre, loin de toute route, voit-on ici ?",
+            "hint": "On y vient souvent en bateau depuis Saint-Florent.",
+            "anecdote": "Elle a servi de décor au film Le Jour le plus long, en 1962, pour figurer une plage du débarquement.",
+            "answers": {
+              "la-plage-de-saleccia": "La plage de Saleccia",
+              "la-plage-de-palombaggia": "La plage de Palombaggia",
+              "la-plage-de-santa-giulia": "La plage de Santa Giulia",
+              "la-plage-de-l-ostriconi": "La plage de l'Ostriconi"
+            }
+          },
+          "melo": {
+            "prompt": "Quel lac de montagne, à plus de 1 700 mètres d'altitude, voit-on ici ?",
+            "hint": "On l'atteint en une heure de marche depuis les bergeries de Grotelle.",
+            "anecdote": "Il reste gelé une bonne partie de l'hiver. Le lac de Capitello, plus haut, le domine.",
+            "answers": {
+              "le-lac-de-melo": "Le lac de Melo",
+              "le-lac-de-nino": "Le lac de Nino",
+              "le-lac-de-capitello": "Le lac de Capitello",
+              "le-lac-de-creno": "Le lac de Creno"
+            }
+          },
+          "palombaggia": {
+            "prompt": "Quelle plage bordée de pins parasols, près de Porto-Vecchio, voit-on ici ?",
+            "hint": "Elle fait face à un petit archipel protégé.",
+            "anecdote": "Son sable blanc et ses rochers de granite rouge en font l'une des plages les plus connues de l'île.",
+            "answers": {
+              "la-plage-de-palombaggia": "La plage de Palombaggia",
+              "la-plage-de-saleccia": "La plage de Saleccia",
+              "la-plage-du-lotu": "La plage du Lotu",
+              "la-plage-d-arone": "La plage d'Arone"
+            }
+          },
+          "restonica": {
+            "prompt": "Quelle vallée, creusée par un torrent de montagne au cœur de l'île, voit-on ici ?",
+            "hint": "Une route étroite la remonte entre les pins, jusqu'au pied des lacs.",
+            "anecdote": "Son torrent aux vasques d'eau claire descend de lacs d'altitude. Il rejoint le Tavignano à Corte.",
+            "answers": {
+              "les-gorges-de-la-restonica": "Les gorges de la Restonica",
+              "les-gorges-du-tavignano": "Les gorges du Tavignano",
+              "la-scala-di-santa-regina": "La Scala di Santa Regina",
+              "la-vallee-d-asco": "La vallée d'Asco"
+            }
+          },
+          "maquis": {
+            "prompt": "Comment appelle-t-on cette végétation dense d'arbustes qui couvre une grande partie de l'île ?",
+            "hint": "Ce mot a aussi désigné les résistants de la Seconde Guerre mondiale.",
+            "anecdote": "Myrte, arbousier, ciste et lentisque le parfument. Napoléon aurait dit qu'il reconnaîtrait son île les yeux fermés, à son odeur.",
+            "answers": {
+              "le-maquis": "Le maquis",
+              "la-garrigue": "La garrigue",
+              "la-lande": "La lande",
+              "la-steppe": "La steppe"
+            }
+          },
+          "centuri": {
+            "prompt": "Quel petit port de pêche, à la pointe nord de l'île, voit-on ici ?",
+            "hint": "Il se trouve sur la côte ouest du cap, réputée pour ses langoustes.",
+            "anecdote": "Ses maisons aux toits de pierre verte entourent un port où débarquent les pêcheurs.",
+            "answers": {
+              "erbalunga": "Erbalunga",
+              "macinaggio": "Macinaggio"
+            }
+          },
+          "sanguinaires": {
+            "prompt": "Quel archipel, à l'entrée d'un grand golfe de la côte ouest, voit-on ici ?",
+            "hint": "Ses roches prennent une teinte rouge au coucher du soleil.",
+            "anecdote": "Alphonse Daudet a séjourné dans le phare de la grande île, qu'il évoque dans les Lettres de mon moulin.",
+            "answers": {
+              "les-iles-sanguinaires": "Les îles Sanguinaires",
+              "les-iles-lavezzi": "Les îles Lavezzi",
+              "les-iles-cerbicale": "Les îles Cerbicale",
+              "les-iles-finocchiarola": "Les îles Finocchiarola"
+            }
+          },
+          "gr20": {
+            "prompt": "Quel célèbre sentier de grande randonnée traverse l'île du nord au sud par la montagne ?",
+            "hint": "Il part de Calenzana, au-dessus de Calvi, et arrive à Conca, près de Porto-Vecchio.",
+            "anecdote": "Long d'environ 180 kilomètres, il est réputé comme l'un des plus difficiles d'Europe. On le parcourt en deux semaines environ.",
+            "answers": {
+              "le-gr20": "Le GR20",
+              "le-gr10": "Le GR10",
+              "le-gr34": "Le GR34",
+              "le-gr65": "Le GR65"
+            }
+          },
+          "agriates": {
+            "prompt": "Comment appelle-t-on la vaste région sauvage et sans village, entre Saint-Florent et L'Île-Rousse ?",
+            "hint": "Ce n'est pas une étendue de sable, mais un maquis rocailleux.",
+            "anecdote": "Des bergers et des cultivateurs venaient autrefois y semer du blé. Le Conservatoire du littoral en protège une grande partie.",
+            "answers": {
+              "le-desert-des-agriates": "Le désert des Agriates",
+              "la-castagniccia": "La Castagniccia",
+              "la-balagne": "La Balagne",
+              "le-niolo": "Le Niolo"
+            }
+          },
+          "bouches": {
+            "prompt": "Comment s'appelle le détroit qui sépare la Corse de la Sardaigne ?",
+            "hint": "Il porte le nom de la ville la plus au sud de l'île.",
+            "anecdote": "Ce passage, large d'une douzaine de kilomètres, est redouté des marins pour ses courants et ses vents violents.",
+            "answers": {
+              "les-bouches-de-bonifacio": "Les bouches de Bonifacio",
+              "le-detroit-de-messine": "Le détroit de Messine",
+              "le-canal-de-corse": "Le canal de Corse",
+              "le-detroit-de-gibraltar": "Le détroit de Gibraltar"
+            }
+          },
+          "balagne": {
+            "prompt": "Quelle région du nord-ouest, entre mer et montagne, est surnommée le jardin de la Corse ?",
+            "hint": "Ses villages perchés regardent la mer, au milieu des oliviers.",
+            "anecdote": "Au temps des Génois, elle produisait une grande partie de l'huile d'olive et du blé de l'île.",
+            "answers": {
+              "la-balagne": "La Balagne",
+              "la-castagniccia": "La Castagniccia",
+              "le-nebbio": "Le Nebbio",
+              "le-sartenais": "Le Sartenais"
+            }
+          },
+          "castagniccia": {
+            "prompt": "Quelle région de l'est de l'île doit son nom à ses forêts de châtaigniers ?",
+            "hint": "Son nom vient du mot corse qui désigne la châtaigne.",
+            "anecdote": "Ses villages de schiste s'accrochent aux pentes. Pascal Paoli est né dans l'un d'eux, à Morosaglia.",
+            "answers": {
+              "la-castagniccia": "La Castagniccia",
+              "la-balagne": "La Balagne",
+              "le-niolo": "Le Niolo",
+              "l-alta-rocca": "L'Alta Rocca"
+            }
+          },
+          "plaine-orientale": {
+            "prompt": "Quelle région de la côte est, au sud de l'étang de Biguglia, concentre les vergers d'agrumes de l'île ?",
+            "hint": "C'est la seule grande étendue plate de l'île.",
+            "anecdote": "Assainie après la Seconde Guerre mondiale, elle produit notamment les clémentines de Corse.",
+            "answers": {
+              "la-plaine-orientale": "La plaine orientale",
+              "la-balagne": "La Balagne",
+              "le-cap-corse": "Le cap Corse",
+              "le-sartenais": "Le Sartenais"
+            }
+          },
+          "porto-tour": {
+            "prompt": "Quel type d'ouvrage, bâti le long des côtes de l'île, voit-on ici ?",
+            "hint": "Il servait à guetter l'arrivée des pirates venus d'Afrique du Nord.",
+            "anecdote": "Gênes en a fait bâtir près d'une centaine au XVIe siècle. Leurs gardiens allumaient des feux pour donner l'alerte de proche en proche.",
+            "answers": {
+              "une-tour-genoise": "Une tour génoise",
+              "un-phare": "Un phare",
+              "un-moulin-a-vent": "Un moulin à vent",
+              "un-pigeonnier": "Un pigeonnier"
+            }
+          },
+          "calvi": {
+            "prompt": "Quelle citadelle, dressée sur un promontoire au bord de la mer, voit-on ici ?",
+            "hint": "Selon une tradition locale, Christophe Colomb y serait né.",
+            "anecdote": "Les Génois l'ont fortifiée au XVe siècle. Sa devise latine rappelle sa fidélité à la république de Gênes.",
+            "answers": {
+              "la-citadelle-de-calvi": "La citadelle de Calvi",
+              "la-citadelle-de-corte": "La citadelle de Corte",
+              "la-citadelle-de-bastia": "La citadelle de Bastia",
+              "la-citadelle-de-saint-florent": "La citadelle de Saint-Florent"
+            }
+          },
+          "corte": {
+            "prompt": "Quelle citadelle, perchée sur un rocher au cœur des montagnes, voit-on ici ?",
+            "hint": "C'est la seule citadelle de l'intérieur de l'île.",
+            "anecdote": "Son point le plus haut est surnommé le nid d'aigle. Elle abrite aujourd'hui le musée de la Corse.",
+            "answers": {
+              "la-citadelle-de-corte": "La citadelle de Corte",
+              "la-citadelle-de-calvi": "La citadelle de Calvi",
+              "la-citadelle-de-bonifacio": "La citadelle de Bonifacio",
+              "la-citadelle-d-ajaccio": "La citadelle d'Ajaccio"
+            }
+          },
+          "maison-bonaparte": {
+            "prompt": "Quelle maison natale d'un empereur, dans la vieille ville d'Ajaccio, voit-on ici ?",
+            "hint": "Il y est né le 15 août 1769.",
+            "anecdote": "C'est aujourd'hui un musée national, qui présente la vie de la famille Bonaparte.",
+            "answers": {
+              "la-maison-bonaparte": "La maison Bonaparte",
+              "le-palais-fesch": "Le palais Fesch",
+              "la-maison-de-pascal-paoli": "La maison de Pascal Paoli",
+              "le-palais-des-gouverneurs": "Le palais des gouverneurs"
+            }
+          },
+          "bastia-port": {
+            "prompt": "Quel vieux port, dominé par une église à deux clochers, voit-on ici ?",
+            "hint": "Il se trouve dans la ville préfecture du nord de l'île.",
+            "anecdote": "L'église Saint-Jean-Baptiste, la plus grande de l'île, domine les quais et leurs hautes maisons.",
+            "answers": {
+              "le-vieux-port-de-bastia": "Le vieux port de Bastia",
+              "le-port-de-calvi": "Le port de Calvi",
+              "le-port-d-ajaccio": "Le port d'Ajaccio",
+              "le-port-de-bonifacio": "Le port de Bonifacio"
+            }
+          },
+          "ajaccio-dep": {
+            "prompt": "Dans quel département se trouve Ajaccio ?",
+            "hint": "C'est le département du sud et de l'ouest de l'île, qui comprend la pointe sud et les grands golfes de la côte ouest.",
+            "anecdote": "La ville s'étend au fond d'un golfe de la côte ouest. Elle a été fondée par les Génois en 1492."
+          },
+          "bastia-dep": {
+            "prompt": "Dans quel département se trouve Bastia ?",
+            "hint": "C'est le département du nord et de l'est de l'île, qui comprend la pointe du cap et la grande plaine côtière.",
+            "anecdote": "Son nom vient de la bastille, le donjon que les Génois y ont bâti à la fin du XIVe siècle."
+          },
+          "bonifacio-dep": {
+            "prompt": "Dans quel département se trouve Bonifacio ?",
+            "hint": "C'est le département du sud et de l'ouest de l'île, qui comprend la pointe sud et les grands golfes de la côte ouest.",
+            "anecdote": "C'est la commune la plus au sud de la France métropolitaine."
+          },
+          "calvi-dep": {
+            "prompt": "Dans quel département se trouve Calvi ?",
+            "hint": "C'est le département du nord et de l'est de l'île, qui comprend la pointe du cap et la grande plaine côtière.",
+            "anecdote": "Pendant le siège de la ville par les Anglais, en 1794, le futur amiral Nelson y a perdu l'usage d'un œil."
+          }
+        },
+        "saveurs": {
+          "name": "Saveurs de Corse",
+          "description": "Figatellu, coppa et lonzu, brocciu et tommes de montagne, farine de châtaigne, vins de Patrimonio, huîtres de l'étang de Diana, canistrelli, fiadone, miel du maquis et clémentines : la table d'une île de bergers, de forêts et de vergers.",
+          "figatellu": {
+            "prompt": "Quelle charcuterie corse, qu'on grille l'hiver au feu de bois, voit-on ici ?",
+            "hint": "Elle est préparée avec le foie du porc, ce qui lui donne sa couleur sombre.",
+            "anecdote": "On la mange grillée sur une tranche de pain, souvent avec une polenta de châtaigne. Sa saison va de décembre à mars, après l'abattage des cochons.",
+            "answers": {
+              "le-figatellu": "Le figatellu",
+              "le-boudin-noir": "Le boudin noir",
+              "l-andouille": "L'andouille",
+              "la-saucisse-de-morteau": "La saucisse de Morteau"
+            }
+          },
+          "figatellu-forme": {
+            "prompt": "Quelle forme donne-t-on traditionnellement au figatellu avant de le fumer ?",
+            "hint": "On le suspend par son milieu au-dessus de la cheminée.",
+            "anecdote": "Il est ensuite fumé, puis séché quelques jours. On peut le manger frais, grillé, ou plus sec, coupé en tranches.",
+            "answers": {
+              "un-fer-a-cheval": "Un fer à cheval",
+              "une-spirale": "Une spirale",
+              "une-boule": "Une boule",
+              "un-baton-droit": "Un bâton droit"
+            }
+          },
+          "lonzu": {
+            "prompt": "Quelle charcuterie corse est préparée avec le filet de porc, salé puis séché ?",
+            "hint": "C'est la plus maigre des trois grandes charcuteries de l'île.",
+            "anecdote": "Avec la coppa et le jambon sec, elle bénéficie d'une appellation d'origine protégée.",
+            "answers": {
+              "le-lonzu": "Le lonzu",
+              "la-coppa": "La coppa",
+              "le-prisuttu": "Le prisuttu",
+              "le-figatellu": "Le figatellu"
+            }
+          },
+          "coppa": {
+            "prompt": "Quel morceau du porc sert à préparer la coppa corse ?",
+            "hint": "C'est un morceau du haut du dos, persillé de gras, entre la nuque et la longe.",
+            "anecdote": "Il est salé, poivré, mis en boyau puis séché pendant plusieurs mois dans une pièce fraîche.",
+            "answers": {
+              "l-echine": "L'échine",
+              "le-jambon": "Le jambon",
+              "la-poitrine": "La poitrine",
+              "le-filet": "Le filet"
+            }
+          },
+          "prisuttu": {
+            "prompt": "Comment appelle-t-on le jambon sec de Corse ?",
+            "hint": "Son nom ressemble à celui que lui donnent les Italiens, prosciutto.",
+            "anecdote": "Il sèche au moins un an, souvent bien plus, et se découpe en fines tranches à la main.",
+            "answers": {
+              "le-prisuttu": "Le prisuttu",
+              "le-jambon-de-bayonne": "Le jambon de Bayonne",
+              "le-jambon-de-parme": "Le jambon de Parme",
+              "le-jambon-des-ardennes": "Le jambon des Ardennes"
+            }
+          },
+          "nustrale": {
+            "prompt": "Quelle race de porc, élevée en liberté dans les forêts et les collines, voit-on ici ?",
+            "hint": "Son nom signifie « le nôtre », ou « d'ici », en langue corse.",
+            "anecdote": "Reconnue officiellement en 2006, c'est la seule race admise pour les charcuteries corses d'appellation. En fin d'élevage, les cochons se nourrissent de châtaignes et de glands.",
+            "answers": {
+              "le-porc-nustrale": "Le porc nustrale",
+              "le-porc-de-bayeux": "Le porc de Bayeux",
+              "le-porc-blanc-de-l-ouest": "Le porc blanc de l'Ouest",
+              "le-porc-basque": "Le porc basque"
+            }
+          },
+          "stufatu": {
+            "prompt": "Comment appelle-t-on le ragoût de viande corse, mijoté au vin, souvent servi avec des pâtes ?",
+            "hint": "Son nom vient d'un mot corse qui évoque l'étouffée, la cuisson lente à couvert.",
+            "anecdote": "C'est un plat de fête, surtout à Bastia, qu'on prépare souvent la veille pour qu'il soit encore meilleur.",
+            "answers": {
+              "le-stufatu": "Le stufatu",
+              "l-aziminu": "L'aziminu",
+              "la-pulenda": "La pulenda",
+              "le-brocciu": "Le brocciu"
+            }
+          },
+          "aziminu": {
+            "prompt": "Quel nom porte en langue corse la soupe de poissons de roche, cousine de la bouillabaisse ?",
+            "hint": "On la prépare dans les ports de pêche, avec des rascasses, des girelles et des crabes.",
+            "anecdote": "Elle se sert sur des tranches de pain frottées d'ail, comme ses cousines de Provence.",
+            "answers": {
+              "l-aziminu": "L'aziminu",
+              "le-stufatu": "Le stufatu",
+              "la-pulenda": "La pulenda",
+              "le-figatellu": "Le figatellu"
+            }
+          },
+          "pulenda": {
+            "prompt": "Avec quelle farine prépare-t-on la pulenda, la polenta corse traditionnelle ?",
+            "hint": "Elle vient d'un arbre qui a longtemps nourri les villages de montagne.",
+            "anecdote": "Cuite dans un chaudron et remuée avec un bâton, elle est ensuite coupée au fil. On la sert avec du figatellu, des œufs ou du brocciu.",
+            "answers": {
+              "la-farine-de-chataigne": "La farine de châtaigne",
+              "la-farine-de-mais": "La farine de maïs",
+              "la-farine-de-sarrasin": "La farine de sarrasin",
+              "la-farine-de-pois-chiche": "La farine de pois chiche"
+            }
+          },
+          "sanglier": {
+            "prompt": "Quel animal sauvage des forêts corses est cuisiné en civet, à l'automne, dans toute l'île ?",
+            "hint": "On le chasse en battue, souvent à plusieurs dizaines de chasseurs.",
+            "anecdote": "Il se croise parfois avec les cochons élevés en liberté, qui vivent dans les mêmes forêts.",
+            "answers": {
+              "le-sanglier": "Le sanglier",
+              "le-mouflon": "Le mouflon",
+              "le-cerf": "Le cerf",
+              "le-chamois": "Le chamois"
+            }
+          },
+          "veau-olives": {
+            "prompt": "Avec quel fruit cuisine-t-on souvent le veau en sauce, en Corse ?",
+            "hint": "Il pousse sur de vieux arbres au feuillage argenté.",
+            "anecdote": "Le veau est mijoté avec des tomates, du vin blanc, des herbes du maquis et ces petits fruits noirs ou verts.",
+            "answers": {
+              "les-olives": "Les olives",
+              "les-pruneaux": "Les pruneaux",
+              "les-pommes": "Les pommes",
+              "les-cerises": "Les cerises"
+            }
+          },
+          "langouste": {
+            "prompt": "Quel crustacé, pêché autour du Cap Corse et dans les bouches de Bonifacio, voit-on ici ?",
+            "hint": "Il n'a pas de grosses pinces, mais deux très longues antennes.",
+            "anecdote": "On le cuisine souvent avec des pâtes, en sauce tomate. Des cantonnements de pêche ont été créés pour protéger l'espèce.",
+            "answers": {
+              "la-langouste-rouge": "La langouste rouge",
+              "le-homard-europeen": "Le homard européen",
+              "la-cigale-de-mer": "La cigale de mer",
+              "l-araignee-de-mer": "L'araignée de mer"
+            }
+          },
+          "diana": {
+            "prompt": "Dans quel étang de la plaine orientale élève-t-on des huîtres et des moules ?",
+            "hint": "Il s'ouvre sur la mer tout près d'un grand site antique.",
+            "anecdote": "Les Romains y élevaient déjà des huîtres : un îlot de l'étang est fait de coquilles accumulées depuis l'Antiquité.",
+            "answers": {
+              "l-etang-de-diana": "L'étang de Diana",
+              "l-etang-de-biguglia": "L'étang de Biguglia",
+              "l-etang-de-thau": "L'étang de Thau",
+              "l-etang-de-berre": "L'étang de Berre"
+            }
+          },
+          "omelette-brocciu": {
+            "prompt": "Quelle herbe accompagne traditionnellement l'omelette au brocciu ?",
+            "hint": "Elle est aussi la base d'une boisson chaude très bue au Maghreb.",
+            "anecdote": "Cette omelette est un classique des bergeries. Le fromage frais y est ajouté en morceaux, juste avant de la plier.",
+            "answers": {
+              "la-menthe": "La menthe",
+              "le-basilic": "Le basilic",
+              "la-ciboulette": "La ciboulette",
+              "le-persil": "Le persil"
+            }
+          },
+          "brocciu": {
+            "prompt": "Quel fromage frais corse voit-on ici ?",
+            "hint": "On le moule dans de petits paniers, d'où ses stries à la surface.",
+            "anecdote": "Il est le seul fromage de France fait de petit-lait à bénéficier d'une appellation d'origine, depuis 1983. On le trouve frais de novembre à juin.",
+            "answers": {
+              "le-brocciu": "Le brocciu",
+              "la-ricotta": "La ricotta",
+              "le-niolu": "Le niolu",
+              "la-feta": "La feta"
+            }
+          },
+          "brocciu-lait": {
+            "prompt": "Avec quoi fabrique-t-on le brocciu ?",
+            "hint": "C'est ce qui reste après la fabrication des tommes.",
+            "anecdote": "On le chauffe en y ajoutant du lait entier, puis on recueille à l'écumoire les flocons qui remontent.",
+            "answers": {
+              "le-petit-lait-de-brebis-ou-de-chevre": "Le petit-lait de brebis ou de chèvre",
+              "le-lait-de-vache-entier": "Le lait de vache entier",
+              "le-lait-de-bufflonne": "Le lait de bufflonne",
+              "la-creme-de-vache": "La crème de vache"
+            }
+          },
+          "niolu": {
+            "prompt": "Quel fromage corse porte le nom de la région montagneuse de Calacuccia ?",
+            "hint": "Il vient d'un haut plateau entouré des plus hauts sommets de l'île.",
+            "anecdote": "C'est une tomme de brebis ou de chèvre à croûte lavée, au goût puissant, affinée dans des caves fraîches.",
+            "answers": {
+              "le-niolu": "Le niolu",
+              "le-venachese": "Le venachese",
+              "le-calinzanincu": "Le calinzanincu",
+              "le-sartinesu": "Le sartinesu"
+            }
+          },
+          "chataignes": {
+            "prompt": "Quel arbre, autrefois appelé « l'arbre à pain » de l'île, voit-on ici ?",
+            "hint": "Ses fruits, enfermés dans une bogue piquante, tombent à l'automne.",
+            "anecdote": "Ses fruits séchés puis moulus donnaient une farine qui remplaçait le blé dans les villages de montagne.",
+            "answers": {
+              "le-chataignier": "Le châtaignier",
+              "le-chene-vert": "Le chêne vert",
+              "le-hetre": "Le hêtre",
+              "le-noyer": "Le noyer"
+            }
+          },
+          "farine-chataigne": {
+            "prompt": "Que fait-on des châtaignes corses avant de les moudre en farine ?",
+            "hint": "On les étale pendant plusieurs semaines sur des claies, au-dessus d'un feu doux.",
+            "anecdote": "Cette farine est protégée depuis 2006 par une appellation d'origine. Elle a un goût sucré et légèrement fumé.",
+            "answers": {
+              "on-les-seche": "On les sèche",
+              "on-les-fait-fermenter": "On les fait fermenter",
+              "on-les-fait-bouillir": "On les fait bouillir",
+              "on-les-sale": "On les sale"
+            }
+          },
+          "patrimonio": {
+            "prompt": "Quel vignoble, proche de Saint-Florent, voit-on ici ?",
+            "hint": "Il a été en 1968 la première appellation d'origine contrôlée de l'île.",
+            "anecdote": "Ses vignes poussent sur des sols calcaires, rares en Corse, au fond du golfe de Saint-Florent."
+          },
+          "nielluccio": {
+            "prompt": "Quel cépage rouge domine le vignoble de Patrimonio ?",
+            "hint": "Il est cousin du sangiovese, le cépage des vins de Toscane.",
+            "anecdote": "Il donne des vins rouges puissants. Le vin blanc de Patrimonio est, lui, fait de vermentinu.",
+            "answers": {
+              "le-nielluccio": "Le nielluccio",
+              "le-sciaccarellu": "Le sciaccarellu",
+              "le-pinot-noir": "Le pinot noir",
+              "le-gamay": "Le gamay"
+            }
+          },
+          "sciaccarellu": {
+            "prompt": "Quel cépage rouge, typique de la région d'Ajaccio, donne des vins clairs et poivrés ?",
+            "hint": "On ne le cultive presque nulle part ailleurs dans le monde.",
+            "anecdote": "Il pousse surtout sur les sols de granite du sud et de l'ouest de l'île, d'Ajaccio à Sartène.",
+            "answers": {
+              "le-sciaccarellu": "Le sciaccarellu",
+              "le-nielluccio": "Le nielluccio",
+              "le-merlot": "Le merlot",
+              "la-syrah": "La syrah"
+            }
+          },
+          "muscat": {
+            "prompt": "Quel vin doux naturel est produit dans le nord de l'île ?",
+            "hint": "Il vient d'une longue presqu'île montagneuse et de la région de Patrimonio.",
+            "anecdote": "Il est fait d'un cépage blanc aux arômes de raisin frais, de miel et de fruits secs.",
+            "answers": {
+              "le-muscat-du-cap-corse": "Le muscat du Cap Corse",
+              "le-banyuls": "Le banyuls",
+              "le-muscat-de-frontignan": "Le muscat de Frontignan",
+              "le-rivesaltes": "Le rivesaltes"
+            }
+          },
+          "oliviers": {
+            "prompt": "Quel arbre, cultivé dans l'île depuis l'Antiquité, voit-on ici ?",
+            "hint": "Son feuillage est gris argenté et ses fruits donnent une huile.",
+            "anecdote": "L'huile de l'île bénéficie d'une appellation d'origine. Certains arbres de Balagne ont plusieurs siècles.",
+            "answers": {
+              "l-olivier": "L'olivier",
+              "le-chene-liege": "Le chêne-liège",
+              "l-amandier": "L'amandier",
+              "le-figuier": "Le figuier"
+            }
+          },
+          "cedrat": {
+            "prompt": "Quel gros agrume à la peau très épaisse, cultivé dans l'île, est surtout consommé confit ?",
+            "hint": "Il ressemble à un énorme citron bosselé.",
+            "anecdote": "Le Cap Corse en exportait beaucoup au XIXe siècle. On en tire aussi une liqueur.",
+            "answers": {
+              "le-cedrat": "Le cédrat",
+              "le-pomelo": "Le pomelo",
+              "la-bergamote": "La bergamote",
+              "le-kumquat": "Le kumquat"
+            }
+          },
+          "patrimonio-dep": {
+            "prompt": "Patrimonio, berceau de la première appellation viticole de l'île, se trouve dans quel département ?",
+            "hint": "C'est le département du nord et de l'est de l'île, qui comprend la pointe du cap et la grande plaine côtière.",
+            "anecdote": "Le village est au pied du Cap Corse, à quelques kilomètres de Saint-Florent."
+          },
+          "diana-dep": {
+            "prompt": "L'étang de Diana, où l'on élève huîtres et moules, se trouve dans quel département ?",
+            "hint": "C'est le département du nord et de l'est de l'île, qui comprend la pointe du cap et la grande plaine côtière.",
+            "anecdote": "Il borde la plaine orientale, sur la commune d'Aléria."
+          },
+          "bocognano-dep": {
+            "prompt": "Bocognano accueille chaque hiver une grande foire de la châtaigne. Dans quel département se trouve ce village ?",
+            "hint": "C'est le département du sud et de l'ouest de l'île, qui fait face à la Sardaigne.",
+            "anecdote": "Le village est dans la vallée de la Gravona, au pied du monte d'Oro, sur la route qui relie Ajaccio à Corte."
+          },
+          "canistrelli": {
+            "prompt": "Comment appelle-t-on ces biscuits secs corses ?",
+            "hint": "On les trempe volontiers dans le café ou dans un verre de vin.",
+            "anecdote": "On les parfume à l'anis, au citron, au vin blanc ou à la farine de châtaigne. Leur pâte ne contient ni œufs ni beurre.",
+            "answers": {
+              "les-canistrelli": "Les canistrelli",
+              "les-navettes": "Les navettes",
+              "les-croquants": "Les croquants",
+              "les-bugnes": "Les bugnes"
+            }
+          },
+          "fiadone": {
+            "prompt": "Quel gâteau corse voit-on ici ?",
+            "hint": "Il est fait d'œufs, de sucre, de zeste de citron et de fromage frais.",
+            "anecdote": "Il n'a pas de pâte. Il cuit au four jusqu'à ce que sa surface dore, et se mange froid.",
+            "answers": {
+              "le-fiadone": "Le fiadone",
+              "le-far-breton": "Le far breton",
+              "le-clafoutis": "Le clafoutis",
+              "la-tarte-au-citron": "La tarte au citron"
+            }
+          },
+          "fiadone-fromage": {
+            "prompt": "Quel fromage donne au fiadone sa texture fondante ?",
+            "hint": "C'est un fromage frais, blanc et léger, fait de petit-lait.",
+            "anecdote": "On l'utilise aussi dans les beignets, les omelettes et les cannellonis.",
+            "answers": {
+              "le-brocciu": "Le brocciu",
+              "le-niolu": "Le niolu",
+              "le-roquefort": "Le roquefort",
+              "le-comte": "Le comté"
+            }
+          },
+          "falculella": {
+            "prompt": "Sur quelle feuille cuit-on la falculella, petit gâteau au brocciu de la région de Corte ?",
+            "hint": "Elle vient de l'arbre le plus répandu des forêts de montagne de l'île.",
+            "anecdote": "La feuille empêche le gâteau de coller et lui donne un léger goût. La falculella est servie tiède.",
+            "answers": {
+              "une-feuille-de-chataignier": "Une feuille de châtaignier",
+              "une-feuille-de-vigne": "Une feuille de vigne",
+              "une-feuille-de-figuier": "Une feuille de figuier",
+              "une-feuille-de-laurier": "Une feuille de laurier"
+            }
+          },
+          "fritelli": {
+            "prompt": "Quelle farine donne leur couleur brune aux fritelli, des beignets corses traditionnels ?",
+            "hint": "Elle est tirée d'un fruit d'automne enfermé dans une bogue.",
+            "anecdote": "On les prépare pour les fêtes de fin d'année et le carnaval, parfois fourrés de brocciu.",
+            "answers": {
+              "la-farine-de-chataigne": "La farine de châtaigne",
+              "la-farine-de-sarrasin": "La farine de sarrasin",
+              "la-farine-de-seigle": "La farine de seigle",
+              "la-farine-de-mais": "La farine de maïs"
+            }
+          },
+          "clementine": {
+            "prompt": "Quel agrume de la plaine orientale est vendu avec ses feuilles, gage de fraîcheur ?",
+            "hint": "C'est un petit fruit d'hiver sans pépins, cousin de la mandarine.",
+            "anecdote": "Il n'est traité par aucun produit après la récolte. Les feuilles vertes prouvent qu'il a été cueilli depuis peu.",
+            "answers": {
+              "la-clementine": "La clémentine",
+              "l-orange": "L'orange",
+              "le-citron": "Le citron",
+              "le-pamplemousse": "Le pamplemousse"
+            }
+          },
+          "clementine-igp": {
+            "prompt": "Depuis 2007, quelle protection officielle la clémentine de Corse a-t-elle obtenue ?",
+            "hint": "Ce signe européen lie un produit à une région, sans imposer que tout s'y fasse.",
+            "anecdote": "La récolte a lieu de novembre à février. La Corse est la seule région de France à produire ce fruit en grande quantité.",
+            "answers": {
+              "une-indication-geographique-protegee": "Une indication géographique protégée",
+              "une-appellation-d-origine-protegee": "Une appellation d'origine protégée",
+              "un-label-rouge": "Un label rouge",
+              "une-specialite-traditionnelle-garantie": "Une spécialité traditionnelle garantie"
+            }
+          },
+          "arbouse": {
+            "prompt": "Quel fruit sauvage des collines corses, rouge et rond comme une petite fraise, sert à faire des confitures ?",
+            "hint": "L'arbuste qui le porte fleurit et mûrit ses fruits en même temps, à l'automne.",
+            "anecdote": "Sa peau est granuleuse et sa chair farineuse. On en tire aussi une liqueur et un miel amer.",
+            "answers": {
+              "l-arbouse": "L'arbouse",
+              "la-framboise": "La framboise",
+              "la-mure": "La mûre",
+              "la-groseille": "La groseille"
+            }
+          },
+          "miel-maquis": {
+            "prompt": "Quel paysage de l'île donne son nom à plusieurs variétés de miel corse, de printemps, d'été ou d'automne ?",
+            "hint": "C'est la végétation d'arbustes parfumés qui couvre une grande partie de l'île.",
+            "anecdote": "Bruyère, ciste, arbousier ou lavande sauvage donnent à chaque miel son goût et sa couleur.",
+            "answers": {
+              "le-maquis": "Le maquis",
+              "la-garrigue": "La garrigue",
+              "la-lande": "La lande",
+              "la-steppe": "La steppe"
+            }
+          },
+          "miel-varietes": {
+            "prompt": "Combien de variétés distingue le miel de Corse d'appellation d'origine ?",
+            "hint": "On les classe selon la saison et le paysage où butinent les abeilles.",
+            "anecdote": "L'appellation, obtenue en 1998, impose que le miel soit récolté dans l'île, à partir de sa flore sauvage.",
+            "answers": {
+              "six": "Six",
+              "deux": "Deux",
+              "quatre": "Quatre",
+              "neuf": "Neuf"
+            }
+          },
+          "figues": {
+            "prompt": "Quelle confiture accompagne souvent la tomme de brebis corse en fin de repas ?",
+            "hint": "Elle est faite d'un fruit d'été très sucré, violet ou vert.",
+            "anecdote": "Son goût doux équilibre le sel et la force des fromages de montagne.",
+            "answers": {
+              "la-confiture-de-figues": "La confiture de figues",
+              "la-gelee-de-groseille": "La gelée de groseille",
+              "la-confiture-de-fraises": "La confiture de fraises",
+              "la-marmelade-d-orange": "La marmelade d'orange"
+            }
+          },
+          "myrte": {
+            "prompt": "Avec les baies de quel arbuste sauvage de l'île prépare-t-on une liqueur corse très parfumée ?",
+            "hint": "Ses petites baies bleu-noir mûrissent en hiver.",
+            "anecdote": "On fait macérer les baies dans l'alcool pendant plusieurs semaines. La liqueur se sert fraîche, en digestif.",
+            "answers": {
+              "le-myrte": "Le myrte",
+              "le-ciste": "Le ciste",
+              "le-lentisque": "Le lentisque",
+              "la-bruyere": "La bruyère"
+            }
+          }
+        },
+        "villes-patrimoine": {
+          "name": "Villes et patrimoine de Corse",
+          "description": "Ajaccio et Bastia, Sartène et Porto-Vecchio, villages perchés de Balagne et marines du Cap Corse, églises pisanes de pierre verte et blanche, campaniles baroques et ponts génois : mille ans d'histoire bâtie entre mer et montagne.",
+          "sartene": {
+            "prompt": "Quelle ville de granite, perchée au-dessus de la vallée du Rizzanese, voit-on ici ?",
+            "hint": "Un écrivain du XIXe siècle l'a surnommée « la plus corse des villes corses ».",
+            "anecdote": "Ses hautes maisons serrées autour de ruelles en escalier lui donnent un air de forteresse. Prosper Mérimée y a puisé l'atmosphère de ses nouvelles corses."
+          },
+          "porto-vecchio": {
+            "prompt": "Quelle ville du sud-est, fortifiée par les Génois au-dessus de son golfe, voit-on ici ?",
+            "hint": "Elle est entourée de forêts de chênes-lièges et de plages très fréquentées.",
+            "anecdote": "Sa vieille ville a gardé une partie de ses remparts et un bastion. C'est aujourd'hui la troisième ville de l'île."
+          },
+          "ile-rousse": {
+            "prompt": "Quelle ville de Balagne, qui doit son nom à des îlots de roche rouge, voit-on ici ?",
+            "hint": "Elle a été fondée au XVIIIe siècle pour concurrencer un port génois voisin.",
+            "anecdote": "Pascal Paoli l'a créée en 1758 pour donner à la Corse indépendante un port face à Calvi, restée génoise. Un phare veille sur l'îlot de la Pietra."
+          },
+          "saint-florent": {
+            "prompt": "Quel port, au fond d'un golfe du nord de l'île, voit-on ici ?",
+            "hint": "Une citadelle génoise ronde domine sa marina.",
+            "anecdote": "Il est le point de départ des bateaux vers les plages du désert des Agriates. Son golfe est bordé de vignes."
+          },
+          "pigna": {
+            "prompt": "Quel village perché de Balagne, réputé pour ses artisans et ses musiciens, voit-on ici ?",
+            "hint": "Ses ruelles pavées et ses maisons ocre dominent la mer, au-dessus d'une plaine d'oliviers.",
+            "anecdote": "Presque abandonné dans les années 1960, il a été relancé par des artisans et des musiciens. Il accueille aujourd'hui un festival de musique."
+          },
+          "sant-antonino": {
+            "prompt": "Quel village, l'un des plus anciens de l'île, perché en nid d'aigle sur un piton de granite, voit-on ici ?",
+            "hint": "Il domine la Balagne, et la vue y porte jusqu'à la mer.",
+            "anecdote": "Ses maisons de pierre sont reliées par des passages voûtés. Il fait partie des plus beaux villages de France."
+          },
+          "speloncato": {
+            "prompt": "Quel village perché de Balagne, regroupé autour de son église, voit-on ici ?",
+            "hint": "Son nom évoque les grottes creusées dans la roche qui l'entoure.",
+            "anecdote": "Les maisons se serrent autour d'une petite place, au pied d'une haute crête rocheuse."
+          },
+          "calenzana": {
+            "prompt": "Quel village de Balagne, point de départ du plus célèbre sentier de randonnée de l'île, voit-on ici ?",
+            "hint": "Son grand clocher se dresse à part, à côté de l'église.",
+            "anecdote": "Les randonneurs y commencent ou y terminent la traversée de l'île à pied, du nord au sud."
+          },
+          "cargese": {
+            "prompt": "Quel village de la côte ouest, où se font face deux églises, voit-on ici ?",
+            "hint": "L'une suit le rite latin, l'autre le rite grec.",
+            "anecdote": "Les deux paroisses ont longtemps partagé les mêmes fidèles, qui allaient d'une église à l'autre selon les fêtes."
+          },
+          "nonza": {
+            "prompt": "Quel village du Cap Corse, perché sur un rocher au-dessus d'une plage de galets noirs, voit-on ici ?",
+            "hint": "Une tour domine le village, au bord d'un à-pic de plus de cent mètres.",
+            "anecdote": "La couleur sombre de la plage vient des déblais d'une ancienne mine d'amiante voisine, rejetés à la mer."
+          },
+          "erbalunga": {
+            "prompt": "Quelle marina de pêcheurs du Cap Corse, au pied d'une tour en ruine, voit-on ici ?",
+            "hint": "Elle fait partie de la commune de Brando, au nord de Bastia.",
+            "anecdote": "Ses maisons sur l'eau ont attiré de nombreux peintres au début du XXe siècle.",
+            "answers": {
+              "erbalunga": "Erbalunga"
+            }
+          },
+          "ajaccio-fondation": {
+            "prompt": "En quelle année les Génois ont-ils fondé la ville actuelle d'Ajaccio ?",
+            "hint": "C'est l'année où Christophe Colomb a atteint l'Amérique.",
+            "anecdote": "La ville a été bâtie sur une pointe du golfe, autour d'une citadelle. Seuls les Génois pouvaient y habiter au début.",
+            "answers": {
+              "1347": "1347",
+              "1492": "1492",
+              "1610": "1610",
+              "1768": "1768"
+            }
+          },
+          "propriano": {
+            "prompt": "Quelle petite ville portuaire se trouve au fond du golfe du Valinco ?",
+            "hint": "Son port accueille des ferries venus du continent et des bateaux de plaisance.",
+            "anecdote": "Elle est le port de Sartène, perchée dans les collines à une quinzaine de kilomètres."
+          },
+          "algajola": {
+            "prompt": "Quel petit village du littoral de Balagne a gardé sa citadelle génoise ?",
+            "hint": "Il est au bord d'une longue plage de sable, au pied de la montagne.",
+            "anecdote": "Les Génois en avaient fait l'un des sièges de leur administration en Balagne. Les pirates l'ont attaqué à plusieurs reprises."
+          },
+          "zonza": {
+            "prompt": "Sur quelle commune de l'Alta Rocca se trouve le col de Bavella ?",
+            "hint": "Son village, perché à près de 800 mètres d'altitude, est à une dizaine de kilomètres du col.",
+            "anecdote": "Le col, à plus de 1 200 mètres d'altitude, offre une vue sur les aiguilles de granite et la mer Tyrrhénienne."
+          },
+          "terra-nova": {
+            "prompt": "Comment s'appelle le quartier de la citadelle de Bastia ?",
+            "hint": "Il est perché au-dessus du vieux port, derrière les remparts.",
+            "anecdote": "Son nom signifie « terre neuve ». Le quartier du vieux port porte le nom inverse, « terre vieille ».",
+            "answers": {
+              "terra-nova": "Terra Nova",
+              "terra-vecchia": "Terra Vecchia",
+              "toga": "Toga",
+              "lupino": "Lupino"
+            }
+          },
+          "saint-nicolas": {
+            "prompt": "Quelle grande place de Bastia, ouverte sur la mer, est bordée de palmiers et de platanes ?",
+            "hint": "Elle porte le nom du saint patron des marins.",
+            "anecdote": "Elle s'étend sur environ 300 mètres entre la ville et le port de commerce. Une statue de Napoléon en empereur romain y est dressée.",
+            "answers": {
+              "la-place-saint-nicolas": "La place Saint-Nicolas",
+              "la-place-foch": "La place Foch",
+              "la-place-du-diamant": "La place du Diamant",
+              "la-place-paoli": "La place Paoli"
+            }
+          },
+          "nonza-julie": {
+            "prompt": "Quelle sainte, patronne de la Corse, aurait été martyrisée à Nonza ?",
+            "hint": "Sa fête est célébrée le 22 mai, et une source porte son nom au pied du village.",
+            "anecdote": "Selon la tradition, des sources auraient jailli là où ses restes ont été jetés, au pied du rocher.",
+            "answers": {
+              "sainte-julie": "Sainte Julie",
+              "sainte-genevieve": "Sainte Geneviève",
+              "sainte-odile": "Sainte Odile",
+              "sainte-marthe": "Sainte Marthe"
+            }
+          },
+          "speloncato-soleil": {
+            "prompt": "Deux fois par an, quel phénomène attire les curieux sur la place de Speloncato ?",
+            "hint": "Il se produit au début du printemps et à la fin de l'été, en fin de journée.",
+            "anecdote": "Pendant quelques instants, la place du village est éclairée par un rayon qui traverse la montagne.",
+            "answers": {
+              "le-soleil-qui-passe-par-un-trou-dans-la-roche": "Le soleil qui passe par un trou dans la roche",
+              "une-source-qui-se-met-a-bouillir": "Une source qui se met à bouillir",
+              "une-eclipse-de-lune": "Une éclipse de lune",
+              "le-retour-des-cigognes": "Le retour des cigognes"
+            }
+          },
+          "cargese-grecs": {
+            "prompt": "D'où venaient les colons qui ont fondé Cargèse au XVIIIe siècle ?",
+            "hint": "Ils avaient fui un pays alors dominé par les Turcs ottomans.",
+            "anecdote": "Arrivés dans l'île en 1676, ils se sont d'abord installés à Paomia, puis à Ajaccio, avant de bâtir Cargèse vers 1775.",
+            "answers": {
+              "de-grece": "De Grèce",
+              "d-albanie": "D'Albanie",
+              "de-sardaigne": "De Sardaigne",
+              "de-malte": "De Malte"
+            }
+          },
+          "porto-vecchio-sel": {
+            "prompt": "Quel produit récolte-t-on encore dans des marais, au fond du golfe de Porto-Vecchio ?",
+            "hint": "On le récolte encore en été, après l'évaporation de l'eau de mer.",
+            "anecdote": "Les bassins des marais salants prennent des teintes roses et blanches à la fin de l'été.",
+            "answers": {
+              "le-sel": "Le sel",
+              "le-corail": "Le corail",
+              "l-huile-d-olive": "L'huile d'olive",
+              "le-ble": "Le blé"
+            }
+          },
+          "sartene-dep": {
+            "prompt": "Sartène, surnommée « la plus corse des villes corses », se trouve dans quel département ?",
+            "hint": "C'est le département du sud et de l'ouest de l'île, qui fait face à la Sardaigne.",
+            "anecdote": "La ville domine la vallée du Rizzanese et le golfe du Valinco."
+          },
+          "porto-vecchio-dep": {
+            "prompt": "Porto-Vecchio se trouve dans quel département ?",
+            "hint": "C'est le département du sud et de l'ouest de l'île, qui fait face à la Sardaigne.",
+            "anecdote": "Troisième ville de l'île, elle est la porte des plages et des forêts de l'extrême sud."
+          },
+          "la-porta-dep": {
+            "prompt": "Le village de La Porta, célèbre pour son clocher baroque, se trouve dans quel département ?",
+            "hint": "C'est le département du nord et de l'est de l'île, qui comprend la pointe du cap et la grande plaine côtière.",
+            "anecdote": "Il est au cœur de la Castagniccia, entre Bastia et Corte."
+          },
+          "palais-fesch": {
+            "prompt": "Quel palais d'Ajaccio, qui abrite un grand musée de peinture italienne, voit-on ici ?",
+            "hint": "Il porte le nom d'un cardinal de la famille Bonaparte.",
+            "anecdote": "Sa collection de peintures italiennes est l'une des plus riches de France après celle du Louvre. Sa chapelle abrite les tombeaux de la famille de Napoléon.",
+            "answers": {
+              "le-palais-fesch": "Le palais Fesch",
+              "le-palais-des-gouverneurs": "Le palais des gouverneurs",
+              "la-maison-bonaparte": "La maison Bonaparte",
+              "l-hotel-de-ville-d-ajaccio": "L'hôtel de ville d'Ajaccio"
+            }
+          },
+          "fesch-cardinal": {
+            "prompt": "De quel personnage le cardinal Joseph Fesch, fondateur du musée d'Ajaccio, était-il l'oncle ?",
+            "hint": "Ce neveu est né lui aussi à Ajaccio, en 1769.",
+            "anecdote": "Demi-frère de la mère du futur empereur, il est devenu archevêque de Lyon et a réuni des milliers de tableaux.",
+            "answers": {
+              "napoleon-ier": "Napoléon Ier",
+              "pascal-paoli": "Pascal Paoli",
+              "louis-xvi": "Louis XVI",
+              "sampiero-corso": "Sampiero Corso"
+            }
+          },
+          "cathedrale-ajaccio": {
+            "prompt": "Quelle cathédrale de la vieille ville d'Ajaccio voit-on ici ?",
+            "hint": "Un futur empereur y a été baptisé en 1771.",
+            "anecdote": "Achevée à la fin du XVIe siècle, elle est dédiée à la Vierge. Sa façade ocre donne sur une rue étroite, près de la citadelle.",
+            "answers": {
+              "la-cathedrale-notre-dame-de-l-assomption": "La cathédrale Notre-Dame-de-l'Assomption",
+              "la-cathedrale-du-nebbio": "La cathédrale du Nebbio",
+              "la-cathedrale-de-la-canonica": "La cathédrale de la Canonica",
+              "l-eglise-saint-jean-baptiste-de-bastia": "L'église Saint-Jean-Baptiste de Bastia"
+            }
+          },
+          "saint-jean-bastia": {
+            "prompt": "Quelle église de Bastia, la plus grande de l'île, voit-on ici ?",
+            "hint": "Ses deux clochers dominent le vieux port.",
+            "anecdote": "Construite au XVIIe siècle, elle a une façade classique et un intérieur baroque très décoré de marbres et de dorures.",
+            "answers": {
+              "l-eglise-saint-jean-baptiste": "L'église Saint-Jean-Baptiste",
+              "la-cathedrale-notre-dame-de-l-assomption": "La cathédrale Notre-Dame-de-l'Assomption",
+              "l-eglise-san-michele": "L'église San Michele",
+              "la-cathedrale-du-nebbio": "La cathédrale du Nebbio"
+            }
+          },
+          "gouverneurs": {
+            "prompt": "Quel palais, au cœur de la citadelle de Bastia, voit-on ici ?",
+            "hint": "Les représentants de Gênes y ont résidé pendant plus de trois siècles.",
+            "anecdote": "Il abrite aujourd'hui le musée de Bastia, consacré à l'histoire de la ville.",
+            "answers": {
+              "le-palais-des-gouverneurs": "Le palais des gouverneurs",
+              "le-palais-fesch": "Le palais Fesch",
+              "la-maison-bonaparte": "La maison Bonaparte",
+              "la-citadelle-de-corte": "La citadelle de Corte"
+            }
+          },
+          "bastiglia": {
+            "prompt": "D'où vient le nom de la ville de Bastia ?",
+            "hint": "Il rappelle la première construction élevée sur ce rocher, à la fin du XIVe siècle.",
+            "anecdote": "Il vient de « bastiglia », la bastille. Ce fort, construit par les Génois en 1380, a donné naissance à la citadelle, puis à toute la ville.",
+            "answers": {
+              "d-un-donjon-genois": "D'un donjon génois",
+              "d-un-saint-local": "D'un saint local",
+              "d-une-famille-de-pecheurs": "D'une famille de pêcheurs",
+              "d-une-riviere": "D'une rivière"
+            }
+          },
+          "escalier-aragon": {
+            "prompt": "Quel escalier taillé dans la falaise de Bonifacio voit-on ici ?",
+            "hint": "Il porte le nom d'un roi venu assiéger la ville au XVe siècle.",
+            "anecdote": "Selon la légende, ses soldats l'auraient creusé en une seule nuit, pendant le siège de 1420. Il servait plutôt à atteindre une source au pied de la falaise.",
+            "answers": {
+              "l-escalier-du-roi-d-aragon": "L'escalier du roi d'Aragon",
+              "la-montee-rastello": "La montée Rastello",
+              "la-montee-saint-roch": "La montée Saint-Roch",
+              "le-chemin-de-la-madonetta": "Le chemin de la Madonetta"
+            }
+          },
+          "escalier-marches": {
+            "prompt": "Combien de marches compte l'escalier du roi d'Aragon, à Bonifacio ?",
+            "hint": "Il y en a un peu moins de deux cents.",
+            "anecdote": "Elles descendent en pente raide jusqu'au niveau de la mer, au pied de la falaise de calcaire.",
+            "answers": {
+              "87": "87",
+              "187": "187",
+              "365": "365",
+              "1-000": "1 000"
+            }
+          },
+          "nebbio": {
+            "prompt": "Quelle église romane isolée dans les champs, près de Saint-Florent, voit-on ici ?",
+            "hint": "Elle a été bâtie par les Pisans au XIIe siècle, en calcaire blond.",
+            "anecdote": "C'est le seul reste d'une ancienne cité épiscopale. Ses arcades et ses sculptures d'animaux en font l'un des chefs-d'œuvre de l'art roman en Corse.",
+            "answers": {
+              "la-cathedrale-du-nebbio": "La cathédrale du Nebbio",
+              "la-cathedrale-de-la-canonica": "La cathédrale de la Canonica",
+              "l-eglise-san-michele": "L'église San Michele",
+              "la-cathedrale-notre-dame-de-l-assomption": "La cathédrale Notre-Dame-de-l'Assomption"
+            }
+          },
+          "murato": {
+            "prompt": "Quelle église pisane du Nebbio, à l'appareil en damier, voit-on ici ?",
+            "hint": "Elle se dresse seule sur un replat, au-dessus du village.",
+            "anecdote": "Elle date du XIIe siècle. Ses murs sont ornés de sculptures naïves d'animaux et de personnages.",
+            "answers": {
+              "l-eglise-san-michele": "L'église San Michele",
+              "la-cathedrale-du-nebbio": "La cathédrale du Nebbio",
+              "la-cathedrale-de-la-canonica": "La cathédrale de la Canonica",
+              "l-eglise-saint-jean-baptiste": "L'église Saint-Jean-Baptiste"
+            }
+          },
+          "murato-pierres": {
+            "prompt": "Quelles pierres forment le damier de l'église San Michele de Murato ?",
+            "hint": "L'une des deux couleurs est celle de la serpentine.",
+            "anecdote": "Cette alternance, très rare, fait de l'église l'un des monuments les plus photographiés de l'île.",
+            "answers": {
+              "des-pierres-vertes-et-blanches": "Des pierres vertes et blanches",
+              "des-briques-rouges-et-noires": "Des briques rouges et noires",
+              "des-galets-gris-et-bleus": "Des galets gris et bleus",
+              "des-pierres-dorees-et-roses": "Des pierres dorées et roses"
+            }
+          },
+          "canonica": {
+            "prompt": "Quelle cathédrale romane de la plaine de la Marana, consacrée en 1119, voit-on ici ?",
+            "hint": "On la surnomme du nom des chanoines qui la desservaient.",
+            "anecdote": "Bâtie en calcaire clair par les Pisans, elle est la plus ancienne et la plus grande des églises romanes de l'île.",
+            "answers": {
+              "la-cathedrale-de-la-canonica": "La cathédrale de la Canonica",
+              "la-cathedrale-du-nebbio": "La cathédrale du Nebbio",
+              "l-eglise-san-michele": "L'église San Michele",
+              "la-cathedrale-notre-dame-de-l-assomption": "La cathédrale Notre-Dame-de-l'Assomption"
+            }
+          },
+          "canonica-mariana": {
+            "prompt": "Quelle cité romaine, fondée par le général Marius, s'étendait autour de la Canonica ?",
+            "hint": "Son nom vient de celui de son fondateur.",
+            "anecdote": "Les fouilles ont mis au jour des rues, des thermes et un baptistère du Ve siècle, près de l'embouchure du Golo.",
+            "answers": {
+              "mariana": "Mariana",
+              "ostie": "Ostie",
+              "pompei": "Pompéi"
+            }
+          },
+          "la-porta": {
+            "prompt": "Quelle église baroque de la Castagniccia, au clocher de cinq étages, voit-on ici ?",
+            "hint": "Son campanile, haut d'environ 45 mètres, est le plus célèbre de l'île.",
+            "anecdote": "L'église, construite au XVIIe siècle, est dédiée à saint Jean-Baptiste. Elle abrite un orgue ancien très réputé.",
+            "answers": {
+              "l-eglise-de-la-porta": "L'église de La Porta",
+              "l-eglise-saint-jean-baptiste-de-bastia": "L'église Saint-Jean-Baptiste de Bastia",
+              "l-eglise-san-michele": "L'église San Michele",
+              "la-cathedrale-du-nebbio": "La cathédrale du Nebbio"
+            }
+          },
+          "style-pisan": {
+            "prompt": "Quel style d'architecture les Pisans ont-ils apporté dans les églises corses du XIIe siècle ?",
+            "hint": "Il se reconnaît à ses arcs en plein cintre et à ses murs épais.",
+            "anecdote": "Pise a dominé l'île aux XIe et XIIe siècles. On lui doit des dizaines d'églises, souvent isolées dans la campagne.",
+            "answers": {
+              "le-roman": "Le roman",
+              "le-gothique": "Le gothique",
+              "le-baroque": "Le baroque",
+              "le-classique": "Le classique"
+            }
+          },
+          "pont-genois": {
+            "prompt": "Quel type d'ouvrage, au-dessus d'un torrent de montagne, voit-on ici ?",
+            "hint": "Il a été bâti pendant la domination de Gênes, pour relier les villages par les sentiers muletiers.",
+            "anecdote": "Sa forme en dos d'âne, avec une seule arche très haute, lui permet de résister aux crues.",
+            "answers": {
+              "un-pont-genois": "Un pont génois",
+              "un-aqueduc-romain": "Un aqueduc romain",
+              "un-pont-de-chemin-de-fer": "Un pont de chemin de fer",
+              "un-viaduc": "Un viaduc"
+            }
+          }
+        },
+        "traditions-savoir-faire": {
+          "name": "Traditions et savoir-faire de Corse",
+          "description": "Chants polyphoniques et joutes poétiques, processions du Vendredi saint, foires de village, bergers et transhumance, corail, liège et couteaux de berger, mouflons et forêts de pins laricio, écrivains et chanteurs : l'âme et les gestes de l'île.",
+          "polyphonie": {
+            "prompt": "Comment appelle-t-on le chant polyphonique traditionnel corse, à trois voix d'hommes ?",
+            "hint": "Les chanteurs se tiennent serrés, une main posée sur l'oreille pour bien s'entendre.",
+            "anecdote": "Il accompagne la messe comme les fêtes profanes. Presque oublié au milieu du XXe siècle, il a été relancé dans les années 1970.",
+            "answers": {
+              "la-paghjella": "La paghjella",
+              "le-voceru": "Le voceru",
+              "le-lamentu": "Le lamentu",
+              "la-serenata": "La serenata"
+            }
+          },
+          "paghjella-unesco": {
+            "prompt": "Depuis 2009, sur quelle liste de l'Unesco le chant à trois voix corse est-il inscrit ?",
+            "hint": "Cette liste réunit des traditions vivantes jugées menacées.",
+            "anecdote": "L'inscription a encouragé son enseignement aux enfants, dans les écoles et les associations.",
+            "answers": {
+              "le-patrimoine-immateriel-necessitant-une-sauvegarde-urgente": "Le patrimoine immatériel nécessitant une sauvegarde urgente",
+              "le-patrimoine-mondial-naturel": "Le patrimoine mondial naturel",
+              "la-memoire-du-monde": "La Mémoire du monde",
+              "les-reserves-de-biosphere": "Les réserves de biosphère"
+            }
+          },
+          "voceru": {
+            "prompt": "Comment s'appelait le chant improvisé par les femmes pour pleurer un mort, parfois en appelant à la vengeance ?",
+            "hint": "Il était chanté autour du corps, pendant la veillée funèbre.",
+            "anecdote": "Ces lamentations ont fasciné les voyageurs du XIXe siècle, dont Prosper Mérimée.",
+            "answers": {
+              "le-voceru": "Le voceru",
+              "la-paghjella": "La paghjella",
+              "la-serenata": "La serenata",
+              "le-chjam-e-rispondi": "Le chjam'è rispondi"
+            }
+          },
+          "chjama": {
+            "prompt": "Comment s'appelle la joute de poésie improvisée, où deux chanteurs se répondent en vers ?",
+            "hint": "Son nom signifie « appel et réponse ».",
+            "anecdote": "Elle se pratique lors des foires de village. Le public juge l'esprit et la vivacité des réponses.",
+            "answers": {
+              "le-chjam-e-rispondi": "Le chjam'è rispondi",
+              "le-voceru": "Le voceru",
+              "la-paghjella": "La paghjella",
+              "le-lamentu": "Le lamentu"
+            }
+          },
+          "cetera": {
+            "prompt": "Quel instrument à cordes pincées, cousin de la mandoline, a été remis à l'honneur par les musiciens corses ?",
+            "hint": "Il était joué dans les villages pour accompagner les sérénades.",
+            "anecdote": "Il compte seize cordes réunies par paires. Des luthiers de l'île en fabriquent à nouveau depuis la fin du XXe siècle.",
+            "answers": {
+              "la-cetera": "La cetera",
+              "la-vielle-a-roue": "La vielle à roue",
+              "la-cornemuse": "La cornemuse",
+              "le-violon": "Le violon"
+            }
+          },
+          "catenacciu": {
+            "prompt": "Lors de quelle fête se déroule la procession du Catenacciu, à Sartène ?",
+            "hint": "Elle a lieu au printemps, juste avant Pâques.",
+            "anecdote": "Un pénitent pieds nus, au visage caché par une cagoule rouge, porte une lourde croix dans les ruelles de la ville.",
+            "answers": {
+              "le-vendredi-saint": "Le Vendredi saint",
+              "le-15-aout": "Le 15 août",
+              "noel": "Noël",
+              "la-toussaint": "La Toussaint"
+            }
+          },
+          "catenacciu-chaine": {
+            "prompt": "Que traîne derrière lui le pénitent qui porte la croix du Catenacciu ?",
+            "hint": "Le nom de la procession vient de cet objet, catena en corse.",
+            "anecdote": "Le pénitent reste anonyme : seul le curé connaît son identité. La liste d'attente est longue de plusieurs années.",
+            "answers": {
+              "une-chaine-attachee-a-la-cheville": "Une chaîne attachée à la cheville",
+              "une-couronne-de-fleurs": "Une couronne de fleurs",
+              "une-torche-allumee": "Une torche allumée",
+              "un-etendard": "Un étendard"
+            }
+          },
+          "granitula": {
+            "prompt": "Quelle figure dessine la procession de la Granitula, à Calvi ou à Erbalunga ?",
+            "hint": "Son nom évoque la coquille d'un escargot.",
+            "anecdote": "Les pénitents s'enroulent vers le centre puis se déroulent, sur une place ou devant une église, le soir du Vendredi saint.",
+            "answers": {
+              "une-spirale": "Une spirale",
+              "une-croix": "Une croix",
+              "un-carre": "Un carré",
+              "une-etoile": "Une étoile"
+            }
+          },
+          "santa-niolu": {
+            "prompt": "Quel village du Niolo accueille chaque 8 septembre la Santa di u Niolu, l'une des plus anciennes foires de l'île ?",
+            "hint": "Ce village fait face à Calacuccia, de l'autre côté du lac de barrage.",
+            "anecdote": "Bergers et marchands s'y retrouvent depuis des siècles. Les joutes de poésie improvisée y sont une tradition."
+          },
+          "transhumance": {
+            "prompt": "Comment appelle-t-on la montée des troupeaux vers les pâturages d'altitude, au début de l'été ?",
+            "hint": "Les bergers reviennent vers la plaine ou la côte à l'automne.",
+            "anecdote": "Les troupeaux de brebis et de chèvres suivent des chemins anciens jusqu'aux bergeries de montagne.",
+            "answers": {
+              "la-transhumance": "La transhumance",
+              "la-moisson": "La moisson",
+              "la-tonte": "La tonte",
+              "la-traite": "La traite"
+            }
+          },
+          "riacquistu": {
+            "prompt": "Comment appelle-t-on le mouvement de renouveau de la langue et de la culture corses, né dans les années 1970 ?",
+            "hint": "Son nom signifie « réappropriation ».",
+            "anecdote": "Il a relancé le chant polyphonique, la poésie et l'enseignement de la langue, et vu naître de nombreux groupes de musique.",
+            "answers": {
+              "le-riacquistu": "Le Riacquistu",
+              "le-felibrige": "Le Félibrige",
+              "la-renaixenca": "La Renaixença",
+              "le-rexurdimento": "Le Rexurdimento"
+            }
+          },
+          "tour-de-corse": {
+            "prompt": "Quelle course automobile, surnommée « le rallye aux dix mille virages », se dispute sur les routes de l'île ?",
+            "hint": "Elle porte le nom de l'île.",
+            "anecdote": "Créée en 1956, elle a longtemps compté pour le championnat du monde des rallyes.",
+            "answers": {
+              "le-tour-de-corse": "Le Tour de Corse",
+              "le-rallye-monte-carlo": "Le rallye Monte-Carlo",
+              "le-paris-dakar": "Le Paris-Dakar",
+              "les-24-heures-du-mans": "Les 24 Heures du Mans"
+            }
+          },
+          "sc-bastia": {
+            "prompt": "En 1978, quel club de football corse a disputé la finale de la Coupe de l'UEFA ?",
+            "hint": "Son stade, Armand-Cesari, est à Furiani, au sud de sa ville.",
+            "anecdote": "Il a perdu la finale face au PSV Eindhoven. C'est l'un des plus grands souvenirs du sport corse.",
+            "answers": {
+              "le-sc-bastia": "Le SC Bastia",
+              "l-ac-ajaccio": "L'AC Ajaccio",
+              "le-gazelec-ajaccio": "Le Gazélec Ajaccio",
+              "le-fc-bastia-borgo": "Le FC Bastia-Borgo"
+            }
+          },
+          "casamaccioli-dep": {
+            "prompt": "Casamaccioli, qui accueille la foire de la Santa di u Niolu, se trouve dans quel département ?",
+            "hint": "C'est le département du nord et de l'est de l'île, qui comprend la pointe du cap et la grande plaine côtière.",
+            "anecdote": "Le village est dans le Niolo, au pied du monte Cinto."
+          },
+          "bergerie": {
+            "prompt": "Quel abri de pierre sèche, utilisé l'été par les bergers en montagne, voit-on ici ?",
+            "hint": "On y fabriquait aussi le fromage, avec le lait de la traite du jour.",
+            "anecdote": "Beaucoup de ces abris sont aujourd'hui des étapes pour les randonneurs. Certains servent encore aux bergers.",
+            "answers": {
+              "une-bergerie": "Une bergerie",
+              "un-moulin": "Un moulin",
+              "une-chapelle": "Une chapelle",
+              "une-tour-de-guet": "Une tour de guet"
+            }
+          },
+          "cochon": {
+            "prompt": "Quels animaux d'élevage, qui vivent en liberté, croise-t-on souvent sur les routes de montagne ?",
+            "hint": "On les laisse en forêt, où ils se nourrissent de châtaignes et de glands.",
+            "anecdote": "Leur viande donne les charcuteries de l'île. Ils peuvent traverser la route sans prévenir : les automobilistes ralentissent.",
+            "answers": {
+              "des-cochons": "Des cochons",
+              "des-moutons": "Des moutons",
+              "des-chevres": "Des chèvres",
+              "des-vaches": "Des vaches"
+            }
+          },
+          "corail": {
+            "prompt": "Quelle matière rouge, pêchée en plongée au large d'Ajaccio et de Bonifacio, est travaillée par les bijoutiers corses ?",
+            "hint": "Elle est formée par de minuscules animaux marins.",
+            "anecdote": "Sa pêche est très réglementée. Les plongeurs descendent souvent à plus de 80 mètres pour la récolter.",
+            "answers": {
+              "le-corail": "Le corail",
+              "l-ambre": "L'ambre",
+              "le-grenat": "Le grenat",
+              "la-nacre": "La nacre"
+            }
+          },
+          "liege": {
+            "prompt": "Quel matériau tire-t-on de l'écorce de certains chênes, dans la région de Porto-Vecchio ?",
+            "hint": "Il sert à faire des bouchons.",
+            "anecdote": "On ne récolte l'écorce que tous les dix ans environ, sans abattre l'arbre. Le tronc, mis à nu, prend une couleur rouge.",
+            "answers": {
+              "le-liege": "Le liège",
+              "la-resine": "La résine",
+              "le-caoutchouc": "Le caoutchouc",
+              "le-charbon-de-bois": "Le charbon de bois"
+            }
+          },
+          "cursinu": {
+            "prompt": "Comment s'appelle le couteau de poche traditionnel des bergers corses ?",
+            "hint": "Son nom signifie « le Corse » dans la langue de l'île.",
+            "anecdote": "Sa lame en forme de feuille de myrte se replie dans un manche de corne. Les couteliers de l'île en ont relancé la fabrication.",
+            "answers": {
+              "le-cursinu": "Le cursinu",
+              "le-laguiole": "Le laguiole",
+              "l-opinel": "L'opinel",
+              "le-nontron": "Le nontron"
+            }
+          },
+          "bruyere": {
+            "prompt": "Quelle racine du maquis corse a longtemps été exportée pour fabriquer des pipes ?",
+            "hint": "Elle vient d'un arbuste à petites fleurs blanches, qui peut dépasser plusieurs mètres de haut.",
+            "anecdote": "Son bois très dur résiste à la chaleur. Il était découpé en ébauches dans l'île, puis envoyé aux pipiers du continent.",
+            "answers": {
+              "la-racine-de-bruyere": "La racine de bruyère",
+              "la-racine-de-myrte": "La racine de myrte",
+              "la-racine-de-lentisque": "La racine de lentisque",
+              "la-racine-de-chataignier": "La racine de châtaignier"
+            }
+          },
+          "sechoir": {
+            "prompt": "Dans quel petit bâtiment fait-on sécher les châtaignes, au-dessus d'un feu doux ?",
+            "hint": "Les fruits y sont étalés sur des claies, à l'étage.",
+            "anecdote": "Le feu doit durer plusieurs semaines sans jamais s'éteindre. Les châtaignes sèches sont ensuite décortiquées puis moulues.",
+            "answers": {
+              "un-sechoir": "Un séchoir",
+              "un-four-a-pain": "Un four à pain",
+              "une-cave": "Une cave",
+              "un-moulin": "Un moulin"
+            }
+          },
+          "lauzes": {
+            "prompt": "Avec quoi couvre-t-on traditionnellement les toits des villages de la Castagniccia ?",
+            "hint": "C'est une pierre sombre qui se fend en plaques fines.",
+            "anecdote": "Ces plaques de schiste gris-bleu, lourdes et épaisses, donnent aux villages leur couleur.",
+            "answers": {
+              "des-lauzes-de-schiste": "Des lauzes de schiste",
+              "des-tuiles-romaines": "Des tuiles romaines",
+              "des-ardoises-d-anjou": "Des ardoises d'Anjou",
+              "du-chaume": "Du chaume"
+            }
+          },
+          "ota-dep": {
+            "prompt": "Le village d'Ota, à l'entrée des gorges de la Spelunca, se trouve dans quel département ?",
+            "hint": "C'est le département du sud et de l'ouest de l'île, qui fait face à la Sardaigne.",
+            "anecdote": "Le village domine le golfe de Porto, sur la côte ouest."
+          },
+          "tino-rossi": {
+            "prompt": "Quel chanteur né à Ajaccio en 1907 a vendu des millions de disques avec « Petit Papa Noël » ?",
+            "hint": "Sa voix douce de ténor léger a fait de lui une immense vedette.",
+            "anecdote": "Ce chant de Noël, enregistré en 1946, reste l'un des disques les plus vendus en France.",
+            "answers": {
+              "tino-rossi": "Tino Rossi",
+              "charles-trenet": "Charles Trenet",
+              "luis-mariano": "Luis Mariano",
+              "yves-montand": "Yves Montand"
+            }
+          },
+          "merimee": {
+            "prompt": "Quel écrivain a raconté une histoire de vendetta corse dans son roman « Colomba », en 1840 ?",
+            "hint": "Il était aussi inspecteur des monuments historiques.",
+            "anecdote": "Il s'est inspiré d'une véritable affaire de vendetta à Fozzano, dans le Valinco.",
+            "answers": {
+              "prosper-merimee": "Prosper Mérimée",
+              "victor-hugo": "Victor Hugo",
+              "gustave-flaubert": "Gustave Flaubert",
+              "guy-de-maupassant": "Guy de Maupassant"
+            }
+          },
+          "mateo-falcone": {
+            "prompt": "Dans quelle nouvelle de Prosper Mérimée un berger corse punit-il son fils pour avoir trahi un fugitif ?",
+            "hint": "Le titre est le nom du berger.",
+            "anecdote": "Publiée en 1829, elle se déroule dans le maquis, près de Porto-Vecchio.",
+            "answers": {
+              "mateo-falcone": "Mateo Falcone",
+              "carmen": "Carmen",
+              "la-venus-d-ille": "La Vénus d'Ille",
+              "tamango": "Tamango"
+            }
+          },
+          "dumas": {
+            "prompt": "Quel roman d'Alexandre Dumas, paru en 1844, se déroule en partie en Corse ?",
+            "hint": "Il raconte l'histoire de deux jumeaux qui ressentent à distance ce que vit l'autre.",
+            "anecdote": "Dumas avait visité l'île en 1842. Le roman a été adapté de nombreuses fois au cinéma.",
+            "answers": {
+              "les-freres-corses": "Les Frères corses",
+              "le-comte-de-monte-cristo": "Le Comte de Monte-Cristo",
+              "les-trois-mousquetaires": "Les Trois Mousquetaires",
+              "la-reine-margot": "La Reine Margot"
+            }
+          },
+          "carrington": {
+            "prompt": "Quelle écrivaine britannique a consacré à l'île son livre « Granite Island », paru en 1971 ?",
+            "hint": "Elle s'est installée à Ajaccio après la Seconde Guerre mondiale et y a vécu jusqu'à sa mort.",
+            "anecdote": "Elle a parcouru les villages pendant des années, recueillant traditions et légendes. Elle a aussi étudié les statues-menhirs.",
+            "answers": {
+              "dorothy-carrington": "Dorothy Carrington",
+              "agatha-christie": "Agatha Christie",
+              "virginia-woolf": "Virginia Woolf",
+              "jane-austen": "Jane Austen"
+            }
+          },
+          "muvrini": {
+            "prompt": "Quel groupe de chant corse, fondé par deux frères, porte le nom d'un animal des montagnes ?",
+            "hint": "Son nom signifie « les petits mouflons ».",
+            "anecdote": "Né dans les années 1970, au temps du renouveau de la culture corse, il remplit des salles dans toute l'Europe.",
+            "answers": {
+              "i-muvrini": "I Muvrini",
+              "canta-u-populu-corsu": "Canta u Populu Corsu",
+              "a-filetta": "A Filetta",
+              "les-nouvelles-polyphonies-corses": "Les Nouvelles Polyphonies corses"
+            }
+          },
+          "pozzo-di-borgo": {
+            "prompt": "Quel diplomate né près d'Ajaccio, ennemi juré de Napoléon, a servi le tsar de Russie ?",
+            "hint": "Ancien proche de Pascal Paoli, il s'est brouillé avec la famille Bonaparte pendant la Révolution.",
+            "anecdote": "Ambassadeur de Russie à Paris après 1815, il a participé aux négociations qui ont suivi la chute de l'Empire.",
+            "answers": {
+              "charles-andre-pozzo-di-borgo": "Charles-André Pozzo di Borgo",
+              "talleyrand": "Talleyrand",
+              "metternich": "Metternich",
+              "joseph-fouche": "Joseph Fouché"
+            }
+          },
+          "mouflon": {
+            "prompt": "Quel animal sauvage des montagnes corses, aux cornes enroulées, voit-on ici ?",
+            "hint": "C'est l'ancêtre des moutons domestiques.",
+            "anecdote": "Très farouche, il vit en petits groupes dans les massifs du Cinto et de Bavella. Il est protégé.",
+            "answers": {
+              "le-mouflon": "Le mouflon",
+              "le-bouquetin": "Le bouquetin",
+              "le-chamois": "Le chamois",
+              "le-cerf": "Le cerf"
+            }
+          },
+          "sittelle": {
+            "prompt": "Quel petit oiseau, qu'on ne trouve nulle part ailleurs au monde, voit-on ici ?",
+            "hint": "Il vit dans les vieilles forêts de pins laricio.",
+            "anecdote": "Il descend le long des troncs la tête en bas, à la recherche d'insectes. Il est l'un des rares oiseaux propres à la France.",
+            "answers": {
+              "la-sittelle-corse": "La sittelle corse",
+              "la-mesange-bleue": "La mésange bleue",
+              "le-rouge-gorge": "Le rouge-gorge",
+              "le-pinson-des-arbres": "Le pinson des arbres"
+            }
+          },
+          "cerf": {
+            "prompt": "Quel grand animal, disparu de l'île au XXe siècle, y a été réintroduit à partir de 1985 avec des bêtes venues de Sardaigne ?",
+            "hint": "Ses mâles portent des bois et brament à l'automne.",
+            "anecdote": "Plus petit que celui du continent, il a été relâché dans plusieurs forêts, d'où il s'est répandu.",
+            "answers": {
+              "le-cerf": "Le cerf",
+              "le-mouflon": "Le mouflon",
+              "le-loup": "Le loup",
+              "l-ours": "L'ours"
+            }
+          },
+          "vizzavona": {
+            "prompt": "Quelle forêt de montagne, traversée par la route et le train qui relient les deux grandes villes de l'île, voit-on ici ?",
+            "hint": "Elle s'étend au pied du monte d'Oro, autour d'un col.",
+            "anecdote": "Hêtres et pins laricio y abritent des cascades. Le sentier de grande randonnée qui traverse l'île y passe à mi-parcours.",
+            "answers": {
+              "la-foret-de-vizzavona": "La forêt de Vizzavona",
+              "la-foret-d-aitone": "La forêt d'Aïtone",
+              "la-foret-de-bonifatu": "La forêt de Bonifatu",
+              "la-foret-de-l-ospedale": "La forêt de l'Ospedale"
+            }
+          },
+          "laricio": {
+            "prompt": "Quel grand conifère, qui ne pousse qu'en Corse, en Calabre et en Sicile, peuple les forêts de montagne ?",
+            "hint": "Son tronc très droit peut dépasser 40 mètres.",
+            "anecdote": "Son bois servait autrefois à faire les mâts des navires. Certains arbres ont plusieurs siècles.",
+            "answers": {
+              "le-pin-laricio": "Le pin laricio",
+              "le-sapin-de-nordmann": "Le sapin de Nordmann",
+              "l-epicea": "L'épicéa",
+              "le-meleze": "Le mélèze"
+            }
+          },
+          "nino": {
+            "prompt": "Quel lac de montagne, où paissent des chevaux en liberté au milieu des pelouses, voit-on ici ?",
+            "hint": "C'est là que naît un fleuve qui descend vers Corte puis vers Aléria.",
+            "anecdote": "Ses pelouses humides, parcourues de petits trous d'eau, s'appellent des pozzines.",
+            "answers": {
+              "le-lac-de-nino": "Le lac de Nino",
+              "le-lac-de-melo": "Le lac de Melo",
+              "le-lac-de-capitellu": "Le lac de Capitellu",
+              "le-lac-de-creno": "Le lac de Creno"
+            }
+          },
+          "parc": {
+            "prompt": "En quelle année a été créé le parc naturel régional de Corse ?",
+            "hint": "C'était au début des années 1970.",
+            "anecdote": "Il couvre près de 40 % de l'île, des sommets jusqu'à la réserve de Scandola.",
+            "answers": {
+              "1952": "1952",
+              "1972": "1972",
+              "1992": "1992",
+              "2012": "2012"
+            }
+          },
+          "tortue": {
+            "prompt": "Quelle tortue terrestre protégée vit dans le maquis de l'île ?",
+            "hint": "Elle porte le nom d'un naturaliste du XVIIIe siècle.",
+            "anecdote": "Elle hiverne enterrée et sort au printemps. Les incendies et la circulation la menacent.",
+            "answers": {
+              "la-tortue-d-hermann": "La tortue d'Hermann",
+              "la-tortue-luth": "La tortue luth",
+              "la-tortue-geante-des-seychelles": "La tortue géante des Seychelles",
+              "la-tortue-de-floride": "La tortue de Floride"
+            }
+          },
+          "spelunca": {
+            "prompt": "Quelles gorges, parcourues par un ancien chemin muletier entre Ota et Evisa, voit-on ici ?",
+            "hint": "Leur nom signifie « la grotte ».",
+            "anecdote": "Des ponts génois en dos d'âne enjambent le torrent, au fond de parois de granite rouge.",
+            "answers": {
+              "les-gorges-de-la-spelunca": "Les gorges de la Spelunca",
+              "les-gorges-de-la-restonica": "Les gorges de la Restonica",
+              "les-gorges-du-tavignano": "Les gorges du Tavignano",
+              "les-gorges-de-l-asco": "Les gorges de l'Asco"
+            }
+          },
+          "granite": {
+            "prompt": "Quelle roche forme la plus grande partie du sud et de l'ouest de l'île ?",
+            "hint": "Elle est faite de cristaux, souvent roses ou gris.",
+            "anecdote": "Le nord-est de l'île est surtout fait de schistes. Cette différence se voit dans les paysages et dans les maisons.",
+            "answers": {
+              "le-granite": "Le granite",
+              "le-calcaire": "Le calcaire",
+              "le-basalte": "Le basalte",
+              "la-craie": "La craie"
+            }
+          }
+        },
+        "grand-voyage": {
+          "name": "Grand voyage en Corse",
+          "description": "Statues-menhirs de Filitosa et castelli de l'âge du bronze, Grecs d'Aléria, Pisans et Génois, Sampiero Corso, le roi Théodore et Pascal Paoli, Napoléon et sa famille, la Résistance et la Libération de 1943 : trois mille ans d'histoire, pour les meilleurs connaisseurs de l'île.",
+          "filitosa": {
+            "prompt": "Quel site préhistorique du sud-ouest de l'île, célèbre pour ses statues de pierre sculptées de visages, voit-on ici ?",
+            "hint": "Il se trouve dans la vallée du Taravo, non loin du golfe du Valinco.",
+            "anecdote": "Découvert en 1946 par le propriétaire du terrain, il a été fouillé à partir de 1954. Ses statues-menhirs ont environ 3 500 ans.",
+            "answers": {
+              "filitosa": "Filitosa",
+              "cucuruzzu": "Cucuruzzu",
+              "palaggiu": "Palaggiu"
+            }
+          },
+          "filitosa-armes": {
+            "prompt": "Que portent certaines statues-menhirs de Filitosa, sculptées dans la pierre ?",
+            "hint": "On pense qu'elles représentent des guerriers.",
+            "anecdote": "Le sculpteur a figuré des lames le long du corps ou en travers de la poitrine, ce qui aide à les dater de l'âge du bronze.",
+            "answers": {
+              "des-epees": "Des épées",
+              "des-colliers-de-coquillages": "Des colliers de coquillages",
+              "des-couronnes": "Des couronnes",
+              "des-arcs": "Des arcs"
+            }
+          },
+          "palaggiu": {
+            "prompt": "Quel ensemble de menhirs alignés, le plus important de Méditerranée, voit-on ici ?",
+            "hint": "Il se trouve dans le Sartenais, non loin de la mer.",
+            "anecdote": "Il compte plus de 250 pierres dressées, rangées en files. Certaines sont sculptées d'armes, comme à Filitosa.",
+            "answers": {
+              "les-alignements-de-palaggiu": "Les alignements de Palaggiu",
+              "les-alignements-de-carnac": "Les alignements de Carnac",
+              "les-alignements-de-stantari": "Les alignements de Stantari",
+              "le-site-de-filitosa": "Le site de Filitosa"
+            }
+          },
+          "cucuruzzu": {
+            "prompt": "Quelle forteresse de l'âge du bronze, bâtie avec de gros blocs de granite dans l'Alta Rocca, voit-on ici ?",
+            "hint": "On l'atteint par un sentier dans une forêt de chênes verts, près de Levie.",
+            "anecdote": "Ses murs s'appuient sur les rochers naturels. On y entre encore par un couloir couvert de dalles.",
+            "answers": {
+              "le-castellu-de-cucuruzzu": "Le castellu de Cucuruzzu",
+              "le-site-de-filitosa": "Le site de Filitosa",
+              "le-castellu-d-araghju": "Le castellu d'Araghju",
+              "la-citadelle-de-corte": "La citadelle de Corte"
+            }
+          },
+          "torreens": {
+            "prompt": "Comment l'archéologue Roger Grosjean a-t-il appelé les bâtisseurs des tours de pierre de l'âge du bronze, dans le sud de l'île ?",
+            "hint": "Leur nom vient des tours qu'ils ont élevées.",
+            "anecdote": "Selon lui, ce peuple venu de la mer aurait chassé les sculpteurs des statues-menhirs. Cette théorie est aujourd'hui discutée.",
+            "answers": {
+              "les-torreens": "Les Torréens",
+              "les-etrusques": "Les Étrusques",
+              "les-pheniciens": "Les Phéniciens",
+              "les-celtes": "Les Celtes"
+            }
+          },
+          "aleria": {
+            "prompt": "Quel site antique de la plaine orientale, fondé par des Grecs, voit-on ici ?",
+            "hint": "Il domine l'embouchure du Tavignano.",
+            "anecdote": "La ville est devenue ensuite une colonie romaine. Son musée, installé dans un fort génois, expose céramiques et objets découverts dans ses tombes.",
+            "answers": {
+              "mariana": "Mariana",
+              "filitosa": "Filitosa",
+              "cucuruzzu": "Cucuruzzu"
+            }
+          },
+          "alalia": {
+            "prompt": "Sous quel nom les Grecs de Phocée ont-ils fondé Aléria, vers 565 avant notre ère ?",
+            "hint": "Leur ville d'Asie Mineure avait déjà fondé Marseille, une quarantaine d'années plus tôt.",
+            "anecdote": "Vers 540 avant notre ère, une grande bataille navale y a opposé ces Grecs aux Étrusques et aux Carthaginois.",
+            "answers": {
+              "alalia": "Alalia",
+              "massalia": "Massalia",
+              "nikaia": "Nikaia",
+              "antipolis": "Antipolis"
+            }
+          },
+          "meloria": {
+            "prompt": "Quelle bataille navale de 1284 a fait passer l'île de la domination de Pise à celle de Gênes ?",
+            "hint": "Elle s'est déroulée au large de Livourne, en Toscane.",
+            "anecdote": "La flotte génoise y a écrasé celle de Pise. Gênes a ensuite dominé l'île pendant près de cinq siècles.",
+            "answers": {
+              "la-meloria": "La Meloria",
+              "lepante": "Lépante",
+              "actium": "Actium",
+              "trafalgar": "Trafalgar"
+            }
+          },
+          "sampiero": {
+            "prompt": "Quel chef de guerre corse du XVIe siècle, allié du roi de France, a combattu les Génois ?",
+            "hint": "Il était né dans un village de montagne de l'arrière-pays d'Ajaccio.",
+            "anecdote": "Surnommé « le plus corse des Corses », il est né à Bastelica en 1498. Il a été colonel des troupes corses au service de la France. Il a été tué dans une embuscade en 1567.",
+            "answers": {
+              "sampiero-corso": "Sampiero Corso",
+              "pascal-paoli": "Pascal Paoli",
+              "theodore-de-neuhoff": "Théodore de Neuhoff",
+              "jean-pierre-gaffori": "Jean-Pierre Gaffori"
+            }
+          },
+          "bastelica-dep": {
+            "prompt": "Bastelica, village natal de Sampiero Corso, se trouve dans quel département ?",
+            "hint": "C'est le département du sud et de l'ouest de l'île, qui fait face à la Sardaigne.",
+            "anecdote": "Le village est en montagne, dans la vallée du Prunelli, à l'est d'Ajaccio."
+          },
+          "theodore": {
+            "prompt": "Quel aventurier allemand a été couronné roi de Corse en 1736 ?",
+            "hint": "Il est arrivé dans l'île avec des armes et de l'argent pour aider les insurgés contre Gênes.",
+            "anecdote": "Son règne n'a duré que quelques mois. Il est mort à Londres, ruiné, après un séjour en prison pour dettes.",
+            "answers": {
+              "theodore-de-neuhoff": "Théodore de Neuhoff",
+              "frederic-de-prusse": "Frédéric de Prusse",
+              "charles-emmanuel-de-savoie": "Charles-Emmanuel de Savoie",
+              "maximilien-de-baviere": "Maximilien de Bavière"
+            }
+          },
+          "morosaglia": {
+            "prompt": "Quelle maison natale d'un chef de la Corse indépendante, au cœur de la Castagniccia, voit-on ici ?",
+            "hint": "Il y est né en 1725, dans le hameau de Stretta.",
+            "anecdote": "Elle est aujourd'hui un musée. Une chapelle y abrite ses cendres, ramenées de Londres en 1889.",
+            "answers": {
+              "la-maison-de-pascal-paoli": "La maison de Pascal Paoli",
+              "la-maison-bonaparte": "La maison Bonaparte",
+              "le-palais-des-gouverneurs": "Le palais des gouverneurs",
+              "le-palais-fesch": "Le palais Fesch"
+            }
+          },
+          "morosaglia-dep": {
+            "prompt": "Morosaglia, village natal de Pascal Paoli, se trouve dans quel département ?",
+            "hint": "C'est le département du nord et de l'est de l'île, qui comprend la pointe du cap et la grande plaine côtière.",
+            "anecdote": "Le village est au nord de la Castagniccia, non loin de Ponte-Leccia."
+          },
+          "paoli-generale": {
+            "prompt": "En quelle année Pascal Paoli a-t-il été élu général de la Nation corse ?",
+            "hint": "C'est au milieu du XVIIIe siècle, après plus de vingt ans de révoltes contre Gênes.",
+            "anecdote": "Il revenait d'exil à Naples, où il avait reçu une formation militaire. Il a gouverné l'île jusqu'en 1769.",
+            "answers": {
+              "1729": "1729",
+              "1755": "1755",
+              "1768": "1768",
+              "1796": "1796"
+            }
+          },
+          "constitution": {
+            "prompt": "Quel texte, adopté en 1755 sous Pascal Paoli, a fait de la Corse un modèle admiré par les philosophes ?",
+            "hint": "Il organise les pouvoirs et repose sur la souveraineté du peuple.",
+            "anecdote": "Il prévoyait une assemblée élue, la Diète. C'est l'un des premiers textes de ce genre en Europe.",
+            "answers": {
+              "une-constitution": "Une constitution",
+              "un-traite-de-paix": "Un traité de paix",
+              "un-code-de-commerce": "Un code de commerce",
+              "une-bulle-du-pape": "Une bulle du pape"
+            }
+          },
+          "rousseau": {
+            "prompt": "Quel philosophe a écrit en 1762 avoir le pressentiment que la Corse étonnerait un jour l'Europe ?",
+            "hint": "La phrase se trouve dans son ouvrage « Du contrat social ».",
+            "anecdote": "Pascal Paoli lui a même demandé de rédiger un projet de constitution pour l'île. Il en a écrit une partie.",
+            "answers": {
+              "jean-jacques-rousseau": "Jean-Jacques Rousseau",
+              "voltaire": "Voltaire",
+              "montesquieu": "Montesquieu",
+              "denis-diderot": "Denis Diderot"
+            }
+          },
+          "gaffori": {
+            "prompt": "Quel chef corse, assassiné en 1753, a laissé à Corte une maison dont la façade porte encore des traces de balles ?",
+            "hint": "Sa femme, Faustina, y a tenu tête aux soldats génois pendant un siège.",
+            "anecdote": "Général de la Nation avant Pascal Paoli, il a été tué dans une embuscade préparée avec l'aide de Gênes.",
+            "answers": {
+              "jean-pierre-gaffori": "Jean-Pierre Gaffori",
+              "sampiero-corso": "Sampiero Corso",
+              "hyacinthe-paoli": "Hyacinthe Paoli",
+              "theodore-de-neuhoff": "Théodore de Neuhoff"
+            }
+          },
+          "ponte-novu": {
+            "prompt": "Quel pont sur le Golo, où les troupes de Pascal Paoli ont été battues en 1769, voit-on ici ?",
+            "hint": "Une de ses arches a été détruite pendant la Seconde Guerre mondiale.",
+            "anecdote": "La défaite a mis fin à la Corse indépendante. Paoli est parti en exil en Angleterre quelques semaines plus tard.",
+            "answers": {
+              "le-pont-de-ponte-novu": "Le pont de Ponte-Novu",
+              "le-pont-genois-de-zaglia": "Le pont génois de Zaglia",
+              "le-pont-d-altiani": "Le pont d'Altiani",
+              "le-pont-du-vecchio": "Le pont du Vecchio"
+            }
+          },
+          "ponte-novu-date": {
+            "prompt": "En quelle année la bataille de Ponte-Novu a-t-elle mis fin à la Corse indépendante ?",
+            "hint": "C'est l'année qui suit la cession de l'île à la France par Gênes.",
+            "anecdote": "Les troupes françaises, plus nombreuses, ont écrasé l'armée corse le 8 mai.",
+            "answers": {
+              "1755": "1755",
+              "1769": "1769",
+              "1789": "1789",
+              "1815": "1815"
+            }
+          },
+          "anglo-corse": {
+            "prompt": "Quel royaume a existé dans l'île entre 1794 et 1796, sous la protection de la Grande-Bretagne ?",
+            "hint": "Son roi était celui de Londres, George III.",
+            "anecdote": "Pascal Paoli, revenu dans l'île, avait appelé les Anglais contre la Convention. Le royaume a pris fin quand les troupes françaises sont revenues.",
+            "answers": {
+              "le-royaume-anglo-corse": "Le royaume anglo-corse",
+              "le-royaume-de-sardaigne": "Le royaume de Sardaigne",
+              "le-royaume-des-deux-siciles": "Le royaume des Deux-Siciles",
+              "le-royaume-de-naples": "Le royaume de Naples"
+            }
+          },
+          "letizia": {
+            "prompt": "Comment s'appelait la mère de Napoléon, surnommée Madame Mère ?",
+            "hint": "Elle était née à Ajaccio, en 1750.",
+            "anecdote": "Veuve à 35 ans, elle a élevé huit enfants. Elle a survécu à son fils et est morte à Rome en 1836.",
+            "answers": {
+              "letizia-ramolino": "Letizia Ramolino",
+              "josephine-de-beauharnais": "Joséphine de Beauharnais",
+              "marie-louise-d-autriche": "Marie-Louise d'Autriche",
+              "pauline-bonaparte": "Pauline Bonaparte"
+            }
+          },
+          "napoleon-1799": {
+            "prompt": "En quelle occasion Napoléon a-t-il séjourné pour la dernière fois à Ajaccio, en 1799 ?",
+            "hint": "Il revenait d'une expédition lointaine, de l'autre côté de la Méditerranée.",
+            "anecdote": "Retenu quelques jours par les vents contraires, il a ensuite gagné Fréjus, puis Paris, où il a pris le pouvoir.",
+            "answers": {
+              "au-retour-de-la-campagne-d-egypte": "Au retour de la campagne d'Égypte",
+              "apres-son-sacre": "Après son sacre",
+              "pendant-son-exil-a-l-ile-d-elbe": "Pendant son exil à l'île d'Elbe",
+              "avant-la-bataille-de-waterloo": "Avant la bataille de Waterloo"
+            }
+          },
+          "vecchio": {
+            "prompt": "Quel pont métallique, attribué à Gustave Eiffel, porte le train corse au-dessus d'une vallée près de Venaco ?",
+            "hint": "Il porte le nom du torrent qu'il enjambe, à près de 90 mètres de haut.",
+            "anecdote": "Il a été construit à la fin du XIXe siècle, pour la ligne qui relie Bastia à Ajaccio à travers la montagne.",
+            "answers": {
+              "le-pont-du-vecchio": "Le pont du Vecchio",
+              "le-pont-de-ponte-novu": "Le pont de Ponte-Novu",
+              "le-viaduc-de-garabit": "Le viaduc de Garabit",
+              "le-pont-de-normandie": "Le pont de Normandie"
+            }
+          },
+          "filitosa-dep": {
+            "prompt": "Le site préhistorique de Filitosa se trouve dans quel département ?",
+            "hint": "C'est le département du sud et de l'ouest de l'île, qui fait face à la Sardaigne.",
+            "anecdote": "Il est sur la commune de Sollacaro, dans la vallée du Taravo."
+          },
+          "monument-napoleon": {
+            "prompt": "Quel monument d'Ajaccio, élevé sur un grand escalier de pierre au bout d'un cours, voit-on ici ?",
+            "hint": "La place qui l'accueille porte le nom d'une célèbre victoire de 1805.",
+            "anecdote": "La statue, inaugurée en 1938, est une copie de celle qui couronnait autrefois la colonne Vendôme, à Paris.",
+            "answers": {
+              "le-monument-de-la-place-d-austerlitz": "Le monument de la place d'Austerlitz",
+              "le-monument-de-la-place-du-diamant": "Le monument de la place du Diamant",
+              "la-fontaine-de-la-place-foch": "La fontaine de la place Foch",
+              "la-chapelle-imperiale": "La chapelle impériale"
+            }
+          },
+          "diamant": {
+            "prompt": "Sur quelle place d'Ajaccio une statue équestre de Napoléon est-elle entourée de ses quatre frères ?",
+            "hint": "C'est la grande place ouverte sur la mer, au centre de la ville.",
+            "anecdote": "Le monument a été inauguré en 1865, sous le règne de Napoléon III. Les Ajacciens la surnomment d'un nom de pierre précieuse.",
+            "answers": {
+              "la-place-du-diamant": "La place du Diamant",
+              "la-place-foch": "La place Foch",
+              "la-place-d-austerlitz": "La place d'Austerlitz",
+              "la-place-campinchi": "La place Campinchi"
+            }
+          },
+          "quinze-aout": {
+            "prompt": "Quel événement Ajaccio célèbre-t-il chaque année autour du 15 août ?",
+            "hint": "Ce jour est aussi celui de l'Assomption, jour férié dans toute la France.",
+            "anecdote": "Défilés en costumes d'époque et reconstitutions animent la ville pendant plusieurs jours.",
+            "answers": {
+              "la-naissance-de-napoleon": "La naissance de Napoléon",
+              "la-liberation-de-la-ville": "La libération de la ville",
+              "la-fondation-de-la-ville": "La fondation de la ville",
+              "l-arrivee-des-grecs": "L'arrivée des Grecs"
+            }
+          },
+          "elbe": {
+            "prompt": "Quelle île, qu'on aperçoit depuis la côte est de la Corse, a accueilli Napoléon en exil en 1814 ?",
+            "hint": "Elle fait partie de l'archipel toscan.",
+            "anecdote": "Il en était le souverain. Il s'en est échappé moins d'un an plus tard pour les Cent-Jours.",
+            "answers": {
+              "l-ile-d-elbe": "L'île d'Elbe",
+              "sainte-helene": "Sainte-Hélène",
+              "la-sardaigne": "La Sardaigne",
+              "capraia": "Capraia"
+            }
+          },
+          "paoli-cendres": {
+            "prompt": "Où ont été transférées en 1889 les cendres de Pascal Paoli, mort en exil à Londres ?",
+            "hint": "Il a retrouvé le village de son enfance, en Castagniccia.",
+            "anecdote": "Il avait d'abord été enterré à Londres. Un buste de lui est toujours conservé à l'abbaye de Westminster.",
+            "answers": {
+              "dans-sa-maison-natale": "Dans sa maison natale",
+              "aux-invalides": "Aux Invalides",
+              "a-la-cathedrale-d-ajaccio": "À la cathédrale d'Ajaccio",
+              "au-pantheon": "Au Panthéon"
+            }
+          },
+          "dio-vi-salvi": {
+            "prompt": "Quel chant religieux, adopté en 1735 par une assemblée des insurgés corses, est devenu l'hymne de l'île ?",
+            "hint": "C'est une prière à la Vierge, chantée en langue corse.",
+            "anecdote": "On le chante debout, à la fin des fêtes, des concerts et des matchs, comme un chant national.",
+            "answers": {
+              "dio-vi-salvi-regina": "Dio vi salvi Regina",
+              "le-chant-des-partisans": "Le Chant des partisans",
+              "o-corse-ile-d-amour": "Ô Corse, île d'amour",
+              "ave-maris-stella": "Ave maris stella"
+            }
+          },
+          "occupation": {
+            "prompt": "Quel pays a occupé la plus grande partie de l'île à partir de novembre 1942 ?",
+            "hint": "Ses troupes, très nombreuses, venaient de l'autre côté de la mer Tyrrhénienne.",
+            "anecdote": "Environ 80 000 soldats ont été envoyés dans l'île. Des troupes allemandes les ont rejoints en 1943.",
+            "answers": {
+              "l-italie": "L'Italie",
+              "l-allemagne": "L'Allemagne",
+              "l-espagne": "L'Espagne",
+              "le-royaume-uni": "Le Royaume-Uni"
+            }
+          },
+          "casabianca": {
+            "prompt": "De quel sous-marin, qui a ravitaillé la Résistance corse, voit-on ici le kiosque ?",
+            "hint": "Il porte le nom d'un officier de marine corse mort à la bataille d'Aboukir.",
+            "anecdote": "Échappé de Toulon en novembre 1942, il a débarqué dans l'île des agents et des armes, puis des soldats en 1943.",
+            "answers": {
+              "le-casabianca": "Le Casabianca",
+              "le-surcouf": "Le Surcouf",
+              "le-protee": "Le Protée",
+              "le-redoutable": "Le Redoutable"
+            }
+          },
+          "lherminier": {
+            "prompt": "Quel officier commandait le sous-marin Casabianca pendant ses missions vers la Corse ?",
+            "hint": "Il a raconté cette aventure dans un livre après la guerre.",
+            "anecdote": "Malade, il a dû être amputé des deux jambes à cause des longues heures passées dans le froid du kiosque.",
+            "answers": {
+              "jean-l-herminier": "Jean L'Herminier",
+              "jacques-yves-cousteau": "Jacques-Yves Cousteau",
+              "philippe-kieffer": "Philippe Kieffer",
+              "honore-d-estienne-d-orves": "Honoré d'Estienne d'Orves"
+            }
+          },
+          "liberation-date": {
+            "prompt": "En quelle année la Corse est-elle devenue le premier département français libéré pendant la Seconde Guerre mondiale ?",
+            "hint": "C'était près d'un an avant la libération de Paris.",
+            "anecdote": "Le soulèvement de la Résistance, le 9 septembre, a été suivi du débarquement de troupes venues d'Alger.",
+            "answers": {
+              "1942": "1942",
+              "1943": "1943",
+              "1944": "1944",
+              "1945": "1945"
+            }
+          },
+          "liberation-ville": {
+            "prompt": "Quelle ville, libérée le 4 octobre 1943, a marqué la fin des combats de la Libération dans l'île ?",
+            "hint": "C'est par son port que les dernières troupes allemandes se sont retirées.",
+            "anecdote": "Les premiers soldats alliés entrés dans la ville, au petit matin, étaient des goumiers marocains."
+          },
+          "goumiers": {
+            "prompt": "Quelles troupes venues d'Afrique du Nord ont aidé à libérer l'île en 1943 ?",
+            "hint": "Ces soldats étaient réputés pour leur endurance en montagne.",
+            "anecdote": "Un monument leur rend hommage au col de Teghime, au-dessus de Bastia, où ils ont livré de durs combats.",
+            "answers": {
+              "des-goumiers-marocains": "Des goumiers marocains",
+              "des-parachutistes-americains": "Des parachutistes américains",
+              "des-commandos-britanniques": "Des commandos britanniques",
+              "des-marins-australiens": "Des marins australiens"
+            }
+          },
+          "teghime": {
+            "prompt": "Sur quel col, au-dessus de Bastia, les goumiers ont-ils livré un rude combat à la fin de septembre 1943 ?",
+            "hint": "Il fait communiquer Bastia avec le golfe de Saint-Florent.",
+            "anecdote": "Le col est le passage le plus court entre la côte est et le Nebbio. Les Allemands le tenaient pour protéger leur retraite.",
+            "answers": {
+              "le-col-de-teghime": "Le col de Teghime",
+              "le-col-de-vizzavona": "Le col de Vizzavona",
+              "le-col-de-bavella": "Le col de Bavella",
+              "le-col-de-vergio": "Le col de Vergio"
+            }
+          },
+          "danielle-casanova": {
+            "prompt": "Quelle résistante née à Ajaccio, morte en déportation à Auschwitz, avait fondé l'Union des jeunes filles de France ?",
+            "hint": "Elle était chirurgienne-dentiste à Paris.",
+            "anecdote": "Arrêtée en 1942, elle a soigné ses compagnes de déportation. De nombreuses rues et écoles portent son nom.",
+            "answers": {
+              "danielle-casanova": "Danielle Casanova",
+              "lucie-aubrac": "Lucie Aubrac",
+              "berty-albrecht": "Berty Albrecht",
+              "germaine-tillion": "Germaine Tillion"
+            }
+          },
+          "scamaroni": {
+            "prompt": "Quel résistant ajaccien, envoyé par le général de Gaulle, s'est donné la mort pour ne pas parler sous la torture ?",
+            "hint": "Il avait débarqué clandestinement dans l'île pour unifier les réseaux de la Résistance.",
+            "anecdote": "Arrêté par les services italiens, il est mort dans la citadelle d'Ajaccio en janvier 1943. Il est compagnon de la Libération.",
+            "answers": {
+              "fred-scamaroni": "Fred Scamaroni",
+              "jean-moulin": "Jean Moulin",
+              "pierre-brossolette": "Pierre Brossolette",
+              "jean-nicoli": "Jean Nicoli"
+            }
+          },
+          "nicoli": {
+            "prompt": "Quel instituteur, l'un des chefs de la Résistance corse, a été exécuté par les troupes d'occupation ?",
+            "hint": "Il était né dans l'Alta Rocca et avait enseigné en Afrique.",
+            "anecdote": "Il a été exécuté à Bastia le 30 août 1943. Sa dernière lettre à ses enfants est restée célèbre. De nombreux établissements scolaires de l'île portent son nom.",
+            "answers": {
+              "jean-nicoli": "Jean Nicoli",
+              "fred-scamaroni": "Fred Scamaroni",
+              "paul-colonna-d-istria": "Paul Colonna d'Istria",
+              "jean-moulin": "Jean Moulin"
+            }
+          }
+        }
+      },
+      "album": {
+        "cards": {
+          "ajaccio": {
+            "name": "Ajaccio",
+            "description": "Fondée par les Génois en 1492 au fond d'un large golfe, Ajaccio est la préfecture de la Corse-du-Sud et le siège de la Collectivité de Corse. Sa vieille ville serrée autour de la citadelle, son marché, ses places plantées de palmiers et la route des îles Sanguinaires en font la plus grande ville de l'île.",
+            "anecdote": "Napoléon Bonaparte y est né le 15 août 1769. Sa maison natale, rue Saint-Charles, se visite aujourd'hui comme un musée national."
+          },
+          "brocciu": {
+            "name": "Brocciu",
+            "description": "Le brocciu est un fromage frais fabriqué avec le petit-lait de brebis ou de chèvre, chauffé puis enrichi de lait entier. Les flocons qui remontent à la surface sont recueillis dans des faisselles. Reconnu par une appellation d'origine dès 1983, ce qui est rare pour un fromage de petit-lait, il se mange frais, salé ou affiné.",
+            "anecdote": "Il entre dans de nombreuses recettes de l'île, salées comme sucrées : omelette à la menthe, cannelloni, beignets ou fiadone."
+          },
+          "eglises-pisanes": {
+            "name": "Églises romanes pisanes",
+            "description": "Aux XIe et XIIe siècles, sous l'autorité de Pise, des dizaines d'églises romanes ont été bâties dans l'île. Construites en pierres soigneusement taillées, souvent de couleurs alternées, elles sont décorées d'arcatures et de petites sculptures. La Canonica, près de Bastia, Murato et Saint-Florent en conservent les plus beaux exemples.",
+            "anecdote": "La Canonica a été consacrée en 1119. Elle se trouve près des vestiges de Mariana, ancienne colonie romaine fondée par Marius."
+          },
+          "bergeries": {
+            "name": "Bergeries de montagne",
+            "description": "Chaque été, les bergers montaient leurs troupeaux de brebis et de chèvres vers les pâturages d'altitude. Ils y vivaient dans des bergeries de pierre sèche, où ils fabriquaient le fromage. Cette transhumance, encore pratiquée dans le Niolu et dans d'autres vallées, a façonné les paysages et la culture de l'intérieur de l'île.",
+            "anecdote": "Plusieurs bergeries jalonnent le sentier du GR20 et proposent aux randonneurs du fromage fait sur place."
+          },
+          "filitosa": {
+            "name": "Filitosa",
+            "description": "Dans la vallée du Taravo, le site de Filitosa a été occupé dès le néolithique. Il est célèbre pour ses statues-menhirs de l'âge du bronze, dont certaines portent un visage et des armes sculptés. Découvert en 1946, il a été fouillé par l'archéologue Roger Grosjean et compte parmi les sites préhistoriques majeurs de la Méditerranée.",
+            "anecdote": "Certaines statues avaient été réemployées dans un mur, ce qui les a protégées pendant des siècles."
+          }
+        },
+        "badges": {
+          "collector": {
+            "name": "Collectionneur de Corse",
+            "description": "Réunir les cinq cartes de la collection de la Corse."
+          },
+          "master": {
+            "name": "Maître de Corse",
+            "description": "Réussir le Défi Maître de la Corse, avec au moins huit bonnes réponses sur dix."
           }
         }
       }
