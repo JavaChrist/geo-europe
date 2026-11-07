@@ -43,9 +43,9 @@ export function RegionJourneys({ region }: { region: Region }) {
                 <span className="text-sm text-ink-soft">
                   {tContent("country.subdivisionCount", { count: territory.subdivisionIds.length })}
                 </span>
-                <span className={`text-sm ${territory.status === "published" ? "text-gold" : "text-ink-soft"}`}>
-                  {t(territory.status === "published" ? "explorer.statusPublished" : "explorer.statusDraft")}
-                </span>
+                {territory.status !== "published" && (
+                  <span className="text-sm text-ink-soft">{t("explorer.statusDraft")}</span>
+                )}
               </span>
               <ChevronRight aria-hidden className="size-5 shrink-0 text-ink-soft" />
             </Link>
