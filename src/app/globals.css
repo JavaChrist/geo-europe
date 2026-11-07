@@ -178,3 +178,60 @@ html:has(dialog[open]) {
     transition: none;
   }
 }
+
+/* Mode Famille : le trophée de fin de partie. */
+.family-victory {
+  animation: victory-pop 700ms cubic-bezier(0.2, 0.9, 0.3, 1.3) both;
+}
+
+.family-victory-glow {
+  animation: victory-glow 2400ms ease-in-out infinite;
+}
+
+.family-spark {
+  animation: victory-spark 1800ms ease-out infinite;
+}
+
+.family-spark-late {
+  animation-delay: 600ms;
+}
+
+.family-spark-later {
+  animation-delay: 1200ms;
+}
+
+@keyframes victory-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.4) rotate(-12deg);
+  }
+}
+
+@keyframes victory-glow {
+  50% {
+    transform: scale(1.18);
+    opacity: 0.45;
+  }
+}
+
+@keyframes victory-spark {
+  0% {
+    opacity: 0;
+    transform: translateY(6px) scale(0.6);
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-14px) scale(1.1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .family-victory,
+  .family-victory-glow,
+  .family-spark {
+    animation: none;
+  }
+}

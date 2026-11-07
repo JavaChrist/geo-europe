@@ -30,7 +30,8 @@
     },
     "challengeTitle": "Défis",
     "challengeNote": "Défi Maître et Défi Chrono",
-    "familyTitle": "Mode Famille"
+    "familyTitle": "Mode Famille",
+    "familyNote": "De 2 à 4 joueurs sur un même appareil"
   },
   "explorer": {
     "title": "Explorer",
@@ -227,9 +228,9 @@
       "lastPlayed": "Dernière partie : {date}",
       "xp": "XP cumulés : {count}",
       "deleteAction": "Effacer mes résultats",
-      "deleteIntro": "Efface tous les résultats de parcours enregistrés sur cet appareil.",
+      "deleteIntro": "Efface tous les résultats de parcours et du Mode Famille enregistrés sur cet appareil.",
       "deleteTitle": "Effacer vos résultats ?",
-      "deleteBody": "Scores, étoiles, XP, cartes, badges, records des défis, nombre de parties et questions déjà rencontrées seront définitivement effacés de cet appareil.",
+      "deleteBody": "Scores, étoiles, XP, cartes, badges, records des défis, nombre de parties, questions déjà rencontrées, ainsi que les joueurs et l'historique du Mode Famille seront définitivement effacés de cet appareil.",
       "deletedTitle": "Résultats effacés",
       "deletedBody": "Plus aucun résultat n'est enregistré sur cet appareil.",
       "challengeName": "{challenge}, {territory}",
@@ -629,10 +630,6 @@
       "title": "Profil",
       "body": "Vous pourrez bientôt créer vos profils de joueurs et suivre votre parcours."
     },
-    "family": {
-      "title": "Mode Famille",
-      "body": "Bientôt, jouez à plusieurs sur un même appareil, petits et grands."
-    },
     "region": {
       "body": "Cette étape du voyage se prépare : photos, questions et anecdotes arriveront ici."
     }
@@ -705,5 +702,139 @@
       "title": "Nouvelle récompense",
       "body": "Vous avez découvert une nouvelle carte de collection."
     }
+  },
+  "family": {
+    "title": "Mode Famille",
+    "intro": "De 2 à 4 joueurs sur un même appareil, chacun son tour. Sans compte et sans connexion.",
+    "separate": "Les points du Mode Famille restent à part : ils ne comptent ni pour l'XP ni pour les cartes souvenirs.",
+    "setup": {
+      "playersTitle": "Joueurs",
+      "playersHint": "Choisissez de {min} à {max} joueurs. L'ordre de sélection donne l'ordre de passage.",
+      "selected": {
+        "one": "{count} joueur choisi",
+        "other": "{count} joueurs choisis"
+      },
+      "nameLabel": "Nouveau joueur",
+      "namePlaceholder": "Prénom ou surnom",
+      "add": "Ajouter",
+      "nameEmpty": "Indiquez un prénom ou un surnom.",
+      "nameTaken": "Ce nom est déjà dans la liste.",
+      "maxReached": "{count} joueurs au plus par partie.",
+      "noPlayers": "Ajoutez les joueurs de la partie. Ils restent enregistrés sur cet appareil pour les prochaines fois.",
+      "removePlayer": "Retirer {name} de la liste",
+      "removeTitle": "Retirer {name} ?",
+      "removeBody": "Ce joueur disparaît de la liste. L'historique des parties déjà jouées ne change pas.",
+      "remove": "Retirer",
+      "durationTitle": "Durée",
+      "rounds": {
+        "one": "{count} manche",
+        "other": "{count} manches"
+      },
+      "scopeTitle": "Questions",
+      "scopeLabel": "Choisir les questions",
+      "groupThemes": "Thèmes",
+      "groupTerritories": "Parcours",
+      "poolSize": {
+        "one": "{count} question disponible",
+        "other": "{count} questions disponibles"
+      },
+      "tooSmall": "Pas assez de questions dans ce choix pour une partie {duration} à {count} joueurs.",
+      "tooSmallAlternative": "Choisissez une partie {durations}, ou un choix de questions plus large comme Toute la France.",
+      "tooSmallNone": "Ce choix ne compte pas assez de questions pour {count} joueurs. Choisissez un thème plus large ou Toute la France.",
+      "needPlayers": "Choisissez au moins {count} joueurs pour lancer la partie.",
+      "start": "Lancer la partie",
+      "rulesTitle": "Règles",
+      "scopeOption": "{name} ({note})"
+    },
+    "durations": {
+      "quick": "Rapide",
+      "classic": "Classique",
+      "long": "Longue"
+    },
+    "durationsLower": {
+      "quick": "rapide",
+      "classic": "classique",
+      "long": "longue"
+    },
+    "rules": {
+      "rounds": "Une manche, c'est une question pour chaque joueur, à tour de rôle. Le premier joueur change à chaque manche.",
+      "difficulty": "Dans une manche, tous les joueurs ont une question de même difficulté. Elle monte au fil des manches.",
+      "points": "Bonne réponse sans aide : {clean} points. Après l'indice : {hint} points. Avec un 50/50 : {joker} points. Mauvaise réponse : aucun point.",
+      "jokers": {
+        "one": "{count} joker 50/50 par joueur pour toute la partie.",
+        "other": "{count} jokers 50/50 par joueur pour toute la partie."
+      },
+      "noTimer": "Pas de chronomètre : chacun prend son temps."
+    },
+    "resume": {
+      "title": "Partie en cours",
+      "body": "{players}. Manche {round} sur {total}.",
+      "continue": "Reprendre la partie",
+      "abandon": "Abandonner"
+    },
+    "handoff": {
+      "round": "Manche {current} sur {total}",
+      "title": "Au tour de {name}",
+      "body": "Passez l'appareil à {name}. La question reste cachée jusqu'au bouton ci-dessous.",
+      "ready": "Voir ma question",
+      "points": {
+        "one": "{count} point",
+        "other": "{count} points"
+      },
+      "jokers": {
+        "one": "{count} joker 50/50 restant",
+        "other": "{count} jokers 50/50 restants"
+      }
+    },
+    "game": {
+      "progress": "Manche {current} sur {total}, {name}",
+      "jokerNote": "Avec un 50/50, une bonne réponse vaut {points} points.",
+      "endTurn": "Joueur suivant",
+      "seeRound": "Voir le classement de la manche",
+      "seeFinal": "Voir le résultat final"
+    },
+    "quitTitle": "Abandonner la partie ?",
+    "quitBody": "La partie s'arrête pour tous les joueurs. Elle ne sera pas enregistrée dans l'historique.",
+    "quit": "Abandonner",
+    "summary": {
+      "title": "Fin de la manche {current} sur {total}",
+      "next": "Manche suivante"
+    },
+    "final": {
+      "title": "Partie terminée",
+      "winner": "{name} remporte la partie",
+      "winners": "Égalité en tête : {names}",
+      "replay": "Rejouer"
+    },
+    "standings": {
+      "title": "Classement",
+      "rank": "{rank}",
+      "tied": "ex æquo",
+      "points": {
+        "one": "{count} point",
+        "other": "{count} points"
+      },
+      "correct": {
+        "one": "{count} bonne réponse",
+        "other": "{count} bonnes réponses"
+      },
+      "hints": {
+        "one": "{count} avec l'indice",
+        "other": "{count} avec l'indice"
+      },
+      "jokers": {
+        "one": "{count} 50/50 utilisé",
+        "other": "{count} 50/50 utilisés"
+      },
+      "roundPoints": "+{count} cette manche"
+    },
+    "history": {
+      "title": "Dernières parties",
+      "empty": "Aucune partie terminée pour l'instant.",
+      "entry": "{scope}, partie {duration}",
+      "leader": "En tête : {names}"
+    },
+    "tooSmallTitle": "Pas assez de questions",
+    "tooSmallBody": "Ce choix ne permet pas une partie complète sans répéter de question. Choisissez une partie plus courte ou un choix de questions plus large."
   }
 }

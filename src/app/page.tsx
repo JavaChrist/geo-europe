@@ -48,7 +48,7 @@ export default function HomePage() {
 
         <div className="hidden flex-col gap-3 lg:flex">
           <SideCard href="/defis" title={t("home.challengeTitle")} note={t("home.challengeNote")} icon={Swords} />
-          <SideCard href="/famille" title={t("home.familyTitle")} note={t("common.comingSoon")} icon={UsersRound} />
+          <SideCard href="/famille" title={t("home.familyTitle")} note={t("home.familyNote")} icon={UsersRound} />
         </div>
       </div>
 
@@ -69,7 +69,7 @@ export default function HomePage() {
 
       <div className="flex flex-col gap-3 lg:hidden">
         <SideCard href="/defis" title={t("home.challengeTitle")} note={t("home.challengeNote")} icon={Swords} />
-        <SideCard href="/famille" title={t("home.familyTitle")} note={t("common.comingSoon")} icon={UsersRound} />
+        <SideCard href="/famille" title={t("home.familyTitle")} note={t("home.familyNote")} icon={UsersRound} />
       </div>
     </main>
   );

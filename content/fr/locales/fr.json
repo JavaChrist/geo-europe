@@ -61405,5 +61405,16 @@
         }
       }
     }
+  },
+  "familyScopes": {
+    "wholeCountry": "Toute la France",
+    "wholeCountryNote": "Les {count} parcours mélangés",
+    "themes": {
+      "geographie": "Géographie et nature",
+      "villesPatrimoine": "Villes et patrimoine",
+      "histoire": "Histoire et personnalités",
+      "gastronomie": "Gastronomie",
+      "traditions": "Traditions et savoir-faire"
+    }
   }
 }

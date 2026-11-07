@@ -265,6 +265,18 @@ export interface Territory extends WithCover {
   status: RegionStatus;
 }
 
+/** Thème du Mode Famille déclaré par un pays : un libellé de contenu et les catégories de questions qu'il regroupe. */
+export interface FamilyTheme {
+  id: string;
+  nameKey: string;
+  categories: string[];
+}
+
+/** Réglages du Mode Famille propres au pays. */
+export interface FamilyContent {
+  themes: FamilyTheme[];
+}
+
 export type ContentMessages = Record<string, unknown>;
 
 export interface CountryContent {
@@ -274,6 +286,7 @@ export interface CountryContent {
   territories: Territory[];
   gameMaps: GameMap[];
   credits: MediaCredit[];
+  family: FamilyContent;
   /** Textes propres au pays, par langue. */
   messages: Record<string, ContentMessages>;
 }

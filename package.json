@@ -15,7 +15,8 @@
     "check:emoji": "node scripts/check-no-emoji.mjs",
     "check:content": "node scripts/check-content.mjs",
     "check:engine": "node scripts/check-engine.mjs",
-    "check": "npm run lint && npm run typecheck && npm run check:emoji && npm run check:content && npm run check:engine"
+    "check:family": "node scripts/check-family.mjs",
+    "check": "npm run lint && npm run typecheck && npm run check:emoji && npm run check:content && npm run check:engine && npm run check:family"
   },
   "dependencies": {
     "lucide-react": "^1.66.0",

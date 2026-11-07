@@ -1,5 +1,6 @@
 import type { CountryContent, CountryMap, GameMap, MediaCredit, Region, Territory } from "../../src/engine/types.ts";
 import { country } from "./country.ts";
+import { family } from "./family.ts";
 import map from "./map.json";
 import credits from "./media/credits.json";
 import fr from "./locales/fr.json";
@@ -73,6 +74,7 @@ const content: CountryContent = {
   territories: [alsace, lorraine, champagneArdenne, languedocRoussillon, midiPyrenees, bourgogne, francheComte, auvergne, rhoneAlpes, provenceAlpesCoteDAzur, aquitaine, limousin, poitouCharentes, paysDeLaLoire, centreValDeLoire, bretagne, normandie, ileDeFrance, nordPasDeCalais, picardie, corse, guadeloupe, martinique, guyane, laReunion, mayotte] as Territory[],
   gameMaps: [mapGrandEstDepartements, mapGrandEstTerritoires, mapOccitanieDepartements, mapOccitanieTerritoires, mapBourgogneFrancheComteDepartements, mapBourgogneFrancheComteTerritoires, mapAuvergneRhoneAlpesDepartements, mapAuvergneRhoneAlpesTerritoires, mapProvenceAlpesCoteDAzurDepartements, mapNouvelleAquitaineDepartements, mapNouvelleAquitaineTerritoires, mapPaysDeLaLoireDepartements, mapCentreValDeLoireDepartements, mapBretagneDepartements, mapNormandieDepartements, mapIleDeFranceDepartements, mapHautsDeFranceDepartements, mapCorseDepartements] as GameMap[],
   credits: credits as MediaCredit[],
+  family,
   messages: { fr },
 };
 

@@ -39,6 +39,8 @@ interface ChallengeViewProps {
   onQuit: () => void;
   /** Défi spécial : bonnes réponses au lieu des points, pas de joker. `timed` laisse la place au chronomètre et va droit au but. */
   special?: { timed: boolean };
+  /** Textes propres à un autre mode (Mode Famille) : la question, les réponses et l'indice ne changent pas. */
+  labels?: { progress: string; score: string; jokerNote: string; next: string };
 }
 
 function AnswerButtons({ challenge, run, onAnswer }: { challenge: LevelChallenge; run: LevelRun; onAnswer: (id: string) => void }) {
@@ -71,7 +73,7 @@ function AnswerButtons({ challenge, run, onAnswer }: { challenge: LevelChallenge
 }
 
 /** Écran commun à tous les défis : seul le support (photo, carte) dépend du type de défi. */
-export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit, special }: ChallengeViewProps) {
+export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit, special, labels }: ChallengeViewProps) {
   const { t, tContent } = useTranslation();
   const rootRef = useRef<HTMLDivElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
@@ -97,10 +99,12 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit, s
       <header className="flex flex-col gap-2">
         <div className="flex items-center justify-between gap-3 text-sm">
           <span className="font-semibold text-gold">
-            {t("journey.game.progress", { current: run.index + 1, total: run.challengeIds.length })}
+            {labels?.progress ?? t("journey.game.progress", { current: run.index + 1, total: run.challengeIds.length })}
           </span>
           <span>
-            {special
+            {labels
+              ? labels.score
+              : special
               ? t("journey.specials.game.tally", { count: correctCount(run.results) })
               : t("journey.game.score", { count: scoreOf(run) })}
           </span>
@@ -177,7 +181,7 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit, s
             <p className="text-center text-sm text-ink-soft">
               {t("journey.game.jokersLeft", { count: run.jokersLeft })}
               {" "}
-              {t("journey.game.jokerCost", { cost: LEVEL_RULES.points.first - LEVEL_RULES.points.firstWithJoker })}
+              {labels?.jokerNote ?? t("journey.game.jokerCost", { cost: LEVEL_RULES.points.first - LEVEL_RULES.points.firstWithJoker })}
             </p>
           </div>
           )
@@ -187,7 +191,7 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit, s
             onClick={onNext}
             className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-gold px-5 font-semibold text-abyss transition-colors hover:bg-gold-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
           >
-            {t(isRunOver(run) ?"journey.game.seeResult" : "journey.game.next")}
+            {labels?.next ?? t(isRunOver(run) ? "journey.game.seeResult" : "journey.game.next")}
             <ArrowRight aria-hidden className="size-5" />
           </button>
         )}

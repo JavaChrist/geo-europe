@@ -32,6 +32,16 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
     else fail("locales", `fichier manquant pour ${locale}`);
   }
 
+  // Interface et contenu sont fusionnés au premier niveau : un même bloc de tête effacerait les textes de l'interface.
+  for (const [locale, messages] of Object.entries(messagesByLocale)) {
+    const uiPath = join("src", "i18n", "locales", `${locale}.json`);
+    if (!existsSync(uiPath)) continue;
+    const ui = readJson(uiPath);
+    for (const key of Object.keys(messages)) {
+      if (key in ui) fail(`locales/${locale}.json`, `bloc « ${key} » déjà utilisé par l'interface`);
+    }
+  }
+
   const credits = readJson(join(dir, "media", "credits.json"));
   const mediaIds = new Set();
   for (const media of credits) {
@@ -265,6 +275,33 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
     }
     for (const key of ["country.homeTitle", "country.homePitch", "country.legal.authority", "country.legal.governingLaw", "country.legal.consumerLaw"]) {
       if (typeof lookup(messages, key) !== "string") fail(`locales/${locale}.json`, `${key} absent`);
+    }
+  }
+
+  // Mode Famille : chaque thème regroupe des catégories réellement présentes dans les questions.
+  const familyPath = resolve(dir, "family.ts");
+  if (!existsSync(familyPath)) fail("family.ts", "fichier manquant");
+  else {
+    const { family } = await import(pathToFileURL(familyPath).href);
+    const categories = new Set(
+      territoryFiles.flatMap((file) => readJson(join(territoriesDir, file)).levels.flatMap((level) => level.questions.map((question) => question.category))),
+    );
+    const themeIds = new Set();
+    for (const theme of family?.themes ?? []) {
+      if (themeIds.has(theme.id)) fail("family.ts", `thème en double : ${theme.id}`);
+      themeIds.add(theme.id);
+      if (!theme.categories?.length) fail("family.ts", `${theme.id} sans catégorie`);
+      for (const category of theme.categories ?? []) {
+        if (!categories.has(category)) fail("family.ts", `${theme.id} : catégorie absente des questions : ${category}`);
+      }
+      for (const [locale, messages] of Object.entries(messagesByLocale)) {
+        if (typeof lookup(messages, theme.nameKey) !== "string") fail(`locales/${locale}.json`, `${theme.nameKey} absent`);
+      }
+    }
+    for (const [locale, messages] of Object.entries(messagesByLocale)) {
+      for (const key of ["familyScopes.wholeCountry", "familyScopes.wholeCountryNote"]) {
+        if (typeof lookup(messages, key) !== "string") fail(`locales/${locale}.json`, `${key} absent`);
+      }
     }
   }
 }

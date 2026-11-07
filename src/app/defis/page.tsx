@@ -39,7 +39,6 @@ export default function ChallengesPage() {
     { id: "daily", title: t("challenges.modes.daily.title"), note: t("challenges.modes.daily.note"), icon: CalendarDays },
     { id: "country", title: tContent("country.challengeTitle"), note: t("challenges.modes.country.note"), icon: Flag },
     { id: "themes", title: t("challenges.modes.themes.title"), note: t("challenges.modes.themes.note"), icon: Shapes },
-    { id: "family", title: t("challenges.modes.family.title"), note: t("challenges.modes.family.note"), icon: UsersRound },
   ];
 
   return (
@@ -77,6 +76,17 @@ export default function ChallengesPage() {
 
       <section className="flex flex-col gap-3">
         <h2 className="font-display text-xl font-semibold">{t("challenges.otherTitle")}</h2>
+        <Link
+          href="/famille"
+          className="flex min-h-20 items-center gap-4 rounded-2xl border border-gold/25 bg-surface/60 p-4 transition-colors hover:border-gold/60 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+        >
+          <ModeIcon icon={UsersRound} />
+          <span className="flex min-w-0 flex-1 flex-col gap-1">
+            <span className="font-display text-lg font-semibold">{t("challenges.modes.family.title")}</span>
+            <span className="text-sm text-ink-soft">{t("challenges.modes.family.note")}</span>
+          </span>
+          <ChevronRight aria-hidden className="size-5 shrink-0 text-ink-soft" />
+        </Link>
         {inPreparation.map((mode) => (
           <ModeInPreparation key={mode.id} title={mode.title} note={mode.note} badge={preparing} icon={mode.icon} />
         ))}
