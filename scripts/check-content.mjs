@@ -3,6 +3,7 @@ import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { basename, join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { ALBUM_THEMES } from "../src/engine/album.ts";
+import { LEGAL_DOCUMENTS } from "../src/engine/legal-markdown.ts";
 import { maxScoreOf } from "../src/engine/level-run.ts";
 import { SPECIAL_CHALLENGES, isSpecialChallengeAvailable } from "../src/engine/special-challenges.ts";
 
@@ -21,8 +22,30 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
   const fail = (where, message) => errors.push(`${code}/${where} : ${message}`);
   const { country } = await import(pathToFileURL(resolve(dir, "country.ts")).href);
 
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(country.legal?.documentsUpdatedAt ?? "")) {
-    fail("country.ts", "legal.documentsUpdatedAt absent ou invalide");
+  // Documents juridiques : copiés depuis JavaChrist-Legal-Kit par scripts/sync-legal.mjs, jamais écrits à la main.
+  const legalDir = join(dir, "legal");
+  const legalMetaPath = join(legalDir, "legal.json");
+  if (!country.legal?.kitAppId || !country.legal?.supportEmail) fail("country.ts", "legal.kitAppId et legal.supportEmail requis");
+  if (!existsSync(legalMetaPath)) {
+    fail("legal", "documents absents : lancer node scripts/sync-legal.mjs");
+  } else {
+    const legalMeta = readJson(legalMetaPath);
+    if (legalMeta.appId !== country.legal?.kitAppId) fail("legal/legal.json", `appId ${legalMeta.appId} différent de legal.kitAppId`);
+    if (!["draft", "reviewed"].includes(legalMeta.mode)) fail("legal/legal.json", `mode invalide : ${legalMeta.mode}`);
+    for (const name of LEGAL_DOCUMENTS) {
+      const path = join(legalDir, `${name}.md`);
+      if (!existsSync(path)) {
+        fail("legal", `${name}.md absent`);
+        continue;
+      }
+      const text = readFileSync(path, "utf8");
+      if (/<[a-z/!]/i.test(text)) fail(`legal/${name}.md`, "HTML brut interdit");
+      if (text.includes("{{")) fail(`legal/${name}.md`, "variable du kit non remplacée");
+      if (!/^#\s/m.test(text)) fail(`legal/${name}.md`, "titre absent");
+      if (name === "mentions-legales" && !text.includes(country.legal?.supportEmail)) {
+        fail("legal/mentions-legales.md", "legal.supportEmail absent : le kit et country.ts divergent");
+      }
+    }
   }
 
   const messagesByLocale = {};
@@ -273,7 +296,7 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
     for (const key of ["country.subdivisionsTitle", "country.subdivisionCount.other"]) {
       if (typeof lookup(messages, key) !== "string") fail(`locales/${locale}.json`, `${key} absent`);
     }
-    for (const key of ["country.homeTitle", "country.homePitch", "country.legal.authority", "country.legal.governingLaw", "country.legal.consumerLaw"]) {
+    for (const key of ["country.homeTitle", "country.homePitch"]) {
       if (typeof lookup(messages, key) !== "string") fail(`locales/${locale}.json`, `${key} absent`);
     }
   }

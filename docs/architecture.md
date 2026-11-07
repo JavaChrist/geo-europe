@@ -24,8 +24,7 @@ Le code est écrit une fois. Chaque pays apporte son contenu dans `content/<pays
 | `src/services/` | Stockage local, version, erreurs (`AppError`), frontières d'accès | Seul endroit autorisé à importer Firebase, le jour où il arrivera |
 | `src/i18n/` | Traducteur et textes de l'interface (`src/i18n/locales/<langue>.json`) | Textes communs à tous les pays |
 | `src/app/` | Routes Next.js | Les routes serveur s'appellent `route.server.ts` |
-| `content/<pays>/` | Configuration, régions, parcours, cartes, crédits photo, textes de contenu, thèmes Famille | Tout ce qui est propre au pays |
-| `content/_shared/` | Éditeur et hébergeur communs | Pas un pays : les scripts ignorent les dossiers commençant par `_` |
+| `content/<pays>/` | Configuration, régions, parcours, cartes, crédits photo, textes de contenu, thèmes Famille, documents juridiques copiés du kit (`legal/`) | Tout ce qui est propre au pays |
 | `public/media/<pays>/` | Photos du pays, créditées dans `content/<pays>/media/credits.json` | Pas d'image inventée pour un lieu réel |
 | `scripts/` | Génération des cartes et contrôles | Lancés par `npm run check` ou à la main |
 

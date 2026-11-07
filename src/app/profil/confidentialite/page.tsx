@@ -8,7 +8,7 @@ import { BackLink } from "@/ui/BackLink";
 export default function PrivacyHubPage() {
   const translator = getTranslator();
   const { t } = translator;
-  const values = getLegalValues(translator);
+  const values = getLegalValues();
 
   const entries: { href: string; icon: LucideIcon; title: string; summary: string }[] = [
     { href: "/profil/reinitialiser", icon: RotateCcw, title: t("reset.title"), summary: t("reset.summary") },

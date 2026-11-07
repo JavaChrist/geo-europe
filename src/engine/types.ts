@@ -49,37 +49,15 @@ export interface MediaCredit {
   height?: number;
 }
 
-/** `null` : information à fournir, jamais à inventer. */
-export interface LegalPublisher {
-  tradeName: string | null;
-  entrepreneur: string | null;
-  status: string | null;
-  siren: string | null;
-  siret: string | null;
-  registry: string | null;
-  address: string | null;
-  director: string | null;
-  phone: string | null;
-  supportEmail: string | null;
-  website: string | null;
-}
-
-export interface LegalHost {
-  name: string | null;
-  address: string | null;
-  website: string | null;
-}
-
-/** Identité légale d'une application. */
+/**
+ * Lien avec JavaChrist-Legal-Kit, seule source des documents juridiques (voir `docs/juridique.md`).
+ * L'éditeur, l'hébergeur, le médiateur et la TVA sont décrits dans le kit, jamais ici.
+ */
 export interface LegalConfig {
-  publisher: LegalPublisher;
-  host: LegalHost;
-  /** `confirmed` : le régime a été validé administrativement. Sinon, la mention est signalée à l'écran. */
-  vat: { regime: "franchise" | null; confirmed: boolean };
-  /** `confirmed` : l'adhésion de l'éditeur est confirmée pour cette application. Sinon, la rubrique est signalée à l'écran. */
-  mediator: { name: string | null; address: string | null; website: string | null; confirmed: boolean };
-  /** Date de dernière modification des documents légaux, au format AAAA-MM-JJ. */
-  documentsUpdatedAt: string;
+  /** Identifiant de l'application dans le kit : `apps/<kitAppId>.json`. */
+  kitAppId: string;
+  /** Contact cité dans les rubriques locales. Identique au `supportEmail` de la configuration du kit. */
+  supportEmail: string;
 }
 
 export interface CountryConfig {

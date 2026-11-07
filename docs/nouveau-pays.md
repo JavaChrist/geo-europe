@@ -14,9 +14,9 @@ Code de deux lettres minuscules, identique pour le dossier, `GEO_COUNTRY` et `co
 
 Exporter `country: CountryConfig` (type dans `src/engine/types.ts`) : `code`, `appName`, `androidPackage`, `locales`, `defaultLocale`, `regionCount`, `premium` (prix décrit, jamais activé), `legal`, `icons`, `themeColor`, `backgroundColor`. Partir de `content/fr/country.ts`.
 
-### 3. Mentions légales
+### 3. Documents juridiques
 
-Réutiliser `publisher` et `webHost` de `content/_shared/legal.ts`. Laisser à `null` ce qui n'est pas connu, et à `false` les champs `confirmed` tant que rien n'est vérifié : un avertissement s'affiche alors à l'écran. Renseigner `legal.documentsUpdatedAt` au format `AAAA-MM-JJ`.
+Les cinq documents juridiques viennent de JavaChrist-Legal-Kit, jamais d'un texte écrit dans ce dépôt. Créer `apps/<id>.json` et `catalogs/<id>.json` dans le kit, générer le brouillon, puis le copier avec `node scripts/sync-legal.mjs es <id> 0.1.0-draft`. Renseigner `legal: { kitAppId, supportEmail }` dans `country.ts`. Toute la procédure, les règles et la relecture par Christian sont dans [juridique.md](juridique.md).
 
 ### 4. Carte nationale
 

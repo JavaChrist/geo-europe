@@ -1,5 +1,4 @@
 import type { CountryConfig } from "../../src/engine/types.ts";
-import { publisher, webHost } from "../_shared/legal.ts";
 
 export const country: CountryConfig = {
   code: "fr",
@@ -9,18 +8,7 @@ export const country: CountryConfig = {
   defaultLocale: "fr",
   regionCount: 18,
   premium: { priceCents: 499, currency: "EUR" },
-  legal: {
-    publisher,
-    host: webHost,
-    vat: { regime: "franchise", confirmed: false },
-    mediator: {
-      name: "Médiation Consommation Développement",
-      address: "Centre d'Affaires Stéphanois, Immeuble l'Horizon, Esplanade de France, 3 rue J. Constant Milleret, 42000 Saint-Étienne",
-      website: "https://www.medconsodev.eu/",
-      confirmed: true,
-    },
-    documentsUpdatedAt: "2026-11-04",
-  },
+  legal: { kitAppId: "geofr", supportEmail: "support@appsgeo.com" },
   icons: {
     favicon: "/favicon.ico",
     faviconSvg: "/favicon.svg",

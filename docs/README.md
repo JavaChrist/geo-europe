@@ -10,6 +10,7 @@ GéoFR est le premier jeu de la collection Géo Europe. Le même code sert à to
 | [mode-famille.md](mode-famille.md) | Règles, déroulé, scores, stockage et éditions prévues du Mode Famille |
 | [nouveau-pays.md](nouveau-pays.md) | Les 18 étapes pour ajouter un pays à la collection |
 | [checklist-pays.md](checklist-pays.md) | Liste à cocher pour un pays, ce qui existe et ce qui est prévu |
+| [juridique.md](juridique.md) | Documents juridiques : intégration de JavaChrist-Legal-Kit, procédure par pays, manques connus |
 
 ## Fichiers de relecture
 
@@ -33,7 +34,7 @@ npm run build
 npm run build:export
 ```
 
-`npm run check` enchaîne le lint, les types, l'absence d'emoji, le contenu de chaque pays, le moteur et le Mode Famille.
+`npm run check` enchaîne le lint, les types, l'absence d'emoji, le contenu de chaque pays, le moteur, le Mode Famille et les documents juridiques.
 
 ## Légende
 

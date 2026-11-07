@@ -7,7 +7,7 @@
 ### Contenu
 
 - [ ] `content/<pays>/country.ts` rempli, `code` identique au nom du dossier
-- [ ] Mentions légales : champs inconnus à `null`, `confirmed` à `false` tant que rien n'est vérifié
+- [ ] Documents juridiques générés par le kit et copiés dans `content/<pays>/legal/` avec `scripts/sync-legal.mjs`, `legal.kitAppId` et `legal.supportEmail` renseignés (voir [juridique.md](juridique.md))
 - [ ] `content/<pays>/map.config.json` et `map.json` généré par `node scripts/build-map.mjs <pays>`
 - [ ] `content/<pays>/game-maps.config.json` et `maps/*.json` générés par `node scripts/build-game-maps.mjs <pays>`
 - [ ] `content/<pays>/regions/*.json`, autant que `regionCount`
@@ -39,5 +39,5 @@ Chaque ligne demande la validation de Christian.
 - [ ] Application Android Capacitor avec `androidPackage`
 - [ ] Éditions Famille avec publicité (14,99 €) et sans publicité (19,99 €), accès vérifié par le serveur
 - [ ] Premium, paiements et comptes
-- [ ] Mentions légales relues, `legal.vat.confirmed` et `legal.mediator.confirmed` à `true`
+- [ ] Documents juridiques relus par Christian, version `reviewed` générée par le kit et copiée
 - [ ] Retrait de `/api/health` avant la première mise en production

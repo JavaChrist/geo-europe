@@ -15,7 +15,7 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 ## Where things live
 - `src/engine/`: types and game logic, with no React, Next, Firebase or UI import
 - `content/<country>/`: country config, regions, media credits, content translations
-- `content/_shared/`: publisher and web host shared by every country. Not a country: `check-content` skips folders starting with `_`.
+- `content/<country>/legal/`: the five legal documents copied from JavaChrist-Legal-Kit by `scripts/sync-legal.mjs`. Never edit them by hand. See `docs/juridique.md`.
 - `src/i18n/locales/`: interface text shared by every country
 - `src/ui/`: shared components, including the modal system
 - `src/features/`: screens and features
@@ -25,6 +25,7 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - No emoji anywhere in the app. Lucide React for icons, SVG for regions, photos for media.
 - No `alert`, `confirm` or `prompt`. Use `useModal()`.
 - No hardcoded text in components. Use `t()` for interface keys and `tContent()` for content keys.
+- Legal texts come only from JavaChrist-Legal-Kit. No legal text in the locales, no second legal system, never fill the kit's `review` fields.
 - Show `modal.error(error)` for failures, never a technical message.
 - Server-only routes are named `route.server.ts`, so the static export leaves them out.
 - Never unlock Premium from a browser result. Never expose a Firebase Admin key in the browser.
@@ -36,4 +37,4 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - Modify other JavaChrist projects, including JavaChrist-Promotions.
 
 ## Before the first production deploy
-Remove `/api/health`, which is the example server route. `/demo` is a development tool: it answers 404 in every build and no menu links to it. Fill every `legal` field left at `null` in `content/<country>/country.ts` and `content/_shared/legal.ts`. Confirm the `RCS Toulouse` registry against the official extract. Confirm the VAT regime and the mediator membership, then set `legal.vat.confirmed` and `legal.mediator.confirmed` to `true`, which removes the warning shown on screen. Have the legal texts reviewed.
+Remove `/api/health`, which is the example server route. `/demo` is a development tool: it answers 404 in every build and no menu links to it. Complete the points the Legal Kit still flags, have Christian review the documents and fill `review` in the kit himself, then copy the `reviewed` version with `scripts/sync-legal.mjs`. The draft banner then disappears.

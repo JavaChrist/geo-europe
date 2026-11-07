@@ -9,11 +9,6 @@
       "one": "{count} département",
       "other": "{count} départements"
     },
-    "legal": {
-      "authority": "la Commission nationale de l'informatique et des libertés (CNIL)",
-      "governingLaw": "le droit français",
-      "consumerLaw": "du Code de la consommation"
-    },
     "credits": {
       "mapRegions": {
         "title": "Carte des régions",
