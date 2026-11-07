@@ -5,6 +5,7 @@ import { family } from "./family.ts";
 import map from "./map.json";
 import credits from "./media/credits.json";
 import fr from "./locales/fr.json";
+import legal from "./legal/legal.json";
 import mapGrandEstDepartements from "./maps/grand-est-departements.json";
 import mapGrandEstTerritoires from "./maps/grand-est-territoires.json";
 import mapBourgogneFrancheComteDepartements from "./maps/bourgogne-franche-comte-departements.json";
@@ -77,6 +78,7 @@ const content: CountryContent = {
   gameMaps: [mapGrandEstDepartements, mapGrandEstTerritoires, mapOccitanieDepartements, mapOccitanieTerritoires, mapBourgogneFrancheComteDepartements, mapBourgogneFrancheComteTerritoires, mapAuvergneRhoneAlpesDepartements, mapAuvergneRhoneAlpesTerritoires, mapProvenceAlpesCoteDAzurDepartements, mapNouvelleAquitaineDepartements, mapNouvelleAquitaineTerritoires, mapPaysDeLaLoireDepartements, mapCentreValDeLoireDepartements, mapBretagneDepartements, mapNormandieDepartements, mapIleDeFranceDepartements, mapHautsDeFranceDepartements, mapCorseDepartements] as GameMap[],
   credits: credits as MediaCredit[],
   family,
+  legalRelease: { version: legal.version, mode: legal.mode as "draft" | "reviewed" },
   messages: { fr },
 };
 

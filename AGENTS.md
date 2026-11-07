@@ -21,6 +21,7 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - `src/ui/`: shared components, including the modal system
 - `src/features/`: screens and features
 - `src/services/`: external services and `AppError`. The only place allowed to import Firebase.
+- Payments and access rights: see `docs/paiements.md`. Every lock reads `useEntitlements()`.
 
 ## Rules (lint and scripts enforce most of them)
 - No emoji anywhere in the app. Lucide React for icons, SVG for regions, photos for media.
@@ -31,6 +32,7 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - Show `modal.error(error)` for failures, never a technical message.
 - Server-only routes are named `route.server.ts`, so the static export leaves them out.
 - Never unlock a paid edition from a browser result. Never expose a Firebase Admin key in the browser.
+- Mollie stays in test mode: the server refuses any key that does not start with `test_`. Never Mollie in the Android build.
 - Never put country-specific code in `src/`. Add content or config under `content/<country>/`.
 
 ## Not to do without Christian's validation

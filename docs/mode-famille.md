@@ -76,7 +76,6 @@ Après un rechargement, la carte « Partie en cours » propose de reprendre exac
 | --- | --- |
 | `src/engine/family.ts` | Règles (`FAMILY_RULES`, dont `questionsPerTurn`), tirage, déroulé, points, classement. Sans React ni stockage |
 | `src/services/family-storage.ts` | Lecture, validation et écriture locales |
-| `src/services/family-access.ts` | Frontière d'accès, toujours ouverte |
 | `src/features/family/FamilyMode.tsx` | Écrans de la partie et historique |
 | `src/features/family/FamilySetup.tsx` | Préparation de la partie |
 | `src/features/family/family-ui.tsx` | Pastilles, classement, styles communs |
@@ -88,7 +87,7 @@ Après un rechargement, la carte « Partie en cours » propose de reprendre exac
 
 ## Éditions prévues
 
-Rien de ceci n'est actif. Aucun paiement, aucun compte, aucune édition payante.
+Le Mode Famille demande une édition Famille. La vente n'est ouverte qu'en mode test Mollie, aucun encaissement public.
 
 Achats uniques, sans abonnement, prix TTC. La grille complète de la collection, avec les éditions Solo et la Découverte gratuite, est dans [editions.md](editions.md). Les prix ne vivent que dans `content/<pays>/editions.ts`.
 
@@ -97,7 +96,7 @@ Achats uniques, sans abonnement, prix TTC. La grille complète de la collection,
 | Famille complète avec publicités (`family_ads`) | 14,99 € | Prévu |
 | Famille complète sans publicités (`family_no_ads`) | 19,99 € | Prévu |
 
-Aujourd'hui, `familyAccess()` répond toujours `{ allowed: true }`. Le jour où ces éditions existeront, seule cette frontière changera, et l'accès sera vérifié par le serveur, jamais à partir d'un résultat du navigateur.
+`FamilyMode` lit `useEntitlements().entitlements.familyAccess`, calculé par le serveur. Sans ce droit, une carte de verrou explique que le Mode Famille est inclus dans les éditions Famille et mène à la boutique. Voir [paiements.md](paiements.md).
 
 ## Tests
 

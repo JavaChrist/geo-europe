@@ -1,9 +1,10 @@
 "use client";
 
-import { ChevronDown, ChevronRight, MapPin, Search } from "lucide-react";
+import { ChevronDown, ChevronRight, Lock, MapPin, Search } from "lucide-react";
 import Link from "next/link";
 import { useId, useState } from "react";
 import content from "@country";
+import { useEntitlements } from "@/features/account/EntitlementsProvider";
 import { hasPlayableTerritory } from "@/features/journey/territories";
 import { useTranslation } from "@/i18n/I18nProvider";
 
@@ -18,6 +19,7 @@ const normalize = (text: string) =>
 /** Accès complémentaire à la carte, pour l'accessibilité et la recherche. */
 export function RegionList() {
   const { t, tContent } = useTranslation();
+  const { canPlayRegion, status } = useEntitlements();
   const [query, setQuery] = useState("");
   const inputId = useId();
 
@@ -68,6 +70,9 @@ export function RegionList() {
                         : t(region.status === "published" ? "explorer.statusPublished" : "explorer.statusDraft")}
                     </span>
                   </span>
+                  {status !== "loading" && hasPlayableTerritory(region.id) && !canPlayRegion(region.id) && (
+                    <Lock aria-label={t("lock.badge")} className="size-4 shrink-0 text-gold" />
+                  )}
                   <ChevronRight aria-hidden className="size-5 shrink-0 text-ink-soft" />
                 </Link>
               </li>

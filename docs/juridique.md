@@ -45,6 +45,19 @@ Les documents sont lus au moment du build et les pages sont prérendues. Le text
 - Application Android (export statique `out/`) : les pages sont dans l'application, lisibles sans connexion.
 - Site web : une page déjà ouverte reste lisible. Une page jamais ouverte demande une connexion, car le site n'a pas de service worker.
 
+## Achats
+
+La boutique web, en mode test Mollie, s'appuie sur les CGV du kit. Elle demande deux consentements, jamais cochés d'avance : l'acceptation des CGV, et la demande d'accès immédiat avec le renoncement au droit de rétractation. La commande conserve les deux, avec la version des documents (`legalRelease`) et la date (`orders/{id}.consent`).
+
+Avant toute vente réelle, il reste à faire, avec la validation de Christian :
+
+- la confirmation sur support durable, un e-mail après paiement, pas encore construite ;
+- la fonction de rétractation en ligne, obligatoire depuis le 19 juin 2026, pas encore construite. Son lien est encore « À COMPLÉTER » dans les CGV ;
+- la facturation et le vendeur selon le canal ;
+- dans le kit, `apps/geofr.json` : les comptes (`accounts`), Firebase Authentication et Mollie dans les traitements et prestataires, puis régénérer et copier les documents.
+
+Le détail est dans [paiements.md](paiements.md#avant-la-vente-réelle).
+
 ## Ajouter ou mettre à jour les documents d'un pays
 
 Exemple avec l'Espagne, identifiant `geoes`. Les commandes du kit se lancent dans le dossier du kit.

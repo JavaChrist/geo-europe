@@ -65,4 +65,4 @@ Les sources des cartes sont téléchargées et vérifiées par leur empreinte SH
 
 ## Accès payants
 
-Aucun paiement, aucun compte et aucune édition payante ne sont actifs. Les frontières d'accès, comme `src/services/family-access.ts`, répondent toujours « autorisé ». Le jour où des éditions payantes existeront, l'accès sera vérifié par le serveur, jamais à partir d'un résultat du navigateur, et aucune clé Firebase Admin ne sera exposée au navigateur.
+L'achat web passe par Mollie, en mode test uniquement, avec un compte Firebase Authentication. Les droits sont écrits par le serveur dans Firestore, jamais à partir d'un résultat du navigateur. Tous les verrous lisent une seule couche, `useEntitlements()`, et la clé Firebase Admin n'existe que dans les routes `route.server.ts`. L'export Android n'a ni boutique ni connexion. Voir [paiements.md](paiements.md).

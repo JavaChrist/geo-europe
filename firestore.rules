@@ -1,0 +1,22 @@
+rules_version = '2';
+
+// Règles Firestore de la collection Géo Europe.
+// Les commandes et les droits sont écrits uniquement par le serveur (Firebase Admin ignore ces règles).
+// Le navigateur peut seulement lire ce qui appartient au joueur connecté. Tout le reste est refusé.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /entitlements/{app}/users/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if false;
+    }
+
+    match /orders/{orderId} {
+      allow read: if request.auth != null && resource.data.uid == request.auth.uid;
+      allow write: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

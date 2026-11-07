@@ -29,8 +29,9 @@ import {
 import type { RunBank } from "@/engine/level-run";
 import { ChallengeView } from "@/features/journey/ChallengeView";
 import { useHoldUpdate } from "@/features/update/update-hold";
+import { CheckingAccess, LockCard } from "@/features/account/RegionGate";
+import { useEntitlements } from "@/features/account/EntitlementsProvider";
 import { useTranslation } from "@/i18n/I18nProvider";
-import { familyAccess } from "@/services/family-access";
 import { readFamilyData, recordFamilyGame, saveFamilyGame } from "@/services/family-storage";
 import { BackLink } from "@/ui/BackLink";
 import { useModal } from "@/ui/modal/ModalProvider";
@@ -59,6 +60,7 @@ export function FamilyMode() {
   const nameList = useNameList();
   const scopeName = useScopeName();
   const data = useFamilyData();
+  const access = useEntitlements();
   const [game, setGame] = useState<FamilyGame | null>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
   const storageWarned = useRef(false);
@@ -75,7 +77,11 @@ export function FamilyMode() {
     headingRef.current?.focus({ preventScroll: true });
   }, [screen, isPlaying]);
 
-  if (!familyAccess().allowed) return null;
+  // Mode Famille réservé aux éditions Famille : droit calculé par le serveur, jamais par le navigateur.
+  if (!access.entitlements.familyAccess) {
+    if (access.status === "loading") return <CheckingAccess />;
+    return <LockCard title={t("lock.familyTitle")} body={t("lock.familyBody")} cta={t("lock.familyCta")} href="/boutique?edition=family_ads" back="/" />;
+  }
 
   const resumable = !game && data.current && isGameResumable(data.current, bankOf(data.current.scope)) ? data.current : null;
 

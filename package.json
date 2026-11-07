@@ -17,9 +17,14 @@
     "check:engine": "node scripts/check-engine.mjs",
     "check:family": "node scripts/check-family.mjs",
     "check:legal": "node scripts/check-legal.mjs",
-    "check": "npm run lint && npm run typecheck && npm run check:emoji && npm run check:content && npm run check:engine && npm run check:family && npm run check:legal"
+    "check": "npm run lint && npm run typecheck && npm run check:emoji && npm run check:content && npm run check:engine && npm run check:family && npm run check:legal && npm run check:payments",
+    "check:payments": "node scripts/check-payments.mjs",
+    "test:payments": "npx --yes firebase-tools@15 emulators:exec --project demo-geofr --only auth,firestore \"node scripts/test-payments-emulator.mjs\""
   },
   "dependencies": {
+    "@mollie/api-client": "^4.6.0",
+    "firebase": "^13.2.0",
+    "firebase-admin": "^14.5.0",
     "lucide-react": "^1.66.0",
     "next": "16.4.4",
     "react": "19.3.0",

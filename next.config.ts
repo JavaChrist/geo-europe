@@ -28,6 +28,8 @@ const nextConfig: NextConfig = {
     NEXT_PUBLIC_BUILD_ID: readBuildId(),
     // Sur Capacitor, les mises à jour passent par le Play Store.
     NEXT_PUBLIC_UPDATE_CHECK: staticExport ? "off" : "on",
+    // Aucun paiement Mollie dans l'application Android : ni connexion ni boutique active dans l'export.
+    NEXT_PUBLIC_PAYMENTS: staticExport ? "off" : "on",
   },
   pageExtensions: staticExport ? ["tsx", "ts"] : ["tsx", "ts", "server.ts"],
   turbopack: {

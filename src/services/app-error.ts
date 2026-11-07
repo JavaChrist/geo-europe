@@ -2,7 +2,24 @@
  * Erreur présentable au joueur. Chaque code correspond à `errors.<code>.title` et `.body`
  * dans les traductions : aucun message technique n'est jamais affiché.
  */
-export type AppErrorCode = "unknown" | "network" | "storage" | "contentUnavailable" | "paymentFailed";
+export type AppErrorCode =
+  | "unknown"
+  | "network"
+  | "storage"
+  | "contentUnavailable"
+  | "paymentFailed"
+  | "accountUnavailable"
+  | "signInFailed"
+  | "emailInUse"
+  | "weakPassword"
+  | "tooManyAttempts"
+  | "sessionExpired"
+  | "unverifiedAccount"
+  | "consentMissing"
+  | "alreadyOwned"
+  | "paymentInProgress"
+  | "orderNotFound"
+  | "paymentsUnavailable";
 
 export class AppError extends Error {
   readonly code: AppErrorCode;

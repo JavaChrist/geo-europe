@@ -271,8 +271,8 @@ export interface Edition {
   priceCents: number;
   /** Achat unique, jamais d'abonnement. */
   purchase: "free" | "one_time";
-  /** Nombre de régions incluses, ou toutes. */
-  regions: number | "all";
+  /** Identifiants des régions jouables (ISO 3166-2), ou toutes. */
+  regions: string[] | "all";
   /** `planned` tant que l'édition n'est pas réellement en vente. */
   status: "planned" | "active";
 }
@@ -293,6 +293,8 @@ export interface CountryContent {
   gameMaps: GameMap[];
   credits: MediaCredit[];
   family: FamilyContent;
+  /** Version des documents juridiques copiés depuis le Legal Kit, enregistrée avec chaque consentement d'achat. */
+  legalRelease: { version: string; mode: "draft" | "reviewed" };
   /** Textes propres au pays, par langue. */
   messages: Record<string, ContentMessages>;
 }

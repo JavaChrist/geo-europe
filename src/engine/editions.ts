@@ -28,6 +28,8 @@ export function editionsErrors(config: EditionsConfig): string[] {
     if (edition.purchase === "one_time" && edition.priceCents === 0) errors.push(`${edition.id} : un achat unique a un prix`);
     if (edition.purchase !== "free" && edition.purchase !== "one_time") errors.push(`${edition.id} : achat unique ou gratuit uniquement`);
     if (edition.purchase === "one_time" && edition.ads === null) errors.push(`${edition.id} : publicité à décider avant toute vente`);
+    if (edition.purchase === "free" && (edition.regions === "all" || edition.regions.length === 0)) errors.push(`${edition.id} : régions gratuites à lister`);
+    if (edition.purchase === "one_time" && edition.regions !== "all") errors.push(`${edition.id} : une édition payante donne toutes les régions`);
     if (edition.status !== "planned") errors.push(`${edition.id} : aucune édition ne peut être en vente sans validation de Christian`);
   }
   if (config.editions.filter((edition) => edition.purchase === "free").length !== 1) errors.push("une seule édition gratuite attendue");

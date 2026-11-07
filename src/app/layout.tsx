@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Figtree, Fraunces } from "next/font/google";
 import type { ReactNode } from "react";
 import content from "@country";
+import { EntitlementsProvider } from "@/features/account/EntitlementsProvider";
 import { I18nProvider } from "@/i18n/I18nProvider";
 import { UpdatePrompt } from "@/features/update/UpdatePrompt";
 import { getMessages, getTranslator } from "@/i18n/translator";
@@ -36,13 +37,15 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <I18nProvider locale={locale} messages={getMessages(locale)}>
           <ModalProvider>
-            {/* Réserve la hauteur de la barre fixe pour qu'elle ne masque jamais le contenu. */}
-            <div className="pb-[calc(4rem+env(safe-area-inset-bottom))] lg:pb-0">
-              <AppHeader />
-              {children}
-            </div>
-            <BottomNav />
-            <UpdatePrompt />
+            <EntitlementsProvider>
+              {/* Réserve la hauteur de la barre fixe pour qu'elle ne masque jamais le contenu. */}
+              <div className="pb-[calc(4rem+env(safe-area-inset-bottom))] lg:pb-0">
+                <AppHeader />
+                {children}
+              </div>
+              <BottomNav />
+              <UpdatePrompt />
+            </EntitlementsProvider>
           </ModalProvider>
         </I18nProvider>
       </body>

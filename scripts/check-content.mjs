@@ -30,6 +30,13 @@ for (const code of readdirSync(root).filter((name) => !name.startsWith("_"))) {
   } else {
     const { editions } = await import(pathToFileURL(resolve(dir, "editions.ts")).href);
     for (const message of editionsErrors(editions)) fail("editions.ts", message);
+    const regionIds = new Set(
+      readdirSync(join(dir, "regions")).filter((name) => name.endsWith(".json")).map((name) => readJson(join(dir, "regions", name)).id),
+    );
+    for (const edition of editions.editions) {
+      if (edition.regions === "all") continue;
+      for (const id of edition.regions) if (!regionIds.has(id)) fail("editions.ts", `${edition.id} : région inconnue ${id}`);
+    }
     const { appId, catalog } = await kitCatalogFor(code);
     const kitCatalogPath = join("..", "JavaChrist-Legal-Kit", "catalogs", `${appId}.json`);
     if (existsSync(kitCatalogPath) && readFileSync(kitCatalogPath, "utf8").replace(/\r\n/g, "\n") !== catalogJson(catalog)) {

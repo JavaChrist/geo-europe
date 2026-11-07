@@ -19,7 +19,8 @@
     "explorer": "Explorer",
     "challenges": "Défis",
     "album": "Album",
-    "profile": "Profil"
+    "profile": "Profil",
+    "shop": "Boutique"
   },
   "home": {
     "tagline": "Aventure et découverte, région après région.",
@@ -526,6 +527,54 @@
     "paymentFailed": {
       "title": "Paiement non abouti",
       "body": "Aucun montant n'a été validé. Vous pouvez réessayer."
+    },
+    "accountUnavailable": {
+      "title": "Comptes indisponibles",
+      "body": "La connexion n'est pas disponible pour le moment. Le jeu gratuit reste accessible."
+    },
+    "signInFailed": {
+      "title": "Connexion refusée",
+      "body": "L'adresse ou le mot de passe ne correspond pas. Vérifiez-les et réessayez."
+    },
+    "emailInUse": {
+      "title": "Adresse déjà utilisée",
+      "body": "Un compte existe déjà avec cette adresse. Connectez-vous, ou choisissez Mot de passe oublié."
+    },
+    "weakPassword": {
+      "title": "Mot de passe trop court",
+      "body": "Choisissez un mot de passe d'au moins 8 caractères."
+    },
+    "tooManyAttempts": {
+      "title": "Trop de tentatives",
+      "body": "Patientez quelques minutes avant de réessayer."
+    },
+    "sessionExpired": {
+      "title": "Session expirée",
+      "body": "Reconnectez-vous pour continuer."
+    },
+    "unverifiedAccount": {
+      "title": "Adresse à confirmer",
+      "body": "Confirmez votre adresse électronique avec le lien reçu par courriel avant d'acheter."
+    },
+    "consentMissing": {
+      "title": "Conditions à accepter",
+      "body": "Cochez les deux cases avant de commander."
+    },
+    "alreadyOwned": {
+      "title": "Édition déjà acquise",
+      "body": "Votre compte possède déjà une édition. Le passage à une autre édition sera bientôt proposé."
+    },
+    "paymentInProgress": {
+      "title": "Paiement déjà en cours",
+      "body": "Un autre paiement est en cours sur votre compte. Attendez son résultat avant d'en commencer un nouveau."
+    },
+    "orderNotFound": {
+      "title": "Commande introuvable",
+      "body": "Cette commande n'existe pas ou appartient à un autre compte."
+    },
+    "paymentsUnavailable": {
+      "title": "Achats indisponibles",
+      "body": "Les achats sont momentanément indisponibles. Aucun montant n'a été demandé."
     }
   },
   "notFound": {
@@ -741,5 +790,128 @@
     },
     "tooSmallTitle": "Pas assez de questions",
     "tooSmallBody": "Ce choix ne permet pas une partie complète sans répéter de question. Choisissez une partie plus courte ou un choix de questions plus large."
+  },
+  "account": {
+    "title": "Compte",
+    "intro": "Un compte sert uniquement à acheter une édition et à la retrouver sur vos appareils. Le jeu gratuit et votre progression fonctionnent sans compte.",
+    "progressKept": "Votre progression reste enregistrée sur cet appareil : la connexion ne la modifie pas.",
+    "signInTitle": "Se connecter",
+    "signUpTitle": "Créer un compte",
+    "google": "Continuer avec Google",
+    "or": "ou",
+    "email": "Adresse électronique",
+    "password": "Mot de passe",
+    "passwordHint": "8 caractères au moins.",
+    "showPassword": "Afficher le mot de passe",
+    "hidePassword": "Masquer le mot de passe",
+    "signIn": "Se connecter",
+    "signUp": "Créer le compte",
+    "toSignUp": "Pas encore de compte ? Créer un compte",
+    "toSignIn": "Déjà un compte ? Se connecter",
+    "forgot": "Mot de passe oublié",
+    "resetTitle": "Lien envoyé",
+    "resetBody": "Si un compte existe pour {email}, un lien pour choisir un nouveau mot de passe vient d'y être envoyé.",
+    "resetEmailMissing": "Indiquez d'abord votre adresse électronique.",
+    "verifyTitle": "Confirmez votre adresse",
+    "verifyBody": "Un lien de confirmation a été envoyé à {email}. Ouvrez-le, puis revenez ici.",
+    "verifyDone": "J'ai confirmé mon adresse",
+    "verifyResend": "Renvoyer le lien",
+    "verifyResent": "Lien renvoyé",
+    "verifyResentBody": "Un nouveau lien de confirmation a été envoyé à {email}.",
+    "verifyStill": "Adresse pas encore confirmée",
+    "verifyStillBody": "Le lien n'a pas encore été ouvert. Vérifiez aussi vos courriers indésirables.",
+    "signedInAs": "Connecté : {email}",
+    "signOut": "Se déconnecter",
+    "signOutTitle": "Se déconnecter ?",
+    "signOutBody": "Vos éditions restent liées à votre compte. Votre progression reste sur cet appareil.",
+    "restore": "Restaurer mes achats",
+    "restoredTitle": "Achats vérifiés",
+    "restoredBody": "Vos droits ont été recalculés à partir de vos commandes.",
+    "owned": "Vos droits",
+    "ownedNone": "Aucune édition achetée : accès Découverte gratuit.",
+    "offline": "Vos achats ne peuvent pas être vérifiés pour le moment. L'accès gratuit reste disponible ; vos éditions reviendront dès que la connexion sera rétablie.",
+    "unavailable": "Les comptes et les achats ne sont pas disponibles dans cette version.",
+    "signInCta": "Se connecter ou créer un compte",
+    "loading": "Chargement"
+  },
+  "shop": {
+    "title": "Boutique",
+    "intro": "Achat unique, sans abonnement. Prix TTC.",
+    "oneTime": "Achat unique, sans abonnement",
+    "ttc": "TTC",
+    "features": {
+      "allRegions": "Toutes les régions et tous les niveaux",
+      "solo": "Tous les défis Solo et l'album complet",
+      "family": "Mode Famille, de 2 à 4 joueurs",
+      "noFamily": "Sans Mode Famille",
+      "ads": "Avec publicités",
+      "noAds": "Sans publicités ni promotions"
+    },
+    "discovery": "Découverte gratuite : {regions}. Carte de France consultable.",
+    "owned": "Acquise",
+    "upgradeSoon": "Évolution bientôt disponible",
+    "choose": "Choisir",
+    "selected": "Édition choisie",
+    "summaryTitle": "Votre commande",
+    "summary": "{edition} : {price} TTC, achat unique.",
+    "accountNeeded": "Connectez-vous pour commander. Votre progression est conservée.",
+    "consentTerms": "J'ai lu et j'accepte les conditions générales de vente.",
+    "termsLink": "Lire les conditions générales de vente",
+    "consentImmediate": "Je demande l'accès immédiat au contenu numérique, et je reconnais perdre mon droit de rétractation dès que l'accès commence.",
+    "order": "Commander avec obligation de paiement",
+    "redirecting": "Redirection vers le paiement sécurisé",
+    "testMode": "Paiements en mode test : aucun montant réel n'est encaissé.",
+    "notInApp": "Les achats ne sont pas encore disponibles dans l'application. Ils le seront bientôt.",
+    "back": "Retour à la boutique",
+    "open": "Voir les éditions"
+  },
+  "payment": {
+    "title": "Paiement",
+    "checking": {
+      "title": "Vérification en cours",
+      "body": "Nous vérifions votre paiement auprès de notre prestataire. Cette page se met à jour toute seule."
+    },
+    "paid": {
+      "title": "Paiement confirmé",
+      "body": "{edition} est maintenant liée à votre compte. Bon voyage !"
+    },
+    "canceled": {
+      "title": "Paiement annulé",
+      "body": "Aucun montant n'a été prélevé. Vous pouvez reprendre quand vous le souhaitez."
+    },
+    "failed": {
+      "title": "Paiement échoué",
+      "body": "Le paiement n'a pas abouti et aucun montant n'a été prélevé. Vous pouvez réessayer."
+    },
+    "expired": {
+      "title": "Paiement expiré",
+      "body": "Le délai de paiement est dépassé. Aucun montant n'a été prélevé."
+    },
+    "pending": {
+      "title": "Paiement en attente",
+      "body": "Votre banque n'a pas encore confirmé le paiement. Vos droits seront ajoutés dès sa confirmation, même si vous quittez cette page."
+    },
+    "refunded": {
+      "title": "Commande remboursée",
+      "body": "Cette commande a été remboursée : elle ne donne plus de droits."
+    },
+    "problem": {
+      "title": "Vérification impossible",
+      "body": "Nous n'avons pas pu vérifier ce paiement. Si un montant a été prélevé, vos droits seront ajoutés automatiquement après vérification."
+    },
+    "signInAgain": "Connectez-vous avec le compte utilisé pour la commande pour voir son résultat.",
+    "play": "Jouer",
+    "retry": "Réessayer",
+    "refresh": "Vérifier à nouveau"
+  },
+  "lock": {
+    "badge": "Édition complète",
+    "title": "{region} fait partie de l'édition complète",
+    "body": "La Découverte gratuite comprend {regions}. Toutes les autres régions sont incluses dans les éditions Solo et Famille, en achat unique.",
+    "cta": "Voir les éditions",
+    "checking": "Vérification de vos droits",
+    "familyTitle": "Mode Famille",
+    "familyBody": "Le Mode Famille est inclus dans les éditions Famille, avec ou sans publicités. Achat unique, sans abonnement.",
+    "familyCta": "Voir les éditions Famille"
   }
 }

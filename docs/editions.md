@@ -2,7 +2,7 @@
 
 Chaque pays de la collection propose les mêmes cinq éditions. Leurs prix vivent dans un seul fichier : `content/<pays>/editions.ts`. Aucun autre fichier du dépôt ne contient de tarif.
 
-Rien n'est en vente. Aucun paiement n'est actif, aucun produit Mollie ou Google Play n'existe, et aucun accès ne dépend d'une édition : tout le jeu reste ouvert.
+Rien n'est en vente au public. La boutique web fonctionne en mode test Mollie uniquement, et aucun produit Google Play n'existe. Hors Découverte, les régions et le Mode Famille demandent une édition payante, vérifiée par le serveur. Voir [paiements.md](paiements.md).
 
 ## Grille de GéoFR
 
@@ -16,7 +16,7 @@ Prix TTC, achats uniques, aucun abonnement.
 | `family_ads` | Famille complète avec publicités | 14,99 € | Toutes les régions, Mode Famille | Prévu |
 | `family_no_ads` | Famille complète sans publicités | 19,99 € | Toutes les régions, Mode Famille | Prévu |
 
-Les deux régions de la Découverte ne sont pas encore choisies : la configuration n'en donne que le nombre. Son régime publicitaire n'est pas décidé non plus (`ads: null`).
+La Découverte ouvre l'Île-de-France et l'Occitanie (`regions: ["FR-IDF", "FR-OCC"]`), sans compte. Son régime publicitaire n'est pas décidé (`ads: null`). Un compte possède au plus une édition payante : aucun tarif de mise à niveau n'existe.
 
 ## Où vivent les données
 
@@ -28,7 +28,7 @@ Les deux régions de la Découverte ne sont pas encore choisies : la configurati
 | Noms et descriptions | `src/i18n/locales/<langue>.json`, bloc `editions` | Communs à tous les pays, `{appName}` remplacé par le nom du jeu |
 | Catalogue juridique | Kit, `catalogs/<id>.json` | Produit par `scripts/export-catalog.mjs`, jamais tapé à la main |
 
-Le code lit une édition par `findEdition(content.editions, "solo_no_ads")` et formate son prix par `formatPrice(edition.priceCents, content.editions.currency)`. Aujourd'hui, seule la modale d'achat de la page de démonstration `/demo` l'affiche.
+Le code lit une édition par `findEdition(content.editions, "solo_no_ads")` et formate son prix par `formatPrice(edition.priceCents, content.editions.currency)`. La boutique `/boutique` les affiche, et le serveur relit le prix dans ce même fichier au moment de la commande.
 
 ## Règles
 

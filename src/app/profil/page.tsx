@@ -1,6 +1,7 @@
 import { UserRound } from "lucide-react";
 import Link from "next/link";
 import content from "@country";
+import { AccountPanel } from "@/features/account/AccountPanel";
 import { summarizeLevel } from "@/engine/level-unlock";
 import { PlayerRewards } from "@/features/album/PlayerRewards";
 import { NationalProgress } from "@/features/journey/ProgressPanels";
@@ -27,6 +28,7 @@ export default function ProfilePage() {
         </Link>
       }
     >
+      <AccountPanel />
       <NationalProgress territories={territories} />
       <PlayerRewards />
     </ComingSoon>

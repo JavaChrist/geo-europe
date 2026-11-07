@@ -12,3 +12,8 @@ npm-debug.log*
 *.tsbuildinfo
 next-env.d.ts
 SNIPPET_*
+
+# Journaux des émulateurs Firebase
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
