@@ -5,23 +5,26 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import content from "@country";
 import {
+  advanceTurn,
   answerTurn,
   beginTurn,
   createFamilyGame,
   currentPlayer,
-  endTurn,
   FAMILY_RULES,
   type FamilyGame,
   type FamilyScope,
+  familyGameSize,
   familyPool,
   familyStandings,
   familyWinners,
   isGameResumable,
+  isLastQuestionOfTurn,
   jokerTurn,
   nextRound,
   planFamilyGame,
   scopeKey,
   totalRounds,
+  turnPoints,
 } from "@/engine/family";
 import type { RunBank } from "@/engine/level-run";
 import { ChallengeView } from "@/features/journey/ChallengeView";
@@ -94,7 +97,7 @@ export function FamilyMode() {
 
   const start = ({ players, duration, scope }: FamilySettings) => {
     const avoid = new Set(readFamilyData(content.country.code).recent.flat());
-    const plan = planFamilyGame(bankOf(scope), players.length, FAMILY_RULES.rounds[duration], Math.random, avoid);
+    const plan = planFamilyGame(bankOf(scope), familyGameSize(duration, players.length), Math.random, avoid);
     if (!plan) {
       void modal.info({ titleKey: "family.tooSmallTitle", bodyKey: "family.tooSmallBody" });
       return;
@@ -172,7 +175,9 @@ export function FamilyMode() {
           <p className="font-semibold text-gold">{t("family.handoff.round", { current: game.round + 1, total })}</p>
           <PlayerBadge player={player} size="lg" />
           {heading(t("family.handoff.title", { name: player.name }))}
-          <p className="text-ink-soft">{t("family.handoff.body", { name: player.name })}</p>
+          <p className="text-ink-soft">
+            {t("family.handoff.body", { name: player.name, count: FAMILY_RULES.questionsPerTurn[game.duration] })}
+          </p>
           <p className="flex flex-wrap justify-center gap-x-4 gap-y-1 text-sm">
             <span>{t("family.handoff.points", { count: pointsOf(game, player.id) })}</span>
             <span className="inline-flex items-center gap-1 text-ink-soft">
@@ -192,9 +197,14 @@ export function FamilyMode() {
 
   if (game.phase === "playing" && game.run) {
     const player = currentPlayer(game);
-    const answered = game.run.state === "playing" ? 0 : (game.run.results.at(-1)?.points ?? 0);
     const lastOfRound = game.turn === game.players.length - 1;
-    const next = !lastOfRound ? t("family.game.endTurn") : game.round < total - 1 ? t("family.game.seeRound") : t("family.game.seeFinal");
+    const next = !isLastQuestionOfTurn(game)
+      ? t("family.game.nextQuestion")
+      : !lastOfRound
+        ? t("family.game.endTurn")
+        : game.round < total - 1
+          ? t("family.game.seeRound")
+          : t("family.game.seeFinal");
     return (
       <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
         <p className="flex items-center gap-2 text-sm text-ink-soft">
@@ -207,11 +217,17 @@ export function FamilyMode() {
           run={game.run}
           onAnswer={(answerId) => update(answerTurn(game, bank, answerId))}
           onJoker={() => update(jokerTurn(game, bank, Math.random))}
-          onNext={() => update(endTurn(game, new Date().toISOString()))}
+          onNext={() => update(advanceTurn(game, bank, Math.random, new Date().toISOString()))}
           onQuit={() => void abandon()}
           labels={{
-            progress: t("family.game.progress", { current: game.round + 1, total, name: player.name }),
-            score: t("family.handoff.points", { count: pointsOf(game, player.id) + answered }),
+            progress: t("family.game.progress", {
+              current: game.round + 1,
+              total,
+              name: player.name,
+              question: game.run.index + 1,
+              questions: game.run.challengeIds.length,
+            }),
+            score: t("family.handoff.points", { count: pointsOf(game, player.id) + turnPoints(game) }),
             jokerNote: t("family.game.jokerNote", { points: FAMILY_RULES.points.joker }),
             next,
           }}

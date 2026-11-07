@@ -744,7 +744,11 @@
       "needPlayers": "Choisissez au moins {count} joueurs pour lancer la partie.",
       "start": "Lancer la partie",
       "rulesTitle": "Règles",
-      "scopeOption": "{name} ({note})"
+      "scopeOption": "{name} ({note})",
+      "perTurn": {
+        "one": "{count} question par tour",
+        "other": "{count} questions par tour"
+      }
     },
     "durations": {
       "quick": "Rapide",
@@ -757,8 +761,11 @@
       "long": "longue"
     },
     "rules": {
-      "rounds": "Une manche, c'est une question pour chaque joueur, à tour de rôle. Le premier joueur change à chaque manche.",
-      "difficulty": "Dans une manche, tous les joueurs ont une question de même difficulté. Elle monte au fil des manches.",
+      "rounds": {
+        "one": "Une manche : chaque joueur répond à {count} question, à tour de rôle. Le premier joueur change à chaque manche.",
+        "other": "Une manche : chaque joueur répond à {count} questions d'affilée, à tour de rôle. Le premier joueur change à chaque manche."
+      },
+      "difficulty": "Dans une manche, toutes les questions ont la même difficulté pour tous les joueurs. Elle monte au fil des manches.",
       "points": "Bonne réponse sans aide : {clean} points. Après l'indice : {hint} points. Avec un 50/50 : {joker} points. Mauvaise réponse : aucun point.",
       "jokers": {
         "one": "{count} joker 50/50 par joueur pour toute la partie.",
@@ -775,8 +782,11 @@
     "handoff": {
       "round": "Manche {current} sur {total}",
       "title": "Au tour de {name}",
-      "body": "Passez l'appareil à {name}. La question reste cachée jusqu'au bouton ci-dessous.",
-      "ready": "Voir ma question",
+      "body": {
+        "one": "Passez l'appareil à {name}. Sa question reste cachée jusqu'au bouton ci-dessous.",
+        "other": "Passez l'appareil à {name}, pour {count} questions d'affilée. Elles restent cachées jusqu'au bouton ci-dessous."
+      },
+      "ready": "Voir mes questions",
       "points": {
         "one": "{count} point",
         "other": "{count} points"
@@ -787,7 +797,8 @@
       }
     },
     "game": {
-      "progress": "Manche {current} sur {total}, {name}",
+      "progress": "Manche {current} sur {total}, {name}, question {question} sur {questions}",
+      "nextQuestion": "Question suivante",
       "jokerNote": "Avec un 50/50, une bonne réponse vaut {points} points.",
       "endTurn": "Joueur suivant",
       "seeRound": "Voir le classement de la manche",

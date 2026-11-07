@@ -1,12 +1,14 @@
 /**
  * Mode Famille : plusieurs joueurs, un seul appareil, chacun son tour.
  * Aucun pays, aucune langue, aucun stockage ici : le contenu arrive en paramètre, toute action rend un nouvel état.
- * Chaque tour est une partie d'une question jouée avec le moteur des niveaux (level-run.ts).
+ * Chaque tour est une courte partie de quelques questions, jouée avec le moteur des niveaux (level-run.ts).
  */
 import {
   applyJoker,
   type ChallengeResult,
+  isRunOver,
   type LevelRun,
+  nextChallenge,
   type RunBank,
   startRun,
   submitAnswer,
@@ -25,9 +27,11 @@ export const FAMILY_RULES = {
   maxNameLength: 16,
   /** Une manche : un tour par joueur. */
   rounds: { quick: 3, classic: 5, long: 10 } satisfies Record<FamilyDuration, number>,
+  /** Questions jouées d'affilée par chaque joueur pendant son tour. */
+  questionsPerTurn: { quick: 5, classic: 3, long: 3 } satisfies Record<FamilyDuration, number>,
   defaultDuration: "classic" as FamilyDuration,
   /** Jokers 50/50 de chaque joueur pour toute la partie. */
-  jokers: { quick: 1, classic: 2, long: 3 } satisfies Record<FamilyDuration, number>,
+  jokers: { quick: 2, classic: 3, long: 5 } satisfies Record<FamilyDuration, number>,
   /** Deux essais : l'indice s'affiche après la première erreur. */
   maxAttempts: 2,
   points: { clean: 10, hint: 7, joker: 5, wrong: 0 },
@@ -92,19 +96,33 @@ export function roundDifficulties(rounds: number, available: readonly QuestionDi
   return Array.from({ length: rounds }, (_, round) => levels[Math.floor((round * levels.length) / rounds)] as QuestionDifficulty);
 }
 
+export interface FamilyGameSize {
+  players: number;
+  rounds: number;
+  /** Questions de chaque joueur dans une manche. */
+  perTurn: number;
+}
+
+/** Taille d'une partie selon la durée choisie. */
+export const familyGameSize = (duration: FamilyDuration, players: number): FamilyGameSize => ({
+  players,
+  rounds: FAMILY_RULES.rounds[duration],
+  perTurn: FAMILY_RULES.questionsPerTurn[duration],
+});
+
 /**
- * Tire les questions de toute la partie : `plan[manche][joueur]`.
- * Dans une manche, tous les joueurs ont la même difficulté, et le même type de question quand la réserve le permet.
+ * Tire les questions de toute la partie : `plan[manche][joueur]` est la liste des questions du joueur dans la manche.
+ * Dans une manche, toutes les questions ont la même difficulté, et le même type quand la réserve le permet.
  * Aucune question ni aucun groupe anti-fuite ne sert deux fois. Les questions de `avoid` ne servent qu'en dernier recours.
  * Rend `null` si la réserve ne suffit pas : le mode ne s'invente jamais de question.
  */
 export function planFamilyGame(
   bank: RunBank,
-  players: number,
-  rounds: number,
+  { players, rounds, perTurn }: FamilyGameSize,
   random: RandomSource,
   avoid: ReadonlySet<string> = new Set(),
-): string[][] | null {
+): string[][][] | null {
+  const needed = players * perTurn;
   const usedGroups = new Set<string>();
   const groupOf = (question: LevelChallenge) => question.group ?? question.id;
   // Les questions récentes passent derrière, l'ordre reste aléatoire à rang égal.
@@ -117,16 +135,16 @@ export function planFamilyGame(
     // Thèmes variés dans la manche d'abord, puis n'importe quel thème.
     for (const varied of [true, false]) {
       for (const question of candidates) {
-        if (picked.length === players) break;
+        if (picked.length === needed) break;
         if (picked.includes(question) || picked.some((other) => groupOf(other) === groupOf(question))) continue;
         if (varied && picked.some((other) => other.category === question.category)) continue;
         picked.push(question);
       }
     }
-    return picked.length === players ? picked : null;
+    return picked.length === needed ? picked : null;
   };
 
-  const plan: string[][] = [];
+  const plan: string[][][] = [];
   for (const target of targets) {
     // La difficulté visée d'abord, puis la plus proche : tous les joueurs d'une manche restent à égalité.
     const difficulties = ([1, 2, 3] as QuestionDifficulty[]).sort((a, b) => Math.abs(a - target) - Math.abs(b - target) || b - a);
@@ -143,14 +161,15 @@ export function planFamilyGame(
     }
     if (!round) return null;
     for (const question of round) usedGroups.add(groupOf(question));
-    plan.push(round.map((question) => question.id));
+    const ids = round.map((question) => question.id);
+    plan.push(Array.from({ length: players }, (_, player) => ids.slice(player * perTurn, (player + 1) * perTurn)));
   }
   return plan;
 }
 
 /** Durées jouables avec cette réserve et ce nombre de joueurs. */
 export const playableDurations = (bank: RunBank, players: number, random: RandomSource): FamilyDuration[] =>
-  FAMILY_DURATIONS.filter((duration) => planFamilyGame(bank, players, FAMILY_RULES.rounds[duration], random) !== null);
+  FAMILY_DURATIONS.filter((duration) => planFamilyGame(bank, familyGameSize(duration, players), random) !== null);
 
 /** Barème : sans aide, avec l'indice (deuxième essai), avec le 50/50. Plusieurs aides : la valeur la plus basse. */
 export function familyPointsFor(result: Pick<ChallengeResult, "correct" | "attempts" | "jokerUsed">): number {
@@ -162,6 +181,7 @@ export function familyPointsFor(result: Pick<ChallengeResult, "correct" | "attem
   return Math.min(...values);
 }
 
+/** Une question jouée : un tour en compte plusieurs. */
 export interface FamilyTurn {
   round: number;
   playerId: string;
@@ -184,8 +204,8 @@ export interface FamilyGame {
   scope: FamilyScope;
   duration: FamilyDuration;
   players: FamilyPlayerState[];
-  /** Questions de chaque manche, rangées comme `players`. */
-  plan: string[][];
+  /** Questions de chaque manche, rangées comme `players` : une liste par joueur. */
+  plan: string[][][];
   round: number;
   /** Position dans l'ordre de passage de la manche. */
   turn: number;
@@ -202,13 +222,19 @@ export interface NewFamilyGame {
   scope: FamilyScope;
   duration: FamilyDuration;
   players: FamilyPlayer[];
-  plan: string[][];
+  plan: string[][][];
   startedAt: string;
 }
 
 export function createFamilyGame({ id, scope, duration, players, plan, startedAt }: NewFamilyGame): FamilyGame {
   if (players.length < FAMILY_RULES.minPlayers || players.length > FAMILY_RULES.maxPlayers) throw new Error("Nombre de joueurs invalide");
-  if (plan.length !== FAMILY_RULES.rounds[duration] || plan.some((round) => round.length !== players.length)) throw new Error("Tirage invalide");
+  const perTurn = FAMILY_RULES.questionsPerTurn[duration];
+  if (
+    plan.length !== FAMILY_RULES.rounds[duration] ||
+    plan.some((round) => round.length !== players.length || round.some((ids) => ids.length !== perTurn))
+  ) {
+    throw new Error("Tirage invalide");
+  }
   return {
     id,
     scope,
@@ -236,19 +262,24 @@ export const totalRounds = (game: Pick<FamilyGame, "plan">): number => game.plan
 export function beginTurn(game: FamilyGame, bank: RunBank, random: RandomSource): FamilyGame {
   if (game.phase !== "handoff") return game;
   const index = playerIndexAt(game);
-  const challengeId = game.plan[game.round]?.[index];
-  if (!challengeId) throw new Error("Tour introuvable");
+  const challengeIds = game.plan[game.round]?.[index];
+  if (!challengeIds?.length) throw new Error("Tour introuvable");
   const player = game.players[index] as FamilyPlayerState;
-  const run = startRun(bank, [challengeId], random, { maxAttempts: FAMILY_RULES.maxAttempts, jokers: player.jokersLeft });
+  const run = startRun(bank, challengeIds, random, { maxAttempts: FAMILY_RULES.maxAttempts, jokers: player.jokersLeft });
   return { ...game, phase: "playing", run };
 }
 
 /** Les points du tour suivent le barème Famille, pas celui des niveaux. */
-function withFamilyPoints(run: LevelRun): LevelRun {
-  const last = run.results.at(-1);
-  if (run.state === "playing" || !last) return run;
-  return { ...run, results: [...run.results.slice(0, -1), { ...last, points: familyPointsFor(last) }] };
-}
+const withFamilyPoints = (run: LevelRun): LevelRun => ({
+  ...run,
+  results: run.results.map((result) => ({ ...result, points: familyPointsFor(result) })),
+});
+
+/** Points déjà gagnés pendant le tour en cours. */
+export const turnPoints = (game: FamilyGame): number => game.run?.results.reduce((sum, result) => sum + familyPointsFor(result), 0) ?? 0;
+
+/** Vrai quand la question affichée est la dernière du tour. */
+export const isLastQuestionOfTurn = (game: FamilyGame): boolean => game.run !== null && game.run.index === game.run.challengeIds.length - 1;
 
 export function answerTurn(game: FamilyGame, bank: RunBank, answerId: string): FamilyGame {
   if (game.phase !== "playing" || !game.run) return game;
@@ -260,13 +291,16 @@ export function jokerTurn(game: FamilyGame, bank: RunBank, random: RandomSource)
   return { ...game, run: applyJoker(game.run, bank, random) };
 }
 
-/** Enregistre le tour terminé, puis passe au joueur suivant, au classement de la manche ou à la fin. */
-export function endTurn(game: FamilyGame, now: string): FamilyGame {
-  const result = game.run?.results.at(-1);
-  if (game.phase !== "playing" || !game.run || game.run.state === "playing" || !result) return game;
+/**
+ * Après une question répondue : la question suivante du même joueur, ou la fin du tour.
+ * En fin de tour, les réponses sont enregistrées, puis viennent le joueur suivant, le classement de la manche ou la fin.
+ */
+export function advanceTurn(game: FamilyGame, bank: RunBank, random: RandomSource, now: string): FamilyGame {
+  if (game.phase !== "playing" || !game.run || game.run.state === "playing") return game;
+  if (!isRunOver(game.run)) return { ...game, run: nextChallenge(game.run, bank, random) };
   const index = playerIndexAt(game);
   const player = game.players[index] as FamilyPlayerState;
-  const turn: FamilyTurn = {
+  const answers: FamilyTurn[] = game.run.results.map((result) => ({
     round: game.round,
     playerId: player.id,
     challengeId: result.challengeId,
@@ -274,9 +308,9 @@ export function endTurn(game: FamilyGame, now: string): FamilyGame {
     attempts: result.attempts,
     jokerUsed: result.jokerUsed,
     points: familyPointsFor(result),
-  };
+  }));
   const players = game.players.map((candidate, i) => (i === index ? { ...candidate, jokersLeft: game.run?.jokersLeft ?? 0 } : candidate));
-  const base = { ...game, players, run: null, turns: [...game.turns, turn] };
+  const base = { ...game, players, run: null, turns: [...game.turns, ...answers] };
   if (game.turn < game.players.length - 1) return { ...base, turn: game.turn + 1, phase: "handoff" };
   if (game.round < totalRounds(game) - 1) return { ...base, phase: "summary" };
   return { ...base, phase: "finished", finishedAt: now };
@@ -325,8 +359,8 @@ export function familyStandings(game: Pick<FamilyGame, "players" | "turns">): Fa
 export const familyWinners = (standings: readonly FamilyStanding[]): FamilyStanding[] => standings.filter((row) => row.rank === 1);
 
 /** Questions d'une partie, pour éviter de les reprendre trop vite. */
-export const gameQuestions = (game: Pick<FamilyGame, "plan">): string[] => game.plan.flat();
+export const gameQuestions = (game: Pick<FamilyGame, "plan">): string[] => game.plan.flat(2);
 
 /** Vrai si toutes les questions du tirage existent encore dans la réserve : sinon, la partie ne peut pas reprendre. */
 export const isGameResumable = (game: Pick<FamilyGame, "plan" | "finishedAt">, bank: RunBank): boolean =>
-  game.finishedAt === null && game.plan.flat().every((id) => bank.questions.some((question) => question.id === id));
+  game.finishedAt === null && game.plan.flat(2).every((id) => bank.questions.some((question) => question.id === id));

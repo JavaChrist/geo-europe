@@ -45,6 +45,7 @@ export function FamilySetup({ onStart }: { onStart: (settings: FamilySettings) =
   const { t, tContent } = useTranslation();
   const modal = useModal();
   const nameList = useNameList();
+  const choiceList = useNameList("disjunction");
   const { players: saved } = useFamilyData();
   const nameId = useId();
   const errorId = useId();
@@ -218,6 +219,7 @@ export function FamilySetup({ onStart }: { onStart: (settings: FamilySettings) =
             >
               <span>{t(`family.durations.${option}`)}</span>
               <span className="text-sm font-normal text-ink-soft">{t("family.setup.rounds", { count: FAMILY_RULES.rounds[option] })}</span>
+              <span className="text-sm font-normal text-ink-soft">{t("family.setup.perTurn", { count: FAMILY_RULES.questionsPerTurn[option] })}</span>
             </button>
           ))}
         </div>
@@ -265,7 +267,7 @@ export function FamilySetup({ onStart }: { onStart: (settings: FamilySettings) =
                 <p>{t("family.setup.tooSmall", { duration: t(`family.durationsLower.${duration}`), count })}</p>
                 <p className="mt-1 text-ink-soft">
                   {t("family.setup.tooSmallAlternative", {
-                    durations: nameList(playable.map((option) => t(`family.durationsLower.${option}`))),
+                    durations: choiceList(playable.map((option) => t(`family.durationsLower.${option}`))),
                   })}
                 </p>
               </>
@@ -277,7 +279,7 @@ export function FamilySetup({ onStart }: { onStart: (settings: FamilySettings) =
       <section className={card}>
         <h2 className="font-display text-xl font-semibold">{t("family.setup.rulesTitle")}</h2>
         <ul className="flex list-disc flex-col gap-2 pl-5 text-ink-soft">
-          <li>{t("family.rules.rounds")}</li>
+          <li>{t("family.rules.rounds", { count: FAMILY_RULES.questionsPerTurn[duration] })}</li>
           <li>{t("family.rules.difficulty")}</li>
           <li>{t("family.rules.points", FAMILY_RULES.points)}</li>
           <li>{t("family.rules.jokers", { count: FAMILY_RULES.jokers[duration] })}</li>

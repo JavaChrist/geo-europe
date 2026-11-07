@@ -102,17 +102,22 @@ function isGame(value: unknown): value is FamilyGame {
   if (value.finishedAt !== null) return false;
   if (!Array.isArray(players) || players.length < FAMILY_RULES.minPlayers || players.length > FAMILY_RULES.maxPlayers) return false;
   if (!players.every((player: unknown) => isPlayer(player) && isCount((player as unknown as Record<string, unknown>).jokersLeft))) return false;
-  if (!Array.isArray(plan) || plan.length !== FAMILY_RULES.rounds[value.duration as FamilyDuration]) return false;
-  if (!plan.every((ids) => isStrings(ids) && ids.length === players.length)) return false;
+  // Une partie d'avant le tour à plusieurs questions n'a pas la même forme : elle n'est pas reprise.
+  const duration = value.duration as FamilyDuration;
+  const perTurn = FAMILY_RULES.questionsPerTurn[duration];
+  if (!Array.isArray(plan) || plan.length !== FAMILY_RULES.rounds[duration]) return false;
+  if (!plan.every((lists) => Array.isArray(lists) && lists.length === players.length && lists.every((ids) => isStrings(ids) && ids.length === perTurn))) {
+    return false;
+  }
   if (!isCount(round) || round >= plan.length || !isCount(turn) || turn >= players.length) return false;
   // Le classement de manche arrive après le tour du dernier joueur, qui est déjà compté.
-  const played = round * players.length + turn + (phase === "summary" ? 1 : 0);
+  const played = (round * players.length + turn + (phase === "summary" ? 1 : 0)) * perTurn;
   if (!Array.isArray(turns) || turns.length !== played || !turns.every(isTurn)) return false;
   if (phase === "playing") {
     return (
       isObject(run) &&
       isStrings(run.challengeIds) &&
-      run.challengeIds.length === 1 &&
+      run.challengeIds.length === perTurn &&
       isStrings(run.answerOrder) &&
       isStrings(run.tried) &&
       isStrings(run.removed) &&

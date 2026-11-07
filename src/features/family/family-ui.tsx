@@ -52,9 +52,10 @@ export function useScopeName(): (scope: FamilyScope) => string {
 }
 
 /** « Léa, Tom et Inès », dans la langue de l'interface. */
-export function useNameList(): (names: readonly string[]) => string {
+/** Liste lisible : « Léa, Tom et Zoé », ou « rapide ou classique » avec `disjunction`. */
+export function useNameList(type: "conjunction" | "disjunction" = "conjunction"): (names: readonly string[]) => string {
   const { locale } = useTranslation();
-  return (names) => new Intl.ListFormat(locale, { type: "conjunction" }).format(names);
+  return (names) => new Intl.ListFormat(locale, { type }).format(names);
 }
 
 interface StandingsProps {

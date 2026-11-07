@@ -9,11 +9,12 @@ De 2 à 4 joueurs sur un même appareil, chacun son tour, sans compte et sans co
 | Joueurs | 2 à 4, choisis parmi les profils de l'appareil. L'ordre de sélection donne l'ordre de passage |
 | Profil | Prénom de 16 caractères au plus, couleur et initiale, réutilisable d'une partie à l'autre |
 | Durée | Rapide 3 manches, Classique 5 (par défaut), Longue 10 |
+| Questions par tour | Rapide 5, Classique 3, Longue 3, jouées d'affilée par le même joueur |
 | Questions | Toute la France, un thème ou un parcours publié |
-| Manche | Une question par joueur, toutes de la même difficulté |
+| Manche | Un tour par joueur. Toutes les questions de la manche ont la même difficulté |
 | Ordre | Le premier joueur change à chaque manche, pour que personne ne commence toujours |
 | Essais | 2 par question. Après une erreur, l'indice s'affiche |
-| Jokers 50/50 | Rapide 1, Classique 2, Longue 3, les mêmes pour chaque joueur, décomptés par joueur |
+| Jokers 50/50 | Rapide 2, Classique 3, Longue 5, les mêmes pour chaque joueur, décomptés par joueur |
 | Chronomètre | Aucun |
 
 ## Points
@@ -25,15 +26,21 @@ De 2 à 4 joueurs sur un même appareil, chacun son tour, sans compte et sans co
 | Bonne réponse avec un 50/50 | 5 |
 | Mauvaise réponse | 0 |
 
-Avec plusieurs aides, la valeur la plus basse s'applique : indice et 50/50 donnent 5.
+Chaque question est comptée à part. Avec plusieurs aides, la valeur la plus basse s'applique : indice et 50/50 donnent 5.
+
+| Durée | Manches | Questions par joueur | Maximum par joueur |
+| --- | --- | --- | --- |
+| Rapide | 3 | 15 | 150 points |
+| Classique | 5 | 15 | 150 points |
+| Longue | 10 | 30 | 300 points |
 
 Les points du Mode Famille restent à part. Ils ne donnent ni XP, ni carte souvenir, ni record, et ne débloquent aucun niveau.
 
 ## Déroulé
 
-1. **Préparation** : choix des joueurs, de la durée et des questions. Le nombre de questions disponibles s'affiche. Si le choix est trop petit, les durées impossibles sont désactivées et l'écran propose une alternative.
-2. **Passage** : « Au tour de Léa ». La question reste cachée jusqu'au bouton « Voir ma question ».
-3. **Question** : le même écran que le Solo (`ChallengeView`), avec les trois formats existants, choix, image et carte.
+1. **Préparation** : choix des joueurs, de la durée et des questions. Le nombre de questions disponibles s'affiche. Si le choix est trop petit pour la durée choisie, un message l'explique, propose les durées encore jouables ou un choix plus large, et le lancement reste bloqué. Exemple : la Corse, la Guyane, la Martinique, Mayotte et la Champagne-Ardenne ne suffisent pas pour 4 joueurs en Longue.
+2. **Passage** : « Au tour de Léa ». Les questions restent cachées jusqu'au bouton « Voir mes questions ».
+3. **Tour** : le joueur enchaîne ses 3 ou 5 questions sur le même écran que le Solo (`ChallengeView`), avec les trois formats existants, choix, image et carte. « Question suivante » entre deux questions, puis « Joueur suivant » ou le classement à la dernière.
 4. **Classement de manche** : total de chacun et points gagnés pendant la manche.
 5. **Fin de partie** : animation, vainqueur ou vainqueurs ex æquo, classement détaillé (points, bonnes réponses, indices, 50/50), boutons « Rejouer » et « Retour à l'accueil ».
 
@@ -45,6 +52,7 @@ Abandonner passe par une confirmation `useModal`. Une partie abandonnée n'entre
 - Une partie ne contient jamais deux fois la même question, ni deux questions d'un même groupe.
 - Les questions des 3 dernières parties terminées sont tirées en dernier.
 - Chaque manche a une seule difficulté, et les difficultés montent au fil de la partie quand le contenu le permet.
+- Une partie demande joueurs × manches × questions par tour questions différentes : 120 pour 4 joueurs en Longue.
 - Si le choix ne contient pas assez de questions pour une manche complète de chaque difficulté prévue, la partie ne démarre pas et l'écran propose une durée plus courte ou un choix plus large.
 
 ## Égalité
@@ -57,16 +65,16 @@ Clé `geo-europe.<pays>.family` dans `localStorage` :
 
 - `players` : profils de l'appareil ;
 - `history` : 20 dernières parties terminées ;
-- `current` : partie en cours, enregistrée à chaque étape ;
+- `current` : partie en cours, enregistrée après chaque réponse ;
 - `recent` : questions des 3 dernières parties.
 
-Après un rechargement, la carte « Partie en cours » propose de reprendre exactement où la partie s'était arrêtée. Une partie illisible ou modifiée à la main est oubliée plutôt que reprise. La mise à jour de l'application attend la fin de la partie (`useHoldUpdate`).
+Après un rechargement, la carte « Partie en cours » propose de reprendre exactement où la partie s'était arrêtée. Une partie illisible, modifiée à la main ou commencée avant le passage à plusieurs questions par tour est oubliée plutôt que reprise. Les joueurs et l'historique sont gardés. La mise à jour de l'application attend la fin de la partie (`useHoldUpdate`).
 
 ## Fichiers
 
 | Fichier | Rôle |
 | --- | --- |
-| `src/engine/family.ts` | Règles, tirage, déroulé, points, classement. Sans React ni stockage |
+| `src/engine/family.ts` | Règles (`FAMILY_RULES`, dont `questionsPerTurn`), tirage, déroulé, points, classement. Sans React ni stockage |
 | `src/services/family-storage.ts` | Lecture, validation et écriture locales |
 | `src/services/family-access.ts` | Frontière d'accès, toujours ouverte |
 | `src/features/family/FamilyMode.tsx` | Écrans de la partie et historique |
