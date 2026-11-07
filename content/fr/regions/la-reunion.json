@@ -2,7 +2,12 @@
   "id": "FR-974",
   "slug": "la-reunion",
   "nameKey": "regions.la-reunion",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "974",
+      "nameKey": "departments.974"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],

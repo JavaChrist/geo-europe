@@ -524,8 +524,18 @@ assert.deepEqual(availableSpecialChallenges(francheComte).map((rules) => rules.k
   assert.deepEqual(availableSpecialChallenges(picardie).map((rules) => rules.kind), ["master", "chrono"]);
   const corse = JSON.parse(readFileSync(new URL("../content/fr/territories/corse.json", import.meta.url), "utf8"));
   assert.deepEqual(availableSpecialChallenges(corse).map((rules) => rules.kind), ["master", "chrono"]);
+  const guadeloupe = JSON.parse(readFileSync(new URL("../content/fr/territories/guadeloupe.json", import.meta.url), "utf8"));
+  assert.deepEqual(availableSpecialChallenges(guadeloupe).map((rules) => rules.kind), ["master", "chrono"]);
+  const martinique = JSON.parse(readFileSync(new URL("../content/fr/territories/martinique.json", import.meta.url), "utf8"));
+  assert.deepEqual(availableSpecialChallenges(martinique).map((rules) => rules.kind), ["master", "chrono"]);
+  const guyane = JSON.parse(readFileSync(new URL("../content/fr/territories/guyane.json", import.meta.url), "utf8"));
+  assert.deepEqual(availableSpecialChallenges(guyane).map((rules) => rules.kind), ["master", "chrono"]);
+  const laReunion = JSON.parse(readFileSync(new URL("../content/fr/territories/la-reunion.json", import.meta.url), "utf8"));
+  assert.deepEqual(availableSpecialChallenges(laReunion).map((rules) => rules.kind), ["master", "chrono"]);
+  const mayotte = JSON.parse(readFileSync(new URL("../content/fr/territories/mayotte.json", import.meta.url), "utf8"));
+  assert.deepEqual(availableSpecialChallenges(mayotte).map((rules) => rules.kind), ["master", "chrono"]);
   // Chaque niveau publié compose une partie complète, sans question répétée.
-  for (const level of [...alsace.levels, ...lorraine.levels, ...champagneArdenne.levels, ...languedocRoussillon.levels, ...midiPyrenees.levels, ...bourgogne.levels, ...francheComte.levels, ...auvergne.levels, ...rhoneAlpes.levels, ...provenceAlpesCoteDAzur.levels, ...aquitaine.levels, ...limousin.levels, ...poitouCharentes.levels, ...paysDeLaLoire.levels, ...centreValDeLoire.levels, ...bretagne.levels, ...normandie.levels, ...ileDeFrance.levels, ...nordPasDeCalais.levels, ...picardie.levels, ...corse.levels]) {
+  for (const level of [...alsace.levels, ...lorraine.levels, ...champagneArdenne.levels, ...languedocRoussillon.levels, ...midiPyrenees.levels, ...bourgogne.levels, ...francheComte.levels, ...auvergne.levels, ...rhoneAlpes.levels, ...provenceAlpesCoteDAzur.levels, ...aquitaine.levels, ...limousin.levels, ...poitouCharentes.levels, ...paysDeLaLoire.levels, ...centreValDeLoire.levels, ...bretagne.levels, ...normandie.levels, ...ileDeFrance.levels, ...nordPasDeCalais.levels, ...picardie.levels, ...corse.levels, ...guadeloupe.levels, ...martinique.levels, ...guyane.levels, ...laReunion.levels, ...mayotte.levels]) {
     for (let seed = 0; seed < 100; seed += 1) {
       const drawn = selectQuestions(level, EMPTY_HISTORY, seeded(seed), 8);
       assert.equal(new Set(drawn).size, 8, `partie complète : ${level.id}`);
@@ -534,7 +544,7 @@ assert.deepEqual(availableSpecialChallenges(francheComte).map((rules) => rules.k
       assert.equal(new Set(picked.map((candidate) => candidate.group ?? candidate.id)).size, 8, `sujets distincts : ${level.id}`);
     }
   }
-  for (const [territory, rules] of [alsace, lorraine, champagneArdenne, languedocRoussillon, midiPyrenees, bourgogne, francheComte, auvergne, rhoneAlpes, provenceAlpesCoteDAzur, aquitaine, limousin, poitouCharentes, paysDeLaLoire, centreValDeLoire, bretagne, normandie, ileDeFrance, nordPasDeCalais, picardie, corse].flatMap((territory) => SPECIAL_CHALLENGES.map((rules) => [territory, rules]))) {
+  for (const [territory, rules] of [alsace, lorraine, champagneArdenne, languedocRoussillon, midiPyrenees, bourgogne, francheComte, auvergne, rhoneAlpes, provenceAlpesCoteDAzur, aquitaine, limousin, poitouCharentes, paysDeLaLoire, centreValDeLoire, bretagne, normandie, ileDeFrance, nordPasDeCalais, picardie, corse, guadeloupe, martinique, guyane, laReunion, mayotte].flatMap((territory) => SPECIAL_CHALLENGES.map((rules) => [territory, rules]))) {
     const challengeBank = specialChallengeBank(territory, rules);
     let history = EMPTY_HISTORY;
     for (let seed = 0; seed < 200; seed += 1) {

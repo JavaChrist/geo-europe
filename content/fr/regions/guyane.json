@@ -2,7 +2,12 @@
   "id": "FR-973",
   "slug": "guyane",
   "nameKey": "regions.guyane",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "973",
+      "nameKey": "departments.973"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],

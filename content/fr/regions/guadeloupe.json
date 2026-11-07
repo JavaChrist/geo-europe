@@ -2,7 +2,12 @@
   "id": "FR-971",
   "slug": "guadeloupe",
   "nameKey": "regions.guadeloupe",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "971",
+      "nameKey": "departments.971"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],

@@ -2,7 +2,12 @@
   "id": "FR-972",
   "slug": "martinique",
   "nameKey": "regions.martinique",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "972",
+      "nameKey": "departments.972"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],

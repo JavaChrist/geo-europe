@@ -2,7 +2,12 @@
   "id": "FR-976",
   "slug": "mayotte",
   "nameKey": "regions.mayotte",
-  "subdivisions": [],
+  "subdivisions": [
+    {
+      "id": "976",
+      "nameKey": "departments.976"
+    }
+  ],
   "mapSvg": null,
   "questionSetIds": [],
   "mediaIds": [],
