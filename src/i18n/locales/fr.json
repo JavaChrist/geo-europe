@@ -226,9 +226,9 @@
       "lastPlayed": "Dernière partie : {date}",
       "xp": "XP cumulés : {count}",
       "deleteAction": "Effacer mes résultats",
-      "deleteIntro": "Efface tous les résultats de parcours et du Mode Famille enregistrés sur cet appareil.",
+      "deleteIntro": "Efface tous les résultats de parcours et du Mode Famille enregistrés sur cet appareil, ainsi que la réponse à la question d'âge des vidéos.",
       "deleteTitle": "Effacer vos résultats ?",
-      "deleteBody": "Scores, étoiles, XP, cartes, badges, records des défis, nombre de parties, questions déjà rencontrées, ainsi que les joueurs et l'historique du Mode Famille seront définitivement effacés de cet appareil.",
+      "deleteBody": "Scores, étoiles, XP, cartes, badges, records des défis, nombre de parties, questions déjà rencontrées, les joueurs et l'historique du Mode Famille, ainsi que la réponse à la question d'âge et le compteur des vidéos, seront définitivement effacés de cet appareil.",
       "deletedTitle": "Résultats effacés",
       "deletedBody": "Plus aucun résultat n'est enregistré sur cet appareil.",
       "challengeName": "{challenge}, {territory}",
@@ -497,6 +497,25 @@
     "body": "Une mise à jour de l'application est prête. Votre progression est conservée.",
     "confirm": "Mettre à jour",
     "later": "Plus tard"
+  },
+  "promo": {
+    "label": "Publicité JavaChrist · {name}",
+    "dialogLabel": "Vidéo de présentation de {name}",
+    "cta": "Découvrir {name}",
+    "close": "Fermer la vidéo",
+    "soundOn": "Activer le son",
+    "soundOff": "Couper le son",
+    "play": "Lancer la vidéo",
+    "unavailable": "La vidéo ne peut pas être lue. Vous pouvez la fermer.",
+    "age": {
+      "title": "Une question avant de continuer",
+      "body": "Entre deux parties, GéoFR peut montrer de courtes vidéos sur les autres applications de JavaChrist. Elles sont réservées aux adultes.",
+      "question": "Avez-vous 18 ans ou plus ?",
+      "adult": "J'ai 18 ans ou plus",
+      "minor": "J'ai moins de 18 ans",
+      "note": "Votre réponse reste sur cet appareil. Vous pouvez l'effacer dans Confidentialité.",
+      "later": "Plus tard"
+    }
   },
   "soon": {
     "profile": {

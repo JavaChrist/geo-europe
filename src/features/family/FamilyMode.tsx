@@ -28,6 +28,7 @@ import {
 } from "@/engine/family";
 import type { RunBank } from "@/engine/level-run";
 import { ChallengeView } from "@/features/journey/ChallengeView";
+import { usePromotion } from "@/features/promotions/usePromotion";
 import { useHoldUpdate } from "@/features/update/update-hold";
 import { CheckingAccess, LockCard } from "@/features/account/RegionGate";
 import { useEntitlements } from "@/features/account/EntitlementsProvider";
@@ -66,6 +67,8 @@ export function FamilyMode() {
   const storageWarned = useRef(false);
   const bank = game ? bankOf(game.scope) : null;
   useHoldUpdate(game !== null && game.phase !== "finished");
+  // Jamais entre deux tours : la promotion n'apparaît que sur l'écran final ou l'accueil du mode.
+  const promotion = usePromotion(game !== null && game.phase !== "finished");
 
   // Chaque écran entre deux joueurs repart du haut : rien de la question précédente ne reste à l'écran.
   const screen = game ? `${game.phase}-${game.turns.length}` : "setup";
@@ -97,8 +100,10 @@ export function FamilyMode() {
 
   const update = (next: FamilyGame) => {
     setGame(next);
-    if (next.phase === "finished") persist(() => recordFamilyGame(content.country.code, next));
-    else persist(() => saveFamilyGame(content.country.code, next));
+    if (next.phase === "finished") {
+      persist(() => recordFamilyGame(content.country.code, next));
+      promotion.gameCompleted();
+    } else persist(() => saveFamilyGame(content.country.code, next));
   };
 
   const start = ({ players, duration, scope }: FamilySettings) => {
@@ -137,6 +142,7 @@ export function FamilyMode() {
   if (!game || !bank) {
     return (
       <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
+        {promotion.overlay}
         <section className="fade-in flex flex-col gap-2">
           {heading(t("family.title"))}
           <p className="text-ink-soft">{t("family.intro")}</p>
@@ -270,6 +276,7 @@ export function FamilyMode() {
   const dateFormat = new Intl.DateTimeFormat(locale, { dateStyle: "long" });
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
+      {promotion.overlay}
       <section className={`${card} items-center text-center`}>
         <div className="family-victory relative flex size-28 items-center justify-center">
           <span aria-hidden className="family-victory-glow absolute inset-0 rounded-full bg-gold/20" />

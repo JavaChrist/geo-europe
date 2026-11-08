@@ -22,6 +22,7 @@ import {
   type SpecialChallengeKind,
   specialChallengeBank,
 } from "@/engine/special-challenges";
+import { usePromotion } from "@/features/promotions/usePromotion";
 import { useHoldUpdate } from "@/features/update/update-hold";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { readQuestionHistory, recordChallengeResult } from "@/services/local-progress";
@@ -118,6 +119,8 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
   const [stoppedMs, setStoppedMs] = useState<number | null>(null);
   const [outcome, setOutcome] = useState<Outcome | null>(null);
   useHoldUpdate(run !== null);
+  // Un défi spécial terminé compte comme un niveau pour les promotions.
+  const promotion = usePromotion(run !== null);
 
   const territory = content.territories.find((candidate) => candidate.id === territoryId);
   const rules = territory && availableSpecialChallenges(territory).find((candidate) => candidate.kind === kind);
@@ -180,6 +183,7 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
       record,
     });
     setRun(null);
+    promotion.gameCompleted();
   };
 
   /** Temps écoulé, ou `null` si le temps est déjà dépassé et la partie vient de se terminer. */
@@ -220,6 +224,7 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
+      {promotion.overlay}
       {run ? (
         <h1 className="text-sm text-ink-soft">{name}</h1>
       ) : (

@@ -49,8 +49,9 @@ Tout est stocké sur l'appareil, dans `localStorage`, par pays :
 | --- | --- | --- |
 | `geo-europe.<pays>.progress` | Progression Solo, XP, cartes souvenirs, défis | `src/services/local-progress.ts` |
 | `geo-europe.<pays>.family` | Joueurs, historique et partie en cours du Mode Famille | `src/services/family-storage.ts` |
+| `geo-europe.<pays>.promotions` | Compteur de parties, dernière vidéo vue, réponse à la question d'âge, copie du catalogue | `src/services/promotions.ts` |
 
-Les deux sont séparés : le Mode Famille ne touche jamais la progression Solo. L'écran Confidentialité permet d'effacer les deux.
+Les trois sont séparés : le Mode Famille ne touche jamais la progression Solo. L'écran Confidentialité permet de tout effacer. Voir [promotions.md](promotions.md).
 
 ## Build et déploiement
 

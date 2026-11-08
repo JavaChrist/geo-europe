@@ -166,6 +166,7 @@ Version documentaire 0.2.0, en **brouillon**, empreinte `4461cb6e…b409181`. Le
 - **Découverte gratuite** : les deux régions ne sont pas choisies, et son régime publicitaire n'est pas décidé.
 - **Fonction de rétractation en ligne** : obligatoire pour les ventes en ligne à partir du 19 juin 2026. Elle n'existe pas encore dans le jeu.
 - **Vendeur selon le canal** : sur Google Play, les conditions et la facturation du store s'ajoutent. À traiter quand l'application Android existera.
+- **Promotions** : le code affiche des vidéos JavaChrist-Promotions (voir [promotions.md](promotions.md)), lit le catalogue chez Google Firebase et garde une réponse d'âge sur l'appareil. La politique de confidentialité et le texte `privacy` de l'écran Confidentialité disent encore « ni publicité » : à corriger dans le kit par Christian avant la mise en production, jamais à la main.
 - **Publicité et mineurs** : les éditions Solo et Famille avec publicités demanderont `ads: true` dans le kit, un consentement, et une publicité limitée au contexte pour un public mineur. Le module publicitaire du kit devra être relu avant toute mise en service.
 - **Export des données** : le jeu permet de voir et d'effacer les données de l'appareil, pas d'en télécharger une copie.
 - **Hors connexion sur le web** : pas de service worker, voir plus haut.

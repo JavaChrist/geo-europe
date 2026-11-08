@@ -60,6 +60,16 @@ export interface LegalConfig {
   supportEmail: string;
 }
 
+/** Lien avec le gestionnaire de promotions, propre à chaque pays. */
+export interface PromotionsConfig {
+  /** Projet Firebase qui héberge le catalogue, distinct du projet Firebase du jeu. */
+  catalogProjectId: string;
+  /** Identifiant du jeu dans le gestionnaire : `public_catalogs/<sourceAppId>`. */
+  sourceAppId: string;
+  /** Langue des campagnes acceptées. */
+  locale: string;
+}
+
 export interface CountryConfig {
   /** Code du dossier de contenu, identique à GEO_COUNTRY. */
   code: string;
@@ -74,6 +84,8 @@ export interface CountryConfig {
   backgroundColor: string;
   /** Fuseau des dates envoyées au joueur, par exemple dans la confirmation d'achat. */
   timeZone: string;
+  /** Catalogue JavaChrist-Promotions du pays (voir `docs/promotions.md`). `null` : aucune promotion. */
+  promotions: PromotionsConfig | null;
 }
 
 export interface MapRegion {

@@ -21,6 +21,7 @@ import {
 import { isLevelUnlocked, type LevelSummary, UNLOCK_RULES } from "@/engine/level-unlock";
 import { questionsPerRunOf, selectQuestions } from "@/engine/question-selection";
 import type { Level } from "@/engine/types";
+import { usePromotion } from "@/features/promotions/usePromotion";
 import { useHoldUpdate } from "@/features/update/update-hold";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { type LevelRecord, readQuestionHistory, recordLevelResult } from "@/services/local-progress";
@@ -56,6 +57,8 @@ export function LevelGame({ level, previous, backHref, backLabel }: LevelGamePro
   const [run, setRun] = useState<LevelRun | null>(null);
   const [outcome, setOutcome] = useState<Outcome | null>(null);
   useHoldUpdate(run !== null);
+  // Promotion possible seulement entre deux parties, après les modales de récompense.
+  const promotion = usePromotion(run !== null);
 
   const start = () => {
     setOutcome(null);
@@ -75,6 +78,7 @@ export function LevelGame({ level, previous, backHref, backLabel }: LevelGamePro
     setOutcome({ run: finished, score, stars, record });
     setRun(null);
     if (record) celebrate(newRewards(content.territories, records, { ...records, [level.id]: record }));
+    promotion.gameCompleted();
   };
 
   // Seulement au premier gain : un rejeu ne fait rien gagner de nouveau.
@@ -112,6 +116,7 @@ export function LevelGame({ level, previous, backHref, backLabel }: LevelGamePro
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
+      {promotion.overlay}
       <h1 className={run ? "text-sm text-ink-soft" : "font-display text-3xl font-semibold"}>{tContent(level.nameKey)}</h1>
 
       {run && (

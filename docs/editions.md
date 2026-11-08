@@ -16,7 +16,7 @@ Prix TTC, achats uniques, aucun abonnement.
 | `family_ads` | Famille complète avec publicités | 14,99 € | Toutes les régions, Mode Famille | Prévu |
 | `family_no_ads` | Famille complète sans publicités | 19,99 € | Toutes les régions, Mode Famille | Prévu |
 
-La Découverte ouvre l'Île-de-France et l'Occitanie (`regions: ["FR-IDF", "FR-OCC"]`), sans compte. Son régime publicitaire n'est pas décidé (`ads: null`). Un compte possède au plus une édition payante : aucun tarif de mise à niveau n'existe.
+La Découverte ouvre l'Île-de-France et l'Occitanie (`regions: ["FR-IDF", "FR-OCC"]`), sans compte. Son régime publicitaire n'est pas décidé (`ads: null`) ; en attendant, elle affiche les vidéos de promotion comme les éditions avec publicités (voir [promotions.md](promotions.md#éditions-sans-publicités)). Un compte possède au plus une édition payante : aucun tarif de mise à niveau n'existe.
 
 ## Où vivent les données
 

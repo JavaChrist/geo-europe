@@ -6,6 +6,8 @@ import { ModalDialog } from "./ModalDialog";
 import type { ModalApi, ModalContent, ModalRequest, ModalVariant } from "./types";
 
 const ModalContext = createContext<ModalApi | null>(null);
+// Vrai tant qu'une modale est ouverte ou attend : un écran par-dessus le jeu (promotion) attend son tour.
+const ModalBusyContext = createContext(false);
 
 export function ModalProvider({ children }: { children: ReactNode }) {
   // File d'attente : une seule modale à la fois, les suivantes s'ouvrent à la fermeture.
@@ -43,8 +45,10 @@ export function ModalProvider({ children }: { children: ReactNode }) {
 
   return (
     <ModalContext value={api}>
-      {children}
-      {current && <ModalDialog key={current.id} request={current} onSettled={handleSettled} />}
+      <ModalBusyContext value={queue.length > 0}>
+        {children}
+        {current && <ModalDialog key={current.id} request={current} onSettled={handleSettled} />}
+      </ModalBusyContext>
     </ModalContext>
   );
 }
@@ -53,4 +57,8 @@ export function useModal(): ModalApi {
   const api = use(ModalContext);
   if (!api) throw new Error("useModal doit être utilisé dans ModalProvider");
   return api;
+}
+
+export function useModalBusy(): boolean {
+  return use(ModalBusyContext);
 }

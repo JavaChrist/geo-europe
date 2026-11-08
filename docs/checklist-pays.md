@@ -18,6 +18,7 @@
 - [ ] `content/<pays>/locales/<langue>.json`, sans bloc de tête partagé avec l'interface
 - [ ] `content/<pays>/family.ts` et le bloc `familyScopes`
 - [ ] `content/<pays>/index.ts`
+- [ ] `promotions` renseigné dans `country.ts` (ou `null`), `sourceAppId` créé dans JavaChrist-Promotions et coché dans les campagnes de la langue du pays (voir [promotions.md](promotions.md))
 - [ ] `src/i18n/locales/<langue>.json` si la langue est nouvelle
 
 ### Vérification
@@ -29,6 +30,7 @@
 - [ ] Mode Famille : une partie de 2 joueurs jouée jusqu'au classement final
 - [ ] Affichage mobile vérifié
 - [ ] Aucun emoji, aucun texte en dur, aucune alerte du navigateur
+- [ ] Promotions : vidéo après 3 parties, jamais en partie ni entre deux tours Famille, aucune requête avec une édition sans publicités
 
 ## Futur : prévu, pas encore construit
 

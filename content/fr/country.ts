@@ -18,4 +18,6 @@ export const country: CountryConfig = {
   themeColor: "#0a1f44",
   backgroundColor: "#061530",
   timeZone: "Europe/Paris",
+  // Catalogue du gestionnaire JavaChrist-Promotions, hébergé dans le projet Firebase de Motissimo, pas dans celui de GéoFR.
+  promotions: { catalogProjectId: "motissimo-456ba", sourceAppId: "geofr", locale: "fr" },
 };

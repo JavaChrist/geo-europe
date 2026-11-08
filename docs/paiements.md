@@ -24,6 +24,8 @@ Les droits sont calculés par `computeEntitlements()` (`src/engine/entitlements.
 
 Un même calcul sert à la notification, à la restauration et au rattrapage.
 
+`adsRemoved` coupe les vidéos de JavaChrist-Promotions, la question d'âge et toute lecture du catalogue (voir [promotions.md](promotions.md#éditions-sans-publicités)).
+
 ### Un seul achat
 
 Un compte possède au plus une édition payante. Tout second achat est refusé (`upgradeUndefined`), y compris une montée de Solo vers Famille : aucun tarif de mise à niveau n'est défini sans validation. Pendant qu'un paiement est en cours, la même édition reprend le paiement existant, et une autre édition est refusée (`otherInProgress`).
