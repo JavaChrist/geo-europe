@@ -827,6 +827,7 @@
     "verifySend": "Envoyer le lien",
     "verifyDone": "J'ai confirmé mon adresse",
     "verifyResend": "Renvoyer le lien",
+    "verifyResendIn": "Renvoyer dans {seconds} s",
     "verifyResent": "Lien renvoyé",
     "verifyResentBody": "Un nouveau lien de confirmation a été envoyé à {email}.",
     "verifyStill": "Adresse pas encore confirmée",

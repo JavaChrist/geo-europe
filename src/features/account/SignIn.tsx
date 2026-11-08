@@ -26,6 +26,8 @@ export function safeNext(value: string | null): string {
 }
 
 const MIN_PASSWORD = 8;
+/** Même délai que la limite du serveur entre deux envois à une adresse. */
+const RESEND_DELAY_MS = 60_000;
 
 /** Connexion avant achat : Google ou adresse électronique vérifiée. Le jeu gratuit n'en a jamais besoin. */
 export function SignIn() {
@@ -43,12 +45,28 @@ export function SignIn() {
   // l'écran ne dit jamais « lien envoyé ».
   const [linkSentTo, setLinkSentTo] = useState<string | null>(null);
   const [sending, setSending] = useState(false);
+  // Après un envoi réussi, « Renvoyer le lien » attend la fin de la limite du serveur (un envoi par minute).
+  const [cooldownUntil, setCooldownUntil] = useState(0);
+  const [now, setNow] = useState(() => Date.now());
+  const cooldown = Math.max(0, Math.ceil((cooldownUntil - now) / 1000));
+
+  useEffect(() => {
+    if (cooldownUntil <= Date.now()) return;
+    const timer = window.setInterval(() => {
+      setNow(Date.now());
+      if (Date.now() >= cooldownUntil) window.clearInterval(timer);
+    }, 1000);
+    return () => window.clearInterval(timer);
+  }, [cooldownUntil]);
 
   /** Demande le lien au serveur ; `linkSentTo` n'est rempli qu'après sa réponse positive. */
   const sendLink = async (send: () => Promise<{ uid: string }>) => {
     setSending(true);
     try {
       setLinkSentTo((await send()).uid);
+      const sentAt = Date.now();
+      setNow(sentAt);
+      setCooldownUntil(sentAt + RESEND_DELAY_MS);
     } finally {
       setSending(false);
     }
@@ -141,8 +159,10 @@ export function SignIn() {
           <button type="button" className={linkSent ? primaryButton : secondaryButton} disabled={busy} onClick={recheck}>
             {t("account.verifyDone")}
           </button>
-          <button type="button" className={linkSent ? secondaryButton : primaryButton} disabled={busy} onClick={resend}>
-            {t(linkSent ? "account.verifyResend" : "account.verifySend")}
+          <button type="button" className={linkSent ? secondaryButton : primaryButton} disabled={busy || cooldown > 0} onClick={resend}>
+            {cooldown > 0
+              ? t("account.verifyResendIn", { seconds: String(cooldown) })
+              : t(linkSent ? "account.verifyResend" : "account.verifySend")}
           </button>
           <button type="button" className={`${textLink} self-center`} disabled={busy} onClick={() => void run(signOutAccount)}>
             {t("account.signOut")}
