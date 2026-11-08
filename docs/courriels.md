@@ -37,6 +37,8 @@ Elle part une seule fois par commande payée (`src/services/mail/purchase-mail.t
 
 Pour la vérification et le mot de passe oublié : un courriel par minute et cinq par heure, par adresse. Au-delà, la route répond 429 (`tooManyAttempts`). Le compteur est dans `mailThrottle/{empreinte}`, sans adresse en clair, et n'est ni lisible ni modifiable depuis le navigateur.
 
+Seuls les envois réussis comptent. Si le serveur échoue (lien Firebase refusé, SMTP en panne ou mal configuré), la tentative est rendue : le compteur revient à son état d'avant, sauf si une autre tentative l'a modifié entre-temps. Une seule exception, voulue : pour le mot de passe oublié, un échec d'envoi vers un compte existant n'est pas rendu, sinon la limite se comporterait autrement que pour une adresse inconnue et trahirait le compte.
+
 « Mot de passe oublié » répond de la même façon qu'un compte existe ou non.
 
 ## Configuration
@@ -79,6 +81,7 @@ Les journaux du serveur passent par `logServerError` (`src/services/server-log.t
 - aucune confirmation pour un paiement refusé, annulé, échoué ou expiré ;
 - la confirmation envoyée par le rattrapage ;
 - le lien de vérification, la limite d'envoi, rien pour une adresse déjà vérifiée ;
+- un destinataire refusé par le SMTP : 500, aucun courriel, et la tentative suivante n'est pas bloquée par un 429 ;
 - le mot de passe oublié : même réponse pour une adresse inconnue, sans courriel ;
 - un jeton invalide : 401 ; Firebase Admin non configuré : 503, même réponse pour une adresse connue ou inconnue ;
 - aucun jeton, aucune clé ni aucun lien d'action dans le journal du serveur ;

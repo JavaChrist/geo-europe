@@ -139,8 +139,13 @@ const smtp = createTcpServer((socket) => {
       if (command === "EHLO") socket.write(["250-faux-smtp", "250-AUTH PLAIN", "250 8BITMIME", ""].join(CRLF));
       else if (command === "AUTH") reply("235 OK");
       else if (command === "RCPT") {
-        to.push(line.match(/<(.+)>/)?.[1]);
-        reply("250 OK");
+        const recipient = line.match(/<(.+)>/)?.[1] ?? "";
+        // Destinataire refusé, comme le ferait un vrai serveur : sert à tester un échec d'envoi.
+        if (recipient.includes("refus-smtp")) reply("550 destinataire refusé");
+        else {
+          to.push(recipient);
+          reply("250 OK");
+        }
       } else if (command === "DATA") {
         data = "";
         reply("354 suite");
@@ -226,6 +231,7 @@ try {
   const chloe = await newUser("chloe");
   const david = await newUser("david");
   const nonVerifie = await newUser("non-verifie", { verified: false });
+  const refusSmtp = await newUser("refus-smtp", { verified: false });
 
   await test("commande refusée sans compte", async () => {
     const result = await checkout(null, "solo_ads");
@@ -455,6 +461,16 @@ try {
     assert.equal((await api("/api/account/verification", alice.token)).body.sent, false, "adresse déjà vérifiée : rien n'est envoyé");
   });
 
+  await test("échec d'envoi : la tentative est rendue, jamais de 429 après un échec du serveur", async () => {
+    const before = mails.length;
+    const first = await api("/api/account/verification", refusSmtp.token);
+    assert.equal(first.status, 500, JSON.stringify(first.body));
+    const second = await api("/api/account/verification", refusSmtp.token);
+    assert.notEqual(second.status, 429, "l'échec précédent ne compte pas dans la limite");
+    assert.equal(second.status, 500);
+    assert.equal(mails.length, before, "aucun courriel stocké");
+  });
+
   await test("mot de passe oublié : même réponse pour une adresse inconnue, limite d'envoi", async () => {
     const before = mails.length;
     assert.equal((await api("/api/account/password-reset", null, { email: "inconnu@example.test" })).status, 200);
@@ -536,7 +552,7 @@ try {
   });
 
   await test("journal du serveur : aucun jeton, aucune clé, aucun lien d'action", async () => {
-    for (const user of [alice, bruno, chloe, david, nonVerifie]) assert.ok(!serverLog.includes(user.token), `jeton de ${user.email}`);
+    for (const user of [alice, bruno, chloe, david, nonVerifie, refusSmtp]) assert.ok(!serverLog.includes(user.token), `jeton de ${user.email}`);
     assert.ok(!serverLog.includes("test_mockkeymockkeymockkeymockke"), "clé Mollie");
     assert.ok(!serverLog.includes(CRON_SECRET), "secret du rattrapage");
     assert.doesNotMatch(serverLog, /Bearer |oobCode=|PRIVATE KEY/);

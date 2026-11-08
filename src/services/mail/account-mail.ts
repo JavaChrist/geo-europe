@@ -20,19 +20,27 @@ const MAX_PER_WINDOW = 5;
 /** Retour sur l'application après le clic dans le courriel. */
 const actionSettings = (): ActionCodeSettings => ({ url: `${appBaseUrl()}/connexion` });
 
+type Throttle = { lastAt: number; windowStart: number; count: number; expireAt: Timestamp };
+
+/** Envoi accepté par la limite. `release` rend la tentative si le serveur n'a pas pu envoyer. */
+interface SendSlot {
+  release: () => Promise<void>;
+}
+
 /**
  * Limite d'envoi par adresse : un courriel par minute, cinq par heure. La clé est une empreinte :
  * aucune adresse en clair n'est stockée. `mailThrottle` n'est lisible ni modifiable depuis le navigateur.
+ * `null` si la limite est atteinte.
  */
-async function allowSend(kind: string, address: string): Promise<boolean> {
+async function allowSend(kind: string, address: string): Promise<SendSlot | null> {
   const key = createHash("sha256").update(`${APP_ID}:${kind}:${address.trim().toLowerCase()}`).digest("hex");
   const ref = adminDb().collection("mailThrottle").doc(key);
-  return adminDb().runTransaction(async (transaction) => {
-    const data = (await transaction.get(ref)).data() as { lastAt: number; windowStart: number; count: number } | undefined;
+  const previous = await adminDb().runTransaction(async (transaction) => {
+    const data = (await transaction.get(ref)).data() as Throttle | undefined;
     const now = Date.now();
-    if (data && now - data.lastAt < MIN_INTERVAL_MS) return false;
+    if (data && now - data.lastAt < MIN_INTERVAL_MS) return null;
     const sameWindow = data && now - data.windowStart < WINDOW_MS;
-    if (sameWindow && data.count >= MAX_PER_WINDOW) return false;
+    if (sameWindow && data.count >= MAX_PER_WINDOW) return null;
     transaction.set(ref, {
       lastAt: now,
       windowStart: sameWindow ? data.windowStart : now,
@@ -40,17 +48,42 @@ async function allowSend(kind: string, address: string): Promise<boolean> {
       // Pour une règle de durée de vie Firestore éventuelle : rien n'est utile au-delà d'une journée.
       expireAt: Timestamp.fromMillis(now + 24 * 60 * 60_000),
     });
-    return true;
+    return { data, now };
   });
+  if (!previous) return null;
+  return {
+    // Remet le compteur dans l'état d'avant, sauf si une autre tentative l'a modifié entre-temps.
+    release: () =>
+      adminDb().runTransaction(async (transaction) => {
+        const current = (await transaction.get(ref)).data() as Throttle | undefined;
+        if (current?.lastAt !== previous.now) return;
+        if (previous.data) transaction.set(ref, previous.data);
+        else transaction.delete(ref);
+      }),
+  };
 }
 
-/** Lien de vérification de l'adresse du compte connecté. Rien n'est envoyé si l'adresse est déjà vérifiée. */
+/** Rend la tentative sans masquer l'erreur d'origine. */
+async function releaseQuietly(slot: SendSlot): Promise<void> {
+  await slot.release().catch((error: unknown) => logServerError("mail-throttle", error, "tentative non rendue"));
+}
+
+/**
+ * Lien de vérification de l'adresse du compte connecté. Rien n'est envoyé si l'adresse est déjà vérifiée.
+ * Un échec du serveur (lien ou envoi) rend la tentative : seuls les envois réussis comptent dans la limite.
+ */
 export async function sendVerificationMail(buyer: Buyer): Promise<{ sent: boolean }> {
   const user = await adminAuth().getUser(buyer.uid);
   if (!user.email || user.emailVerified) return { sent: false };
-  if (!(await allowSend("verify", user.email))) throw new PaymentRequestError(429, "tooManyAttempts");
-  const link = await adminAuth().generateEmailVerificationLink(user.email, actionSettings());
-  await sendTemplateMail("confirmation", user.email, { ConfirmationURL: link, SiteURL: appBaseUrl() });
+  const slot = await allowSend("verify", user.email);
+  if (!slot) throw new PaymentRequestError(429, "tooManyAttempts");
+  try {
+    const link = await adminAuth().generateEmailVerificationLink(user.email, actionSettings());
+    await sendTemplateMail("confirmation", user.email, { ConfirmationURL: link, SiteURL: appBaseUrl() });
+  } catch (error) {
+    await releaseQuietly(slot);
+    throw error;
+  }
   return { sent: true };
 }
 
@@ -66,20 +99,24 @@ export async function sendPasswordResetMail(email: string): Promise<void> {
   if (!EMAIL.test(email) || email.length > 320) throw new PaymentRequestError(400, "invalidRequest");
   assertMailConfigured();
   const auth = adminAuth();
-  if (!(await allowSend("reset", email))) throw new PaymentRequestError(429, "tooManyAttempts");
+  const slot = await allowSend("reset", email);
+  if (!slot) throw new PaymentRequestError(429, "tooManyAttempts");
   let link: string;
   try {
     link = await auth.generatePasswordResetLink(email, actionSettings());
   } catch (error) {
     const code = firebaseErrorCode(error);
+    // Adresse inconnue : la tentative compte, comme pour un compte existant, sinon la limite trahirait le compte.
     if (code === "auth/user-not-found" || code === "auth/email-not-found") return;
-    // Échec du serveur, identique quelle que soit l'adresse : 503 sans détail.
+    // Échec du serveur, identique quelle que soit l'adresse : tentative rendue, 503 sans détail.
+    await releaseQuietly(slot);
     throw new ServiceUnavailableError("firebase-auth", code);
   }
   try {
     await sendTemplateMail("reset-password", email, { ConfirmationURL: link, SiteURL: appBaseUrl() });
   } catch (error) {
-    // Ni l'adresse ni le lien ne sont journalisés.
+    // Ni l'adresse ni le lien ne sont journalisés. La tentative n'est pas rendue : une limite différente
+    // d'une adresse inconnue révélerait que le compte existe.
     logServerError("password-reset", error, "envoi refusé");
   }
 }
