@@ -39,6 +39,20 @@ export function SignIn() {
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [busy, setBusy] = useState(false);
+  // Compte dont le serveur a confirmé l'envoi du lien pendant cette visite. Sans cette confirmation,
+  // l'écran ne dit jamais « lien envoyé ».
+  const [linkSentTo, setLinkSentTo] = useState<string | null>(null);
+  const [sending, setSending] = useState(false);
+
+  /** Demande le lien au serveur ; `linkSentTo` n'est rempli qu'après sa réponse positive. */
+  const sendLink = async (send: () => Promise<{ uid: string }>) => {
+    setSending(true);
+    try {
+      setLinkSentTo((await send()).uid);
+    } finally {
+      setSending(false);
+    }
+  };
 
   // Compte permanent : retour direct vers l'édition choisie.
   useEffect(() => {
@@ -60,7 +74,8 @@ export function SignIn() {
     event.preventDefault();
     void run(async () => {
       if (mode === "signUp" && password.length < MIN_PASSWORD) throw new AppError("weakPassword");
-      if (mode === "signUp") await signUpWithEmail(email.trim(), password);
+      // `signUpWithEmail` lève une erreur si le lien n'est pas parti : `linkSentTo` reste alors vide.
+      if (mode === "signUp") await sendLink(() => signUpWithEmail(email.trim(), password));
       else await signInWithEmail(email.trim(), password);
     });
   };
@@ -103,22 +118,31 @@ export function SignIn() {
         if (refreshed?.verified) router.replace(next);
         else await modal.info({ titleKey: "account.verifyStill", bodyKey: "account.verifyStillBody" });
       });
+    const linkSent = linkSentTo === account.uid;
     const resend = () =>
       void run(async () => {
-        await resendVerification();
+        await sendLink(async () => {
+          await resendVerification();
+          return account;
+        });
         await modal.success({ titleKey: "account.verifyResent", bodyKey: "account.verifyResentBody", values: { email: account.email ?? "" } });
       });
+    const values = { email: account.email ?? "" };
+    // Lien confirmé par le serveur, envoi en cours, ou rien de confirmé (échec, ou retour plus tard sur la page).
+    const body = sending ? "account.verifySending" : linkSent ? "account.verifyBody" : "account.verifyPending";
     return (
       <main className="mx-auto flex w-full max-w-md flex-col gap-5 px-4 py-8">
         <section className={card}>
           <MailCheck aria-hidden className="size-10 text-gold" />
           <h1 className="font-display text-3xl font-semibold">{t("account.verifyTitle")}</h1>
-          <p className="text-ink-soft">{t("account.verifyBody", { email: account.email ?? "" })}</p>
-          <button type="button" className={primaryButton} disabled={busy} onClick={recheck}>
+          <p className="text-ink-soft" aria-live="polite">
+            {t(body, values)}
+          </p>
+          <button type="button" className={linkSent ? primaryButton : secondaryButton} disabled={busy} onClick={recheck}>
             {t("account.verifyDone")}
           </button>
-          <button type="button" className={secondaryButton} disabled={busy} onClick={resend}>
-            {t("account.verifyResend")}
+          <button type="button" className={linkSent ? secondaryButton : primaryButton} disabled={busy} onClick={resend}>
+            {t(linkSent ? "account.verifyResend" : "account.verifySend")}
           </button>
           <button type="button" className={`${textLink} self-center`} disabled={busy} onClick={() => void run(signOutAccount)}>
             {t("account.signOut")}

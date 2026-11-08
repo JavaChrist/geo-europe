@@ -16,6 +16,25 @@ export class ServerConfigError extends Error {
   }
 }
 
+/**
+ * Service configuré mais injoignable ou refusant les identifiants du serveur (clé révoquée, réseau, quota).
+ * Ce n'est jamais la faute du joueur : la route répond 503, pas 401. `code` est le code Firebase, sans détail.
+ */
+export class ServiceUnavailableError extends Error {
+  constructor(
+    readonly service: string,
+    readonly code: string,
+  ) {
+    super(`Service indisponible : ${service}${code ? ` (${code})` : ""}`);
+    this.name = "ServiceUnavailableError";
+  }
+}
+
+/** Code d'une erreur Firebase (`auth/id-token-expired`…), ou chaîne vide. */
+export function firebaseErrorCode(error: unknown): string {
+  return typeof error === "object" && error !== null && "code" in error && typeof error.code === "string" ? error.code : "";
+}
+
 let app: App | null = null;
 
 function adminApp(): App {

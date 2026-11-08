@@ -40,6 +40,11 @@ function transport(): Transporter {
   }));
 }
 
+/** Lève `ServerConfigError` si l'envoi n'est pas configuré, avant toute recherche de compte. */
+export function assertMailConfigured(): void {
+  transport();
+}
+
 export interface Attachment {
   filename: string;
   content: string;

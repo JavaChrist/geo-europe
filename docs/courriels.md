@@ -56,6 +56,21 @@ Sans ces variables, rien n'est envoyé et les routes répondent « indisponible 
 
 L'export statique (Android) n'a ni connexion ni ces routes.
 
+## Erreurs et journaux
+
+Les routes de compte et de paiement distinguent deux cas, que l'interface ne confond jamais :
+
+| Cas | Réponse | Message affiché |
+| --- | --- | --- |
+| Jeton absent, invalide, expiré ou révoqué | 401 `unauthenticated` | Session expirée |
+| Firebase Admin non configuré ou injoignable, SMTP non configuré | 503 `unavailable` | Lien non envoyé (vérification), Comptes indisponibles (autres) |
+
+L'écran de confirmation d'adresse ne dit « Un lien de confirmation a été envoyé » qu'après la réponse positive du serveur. Sinon il invite à envoyer le lien.
+
+Pour « Mot de passe oublié », la configuration est contrôlée **avant** la recherche du compte : un 503 vaut pour toutes les adresses. Un échec d'envoi pour un compte existant est journalisé, mais la réponse reste la même que pour une adresse inconnue.
+
+Les journaux du serveur passent par `logServerError` (`src/services/server-log.ts`) : nom, code et message de l'erreur, expurgés par `src/engine/log-safety.ts`. L'objet d'erreur n'est jamais journalisé, car il peut transporter des en-têtes ou une configuration. Jetons, clés privées, clés Mollie, liens d'action et valeurs des variables secrètes sont masqués.
+
 ## Tests
 
 `npm run test:payments` lance un faux serveur SMTP local. Il vérifie :
@@ -65,6 +80,8 @@ L'export statique (Android) n'a ni connexion ni ces routes.
 - la confirmation envoyée par le rattrapage ;
 - le lien de vérification, la limite d'envoi, rien pour une adresse déjà vérifiée ;
 - le mot de passe oublié : même réponse pour une adresse inconnue, sans courriel ;
+- un jeton invalide : 401 ; Firebase Admin non configuré : 503, même réponse pour une adresse connue ou inconnue ;
+- aucun jeton, aucune clé ni aucun lien d'action dans le journal du serveur ;
 - aucune variable laissée vide.
 
 ## Nouveau pays

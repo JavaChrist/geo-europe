@@ -11,6 +11,7 @@ import {
   productIdOf,
   purchaseCheck,
 } from "../src/engine/entitlements.ts";
+import { describeError, redactSecrets } from "../src/engine/log-safety.ts";
 import { assessPayment, centsToDecimal, decimalToCents, nextOrderStatus } from "../src/engine/payments.ts";
 
 // Montants exacts, sans nombre à virgule.
@@ -95,5 +96,31 @@ assert.equal(nextOrderStatus("refunded", "paid"), "refunded");
 assert.equal(nextOrderStatus("charged_back", "paid"), "charged_back");
 assert.equal(nextOrderStatus("paid", "refunded"), "refunded");
 assert.equal(nextOrderStatus("open", "paid"), "paid");
+
+// Journaux du serveur : aucune clé privée, aucun jeton, aucun lien d'action.
+{
+  const jwt = "eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhbGljZSJ9.c2lnbmF0dXJlLWZhdXNzZQ";
+  const pem = "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASC\n-----END PRIVATE KEY-----\n";
+  for (const secret of [jwt, pem, "Bearer abc.def.ghi", "test_abcdefghijklmnopqrstuvwxyz12", "live_abcdefghijklmnopqrstuvwxyz12", "oobCode=AbC123xyz"]) {
+    const out = redactSecrets(`avant ${secret} après`);
+    assert.ok(!out.includes(secret.trim()), `secret masqué : ${secret.slice(0, 12)}`);
+    assert.match(out, /^avant \[masqué\]\s*après$/);
+  }
+  assert.equal(redactSecrets("mot de passe s3cret-tres-long dans le message", ["s3cret-tres-long"]), "mot de passe [masqué] dans le message");
+  assert.equal(redactSecrets("court", ["abc"]), "court", "un secret trop court n'est pas cherché");
+
+  // Seuls nom, code et message sont lus : ni la configuration, ni les en-têtes, ni la cause.
+  const error = Object.assign(new Error(`Decoding failed for ${jwt}`), {
+    code: "auth/argument-error",
+    config: { headers: { Authorization: `Bearer ${jwt}` } },
+    cause: new Error(pem),
+  });
+  const line = describeError(error);
+  assert.ok(line.startsWith("Error (auth/argument-error) : Decoding failed for [masqué]"), line);
+  assert.ok(!line.includes("eyJ") && !line.includes("PRIVATE KEY") && !line.includes("Authorization"));
+  assert.ok(describeError(new Error("x".repeat(1000))).length <= 300);
+  assert.equal(describeError("texte"), "texte");
+  assert.equal(describeError(null), "null");
+}
 
 console.log("Droits et paiements valides.");

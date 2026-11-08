@@ -1,4 +1,5 @@
 import { applyPaymentById } from "@/services/payments/orders";
+import { logServerError } from "@/services/server-log";
 
 // Notification Mollie : elle ne contient que l'identifiant du paiement. L'état officiel est toujours relu chez Mollie.
 export const dynamic = "force-dynamic";
@@ -17,7 +18,7 @@ export async function POST(request: Request) {
     return new Response(null, { status: 200 });
   } catch (error) {
     // Erreur passagère : Mollie renverra la notification plus tard.
-    console.error("[webhook]", error);
+    logServerError("webhook", error, `paiement ${id}`);
     return new Response(null, { status: 500 });
   }
 }

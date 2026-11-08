@@ -15,6 +15,7 @@ export type AppErrorCode =
   | "tooManyAttempts"
   | "sessionExpired"
   | "unverifiedAccount"
+  | "verificationNotSent"
   | "consentMissing"
   | "alreadyOwned"
   | "paymentInProgress"

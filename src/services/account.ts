@@ -79,7 +79,8 @@ export async function signInWithEmail(email: string, password: string): Promise<
 
 /**
  * Crée le compte et envoie le lien de vérification : l'achat reste bloqué tant que l'adresse n'est pas confirmée.
- * Le courriel part du serveur, avec le modèle de JavaChrist-Mail-Kit.
+ * Le courriel part du serveur, avec le modèle de JavaChrist-Mail-Kit. Si l'envoi échoue, le compte existe
+ * quand même et l'erreur est levée : l'interface ne doit alors jamais dire que le lien est parti.
  */
 export async function signUpWithEmail(email: string, password: string): Promise<Account> {
   const { auth } = await client();
@@ -94,8 +95,9 @@ export async function signUpWithEmail(email: string, password: string): Promise<
   return toAccount(user);
 }
 
+/** Se résout seulement si le serveur a accepté l'envoi ; sinon, une erreur `verificationNotSent` (ou réseau, session, limite). */
 export async function resendVerification(): Promise<void> {
-  await callApi<{ sent: boolean }>("/api/account/verification", {}, ACCOUNT_API_ERRORS);
+  await callApi<{ sent: boolean }>("/api/account/verification", {}, VERIFICATION_API_ERRORS);
 }
 
 /** Relit le compte, par exemple après un clic sur le lien de vérification reçu par courriel. */
@@ -206,6 +208,9 @@ const API_ERRORS: Record<string, AppErrorCode> = {
 /** Routes de compte : un service indisponible concerne le compte, pas les paiements. */
 const ACCOUNT_API_ERRORS: Record<string, AppErrorCode> = { ...API_ERRORS, unavailable: "accountUnavailable", invalidRequest: "signInFailed" };
 
+/** Lien de vérification : un échec du serveur veut dire « lien non envoyé », le compte, lui, existe. */
+const VERIFICATION_API_ERRORS: Record<string, AppErrorCode> = { ...ACCOUNT_API_ERRORS, unavailable: "verificationNotSent", unknown: "verificationNotSent" };
+
 async function callApi<T>(path: string, body: unknown, errors: Record<string, AppErrorCode> = API_ERRORS): Promise<T> {
   const { auth } = await client();
   if (!auth.currentUser) throw new AppError("sessionExpired");
@@ -222,7 +227,7 @@ async function callApi<T>(path: string, body: unknown, errors: Record<string, Ap
     throw new AppError("network", { cause });
   }
   const data = (await response.json().catch(() => ({}))) as { error?: string } & T;
-  if (!response.ok) throw new AppError(errors[data.error ?? ""] ?? (errors === API_ERRORS ? "paymentFailed" : "unknown"));
+  if (!response.ok) throw new AppError(errors[data.error ?? ""] ?? errors.unknown ?? (errors === API_ERRORS ? "paymentFailed" : "unknown"));
   return data;
 }
 

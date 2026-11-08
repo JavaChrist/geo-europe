@@ -552,6 +552,10 @@
       "title": "Session expirée",
       "body": "Reconnectez-vous pour continuer."
     },
+    "verificationNotSent": {
+      "title": "Lien non envoyé",
+      "body": "Le lien de confirmation n'a pas pu être envoyé. Votre compte est bien créé : réessayez dans quelques minutes avec Envoyer le lien."
+    },
     "unverifiedAccount": {
       "title": "Adresse à confirmer",
       "body": "Confirmez votre adresse électronique avec le lien reçu par courriel avant d'acheter."
@@ -814,6 +818,9 @@
     "resetEmailMissing": "Indiquez d'abord votre adresse électronique.",
     "verifyTitle": "Confirmez votre adresse",
     "verifyBody": "Un lien de confirmation a été envoyé à {email}. Ouvrez-le, puis revenez ici.",
+    "verifyPending": "Votre adresse {email} n'est pas encore confirmée. Envoyez-vous le lien de confirmation, puis ouvrez-le.",
+    "verifySending": "Envoi du lien de confirmation à {email}…",
+    "verifySend": "Envoyer le lien",
     "verifyDone": "J'ai confirmé mon adresse",
     "verifyResend": "Renvoyer le lien",
     "verifyResent": "Lien renvoyé",

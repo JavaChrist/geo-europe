@@ -21,6 +21,9 @@ const PORT = 3112;
 const MOLLIE_PORT = 4555;
 const SMTP_PORT = 2526;
 const BASE = `http://127.0.0.1:${PORT}`;
+// Second serveur, sans Firebase Admin configuré : vérifie le 503.
+const BARE_PORT = 3113;
+const BARE_BASE = `http://127.0.0.1:${BARE_PORT}`;
 const CRON_SECRET = "test-cron-secret-0123456789";
 const AUTH_HOST = process.env.FIREBASE_AUTH_EMULATOR_HOST;
 const FIRESTORE_HOST = process.env.FIRESTORE_EMULATOR_HOST;
@@ -163,8 +166,8 @@ function readable(raw) {
 }
 const mailsTo = (email) => mails.filter((mail) => mail.to.includes(email)).map((mail) => readable(mail.raw));
 
-async function api(path, token, body) {
-  const response = await fetch(`${BASE}${path}`, {
+async function api(path, token, body, base = BASE) {
+  const response = await fetch(`${base}${path}`, {
     method: "POST",
     headers: { "content-type": "application/json", ...(token && { authorization: `Bearer ${token}` }) },
     body: JSON.stringify(body ?? {}),
@@ -438,6 +441,9 @@ try {
 
   await test("vérification d'adresse : courriel du Mail-Kit avec le lien Firebase", async () => {
     assert.equal((await api("/api/account/verification", null)).status, 401);
+    const invalid = await api("/api/account/verification", "jeton-invalide");
+    assert.equal(invalid.status, 401, "jeton invalide : 401, pas 503");
+    assert.equal(invalid.body.error, "unauthenticated");
     const result = await api("/api/account/verification", nonVerifie.token);
     assert.equal(result.status, 200, JSON.stringify(result.body));
     assert.equal(result.body.sent, true);
@@ -481,6 +487,59 @@ try {
     await denied(getDoc(doc(db, "autre/x")));
     await denied(getDoc(doc(db, "mailThrottle/x")));
     await signOut(auth);
+  });
+
+  await test("Firebase Admin non configuré : 503 « unavailable », jamais 401, même réponse pour toute adresse", async () => {
+    const inherited = { ...process.env };
+    delete inherited.FIREBASE_ADMIN_PROJECT_ID;
+    const bare = spawn(process.execPath, ["node_modules/next/dist/bin/next", "start", "-p", String(BARE_PORT)], {
+      env: {
+        ...inherited,
+        APP_BASE_URL: BARE_BASE,
+        SMTP_HOST: "127.0.0.1",
+        SMTP_PORT: String(SMTP_PORT),
+        SMTP_USER: "test",
+        SMTP_PASSWORD: "test",
+        MAIL_FROM: "GéoFR <no-reply@example.test>",
+      },
+      stdio: ["ignore", "pipe", "pipe"],
+    });
+    let bareLog = "";
+    bare.stdout.on("data", (chunk) => (bareLog += chunk));
+    bare.stderr.on("data", (chunk) => (bareLog += chunk));
+    try {
+      for (let attempt = 0; ; attempt += 1) {
+        try {
+          if ((await fetch(`${BARE_BASE}/api/health`)).ok) break;
+        } catch {}
+        if (attempt > 120) throw new Error(`Second serveur Next injoignable\n${bareLog}`);
+        await new Promise((resolve) => setTimeout(resolve, 500));
+      }
+      const before = mails.length;
+      const verification = await api("/api/account/verification", nonVerifie.token, {}, BARE_BASE);
+      assert.equal(verification.status, 503, JSON.stringify(verification.body));
+      assert.equal(verification.body.error, "unavailable");
+      const order = await api("/api/payments/checkout", alice.token, { editionId: "solo_ads", consent }, BARE_BASE);
+      assert.equal(order.status, 503);
+      assert.equal(order.body.error, "unavailable");
+      const known = await api("/api/account/password-reset", null, { email: bruno.email }, BARE_BASE);
+      const unknown = await api("/api/account/password-reset", null, { email: "personne@example.test" }, BARE_BASE);
+      assert.equal(known.status, 503);
+      assert.deepEqual(known, unknown, "même réponse que le compte existe ou non");
+      assert.equal(mails.length, before, "aucun courriel sans configuration");
+      assert.match(bareLog, /FIREBASE_ADMIN_PROJECT_ID/, "la cause est journalisée");
+      assert.ok(!bareLog.includes(nonVerifie.token) && !bareLog.includes(alice.token), "aucun jeton dans le journal");
+    } finally {
+      if (process.platform === "win32" && bare.pid) spawnSync("taskkill", ["/pid", String(bare.pid), "/T", "/F"], { stdio: "ignore" });
+      else bare.kill();
+    }
+  });
+
+  await test("journal du serveur : aucun jeton, aucune clé, aucun lien d'action", async () => {
+    for (const user of [alice, bruno, chloe, david, nonVerifie]) assert.ok(!serverLog.includes(user.token), `jeton de ${user.email}`);
+    assert.ok(!serverLog.includes("test_mockkeymockkeymockkeymockke"), "clé Mollie");
+    assert.ok(!serverLog.includes(CRON_SECRET), "secret du rattrapage");
+    assert.doesNotMatch(serverLog, /Bearer |oobCode=|PRIVATE KEY/);
   });
 
   console.log(`\n${passed} tests d'intégration réussis.`);

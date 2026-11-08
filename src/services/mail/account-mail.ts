@@ -2,10 +2,11 @@ import { createHash } from "node:crypto";
 import content from "@country";
 import type { ActionCodeSettings } from "firebase-admin/auth";
 import { Timestamp } from "firebase-admin/firestore";
-import { adminAuth, adminDb } from "@/services/firebase/admin";
+import { adminAuth, adminDb, firebaseErrorCode, ServiceUnavailableError } from "@/services/firebase/admin";
 import { appBaseUrl } from "@/services/payments/mollie";
 import { PaymentRequestError, type Buyer } from "@/services/payments/orders";
-import { sendTemplateMail } from "./smtp";
+import { logServerError } from "@/services/server-log";
+import { assertMailConfigured, sendTemplateMail } from "./smtp";
 
 /**
  * Courriels de compte envoyés par le serveur avec les modèles du Mail-Kit, à la place de ceux de Firebase.
@@ -55,17 +56,30 @@ export async function sendVerificationMail(buyer: Buyer): Promise<{ sent: boolea
 
 const EMAIL = /^[^\s@]{1,64}@[^\s@]{1,255}\.[^\s@]{2,63}$/;
 
-/** Réinitialisation du mot de passe. Même réponse que le compte existe ou non, pour ne rien révéler. */
+/**
+ * Réinitialisation du mot de passe. Même réponse que le compte existe ou non, pour ne rien révéler :
+ * - la configuration (Firebase Admin, SMTP) est contrôlée avant toute recherche du compte, donc un 503 vaut pour toutes les adresses ;
+ * - adresse inconnue : aucun envoi, réponse normale ;
+ * - échec d'envoi pour un compte existant : journalisé, réponse normale aussi, sinon l'échec trahirait le compte.
+ */
 export async function sendPasswordResetMail(email: string): Promise<void> {
   if (!EMAIL.test(email) || email.length > 320) throw new PaymentRequestError(400, "invalidRequest");
+  assertMailConfigured();
+  const auth = adminAuth();
   if (!(await allowSend("reset", email))) throw new PaymentRequestError(429, "tooManyAttempts");
   let link: string;
   try {
-    link = await adminAuth().generatePasswordResetLink(email, actionSettings());
+    link = await auth.generatePasswordResetLink(email, actionSettings());
   } catch (error) {
-    const code = typeof error === "object" && error !== null && "code" in error ? String(error.code) : "";
+    const code = firebaseErrorCode(error);
     if (code === "auth/user-not-found" || code === "auth/email-not-found") return;
-    throw error;
+    // Échec du serveur, identique quelle que soit l'adresse : 503 sans détail.
+    throw new ServiceUnavailableError("firebase-auth", code);
   }
-  await sendTemplateMail("reset-password", email, { ConfirmationURL: link, SiteURL: appBaseUrl() });
+  try {
+    await sendTemplateMail("reset-password", email, { ConfirmationURL: link, SiteURL: appBaseUrl() });
+  } catch (error) {
+    // Ni l'adresse ni le lien ne sont journalisés.
+    logServerError("password-reset", error, "envoi refusé");
+  }
 }

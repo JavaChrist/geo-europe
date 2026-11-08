@@ -5,8 +5,9 @@ import { findEdition } from "@/engine/editions";
 import { assessPayment, type PaymentMismatch, type PaymentProvider } from "@/engine/payments";
 import type { EditionId } from "@/engine/types";
 import { getTranslator, type TranslationKey } from "@/i18n/translator";
-import { adminAuth, adminDb } from "@/services/firebase/admin";
+import { adminAuth, adminDb, firebaseErrorCode, ServiceUnavailableError } from "@/services/firebase/admin";
 import { sendPurchaseConfirmation } from "@/services/mail/purchase-mail";
+import { logServerError } from "@/services/server-log";
 import { mollieProvider } from "./mollie";
 
 /**
@@ -41,18 +42,40 @@ export interface Buyer {
 }
 
 /**
+ * Codes Firebase qui mettent en cause le jeton ou le compte du joueur : lui seul peut y remédier en se reconnectant.
+ * Tout autre échec (identifiants du serveur refusés, réseau, quota) vient du serveur et donne 503.
+ */
+const INVALID_TOKEN_CODES = new Set([
+  "auth/argument-error",
+  "auth/invalid-id-token",
+  "auth/id-token-expired",
+  "auth/id-token-revoked",
+  "auth/user-disabled",
+  "auth/user-not-found",
+  "auth/user-token-expired",
+]);
+
+/**
  * Vérifie le jeton Firebase (signature, expiration, révocation). Un achat exige un compte permanent :
  * Google, ou adresse électronique vérifiée.
+ *
+ * - jeton absent, invalide, expiré ou révoqué : 401 `unauthenticated` ;
+ * - Firebase Admin non configuré (`ServerConfigError`) ou injoignable (`ServiceUnavailableError`) : 503 `unavailable`.
+ * Le jeton n'est jamais journalisé.
  */
 export async function verifyBuyer(request: Request, { requireVerified }: { requireVerified: boolean }): Promise<Buyer> {
   const header = request.headers.get("authorization") ?? "";
   const token = /^Bearer (.+)$/.exec(header)?.[1];
   if (!token) throw new PaymentRequestError(401, "unauthenticated");
+  // Hors du try : une configuration manquante remonte telle quelle, et n'est pas prise pour un jeton invalide.
+  const auth = adminAuth();
   let decoded;
   try {
-    decoded = await adminAuth().verifyIdToken(token, true);
-  } catch {
-    throw new PaymentRequestError(401, "unauthenticated");
+    decoded = await auth.verifyIdToken(token, true);
+  } catch (error) {
+    const code = firebaseErrorCode(error);
+    if (INVALID_TOKEN_CODES.has(code)) throw new PaymentRequestError(401, "unauthenticated");
+    throw new ServiceUnavailableError("firebase-auth", code);
   }
   if (requireVerified) {
     const method = decoded.firebase.sign_in_provider;
@@ -230,7 +253,7 @@ export async function applyPaymentById(providerPaymentId: string): Promise<Apply
   // Paiement confirmé : confirmation d'achat, une seule fois par commande. Un échec d'envoi ne remet pas
   // en cause le paiement enregistré : il est journalisé, et le rattrapage quotidien réessaie.
   if (outcome?.status === "paid") {
-    await sendPurchaseConfirmation(outcome.id).catch((error: unknown) => console.error(`[confirmation] commande ${outcome.id}`, error));
+    await sendPurchaseConfirmation(outcome.id).catch((error: unknown) => logServerError("confirmation", error, `commande ${outcome.id}`));
   }
   return outcome;
 }
