@@ -455,6 +455,8 @@ try {
     assert.equal(result.body.sent, true);
     const [mail] = mailsTo(nonVerifie.email);
     assert.match(mail, /mode=verifyEmail/);
+    assert.ok(mail.includes(`http://localhost:${PORT}/connexion/lien?mode=verifyEmail`), "lien vers la page de l'application");
+    assert.doesNotMatch(mail, /__\/auth\/action|apiKey=/, "jamais la page générique de Firebase");
     assert.match(mail, /oobCode=/);
     assert.doesNotMatch(mail, /{{/);
     assert.equal((await api("/api/account/verification", nonVerifie.token)).status, 429, "un envoi par minute");
@@ -478,6 +480,8 @@ try {
     assert.equal((await api("/api/account/password-reset", null, { email: chloe.email })).status, 200);
     const [mail] = mailsTo(chloe.email);
     assert.match(mail, /mode=resetPassword/);
+    assert.ok(mail.includes(`http://localhost:${PORT}/connexion/lien?mode=resetPassword`), "lien vers la page de l'application");
+    assert.doesNotMatch(mail, /__\/auth\/action|apiKey=/, "jamais la page générique de Firebase");
     assert.doesNotMatch(mail, /{{/);
     assert.equal((await api("/api/account/password-reset", null, { email: chloe.email })).status, 429);
     assert.equal((await api("/api/account/password-reset", null, { email: "pas-une-adresse" })).status, 400);

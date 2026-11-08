@@ -16,6 +16,7 @@ export type AppErrorCode =
   | "sessionExpired"
   | "unverifiedAccount"
   | "verificationNotSent"
+  | "actionLinkInvalid"
   | "consentMissing"
   | "alreadyOwned"
   | "paymentInProgress"

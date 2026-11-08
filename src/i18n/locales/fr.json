@@ -579,6 +579,10 @@
     "paymentsUnavailable": {
       "title": "Achats indisponibles",
       "body": "Les achats sont momentanément indisponibles. Aucun montant n'a été demandé."
+    },
+    "actionLinkInvalid": {
+      "title": "Lien expiré ou déjà utilisé",
+      "body": "Ce lien n'est plus valable. Demandez-en un nouveau depuis l'écran de connexion."
     }
   },
   "notFound": {
@@ -839,7 +843,27 @@
     "offline": "Vos achats ne peuvent pas être vérifiés pour le moment. L'accès gratuit reste disponible ; vos éditions reviendront dès que la connexion sera rétablie.",
     "unavailable": "Les comptes et les achats ne sont pas disponibles dans cette version.",
     "signInCta": "Se connecter ou créer un compte",
-    "loading": "Chargement"
+    "loading": "Chargement",
+    "link": {
+      "checking": "Vérification du lien…",
+      "invalidTitle": "Lien non valable",
+      "invalidBody": "Ce lien est incomplet, expiré ou déjà utilisé. Demandez-en un nouveau depuis l'écran de connexion.",
+      "toSignIn": "Aller à la connexion",
+      "verifyTitle": "Confirmer votre adresse",
+      "verifyBody": "Confirmez votre adresse électronique pour pouvoir acheter une édition.",
+      "verifyAction": "Confirmer mon adresse",
+      "verifying": "Confirmation…",
+      "verifiedTitle": "Adresse confirmée",
+      "verifiedBody": "Votre adresse est confirmée. Vous pouvez maintenant choisir votre édition.",
+      "continue": "Continuer vers la boutique",
+      "resetTitle": "Nouveau mot de passe",
+      "resetBody": "Choisissez un nouveau mot de passe pour {email}.",
+      "resetAction": "Enregistrer le mot de passe",
+      "resetting": "Enregistrement…",
+      "resetDoneTitle": "Mot de passe modifié",
+      "resetDoneBody": "Votre nouveau mot de passe est enregistré. Connectez-vous avec lui.",
+      "signIn": "Se connecter"
+    }
   },
   "shop": {
     "title": "Boutique",

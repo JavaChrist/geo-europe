@@ -20,6 +20,21 @@ const MAX_PER_WINDOW = 5;
 /** Retour sur l'application après le clic dans le courriel. */
 const actionSettings = (): ActionCodeSettings => ({ url: `${appBaseUrl()}/connexion` });
 
+/**
+ * Le courriel pointe vers notre page `/connexion/lien`, pas vers la page générique de Firebase.
+ * Seuls le mode et le code à usage unique du lien Firebase sont repris.
+ */
+function appActionLink(firebaseLink: string): string {
+  const source = new URL(firebaseLink);
+  const mode = source.searchParams.get("mode");
+  const oobCode = source.searchParams.get("oobCode");
+  if (!mode || !oobCode) throw new Error("Lien d'action Firebase incomplet");
+  const target = new URL("/connexion/lien", appBaseUrl());
+  target.searchParams.set("mode", mode);
+  target.searchParams.set("oobCode", oobCode);
+  return target.toString();
+}
+
 type Throttle = { lastAt: number; windowStart: number; count: number; expireAt: Timestamp };
 
 /** Envoi accepté par la limite. `release` rend la tentative si le serveur n'a pas pu envoyer. */
@@ -78,7 +93,7 @@ export async function sendVerificationMail(buyer: Buyer): Promise<{ sent: boolea
   const slot = await allowSend("verify", user.email);
   if (!slot) throw new PaymentRequestError(429, "tooManyAttempts");
   try {
-    const link = await adminAuth().generateEmailVerificationLink(user.email, actionSettings());
+    const link = appActionLink(await adminAuth().generateEmailVerificationLink(user.email, actionSettings()));
     await sendTemplateMail("confirmation", user.email, { ConfirmationURL: link, SiteURL: appBaseUrl() });
   } catch (error) {
     await releaseQuietly(slot);
@@ -103,7 +118,7 @@ export async function sendPasswordResetMail(email: string): Promise<void> {
   if (!slot) throw new PaymentRequestError(429, "tooManyAttempts");
   let link: string;
   try {
-    link = await auth.generatePasswordResetLink(email, actionSettings());
+    link = appActionLink(await auth.generatePasswordResetLink(email, actionSettings()));
   } catch (error) {
     const code = firebaseErrorCode(error);
     // Adresse inconnue : la tentative compte, comme pour un compte existant, sinon la limite trahirait le compte.

@@ -8,7 +8,15 @@ GéoFR envoie trois courriels, tous depuis le serveur, avec les modèles de Java
 | `reset-password` | « Mot de passe oublié » | `POST /api/account/password-reset` |
 | `purchase-confirmation` | Paiement confirmé | Notification Mollie, synchronisation ou rattrapage quotidien |
 
-Firebase n'envoie plus lui-même ces courriels. Firebase Admin crée le lien d'action (`generateEmailVerificationLink`, `generatePasswordResetLink`), qui ramène sur `/connexion` après le clic. La page qui applique le lien reste celle de Firebase Authentication.
+Firebase n'envoie plus lui-même ces courriels. Firebase Admin crée le lien d'action (`generateEmailVerificationLink`, `generatePasswordResetLink`). Le serveur n'en garde que le mode et le code à usage unique, et le courriel pointe vers la page de l'application `/connexion/lien?mode=…&oobCode=…`, jamais vers la page générique de Firebase (`__/auth/action`).
+
+La page `/connexion/lien` (`src/features/account/AuthLink.tsx`) :
+
+- confirmation d'adresse : un bouton « Confirmer mon adresse » applique le code (un clic est demandé, pour qu'un logiciel qui ouvre les liens d'un courriel ne le consomme pas), puis renvoie vers la boutique ;
+- nouveau mot de passe : le lien est vérifié sans être consommé, puis le joueur choisit son mot de passe (8 caractères au moins) ;
+- lien expiré, déjà utilisé ou incomplet : message `actionLinkInvalid` et retour à la connexion, d'où un nouveau lien peut être demandé.
+
+Le code est retiré de la barre d'adresse et de l'historique dès sa lecture, la page n'envoie pas d'adresse de provenance (`referrer: no-referrer`) et n'est pas indexée. Les appels Firebase restent dans `src/services/account.ts`.
 
 ## Modèles
 

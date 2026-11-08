@@ -131,6 +131,51 @@ export async function sendPasswordReset(email: string): Promise<void> {
   throw new AppError(ACCOUNT_API_ERRORS[data.error ?? ""] ?? "unknown");
 }
 
+// --- Liens reçus par courriel (page /connexion/lien) -------------------------------------------------------------
+
+/** Lien expiré, déjà utilisé ou falsifié : une seule erreur, sans détail. */
+function actionLinkError(cause: unknown): AppError {
+  const code = typeof cause === "object" && cause !== null && "code" in cause ? String((cause as { code: unknown }).code) : "";
+  if (code === "auth/weak-password") return new AppError("weakPassword", { cause });
+  if (["auth/invalid-action-code", "auth/expired-action-code", "auth/user-disabled", "auth/user-not-found", "auth/argument-error"].includes(code)) {
+    return new AppError("actionLinkInvalid", { cause });
+  }
+  return accountError(cause);
+}
+
+/** Confirme l'adresse du compte. Si ce compte est connecté sur cet appareil, sa session est rafraîchie. */
+export async function confirmEmailLink(oobCode: string): Promise<void> {
+  const { auth } = await client();
+  const { applyActionCode } = await import("firebase/auth");
+  try {
+    await applyActionCode(auth, oobCode);
+  } catch (cause) {
+    throw actionLinkError(cause);
+  }
+  if (auth.currentUser) await reloadAccount().catch(() => undefined);
+}
+
+/** Vérifie le lien de nouveau mot de passe sans le consommer, et donne l'adresse du compte concerné. */
+export async function checkPasswordResetLink(oobCode: string): Promise<string> {
+  const { auth } = await client();
+  const { verifyPasswordResetCode } = await import("firebase/auth");
+  try {
+    return await verifyPasswordResetCode(auth, oobCode);
+  } catch (cause) {
+    throw actionLinkError(cause);
+  }
+}
+
+export async function confirmPasswordResetLink(oobCode: string, password: string): Promise<void> {
+  const { auth } = await client();
+  const { confirmPasswordReset } = await import("firebase/auth");
+  try {
+    await confirmPasswordReset(auth, oobCode, password);
+  } catch (cause) {
+    throw actionLinkError(cause);
+  }
+}
+
 export async function signOutAccount(): Promise<void> {
   const { auth } = await client();
   const { signOut } = await import("firebase/auth");
