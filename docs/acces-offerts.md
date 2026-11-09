@@ -24,7 +24,11 @@ Les écrans de jeu ne changent pas. Ils lisent déjà `familyAccess` (Mode Famil
 
 ## Ajouter ou retirer un bénéficiaire
 
-Page `/admin/acces-offerts`, réservée aux administrateurs. Aucun menu n'y mène. Elle répond 404 dans l'export statique (Android).
+Page `/admin/acces-offerts`, réservée aux administrateurs. Elle répond 404 dans l'export statique (Android).
+
+Le Profil affiche le bouton « Gérer les accès offerts » seulement aux administrateurs : le panneau Compte appelle `POST /api/admin/grants` avec `action: "status"`, qui passe par la même vérification que les autres actions (403 sinon). Ce bouton n'ouvre rien à lui seul : la page et chaque action revérifient l'administrateur côté serveur.
+
+Être administrateur ne donne pas l'accès offert. Pour en profiter, l'administrateur ajoute aussi sa propre adresse à la liste.
 
 | Action | Effet |
 | --- | --- |

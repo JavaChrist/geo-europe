@@ -15,6 +15,9 @@ export async function POST(request: Request) {
     const admin = await verifyAdmin(request);
     const body = await readJson(request);
     switch (body.action) {
+      case "status":
+        // Sert seulement à afficher le lien du Profil : la page et chaque action revérifient l'administrateur.
+        return Response.json({ admin: true }, { headers: noStore });
       case "list":
         return Response.json(
           { grants: await listGrants() },

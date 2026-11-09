@@ -5,15 +5,20 @@ import {
   Gift,
   LogOut,
   RefreshCw,
+  ShieldCheck,
   ShoppingBag,
   UserRound,
 } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import content from "@country";
 import { useTranslation } from "@/i18n/I18nProvider";
 import type { TranslationKey } from "@/i18n/translator";
-import { requestRestore, signOutAccount } from "@/services/account";
+import {
+  checkOfferedAccessAdmin,
+  requestRestore,
+  signOutAccount,
+} from "@/services/account";
 import { useModal } from "@/ui/modal/ModalProvider";
 import { primaryButton, secondaryButton, textLink } from "@/ui/styles";
 import { useEntitlements } from "./EntitlementsProvider";
@@ -24,6 +29,14 @@ export function AccountPanel() {
   const modal = useModal();
   const { account, entitlements, status, enabled } = useEntitlements();
   const [busy, setBusy] = useState(false);
+  // Compte reconnu administrateur par le serveur. Le lien n'ouvre rien à lui seul : la page revérifie tout.
+  const [adminUid, setAdminUid] = useState<string | null>(null);
+  const uid = enabled && account?.verified ? account.uid : null;
+  useEffect(() => {
+    if (!uid) return;
+    checkOfferedAccessAdmin().then((admin) => setAdminUid(admin ? uid : null));
+  }, [uid]);
+  const isAdmin = uid !== null && adminUid === uid;
 
   if (!enabled) return null;
 
@@ -122,6 +135,12 @@ export function AccountPanel() {
             <RefreshCw aria-hidden className="size-5" />
             {t("account.restore")}
           </button>
+          {isAdmin && (
+            <Link href="/admin/acces-offerts" className={secondaryButton}>
+              <ShieldCheck aria-hidden className="size-5" />
+              {t("account.adminLink")}
+            </Link>
+          )}
           <button
             type="button"
             className={`${textLink} self-center`}

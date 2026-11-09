@@ -520,7 +520,8 @@
   "soon": {
     "profile": {
       "title": "Profil",
-      "body": "Vous pourrez bientôt créer vos profils de joueurs et suivre votre parcours."
+      "body": "Votre compte, votre progression et vos récompenses.",
+      "playersSoon": "Profils de joueurs multiples : bientôt disponible."
     },
     "region": {
       "body": "Cette étape du voyage se prépare : photos, questions et anecdotes arriveront ici."
@@ -905,7 +906,8 @@
       "signIn": "Se connecter"
     },
     "offered": "Accès {appName} offert — Édition Famille complète, sans publicité",
-    "offeredBody": "Toutes les régions, tous les niveaux et défis, le Mode Famille, l'album et les badges, sans publicité ni promotion. Aucun achat n'est nécessaire."
+    "offeredBody": "Toutes les régions, tous les niveaux et défis, le Mode Famille, l'album et les badges, sans publicité ni promotion. Aucun achat n'est nécessaire.",
+    "adminLink": "Gérer les accès offerts"
   },
   "shop": {
     "title": "Boutique",

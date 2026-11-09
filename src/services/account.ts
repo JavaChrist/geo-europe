@@ -414,6 +414,20 @@ const ADMIN_API_ERRORS: Record<string, AppErrorCode> = {
   invalidRequest: "unknown",
 };
 
+/**
+ * Vrai si le serveur reconnaît ce compte comme administrateur de l'application. Sert uniquement à afficher le lien
+ * vers l'administration : tout refus ou toute panne donne `false`, sans fenêtre d'erreur.
+ */
+export const checkOfferedAccessAdmin = () =>
+  callApi<{ admin: boolean }>(
+    "/api/admin/grants",
+    { action: "status" },
+    ADMIN_API_ERRORS,
+  ).then(
+    (data) => data.admin === true,
+    () => false,
+  );
+
 export const listOfferedAccess = () =>
   callApi<{ grants: GrantRecord[] }>(
     "/api/admin/grants",

@@ -507,6 +507,11 @@ try {
     const autrePays = await newUser("admin-geode");
     await admin.db.doc(`admins/${autrePays.uid}`).set({ apps: ["geode"] });
     assert.equal((await grants(autrePays, { action: "list" })).body.error, "forbidden");
+    assert.equal((await grants(bruno, { action: "status" })).status, 403, "le lien du Profil reste caché à un joueur");
+    assert.equal((await grants(autrePays, { action: "status" })).status, 403, "ni à l'administrateur d'un autre pays");
+    const statut = await grants(administrateur, { action: "status" });
+    assert.equal(statut.status, 200);
+    assert.equal(statut.body.admin, true);
     assert.equal((await grants(bruno, { action: "add", email: bruno.email })).status, 403, "un joueur ne s'ajoute pas lui-même");
     assert.equal(await grantOf(bruno.email), null);
   });
