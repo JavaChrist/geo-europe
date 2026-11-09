@@ -78,7 +78,8 @@ export class PaymentRequestError extends Error {
       | "forbidden"
       | "invalidEmail"
       | "alreadyGranted"
-      | "notGranted",
+      | "notGranted"
+      | "alreadyDecided",
   ) {
     super(code);
     this.name = "PaymentRequestError";

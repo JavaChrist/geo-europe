@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getLegalValues } from "@/features/privacy/legal-values";
 import { LegalDocument } from "@/features/privacy/LegalDocument";
@@ -5,6 +6,7 @@ import { LocalResultsDelete, LocalResultsList } from "@/features/privacy/LocalRe
 import { PRIVACY_SECTIONS } from "@/features/privacy/sections";
 import { getTranslator } from "@/i18n/translator";
 import { BackLink } from "@/ui/BackLink";
+import { secondaryButton } from "@/ui/styles";
 
 // Export statique : seules les rubriques connues existent comme pages.
 export const dynamicParams = false;
@@ -39,6 +41,12 @@ export default async function PrivacySectionPage({ params }: { params: Promise<{
           <p className="text-ink-soft">{t(block.bodyKey, values)}</p>
         </section>
       ))}
+
+      {section.withdrawalLink && (
+        <Link href="/retractation" className={`${secondaryButton} self-start`}>
+          {t("account.withdrawalLink")}
+        </Link>
+      )}
 
       <BackLink href="/profil/confidentialite" label={t("privacy.backToHub")} />
     </main>

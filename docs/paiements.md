@@ -64,7 +64,7 @@ Une commande ne revient jamais d'un état final vers un état antérieur (`nextO
 
 ### Rattrapage
 
-`GET /api/payments/reconcile` relit chez Mollie les commandes en cours et les commandes payées depuis moins de 180 jours (remboursement ou contestation tardifs), et corrige les droits si une notification a été perdue. La route exige l'en-tête `Authorization: Bearer <CRON_SECRET>`, que Vercel Cron envoie de lui-même. La tâche est déclarée dans `vercel.json`, une fois par jour, ce que permet l'offre Hobby.
+`GET /api/payments/reconcile` relit chez Mollie les commandes en cours, renvoie les accusés de rétractation non partis, et les commandes payées depuis moins de 180 jours (remboursement ou contestation tardifs), et corrige les droits si une notification a été perdue. La route exige l'en-tête `Authorization: Bearer <CRON_SECRET>`, que Vercel Cron envoie de lui-même. La tâche est déclarée dans `vercel.json`, une fois par jour, ce que permet l'offre Hobby.
 
 ### Restauration
 
@@ -80,8 +80,9 @@ Il y a deux façons de retrouver ses droits :
 | `orders/{id}` | Compte, application, édition, montant et devise lus par le serveur, mode, statut, paiement Mollie, remboursements, consentements avec version des CGV et date, historique | Serveur uniquement |
 | `entitlements/{app}/users/{uid}` | Droits calculés, accès offert (`granted`), commandes sources, date | Serveur uniquement |
 | `grants/{app}/emails/{adresse}`, `admins/{uid}` | Accès offerts et administrateurs ([acces-offerts.md](acces-offerts.md)) | Serveur et `scripts/admin.mjs` uniquement |
+| `withdrawals/{app}/requests/{id}` | Demandes de rétractation ([retractation.md](retractation.md)) | Serveur uniquement |
 
-`firestore.rules` permet seulement à un joueur connecté de lire ses propres droits et commandes. Toute écriture depuis le navigateur est refusée, et `grants` comme `admins` ne sont même pas lisibles. Le serveur écrit avec Firebase Admin, qui n'existe que dans les routes `route.server.ts`.
+`firestore.rules` permet seulement à un joueur connecté de lire ses propres droits et commandes. Toute écriture depuis le navigateur est refusée, et `grants`, `admins` comme `withdrawals` ne sont même pas lisibles. Le serveur écrit avec Firebase Admin, qui n'existe que dans les routes `route.server.ts`.
 
 Les règles se publient avec la commande suivante :
 
@@ -146,7 +147,7 @@ Elles se règlent dans Vercel, et en local dans `.env.local`, qui n'est jamais v
 - les contrôles d'un paiement ;
 - les transitions de statut.
 
-`npm run test:payments` lance les émulateurs Auth et Firestore, un faux Mollie local en HTTPS, un faux serveur SMTP et le serveur Next. Il faut d'abord lancer `npm run build`, puis Java pour l'émulateur Firestore. Il couvre 39 scénarios :
+`npm run test:payments` lance les émulateurs Auth et Firestore, un faux Mollie local en HTTPS, un faux serveur SMTP et le serveur Next. Il faut d'abord lancer `npm run build`, puis Java pour l'émulateur Firestore. Il couvre 44 scénarios :
 
 - refus sans compte, avec une adresse non confirmée ou sans consentement ;
 - prix lu par le serveur ;
@@ -162,6 +163,7 @@ Elles se règlent dans Vercel, et en local dans `.env.local`, qui n'est jamais v
 - rattrapage ;
 - confirmation d'achat envoyée une seule fois, vérification d'adresse et mot de passe oublié ([courriels.md](courriels.md)) ;
 - accès offerts : administration, ajout avant ou après le compte, adresse non vérifiée, révocation, achat conservé ([acces-offerts.md](acces-offerts.md#tests)) ;
+- rétractation : demande sans compte, commande d'un autre joueur, Google Play, administration, rattrapage de l'accusé ([retractation.md](retractation.md)) ;
 - règles Firestore.
 
 Sous Windows, si l'émulateur Firestore échoue avec « Unable to establish loopback connection », donner à Java un dossier temporaire court sans accent :
@@ -190,7 +192,7 @@ Rien de ceci n'est fait. Chaque point demande la validation de Christian.
 
 - [ ] Tests de bout en bout en mode test Mollie sur le site déployé, remboursement compris.
 - [ ] **Confirmation sur support durable.** Construite : courriel du Mail-Kit après paiement, avec l'édition, le prix, la date, le numéro de commande, l'accès immédiat et les CGV jointes ([courriels.md](courriels.md)). Reste à régler l'envoi SMTP dans Vercel, à la recevoir lors d'un achat de test, et à faire valider son texte par Christian.
-- [ ] **Fonction de rétractation en ligne**, obligatoire depuis le 19 juin 2026. Elle n'est pas encore construite, et les CGV portent encore « À COMPLÉTER » pour son lien.
+- [ ] **Fonction de rétractation en ligne**, obligatoire depuis le 19 juin 2026. Construite : `/retractation` ([retractation.md](retractation.md)). Reste à renseigner `withdrawalAction` dans le Legal Kit après validation, à régénérer et copier les CGV, et à tester le parcours sur le site déployé.
 - [ ] **Facturation**, et vendeur selon le canal (points « À COMPLÉTER » des CGV).
 - [ ] **Legal Kit.** `apps/geofr.json` déclare encore `accounts: false`, et ne cite ni Firebase Authentication ni Mollie parmi les traitements et prestataires. La configuration est à mettre à jour dans le kit, puis les documents sont à régénérer et à copier. Christian relit et remplit `review` lui-même.
 - [ ] Politique du remboursement partiel : droits conservés aujourd'hui.

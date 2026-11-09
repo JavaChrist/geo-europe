@@ -16,6 +16,7 @@ GéoFR est le premier jeu de la collection Géo Europe. Le même code sert à to
 | [acces-offerts.md](acces-offerts.md) | Édition Famille sans publicité offerte à des adresses autorisées : administration, premier administrateur, règles Firestore, Android, tests |
 | [promotions.md](promotions.md) | Vidéos JavaChrist-Promotions entre deux parties : catalogue, lecteur, fréquence, éditions sans publicités, âge, nouveau pays |
 | [courriels.md](courriels.md) | Courriels de compte et confirmation d'achat : modèles de JavaChrist-Mail-Kit, envoi SMTP, limites, tests |
+| [retractation.md](retractation.md) | Fonction de rétractation en ligne : parcours, rattachement, conditions légales, Mollie et Google Play, administration, autre pays |
 
 ## Fichiers de relecture
 

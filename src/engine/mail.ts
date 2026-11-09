@@ -2,13 +2,14 @@
  * Modèles de courriels produits par JavaChrist-Mail-Kit et copiés par `scripts/sync-mail.mjs`.
  * Les variables du kit ont la forme `{{ .Nom }}`. Toute valeur est échappée avant d'entrer dans le HTML.
  */
-export type MailKind = "confirmation" | "reset-password" | "purchase-confirmation";
+export type MailKind = "confirmation" | "reset-password" | "purchase-confirmation" | "withdrawal-receipt";
 
 /** Modèles utilisés par l'application, et les variables que chacun doit contenir. Lu par la copie et par `npm run check`. */
 export const MAIL_VARIABLES: Record<MailKind, readonly string[]> = {
   confirmation: ["ConfirmationURL"],
   "reset-password": ["ConfirmationURL"],
   "purchase-confirmation": ["ProductName", "Amount", "PurchaseDate", "OrderId", "TermsURL", "SiteURL"],
+  "withdrawal-receipt": ["ReceivedAt", "RequestId", "CustomerName", "CustomerEmail", "PaymentMethod", "OrderReference", "Message", "TermsURL"],
 };
 
 export interface MailTemplate {
@@ -68,3 +69,7 @@ export const formatAmount = (cents: number, currency: string, locale: string): s
 /** Date et heure d'achat, dans le fuseau du pays. */
 export const formatPurchaseDate = (date: Date, locale: string, timeZone: string): string =>
   new Intl.DateTimeFormat(locale, { dateStyle: "long", timeStyle: "short", timeZone }).format(date);
+
+/** Horodatage d'une demande de rétractation : date, heure à la seconde et fuseau, dans le fuseau du pays. */
+export const formatReceivedAt = (date: Date, locale: string, timeZone: string): string =>
+  new Intl.DateTimeFormat(locale, { dateStyle: "long", timeStyle: "long", timeZone }).format(date);

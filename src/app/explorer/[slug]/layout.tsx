@@ -7,7 +7,7 @@ import { administrativeTerritoryOf, territoriesOf } from "@/features/journey/ter
 export default async function RegionLayout({ children, params }: { children: ReactNode; params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const region = content.regions.find((candidate) => candidate.slug === slug);
-  // Une région sans parcours n'a rien à verrouiller : sa page « bientôt disponible » reste visible.
+  // Une région sans parcours n'a rien à verrouiller : sa page « en préparation » reste visible.
   const playable = region && (administrativeTerritoryOf(region.id) || territoriesOf(region.id).length > 0);
   if (!region || !playable) return children;
   return <RegionGate regionId={region.id}>{children}</RegionGate>;

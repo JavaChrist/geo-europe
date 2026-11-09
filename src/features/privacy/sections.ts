@@ -30,6 +30,8 @@ export interface PrivacySection {
   blocks?: PrivacyBlock[];
   /** Affiche les résultats enregistrés sur l'appareil, ou le bouton pour les effacer. */
   localResults?: "view" | "delete";
+  /** Lien vers la fonction de rétractation en ligne, sous les conditions de vente. */
+  withdrawalLink?: boolean;
 }
 
 /** Rubriques communes à tous les pays, dans l'ordre d'affichage. */
@@ -54,6 +56,7 @@ export const PRIVACY_SECTIONS: PrivacySection[] = [
     titleKey: "privacy.sections.sales.title",
     summaryKey: "privacy.sections.sales.summary",
     document: "conditions-vente",
+    withdrawalLink: true,
   },
   {
     slug: "mentions-legales",

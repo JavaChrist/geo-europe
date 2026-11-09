@@ -229,7 +229,7 @@ export function Shop() {
                 <div className="mt-auto">
                   {owned ? null : ownsAny ? (
                     <p className="text-sm text-ink-soft">
-                      {t("shop.upgradeSoon")}
+                      {t("shop.upgradeUnavailable")}
                     </p>
                   ) : (
                     <button
@@ -295,6 +295,9 @@ export function Shop() {
                 className={`${textLink} self-start`}
               >
                 {t("shop.termsLink")}
+              </Link>
+              <Link href="/retractation" className={`${textLink} self-start`}>
+                {t("account.withdrawalLink")}
               </Link>
               <label className="flex items-start gap-3">
                 <input

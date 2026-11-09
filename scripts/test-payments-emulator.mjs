@@ -636,6 +636,99 @@ try {
     assert.equal((await admin.db.doc(`admins/${futur.uid}`).get()).exists, false);
   });
 
+  // --- Rétractation -------------------------------------------------------------------------------------------
+  const withdraw = (body) => api("/api/withdrawal", null, body);
+  const withdrawalOf = async (id) => (await admin.db.doc(`withdrawals/${APP_ID}/requests/${id}`).get()).data();
+  const withdrawals = (user, body) => api("/api/admin/withdrawals", user?.token, body);
+  const davidOrder = (await admin.db.collection("orders").where("uid", "==", david.uid).where("status", "==", "paid").get()).docs[0].id;
+  let davidRequest;
+
+  await test("rétractation sans compte : demande horodatée, rattachée, accusé de réception, droits inchangés", async () => {
+    const rightsBefore = await entitlementsOf(david.uid);
+    const mailsBefore = mails.length;
+    const before = Date.now();
+    const result = await withdraw({ name: "David Test", email: david.email.toUpperCase(), provider: "mollie", orderReference: davidOrder, message: "Achat par erreur" });
+    assert.equal(result.status, 200, JSON.stringify(result.body));
+    assert.equal(result.body.acknowledgementSent, true);
+    davidRequest = result.body.requestId;
+    const stored = await withdrawalOf(davidRequest);
+    assert.equal(stored.status, "received");
+    assert.equal(stored.email, david.email);
+    assert.equal(stored.orderId, davidOrder, "commande rattachée : même adresse que le compte");
+    assert.equal(stored.assessment, "waiverRecorded", "accès immédiat et renonciation enregistrés à l'achat");
+    assert.ok(stored.receivedAt.toMillis() >= before - 1000, "horodatage serveur");
+    assert.equal(stored.acknowledged, true);
+    assert.ok(stored.acknowledgement.sentAt);
+    const [mail] = mailsTo(david.email).filter((text) => text.includes("Référence de la demande"));
+    assert.ok(mail, "accusé de réception envoyé");
+    assert.match(mail, new RegExp(davidRequest));
+    assert.match(mail, new RegExp(davidOrder));
+    assert.match(mail, /\d{2}:\d{2}:\d{2}/, "heure à la seconde");
+    assert.equal(mails.length, mailsBefore + 2, "accusé au client et copie au support");
+    assert.deepEqual(await entitlementsOf(david.uid), rightsBefore, "aucun droit retiré");
+    const order = await orderOf(davidOrder);
+    assert.equal(order.status, "paid", "aucun remboursement");
+    assert.ok(order.history.some((entry) => entry.event === "withdrawalRequested" && entry.requestId === davidRequest));
+  });
+
+  await test("rétractation : la commande d'un autre joueur n'est pas rattachée, et rien ne le révèle", async () => {
+    const mine = await withdraw({ name: "Chloé Test", email: chloe.email, provider: "mollie", orderReference: davidOrder });
+    const unknown = await withdraw({ name: "Chloé Test", email: "autre-chloe@example.test", provider: "mollie", orderReference: "Inexistant1234567890" });
+    assert.equal(mine.status, 200);
+    assert.equal(unknown.status, 200);
+    assert.deepEqual(Object.keys(mine.body).sort(), Object.keys(unknown.body).sort(), "même forme de réponse");
+    const stored = await withdrawalOf(mine.body.requestId);
+    assert.equal(stored.orderId, null);
+    assert.equal(stored.editionId, null);
+    assert.equal(stored.assessment, "manualReview");
+    const [mail] = mailsTo(chloe.email).filter((text) => text.includes("Référence de la demande"));
+    assert.ok(!mail.includes("family_no_ads") && !mail.includes(david.email), "rien de la commande de David");
+  });
+
+  await test("rétractation : Google Play toujours en examen manuel, saisie invalide et limite d'envoi", async () => {
+    const play = await withdraw({ name: "Eva Test", email: "eva@example.test", provider: "google_play", orderReference: "GPA.1234-5678-9012-34567" });
+    assert.equal(play.status, 200);
+    assert.equal((await withdrawalOf(play.body.requestId)).assessment, "manualReview");
+    assert.equal((await withdraw({ name: "Eva Test", email: "eva2@example.test", provider: "google_play", orderReference: davidOrder })).body.error, "invalidRequest");
+    assert.equal((await withdraw({ email: "eva3@example.test", provider: "mollie", orderReference: davidOrder })).status, 400);
+    const again = await withdraw({ name: "Eva Test", email: "eva@example.test", provider: "google_play", orderReference: "GPA.1234-5678-9012-34567" });
+    assert.equal(again.status, 429);
+    assert.equal(again.body.error, "tooManyAttempts");
+  });
+
+  await test("rétractation : administration réservée, décision unique, aucun effet sur la commande", async () => {
+    assert.equal((await withdrawals(null, { action: "list" })).status, 401);
+    assert.equal((await withdrawals(david, { action: "list" })).status, 403);
+    const list = await withdrawals(administrateur, { action: "list" });
+    assert.equal(list.status, 200);
+    const row = list.body.withdrawals.find((entry) => entry.id === davidRequest);
+    assert.equal(row.orderId, davidOrder);
+    assert.ok(row.receivedAt && row.acknowledgementSentAt);
+    assert.equal((await withdrawals(administrateur, { action: "decide", id: davidRequest, decision: "rembourser" })).status, 400);
+    const decided = await withdrawals(administrateur, { action: "decide", id: davidRequest, decision: "accepted", note: "Rembourser dans Mollie" });
+    assert.equal(decided.status, 200, JSON.stringify(decided.body));
+    assert.equal(decided.body.withdrawal.status, "accepted");
+    assert.equal(decided.body.withdrawal.decisionNote, "Rembourser dans Mollie");
+    const twice = await withdrawals(administrateur, { action: "decide", id: davidRequest, decision: "refused" });
+    assert.equal(twice.status, 409);
+    assert.equal(twice.body.error, "alreadyDecided");
+    assert.equal((await orderOf(davidOrder)).status, "paid", "le remboursement reste manuel");
+    assert.equal((await entitlementsOf(david.uid)).familyAccess, true);
+  });
+
+  await test("rétractation : accusé non parti renvoyé par le rattrapage", async () => {
+    const ref = await admin.db.collection(`withdrawals/${APP_ID}/requests`).add({
+      app: APP_ID, status: "received", name: "Rattrapage Test", email: "rattrapage@example.test", provider: "mollie",
+      orderReference: "Rattrapage1234567890", message: "", receivedAt: new Date(), assessment: "manualReview",
+      orderId: null, editionId: null, paidAt: null, acknowledged: false, history: [],
+    });
+    const response = await fetch(`${BASE}/api/payments/reconcile`, { headers: { authorization: `Bearer ${CRON_SECRET}` } });
+    const result = await response.json();
+    assert.ok(result.withdrawals.sent >= 1, JSON.stringify(result));
+    assert.equal((await withdrawalOf(ref.id)).acknowledged, true);
+    assert.equal(mailsTo("rattrapage@example.test").length, 1);
+  });
+
   await test("règles Firestore : lecture de ses seuls droits et commandes, aucune écriture, accès offerts et administrateurs fermés", async () => {
     const app = initializeApp({ apiKey: "demo", projectId: PROJECT, authDomain: `${PROJECT}.firebaseapp.com` }, "rules");
     const auth = initializeAuth(app, { persistence: inMemoryPersistence });
@@ -655,6 +748,8 @@ try {
     await denied(getDoc(doc(db, `orders/${aliceOrder}`)));
     await denied(getDoc(doc(db, "autre/x")));
     await denied(getDoc(doc(db, "mailThrottle/x")));
+    await denied(getDoc(doc(db, `withdrawals/${APP_ID}/requests/${davidRequest}`)));
+    await denied(addDoc(collection(db, `withdrawals/${APP_ID}/requests`), { status: "accepted" }));
     await signOut(auth);
     // Accès offerts et administrateurs : ni lecture ni écriture, même pour un administrateur ou un bénéficiaire.
     await signInWithEmailAndPassword(auth, administrateur.email, administrateur.password);

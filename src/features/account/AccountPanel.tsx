@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  FileX2,
   CircleCheck,
   Gift,
   LogOut,
@@ -139,6 +140,12 @@ export function AccountPanel() {
             <Link href="/admin/acces-offerts" className={secondaryButton}>
               <ShieldCheck aria-hidden className="size-5" />
               {t("account.adminLink")}
+            </Link>
+          )}
+          {isAdmin && (
+            <Link href="/admin/retractations" className={secondaryButton}>
+              <FileX2 aria-hidden className="size-5" />
+              {t("account.withdrawalAdminLink")}
             </Link>
           )}
           <button

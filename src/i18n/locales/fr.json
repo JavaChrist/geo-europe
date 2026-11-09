@@ -10,8 +10,7 @@
     "buy": "Acheter",
     "continue": "Continuer",
     "backHome": "Retour à l'accueil",
-    "retry": "Réessayer",
-    "comingSoon": "Bientôt disponible"
+    "retry": "Réessayer"
   },
   "nav": {
     "label": "Navigation principale",
@@ -248,7 +247,7 @@
       },
       "sales": {
         "title": "Conditions générales de vente",
-        "summary": "Les éditions payantes de {appName}, pas encore en vente."
+        "summary": "Les éditions payantes de {appName} et leurs conditions d'achat."
       },
       "notice": {
         "title": "Mentions légales",
@@ -264,7 +263,7 @@
         "blocks": {
           "state": {
             "title": "Aujourd'hui",
-            "body": "Le jeu n'utilise ni publicité, ni cookie, ni traceur soumis à votre accord. Le stockage local sert uniquement à conserver vos résultats et les joueurs du Mode Famille, pour le jeu que vous avez lancé. Vous n'avez donc rien à accepter ou à refuser."
+            "body": "Le jeu n'utilise ni cookie publicitaire ni traceur soumis à votre accord. Les éditions avec publicités montrent de temps en temps une courte vidéo des autres applications JavaChrist, sans suivi ni identifiant. Le stockage local conserve vos résultats, les joueurs du Mode Famille, le rythme de ces vidéos, votre réponse à la question d'âge et, si vous en avez un, la connexion à votre compte. Vous n'avez donc rien à accepter ou à refuser."
           },
           "later": {
             "title": "Si cela change",
@@ -278,15 +277,15 @@
         "blocks": {
           "local": {
             "title": "Sur cet appareil",
-            "body": "Le jeu enregistre uniquement sur cet appareil vos résultats de parcours et de défis, ainsi que les joueurs et l'historique du Mode Famille. Les résultats sont affichés ci-dessus. Rien n'est envoyé à nos serveurs."
+            "body": "Le jeu enregistre uniquement sur cet appareil vos résultats de parcours et de défis, ainsi que les joueurs et l'historique du Mode Famille. Les résultats sont affichés ci-dessus. Ils ne sont pas envoyés à nos serveurs, même avec un compte."
           },
           "account": {
             "title": "Comptes en ligne",
-            "body": "Aucun compte Firebase ni aucun autre compte en ligne n'existe aujourd'hui. Si des comptes sont créés, leurs données seront présentées séparément des profils locaux."
+            "body": "Le compte est facultatif et sert uniquement aux éditions. Nos serveurs conservent alors votre adresse électronique, vos commandes, les éditions acquises et, le cas échéant, votre accès offert. Le paiement est traité par Mollie : vos coordonnées bancaires ne nous sont jamais transmises."
           },
           "action": {
             "title": "Export",
-            "body": "L'export sous forme de fichier n'est pas encore proposé : il sera ajouté ici en même temps que les profils ou les comptes. Pour toute question : {contact}."
+            "body": "Pour recevoir une copie des données de votre compte, écrivez à {contact} depuis l'adresse de ce compte."
           }
         }
       },
@@ -300,11 +299,11 @@
           },
           "account": {
             "title": "Comptes en ligne",
-            "body": "Aucun compte Firebase ni aucun autre compte en ligne n'existe aujourd'hui. Les journaux techniques de l'hébergeur ne sont pas accessibles depuis le jeu : pour toute demande les concernant, écrivez à {contact}."
+            "body": "Sur demande, nous supprimons votre compte et les données qui lui sont liées, sauf celles que la loi oblige à conserver, comme les justificatifs d'achat. Les journaux techniques de l'hébergeur ne sont pas accessibles depuis le jeu : pour toute demande les concernant, écrivez à {contact}."
           },
           "action": {
             "title": "Autres demandes",
-            "body": "L'effacement des futurs profils ou comptes sera ajouté ici, après confirmation, en même temps qu'eux. Pour toute demande : {contact}."
+            "body": "Pour supprimer votre compte, écrivez à {contact} depuis l'adresse de ce compte."
           }
         }
       },
@@ -313,16 +312,16 @@
         "summary": "La fermeture de votre compte.",
         "blocks": {
           "state": {
-            "title": "Action indisponible",
-            "body": "Le jeu fonctionne sans compte : il n'y a aucun compte à supprimer et cette action n'est pas disponible."
+            "title": "Demander la suppression",
+            "body": "Le jeu fonctionne sans compte. Si vous en avez créé un, écrivez à {contact} depuis l'adresse de ce compte : il est supprimé avec les données qui lui sont liées, sauf celles que la loi oblige à conserver, comme les justificatifs d'achat."
           },
           "local": {
             "title": "Données de l'appareil",
             "body": "Les résultats et les joueurs du Mode Famille enregistrés sur cet appareil ne sont pas des comptes. Leur suppression passe par la rubrique dédiée à la suppression des données."
           },
           "later": {
-            "title": "Si des comptes sont créés",
-            "body": "Si des comptes Firebase sont créés, vous pourrez supprimer le vôtre depuis cette rubrique, après confirmation dans une fenêtre dédiée."
+            "title": "Éditions et accès offert",
+            "body": "Les éditions acquises et l'accès offert sont rattachés au compte : ils disparaissent avec lui."
           }
         }
       }
@@ -520,11 +519,10 @@
   "soon": {
     "profile": {
       "title": "Profil",
-      "body": "Votre compte, votre progression et vos récompenses.",
-      "playersSoon": "Profils de joueurs multiples : bientôt disponible."
+      "body": "Votre compte, votre progression et vos récompenses."
     },
     "region": {
-      "body": "Cette étape du voyage se prépare : photos, questions et anecdotes arriveront ici."
+      "body": "Les parcours de cette région sont en préparation."
     }
   },
   "errors": {
@@ -586,7 +584,7 @@
     },
     "alreadyOwned": {
       "title": "Édition déjà acquise",
-      "body": "Votre compte possède déjà une édition. Le passage à une autre édition sera bientôt proposé."
+      "body": "Votre compte possède déjà une édition. Le changement d'édition n'est pas proposé."
     },
     "paymentInProgress": {
       "title": "Paiement déjà en cours",
@@ -623,6 +621,18 @@
     "offeredAccess": {
       "title": "Accès déjà offert",
       "body": "Votre compte bénéficie d'un accès offert : tout le jeu est déjà ouvert, aucun achat n'est nécessaire."
+    },
+    "withdrawalInvalid": {
+      "title": "Formulaire incomplet",
+      "body": "Vérifiez votre nom, votre adresse email et le numéro de commande, puis réessayez."
+    },
+    "withdrawalUnavailable": {
+      "title": "Demande non envoyée",
+      "body": "Votre demande de rétractation n'a pas pu être enregistrée. Réessayez dans un instant, ou écrivez au support."
+    },
+    "alreadyDecided": {
+      "title": "Demande déjà traitée",
+      "body": "Une décision a déjà été prise pour cette demande de rétractation."
     }
   },
   "notFound": {
@@ -907,7 +917,9 @@
     },
     "offered": "Accès {appName} offert — Édition Famille complète, sans publicité",
     "offeredBody": "Toutes les régions, tous les niveaux et défis, le Mode Famille, l'album et les badges, sans publicité ni promotion. Aucun achat n'est nécessaire.",
-    "adminLink": "Gérer les accès offerts"
+    "adminLink": "Gérer les accès offerts",
+    "withdrawalAdminLink": "Gérer les rétractations",
+    "withdrawalLink": "Se rétracter d'un achat"
   },
   "shop": {
     "title": "Boutique",
@@ -924,7 +936,7 @@
     },
     "discovery": "Découverte gratuite : {regions}. Carte de France consultable.",
     "owned": "Acquise",
-    "upgradeSoon": "Évolution bientôt disponible",
+    "upgradeUnavailable": "Non proposée avec votre édition actuelle",
     "choose": "Choisir",
     "selected": "Édition choisie",
     "summaryTitle": "Votre commande",
@@ -936,7 +948,7 @@
     "order": "Commander avec obligation de paiement",
     "redirecting": "Redirection vers le paiement sécurisé",
     "testMode": "Paiements en mode test : aucun montant réel n'est encaissé.",
-    "notInApp": "Les achats ne sont pas encore disponibles dans l'application. Ils le seront bientôt.",
+    "notInApp": "Les achats ne sont pas disponibles dans l'application.",
     "back": "Retour à la boutique",
     "open": "Voir les éditions",
     "offered": "Votre compte bénéficie de l'accès {appName} offert : tout le jeu est déjà ouvert, aucun achat n'est nécessaire."
@@ -1020,6 +1032,80 @@
       "signInNeeded": "Connectez-vous avec un compte administrateur pour gérer les accès offerts.",
       "signIn": "Se connecter",
       "forbidden": "Ce compte n'administre pas les accès offerts de {appName}."
+    },
+    "withdrawals": {
+      "title": "Rétractations",
+      "intro": "Demandes reçues par la fonction de rétractation de {appName}. Une décision ne rembourse rien : remboursez à la main dans le tableau de bord Mollie (le webhook recalcule ensuite les droits) ou dans la Play Console.",
+      "loading": "Chargement des demandes…",
+      "signInNeeded": "Connectez-vous avec un compte administrateur pour gérer les rétractations.",
+      "signIn": "Se connecter",
+      "forbidden": "Ce compte n'administre pas les rétractations de {appName}.",
+      "listTitle": "Demandes",
+      "refresh": "Actualiser",
+      "empty": "Aucune demande de rétractation.",
+      "receivedAt": "Reçue le {date}",
+      "reference": "Référence {id}",
+      "order": "{provider}, commande {reference}",
+      "linkedOrder": "Commande rattachée : {orderId}, {edition}, payée le {date}",
+      "notLinked": "Aucune commande rattachée : vérifiez le numéro et l'adresse à la main.",
+      "message": "Message : {message}",
+      "acknowledged": "Accusé de réception envoyé le {date}",
+      "notAcknowledged": "Accusé de réception pas encore envoyé : le rattrapage planifié réessaie.",
+      "decidedAt": "Décidée le {date}",
+      "note": "Note de décision",
+      "accept": "Accepter",
+      "refuse": "Refuser",
+      "acceptTitle": "Accepter cette rétractation ?",
+      "acceptBody": "La demande de {name} sera marquée acceptée. Aucun remboursement n'est fait ici : remboursez ensuite dans Mollie ou dans la Play Console.",
+      "refuseTitle": "Refuser cette rétractation ?",
+      "refuseBody": "La demande de {name} sera marquée refusée, avec votre note. Prévenez le client par email.",
+      "decidedTitle": "Décision enregistrée",
+      "decidedBody": "La demande de {name} est maintenant « {status} ».",
+      "status": {
+        "received": "À examiner",
+        "accepted": "Acceptée",
+        "refused": "Refusée"
+      },
+      "assessment": {
+        "manualReview": "Examen manuel",
+        "notPaid": "Commande non payée",
+        "alreadyRefunded": "Déjà remboursée",
+        "outsidePeriod": "Hors délai de 14 jours",
+        "waiverRecorded": "Renonciation enregistrée",
+        "withinPeriod": "Dans le délai"
+      }
+    }
+  },
+  "withdrawal": {
+    "title": "Rétractation",
+    "intro": "Utilisez ce formulaire pour vous rétracter d'un achat de {appName}. Aucune connexion n'est nécessaire. Vous recevrez un accusé de réception par email, avec la date et l'heure de votre demande.",
+    "notice": "Pour un contenu numérique fourni immédiatement, le droit de rétractation ne s'applique pas si vous avez demandé l'accès immédiat et reconnu perdre ce droit lors de l'achat. Votre demande est quand même enregistrée et examinée. Aucun remboursement n'est automatique.",
+    "name": "Nom et prénom",
+    "email": "Adresse email",
+    "emailHelp": "L'adresse du compte utilisé pour l'achat. L'accusé de réception y sera envoyé.",
+    "provider": "Lieu de l'achat",
+    "orderReference": "Numéro de commande",
+    "orderHelpMollie": "Indiqué dans l'email de confirmation d'achat.",
+    "orderHelpGooglePlay": "Commence par GPA., indiqué dans le reçu Google Play.",
+    "yourOrders": "Vos achats",
+    "orderOption": "{edition}, payé le {date} ({id})",
+    "otherOrder": "Autre commande",
+    "message": "Message (facultatif)",
+    "declaration": "En confirmant, vous déclarez vous rétracter du contrat portant sur la commande indiquée.",
+    "confirm": "Confirmer la rétractation",
+    "sending": "Envoi…",
+    "doneTitle": "Demande de rétractation reçue",
+    "doneBody": "Votre demande a été reçue le {date}. Référence : {id}.",
+    "doneMail": "Un accusé de réception a été envoyé à {email}. Conservez-le.",
+    "doneMailLater": "L'accusé de réception sera envoyé à {email} sous peu. Conservez-le.",
+    "doneNext": "Votre demande va être examinée et nous vous répondrons par email.",
+    "unavailableTitle": "Rétractation par email",
+    "unavailableBody": "Dans cette version de l'application, envoyez votre demande de rétractation à {contact}, avec votre nom, votre numéro de commande et l'adresse du compte. Un accusé de réception vous sera envoyé.",
+    "termsLink": "Conditions générales de vente",
+    "noMessage": "aucun",
+    "providers": {
+      "mollie": "Site {appName} (paiement Mollie)",
+      "google_play": "Google Play"
     }
   }
 }

@@ -38,24 +38,28 @@ function appActionLink(firebaseLink: string): string {
 type Throttle = { lastAt: number; windowStart: number; count: number; expireAt: Timestamp };
 
 /** Envoi accepté par la limite. `release` rend la tentative si le serveur n'a pas pu envoyer. */
-interface SendSlot {
+export interface SendSlot {
   release: () => Promise<void>;
 }
 
 /**
- * Limite d'envoi par adresse : un courriel par minute, cinq par heure. La clé est une empreinte :
+ * Limite d'envoi par adresse : par défaut un courriel par minute, cinq par heure. La clé est une empreinte :
  * aucune adresse en clair n'est stockée. `mailThrottle` n'est lisible ni modifiable depuis le navigateur.
  * `null` si la limite est atteinte.
  */
-async function allowSend(kind: string, address: string): Promise<SendSlot | null> {
+export async function allowSend(
+  kind: string,
+  address: string,
+  { minIntervalMs = MIN_INTERVAL_MS, maxPerWindow = MAX_PER_WINDOW } = {},
+): Promise<SendSlot | null> {
   const key = createHash("sha256").update(`${APP_ID}:${kind}:${address.trim().toLowerCase()}`).digest("hex");
   const ref = adminDb().collection("mailThrottle").doc(key);
   const previous = await adminDb().runTransaction(async (transaction) => {
     const data = (await transaction.get(ref)).data() as Throttle | undefined;
     const now = Date.now();
-    if (data && now - data.lastAt < MIN_INTERVAL_MS) return null;
+    if (data && now - data.lastAt < minIntervalMs) return null;
     const sameWindow = data && now - data.windowStart < WINDOW_MS;
-    if (sameWindow && data.count >= MAX_PER_WINDOW) return null;
+    if (sameWindow && data.count >= maxPerWindow) return null;
     transaction.set(ref, {
       lastAt: now,
       windowStart: sameWindow ? data.windowStart : now,
@@ -79,7 +83,7 @@ async function allowSend(kind: string, address: string): Promise<SendSlot | null
 }
 
 /** Rend la tentative sans masquer l'erreur d'origine. */
-async function releaseQuietly(slot: SendSlot): Promise<void> {
+export async function releaseQuietly(slot: SendSlot): Promise<void> {
   await slot.release().catch((error: unknown) => logServerError("mail-throttle", error, "tentative non rendue"));
 }
 

@@ -26,6 +26,11 @@ service cloud.firestore {
       allow read, write: if false;
     }
 
+    // Demandes de rétractation : serveur uniquement, même pour celui qui l'a envoyée (voir docs/retractation.md).
+    match /withdrawals/{app}/requests/{id} {
+      allow read, write: if false;
+    }
+
     // Tout le reste, dont mailThrottle (limite d'envoi des courriels), n'est utilisé que par le serveur.
     match /{document=**} {
       allow read, write: if false;

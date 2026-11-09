@@ -17,9 +17,10 @@
     "check:engine": "node scripts/check-engine.mjs",
     "check:family": "node scripts/check-family.mjs",
     "check:legal": "node scripts/check-legal.mjs",
-    "check": "npm run lint && npm run typecheck && npm run check:emoji && npm run check:content && npm run check:engine && npm run check:family && npm run check:legal && npm run check:payments && npm run check:grants && npm run check:promotions",
+    "check": "npm run lint && npm run typecheck && npm run check:emoji && npm run check:content && npm run check:engine && npm run check:family && npm run check:legal && npm run check:payments && npm run check:grants && npm run check:withdrawal && npm run check:promotions",
     "check:payments": "node scripts/check-payments.mjs",
     "check:grants": "node scripts/check-grants.mjs",
+    "check:withdrawal": "node scripts/check-withdrawal.mjs",
     "check:promotions": "node scripts/check-promotions.mjs",
     "test:payments": "npx --yes firebase-tools@15 emulators:exec --project demo-geofr --only auth,firestore \"node scripts/test-payments-emulator.mjs\""
   },

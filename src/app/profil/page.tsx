@@ -18,7 +18,6 @@ export default function ProfilePage() {
         </span>
         <h1 className="font-display text-3xl font-semibold">{t("soon.profile.title")}</h1>
         <p className="text-ink-soft">{t("soon.profile.body")}</p>
-        <p className="text-sm text-ink-soft/80">{t("soon.profile.playersSoon")}</p>
       </header>
       <AccountPanel />
       <NationalProgress territories={territories} />
@@ -35,6 +34,12 @@ export default function ProfilePage() {
         className="inline-flex min-h-11 items-center rounded-xl px-3 text-sm text-ink-soft underline underline-offset-4 transition-colors hover:text-ink focus-visible:outline-2 focus-visible:outline-gold"
       >
         {t("privacy.title")}
+      </Link>
+      <Link
+        href="/retractation"
+        className="inline-flex min-h-11 items-center rounded-xl px-3 text-sm text-ink-soft underline underline-offset-4 transition-colors hover:text-ink focus-visible:outline-2 focus-visible:outline-gold"
+      >
+        {t("account.withdrawalLink")}
       </Link>
     </main>
   );

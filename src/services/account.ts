@@ -2,6 +2,7 @@ import type { User } from "firebase/auth";
 import content from "@country";
 import { FREE_ENTITLEMENTS, type Entitlements } from "@/engine/entitlements";
 import type { GrantRecord } from "@/engine/grants";
+import type { WithdrawalDecision, WithdrawalInput, WithdrawalRecord } from "@/engine/withdrawal";
 import type { EditionId } from "@/engine/types";
 import { AppError, type AppErrorCode } from "./app-error";
 import { getFirebaseClient, isFirebaseConfigured } from "./firebase/client";
@@ -448,3 +449,96 @@ export const revokeOfferedAccess = (email: string) =>
     { action: "revoke", email },
     ADMIN_API_ERRORS,
   ).then((data) => data.grant);
+
+// --- Rétractation -----------------------------------------------------------------------------------------------
+
+export interface WithdrawalReceipt {
+  requestId: string;
+  receivedAt: string;
+  acknowledgementSent: boolean;
+}
+
+const WITHDRAWAL_ERRORS: Record<string, AppErrorCode> = {
+  invalidRequest: "withdrawalInvalid",
+  tooManyAttempts: "tooManyAttempts",
+  unavailable: "withdrawalUnavailable",
+};
+
+/** Fonction de rétractation : publique, sans compte ni jeton. Le serveur horodate la demande à sa réception. */
+export async function submitWithdrawal(input: WithdrawalInput): Promise<WithdrawalReceipt> {
+  let response: Response;
+  try {
+    response = await fetch("/api/withdrawal", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(input),
+      cache: "no-store",
+    });
+  } catch (cause) {
+    throw new AppError("network", { cause });
+  }
+  const data = (await response.json().catch(() => ({}))) as { error?: string } & WithdrawalReceipt;
+  if (!response.ok) throw new AppError(WITHDRAWAL_ERRORS[data.error ?? ""] ?? "withdrawalUnavailable");
+  return data;
+}
+
+export interface OwnOrder {
+  id: string;
+  editionId: EditionId;
+  status: string;
+  paidAt: string | null;
+}
+
+/**
+ * Commandes payées du joueur connecté, pour préremplir la rétractation. Les règles Firestore ne laissent lire que
+ * ses propres commandes. Toute panne donne une liste vide : la saisie à la main reste possible.
+ */
+export async function listOwnOrders(uid: string): Promise<OwnOrder[]> {
+  try {
+    const firebase = await getFirebaseClient();
+    if (!firebase) return [];
+    const { collection, getDocs, query, where } = await import("firebase/firestore");
+    const snapshot = await getDocs(
+      query(
+        collection(firebase.db, "orders"),
+        where("uid", "==", uid),
+        where("app", "==", content.country.legal.kitAppId),
+      ),
+    );
+    return snapshot.docs
+      .map((doc) => {
+        const data = doc.data();
+        const paidAt = data.paidAt as { toDate?: () => Date } | undefined;
+        return {
+          id: doc.id,
+          editionId: data.editionId as EditionId,
+          status: String(data.status ?? ""),
+          paidAt: paidAt?.toDate ? paidAt.toDate().toISOString() : null,
+        };
+      })
+      .filter((order) => order.paidAt !== null)
+      .sort((a, b) => (b.paidAt ?? "").localeCompare(a.paidAt ?? ""));
+  } catch {
+    return [];
+  }
+}
+
+const WITHDRAWAL_ADMIN_ERRORS: Record<string, AppErrorCode> = {
+  ...ADMIN_API_ERRORS,
+  alreadyDecided: "alreadyDecided",
+  notFound: "unknown",
+};
+
+export const listWithdrawalRequests = () =>
+  callApi<{ withdrawals: WithdrawalRecord[] }>(
+    "/api/admin/withdrawals",
+    { action: "list" },
+    WITHDRAWAL_ADMIN_ERRORS,
+  ).then((data) => data.withdrawals);
+
+export const decideWithdrawalRequest = (id: string, decision: WithdrawalDecision, note: string) =>
+  callApi<{ withdrawal: WithdrawalRecord }>(
+    "/api/admin/withdrawals",
+    { action: "decide", id, decision, note },
+    WITHDRAWAL_ADMIN_ERRORS,
+  ).then((data) => data.withdrawal);

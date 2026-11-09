@@ -26,7 +26,10 @@ export type AppErrorCode =
   | "invalidEmail"
   | "alreadyGranted"
   | "notGranted"
-  | "offeredAccess";
+  | "offeredAccess"
+  | "withdrawalInvalid"
+  | "withdrawalUnavailable"
+  | "alreadyDecided";
 
 export class AppError extends Error {
   readonly code: AppErrorCode;
