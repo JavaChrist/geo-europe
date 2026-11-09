@@ -147,27 +147,24 @@ Une version validée n'est jamais remplacée automatiquement. Si `legal.json` in
 
 ## État de GéoFR
 
-Version documentaire 0.2.0, en **brouillon**, empreinte `4461cb6e…b409181`. Le kit signale 11 points à compléter. Les documents sont intégrés localement et ne sont pas en production.
+Version documentaire 0.3.2 (9 novembre 2026), en **brouillon**, empreinte `efc3c9bd…5b08e5f2`. Le kit signale 1 point : aucune offre active. Les documents sont intégrés localement et ne sont pas en production. Détail des corrections dans [admob.md](admob.md#legal-kit--version-032-brouillon).
 
-### Points à compléter dans le kit
+### Points restant avant publication
 
-- Hébergeur Vercel : téléphone et régions d'hébergement.
-- Journaux d'hébergement Vercel : durée de conservation.
-- Transferts hors Union européenne : mécanisme retenu (cadre de protection des données UE–États-Unis ou clauses contractuelles types).
-- Facturation et confirmation de commande sur support durable.
-- Rétractation : une adresse HTTPS de la fonction en ligne de rétractation.
-- Garanties légales : l'encadré attendu.
-- Durée de fourniture des mises à jour.
-- Effets de la résiliation sur les achats.
-- Aucune offre active : normal tant que rien n'est en vente.
+- Durées de conservation validées par Christian et inscrites : compte jusqu'à sa suppression puis 30 jours, droits d'accès tant que le compte existe, rétractations 5 ans, pièces comptables 10 ans, journaux Vercel 24 heures.
+- Aucune offre active : normal tant que rien n'est en vente (toutes les éditions restent `planned`).
+- `review.configurationSha256` à remplir par Christian avec l'empreinte affichée, après relecture.
 
 ### Manques relevés pour GéoFR
 
-- **Découverte gratuite** : les deux régions ne sont pas choisies, et son régime publicitaire n'est pas décidé.
-- **Fonction de rétractation en ligne** : obligatoire pour les ventes en ligne à partir du 19 juin 2026. Elle n'existe pas encore dans le jeu.
-- **Vendeur selon le canal** : sur Google Play, les conditions et la facturation du store s'ajoutent. À traiter quand l'application Android existera.
-- **Promotions** : le code affiche des vidéos JavaChrist-Promotions (voir [promotions.md](promotions.md)), lit le catalogue chez Google Firebase et garde une réponse d'âge sur l'appareil. La politique de confidentialité et le texte `privacy` de l'écran Confidentialité disent encore « ni publicité » : à corriger dans le kit par Christian avant la mise en production, jamais à la main.
-- **Publicité et mineurs** : les éditions Solo et Famille avec publicités demanderont `ads: true` dans le kit, un consentement, et une publicité limitée au contexte pour un public mineur. Le module publicitaire du kit devra être relu avant toute mise en service.
+- **Google Play Billing** : décrit dans les CGV et la politique, construit en mode test dans l'application Android (voir [paiements.md](paiements.md#google-play-application-android)). Le traitement du compte porte encore « site web uniquement » : à corriger dans le kit.
+- **Suppression, trois chemins vérifiés** :
+  - **effacement local** : rubrique Supprimer mes données. Il efface tout le `localStorage` et retire la bannière d'abord ;
+  - **demande serveur** : un courriel à support@appsgeo.com depuis l'adresse du compte. Le compte et les droits sont effacés sous 30 jours, et les pièces comptables sont conservées. Il n'y a pas de bouton automatique ;
+  - **page publique** : `/profil/confidentialite/supprimer-mon-compte`, lisible sans connexion ni installation, c'est l'URL à déclarer dans la Play Console.
+
+  Ces trois textes viennent du jeu (`fr.json`) et du kit (`droits-rgpd.md`). Ils concordent sur l'adresse support@appsgeo.com.
+- **Promotions et publicité** : décrites dans la politique 0.3.2 (vidéos pour adultes déclarés, bannière AdMob Android, réglages pour mineurs et âge inconnu). Le module publicitaire du kit est à relire avant toute mise en service.
 - **Export des données** : le jeu permet de voir et d'effacer les données de l'appareil, pas d'en télécharger une copie.
 - **Hors connexion sur le web** : pas de service worker, voir plus haut.
 - **Autres pays** : les modèles du kit couvrent la France, le français et la vente aux particuliers. Un pays hors de France demande une adaptation des modèles, à valider par Christian avant toute génération.

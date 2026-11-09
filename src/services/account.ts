@@ -5,7 +5,9 @@ import type { GrantRecord } from "@/engine/grants";
 import type { WithdrawalDecision, WithdrawalInput, WithdrawalRecord } from "@/engine/withdrawal";
 import type { EditionId } from "@/engine/types";
 import { AppError, type AppErrorCode } from "./app-error";
+import { apiUrl, paymentChannel } from "./api";
 import { getFirebaseClient, isFirebaseConfigured } from "./firebase/client";
+import { isNativeApp, nativeGoogleIdToken, nativeGoogleSignOut } from "./native/google-sign-in";
 
 /**
  * Compte du joueur et droits d'accès, côté navigateur. Le compte n'est demandé qu'au moment d'acheter :
@@ -20,9 +22,12 @@ export interface Account {
   method: "google" | "email";
 }
 
-/** Disponible sur le web, désactivé dans l'export Android (aucun paiement Mollie dans l'application). */
+/**
+ * Comptes et achats : Mollie sur le web, Google Play dans l'application Android (avec le serveur déployé).
+ * Désactivés dans un export sans serveur : le jeu gratuit reste complet.
+ */
 export const paymentsEnabled = (): boolean =>
-  process.env.NEXT_PUBLIC_PAYMENTS !== "off" && isFirebaseConfigured();
+  paymentChannel() !== "off" && isFirebaseConfigured();
 
 function toAccount(user: User): Account {
   const google = user.providerData.some(
@@ -74,8 +79,17 @@ function accountError(cause: unknown): AppError {
 /** `null` quand la fenêtre Google a été fermée par le joueur : rien à signaler. */
 export async function signInWithGoogle(): Promise<Account | null> {
   const { auth } = await client();
-  const { GoogleAuthProvider, signInWithPopup } = await import("firebase/auth");
+  const { GoogleAuthProvider, signInWithCredential, signInWithPopup } = await import("firebase/auth");
   try {
+    // Application Android : pas de fenêtre surgissante dans la WebView. Le gestionnaire d'identifiants
+    // d'Android choisit le compte Google et rend un jeton d'identité, échangé ensuite auprès de Firebase.
+    if (isNativeApp()) {
+      const idToken = await nativeGoogleIdToken();
+      if (!idToken) return null;
+      return toAccount(
+        (await signInWithCredential(auth, GoogleAuthProvider.credential(idToken))).user,
+      );
+    }
     return toAccount(
       (await signInWithPopup(auth, new GoogleAuthProvider())).user,
     );
@@ -155,7 +169,7 @@ export async function reloadAccount(): Promise<Account | null> {
 export async function sendPasswordReset(email: string): Promise<void> {
   let response: Response;
   try {
-    response = await fetch("/api/account/password-reset", {
+    response = await fetch(apiUrl("/api/account/password-reset"), {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email }),
@@ -233,6 +247,7 @@ export async function signOutAccount(): Promise<void> {
   const { auth } = await client();
   const { signOut } = await import("firebase/auth");
   await signOut(auth);
+  await nativeGoogleSignOut();
 }
 
 /** Suit le compte connecté. Sans Firebase configuré, le joueur reste anonyme. */
@@ -325,6 +340,8 @@ const API_ERRORS: Record<string, AppErrorCode> = {
   unavailable: "paymentsUnavailable",
   tooManyAttempts: "tooManyAttempts",
   offeredAccess: "offeredAccess",
+  alreadyOwned: "alreadyOwned",
+  purchaseRejected: "paymentFailed",
 };
 
 /** Routes de compte : un service indisponible concerne le compte, pas les paiements. */
@@ -351,7 +368,7 @@ async function callApi<T>(
   const token = await auth.currentUser.getIdToken();
   let response: Response;
   try {
-    response = await fetch(path, {
+    response = await fetch(apiUrl(path), {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -399,6 +416,29 @@ export interface OrderState {
 
 export const requestOrderSync = (orderId: string) =>
   callApi<OrderState>("/api/payments/sync", { orderId });
+
+// --- Google Play (application Android) ---------------------------------------------------------------------------
+
+export interface PlayPreparation {
+  orderId: string;
+  productId: string;
+  obfuscatedAccountId: string;
+  obfuscatedProfileId: string;
+}
+
+/** Achat Google Play : un jeton présenté par un autre compte que celui de la commande est refusé. */
+const PLAY_API_ERRORS: Record<string, AppErrorCode> = {
+  ...API_ERRORS,
+  forbidden: "purchaseOtherAccount",
+};
+
+/** Commande préparée par le serveur avant d'ouvrir la fenêtre d'achat de Google Play. */
+export const requestPlayPreparation = (editionId: EditionId, consent: CheckoutConsent) =>
+  callApi<PlayPreparation>("/api/payments/google-play/prepare", { editionId, consent }, PLAY_API_ERRORS);
+
+/** Le serveur relit l'achat auprès de Google, écrit les droits et accuse réception. */
+export const requestPlayVerification = (productId: string, purchaseToken: string) =>
+  callApi<OrderState>("/api/payments/google-play/verify", { productId, purchaseToken }, PLAY_API_ERRORS);
 
 export const requestRestore = () =>
   callApi<Entitlements>("/api/entitlements/restore", {});
@@ -468,7 +508,7 @@ const WITHDRAWAL_ERRORS: Record<string, AppErrorCode> = {
 export async function submitWithdrawal(input: WithdrawalInput): Promise<WithdrawalReceipt> {
   let response: Response;
   try {
-    response = await fetch("/api/withdrawal", {
+    response = await fetch(apiUrl("/api/withdrawal"), {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(input),

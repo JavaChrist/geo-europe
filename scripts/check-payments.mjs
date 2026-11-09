@@ -13,6 +13,16 @@ import {
 } from "../src/engine/entitlements.ts";
 import { describeError, redactSecrets } from "../src/engine/log-safety.ts";
 import { assessPayment, centsToDecimal, decimalToCents, nextOrderStatus } from "../src/engine/payments.ts";
+import {
+  assessPlayPurchase,
+  editionOfProduct,
+  isPlausiblePurchaseToken,
+  playNotificationKind,
+  playProductIds,
+  playPurchaseMode,
+  playPurchaseStatus,
+  voidedStatus,
+} from "../src/engine/google-play.ts";
 
 // Montants exacts, sans nombre à virgule.
 assert.equal(centsToDecimal(999), "9.99");
@@ -121,6 +131,57 @@ assert.equal(nextOrderStatus("open", "paid"), "paid");
   assert.ok(describeError(new Error("x".repeat(1000))).length <= 300);
   assert.equal(describeError("texte"), "texte");
   assert.equal(describeError(null), "null");
+}
+
+// Google Play Billing : produits, états, confrontation de l'achat officiel à la commande préparée.
+{
+  const { editions } = await import(pathToFileURL(resolve("content/fr/editions.ts")).href);
+  assert.deepEqual(playProductIds("geofr", editions), {
+    geofr_solo_ads: "solo_ads",
+    geofr_solo_no_ads: "solo_no_ads",
+    geofr_family_ads: "family_ads",
+    geofr_family_no_ads: "family_no_ads",
+  }, "quatre produits Play, aucun pour l'édition gratuite");
+  assert.equal(editionOfProduct("geofr", "geofr_discovery", editions), null);
+  assert.equal(editionOfProduct("geofr", "autre_solo_ads", editions), null);
+  assert.equal(playPurchaseStatus({ purchaseState: 0, acknowledgementState: 0 }), "paid");
+  assert.equal(playPurchaseStatus({ purchaseState: 2, acknowledgementState: 0 }), "pending");
+  assert.equal(playPurchaseStatus({ purchaseState: 1, acknowledgementState: 0 }), "canceled");
+  assert.equal(playPurchaseMode({ purchaseState: 0, acknowledgementState: 0, purchaseType: 0 }), "test");
+  assert.equal(playPurchaseMode({ purchaseState: 0, acknowledgementState: 0 }), "live");
+  assert.equal(playPurchaseMode({ purchaseState: 0, acknowledgementState: 0, purchaseType: 1 }), "live");
+  assert.equal(playPurchaseMode({ purchaseState: 0, acknowledgementState: 0, purchaseType: 2 }), null);
+  assert.equal(voidedStatus(7), "charged_back");
+  assert.equal(voidedStatus(1), "refunded");
+  assert.equal(voidedStatus(undefined), "refunded");
+  assert.equal(playNotificationKind(1), "purchased");
+  assert.equal(playNotificationKind(2), "canceled");
+  assert.equal(playNotificationKind(99), "other");
+  assert.ok(isPlausiblePurchaseToken("abcdefghij.ABCDEFGHIJ-1234567890_xyz"));
+  assert.ok(!isPlausiblePurchaseToken("court"));
+  assert.ok(!isPlausiblePurchaseToken("abc def ghi jkl mno pqr stu"));
+  assert.ok(!isPlausiblePurchaseToken(null));
+
+  const token = "jeton-de-test-0123456789.abcdef";
+  const input = { productId: "geofr_family_no_ads", purchaseToken: token, appId: "geofr", config: editions };
+  const order = { id: "commande1", editionId: "family_no_ads", status: "created", accountHash: "hash-compte", mode: "test", purchaseToken: null };
+  const bought = { purchaseState: 0, acknowledgementState: 0, purchaseType: 0, obfuscatedExternalAccountId: "hash-compte", obfuscatedExternalProfileId: "commande1" };
+  assert.deepEqual(assessPlayPurchase(order, bought, input), { ok: true, status: "paid", acknowledge: true });
+  // Déjà accusé (relecture, restauration) : droits sans nouvel accusé.
+  assert.deepEqual(assessPlayPurchase({ ...order, status: "paid", purchaseToken: token }, { ...bought, acknowledgementState: 1 }, input), { ok: true, status: "paid", acknowledge: false });
+  // En attente : ni droit ni accusé.
+  assert.deepEqual(assessPlayPurchase(order, { ...bought, purchaseState: 2 }, input), { ok: true, status: "pending", acknowledge: false });
+  // Annulé.
+  assert.deepEqual(assessPlayPurchase(order, { ...bought, purchaseState: 1 }, input), { ok: true, status: "canceled", acknowledge: false });
+  // Un achat d'un autre compte, d'une autre commande, d'un autre produit, réel en mode test, ou un second jeton : refusés.
+  assert.deepEqual(assessPlayPurchase(order, { ...bought, obfuscatedExternalAccountId: "autre" }, input), { ok: false, mismatch: "account" });
+  assert.deepEqual(assessPlayPurchase(order, { ...bought, obfuscatedExternalAccountId: undefined }, input), { ok: false, mismatch: "account" });
+  assert.deepEqual(assessPlayPurchase(order, { ...bought, obfuscatedExternalProfileId: "commande2" }, input), { ok: false, mismatch: "order" });
+  assert.deepEqual(assessPlayPurchase(order, bought, { ...input, productId: "geofr_solo_ads" }), { ok: false, mismatch: "product" });
+  assert.deepEqual(assessPlayPurchase(order, { ...bought, purchaseType: undefined }, input), { ok: false, mismatch: "mode" });
+  assert.deepEqual(assessPlayPurchase({ ...order, purchaseToken: "un-autre-jeton-0123456789" }, bought, input), { ok: false, mismatch: "token" });
+  // Remboursée : une relecture tardive ne rend jamais les droits.
+  assert.deepEqual(assessPlayPurchase({ ...order, status: "refunded", purchaseToken: token }, bought, input), { ok: true, status: "refunded", acknowledge: false });
 }
 
 console.log("Droits et paiements valides.");

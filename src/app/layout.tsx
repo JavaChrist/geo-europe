@@ -3,9 +3,10 @@ import { Figtree, Fraunces } from "next/font/google";
 import type { ReactNode } from "react";
 import content from "@country";
 import { EntitlementsProvider } from "@/features/account/EntitlementsProvider";
+import { AdsProvider } from "@/features/ads/AdsProvider";
 import { I18nProvider } from "@/i18n/I18nProvider";
 import { UpdatePrompt } from "@/features/update/UpdatePrompt";
-import { getMessages, getTranslator } from "@/i18n/translator";
+import { getTranslator } from "@/i18n/translator";
 import { AppHeader } from "@/ui/AppHeader";
 import { ModalProvider } from "@/ui/modal/ModalProvider";
 import { BottomNav } from "@/ui/nav/BottomNav";
@@ -35,16 +36,18 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang={locale} className={`${body.variable} ${title.variable}`}>
       <body>
-        <I18nProvider locale={locale} messages={getMessages(locale)}>
+        <I18nProvider locale={locale}>
           <ModalProvider>
             <EntitlementsProvider>
-              {/* Réserve la hauteur de la barre fixe pour qu'elle ne masque jamais le contenu. */}
-              <div className="pb-[calc(4rem+env(safe-area-inset-bottom))] lg:pb-0">
-                <AppHeader />
-                {children}
-              </div>
-              <BottomNav />
-              <UpdatePrompt />
+              <AdsProvider>
+                {/* Réserve la hauteur de la barre fixe, et de la bannière AdMob de l'application Android, pour qu'elles ne masquent jamais le contenu. */}
+                <div className="pb-[calc(4rem+env(safe-area-inset-bottom)+var(--ad-banner-h,0px))] lg:pb-[var(--ad-banner-h,0px)]">
+                  <AppHeader />
+                  {children}
+                </div>
+                <BottomNav />
+                <UpdatePrompt />
+              </AdsProvider>
             </EntitlementsProvider>
           </ModalProvider>
         </I18nProvider>

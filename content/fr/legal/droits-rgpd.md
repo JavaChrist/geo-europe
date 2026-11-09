@@ -2,7 +2,7 @@
 
 # Vos droits sur les données — GéoFR
 
-Version 0.2.0 — 2026-11-07
+Version 0.3.2 — 2026-11-09
 
 ## Nous contacter
 
@@ -20,12 +20,15 @@ Responsable : Christian Grohens, 5 rue Maurice Fonvieille, 31120 Portet-sur-Garo
 
 ## Accès et export dans l’application
 
-La rubrique Consulter mes données affiche les résultats enregistrés sur l'appareil. L'export sous forme de fichier n'est pas encore proposé ; une demande de portabilité peut être adressée à support@appsgeo.com.
+La rubrique Consulter mes données affiche les données de jeu enregistrées sur l'appareil. Une copie des données de compte, de commande et de rétractation, ainsi que toute demande de portabilité, peut être demandée à support@appsgeo.com.
 
 ## Suppression
 
-Aucun compte n'existe. La rubrique Supprimer mes données efface, après confirmation, tous les résultats et les données du Mode Famille enregistrés sur l'appareil. Les journaux techniques de l'hébergeur ne sont pas accessibles depuis le jeu : pour toute demande les concernant, écrivez à support@appsgeo.com.
+Sur l'appareil, la rubrique Supprimer mes données efface, après confirmation, les résultats, les données du Mode Famille, la réponse à la question d'âge et l'état des vidéos de promotion ; dans l'application Android, la bannière est retirée pendant l'effacement. Cet effacement ne supprime pas les données déjà transmises à Google et ne retire pas le consentement publicitaire, qui se modifie depuis Choix publicitaires. La suppression d'un compte et des données associées se demande à support@appsgeo.com ; les pièces comptables sont conservées pendant la durée légale. Les journaux techniques de l'hébergeur ne sont pas accessibles depuis le jeu : pour toute demande les concernant, écrivez à support@appsgeo.com.
 
+## Préférences publicitaires
+
+Le site web n'affiche aucune publicité tierce. L'application Android affiche une bannière Google AdMob dans les éditions avec publicités ; les éditions sans publicités et les accès offerts n'envoient aucune demande d'annonce. Pour un joueur adulte de l'Espace économique européen ou du Royaume-Uni, Google recueille son consentement par son formulaire (User Messaging Platform) avant la première annonce ; il peut le modifier à tout moment depuis la rubrique Choix publicitaires. Pour un joueur déclaré mineur ou sans réponse à la question d'âge, les demandes d'annonces sont marquées comme destinées aux enfants et à un public n'ayant pas l'âge du consentement, et les annonces sont non personnalisées. L'identifiant publicitaire Android n'est pas collecté. Effacer les données du jeu sur l'appareil ne supprime pas les données déjà transmises à Google et ne retire pas le consentement donné à Google : ce choix se modifie depuis Choix publicitaires. Entre deux parties, le jeu peut aussi présenter en vidéo d'autres applications de l'éditeur, seulement à un adulte déclaré et dans les éditions avec publicités.
 
 ## Traitement de votre demande
 

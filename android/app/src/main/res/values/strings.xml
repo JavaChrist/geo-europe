@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GéoFR</string>
+    <string name="title_activity_main">GéoFR</string>
+    <string name="package_name">fr.javachrist.geofr</string>
+    <string name="custom_url_scheme">fr.javachrist.geofr</string>
+</resources>

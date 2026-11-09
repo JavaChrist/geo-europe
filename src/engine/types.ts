@@ -70,6 +70,17 @@ export interface PromotionsConfig {
   locale: string;
 }
 
+/**
+ * Annonces Google AdMob de l'application Android du pays (voir `docs/admob.md`).
+ * L'ID d'application, lu par Gradle, est dans `content/<pays>/android.json`.
+ */
+export interface AdsConfig {
+  admob: {
+    /** Bloc de bannière adaptative Android. Seul l'ID de démonstration Google est accepté pour l'instant. */
+    androidBannerAdUnitId: string;
+  };
+}
+
 export interface CountryConfig {
   /** Code du dossier de contenu, identique à GEO_COUNTRY. */
   code: string;
@@ -86,6 +97,8 @@ export interface CountryConfig {
   timeZone: string;
   /** Catalogue JavaChrist-Promotions du pays (voir `docs/promotions.md`). `null` : aucune promotion. */
   promotions: PromotionsConfig | null;
+  /** Bannière AdMob de l'application Android. `null` : aucune annonce, aucune requête. */
+  ads: AdsConfig | null;
 }
 
 export interface MapRegion {

@@ -217,6 +217,11 @@
     "intro": "Vos droits, vos données et les règles du jeu, au même endroit.",
     "backToProfile": "Retour au profil",
     "backToHub": "Retour aux paramètres",
+    "adChoices": {
+      "title": "Dans l'application Android",
+      "body": "Les éditions avec publicités affichent une bannière Google AdMob sous le contenu, jamais pendant une partie. Si vous n'avez pas déclaré avoir 18 ans ou plus, les annonces sont adaptées aux enfants, non personnalisées et sans identifiant publicitaire. Si vous l'avez déclaré, Google vous demande votre accord quand la loi l'exige, et vous pouvez le modifier ici.",
+      "action": "Choix publicitaires"
+    },
     "sourcesSummary": "L'origine et la licence des cartes, données et médias.",
     "localResults": {
       "title": "Résultats enregistrés sur cet appareil",
@@ -263,7 +268,7 @@
         "blocks": {
           "state": {
             "title": "Aujourd'hui",
-            "body": "Le jeu n'utilise ni cookie publicitaire ni traceur soumis à votre accord. Les éditions avec publicités montrent de temps en temps une courte vidéo des autres applications JavaChrist, sans suivi ni identifiant. Le stockage local conserve vos résultats, les joueurs du Mode Famille, le rythme de ces vidéos, votre réponse à la question d'âge et, si vous en avez un, la connexion à votre compte. Vous n'avez donc rien à accepter ou à refuser."
+            "body": "Sur le site, le jeu n'utilise ni cookie publicitaire ni traceur soumis à votre accord : vous n'avez rien à accepter ou à refuser. Les éditions avec publicités montrent de temps en temps une courte vidéo des autres applications JavaChrist, sans suivi ni identifiant. Le stockage local conserve vos résultats, les joueurs du Mode Famille, le rythme de ces vidéos, votre réponse à la question d'âge et, si vous en avez un, la connexion à votre compte. L'application Android affiche en plus des annonces Google AdMob, présentées ci-dessous quand vous utilisez l'application."
           },
           "later": {
             "title": "Si cela change",
@@ -295,7 +300,7 @@
         "blocks": {
           "local": {
             "title": "Sur cet appareil",
-            "body": "Le bouton ci-dessus efface vos résultats de parcours et de défis, ainsi que les joueurs et l'historique du Mode Famille. Ces données disparaissent aussi si vous videz les données du site ou de l'application."
+            "body": "Le bouton ci-dessus efface vos résultats de parcours et de défis, ainsi que les joueurs et l'historique du Mode Famille. Dans l'application Android, la bannière est retirée pendant l'effacement, puis les annonces reprennent avec les réglages prévus quand l'âge n'est pas connu : adaptées aux enfants, non personnalisées. Cet effacement ne supprime pas les données déjà transmises à Google par les annonces et ne retire pas votre consentement publicitaire : pour le modifier, utilisez Choix publicitaires dans la gestion des consentements. Ces données disparaissent aussi si vous videz les données du site ou de l'application."
           },
           "account": {
             "title": "Comptes en ligne",
@@ -606,6 +611,10 @@
       "title": "Accès réservé",
       "body": "Cette page est réservée aux administrateurs du jeu."
     },
+    "purchaseOtherAccount": {
+      "title": "Achat lié à un autre compte",
+      "body": "Cet achat Google Play appartient à un autre compte du jeu. Connectez-vous avec ce compte pour retrouver vos droits."
+    },
     "invalidEmail": {
       "title": "Adresse non valable",
       "body": "Vérifiez l'adresse électronique saisie."
@@ -633,6 +642,10 @@
     "alreadyDecided": {
       "title": "Demande déjà traitée",
       "body": "Une décision a déjà été prise pour cette demande de rétractation."
+    },
+    "adsUnavailable": {
+      "title": "Choix publicitaires indisponibles",
+      "body": "Le formulaire de Google n'a pas pu s'ouvrir. Vérifiez votre connexion et réessayez."
     }
   },
   "notFound": {
@@ -949,6 +962,18 @@
     "redirecting": "Redirection vers le paiement sécurisé",
     "testMode": "Paiements en mode test : aucun montant réel n'est encaissé.",
     "notInApp": "Les achats ne sont pas disponibles dans l'application.",
+    "playPrice": "Prix affiché par Google Play, toutes taxes comprises. Le paiement se fait avec votre compte Google Play.",
+    "openingPlay": "Ouverture de Google Play",
+    "restore": "Restaurer mes achats Google Play",
+    "restoring": "Recherche de vos achats",
+    "restored": {
+      "title": "Achats restaurés",
+      "body": "Vos achats Google Play sont rattachés à votre compte."
+    },
+    "nothingToRestore": {
+      "title": "Aucun achat trouvé",
+      "body": "Aucun achat Google Play de ce jeu n'a été trouvé sur cet appareil pour votre compte Google Play."
+    },
     "back": "Retour à la boutique",
     "open": "Voir les éditions",
     "offered": "Votre compte bénéficie de l'accès {appName} offert : tout le jeu est déjà ouvert, aucun achat n'est nécessaire."

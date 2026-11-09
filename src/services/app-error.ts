@@ -29,7 +29,9 @@ export type AppErrorCode =
   | "offeredAccess"
   | "withdrawalInvalid"
   | "withdrawalUnavailable"
-  | "alreadyDecided";
+  | "alreadyDecided"
+  | "purchaseOtherAccount"
+  | "adsUnavailable";
 
 export class AppError extends Error {
   readonly code: AppErrorCode;

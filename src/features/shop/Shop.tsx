@@ -9,20 +9,23 @@ import {
   Lock,
   Megaphone,
   MegaphoneOff,
+  RefreshCw,
   User,
   Users,
 } from "lucide-react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import content from "@country";
-import { freeRegionIds } from "@/engine/entitlements";
+import { freeRegionIds, productIdOf } from "@/engine/entitlements";
 import { paidEditions } from "@/engine/editions";
 import type { Edition, EditionId } from "@/engine/types";
 import { useEntitlements } from "@/features/account/EntitlementsProvider";
 import { useTranslation } from "@/i18n/I18nProvider";
 import type { TranslationKey } from "@/i18n/translator";
 import { requestCheckout } from "@/services/account";
+import { paymentChannel } from "@/services/api";
+import { buyOnPlay, playPrices, restorePlayPurchases } from "@/services/billing";
 import { BackLink } from "@/ui/BackLink";
 import { useModal } from "@/ui/modal/ModalProvider";
 import { card, primaryButton, secondaryButton, textLink } from "@/ui/styles";
@@ -32,6 +35,9 @@ const offers = paidEditions(content.editions);
 const testOnly = content.editions.editions.every(
   (edition) => edition.status === "planned",
 );
+/** `web` : Mollie sur le site. `play` : Google Play Billing dans l'application Android, jamais Mollie. */
+const channel = paymentChannel();
+const productOf = (id: EditionId) => productIdOf(content.country.legal.kitAppId, id);
 const nameKey = (id: EditionId) => `editions.${id}.name` as TranslationKey;
 
 function useFreeRegionNames(): string {
@@ -63,7 +69,10 @@ function Feature({
   );
 }
 
-/** Boutique : les quatre éditions payantes, la commande, les droits déjà acquis. Le prix vient de `editions.ts`. */
+/**
+ * Boutique : les quatre éditions payantes, la commande, les droits déjà acquis. Sur le web, le prix vient de
+ * `editions.ts` ; dans l'application, c'est le prix localisé de la Play Console (celui de `editions.ts` à défaut).
+ */
 export function Shop() {
   const { t, formatPrice } = useTranslation();
   const modal = useModal();
@@ -80,10 +89,23 @@ export function Shop() {
   const [termsAccepted, setTermsAccepted] = useState(false);
   const [immediateAccepted, setImmediateAccepted] = useState(false);
   const [busy, setBusy] = useState(false);
+  const [storePrices, setStorePrices] = useState<Record<string, string>>({});
+
+  useEffect(() => {
+    if (channel !== "play") return;
+    let active = true;
+    void playPrices(offers.map((edition) => productOf(edition.id))).then((prices) => {
+      if (active) setStorePrices(prices);
+    });
+    return () => {
+      active = false;
+    };
+  }, []);
 
   const ownsAny = entitlements.editions.length > 0;
   const choice = offers.find((edition) => edition.id === selected) ?? null;
   const price = (edition: Edition) =>
+    storePrices[productOf(edition.id)] ??
     formatPrice(edition.priceCents, content.editions.currency);
 
   const choose = (id: EditionId) => {
@@ -94,15 +116,47 @@ export function Shop() {
     router.replace(`/boutique?edition=${id}`, { scroll: false });
   };
 
+  const consent = () => ({
+    termsAccepted,
+    immediateAccessRequested: immediateAccepted,
+    withdrawalWaiverAccepted: immediateAccepted,
+  });
+
+  const orderOnPlay = async (editionId: EditionId) => {
+    const result = await buyOnPlay(editionId, consent());
+    if (result.kind === "verified") {
+      router.push(`/boutique/retour?commande=${encodeURIComponent(result.order.id)}`);
+      return true;
+    }
+    if (result.kind === "restored") {
+      await modal.success({ titleKey: "shop.restored.title", bodyKey: "shop.restored.body" });
+    }
+    return false;
+  };
+
+  const restoreFromPlay = async () => {
+    setBusy(true);
+    try {
+      const count = await restorePlayPurchases();
+      await (count > 0
+        ? modal.success({ titleKey: "shop.restored.title", bodyKey: "shop.restored.body" })
+        : modal.info({ titleKey: "shop.nothingToRestore.title", bodyKey: "shop.nothingToRestore.body" }));
+    } catch (error) {
+      await modal.error(error);
+    }
+    setBusy(false);
+  };
+
   const order = async () => {
     if (!choice) return;
     setBusy(true);
     try {
-      const result = await requestCheckout(choice.id, {
-        termsAccepted,
-        immediateAccessRequested: immediateAccepted,
-        withdrawalWaiverAccepted: immediateAccepted,
-      });
+      if (channel === "play") {
+        if (await orderOnPlay(choice.id)) return;
+        setBusy(false);
+        return;
+      }
+      const result = await requestCheckout(choice.id, consent());
       if ("checkoutUrl" in result) {
         // La page Mollie s'ouvre dans le même onglet. Le retour ne prouve rien : le serveur vérifie le paiement.
         window.location.assign(result.checkoutUrl);
@@ -133,7 +187,7 @@ export function Shop() {
       {!enabled && (
         <section className={card}>
           <p>
-            {process.env.NEXT_PUBLIC_PAYMENTS === "off"
+            {channel === "off"
               ? t("shop.notInApp")
               : t("account.unavailable")}
           </p>
@@ -316,12 +370,37 @@ export function Shop() {
                 disabled={busy || !termsAccepted || !immediateAccepted}
                 onClick={() => void order()}
               >
-                {t(busy ? "shop.redirecting" : "shop.order")}
+                {t(
+                  busy
+                    ? channel === "play"
+                      ? "shop.openingPlay"
+                      : "shop.redirecting"
+                    : "shop.order",
+                )}
               </button>
+              {channel === "play" && (
+                <p className="text-sm text-ink-soft">{t("shop.playPrice")}</p>
+              )}
             </>
           )}
         </section>
       )}
+
+      {/* Application Android : un achat fait sur un autre appareil ou resté en suspens se retrouve ici. */}
+      {enabled &&
+        channel === "play" &&
+        account?.verified &&
+        !entitlements.granted && (
+          <button
+            type="button"
+            className={`${secondaryButton} self-start`}
+            disabled={busy}
+            onClick={() => void restoreFromPlay()}
+          >
+            <RefreshCw aria-hidden className="size-5" />
+            {t(busy ? "shop.restoring" : "shop.restore")}
+          </button>
+        )}
 
       <BackLink href="/" label={t("common.backHome")} />
     </main>

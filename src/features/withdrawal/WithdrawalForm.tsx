@@ -9,6 +9,7 @@ import { useEntitlements } from "@/features/account/EntitlementsProvider";
 import { useTranslation } from "@/i18n/I18nProvider";
 import type { TranslationKey } from "@/i18n/translator";
 import { listOwnOrders, submitWithdrawal, type OwnOrder, type WithdrawalReceipt } from "@/services/account";
+import { paymentChannel } from "@/services/api";
 import { BackLink } from "@/ui/BackLink";
 import { useModal } from "@/ui/modal/ModalProvider";
 import { card, input, primaryButton, textLink } from "@/ui/styles";
@@ -18,8 +19,8 @@ const supportEmail = content.country.legal.supportEmail;
 const TERMS = "/profil/confidentialite/conditions-de-vente";
 const OTHER = "";
 
-/** Sans serveur (export Android, `NEXT_PUBLIC_PAYMENTS=off`), la demande se fait par email au support. */
-const serverAvailable = process.env.NEXT_PUBLIC_PAYMENTS !== "off";
+/** Sans serveur (export Android sans `NEXT_PUBLIC_API_BASE_URL`), la demande se fait par email au support. */
+const serverAvailable = paymentChannel() !== "off";
 
 /**
  * Fonction de rétractation en ligne, accessible sans connexion (voir `docs/retractation.md`).

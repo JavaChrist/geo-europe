@@ -109,14 +109,13 @@ Les règles de `firestore.rules` se publient avec la commande de [paiements.md](
 
 ## Android
 
-L'export Android coupe la connexion, la boutique et l'administration (`NEXT_PUBLIC_PAYMENTS=off`). Les accès offerts ne s'y appliquent pas encore.
+Avec le canal `play` (build avec `NEXT_PUBLIC_API_BASE_URL`), l'application connecte le joueur et lit ses droits comme le web :
 
-Le jour où Android aura des comptes et Google Play Billing :
-
-1. Lire les droits dans `entitlements/{app}/users/{uid}`, comme sur le web. `granted` y est déjà.
-2. Appeler la restauration du serveur à la connexion, pour activer un accès en attente.
-3. Si `granted` est vrai, ne jamais lancer Play Billing : masquer les achats, comme la boutique web.
-4. Ne jamais déduire un accès offert de l'application seule. Le serveur reste la seule source.
+1. Les droits sont lus dans `entitlements/{app}/users/{uid}`, `granted` compris. La restauration du serveur tourne à chaque connexion et à la confirmation de l'adresse, ce qui active un accès en attente.
+2. Si `granted` est vrai, la boutique masque les achats et le bouton de restauration, et le serveur refuse la préparation d'un achat Play (`offeredAccess`). Play Billing n'est jamais lancé.
+3. L'accès offert n'est jamais déduit de l'application seule : le serveur reste la seule source.
+4. Aucune bannière AdMob ni requête publicitaire. `AdsProvider` lit `granted` et `adsRemoved` dans `useEntitlements()`, et refuse tant que les droits ne sont pas `ready` (`check:ads`, sections 6 et 7).
+5. L'administration des accès répond 404 dans l'application.
 
 ## Autres pays
 

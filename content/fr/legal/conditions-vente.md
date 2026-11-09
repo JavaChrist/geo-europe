@@ -2,12 +2,12 @@
 
 # Conditions générales de vente — GéoFR
 
-Version 0.2.0 — 2026-11-07
+Version 0.3.2 — 2026-11-09
 
 ## Vendeur et périmètre
 
 Christian Grohens, Entrepreneur individuel (EI), exerçant sous le nom commercial JavaChrist, 5 rue Maurice Fonvieille, 31120 Portet-sur-Garonne, France, immatriculation SIREN : 338 593 312 ; SIRET : 338 593 312 00030, contact support@javachrist.fr, téléphone 09 52 62 31 71. TVA : TVA non applicable, article 293 B du Code général des impôts.
-Ces conditions concernent les offres de GéoFR proposées aux consommateurs. Jeu de découverte géographique de la France : carte et régions, parcours de questions, défis et Mode Famille de 2 à 4 joueurs sur un même appareil. Aujourd’hui, tout le jeu est accessible gratuitement. Sont prévues une édition Découverte gratuite limitée à deux régions et des éditions complètes en achat unique, sans abonnement.
+Ces conditions concernent les offres de GéoFR proposées aux consommateurs. Jeu de découverte géographique de la France : carte et régions, parcours de questions, défis et Mode Famille de 2 à 4 joueurs sur un même appareil. Disponible sur le web (geofr.appsgeo.com) et en application Android. L'édition Découverte est gratuite et couvre deux régions ; quatre éditions complètes sont proposées en achat unique, sans abonnement. Le site web n'affiche aucune publicité tierce ; l'application Android affiche une bannière publicitaire Google AdMob, sauf dans les éditions sans publicités.
 L’identité du vendeur et les règles propres à chaque canal doivent être précisées avant commande.
 
 ## Offres et tarifs
@@ -23,20 +23,20 @@ Les prix applicables sont présentés avant la validation de la commande, avec l
 
 ## Commande, paiement et accès
 
-Aucune vente n'est ouverte et aucune somme ne peut être demandée aujourd'hui. Le paiement est prévu par Mollie sur le web et par Google Play Billing sur Android. L'accès payant sera ouvert après confirmation du paiement par les serveurs de l'éditeur, jamais à partir d'un résultat du navigateur. À COMPLÉTER avant l'ouverture des ventes : vendeur selon le canal, confirmation sur support durable et facturation.
+GéoFR propose quatre éditions payantes à achat unique, sans abonnement : Solo avec publicités (9,99 € TTC), Solo sans publicités (14,99 € TTC), Famille avec publicités (14,99 € TTC) et Famille sans publicités (19,99 € TTC). Sur le site web geofr.appsgeo.com, le vendeur est JavaChrist, dont les coordonnées figurent dans les mentions légales. Les paiements sont traités par Mollie, prestataire de paiement. Après confirmation du paiement par le serveur, les droits d'accès sont activés et une confirmation de commande est envoyée par e-mail avec les informations contractuelles et les CGV acceptées. Sur Android, les achats intégrés sont traités par Google Play Billing, selon les conditions commerciales et de facturation de Google Play. Google fournit une confirmation d'achat et un historique des commandes. Pour toute demande de justificatif, de facture ou d'assistance concernant un achat effectué directement auprès de JavaChrist, le client peut contacter support@appsgeo.com. Les documents fiscaux et factures sont établis conformément aux obligations légales applicables.
 
 ## Compatibilité et mises à jour
 
-Version web : navigateur récent sur ordinateur, tablette ou téléphone, avec une connexion pour le chargement. Une application Android est en préparation.
+Version web : navigateur récent sur ordinateur, tablette ou téléphone, avec une connexion pour le chargement. Application Android : Android 7.0 ou plus récent, distribuée par Google Play.
 
-Les mises à jour nécessaires au bon fonctionnement sont fournies sans frais. Sur le web, elles s'installent au rechargement ; sur Android, elles passeront par Google Play. À COMPLÉTER : durée de fourniture des mises à jour.
+Les mises à jour nécessaires au maintien de la conformité de GéoFR, notamment les corrections de sécurité et de fonctionnement, sont fournies gratuitement pendant toute la durée de fourniture du service, conformément à l'article L.224-25-25 du Code de la consommation. Sur le web, elles sont mises à disposition via l'application et peuvent nécessiter un rechargement. Sur Android, elles sont distribuées par Google Play. Les ajouts de nouvelles fonctionnalités ou de nouveaux contenus ne sont pas systématiquement garantis. Les utilisateurs sont informés des mises à jour nécessaires et des éventuelles actions à effectuer.
 
 
 ## Rétractation
 
-Vous disposez en principe de 14 jours pour vous rétracter. Les éditions étant des contenus numériques fournis immédiatement, votre accord exprès pour cette exécution immédiate et votre reconnaissance de la perte du droit de rétractation seront demandés au moment de l'achat. Sans cet accord, le droit de rétractation reste applicable.
+Le consommateur dispose en principe d’un délai de 14 jours à compter de la conclusion du contrat pour se rétracter, sans avoir à motiver sa décision (article L.221-18 du Code de la consommation). Les éditions de GéoFR sont des contenus numériques fournis sans support matériel : le droit de rétractation ne peut plus être exercé lorsque l’exécution a commencé avec l’accord préalable et exprès du consommateur, qui a reconnu perdre ce droit (article L.221-28, 13°). Lors d’un achat sur le site web, deux cases distinctes, jamais cochées d’avance, recueillent l’acceptation des CGV d’une part, la demande d’accès immédiat et la renonciation au droit de rétractation d’autre part ; la confirmation de commande envoyée par e-mail reprend cet accord. Lorsque le droit de rétractation reste applicable, le consommateur l’exerce par la fonction de rétractation en ligne ou par toute déclaration dénuée d’ambiguïté adressée à support@appsgeo.com, en indiquant la référence de la commande. JavaChrist en accuse réception sans délai par e-mail et rembourse les sommes versées au plus tard 14 jours après la réception de la demande, par le même moyen de paiement (article L.221-24). Pour un achat effectué dans l’application Android, la demande peut aussi être adressée à Google selon les règles de remboursement de Google Play.
 
-Fonctionnalité d’exercice en ligne lorsqu’applicable : À COMPLÉTER : lien HTTPS de la fonction de rétractation en ligne, à créer avant l'ouverture des ventes.
+Fonctionnalité d’exercice en ligne lorsqu’applicable : https://geofr.appsgeo.com/retractation.
 La simple présence d’une clause dans ces CGV ne recueille pas un accord exprès ni une reconnaissance de perte du droit de rétractation. Le parcours de commande doit recueillir et conserver les preuves requises et fournir la confirmation sur support durable.
 
 ### Formulaire type de rétractation
@@ -53,7 +53,7 @@ Supprimer les mentions inutiles. Une déclaration dénuée d’ambiguïté peut 
 
 ## Garanties légales
 
-À COMPLÉTER : encadré réglementaire de la garantie légale de conformité des contenus numériques et modalités de mise en œuvre
+Les éditions payantes de GéoFR bénéficient de la garantie légale de conformité applicable aux contenus et services numériques, conformément aux articles L.224-25-12 à L.224-25-26 du Code de la consommation. En cas de défaut de conformité, le consommateur peut demander une mise en conformité sans frais et, dans les conditions prévues par la loi, une réduction du prix ou la résolution du contrat. Pour exercer ses droits, il peut contacter JavaChrist à support@appsgeo.com en précisant l'édition achetée, la date d'achat et le problème rencontré. Les mises à jour nécessaires au maintien de la conformité sont fournies conformément aux dispositions légales applicables.
 
 ## Réclamations et médiation
 

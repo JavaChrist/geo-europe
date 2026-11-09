@@ -2,7 +2,7 @@
 
 # Mentions légales — GéoFR
 
-Version 0.2.0 — 2026-11-07
+Version 0.3.2 — 2026-11-09
 
 ## Éditeur et contact
 
@@ -15,9 +15,9 @@ Directeur de publication : Christian Grohens.
 ## Application et hébergement
 
 GéoFR : https://appsgeo.com.
-Jeu de découverte géographique de la France : carte et régions, parcours de questions, défis et Mode Famille de 2 à 4 joueurs sur un même appareil. Aujourd’hui, tout le jeu est accessible gratuitement. Sont prévues une édition Découverte gratuite limitée à deux régions et des éditions complètes en achat unique, sans abonnement.
-Hébergeur : Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis, téléphone À COMPLÉTER : téléphone officiel de Vercel Inc..
-Régions techniques utilisées : À COMPLÉTER : régions Vercel réellement utilisées par le projet GéoFR.
+Jeu de découverte géographique de la France : carte et régions, parcours de questions, défis et Mode Famille de 2 à 4 joueurs sur un même appareil. Disponible sur le web (geofr.appsgeo.com) et en application Android. L'édition Découverte est gratuite et couvre deux régions ; quatre éditions complètes sont proposées en achat unique, sans abonnement. Le site web n'affiche aucune publicité tierce ; l'application Android affiche une bannière publicitaire Google AdMob, sauf dans les éditions sans publicités.
+Hébergeur : Vercel Inc., 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis, téléphone Vercel ne publie pas de numéro de support général. Contact juridique DMCA : +1 559 288 7060. Contact général : https://vercel.com/contact.
+Régions techniques utilisées : Fonctions serveur Vercel : iad1 (Washington D.C., États-Unis). Ressources statiques distribuées via le CDN mondial Vercel..
 Support de l’application : support@appsgeo.com.
 
 ## Propriété intellectuelle

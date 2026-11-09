@@ -50,5 +50,6 @@ export default defineConfig([
       ],
     },
   },
-  globalIgnores([".next/**", "out/**", "build/**", "next-env.d.ts"]),
+  // android/ : projet Capacitor généré, avec la copie du site dans app/src/main/assets.
+  globalIgnores([".next/**", "out/**", "build/**", "android/**", "next-env.d.ts"]),
 ]);

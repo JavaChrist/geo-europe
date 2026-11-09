@@ -112,7 +112,7 @@ Un projet Firebase par pays. **Prévu** : aucun code Firebase n'existe encore. I
 
 ### 18. Application Android
 
-Capacitor sur l'export `out/`, avec `androidPackage` de `country.ts`. **Prévu** : Capacitor n'est pas encore installé.
+Capacitor sur l'export `out/`. **En place pour les tests** : `content/<pays>/android.json` (identifiant d'application, nom, ID d'application AdMob de démonstration) et `ads` dans `country.ts`, puis `GEO_COUNTRY=<pays> npm run build:export` et `npx cap sync android`. Voir [admob.md](admob.md#ajouter-un-pays-géode-géoes-géoit). Publication Play et identifiants réels : validation de Christian.
 
 ## Limites à connaître
 

@@ -4,6 +4,7 @@ import { createContext, use, useEffect, useMemo, useState, type ReactNode } from
 import content from "@country";
 import { canPlayRegion, FREE_ENTITLEMENTS, type Entitlements } from "@/engine/entitlements";
 import { paymentsEnabled, requestRestore, watchAccount, watchEntitlements, type Account } from "@/services/account";
+import { watchPlayPurchases } from "@/services/billing";
 
 /**
  * Couche commune des droits d'accès : tous les verrous du jeu passent par `useEntitlements()`.
@@ -39,6 +40,9 @@ export function EntitlementsProvider({ children }: { children: ReactNode }) {
     requestRestore().catch(() => undefined);
     return stop;
   }, [uid, verified]);
+
+  // Application Android : un paiement Google Play différé devenu payé est vérifié par le serveur dès son arrivée.
+  useEffect(() => (uid && verified ? watchPlayPurchases() : undefined), [uid, verified]);
 
   const value = useMemo<EntitlementsState>(() => {
     const current = uid && remote?.uid === uid ? remote : null;

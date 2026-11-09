@@ -1,9 +1,9 @@
 {
   "appId": "geofr",
-  "version": "0.2.0",
+  "version": "0.3.2",
   "mode": "draft",
-  "generatedAt": "2026-11-07T20:10:45.290Z",
-  "configurationSha256": "4461cb6e292478f82d5b929ad0d283683f21ebe4f0fe5a869abb5a648b409181",
+  "generatedAt": "2026-11-09T18:47:50.426Z",
+  "configurationSha256": "efc3c9bdc24aa14dcadf34ac7df224d9215a6182db231643ca93f9d75b08e5f2",
   "kitCommit": "b334570+modifications",
-  "pendingPoints": 11
+  "pendingPoints": 1
 }

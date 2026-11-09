@@ -12,6 +12,7 @@ import { useChallengeRecords, useLevelRecords } from "@/features/journey/useLeve
 import { useTranslation } from "@/i18n/I18nProvider";
 import { clearFamilyData } from "@/services/family-storage";
 import { clearLevelRecords } from "@/services/local-progress";
+import { useAds } from "@/features/ads/AdsProvider";
 import { clearPromotions, hasPromotionsData } from "@/services/promotions";
 import { useModal } from "@/ui/modal/ModalProvider";
 
@@ -84,6 +85,7 @@ export function LocalResultsList() {
 export function LocalResultsDelete() {
   const { t } = useTranslation();
   const modal = useModal();
+  const ads = useAds();
   const family = useFamilyData();
   const hasPromotions = useSyncExternalStore(noSubscription, () => hasPromotionsData(content.country.code), () => false);
   const levelRecords = useLevelRecords();
@@ -96,6 +98,9 @@ export function LocalResultsDelete() {
       confirmKey: "common.delete",
     });
     if (!confirmed) return;
+    // Application Android : la bannière est retirée et toute requête bloquée avant l'effacement.
+    // Sans réponse d'âge, les annonces ne reprennent qu'avec les réglages de l'âge inconnu.
+    const release = await ads?.suspend();
     try {
       clearLevelRecords(content.country.code);
       clearFamilyData(content.country.code);
@@ -103,6 +108,8 @@ export function LocalResultsDelete() {
       await modal.success({ titleKey: "privacy.localResults.deletedTitle", bodyKey: "privacy.localResults.deletedBody" });
     } catch (error) {
       await modal.error(error);
+    } finally {
+      release?.();
     }
   };
 

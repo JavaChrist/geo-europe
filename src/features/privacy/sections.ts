@@ -32,6 +32,8 @@ export interface PrivacySection {
   localResults?: "view" | "delete";
   /** Lien vers la fonction de rétractation en ligne, sous les conditions de vente. */
   withdrawalLink?: boolean;
+  /** Bannière AdMob de l'application Android et bouton « Choix publicitaires ». Rien sur le web. */
+  adChoices?: boolean;
 }
 
 /** Rubriques communes à tous les pays, dans l'ordre d'affichage. */
@@ -77,6 +79,7 @@ export const PRIVACY_SECTIONS: PrivacySection[] = [
     icon: Cookie,
     titleKey: "privacy.sections.consents.title",
     summaryKey: "privacy.sections.consents.summary",
+    adChoices: true,
     blocks: [
       { titleKey: "privacy.sections.consents.blocks.state.title", bodyKey: "privacy.sections.consents.blocks.state.body" },
       { titleKey: "privacy.sections.consents.blocks.later.title", bodyKey: "privacy.sections.consents.blocks.later.body" },

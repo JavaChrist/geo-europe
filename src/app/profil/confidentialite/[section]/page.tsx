@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getLegalValues } from "@/features/privacy/legal-values";
+import { AdChoices } from "@/features/ads/AdChoices";
 import { LegalDocument } from "@/features/privacy/LegalDocument";
 import { LocalResultsDelete, LocalResultsList } from "@/features/privacy/LocalResults";
 import { PRIVACY_SECTIONS } from "@/features/privacy/sections";
@@ -41,6 +42,8 @@ export default async function PrivacySectionPage({ params }: { params: Promise<{
           <p className="text-ink-soft">{t(block.bodyKey, values)}</p>
         </section>
       ))}
+
+      {section.adChoices && <AdChoices />}
 
       {section.withdrawalLink && (
         <Link href="/retractation" className={`${secondaryButton} self-start`}>

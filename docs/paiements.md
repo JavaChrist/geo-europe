@@ -26,7 +26,7 @@ Un même calcul sert à la notification, à la restauration et au rattrapage.
 
 Un **accès offert** par un administrateur s'y ajoute sans commande : `effectiveEntitlements()` réunit les achats et l'accès, et le document de droits porte `granted: true`. Une révocation laisse les achats réels intacts. Voir [acces-offerts.md](acces-offerts.md).
 
-`adsRemoved` coupe les vidéos de JavaChrist-Promotions, la question d'âge et toute lecture du catalogue (voir [promotions.md](promotions.md#éditions-sans-publicités)).
+`adsRemoved` coupe les vidéos de JavaChrist-Promotions, la question d'âge et toute lecture du catalogue (voir [promotions.md](promotions.md#éditions-sans-publicités)). Dans l'application Android, `adsRemoved` et `granted` coupent aussi la bannière AdMob avant toute requête (voir [admob.md](admob.md#qui-voit-une-annonce)).
 
 ### Un seul achat
 
@@ -111,7 +111,10 @@ Les verrous sont `RegionGate` (layout `src/app/explorer/[slug]/layout.tsx`, qui 
 | `src/services/payments/orders.ts` | Commandes, notification, synchronisation, restauration avec activation des accès offerts, rattrapage |
 | `src/services/grants.ts`, `src/app/api/admin/grants/route.server.ts` | Accès offerts, voir [acces-offerts.md](acces-offerts.md) |
 | `src/services/account.ts` | Connexion, lecture des droits, appels aux routes |
-| `src/app/api/payments/*/route.server.ts` | `checkout`, `webhook`, `sync`, `reconcile` |
+| `src/app/api/payments/*/route.server.ts` | `checkout`, `webhook`, `sync`, `reconcile`, `google-play/{prepare,verify,notify}` |
+| `src/engine/google-play.ts`, `src/services/payments/google-play.ts` | Règles Play sans réseau ; API Google Play Developer et Pub/Sub en REST (`node:crypto`), serveur uniquement |
+| `src/services/billing.ts`, `android/app/src/main/java/fr/javachrist/geofr/PlayBillingPlugin.java` | Achat, restauration et écoute Google Play dans l'application |
+| `src/services/payments/http.ts` | Erreurs HTTP, CORS de l'application (`withAppCors`) |
 | `src/app/api/entitlements/restore/route.server.ts` | Restauration |
 | `src/features/account/` | `EntitlementsProvider`, connexion, Compte du Profil, verrous |
 | `src/features/shop/` | Boutique et écrans de retour |
@@ -134,7 +137,7 @@ Elles se règlent dans Vercel, et en local dans `.env.local`, qui n'est jamais v
 | `CRON_SECRET` | Serveur | Au moins 16 caractères, protège le rattrapage. Secret |
 | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `MAIL_FROM`, `MAIL_REPLY_TO` | Serveur | Envoi des courriels, voir [courriels.md](courriels.md). `SMTP_PASSWORD` est secret |
 
-`NEXT_PUBLIC_PAYMENTS` est fixé par `next.config.ts` : `off` dans l'export statique.
+`NEXT_PUBLIC_PAYMENTS` est fixé par `next.config.ts`. Il vaut `web` sur le site. Dans l'export statique, il vaut `play` avec `NEXT_PUBLIC_API_BASE_URL`, sinon `off`. Pour les variables Google Play, voir [Google Play](#variables-du-serveur-pour-google-play).
 
 ## Tests
 
@@ -174,17 +177,140 @@ TMP='C:\tmp\geofr' TEMP='C:\tmp\geofr' JAVA_TOOL_OPTIONS='-Djdk.net.unixdomain.t
 
 Ces tests n'atteignent pas la vraie page Mollie. Un achat de bout en bout en mode test se fait sur le site déployé, avec la clé `test_` de Christian, en choisissant « Paid », « Failed », « Canceled » ou « Expired » sur la page de test de Mollie. Il faut aussi tester un remboursement depuis le tableau de bord Mollie.
 
-## Android et autres fournisseurs
+## Google Play (application Android)
 
-L'application Android ne propose jamais Mollie. Google Play impose sa propre facturation pour un contenu numérique. L'export statique coupe la boutique et la connexion (`NEXT_PUBLIC_PAYMENTS=off`), et ne contient aucune route serveur.
+L'application Android ne propose jamais Mollie : Google Play impose sa facturation pour un contenu numérique. Elle est construite par `npm run build:export` avec `NEXT_PUBLIC_API_BASE_URL=https://<serveur>` (origine HTTPS, sans chemin). `paymentChannel()` vaut alors `play` et `apiUrl()` vise le serveur Vercel. Sans cette variable, le canal est `off` : pas de compte, pas de boutique, tout le monde en Découverte avec publicités.
 
-Pour ajouter Google Play Billing :
+L'application ne contient ni secret ni Firebase Admin. Elle lit ses droits dans Firestore (lecture seule) et appelle les routes HTTPS du serveur avec le jeton Firebase du joueur.
 
-1. Implémenter `PaymentProvider` (`src/engine/payments.ts`) côté serveur, avec `id: "google_play"`. `fetchPayment` y vérifie l'achat avec l'API Google Play Developer, côté serveur uniquement.
-2. Utiliser `productIdOf(appId, editionId)` pour les produits Play : `geofr_solo_ads`, `geofr_solo_no_ads`, `geofr_family_ads`, `geofr_family_no_ads`.
-3. Écrire la commande dans `orders/{id}` avec `provider: "google_play"`. Les droits restent calculés par `computeEntitlements()` : un achat web et un achat Play donnent les mêmes droits, et la règle d'un seul achat vaut pour tous les canaux.
-4. Ne jamais ouvrir un droit sur la seule réponse de l'application. Le jeton d'achat est vérifié par le serveur.
-5. Ne jamais lancer Play Billing pour un compte dont les droits portent `granted: true` (accès offert, voir [acces-offerts.md](acces-offerts.md#android)).
+### Produits
+
+| Édition | Produit Play (achat unique, non consommable) | Prix de référence |
+| --- | --- | --- |
+| Solo avec publicités | `geofr_solo_ads` | 9,99 € |
+| Solo sans publicités | `geofr_solo_no_ads` | 14,99 € |
+| Famille avec publicités | `geofr_family_ads` | 14,99 € |
+| Famille sans publicités | `geofr_family_no_ads` | 19,99 € |
+
+Les identifiants viennent de `productIdOf(appId, editionId)`. Les prix sont ceux de `content/fr/editions.ts`, à recopier tels quels dans la Play Console. L'application affiche le prix localisé renvoyé par Google Play.
+
+### Parcours
+
+1. **Préparer** (`POST /api/payments/google-play/prepare`, adresse confirmée exigée).
+   - Le serveur contrôle les consentements et la règle d'un seul achat, accès offert compris.
+   - Il crée la commande `orders/{id}` avec `provider: "google_play"` et `mode: "test"`.
+   - Il renvoie le produit, `obfuscatedAccountId = sha256(uid)` et `obfuscatedProfileId = id de commande`.
+   - Une commande Play préparée mais jamais payée (achat annulé) est réutilisée pour la même édition, et annulée si le joueur choisit une autre édition. Elle ne bloque jamais un achat web.
+2. **Acheter.** Le plugin local `PlayBilling` (Java, Billing Library 8) relit la fiche du produit, puis ouvre la feuille Google Play. L'application n'accuse **jamais** réception elle-même.
+3. **Vérifier** (`POST /api/payments/google-play/verify`).
+   - Le serveur relit l'achat avec l'API Google Play Developer (`purchases.products.get`).
+   - Il le confronte à la commande (`assessPlayPurchase`) : produit, compte (`obfuscatedExternalAccountId`), commande (`obfuscatedExternalProfileId`), mode (testeur de licence ou réel) et jeton.
+   - Au moindre écart, l'achat est refusé : aucun droit, aucun accusé. Google le rembourse de lui-même au bout de 3 jours.
+4. **Écrire**, dans une transaction :
+   - le jeton dans `playPurchases/{sha256(jeton)}` (serveur seul) ;
+   - la commande en `paid` ;
+   - les droits recalculés.
+
+   Ensuite seulement, le serveur accuse réception (`:acknowledge`) et note `acknowledged: true`. Le courriel de confirmation part une seule fois.
+
+| Cas | Traitement |
+| --- | --- |
+| Paiement différé | Commande `pending`, aucun droit. Elle passe à `paid` par la notification Google, le rattrapage ou `purchaseUpdated` dans l'application |
+| Achat annulé par le joueur | Aucun appel au serveur. La commande préparée reste réutilisable |
+| Jeton rejoué | `playPurchases` rattache chaque jeton à une seule commande. Même commande : rien ne change. Autre commande : refus |
+| Achat d'un autre compte | `403`, message « achat d'un autre compte ». Un achat, un compte ; un compte, un achat |
+| Second achat payant | Refusé (`secondPurchase`), jamais accusé, donc remboursé par Google |
+| Accusé de réception en échec | Les droits sont écrits. Le rattrapage relance l'accusé tant que `acknowledged` est faux |
+| Remboursement, annulation, rétrofacturation | Notification `voidedPurchaseNotification`, ou `voidedpurchases.list` au rattrapage. La commande passe à `refunded`, ou à `charged_back` pour la raison 7. Seuls les droits de cette commande sont retirés |
+| Achat réel pendant les tests | Refusé (mode `live` au lieu de `test`) tant que les éditions sont `planned` |
+
+Les remboursements Play se font dans la Play Console. Ils ne passent jamais par l'application ni par la rétractation en ligne (voir [retractation.md](retractation.md)).
+
+Le courriel de confirmation indique le prix de référence en euros de `editions.ts`, pas le prix localisé débité par Google. C'est à reprendre avant la vente si les prix Play diffèrent.
+
+### Restauration
+
+Le bouton « Restaurer mes achats » est dans la boutique et dans le Compte, pour un compte confirmé sans accès offert.
+
+- Chaque achat présent sur l'appareil (`queryPurchases`) est revérifié par le serveur.
+- Un achat sans commande est ignoré.
+- Un achat d'un autre compte n'est signalé que si rien n'a été restauré.
+
+À chaque connexion, la restauration du serveur recalcule aussi les droits. Un achat fait sur le web revient donc dans l'application, et inversement.
+
+### Notifications et rattrapage
+
+- `POST /api/payments/google-play/notify` reçoit les notifications développeur en temps réel (RTDN).
+  - Elles arrivent par un abonnement Pub/Sub **push**, avec authentification OIDC.
+  - Le serveur vérifie la signature Google, l'émetteur, l'audience (`GOOGLE_PLAY_RTDN_AUDIENCE`) et le compte de service (`GOOGLE_PLAY_RTDN_SERVICE_ACCOUNT`).
+  - Sans cette configuration, toute notification est refusée. La route répond `204`.
+- `/api/payments/reconcile` (tâche planifiée) relit les commandes Play `pending` ou non accusées, puis les achats annulés des 30 derniers jours. Cette étape est sautée si `GOOGLE_PLAY_CLIENT_EMAIL` manque.
+
+### Appels depuis l'application
+
+Les routes appelées par l'application passent par `withAppCors` :
+
+- `account/password-reset` ;
+- `account/verification` ;
+- `entitlements/restore` ;
+- `payments/sync` ;
+- `withdrawal` ;
+- les trois routes Google Play.
+
+Le CORS n'est ouvert qu'aux origines de la WebView Capacitor (`https://localhost`, `capacitor://localhost`). `APP_CORS_ORIGINS` en ajoute pour un test.
+
+Le paiement Mollie (`checkout`) et l'administration restent fermés à toute autre origine. Ces écrans répondent 404 dans l'application.
+
+### Configuration Google Play à faire (validation de Christian)
+
+1. Créer les quatre produits ci-dessus (achats uniques), avec les prix recopiés de `editions.ts`, puis les activer.
+2. Inviter un compte de service Google Cloud dans la Play Console (Utilisateurs et autorisations).
+   - Droits : « Afficher les données financières » et « Gérer les commandes et les abonnements ».
+   - Ses identifiants vont dans Vercel (`GOOGLE_PLAY_CLIENT_EMAIL`, `GOOGLE_PLAY_PRIVATE_KEY`), jamais dans le dépôt.
+3. Brancher les notifications :
+   - créer un sujet Pub/Sub ;
+   - donner le droit de publication à `google-play-developer-notifications@system.gserviceaccount.com` ;
+   - renseigner le sujet dans Monétisation ;
+   - créer un abonnement push vers `https://<serveur>/api/payments/google-play/notify`, avec un compte de service OIDC et une audience ;
+   - recopier ce compte et cette audience dans `GOOGLE_PLAY_RTDN_SERVICE_ACCOUNT` et `GOOGLE_PLAY_RTDN_AUDIENCE`.
+4. Ajouter les testeurs de licence (Paramètres, Test de licence) et créer une piste de test interne. Sans application envoyée sur une piste, Google Play ne renvoie aucun produit.
+5. Firebase :
+   - application Android `fr.javachrist.geofr`, avec les empreintes SHA-1 de la clé de debug et de la clé d'importation Play ;
+   - fournisseur Google activé ;
+   - identifiant client OAuth Web dans `NEXT_PUBLIC_GOOGLE_WEB_CLIENT_ID`, au build Android ;
+   - publier `firestore.rules`, où la collection `playPurchases` est fermée.
+
+### Variables du serveur pour Google Play
+
+| Variable | Rôle |
+| --- | --- |
+| `GOOGLE_PLAY_CLIENT_EMAIL`, `GOOGLE_PLAY_PRIVATE_KEY` | Compte de service de l'API Google Play Developer. Secret |
+| `GOOGLE_PLAY_RTDN_AUDIENCE`, `GOOGLE_PLAY_RTDN_SERVICE_ACCOUNT` | Vérification des notifications Pub/Sub |
+| `APP_CORS_ORIGINS` | Origines supplémentaires, pour les tests seulement |
+
+Au build de l'application : `NEXT_PUBLIC_API_BASE_URL` (le serveur) et `NEXT_PUBLIC_GOOGLE_WEB_CLIENT_ID` (public).
+
+### Trois niveaux de test
+
+| Niveau | Ce qu'il prouve | Où |
+| --- | --- | --- |
+| Local | Règles Play : `assessPlayPurchase`, statuts, notifications, produits | `check:payments`, dans `npm run check` |
+| Simulé | Plugin, boutique et appels serveur sur l'émulateur, sans Google Play | APK de debug. Google Play absent ou sans produits : message « paiements indisponibles » |
+| Réel (mode test) | Feuille Google Play, testeur de licence, accusé, remboursement depuis la Console | Piste interne et serveur configuré, après validation de Christian |
+
+## iOS (plus tard)
+
+Rien n'est construit pour iOS. Le jour venu :
+
+1. **Capacitor iOS** (`npx cap add ios`) sur le même export statique, avec le même `NEXT_PUBLIC_API_BASE_URL`. L'origine de la WebView (`capacitor://localhost`) est déjà acceptée par `withAppCors`.
+2. **Achats** avec StoreKit 2. Les achats intégrés sont obligatoires pour un contenu numérique, jamais Mollie. Les produits sont nommés comme sur Android.
+   - Côté serveur, un `PaymentProvider` `app_store` vérifie la transaction signée (JWS) avec l'App Store Server API.
+   - Les App Store Server Notifications V2 traitent les remboursements.
+   - `appAccountToken` (UUID dérivé du compte) joue le rôle de `obfuscatedAccountId`.
+3. **Connexion** : Firebase Auth par e-mail, Google, et « Se connecter avec Apple », que l'App Store exige dès qu'une connexion tierce est proposée.
+4. **Publicité** : AdMob et UMP existent sur iOS. Ajouter l'App Tracking Transparency avant toute annonce personnalisée, et remplir l'étiquette de confidentialité de l'App Store.
+5. **Règles de l'App Store** : bouton « Restaurer les achats » obligatoire, et suppression du compte possible depuis l'application (règle 5.1.1(v)).
+6. **Documents** : ajouter la plateforme iOS dans le Legal Kit, jamais à la main.
 
 ## Avant la vente réelle
 
@@ -194,8 +320,9 @@ Rien de ceci n'est fait. Chaque point demande la validation de Christian.
 - [ ] **Confirmation sur support durable.** Construite : courriel du Mail-Kit après paiement, avec l'édition, le prix, la date, le numéro de commande, l'accès immédiat et les CGV jointes ([courriels.md](courriels.md)). Reste à régler l'envoi SMTP dans Vercel, à la recevoir lors d'un achat de test, et à faire valider son texte par Christian.
 - [ ] **Fonction de rétractation en ligne**, obligatoire depuis le 19 juin 2026. Construite : `/retractation` ([retractation.md](retractation.md)). Reste à renseigner `withdrawalAction` dans le Legal Kit après validation, à régénérer et copier les CGV, et à tester le parcours sur le site déployé.
 - [ ] **Facturation**, et vendeur selon le canal (points « À COMPLÉTER » des CGV).
-- [ ] **Legal Kit.** `apps/geofr.json` déclare encore `accounts: false`, et ne cite ni Firebase Authentication ni Mollie parmi les traitements et prestataires. La configuration est à mettre à jour dans le kit, puis les documents sont à régénérer et à copier. Christian relit et remplit `review` lui-même.
+- [ ] **Legal Kit.** La version 0.3.2 du kit décrit les comptes (Firebase Authentication), Mollie, Google Play Billing, IONOS et les durées de conservation validées ; elle reste en brouillon tant qu'aucune offre n'est ouverte et que Christian n'a pas rempli `review` (voir [admob.md](admob.md#legal-kit--version-032-brouillon)).
 - [ ] Politique du remboursement partiel : droits conservés aujourd'hui.
 - [ ] Tarifs de mise à niveau Solo vers Famille, s'ils sont voulus. Aujourd'hui tout second achat est refusé.
-- [ ] Projet Firebase : Auth Google et e-mail activés, domaine autorisé, règles publiées.
+- [ ] Projet Firebase : Auth Google et e-mail activés, domaine autorisé, application Android et SHA-1, règles publiées.
+- [ ] Google Play : produits, compte de service, RTDN, testeurs de licence et piste interne (voir [Google Play](#configuration-google-play-à-faire-validation-de-christian)). Puis tester en mode test l'achat, le paiement différé, la restauration et le remboursement.
 - [ ] Passage des éditions à `active`, puis clé `live_`. Le contrôle `test_` de `mollie.ts` se lève alors avec cette validation.

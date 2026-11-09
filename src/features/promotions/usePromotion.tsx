@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState, type ReactNode } from "react";
 import content from "@country";
 import { isPromoDue, mayFetchCatalog, pickCampaign, PROMO_RULES, promotionsAllowed, type AdultAnswer, type PromoAccess, type PromoCampaign } from "@/engine/promotions";
 import { useEntitlements } from "@/features/account/EntitlementsProvider";
+import { useHideAdBanner } from "@/features/ads/AdsProvider";
 import { loadCampaigns, readPromoState, recordAdultAnswer, recordGameCompleted, recordPromoShown } from "@/services/promotions";
 import { useModalBusy } from "@/ui/modal/ModalProvider";
 import { AgeQuestion } from "./AgeQuestion";
@@ -77,6 +78,9 @@ export function usePromotion(playing: boolean): Promotion {
     recordAdultAnswer(code, value);
     if (value === "adult") void showCampaign();
   };
+
+  // Bannière AdMob masquée pendant la partie, la question d'âge et la vidéo : une vue native passerait au-dessus.
+  useHideAdBanner(playing || step.kind !== "idle");
 
   const overlay =
     step.kind === "ask" ? (

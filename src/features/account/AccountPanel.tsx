@@ -20,6 +20,8 @@ import {
   requestRestore,
   signOutAccount,
 } from "@/services/account";
+import { paymentChannel } from "@/services/api";
+import { restorePlayPurchases } from "@/services/billing";
 import { useModal } from "@/ui/modal/ModalProvider";
 import { primaryButton, secondaryButton, textLink } from "@/ui/styles";
 import { useEntitlements } from "./EntitlementsProvider";
@@ -32,7 +34,8 @@ export function AccountPanel() {
   const [busy, setBusy] = useState(false);
   // Compte reconnu administrateur par le serveur. Le lien n'ouvre rien à lui seul : la page revérifie tout.
   const [adminUid, setAdminUid] = useState<string | null>(null);
-  const uid = enabled && account?.verified ? account.uid : null;
+  // Administration sur le site web uniquement : ses routes ne sont pas ouvertes à l'application Android.
+  const uid = enabled && paymentChannel() === "web" && account?.verified ? account.uid : null;
   useEffect(() => {
     if (!uid) return;
     checkOfferedAccessAdmin().then((admin) => setAdminUid(admin ? uid : null));
@@ -54,6 +57,8 @@ export function AccountPanel() {
 
   const restore = () =>
     run(async () => {
+      // Application Android : les achats Google Play de l'appareil sont d'abord revérifiés par le serveur.
+      if (paymentChannel() === "play" && account?.verified) await restorePlayPurchases();
       await requestRestore();
       await modal.success({
         titleKey: "account.restoredTitle",

@@ -1,3 +1,4 @@
+import { Capacitor } from "@capacitor/core";
 import type { FirebaseApp } from "firebase/app";
 import type { Auth } from "firebase/auth";
 import type { Firestore } from "firebase/firestore";
@@ -35,7 +36,13 @@ export function getFirebaseClient(): Promise<FirebaseClient | null> {
       import("firebase/firestore"),
     ]);
     const app = getApps()[0] ?? initializeApp(config);
-    const auth = authModule.getAuth(app);
+    // Application Android : session persistée dans IndexedDB de la WebView, sans le résolveur de fenêtres
+    // surgissantes (la connexion Google passe par le gestionnaire d'identifiants d'Android).
+    const auth = Capacitor.isNativePlatform()
+      ? authModule.initializeAuth(app, {
+          persistence: [authModule.indexedDBLocalPersistence, authModule.browserLocalPersistence],
+        })
+      : authModule.getAuth(app);
     // Persistance locale : la session survit au rechargement. Firestore garde un cache mémoire uniquement,
     // pour que des droits périmés ne puissent jamais être relus hors ligne.
     const db = firestoreModule.getFirestore(app);

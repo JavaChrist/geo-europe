@@ -27,3 +27,52 @@ export async function readJson(request: Request): Promise<Record<string, unknown
 }
 
 export const noStore = { "Cache-Control": "no-store" };
+
+// --- Application Android ------------------------------------------------------------------------------------------
+
+/**
+ * Origines de l'application Capacitor (export statique servi depuis l'appareil), seules autorisées à appeler
+ * ces routes depuis un autre domaine. `APP_CORS_ORIGINS` (liste séparée par des virgules) en ajoute pour un test.
+ * Aucun cookie n'est échangé : le compte est prouvé par le jeton Firebase de l'en-tête `Authorization`.
+ * Le paiement Mollie n'est pas ouvert à l'application : sa route n'utilise pas `withAppCors`.
+ */
+const APP_ORIGINS = ["https://localhost", "capacitor://localhost"];
+
+function allowedOrigin(request: Request): string | null {
+  const origin = request.headers.get("origin");
+  if (!origin) return null;
+  const extra = (process.env.APP_CORS_ORIGINS ?? "")
+    .split(",")
+    .map((value) => value.trim())
+    .filter(Boolean);
+  return [...APP_ORIGINS, ...extra].includes(origin) ? origin : null;
+}
+
+function corsHeaders(origin: string): Record<string, string> {
+  return {
+    "Access-Control-Allow-Origin": origin,
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Authorization, Content-Type",
+    "Access-Control-Max-Age": "600",
+    Vary: "Origin",
+  };
+}
+
+/** Ajoute les en-têtes CORS de l'application à la réponse d'une route POST. */
+export function withAppCors(handler: (request: Request) => Promise<Response>) {
+  return async (request: Request): Promise<Response> => {
+    const response = await handler(request);
+    const origin = allowedOrigin(request);
+    if (!origin) return response;
+    const headers = new Headers(response.headers);
+    for (const [name, value] of Object.entries(corsHeaders(origin))) headers.set(name, value);
+    return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
+  };
+}
+
+/** Réponse à la requête préalable (`OPTIONS`) du navigateur de l'application. */
+export function appPreflight(request: Request): Response {
+  const origin = allowedOrigin(request);
+  if (!origin) return new Response(null, { status: 403 });
+  return new Response(null, { status: 204, headers: corsHeaders(origin) });
+}

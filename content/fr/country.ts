@@ -20,4 +20,6 @@ export const country: CountryConfig = {
   timeZone: "Europe/Paris",
   // Catalogue du gestionnaire JavaChrist-Promotions, hébergé dans le projet Firebase de Motissimo, pas dans celui de GéoFR.
   promotions: { catalogProjectId: "motissimo-456ba", sourceAppId: "geofr", locale: "fr" },
+  // Bannière AdMob de l'application Android : ID de démonstration Google uniquement, tant que rien n'est validé.
+  ads: { admob: { androidBannerAdUnitId: "ca-app-pub-3940256099942544/9214589741" } },
 };

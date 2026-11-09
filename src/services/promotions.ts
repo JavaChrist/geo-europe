@@ -79,6 +79,18 @@ const update = (countryCode: string, change: (state: PromoState) => PromoState):
 
 export const readPromoState = (countryCode: string): PromoState => read(countryCode).state;
 
+// Réponse à la question d'âge : la bannière AdMob s'y abonne pour changer ses réglages sans attendre un redémarrage.
+const adultListeners = new Set<() => void>();
+const notifyAdultChange = () => adultListeners.forEach((listener) => listener());
+
+/** Prévient à chaque réponse à la question d'âge et à chaque effacement des données. */
+export function onAdultAnswerChange(listener: () => void): () => void {
+  adultListeners.add(listener);
+  return () => {
+    adultListeners.delete(listener);
+  };
+}
+
 /** À appeler une seule fois par partie réellement terminée. */
 export const recordGameCompleted = (countryCode: string): PromoState => update(countryCode, afterGameCompleted);
 
@@ -89,6 +101,7 @@ export const recordPromoShown = (countryCode: string, campaignId: string): Promo
 export function recordAdultAnswer(countryCode: string, adult: AdultAnswer): void {
   const stored = read(countryCode);
   write(countryCode, { ...stored, state: { ...stored.state, adult }, catalog: adult === "adult" ? stored.catalog : null });
+  notifyAdultChange();
 }
 
 /** Vrai si l'appareil garde quelque chose des promotions (compteur, réponse d'âge, dernière vidéo). */
@@ -104,6 +117,7 @@ export function clearPromotions(countryCode: string): void {
   } catch {
     // Rien à effacer si le stockage est inaccessible.
   }
+  notifyAdultChange();
 }
 
 async function fetchCatalog(config: PromotionsConfig): Promise<unknown> {

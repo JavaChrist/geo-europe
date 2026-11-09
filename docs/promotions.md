@@ -154,6 +154,8 @@ promotion.gameCompleted();
 
 Les promotions sont des publicités : elles suivent `adsRemoved` de `useEntitlements()`, calculé par le serveur. Aucun autre système de droits.
 
+La bannière AdMob de l'application Android est indépendante des promotions : elle ne remplace aucune vidéo et n'en déclenche aucune. Elle réutilise seulement la réponse d'âge, et elle est masquée pendant la question d'âge et la vidéo (voir [admob.md](admob.md)).
+
 | Édition | Vidéos | Question d'âge | Requête du catalogue |
 | --- | --- | --- | --- |
 | Découverte gratuite, sans compte | Oui | Oui | Oui |

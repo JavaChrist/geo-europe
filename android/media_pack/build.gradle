@@ -1,0 +1,13 @@
+// Photos du jeu (`out/media`) livrées dans un pack d'assets Play installé avec l'application (install-time).
+// Le module de base reste sous la limite de Google Play, la qualité des photos est intacte.
+// Rempli par `node scripts/android-media.mjs` après `npx cap sync android`. Voir docs/admob.md.
+plugins {
+    id 'com.android.asset-pack'
+}
+
+assetPack {
+    packName = "media_pack"
+    dynamicDelivery {
+        deliveryType = "install-time"
+    }
+}

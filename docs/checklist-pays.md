@@ -31,6 +31,7 @@
 - [ ] Affichage mobile vérifié
 - [ ] Aucun emoji, aucun texte en dur, aucune alerte du navigateur
 - [ ] Promotions : vidéo après 3 parties, jamais en partie ni entre deux tours Famille, aucune requête avec une édition sans publicités
+- [ ] AdMob : `content/<pays>/android.json` et `ads` dans `country.ts` avec les ID de démonstration, `GEO_COUNTRY=<pays> npm run check:ads` passe, cas de test de [admob.md](admob.md#tests-sur-lémulateur) vérifiés sur l'émulateur
 
 ## Futur : prévu, pas encore construit
 
@@ -39,7 +40,7 @@ Chaque ligne demande la validation de Christian.
 - [ ] Icônes propres au pays dans `public/`
 - [ ] Projet Vercel du pays avec `GEO_COUNTRY=<pays>`
 - [ ] Projet Firebase du pays
-- [ ] Application Android Capacitor avec `androidPackage`
+- [ ] Publication Google Play : connexion, Play Billing, identifiants AdMob réels, déclaration de sécurité des données (voir [admob.md](admob.md#avant-une-publication-google-play))
 - [ ] Vente réelle des éditions de `content/<pays>/editions.ts` : boutique et droits en place en mode test, points restants dans [paiements.md](paiements.md#avant-la-vente-réelle)
 - [ ] Administrateur des accès offerts nommé avec `scripts/admin.mjs <pays> add <adresse> --project <id>` (voir [acces-offerts.md](acces-offerts.md#administration-sécurisée))
 - [ ] Choix des deux régions de la Découverte gratuite

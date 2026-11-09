@@ -5,7 +5,10 @@ import { usePathname } from "next/navigation";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { NAV_ITEMS, isActive } from "./items";
 
-/** Navigation principale sur mobile et tablette. Sur grand écran, voir AppHeader. */
+/**
+ * Navigation principale sur mobile et tablette. Sur grand écran, voir AppHeader.
+ * `data-bottom-nav-bar` : la bannière AdMob mesure cette hauteur pour se poser juste au-dessus (voir AdsProvider).
+ */
 export function BottomNav() {
   const { t } = useTranslation();
   const pathname = usePathname();
@@ -15,7 +18,7 @@ export function BottomNav() {
       aria-label={t("nav.label")}
       className="fixed inset-x-0 bottom-0 z-40 border-t border-gold/25 bg-abyss/95 pb-[env(safe-area-inset-bottom)] backdrop-blur-md lg:hidden"
     >
-      <ul className="mx-auto grid max-w-2xl grid-cols-5 pr-[env(safe-area-inset-right)] pl-[env(safe-area-inset-left)]">
+      <ul data-bottom-nav-bar className="mx-auto grid max-w-2xl grid-cols-5 pr-[env(safe-area-inset-right)] pl-[env(safe-area-inset-left)]">
         {NAV_ITEMS.map((item) => {
           const active = isActive(item, pathname);
           const Icon = item.icon;

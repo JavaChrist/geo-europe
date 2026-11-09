@@ -24,9 +24,20 @@ import {
 import { findEdition } from "@/engine/editions";
 import {
   assessPayment,
+  nextOrderStatus,
   type PaymentMismatch,
+  type PaymentMode,
   type PaymentProvider,
 } from "@/engine/payments";
+import {
+  assessPlayPurchase,
+  editionOfProduct,
+  isPlausiblePurchaseToken,
+  playNotificationKind,
+  voidedStatus,
+  type PlayMismatch,
+} from "@/engine/google-play";
+import { productIdOf } from "@/engine/entitlements";
 import type { EditionId } from "@/engine/types";
 import { getTranslator, type TranslationKey } from "@/i18n/translator";
 import {
@@ -37,6 +48,14 @@ import {
 } from "@/services/firebase/admin";
 import { sendPurchaseConfirmation } from "@/services/mail/purchase-mail";
 import { logServerError } from "@/services/server-log";
+import {
+  acknowledgePlayPurchase,
+  fetchPlayPurchase,
+  listVoidedPurchases,
+  PLAY_PACKAGE,
+  sha256,
+  type PlayNotification,
+} from "./google-play";
 import { mollieProvider } from "./mollie";
 
 /**
@@ -79,7 +98,8 @@ export class PaymentRequestError extends Error {
       | "invalidEmail"
       | "alreadyGranted"
       | "notGranted"
-      | "alreadyDecided",
+      | "alreadyDecided"
+      | "purchaseRejected",
   ) {
     super(code);
     this.name = "PaymentRequestError";
@@ -162,6 +182,10 @@ interface OrderDoc {
   app: string;
   editionId: EditionId;
   provider: PaymentProvider["id"];
+  /** Google Play : empreinte du jeton d'achat rattaché (le jeton lui-même reste dans `playPurchases`, privé). */
+  purchaseTokenHash?: string | null;
+  /** Google Play : accusé de réception envoyé par le serveur. */
+  acknowledged?: boolean;
   mode: PaymentProvider["mode"];
   amountCents: number;
   currency: string;
@@ -301,7 +325,8 @@ async function reserveOrder(
 ): Promise<StoredOrder> {
   const db = adminDb();
   return db.runTransaction(async (transaction) => {
-    const orders = await ordersOf(uid, transaction);
+    // Achat Google Play préparé puis abandonné dans la fenêtre de Google : il ne bloque pas un achat sur le web.
+    const orders = (await ordersOf(uid, transaction)).filter((order) => !isAbandonedPlayOrder(order));
     const check = purchaseCheck(
       editionId as EditionId,
       orders,
@@ -395,7 +420,7 @@ async function createProviderPayment(
 
 export type ApplyOutcome = PublicOrder & {
   changed: boolean;
-  mismatch?: PaymentMismatch;
+  mismatch?: PaymentMismatch | PlayMismatch | "secondPurchase";
 };
 
 /**
@@ -508,6 +533,12 @@ export async function syncOrder(
     : null;
   if (!order || order.uid !== buyer.uid || order.app !== APP_ID)
     throw new PaymentRequestError(404, "notFound");
+  if (order.provider === "google_play") {
+    const token = await playTokenOf(order);
+    if (!token) return toPublic(order);
+    const outcome = await applyPlayPurchase(productIdOf(APP_ID, order.editionId), token, buyer.uid);
+    return "id" in outcome ? toPublic({ ...order, ...outcome }) : toPublic(order);
+  }
   if (!order.providerPaymentId) return toPublic(order);
   return (await applyPaymentById(order.providerPaymentId)) ?? toPublic(order);
 }
@@ -598,6 +629,7 @@ export async function reconcileOrders(): Promise<{
     }))
     .filter(
       (order) =>
+        order.provider !== "google_play" &&
         order.providerPaymentId &&
         (order.status !== "paid" || (order.paidAt?.toMillis() ?? 0) >= recent),
     );
@@ -612,7 +644,373 @@ export async function reconcileOrders(): Promise<{
       failed += 1;
     }
   }
-  return { checked: candidates.length, changed, failed };
+  const play = await reconcilePlayOrders();
+  return {
+    checked: candidates.length + play.checked,
+    changed: changed + play.changed,
+    failed: failed + play.failed,
+  };
+}
+
+// --- Google Play Billing (application Android) -------------------------------------------------------------------
+
+/**
+ * Mode des achats Google Play acceptés. `test` : seuls les testeurs de licence de la Play Console peuvent acheter,
+ * sans débit réel. Un achat réel est refusé (aucun droit, aucun accusé, Google le rembourse) tant que Christian
+ * n'a pas validé la vente.
+ */
+const PLAY_MODE: PaymentMode = "test";
+const PLAY_PURCHASES = "playPurchases";
+
+/** Commande Play préparée puis jamais suivie d'un achat (fenêtre de Google fermée) : elle ne bloque rien. */
+const isAbandonedPlayOrder = (order: StoredOrder): boolean =>
+  order.provider === "google_play" && order.status === "created" && !order.purchaseTokenHash;
+
+const playPurchaseRef = (db: Firestore, tokenHash: string): DocumentReference =>
+  db.collection(PLAY_PURCHASES).doc(tokenHash);
+
+/** Jeton d'achat d'une commande Play, conservé à part (`playPurchases`, privé, jamais lu par le navigateur). */
+async function playTokenOf(order: StoredOrder): Promise<string | null> {
+  if (!order.purchaseTokenHash) return null;
+  const snapshot = await playPurchaseRef(adminDb(), order.purchaseTokenHash).get();
+  const token = snapshot.data()?.purchaseToken;
+  return typeof token === "string" ? token : null;
+}
+
+export interface PlayPreparation {
+  orderId: string;
+  productId: string;
+  /** Empreinte du compte, transmise à Google Play et relue par le serveur. */
+  obfuscatedAccountId: string;
+  /** Identifiant de la commande, transmis à Google Play et relu par le serveur. */
+  obfuscatedProfileId: string;
+}
+
+/**
+ * Prépare un achat Google Play : mêmes contrôles et mêmes consentements que sur le web, un seul achat par compte.
+ * La commande enregistre le prix de référence de `editions.ts` ; le prix affiché et payé est celui de la Play Console.
+ */
+export async function preparePlayOrder(
+  buyer: Buyer,
+  editionId: string,
+  consent: Consent,
+): Promise<PlayPreparation> {
+  if (!consent.termsAccepted || !consent.immediateAccessRequested || !consent.withdrawalWaiverAccepted)
+    throw new PaymentRequestError(400, "consentMissing");
+  const db = adminDb();
+  const orderId = await db.runTransaction(async (transaction) => {
+    const all = await ordersOf(buyer.uid, transaction);
+    const granted = await hasActiveGrant(buyer.uid, transaction);
+    const abandoned = all.filter(isAbandonedPlayOrder);
+    const orders = all.filter((order) => !isAbandonedPlayOrder(order));
+    const check = purchaseCheck(editionId as EditionId, orders, content.editions, granted);
+    if (!check.allowed)
+      throw new PaymentRequestError(check.reason === "notForSale" ? 400 : 409, check.reason);
+    if (check.resumeOrderIndex !== null) {
+      // Paiement Mollie en cours pour la même édition : il doit aboutir ou expirer sur le web.
+      const existing = orders[check.resumeOrderIndex];
+      if (existing?.provider !== "google_play") throw new PaymentRequestError(409, "otherInProgress");
+      // Achat Play en attente (paiement différé) : Google refusera un second achat du même produit.
+      throw new PaymentRequestError(409, "alreadyOwned");
+    }
+
+    const edition = findEdition(content.editions, editionId as EditionId);
+    // Reprise de la commande abandonnée de la même édition : un achat tardif garde sa référence.
+    const reused = abandoned.find((order) => order.editionId === edition.id);
+    for (const order of abandoned) {
+      if (order.id === reused?.id) continue;
+      transaction.update(db.collection(ORDERS).doc(order.id), {
+        status: "canceled",
+        updatedAt: FieldValue.serverTimestamp(),
+        history: FieldValue.arrayUnion(historyEntry("abandoned")),
+      });
+    }
+    const consentRecord = { ...consent, termsVersion, acceptedAt: FieldValue.serverTimestamp() };
+    if (reused) {
+      transaction.update(db.collection(ORDERS).doc(reused.id), {
+        consent: consentRecord,
+        updatedAt: FieldValue.serverTimestamp(),
+        history: FieldValue.arrayUnion(historyEntry("prepared")),
+      });
+      return reused.id;
+    }
+    const ref = db.collection(ORDERS).doc();
+    const order: OrderDoc = {
+      uid: buyer.uid,
+      app: APP_ID,
+      editionId: edition.id,
+      provider: "google_play",
+      mode: PLAY_MODE,
+      amountCents: edition.priceCents,
+      currency: content.editions.currency,
+      status: "created",
+      providerPaymentId: null,
+      checkoutUrl: null,
+      refundedCents: 0,
+      chargedBackCents: 0,
+      partiallyRefunded: false,
+      purchaseTokenHash: null,
+      acknowledged: false,
+      consent: consentRecord,
+    };
+    transaction.create(ref, {
+      ...order,
+      createdAt: FieldValue.serverTimestamp(),
+      updatedAt: FieldValue.serverTimestamp(),
+      history: [historyEntry("created", { amountCents: order.amountCents, currency: order.currency })],
+    });
+    return ref.id;
+  });
+  return {
+    orderId,
+    productId: productIdOf(APP_ID, editionId as EditionId),
+    obfuscatedAccountId: sha256(buyer.uid),
+    obfuscatedProfileId: orderId,
+  };
+}
+
+export type PlayOutcome = ApplyOutcome | { unattached: true };
+
+/**
+ * Vérifie un achat Google Play auprès de l'API Google Play Developer, puis met à jour la commande et les droits.
+ * Seul le relevé de Google compte. Idempotent : un jeton rejoué ne change rien et ne sert jamais un autre compte.
+ *
+ * - `expectedUid` : compte qui présente le jeton (application) ; `null` pour une notification de Google.
+ * - achat sans commande (aucune référence, ou référence inconnue) : `unattached`, jamais accusé, donc remboursé par Google.
+ * - écart (compte, commande, produit, mode, jeton déjà rattaché ailleurs) ou second achat : aucun droit, aucun accusé.
+ * - achat payé et accepté : droits écrits, puis accusé de réception (sans quoi Google rembourse au bout de 3 jours).
+ */
+export async function applyPlayPurchase(
+  productId: string,
+  purchaseToken: string,
+  expectedUid: string | null,
+): Promise<PlayOutcome> {
+  if (!isPlausiblePurchaseToken(purchaseToken) || !editionOfProduct(APP_ID, productId, content.editions))
+    throw new PaymentRequestError(400, "invalidRequest");
+  const purchase = await fetchPlayPurchase(productId, purchaseToken);
+  const orderId = purchase?.obfuscatedExternalProfileId;
+  if (!purchase || !orderId || !/^[A-Za-z0-9]{1,40}$/.test(orderId)) return { unattached: true };
+
+  const db = adminDb();
+  const ref = db.collection(ORDERS).doc(orderId);
+  const tokenHash = sha256(purchaseToken);
+  const result = await db.runTransaction(async (transaction) => {
+    const snapshot = await transaction.get(ref);
+    if (!snapshot.exists) return null;
+    const order: StoredOrder = { id: snapshot.id, ...(snapshot.data() as OrderDoc) };
+    if (order.app !== APP_ID || order.provider !== "google_play") return null;
+    if (expectedUid !== null && order.uid !== expectedUid) throw new PaymentRequestError(403, "forbidden");
+    const tokenDoc = await transaction.get(playPurchaseRef(db, tokenHash));
+    const orders = await ordersOf(order.uid, transaction);
+    const granted = await hasActiveGrant(order.uid, transaction);
+
+    const reject = (mismatch: PlayMismatch | "secondPurchase") => {
+      transaction.update(ref, {
+        updatedAt: FieldValue.serverTimestamp(),
+        history: FieldValue.arrayUnion(historyEntry("mismatch", { mismatch, tokenHash })),
+      });
+      return { outcome: { ...toPublic(order), changed: false, mismatch }, acknowledge: false, order };
+    };
+
+    const tokenOwner = tokenDoc.exists ? (tokenDoc.data()?.orderId as string | undefined) : undefined;
+    if (tokenOwner !== undefined && tokenOwner !== order.id) return reject("token");
+    const assessment = assessPlayPurchase(
+      {
+        id: order.id,
+        editionId: order.editionId,
+        status: order.status,
+        accountHash: sha256(order.uid),
+        mode: order.mode,
+        purchaseToken: order.purchaseTokenHash ?? null,
+      },
+      purchase,
+      { productId, purchaseToken: tokenHash, appId: APP_ID, config: content.editions },
+    );
+    if (!assessment.ok) return reject(assessment.mismatch);
+    // Un seul achat par compte : un second achat payé n'ouvre rien de plus et n'est pas accusé (Google le rembourse).
+    if (
+      assessment.status === "paid" &&
+      orders.some((other) => other.id !== order.id && other.status === "paid")
+    )
+      return reject("secondPurchase");
+
+    if (!tokenDoc.exists) {
+      transaction.create(playPurchaseRef(db, tokenHash), {
+        purchaseToken,
+        orderId: order.id,
+        uid: order.uid,
+        app: APP_ID,
+        productId,
+        createdAt: FieldValue.serverTimestamp(),
+      });
+    }
+    const alreadyAcknowledged = purchase.acknowledgementState === 1;
+    const unchanged =
+      assessment.status === order.status &&
+      order.purchaseTokenHash === tokenHash &&
+      (order.acknowledged === true) === alreadyAcknowledged;
+    if (unchanged) return { outcome: { ...toPublic(order), changed: false }, acknowledge: assessment.acknowledge, order };
+
+    const updated: StoredOrder = {
+      ...order,
+      status: assessment.status,
+      purchaseTokenHash: tokenHash,
+      providerPaymentId: purchase.orderId ?? order.providerPaymentId,
+      acknowledged: alreadyAcknowledged || order.acknowledged === true,
+    };
+    transaction.update(ref, {
+      status: updated.status,
+      purchaseTokenHash: tokenHash,
+      providerPaymentId: updated.providerPaymentId,
+      acknowledged: updated.acknowledged,
+      ...(updated.status === "paid" && order.status !== "paid" && { paidAt: FieldValue.serverTimestamp() }),
+      updatedAt: FieldValue.serverTimestamp(),
+      history: FieldValue.arrayUnion(
+        historyEntry("status", {
+          from: order.status,
+          to: updated.status,
+          purchaseState: purchase.purchaseState,
+          acknowledgementState: purchase.acknowledgementState,
+        }),
+      ),
+    });
+    if (updated.status !== order.status)
+      writeEntitlements(
+        transaction,
+        order.uid,
+        orders.map((candidate) => (candidate.id === order.id ? updated : candidate)),
+        granted,
+      );
+    return {
+      outcome: { ...toPublic(updated), changed: updated.status !== order.status },
+      acknowledge: assessment.acknowledge,
+      order: updated,
+    };
+  });
+  if (!result) return { unattached: true };
+
+  if (result.acknowledge) {
+    // Hors transaction : l'accusé est un appel réseau. En cas d'échec, le rattrapage quotidien réessaie.
+    try {
+      await acknowledgePlayPurchase(productId, purchaseToken);
+      await ref.update({
+        acknowledged: true,
+        updatedAt: FieldValue.serverTimestamp(),
+        history: FieldValue.arrayUnion(historyEntry("acknowledged")),
+      });
+    } catch (error) {
+      logServerError("google-play-acknowledge", error, `commande ${orderId}`);
+    }
+  }
+  if (result.outcome.status === "paid" && result.outcome.changed) {
+    await sendPurchaseConfirmation(orderId).catch((error: unknown) =>
+      logServerError("confirmation", error, `commande ${orderId}`),
+    );
+  }
+  return result.outcome;
+}
+
+/** Achat remboursé, annulé ou contesté chez Google : la commande perd ses droits, jamais l'inverse. */
+export async function markPlayVoided(purchaseToken: string, voidedReason: number | undefined): Promise<boolean> {
+  const db = adminDb();
+  const tokenSnapshot = await playPurchaseRef(db, sha256(purchaseToken)).get();
+  const orderId = tokenSnapshot.data()?.orderId;
+  if (typeof orderId !== "string") return false;
+  const ref = db.collection(ORDERS).doc(orderId);
+  return db.runTransaction(async (transaction) => {
+    const snapshot = await transaction.get(ref);
+    if (!snapshot.exists) return false;
+    const order: StoredOrder = { id: snapshot.id, ...(snapshot.data() as OrderDoc) };
+    const orders = await ordersOf(order.uid, transaction);
+    const granted = await hasActiveGrant(order.uid, transaction);
+    const proposed = voidedStatus(voidedReason);
+    const status = order.status === "paid" ? nextOrderStatus(order.status, proposed) : "canceled";
+    if (status === order.status) return false;
+    const updated: StoredOrder = {
+      ...order,
+      status,
+      refundedCents: status === "refunded" ? order.amountCents : order.refundedCents,
+      chargedBackCents: status === "charged_back" ? order.amountCents : order.chargedBackCents,
+    };
+    transaction.update(ref, {
+      status,
+      refundedCents: updated.refundedCents,
+      chargedBackCents: updated.chargedBackCents,
+      updatedAt: FieldValue.serverTimestamp(),
+      history: FieldValue.arrayUnion(historyEntry("voided", { from: order.status, to: status, voidedReason })),
+    });
+    writeEntitlements(
+      transaction,
+      order.uid,
+      orders.map((candidate) => (candidate.id === order.id ? updated : candidate)),
+      granted,
+    );
+    return true;
+  });
+}
+
+/** Notification développeur en temps réel, déjà authentifiée par `verifyPubSubRequest`. */
+export async function handlePlayNotification(notification: PlayNotification): Promise<void> {
+  if (notification.packageName !== PLAY_PACKAGE) return;
+  const oneTime = notification.oneTimeProductNotification;
+  if (oneTime?.purchaseToken && oneTime.sku) {
+    const kind = playNotificationKind(oneTime.notificationType);
+    if (kind !== "other") await applyPlayPurchase(oneTime.sku, oneTime.purchaseToken, null);
+    return;
+  }
+  const voided = notification.voidedPurchaseNotification;
+  // `refundType` 1 : remboursement total. Un achat unique n'a pas de remboursement partiel.
+  if (voided?.purchaseToken) await markPlayVoided(voided.purchaseToken, undefined);
+}
+
+/**
+ * Rattrapage Google Play : achats en attente, accusés de réception manqués, puis remboursements et contestations
+ * des 30 derniers jours (`voidedpurchases`). Sans identifiants Google Play sur le serveur, rien n'est fait.
+ */
+async function reconcilePlayOrders(): Promise<{ checked: number; changed: number; failed: number }> {
+  if (!process.env.GOOGLE_PLAY_CLIENT_EMAIL) return { checked: 0, changed: 0, failed: 0 };
+  const snapshot = await adminDb()
+    .collection(ORDERS)
+    .where("app", "==", APP_ID)
+    .where("status", "in", ["pending", "paid"])
+    .limit(500)
+    .get();
+  const candidates = snapshot.docs
+    .map((doc) => ({ id: doc.id, ...(doc.data() as OrderDoc) }))
+    .filter(
+      (order) =>
+        order.provider === "google_play" &&
+        order.purchaseTokenHash &&
+        (order.status === "pending" || order.acknowledged !== true),
+    );
+  let changed = 0;
+  let failed = 0;
+  for (const order of candidates) {
+    try {
+      const token = await playTokenOf(order);
+      if (!token) continue;
+      const outcome = await applyPlayPurchase(productIdOf(APP_ID, order.editionId), token, null);
+      if ("changed" in outcome && outcome.changed) changed += 1;
+    } catch {
+      failed += 1;
+    }
+  }
+  let voidedCount = 0;
+  try {
+    const voided = await listVoidedPurchases();
+    voidedCount = voided.length;
+    for (const item of voided) {
+      try {
+        if (await markPlayVoided(item.purchaseToken, item.voidedReason)) changed += 1;
+      } catch {
+        failed += 1;
+      }
+    }
+  } catch (error) {
+    logServerError("google-play-voided", error, "rattrapage");
+    failed += 1;
+  }
+  return { checked: candidates.length + voidedCount, changed, failed };
 }
 
 export { FREE_ENTITLEMENTS };

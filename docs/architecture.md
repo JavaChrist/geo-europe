@@ -12,7 +12,7 @@ Le code est écrit une fois. Chaque pays apporte son contenu dans `content/<pays
 | Projet Vercel de GéoFR, déployé à chaque push sur `main` | En place |
 | Un projet Vercel par pays suivant | Prévu, à créer avec la validation de Christian |
 | Un projet Firebase par pays | Prévu. Aucun code Firebase n'existe encore dans le dépôt |
-| Application Android via Capacitor | Prévu. L'export statique `out/` est prêt, Capacitor n'est pas installé |
+| Application Android via Capacitor | En place pour les tests : Capacitor 8 sur l'export `out/` (photos dans le pack d'assets `media_pack`), bannière AdMob avec les identifiants de démonstration. Avec `NEXT_PUBLIC_API_BASE_URL` : comptes, droits et Google Play Billing en mode test, vérifiés par le serveur. Aucune publication Play. Voir [admob.md](admob.md) |
 
 ## Dossiers
 
@@ -58,7 +58,7 @@ Les trois sont séparés : le Mode Famille ne touche jamais la progression Solo.
 | Commande | Résultat |
 | --- | --- |
 | `npm run build` | Build web avec les routes serveur, pour Vercel |
-| `npm run build:export` | Export statique dans `out/`, sans route serveur, pour Capacitor. La détection de mise à jour y est coupée |
+| `npm run build:export` | Export statique dans `out/`, sans route serveur, pour Capacitor. La détection de mise à jour y est coupée. Avec `NEXT_PUBLIC_API_BASE_URL`, l'application appelle les routes du serveur (canal `play`) |
 | `node scripts/build-map.mjs <pays>` | Régénère `content/<pays>/map.json` depuis `map.config.json`. Le résultat est versionné |
 | `node scripts/build-game-maps.mjs <pays>` | Régénère `content/<pays>/maps/*.json` depuis `game-maps.config.json`. Le résultat est versionné |
 
@@ -66,6 +66,6 @@ Les sources des cartes sont téléchargées et vérifiées par leur empreinte SH
 
 ## Accès payants
 
-L'achat web passe par Mollie, en mode test uniquement, avec un compte Firebase Authentication. Les droits sont écrits par le serveur dans Firestore, jamais à partir d'un résultat du navigateur. Tous les verrous lisent une seule couche, `useEntitlements()`, et la clé Firebase Admin n'existe que dans les routes `route.server.ts`. L'export Android n'a ni boutique ni connexion. Voir [paiements.md](paiements.md).
+L'achat web passe par Mollie, en mode test uniquement, avec un compte Firebase Authentication. Les droits sont écrits par le serveur dans Firestore, jamais à partir d'un résultat du navigateur. Tous les verrous lisent une seule couche, `useEntitlements()`, et la clé Firebase Admin n'existe que dans les routes `route.server.ts`. L'application Android achète par Google Play Billing, jamais par Mollie, et le serveur vérifie chaque jeton avec l'API Google Play Developer. Voir [paiements.md](paiements.md).
 
 Un administrateur peut aussi offrir l'Édition Famille sans publicité à une adresse e-mail confirmée, sans commande ni paiement. Le serveur réunit achats et accès offert dans le même document de droits, et la liste n'est jamais accessible au navigateur. Voir [acces-offerts.md](acces-offerts.md).

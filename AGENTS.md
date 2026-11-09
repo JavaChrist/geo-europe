@@ -24,6 +24,7 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - Payments and access rights: see `docs/paiements.md`. Every lock reads `useEntitlements()`.
 - Online withdrawal (`/retractation`, public, no login): see `docs/retractation.md`. It never refunds or removes rights; `withdrawals` is server-only.
 - Offered access (free Family edition without ads for authorized emails): see `docs/acces-offerts.md`. `grants` and `admins` are server-only; admins are created only by `scripts/admin.mjs`.
+- Android app (Capacitor on `out/`) and the AdMob banner: see `docs/admob.md`. App id and name in `content/<country>/android.json`, ad units in `ads` of `country.ts`. Demo Google ids only until Christian validates; `check:ads` and Gradle refuse any other id. No ad and no ad request for `adsRemoved` or `granted`.
 - `content/<country>/mail/templates.json`: email templates copied from JavaChrist-Mail-Kit by `scripts/sync-mail.mjs`. Never edit them by hand. Emails are sent only by the server (`src/services/mail/`). See `docs/courriels.md`.
 
 ## Rules (lint and scripts enforce most of them)
