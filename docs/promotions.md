@@ -24,6 +24,7 @@ Le jeu ne fait que **lire**. Il n'envoie rien au gestionnaire : ni compteur, ni 
 | `src/features/promotions/usePromotion.tsx` | Décide quand montrer quoi, rend la question d'âge ou la vidéo |
 | `src/features/promotions/PromoPlayer.tsx` | Lecteur vidéo |
 | `src/features/promotions/AgeQuestion.tsx` | Question d'âge, posée une fois |
+| `src/ui/modal/ModalProvider.tsx` | `useModalBusy()` : la vidéo attend la fermeture des modales |
 | `scripts/check-promotions.mjs` | Contrôle du moteur, lancé par `npm run check` |
 | `content/<pays>/country.ts` | Champ `promotions` du pays |
 
@@ -127,6 +128,27 @@ Le catalogue converti est gardé sur l'appareil dans `geo-europe.<pays>.promotio
 | Sans campagne | Catalogue vide ou réseau absent : rien ne s'affiche, la vidéo sera proposée après la partie suivante |
 
 Un rechargement ne compte jamais : une partie Solo n'est pas sauvegardée en cours, et une partie Famille n'est comptée qu'une fois, au passage en phase `finished`.
+
+## Brancher un écran de jeu
+
+Trois écrans sont branchés : `src/features/journey/LevelGame.tsx` (niveau Solo), `src/features/journey/SpecialChallengeGame.tsx` (défi spécial) et `src/features/family/FamilyMode.tsx`. Un nouvel écran de jeu suit le même modèle :
+
+```tsx
+const promotion = usePromotion(partieEnCours);
+
+// Une seule fois, quand la partie est réellement terminée,
+// après l'enregistrement du résultat et l'ouverture des modales de récompense.
+promotion.gameCompleted();
+
+// Dans le rendu, sur un écran affiché hors partie :
+{promotion.overlay}
+```
+
+- `partieEnCours` : vrai pendant toute la partie. Exemples : `run !== null` en Solo, `game !== null && game.phase !== "finished"` en Famille.
+- `gameCompleted()` ne doit jamais être appelé pour une partie quittée, ni au chargement de la page.
+- `overlay` vaut `null` la plupart du temps. En Famille, il n'est rendu que sur l'accueil du mode et sur l'écran final.
+- Appeler `usePromotion` avant tout retour anticipé du composant (règles des hooks).
+- L'attente des modales repose sur `useModalBusy()` (`src/ui/modal/ModalProvider.tsx`) : vrai tant qu'une modale `useModal()` est ouverte ou en file. Tout écran qui doit passer après les modales peut s'en servir.
 
 ## Éditions sans publicités
 
