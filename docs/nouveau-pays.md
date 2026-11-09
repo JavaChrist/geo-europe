@@ -14,7 +14,7 @@ Code de deux lettres minuscules, identique pour le dossier, `GEO_COUNTRY` et `co
 
 Exporter `country: CountryConfig` (type dans `src/engine/types.ts`) : `code`, `appName`, `androidPackage`, `locales`, `defaultLocale`, `regionCount`, `legal`, `timeZone` (fuseau des dates dans les courriels, par exemple `Europe/Madrid`), `icons`, `themeColor`, `backgroundColor`, `promotions` (catalogue JavaChrist-Promotions du jeu, ou `null`, voir [promotions.md](promotions.md#ajouter-un-pays-géode-géoes)). Partir de `content/fr/country.ts`.
 
-Les tarifs ne vont pas dans `country.ts`. Copier `content/fr/editions.ts` vers `content/es/editions.ts` avec les prix validés par Christian, l'importer dans `content/es/index.ts`, puis lancer `node scripts/export-catalog.mjs es`. Les régions de la Découverte se choisissent dans `regions` de l'édition `discovery`. Voir [editions.md](editions.md). Boutique, droits et verrous sont communs : rien à coder pour le pays (voir [paiements.md](paiements.md)).
+Les tarifs ne vont pas dans `country.ts`. Copier `content/fr/editions.ts` vers `content/es/editions.ts` avec les prix validés par Christian, l'importer dans `content/es/index.ts`, puis lancer `node scripts/export-catalog.mjs es`. Les régions de la Découverte se choisissent dans `regions` de l'édition `discovery`. Voir [editions.md](editions.md). Boutique, droits et verrous sont communs : rien à coder pour le pays (voir [paiements.md](paiements.md)). Les accès offerts aussi : leur liste est séparée par `legal.kitAppId`, il suffit de nommer un administrateur avec `node scripts/admin.mjs es add <adresse> --project <id>` (voir [acces-offerts.md](acces-offerts.md)).
 
 ### 3. Documents juridiques
 

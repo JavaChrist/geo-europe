@@ -67,3 +67,5 @@ Les sources des cartes sont téléchargées et vérifiées par leur empreinte SH
 ## Accès payants
 
 L'achat web passe par Mollie, en mode test uniquement, avec un compte Firebase Authentication. Les droits sont écrits par le serveur dans Firestore, jamais à partir d'un résultat du navigateur. Tous les verrous lisent une seule couche, `useEntitlements()`, et la clé Firebase Admin n'existe que dans les routes `route.server.ts`. L'export Android n'a ni boutique ni connexion. Voir [paiements.md](paiements.md).
+
+Un administrateur peut aussi offrir l'Édition Famille sans publicité à une adresse e-mail confirmée, sans commande ni paiement. Le serveur réunit achats et accès offert dans le même document de droits, et la liste n'est jamais accessible au navigateur. Voir [acces-offerts.md](acces-offerts.md).

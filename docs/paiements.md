@@ -24,6 +24,8 @@ Les droits sont calculés par `computeEntitlements()` (`src/engine/entitlements.
 
 Un même calcul sert à la notification, à la restauration et au rattrapage.
 
+Un **accès offert** par un administrateur s'y ajoute sans commande : `effectiveEntitlements()` réunit les achats et l'accès, et le document de droits porte `granted: true`. Une révocation laisse les achats réels intacts. Voir [acces-offerts.md](acces-offerts.md).
+
 `adsRemoved` coupe les vidéos de JavaChrist-Promotions, la question d'âge et toute lecture du catalogue (voir [promotions.md](promotions.md#éditions-sans-publicités)).
 
 ### Un seul achat
@@ -76,9 +78,10 @@ Il y a deux façons de retrouver ses droits :
 | Chemin | Contenu | Écrit par |
 | --- | --- | --- |
 | `orders/{id}` | Compte, application, édition, montant et devise lus par le serveur, mode, statut, paiement Mollie, remboursements, consentements avec version des CGV et date, historique | Serveur uniquement |
-| `entitlements/{app}/users/{uid}` | Droits calculés, commandes sources, date | Serveur uniquement |
+| `entitlements/{app}/users/{uid}` | Droits calculés, accès offert (`granted`), commandes sources, date | Serveur uniquement |
+| `grants/{app}/emails/{adresse}`, `admins/{uid}` | Accès offerts et administrateurs ([acces-offerts.md](acces-offerts.md)) | Serveur et `scripts/admin.mjs` uniquement |
 
-`firestore.rules` permet seulement à un joueur connecté de lire ses propres droits et commandes. Toute écriture depuis le navigateur est refusée. Le serveur écrit avec Firebase Admin, qui n'existe que dans les routes `route.server.ts`.
+`firestore.rules` permet seulement à un joueur connecté de lire ses propres droits et commandes. Toute écriture depuis le navigateur est refusée, et `grants` comme `admins` ne sont même pas lisibles. Le serveur écrit avec Firebase Admin, qui n'existe que dans les routes `route.server.ts`.
 
 Les règles se publient avec la commande suivante :
 
@@ -99,12 +102,13 @@ Les verrous sont `RegionGate` (layout `src/app/explorer/[slug]/layout.tsx`, qui 
 
 | Fichier | Rôle |
 | --- | --- |
-| `src/engine/entitlements.ts` | Droits, Découverte, refus d'un second achat, `productIdOf` |
+| `src/engine/entitlements.ts` | Droits, droits effectifs avec l'accès offert, Découverte, refus d'un second achat, `productIdOf` |
 | `src/engine/payments.ts` | Montants, contrôle d'un paiement relu, transitions de statut, interface `PaymentProvider` |
 | `src/services/firebase/client.ts` | Firebase navigateur : Auth, lecture Firestore, émulateurs |
 | `src/services/firebase/admin.ts` | Firebase Admin, serveur uniquement |
 | `src/services/payments/mollie.ts` | Fournisseur Mollie, clé de test exigée |
-| `src/services/payments/orders.ts` | Commandes, notification, synchronisation, restauration, rattrapage |
+| `src/services/payments/orders.ts` | Commandes, notification, synchronisation, restauration avec activation des accès offerts, rattrapage |
+| `src/services/grants.ts`, `src/app/api/admin/grants/route.server.ts` | Accès offerts, voir [acces-offerts.md](acces-offerts.md) |
 | `src/services/account.ts` | Connexion, lecture des droits, appels aux routes |
 | `src/app/api/payments/*/route.server.ts` | `checkout`, `webhook`, `sync`, `reconcile` |
 | `src/app/api/entitlements/restore/route.server.ts` | Restauration |
@@ -142,7 +146,7 @@ Elles se règlent dans Vercel, et en local dans `.env.local`, qui n'est jamais v
 - les contrôles d'un paiement ;
 - les transitions de statut.
 
-`npm run test:payments` lance les émulateurs Auth et Firestore, un faux Mollie local en HTTPS, un faux serveur SMTP et le serveur Next. Il faut d'abord lancer `npm run build`, puis Java pour l'émulateur Firestore. Il couvre 25 scénarios :
+`npm run test:payments` lance les émulateurs Auth et Firestore, un faux Mollie local en HTTPS, un faux serveur SMTP et le serveur Next. Il faut d'abord lancer `npm run build`, puis Java pour l'émulateur Firestore. Il couvre 39 scénarios :
 
 - refus sans compte, avec une adresse non confirmée ou sans consentement ;
 - prix lu par le serveur ;
@@ -157,6 +161,7 @@ Elles se règlent dans Vercel, et en local dans `.env.local`, qui n'est jamais v
 - annulé, échoué ou expiré ;
 - rattrapage ;
 - confirmation d'achat envoyée une seule fois, vérification d'adresse et mot de passe oublié ([courriels.md](courriels.md)) ;
+- accès offerts : administration, ajout avant ou après le compte, adresse non vérifiée, révocation, achat conservé ([acces-offerts.md](acces-offerts.md#tests)) ;
 - règles Firestore.
 
 Sous Windows, si l'émulateur Firestore échoue avec « Unable to establish loopback connection », donner à Java un dossier temporaire court sans accent :
@@ -177,6 +182,7 @@ Pour ajouter Google Play Billing :
 2. Utiliser `productIdOf(appId, editionId)` pour les produits Play : `geofr_solo_ads`, `geofr_solo_no_ads`, `geofr_family_ads`, `geofr_family_no_ads`.
 3. Écrire la commande dans `orders/{id}` avec `provider: "google_play"`. Les droits restent calculés par `computeEntitlements()` : un achat web et un achat Play donnent les mêmes droits, et la règle d'un seul achat vaut pour tous les canaux.
 4. Ne jamais ouvrir un droit sur la seule réponse de l'application. Le jeton d'achat est vérifié par le serveur.
+5. Ne jamais lancer Play Billing pour un compte dont les droits portent `granted: true` (accès offert, voir [acces-offerts.md](acces-offerts.md#android)).
 
 ## Avant la vente réelle
 

@@ -1,8 +1,16 @@
 "use client";
 
-import { CircleCheck, LogOut, RefreshCw, ShoppingBag, UserRound } from "lucide-react";
+import {
+  CircleCheck,
+  Gift,
+  LogOut,
+  RefreshCw,
+  ShoppingBag,
+  UserRound,
+} from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
+import content from "@country";
 import { useTranslation } from "@/i18n/I18nProvider";
 import type { TranslationKey } from "@/i18n/translator";
 import { requestRestore, signOutAccount } from "@/services/account";
@@ -10,7 +18,7 @@ import { useModal } from "@/ui/modal/ModalProvider";
 import { primaryButton, secondaryButton, textLink } from "@/ui/styles";
 import { useEntitlements } from "./EntitlementsProvider";
 
-/** Section Compte du profil : droits possédés, restauration des achats, déconnexion. */
+/** Section Compte du profil : droits possédés (achats et accès offert), restauration des achats, déconnexion. */
 export function AccountPanel() {
   const { t } = useTranslation();
   const modal = useModal();
@@ -33,18 +41,31 @@ export function AccountPanel() {
   const restore = () =>
     run(async () => {
       await requestRestore();
-      await modal.success({ titleKey: "account.restoredTitle", bodyKey: "account.restoredBody" });
+      await modal.success({
+        titleKey: "account.restoredTitle",
+        bodyKey: "account.restoredBody",
+      });
     });
 
   const signOut = () =>
     run(async () => {
-      const confirmed = await modal.confirm({ titleKey: "account.signOutTitle", bodyKey: "account.signOutBody", confirmKey: "account.signOut" });
+      const confirmed = await modal.confirm({
+        titleKey: "account.signOutTitle",
+        bodyKey: "account.signOutBody",
+        confirmKey: "account.signOut",
+      });
       if (confirmed) await signOutAccount();
     });
 
   return (
-    <section className="fade-in flex w-full flex-col gap-4 rounded-3xl border border-gold/25 bg-surface/50 p-5 text-left" aria-labelledby="account-title">
-      <h2 id="account-title" className="flex items-center gap-2 font-display text-xl font-semibold">
+    <section
+      className="fade-in flex w-full flex-col gap-4 rounded-3xl border border-gold/25 bg-surface/50 p-5 text-left"
+      aria-labelledby="account-title"
+    >
+      <h2
+        id="account-title"
+        className="flex items-center gap-2 font-display text-xl font-semibold"
+      >
         <UserRound aria-hidden className="size-5 text-gold" />
         {t("account.title")}
       </h2>
@@ -53,11 +74,33 @@ export function AccountPanel() {
         <p className="text-ink-soft">{t("account.loading")}</p>
       ) : account ? (
         <>
-          <p className="text-sm text-ink-soft">{t("account.signedInAs", { email: account.email ?? "" })}</p>
+          <p className="text-sm text-ink-soft">
+            {t("account.signedInAs", { email: account.email ?? "" })}
+          </p>
           <div className="flex flex-col gap-2">
             <h3 className="font-semibold">{t("account.owned")}</h3>
-            {status === "offline" && <p className="text-sm text-ink-soft">{t("account.offline")}</p>}
-            {entitlements.editions.length === 0 ? (
+            {status === "offline" && (
+              <p className="text-sm text-ink-soft">{t("account.offline")}</p>
+            )}
+            {entitlements.granted && (
+              <div className="flex items-start gap-3 rounded-2xl border border-success/40 bg-success/10 p-4">
+                <Gift
+                  aria-hidden
+                  className="mt-0.5 size-5 shrink-0 text-success"
+                />
+                <div className="flex flex-col gap-1">
+                  <p className="font-semibold">
+                    {t("account.offered", { appName: content.country.appName })}
+                  </p>
+                  <p className="text-sm text-ink-soft">
+                    {t("account.offeredBody")}
+                  </p>
+                </div>
+              </div>
+            )}
+            {entitlements.granted &&
+            entitlements.editions.length === 0 ? null : entitlements.editions
+                .length === 0 ? (
               <p className="text-sm text-ink-soft">{t("account.ownedNone")}</p>
             ) : (
               <ul className="flex flex-col gap-1">
@@ -70,11 +113,21 @@ export function AccountPanel() {
               </ul>
             )}
           </div>
-          <button type="button" className={secondaryButton} disabled={busy} onClick={() => void restore()}>
+          <button
+            type="button"
+            className={secondaryButton}
+            disabled={busy}
+            onClick={() => void restore()}
+          >
             <RefreshCw aria-hidden className="size-5" />
             {t("account.restore")}
           </button>
-          <button type="button" className={`${textLink} self-center`} disabled={busy} onClick={() => void signOut()}>
+          <button
+            type="button"
+            className={`${textLink} self-center`}
+            disabled={busy}
+            onClick={() => void signOut()}
+          >
             <LogOut aria-hidden className="mr-1 size-4" />
             {t("account.signOut")}
           </button>
@@ -88,10 +141,13 @@ export function AccountPanel() {
         </>
       )}
 
-      <Link href="/boutique" className={primaryButton}>
-        <ShoppingBag aria-hidden className="size-5" />
-        {t("shop.open")}
-      </Link>
+      {/* Un accès offert ouvre déjà tout : la boutique n'a plus rien à proposer. */}
+      {!entitlements.granted && (
+        <Link href="/boutique" className={primaryButton}>
+          <ShoppingBag aria-hidden className="size-5" />
+          {t("shop.open")}
+        </Link>
+      )}
     </section>
   );
 }

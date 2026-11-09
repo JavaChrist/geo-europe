@@ -36,10 +36,10 @@ for (const code of readdirSync("content").filter((name) => !name.startsWith("_")
 
   // Droits de chaque édition.
   assert.deepEqual(computeEntitlements([], editions), FREE_ENTITLEMENTS);
-  assert.deepEqual(computeEntitlements([order("solo_ads", "paid")], editions), { fullGameAccess: true, familyAccess: false, adsRemoved: false, editions: ["solo_ads"] });
-  assert.deepEqual(computeEntitlements([order("solo_no_ads", "paid")], editions), { fullGameAccess: true, familyAccess: false, adsRemoved: true, editions: ["solo_no_ads"] });
-  assert.deepEqual(computeEntitlements([order("family_ads", "paid")], editions), { fullGameAccess: true, familyAccess: true, adsRemoved: false, editions: ["family_ads"] });
-  assert.deepEqual(computeEntitlements([order("family_no_ads", "paid")], editions), { fullGameAccess: true, familyAccess: true, adsRemoved: true, editions: ["family_no_ads"] });
+  assert.deepEqual(computeEntitlements([order("solo_ads", "paid")], editions), { fullGameAccess: true, familyAccess: false, adsRemoved: false, editions: ["solo_ads"], granted: false });
+  assert.deepEqual(computeEntitlements([order("solo_no_ads", "paid")], editions), { fullGameAccess: true, familyAccess: false, adsRemoved: true, editions: ["solo_no_ads"], granted: false });
+  assert.deepEqual(computeEntitlements([order("family_ads", "paid")], editions), { fullGameAccess: true, familyAccess: true, adsRemoved: false, editions: ["family_ads"], granted: false });
+  assert.deepEqual(computeEntitlements([order("family_no_ads", "paid")], editions), { fullGameAccess: true, familyAccess: true, adsRemoved: true, editions: ["family_no_ads"], granted: false });
   assert.deepEqual(computeEntitlements([order("discovery", "paid")], editions), FREE_ENTITLEMENTS, "l'édition gratuite ne donne aucun droit payant");
 
   // Aucun droit sans paiement confirmé.
@@ -49,7 +49,7 @@ for (const code of readdirSync("content").filter((name) => !name.startsWith("_")
 
   // Un remboursement ne retire que les droits de sa commande.
   const mixed = computeEntitlements([order("family_no_ads", "refunded"), order("solo_ads", "paid")], editions);
-  assert.deepEqual(mixed, { fullGameAccess: true, familyAccess: false, adsRemoved: false, editions: ["solo_ads"] });
+  assert.deepEqual(mixed, { fullGameAccess: true, familyAccess: false, adsRemoved: false, editions: ["solo_ads"], granted: false });
 
   // Régions gratuites.
   const free = freeRegionIds(editions);

@@ -41,6 +41,7 @@ Chaque ligne demande la validation de Christian.
 - [ ] Projet Firebase du pays
 - [ ] Application Android Capacitor avec `androidPackage`
 - [ ] Vente réelle des éditions de `content/<pays>/editions.ts` : boutique et droits en place en mode test, points restants dans [paiements.md](paiements.md#avant-la-vente-réelle)
+- [ ] Administrateur des accès offerts nommé avec `scripts/admin.mjs <pays> add <adresse> --project <id>` (voir [acces-offerts.md](acces-offerts.md#administration-sécurisée))
 - [ ] Choix des deux régions de la Découverte gratuite
 - [ ] Paiements et comptes
 - [ ] Documents juridiques relus par Christian, version `reviewed` générée par le kit et copiée

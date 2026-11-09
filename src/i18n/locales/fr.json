@@ -602,6 +602,26 @@
     "actionLinkInvalid": {
       "title": "Lien expiré ou déjà utilisé",
       "body": "Ce lien n'est plus valable. Demandez-en un nouveau depuis l'écran de connexion."
+    },
+    "forbidden": {
+      "title": "Accès réservé",
+      "body": "Cette page est réservée aux administrateurs du jeu."
+    },
+    "invalidEmail": {
+      "title": "Adresse non valable",
+      "body": "Vérifiez l'adresse électronique saisie."
+    },
+    "alreadyGranted": {
+      "title": "Adresse déjà autorisée",
+      "body": "Cette adresse figure déjà dans la liste des accès offerts."
+    },
+    "notGranted": {
+      "title": "Accès introuvable",
+      "body": "Cette adresse n'a pas d'accès offert en cours."
+    },
+    "offeredAccess": {
+      "title": "Accès déjà offert",
+      "body": "Votre compte bénéficie d'un accès offert : tout le jeu est déjà ouvert, aucun achat n'est nécessaire."
     }
   },
   "notFound": {
@@ -883,7 +903,9 @@
       "resetDoneTitle": "Mot de passe modifié",
       "resetDoneBody": "Votre nouveau mot de passe est enregistré. Connectez-vous avec lui.",
       "signIn": "Se connecter"
-    }
+    },
+    "offered": "Accès {appName} offert — Édition Famille complète, sans publicité",
+    "offeredBody": "Toutes les régions, tous les niveaux et défis, le Mode Famille, l'album et les badges, sans publicité ni promotion. Aucun achat n'est nécessaire."
   },
   "shop": {
     "title": "Boutique",
@@ -914,7 +936,8 @@
     "testMode": "Paiements en mode test : aucun montant réel n'est encaissé.",
     "notInApp": "Les achats ne sont pas encore disponibles dans l'application. Ils le seront bientôt.",
     "back": "Retour à la boutique",
-    "open": "Voir les éditions"
+    "open": "Voir les éditions",
+    "offered": "Votre compte bénéficie de l'accès {appName} offert : tout le jeu est déjà ouvert, aucun achat n'est nécessaire."
   },
   "payment": {
     "title": "Paiement",
@@ -964,5 +987,37 @@
     "familyTitle": "Mode Famille",
     "familyBody": "Le Mode Famille est inclus dans les éditions Famille, avec ou sans publicités. Achat unique, sans abonnement.",
     "familyCta": "Voir les éditions Famille"
+  },
+  "admin": {
+    "grants": {
+      "title": "Accès offerts",
+      "intro": "Chaque adresse ajoutée reçoit gratuitement l'Édition Famille complète, sans publicité, sur {appName} uniquement. L'accès s'active quand le compte de cette adresse est confirmé, et reste valable jusqu'à sa révocation.",
+      "email": "Adresse électronique",
+      "add": "Ajouter",
+      "adding": "Ajout…",
+      "addedTitle": "Adresse ajoutée",
+      "addedActive": "{email} a maintenant l'accès complet.",
+      "addedPending": "{email} est en attente : l'accès s'activera à la première connexion avec cette adresse confirmée.",
+      "listTitle": "Adresses autorisées",
+      "empty": "Aucune adresse pour le moment.",
+      "loading": "Chargement de la liste…",
+      "refresh": "Actualiser",
+      "status": {
+        "pending": "En attente",
+        "active": "Actif",
+        "revoked": "Révoqué"
+      },
+      "addedAt": "Ajoutée le {date}",
+      "activatedAt": "Activée le {date}",
+      "revokedAt": "Révoquée le {date}",
+      "revoke": "Révoquer",
+      "revokeTitle": "Révoquer cet accès ?",
+      "revokeBody": "{email} perdra l'accès offert aussitôt, sans se reconnecter. Ses achats éventuels restent valables.",
+      "revokedTitle": "Accès révoqué",
+      "revokedBody": "{email} n'a plus d'accès offert.",
+      "signInNeeded": "Connectez-vous avec un compte administrateur pour gérer les accès offerts.",
+      "signIn": "Se connecter",
+      "forbidden": "Ce compte n'administre pas les accès offerts de {appName}."
+    }
   }
 }

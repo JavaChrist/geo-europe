@@ -20,8 +20,11 @@ import { card, input, primaryButton, secondaryButton, textLink } from "@/ui/styl
 import { useEntitlements } from "./EntitlementsProvider";
 
 /** Seul un retour vers la boutique est accepté : aucune redirection vers une adresse fournie de l'extérieur. */
+/** Pages où la connexion peut ramener : rien d'autre, pour qu'un lien ne puisse pas renvoyer ailleurs. */
+const NEXT_PAGES = ["/boutique", "/admin/acces-offerts"];
+
 export function safeNext(value: string | null): string {
-  if (!value || !value.startsWith("/boutique") || value.startsWith("//") || value.includes("\\")) return "/boutique";
+  if (!value || !NEXT_PAGES.some((page) => value.startsWith(page)) || value.startsWith("//") || value.includes("\\")) return "/boutique";
   return value;
 }
 

@@ -11,11 +11,13 @@ export interface Entitlements {
   familyAccess: boolean;
   /** Aucune publicité ni promotion JavaChrist. */
   adsRemoved: boolean;
-  /** Éditions payées et toujours valables. */
+  /** Éditions payées et toujours valables. Un accès offert n'y ajoute rien : ce n'est pas un achat. */
   editions: EditionId[];
+  /** Accès offert par l'administrateur (voir `docs/acces-offerts.md`) : droits de l'édition Famille sans publicités. */
+  granted: boolean;
 }
 
-export const FREE_ENTITLEMENTS: Entitlements = { fullGameAccess: false, familyAccess: false, adsRemoved: false, editions: [] };
+export const FREE_ENTITLEMENTS: Entitlements = { fullGameAccess: false, familyAccess: false, adsRemoved: false, editions: [], granted: false };
 
 /**
  * État d'une commande. Les états Mollie sont repris tels quels, plus :
@@ -54,6 +56,7 @@ function rightsOf(edition: Edition): Entitlements {
     familyAccess: paid && edition.mode === "family",
     adsRemoved: paid && edition.ads === false,
     editions: paid ? [edition.id] : [],
+    granted: false,
   };
 }
 
@@ -70,9 +73,20 @@ export function computeEntitlements(orders: OrderRights[], config: EditionsConfi
         familyAccess: total.familyAccess || rights.familyAccess,
         adsRemoved: total.adsRemoved || rights.adsRemoved,
         editions: [...new Set([...total.editions, ...rights.editions])],
+        granted: total.granted || rights.granted,
       }),
       FREE_ENTITLEMENTS,
     );
+}
+
+/**
+ * Droits effectifs : ceux des achats, complétés par un accès offert. L'accès offert ouvre tout (régions, niveaux, défis,
+ * Mode Famille, sans publicités) mais n'ajoute aucune édition : les achats restent visibles tels quels, et une révocation
+ * ne retire que ce que l'accès offert apportait.
+ */
+export function effectiveEntitlements(purchased: Entitlements, granted: boolean): Entitlements {
+  if (!granted) return { ...purchased, granted: false };
+  return { fullGameAccess: true, familyAccess: true, adsRemoved: true, editions: purchased.editions, granted: true };
 }
 
 /** Régions jouables sans achat, celles de l'édition gratuite. */
@@ -91,7 +105,9 @@ export type PurchaseRefusal =
   /** Le joueur possède déjà une édition : les tarifs d'évolution ne sont pas encore définis. */
   | "upgradeUndefined"
   /** Un autre paiement est en cours pour une autre édition. */
-  | "otherInProgress";
+  | "otherInProgress"
+  /** Le joueur bénéficie d'un accès offert : il a déjà tout, aucun achat ne lui est proposé. */
+  | "offeredAccess";
 
 export type PurchaseCheck =
   | { allowed: true; resumeOrderIndex: number | null }
@@ -101,9 +117,10 @@ export type PurchaseCheck =
  * Un seul achat par compte tant que les tarifs d'évolution ne sont pas validés : ni doublon, ni changement
  * d'édition qui ferait perdre des droits ou payer deux fois. Un paiement en cours pour la même édition est repris.
  */
-export function purchaseCheck(target: EditionId, orders: OrderRights[], config: EditionsConfig): PurchaseCheck {
+export function purchaseCheck(target: EditionId, orders: OrderRights[], config: EditionsConfig, granted = false): PurchaseCheck {
   const edition = config.editions.find((candidate) => candidate.id === target);
   if (!edition || edition.purchase !== "one_time") return { allowed: false, reason: "notForSale" };
+  if (granted) return { allowed: false, reason: "offeredAccess" };
   if (orders.some((order) => grantsRights(order.status))) return { allowed: false, reason: "upgradeUndefined" };
   const inProgress = orders.findIndex((order) => isInProgress(order.status));
   if (inProgress === -1) return { allowed: true, resumeOrderIndex: null };

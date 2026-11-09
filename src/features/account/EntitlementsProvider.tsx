@@ -30,13 +30,15 @@ export function EntitlementsProvider({ children }: { children: ReactNode }) {
   useEffect(() => (enabled ? watchAccount(setAccount) : undefined), [enabled]);
 
   const uid = account?.uid;
+  // Une adresse confirmée après la connexion relance le calcul : un accès offert en attente s'active alors.
+  const verified = account?.verified ?? false;
   useEffect(() => {
     if (!uid) return;
     const stop = watchEntitlements(uid, (entitlements) => setRemote({ uid, entitlements }));
     // Recalcul par le serveur à chaque connexion : un achat fait sur un autre appareil revient ici.
     requestRestore().catch(() => undefined);
     return stop;
-  }, [uid]);
+  }, [uid, verified]);
 
   const value = useMemo<EntitlementsState>(() => {
     const current = uid && remote?.uid === uid ? remote : null;

@@ -15,6 +15,17 @@ service cloud.firestore {
       allow write: if false;
     }
 
+    // Accès offerts (liste privée par application) et administrateurs : serveur uniquement,
+    // ni lecture ni écriture depuis le navigateur, même pour un bénéficiaire ou un administrateur.
+    // Écrits par src/services/grants.ts et scripts/admin.mjs, voir docs/acces-offerts.md.
+    match /grants/{app}/emails/{email} {
+      allow read, write: if false;
+    }
+
+    match /admins/{uid} {
+      allow read, write: if false;
+    }
+
     // Tout le reste, dont mailThrottle (limite d'envoi des courriels), n'est utilisé que par le serveur.
     match /{document=**} {
       allow read, write: if false;

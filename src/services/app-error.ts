@@ -21,7 +21,12 @@ export type AppErrorCode =
   | "alreadyOwned"
   | "paymentInProgress"
   | "orderNotFound"
-  | "paymentsUnavailable";
+  | "paymentsUnavailable"
+  | "forbidden"
+  | "invalidEmail"
+  | "alreadyGranted"
+  | "notGranted"
+  | "offeredAccess";
 
 export class AppError extends Error {
   readonly code: AppErrorCode;

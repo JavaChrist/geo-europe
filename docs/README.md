@@ -13,6 +13,7 @@ GéoFR est le premier jeu de la collection Géo Europe. Le même code sert à to
 | [editions.md](editions.md) | Les cinq éditions, leurs tarifs, où ils vivent et comment les changer |
 | [juridique.md](juridique.md) | Documents juridiques : intégration de JavaChrist-Legal-Kit, procédure par pays, manques connus |
 | [paiements.md](paiements.md) | Achat web Mollie en mode test, commandes, droits d'accès, variables, tests |
+| [acces-offerts.md](acces-offerts.md) | Édition Famille sans publicité offerte à des adresses autorisées : administration, premier administrateur, règles Firestore, Android, tests |
 | [promotions.md](promotions.md) | Vidéos JavaChrist-Promotions entre deux parties : catalogue, lecteur, fréquence, éditions sans publicités, âge, nouveau pays |
 | [courriels.md](courriels.md) | Courriels de compte et confirmation d'achat : modèles de JavaChrist-Mail-Kit, envoi SMTP, limites, tests |
 

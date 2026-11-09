@@ -1,4 +1,4 @@
-// Test d'intégration des paiements web : vraies routes API, émulateurs Firebase (Auth, Firestore, règles) et faux Mollie local.
+// Test d'intégration des paiements web et des accès offerts : vraies routes API, émulateurs Firebase (Auth, Firestore, règles) et faux Mollie local.
 // Aucune clé réelle, aucun appel réseau sortant. Prérequis : `npm run build` (build web), Java 21.
 // Usage : npm run test:payments
 import assert from "node:assert/strict";
@@ -487,7 +487,151 @@ try {
     assert.equal((await api("/api/account/password-reset", null, { email: "pas-une-adresse" })).status, 400);
   });
 
-  await test("règles Firestore : lecture de ses seuls droits et commandes, aucune écriture", async () => {
+  // --- Accès offerts ---------------------------------------------------------------------------------------------
+  const grants = (user, body) => api("/api/admin/grants", user?.token, body);
+  const grantOf = async (email) => (await admin.db.doc(`grants/${APP_ID}/emails/${email}`).get()).data() ?? null;
+  const ordersCount = async (uid) => (await admin.db.collection("orders").where("uid", "==", uid).get()).size;
+  const restore = (user) => api("/api/entitlements/restore", user.token, {});
+  const signInAgain = async (user) => ({ ...user, token: (await identity("accounts:signInWithPassword", { email: user.email, password: user.password })).idToken });
+  const administrateur = await newUser("administrateur");
+  await admin.db.doc(`admins/${administrateur.uid}`).set({ email: administrateur.email, apps: [APP_ID] });
+
+  await test("accès offerts : administration refusée sans compte, à un joueur, à une adresse non confirmée, à un autre pays", async () => {
+    assert.equal((await grants(null, { action: "list" })).status, 401);
+    const joueur = await grants(bruno, { action: "list" });
+    assert.equal(joueur.status, 403);
+    assert.equal(joueur.body.error, "forbidden");
+    const nonConfirme = await newUser("admin-non-confirme", { verified: false });
+    await admin.db.doc(`admins/${nonConfirme.uid}`).set({ apps: [APP_ID] });
+    assert.equal((await grants(nonConfirme, { action: "list" })).body.error, "forbidden");
+    const autrePays = await newUser("admin-geode");
+    await admin.db.doc(`admins/${autrePays.uid}`).set({ apps: ["geode"] });
+    assert.equal((await grants(autrePays, { action: "list" })).body.error, "forbidden");
+    assert.equal((await grants(bruno, { action: "add", email: bruno.email })).status, 403, "un joueur ne s'ajoute pas lui-même");
+    assert.equal(await grantOf(bruno.email), null);
+  });
+
+  const inscrit = await newUser("inscrit");
+  await test("accès offerts : adresse autorisée d'un compte déjà inscrit, active aussitôt, sans commande", async () => {
+    const result = await grants(administrateur, { action: "add", email: "  Inscrit@Example.TEST " });
+    assert.equal(result.status, 200, JSON.stringify(result.body));
+    assert.equal(result.body.grant.email, inscrit.email, "adresse normalisée");
+    assert.equal(result.body.grant.status, "active");
+    assert.equal(result.body.grant.uid, inscrit.uid);
+    assert.ok(result.body.grant.addedAt);
+    const rights = await entitlementsOf(inscrit.uid);
+    assert.equal(rights.granted, true);
+    assert.equal(rights.fullGameAccess, true);
+    assert.equal(rights.familyAccess, true);
+    assert.equal(rights.adsRemoved, true);
+    assert.deepEqual(rights.editions, [], "aucune édition achetée inventée");
+    assert.equal(await ordersCount(inscrit.uid), 0, "aucune fausse commande");
+    const checkoutOffert = await checkout(inscrit, "family_no_ads");
+    assert.equal(checkoutOffert.status, 409);
+    assert.equal(checkoutOffert.body.error, "offeredAccess", "aucun achat proposé");
+  });
+
+  await test("accès offerts : pas de doublon, adresse invalide refusée", async () => {
+    const doublon = await grants(administrateur, { action: "add", email: "INSCRIT@example.test" });
+    assert.equal(doublon.status, 409);
+    assert.equal(doublon.body.error, "alreadyGranted");
+    assert.equal((await grants(administrateur, { action: "add", email: "pas-une-adresse" })).body.error, "invalidEmail");
+    assert.equal((await grants(administrateur, { action: "add", email: "a/b@example.test" })).body.error, "invalidEmail");
+    assert.equal((await grants(administrateur, { action: "oups" })).status, 400);
+  });
+
+  let futur;
+  await test("accès offerts : adresse autorisée avant la création du compte", async () => {
+    const added = await grants(administrateur, { action: "add", email: "futur@example.test" });
+    assert.equal(added.body.grant.status, "pending");
+    assert.equal(added.body.grant.uid, null);
+    futur = await newUser("futur");
+    assert.equal((await restore(futur)).body.granted, true);
+    const grant = await grantOf("futur@example.test");
+    assert.equal(grant.status, "active");
+    assert.equal(grant.uid, futur.uid);
+    assert.ok(grant.activatedAt);
+    assert.equal((await entitlementsOf(futur.uid)).familyAccess, true);
+  });
+
+  await test("accès offerts : adresse non vérifiée, accès en attente jusqu'à la confirmation", async () => {
+    await grants(administrateur, { action: "add", email: "pas-confirme@example.test" });
+    let pasConfirme = await newUser("pas-confirme", { verified: false });
+    const before = await restore(pasConfirme);
+    assert.equal(before.status, 200);
+    assert.equal(before.body.granted, false);
+    assert.equal(before.body.fullGameAccess, false);
+    assert.equal((await grantOf("pas-confirme@example.test")).status, "pending");
+    await admin.auth.updateUser(pasConfirme.uid, { emailVerified: true });
+    pasConfirme = await signInAgain(pasConfirme);
+    assert.equal((await restore(pasConfirme)).body.granted, true, "actif après confirmation");
+  });
+
+  await test("accès offerts : adresse non autorisée", async () => {
+    const result = await restore(chloe);
+    assert.equal(result.body.granted, false);
+    assert.equal(result.body.adsRemoved, false);
+  });
+
+  await test("accès offerts : un accès d'un autre pays n'ouvre pas GéoFR", async () => {
+    const voisin = await newUser("voisin");
+    await admin.db.doc(`grants/geode/emails/${voisin.email}`).set({ email: voisin.email, status: "pending", uid: null });
+    assert.equal((await restore(voisin)).body.granted, false);
+  });
+
+  await test("accès offerts : révocation prise en compte sans nouvelle connexion", async () => {
+    const result = await grants(administrateur, { action: "revoke", email: inscrit.email });
+    assert.equal(result.status, 200);
+    assert.equal(result.body.grant.status, "revoked");
+    assert.ok(result.body.grant.revokedAt);
+    assert.equal(result.body.grant.revokedBy, administrateur.uid);
+    const rights = await entitlementsOf(inscrit.uid);
+    assert.equal(rights.granted, false, "document de droits réécrit, suivi en direct par l'application");
+    assert.equal(rights.fullGameAccess, false);
+    assert.equal(rights.familyAccess, false);
+    assert.equal((await restore(inscrit)).body.granted, false, "même à la connexion suivante");
+    assert.equal((await grants(administrateur, { action: "revoke", email: inscrit.email })).body.error, "notGranted");
+    const list = await grants(administrateur, { action: "list" });
+    const row = list.body.grants.find((grant) => grant.email === inscrit.email);
+    assert.equal(row.status, "revoked");
+    assert.ok(row.addedAt && row.revokedAt, "dates d'ajout et de révocation");
+    const again = await grants(administrateur, { action: "add", email: inscrit.email });
+    assert.equal(again.body.grant.status, "active", "une adresse révoquée peut être autorisée de nouveau");
+    assert.equal(again.body.grant.revokedAt, null);
+    assert.equal((await entitlementsOf(inscrit.uid)).granted, true);
+  });
+
+  await test("accès offerts : compte avec un achat payant, l'achat survit à la révocation", async () => {
+    const paid = await entitlementsOf(david.uid);
+    const orders = await ordersCount(david.uid);
+    await grants(administrateur, { action: "add", email: david.email });
+    const both = await entitlementsOf(david.uid);
+    assert.equal(both.granted, true);
+    assert.deepEqual(both.editions, paid.editions, "l'achat reste visible");
+    assert.deepEqual(both.sourceOrderIds, paid.sourceOrderIds);
+    await grants(administrateur, { action: "revoke", email: david.email });
+    const after = await entitlementsOf(david.uid);
+    assert.equal(after.granted, false);
+    assert.deepEqual(after.editions, paid.editions);
+    assert.equal(after.familyAccess, paid.familyAccess);
+    assert.equal(after.adsRemoved, paid.adsRemoved);
+    assert.equal(await ordersCount(david.uid), orders, "aucune commande créée ni modifiée");
+  });
+
+  await test("accès offerts : persistance après déconnexion puis reconnexion", async () => {
+    const again = await signInAgain(futur);
+    const result = await restore(again);
+    assert.equal(result.body.granted, true);
+    assert.equal((await grantOf("futur@example.test")).uid, futur.uid);
+  });
+
+  await test("accès offerts : bénéficiaire sans privilège d'administration", async () => {
+    const result = await grants(futur, { action: "list" });
+    assert.equal(result.status, 403);
+    assert.equal((await admin.db.doc(`admins/${futur.uid}`).get()).exists, false);
+  });
+
+  await test("règles Firestore : lecture de ses seuls droits et commandes, aucune écriture, accès offerts et administrateurs fermés", async () => {
     const app = initializeApp({ apiKey: "demo", projectId: PROJECT, authDomain: `${PROJECT}.firebaseapp.com` }, "rules");
     const auth = initializeAuth(app, { persistence: inMemoryPersistence });
     connectAuthEmulator(auth, `http://${AUTH_HOST}`, { disableWarnings: true });
@@ -506,6 +650,17 @@ try {
     await denied(getDoc(doc(db, `orders/${aliceOrder}`)));
     await denied(getDoc(doc(db, "autre/x")));
     await denied(getDoc(doc(db, "mailThrottle/x")));
+    await signOut(auth);
+    // Accès offerts et administrateurs : ni lecture ni écriture, même pour un administrateur ou un bénéficiaire.
+    await signInWithEmailAndPassword(auth, administrateur.email, administrateur.password);
+    await denied(getDoc(doc(db, `grants/${APP_ID}/emails/${inscrit.email}`)));
+    await denied(getDoc(doc(db, `admins/${administrateur.uid}`)));
+    await denied(setDoc(doc(db, `grants/${APP_ID}/emails/autre@example.test`), { status: "active" }));
+    await signOut(auth);
+    await signInWithEmailAndPassword(auth, futur.email, futur.password);
+    await denied(getDoc(doc(db, `grants/${APP_ID}/emails/${futur.email}`)));
+    await denied(setDoc(doc(db, `admins/${futur.uid}`), { apps: [APP_ID] }));
+    await denied(setDoc(doc(db, `grants/${APP_ID}/emails/${futur.email}`), { status: "active", uid: futur.uid }));
     await signOut(auth);
   });
 
@@ -556,7 +711,7 @@ try {
   });
 
   await test("journal du serveur : aucun jeton, aucune clé, aucun lien d'action", async () => {
-    for (const user of [alice, bruno, chloe, david, nonVerifie, refusSmtp]) assert.ok(!serverLog.includes(user.token), `jeton de ${user.email}`);
+    for (const user of [alice, bruno, chloe, david, nonVerifie, refusSmtp, administrateur, inscrit, futur]) assert.ok(!serverLog.includes(user.token), `jeton de ${user.email}`);
     assert.ok(!serverLog.includes("test_mockkeymockkeymockkeymockke"), "clé Mollie");
     assert.ok(!serverLog.includes(CRON_SECRET), "secret du rattrapage");
     assert.doesNotMatch(serverLog, /Bearer |oobCode=|PRIVATE KEY/);

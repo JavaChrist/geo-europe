@@ -1,6 +1,17 @@
 "use client";
 
-import { Check, CircleCheck, FlaskConical, Info, Lock, Megaphone, MegaphoneOff, User, Users } from "lucide-react";
+import {
+  Check,
+  CircleCheck,
+  FlaskConical,
+  Gift,
+  Info,
+  Lock,
+  Megaphone,
+  MegaphoneOff,
+  User,
+  Users,
+} from "lucide-react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
@@ -18,7 +29,9 @@ import { card, primaryButton, secondaryButton, textLink } from "@/ui/styles";
 
 const offers = paidEditions(content.editions);
 /** Tant qu'aucune édition n'est validée pour la vente, seul le mode test de Mollie est branché. */
-const testOnly = content.editions.editions.every((edition) => edition.status === "planned");
+const testOnly = content.editions.editions.every(
+  (edition) => edition.status === "planned",
+);
 const nameKey = (id: EditionId) => `editions.${id}.name` as TranslationKey;
 
 function useFreeRegionNames(): string {
@@ -30,10 +43,21 @@ function useFreeRegionNames(): string {
   return new Intl.ListFormat(locale, { type: "conjunction" }).format(names);
 }
 
-function Feature({ icon: Icon, text, muted = false }: { icon: typeof Check; text: string; muted?: boolean }) {
+function Feature({
+  icon: Icon,
+  text,
+  muted = false,
+}: {
+  icon: typeof Check;
+  text: string;
+  muted?: boolean;
+}) {
   return (
     <li className={`flex items-start gap-2 ${muted ? "text-ink-soft" : ""}`}>
-      <Icon aria-hidden className={`mt-0.5 size-4 shrink-0 ${muted ? "text-ink-soft" : "text-gold"}`} />
+      <Icon
+        aria-hidden
+        className={`mt-0.5 size-4 shrink-0 ${muted ? "text-ink-soft" : "text-gold"}`}
+      />
       <span>{text}</span>
     </li>
   );
@@ -48,14 +72,19 @@ export function Shop() {
   const { account, entitlements, status, enabled } = useEntitlements();
   const freeNames = useFreeRegionNames();
   const requested = params.get("edition");
-  const [selected, setSelected] = useState<EditionId | null>(offers.some((edition) => edition.id === requested) ? (requested as EditionId) : null);
+  const [selected, setSelected] = useState<EditionId | null>(
+    offers.some((edition) => edition.id === requested)
+      ? (requested as EditionId)
+      : null,
+  );
   const [termsAccepted, setTermsAccepted] = useState(false);
   const [immediateAccepted, setImmediateAccepted] = useState(false);
   const [busy, setBusy] = useState(false);
 
   const ownsAny = entitlements.editions.length > 0;
   const choice = offers.find((edition) => edition.id === selected) ?? null;
-  const price = (edition: Edition) => formatPrice(edition.priceCents, content.editions.currency);
+  const price = (edition: Edition) =>
+    formatPrice(edition.priceCents, content.editions.currency);
 
   const choose = (id: EditionId) => {
     setSelected(id);
@@ -79,7 +108,9 @@ export function Shop() {
         window.location.assign(result.checkoutUrl);
         return;
       }
-      router.push(`/boutique/retour?commande=${encodeURIComponent(result.orderId)}`);
+      router.push(
+        `/boutique/retour?commande=${encodeURIComponent(result.orderId)}`,
+      );
     } catch (error) {
       await modal.error(error);
     }
@@ -89,7 +120,9 @@ export function Shop() {
   return (
     <main className="mx-auto flex w-full max-w-3xl flex-col gap-5 px-4 py-6">
       <section className="fade-in flex flex-col gap-2">
-        <h1 className="font-display text-3xl font-semibold">{t("shop.title")}</h1>
+        <h1 className="font-display text-3xl font-semibold">
+          {t("shop.title")}
+        </h1>
         <p className="text-ink-soft">{t("shop.intro")}</p>
         <p className="flex items-start gap-2 text-sm text-ink-soft">
           <Info aria-hidden className="mt-0.5 size-4 shrink-0 text-sky" />
@@ -99,85 +132,149 @@ export function Shop() {
 
       {!enabled && (
         <section className={card}>
-          <p>{process.env.NEXT_PUBLIC_PAYMENTS === "off" ? t("shop.notInApp") : t("account.unavailable")}</p>
+          <p>
+            {process.env.NEXT_PUBLIC_PAYMENTS === "off"
+              ? t("shop.notInApp")
+              : t("account.unavailable")}
+          </p>
         </section>
       )}
 
       {enabled && testOnly && (
         <p className="flex items-start gap-2 rounded-2xl border border-sky/40 bg-sky/10 px-4 py-3 text-sm">
-          <FlaskConical aria-hidden className="mt-0.5 size-4 shrink-0 text-sky" />
+          <FlaskConical
+            aria-hidden
+            className="mt-0.5 size-4 shrink-0 text-sky"
+          />
           {t("shop.testMode")}
         </p>
       )}
 
-      {status === "offline" && <p className="rounded-2xl border border-gold/40 bg-gold/10 px-4 py-3 text-sm">{t("account.offline")}</p>}
+      {status === "offline" && (
+        <p className="rounded-2xl border border-gold/40 bg-gold/10 px-4 py-3 text-sm">
+          {t("account.offline")}
+        </p>
+      )}
 
-      <ul className="grid gap-4 sm:grid-cols-2">
-        {offers.map((edition) => {
-          const owned = entitlements.editions.includes(edition.id);
-          const isSelected = selected === edition.id;
-          return (
-            <li
-              key={edition.id}
-              className={`fade-in flex flex-col gap-4 rounded-3xl border bg-surface/50 p-5 ${isSelected ? "border-gold" : "border-gold/25"}`}
-            >
-              <div className="flex items-start justify-between gap-3">
-                <span className="flex size-11 items-center justify-center rounded-full border border-gold/40 bg-abyss/50">
-                  {edition.mode === "family" ? <Users aria-hidden className="size-5 text-gold" /> : <User aria-hidden className="size-5 text-gold" />}
-                </span>
-                {owned && (
-                  <span className="inline-flex items-center gap-1 rounded-full border border-success/50 px-3 py-1 text-sm text-success">
-                    <CircleCheck aria-hidden className="size-4" />
-                    {t("shop.owned")}
+      {/* Accès offert : tout est déjà ouvert, aucune édition n'est proposée à l'achat. */}
+      {entitlements.granted && (
+        <section className={`${card} border-success/50`}>
+          <p className="flex items-start gap-3">
+            <Gift aria-hidden className="mt-0.5 size-5 shrink-0 text-success" />
+            {t("shop.offered", { appName: content.country.appName })}
+          </p>
+        </section>
+      )}
+
+      {!entitlements.granted && (
+        <ul className="grid gap-4 sm:grid-cols-2">
+          {offers.map((edition) => {
+            const owned = entitlements.editions.includes(edition.id);
+            const isSelected = selected === edition.id;
+            return (
+              <li
+                key={edition.id}
+                className={`fade-in flex flex-col gap-4 rounded-3xl border bg-surface/50 p-5 ${isSelected ? "border-gold" : "border-gold/25"}`}
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <span className="flex size-11 items-center justify-center rounded-full border border-gold/40 bg-abyss/50">
+                    {edition.mode === "family" ? (
+                      <Users aria-hidden className="size-5 text-gold" />
+                    ) : (
+                      <User aria-hidden className="size-5 text-gold" />
+                    )}
                   </span>
-                )}
-              </div>
-              <h2 className="font-display text-xl font-semibold">{t(nameKey(edition.id))}</h2>
-              <p>
-                <span className="text-2xl font-semibold text-gold">{price(edition)}</span> <span className="text-sm text-ink-soft">{t("shop.ttc")}</span>
-              </p>
-              <ul className="flex flex-col gap-2 text-sm">
-                <Feature icon={Check} text={t("shop.features.allRegions")} />
-                <Feature icon={Check} text={t("shop.features.solo")} />
-                {edition.mode === "family" ? (
-                  <Feature icon={Users} text={t("shop.features.family")} />
-                ) : (
-                  <Feature icon={Lock} text={t("shop.features.noFamily")} muted />
-                )}
-                {edition.ads ? <Feature icon={Megaphone} text={t("shop.features.ads")} muted /> : <Feature icon={MegaphoneOff} text={t("shop.features.noAds")} />}
-              </ul>
-              <p className="text-sm text-ink-soft">{t("shop.oneTime")}</p>
-              <div className="mt-auto">
-                {owned ? null : ownsAny ? (
-                  <p className="text-sm text-ink-soft">{t("shop.upgradeSoon")}</p>
-                ) : (
-                  <button
-                    type="button"
-                    className={`${isSelected ? primaryButton : secondaryButton} w-full`}
-                    disabled={!enabled}
-                    aria-pressed={isSelected}
-                    onClick={() => choose(edition.id)}
-                  >
-                    {t(isSelected ? "shop.selected" : "shop.choose")}
-                  </button>
-                )}
-              </div>
-            </li>
-          );
-        })}
-      </ul>
+                  {owned && (
+                    <span className="inline-flex items-center gap-1 rounded-full border border-success/50 px-3 py-1 text-sm text-success">
+                      <CircleCheck aria-hidden className="size-4" />
+                      {t("shop.owned")}
+                    </span>
+                  )}
+                </div>
+                <h2 className="font-display text-xl font-semibold">
+                  {t(nameKey(edition.id))}
+                </h2>
+                <p>
+                  <span className="text-2xl font-semibold text-gold">
+                    {price(edition)}
+                  </span>{" "}
+                  <span className="text-sm text-ink-soft">{t("shop.ttc")}</span>
+                </p>
+                <ul className="flex flex-col gap-2 text-sm">
+                  <Feature icon={Check} text={t("shop.features.allRegions")} />
+                  <Feature icon={Check} text={t("shop.features.solo")} />
+                  {edition.mode === "family" ? (
+                    <Feature icon={Users} text={t("shop.features.family")} />
+                  ) : (
+                    <Feature
+                      icon={Lock}
+                      text={t("shop.features.noFamily")}
+                      muted
+                    />
+                  )}
+                  {edition.ads ? (
+                    <Feature
+                      icon={Megaphone}
+                      text={t("shop.features.ads")}
+                      muted
+                    />
+                  ) : (
+                    <Feature
+                      icon={MegaphoneOff}
+                      text={t("shop.features.noAds")}
+                    />
+                  )}
+                </ul>
+                <p className="text-sm text-ink-soft">{t("shop.oneTime")}</p>
+                <div className="mt-auto">
+                  {owned ? null : ownsAny ? (
+                    <p className="text-sm text-ink-soft">
+                      {t("shop.upgradeSoon")}
+                    </p>
+                  ) : (
+                    <button
+                      type="button"
+                      className={`${isSelected ? primaryButton : secondaryButton} w-full`}
+                      disabled={!enabled}
+                      aria-pressed={isSelected}
+                      onClick={() => choose(edition.id)}
+                    >
+                      {t(isSelected ? "shop.selected" : "shop.choose")}
+                    </button>
+                  )}
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      )}
 
-      {enabled && choice && !ownsAny && (
-        <section className={`${card} border-gold/60`} aria-labelledby="shop-summary">
+      {enabled && choice && !ownsAny && !entitlements.granted && (
+        <section
+          className={`${card} border-gold/60`}
+          aria-labelledby="shop-summary"
+        >
           <h2 id="shop-summary" className="font-display text-2xl font-semibold">
             {t("shop.summaryTitle")}
           </h2>
-          <p>{t("shop.summary", { edition: t(nameKey(choice.id)), price: price(choice) })}</p>
+          <p>
+            {t("shop.summary", {
+              edition: t(nameKey(choice.id)),
+              price: price(choice),
+            })}
+          </p>
 
           {!account || !account.verified ? (
             <>
-              <p className="text-ink-soft">{account ? t("errors.unverifiedAccount.body") : t("shop.accountNeeded")}</p>
-              <Link href={`/connexion?suite=${encodeURIComponent(`/boutique?edition=${choice.id}`)}`} className={primaryButton}>
+              <p className="text-ink-soft">
+                {account
+                  ? t("errors.unverifiedAccount.body")
+                  : t("shop.accountNeeded")}
+              </p>
+              <Link
+                href={`/connexion?suite=${encodeURIComponent(`/boutique?edition=${choice.id}`)}`}
+                className={primaryButton}
+              >
                 {t("account.signInCta")}
               </Link>
             </>
@@ -192,7 +289,11 @@ export function Shop() {
                 />
                 <span>{t("shop.consentTerms")}</span>
               </label>
-              <Link href="/profil/confidentialite/conditions-de-vente" target="_blank" className={`${textLink} self-start`}>
+              <Link
+                href="/profil/confidentialite/conditions-de-vente"
+                target="_blank"
+                className={`${textLink} self-start`}
+              >
                 {t("shop.termsLink")}
               </Link>
               <label className="flex items-start gap-3">
@@ -200,11 +301,18 @@ export function Shop() {
                   type="checkbox"
                   className="mt-1 size-5 shrink-0 accent-gold"
                   checked={immediateAccepted}
-                  onChange={(event) => setImmediateAccepted(event.target.checked)}
+                  onChange={(event) =>
+                    setImmediateAccepted(event.target.checked)
+                  }
                 />
                 <span>{t("shop.consentImmediate")}</span>
               </label>
-              <button type="button" className={primaryButton} disabled={busy || !termsAccepted || !immediateAccepted} onClick={() => void order()}>
+              <button
+                type="button"
+                className={primaryButton}
+                disabled={busy || !termsAccepted || !immediateAccepted}
+                onClick={() => void order()}
+              >
                 {t(busy ? "shop.redirecting" : "shop.order")}
               </button>
             </>
