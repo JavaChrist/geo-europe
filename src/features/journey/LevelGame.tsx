@@ -1,13 +1,13 @@
 "use client";
 
-import { Lock, Play } from "lucide-react";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { Lock, Play, RotateCcw } from "lucide-react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import content from "@country";
 import { newRewards, type NewRewards } from "@/engine/album";
 import {
   applyJoker,
   isRunOver,
+  isRunResumable,
   LEVEL_RULES,
   maxScoreOf,
   nextChallenge,
@@ -25,8 +25,10 @@ import { usePromotion } from "@/features/promotions/usePromotion";
 import { useHoldUpdate } from "@/features/update/update-hold";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { type LevelRecord, readQuestionHistory, recordLevelResult } from "@/services/local-progress";
+import { clearPausedRun, readPausedRun, savePausedRun, subscribeToPausedRuns } from "@/services/paused-runs";
 import { BackLink } from "@/ui/BackLink";
 import { useModal } from "@/ui/modal/ModalProvider";
+import { useLeaveGuard } from "@/ui/nav/leave-guard";
 import { ChallengeView } from "./ChallengeView";
 import { LevelResult } from "./LevelResult";
 import { useLevelRecords } from "./useLevelRecords";
@@ -39,6 +41,11 @@ interface LevelGameProps {
   backLabel: string;
 }
 
+const PRIMARY_BUTTON =
+  "inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-gold px-5 font-semibold text-abyss transition-colors hover:bg-gold-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold";
+const SECONDARY_BUTTON =
+  "inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-gold/40 px-5 font-semibold text-gold transition-colors hover:bg-gold/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold";
+
 interface Outcome {
   run: LevelRun;
   score: number;
@@ -50,7 +57,6 @@ interface Outcome {
 export function LevelGame({ level, previous, backHref, backLabel }: LevelGameProps) {
   const { t, tContent } = useTranslation();
   const modal = useModal();
-  const router = useRouter();
   const records = useLevelRecords();
   const unlocked = isLevelUnlocked(previous, records);
   // La partie démarre au clic : le tirage et l'ordre des réponses n'existent pas au rendu serveur.
@@ -59,6 +65,20 @@ export function LevelGame({ level, previous, backHref, backLabel }: LevelGamePro
   useHoldUpdate(run !== null);
   // Promotion possible seulement entre deux parties, après les modales de récompense.
   const promotion = usePromotion(run !== null);
+  // Toute sortie (navigation, retour, bouton Quitter) passe par la même confirmation ; la partie reste gardée.
+  const guard = useLeaveGuard(run !== null, { bodyKey: "journey.leave.body", backHref });
+
+  // La partie est gardée à chaque étape : une sortie, l'arrière-plan ou un rechargement ne perdent rien.
+  const runKey = `level:${level.id}`;
+  const paused = useSyncExternalStore(
+    subscribeToPausedRuns,
+    () => readPausedRun(content.country.code, runKey),
+    () => null,
+  );
+  const resumable = !run && unlocked && paused && isRunResumable(paused.run, level) ? paused.run : null;
+  useEffect(() => {
+    if (run) savePausedRun(content.country.code, runKey, { run, timer: null });
+  }, [run, runKey]);
 
   const start = () => {
     setOutcome(null);
@@ -67,6 +87,8 @@ export function LevelGame({ level, previous, backHref, backLabel }: LevelGamePro
   };
 
   const finish = (finished: LevelRun) => {
+    // Avant l'enregistrement : une partie terminée ne peut plus être reprise, ses gains ne se comptent qu'une fois.
+    clearPausedRun(content.country.code, runKey);
     const score = scoreOf(finished);
     const stars = starsFor(score, level.stars);
     let record: LevelRecord | null = null;
@@ -105,14 +127,6 @@ export function LevelGame({ level, previous, backHref, backLabel }: LevelGamePro
     else setRun(nextChallenge(run, level, Math.random));
   };
 
-  const quit = async () => {
-    const confirmed = await modal.confirm({
-      titleKey: "journey.game.quitTitle",
-      bodyKey: "journey.game.quitBody",
-      confirmKey: "journey.game.quit",
-    });
-    if (confirmed) router.push(backHref);
-  };
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
@@ -127,7 +141,7 @@ export function LevelGame({ level, previous, backHref, backLabel }: LevelGamePro
           onAnswer={(answerId) => setRun(submitAnswer(run, level, answerId))}
           onJoker={() => setRun(applyJoker(run, level, Math.random))}
           onNext={next}
-          onQuit={() => void quit()}
+          onQuit={() => void guard.leave()}
         />
       )}
 
@@ -149,7 +163,28 @@ export function LevelGame({ level, previous, backHref, backLabel }: LevelGamePro
         </section>
       )}
 
-      {!run && !outcome && unlocked && (
+      {resumable && !outcome && (
+        <section className="fade-in flex flex-col gap-4 rounded-3xl border border-gold/25 bg-surface/50 p-5">
+          <h2 className="font-display text-xl font-semibold">{t("journey.resume.title")}</h2>
+          <p className="text-ink-soft">
+            {t("journey.resume.body", {
+              current: resumable.index + 1,
+              total: resumable.challengeIds.length,
+              score: t("journey.game.score", { count: scoreOf(resumable) }),
+            })}
+          </p>
+          <button type="button" onClick={() => setRun(resumable)} className={PRIMARY_BUTTON}>
+            <Play aria-hidden className="size-5" />
+            {t("journey.resume.continue")}
+          </button>
+          <button type="button" onClick={start} className={SECONDARY_BUTTON}>
+            <RotateCcw aria-hidden className="size-5" />
+            {t("journey.resume.restart")}
+          </button>
+        </section>
+      )}
+
+      {!run && !outcome && !resumable && unlocked && (
         <section className="fade-in flex flex-col gap-4 rounded-3xl border border-gold/25 bg-surface/50 p-5">
           <p className="text-ink-soft">{tContent(level.descriptionKey)}</p>
           <h2 className="font-display text-xl font-semibold">{t("journey.rules.title")}</h2>
@@ -175,11 +210,7 @@ export function LevelGame({ level, previous, backHref, backLabel }: LevelGamePro
               })}
             </li>
           </ul>
-          <button
-            type="button"
-            onClick={start}
-            className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-gold px-5 font-semibold text-abyss transition-colors hover:bg-gold-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-          >
+          <button type="button" onClick={start} className={PRIMARY_BUTTON}>
             <Play aria-hidden className="size-5" />
             {t("journey.start")}
           </button>

@@ -28,6 +28,12 @@ const ANSWER_STYLES: Record<AnswerState, string> = {
   revealed: "border-gold bg-gold/15",
 };
 
+/**
+ * Place gardée sous le bouton d'action quand il est amené à l'écran : la navigation du bas (4rem),
+ * la zone système d'Android, la bannière si elle est affichée, plus un peu d'air. Même calcul que le bas de page du layout.
+ */
+const ACTION_SCROLL_MARGIN = "scroll-mb-[calc(5rem+env(safe-area-inset-bottom)+var(--ad-banner-h,0px))] lg:scroll-mb-[calc(1rem+var(--ad-banner-h,0px))]";
+
 const ANSWER_ICONS: Partial<Record<AnswerState, typeof Check>> = { wrong: X, correct: Check, revealed: Check };
 
 interface ChallengeViewProps {
@@ -78,6 +84,7 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit, s
   const rootRef = useRef<HTMLDivElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
   const feedbackRef = useRef<HTMLDivElement>(null);
+  const actionRef = useRef<HTMLDivElement>(null);
   const hasFeedback = run.state !== "playing" || isHintVisible(run);
   const challenge = currentChallenge(run, level);
   const result = run.state === "playing" ? undefined : run.results.at(-1);
@@ -90,8 +97,11 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit, s
   }, []);
 
   // Sur mobile, le retour de réponse et le bouton suivant arrivent sous la carte ou la photo.
+  // Le bouton passe en dernier : si le retour est plus haut que l'écran, c'est lui qui reste visible, au-dessus de la navigation.
   useEffect(() => {
-    if (hasFeedback) feedbackRef.current?.scrollIntoView({ block: "nearest" });
+    if (!hasFeedback) return;
+    feedbackRef.current?.scrollIntoView({ block: "nearest" });
+    actionRef.current?.scrollIntoView({ block: "nearest" });
   }, [hasFeedback, run.state]);
 
   return (
@@ -136,7 +146,7 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit, s
         <AnswerButtons challenge={challenge} run={run} onAnswer={onAnswer} />
       )}
 
-      <div ref={feedbackRef} className="flex scroll-mb-24 flex-col gap-4">
+      <div ref={feedbackRef} className={`flex flex-col gap-4 ${ACTION_SCROLL_MARGIN}`}>
         <div aria-live="polite" className="flex flex-col gap-3">
           {isHintVisible(run) && (
             <div className="rounded-2xl border border-danger/50 bg-danger/10 p-4">
@@ -166,6 +176,7 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit, s
           )}
         </div>
 
+        <div ref={actionRef} className={ACTION_SCROLL_MARGIN}>
         {run.state === "playing" ? (
           !special && (
           <div className="flex flex-col gap-1">
@@ -195,6 +206,7 @@ export function ChallengeView({ level, run, onAnswer, onJoker, onNext, onQuit, s
             <ArrowRight aria-hidden className="size-5" />
           </button>
         )}
+        </div>
       </div>
     </div>
   );

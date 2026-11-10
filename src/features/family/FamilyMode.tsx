@@ -36,6 +36,7 @@ import { useTranslation } from "@/i18n/I18nProvider";
 import { readFamilyData, recordFamilyGame, saveFamilyGame } from "@/services/family-storage";
 import { BackLink } from "@/ui/BackLink";
 import { useModal } from "@/ui/modal/ModalProvider";
+import { useLeaveGuard } from "@/ui/nav/leave-guard";
 import { FamilySetup, type FamilySettings } from "./FamilySetup";
 import { card, FamilyStandings, PlayerBadge, primaryButton, secondaryButton, useFamilyData, useNameList, useScopeName } from "./family-ui";
 
@@ -67,6 +68,8 @@ export function FamilyMode() {
   const storageWarned = useRef(false);
   const bank = game ? bankOf(game.scope) : null;
   useHoldUpdate(game !== null && game.phase !== "finished");
+  // La partie est déjà gardée à chaque étape (saveFamilyGame) : la navigation demande seulement confirmation.
+  useLeaveGuard(game !== null && game.phase !== "finished", { bodyKey: "journey.leave.bodyFamily", backHref: "/" });
   // Jamais entre deux tours : la promotion n'apparaît que sur l'écran final ou l'accueil du mode.
   const promotion = usePromotion(game !== null && game.phase !== "finished");
 

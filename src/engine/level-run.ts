@@ -149,3 +149,39 @@ export function nextChallenge(run: LevelRun, level: RunBank, random: RandomSourc
   if (run.state === "playing" || isRunOver(run)) return run;
   return { ...run, ...freshChallenge(level, run.challengeIds, run.index + 1, random) };
 }
+
+const isStrings = (value: unknown): value is string[] => Array.isArray(value) && value.every((item) => typeof item === "string");
+const isCount = (value: unknown, min = 0): value is number => typeof value === "number" && Number.isInteger(value) && value >= min;
+
+function isResult(value: unknown, challengeId: string | undefined): value is ChallengeResult {
+  if (typeof value !== "object" || value === null) return false;
+  const result = value as Partial<ChallengeResult>;
+  return (
+    result.challengeId === challengeId &&
+    typeof result.correct === "boolean" &&
+    isCount(result.attempts) &&
+    typeof result.jokerUsed === "boolean" &&
+    isCount(result.points)
+  );
+}
+
+/**
+ * Vrai si une partie gardée sur l'appareil se rejoue telle quelle avec la banque actuelle :
+ * mêmes défis, un résultat par défi déjà joué, réponses du défi en cours connues. Sinon elle n'est pas proposée.
+ */
+export function isRunResumable(value: unknown, level: RunBank): value is LevelRun {
+  if (typeof value !== "object" || value === null) return false;
+  const run = value as Partial<LevelRun>;
+  if (run.levelId !== level.id || !isStrings(run.challengeIds) || run.challengeIds.length === 0) return false;
+  const challengeIds = run.challengeIds;
+  if (!challengeIds.every((id) => level.questions.some((question) => question.id === id))) return false;
+  if (!isCount(run.index) || run.index >= challengeIds.length || !isCount(run.maxAttempts, 1) || !isCount(run.jokersLeft)) return false;
+  if (run.state !== "playing" && run.state !== "correct" && run.state !== "failed") return false;
+  if (typeof run.jokerUsed !== "boolean" || !isStrings(run.answerOrder) || !isStrings(run.tried) || !isStrings(run.removed)) return false;
+  const played = run.index + (run.state === "playing" ? 0 : 1);
+  if (!Array.isArray(run.results) || run.results.length !== played) return false;
+  if (!run.results.every((result, index) => isResult(result, challengeIds[index]))) return false;
+  const answers = challengeAt(level, challengeIds, run.index).answers.map((answer) => answer.id);
+  const known = (ids: readonly string[]) => ids.every((id) => answers.includes(id));
+  return run.answerOrder.length === answers.length && known(run.answerOrder) && known(run.tried) && known(run.removed);
+}

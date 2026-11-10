@@ -10,6 +10,7 @@ import {
   isAnswerAvailable,
   isHintVisible,
   isRunOver,
+  isRunResumable,
   maxScoreOf,
   nextChallenge,
   pointsFor,
@@ -32,6 +33,7 @@ import {
   isChallengePassed,
   isSpecialChallengeAvailable,
   remainingMs,
+  resumedClock,
   SPECIAL_CHALLENGES,
   specialChallengeBank,
   drawSpecialChallenge,
@@ -88,6 +90,21 @@ run = submitAnswer(run, level, "a0");
 assert.equal(run.state, "correct");
 assert.equal(scoreOf(run), 100);
 assert.equal(submitAnswer(run, level, "a1"), run, "un défi terminé n'accepte plus de réponse");
+
+// Partie gardée sur l'appareil : reprise telle quelle (JSON), refusée si elle ne correspond plus à la banque.
+{
+  const saved = JSON.parse(JSON.stringify(run));
+  assert.equal(isRunResumable(saved, level), true, "réponse validée : reprise sur le même défi, résultat compris");
+  assert.equal(isRunResumable(JSON.parse(JSON.stringify(startRun(level, challengeIds, random))), level), true);
+  assert.equal(isRunResumable({ ...saved, levelId: "autre" }, level), false);
+  assert.equal(isRunResumable({ ...saved, results: [] }, level), false, "un défi validé ne peut pas être rejoué");
+  assert.equal(isRunResumable({ ...saved, state: "playing" }, level), false, "le résultat d'un défi en cours n'existe pas encore");
+  assert.equal(isRunResumable({ ...saved, challengeIds: ["absent", ...challengeIds.slice(1)] }, level), false);
+  assert.equal(isRunResumable({ ...saved, index: challengeIds.length }, level), false);
+  assert.equal(isRunResumable({ ...saved, tried: ["inconnue"] }, level), false);
+  assert.equal(isRunResumable({ ...saved, jokersLeft: -1 }, level), false);
+  assert.equal(isRunResumable(null, level), false);
+}
 
 // Joker sur 3 mauvaises réponses : 2 retirées, jamais la bonne, 75 points.
 run = nextChallenge(run, level, random);
@@ -458,6 +475,11 @@ for (let seed = 0; seed < 50; seed++) {
   assert.equal(elapsedMs(start, { wall: 1_090_000, monotonic: 10_500 }), 90_000, "veille : l'horloge monotone peut rester figée");
   assert.equal(elapsedMs(start, { wall: 900_000, monotonic: 45_500 }), 45_000, "horloge reculée à la main");
   assert.equal(elapsedMs(start, { wall: 999_000, monotonic: 400 }), 0);
+  // Reprise après rechargement : le temps passé hors du jeu compte, une horloge reculée ne rend rien.
+  const away = resumedClock({ startedAt: 1_000_000, elapsedMs: 20_000 }, { wall: 1_050_000, monotonic: 3 });
+  assert.equal(away.elapsed, 50_000, "50 s depuis le départ, dont 30 s hors du jeu");
+  assert.equal(elapsedMs(away.clock, { wall: 1_060_000, monotonic: 10_003 }), 60_000, "le chronomètre repart du temps écoulé");
+  assert.equal(resumedClock({ startedAt: 1_000_000, elapsedMs: 20_000 }, { wall: 900_000, monotonic: 3 }).elapsed, 20_000, "horloge reculée");
   assert.equal(remainingMs(120_000, 45_000), 75_000);
   assert.equal(remainingMs(120_000, 500_000), 0);
 

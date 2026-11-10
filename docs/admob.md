@@ -234,6 +234,17 @@ Les icônes `android/app/src/main/res/mipmap-*/` viennent de `public/logo512.png
 
 Vérifié le 10 novembre 2026 dans le tiroir d'applications du Pixel 9 (Android 16) et dans l'AAB (versionCode 2).
 
+### Bouton retour d'Android
+
+`MainActivity` enregistre un `OnBackPressedCallback`. À chaque appui, il demande d'abord à la page `window.__geoNativeBack()` :
+
+- pendant une partie (niveau, défi spécial, Mode Famille), la fonction existe, ouvre la modale « Quitter le quiz ? » et rend `true` : Android ne fait rien d'autre, l'historique de la WebView n'est pas touché ;
+- sinon, la WebView remonte son historique (`goBack`), et sans historique Android reprend son comportement normal (retour à l'écran d'accueil).
+
+La page ne peut pas se contenter d'une entrée d'historique « piège » sur Android : Chromium saute au retour une entrée suivie d'un ajout fait sans geste du joueur, donc le deuxième retour vidait l'historique et fermait l'application. Le détail est dans `src/ui/nav/leave-guard.tsx`, qui protège aussi la navigation du bas, l'en-tête et le retour du navigateur sur le site.
+
+Vérifié le 10 novembre 2026 sur un émulateur 360 × 640 dp (Android 16) : modale à chaque onglet et à chaque retour, l'application reste au premier plan, « Quitter » ramène au parcours, retour normal après la fin de la partie (AAB versionCode 3).
+
 `android/app/build.gradle` signe `bundleRelease` dès que ce fichier existe, et refuse un fichier incomplet. Sans le fichier, l'AAB sort non signé, et la Play Console le refuse. `android/.gitignore` exclut `*.jks`, `*.keystore` et `keystore.properties` par sécurité.
 
 Pour vérifier la signature et lire les empreintes :

@@ -99,8 +99,6 @@
         "other": "{count} points"
       },
       "quit": "Quitter",
-      "quitTitle": "Quitter la partie ?",
-      "quitBody": "Cette partie n'est pas terminée : elle ne sera pas enregistrée.",
       "joker": "Utiliser un joker",
       "jokersLeft": {
         "one": "{count} joker restant.",
@@ -201,6 +199,22 @@
         "kept": "Votre réussite précédente reste acquise."
       },
       "durationSeconds": "{seconds} s"
+    },
+    "leave": {
+      "title": "Quitter le quiz ?",
+      "cancel": "Continuer le quiz",
+      "confirm": "Quitter",
+      "body": "Votre partie est gardée sur cet appareil : vous la reprendrez à la même question, avec vos réponses, votre score et vos jokers.",
+      "bodyTimed": "Votre partie est gardée sur cet appareil, mais le chronomètre continue de tourner pendant votre absence.",
+      "bodyFamily": "La partie est gardée sur cet appareil : reprenez-la depuis le Mode Famille."
+    },
+    "resume": {
+      "title": "Partie en cours",
+      "body": "Défi {current} sur {total}. {score}.",
+      "bodySpecial": "Question {current} sur {total}. {tally}.",
+      "timeLeft": "Le chronomètre a continué pendant votre absence : s'il est écoulé, la partie est enregistrée avec les réponses déjà données.",
+      "continue": "Reprendre la partie",
+      "restart": "Recommencer"
     }
   },
   "sources": {

@@ -171,4 +171,14 @@ export interface ChronoClock {
 export const elapsedMs = (start: ChronoClock, now: ChronoClock): number =>
   Math.max(now.wall - start.wall, now.monotonic - start.monotonic, 0);
 
+/**
+ * Horloge de départ d'une partie reprise après une sortie ou un rechargement : `performance.now()` est alors reparti de zéro.
+ * Le temps passé hors du jeu compte (horloge murale), et ce qui était déjà écoulé à la sauvegarde ne revient jamais,
+ * même si l'horloge de l'appareil a été reculée entre-temps.
+ */
+export function resumedClock(saved: { startedAt: number; elapsedMs: number }, now: ChronoClock): { clock: ChronoClock; elapsed: number } {
+  const elapsed = Math.max(saved.elapsedMs, now.wall - saved.startedAt, 0);
+  return { clock: { wall: now.wall - elapsed, monotonic: now.monotonic - elapsed }, elapsed };
+}
+
 export const remainingMs = (limitMs: number, elapsed: number): number => Math.max(limitMs - elapsed, 0);

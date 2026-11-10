@@ -4,8 +4,26 @@
     {
       "name": "geofr-web",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "start", "--", "-p", "3111"],
+      "runtimeArgs": [
+        "run",
+        "start",
+        "--",
+        "-p",
+        "3111"
+      ],
       "port": 3111
+    },
+    {
+      "name": "geofr-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--",
+        "-p",
+        "3112"
+      ],
+      "port": 3112
     }
   ]
 }

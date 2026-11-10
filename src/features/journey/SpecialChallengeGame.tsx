@@ -1,11 +1,11 @@
 "use client";
 
-import { Lock, Play } from "lucide-react";
+import { Lock, Play, RotateCcw } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { type MouseEvent, useEffect, useState } from "react";
+import { type MouseEvent, useEffect, useState, useSyncExternalStore } from "react";
 import content from "@country";
 import { newRewards } from "@/engine/album";
-import { isRunOver, type LevelRun, nextChallenge, startRun, submitAnswer } from "@/engine/level-run";
+import { isRunOver, isRunResumable, type LevelRun, nextChallenge, startRun, submitAnswer } from "@/engine/level-run";
 import { EMPTY_HISTORY } from "@/engine/question-selection";
 import {
   areSpecialChallengesUnlocked,
@@ -19,6 +19,7 @@ import {
   isBetterPerformance,
   lastPlayedLevelId,
   remainingMs,
+  resumedClock,
   type SpecialChallengeKind,
   specialChallengeBank,
 } from "@/engine/special-challenges";
@@ -26,8 +27,10 @@ import { usePromotion } from "@/features/promotions/usePromotion";
 import { useHoldUpdate } from "@/features/update/update-hold";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { readQuestionHistory, recordChallengeResult } from "@/services/local-progress";
+import { clearPausedRun, type PausedRun, readPausedRun, savePausedRun, subscribeToPausedRuns } from "@/services/paused-runs";
 import { BackLink } from "@/ui/BackLink";
 import { useModal } from "@/ui/modal/ModalProvider";
+import { useLeaveGuard } from "@/ui/nav/leave-guard";
 import { ChallengeView } from "./ChallengeView";
 import { canReturnThroughHistory, challengeListPath, ORIGIN_PARAM } from "./challenge-origin";
 import { formatCountdown } from "./challenge-time";
@@ -89,6 +92,17 @@ function Countdown({ start, limitMs, stoppedMs, onExpire }: CountdownProps) {
   );
 }
 
+/** Ce qui est gardé à chaque étape. Le temps écoulé est noté en millisecondes d'horloge, voir `resumedClock`. */
+function pausedOf(run: LevelRun, clock: ChronoClock | null, stoppedMs: number | null, limitMs: number | null): PausedRun {
+  if (limitMs === null || !clock) return { run, timer: null };
+  return { run, timer: { startedAt: clock.wall, elapsedMs: Math.round(elapsedMs(clock, readClock())), stoppedMs } };
+}
+
+const PRIMARY_BUTTON =
+  "inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-gold px-5 font-semibold text-abyss transition-colors hover:bg-gold-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold";
+const SECONDARY_BUTTON =
+  "inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-gold/40 px-5 font-semibold text-gold transition-colors hover:bg-gold/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold";
+
 interface Outcome {
   run: LevelRun;
   timeMs: number | null;
@@ -124,20 +138,55 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
 
   const territory = content.territories.find((candidate) => candidate.id === territoryId);
   const rules = territory && availableSpecialChallenges(territory).find((candidate) => candidate.kind === kind);
+  const limitMs = rules?.timeLimitMs ?? null;
+  const fromList = origin === "defis";
+  const returnHref = fromList && rules ? challengeListPath(rules.slug) : backHref;
+  // L'écran d'où vient le joueur est juste avant dans l'historique : y revenir n'ajoute pas d'entrée, donc pas de boucle.
+  const canGoBack = () => origin !== null && canReturnThroughHistory();
+  const runKey = `challenge:${challengeKey(territoryId, kind)}`;
+
+  // Toute sortie passe par la même confirmation. Le chronomètre, lui, ne s'arrête pas : son départ est noté.
+  const guard = useLeaveGuard(run !== null, {
+    bodyKey: limitMs === null ? "journey.leave.body" : "journey.leave.bodyTimed",
+    backHref: returnHref,
+    onLeave: () => {
+      if (run) savePausedRun(content.country.code, runKey, pausedOf(run, clock, stoppedMs, limitMs));
+    },
+  });
+
+  // La partie est gardée à chaque étape, et à chaque passage en arrière-plan pour noter le temps écoulé.
+  const paused = useSyncExternalStore(
+    subscribeToPausedRuns,
+    () => readPausedRun(content.country.code, runKey),
+    () => null,
+  );
+  useEffect(() => {
+    if (!run) return;
+    const save = () => savePausedRun(content.country.code, runKey, pausedOf(run, clock, stoppedMs, limitMs));
+    const onHidden = () => {
+      if (document.visibilityState === "hidden") save();
+    };
+    save();
+    document.addEventListener("visibilitychange", onHidden);
+    window.addEventListener("pagehide", save);
+    return () => {
+      document.removeEventListener("visibilitychange", onHidden);
+      window.removeEventListener("pagehide", save);
+    };
+  }, [run, clock, stoppedMs, limitMs, runKey]);
+
   if (!territory || !rules) return null;
 
   const bank = specialChallengeBank(territory, rules);
-  const limitMs = rules.timeLimitMs;
   const levelIds = territory.levels.map((level) => level.id);
   const unlocked = areSpecialChallengesUnlocked(levelIds, records);
   const masterBadge = territory.badges.find((badge) => badge.kind === "master");
   const Icon = SPECIAL_ICONS[kind];
   const name = t(`journey.specials.${kind}.name`);
-  const fromList = origin === "defis";
-  const returnHref = fromList ? challengeListPath(rules.slug) : backHref;
   const returnLabel = fromList ? t("challenges.backToList") : backLabel;
-  // L'écran d'où vient le joueur est juste avant dans l'historique : y revenir n'ajoute pas d'entrée, donc pas de boucle.
-  const canGoBack = () => origin !== null && canReturnThroughHistory();
+  // Une partie gardée d'un autre format (chronomètre ajouté ou retiré au contenu) n'est pas reprise.
+  const resumableRun =
+    !run && !outcome && unlocked && paused && isRunResumable(paused.run, bank) && (paused.timer === null) === (limitMs === null) ? paused.run : null;
 
   const onBack = (event: MouseEvent<HTMLAnchorElement>) => {
     if (event.ctrlKey || event.metaKey || event.shiftKey || !canGoBack()) return;
@@ -156,6 +205,8 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
   };
 
   const finish = (finished: LevelRun, timeMs: number | null, expired: boolean) => {
+    // Avant l'enregistrement : une partie terminée ne peut plus être reprise, ses gains ne se comptent qu'une fois.
+    clearPausedRun(content.country.code, runKey);
     const key = challengeKey(territory.id, kind);
     const previous = challenges[key];
     const performance = { correct: correctCount(finished.results), timeMs };
@@ -186,6 +237,26 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
     promotion.gameCompleted();
   };
 
+  /** Le temps passé hors du jeu compte : si le chronomètre est écoulé, la partie se termine comme en direct. */
+  const resume = (saved: LevelRun) => {
+    setOutcome(null);
+    const timer = paused?.timer ?? null;
+    if (limitMs === null || !timer) {
+      setStoppedMs(null);
+      setClock(readClock());
+      setRun(saved);
+      return;
+    }
+    const { clock: resumed, elapsed } = resumedClock(timer, readClock());
+    if (timer.stoppedMs === null && elapsed >= limitMs) {
+      finish(saved, limitMs, true);
+      return;
+    }
+    setStoppedMs(timer.stoppedMs);
+    setClock(resumed);
+    setRun(saved);
+  };
+
   /** Temps écoulé, ou `null` si le temps est déjà dépassé et la partie vient de se terminer. */
   const liveElapsed = (current: LevelRun): number | null => {
     if (limitMs === null || !clock) return 0;
@@ -211,16 +282,7 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
     else if (liveElapsed(run) !== null) setRun(nextChallenge(run, bank, Math.random));
   };
 
-  const quit = async () => {
-    const confirmed = await modal.confirm({
-      titleKey: "journey.game.quitTitle",
-      bodyKey: "journey.game.quitBody",
-      confirmKey: "journey.game.quit",
-    });
-    if (!confirmed) return;
-    if (canGoBack()) router.back();
-    else router.push(returnHref);
-  };
+  const quit = () => (canGoBack() ? guard.back() : guard.leave());
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
@@ -279,7 +341,29 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
         </section>
       )}
 
-      {!run && !outcome && unlocked && (
+      {resumableRun && (
+        <section className="fade-in flex flex-col gap-4 rounded-3xl border border-gold/25 bg-surface/50 p-5">
+          <h2 className="font-display text-xl font-semibold">{t("journey.resume.title")}</h2>
+          <p className="text-ink-soft">
+            {t("journey.resume.bodySpecial", {
+              current: resumableRun.index + 1,
+              total: resumableRun.challengeIds.length,
+              tally: t("journey.specials.game.tally", { count: correctCount(resumableRun.results) }),
+            })}
+          </p>
+          {limitMs !== null && <p className="text-ink-soft">{t("journey.resume.timeLeft")}</p>}
+          <button type="button" onClick={() => resume(resumableRun)} className={PRIMARY_BUTTON}>
+            <Play aria-hidden className="size-5" />
+            {t("journey.resume.continue")}
+          </button>
+          <button type="button" onClick={start} className={SECONDARY_BUTTON}>
+            <RotateCcw aria-hidden className="size-5" />
+            {t("journey.resume.restart")}
+          </button>
+        </section>
+      )}
+
+      {!run && !outcome && !resumableRun && unlocked && (
         <section className="fade-in flex flex-col gap-4 rounded-3xl border border-gold/25 bg-surface/50 p-5">
           <p className="text-ink-soft">{t(`journey.specials.${kind}.description`)}</p>
           <h2 className="font-display text-xl font-semibold">{t("journey.specials.rules.title")}</h2>
@@ -293,11 +377,7 @@ export function SpecialChallengeGame({ territoryId, kind, backHref, backLabel }:
             {limitMs !== null && <li>{t("journey.specials.rules.ranking")}</li>}
             <li>{t("journey.specials.rules.separate")}</li>
           </ul>
-          <button
-            type="button"
-            onClick={start}
-            className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-gold px-5 font-semibold text-abyss transition-colors hover:bg-gold-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-          >
+          <button type="button" onClick={start} className={PRIMARY_BUTTON}>
             <Play aria-hidden className="size-5" />
             {t("journey.start")}
           </button>

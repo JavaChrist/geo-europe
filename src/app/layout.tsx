@@ -10,6 +10,7 @@ import { getTranslator } from "@/i18n/translator";
 import { AppHeader } from "@/ui/AppHeader";
 import { ModalProvider } from "@/ui/modal/ModalProvider";
 import { BottomNav } from "@/ui/nav/BottomNav";
+import { LeaveGuardHost } from "@/ui/nav/leave-guard";
 import "./globals.css";
 
 const body = Figtree({ subsets: ["latin"], variable: "--font-body" });
@@ -47,6 +48,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 </div>
                 <BottomNav />
                 <UpdatePrompt />
+                <LeaveGuardHost />
               </AdsProvider>
             </EntitlementsProvider>
           </ModalProvider>
