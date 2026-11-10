@@ -1,6 +1,6 @@
 "use client";
 
-import { ShoppingBag } from "lucide-react";
+import { Store } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -72,16 +72,15 @@ export function AppHeader() {
         {showShop && (
           <Link
             href="/boutique"
-            aria-label={t("nav.shop")}
             aria-current={shopActive ? "page" : undefined}
-            className={`flex min-h-11 min-w-11 items-center justify-center gap-2 rounded-xl px-3 transition-colors focus-visible:outline-2 focus-visible:outline-gold ${
+            className={`flex min-h-11 min-w-11 flex-col items-center justify-center gap-0.5 rounded-xl px-2 py-1 text-xs font-medium transition-colors focus-visible:outline-2 focus-visible:outline-gold lg:flex-row lg:gap-2 lg:px-3 lg:py-0 lg:text-base lg:font-normal ${
               shopActive
                 ? "bg-gold/15 font-semibold text-gold"
                 : "text-ink-soft hover:bg-surface hover:text-ink"
             }`}
           >
-            <ShoppingBag aria-hidden className="size-6 lg:size-5" />
-            <span className="hidden lg:inline">{t("nav.shop")}</span>
+            <Store aria-hidden className="size-6 lg:size-5" />
+            <span>{t("nav.shop")}</span>
           </Link>
         )}
       </div>
