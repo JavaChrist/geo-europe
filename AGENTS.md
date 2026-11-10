@@ -31,12 +31,12 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - No emoji anywhere in the app. Lucide React for icons, SVG for regions, photos for media.
 - No `alert`, `confirm` or `prompt`. Use `useModal()`.
 - No hardcoded text in components. Use `t()` for interface keys and `tContent()` for content keys.
-- Prices live only in `content/<country>/editions.ts`, as one-time purchases or free, never a subscription. The Legal Kit catalog is produced by `scripts/export-catalog.mjs`, never typed by hand. Every edition stays `planned` until Christian validates a sale.
+- Prices live only in `content/<country>/editions.ts`, as one-time purchases or free, never a subscription. The Legal Kit catalog is produced by `scripts/export-catalog.mjs`, never typed by hand. Paid editions are all `planned` or all `active`; going `active` needs Christian's validation (done for the GéoFR web sale).
 - Legal texts come only from JavaChrist-Legal-Kit. No legal text in the locales, no second legal system, never fill the kit's `review` fields.
 - Show `modal.error(error)` for failures, never a technical message.
 - Server-only routes are named `route.server.ts`, so the static export leaves them out.
 - Never unlock a paid edition from a browser result. Never expose a Firebase Admin key in the browser.
-- Mollie stays in test mode: the server refuses any key that does not start with `test_`. Never Mollie in the Android build.
+- Mollie mode follows the key: `test_` always accepted, `live_` only when every paid edition is `active`. Google Play stays in test mode (`PLAY_MODE`) until Christian validates it. Never Mollie in the Android build.
 - Never put country-specific code in `src/`. Add content or config under `content/<country>/`.
 
 ## Not to do without Christian's validation

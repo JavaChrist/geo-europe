@@ -31,12 +31,15 @@ import { useModal } from "@/ui/modal/ModalProvider";
 import { card, primaryButton, secondaryButton, textLink } from "@/ui/styles";
 
 const offers = paidEditions(content.editions);
-/** Tant qu'aucune édition n'est validée pour la vente, seul le mode test de Mollie est branché. */
-const testOnly = content.editions.editions.every(
-  (edition) => edition.status === "planned",
-);
 /** `web` : Mollie sur le site. `play` : Google Play Billing dans l'application Android, jamais Mollie. */
 const channel = paymentChannel();
+/**
+ * Avis « mode test ». Web : tant que les éditions payantes ne sont pas `active`.
+ * Google Play : toujours, tant que `PLAY_MODE` du serveur reste en test.
+ */
+const testOnly =
+  channel === "play" ||
+  !offers.every((edition) => edition.status === "active");
 const productOf = (id: EditionId) => productIdOf(content.country.legal.kitAppId, id);
 const nameKey = (id: EditionId) => `editions.${id}.name` as TranslationKey;
 

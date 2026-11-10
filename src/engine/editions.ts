@@ -30,9 +30,11 @@ export function editionsErrors(config: EditionsConfig): string[] {
     if (edition.purchase === "one_time" && edition.ads === null) errors.push(`${edition.id} : publicité à décider avant toute vente`);
     if (edition.purchase === "free" && (edition.regions === "all" || edition.regions.length === 0)) errors.push(`${edition.id} : régions gratuites à lister`);
     if (edition.purchase === "one_time" && edition.regions !== "all") errors.push(`${edition.id} : une édition payante donne toutes les régions`);
-    if (edition.status !== "planned") errors.push(`${edition.id} : aucune édition ne peut être en vente sans validation de Christian`);
+    if (edition.status !== "planned" && edition.status !== "active") errors.push(`${edition.id} : statut planned ou active uniquement`);
   }
   if (config.editions.filter((edition) => edition.purchase === "free").length !== 1) errors.push("une seule édition gratuite attendue");
+  // La vente s'ouvre d'un bloc : toutes les éditions payantes ensemble, jamais une seule.
+  if (new Set(paidEditions(config).map((edition) => edition.status)).size > 1) errors.push("éditions payantes : toutes planned ou toutes active");
   return errors;
 }
 

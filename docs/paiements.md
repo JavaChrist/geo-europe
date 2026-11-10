@@ -2,7 +2,7 @@
 
 Achat web des éditions par Mollie, droits d'accès vérifiés par le serveur. Commun à tous les pays de la collection.
 
-**État : mode test uniquement.** Aucun encaissement public. Le serveur refuse toute clé Mollie qui ne commence pas par `test_`, et toutes les éditions restent `planned`. Passer en vente réelle demande la validation de Christian (voir [Avant la vente réelle](#avant-la-vente-réelle)).
+**État : vente réelle ouverte sur le web, validée par Christian le 10 novembre 2026.** Les éditions sont `active` et le mode Mollie suit la clé : `test_…` pour le mode test, `live_…` pour la vente réelle. Le serveur n'accepte une clé `live_` que si toutes les éditions payantes sont `active`. Google Play reste en mode test (`PLAY_MODE` dans `orders.ts`) et l'application affiche l'avis « mode test » tant que sa configuration n'est pas terminée. Les points encore ouverts sont dans [Avant la vente réelle](#avant-la-vente-réelle).
 
 ## Droits
 
@@ -133,7 +133,7 @@ Elles se règlent dans Vercel, et en local dans `.env.local`, qui n'est jamais v
 | `NEXT_PUBLIC_FIREBASE_API_KEY`, `NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN`, `NEXT_PUBLIC_FIREBASE_PROJECT_ID`, `NEXT_PUBLIC_FIREBASE_APP_ID` | Navigateur | Configuration publique Firebase |
 | `NEXT_PUBLIC_FIREBASE_EMULATORS` | Navigateur, local | `1` pour viser les émulateurs |
 | `FIREBASE_ADMIN_PROJECT_ID`, `FIREBASE_ADMIN_CLIENT_EMAIL`, `FIREBASE_ADMIN_PRIVATE_KEY` | Serveur | Compte de service Firebase Admin. Secret |
-| `MOLLIE_API_KEY` | Serveur | Clé Mollie. `test_…` obligatoire. Secret |
+| `MOLLIE_API_KEY` | Serveur | Clé Mollie. `test_…` pour le mode test, `live_…` seulement si toutes les éditions payantes sont `active`. Secret |
 | `APP_BASE_URL` | Serveur | Adresse du site, pour l'URL de retour |
 | `PAYMENTS_WEBHOOK_BASE_URL` | Serveur | Adresse publique joignable par Mollie, pour l'URL de notification |
 | `CRON_SECRET` | Serveur | Au moins 16 caractères, protège le rattrapage. Secret |
@@ -224,7 +224,7 @@ Les identifiants viennent de `productIdOf(appId, editionId)`. Les prix sont ceux
 | Second achat payant | Refusé (`secondPurchase`), jamais accusé, donc remboursé par Google |
 | Accusé de réception en échec | Les droits sont écrits. Le rattrapage relance l'accusé tant que `acknowledged` est faux |
 | Remboursement, annulation, rétrofacturation | Notification `voidedPurchaseNotification`, ou `voidedpurchases.list` au rattrapage. La commande passe à `refunded`, ou à `charged_back` pour la raison 7. Seuls les droits de cette commande sont retirés |
-| Achat réel pendant les tests | Refusé (mode `live` au lieu de `test`) tant que les éditions sont `planned` |
+| Achat réel pendant les tests | Refusé (mode `live` au lieu de `test`) tant que `PLAY_MODE` reste `test` |
 
 Les remboursements Play se font dans la Play Console. Ils ne passent jamais par l'application ni par la rétractation en ligne (voir [retractation.md](retractation.md)).
 
@@ -327,4 +327,5 @@ Rien de ceci n'est fait. Chaque point demande la validation de Christian.
 - [ ] Tarifs de mise à niveau Solo vers Famille, s'ils sont voulus. Aujourd'hui tout second achat est refusé.
 - [ ] Projet Firebase : Auth Google et e-mail activés, domaine autorisé, application Android et SHA-1, règles publiées.
 - [ ] Google Play : produits, compte de service, RTDN, testeurs de licence et piste interne (voir [Google Play](#configuration-google-play-à-faire-validation-de-christian)). Puis tester en mode test l'achat, le paiement différé, la restauration et le remboursement.
-- [ ] Passage des éditions à `active`, puis clé `live_`. Le contrôle `test_` de `mollie.ts` se lève alors avec cette validation.
+- [x] Web : éditions `active` et clé `live_` acceptée par `mollie.ts` (validation de Christian, 10 novembre 2026).
+- [ ] Google Play : passer `PLAY_MODE` à `live` dans `orders.ts` et retirer l'avis « mode test » du canal `play` dans `Shop.tsx`, après la configuration et les tests Play.

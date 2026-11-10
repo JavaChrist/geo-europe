@@ -35,7 +35,7 @@ Le code lit une édition par `findEdition(content.editions, "solo_no_ads")` et f
 - Un tarif ne s'écrit que dans `content/<pays>/editions.ts`, en centimes TTC.
 - Achat unique (`one_time`) ou gratuit (`free`), jamais d'abonnement.
 - Une seule édition gratuite, à 0 €. Un achat unique a toujours un prix.
-- Toutes les éditions restent `planned`. Passer une édition à `active` demande la validation de Christian, avec les paiements, l'accès vérifié par le serveur et les documents juridiques relus.
+- Les éditions payantes sont toutes `planned` ou toutes `active`, jamais un mélange. Passer à `active` demande la validation de Christian ; pour GéoFR, la vente web est validée depuis le 10 novembre 2026. Ensuite, relancer `node scripts/export-catalog.mjs <pays>` et régénérer les documents dans le kit.
 - Une édition payante doit avoir un régime publicitaire décidé (`ads` à `true` ou `false`).
 - Les noms et descriptions sont dans les textes de l'interface, jamais en dur.
 

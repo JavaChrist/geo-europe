@@ -1,18 +1,30 @@
 import createMollieClient, { Locale, MollieApiError, type MollieClient, type Payment } from "@mollie/api-client";
-import { centsToDecimal, decimalToCents, type PaymentProvider, type ProviderPayment } from "@/engine/payments";
+import content from "@country";
+import { paidEditions } from "@/engine/editions";
+import { centsToDecimal, decimalToCents, type PaymentMode, type PaymentProvider, type ProviderPayment } from "@/engine/payments";
 import { ServerConfigError } from "@/services/firebase/admin";
 
 /**
  * Fournisseur de paiement web : Mollie, API Payments, côté serveur uniquement.
- * Tant que les éditions sont `planned`, seule une clé de test (`test_…`) est acceptée : aucun encaissement réel possible.
+ * Le mode suit la clé : `test_…` pour le mode test, `live_…` pour la vente réelle.
+ * Une clé `live_` n'est acceptée que si toutes les éditions payantes sont `active`, c'est-à-dire validées par Christian.
  */
 let client: MollieClient | null = null;
 
-function mollie(): MollieClient {
-  if (client) return client;
+/** Vente réelle ouverte sur le web : toutes les éditions payantes sont `active`. */
+const liveSaleOpen = paidEditions(content.editions).every((edition) => edition.status === "active");
+
+function mollieKey(): { apiKey: string; mode: PaymentMode } {
   const apiKey = process.env.MOLLIE_API_KEY;
   if (!apiKey) throw new ServerConfigError("MOLLIE_API_KEY");
-  if (!apiKey.startsWith("test_")) throw new ServerConfigError("MOLLIE_API_KEY doit être une clé de test tant que la vente n'est pas validée");
+  if (apiKey.startsWith("test_")) return { apiKey, mode: "test" };
+  if (apiKey.startsWith("live_") && liveSaleOpen) return { apiKey, mode: "live" };
+  throw new ServerConfigError("MOLLIE_API_KEY doit être une clé test_, ou live_ une fois la vente validée");
+}
+
+function mollie(): MollieClient {
+  if (client) return client;
+  const { apiKey } = mollieKey();
   // Faux Mollie local des tests d'intégration : accepté uniquement avec les émulateurs Firebase, jamais en production.
   const testEndpoint = process.env.FIRESTORE_EMULATOR_HOST ? process.env.MOLLIE_API_ENDPOINT : undefined;
   return (client = createMollieClient(testEndpoint ? { apiKey, apiEndpoint: testEndpoint } : { apiKey }));
@@ -61,7 +73,10 @@ function toProviderPayment(payment: Payment): ProviderPayment {
 
 export const mollieProvider: PaymentProvider = {
   id: "mollie",
-  mode: "test",
+  /** Lu à chaque commande : une commande enregistrée porte le mode de la clé qui l'encaisse. */
+  get mode() {
+    return mollieKey().mode;
+  },
   async createPayment({ orderId, editionId, amountCents, currency, description, uid }) {
     const base = appBaseUrl();
     const returnUrl = `${base}/boutique/retour?commande=${encodeURIComponent(orderId)}`;
