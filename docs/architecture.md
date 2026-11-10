@@ -47,7 +47,7 @@ Tout est stocké sur l'appareil, dans `localStorage`, par pays :
 
 | Clé | Contenu | Fichier |
 | --- | --- | --- |
-| `geo-europe.<pays>.progress` | Progression Solo, XP, cartes souvenirs, défis | `src/services/local-progress.ts` |
+| `geo-europe.<pays>.progress` | Progression Solo, XP, cartes souvenirs, défis, jours du Défi du jour | `src/services/local-progress.ts` |
 | `geo-europe.<pays>.family` | Joueurs, historique et partie en cours du Mode Famille | `src/services/family-storage.ts` |
 | `geo-europe.<pays>.promotions` | Compteur de parties, dernière vidéo vue, réponse à la question d'âge, copie du catalogue | `src/services/promotions.ts` |
 

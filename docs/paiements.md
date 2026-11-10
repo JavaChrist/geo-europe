@@ -14,6 +14,8 @@ Achat web des éditions par Mollie, droits d'accès vérifiés par le serveur. C
 | `family_ads` | Toutes | Oui | Oui | Non |
 | `family_no_ads` | Toutes | Oui | Oui | Oui |
 
+Défis nationaux (voir [defis-nationaux.md](defis-nationaux.md)) : le Défi du jour se tire dans les régions accessibles, le Défi de France est verrouillé en Découverte, et les Défis thématiques se jouent en Découverte avec les seules questions des régions gratuites, sans badge.
+
 La carte de France reste consultable par tous. La progression reste sur l'appareil, avec ou sans compte : se connecter ne l'efface pas.
 
 Les droits sont calculés par `computeEntitlements()` (`src/engine/entitlements.ts`) à partir des seules commandes payées :
@@ -97,7 +99,7 @@ npx firebase-tools deploy --only firestore:rules --project geofr-d5224
 - Sans Firebase configuré, ou dans l'export Android, la Découverte gratuite s'ouvre.
 - Hors ligne ou en cas d'erreur, seuls les droits déjà reçus de Firestore pendant la session servent. Aucun droit n'est lu dans le stockage local. Sans eux, seule la Découverte s'ouvre, et le Profil le signale.
 
-Les verrous sont `RegionGate` (layout `src/app/explorer/[slug]/layout.tsx`, qui couvre parcours, niveaux et défis) et la carte de verrou du Mode Famille. Rien n'est jamais ouvert sur la seule foi du navigateur pour une édition payante.
+Les verrous sont `RegionGate` (layout `src/app/explorer/[slug]/layout.tsx`, qui couvre parcours, niveaux et défis), la carte de verrou du Mode Famille et celles des défis nationaux (`src/features/national/`). Rien n'est jamais ouvert sur la seule foi du navigateur pour une édition payante.
 
 ## Fichiers
 

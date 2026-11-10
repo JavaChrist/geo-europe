@@ -24,6 +24,30 @@
         "3112"
       ],
       "port": 3112
+    },
+    {
+      "name": "geofr-dev-emulators",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--",
+        "-p",
+        "3112"
+      ],
+      "port": 3112,
+      "env": {
+        "NEXT_PUBLIC_FIREBASE_EMULATORS": "1",
+        "NEXT_PUBLIC_FIREBASE_API_KEY": "demo",
+        "NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN": "demo-geofr.firebaseapp.com",
+        "NEXT_PUBLIC_FIREBASE_PROJECT_ID": "demo-geofr",
+        "NEXT_PUBLIC_FIREBASE_APP_ID": "demo",
+        "NEXT_PUBLIC_PAYMENTS": "web",
+        "FIREBASE_ADMIN_PROJECT_ID": "demo-geofr",
+        "FIRESTORE_EMULATOR_HOST": "127.0.0.1:8080",
+        "FIREBASE_AUTH_EMULATOR_HOST": "127.0.0.1:9099",
+        "GCLOUD_PROJECT": "demo-geofr"
+      }
     }
   ]
 }

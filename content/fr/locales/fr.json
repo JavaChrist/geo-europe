@@ -1,7 +1,7 @@
 {
   "country": {
     "homeTitle": "Partez à la découverte de la France",
-    "challengeTitle": "Défi France",
+    "challengeTitle": "Défi de France",
     "homePitch": "Parcourez ses {count} régions sur la carte, relevez des défis et composez votre album de voyage.",
     "progressTitle": "Votre progression en France",
     "subdivisionsTitle": "Départements",
@@ -61410,6 +61410,36 @@
       "histoire": "Histoire et personnalités",
       "gastronomie": "Gastronomie",
       "traditions": "Traditions et savoir-faire"
+    }
+  },
+  "nationalChallenges": {
+    "badges": {
+      "france": {
+        "name": "Maître de France",
+        "description": "Réussir le Défi de France : 8 bonnes réponses sur 10."
+      },
+      "themes": {
+        "geographie": {
+          "name": "Maître de la géographie",
+          "description": "Réussir le défi thématique Géographie : 8 bonnes réponses sur 10."
+        },
+        "villes-patrimoine": {
+          "name": "Maître des villes et du patrimoine",
+          "description": "Réussir le défi thématique Villes et patrimoine : 8 bonnes réponses sur 10."
+        },
+        "histoire": {
+          "name": "Maître de l'histoire",
+          "description": "Réussir le défi thématique Histoire : 8 bonnes réponses sur 10."
+        },
+        "gastronomie": {
+          "name": "Maître de la gastronomie",
+          "description": "Réussir le défi thématique Gastronomie : 8 bonnes réponses sur 10."
+        },
+        "traditions": {
+          "name": "Maître des traditions",
+          "description": "Réussir le défi thématique Traditions : 8 bonnes réponses sur 10."
+        }
+      }
     }
   }
 }

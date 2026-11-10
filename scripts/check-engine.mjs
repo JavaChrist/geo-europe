@@ -20,6 +20,31 @@ import {
   submitAnswer,
 } from "../src/engine/level-run.ts";
 import { isLevelUnlocked, UNLOCK_RULES } from "../src/engine/level-unlock.ts";
+import {
+  accessibleTerritories,
+  DAILY_RULES,
+  dailyBank,
+  dailyBankId,
+  dailyStreak,
+  dailyXp,
+  dailyXpTotal,
+  dayOfBankId,
+  drawDaily,
+  drawNational,
+  FRANCE_KEY,
+  FRANCE_RULES,
+  franceBank,
+  isBankPlayable,
+  isDay,
+  isNationalBadgeEarned,
+  nationalBadges,
+  newNationalBadges,
+  previousDay,
+  THEME_RULES,
+  themeBank,
+  themeKey,
+  withDailyResult,
+} from "../src/engine/national-challenges.ts";
 import { applyReset, previewReset, resetTargets } from "../src/engine/progress-reset.ts";
 import { earnedXp, summarizeCountry, summarizeProgress, xpAfterRun, xpForScore } from "../src/engine/progress-summary.ts";
 import { EMPTY_HISTORY, lastRunQuestions, questionsPerRunOf, SELECTION_RULES, selectQuestions, withRunResults } from "../src/engine/question-selection.ts";
@@ -680,7 +705,7 @@ assert.deepEqual(availableSpecialChallenges(francheComte).map((rules) => rules.k
   const levelPreview = previewReset(levelScope, world, records, results);
   assert.deepEqual(
     { ...levelPreview },
-    { hasData: true, levels: 1, stars: 3, score: 300, plays: 2, xp: 40, challenges: 0, cards: 1, badges: 1, relockedLevels: 1, relockedChallenges: 1 },
+    { hasData: true, levels: 1, stars: 3, score: 300, plays: 2, xp: 40, days: 0, challenges: 0, cards: 1, badges: 1, relockedLevels: 1, relockedChallenges: 1 },
     "carte et badge de collection perdus, niveau suivant et défis reverrouillés, badge Maître conservé",
   );
 
@@ -707,6 +732,120 @@ assert.deepEqual(availableSpecialChallenges(francheComte).map((rules) => rules.k
   assert.equal(previewReset(levelScope, world, { n1: run }, {}).hasData, false);
   assert.equal(previewReset({ kind: "territory", territoryId: "absent" }, world, records, results).hasData, false);
   assert.deepEqual(applyReset(space, resetTargets({ kind: "territory", territoryId: "absent" }, world)), space);
+}
+
+// Défis nationaux.
+{
+  const categories = ["geo", "histoire", "cuisine"];
+  const territoryOf = (id, regionId, status = "published") => ({
+    id,
+    regionId,
+    status,
+    levels: [
+      levelWith(
+        Array.from({ length: 6 }, (_, i) => question(`${id}-q${i}`, { category: categories[i % 3], difficulty: (i % 3) + 1 })),
+        3,
+      ),
+    ],
+  });
+  const world = Array.from({ length: 12 }, (_, i) => territoryOf(`t${i}`, `R${i}`));
+  world.push(territoryOf("brouillon", "R99", "draft"));
+  const freeRegions = new Set(["R0", "R1"]);
+  const free = accessibleTerritories(world, (regionId) => freeRegions.has(regionId));
+  assert.deepEqual(free.map((territory) => territory.id), ["t0", "t1"], "Découverte : les deux régions gratuites, jamais un brouillon");
+
+  // Défi du jour : même jour, mêmes droits, même tirage ; un autre jour change le tirage.
+  const day = "2026-11-10";
+  const dayBank = dailyBank(world, day);
+  assert.equal(dayBank.questions.some((candidate) => candidate.id.startsWith("brouillon/")), false);
+  const drawn = drawDaily(dayBank, day);
+  assert.equal(drawn.length, 5);
+  assert.deepEqual(drawDaily(dailyBank(world, day), day), drawn, "tirage fixe pour la journée");
+  assert.notDeepEqual(drawDaily(dayBank, "2026-11-11"), drawn);
+  assert.equal(new Set(drawn).size, 5);
+  assert.equal(
+    drawn.every((id) => dayBank.questions.find((candidate) => candidate.id === id).difficulty <= 3),
+    true,
+  );
+  const freeDraw = drawDaily(dailyBank(free, day), day);
+  assert.equal(freeDraw.every((id) => id.startsWith("t0/") || id.startsWith("t1/")), true, "Découverte : régions gratuites seulement");
+  assert.equal(dayOfBankId(dailyBankId(day)), day);
+  assert.equal(dayOfBankId("national:france"), null);
+  assert.equal(dayOfBankId(dailyBankId("2026-13-01")), null);
+  assert.equal(DAILY_RULES.jokers, 0);
+  assert.equal(DAILY_RULES.timeLimitMs, null);
+  assert.equal(DAILY_RULES.passCorrect, null, "pas d'échec au Défi du jour");
+
+  // Une partie du jour commencée avant minuit reste jouable avec la banque de son jour.
+  const lateRun = startRun(dailyBank(world, day), drawn, random, DAILY_RULES);
+  assert.equal(isRunResumable(JSON.parse(JSON.stringify(lateRun)), dailyBank(world, day)), true);
+  assert.equal(isRunResumable(lateRun, dailyBank(world, "2026-11-11")), false, "rattachée à son jour de départ");
+
+  // XP : une fois par jour, jamais deux.
+  assert.equal(dailyXp(3), 8);
+  assert.equal(dailyXp(0), 5, "le bonus vient de la fin des 5 questions");
+  const first = withDailyResult({}, day, 4, "t");
+  assert.equal(first.added, true);
+  assert.equal(first.record.xp, 9);
+  const again = withDailyResult(first.records, day, 5, "t2");
+  assert.equal(again.added, false, "une reprise ou un second onglet ne rapporte rien");
+  assert.equal(again.records, first.records);
+  assert.equal(again.record.xp, 9);
+  assert.equal(dailyXpTotal(again.records), 9);
+
+  // Série : jours consécutifs, à cheval sur les mois et les années.
+  const recordsOf = (days) => Object.fromEntries(days.map((value) => [value, { correct: 5, xp: 10, finishedAt: "t" }]));
+  assert.deepEqual(dailyStreak({}, day), { current: 0, best: 0 });
+  assert.deepEqual(dailyStreak(recordsOf(["2026-10-30", "2026-10-31", "2026-11-01"]), "2026-11-01"), { current: 3, best: 3 });
+  assert.deepEqual(dailyStreak(recordsOf(["2026-10-31", "2026-11-01"]), "2026-11-02"), { current: 2, best: 2 }, "aujourd'hui pas encore joué : la série tient");
+  assert.deepEqual(dailyStreak(recordsOf(["2026-10-31", "2026-11-01"]), "2026-11-03"), { current: 0, best: 2 });
+  assert.deepEqual(dailyStreak(recordsOf(["2025-12-31", "2026-01-01", "2026-03-01"]), "2026-03-01"), { current: 1, best: 2 });
+  assert.deepEqual(dailyStreak(recordsOf(["2028-02-28", "2028-02-29", "2028-03-01"]), "2028-03-01").current, 3, "année bissextile");
+  assert.equal(previousDay("2026-03-01"), "2026-02-28");
+  assert.equal(isDay("2026-02-30"), false);
+
+  // Défi de France : 10 régions différentes, difficulté 2 à 3, sans joker, réussite à 8.
+  const france = franceBank(world);
+  assert.equal(isBankPlayable(france, FRANCE_RULES), true);
+  const franceDraw = drawNational(france, FRANCE_RULES, EMPTY_HISTORY, seeded(7));
+  assert.equal(franceDraw.length, 10);
+  assert.equal(new Set(franceDraw.map((id) => id.split("/")[0])).size, 10, "une question par région");
+  assert.equal(franceDraw.every((id) => france.questions.find((candidate) => candidate.id === id).difficulty >= 2), true);
+  assert.deepEqual([FRANCE_RULES.jokers, FRANCE_RULES.timeLimitMs, FRANCE_RULES.passCorrect], [0, null, 8]);
+  assert.equal(isBankPlayable(franceBank(world.slice(0, 9)), FRANCE_RULES), false, "moins de 10 régions : pas de Défi de France");
+
+  // Défis thématiques : catégories du thème ; en Découverte, les régions gratuites et un résultat à part.
+  const theme = { id: "histoire", nameKey: "n", categories: ["histoire"] };
+  const full = themeBank(world, theme, "full");
+  assert.equal(full.questions.every((candidate) => candidate.category === "histoire"), true);
+  assert.equal(isBankPlayable(full, THEME_RULES), true);
+  const discovery = themeBank(free, theme, "discovery");
+  assert.equal(discovery.questions.every((candidate) => /^t[01]\//.test(candidate.id)), true);
+  assert.notEqual(themeKey(theme.id, "full"), themeKey(theme.id, "discovery"));
+  assert.equal(discovery.id, themeKey(theme.id, "discovery"));
+
+  // Badges : le défi complet seulement, réussi une fois, jamais retiré par une partie moins bonne.
+  const badges = nationalBadges([theme]);
+  const played = (previous, key, performance) => ({ ...previous, [key]: withChallengeResult(previous[key], FRANCE_RULES, performance, "t") });
+  assert.deepEqual(badges.map((badge) => badge.kind), ["country", "theme"]);
+  const passed = { correct: 8, timeMs: null };
+  const challengesWon = played({}, FRANCE_KEY, passed);
+  assert.equal(isNationalBadgeEarned(badges[0], challengesWon), true);
+  assert.deepEqual(newNationalBadges(badges, {}, challengesWon).map((badge) => badge.id), [FRANCE_KEY]);
+  const worse = played(challengesWon, FRANCE_KEY, { correct: 3, timeMs: null });
+  assert.equal(isNationalBadgeEarned(badges[0], worse), true);
+  assert.deepEqual(newNationalBadges(badges, challengesWon, worse), [], "un badge ne se gagne qu'une fois");
+  const discoveryWin = played({}, themeKey(theme.id, "discovery"), { correct: 10, timeMs: null });
+  assert.equal(isNationalBadgeEarned(badges[1], discoveryWin), false, "la version Découverte ne donne pas le badge");
+  assert.equal(isNationalBadgeEarned(badges[0], played({}, FRANCE_KEY, { correct: 7, timeMs: null })), false);
+
+  // Réinitialisation : les jours et les badges nationaux ne partent qu'avec tout le pays.
+  const daily = recordsOf(["2026-11-09", "2026-11-10"]);
+  const countryPreview = previewReset({ kind: "country" }, [], {}, challengesWon, { daily, badges });
+  assert.equal(countryPreview.days, 2);
+  assert.equal(countryPreview.xp, 20);
+  assert.equal(countryPreview.badges, 1);
+  assert.equal(countryPreview.hasData, true);
 }
 
 console.log("Moteur de jeu valide.");

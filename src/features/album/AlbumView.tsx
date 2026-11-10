@@ -3,8 +3,10 @@
 import { BookOpen } from "lucide-react";
 import { useState } from "react";
 import { cardsByTheme, isBadgeEarned, isCardEarned, summarizeCollections } from "@/engine/album";
+import { isNationalBadgeEarned, type NationalBadge } from "@/engine/national-challenges";
 import type { RewardBadge, SouvenirCard } from "@/engine/types";
 import { useChallengeRecords, useLevelRecords } from "@/features/journey/useLevelRecords";
+import { NATIONAL_BADGES } from "@/features/national/national-content";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { AlbumCard } from "./AlbumCard";
 import { BadgeEmblem } from "./BadgeEmblem";
@@ -60,9 +62,15 @@ function CardGrid({ cards }: { cards: readonly SouvenirCard[] }) {
 }
 
 function BadgeRow({ badge, cards }: { badge: RewardBadge; cards: readonly SouvenirCard[] }) {
-  const { t, tContent } = useTranslation();
-  const earned = isBadgeEarned(badge, cards, useLevelRecords(), useChallengeRecords());
+  return <BadgeLine badge={badge} earned={isBadgeEarned(badge, cards, useLevelRecords(), useChallengeRecords())} />;
+}
 
+function NationalBadgeRow({ badge }: { badge: NationalBadge }) {
+  return <BadgeLine badge={badge} earned={isNationalBadgeEarned(badge, useChallengeRecords())} />;
+}
+
+function BadgeLine({ badge, earned }: { badge: (RewardBadge | NationalBadge) & { mediaId?: string }; earned: boolean }) {
+  const { t, tContent } = useTranslation();
   return (
     <div className={`flex items-start gap-3 rounded-2xl border p-3 ${earned ? "border-gold bg-gold/10" : "border-gold/15 bg-abyss/30"}`}>
       <BadgeEmblem badge={badge} earned={earned} />
@@ -97,7 +105,9 @@ export function AlbumView() {
     setThemeFilter(next);
   };
 
-  const total = summarizeCollections(collections, records, challenges);
+  const regional = summarizeCollections(collections, records, challenges);
+  const nationalEarned = NATIONAL_BADGES.filter((badge) => isNationalBadgeEarned(badge, challenges)).length;
+  const total = { ...regional, badgesEarned: regional.badgesEarned + nationalEarned, badgesTotal: regional.badgesTotal + NATIONAL_BADGES.length };
   const ofTotal = (value: number, max: number) => t("album.counters.ofTotal", { value, total: max });
 
   return (
@@ -158,6 +168,17 @@ export function AlbumView() {
                 </section>
               );
             })}
+          {territoryFilter === null && (
+            <section className="flex flex-col gap-3 rounded-3xl border border-gold/25 bg-surface/50 p-5">
+              <div className="flex flex-wrap items-baseline justify-between gap-x-3">
+                <h2 className="font-display text-xl font-semibold">{t("album.national.title")}</h2>
+                <span className="text-sm font-semibold text-gold">{ofTotal(nationalEarned, NATIONAL_BADGES.length)}</span>
+              </div>
+              {NATIONAL_BADGES.map((badge) => (
+                <NationalBadgeRow key={badge.id} badge={badge} />
+              ))}
+            </section>
+          )}
         </>
       ) : (
         <>

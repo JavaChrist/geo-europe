@@ -11,7 +11,9 @@ import { card, primaryButton } from "@/ui/styles";
 import { useEntitlements } from "./EntitlementsProvider";
 
 /** Carte de verrou commune : région hors Découverte ou Mode Famille sans édition Famille. */
-export function LockCard({ title, body, cta, href, back = "/explorer" }: { title: string; body: string; cta: string; href: string; back?: "/explorer" | "/" }) {
+const BACK_LABELS = { "/explorer": "explorer.backToMap", "/": "common.backHome", "/defis": "challenges.backToHub" } as const;
+
+export function LockCard({ title, body, cta, href, back = "/explorer" }: { title: string; body: string; cta: string; href: string; back?: keyof typeof BACK_LABELS }) {
   const { t } = useTranslation();
   return (
     <main className="mx-auto flex w-full max-w-md flex-col gap-5 px-4 py-8">
@@ -26,7 +28,7 @@ export function LockCard({ title, body, cta, href, back = "/explorer" }: { title
           {cta}
         </Link>
       </section>
-      <BackLink href={back} label={t(back === "/" ? "common.backHome" : "explorer.backToMap")} />
+      <BackLink href={back} label={t(BACK_LABELS[back])} />
     </main>
   );
 }

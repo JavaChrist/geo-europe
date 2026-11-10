@@ -1,8 +1,9 @@
-import { Award, CalendarDays, ChevronRight, Clock, Flag, Shapes, Swords, Timer, UsersRound, type LucideIcon } from "lucide-react";
+import { Award, ChevronRight, Clock, Swords, Timer, UsersRound, type LucideIcon } from "lucide-react";
 import Link from "next/link";
 import content from "@country";
 import { availableSpecialChallenges, SPECIAL_CHALLENGES, type SpecialChallengeKind } from "@/engine/special-challenges";
 import { challengeListPath } from "@/features/journey/challenge-origin";
+import { NationalModeLinks } from "@/features/national/NationalModeLinks";
 import { getTranslator } from "@/i18n/translator";
 import { BackLink } from "@/ui/BackLink";
 
@@ -33,13 +34,8 @@ function ModeInPreparation({ title, note, badge, icon }: { title: string; note: 
 }
 
 export default function ChallengesPage() {
-  const { t, tContent } = getTranslator();
+  const { t } = getTranslator();
   const preparing = t("challenges.preparing");
-  const inPreparation = [
-    { id: "daily", title: t("challenges.modes.daily.title"), note: t("challenges.modes.daily.note"), icon: CalendarDays },
-    { id: "country", title: tContent("country.challengeTitle"), note: t("challenges.modes.country.note"), icon: Flag },
-    { id: "themes", title: t("challenges.modes.themes.title"), note: t("challenges.modes.themes.note"), icon: Shapes },
-  ];
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
@@ -87,9 +83,7 @@ export default function ChallengesPage() {
           </span>
           <ChevronRight aria-hidden className="size-5 shrink-0 text-ink-soft" />
         </Link>
-        {inPreparation.map((mode) => (
-          <ModeInPreparation key={mode.id} title={mode.title} note={mode.note} badge={preparing} icon={mode.icon} />
-        ))}
+        <NationalModeLinks />
       </section>
 
       <BackLink href="/" label={t("common.backHome")} />

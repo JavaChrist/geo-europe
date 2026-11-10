@@ -4,7 +4,8 @@ import { RotateCcw, ShieldAlert, Sparkles } from "lucide-react";
 import { type ReactNode, useId, useState } from "react";
 import content from "@country";
 import { previewReset, type ResetPreview, type ResetScope, resetTargets } from "@/engine/progress-reset";
-import { useChallengeRecords, useLevelRecords } from "@/features/journey/useLevelRecords";
+import { useChallengeRecords, useDailyRecords, useLevelRecords } from "@/features/journey/useLevelRecords";
+import { NATIONAL_BADGES } from "@/features/national/national-content";
 import { useTranslation } from "@/i18n/I18nProvider";
 import type { TranslationKey, TranslationValues } from "@/i18n/translator";
 import { resetProgress } from "@/services/local-progress";
@@ -17,7 +18,7 @@ const playable = territories.filter((territory) => territory.levels.length > 0);
 const SELECT_CLASS = "min-h-12 w-full rounded-xl border border-gold/30 bg-abyss px-3 text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold";
 const DANGER_BUTTON = "inline-flex min-h-12 items-center justify-center gap-2 self-start rounded-xl bg-danger-solid px-5 font-semibold text-white transition-colors hover:bg-danger focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:cursor-not-allowed disabled:bg-surface-light disabled:text-ink-soft/70";
 
-const usePreview = (scope: ResetScope): ResetPreview => previewReset(scope, territories, useLevelRecords(), useChallengeRecords());
+const usePreview = (scope: ResetScope): ResetPreview => previewReset(scope, territories, useLevelRecords(), useChallengeRecords(), { daily: useDailyRecords(), badges: NATIONAL_BADGES });
 
 /** La suppression n'a lieu qu'ici, après la confirmation explicite du joueur. Le succès n'est annoncé qu'une fois l'écriture faite. */
 function useResetAction() {
@@ -28,8 +29,8 @@ function useResetAction() {
     keys: { titleKey: TranslationKey; bodyKey: TranslationKey; doneTitleKey: TranslationKey; doneBodyKey: TranslationKey },
     names: TranslationValues,
   ): Promise<boolean> => {
-    const { levels, stars, score, plays, xp, challenges, cards, badges } = preview;
-    const values = { levels, stars, score, plays, xp, challenges, cards, badges, ...names };
+    const { levels, stars, score, plays, xp, days, challenges, cards, badges } = preview;
+    const values = { levels, stars, score, plays, xp, days, challenges, cards, badges, ...names };
     const confirmed = await modal.destructive({
       titleKey: keys.titleKey,
       bodyKey: keys.bodyKey,
@@ -60,6 +61,8 @@ function ScopeDetails({ preview, historyKey, keptKey, values, showLocks = true }
     ["reset.details.score", preview.score],
     ["reset.details.plays", preview.plays],
     ["reset.details.xp", preview.xp],
+    // Les jours du Défi du jour ne s'effacent qu'avec toute la progression.
+    ...(showLocks ? [] : [["reset.details.days", preview.days] as [TranslationKey, number]]),
     ["reset.details.challenges", preview.challenges],
     ["reset.details.cards", preview.cards],
     ["reset.details.badges", preview.badges],

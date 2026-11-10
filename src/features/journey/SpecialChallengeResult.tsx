@@ -4,12 +4,12 @@ import { ArrowLeft, Award, BookOpen, Check, Minus, RotateCcw, Smartphone, Trophy
 import Link from "next/link";
 import { type MouseEvent, useEffect, useRef } from "react";
 import type { ChallengeResult, RunBank } from "@/engine/level-run";
-import { type ChallengeRecord, correctCount, isChallengePassed, type SpecialChallengeRules } from "@/engine/special-challenges";
+import { type ChallengeFormat, type ChallengeRecord, correctCount, isChallengePassed } from "@/engine/special-challenges";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { formatBestResult, formatChallengeTime } from "./challenge-time";
 
 interface SpecialChallengeResultProps {
-  rules: SpecialChallengeRules;
+  rules: ChallengeFormat;
   bank: RunBank;
   /** Toutes les questions de la partie, y compris celles que le temps n'a pas laissé jouer. */
   challengeIds: string[];
@@ -32,7 +32,7 @@ interface SpecialChallengeResultProps {
 
 /** Résultat commun aux défis : seuls les éléments prévus par la configuration s'affichent. */
 export function SpecialChallengeResult({ rules, bank, challengeIds, results, timeMs, expired, improved, newBadgeName, keptBadgeName, record, onReplay, backHref, backLabel, onBack }: SpecialChallengeResultProps) {
-  const { t, tContent } = useTranslation();
+  const { t } = useTranslation();
   const headingRef = useRef<HTMLHeadingElement>(null);
   const correct = correctCount(results);
   const passable = rules.passCorrect !== null;
@@ -114,29 +114,37 @@ export function SpecialChallengeResult({ rules, bank, challengeIds, results, tim
         </Link>
       )}
 
-      <section className="flex flex-col gap-3 rounded-3xl border border-gold/25 bg-surface/50 p-5">
-        <h3 className="font-display text-xl font-semibold">{t("journey.specials.result.answers")}</h3>
-        <ol className="flex flex-col gap-3">
-          {challengeIds.map((id) => {
-            const challenge = bank.questions.find((candidate) => candidate.id === id);
-            if (!challenge) return null;
-            const result = results.find((candidate) => candidate.challengeId === id);
-            const answer = challenge.answers.find((candidate) => candidate.id === challenge.answerId);
-            const Icon = !result ? Minus : result.correct ? Check : X;
-            const tone = !result ? "text-ink-soft" : result.correct ? "text-success" : "text-danger";
-            return (
-              <li key={id} className="flex items-start gap-2 text-sm">
-                <Icon aria-hidden className={`mt-0.5 size-4 shrink-0 ${tone}`} />
-                <span className="flex min-w-0 flex-1 flex-col gap-0.5">
-                  <span className="text-ink-soft">{tContent(challenge.promptKey)}</span>
-                  <span className="font-semibold">{answer ? tContent(answer.labelKey) : ""}</span>
-                  {!result && <span className="text-xs text-ink-soft">{t("journey.specials.result.unanswered")}</span>}
-                </span>
-              </li>
-            );
-          })}
-        </ol>
-      </section>
+      <AnswerReview bank={bank} challengeIds={challengeIds} results={results} />
     </div>
+  );
+}
+
+/** Les questions de la partie et leur bonne réponse, communes aux défis régionaux et nationaux. */
+export function AnswerReview({ bank, challengeIds, results }: { bank: RunBank; challengeIds: string[]; results: ChallengeResult[] }) {
+  const { t, tContent } = useTranslation();
+  return (
+    <section className="flex flex-col gap-3 rounded-3xl border border-gold/25 bg-surface/50 p-5">
+      <h3 className="font-display text-xl font-semibold">{t("journey.specials.result.answers")}</h3>
+      <ol className="flex flex-col gap-3">
+        {challengeIds.map((id) => {
+          const challenge = bank.questions.find((candidate) => candidate.id === id);
+          if (!challenge) return null;
+          const result = results.find((candidate) => candidate.challengeId === id);
+          const answer = challenge.answers.find((candidate) => candidate.id === challenge.answerId);
+          const Icon = !result ? Minus : result.correct ? Check : X;
+          const tone = !result ? "text-ink-soft" : result.correct ? "text-success" : "text-danger";
+          return (
+            <li key={id} className="flex items-start gap-2 text-sm">
+              <Icon aria-hidden className={`mt-0.5 size-4 shrink-0 ${tone}`} />
+              <span className="flex min-w-0 flex-1 flex-col gap-0.5">
+                <span className="text-ink-soft">{tContent(challenge.promptKey)}</span>
+                <span className="font-semibold">{answer ? tContent(answer.labelKey) : ""}</span>
+                {!result && <span className="text-xs text-ink-soft">{t("journey.specials.result.unanswered")}</span>}
+              </span>
+            </li>
+          );
+        })}
+      </ol>
+    </section>
   );
 }

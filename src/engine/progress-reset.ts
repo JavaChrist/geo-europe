@@ -5,6 +5,7 @@
 import { albumCollections, type AlbumTerritory, summarizeCollections } from "./album.ts";
 import { starsFor } from "./level-run.ts";
 import { isLevelUnlocked } from "./level-unlock.ts";
+import { type DailyRecords, dailyXpTotal, isNationalBadgeEarned, type NationalBadge } from "./national-challenges.ts";
 import { earnedXp, type ProgressRecord } from "./progress-summary.ts";
 import { areSpecialChallengesUnlocked, availableSpecialChallenges, challengeKey, type ChallengeRecords, SPECIAL_CHALLENGES } from "./special-challenges.ts";
 import type { Territory } from "./types.ts";
@@ -64,7 +65,17 @@ export interface ResetPreview {
   relockedLevels: number;
   /** Territoires dont les défis spéciaux se verrouillent à nouveau. */
   relockedChallenges: number;
+  /** Jours du Défi du jour effacés : seule la réinitialisation du pays les touche. */
+  days: number;
 }
+
+/** Défis nationaux du pays : seule la réinitialisation du pays les efface. */
+export interface ResetNational {
+  daily: DailyRecords;
+  badges: readonly NationalBadge[];
+}
+
+const NO_NATIONAL: ResetNational = { daily: {}, badges: [] };
 
 type LevelRecords = Readonly<Record<string, ProgressRecord & { plays: number }>>;
 
@@ -76,6 +87,7 @@ export function previewReset(
   territories: readonly ResetTerritory[],
   records: LevelRecords,
   challenges: ChallengeRecords,
+  national: ResetNational = NO_NATIONAL,
 ): ResetPreview {
   const targets = resetTargets(scope, territories);
   const after = applyReset({ levels: records, questions: {}, challenges }, targets);
@@ -92,6 +104,7 @@ export function previewReset(
     badges: 0,
     relockedLevels: 0,
     relockedChallenges: 0,
+    days: 0,
   };
 
   for (const territory of territories) {
@@ -117,5 +130,12 @@ export function previewReset(
   const rewardsAfter = summarizeCollections(collections, after.levels, after.challenges);
   preview.cards = rewardsBefore.cardsEarned - rewardsAfter.cardsEarned;
   preview.badges = rewardsBefore.badgesEarned - rewardsAfter.badgesEarned;
+
+  if (targets === "all") {
+    preview.days = Object.values(national.daily).filter(Boolean).length;
+    preview.xp += dailyXpTotal(national.daily);
+    preview.badges += national.badges.filter((badge) => isNationalBadgeEarned(badge, challenges)).length;
+    if (preview.days > 0) preview.hasData = true;
+  }
   return preview;
 }

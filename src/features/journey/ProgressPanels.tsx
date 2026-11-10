@@ -2,7 +2,8 @@
 
 import { summarizeCountry, summarizeProgress, type ProgressLevel, type ProgressTerritory } from "@/engine/progress-summary";
 import { useTranslation } from "@/i18n/I18nProvider";
-import { useLevelRecords } from "./useLevelRecords";
+import { dailyXpTotal } from "@/engine/national-challenges";
+import { useDailyRecords, useLevelRecords } from "./useLevelRecords";
 
 function Stat({ label, value, className = "" }: { label: string; value: string | number; className?: string }) {
   return (
@@ -50,6 +51,8 @@ export function TerritoryProgress({ levels }: { levels: readonly ProgressLevel[]
 export function NationalProgress({ territories }: { territories: readonly ProgressTerritory[] }) {
   const { t, tContent } = useTranslation();
   const progress = summarizeCountry(territories, useLevelRecords());
+  // L'XP du Défi du jour compte pour le pays, pas pour une région.
+  const xp = progress.xp + dailyXpTotal(useDailyRecords());
 
   return (
     <section className="flex w-full flex-col gap-3 rounded-3xl border border-gold/25 bg-surface/50 p-5 text-left">
@@ -58,7 +61,7 @@ export function NationalProgress({ territories }: { territories: readonly Progre
         <Stat label={t("journey.progress.levels")} value={progress.levelsFinished} />
         <Stat label={t("journey.progress.stars")} value={progress.stars} />
         <Stat label={t("journey.progress.score")} value={progress.bestScoreTotal} />
-        <Stat label={t("journey.progress.xp")} value={progress.xp} />
+        <Stat label={t("journey.progress.xp")} value={xp} />
         <Stat className="col-span-2" label={t("journey.progress.territories")} value={progress.territoriesExplored} />
       </dl>
       <p className="text-sm text-ink-soft">{t("journey.deviceOnly")}</p>

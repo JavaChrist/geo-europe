@@ -8,10 +8,8 @@ import type { QuestionDifficulty, Territory } from "./types.ts";
 
 export type SpecialChallengeKind = "master" | "chrono";
 
-export interface SpecialChallengeRules {
-  kind: SpecialChallengeKind;
-  /** Dernier segment de l'adresse du défi. */
-  slug: string;
+/** Format d'une partie de défi, commun aux défis régionaux et nationaux. */
+export interface ChallengeFormat {
   questions: number;
   minDifficulty: QuestionDifficulty;
   maxDifficulty: QuestionDifficulty;
@@ -25,6 +23,12 @@ export interface SpecialChallengeRules {
   coverCategories: boolean;
   /** Le tirage évite la dernière partie de niveau jouée, si la banque le permet. */
   avoidLastLevel: boolean;
+}
+
+export interface SpecialChallengeRules extends ChallengeFormat {
+  kind: SpecialChallengeKind;
+  /** Dernier segment de l'adresse du défi. */
+  slug: string;
 }
 
 export const SPECIAL_CHALLENGES: readonly SpecialChallengeRules[] = [
@@ -93,7 +97,7 @@ export function lastPlayedLevelId(levelIds: readonly string[], records: Readonly
 /** Compose une partie de défi, selon ce que ses règles demandent. */
 export const drawSpecialChallenge = (
   bank: QuestionBank,
-  rules: SpecialChallengeRules,
+  rules: ChallengeFormat,
   history: QuestionHistory,
   lastLevel: QuestionHistory,
   random: RandomSource,
@@ -111,7 +115,7 @@ export const areSpecialChallengesUnlocked = (
 
 export const correctCount = (results: readonly { correct: boolean }[]): number => results.filter((result) => result.correct).length;
 
-export const isChallengePassed = (rules: SpecialChallengeRules, correct: number): boolean =>
+export const isChallengePassed = (rules: Pick<ChallengeFormat, "passCorrect">, correct: number): boolean =>
   rules.passCorrect !== null && correct >= rules.passCorrect;
 
 export interface ChallengeRecord {
@@ -142,7 +146,7 @@ export function isBetterPerformance(candidate: ChallengePerformance, best: Chall
 
 export function withChallengeResult(
   previous: ChallengeRecord | undefined,
-  rules: SpecialChallengeRules,
+  rules: Pick<ChallengeFormat, "passCorrect">,
   performance: ChallengePerformance,
   playedAt: string,
 ): ChallengeRecord {

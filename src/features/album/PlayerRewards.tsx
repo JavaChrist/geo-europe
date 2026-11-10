@@ -3,7 +3,9 @@
 import { BookOpen } from "lucide-react";
 import Link from "next/link";
 import { isBadgeEarned } from "@/engine/album";
+import { isNationalBadgeEarned } from "@/engine/national-challenges";
 import { useChallengeRecords, useLevelRecords } from "@/features/journey/useLevelRecords";
+import { NATIONAL_BADGES } from "@/features/national/national-content";
 import { useTranslation } from "@/i18n/I18nProvider";
 import { BadgeEmblem } from "./BadgeEmblem";
 import { collections } from "./collections";
@@ -13,9 +15,10 @@ export function PlayerRewards() {
   const { t, tContent } = useTranslation();
   const records = useLevelRecords();
   const challenges = useChallengeRecords();
-  const earned = collections.flatMap((territory) =>
-    territory.badges.filter((badge) => isBadgeEarned(badge, territory.souvenirCards, records, challenges)),
-  );
+  const earned = [
+    ...collections.flatMap((territory) => territory.badges.filter((badge) => isBadgeEarned(badge, territory.souvenirCards, records, challenges))),
+    ...NATIONAL_BADGES.filter((badge) => isNationalBadgeEarned(badge, challenges)),
+  ];
 
   return (
     <section className="flex w-full flex-col gap-3 rounded-3xl border border-gold/25 bg-surface/50 p-5 text-left">

@@ -2,7 +2,8 @@ import type { ChallengeResult, StarCount } from "@/engine/level-run";
 import { applyReset, type ResetTargets } from "@/engine/progress-reset";
 import { xpAfterRun } from "@/engine/progress-summary";
 import { EMPTY_HISTORY, type QuestionHistory, withRunResults } from "@/engine/question-selection";
-import { type ChallengePerformance, type ChallengeRecord, type SpecialChallengeRules, withChallengeResult } from "@/engine/special-challenges";
+import { type DailyRecord, type DailyRecords, isDay, withDailyResult } from "@/engine/national-challenges";
+import { type ChallengeFormat, type ChallengePerformance, type ChallengeRecord, withChallengeResult } from "@/engine/special-challenges";
 import { AppError } from "./app-error";
 
 /**
@@ -34,6 +35,8 @@ interface StoredSpace {
   questions?: Record<string, QuestionHistory>;
   /** Défis spéciaux, à part des niveaux : ils n'entrent ni dans les compteurs régionaux ni dans l'XP. */
   challenges?: Record<string, ChallengeRecord>;
+  /** Défi du jour, par jour local `AAAA-MM-JJ` : un jour enregistré ne change plus. */
+  daily?: Record<string, DailyRecord>;
 }
 
 interface StoredProgress {
@@ -43,6 +46,7 @@ interface StoredProgress {
 
 const NO_RECORDS: LevelRecords = {};
 const NO_CHALLENGES: Record<string, ChallengeRecord> = {};
+const NO_DAYS: DailyRecords = {};
 
 const storageKey = (countryCode: string) => `geo-europe.${countryCode}.progress`;
 
@@ -77,6 +81,12 @@ function isChallengeRecord(value: unknown): value is ChallengeRecord {
   );
 }
 
+function isDailyRecord(value: unknown): value is DailyRecord {
+  if (!isObject(value)) return false;
+  const record = value as Partial<DailyRecord>;
+  return isCount(record.correct) && isCount(record.xp) && typeof record.finishedAt === "string";
+}
+
 function isQuestionHistory(value: unknown): value is QuestionHistory {
   if (!isObject(value) || !isCount(value.plays) || !isObject(value.questions)) return false;
   return Object.values(value.questions).every(
@@ -107,8 +117,15 @@ function parseChallenges(raw: string | null): Record<string, ChallengeRecord> {
   return Object.fromEntries(Object.entries(challenges).filter(([, record]) => isChallengeRecord(record)));
 }
 
+function parseDaily(raw: string | null): DailyRecords {
+  const daily = parseStored(raw)?.spaces?.[DEVICE_SPACE]?.daily;
+  if (!isObject(daily)) return NO_DAYS;
+  return Object.fromEntries(Object.entries(daily).filter(([day, record]) => isDay(day) && isDailyRecord(record)));
+}
+
 let cache: { key: string; raw: string | null; records: LevelRecords } | null = null;
 let challengeCache: { key: string; raw: string | null; records: Record<string, ChallengeRecord> } | null = null;
+let dailyCache: { key: string; raw: string | null; records: DailyRecords } | null = null;
 const listeners = new Set<() => void>();
 
 function readRaw(key: string): string | null {
@@ -135,6 +152,14 @@ export function readChallengeRecords(countryCode: string): Record<string, Challe
   return challengeCache.records;
 }
 
+/** Même garantie que readLevelRecords, pour les jours du Défi du jour. */
+export function readDailyRecords(countryCode: string): DailyRecords {
+  const key = storageKey(countryCode);
+  const raw = readRaw(key);
+  if (dailyCache?.key !== key || dailyCache.raw !== raw) dailyCache = { key, raw, records: parseDaily(raw) };
+  return dailyCache.records;
+}
+
 /** Sans stockage disponible, l'historique est vide : le tirage fonctionne quand même. */
 export function readQuestionHistory(countryCode: string, levelId: string): QuestionHistory {
   const history = parseStored(readRaw(storageKey(countryCode)))?.spaces?.[DEVICE_SPACE]?.questions?.[levelId];
@@ -157,11 +182,13 @@ const withHistory = (countryCode: string, historyKey: string, results: readonly 
   [historyKey]: withRunResults(readQuestionHistory(countryCode, historyKey), results),
 });
 
+/** Les champs absents de `space` gardent leur valeur : enregistrer un niveau n'efface jamais les jours du Défi du jour. */
 function writeSpace(countryCode: string, space: StoredSpace): void {
   const key = storageKey(countryCode);
+  const spaces = parseStored(readRaw(key))?.spaces;
   const stored: StoredProgress = {
     version: FORMAT_VERSION,
-    spaces: { ...parseStored(readRaw(key))?.spaces, [DEVICE_SPACE]: space },
+    spaces: { ...spaces, [DEVICE_SPACE]: { ...spaces?.[DEVICE_SPACE], ...space } },
   };
   try {
     window.localStorage.setItem(key, JSON.stringify(stored));
@@ -199,7 +226,7 @@ export function recordLevelResult(
 export function recordChallengeResult(
   countryCode: string,
   challengeKey: string,
-  rules: SpecialChallengeRules,
+  rules: Pick<ChallengeFormat, "passCorrect">,
   performance: ChallengePerformance,
   results: readonly ChallengeResult[],
 ): ChallengeRecord {
@@ -214,15 +241,26 @@ export function recordChallengeResult(
 }
 
 /**
+ * Enregistre le Défi du jour terminé. Un jour déjà enregistré reste tel quel et ne rapporte rien de plus :
+ * `added` est faux, l'écran montre alors le résultat déjà gagné.
+ */
+export function recordDailyResult(countryCode: string, day: string, correct: number): { record: DailyRecord; added: boolean } {
+  const result = withDailyResult(readDailyRecords(countryCode), day, correct, new Date().toISOString());
+  if (result.added) writeSpace(countryCode, { levels: readLevelRecords(countryCode), daily: result.records as Record<string, DailyRecord> });
+  return { record: result.record, added: result.added };
+}
+
+/**
  * Efface une partie de l'espace actif et rien d'autre : les autres espaces restent intacts.
  * Lève une erreur si l'écriture échoue : le joueur n'est averti d'une réussite qu'après coup.
  */
 export function resetProgress(countryCode: string, targets: ResetTargets): void {
   const space = parseStored(readRaw(storageKey(countryCode)))?.spaces?.[DEVICE_SPACE];
-  writeSpace(
-    countryCode,
-    applyReset({ levels: space?.levels ?? {}, questions: space?.questions ?? {}, challenges: space?.challenges ?? {} }, targets),
-  );
+  writeSpace(countryCode, {
+    ...applyReset({ levels: space?.levels ?? {}, questions: space?.questions ?? {}, challenges: space?.challenges ?? {} }, targets),
+    // Les jours du Défi du jour ne partent qu'avec tout le pays.
+    daily: targets === "all" ? {} : (space?.daily ?? {}),
+  });
 }
 
 /** Efface tout ce que l'appareil garde pour ce pays, tous espaces confondus : réservé à la suppression des données de l'appareil. */

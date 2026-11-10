@@ -382,11 +382,13 @@
       "collector": "Badge de collection",
       "master": "Badge de maîtrise",
       "earned": "Badge obtenu",
-      "locked": "Badge à gagner"
+      "locked": "Badge à gagner",
+      "country": "Badge national",
+      "theme": "Badge de thème"
     },
     "rewards": {
       "title": "Mes récompenses",
-      "empty": "Aucun badge pour le moment. Terminez une collection ou réussissez un Défi Maître pour en gagner.",
+      "empty": "Aucun badge pour le moment. Terminez une collection, réussissez un Défi Maître, le Défi de France ou un défi thématique pour en gagner.",
       "open": "Voir l'album"
     },
     "detail": {
@@ -402,6 +404,9 @@
     },
     "result": {
       "open": "Voir la carte « {name} »"
+    },
+    "national": {
+      "title": "Défis nationaux"
     }
   },
   "challenges": {
@@ -409,7 +414,7 @@
     "intro": "Choisissez votre prochaine épreuve, seul ou en famille.",
     "preparing": "En préparation",
     "regionalTitle": "Défis régionaux",
-    "otherTitle": "Prochains modes",
+    "otherTitle": "Autres défis",
     "openTerritory": "Voir le parcours",
     "backToHub": "Retour aux défis",
     "backToList": "Retour aux défis régionaux",
@@ -446,6 +451,74 @@
         "title": "Mode Famille",
         "note": "Jouez à plusieurs sur un même appareil."
       }
+    },
+    "national": {
+      "leaveBody": "Votre partie est gardée sur cet appareil : vous la reprendrez à la même question, avec vos réponses.",
+      "status": {
+        "dailyDone": "Fait aujourd'hui",
+        "dailyTodo": "À jouer aujourd'hui",
+        "streak": {
+          "one": "Série : {count} jour",
+          "other": "Série : {count} jours"
+        },
+        "countryLocked": "Éditions Solo et Famille",
+        "themes": {
+          "one": "{count} badge sur {total}",
+          "other": "{count} badges sur {total}"
+        },
+        "discovery": "Version Découverte"
+      },
+      "rules": {
+        "noXp": "Ce défi ne donne pas d'XP et ne compte pas dans les niveaux terminés.",
+        "noBadge": "Version Découverte : ce résultat est gardé à part et ne donne pas de badge."
+      },
+      "daily": {
+        "description": "Cinq questions tirées pour toute la journée, les mêmes pour tous les joueurs qui ont accès aux mêmes régions.",
+        "rules": {
+          "questions": "{count} questions variées, de niveau facile à avancé.",
+          "xp": "1 XP par bonne réponse, plus {bonus} XP quand les {count} questions sont terminées. Une seule récompense par jour.",
+          "streak": "Chaque journée terminée prolonge votre série de jours consécutifs.",
+          "midnight": "Une partie commencée avant minuit se termine quand vous voulez et compte pour son jour de départ.",
+          "discovery": "Découverte : questions des régions gratuites ({regions})."
+        },
+        "start": "Commencer le Défi du jour",
+        "doneTitle": "Défi du jour terminé",
+        "comeBack": "Revenez demain pour un nouveau défi.",
+        "xpEarned": "+{count} XP",
+        "xpAlready": "Le résultat de ce jour était déjà enregistré : aucun XP de plus.",
+        "current": {
+          "one": "Série en cours : {count} jour",
+          "other": "Série en cours : {count} jours"
+        },
+        "best": {
+          "one": "Meilleure série : {count} jour",
+          "other": "Meilleure série : {count} jours"
+        },
+        "earlierDay": "Cette partie a commencé le {date} : elle compte pour ce jour-là.",
+        "playToday": "Jouer le défi d'aujourd'hui",
+        "unavailable": "Pas encore assez de questions pour composer le Défi du jour."
+      },
+      "france": {
+        "description": "Dix questions de niveau normal à avancé, chacune d'une région différente.",
+        "rules": {
+          "questions": "{count} questions de {count} régions différentes, sans doublon."
+        },
+        "lockTitle": "{name} fait partie de l'édition complète",
+        "lockBody": "Ce défi couvre toutes les régions. Il est inclus dans les éditions Solo et Famille, en achat unique.",
+        "unavailable": "Pas encore assez de régions publiées pour composer ce défi."
+      },
+      "themes": {
+        "intro": "Un défi par thème. Réussissez le défi complet d'un thème pour gagner son badge de maîtrise.",
+        "description": "Dix questions de niveau normal à avancé, sur le seul thème {theme}.",
+        "rules": {
+          "questions": "{count} questions du thème, sans doublon."
+        },
+        "discoveryTitle": "Version Découverte",
+        "discoveryBody": "Vous jouez avec les seules questions des régions gratuites ({regions}). Ce résultat est gardé à part et ne donne pas le badge : « {badge} » se gagne sur le défi complet, inclus dans les éditions Solo et Famille.",
+        "discoveryCta": "Voir les éditions",
+        "unavailable": "Pas encore assez de questions pour ce thème.",
+        "backToThemes": "Retour aux défis thématiques"
+      }
     }
   },
   "reset": {
@@ -453,7 +526,7 @@
     "summary": "Effacer un niveau, un territoire ou toute la progression.",
     "intro": "Choisissez précisément ce que vous voulez effacer. Choisir un niveau ou un territoire n'efface rien : chaque opération demande votre confirmation.",
     "profileLimit": "Les profils de joueurs n'existent pas encore. La progression de {app} est commune à tous ceux qui jouent sur cet appareil : une réinitialisation les concerne tous.",
-    "xpRule": "L'XP est enregistré niveau par niveau, rejeux compris. Une réinitialisation retire exactement l'XP gagné sur les niveaux effacés. Les défis ne rapportent pas d'XP.",
+    "xpRule": "L'XP est enregistré niveau par niveau, rejeux compris, et jour par jour pour le Défi du jour. Une réinitialisation retire exactement l'XP gagné sur ce qui est effacé. Les autres défis ne rapportent pas d'XP.",
     "confirm": "Confirmer la réinitialisation",
     "nothing": "Rien à effacer ici : aucun résultat n'est enregistré.",
     "territoryLabel": "Territoire",
@@ -473,7 +546,8 @@
         "one": "{count} niveau suivant se verrouillera jusqu'à ce que la condition habituelle soit de nouveau remplie.",
         "other": "{count} niveaux suivants se verrouilleront jusqu'à ce que la condition habituelle soit de nouveau remplie."
       },
-      "relockedChallenges": "Le Défi Maître et le Défi Chrono de ce territoire se verrouilleront jusqu'à ce que tous ses niveaux soient de nouveau terminés."
+      "relockedChallenges": "Le Défi Maître et le Défi Chrono de ce territoire se verrouilleront jusqu'à ce que tous ses niveaux soient de nouveau terminés.",
+      "days": "Jours du Défi du jour"
     },
     "level": {
       "title": "Un niveau",
@@ -505,7 +579,7 @@
       "kept": "Conservés : les contenus du jeu. Les cartes et les badges restent à regagner en rejouant.",
       "understand": "J'ai compris que toute la progression de {app} sur cet appareil sera définitivement effacée, pour tous ceux qui y jouent.",
       "confirmTitle": "Réinitialiser tout {app} ?",
-      "confirmBody": "Toute la progression de {app} sera effacée : niveaux terminés ({levels}), étoiles ({stars}), points de meilleurs scores ({score}), parties ({plays}), XP ({xp}), records de défis ({challenges}), cartes souvenirs ({cards}), badges ({badges}) et l'historique de toutes les questions. Elle est commune à tous ceux qui jouent sur cet appareil. Cette action est définitive.",
+      "confirmBody": "Toute la progression de {app} sera effacée : niveaux terminés ({levels}), étoiles ({stars}), points de meilleurs scores ({score}), parties ({plays}), XP ({xp}), jours du Défi du jour et série ({days}), records de défis ({challenges}), cartes souvenirs ({cards}), badges ({badges}) et l'historique de toutes les questions. Elle est commune à tous ceux qui jouent sur cet appareil. Cette action est définitive.",
       "doneTitle": "Progression réinitialisée",
       "doneBody": "Toute la progression de {app} a été effacée. Vous pouvez repartir de zéro."
     }

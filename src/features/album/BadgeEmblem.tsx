@@ -4,7 +4,7 @@ import content from "@country";
 import type { RewardBadge } from "@/engine/types";
 
 /** Illustration déclarée par le territoire, sinon l'icône commune. Un badge à gagner reste masqué. */
-export function BadgeEmblem({ badge, earned }: { badge: RewardBadge; earned: boolean }) {
+export function BadgeEmblem({ badge, earned }: { badge: Pick<RewardBadge, "id" | "mediaId">; earned: boolean }) {
   const credit = earned && badge.mediaId ? content.credits.find((candidate) => candidate.id === badge.mediaId) : undefined;
   if (credit) {
     return (
