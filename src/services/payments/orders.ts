@@ -1007,11 +1007,24 @@ async function reconcilePlayOrders(): Promise<{ checked: number; changed: number
   const ordersChanged = changed;
   let voidedCount = 0;
   let voidedMatched = 0;
+  let voidedKnownOrders = 0;
   let voidedApplied = 0;
   let voidedRead = true;
   try {
     const voided = await listVoidedPurchases();
     voidedCount = voided.length;
+    // Numéros de commande Google (`GPA.…`) connus ici : distingue un remboursement d'un achat GéoFR dont le jeton
+    // ne correspond pas, d'une annulation qui ne concerne aucune commande enregistrée.
+    const known = await adminDb()
+      .collection(ORDERS)
+      .where("app", "==", APP_ID)
+      .where("provider", "==", "google_play")
+      .limit(1000)
+      .get();
+    const knownOrderIds = new Set(
+      known.docs.map((doc) => (doc.data() as OrderDoc).providerPaymentId).filter((id): id is string => !!id),
+    );
+    voidedKnownOrders = voided.filter((item) => item.orderId && knownOrderIds.has(item.orderId)).length;
     for (const item of voided) {
       try {
         const result = await markPlayVoided(item.purchaseToken, item.voidedReason);
@@ -1030,7 +1043,8 @@ async function reconcilePlayOrders(): Promise<{ checked: number; changed: number
   // Compteurs seulement : aucun jeton, identifiant de commande ni compte dans ce journal.
   console.info(
     `[google-play-reconcile] commandes vérifiées ${candidates.length}, modifiées ${ordersChanged} ; ` +
-      `annulations Google reçues ${voidedRead ? voidedCount : "illisibles"}, correspondances ${voidedMatched}, ` +
+      `annulations Google reçues ${voidedRead ? voidedCount : "illisibles"}, numéros de commande connus ${voidedKnownOrders}, ` +
+      `correspondances ${voidedMatched}, ` +
       `appliquées ${voidedApplied} ; échecs ${failed}`,
   );
   return { checked: candidates.length + voidedCount, changed, failed };
