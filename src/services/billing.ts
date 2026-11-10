@@ -52,6 +52,21 @@ export async function playPrices(productIds: string[]): Promise<Record<string, s
   }
 }
 
+/**
+ * Un même jeton arrive à la fois par le résultat de l'achat et par l'écouteur `purchaseUpdated` : une seule
+ * vérification serveur par jeton tant qu'elle est en cours, partagée par tous les appelants. Sans cela, deux
+ * accusés de réception partent en même temps et Google refuse le second (409).
+ */
+const verifying = new Map<string, Promise<OrderState>>();
+
+function verifyPlayPurchase(productId: string, purchaseToken: string): Promise<OrderState> {
+  const current = verifying.get(purchaseToken);
+  if (current) return current;
+  const request = requestPlayVerification(productId, purchaseToken).finally(() => verifying.delete(purchaseToken));
+  verifying.set(purchaseToken, request);
+  return request;
+}
+
 export type PlayPurchaseResult =
   | { kind: "verified"; order: OrderState }
   | { kind: "canceled" }
@@ -82,7 +97,7 @@ export async function buyOnPlay(editionId: EditionId, consent: CheckoutConsent):
   if (result.status === "error" || !result.purchase) throw new AppError("paymentFailed");
   return {
     kind: "verified",
-    order: await requestPlayVerification(preparation.productId, result.purchase.purchaseToken),
+    order: await verifyPlayPurchase(preparation.productId, result.purchase.purchaseToken),
   };
 }
 
@@ -105,7 +120,7 @@ export async function restorePlayPurchases(): Promise<number> {
     const productId = purchase.productIds[0];
     if (!productId || purchase.state === "UNSPECIFIED") continue;
     try {
-      await requestPlayVerification(productId, purchase.purchaseToken);
+      await verifyPlayPurchase(productId, purchase.purchaseToken);
       count += 1;
     } catch (error) {
       const appError = toAppError(error);
@@ -132,7 +147,7 @@ export function watchPlayPurchases(): () => void {
   void PlayBilling.addListener("purchaseUpdated", (purchase) => {
     const productId = purchase.productIds[0];
     if (!productId || purchase.state !== "PURCHASED") return;
-    void requestPlayVerification(productId, purchase.purchaseToken).catch(() => undefined);
+    void verifyPlayPurchase(productId, purchase.purchaseToken).catch(() => undefined);
   }).then((listener) => {
     if (stopped) void listener.remove();
     else handle = listener;
