@@ -910,22 +910,28 @@ export async function applyPlayPurchase(
   return result.outcome;
 }
 
-/** Achat remboursé, annulé ou contesté chez Google : la commande perd ses droits, jamais l'inverse. */
-export async function markPlayVoided(purchaseToken: string, voidedReason: number | undefined): Promise<boolean> {
+/**
+ * Achat remboursé, annulé ou contesté chez Google : la commande perd ses droits, jamais l'inverse.
+ * `unmatched` : jeton ou commande inconnus ici ; `unchanged` : commande déjà sans droits ; `changed` : droits retirés.
+ */
+export async function markPlayVoided(
+  purchaseToken: string,
+  voidedReason: number | undefined,
+): Promise<"unmatched" | "unchanged" | "changed"> {
   const db = adminDb();
   const tokenSnapshot = await playPurchaseRef(db, sha256(purchaseToken)).get();
   const orderId = tokenSnapshot.data()?.orderId;
-  if (typeof orderId !== "string") return false;
+  if (typeof orderId !== "string") return "unmatched";
   const ref = db.collection(ORDERS).doc(orderId);
   return db.runTransaction(async (transaction) => {
     const snapshot = await transaction.get(ref);
-    if (!snapshot.exists) return false;
+    if (!snapshot.exists) return "unmatched";
     const order: StoredOrder = { id: snapshot.id, ...(snapshot.data() as OrderDoc) };
     const orders = await ordersOf(order.uid, transaction);
     const granted = await hasActiveGrant(order.uid, transaction);
     const proposed = voidedStatus(voidedReason);
     const status = order.status === "paid" ? nextOrderStatus(order.status, proposed) : "canceled";
-    if (status === order.status) return false;
+    if (status === order.status) return "unchanged";
     const updated: StoredOrder = {
       ...order,
       status,
@@ -945,7 +951,7 @@ export async function markPlayVoided(purchaseToken: string, voidedReason: number
       orders.map((candidate) => (candidate.id === order.id ? updated : candidate)),
       granted,
     );
-    return true;
+    return "changed";
   });
 }
 
@@ -968,7 +974,10 @@ export async function handlePlayNotification(notification: PlayNotification): Pr
  * des 30 derniers jours (`voidedpurchases`). Sans identifiants Google Play sur le serveur, rien n'est fait.
  */
 async function reconcilePlayOrders(): Promise<{ checked: number; changed: number; failed: number }> {
-  if (!process.env.GOOGLE_PLAY_CLIENT_EMAIL) return { checked: 0, changed: 0, failed: 0 };
+  if (!process.env.GOOGLE_PLAY_CLIENT_EMAIL) {
+    console.info("[google-play-reconcile] ignoré : aucun identifiant Google Play sur le serveur");
+    return { checked: 0, changed: 0, failed: 0 };
+  }
   const snapshot = await adminDb()
     .collection(ORDERS)
     .where("app", "==", APP_ID)
@@ -995,21 +1004,35 @@ async function reconcilePlayOrders(): Promise<{ checked: number; changed: number
       failed += 1;
     }
   }
+  const ordersChanged = changed;
   let voidedCount = 0;
+  let voidedMatched = 0;
+  let voidedApplied = 0;
+  let voidedRead = true;
   try {
     const voided = await listVoidedPurchases();
     voidedCount = voided.length;
     for (const item of voided) {
       try {
-        if (await markPlayVoided(item.purchaseToken, item.voidedReason)) changed += 1;
+        const result = await markPlayVoided(item.purchaseToken, item.voidedReason);
+        if (result !== "unmatched") voidedMatched += 1;
+        if (result === "changed") voidedApplied += 1;
       } catch {
         failed += 1;
       }
     }
   } catch (error) {
     logServerError("google-play-voided", error, "rattrapage");
+    voidedRead = false;
     failed += 1;
   }
+  changed += voidedApplied;
+  // Compteurs seulement : aucun jeton, identifiant de commande ni compte dans ce journal.
+  console.info(
+    `[google-play-reconcile] commandes vérifiées ${candidates.length}, modifiées ${ordersChanged} ; ` +
+      `annulations Google reçues ${voidedRead ? voidedCount : "illisibles"}, correspondances ${voidedMatched}, ` +
+      `appliquées ${voidedApplied} ; échecs ${failed}`,
+  );
   return { checked: candidates.length + voidedCount, changed, failed };
 }
 
