@@ -196,6 +196,58 @@ Mesures après l'allègement de l'export (novembre 2026) :
 
 Google Play accepte un module de base de 200 Mo au plus et des packs `install-time` jusqu'à 4 Go au total. `bundleRelease` produit l'AAB à envoyer, et `assembleDebug` un APK unique pour les tests locaux.
 
+### Clé d'envoi (signature de l'AAB)
+
+Google Play garde la clé de signature de l'application (Play App Signing). Nous ne gardons que la **clé d'envoi**, qui signe l'AAB envoyé à la Play Console. Elle et ses mots de passe ne sont jamais dans le dépôt ni dans une conversation.
+
+La clé de GéoFR existe depuis le 10 novembre 2026 : `C:\Users\JavaChrist\Documents\Keystores\geofr-upload.jks`, alias `upload`, RSA 4096, validité 10 000 jours, certificat « CN=GeoFR Upload, O=JavaChrist, C=FR ». Ne pas en créer une autre. Les étapes ci-dessous servent pour un nouveau pays ou un nouveau poste.
+
+1. Créer la clé, hors du dépôt. `keytool` est fourni avec le JDK d'Android Studio et demande lui-même les mots de passe :
+
+   ```bash
+   keytool -genkeypair -v -keystore "$USERPROFILE/Documents/Keystores/geofr-upload.jks" -alias upload -keyalg RSA -keysize 4096 -validity 10000
+   ```
+
+2. Créer `%USERPROFILE%\.geofr\keystore.properties` :
+
+   ```properties
+   storeFile=C:/Users/<utilisateur>/Documents/Keystores/geofr-upload.jks
+   storePassword=<mot de passe du keystore>
+   keyAlias=upload
+   keyPassword=<mot de passe de la clé>
+   ```
+
+   La variable `GEOFR_KEYSTORE_PROPERTIES` permet de lire ce fichier ailleurs.
+
+3. Sauvegarder le `.jks` et ses mots de passe dans le gestionnaire de mots de passe. Une clé d'envoi perdue se remplace par une demande au support Google Play, ce qui prend plusieurs jours.
+
+Chaque AAB envoyé à Google Play doit avoir un `versionCode` plus grand que le précédent (`android/app/build.gradle`). Le `versionName` reste « 1.0 » tant que Christian ne demande pas autre chose.
+
+### Icône de lancement
+
+Les icônes `android/app/src/main/res/mipmap-*/` viennent de `public/logo512.png`, le logo de l'application :
+
+- `ic_launcher.png` : le logo complet, de 48 à 192 px ;
+- `ic_launcher_round.png` : le logo à 76 % sur un disque bleu nuit, pour que « GéoFR » ne touche pas le bord ;
+- `ic_launcher_foreground.png` : le logo sans son cadre lumineux, sur 56 dp des 108 dp de l'icône adaptative, pour rester entier dans les masques ronds ;
+- fond de l'icône adaptative : `ic_launcher_background`, `#001B60`, le bleu nuit du logo.
+
+Vérifié le 10 novembre 2026 dans le tiroir d'applications du Pixel 9 (Android 16) et dans l'AAB (versionCode 2).
+
+`android/app/build.gradle` signe `bundleRelease` dès que ce fichier existe, et refuse un fichier incomplet. Sans le fichier, l'AAB sort non signé, et la Play Console le refuse. `android/.gitignore` exclut `*.jks`, `*.keystore` et `keystore.properties` par sécurité.
+
+Pour vérifier la signature et lire les empreintes :
+
+```bash
+keytool -list -v -keystore "$USERPROFILE/.geofr/geofr-upload.jks" -alias upload
+```
+
+Firebase Android (connexion Google) attend les empreintes SHA-1 :
+
+- de la clé de débogage, pour l'émulateur ;
+- de la clé d'envoi ;
+- de la **clé de signature de l'application** affichée par la Play Console (Intégrité de l'application), car c'est elle qui signe l'application installée depuis Google Play.
+
 ### Variantes du build
 
 | Variable | Effet |

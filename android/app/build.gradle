@@ -8,6 +8,20 @@ if (!geoAndroid.admobAppId.startsWith('ca-app-pub-3940256099942544~')) {
     throw new GradleException("ID d'application AdMob refusé : seul l'ID de démonstration Google est autorisé")
 }
 
+// Clé d'envoi Google Play : elle et ses mots de passe restent hors du dépôt. Le fichier de réglages est lu dans
+// GEOFR_KEYSTORE_PROPERTIES, sinon dans %USERPROFILE%\.geofr\keystore.properties. Sans lui, l'AAB n'est pas signé.
+// Voir docs/admob.md, section Clé d'envoi.
+def uploadKeyFile = file(System.getenv('GEOFR_KEYSTORE_PROPERTIES') ?: "${System.getProperty('user.home')}/.geofr/keystore.properties")
+def uploadKey = new Properties()
+if (uploadKeyFile.exists()) {
+    uploadKeyFile.withInputStream { uploadKey.load(it) }
+    ['storeFile', 'storePassword', 'keyAlias', 'keyPassword'].each { name ->
+        if (!uploadKey.getProperty(name)) {
+            throw new GradleException("Clé d'envoi : « ${name} » manque dans ${uploadKeyFile}")
+        }
+    }
+}
+
 android {
     namespace = "fr.javachrist.geofr"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -16,7 +30,7 @@ android {
         manifestPlaceholders = [admobAppId: geoAndroid.admobAppId]
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
+        versionCode 2
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
@@ -33,8 +47,21 @@ android {
             assets.srcDirs += ['../media_pack/src/main/assets']
         }
     }
+    signingConfigs {
+        if (uploadKeyFile.exists()) {
+            upload {
+                storeFile file(uploadKey.getProperty('storeFile'))
+                storePassword uploadKey.getProperty('storePassword')
+                keyAlias uploadKey.getProperty('keyAlias')
+                keyPassword uploadKey.getProperty('keyPassword')
+            }
+        }
+    }
     buildTypes {
         release {
+            if (uploadKeyFile.exists()) {
+                signingConfig signingConfigs.upload
+            }
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
