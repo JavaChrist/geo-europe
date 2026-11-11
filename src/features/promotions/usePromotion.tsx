@@ -24,8 +24,10 @@ interface Promotion {
 /**
  * Promotions JavaChrist entre deux parties (voir `docs/promotions.md`).
  * `playing` : une partie est en cours. Rien ne s'ouvre alors, et rien ne s'ouvre avant la fin des modales de résultat.
+ * `sharedDevice` : mode Famille, un enfant peut jouer sur l'appareil d'un adulte. Aucune question d'âge, aucune vidéo
+ * ni requête du catalogue, résultats et fin de partie compris. La partie terminée compte quand même dans la fréquence.
  */
-export function usePromotion(playing: boolean): Promotion {
+export function usePromotion(playing: boolean, { sharedDevice = false }: { sharedDevice?: boolean } = {}): Promotion {
   const { entitlements, status } = useEntitlements();
   const modalBusy = useModalBusy();
   const [pending, setPending] = useState(false);
@@ -33,7 +35,7 @@ export function usePromotion(playing: boolean): Promotion {
   const config = content.country.promotions;
   const code = content.country.code;
   const access: PromoAccess = { configured: config !== null, entitlementsReady: status !== "loading", adsRemoved: entitlements.adsRemoved };
-  const allowed = promotionsAllowed(access);
+  const allowed = promotionsAllowed(access) && !sharedDevice;
 
   // Catalogue lu à l'avance, pour que la vidéo démarre sans attente. Seulement pour un adulte déclaré.
   useEffect(() => {
@@ -83,7 +85,7 @@ export function usePromotion(playing: boolean): Promotion {
   useHideAdBanner(playing || step.kind !== "idle");
 
   const overlay =
-    step.kind === "ask" ? (
+    sharedDevice ? null : step.kind === "ask" ? (
       <AgeQuestion onAnswer={answer} />
     ) : step.kind === "play" ? (
       <PromoPlayer key={step.campaign.id} campaign={step.campaign} onClose={() => setStep(IDLE)} />

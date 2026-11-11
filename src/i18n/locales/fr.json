@@ -601,7 +601,7 @@
     "unavailable": "La vidéo ne peut pas être lue. Vous pouvez la fermer.",
     "age": {
       "title": "Une question avant de continuer",
-      "body": "Entre deux parties, GéoFR peut montrer de courtes vidéos sur les autres applications de JavaChrist. Elles sont réservées aux adultes.",
+      "body": "GéoFR adapte certains contenus affichés entre deux parties à l'âge de la personne qui utilise cet appareil. Le jeu reste le même quelle que soit la réponse.",
       "question": "Avez-vous 18 ans ou plus ?",
       "adult": "J'ai 18 ans ou plus",
       "minor": "J'ai moins de 18 ans",

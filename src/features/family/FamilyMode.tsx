@@ -73,8 +73,8 @@ export function FamilyMode() {
   useRestrictedAdAudience(true);
   // La partie est déjà gardée à chaque étape (saveFamilyGame) : la navigation demande seulement confirmation.
   useLeaveGuard(game !== null && game.phase !== "finished", { bodyKey: "journey.leave.bodyFamily", backHref: "/" });
-  // Jamais entre deux tours : la promotion n'apparaît que sur l'écran final ou l'accueil du mode.
-  const promotion = usePromotion(game !== null && game.phase !== "finished");
+  // Appareil partagé : aucune vidéo de promotion ni question d'âge pendant tout le mode, écran final compris.
+  const promotion = usePromotion(game !== null && game.phase !== "finished", { sharedDevice: true });
 
   // Chaque écran entre deux joueurs repart du haut : rien de la question précédente ne reste à l'écran.
   const screen = game ? `${game.phase}-${game.turns.length}` : "setup";

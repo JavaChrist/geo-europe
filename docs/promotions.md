@@ -118,12 +118,12 @@ Le catalogue converti est gardé sur l'appareil dans `geo-europe.<pays>.promotio
 
 | Règle | Comment |
 | --- | --- |
-| Après 3 parties terminées | Compteur sur l'appareil, partagé entre Solo, défis et Famille |
+| Après 3 parties terminées | Compteur sur l'appareil, partagé entre Solo, défis et Famille (une partie Famille compte, mais n'affiche rien) |
 | Partie terminée = | Un niveau Solo terminé, un défi spécial terminé, ou une partie Famille arrivée au classement final |
 | Ne compte pas | Une question seule, une partie quittée, un rechargement de page |
 | Jamais pendant une partie | `usePromotion(playing)` : rien ne s'ouvre tant qu'une partie est en cours |
 | Après les récompenses | La vidéo attend que les modales (cartes, badges) soient fermées, puis 1,5 s |
-| Mode Famille | Seulement sur l'écran final ou l'accueil du mode, jamais entre deux tours ni sur les résumés de manche |
+| Mode Famille | Jamais : ni question d'âge, ni vidéo, ni requête du catalogue, pendant tout le mode, résultats et fin de partie compris (`usePromotion(…, { sharedDevice: true })`). Un enfant peut jouer sur l'appareil d'un adulte |
 | Pas deux fois la même | La dernière vidéo vue est écartée du tirage quand une autre existe |
 | Sans campagne | Catalogue vide ou réseau absent : rien ne s'affiche, la vidéo sera proposée après la partie suivante |
 
@@ -131,7 +131,7 @@ Un rechargement ne compte jamais : une partie Solo n'est pas sauvegardée en cou
 
 ## Brancher un écran de jeu
 
-Trois écrans sont branchés : `src/features/journey/LevelGame.tsx` (niveau Solo), `src/features/journey/SpecialChallengeGame.tsx` (défi spécial) et `src/features/family/FamilyMode.tsx`. Un nouvel écran de jeu suit le même modèle :
+Trois écrans sont branchés : `src/features/journey/LevelGame.tsx` (niveau Solo), `src/features/journey/SpecialChallengeGame.tsx` (défi spécial) et `src/features/family/FamilyMode.tsx`, ce dernier avec `{ sharedDevice: true }` : il compte la partie terminée sans rien afficher. Un nouvel écran de jeu suit le même modèle :
 
 ```tsx
 const promotion = usePromotion(partieEnCours);
@@ -146,7 +146,8 @@ promotion.gameCompleted();
 
 - `partieEnCours` : vrai pendant toute la partie. Exemples : `run !== null` en Solo, `game !== null && game.phase !== "finished"` en Famille.
 - `gameCompleted()` ne doit jamais être appelé pour une partie quittée, ni au chargement de la page.
-- `overlay` vaut `null` la plupart du temps. En Famille, il n'est rendu que sur l'accueil du mode et sur l'écran final.
+- `overlay` vaut `null` la plupart du temps, et toujours avec `sharedDevice`.
+- Tout écran joué à plusieurs sur un même appareil passe `{ sharedDevice: true }`.
 - Appeler `usePromotion` avant tout retour anticipé du composant (règles des hooks).
 - L'attente des modales repose sur `useModalBusy()` (`src/ui/modal/ModalProvider.tsx`) : vrai tant qu'une modale `useModal()` est ouverte ou en file. Tout écran qui doit passer après les modales peut s'en servir.
 
@@ -168,8 +169,9 @@ Tant que les droits se chargent (`status: "loading"`), rien n'est affiché ni de
 
 ## Âge
 
-Les campagnes publiées sont réservées aux adultes (`audience: "adult"`). Avant la première vidéo, le jeu demande une fois « Avez-vous 18 ans ou plus ? » :
+Les campagnes publiées sont réservées aux adultes (`audience: "adult"`). Avant la première vidéo, hors mode Famille, le jeu demande une fois « Avez-vous 18 ans ou plus ? » :
 
+- texte neutre : il dit seulement que certains contenus entre deux parties s'adaptent à l'âge, et que le jeu reste le même quelle que soit la réponse. Il ne parle ni de vidéos réservées aux adultes ni d'aucun avantage ;
 - deux réponses de même poids, rien n'est coché d'avance ;
 - « Plus tard » ou Échap : pas de réponse, la question reviendra après 3 autres parties ;
 - « J'ai moins de 18 ans » : plus aucune vidéo ni requête sur cet appareil ;

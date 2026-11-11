@@ -1,6 +1,7 @@
 // Vérifie les promotions JavaChrist : conversion REST Firestore, contrôle des campagnes, tirage, fréquence, droits.
 // Usage : node scripts/check-promotions.mjs
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import {
   afterGameCompleted,
   afterPromoShown,
@@ -157,4 +158,17 @@ assert.equal(
 assert.equal(promotionsConfigErrors({ ...country.promotions, sourceAppId: "Geo FR" }).length, 1);
 assert.deepEqual(promotionsConfigErrors(null), []);
 
-console.log("Promotions : conversion, contrôle, tirage, fréquence, droits et âge vérifiés.");
+// Mode Famille : appareil partagé, aucune promotion ni question d'âge.
+const source = (path) => readFileSync(new URL(`../${path}`, import.meta.url), "utf8");
+assert.match(source("src/features/family/FamilyMode.tsx"), /usePromotion\([^;]*\{ sharedDevice: true \}\)/, "Famille sans promotion");
+const hook = source("src/features/promotions/usePromotion.tsx");
+assert.match(hook, /promotionsAllowed\(access\) && !sharedDevice/, "sharedDevice coupe catalogue et vidéo");
+assert.match(hook, /sharedDevice \? null/, "sharedDevice : aucun overlay");
+
+// Question d'âge neutre : aucun avantage ni mention des contenus réservés aux adultes.
+const age = JSON.parse(source("src/i18n/locales/fr.json")).promo.age;
+for (const [key, text] of Object.entries(age)) {
+  assert.doesNotMatch(text, /réservé|vidéo|débloqu|gratuit|bonus|récompense/i, `promo.age.${key} neutre`);
+}
+
+console.log("Promotions : conversion, contrôle, tirage, fréquence, droits, âge et mode Famille vérifiés.");

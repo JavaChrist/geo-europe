@@ -108,7 +108,7 @@ Une application AdMob et un bloc de bannière **par pays**. Deux éditeurs seule
 
 ### Appareil partagé : mode Famille
 
-Tant que l'écran Mode Famille est ouvert (`useRestrictedAdAudience(true)`), le public est `restricted`, même si l'appareil a répondu « 18 ans ou plus ». En entrant dans le mode, `AdsProvider` retire la bannière, réapplique TFCD et TFUA à `true`, `npa: true`, classification G, sans appel UMP, puis seulement redemande une annonce. Les réglages adultes reviennent en quittant le mode, de la même façon.
+Tant que l'écran Mode Famille est ouvert (`useRestrictedAdAudience(true)`), le public est `restricted`, même si l'appareil a répondu « 18 ans ou plus ». En entrant dans le mode, `AdsProvider` retire la bannière, réapplique TFCD et TFUA à `true`, `npa: true`, classification G, sans appel UMP, puis seulement redemande une annonce. Les réglages adultes reviennent en quittant le mode, de la même façon. Les vidéos de promotion pour adultes et la question d'âge sont aussi coupées pendant tout le mode (voir [promotions.md](promotions.md)).
 
 ### Identifiant publicitaire et Privacy Sandbox
 
