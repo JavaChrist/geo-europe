@@ -216,10 +216,15 @@ const toPublic = (order: StoredOrder): PublicOrder => ({
   status: order.status,
 });
 
+/** Les détails absents sont omis : Firestore refuse `undefined`, et l'écriture entière échouerait. */
 const historyEntry = (
   event: string,
   details: Record<string, unknown> = {},
-) => ({ event, at: new Date().toISOString(), ...details });
+) => ({
+  event,
+  at: new Date().toISOString(),
+  ...Object.fromEntries(Object.entries(details).filter(([, value]) => value !== undefined)),
+});
 
 /** Version des conditions de vente acceptée, celle des documents copiés depuis le Legal Kit. */
 const termsVersion = `${content.legalRelease.version}-${content.legalRelease.mode}`;
