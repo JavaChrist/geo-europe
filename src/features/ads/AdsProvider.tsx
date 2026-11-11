@@ -123,6 +123,7 @@ export function AdsProvider({ children }: { children: ReactNode }) {
   const running = useRef<Promise<void> | null>(null);
   const again = useRef(false);
   const suspended = useRef(0);
+  const retryTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const setBannerHeight = (height: number) => document.documentElement.style.setProperty(BANNER_HEIGHT_VAR, `${Math.max(0, height)}px`);
 
@@ -260,6 +261,12 @@ export function AdsProvider({ children }: { children: ReactNode }) {
         state.current.banner = "unknown";
         setBannerHeight(0);
         void reconcile();
+        // Sans ce rappel, aucune nouvelle requête tant que rien ne change à l'écran : l'échec durerait toute la session.
+        if (retryTimer.current) clearTimeout(retryTimer.current);
+        retryTimer.current = setTimeout(() => {
+          retryTimer.current = null;
+          void reconcile();
+        }, ADS_RULES.retryAfterMs + 1_000);
       },
     })
       .then((remove) => {
@@ -270,6 +277,8 @@ export function AdsProvider({ children }: { children: ReactNode }) {
     return () => {
       cancelled = true;
       stop?.();
+      if (retryTimer.current) clearTimeout(retryTimer.current);
+      retryTimer.current = null;
     };
   }, [allowed, reconcile]);
 
