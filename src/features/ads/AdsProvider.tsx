@@ -124,6 +124,8 @@ export function AdsProvider({ children }: { children: ReactNode }) {
   const again = useRef(false);
   const suspended = useRef(0);
   const retryTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  /** Dernière hauteur annoncée par le plugin pour une bannière chargée, réappliquée à la reprise. */
+  const lastHeight = useRef(0);
 
   const setBannerHeight = (height: number) => document.documentElement.style.setProperty(BANNER_HEIGHT_VAR, `${Math.max(0, height)}px`);
 
@@ -191,6 +193,9 @@ export function AdsProvider({ children }: { children: ReactNode }) {
       if (now.banner === "hidden") {
         await resumeBanner();
         now.banner = "shown";
+        // Le plugin annonce la hauteur pendant la reprise, parfois avant cette ligne : elle serait perdue,
+        // et la bannière couvrirait le bas de la page.
+        setBannerHeight(lastHeight.current);
       }
       return;
     }
@@ -254,7 +259,10 @@ export function AdsProvider({ children }: { children: ReactNode }) {
     let stop: (() => void) | null = null;
     let cancelled = false;
     void listenBanner({
-      onHeight: (height) => setBannerHeight(state.current.banner === "shown" ? height : 0),
+      onHeight: (height) => {
+        if (height > 0) lastHeight.current = height;
+        setBannerHeight(state.current.banner === "shown" ? height : 0);
+      },
       onFailed: () => {
         // Bannière vide retirée : la page ne garde pas d'espace réservé pour rien.
         state.current.failedAt = Date.now();
