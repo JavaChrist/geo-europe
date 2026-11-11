@@ -53,6 +53,17 @@ assert.ok(
   gradle.includes("admobAppId ==~ /(ca-app-pub-3940256099942544|ca-app-pub-8288172940135426)~\\d+/"),
   "android/app/build.gradle doit refuser un ID AdMob d'un autre éditeur",
 );
+// Aucun identifiant publicitaire ni Privacy Sandbox dans le manifeste fusionné : les permissions du SDK sont retirées.
+const manifest = readFileSync(new URL("../android/app/src/main/AndroidManifest.xml", import.meta.url), "utf8");
+for (const permission of [
+  "com.google.android.gms.permission.AD_ID",
+  "android.permission.ACCESS_ADSERVICES_AD_ID",
+  "android.permission.ACCESS_ADSERVICES_TOPICS",
+  "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+]) {
+  assert.ok(manifest.includes(`<uses-permission android:name="${permission}" tools:node="remove" />`), `${permission} doit être retirée`);
+}
+
 // 3. app-ads.txt, à la racine du site web, autorise l'éditeur JavaChrist.
 const appAds = readFileSync(new URL("../public/app-ads.txt", import.meta.url), "utf8");
 assert.match(appAds, new RegExp(`^google\\.com, ${ADMOB_JAVACHRIST_PUBLISHER.replace("ca-app-", "")}, DIRECT, f08c47fec0942fa0$`, "m"));
@@ -72,6 +83,10 @@ for (const key of ["adsRemoved", "granted", "forceNoAds"]) assert.equal(adsAllow
 assert.equal(adAudience("adult"), "adult");
 assert.equal(adAudience("minor"), "restricted");
 assert.equal(adAudience(null), "restricted");
+// Mode Famille (appareil partagé) : jamais de réglage adulte, même après « 18 ans ou plus ».
+assert.equal(adAudience("adult", true), "restricted");
+assert.equal(adAudience("minor", true), "restricted");
+assert.equal(adAudience(null, true), "restricted");
 const restricted = requestSettingsFor("restricted");
 assert.deepEqual(restricted, { tagForChildDirectedTreatment: true, tagForUnderAgeOfConsent: true, maxAdContentRating: "General", nonPersonalized: true, consent: "skip" });
 const adult = requestSettingsFor("adult");
@@ -115,6 +130,9 @@ const provider = readFileSync(new URL("../src/features/ads/AdsProvider.tsx", imp
 assert.match(provider, /adsRemoved: entitlements\.adsRemoved/, "AdsProvider doit lire entitlements.adsRemoved");
 assert.match(provider, /granted: entitlements\.granted/, "AdsProvider doit lire entitlements.granted");
 assert.match(provider, /entitlementsReady: status === "ready"/, "AdsProvider : aucune annonce tant que les droits ne sont pas prêts");
+const family = readFileSync(new URL("../src/features/family/FamilyMode.tsx", import.meta.url), "utf8");
+assert.match(family, /useRestrictedAdAudience\(true\)/, "Mode Famille : public restreint pendant tout le mode");
+assert.match(provider, /adAudience\(adult, restrictCount > 0\)/, "AdsProvider doit appliquer la restriction du mode Famille");
 const { readdirSync, statSync } = await import("node:fs");
 const callers = [];
 const walk = (dir) => {

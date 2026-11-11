@@ -106,6 +106,14 @@ Une application AdMob et un bloc de bannière **par pays**. Deux éditeurs seule
 
 `ads.admob.testDevices` liste les appareils déclarés au SDK (`initializeForTesting`, `testingDevices`). Ils reçoivent des annonces de test même en `live`, ce qui protège le compte AdMob des clics de développement. L'ID d'un appareil s'affiche dans logcat au premier chargement (`Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("…"))`). Déclaré : le Samsung SM-A176B de test.
 
+### Appareil partagé : mode Famille
+
+Tant que l'écran Mode Famille est ouvert (`useRestrictedAdAudience(true)`), le public est `restricted`, même si l'appareil a répondu « 18 ans ou plus ». En entrant dans le mode, `AdsProvider` retire la bannière, réapplique TFCD et TFUA à `true`, `npa: true`, classification G, sans appel UMP, puis seulement redemande une annonce. Les réglages adultes reviennent en quittant le mode, de la même façon.
+
+### Identifiant publicitaire et Privacy Sandbox
+
+Le manifeste retire `com.google.android.gms.permission.AD_ID`, `ACCESS_ADSERVICES_AD_ID`, `ACCESS_ADSERVICES_TOPICS` et `ACCESS_ADSERVICES_ATTRIBUTION`, déclarées par Google Mobile Ads. `check:ads` le vérifie. Play Console, déclaration « Identifiant publicitaire » : **Non**, l'application n'utilise pas l'identifiant publicitaire. Le manifeste fusionné ne contient pas la permission, donc aucune finalité n'est à cocher.
+
 | Fichier | Contenu |
 | --- | --- |
 | `content/<pays>/android.json` | `applicationId` (= `androidPackage`), `appName` (= `appName`), `admobAppId`. Lu par `capacitor.config.ts` et par Gradle (`GEO_COUNTRY`) |

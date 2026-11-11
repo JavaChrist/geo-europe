@@ -28,6 +28,7 @@ import {
 } from "@/engine/family";
 import type { RunBank } from "@/engine/level-run";
 import { ChallengeView } from "@/features/journey/ChallengeView";
+import { useRestrictedAdAudience } from "@/features/ads/AdsProvider";
 import { usePromotion } from "@/features/promotions/usePromotion";
 import { useHoldUpdate } from "@/features/update/update-hold";
 import { CheckingAccess, LockCard } from "@/features/account/RegionGate";
@@ -68,6 +69,8 @@ export function FamilyMode() {
   const storageWarned = useRef(false);
   const bank = game ? bankOf(game.scope) : null;
   useHoldUpdate(game !== null && game.phase !== "finished");
+  // Appareil partagé : annonces avec les protections enfants pendant tout le mode, quelle que soit la réponse d'âge.
+  useRestrictedAdAudience(true);
   // La partie est déjà gardée à chaque étape (saveFamilyGame) : la navigation demande seulement confirmation.
   useLeaveGuard(game !== null && game.phase !== "finished", { bodyKey: "journey.leave.bodyFamily", backHref: "/" });
   // Jamais entre deux tours : la promotion n'apparaît que sur l'écran final ou l'accueil du mode.

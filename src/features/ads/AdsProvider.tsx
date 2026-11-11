@@ -26,6 +26,9 @@ import { useModalBusy } from "@/ui/modal/ModalProvider";
  * Elle se place juste au-dessus de la barre de navigation, la page réserve sa hauteur (`--ad-banner-h`),
  * et elle est masquée pendant une partie, une modale, la question d'âge ou une vidéo de promotion.
  *
+ * Mode Famille ouvert : public restreint, même après une réponse « adulte ». Les réglages adultes (UMP, TFCD et TFUA à
+ * `false`) sont retirés avec la bannière avant toute nouvelle requête, et réappliqués seulement en quittant le mode.
+ *
  * Aucune requête sans droit à la publicité (édition sans publicités, accès offert, droits en chargement),
  * ni sur le web. Toutes les opérations natives passent l'une après l'autre par `reconcile`.
  */
@@ -37,6 +40,8 @@ const BANNER_HEIGHT_VAR = "--ad-banner-h";
 interface AdsApi {
   /** Masque la bannière tant que la fonction rendue n'est pas appelée. */
   hide: () => () => void;
+  /** Public restreint tant que la fonction rendue n'est pas appelée (appareil partagé). */
+  restrict: () => () => void;
   /** Consentement UMP d'un adulte, `null` tant qu'il n'a pas été demandé. */
   consent: ConsentState | null;
   /** Rouvre le formulaire « Choix publicitaires » de Google. */
@@ -99,6 +104,7 @@ export function AdsProvider({ children }: { children: ReactNode }) {
   const native = useSyncExternalStore(noSubscription, isNativeApp, () => false);
   const adult = useSyncExternalStore(onAdultAnswerChange, () => readPromoState(code).adult, () => null);
   const [hideCount, setHideCount] = useState(0);
+  const [restrictCount, setRestrictCount] = useState(0);
   const [suspendCount, setSuspendCount] = useState(0);
   const [consent, setConsent] = useState<ConsentState | null>(null);
 
@@ -113,7 +119,7 @@ export function AdsProvider({ children }: { children: ReactNode }) {
       granted: entitlements.granted,
       forceNoAds: FORCE_NO_ADS,
     });
-  const audience = adAudience(adult);
+  const audience = adAudience(adult, restrictCount > 0);
   const measured = useBottomNavHeight(allowed);
   const margin = measured ?? 0;
   const visible = allowed && measured !== null && hideCount === 0 && !modalBusy;
@@ -298,12 +304,17 @@ export function AdsProvider({ children }: { children: ReactNode }) {
     return () => setHideCount((count) => count - 1);
   }, []);
 
+  const restrict = useCallback(() => {
+    setRestrictCount((count) => count + 1);
+    return () => setRestrictCount((count) => count - 1);
+  }, []);
+
   const openPrivacyOptions = useCallback(async () => {
     updateConsent(await showPrivacyOptions());
     void reconcile();
   }, [reconcile]);
 
-  const api = useMemo<AdsApi>(() => ({ hide, consent, openPrivacyOptions, suspend }), [hide, consent, openPrivacyOptions, suspend]);
+  const api = useMemo<AdsApi>(() => ({ hide, restrict, consent, openPrivacyOptions, suspend }), [hide, restrict, consent, openPrivacyOptions, suspend]);
 
   return <AdsContext value={api}>{children}</AdsContext>;
 }
@@ -316,6 +327,16 @@ export function useHideAdBanner(hidden: boolean): void {
     if (!hidden || !hide) return;
     return hide();
   }, [hidden, hide]);
+}
+
+/** Public restreint tant que `active` est vrai : mode Famille, où un enfant peut jouer sur l'appareil d'un adulte. */
+export function useRestrictedAdAudience(active: boolean): void {
+  const api = use(AdsContext);
+  const restrict = api?.restrict;
+  useEffect(() => {
+    if (!active || !restrict) return;
+    return restrict();
+  }, [active, restrict]);
 }
 
 export function useAds(): AdsApi | null {

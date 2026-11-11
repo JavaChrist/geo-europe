@@ -31,8 +31,12 @@ export const ADS_RULES = {
 
 export type AdAudience = "adult" | "restricted";
 
-/** Seule une réponse « adulte » explicite ouvre le consentement UMP. Mineur, « plus tard » ou effacé : restreint. */
-export const adAudience = (adult: AdultAnswer): AdAudience => (adult === "adult" ? "adult" : "restricted");
+/**
+ * Seule une réponse « adulte » explicite ouvre le consentement UMP. Mineur, « plus tard » ou effacé : restreint.
+ * `sharedDevice` : mode Famille ouvert, un enfant peut jouer sur l'appareil d'un adulte. Toujours restreint.
+ */
+export const adAudience = (adult: AdultAnswer, sharedDevice = false): AdAudience =>
+  adult === "adult" && !sharedDevice ? "adult" : "restricted";
 
 /** Réglages appliqués au SDK avant toute requête (`MobileAds.setRequestConfiguration`). */
 export interface AdRequestSettings {
