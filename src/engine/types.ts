@@ -75,9 +75,16 @@ export interface PromotionsConfig {
  * L'ID d'application, lu par Gradle, est dans `content/<pays>/android.json`.
  */
 export interface AdsConfig {
+  /**
+   * `test` : le SDK ne sert que des annonces de test, même avec les vrais identifiants.
+   * `live` : annonces réelles, refusé par `npm run check` tant que Christian ne l'a pas validé.
+   */
+  mode: "test" | "live";
   admob: {
-    /** Bloc de bannière adaptative Android. Seul l'ID de démonstration Google est accepté pour l'instant. */
+    /** Bloc de bannière adaptative Android : éditeur de démonstration de Google ou éditeur JavaChrist. */
     androidBannerAdUnitId: string;
+    /** Appareils qui reçoivent toujours des annonces de test (ID affiché par le SDK dans logcat), y compris en `live`. */
+    testDevices: string[];
   };
 }
 

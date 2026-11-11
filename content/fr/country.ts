@@ -20,6 +20,14 @@ export const country: CountryConfig = {
   timeZone: "Europe/Paris",
   // Catalogue du gestionnaire JavaChrist-Promotions, hébergé dans le projet Firebase de Motissimo, pas dans celui de GéoFR.
   promotions: { catalogProjectId: "motissimo-456ba", sourceAppId: "geofr", locale: "fr" },
-  // Bannière AdMob de l'application Android : ID de démonstration Google uniquement, tant que rien n'est validé.
-  ads: { admob: { androidBannerAdUnitId: "ca-app-pub-3940256099942544/9214589741" } },
+  // Bannière AdMob de l'application Android. Vrais identifiants JavaChrist, mais annonces de test (`mode: "test"`)
+  // tant que Christian n'a pas validé les annonces réelles. Voir docs/admob.md.
+  ads: {
+    mode: "test",
+    admob: {
+      androidBannerAdUnitId: "ca-app-pub-8288172940135426/6775667962",
+      // Samsung SM-A176B de test.
+      testDevices: ["FCEA8B6FAB5CD00B83C056A463515D4B"],
+    },
+  },
 };

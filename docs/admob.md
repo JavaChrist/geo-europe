@@ -2,7 +2,7 @@
 
 Bannière AdMob des éditions avec publicités, dans l'application Android Capacitor. Le même code sert à GéoDE, GéoES et GéoIT : seule la configuration de `content/<pays>/` change.
 
-État : **en place avec les identifiants de démonstration de Google uniquement**. Aucune annonce réelle, aucune publication Google Play sans la validation de Christian.
+État : **vrais identifiants AdMob JavaChrist, annonces de test uniquement** (`ads.mode: "test"`). Aucune annonce réelle, aucune publication Google Play sans la validation de Christian.
 
 ## Ce qui est affiché
 
@@ -89,30 +89,41 @@ Une restauration ne peut donc pas ramener des résultats, des prénoms du Mode F
 
 ## Identifiants
 
-Une application AdMob et un bloc de bannière **par pays**. Tant que Christian n'a pas validé les annonces réelles, seuls les identifiants de démonstration de Google sont acceptés, à trois endroits :
+Une application AdMob et un bloc de bannière **par pays**. Deux éditeurs seulement sont acceptés : celui de démonstration de Google (`ca-app-pub-3940256099942544`) et celui de JavaChrist (`ca-app-pub-8288172940135426`). L'ID d'application et le bloc doivent venir du même éditeur.
 
 | Contrôle | Refuse |
 | --- | --- |
-| `npm run check:ads` | Tout ID d'application ou de bloc qui n'est pas celui de démonstration |
-| `android/app/build.gradle` | Le build si `admobAppId` ne commence pas par `ca-app-pub-3940256099942544~` |
-| `src/services/ads/admob.ts` | `showBanner` avec un bloc qui n'est pas de démonstration |
+| `npm run check:ads` | Un ID d'un autre éditeur, deux éditeurs mélangés, un appareil de test mal formé, et tout `mode` autre que `test` |
+| `android/app/build.gradle` | Le build si `admobAppId` n'est pas `ca-app-pub-3940256099942544~…` ou `ca-app-pub-8288172940135426~…` |
+| `src/services/ads/admob.ts` | `showBanner` avec un bloc d'un autre éditeur |
 
-Les annonces sont toujours demandées en mode test (`isTesting`, `initializeForTesting`).
+### Mode test
+
+`ads.mode` décide du type d'annonces, pas les identifiants :
+
+- `test` (actuel) : `showBanner` passe `isTesting: true`. Le plugin remplace alors le bloc réel par le bloc de test de Google (`ca-app-pub-3940256099942544/6300978111`, visible dans logcat), et aucune annonce réelle n'est demandée, sur aucun appareil.
+- `live` : bloc réel. `npm run check:ads` le refuse tant que Christian ne l'a pas validé.
+
+`ads.admob.testDevices` liste les appareils déclarés au SDK (`initializeForTesting`, `testingDevices`). Ils reçoivent des annonces de test même en `live`, ce qui protège le compte AdMob des clics de développement. L'ID d'un appareil s'affiche dans logcat au premier chargement (`Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("…"))`). Déclaré : le Samsung SM-A176B de test.
 
 | Fichier | Contenu |
 | --- | --- |
 | `content/<pays>/android.json` | `applicationId` (= `androidPackage`), `appName` (= `appName`), `admobAppId`. Lu par `capacitor.config.ts` et par Gradle (`GEO_COUNTRY`) |
-| `content/<pays>/country.ts` | `ads: { admob: { androidBannerAdUnitId } }`, ou `null` pour aucune annonce |
+| `content/<pays>/country.ts` | `ads: { mode, admob: { androidBannerAdUnitId, testDevices } }`, ou `null` pour aucune annonce |
+| `public/app-ads.txt` | `google.com, pub-8288172940135426, DIRECT, f08c47fec0942fa0`, servi à la racine du site web |
 
+GéoFR : application `ca-app-pub-8288172940135426~6935450069`, bannière `ca-app-pub-8288172940135426/6775667962`.
 Démonstration Google : application `ca-app-pub-3940256099942544~3347511713`, bannière adaptative `ca-app-pub-3940256099942544/9214589741`.
 
 ### Passer aux annonces réelles (validation de Christian obligatoire)
 
-1. Créer l'application dans AdMob, plateforme Android, et la lier à l'application Google Play quand elle existe.
-2. Créer un bloc « Bannière » et, dans « Confidentialité et messages », le message RGPD (UMP) de l'application.
-3. Dans les paramètres de l'application AdMob, déclarer le public : conception pour les familles, contenu G maximum.
-4. Remplacer les ID dans `android.json` et `country.ts`, et lever les trois contrôles ci-dessus, avec `isTesting` et `initializeForTesting` retirés. Garder les appareils de test déclarés dans AdMob pour les essais.
-5. Publier `app-ads.txt` à la racine du site déclaré sur la fiche Google Play (par exemple `https://appsgeo.com/app-ads.txt`) avec la ligne fournie par AdMob : `google.com, pub-<ID éditeur>, DIRECT, f08c47fec0942fa0`. L'ID éditeur est celui du compte AdMob de Christian.
+Fait : application et bloc créés dans AdMob, ID dans `android.json` et `country.ts`, `public/app-ads.txt` dans le dépôt.
+
+1. Vérifier que `app-ads.txt` est servi à la racine du site déclaré comme site du développeur sur la fiche Google Play, puis que AdMob l'a validé (onglet app-ads.txt, jusqu'à 24 heures).
+2. Lier l'application AdMob à l'application Google Play.
+3. Dans « Confidentialité et messages », publier le message RGPD (UMP) de l'application.
+4. Dans les paramètres de l'application AdMob, déclarer le public : conception pour les familles, contenu G maximum.
+5. Passer `ads.mode` à `"live"` et retirer de `adsConfigErrors` le refus du mode `live`, puis construire un nouveau versionCode. Garder `testDevices`.
 
 ## Google Play : sécurité des données
 
@@ -151,7 +162,7 @@ Paramètres et confidentialité, rubrique Gestion des consentements : dans l'app
 
 ## Tests sur l'émulateur
 
-Identifiants de démonstration Google uniquement : `check:ads`, Gradle et `showBanner` refusent tout autre identifiant.
+Annonces de test uniquement (`ads.mode: "test"`) : `check:ads`, Gradle et `showBanner` refusent tout autre éditeur que la démonstration Google et JavaChrist.
 
 ```bash
 npm run build:export
@@ -351,7 +362,7 @@ Reste, avec la validation de Christian :
 1. Déployer le serveur (routes Google Play, CORS de l'application) et publier les règles Firestore.
 2. Configurer la Play Console, Pub/Sub et Firebase Android (voir [paiements.md](paiements.md#configuration-google-play-à-faire-validation-de-christian)).
 3. Tester en piste interne avec un testeur de licence.
-4. Passer aux identifiants AdMob réels, puis remplir `app-ads.txt`, la déclaration de sécurité des données et le questionnaire Families.
+4. Passer en `ads.mode: "live"` (identifiants réels et `app-ads.txt` déjà en place), puis remplir la déclaration de sécurité des données et le questionnaire Families.
 5. Faire mettre à jour les documents juridiques par le Legal Kit (section suivante).
 
 ## Legal Kit : version 0.3.2 (brouillon)
@@ -378,7 +389,7 @@ Le bandeau BROUILLON ne disparaît qu'avec `npm run generate -- --app geofr --pu
 ## Ajouter un pays (GéoDE, GéoES, GéoIT)
 
 1. `content/<pays>/android.json` avec `applicationId`, `appName` et l'ID d'application de démonstration.
-2. `ads` dans `content/<pays>/country.ts`, avec le bloc de démonstration, ou `null`.
+2. `ads` dans `content/<pays>/country.ts`, avec `mode: "test"`, le bloc de démonstration et `testDevices: []`, ou `null`.
 3. `GEO_COUNTRY=<pays> npm run check:ads`.
 4. Plus tard, avec validation : une application AdMob propre au pays, son message UMP, ses ID.
 

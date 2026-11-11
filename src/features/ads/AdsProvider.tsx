@@ -2,7 +2,7 @@
 
 import { createContext, use, useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
 import content from "@country";
-import { adAudience, adsAllowed, ADS_RULES, mayRequestBanner, requestSettingsFor, type AdAudience } from "@/engine/ads";
+import { adAudience, adsAllowed, ADS_RULES, adsTestMode, mayRequestBanner, requestSettingsFor, type AdAudience } from "@/engine/ads";
 import { useEntitlements } from "@/features/account/EntitlementsProvider";
 import {
   applyRequestSettings,
@@ -139,6 +139,9 @@ export function AdsProvider({ children }: { children: ReactNode }) {
     const want = desired.current;
     const now = state.current;
     const adUnit = config?.admob.androidBannerAdUnitId;
+    // Sans configuration, aucune requête : ces valeurs ne servent qu'avec un bloc, et restent prudentes.
+    const testing = config ? adsTestMode(config) : true;
+    const testDevices = config?.admob.testDevices ?? [];
 
     if (!want.allowed || !adUnit || (now.applied !== null && now.applied !== want.audience)) {
       if (now.banner !== "none") await removeBanner();
@@ -153,7 +156,7 @@ export function AdsProvider({ children }: { children: ReactNode }) {
     const settings = requestSettingsFor(want.audience);
     if (now.applied === null) {
       // Réglages d'âge appliqués avant toute requête. Échec : aucune annonce.
-      await applyRequestSettings(settings);
+      await applyRequestSettings(settings, testDevices);
       now.applied = want.audience;
     }
 
@@ -202,7 +205,7 @@ export function AdsProvider({ children }: { children: ReactNode }) {
     if (now.banner !== "none") await removeBanner();
     now.banner = "none";
     if (Date.now() - now.failedAt < ADS_RULES.retryAfterMs) return;
-    await showBanner(adUnit, settings, want.margin);
+    await showBanner(adUnit, settings, want.margin, testing);
     now.banner = "shown";
     now.margin = want.margin;
   }, [config]);

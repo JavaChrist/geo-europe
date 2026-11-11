@@ -1,6 +1,6 @@
 import { Capacitor } from "@capacitor/core";
 import type { AdMobPlugin } from "@capacitor-community/admob";
-import { isDemoAdUnit, type AdRequestSettings } from "@/engine/ads";
+import { isAllowedAdUnit, type AdRequestSettings } from "@/engine/ads";
 import { AppError } from "@/services/app-error";
 
 /**
@@ -25,14 +25,15 @@ function load() {
  * Applique au SDK les réglages du public (TFCD, TFUA, classification) avant toute requête.
  * Le plugin les passe à `MobileAds.setRequestConfiguration` à chaque appel : ils valent pour toutes les requêtes suivantes.
  */
-export async function applyRequestSettings(settings: AdRequestSettings): Promise<void> {
+export async function applyRequestSettings(settings: AdRequestSettings, testDevices: string[]): Promise<void> {
   const { AdMob, module } = await load();
   await AdMob.initialize({
     tagForChildDirectedTreatment: settings.tagForChildDirectedTreatment,
     tagForUnderAgeOfConsent: settings.tagForUnderAgeOfConsent,
     maxAdContentRating: module.MaxAdContentRating.General,
-    // Identifiants de démonstration uniquement : les annonces sont toujours des annonces de test.
-    initializeForTesting: true,
+    // Le plugin ne déclare les appareils de test que si `initializeForTesting` est vrai.
+    initializeForTesting: testDevices.length > 0,
+    testingDevices: testDevices,
   });
 }
 
@@ -84,10 +85,13 @@ export async function listenBanner(listeners: BannerListeners): Promise<() => vo
   return () => handles.forEach((handle) => void handle.remove());
 }
 
-/** Bannière adaptative en bas de l'écran, `marginBottom` pixels CSS au-dessus du bord (la barre de navigation). */
-export async function showBanner(adUnitId: string, settings: AdRequestSettings, marginBottom: number): Promise<void> {
+/**
+ * Bannière adaptative en bas de l'écran, `marginBottom` pixels CSS au-dessus du bord (la barre de navigation).
+ * `testing` : le plugin remplace alors le bloc par le bloc de test de Google, aucune annonce réelle n'est demandée.
+ */
+export async function showBanner(adUnitId: string, settings: AdRequestSettings, marginBottom: number, testing: boolean): Promise<void> {
   // Double sécurité : la configuration est déjà contrôlée par `npm run check` et par Gradle.
-  if (!isDemoAdUnit(adUnitId)) throw new AppError("adsUnavailable");
+  if (!isAllowedAdUnit(adUnitId)) throw new AppError("adsUnavailable");
   const { AdMob, module } = await load();
   await AdMob.showBanner({
     adId: adUnitId,
@@ -95,7 +99,7 @@ export async function showBanner(adUnitId: string, settings: AdRequestSettings, 
     position: module.BannerAdPosition.BOTTOM_CENTER,
     margin: Math.max(0, Math.round(marginBottom)),
     npa: settings.nonPersonalized,
-    isTesting: true,
+    isTesting: testing,
   });
 }
 

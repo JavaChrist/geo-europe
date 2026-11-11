@@ -3,9 +3,9 @@ apply plugin: 'com.android.application'
 // Pays de l'application : même variable que le build web, `fr` par défaut. Voir docs/admob.md.
 def geoCountry = System.getenv('GEO_COUNTRY') ?: 'fr'
 def geoAndroid = new groovy.json.JsonSlurper().parse(rootProject.file("../content/${geoCountry}/android.json"))
-// Tant que Christian n'a pas validé les annonces réelles, seul l'éditeur de démonstration de Google est accepté.
-if (!geoAndroid.admobAppId.startsWith('ca-app-pub-3940256099942544~')) {
-    throw new GradleException("ID d'application AdMob refusé : seul l'ID de démonstration Google est autorisé")
+// Seuls l'éditeur de démonstration de Google et l'éditeur JavaChrist sont acceptés (voir src/engine/ads.ts).
+if (!(geoAndroid.admobAppId ==~ /(ca-app-pub-3940256099942544|ca-app-pub-8288172940135426)~\d+/)) {
+    throw new GradleException("ID d'application AdMob refusé : éditeur de démonstration Google ou JavaChrist uniquement")
 }
 
 // Clé d'envoi Google Play : elle et ses mots de passe restent hors du dépôt. Le fichier de réglages est lu dans
@@ -30,7 +30,7 @@ android {
         manifestPlaceholders = [admobAppId: geoAndroid.admobAppId]
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 8
+        versionCode 9
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
