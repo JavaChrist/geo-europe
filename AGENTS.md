@@ -8,7 +8,7 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - `npm run dev`: development server
 - `npm run check`: lint, types, emoji and content checks
 - `npm run build`: web build, with server routes
-- `npm run build:export`: static export to `out/`, for Capacitor, without server routes
+- `npm run build:export`: static export to `out/`, for Capacitor, without server routes. A Play release needs `NEXT_PUBLIC_API_BASE_URL=https://geofr.appsgeo.com`, or Gradle refuses `bundleRelease` (marker `out/geo-export.json`)
 - `GEO_COUNTRY=fr`: selects the country at build time, `fr` by default
 - `node scripts/build-map.mjs <country>`: regenerates `content/<country>/map.json` from `map.config.json`. Run once per country, the result is committed.
 

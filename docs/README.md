@@ -42,7 +42,9 @@ npm run build
 npm run build:export
 ```
 
-`npm run check` enchaîne le lint, les types, l'absence d'emoji, le contenu de chaque pays (dont les modèles de courriel), le moteur, le Mode Famille, les documents juridiques, les droits d'accès, les promotions et la configuration AdMob (identifiants de démonstration uniquement).
+Pour un AAB Google Play, l'export doit viser le serveur (`NEXT_PUBLIC_API_BASE_URL=https://geofr.appsgeo.com`), sinon Gradle refuse le build release. Voir [admob.md](admob.md#variantes-du-build).
+
+`npm run check` enchaîne le lint, les types, l'absence d'emoji, le contenu de chaque pays (dont les modèles de courriel), le moteur, le Mode Famille, les documents juridiques, les droits d'accès, les promotions et la configuration AdMob (éditeur de démonstration Google ou JavaChrist, `ads.mode: "test"` uniquement, protections du mode Famille, refus d'un build release sans serveur).
 
 ## Légende
 

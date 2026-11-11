@@ -12,7 +12,7 @@ Le code est écrit une fois. Chaque pays apporte son contenu dans `content/<pays
 | Projet Vercel de GéoFR, déployé à chaque push sur `main` | En place |
 | Un projet Vercel par pays suivant | Prévu, à créer avec la validation de Christian |
 | Un projet Firebase par pays | Prévu. Aucun code Firebase n'existe encore dans le dépôt |
-| Application Android via Capacitor | En place pour les tests : Capacitor 8 sur l'export `out/` (photos dans le pack d'assets `media_pack`), bannière AdMob avec les identifiants de démonstration. Avec `NEXT_PUBLIC_API_BASE_URL` : comptes, droits et Google Play Billing en mode test, vérifiés par le serveur. Aucune publication Play. Voir [admob.md](admob.md) |
+| Application Android via Capacitor | En place pour les tests : Capacitor 8 sur l'export `out/` (photos dans le pack d'assets `media_pack`), bannière AdMob avec les identifiants JavaChrist en `ads.mode: "test"` (annonces de test seulement). Avec `NEXT_PUBLIC_API_BASE_URL` : comptes, droits et Google Play Billing en mode test, vérifiés par le serveur ; obligatoire pour un build release, Gradle le refuse sinon. Test interne Play seulement, aucune publication. Voir [admob.md](admob.md) |
 
 ## Dossiers
 
@@ -58,7 +58,7 @@ Les trois sont séparés : le Mode Famille ne touche jamais la progression Solo.
 | Commande | Résultat |
 | --- | --- |
 | `npm run build` | Build web avec les routes serveur, pour Vercel |
-| `npm run build:export` | Export statique dans `out/`, sans route serveur, pour Capacitor. La détection de mise à jour y est coupée. Avec `NEXT_PUBLIC_API_BASE_URL`, l'application appelle les routes du serveur (canal `play`) |
+| `npm run build:export` | Export statique dans `out/`, sans route serveur, pour Capacitor. La détection de mise à jour y est coupée. Avec `NEXT_PUBLIC_API_BASE_URL`, l'application appelle les routes du serveur (canal `play`). Écrit `out/geo-export.json`, lu par Gradle avant un build release |
 | `node scripts/build-map.mjs <pays>` | Régénère `content/<pays>/map.json` depuis `map.config.json`. Le résultat est versionné |
 | `node scripts/build-game-maps.mjs <pays>` | Régénère `content/<pays>/maps/*.json` depuis `game-maps.config.json`. Le résultat est versionné |
 

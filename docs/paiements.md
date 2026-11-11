@@ -181,7 +181,7 @@ Ces tests n'atteignent pas la vraie page Mollie. Un achat de bout en bout en mod
 
 ## Google Play (application Android)
 
-L'application Android ne propose jamais Mollie : Google Play impose sa facturation pour un contenu numérique. Elle est construite par `npm run build:export` avec `NEXT_PUBLIC_API_BASE_URL=https://<serveur>` (origine HTTPS, sans chemin). `paymentChannel()` vaut alors `play` et `apiUrl()` vise le serveur Vercel. Sans cette variable, le canal est `off` : pas de compte, pas de boutique, tout le monde en Découverte avec publicités.
+L'application Android ne propose jamais Mollie : Google Play impose sa facturation pour un contenu numérique. Elle est construite par `npm run build:export` avec `NEXT_PUBLIC_API_BASE_URL=https://<serveur>` (origine HTTPS, sans chemin). `paymentChannel()` vaut alors `play` et `apiUrl()` vise le serveur Vercel. Sans cette variable, le canal est `off` : pas de compte, pas de boutique, tout le monde en Découverte avec publicités. Ce cas n'est admis qu'en debug : avant un build release, Gradle lit `out/geo-export.json` (copié dans les assets) et refuse tout canal autre que `play`.
 
 L'application ne contient ni secret ni Firebase Admin. Elle lit ses droits dans Firestore (lecture seule) et appelle les routes HTTPS du serveur avec le jeton Firebase du joueur.
 
