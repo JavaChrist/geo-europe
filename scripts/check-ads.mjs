@@ -53,6 +53,15 @@ assert.ok(
   gradle.includes("admobAppId ==~ /(ca-app-pub-3940256099942544|ca-app-pub-8288172940135426)~\\d+/"),
   "android/app/build.gradle doit refuser un ID AdMob d'un autre éditeur",
 );
+// Un build release sans serveur (canal off : ni compte ni Boutique) est refusé par Gradle.
+assert.ok(
+  gradle.includes("task.name == 'preReleaseBuild'") && gradle.includes("geo-export.json") && gradle.includes("payments != 'play'"),
+  "android/app/build.gradle doit refuser un build release exporté sans NEXT_PUBLIC_API_BASE_URL",
+);
+assert.ok(
+  readFileSync(new URL("./build-export.mjs", import.meta.url), "utf8").includes('writeFileSync("out/geo-export.json"'),
+  "scripts/build-export.mjs doit écrire le marqueur du canal de paiement",
+);
 // Aucun identifiant publicitaire ni Privacy Sandbox dans le manifeste fusionné : les permissions du SDK sont retirées.
 const manifest = readFileSync(new URL("../android/app/src/main/AndroidManifest.xml", import.meta.url), "utf8");
 for (const permission of [

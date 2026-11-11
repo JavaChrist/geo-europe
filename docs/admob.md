@@ -284,9 +284,23 @@ Firebase Android (connexion Google) attend les empreintes SHA-1 :
 | --- | --- |
 | `NEXT_PUBLIC_ADS_DEBUG_EEA=1` | UMP se comporte comme dans l'Espace économique européen (formulaire de consentement) |
 | `NEXT_PUBLIC_ADS_TEST_NO_ADS=1` | Aucune annonce. Il vérifie le chemin natif « sans publicités », pas les droits réels (voir [Droits réels](#droits-réels-et-publicité)) |
-| `NEXT_PUBLIC_API_BASE_URL=https://<serveur>` | Comptes, droits et Google Play Billing dans l'application (canal `play`). Sans elle : canal `off`, tout le monde en Découverte |
+| `NEXT_PUBLIC_API_BASE_URL=https://<serveur>` | Comptes, droits et Google Play Billing dans l'application (canal `play`). Sans elle : canal `off`, tout le monde en Découverte, ni compte ni Boutique. **Obligatoire pour un build release** : Gradle le refuse sinon |
 | `NEXT_PUBLIC_GOOGLE_WEB_CLIENT_ID` | Connexion Google native (identifiant client OAuth Web de Firebase, public) |
 | `GEO_COUNTRY=<pays>` | Pays de l'application, pour `capacitor.config.ts`, Gradle et le contenu |
+
+`npm run build:export` écrit `out/geo-export.json` (`{ "payments": "play" | "off", "apiBase": "…" }`, aucune donnée secrète). Avant un build release (`bundleRelease`, `assembleRelease`), Gradle lit ce marqueur dans les assets copiés par `android:sync` et refuse le build si le canal n'est pas `play`. Un export sans serveur reste possible pour l'émulateur, en debug seulement. Commande d'un AAB pour Google Play :
+
+```bash
+NEXT_PUBLIC_API_BASE_URL=https://geofr.appsgeo.com npm run build:export
+```
+
+```bash
+npm run android:sync
+```
+
+```bash
+cd android && TMP='C:\tmp\geofr' TEMP='C:\tmp\geofr' JAVA_TOOL_OPTIONS='-Djdk.net.unixdomain.tmpdir=C:\tmp\geofr -Djava.io.tmpdir=C:\tmp\geofr' ./gradlew clean bundleRelease
+```
 
 ### Déboguer la WebView
 

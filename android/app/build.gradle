@@ -8,6 +8,20 @@ if (!(geoAndroid.admobAppId ==~ /(ca-app-pub-3940256099942544|ca-app-pub-8288172
     throw new GradleException("ID d'application AdMob refusé : éditeur de démonstration Google ou JavaChrist uniquement")
 }
 
+// Build release (AAB ou APK pour Google Play) : l'export web doit viser le serveur (canal `play`), sinon l'application
+// n'a ni compte, ni droits, ni Boutique. Marqueur écrit par scripts/build-export.mjs. Les builds debug restent libres.
+tasks.configureEach { task ->
+    if (task.name == 'preReleaseBuild') {
+        task.doFirst {
+            def marker = file('src/main/assets/public/geo-export.json')
+            def payments = marker.exists() ? new groovy.json.JsonSlurper().parse(marker).payments : null
+            if (payments != 'play') {
+                throw new GradleException("Build release refusé : export sans serveur (canal ${payments ?: 'inconnu'}). Relancer NEXT_PUBLIC_API_BASE_URL=https://<serveur> npm run build:export, puis npm run android:sync et gradlew clean")
+            }
+        }
+    }
+}
+
 // Clé d'envoi Google Play : elle et ses mots de passe restent hors du dépôt. Le fichier de réglages est lu dans
 // GEOFR_KEYSTORE_PROPERTIES, sinon dans %USERPROFILE%\.geofr\keystore.properties. Sans lui, l'AAB n'est pas signé.
 // Voir docs/admob.md, section Clé d'envoi.
