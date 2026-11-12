@@ -2,14 +2,15 @@
 
 Courtes vidéos qui présentent les autres applications de JavaChrist (SousPli, RideCloud…), montrées entre deux parties. Les campagnes sont gérées dans **JavaChrist-Promotions** et publiées dans le projet Firebase **`motissimo-456ba`**, celui de Motissimo, pas celui de GéoFR.
 
-**État : en place dans le code, catalogue `geofr` pas encore publié.** Tant que Christian n'a pas fait les deux étapes de [Publier les campagnes pour GéoFR](#publier-les-campagnes-pour-géofr), le catalogue répond 404 et aucune vidéo n'apparaît.
+**État (2026-11-12) : en place dans le code, catalogue `geofr` publié avec 2 campagnes actives (SousPli, RideCloud).** Il ne reste que les points de [Avant la mise en production](#avant-la-mise-en-production).
 
 ## Vue d'ensemble
 
 ```
 JavaChrist-Promotions (admin)
   └─ publie public_catalogs/<sourceAppId>   Firestore motissimo-456ba, lecture publique
-       └─ vidéos dans campaigns/…            Storage motissimo-456ba, lecture publique
+       └─ vidéos dans library/…              Storage motissimo-456ba, lecture publique
+                     (anciennes : campaigns/…)
 GéoFR (navigateur)
   └─ lit le catalogue par l'API REST Firestore, sans SDK, sans clé, sans compte
   └─ lit la vidéo directement depuis Storage (aucune copie dans ce dépôt)
@@ -192,7 +193,7 @@ Les règles sont **dans le dépôt Motissimo** (`firestore.rules`, `storage.rule
 Règles du dépôt :
 
 - Firestore `public_catalogs/{id}` : lecture publique, écriture refusée (seul le serveur du gestionnaire écrit, avec l'Admin SDK) ;
-- Storage `campaigns/…` : lecture publique des fichiers.
+- Storage `library/…` (bibliothèque de clips) et `campaigns/…` (anciennes vidéos) : lecture publique des fichiers.
 
 Comportement déployé, relevé le 2026-11-08 par des **lectures anonymes uniquement** (aucune écriture tentée) :
 
@@ -200,7 +201,7 @@ Comportement déployé, relevé le 2026-11-08 par des **lectures anonymes unique
 | --- | --- | --- |
 | `public_catalogs/motissimo` | 200 | Lecture publique |
 | `public_catalogs` (liste) | 200 | Lecture publique, seuls les catalogues publiés |
-| `public_catalogs/geofr` | 404 | Pas encore publié |
+| `public_catalogs/geofr` | 404 (200 depuis la publication) | Publié le 2026-11-12 |
 | `campaigns`, `apps`, `applications`, `admins` | 403 | Données d'administration fermées |
 | Liste Storage `campaigns/` | 403 | Pas d'inventaire des fichiers |
 | Fichier vidéo publié (`?alt=media`) | 200 | Lecture publique du fichier |
@@ -211,18 +212,21 @@ Comportement déployé, relevé le 2026-11-08 par des **lectures anonymes unique
 
 Dans l'interface d'administration de JavaChrist-Promotions, par Christian. Aucun changement de code du gestionnaire.
 
-1. **Applications** : ajouter l'application `geofr` (nom GéoFR) et cocher « Ce jeu peut afficher des promotions ».
-2. **Campagnes** : ouvrir SousPli, cocher GéoFR dans les jeux de diffusion, enregistrer **sans choisir de nouveau fichier**. Faire de même pour RideCloud.
-3. Vérifier que `public_catalogs/geofr` répond 200 (commande plus bas).
+Fait le 2026-11-12. Pour référence, ou pour une nouvelle campagne :
+
+1. **Applications** : l'application `geofr` (nom GéoFR) existe, avec « Diffuse les promos » coché.
+2. **Clips** : déposer la vidéo une fois dans la bibliothèque (dossier Storage `library/`), en l'associant à l'application qu'elle présente. Un clip sert à plusieurs campagnes.
+3. **Campagnes** : ouvrir la campagne, cocher GéoFR dans « Jeux où la promotion s'affiche », choisir le clip dans « Clip vidéo », enregistrer, puis l'activer depuis la liste.
+4. Republier les catalogues, puis vérifier que `public_catalogs/geofr` répond 200 (commande plus bas).
 
 Les campagnes Motissimo ne changent pas : leur catalogue est republié à l'identique, seuls `catalogVersion` et `generatedAt` changent.
 
-**Poids des fichiers** : le fichier RideCloud gardé dans le dépôt Promotions pèse 11,5 Mo, mais le fichier publié dans Storage pèse 2,3 Mo (relevé le 2026-11-08). C'est le fichier publié qui compte.
+**Clips en place (2026-11-12)** : SousPli utilise le clip de bibliothèque `clip-souspli-1` ; RideCloud utilise encore son ancienne vidéo propre à la campagne (`campaigns/…`), à remplacer par un clip de bibliothèque. Un clip de la bibliothèque n'est jamais supprimé depuis une campagne.
 
 ## Ajouter un pays (GéoDE, GéoES…)
 
 1. Choisir le `sourceAppId` du jeu : `geode`, `geoes`…
-2. Dans JavaChrist-Promotions : ajouter l'application, cocher « Ce jeu peut afficher des promotions », puis cocher le jeu dans chaque campagne voulue.
+2. Dans JavaChrist-Promotions : ajouter l'application, cocher « Diffuse les promos », puis cocher le jeu dans chaque campagne voulue.
 3. Les campagnes doivent exister dans la langue du pays (`locale`) : une campagne `fr` n'est jamais montrée dans GéoDE.
 4. Dans `content/<pays>/country.ts` :
 
@@ -275,6 +279,7 @@ Effacer l'état local dans la console du navigateur : `localStorage.removeItem("
 
 ## Avant la mise en production
 
-- Christian publie `geofr` dans le gestionnaire (voir plus haut).
+- ~~Christian publie `geofr` dans le gestionnaire~~ : fait le 2026-11-12.
+- Play Console : déclarer « Contient des annonces : Oui » (les promotions croisées comptent comme des annonces pour Google Play).
 - **Documents juridiques** : la politique de confidentialité actuelle dit que le jeu n'a ni publicité ni donnée d'âge, et l'écran Confidentialité le répète (`privacy` dans `fr.json`). Les deux doivent être mis à jour **dans JavaChrist-Legal-Kit** par Christian (module publicité, réponse d'âge stockée sur l'appareil, lecture du catalogue chez Google Firebase), puis recopiés avec `scripts/sync-legal.mjs`. Ne jamais les modifier à la main.
 - Régime publicitaire de la Découverte (`ads: null` dans `editions.ts`) : les vidéos s'y affichent aujourd'hui, à confirmer.
