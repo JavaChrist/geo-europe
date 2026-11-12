@@ -173,7 +173,7 @@ Les campagnes publiées sont réservées aux adultes (`audience: "adult"`). Avan
 
 - texte neutre : il dit seulement que certains contenus entre deux parties s'adaptent à l'âge, et que le jeu reste le même quelle que soit la réponse. Il ne parle ni de vidéos réservées aux adultes ni d'aucun avantage ;
 - deux réponses de même poids, rien n'est coché d'avance ;
-- « Plus tard » ou Échap : pas de réponse, la question reviendra après 3 autres parties ;
+- « Plus tard » ou Échap : pas de réponse, et le compteur reste à 3 (il ne repart à zéro qu'avec une vidéo montrée). La question revient donc dès la partie terminée suivante, hors mode Famille ;
 - « J'ai moins de 18 ans » : plus aucune vidéo ni requête sur cet appareil ;
 - la réponse reste sur l'appareil, et s'efface depuis Confidentialité avec les résultats.
 
@@ -262,6 +262,7 @@ Manuels, dans le navigateur (le catalogue doit être publié) :
 | Jamais de vidéo | Catalogue non publié (404), édition sans publicités, réponse « moins de 18 ans », ou moins de 3 parties depuis la dernière |
 | Catalogue en 200 mais rien | Campagne refusée par un contrôle : `locale`, `audience`, durée > 15 s, destination hors Google Play, dates |
 | Question d'âge à chaque fois | « Plus tard » choisi, ou stockage du navigateur bloqué (navigation privée stricte) |
+| Pas de question d'âge après une partie | Normal avant 3 parties terminées depuis la dernière vidéo. Sinon : réponse d'âge déjà enregistrée (elle survit à une mise à jour Play), édition sans publicités ou accès offert, mode Famille |
 | Bouton « Lancer la vidéo » | Lecture automatique refusée par le navigateur (économie d'énergie, réglage) : normal |
 | X immédiat avec un message | Vidéo illisible : adresse, format, ou fichier supprimé dans Storage |
 | Vidéo lente à démarrer | Fichier trop lourd ou sans « fast start » |
