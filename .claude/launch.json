@@ -48,6 +48,20 @@
         "FIREBASE_AUTH_EMULATOR_HOST": "127.0.0.1:9099",
         "GCLOUD_PROJECT": "demo-geofr"
       }
+    },
+    {
+      "name": "promotions-admin",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "../JavaChrist-Promotions",
+        "run",
+        "dev",
+        "--",
+        "-p",
+        "3120"
+      ],
+      "port": 3120
     }
   ]
 }

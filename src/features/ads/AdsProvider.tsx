@@ -142,6 +142,8 @@ export function AdsProvider({ children }: { children: ReactNode }) {
 
   /** Une étape vers l'état voulu. Chaque échec coupe la bannière : jamais d'annonce dans le doute. */
   const step = useCallback(async () => {
+    // Sur le web, aucune vue native à retirer : sans ce garde, le module AdMob serait chargé pour rien.
+    if (!isNativeApp()) return;
     const want = desired.current;
     const now = state.current;
     const adUnit = config?.admob.androidBannerAdUnitId;
