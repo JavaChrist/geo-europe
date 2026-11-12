@@ -507,8 +507,13 @@ try {
     const autrePays = await newUser("admin-geode");
     await admin.db.doc(`admins/${autrePays.uid}`).set({ apps: ["geode"] });
     assert.equal((await grants(autrePays, { action: "list" })).body.error, "forbidden");
-    assert.equal((await grants(bruno, { action: "status" })).status, 403, "le lien du Profil reste caché à un joueur");
-    assert.equal((await grants(autrePays, { action: "status" })).status, 403, "ni à l'administrateur d'un autre pays");
+    // `status` répond 200 et `admin: false` : le lien du Profil reste caché, sans erreur 403 dans la console du joueur.
+    const statutJoueur = await grants(bruno, { action: "status" });
+    assert.equal(statutJoueur.status, 200);
+    assert.equal(statutJoueur.body.admin, false, "le lien du Profil reste caché à un joueur");
+    assert.equal((await grants(autrePays, { action: "status" })).body.admin, false, "ni à l'administrateur d'un autre pays");
+    assert.equal((await grants(nonConfirme, { action: "status" })).body.admin, false, "ni à une adresse non confirmée");
+    assert.equal((await grants(null, { action: "status" })).status, 401, "sans compte, toujours 401");
     const statut = await grants(administrateur, { action: "status" });
     assert.equal(statut.status, 200);
     assert.equal(statut.body.admin, true);

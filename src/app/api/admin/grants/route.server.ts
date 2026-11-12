@@ -12,12 +12,21 @@ export const dynamic = "force-dynamic";
 
 export async function POST(request: Request) {
   try {
-    const admin = await verifyAdmin(request);
     const body = await readJson(request);
-    switch (body.action) {
-      case "status":
-        // Sert seulement à afficher le lien du Profil : la page et chaque action revérifient l'administrateur.
+    if (body.action === "status") {
+      // Sert seulement à afficher le lien du Profil : la page et chaque action revérifient l'administrateur.
+      // Un compte non administrateur reçoit `false` en 200, pour ne pas laisser un 403 dans la console de chaque joueur.
+      try {
+        await verifyAdmin(request);
         return Response.json({ admin: true }, { headers: noStore });
+      } catch (error) {
+        if (error instanceof PaymentRequestError && error.status === 403)
+          return Response.json({ admin: false }, { headers: noStore });
+        throw error;
+      }
+    }
+    const admin = await verifyAdmin(request);
+    switch (body.action) {
       case "list":
         return Response.json(
           { grants: await listGrants() },

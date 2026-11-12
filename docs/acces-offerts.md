@@ -26,7 +26,7 @@ Les écrans de jeu ne changent pas. Ils lisent déjà `familyAccess` (Mode Famil
 
 Page `/admin/acces-offerts`, réservée aux administrateurs. Elle répond 404 dans l'export statique (Android).
 
-Le Profil affiche le bouton « Gérer les accès offerts » seulement aux administrateurs : le panneau Compte appelle `POST /api/admin/grants` avec `action: "status"`, qui passe par la même vérification que les autres actions (403 sinon). Ce bouton n'ouvre rien à lui seul : la page et chaque action revérifient l'administrateur côté serveur.
+Le Profil affiche le bouton « Gérer les accès offerts » seulement aux administrateurs : le panneau Compte appelle `POST /api/admin/grants` avec `action: "status"`, qui passe par la même vérification que les autres actions. Pour un compte confirmé qui n'est pas administrateur, cette seule action répond `200` avec `admin: false`, pour ne pas laisser d'erreur 403 dans la console de chaque joueur ; les autres actions gardent leur 403. Ce bouton n'ouvre rien à lui seul : la page et chaque action revérifient l'administrateur côté serveur.
 
 Être administrateur ne donne pas l'accès offert. Pour en profiter, l'administrateur ajoute aussi sa propre adresse à la liste.
 
@@ -93,7 +93,7 @@ node scripts/admin.mjs fr remove <adresse> --project geofr-d5224
 
 ### À chaque appel
 
-`POST /api/admin/grants` (`action` : `list`, `add` ou `revoke`) vérifie le jeton Firebase, exige un compte permanent, puis lit `admins/{uid}` côté serveur. Sinon la réponse est 401 sans compte, ou 403 `forbidden`. L'écran n'ouvre rien à lui seul : il affiche « non autorisé » sur ce refus.
+`POST /api/admin/grants` (`action` : `list`, `add` ou `revoke`) vérifie le jeton Firebase, exige un compte permanent, puis lit `admins/{uid}` côté serveur. Sinon la réponse est 401 sans compte, ou 403 `forbidden`. L'action `status` répond 401 sans compte, et `200` avec `admin: false` au lieu du 403. L'écran n'ouvre rien à lui seul : il affiche « non autorisé » sur ce refus.
 
 ## Règles Firestore
 
