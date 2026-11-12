@@ -227,7 +227,7 @@ Les campagnes Motissimo ne changent pas : leur catalogue est republié à l'iden
 
 1. Choisir le `sourceAppId` du jeu : `geode`, `geoes`…
 2. Dans JavaChrist-Promotions : ajouter l'application, cocher « Diffuse les promos », puis cocher le jeu dans chaque campagne voulue.
-3. Les campagnes doivent exister dans la langue du pays (`locale`) : une campagne `fr` n'est jamais montrée dans GéoDE.
+3. Les campagnes doivent exister dans la langue du pays (`locale`) : une campagne `fr` n'est jamais montrée dans GéoDE. Dans le formulaire de campagne, le champ **Langue** fixe cette `locale` (français par défaut). Il faut donc **une campagne par langue**, avec un clip dans cette langue : la campagne SousPli `de` est distincte de la campagne SousPli `fr`, et seule la `de` coche GéoDE. Une campagne cochée pour un jeu d'une autre langue est publiée dans son catalogue, mais écartée par le jeu sans message.
 4. Dans `content/<pays>/country.ts` :
 
    ```ts
