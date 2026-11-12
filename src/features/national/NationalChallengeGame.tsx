@@ -118,7 +118,6 @@ export function NationalChallengeGame({
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
-      {promotion.overlay}
       {run ? (
         <h1 className="text-sm text-ink-soft">{title}</h1>
       ) : (

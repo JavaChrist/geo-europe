@@ -162,8 +162,22 @@ assert.deepEqual(promotionsConfigErrors(null), []);
 const source = (path) => readFileSync(new URL(`../${path}`, import.meta.url), "utf8");
 assert.match(source("src/features/family/FamilyMode.tsx"), /usePromotion\([^;]*\{ sharedDevice: true \}\)/, "Famille sans promotion");
 const hook = source("src/features/promotions/usePromotion.tsx");
-assert.match(hook, /promotionsAllowed\(access\) && !sharedDevice/, "sharedDevice coupe catalogue et vidéo");
-assert.match(hook, /sharedDevice \? null/, "sharedDevice : aucun overlay");
+assert.match(hook, /shared > 0 \? null/, "mode Famille : aucun overlay");
+assert.match(hook, /if \(sharedDevice\) return;/, "partie Famille : comptée, rien n'est mis en attente");
+assert.match(hook, /if \(sharedDevice\) \{\s*setPending\(false\);/, "entrer en mode Famille annule une promotion en attente");
+assert.match(hook, /shared > 0 \|\| !mayFetchCatalog/, "mode Famille : aucune requête du catalogue");
+
+// Promotion due gardée au niveau de l'application : quitter l'écran de résultats ne la perd plus.
+assert.match(source("src/app/layout.tsx"), /<PromotionProvider>/, "PromotionProvider dans la mise en page racine");
+for (const path of [
+  "src/features/family/FamilyMode.tsx",
+  "src/features/journey/LevelGame.tsx",
+  "src/features/journey/SpecialChallengeGame.tsx",
+  "src/features/national/DailyChallenge.tsx",
+  "src/features/national/NationalChallengeGame.tsx",
+]) {
+  assert.doesNotMatch(source(path), /promotion\.overlay/, `${path} : l'overlay est rendu par PromotionProvider`);
+}
 
 // Question d'âge neutre : aucun avantage ni mention des contenus réservés aux adultes.
 const age = JSON.parse(source("src/i18n/locales/fr.json")).promo.age;

@@ -21,7 +21,7 @@ Le jeu ne fait que **lire**. Il n'envoie rien au gestionnaire : ni compteur, ni 
 | --- | --- |
 | `src/engine/promotions.ts` | Types, conversion REST, contrôle des campagnes, tirage, fréquence, droits. Sans React ni Firebase |
 | `src/services/promotions.ts` | Lecture du catalogue avec cache, état sur l'appareil |
-| `src/features/promotions/usePromotion.tsx` | Décide quand montrer quoi, rend la question d'âge ou la vidéo |
+| `src/features/promotions/usePromotion.tsx` | `PromotionProvider` (dans `src/app/layout.tsx`) : garde la promotion due, décide quand montrer quoi, rend la question d'âge ou la vidéo. `usePromotion` : raccorde un écran de jeu |
 | `src/features/promotions/PromoPlayer.tsx` | Lecteur vidéo |
 | `src/features/promotions/AgeQuestion.tsx` | Question d'âge, posée une fois |
 | `src/ui/modal/ModalProvider.tsx` | `useModalBusy()` : la vidéo attend la fermeture des modales |
@@ -122,8 +122,9 @@ Le catalogue converti est gardé sur l'appareil dans `geo-europe.<pays>.promotio
 | Partie terminée = | Un niveau Solo terminé, un défi spécial terminé, ou une partie Famille arrivée au classement final |
 | Ne compte pas | Une question seule, une partie quittée, un rechargement de page |
 | Jamais pendant une partie | `usePromotion(playing)` : rien ne s'ouvre tant qu'une partie est en cours |
-| Après les récompenses | La vidéo attend que les modales (cartes, badges) soient fermées, puis 1,5 s |
-| Mode Famille | Jamais : ni question d'âge, ni vidéo, ni requête du catalogue, pendant tout le mode, résultats et fin de partie compris (`usePromotion(…, { sharedDevice: true })`). Un enfant peut jouer sur l'appareil d'un adulte |
+| Après les récompenses | La question ou la vidéo attend que les modales (cartes, badges) soient fermées, puis 1,5 s |
+| Écran quitté tout de suite | La promotion due est gardée par `PromotionProvider`, au niveau de l'application : elle s'ouvre sur l'écran suivant, au premier moment calme (aucune partie en cours, aucune modale) |
+| Mode Famille | Jamais : ni question d'âge, ni vidéo, ni requête du catalogue, pendant tout le mode, résultats et fin de partie compris (`usePromotion(…, { sharedDevice: true })`). Une partie Famille ne met rien en attente, et entrer dans le mode annule une promotion en attente : rien ne s'ouvre non plus en le quittant. Un enfant peut jouer sur l'appareil d'un adulte |
 | Pas deux fois la même | La dernière vidéo vue est écartée du tirage quand une autre existe |
 | Sans campagne | Catalogue vide ou réseau absent : rien ne s'affiche, la vidéo sera proposée après la partie suivante |
 
@@ -131,7 +132,7 @@ Un rechargement ne compte jamais : une partie Solo n'est pas sauvegardée en cou
 
 ## Brancher un écran de jeu
 
-Trois écrans sont branchés : `src/features/journey/LevelGame.tsx` (niveau Solo), `src/features/journey/SpecialChallengeGame.tsx` (défi spécial) et `src/features/family/FamilyMode.tsx`, ce dernier avec `{ sharedDevice: true }` : il compte la partie terminée sans rien afficher. Un nouvel écran de jeu suit le même modèle :
+Cinq écrans sont branchés : `src/features/journey/LevelGame.tsx` (niveau Solo), `src/features/journey/SpecialChallengeGame.tsx` (défi spécial), `src/features/national/DailyChallenge.tsx` et `src/features/national/NationalChallengeGame.tsx` (défis nationaux, par `useNationalRun`), et `src/features/family/FamilyMode.tsx`, ce dernier avec `{ sharedDevice: true }` : il compte la partie terminée sans rien afficher. La question d'âge et la vidéo sont rendues une seule fois, par `PromotionProvider` dans `src/app/layout.tsx` : un écran n'a rien à afficher. Un nouvel écran de jeu suit le même modèle :
 
 ```tsx
 const promotion = usePromotion(partieEnCours);
@@ -139,14 +140,11 @@ const promotion = usePromotion(partieEnCours);
 // Une seule fois, quand la partie est réellement terminée,
 // après l'enregistrement du résultat et l'ouverture des modales de récompense.
 promotion.gameCompleted();
-
-// Dans le rendu, sur un écran affiché hors partie :
-{promotion.overlay}
 ```
 
 - `partieEnCours` : vrai pendant toute la partie. Exemples : `run !== null` en Solo, `game !== null && game.phase !== "finished"` en Famille.
 - `gameCompleted()` ne doit jamais être appelé pour une partie quittée, ni au chargement de la page.
-- `overlay` vaut `null` la plupart du temps, et toujours avec `sharedDevice`.
+- Tant que `partieEnCours` est vrai, ou tant qu'un écran `sharedDevice` est affiché, `PromotionProvider` n'ouvre rien. La bannière AdMob est masquée pendant la partie.
 - Tout écran joué à plusieurs sur un même appareil passe `{ sharedDevice: true }`.
 - Appeler `usePromotion` avant tout retour anticipé du composant (règles des hooks).
 - L'attente des modales repose sur `useModalBusy()` (`src/ui/modal/ModalProvider.tsx`) : vrai tant qu'une modale `useModal()` est ouverte ou en file. Tout écran qui doit passer après les modales peut s'en servir.
@@ -245,10 +243,10 @@ Automatiques, avec `npm run check` (`scripts/check-promotions.mjs`) : conversion
 
 Manuels, dans le navigateur (le catalogue doit être publié) :
 
-1. Version gratuite : terminer 3 niveaux. La question d'âge apparaît après les récompenses, puis la vidéo.
+1. Version gratuite : terminer 3 niveaux. La question d'âge apparaît après les récompenses, puis la vidéo. Refaire en quittant l'écran de résultats tout de suite (« Retour ») : la question s'ouvre sur l'écran suivant.
 2. Vérifier la lecture muette, le son, le bouton vers Google Play (nouvel onglet), le X à la fin.
 3. Terminer 3 autres niveaux : l'autre campagne passe.
-4. Mode Famille : la vidéo n'apparaît que sur le classement final.
+4. Mode Famille : aucune question ni vidéo, même sur le classement final ou en quittant le mode. La partie compte : la question vient après la partie Solo suivante.
 5. Quitter une partie en cours, recharger la page : le compteur n'avance pas.
 6. Couper le réseau (outils du navigateur, hors ligne) avec un cache de plus d'1 h : aucune vidéo, aucune erreur.
 7. URL de vidéo invalide (catalogue de test) : le message et le X apparaissent.
@@ -262,7 +260,7 @@ Manuels, dans le navigateur (le catalogue doit être publié) :
 | Jamais de vidéo | Catalogue non publié (404), édition sans publicités, réponse « moins de 18 ans », ou moins de 3 parties depuis la dernière |
 | Catalogue en 200 mais rien | Campagne refusée par un contrôle : `locale`, `audience`, durée > 15 s, destination hors Google Play, dates |
 | Question d'âge à chaque fois | « Plus tard » choisi, ou stockage du navigateur bloqué (navigation privée stricte) |
-| Pas de question d'âge après une partie | Normal avant 3 parties terminées depuis la dernière vidéo. Sinon : réponse d'âge déjà enregistrée (elle survit à une mise à jour Play), édition sans publicités ou accès offert, mode Famille |
+| Pas de question d'âge après une partie | Normal avant 3 parties terminées depuis la dernière vidéo, ou si la 3ᵉ était une partie Famille. Sinon : réponse d'âge déjà enregistrée (elle survit à une mise à jour Play), édition sans publicités ou accès offert, mode Famille |
 | Bouton « Lancer la vidéo » | Lecture automatique refusée par le navigateur (économie d'énergie, réglage) : normal |
 | X immédiat avec un message | Vidéo illisible : adresse, format, ou fichier supprimé dans Storage |
 | Vidéo lente à démarrer | Fichier trop lourd ou sans « fast start » |

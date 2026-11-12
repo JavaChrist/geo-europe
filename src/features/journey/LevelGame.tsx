@@ -130,7 +130,6 @@ export function LevelGame({ level, previous, backHref, backLabel }: LevelGamePro
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
-      {promotion.overlay}
       <h1 className={run ? "text-sm text-ink-soft" : "font-display text-3xl font-semibold"}>{tContent(level.nameKey)}</h1>
 
       {run && (

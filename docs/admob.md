@@ -10,7 +10,7 @@ Bannière AdMob des éditions avec publicités, dans l'application Android Capac
 | --- | --- |
 | Bannière adaptative | En bas de l'écran, juste au-dessus de la barre de navigation à 5 boutons. Sur grand écran, où la barre est masquée, en bas de l'écran |
 | Contenu | La page réserve la hauteur de la bannière (`--ad-banner-h`) : réponses, cartes et boutons ne sont jamais recouverts |
-| Pendant une partie | Bannière masquée (`usePromotion(playing)` appelle `useHideAdBanner`) |
+| Pendant une partie | Bannière masquée (`usePromotion(playing)` appelle `useHideAdBanner`, `PromotionProvider` fait de même pendant la question d'âge et la vidéo) |
 | Modale, question d'âge, vidéo de promotion | Bannière masquée : c'est une vue native, elle passerait au-dessus de la WebView |
 | Interstitiel, vidéo récompensée | Jamais |
 | Vidéos JavaChrist-Promotions | Indépendantes : leur fréquence, leur catalogue et leur lecteur ne changent pas |

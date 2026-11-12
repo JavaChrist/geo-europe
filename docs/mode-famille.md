@@ -43,7 +43,7 @@ Les points du Mode Famille restent à part. Ils ne donnent ni XP, ni carte souve
 3. **Tour** : le joueur enchaîne ses 3 ou 5 questions sur le même écran que le Solo (`ChallengeView`), avec les trois formats existants, choix, image et carte. « Question suivante » entre deux questions, puis « Joueur suivant » ou le classement à la dernière.
 4. **Classement de manche** : total de chacun et points gagnés pendant la manche.
 5. **Fin de partie** : animation, vainqueur ou vainqueurs ex æquo, classement détaillé (points, bonnes réponses, indices, 50/50), boutons « Rejouer » et « Retour à l'accueil ».
-6. **Aucune promotion** : ni vidéo JavaChrist-Promotions ni question d'âge pendant tout le mode, résultats et fin de partie compris, car un enfant peut jouer sur l'appareil d'un adulte. Une partie Famille terminée compte quand même pour la fréquence des vidéos en Solo. La bannière AdMob reste avec les protections enfants. Voir [promotions.md](promotions.md) et [admob.md](admob.md).
+6. **Aucune promotion** : ni vidéo JavaChrist-Promotions ni question d'âge pendant tout le mode, résultats et fin de partie compris, ni en quittant le mode (une promotion en attente est annulée en y entrant), car un enfant peut jouer sur l'appareil d'un adulte. Une partie Famille terminée compte quand même pour la fréquence des vidéos en Solo. La bannière AdMob reste avec les protections enfants. Voir [promotions.md](promotions.md) et [admob.md](admob.md).
 
 Abandonner passe par une confirmation `useModal`. Une partie abandonnée n'entre pas dans l'historique.
 

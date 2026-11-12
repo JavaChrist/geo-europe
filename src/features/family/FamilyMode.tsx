@@ -148,7 +148,6 @@ export function FamilyMode() {
   if (!game || !bank) {
     return (
       <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
-        {promotion.overlay}
         <section className="fade-in flex flex-col gap-2">
           {heading(t("family.title"))}
           <p className="text-ink-soft">{t("family.intro")}</p>
@@ -282,7 +281,6 @@ export function FamilyMode() {
   const dateFormat = new Intl.DateTimeFormat(locale, { dateStyle: "long" });
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 py-6">
-      {promotion.overlay}
       <section className={`${card} items-center text-center`}>
         <div className="family-victory relative flex size-28 items-center justify-center">
           <span aria-hidden className="family-victory-glow absolute inset-0 rounded-full bg-gold/20" />
