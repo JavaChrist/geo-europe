@@ -1,4 +1,4 @@
-// Vérifie la bannière AdMob : configuration du pays, éditeurs autorisés, mode test, droits, réglages selon l'âge.
+// Vérifie la bannière AdMob : configuration du pays, éditeurs autorisés, mode test ou live, droits, réglages selon l'âge.
 // Usage : node scripts/check-ads.mjs [pays]
 import assert from "node:assert/strict";
 import { existsSync, readFileSync } from "node:fs";
@@ -22,10 +22,13 @@ const { country } = await import(`../content/${code}/country.ts`);
 const androidPath = new URL(`../content/${code}/android.json`, import.meta.url);
 const android = existsSync(androidPath) ? JSON.parse(readFileSync(androidPath, "utf8")) : null;
 
-// 1. Configuration du pays : éditeur de démonstration ou JavaChrist, mode test, android.json cohérent avec country.ts.
+// 1. Configuration du pays : éditeur de démonstration ou JavaChrist, live seulement avec JavaChrist, android.json cohérent avec country.ts.
 const errors = adsConfigErrors(country.ads, android, country.androidPackage, country.appName);
 assert.deepEqual(errors, [], `Configuration AdMob de ${code} :\n${errors.join("\n")}`);
-if (country.ads) assert.equal(adsTestMode(country.ads), true, "annonces réelles non validées");
+// Annonces réelles validées par Christian le 13 novembre 2026 : `live` n'est accepté qu'avec le bloc JavaChrist.
+if (country.ads && !adsTestMode(country.ads)) {
+  assert.ok(country.ads.admob.androidBannerAdUnitId.startsWith(`${ADMOB_JAVACHRIST_PUBLISHER}/`), "live avec le bloc JavaChrist seulement");
+}
 assert.equal(ADMOB_DEMO_ANDROID_BANNER, "ca-app-pub-3940256099942544/9214589741");
 assert.equal(ADMOB_DEMO_ANDROID_APP_ID, "ca-app-pub-3940256099942544~3347511713");
 assert.equal(ADMOB_JAVACHRIST_PUBLISHER, "ca-app-pub-8288172940135426");
@@ -41,7 +44,11 @@ assert.equal(
   adsConfigErrors({ ...demoAds, admob: { ...demoAds.admob, androidBannerAdUnitId: "ca-app-pub-1234567890123456/1" } }, { ...android, admobAppId: "ca-app-pub-1234567890123456~1" }, country.androidPackage, country.appName).length,
   2,
 );
-assert.equal(adsConfigErrors({ ...demoAds, mode: "live" }, demoAndroid, country.androidPackage, country.appName).length, 1, "mode live refusé");
+assert.equal(adsConfigErrors({ ...demoAds, mode: "live" }, demoAndroid, country.androidPackage, country.appName).length, 1, "live refusé avec le bloc de démonstration");
+assert.equal(adsConfigErrors({ ...demoAds, mode: "other" }, demoAndroid, country.androidPackage, country.appName).length, 1, "mode inconnu refusé");
+const javaChristAds = { mode: "live", admob: { androidBannerAdUnitId: `${ADMOB_JAVACHRIST_PUBLISHER}/1`, testDevices: [] } };
+const javaChristAndroid = { ...android, admobAppId: `${ADMOB_JAVACHRIST_PUBLISHER}~1` };
+assert.deepEqual(adsConfigErrors(javaChristAds, javaChristAndroid, country.androidPackage, country.appName), [], "live accepté avec le bloc JavaChrist");
 assert.equal(adsConfigErrors({ ...demoAds, admob: { ...demoAds.admob, testDevices: ["abc"] } }, demoAndroid, country.androidPackage, country.appName).length, 1);
 assert.equal(adsConfigErrors(demoAds, { ...android, admobAppId: `${ADMOB_JAVACHRIST_PUBLISHER}~1` }, country.androidPackage, country.appName).length, 1, "éditeurs mélangés");
 assert.equal(adsConfigErrors(demoAds, null, "x", "y").length, 1);

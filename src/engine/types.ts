@@ -77,7 +77,7 @@ export interface PromotionsConfig {
 export interface AdsConfig {
   /**
    * `test` : le SDK ne sert que des annonces de test, même avec les vrais identifiants.
-   * `live` : annonces réelles, refusé par `npm run check` tant que Christian ne l'a pas validé.
+   * `live` : annonces réelles, seulement avec le bloc JavaChrist (`npm run check` refuse le bloc de démonstration).
    */
   mode: "test" | "live";
   admob: {

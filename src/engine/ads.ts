@@ -117,7 +117,7 @@ export interface AndroidAppConfig {
 
 /**
  * Contrôle de la configuration d'un pays : éditeur de démonstration ou éditeur JavaChrist seulement,
- * et mode `test` tant que Christian n'a pas validé les annonces réelles.
+ * mode `test` ou `live`, et `live` seulement avec le bloc JavaChrist (validé par Christian le 13 novembre 2026).
  */
 export function adsConfigErrors(ads: AdsConfig | null, android: AndroidAppConfig | null, androidPackage: string, appName: string): string[] {
   const errors: string[] = [];
@@ -129,7 +129,11 @@ export function adsConfigErrors(ads: AdsConfig | null, android: AndroidAppConfig
   if (ads) {
     if (!android) errors.push("ads configuré sans content/<pays>/android.json");
     if (!isAllowedAdUnit(ads.admob.androidBannerAdUnitId)) errors.push(`Bloc de bannière non autorisé : ${ads.admob.androidBannerAdUnitId}`);
-    if (ads.mode !== "test") errors.push(`Mode d'annonces « ${ads.mode} » non validé : seul « test » est accepté`);
+    if (ads.mode !== "test" && ads.mode !== "live") errors.push(`Mode d'annonces inconnu : « ${String(ads.mode)} »`);
+    // Annonces réelles seulement avec le bloc JavaChrist : le bloc de démonstration de Google ne sert qu'en test.
+    if (ads.mode === "live" && !ads.admob.androidBannerAdUnitId.startsWith(`${ADMOB_JAVACHRIST_PUBLISHER}/`)) {
+      errors.push("Mode « live » refusé avec le bloc de démonstration de Google");
+    }
     for (const device of ads.admob.testDevices) {
       if (!/^[0-9A-F]{32}$/.test(device)) errors.push(`Appareil de test invalide : ${device}`);
     }

@@ -2,7 +2,7 @@
 
 Bannière AdMob des éditions avec publicités, dans l'application Android Capacitor. Le même code sert à GéoDE, GéoES et GéoIT : seule la configuration de `content/<pays>/` change.
 
-État : **vrais identifiants AdMob JavaChrist, annonces de test uniquement** (`ads.mode: "test"`). Aucune annonce réelle, aucune publication Google Play sans la validation de Christian.
+État : **vrais identifiants AdMob JavaChrist, annonces réelles** (`ads.mode: "live"`, validé par Christian le 13 novembre 2026, à partir du versionCode 12). Le téléphone de test déclaré dans `testDevices` reçoit toujours des annonces de test. Aucune publication Google Play sans la validation de Christian.
 
 ## Ce qui est affiché
 
@@ -93,18 +93,18 @@ Une application AdMob et un bloc de bannière **par pays**. Deux éditeurs seule
 
 | Contrôle | Refuse |
 | --- | --- |
-| `npm run check:ads` | Un ID d'un autre éditeur, deux éditeurs mélangés, un appareil de test mal formé, et tout `mode` autre que `test` |
+| `npm run check:ads` | Un ID d'un autre éditeur, deux éditeurs mélangés, un appareil de test mal formé, un `mode` autre que `test` ou `live`, et `live` avec le bloc de démonstration de Google |
 | `android/app/build.gradle` | Le build si `admobAppId` n'est pas `ca-app-pub-3940256099942544~…` ou `ca-app-pub-8288172940135426~…` |
 | `src/services/ads/admob.ts` | `showBanner` avec un bloc d'un autre éditeur |
 
-### Mode test
+### Mode test et mode live
 
 `ads.mode` décide du type d'annonces, pas les identifiants :
 
-- `test` (actuel) : `showBanner` passe `isTesting: true`. Le plugin remplace alors le bloc réel par le bloc de test de Google (`ca-app-pub-3940256099942544/6300978111`, visible dans logcat), et aucune annonce réelle n'est demandée, sur aucun appareil.
-- `live` : bloc réel. `npm run check:ads` le refuse tant que Christian ne l'a pas validé.
+- `test` : `showBanner` passe `isTesting: true`. Le plugin remplace alors le bloc réel par le bloc de test de Google (`ca-app-pub-3940256099942544/6300978111`, visible dans logcat), et aucune annonce réelle n'est demandée, sur aucun appareil.
+- `live` (actuel, validé par Christian le 13 novembre 2026) : bloc réel `ca-app-pub-8288172940135426/6775667962`, `isTesting: false`. `npm run check:ads` refuse `live` avec le bloc de démonstration de Google.
 
-`ads.admob.testDevices` liste les appareils déclarés au SDK (`initializeForTesting`, `testingDevices`). Ils reçoivent des annonces de test même en `live`, ce qui protège le compte AdMob des clics de développement. L'ID d'un appareil s'affiche dans logcat au premier chargement (`Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("…"))`). Déclaré : le Samsung SM-A176B de test.
+`ads.admob.testDevices` liste les appareils déclarés au SDK (`initializeForTesting`, `testingDevices`). Ils reçoivent des annonces de test même en `live`, ce qui protège le compte AdMob des clics de développement : le SDK garde le bloc réel et l'indique dans logcat (« This device is registered as Testing Device. The real Ad Id will be used »), mais l'annonce servie porte le libellé « Test Ad ». L'ID d'un appareil s'affiche dans logcat au premier chargement (`Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("…"))`). Déclaré : le Samsung SM-A176B de test.
 
 ### Appareil partagé : mode Famille
 
@@ -123,7 +123,7 @@ Le manifeste retire `com.google.android.gms.permission.AD_ID`, `ACCESS_ADSERVICE
 GéoFR : application `ca-app-pub-8288172940135426~6935450069`, bannière `ca-app-pub-8288172940135426/6775667962`.
 Démonstration Google : application `ca-app-pub-3940256099942544~3347511713`, bannière adaptative `ca-app-pub-3940256099942544/9214589741`.
 
-### Passer aux annonces réelles (validation de Christian obligatoire)
+### Passer aux annonces réelles (validé par Christian le 13 novembre 2026)
 
 Fait : application et bloc créés dans AdMob, ID dans `android.json` et `country.ts`, `public/app-ads.txt` dans le dépôt.
 
@@ -131,7 +131,9 @@ Fait : application et bloc créés dans AdMob, ID dans `android.json` et `countr
 2. Lier l'application AdMob à l'application Google Play.
 3. Dans « Confidentialité et messages », publier le message RGPD (UMP) de l'application.
 4. Dans les paramètres de l'application AdMob, déclarer le public : conception pour les familles, contenu G maximum.
-5. Passer `ads.mode` à `"live"` et retirer de `adsConfigErrors` le refus du mode `live`, puis construire un nouveau versionCode. Garder `testDevices`.
+5. Fait le 13 novembre 2026 : `ads.mode: "live"`, `adsConfigErrors` n'accepte `live` qu'avec le bloc JavaChrist, versionCode 12. `testDevices` est gardé.
+
+Les étapes 1 à 4 doivent être faites dans AdMob et la Play Console avant d'envoyer l'AAB live en production. Sans elles, AdMob limite ou refuse les annonces réelles.
 
 ## Google Play : sécurité des données
 
@@ -170,7 +172,7 @@ Paramètres et confidentialité, rubrique Gestion des consentements : dans l'app
 
 ## Tests sur l'émulateur
 
-Annonces de test uniquement (`ads.mode: "test"`) : `check:ads`, Gradle et `showBanner` refusent tout autre éditeur que la démonstration Google et JavaChrist.
+Le téléphone de test et l'émulateur doivent recevoir des annonces de test : sur un appareil absent de `testDevices`, un build `live` demande des annonces réelles, ne jamais cliquer dessus. `check:ads`, Gradle et `showBanner` refusent tout autre éditeur que la démonstration Google et JavaChrist.
 
 ```bash
 npm run build:export
@@ -384,7 +386,7 @@ Reste, avec la validation de Christian :
 1. Déployer le serveur (routes Google Play, CORS de l'application) et publier les règles Firestore.
 2. Configurer la Play Console, Pub/Sub et Firebase Android (voir [paiements.md](paiements.md#configuration-google-play-à-faire-validation-de-christian)).
 3. Tester en piste interne avec un testeur de licence.
-4. Passer en `ads.mode: "live"` (identifiants réels et `app-ads.txt` déjà en place), puis remplir la déclaration de sécurité des données et le questionnaire Families.
+4. Fait : `ads.mode: "live"` (13 novembre 2026). Reste à remplir la déclaration de sécurité des données et le questionnaire Families.
 5. Faire mettre à jour les documents juridiques par le Legal Kit (section suivante).
 
 ## Legal Kit : version 0.3.2 (brouillon)

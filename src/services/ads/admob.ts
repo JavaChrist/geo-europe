@@ -87,7 +87,8 @@ export async function listenBanner(listeners: BannerListeners): Promise<() => vo
 
 /**
  * Bannière adaptative en bas de l'écran, `marginBottom` pixels CSS au-dessus du bord (la barre de navigation).
- * `testing` : le plugin remplace alors le bloc par le bloc de test de Google, aucune annonce réelle n'est demandée.
+ * `testing` (mode `test`) : le plugin remplace le bloc par le bloc de test de Google, aucune annonce réelle n'est demandée.
+ * En `live`, les appareils de `testDevices` gardent le bloc réel mais reçoivent des annonces de test.
  */
 export async function showBanner(adUnitId: string, settings: AdRequestSettings, marginBottom: number, testing: boolean): Promise<void> {
   // Double sécurité : la configuration est déjà contrôlée par `npm run check` et par Gradle.

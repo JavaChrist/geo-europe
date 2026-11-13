@@ -12,7 +12,7 @@ Le code est écrit une fois. Chaque pays apporte son contenu dans `content/<pays
 | Projet Vercel de GéoFR, déployé à chaque push sur `main` | En place |
 | Un projet Vercel par pays suivant | Prévu, à créer avec la validation de Christian |
 | Un projet Firebase par pays | Prévu. Aucun code Firebase n'existe encore dans le dépôt |
-| Application Android via Capacitor | En place pour les tests : Capacitor 8 sur l'export `out/` (photos dans le pack d'assets `media_pack`), bannière AdMob avec les identifiants JavaChrist en `ads.mode: "test"` (annonces de test seulement). Avec `NEXT_PUBLIC_API_BASE_URL` : comptes, droits et Google Play Billing en mode test, vérifiés par le serveur ; obligatoire pour un build release, Gradle le refuse sinon. Test interne Play seulement, aucune publication. Voir [admob.md](admob.md) |
+| Application Android via Capacitor | Capacitor 8 sur l'export `out/` (photos dans le pack d'assets `media_pack`), bannière AdMob avec les identifiants JavaChrist en `ads.mode: "live"` (annonces réelles, validées par Christian le 13 novembre 2026). Avec `NEXT_PUBLIC_API_BASE_URL` : comptes, droits et Google Play Billing en mode test, vérifiés par le serveur ; obligatoire pour un build release, Gradle le refuse sinon. Test interne Play seulement, aucune publication. Voir [admob.md](admob.md) |
 
 ## Dossiers
 
