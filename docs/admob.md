@@ -137,30 +137,36 @@ Les étapes 1 à 4 doivent être faites dans AdMob et la Play Console avant d'en
 
 ## Google Play : sécurité des données
 
-Déclaration pour l'application Android construite en canal `play`, avec compte facultatif et Google Play Billing (état au 9 novembre 2026 : AD_ID retiré, sauvegarde coupée).
+Déclaration pour l'application Android construite en canal `play`, avec compte facultatif et Google Play Billing (état au 13 novembre 2026, versionCode 12 en `ads.mode: "live"` : AD_ID retiré, sauvegarde coupée). Finalités AdMob alignées sur la page de Google « Play data disclosure » du SDK : adresse IP, interactions, diagnostics et identifiants sont collectés et partagés pour la publicité, l'analyse et la prévention de la fraude.
 
 - La collecte publicitaire vient du SDK Google Mobile Ads et d'UMP. Elle n'existe que dans les éditions avec publicités, sans accès offert.
 - Le compte n'est demandé que pour acheter ou restaurer. La version gratuite n'en demande pas.
+- Aucune donnée n'est déclarée en traitement éphémère : Firestore conserve les données du compte, Vercel garde ses journaux 24 heures (adresse IP), Google conserve les données AdMob.
+- La rétractation (`/retractation`, ouverte depuis le Profil et la Boutique) conserve 5 ans le nom, l'adresse, la commande et le message : d'où la finalité de conformité.
 
 | Rubrique Play | Collectée | Partagée | Finalités | Facultative | Preuve |
 | --- | --- | --- | --- | --- | --- |
-| Informations personnelles : adresse e-mail | Oui, seulement avec un compte | Non (Firebase est sous-traitant) | Fonctionnalités de l'application, gestion du compte | Oui | `src/services/account.ts`, `src/services/native/google-sign-in.ts` |
-| Informations personnelles : nom (profil Google) | Oui, seulement avec la connexion Google | Non | Gestion du compte | Oui | Firebase Auth, `signInWithCredential` |
+| Informations personnelles : adresse e-mail | Oui, seulement avec un compte | Non (Firebase est sous-traitant) | Fonctionnalités de l'application, gestion du compte, prévention de la fraude, sécurité et conformité (rétractation, pièces d'achat) | Oui | `src/services/account.ts`, `src/services/native/google-sign-in.ts`, `src/engine/withdrawal.ts` |
+| Informations personnelles : nom (profil Google, formulaire de rétractation) | Oui, avec la connexion Google ou une rétractation | Non | Gestion du compte, prévention de la fraude, sécurité et conformité | Oui | Firebase Auth, `signInWithCredential`, `src/engine/withdrawal.ts` |
 | Identifiants : identifiant utilisateur (uid Firebase, `sha256(uid)` transmis à Google Play) | Oui, avec un compte | Non | Fonctionnalités de l'application, gestion du compte, prévention de la fraude | Oui | `preparePlayOrder` dans `src/services/payments/orders.ts` |
-| Infos financières : historique des achats (édition, statut, date, jeton haché) | Oui, à l'achat | Non | Fonctionnalités de l'application (droits) | Oui | `orders`, `playPurchases`, `entitlements` dans `firestore.rules` |
+| Infos financières : historique des achats (édition, statut, date, jeton haché) | Oui, à l'achat | Non | Fonctionnalités de l'application (droits), prévention de la fraude, sécurité et conformité (jeton Play vérifié par le serveur, pièces comptables 10 ans) | Oui | `orders`, `playPurchases`, `entitlements` dans `firestore.rules` |
 | Infos financières : données de paiement | Non : traitées par Google Play, jamais par l'éditeur | Non | | | `PlayBillingPlugin.java` (aucune donnée de carte) |
-| Identifiants de l'appareil : App Set ID (pas d'AAID) | Oui | Oui, Google | Publicité, prévention de la fraude, analyse | Non dans une édition avec publicités | `AndroidManifest.xml` sans `AD_ID`, `check:ads` |
-| Position approximative (déduite de l'IP) | Oui | Oui, Google | Publicité, prévention de la fraude | Non | SDK Google Mobile Ads |
-| Activité dans l'application : interactions avec les annonces | Oui | Oui, Google | Publicité, analyse | Non | SDK Google Mobile Ads |
-| Infos et performances de l'application : diagnostics, plantages du SDK | Oui | Oui, Google | Analyse, prévention de la fraude | Non | SDK Google Mobile Ads |
+| Identifiants de l'appareil : App Set ID (pas d'AAID) | Oui | Oui, Google | Publicité, analyse, prévention de la fraude (collecte et partage) | Non dans une édition avec publicités | `AndroidManifest.xml` sans `AD_ID`, `check:ads` |
+| Position approximative (déduite de l'IP) | Oui | Oui, Google | Publicité, analyse, prévention de la fraude (collecte et partage) | Non | SDK Google Mobile Ads, journaux Vercel |
+| Activité dans l'application : interactions avec l'appli (lancement, appuis, vues d'annonces) | Oui | Oui, Google | Publicité, analyse, prévention de la fraude (collecte et partage) | Non | SDK Google Mobile Ads |
+| Activité dans l'application : autres contenus générés par l'utilisateur (message de rétractation) | Oui, seulement s'il est écrit | Non | Fonctionnalités de l'application, prévention de la fraude, sécurité et conformité | Oui | `src/engine/withdrawal.ts` (1 000 caractères au plus) |
+| Infos et performances de l'application : diagnostics (temps de lancement, blocages, énergie). Pas de plantages : Google ne les déclare pas | Oui | Oui, Google | Publicité, analyse, prévention de la fraude (collecte et partage) | Non | SDK Google Mobile Ads |
 | Messages, photos, contacts, position précise | Non | Non | | | |
-| Progression, Mode Famille, réponse d'âge | Non : restent sur l'appareil, hors sauvegarde | Non | | | `src/services/local-progress.ts`, sauvegarde coupée dans le manifeste |
+| Progression, Mode Famille, réponse d'âge | Non : restent sur l'appareil, hors sauvegarde | Non | | | `src/services/local-progress.ts`, sauvegarde coupée dans le manifeste, aucune écriture Firestore depuis l'application |
+| Promotions vidéo | Non : le catalogue est seulement lu, aucune vue ni aucun clic envoyé | Non | | | `src/services/promotions.ts` |
 
 | Pratique de sécurité | Réponse |
 | --- | --- |
 | Chiffrement en transit | Oui : HTTPS vers le serveur, Firebase et Google |
 | Demande de suppression des données | Oui, trois chemins (voir [juridique.md](juridique.md)) :<br>- Supprimer mes données efface l'appareil ;<br>- la suppression du compte se demande à support@appsgeo.com, avec effacement sous 30 jours et pièces comptables conservées ;<br>- les données de Google se gèrent dans les réglages Google et par Choix publicitaires |
 | URL de suppression du compte (exigée par Play dès qu'un compte existe) | `https://geofr.appsgeo.com/profil/confidentialite/supprimer-mon-compte`, publique, sans connexion |
+| Suppression des données sans supprimer le compte | Non : les données serveur sont liées au compte, et « Supprimer mes données » n'efface que l'appareil |
+| Méthodes de création de compte | Nom d'utilisateur et mot de passe, OAuth (Google) |
 | Politique de confidentialité | `https://geofr.appsgeo.com/profil/confidentialite/politique`, dans la version publiée par le Legal Kit (pas de brouillon) |
 | Public cible | Tranches incluant moins de 13 ans : programme Families, « Contient des annonces » |
 
