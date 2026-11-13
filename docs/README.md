@@ -18,6 +18,7 @@ GéoFR est le premier jeu de la collection Géo Europe. Le même code sert à to
 | [promotions.md](promotions.md) | Vidéos JavaChrist-Promotions entre deux parties : catalogue, lecteur, fréquence, éditions sans publicités, âge, nouveau pays |
 | [courriels.md](courriels.md) | Courriels de compte et confirmation d'achat : modèles de JavaChrist-Mail-Kit, envoi SMTP, limites, tests |
 | [admob.md](admob.md) | Bannière Google AdMob de l'application Android : Capacitor, âge et Families, UMP, éditions sans publicités, droits réels, pack d'assets, tests sur l'émulateur, Play, propositions pour le Legal Kit |
+| [play-release.md](play-release.md) | Envoi d'un AAB en test interne Google Play : simulation, contrôles du package, du versionCode et de la signature, compte de service de versions, configuration par application, rapport |
 | [retractation.md](retractation.md) | Fonction de rétractation en ligne : parcours, rattachement, conditions légales, Mollie et Google Play, administration, autre pays |
 
 ## Fichiers de relecture

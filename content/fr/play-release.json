@@ -1,0 +1,17 @@
+{
+  "app": "GéoFR",
+  "packageName": "fr.javachrist.geofr",
+  "bundle": "android/app/build/outputs/bundle/release/app-release.aab",
+  "gradleFile": "android/app/build.gradle",
+  "uploadCertSha256": "F8:3B:05:E0:52:CA:A2:34:35:E4:C5:1E:A9:70:A7:55:AE:93:D2:E7:FB:4A:35:00:23:74:57:65:2A:FA:7F:39",
+  "lastUploadedVersionCode": 12,
+  "credentials": "~/.geo-play/geofr-release.json",
+  "billingServiceAccount": "geofr-play-billing@geofr-d5224.iam.gserviceaccount.com",
+  "bundleJson": [
+    {
+      "entry": "base/assets/public/geo-export.json",
+      "expect": { "payments": "play", "apiBase": "https://geofr.appsgeo.com" }
+    }
+  ],
+  "releaseNotes": {}
+}

@@ -10,6 +10,7 @@
     "build": "next build",
     "build:export": "node scripts/build-export.mjs",
     "android:sync": "npx cap sync android && node scripts/android-media.mjs",
+    "play:release": "node scripts/play-release.mjs",
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
@@ -18,12 +19,13 @@
     "check:engine": "node scripts/check-engine.mjs",
     "check:family": "node scripts/check-family.mjs",
     "check:legal": "node scripts/check-legal.mjs",
-    "check": "npm run lint && npm run typecheck && npm run check:emoji && npm run check:content && npm run check:engine && npm run check:family && npm run check:legal && npm run check:payments && npm run check:grants && npm run check:withdrawal && npm run check:promotions && npm run check:ads",
+    "check": "npm run lint && npm run typecheck && npm run check:emoji && npm run check:content && npm run check:engine && npm run check:family && npm run check:legal && npm run check:payments && npm run check:grants && npm run check:withdrawal && npm run check:promotions && npm run check:ads && npm run check:play",
     "check:payments": "node scripts/check-payments.mjs",
     "check:grants": "node scripts/check-grants.mjs",
     "check:withdrawal": "node scripts/check-withdrawal.mjs",
     "check:promotions": "node scripts/check-promotions.mjs",
     "check:ads": "node scripts/check-ads.mjs",
+    "check:play": "node scripts/play-release.mjs --check-config",
     "test:payments": "npx --yes firebase-tools@15 emulators:exec --project demo-geofr --only auth,firestore \"node scripts/test-payments-emulator.mjs\""
   },
   "dependencies": {

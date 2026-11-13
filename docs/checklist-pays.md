@@ -40,6 +40,7 @@ Chaque ligne demande la validation de Christian.
 - [ ] Icônes propres au pays dans `public/`
 - [ ] Projet Vercel du pays avec `GEO_COUNTRY=<pays>`
 - [ ] Projet Firebase du pays
+- [ ] Envoi en test interne : `content/<pays>/play-release.json`, compte de service de versions, `GEO_COUNTRY=<pays> npm run play:release` prêt (voir [play-release.md](play-release.md))
 - [ ] Publication Google Play : connexion, Play Billing, identifiants AdMob réels, déclaration de sécurité des données (voir [admob.md](admob.md#avant-une-publication-google-play))
 - [ ] Vente réelle des éditions de `content/<pays>/editions.ts` : boutique et droits en place en mode test, points restants dans [paiements.md](paiements.md#avant-la-vente-réelle)
 - [ ] Administrateur des accès offerts nommé avec `scripts/admin.mjs <pays> add <adresse> --project <id>` (voir [acces-offerts.md](acces-offerts.md#administration-sécurisée))

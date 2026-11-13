@@ -17,3 +17,7 @@ SNIPPET_*
 firebase-debug.log
 firestore-debug.log
 ui-debug.log
+
+# Clés de compte de service Google Play : toujours hors du dépôt (voir docs/play-release.md)
+*service-account*.json
+*-release-credentials*.json

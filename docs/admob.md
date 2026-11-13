@@ -248,7 +248,7 @@ La clé de GéoFR existe depuis le 10 novembre 2026 : `C:\Users\JavaChrist\Docum
 
 3. Sauvegarder le `.jks` et ses mots de passe dans le gestionnaire de mots de passe. Une clé d'envoi perdue se remplace par une demande au support Google Play, ce qui prend plusieurs jours.
 
-Chaque AAB envoyé à Google Play doit avoir un `versionCode` plus grand que le précédent (`android/app/build.gradle`). Le `versionName` reste « 1.0 » tant que Christian ne demande pas autre chose.
+Chaque AAB envoyé à Google Play doit avoir un `versionCode` plus grand que le précédent (`android/app/build.gradle`). `npm run play:release` le contrôle avant un envoi en test interne (voir [play-release.md](play-release.md)). Le `versionName` reste « 1.0 » tant que Christian ne demande pas autre chose.
 
 ### Icône de lancement
 
@@ -309,6 +309,8 @@ npm run android:sync
 ```bash
 cd android && TMP='C:\tmp\geofr' TEMP='C:\tmp\geofr' JAVA_TOOL_OPTIONS='-Djdk.net.unixdomain.tmpdir=C:\tmp\geofr -Djava.io.tmpdir=C:\tmp\geofr' ./gradlew clean bundleRelease
 ```
+
+Puis `npm run play:release` pour contrôler l'AAB : package, versionCode, signature et marqueur. Avec `-- --send`, le script l'envoie en test interne. Voir [play-release.md](play-release.md).
 
 ### Déboguer la WebView
 

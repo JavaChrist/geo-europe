@@ -10,6 +10,7 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - `npm run build`: web build, with server routes
 - `npm run build:export`: static export to `out/`, for Capacitor, without server routes. A Play release needs `NEXT_PUBLIC_API_BASE_URL=https://geofr.appsgeo.com`, or Gradle refuses `bundleRelease` (marker `out/geo-export.json`)
 - `GEO_COUNTRY=fr`: selects the country at build time, `fr` by default
+- `npm run play:release`: local simulation of an internal-test upload to Google Play, no network call. `-- --send` uploads to the internal track only; there is no path to production. Config in `content/<country>/play-release.json`, release service-account key outside the repo. See `docs/play-release.md`.
 - `node scripts/build-map.mjs <country>`: regenerates `content/<country>/map.json` from `map.config.json`. Run once per country, the result is committed.
 
 ## Where things live
@@ -25,6 +26,7 @@ Next.js 16 has breaking changes: read `node_modules/next/dist/docs/` before writ
 - Online withdrawal (`/retractation`, public, no login): see `docs/retractation.md`. It never refunds or removes rights; `withdrawals` is server-only.
 - Offered access (free Family edition without ads for authorized emails): see `docs/acces-offerts.md`. `grants` and `admins` are server-only; admins are created only by `scripts/admin.mjs`.
 - Android app (Capacitor on `out/`) and the AdMob banner: see `docs/admob.md`. App id and name in `content/<country>/android.json`, ad units in `ads` of `country.ts`. Only the Google demo publisher or JavaChrist's publisher are accepted, and `ads.mode` is `live` since Christian validated real ads (13 November 2026); `live` is refused with the Google demo ad unit, and devices in `testDevices` always get test ads. `check:ads` and Gradle refuse any other publisher. No ad and no ad request for `adsRemoved` or `granted`.
+- Google Play uploads: `scripts/play-release.mjs`, internal track only, with a release service account separate from the billing one. Production stays a manual decision by Christian in the Play Console. Raise `lastUploadedVersionCode` in `play-release.json` with each upload. See `docs/play-release.md`.
 - `content/<country>/mail/templates.json`: email templates copied from JavaChrist-Mail-Kit by `scripts/sync-mail.mjs`. Never edit them by hand. Emails are sent only by the server (`src/services/mail/`). See `docs/courriels.md`.
 
 ## Rules (lint and scripts enforce most of them)
